@@ -55,7 +55,6 @@ SKILLS_DIRNAME = "skills"
 """The sub-directory of `INDIVIDUAL_DIR` in which individualized skill JSON is placed."""
 
 
-
 AGG_CARDS_FILENAME = "cards.json"
 """The filename of the card list, for aggregated JSON output."""
 
@@ -764,11 +763,6 @@ class SkillRelease:
         return d
 
 
-
-
-
-
-
 class Card:
     """A single Yugioh card or token. For information on printings of a card, see :class:`CardPrinting`."""
 
@@ -874,8 +868,6 @@ class Card:
 
     releases: typing.List[SkillRelease]
     """List of release methods for this skill."""
-
-
 
     def __init__(
         self,
@@ -2137,8 +2129,6 @@ class Database:
 
     skills: typing.List[Card]
     """Duel Links Skills in this database."""
-
-
 
     cards_by_id: typing.Dict[uuid.UUID, Card]
     """You may use this to look up cards by their UUID."""

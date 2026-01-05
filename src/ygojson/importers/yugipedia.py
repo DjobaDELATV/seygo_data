@@ -1720,7 +1720,6 @@ class RawLocale:
         self.db_ids = []
 
 
-
 def parse_skill(
     batcher: "YugipediaBatcher",
     page: int,
@@ -1818,9 +1817,11 @@ def parse_skill(
                         r_char = val
                     elif name == "2":
                         r_det = val
-                
+
                 if r_type and r_char:
-                    card.releases.append(SkillRelease(character=r_char, type=r_type, details=r_det))
+                    card.releases.append(
+                        SkillRelease(character=r_char, type=r_type, details=r_det)
+                    )
 
     return True
 
@@ -3125,30 +3126,31 @@ def import_from_yugipedia(
                                 series_members,
                                 genesys_banlist,
                             ):
-                                n_found += 1 # This was `db.add_card(card)` and then `if found: n_found += 1 else: n_new += 1`.
-                                             # The new logic increments n_new when card is created, so n_found is for updates.
+                                n_found += 1  # This was `db.add_card(card)` and then `if found: n_found += 1 else: n_new += 1`.
+                                # The new logic increments n_new when card is created, so n_found is for updates.
                                 db.add_card(card)
 
                 do(pageid)
                 progress_bar.update(1)
 
             for pageid in tqdm.tqdm(skills, desc="Importing skills from Yugipedia"):
+
                 def do_skill(pageid: int):
                     @batcher.getPageContents(pageid)
                     def onGetData(raw_data: str):
                         nonlocal n_found, n_new
                         data = wikitextparser.parse(raw_data)
-                        
+
                         # Check if card exists (by Yugipedia ID or Name)
                         # Skills might share name with cards (like "Destiny Draw"), so ID check is primary.
                         # But separated lists mean we might have collision in "cards_by_en_name" if we mix them?
                         # db.cards_by_en_name maps to a single Card.
                         # If a skill has same name as card, one overwrites other in that map.
                         # We should rely on ID.
-                        
+
                         found = pageid in db.cards_by_yugipedia_id
                         card = db.cards_by_yugipedia_id.get(pageid)
-                        
+
                         if not card:
                             # Try looking up by name?
                             # For skills, maybe less critical to link to existing if we are building fresh.
@@ -3163,26 +3165,28 @@ def import_from_yugipedia(
                                 text={},
                                 card_type=CardType.SKILL,
                             )
-                            
-                        if parse_skill(batcher, pageid, card, data):
-                             n_found += 1
-                             # Associate Yugipedia ID
-                             # db.add_card sets cards_by_yugipedia_id but we need to set it on card object first?
-                             # No, db.add_card uses card.yugipedia_pages if present.
-                             # We need to add ExternalIdPair.
-                             
-                             if not card.yugipedia_pages:
-                                 card.yugipedia_pages = []
-                             
-                             # Check if this page ID is already in
-                             if not any(x.id == pageid for x in card.yugipedia_pages):
-                                 # We need the name. batcher.idsToNames[pageid] should have it.
-                                 title = batcher.idsToNames.get(pageid, "Unknown")
-                                 card.yugipedia_pages.append(ExternalIdPair(title, pageid))
 
-                             db.add_card(card)
-                
-                do_skill(pageid) 
+                        if parse_skill(batcher, pageid, card, data):
+                            n_found += 1
+                            # Associate Yugipedia ID
+                            # db.add_card sets cards_by_yugipedia_id but we need to set it on card object first?
+                            # No, db.add_card uses card.yugipedia_pages if present.
+                            # We need to add ExternalIdPair.
+
+                            if not card.yugipedia_pages:
+                                card.yugipedia_pages = []
+
+                            # Check if this page ID is already in
+                            if not any(x.id == pageid for x in card.yugipedia_pages):
+                                # We need the name. batcher.idsToNames[pageid] should have it.
+                                title = batcher.idsToNames.get(pageid, "Unknown")
+                                card.yugipedia_pages.append(
+                                    ExternalIdPair(title, pageid)
+                                )
+
+                            db.add_card(card)
+
+                do_skill(pageid)
                 progress_bar.update(1)
 
             batcher.saveCachesToDisk()
@@ -3414,7 +3418,9 @@ def _get_lists(
     import_sets: bool = True,
     import_series: bool = True,
     production: bool = False,
-) -> typing.Tuple[typing.List[int], typing.List[int], typing.List[int], typing.List[int]]:
+) -> typing.Tuple[
+    typing.List[int], typing.List[int], typing.List[int], typing.List[int]
+]:
     """Returns (cardIDs, setIDs, seriesIDs, skillIDs)."""
 
     last_access = db.last_yugipedia_read
