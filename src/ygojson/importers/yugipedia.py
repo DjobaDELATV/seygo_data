@@ -208,6 +208,20 @@ def get_series_pages(batcher: "YugipediaBatcher") -> typing.Iterable[int]:
         return result
 
 
+def get_skill_pages(batcher: "YugipediaBatcher") -> typing.Iterable[int]:
+    with tqdm.tqdm(total=1, desc="Fetching Yugipedia skill list") as progress_bar:
+        result = []
+        seen = set()
+
+        @batcher.getCategoryMembers(CAT_DL_SKILLS)
+        def catMem(members: typing.List[int]):
+            result.extend(x for x in members if x not in seen)
+            seen.update(members)
+            progress_bar.update(1)
+
+        return result
+
+
 def get_changelog(
     batcher: "YugipediaBatcher", since: datetime.datetime
 ) -> typing.Iterable[ChangelogEntry]:
