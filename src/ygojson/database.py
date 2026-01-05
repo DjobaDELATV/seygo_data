@@ -1203,7 +1203,7 @@ class PackDistroSlotPool(PackDistroSlot):
     ) -> "PackDistroSlot":
         return PackDistroSlotPool(
             set=db.sets_by_id[uuid.UUID(in_json["set"])]
-            if in_json.get("set")
+            if in_json.get("set") and uuid.UUID(in_json["set"]) in db.sets_by_id
             else None,
             rarity=[
                 PackDistroWeight(
@@ -1256,7 +1256,11 @@ class PackDistroSlotCards(PackDistroSlot):
         cls, db: "Database", in_json: typing.Dict[str, typing.Any]
     ) -> "PackDistroSlot":
         return PackDistroSlotCards(
-            cards=[db.printings_by_id[uuid.UUID(x)] for x in in_json["printings"]]
+            cards=[
+                db.printings_by_id[uuid.UUID(x)]
+                for x in in_json["printings"]
+                if uuid.UUID(x) in db.printings_by_id
+            ]
         )
 
 
@@ -1283,7 +1287,9 @@ class PackDistroSlotSet(PackDistroSlot):
     @classmethod
     def _from_json(
         cls, db: "Database", in_json: typing.Dict[str, typing.Any]
-    ) -> "PackDistroSlot":
+    ) -> typing.Optional["PackDistroSlot"]:
+        if uuid.UUID(in_json["set"]) not in db.sets_by_id:
+            return None
         return PackDistroSlotSet(
             set=db.sets_by_id[uuid.UUID(in_json["set"])],
         )
@@ -3337,7 +3343,11 @@ class Database:
             id=uuid.UUID(rawseries["id"]),
             name={Language.normalize(k): v for k, v in rawseries["name"].items()},
             archetype=rawseries["archetype"],
-            members={self.cards_by_id[uuid.UUID(x)] for x in rawseries["members"]},
+            members={
+                self.cards_by_id[uuid.UUID(x)]
+                for x in rawseries["members"]
+                if uuid.UUID(x) in self.cards_by_id
+            },
             yugipedia=ExternalIdPair(
                 rawseries["externalIDs"]["yugipedia"]["name"],
                 rawseries["externalIDs"]["yugipedia"]["id"],
@@ -3376,8 +3386,12 @@ class Database:
             if "quotas" in rawdistro
             else None,
             slots=[
-                DISTRO_SLOT_TYPES[x["type"]]._from_json(self, x)
-                for x in rawdistro["slots"]
+                x
+                for x in (
+                    DISTRO_SLOT_TYPES[x["type"]]._from_json(self, x)
+                    for x in rawdistro["slots"]
+                )
+                if x
             ],
         )
 
@@ -3429,6 +3443,13 @@ class Database:
                             else None,
                         ): rawpack.get("qty", 1)
                         for rawpack in rawcontents["packs"]
+                        if (
+                            uuid.UUID(rawpack["set"]) in self.sets_by_id
+                            and (
+                                "card" not in rawpack
+                                or uuid.UUID(rawpack["card"]) in self.cards_by_id
+                            )
+                        )
                     },
                 )
                 for rawcontents in rawproduct["contents"]
@@ -3439,7 +3460,11 @@ class Database:
             )
             if "yugipedia" in rawproduct.get("externalIDs", {})
             else None,
-            box_of=[self.sets_by_id[uuid.UUID(x)] for x in rawproduct.get("boxOf", [])],
+            box_of=[
+                self.sets_by_id[uuid.UUID(x)]
+                for x in rawproduct.get("boxOf", [])
+                if uuid.UUID(x) in self.sets_by_id
+            ],
         )
 
     def _load_productlist(self) -> typing.List[uuid.UUID]:
