@@ -2289,7 +2289,10 @@ class Database:
         """Adds a card to this database, or updated its lookup information if it's already in the database."""
 
         if card.id not in self.cards_by_id:
-            self.cards.append(card)
+            if card.card_type == CardType.SKILL:
+                self.skills.append(card)
+            else:
+                self.cards.append(card)
 
         self.cards_by_id[card.id] = card
         for pw in card.passwords:

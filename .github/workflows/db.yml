@@ -129,7 +129,7 @@ jobs:
         uses: ./.github/actions/setup
       - name: Run YGOJSON (Post-Yugipedia)
         run: |
-          ygojson --production --no-ygoprodeck --no-yamlyugi --no-yugipedia --no-aggregates
+          ygojson --production --no-ygoprodeck --no-yamlyugi --no-aggregates
       - name: Test
         run: |
           python test/validate_data.py

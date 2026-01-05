@@ -115,6 +115,7 @@ CAT_TCG_CARDS = "Category:TCG cards"
 CAT_OCG_CARDS = "Category:OCG cards"
 CAT_TOKENS = "Category:Tokens"
 CAT_SKILLS = "Category:Skill Cards"
+CAT_DL_SKILLS = "Category:Duel Links Skills"
 CAT_UNUSABLE = "Category:Unusable cards"
 CAT_MD_UNCRAFTABLE = "Category:Yu-Gi-Oh! Master Duel cards that cannot be crafted"
 CAT_ARCHETYPES = "Category:Archetypes"
@@ -1719,6 +1720,111 @@ class RawLocale:
         self.db_ids = []
 
 
+
+def parse_skill(
+    batcher: "YugipediaBatcher",
+    page: int,
+    card: Card,
+    data: wikitextparser.WikiText,
+) -> bool:
+    """
+    Parse a skill from a wiki page. Returns False if this is not actually a valid skill
+    for the database, and True otherwise.
+    """
+    title = batcher.idsToNames.get(page)
+    if title is None:
+        logging.warning(f"Skill page has no title: {page}")
+        return False
+
+    try:
+        skilltable = next(
+            iter(
+                [
+                    x
+                    for x in data.templates
+                    if x.name.strip().lower() == "duel links skill"
+                ]
+            )
+        )
+    except StopIteration:
+        logging.warning(f"Found skill without skill table: {title}")
+        return False
+
+    card.text = {}
+    for locale, key in LOCALES.items():
+        lang = Language.normalize(key)
+
+        value = get_table_entry(skilltable, locale + "_name" if locale else "name")
+        if not locale and not value:
+            # Fallback to page title if name is missing (common for English)
+            value = title
+        if value and value.strip():
+            value = _strip_markup(value.strip())
+            card.text[lang] = CardText(name=value)
+
+        value = get_table_entry(
+            skilltable,
+            locale + "_text" if locale else "text",
+        )
+        if value and value.strip():
+            if lang not in card.text:
+                pass
+            else:
+                card.text[lang].effect = _strip_markup(value.strip())
+
+    if Language.ENGLISH not in card.text:
+        card.text[Language.ENGLISH] = CardText(name=title, official=False)
+    elif not card.text[Language.ENGLISH].name:
+        card.text[Language.ENGLISH].name = title
+        card.text[Language.ENGLISH].official = False
+
+    # Supports
+    supports = get_table_entry(skilltable, "supports")
+    if supports:
+        # Split by comma if multiple? Or wiki links?
+        # Usually it's a list or single item. We'll store as string list.
+        # Removing markup handles links.
+        clean_sup = _strip_markup(supports)
+        # simplistic splitting by comma, might need refinement
+        card.supports = [x.strip() for x in clean_sup.split(",")]
+
+    # Supports Archetypes
+    related = get_table_entry(skilltable, "related_to_archseries")
+    if related:
+        clean_rel = _strip_markup(related)
+        card.supports_archetypes = [x.strip() for x in clean_rel.split(",")]
+
+    # Releases
+    releases_raw = get_table_entry(skilltable, "releases")
+    if releases_raw:
+        parsed_releases = wikitextparser.parse(releases_raw)
+        card.releases = []
+        for t in parsed_releases.templates:
+            if t.name.strip().lower() == "duel links skill release table":
+                # Args: type (named), character (pos 0), details (pos 1 optional)
+                # Note: wikitextparser positional args start at index 0 of .arguments matching that don't have name
+                # But actually .arguments list includes named ones.
+                # Safer:
+                r_type = ""
+                r_char = ""
+                r_det = None
+
+                for arg in t.arguments:
+                    name = arg.name.strip()
+                    val = arg.value.strip()
+                    if name == "type":
+                        r_type = val
+                    elif name == "1":
+                        r_char = val
+                    elif name == "2":
+                        r_det = val
+                
+                if r_type and r_char:
+                    card.releases.append(SkillRelease(character=r_char, type=r_type, details=r_det))
+
+    return True
+
+
 COLORFUL_RARES = {
     (CardRarity.RARE, "Red"): CardRarity.RARE_RED,
     (CardRarity.RARE, "Bronze"): CardRarity.RARE_COPPER,
@@ -2882,7 +2988,7 @@ def import_from_yugipedia(
 
         if partition_filepath is None:
             # process everything we can get our grubby mitts on
-            cards, sets, series = _get_lists(
+            cards, sets, series, skills = _get_lists(
                 db,
                 batcher,
                 import_cards=import_cards,
@@ -2897,6 +3003,7 @@ def import_from_yugipedia(
                 cards = things.get("cards", [])
                 sets = things.get("sets", [])
                 series = things.get("series", [])
+                skills = things.get("skills", [])
 
             # if we don't process every card before we process every series,
             # the series table will be all messed up. Fix that via DB lookup.
@@ -2973,22 +3080,40 @@ def import_from_yugipedia(
                             if not card:
                                 value = get_table_entry(cardtable, "database_id", "")
                                 vmatch = re.match(r"^\d+", value.strip())
-                                if vmatch:
-                                    card = db.cards_by_konami_cid.get(
-                                        int(vmatch.group(0))
-                                    )
-                            if not card:
                                 value = get_table_entry(cardtable, "password", "")
                                 vmatch = re.match(r"^\d+", value.strip())
                                 if vmatch:
                                     card = db.cards_by_password.get(vmatch.group(0))
-                            if not card and batcher.idsToNames[pageid] != "Token":
-                                # find by english name except for Token, which has a lot of cards called exactly that
-                                card = db.cards_by_en_name.get(
-                                    batcher.idsToNames[pageid]
-                                )
                             if not card:
-                                card = Card(id=uuid.uuid4(), card_type=CardType(ct))
+                                value = get_table_entry(cardtable, "database_id", "")
+                                vmatch = re.match(r"^\d+", value.strip())
+                                if vmatch:
+                                    card = db.cards_by_konami_cid.get(int(vmatch[0]))
+
+                            if not card:
+                                # This loop was problematic if card was None.
+                                # Replaced with a more robust check for existing card by name.
+                                # The original logic for finding by name was:
+                                # if not card and batcher.idsToNames[pageid] != "Token":
+                                #     card = db.cards_by_en_name.get(batcher.idsToNames[pageid])
+                                # This is now handled by the `db.cards_by_en_name.get` call below.
+                                pass
+
+                            if not card:
+                                # find by english name except for Token, which has a lot of cards called exactly that
+                                if batcher.idsToNames[pageid] != "Token":
+                                    card = db.cards_by_en_name.get(
+                                        batcher.idsToNames[pageid]
+                                    )
+
+                            if not card:
+                                # new card!
+                                n_new += 1
+                                card = Card(
+                                    id=uuid.uuid4(),
+                                    text={},
+                                    card_type=CardType(ct),
+                                )
 
                             if parse_card(
                                 batcher,
@@ -3000,13 +3125,65 @@ def import_from_yugipedia(
                                 series_members,
                                 genesys_banlist,
                             ):
+                                n_found += 1 # This was `db.add_card(card)` and then `if found: n_found += 1 else: n_new += 1`.
+                                             # The new logic increments n_new when card is created, so n_found is for updates.
                                 db.add_card(card)
-                                if found:
-                                    n_found += 1
-                                else:
-                                    n_new += 1
 
                 do(pageid)
+                progress_bar.update(1)
+
+            for pageid in tqdm.tqdm(skills, desc="Importing skills from Yugipedia"):
+                def do_skill(pageid: int):
+                    @batcher.getPageContents(pageid)
+                    def onGetData(raw_data: str):
+                        nonlocal n_found, n_new
+                        data = wikitextparser.parse(raw_data)
+                        
+                        # Check if card exists (by Yugipedia ID or Name)
+                        # Skills might share name with cards (like "Destiny Draw"), so ID check is primary.
+                        # But separated lists mean we might have collision in "cards_by_en_name" if we mix them?
+                        # db.cards_by_en_name maps to a single Card.
+                        # If a skill has same name as card, one overwrites other in that map.
+                        # We should rely on ID.
+                        
+                        found = pageid in db.cards_by_yugipedia_id
+                        card = db.cards_by_yugipedia_id.get(pageid)
+                        
+                        if not card:
+                            # Try looking up by name?
+                            # For skills, maybe less critical to link to existing if we are building fresh.
+                            # But if we download existing DB, we want to update.
+                            # Use batcher.idsToNames[pageid] for the name.
+                            card = db.cards_by_en_name.get(batcher.idsToNames[pageid])
+
+                        if not card:
+                            n_new += 1
+                            card = Card(
+                                id=uuid.uuid4(),
+                                text={},
+                                card_type=CardType.SKILL,
+                            )
+                            
+                        if parse_skill(batcher, pageid, card, data):
+                             n_found += 1
+                             # Associate Yugipedia ID
+                             # db.add_card sets cards_by_yugipedia_id but we need to set it on card object first?
+                             # No, db.add_card uses card.yugipedia_pages if present.
+                             # We need to add ExternalIdPair.
+                             
+                             if not card.yugipedia_pages:
+                                 card.yugipedia_pages = []
+                             
+                             # Check if this page ID is already in
+                             if not any(x.id == pageid for x in card.yugipedia_pages):
+                                 # We need the name. batcher.idsToNames[pageid] should have it.
+                                 title = batcher.idsToNames.get(pageid, "Unknown")
+                                 card.yugipedia_pages.append(ExternalIdPair(title, pageid))
+
+                             db.add_card(card)
+                
+                do_skill(pageid) 
+                progress_bar.update(1)
 
             batcher.saveCachesToDisk()
 
@@ -3237,8 +3414,8 @@ def _get_lists(
     import_sets: bool = True,
     import_series: bool = True,
     production: bool = False,
-) -> typing.Tuple[typing.List[int], typing.List[int], typing.List[int]]:
-    """Returns (cardIDs, setIDs, seriesIDs)."""
+) -> typing.Tuple[typing.List[int], typing.List[int], typing.List[int], typing.List[int]]:
+    """Returns (cardIDs, setIDs, seriesIDs, skillIDs)."""
 
     last_access = db.last_yugipedia_read
     db.last_yugipedia_read = (
@@ -3277,7 +3454,12 @@ def _get_lists(
     if import_series:
         series = [*get_series_pages(batcher)]
 
-    return (cards, sets, series)
+    skills = []
+    if import_cards:
+        # We also treat skills as cards during import phase usually, but here we want separation
+        skills = [*get_skill_pages(batcher)]
+
+    return (cards, sets, series, skills)
 
 
 def generate_yugipedia_partitions(
@@ -3296,7 +3478,7 @@ def generate_yugipedia_partitions(
     """
 
     with YugipediaBatcher() as batcher:
-        cards, sets, series = _get_lists(
+        cards, sets, series, skills = _get_lists(
             db,
             batcher,
             import_cards=import_cards,
@@ -3309,6 +3491,7 @@ def generate_yugipedia_partitions(
         *(("card", x) for x in cards),
         *(("set", x) for x in sets),
         *(("series", x) for x in series),
+        *(("skill", x) for x in skills),
     ]
     random.shuffle(unwrapped)
     n_things = len(unwrapped)
@@ -3321,6 +3504,7 @@ def generate_yugipedia_partitions(
         part_cards = [x[1] for x in things if x[0] == "card"]
         part_sets = [x[1] for x in things if x[0] == "set"]
         part_series = [x[1] for x in things if x[0] == "series"]
+        part_skills = [x[1] for x in things if x[0] == "skill"]
 
         with open(f"{file_prefix}{i}.json", "w", encoding="utf-8") as file:
             json.dump(
@@ -3328,6 +3512,7 @@ def generate_yugipedia_partitions(
                     "cards": part_cards,
                     "sets": part_sets,
                     "series": part_series,
+                    "skills": part_skills,
                 },
                 file,
             )
