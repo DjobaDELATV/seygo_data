@@ -3179,10 +3179,17 @@ class Database:
         self,
         rawprinting: typing.Dict[str, typing.Any],
         printings: typing.Dict[uuid.UUID, CardPrinting],
-    ) -> CardPrinting:
+    ) -> typing.Optional[CardPrinting]:
+        cid = uuid.UUID(rawprinting["card"])
+        if cid not in self.cards_by_id:
+            logging.warn(
+                f"Skipping printing {rawprinting['id']} because card {cid} is missing."
+            )
+            return None
+
         result = CardPrinting(
             id=uuid.UUID(rawprinting["id"]),
-            card=self.cards_by_id[uuid.UUID(rawprinting["card"])],
+            card=self.cards_by_id[cid],
             suffix=rawprinting.get("suffix"),
             rarity=CardRarity(rawprinting["rarity"])
             if "rarity" in rawprinting
@@ -3227,11 +3234,20 @@ class Database:
                         image=content.get("image"),
                         box_image=content.get("boxImage"),
                         cards=[
-                            self._load_printing(v, printings) for v in content["cards"]
+                            x
+                            for x in (
+                                self._load_printing(v, printings)
+                                for v in content["cards"]
+                            )
+                            if x
                         ],
                         removed_cards=[
-                            self._load_printing(v, printings)
-                            for v in content.get("removedCards", [])
+                            x
+                            for x in (
+                                self._load_printing(v, printings)
+                                for v in content.get("removedCards", [])
+                            )
+                            if x
                         ],
                         ygoprodeck=content["externalIDs"]["ygoprodeck"]
                         if "ygoprodeck" in content["externalIDs"]
