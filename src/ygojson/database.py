@@ -48,6 +48,14 @@ CARDLIST_FILENAME = "cards.json"
 CARDS_DIRNAME = "cards"
 """The sub-directory of `INDIVIDUAL_DIR` in which individualized card JSON is placed."""
 
+SKILLLIST_FILENAME = "skills.json"
+"""The filename of the skill list, for individualized JSON output."""
+
+SKILLS_DIRNAME = "skills"
+"""The sub-directory of `INDIVIDUAL_DIR` in which individualized skill JSON is placed."""
+
+
+
 AGG_CARDS_FILENAME = "cards.json"
 """The filename of the card list, for aggregated JSON output."""
 
@@ -723,6 +731,44 @@ class ExternalIdPair:
         self.id = id
 
 
+class SkillRelease:
+    """Information about how a Duel Links Skill is released/unlocked."""
+
+    character: str
+    """The character associated with this release."""
+
+    type: str
+    """The type of release (e.g. 'level_up', 'duel_reward')."""
+
+    details: typing.Optional[str]
+    """Additional details (e.g. 'Level 20')."""
+
+    def __init__(
+        self,
+        *,
+        character: str,
+        type: str,
+        details: typing.Optional[str] = None,
+    ) -> None:
+        self.character = character
+        self.type = type
+        self.details = details
+
+    def _to_json(self) -> typing.Dict[str, typing.Any]:
+        d = {
+            "character": self.character,
+            "type": self.type,
+        }
+        if self.details:
+            d["details"] = self.details
+        return d
+
+
+
+
+
+
+
 class Card:
     """A single Yugioh card or token. For information on printings of a card, see :class:`CardPrinting`."""
 
@@ -820,6 +866,17 @@ class Card:
     series: typing.List["Series"]
     """Any series or archetypes this card belongs to."""
 
+    supports: typing.List[str]
+    """List of card names this skill supports."""
+
+    supports_archetypes: typing.List[str]
+    """List of archetypes this skill supports."""
+
+    releases: typing.List[SkillRelease]
+    """List of release methods for this skill."""
+
+
+
     def __init__(
         self,
         *,
@@ -853,6 +910,9 @@ class Card:
         ygoprodeck: typing.Optional[ExternalIdPair] = None,
         yamlyugi_id: typing.Optional[int] = None,
         series: typing.Optional[typing.List["Series"]] = None,
+        supports: typing.Optional[typing.List[str]] = None,
+        supports_archetypes: typing.Optional[typing.List[str]] = None,
+        releases: typing.Optional[typing.List[SkillRelease]] = None,
     ):
         self.id = id
         self.text = text or {}
@@ -884,6 +944,12 @@ class Card:
         self.ygoprodeck = ygoprodeck
         self.yamlyugi_id = yamlyugi_id
         self.series = series or []
+        self.supports = supports or []
+        self.supports_archetypes = supports_archetypes or []
+        self.releases = releases or []
+        self.supports = supports or []
+        self.supports_archetypes = supports_archetypes or []
+        self.releases = releases or []
 
     def _to_json(self) -> typing.Dict[str, typing.Any]:
         return {
@@ -1016,6 +1082,17 @@ class Card:
                 **({"yamlyugiID": self.yamlyugi_id} if self.yamlyugi_id else {}),
             },
             "series": [str(x.id) for x in self.series],
+            **({"supports": self.supports} if self.supports else {}),
+            **(
+                {"supportsArchetypes": self.supports_archetypes}
+                if self.supports_archetypes
+                else {}
+            ),
+            **(
+                {"releases": [x._to_json() for x in self.releases]}
+                if self.releases
+                else {}
+            ),
         }
 
 
@@ -2058,6 +2135,11 @@ class Database:
     cards: typing.List[Card]
     """Cards in this database."""
 
+    skills: typing.List[Card]
+    """Duel Links Skills in this database."""
+
+
+
     cards_by_id: typing.Dict[uuid.UUID, Card]
     """You may use this to look up cards by their UUID."""
 
@@ -2165,6 +2247,7 @@ class Database:
         self.last_ygoprodeck_read = None
 
         self.cards = []
+        self.skills = []
         self.cards_by_id = {}
         self.cards_by_password = {}
         self.cards_by_yamlyugi = {}
@@ -2773,6 +2856,18 @@ class Database:
                 self._save_card(card)
 
             with open(
+                os.path.join(self.individuals_dir, SKILLLIST_FILENAME),
+                "w",
+                encoding="utf-8",
+            ) as outfile:
+                json.dump([str(skill.id) for skill in self.skills], outfile, indent=2)
+            os.makedirs(
+                os.path.join(self.individuals_dir, SKILLS_DIRNAME), exist_ok=True
+            )
+            for skill in tqdm.tqdm(self.skills, desc="Saving individual skills"):
+                self._save_skill(skill)
+
+            with open(
                 os.path.join(self.individuals_dir, SETLIST_FILENAME),
                 "w",
                 encoding="utf-8",
@@ -2933,6 +3028,16 @@ class Database:
         ) as outfile:
             json.dump(card._to_json(), outfile, indent=2)
 
+    def _save_skill(self, skill: Card):
+        if typing.TYPE_CHECKING:
+            assert self.individuals_dir is not None
+        with open(
+            os.path.join(self.individuals_dir, SKILLS_DIRNAME, str(skill.id) + ".json"),
+            "w",
+            encoding="utf-8",
+        ) as outfile:
+            json.dump(skill._to_json(), outfile, indent=2)
+
     def _load_card(self, rawcard: typing.Dict[str, typing.Any]) -> Card:
         return Card(
             id=uuid.UUID(rawcard["id"]),
@@ -2972,6 +3077,16 @@ class Database:
             else None,
             character=rawcard["character"] if "character" in rawcard else None,
             skill_type=rawcard["skillType"] if "skillType" in rawcard else None,
+            supports=rawcard.get("supports"),
+            supports_archetypes=rawcard.get("supportsArchetypes"),
+            releases=[
+                SkillRelease(
+                    character=x["character"], type=x["type"], details=x.get("details")
+                )
+                for x in rawcard["releases"]
+            ]
+            if "releases" in rawcard
+            else None,
             passwords=rawcard["passwords"],
             images=[
                 CardImage(
@@ -3032,6 +3147,16 @@ class Database:
             return []
         with open(
             os.path.join(self.individuals_dir, CARDLIST_FILENAME), encoding="utf-8"
+        ) as outfile:
+            return [uuid.UUID(x) for x in json.load(outfile)]
+
+    def _load_skilllist(self) -> typing.List[uuid.UUID]:
+        if typing.TYPE_CHECKING:
+            assert self.individuals_dir is not None
+        if not os.path.exists(os.path.join(self.individuals_dir, SKILLLIST_FILENAME)):
+            return []
+        with open(
+            os.path.join(self.individuals_dir, SKILLLIST_FILENAME), encoding="utf-8"
         ) as outfile:
             return [uuid.UUID(x) for x in json.load(outfile)]
 
@@ -3400,6 +3525,14 @@ def load_from_file(
             ) as outfile:
                 card = result._load_card(json.load(outfile))
             result.add_card(card)
+
+        for skill_id in tqdm.tqdm(result._load_skilllist(), desc="Loading skills"):
+            with open(
+                os.path.join(individuals_dir, SKILLS_DIRNAME, str(skill_id) + ".json"),
+                encoding="utf-8",
+            ) as outfile:
+                skill = result._load_card(json.load(outfile))
+            result.add_card(skill)
 
     if aggregates_dir is not None and os.path.exists(
         os.path.join(aggregates_dir, AGG_SETS_FILENAME)
