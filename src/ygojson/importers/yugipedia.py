@@ -3256,6 +3256,9 @@ def _get_lists(
         else:
             # clear the cache of any changed pages
             _ = [*get_changelog(batcher, last_access)]
+            # also clear the cache of the main categories, so we don't miss new cards
+            batcher.removeFromCache(CAT_TCG_CARDS)
+            batcher.removeFromCache(CAT_OCG_CARDS)
 
     cards = []
     if import_cards:

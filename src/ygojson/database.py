@@ -16,7 +16,7 @@ from .version import __version__
 SCHEMA_VERSION = 1
 """The version of the JSON schema we are currently at."""
 
-USER_AGENT = f"YGOJSON/{__version__} (https://github.com/iconmaster5326/YGOJSON)"
+USER_AGENT = f"YGOJSON/{__version__} (https://github.com/DjobaDELATV/custom_ygojson)"
 """The User-Agent string we use when making requests."""
 
 ROOT_DIR = os.path.abspath(
@@ -3501,7 +3501,7 @@ def load_from_internet(
     *,
     individuals_dir: typing.Optional[str] = None,
     aggregates_dir: typing.Optional[str] = None,
-    repository: str = REPOSITORY,
+    repository: str = "https://github.com/DjobaDELATV/custom_ygojson/releases/download/v1",
 ) -> Database:
     """Load a :class:`ygojson.database.Database` from Internet sources.
     This places files into the ``individuals_dir`` and ``aggregates_dir`` specified.
