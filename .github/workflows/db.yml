@@ -3,7 +3,7 @@ name: Generate/Upload Database
 on:
   workflow_dispatch:
   schedule:
-   - cron: 0 */6 * * *
+   - cron: 0 0 * * *
 
 permissions:
   contents: write
@@ -129,7 +129,7 @@ jobs:
         uses: ./.github/actions/setup
       - name: Run YGOJSON (Post-Yugipedia)
         run: |
-          ygojson --production --no-ygoprodeck --no-yamlyugi --no-yugipedia
+          ygojson --production --no-ygoprodeck --no-yamlyugi --no-yugipedia --no-aggregates
       - name: Test
         run: |
           python test/validate_data.py
@@ -141,25 +141,13 @@ jobs:
           FOLDER: data/individual
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SQUASH_HISTORY: true
-      - name: Push Aggregates
-        uses: s0/git-publish-subdir-action@v2.6.0
-        continue-on-error: true # TODO: files too big; we need to enable git-lfs to remove this line
-        env:
-          REPO: self
-          BRANCH: v1/aggregate # update this when we have new schema versions
-          FOLDER: data/aggregate
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SQUASH_HISTORY: true
+
       - name: Archive Individuals
         uses: vimtor/action-zip@v1.2
         with:
           files: data/individual
           dest: individual.zip
-      - name: Archive Aggregates
-        uses: vimtor/action-zip@v1.2
-        with:
-          files: data/aggregate
-          dest: aggregate.zip
+
       - name: Get Latest Release
         id: latest_release
         uses: gregziegan/fetch-latest-release@v2.0.0
@@ -173,26 +161,14 @@ jobs:
         with:
           release_id: ${{ steps.latest_release.outputs.id }}
           asset_name: individual.zip
-      - name: Remove Old Aggregates ZIP
-        uses: flcdrg/remove-release-asset-action@v4.0.4
-        continue-on-error: true
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          release_id: ${{ steps.latest_release.outputs.id }}
-          asset_name: aggregate.zip
+
       - name: Upload Individuals ZIP
         uses: csexton/release-asset-action@v3
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           release-url: ${{ steps.latest_release.outputs.upload_url }}
           file: individual.zip
-      - name: Upload Aggregates ZIP
-        uses: csexton/release-asset-action@v3
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          release-url: ${{ steps.latest_release.outputs.upload_url }}
-          file: aggregate.zip
+
       - name: Teardown
         uses: ./.github/actions/teardown
         if: always()

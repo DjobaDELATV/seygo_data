@@ -3254,8 +3254,13 @@ def _get_lists(
             # fetching the changelog would take too long; just blow up the cache
             batcher.clearCache()
         else:
-            # clear the cache of any changed pages
-            _ = [*get_changelog(batcher, last_access)]
+            # We add a safety margin (26h) to ensure we overlap with the previous run (24h)
+            # This handles cases where the previous run might have missed something or if we are slightly delayed.
+            margin = datetime.timedelta(hours=26)
+            effective_last_access = last_access - margin
+
+            # clear the cache of any changed pages since (last_access - margin)
+            _ = [*get_changelog(batcher, effective_last_access)]
             # also clear the cache of the main categories, so we don't miss new cards
             batcher.removeFromCache(CAT_TCG_CARDS)
             batcher.removeFromCache(CAT_OCG_CARDS)
