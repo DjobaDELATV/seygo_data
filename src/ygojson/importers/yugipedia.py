@@ -100,6 +100,13 @@ def paginate_query(query) -> typing.Iterable:
     query = query.copy()
     while True:
         in_json = make_request(query).json()
+        if "error" in in_json:
+            logging.error(
+                f"Yugipedia API returned error: {json.dumps(in_json['error'])}; waiting and retrying..."
+            )
+            time.sleep(RATE_LIMIT * 30)
+            continue
+
         if "query" not in in_json:
             raise ValueError(
                 f"Got bad JSON: {json.dumps(in_json)} from query: {json.dumps(query)}"

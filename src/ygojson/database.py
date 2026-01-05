@@ -2350,28 +2350,12 @@ class Database:
     def add_distro(self, distro: PackDistrobution):
         """Adds a pack distribution to this database, or updated its lookup information if it's already in the database."""
 
-        if distro.id not in self.distros_by_id:
-            self.distros.append(distro)
-            self.distros_by_id[distro.id] = distro
-        if distro.name:
-            self.distros_by_name[distro.name] = distro
+        pass
 
     def add_product(self, product: SealedProduct):
         """Adds a sealed product to this database, or updated its lookup information if it's already in the database."""
 
-        if product.id not in self.products_by_id:
-            self.products.append(product)
-
-        self.products_by_id[product.id] = product
-        if Language.ENGLISH in product.name:
-            self.products_by_en_name[product.name[Language.ENGLISH]] = product
-        if product.yugipedia:
-            self.products_by_yugipedia_id[product.yugipedia.id] = product
-        for locale in product.locales.values():
-            for db_id in locale.db_ids:
-                self.products_by_konami_pid[db_id] = product
-        for pack in product.box_of:
-            self.products_by_pack_id[pack.id] = product
+        pass
 
     def regenerate_backlinks(self):
         """This does the following fixups:
