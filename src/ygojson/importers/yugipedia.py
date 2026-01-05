@@ -3145,7 +3145,7 @@ def import_from_yugipedia(
                                 db.add_card(card)
 
                 do(pageid)
-                progress_bar.update(1)
+                # progress_bar.update(1) removed because tqdm iterator handles it
 
             for pageid in tqdm.tqdm(skills, desc="Importing skills from Yugipedia"):
 
@@ -3201,7 +3201,7 @@ def import_from_yugipedia(
                             db.add_card(card)
 
                 do_skill(pageid)
-                progress_bar.update(1)
+                # progress_bar.update(1) removed because tqdm iterator handles it
 
             batcher.saveCachesToDisk()
 
