@@ -236,38 +236,44 @@ def parse_skill(
     data: wikitextparser.WikiText,
 ) -> bool:
     title = batcher.idsToNames[pageid]
-    
+
     # Check for Duel Links Skill Infobox
-    templates = [x for x in data.templates if "skill" in x.name.strip().lower() and "duel links" in x.name.strip().lower()]
+    templates = [
+        x
+        for x in data.templates
+        if "skill" in x.name.strip().lower() and "duel links" in x.name.strip().lower()
+    ]
     if not templates:
         # Fallback: Check if it's a TCG skill that we want to classify as DL?
         # But if we are here via get_skill_pages, it should be DL.
         # If no template found, maybe it's just a redirect or stub?
         return False
-        
+
     template = templates[0]
-    
+
     # Set Card Type to DL Skill
     card.card_type = CardType.SKILL_DL
-    
+
     # Name
     name = get_table_entry(template, "name")
     if not name:
         name = title
-    
+
     if Language.ENGLISH not in card.text:
         card.text[Language.ENGLISH] = CardText(name=name, official=True)
-    
+
     # Description
-    desc = get_table_entry(template, "description") or get_table_entry(template, "effect")
+    desc = get_table_entry(template, "description") or get_table_entry(
+        template, "effect"
+    )
     if desc:
         card.text[Language.ENGLISH].effect = _strip_markup(desc).strip()
-        
+
     # Character
     char = get_table_entry(template, "character")
     if char:
         card.character = _strip_markup(char).strip()
-        
+
     return True
 
 
@@ -2505,9 +2511,9 @@ def parse_tcg_ocg_set(
             formats=[fmt],
             image=[*raw_locale.images.values(), None][0],
             date=raw_locale.date,
-            prefix=None
-            if all(rc.noabbr for rc in raw_locale.cards.values())
-            else prefix,
+            prefix=(
+                None if all(rc.noabbr for rc in raw_locale.cards.values()) else prefix
+            ),
             db_ids=raw_locale.db_ids,
         )
         set_.locales[locale.key] = locale
@@ -2537,9 +2543,11 @@ def parse_tcg_ocg_set(
                     )
                     continue
                 printing = CardPrinting(
-                    id=old_printing_ids[rcl]
-                    if rcl in old_printing_ids
-                    else uuid.uuid4(),
+                    id=(
+                        old_printing_ids[rcl]
+                        if rcl in old_printing_ids
+                        else uuid.uuid4()
+                    ),
                     card=rc.card,
                     rarity=rc.rarity,
                     suffix=None if rc.noabbr else rc.code[len(prefix) :],
@@ -3663,9 +3671,7 @@ class YugipediaBatcher:
         if os.path.exists(path):
             with open(path, encoding="utf-8") as file:
                 self.categoryMembersCache = {
-                    k[1:]
-                    if k[0] == "#"
-                    else int(k): [
+                    k[1:] if k[0] == "#" else int(k): [
                         CategoryMember(
                             x["id"], x["name"], CategoryMemberType(x["type"])
                         )
@@ -3743,9 +3749,7 @@ class YugipediaBatcher:
         with open(path, "w", encoding="utf-8") as file:
             json.dump(
                 {
-                    f"#{k}"
-                    if type(k) is str
-                    else k: [
+                    f"#{k}" if type(k) is str else k: [
                         {"id": x.id, "name": x.name, "type": x.type.value} for x in v
                     ]
                     for k, v in self.categoryMembersCache.items()
