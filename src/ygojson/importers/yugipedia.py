@@ -65,8 +65,8 @@ def make_request(rawparams: typing.Dict[str, str], n_tries=0) -> requests.Respon
             time.sleep(RATE_LIMIT * 30)
             return make_request(rawparams, n_tries + 1)
         return response
-    except requests.exceptions.Timeout:
-        logging.error("timeout; waiting and retrying...")
+    except (requests.exceptions.Timeout, requests.exceptions.ConnectionError):
+        logging.error("connection error or timeout; waiting and retrying...")
         time.sleep(RATE_LIMIT * 30)
         return make_request(rawparams, n_tries + 1)
 
