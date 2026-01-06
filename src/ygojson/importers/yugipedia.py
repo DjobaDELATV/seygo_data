@@ -220,13 +220,55 @@ def get_skill_pages(batcher: "YugipediaBatcher") -> typing.Iterable[int]:
         result = []
         seen = set()
 
-        @batcher.getCategoryMembers(CAT_DL_SKILLS)
+        @batcher.getCategoryMembersRecursive(CAT_DL_SKILLS)
         def catMem(members: typing.List[int]):
             result.extend(x for x in members if x not in seen)
             seen.update(members)
             progress_bar.update(1)
 
         return result
+
+
+def parse_skill(
+    batcher: "YugipediaBatcher",
+    pageid: int,
+    card: Card,
+    data: wikitextparser.WikiText,
+) -> bool:
+    title = batcher.idsToNames[pageid]
+    
+    # Check for Duel Links Skill Infobox
+    templates = [x for x in data.templates if "skill" in x.name.strip().lower() and "duel links" in x.name.strip().lower()]
+    if not templates:
+        # Fallback: Check if it's a TCG skill that we want to classify as DL?
+        # But if we are here via get_skill_pages, it should be DL.
+        # If no template found, maybe it's just a redirect or stub?
+        return False
+        
+    template = templates[0]
+    
+    # Set Card Type to DL Skill
+    card.card_type = CardType.SKILL_DL
+    
+    # Name
+    name = get_table_entry(template, "name")
+    if not name:
+        name = title
+    
+    if Language.ENGLISH not in card.text:
+        card.text[Language.ENGLISH] = CardText(name=name, official=True)
+    
+    # Description
+    desc = get_table_entry(template, "description") or get_table_entry(template, "effect")
+    if desc:
+        card.text[Language.ENGLISH].effect = _strip_markup(desc).strip()
+        
+    # Character
+    char = get_table_entry(template, "character")
+    if char:
+        card.character = _strip_markup(char).strip()
+        
+    return True
 
 
 def get_changelog(

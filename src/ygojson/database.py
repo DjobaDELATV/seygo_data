@@ -112,6 +112,7 @@ class CardType(enum.Enum):
     TRAP = "trap"
     TOKEN = "token"
     SKILL = "skill"
+    SKILL_DL = "skill-dl"
 
 
 class Attribute(enum.Enum):
@@ -2285,7 +2286,7 @@ class Database:
         """Adds a card to this database, or updated its lookup information if it's already in the database."""
 
         if card.id not in self.cards_by_id:
-            if card.card_type == CardType.SKILL:
+            if card.card_type == CardType.SKILL_DL:
                 self.skills.append(card)
             else:
                 self.cards.append(card)
