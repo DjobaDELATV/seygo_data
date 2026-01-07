@@ -235,44 +235,140 @@ def parse_skill(
     card: Card,
     data: wikitextparser.WikiText,
 ) -> bool:
-    title = batcher.idsToNames[pageid]
+    """
+    Parse a Duel Links Skill page.
+    Returns True if successfully parsed as a DL Skill, False otherwise.
+    """
+    title = batcher.idsToNames.get(pageid, "Unknown")
+    raw_text = str(data)
 
-    # Check for Duel Links Skill Infobox
+    # Check for Duel Links Skill template
     templates = [
-        x
-        for x in data.templates
-        if "skill" in x.name.strip().lower() and "duel links" in x.name.strip().lower()
+        x for x in data.templates if x.name.strip().lower() == "duel links skill"
     ]
     if not templates:
-        # Fallback: Check if it's a TCG skill that we want to classify as DL?
-        # But if we are here via get_skill_pages, it should be DL.
-        # If no template found, maybe it's just a redirect or stub?
         return False
 
     template = templates[0]
 
-    # Set Card Type to DL Skill
+    # --- FILTERING RULES ---
+
+    # Skip NPC-only skills (used_by_npcs parameter exists and has content)
+    used_by_npcs = get_table_entry(template, "used_by_npcs")
+    if used_by_npcs and used_by_npcs.strip():
+        logging.debug(f"Skipping NPC-only skill: {title}")
+        return False
+
+    # Skip Rush Duel skills (contain "REQUIREMENT" in uppercase in text)
+    text_en = get_table_entry(template, "text") or ""
+    if "REQUIREMENT" in text_en:
+        logging.debug(f"Skipping Rush Duel skill: {title}")
+        return False
+
+    # --- SET CARD TYPE ---
     card.card_type = CardType.SKILL_DL
 
-    # Name
-    name = get_table_entry(template, "name")
-    if not name:
-        name = title
+    # --- SKILL TYPE DETECTION ---
+    # Archive skills are in Category:Yu-Gi-Oh! Duel Links Archive Skills
+    if "[[Category:Yu-Gi-Oh! Duel Links Archive Skills]]" in raw_text:
+        card.skill_type = "Archive"
+    else:
+        card.skill_type = "Legendary"
 
-    if Language.ENGLISH not in card.text:
-        card.text[Language.ENGLISH] = CardText(name=name, official=True)
+    # --- MULTI-LANGUAGE TEXT EXTRACTION ---
+    lang_map = {
+        Language.ENGLISH: ("name", "text"),
+        Language.FRENCH: ("fr_name", "fr_text"),
+        Language.GERMAN: ("de_name", "de_text"),
+        Language.JAPANESE: ("ja_name", "ja_text"),
+    }
 
-    # Description
-    desc = get_table_entry(template, "description") or get_table_entry(
-        template, "effect"
-    )
-    if desc:
-        card.text[Language.ENGLISH].effect = _strip_markup(desc).strip()
+    for lang, (name_key, text_key) in lang_map.items():
+        name_val = get_table_entry(template, name_key)
+        text_val = get_table_entry(template, text_key)
 
-    # Character
-    char = get_table_entry(template, "character")
-    if char:
-        card.character = _strip_markup(char).strip()
+        # English name fallback to page title
+        if lang == Language.ENGLISH and not name_val:
+            name_val = title
+
+        if name_val:
+            name_clean = _strip_markup(name_val).strip()
+            effect_clean = _strip_markup(text_val).strip() if text_val else None
+
+            if lang not in card.text:
+                card.text[lang] = CardText(name=name_clean, official=True)
+            else:
+                card.text[lang].name = name_clean
+
+            if effect_clean:
+                card.text[lang].effect = effect_clean
+
+    # --- SUPPORTS (Card names) ---
+    supports_raw = get_table_entry(template, "supports")
+    if supports_raw:
+        # Parse list of card names (can be * prefixed or [[wikilink]] format)
+        supports_list = []
+        for line in supports_raw.split("\n"):
+            line = line.strip()
+            if line.startswith("*"):
+                line = line[1:].strip()
+            # Remove wikilinks
+            line = _strip_markup(line).strip()
+            if line:
+                supports_list.append(line)
+        card.supports = supports_list
+
+    # --- SUPPORTS ARCHETYPES ---
+    archetypes_raw = get_table_entry(template, "supports_archetypes")
+    if archetypes_raw:
+        archetypes_list = []
+        for line in archetypes_raw.split("\n"):
+            line = line.strip()
+            if line.startswith("*"):
+                line = line[1:].strip()
+            line = _strip_markup(line).strip()
+            if line:
+                archetypes_list.append(line)
+        card.supports_archetypes = archetypes_list
+
+    # --- RELEASES PARSING ---
+    # Look for {{Duel Links Skill release table}} templates
+    release_templates = [
+        x
+        for x in data.templates
+        if "duel links skill release table" in x.name.strip().lower()
+    ]
+
+    releases = []
+    for rel_templ in release_templates:
+        release_type = get_table_entry(rel_templ, "type") or ""
+        # First positional argument is usually the character
+        character = None
+        details = None
+
+        # Get positional arguments
+        args = [a for a in rel_templ.arguments if not a.name or a.name.strip() == ""]
+        if len(args) >= 1:
+            character = _strip_markup(args[0].value).strip()
+        if len(args) >= 2:
+            details = _strip_markup(args[1].value).strip()
+
+        # Also check named parameters
+        if not character:
+            for arg in rel_templ.arguments:
+                if arg.name and arg.name.strip() not in ["type", "release_date"]:
+                    character = _strip_markup(arg.value).strip()
+                    break
+
+        if character:
+            release_entry = SkillRelease(
+                character=character,
+                type=release_type.strip() if release_type else "",
+                details=details,
+            )
+            releases.append(release_entry)
+
+    card.releases = releases
 
     return True
 
