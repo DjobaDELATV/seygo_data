@@ -1,0 +1,115 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/iconmaster5326/YGOJSON/main/schema/v1/skill.json",
+  "title": "Skill",
+  "description": "A Duel Links Skill (not a physical card).",
+  "type": "object",
+  "required": [
+    "$schema",
+    "id",
+    "text",
+    "cardType"
+  ],
+  "properties": {
+    "$schema": {
+      "const": "https://raw.githubusercontent.com/iconmaster5326/YGOJSON/main/schema/v1/skill.json"
+    },
+    "id": {
+      "description": "The UUID of this skill.",
+      "type": "string",
+      "format": "uuid"
+    },
+    "text": {
+      "description": "A map of languages to textual skill information.",
+      "type": "object",
+      "additionalProperties": {
+        "description": "Textual information on the skill.",
+        "type": "object",
+        "required": [
+          "name"
+        ],
+        "properties": {
+          "name": {
+            "description": "The name of the skill.",
+            "type": "string"
+          },
+          "effect": {
+            "description": "The effect text of the skill.",
+            "type": "string"
+          },
+          "official": {
+            "description": "Is this translation official?",
+            "type": "boolean"
+          }
+        }
+      }
+    },
+    "cardType": {
+      "description": "Always 'skill-dl' for Duel Links skills.",
+      "const": "skill-dl"
+    },
+    "skillType": {
+      "description": "The type of skill (Legendary, Archive).",
+      "type": "string"
+    },
+    "supports": {
+      "description": "List of card names this skill supports or mentions.",
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "supportsArchetypes": {
+      "description": "List of archetypes this skill supports.",
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "releases": {
+      "description": "How this skill can be obtained.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "character",
+          "type"
+        ],
+        "properties": {
+          "character": {
+            "description": "The character associated with this release.",
+            "type": "string"
+          },
+          "type": {
+            "description": "The release type (duel_reward, level_up, trader, etc.).",
+            "type": "string"
+          },
+          "details": {
+            "description": "Additional details (e.g., 'Level 20').",
+            "type": "string"
+          }
+        }
+      }
+    },
+    "externalIDs": {
+      "description": "IDs from external sources.",
+      "type": "object",
+      "properties": {
+        "yugipedia": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "id": {
+                "type": "integer"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

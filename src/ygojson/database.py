@@ -945,6 +945,46 @@ class Card:
         self.releases = releases or []
 
     def _to_json(self) -> typing.Dict[str, typing.Any]:
+        # Special handling for Duel Links Skills - they have a different schema
+        if self.card_type == CardType.SKILL_DL:
+            return {
+                "$schema": f"https://raw.githubusercontent.com/iconmaster5326/YGOJSON/main/schema/v{SCHEMA_VERSION}/skill.json",
+                "id": str(self.id),
+                "text": {
+                    k.value: {
+                        "name": v.name,
+                        **({} if v.effect is None else {"effect": v.effect}),
+                        **({} if v.official else {"official": False}),
+                    }
+                    for k, v in self.text.items()
+                },
+                "cardType": self.card_type.value,
+                **({} if self.skill_type is None else {"skillType": self.skill_type}),
+                **({} if not self.supports else {"supports": self.supports}),
+                **(
+                    {}
+                    if not self.supports_archetypes
+                    else {"supportsArchetypes": self.supports_archetypes}
+                ),
+                **(
+                    {}
+                    if not self.releases
+                    else {"releases": [x._to_json() for x in self.releases]}
+                ),
+                "externalIDs": {
+                    **(
+                        {
+                            "yugipedia": [
+                                {"name": x.name, "id": x.id}
+                                for x in self.yugipedia_pages
+                            ]
+                        }
+                        if self.yugipedia_pages
+                        else {}
+                    ),
+                },
+            }
+
         return {
             "$schema": f"https://raw.githubusercontent.com/iconmaster5326/YGOJSON/main/schema/v{SCHEMA_VERSION}/card.json",
             "id": str(self.id),
