@@ -17,7 +17,7 @@ setuptools.setup(
     description="Generate and manipulate Yugioh card and set data.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/DjobaDELATV/custom_ygojson",
+    url="https://github.com/DjobaDELATV/seygo_data",
     author="DjobaDELATV",
     classifiers=[
         "Development Status :: 3 - Alpha",

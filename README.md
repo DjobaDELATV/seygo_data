@@ -1,6 +1,12 @@
-# YGOJSON
+# SEYGO Data
 
-YGOJSON aims to be the ultimate Yugioh database - a set of machine-readable [JSON](https://www.json.org/json-en.html) files detailing:
+> **Fork de [YGOJSON](https://github.com/iconmaster5326/YGOJSON) par [iconmaster5326](https://github.com/iconmaster5326)**
+
+Ce projet utilise le travail incroyable de l'auteur original afin d'ajouter les données des **Skills Duel Links** pour le site [seygo.fr](https://seygo.fr).
+
+---
+
+Base de données JSON contenant :
 
 * Cards, including tokens and skill cards
 * Sets, including Duel Links and Master Duel sets
@@ -22,19 +28,19 @@ Special thanks goes out to [YGO Prog](https://www.ygoprog.com/) for their tirele
 
 There are several methods of consuming the database. To get the files, you can either:
 
-* Download a ZIP file [here](https://github.com/DjobaDELATV/custom_ygojson/releases/latest)
-* Download the raw JSON files on the [indiviual](https://github.com/DjobaDELATV/custom_ygojson/tree/v1/individual) and [aggregate](https://github.com/DjobaDELATV/custom_ygojson/tree/v1/aggregate) branches
+* Download a ZIP file [here](https://github.com/DjobaDELATV/seygo_data/releases/latest)
+* Download the raw JSON files on the [indiviual](https://github.com/DjobaDELATV/seygo_data/tree/v1/individual) and [aggregate](https://github.com/DjobaDELATV/seygo_data/tree/v1/aggregate) branches
 
 To get the ZIP files in an automated fashion, fetch the following URLs:
 
-* For a individualized ZIP file: https://github.com/DjobaDELATV/custom_ygojson/releases/download/v1/individual.zip
-* For a aggregated ZIP file: https://github.com/DjobaDELATV/custom_ygojson/releases/download/v1/aggregate.zip
+* For a individualized ZIP file: https://github.com/DjobaDELATV/seygo_data/releases/download/v1/individual.zip
+* For a aggregated ZIP file: https://github.com/DjobaDELATV/seygo_data/releases/download/v1/aggregate.zip
 
 If you don't want everything, or don't want to unzip things, just fetch the following URLs for indiviudal things, with `cards` replaced by the type of things you want, and the UUID replaced with your UUID:
 
-* For individual card JSON files: https://raw.githubusercontent.com/DjobaDELATV/custom_ygojson/v1/individual/cards/00045021-f0d3-4473-8bbc-8aa6504d3562.json
-* For a list of all card UUIDs: https://raw.githubusercontent.com/DjobaDELATV/custom_ygojson/v1/individual/cards.json
-* For all information for all cards: https://raw.githubusercontent.com/DjobaDELATV/custom_ygojson/v1/aggregate/cards.json ***(NOTE: These files are currently BROKEN and OUT OF DATE due to GitHub file size limits. Use the individuals or download the aggregates ZIP file instead!)***
+* For individual card JSON files: https://raw.githubusercontent.com/DjobaDELATV/seygo_data/v1/individual/cards/00045021-f0d3-4473-8bbc-8aa6504d3562.json
+* For a list of all card UUIDs: https://raw.githubusercontent.com/DjobaDELATV/seygo_data/v1/individual/cards.json
+* For all information for all cards: https://raw.githubusercontent.com/DjobaDELATV/seygo_data/v1/aggregate/cards.json ***(NOTE: These files are currently BROKEN and OUT OF DATE due to GitHub file size limits. Use the individuals or download the aggregates ZIP file instead!)***
 
 You may have noticed the two different ways of getting the data: individual and aggregate. The differences between the two are as follows:
 
@@ -45,22 +51,13 @@ Within each folder should be the data you need. Check out the [JSON schema](http
 
 We have the following things available for you:
 
-* `cards`: Yugioh cards. This includes tokens and Speed Duel skill cards. This does NOT include Rush Duel cards, and does NOT include video-game exclusive cards.
-* `sets`: Yugioh products such as booster packs, decks, and sets of promotional cards.
+* `cards`: Cards. This includes tokens and Speed Duel skill cards. This does NOT include Rush Duel cards, and does NOT include video-game exclusive cards.
+* `sets`: Products such as booster packs, decks, and sets of promotional cards.
 * `series`: Information about archetypes and series.
 * `sealedProducts`: Sealed products are things like booster boxes, tins, and other things that consist of a mix of packs.
 * `distributions`: Pack odds information for sets. You can use this to figure out how to make random packs of sets accurately.
 
 The data is regenerated from our sources every day at midnight. So if you don't see the latest new cards in the database yet, wait a bit!
-
-## Viewing YGOJSON Interactively
-
-If you want to explore the YGOJSON dataset interactively and visually, we have an application that runs in your web browser, [YJViewer](https://github.com/iconmaster5326/YJViewer).
-
-| ![YJViewer's front page.](yjv1.jpg) | ![YJViewer searching for cards.](yjv2.jpg) | ![YJViewer at a card page.](yjv3.jpg) |
-| - | - | - |
-
-Check it out if you want to look at what we have!
 
 ## Using the YGOJSON API
 
