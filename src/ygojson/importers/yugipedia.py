@@ -4117,6 +4117,7 @@ class YugipediaBatcher:
             ),
             "cmlimit": "max",
             "cmprop": "ids|title|type",
+            "cmtype": "page|subcat",  # CRITICAL: Must specify to get all members
         }
 
         members: typing.List[CategoryMember] = []
