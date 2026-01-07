@@ -3536,6 +3536,11 @@ def _get_lists(
         # We also treat skills as cards during import phase usually, but here we want separation
         skills = [*get_skill_pages(batcher)]
 
+    if cards and skills:
+        # Filter out any skills that were accidentally picked up as cards (e.g. from TCG categories)
+        skills_set = set(skills)
+        cards = [c for c in cards if c not in skills_set]
+
     return (cards, sets, series, skills)
 
 
