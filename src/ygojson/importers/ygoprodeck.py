@@ -1,5 +1,6 @@
 # Import data from YGOProDeck (https://ygoprodeck.com/card-database/).
 
+import datetime
 import json
 import logging
 import os.path
@@ -256,6 +257,7 @@ def _write_card(in_json: typing.Dict[str, typing.Any], card: Card) -> Card:
             existing_image.password = "%08u" % (in_image["id"],)
         existing_image.card_art = in_image["image_url"]
         existing_image.crop_art = in_image["image_url_cropped"]
+        existing_image.last_checked = datetime.datetime.now()
 
     card.ygoprodeck = ExternalIdPair(
         in_json["ygoprodeck_url"].replace("https://ygoprodeck.com/card/", ""),

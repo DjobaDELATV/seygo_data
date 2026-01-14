@@ -801,11 +801,16 @@ def parse_card(
 
     # generally, we want YGOProDeck to handle generic images
     # But if all else fails, we can add one!
-    if all(
+    # Also re-check images for recent cards if they haven't been checked recently
+    should_fetch_yugipedia_images = all(
         (not image.card_art and not image.crop_art)
         or "yugipedia.com" in (image.card_art or "")
         for image in card.images
-    ):
+    ) or (
+        is_card_recent(card) and any(should_refresh_image(img) for img in card.images)
+    )
+
+    if should_fetch_yugipedia_images:
         in_images_raw = get_table_entry(cardtable, "image")
         if in_images_raw:
             in_images = [
@@ -830,6 +835,7 @@ def parse_card(
                 @batcher.getImageURL("File:" + image_name)
                 def onGetImage(url: str):
                     out_image.card_art = url
+                    out_image.last_checked = datetime.datetime.now()
 
             for image in card.images:
                 if len(in_images) == 0:

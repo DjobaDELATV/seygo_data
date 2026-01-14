@@ -33,6 +33,12 @@ DATA_DIR = os.path.join(ROOT_DIR if os.access(ROOT_DIR, os.W_OK) else os.curdir,
 MANUAL_DATA_DIR = os.path.join(ROOT_DIR, "manual-data")
 """The root directory of manual fixups."""
 
+RECENT_CARD_AGE_DAYS = 365 * 2
+"""Cards released within this many days are considered 'recent' and eligible for image re-checking."""
+
+IMAGE_RECHECK_INTERVAL_DAYS = 10
+"""Images are re-checked from external sources if they were last checked more than this many days ago."""
+
 INDIVIDUAL_DIR = os.path.join(DATA_DIR, "individual")
 """The default directory individualized JSON data is placed into."""
 
@@ -102,6 +108,56 @@ MANUAL_DISTROS_DIR = os.path.join(MANUAL_DATA_DIR, "distributions")
 
 MANUAL_PRODUCTS_DIR = os.path.join(MANUAL_DATA_DIR, "sealed-products")
 """The directory containing manual sealed product fixup data."""
+
+
+def is_card_recent(card: "Card") -> bool:
+    """Determine if a card is considered 'recent' based on its release date.
+
+    A card is recent if it was released within the last RECENT_CARD_AGE_DAYS days
+    (default: 2 years). Recent cards are eligible for image re-checking.
+
+    Returns False if no release date information is available (card is assumed old).
+    """
+    # Find the most recent release date from all sets
+    most_recent_date = None
+
+    for set_obj in card.sets:
+        # Check video game sets (have direct date)
+        if set_obj.date:
+            if most_recent_date is None or set_obj.date > most_recent_date:
+                most_recent_date = set_obj.date
+
+        # Check physical sets (date per locale)
+        for locale in set_obj.locales.values():
+            if locale.date:
+                if most_recent_date is None or locale.date > most_recent_date:
+                    most_recent_date = locale.date
+
+    # If no date found, assume it's an old card
+    if most_recent_date is None:
+        return False
+
+    # Check if card is recent
+    now = datetime.datetime.now().date()
+    card_age_days = (now - most_recent_date).days
+    return card_age_days <= RECENT_CARD_AGE_DAYS
+
+
+def should_refresh_image(image: "CardImage") -> bool:
+    """Determine if a specific card image should be refreshed from external sources.
+
+    Returns True if:
+    - The image has never been checked (last_checked is None), OR
+    - The image was last checked more than IMAGE_RECHECK_INTERVAL_DAYS ago
+
+    This function should be called only for images of recent cards (see is_card_recent).
+    """
+    if image.last_checked is None:
+        return True  # Never checked, needs initial fetch
+
+    now = datetime.datetime.now()
+    days_since_check = (now - image.last_checked).days
+    return days_since_check > IMAGE_RECHECK_INTERVAL_DAYS
 
 
 class CardType(enum.Enum):
@@ -641,6 +697,11 @@ class CardImage:
     and the individual card printing's image should be used instead of this one where possible.
     """
 
+    last_checked: typing.Optional[datetime.datetime]
+    """The last time this image was checked/updated from external sources.
+    Used to determine when to re-fetch images to check for higher quality versions.
+    """
+
     def __init__(
         self,
         *,
@@ -648,11 +709,13 @@ class CardImage:
         password: typing.Optional[str] = None,
         crop_art: typing.Optional[str] = None,
         card_art: typing.Optional[str] = None,
+        last_checked: typing.Optional[datetime.datetime] = None,
     ):
         self.id = id
         self.password = password
         self.crop_art = crop_art
         self.card_art = card_art
+        self.last_checked = last_checked
 
 
 class LegalityPeriod:
@@ -1039,6 +1102,7 @@ class Card:
                     **({"password": x.password} if x.password else {}),
                     **({"art": x.crop_art} if x.crop_art else {}),
                     **({"card": x.card_art} if x.card_art else {}),
+                    **({"lastChecked": x.last_checked.isoformat()} if x.last_checked else {}),
                 }
                 for x in self.images
             ],
@@ -3118,6 +3182,11 @@ class Database:
                     password=x.get("password"),
                     crop_art=x.get("art"),
                     card_art=x.get("card"),
+                    last_checked=(
+                        datetime.datetime.fromisoformat(x["lastChecked"])
+                        if "lastChecked" in x
+                        else None
+                    ),
                 )
                 for x in rawcard["images"]
             ],
