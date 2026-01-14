@@ -1102,7 +1102,11 @@ class Card:
                     **({"password": x.password} if x.password else {}),
                     **({"art": x.crop_art} if x.crop_art else {}),
                     **({"card": x.card_art} if x.card_art else {}),
-                    **({"lastChecked": x.last_checked.isoformat()} if x.last_checked else {}),
+                    **(
+                        {"lastChecked": x.last_checked.isoformat()}
+                        if x.last_checked
+                        else {}
+                    ),
                 }
                 for x in self.images
             ],
@@ -1138,9 +1142,11 @@ class Card:
                 {
                     "masterDuel": {
                         "rarity": self.master_duel_rarity.value,
-                        "craftable": self.master_duel_craftable
-                        if self.master_duel_craftable is not None
-                        else True,
+                        "craftable": (
+                            self.master_duel_craftable
+                            if self.master_duel_craftable is not None
+                            else True
+                        ),
                     }
                 }
                 if self.master_duel_rarity
@@ -1307,30 +1313,42 @@ class PackDistroSlotPool(PackDistroSlot):
         cls, db: "Database", in_json: typing.Dict[str, typing.Any]
     ) -> "PackDistroSlot":
         return PackDistroSlotPool(
-            set=db.sets_by_id[uuid.UUID(in_json["set"])]
-            if in_json.get("set") and uuid.UUID(in_json["set"]) in db.sets_by_id
-            else None,
-            rarity=[
-                PackDistroWeight(
-                    rarities=[CardRarity(y) for y in x["rarities"]]
-                    if x.get("rarities")
-                    else None,
-                    chance=x["chance"] if x.get("chance") is not None else 1,
-                )
-                for x in in_json["rarity"]
-            ]
-            if in_json.get("rarity")
-            else None,
+            set=(
+                db.sets_by_id[uuid.UUID(in_json["set"])]
+                if in_json.get("set") and uuid.UUID(in_json["set"]) in db.sets_by_id
+                else None
+            ),
+            rarity=(
+                [
+                    PackDistroWeight(
+                        rarities=(
+                            [CardRarity(y) for y in x["rarities"]]
+                            if x.get("rarities")
+                            else None
+                        ),
+                        chance=x["chance"] if x.get("chance") is not None else 1,
+                    )
+                    for x in in_json["rarity"]
+                ]
+                if in_json.get("rarity")
+                else None
+            ),
             qty=in_json["qty"] if in_json.get("qty") is not None else 1,
-            card_types=[CardType(x) for x in in_json["cardTypes"]]
-            if in_json.get("cardTypes")
-            else None,
-            duplicates=in_json["duplicates"]
-            if in_json.get("duplicates") is not None
-            else False,
-            proportionate=in_json["proportionate"]
-            if in_json.get("proportionate") is not None
-            else False,
+            card_types=(
+                [CardType(x) for x in in_json["cardTypes"]]
+                if in_json.get("cardTypes")
+                else None
+            ),
+            duplicates=(
+                in_json["duplicates"]
+                if in_json.get("duplicates") is not None
+                else False
+            ),
+            proportionate=(
+                in_json["proportionate"]
+                if in_json.get("proportionate") is not None
+                else False
+            ),
         )
 
 
@@ -3139,42 +3157,56 @@ class Database:
                 for k, v in rawcard.get("text", {}).items()
             },
             card_type=CardType(rawcard["cardType"]),
-            attribute=Attribute(rawcard["attribute"])
-            if "attribute" in rawcard
-            else None,
-            monster_card_types=[MonsterCardType(x) for x in rawcard["monsterCardTypes"]]
-            if "monsterCardTypes" in rawcard
-            else None,
+            attribute=(
+                Attribute(rawcard["attribute"]) if "attribute" in rawcard else None
+            ),
+            monster_card_types=(
+                [MonsterCardType(x) for x in rawcard["monsterCardTypes"]]
+                if "monsterCardTypes" in rawcard
+                else None
+            ),
             type=Race(rawcard["type"]) if "type" in rawcard else None,
-            classifications=[Classification(x) for x in rawcard["classifications"]]
-            if "classifications" in rawcard
-            else None,
-            abilities=[Ability(x) for x in rawcard["abilities"]]
-            if "abilities" in rawcard
-            else None,
+            classifications=(
+                [Classification(x) for x in rawcard["classifications"]]
+                if "classifications" in rawcard
+                else None
+            ),
+            abilities=(
+                [Ability(x) for x in rawcard["abilities"]]
+                if "abilities" in rawcard
+                else None
+            ),
             level=rawcard.get("level"),
             rank=rawcard.get("rank"),
             atk=rawcard.get("atk"),
             def_=rawcard.get("def"),
             scale=rawcard.get("scale"),
-            link_arrows=[LinkArrow(x) for x in rawcard["linkArrows"]]
-            if "linkArrows" in rawcard
-            else None,
-            subcategory=SubCategory(rawcard["subcategory"])
-            if "subcategory" in rawcard
-            else None,
+            link_arrows=(
+                [LinkArrow(x) for x in rawcard["linkArrows"]]
+                if "linkArrows" in rawcard
+                else None
+            ),
+            subcategory=(
+                SubCategory(rawcard["subcategory"])
+                if "subcategory" in rawcard
+                else None
+            ),
             character=rawcard["character"] if "character" in rawcard else None,
             skill_type=rawcard["skillType"] if "skillType" in rawcard else None,
             supports=rawcard.get("supports"),
             supports_archetypes=rawcard.get("supportsArchetypes"),
-            releases=[
-                SkillRelease(
-                    character=x["character"], type=x["type"], details=x.get("details")
-                )
-                for x in rawcard["releases"]
-            ]
-            if "releases" in rawcard
-            else None,
+            releases=(
+                [
+                    SkillRelease(
+                        character=x["character"],
+                        type=x["type"],
+                        details=x.get("details"),
+                    )
+                    for x in rawcard["releases"]
+                ]
+                if "releases" in rawcard
+                else None
+            ),
             passwords=rawcard["passwords"],
             images=[
                 CardImage(
@@ -3208,28 +3240,36 @@ class Database:
                 )
                 for k, v in rawcard.get("legality", {}).items()
             },
-            master_duel_rarity=VideoGameRaity(rawcard["masterDuel"]["rarity"])
-            if "masterDuel" in rawcard
-            else None,
-            master_duel_craftable=rawcard["masterDuel"]["craftable"]
-            if "masterDuel" in rawcard
-            else None,
-            duel_links_rarity=VideoGameRaity(rawcard["duelLinks"]["rarity"])
-            if "duelLinks" in rawcard
-            else None,
-            yugipedia_pages=[
-                ExternalIdPair(x["name"], x["id"])
-                for x in rawcard["externalIDs"]["yugipedia"]
-            ]
-            if "yugipedia" in rawcard["externalIDs"]
-            else None,
+            master_duel_rarity=(
+                VideoGameRaity(rawcard["masterDuel"]["rarity"])
+                if "masterDuel" in rawcard
+                else None
+            ),
+            master_duel_craftable=(
+                rawcard["masterDuel"]["craftable"] if "masterDuel" in rawcard else None
+            ),
+            duel_links_rarity=(
+                VideoGameRaity(rawcard["duelLinks"]["rarity"])
+                if "duelLinks" in rawcard
+                else None
+            ),
+            yugipedia_pages=(
+                [
+                    ExternalIdPair(x["name"], x["id"])
+                    for x in rawcard["externalIDs"]["yugipedia"]
+                ]
+                if "yugipedia" in rawcard["externalIDs"]
+                else None
+            ),
             db_id=rawcard["externalIDs"].get("dbID"),
-            ygoprodeck=ExternalIdPair(
-                name=rawcard["externalIDs"]["ygoprodeck"]["name"],
-                id=rawcard["externalIDs"]["ygoprodeck"]["id"],
-            )
-            if "ygoprodeck" in rawcard["externalIDs"]
-            else None,
+            ygoprodeck=(
+                ExternalIdPair(
+                    name=rawcard["externalIDs"]["ygoprodeck"]["name"],
+                    id=rawcard["externalIDs"]["ygoprodeck"]["id"],
+                )
+                if "ygoprodeck" in rawcard["externalIDs"]
+                else None
+            ),
             yamlyugi_id=rawcard["externalIDs"].get("yamlyugiID"),
         )
 
@@ -3291,18 +3331,24 @@ class Database:
             id=uuid.UUID(rawprinting["id"]),
             card=self.cards_by_id[cid],
             suffix=rawprinting.get("suffix"),
-            rarity=CardRarity(rawprinting["rarity"])
-            if "rarity" in rawprinting
-            else None,
-            only_in_box=SetBoxType(rawprinting["onlyInBox"])
-            if "onlyInBox" in rawprinting
-            else None,
-            language=Language.normalize(rawprinting["language"])
-            if "language" in rawprinting
-            else None,
-            image=self.card_images_by_id[uuid.UUID(rawprinting["imageID"])]
-            if "imageID" in rawprinting
-            else None,
+            rarity=(
+                CardRarity(rawprinting["rarity"]) if "rarity" in rawprinting else None
+            ),
+            only_in_box=(
+                SetBoxType(rawprinting["onlyInBox"])
+                if "onlyInBox" in rawprinting
+                else None
+            ),
+            language=(
+                Language.normalize(rawprinting["language"])
+                if "language" in rawprinting
+                else None
+            ),
+            image=(
+                self.card_images_by_id[uuid.UUID(rawprinting["imageID"])]
+                if "imageID" in rawprinting
+                else None
+            ),
             replica=rawprinting["replica"] if "replica" in rawprinting else False,
             qty=rawprinting["qty"] if "qty" in rawprinting else 1,
         )
@@ -3319,13 +3365,15 @@ class Database:
                     SetContents(
                         formats=[Format(v) for v in content["formats"]],
                         distrobution=(
-                            SpecialDistroType(content["distrobution"])
-                            if content["distrobution"]
-                            in SpecialDistroType._value2member_map_
-                            else uuid.UUID(content["distrobution"])
-                        )
-                        if content.get("distrobution")
-                        else None,
+                            (
+                                SpecialDistroType(content["distrobution"])
+                                if content["distrobution"]
+                                in SpecialDistroType._value2member_map_
+                                else uuid.UUID(content["distrobution"])
+                            )
+                            if content.get("distrobution")
+                            else None
+                        ),
                         packs_per_box=content.get("packsPerBox"),
                         has_hobby_retail_differences=content.get(
                             "hasHobbyRetailDifferences", False
@@ -3349,9 +3397,11 @@ class Database:
                             )
                             if x
                         ],
-                        ygoprodeck=content["externalIDs"]["ygoprodeck"]
-                        if "ygoprodeck" in content["externalIDs"]
-                        else None,
+                        ygoprodeck=(
+                            content["externalIDs"]["ygoprodeck"]
+                            if "ygoprodeck" in content["externalIDs"]
+                            else None
+                        ),
                     ),
                     content.get("locales", []),
                 )
@@ -3407,18 +3457,22 @@ class Database:
 
         return Set(
             id=uuid.UUID(rawset["id"]),
-            date=datetime.date.fromisoformat(rawset["date"])
-            if "date" in rawset
-            else None,
+            date=(
+                datetime.date.fromisoformat(rawset["date"])
+                if "date" in rawset
+                else None
+            ),
             name={Language.normalize(k): v for k, v in rawset["name"].items()},
             locales=locales.values(),
             contents=[v[0] for v in contents],
-            yugipedia=ExternalIdPair(
-                rawset["externalIDs"]["yugipedia"]["name"],
-                rawset["externalIDs"]["yugipedia"]["id"],
-            )
-            if "yugipedia" in rawset["externalIDs"]
-            else None,
+            yugipedia=(
+                ExternalIdPair(
+                    rawset["externalIDs"]["yugipedia"]["name"],
+                    rawset["externalIDs"]["yugipedia"]["id"],
+                )
+                if "yugipedia" in rawset["externalIDs"]
+                else None
+            ),
         )
 
     def _load_setlist(self) -> typing.List[uuid.UUID]:
@@ -3442,12 +3496,14 @@ class Database:
                 for x in rawseries["members"]
                 if uuid.UUID(x) in self.cards_by_id
             },
-            yugipedia=ExternalIdPair(
-                rawseries["externalIDs"]["yugipedia"]["name"],
-                rawseries["externalIDs"]["yugipedia"]["id"],
-            )
-            if "yugipedia" in rawseries["externalIDs"]
-            else None,
+            yugipedia=(
+                ExternalIdPair(
+                    rawseries["externalIDs"]["yugipedia"]["name"],
+                    rawseries["externalIDs"]["yugipedia"]["id"],
+                )
+                if "yugipedia" in rawseries["externalIDs"]
+                else None
+            ),
         )
 
     def _load_serieslist(self) -> typing.List[uuid.UUID]:
@@ -3476,9 +3532,11 @@ class Database:
         return PackDistrobution(
             id=uuid.UUID(rawdistro["id"]),
             name=rawdistro["name"] if rawdistro.get("name") else None,
-            quotas={CardType(k): v for k, v in rawdistro["quotas"].items()}
-            if "quotas" in rawdistro
-            else None,
+            quotas=(
+                {CardType(k): v for k, v in rawdistro["quotas"].items()}
+                if "quotas" in rawdistro
+                else None
+            ),
             slots=[
                 x
                 for x in (
@@ -3503,14 +3561,18 @@ class Database:
         locales = {
             Locale.normalize(k): SealedProductLocale(
                 key=Locale.normalize(k),
-                date=datetime.date.fromisoformat(rawlocale["date"])
-                if rawlocale.get("date")
-                else None,
+                date=(
+                    datetime.date.fromisoformat(rawlocale["date"])
+                    if rawlocale.get("date")
+                    else None
+                ),
                 image=rawlocale.get("image"),
                 db_ids=rawlocale["externalIDs"].get("dbIDs", []),
-                has_hobby_retail_differences=rawlocale["hasHobbyRetailDifferences"]
-                if "hasHobbyRetailDifferences" in rawlocale
-                else False,
+                has_hobby_retail_differences=(
+                    rawlocale["hasHobbyRetailDifferences"]
+                    if "hasHobbyRetailDifferences" in rawlocale
+                    else False
+                ),
             )
             for k, rawlocale in rawproduct.get("locales", {}).items()
         }
@@ -3518,9 +3580,11 @@ class Database:
         return SealedProduct(
             id=uuid.UUID(rawproduct["id"]),
             name={Language.normalize(k): v for k, v in rawproduct["name"].items()},
-            date=datetime.date.fromisoformat(rawproduct["date"])
-            if rawproduct.get("date")
-            else None,
+            date=(
+                datetime.date.fromisoformat(rawproduct["date"])
+                if rawproduct.get("date")
+                else None
+            ),
             locales=locales,
             contents=[
                 SealedProductContents(
@@ -3532,9 +3596,11 @@ class Database:
                     packs={
                         SealedProductPack(
                             set=self.sets_by_id[uuid.UUID(rawpack["set"])],
-                            card=self.cards_by_id[uuid.UUID(rawpack["card"])]
-                            if "card" in rawpack
-                            else None,
+                            card=(
+                                self.cards_by_id[uuid.UUID(rawpack["card"])]
+                                if "card" in rawpack
+                                else None
+                            ),
                         ): rawpack.get("qty", 1)
                         for rawpack in rawcontents["packs"]
                         if (
@@ -3548,12 +3614,14 @@ class Database:
                 )
                 for rawcontents in rawproduct["contents"]
             ],
-            yugipedia=ExternalIdPair(
-                rawproduct["externalIDs"]["yugipedia"]["name"],
-                rawproduct["externalIDs"]["yugipedia"]["id"],
-            )
-            if "yugipedia" in rawproduct.get("externalIDs", {})
-            else None,
+            yugipedia=(
+                ExternalIdPair(
+                    rawproduct["externalIDs"]["yugipedia"]["name"],
+                    rawproduct["externalIDs"]["yugipedia"]["id"],
+                )
+                if "yugipedia" in rawproduct.get("externalIDs", {})
+                else None
+            ),
             box_of=[
                 self.sets_by_id[uuid.UUID(x)]
                 for x in rawproduct.get("boxOf", [])

@@ -3672,9 +3672,7 @@ class YugipediaBatcher:
         if os.path.exists(path):
             with open(path, encoding="utf-8") as file:
                 self.categoryMembersCache = {
-                    k[1:]
-                    if k[0] == "#"
-                    else int(k): [
+                    k[1:] if k[0] == "#" else int(k): [
                         CategoryMember(
                             x["id"], x["name"], CategoryMemberType(x["type"])
                         )
@@ -3752,9 +3750,7 @@ class YugipediaBatcher:
         with open(path, "w", encoding="utf-8") as file:
             json.dump(
                 {
-                    f"#{k}"
-                    if type(k) is str
-                    else k: [
+                    f"#{k}" if type(k) is str else k: [
                         {"id": x.id, "name": x.name, "type": x.type.value} for x in v
                     ]
                     for k, v in self.categoryMembersCache.items()
