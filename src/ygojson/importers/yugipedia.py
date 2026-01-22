@@ -2361,9 +2361,36 @@ def parse_tcg_ocg_set(
             @batcher.getImageURL("File:" + imagename.group(0))
             def onImage(url: str):
                 for gallery_link in gallery_links:
-                    lc = re.search(r"\([^\-]+\-([^\)]+)\)", gallery_link)
+                    # Match (TCG-XX-YY) or (OCG-XX) at the end of the link (before pipe or end of string)
+                    # Avoids matching parentheses in the set name like "(All-Foil Edition)"
+                    lc = re.search(r"\((?:TCG|OCG)\-([A-Z]{2}(?:\-[A-Z0-9]+)?)\)(?:\s*(?:\||$))", gallery_link)
                     if lc:
                         packimages[lc.group(1).lower()] = url
+
+    # Parse gallery HTML early to extract locale/edition info for upcoming TCG releases
+    # This must happen BEFORE processing navs so that galleries dict can be populated correctly
+    packimages_html = re.search(
+        r"<gallery[^\n]*\n(.*?)\n</gallery>", raw_data, re.DOTALL
+    )
+    gallery_lines = []
+    gallery_locale_editions = []  # List of (locale_code, edition_code) tuples from gallery
+    if packimages_html:
+        gallery_lines = [x.strip() for x in packimages_html.group(1).split("\n") if x.strip()]
+        for gallery_line in gallery_lines:
+            # Extract locale/edition info from gallery links
+            gallery_wikilinks = [
+                link.target.strip()
+                for link in wikitextparser.parse(gallery_line).wikilinks
+                if link.target.strip().lower().startswith("set card galleries:")
+            ]
+            for gallery_link in gallery_wikilinks:
+                # Extract locale and edition from gallery link like "(TCG-FR-1E)" or "(TCG-FR-1E)|text"
+                # Match before pipe or end of string to handle both cases
+                gallery_match = re.search(r"\((TCG|OCG)\-([A-Z]{2})\-?([A-Z0-9]+)?\)(?:\s*(?:\||$))", gallery_link)
+                if gallery_match:
+                    locale_code = gallery_match.group(2).lower()
+                    edition_code = gallery_match.group(3).lower() if gallery_match.group(3) else "ue"
+                    gallery_locale_editions.append((locale_code, edition_code))
 
     for nav in navs:
         lists = [
@@ -2391,6 +2418,12 @@ def parse_tcg_ocg_set(
                 for x in get_table_entry(nav, f"{edition}_galleries", "").split(",")
                 if x.strip()
             ]
+
+        # Add locale/edition info from gallery HTML to populate galleries dict
+        # This ensures upcoming TCG sets (with images but no card lists) get their editions
+        for locale_code, edition_code in gallery_locale_editions:
+            if edition_code in galleries and locale_code not in galleries[edition_code]:
+                galleries[edition_code].append(locale_code)
 
         if not lists and not galleries:
             logging.warn(f"Found set without card lists or galleries: {title}")
@@ -2439,17 +2472,19 @@ def parse_tcg_ocg_set(
                         break
                     date_lc = FALLBACK_LOCALES.get(date_lc)
 
-                if not any(x.lower() == lc for x in lists):
-                    logging.warn(
-                        f"Found set navigation in {title} with gallery but no list for locale {lc}"
+                # Parse card list if available (for released sets)
+                # If no card list yet, still continue to parse galleries (for upcoming TCG releases)
+                if any(x.lower() == lc for x in lists):
+                    addcardlist(
+                        setname,
+                        raw_locale,
+                        {EDITIONS_IN_NAV[ec] for ec, lcs in galleries.items() if lc in lcs},
                     )
-                    continue
-
-                addcardlist(
-                    setname,
-                    raw_locale,
-                    {EDITIONS_IN_NAV[ec] for ec, lcs in galleries.items() if lc in lcs},
-                )
+                else:
+                    # No card list yet, but add editions from galleries to enable pack image parsing
+                    for ec, lcs in galleries.items():
+                        if lc in lcs:
+                            raw_locale.editions.add(EDITIONS_IN_NAV[ec])
 
     if not navs:
         logging.warn(f"Found set without set navigation table: {title}")
@@ -2459,15 +2494,22 @@ def parse_tcg_ocg_set(
         logging.warn(f"Found set without locales: {title}")
         return False
 
-    packimages_html = re.search(
-        r"<gallery[^\n]*\n(.*?)\n</gallery>", raw_data, re.DOTALL
-    )
+    # Parse gallery HTML again to extract image URLs into packimages dict
+    # (galleries dict was already populated earlier)
     if packimages_html:
-        lines = [x.strip() for x in packimages_html.group(1).split("\n") if x.strip()]
-        for line in lines:
-            parse_packimage_line(line)
+        for gallery_line in gallery_lines:
+            parse_packimage_line(gallery_line)
 
     batcher.flushPendingOperations()
+
+    # Fallback: Add editions from galleries if not already added
+    # This handles cases where card list pages don't exist yet (upcoming TCG releases)
+    # but gallery images are available
+    for raw_locale in raw_locales.values():
+        if not raw_locale.editions:  # Only add if no editions were added by addcardlist()
+            for ec, lcs in galleries.items():
+                if raw_locale.key in lcs:
+                    raw_locale.editions.add(EDITIONS_IN_NAV[ec])
 
     old_printing_ids = {
         PrintingLocator(p.card, p.rarity or CardRarity.COMMON): p.id
@@ -2495,10 +2537,13 @@ def parse_tcg_ocg_set(
             if image:
                 raw_locale.images[edition] = image
 
-        prefix = commonprefix(c.code for c in raw_locale.cards.values())
-        prefixfixer = re.match(r"[^\-]+\-\D*", prefix)
-        if prefixfixer:
-            prefix = prefixfixer.group(0)
+        # Calculate prefix only if there are cards (card list exists)
+        prefix = None
+        if raw_locale.cards:
+            prefix = commonprefix(c.code for c in raw_locale.cards.values())
+            prefixfixer = re.match(r"[^\-]+\-\D*", prefix)
+            if prefixfixer:
+                prefix = prefixfixer.group(0)
 
         locale = SetLocale(
             key=Locale.normalize(raw_locale.key),
@@ -2508,66 +2553,69 @@ def parse_tcg_ocg_set(
             image=[*raw_locale.images.values(), None][0],
             date=raw_locale.date,
             prefix=(
-                None if all(rc.noabbr for rc in raw_locale.cards.values()) else prefix
+                None if not raw_locale.cards or all(rc.noabbr for rc in raw_locale.cards.values()) else prefix
             ),
             db_ids=raw_locale.db_ids,
         )
         set_.locales[locale.key] = locale
 
-        ptc_key = tuple(raw_locale.cards)
-        if ptc_key in raw_printings_to_content:
-            content = raw_printings_to_content[ptc_key]
-            content.locales.append(locale)
-            for edition in raw_locale.editions:
-                if edition not in content.editions:
-                    content.editions.append(edition)
-            if fmt not in content.formats:
-                content.formats.append(fmt)
-        else:
-            content = SetContents(
-                locales=[locale],
-                editions=[*raw_locale.editions],
-                formats=[fmt],
-                image=[*raw_locale.images.values(), None][0],
-            )
-            raw_printings_to_printings[content] = {}
-            for rc in raw_locale.cards.values():
-                rcl = rc.locator()
-                if rcl in raw_printings_to_printings[content]:
-                    logging.warn(
-                        f"Found mutliple printings with the same code and rarity in the same locale in {title}: {rcl.card.text[Language.ENGLISH].name} / {rcl.rarity.value}"
-                    )
-                    continue
-                printing = CardPrinting(
-                    id=(
-                        old_printing_ids[rcl]
-                        if rcl in old_printing_ids
-                        else uuid.uuid4()
-                    ),
-                    card=rc.card,
-                    rarity=rc.rarity,
-                    suffix=None if rc.noabbr else rc.code[len(prefix) :],
-                    replica=any(il.altinfo.lower() == "rp" for il in rc.image),
-                    qty=rc.qty,
+        # Only create SetContents if there are cards (card list exists)
+        # Locales without card lists (upcoming releases) will only have the pack image
+        if raw_locale.cards:
+            ptc_key = tuple(raw_locale.cards)
+            if ptc_key in raw_printings_to_content:
+                content = raw_printings_to_content[ptc_key]
+                content.locales.append(locale)
+                for edition in raw_locale.editions:
+                    if edition not in content.editions:
+                        content.editions.append(edition)
+                if fmt not in content.formats:
+                    content.formats.append(fmt)
+            else:
+                content = SetContents(
+                    locales=[locale],
+                    editions=[*raw_locale.editions],
+                    formats=[fmt],
+                    image=[*raw_locale.images.values(), None][0],
                 )
-                raw_printings_to_printings[content][rcl] = printing
-                content.cards.append(printing)
-
-            set_.contents.append(content)
-
-        for edition in raw_locale.editions:
-            locale.card_images.setdefault(edition, {})
-            for rc in raw_locale.cards.values():
-                ils = [il for il in rc.image if il.edition == edition]
-                if len(ils) > 1:
-                    logging.warn(
-                        f"Found multiple images for the same card {rc.card.text[Language.ENGLISH].name} / {rc.rarity}, in {title}: {[il.altinfo for il in ils]}"
+                raw_printings_to_printings[content] = {}
+                for rc in raw_locale.cards.values():
+                    rcl = rc.locator()
+                    if rcl in raw_printings_to_printings[content]:
+                        logging.warn(
+                            f"Found mutliple printings with the same code and rarity in the same locale in {title}: {rcl.card.text[Language.ENGLISH].name} / {rcl.rarity.value}"
+                        )
+                        continue
+                    printing = CardPrinting(
+                        id=(
+                            old_printing_ids[rcl]
+                            if rcl in old_printing_ids
+                            else uuid.uuid4()
+                        ),
+                        card=rc.card,
+                        rarity=rc.rarity,
+                        suffix=None if rc.noabbr else rc.code[len(prefix) :],
+                        replica=any(il.altinfo.lower() == "rp" for il in rc.image),
+                        qty=rc.qty,
                     )
-                if ils:
-                    il = ils[0]
-                    locale.card_images[edition][
-                        raw_printings_to_printings[content][rc.locator()]
-                    ] = rc.image[il]
+                    raw_printings_to_printings[content][rcl] = printing
+                    content.cards.append(printing)
+
+                set_.contents.append(content)
+
+            for edition in raw_locale.editions:
+                locale.card_images.setdefault(edition, {})
+                for rc in raw_locale.cards.values():
+                    ils = [il for il in rc.image if il.edition == edition]
+                    if len(ils) > 1:
+                        logging.warn(
+                            f"Found multiple images for the same card {rc.card.text[Language.ENGLISH].name} / {rc.rarity}, in {title}: {[il.altinfo for il in ils]}"
+                        )
+                    if ils:
+                        il = ils[0]
+                        locale.card_images[edition][
+                            raw_printings_to_printings[content][rc.locator()]
+                        ] = rc.image[il]
 
     return True
 
