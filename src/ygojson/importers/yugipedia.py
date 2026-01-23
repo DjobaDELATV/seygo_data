@@ -2363,7 +2363,10 @@ def parse_tcg_ocg_set(
                 for gallery_link in gallery_links:
                     # Match (TCG-XX-YY) or (OCG-XX) at the end of the link (before pipe or end of string)
                     # Avoids matching parentheses in the set name like "(All-Foil Edition)"
-                    lc = re.search(r"\((?:TCG|OCG)\-([A-Z]{2}(?:\-[A-Z0-9]+)?)\)(?:\s*(?:\||$))", gallery_link)
+                    lc = re.search(
+                        r"\((?:TCG|OCG)\-([A-Z]{2}(?:\-[A-Z0-9]+)?)\)(?:\s*(?:\||$))",
+                        gallery_link,
+                    )
                     if lc:
                         packimages[lc.group(1).lower()] = url
 
@@ -2373,9 +2376,13 @@ def parse_tcg_ocg_set(
         r"<gallery[^\n]*\n(.*?)\n</gallery>", raw_data, re.DOTALL
     )
     gallery_lines = []
-    gallery_locale_editions = []  # List of (locale_code, edition_code) tuples from gallery
+    gallery_locale_editions = (
+        []
+    )  # List of (locale_code, edition_code) tuples from gallery
     if packimages_html:
-        gallery_lines = [x.strip() for x in packimages_html.group(1).split("\n") if x.strip()]
+        gallery_lines = [
+            x.strip() for x in packimages_html.group(1).split("\n") if x.strip()
+        ]
         for gallery_line in gallery_lines:
             # Extract locale/edition info from gallery links
             gallery_wikilinks = [
@@ -2386,10 +2393,17 @@ def parse_tcg_ocg_set(
             for gallery_link in gallery_wikilinks:
                 # Extract locale and edition from gallery link like "(TCG-FR-1E)" or "(TCG-FR-1E)|text"
                 # Match before pipe or end of string to handle both cases
-                gallery_match = re.search(r"\((TCG|OCG)\-([A-Z]{2})\-?([A-Z0-9]+)?\)(?:\s*(?:\||$))", gallery_link)
+                gallery_match = re.search(
+                    r"\((TCG|OCG)\-([A-Z]{2})\-?([A-Z0-9]+)?\)(?:\s*(?:\||$))",
+                    gallery_link,
+                )
                 if gallery_match:
                     locale_code = gallery_match.group(2).lower()
-                    edition_code = gallery_match.group(3).lower() if gallery_match.group(3) else "ue"
+                    edition_code = (
+                        gallery_match.group(3).lower()
+                        if gallery_match.group(3)
+                        else "ue"
+                    )
                     gallery_locale_editions.append((locale_code, edition_code))
 
     for nav in navs:
@@ -2478,7 +2492,11 @@ def parse_tcg_ocg_set(
                     addcardlist(
                         setname,
                         raw_locale,
-                        {EDITIONS_IN_NAV[ec] for ec, lcs in galleries.items() if lc in lcs},
+                        {
+                            EDITIONS_IN_NAV[ec]
+                            for ec, lcs in galleries.items()
+                            if lc in lcs
+                        },
                     )
                 else:
                     # No card list yet, but add editions from galleries to enable pack image parsing
@@ -2506,7 +2524,9 @@ def parse_tcg_ocg_set(
     # This handles cases where card list pages don't exist yet (upcoming TCG releases)
     # but gallery images are available
     for raw_locale in raw_locales.values():
-        if not raw_locale.editions:  # Only add if no editions were added by addcardlist()
+        if (
+            not raw_locale.editions
+        ):  # Only add if no editions were added by addcardlist()
             for ec, lcs in galleries.items():
                 if raw_locale.key in lcs:
                     raw_locale.editions.add(EDITIONS_IN_NAV[ec])
@@ -2553,7 +2573,10 @@ def parse_tcg_ocg_set(
             image=[*raw_locale.images.values(), None][0],
             date=raw_locale.date,
             prefix=(
-                None if not raw_locale.cards or all(rc.noabbr for rc in raw_locale.cards.values()) else prefix
+                None
+                if not raw_locale.cards
+                or all(rc.noabbr for rc in raw_locale.cards.values())
+                else prefix
             ),
             db_ids=raw_locale.db_ids,
         )
