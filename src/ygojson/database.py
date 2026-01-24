@@ -4,6 +4,7 @@ import json
 import logging
 import os
 import os.path
+import re
 import typing
 import uuid
 import zipfile
@@ -12,6 +13,36 @@ import requests
 import tqdm
 
 from .version import __version__
+
+
+def normalize_card_name(name: str) -> str:
+    """
+    Normalize a card name to detect similar names that differ only by special characters.
+    This helps match cards when Yugipedia corrects names (e.g., "K9-17 \"Ripper\"" vs "K9 - 17 \"Ripper\"").
+
+    Normalization:
+    - Remove multiple spaces → single space
+    - Remove spaces around hyphens → normalize hyphens
+    - Normalize quotes (straight/curly) → all to straight quotes
+    - Lowercase for comparison
+    """
+    if not name:
+        return ""
+
+    # Normalize quotes: curly to straight
+    normalized = (
+        name.replace('"', '"').replace('"', '"').replace("'", "'").replace("'", "'")
+    )
+
+    # Normalize hyphens: remove spaces around them
+    normalized = re.sub(r"\s*-\s*", "-", normalized)
+
+    # Normalize multiple spaces to single space
+    normalized = re.sub(r"\s+", " ", normalized)
+
+    # Strip leading/trailing spaces and lowercase
+    return normalized.strip().lower()
+
 
 SCHEMA_VERSION = 1
 """The version of the JSON schema we are currently at."""
@@ -2273,6 +2304,9 @@ class Database:
     cards_by_en_name: typing.Dict[str, Card]
     """You may use this to look up cards by their case-sensitive English name."""
 
+    cards_by_normalized_en_name: typing.Dict[str, Card]
+    """You may use this to look up cards by their normalized English name (for detecting similar names)."""
+
     cards_by_konami_cid: typing.Dict[int, Card]
     """You may use this to look up cards by their Konami official databse ID."""
 
@@ -2371,6 +2405,7 @@ class Database:
         self.cards_by_password = {}
         self.cards_by_yamlyugi = {}
         self.cards_by_en_name = {}
+        self.cards_by_normalized_en_name = {}
         self.cards_by_konami_cid = {}
         self.cards_by_yugipedia_id = {}
         self.cards_by_ygoprodeck_id = {}
@@ -2420,6 +2455,10 @@ class Database:
             self.cards_by_yamlyugi[card.yamlyugi_id] = card
         if Language.ENGLISH in card.text:
             self.cards_by_en_name[card.text[Language.ENGLISH].name] = card
+            # Also index by normalized name to detect similar names
+            normalized_name = normalize_card_name(card.text[Language.ENGLISH].name)
+            if normalized_name:
+                self.cards_by_normalized_en_name[normalized_name] = card
         if card.db_id:
             self.cards_by_konami_cid[card.db_id] = card
         for page in card.yugipedia_pages or []:
@@ -2923,6 +2962,34 @@ class Database:
             else None
         )
 
+    def _should_save_card(self, card: Card) -> bool:
+        """
+        Check if a card should be saved to disk.
+        Filters out unofficial cards (like Rush Duel cards) that have:
+        - English text marked as unofficial
+        - No associated sets (not released)
+        """
+        # Always save cards with passwords or db_id (official cards)
+        if card.passwords or card.db_id:
+            return True
+
+        # Always save cards with sets (they've been released)
+        if card.sets:
+            return True
+
+        # Check if English text is marked as unofficial
+        if Language.ENGLISH in card.text:
+            if not card.text[Language.ENGLISH].official:
+                # Unofficial card with no passwords, no db_id, and no sets
+                # This is likely a Rush Duel or other unofficial card
+                logging.debug(
+                    f"Filtering out unofficial card: {card.text[Language.ENGLISH].name}"
+                )
+                return False
+
+        # Default: save the card
+        return True
+
     def save(
         self,
         *,
@@ -2949,16 +3016,24 @@ class Database:
             ) as outfile:
                 json.dump(self._save_meta_json(), outfile, indent=2)
 
+            # Filter cards before saving
+            cards_to_save = [
+                card for card in self.cards if self._should_save_card(card)
+            ]
+            filtered_count = len(self.cards) - len(cards_to_save)
+            if filtered_count > 0:
+                logging.info(f"Filtered out {filtered_count} unofficial cards")
+
             with open(
                 os.path.join(self.individuals_dir, CARDLIST_FILENAME),
                 "w",
                 encoding="utf-8",
             ) as outfile:
-                json.dump([str(card.id) for card in self.cards], outfile, indent=2)
+                json.dump([str(card.id) for card in cards_to_save], outfile, indent=2)
             os.makedirs(
                 os.path.join(self.individuals_dir, CARDS_DIRNAME), exist_ok=True
             )
-            for card in tqdm.tqdm(self.cards, desc="Saving individual cards"):
+            for card in tqdm.tqdm(cards_to_save, desc="Saving individual cards"):
                 self._save_card(card)
 
             with open(
@@ -3039,6 +3114,11 @@ class Database:
             ) as outfile:
                 json.dump(self._save_meta_json(), outfile, indent=2)
 
+            # Filter cards before saving aggregates (same filter as individuals)
+            cards_to_save = [
+                card for card in self.cards if self._should_save_card(card)
+            ]
+
             with open(
                 os.path.join(self.aggregates_dir, AGG_CARDS_FILENAME),
                 "w",
@@ -3047,8 +3127,8 @@ class Database:
                 json.dump(
                     [
                         *tqdm.tqdm(
-                            (x._to_json() for x in self.cards),
-                            total=len(self.cards),
+                            (x._to_json() for x in cards_to_save),
+                            total=len(cards_to_save),
                             desc="Saving aggregate cards",
                         )
                     ],
@@ -3659,8 +3739,114 @@ class Database:
                 del list_[i]
                 return self._deduplicate(list_, dict_)
 
+    def _deduplicate_cards_by_password(self):
+        """
+        Deduplicate "ghost" cards: cards with the same password where one version
+        has 0 sets and no Yugipedia data (created by YGOProDeck before Yugipedia import).
+
+        Rules:
+        1. Skip skill cards and tokens (they can share names legitimately)
+        2. Group cards by password AND card type
+        3. Keep version with most sets + Yugipedia data
+        4. Remove versions with 0 sets and no Yugipedia
+        """
+        from collections import defaultdict
+
+        # Group cards by password
+        cards_by_password = defaultdict(list)
+        for card in self.cards:
+            # Skip cards without passwords
+            if not card.passwords:
+                continue
+
+            # Skip skill cards and tokens (they legitimately share names)
+            if card.card_type in {CardType.SKILL, CardType.SKILL_DL, CardType.TOKEN}:
+                continue
+
+            # Group by first password + card type
+            key = (card.passwords[0], card.card_type)
+            cards_by_password[key].append(card)
+
+        # Find and remove ghost duplicates
+        cards_to_remove = set()
+        duplicates_found = 0
+
+        for (password, card_type), cards in cards_by_password.items():
+            if len(cards) <= 1:
+                continue  # No duplicates
+
+            # Check if this is a ghost duplicate pattern:
+            # One version with sets+Yugipedia, one version with 0 sets and no Yugipedia
+            has_ghost = False
+            for card in cards:
+                has_yugipedia = bool(card.yugipedia_pages)
+                has_sets = len(card.sets) > 0
+                if not has_yugipedia and not has_sets:
+                    has_ghost = True
+                    break
+
+            if not has_ghost:
+                # Not a ghost duplicate pattern, skip
+                continue
+
+            duplicates_found += 1
+
+            # Sort to find the best version
+            def card_score(card):
+                """Higher score = better card to keep"""
+                score = 0
+                # Yugipedia data is most important (indicates real card)
+                score += len(card.yugipedia_pages or []) * 10000
+                # Number of sets (indicates card is released)
+                score += len(card.sets) * 100
+                # Has Konami DB ID
+                if card.db_id:
+                    score += 10
+                return score
+
+            sorted_cards = sorted(cards, key=card_score, reverse=True)
+            best_card = sorted_cards[0]
+
+            # Log the decision
+            en_name = (
+                best_card.text[Language.ENGLISH].name
+                if Language.ENGLISH in best_card.text
+                else "UNKNOWN"
+            )
+
+            logging.info(
+                f"Ghost duplicate detected for password {password} ({en_name}):"
+            )
+            logging.info(
+                f"  Keeping: UUID {best_card.id} "
+                f"(sets: {len(best_card.sets)}, "
+                f"yugipedia: {bool(best_card.yugipedia_pages)})"
+            )
+
+            # Mark inferior versions for removal
+            for card in sorted_cards[1:]:
+                cards_to_remove.add(card.id)
+                logging.info(
+                    f"  Removing: UUID {card.id} "
+                    f"(sets: {len(card.sets)}, "
+                    f"yugipedia: {bool(card.yugipedia_pages)})"
+                )
+
+        # Remove ghost duplicates from cards list
+        if cards_to_remove:
+            self.cards = [card for card in self.cards if card.id not in cards_to_remove]
+            logging.info(
+                f"Removed {len(cards_to_remove)} ghost duplicate cards "
+                f"from {duplicates_found} duplicate groups"
+            )
+
     def deduplicate(self):
-        with tqdm.tqdm(total=5, desc="Deduplicating database") as progress_bar:
+        with tqdm.tqdm(total=6, desc="Deduplicating database") as progress_bar:
+            # First deduplicate ghost cards (same password, 0 sets, no Yugipedia)
+            self._deduplicate_cards_by_password()
+            progress_bar.update(1)
+
+            # Then standard deduplication by ID
             self._deduplicate(self.cards, self.cards_by_id)
             progress_bar.update(1)
             self._deduplicate(self.sets, self.sets_by_id)

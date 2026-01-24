@@ -3241,9 +3241,25 @@ def import_from_yugipedia(
                             if not card:
                                 # find by english name except for Token, which has a lot of cards called exactly that
                                 if batcher.idsToNames[pageid] != "Token":
+                                    # Try exact name first
                                     card = db.cards_by_en_name.get(
                                         batcher.idsToNames[pageid]
                                     )
+
+                                    # If not found, try normalized name (for similar names with different special chars)
+                                    if not card:
+                                        normalized_name = normalize_card_name(
+                                            batcher.idsToNames[pageid]
+                                        )
+                                        if normalized_name:
+                                            card = db.cards_by_normalized_en_name.get(
+                                                normalized_name
+                                            )
+                                            if card:
+                                                logging.info(
+                                                    f"Found card by normalized name: '{batcher.idsToNames[pageid]}' "
+                                                    f"matched existing card '{card.text[Language.ENGLISH].name}'"
+                                                )
 
                             if not card:
                                 # new card!
@@ -3295,6 +3311,21 @@ def import_from_yugipedia(
                             # But if we download existing DB, we want to update.
                             # Use batcher.idsToNames[pageid] for the name.
                             card = db.cards_by_en_name.get(batcher.idsToNames[pageid])
+
+                            # If not found, try normalized name
+                            if not card:
+                                normalized_name = normalize_card_name(
+                                    batcher.idsToNames[pageid]
+                                )
+                                if normalized_name:
+                                    card = db.cards_by_normalized_en_name.get(
+                                        normalized_name
+                                    )
+                                    if card:
+                                        logging.info(
+                                            f"Found skill by normalized name: '{batcher.idsToNames[pageid]}' "
+                                            f"matched existing skill '{card.text[Language.ENGLISH].name}'"
+                                        )
 
                         if not card:
                             n_new += 1
