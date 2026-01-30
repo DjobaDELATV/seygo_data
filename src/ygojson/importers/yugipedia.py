@@ -17,6 +17,7 @@ import tqdm
 import wikitextparser
 
 from ..database import *
+from ..series_aliases import BAD_TO_GOOD_SERIES_UUIDS
 
 API_URL = "https://yugipedia.com/api.php"
 RATE_LIMIT = 1.1
@@ -3555,6 +3556,20 @@ def import_from_yugipedia(
                             if not series:
                                 series = Series(id=uuid.uuid4())
                                 found = False
+
+                            # Deduplication Logic
+                            if str(series.id) in BAD_TO_GOOD_SERIES_UUIDS:
+                                keeper_uuid_str = BAD_TO_GOOD_SERIES_UUIDS[str(series.id)]
+                                keeper_uuid = uuid.UUID(keeper_uuid_str)
+                                
+                                if keeper_uuid in db.series_by_id:
+                                    series = db.series_by_id[keeper_uuid]
+                                    found = True
+                                    logging.info(f"Deduplicating series '{title}': Merging into Keeper {keeper_uuid}")
+                                else:
+                                    series = Series(id=keeper_uuid)
+                                    found = False
+                                    logging.info(f"Deduplicating series '{title}': Creating Keeper {keeper_uuid}")
 
                             if parse_series(
                                 db,
