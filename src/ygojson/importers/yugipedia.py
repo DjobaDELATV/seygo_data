@@ -3559,17 +3559,23 @@ def import_from_yugipedia(
 
                             # Deduplication Logic
                             if str(series.id) in BAD_TO_GOOD_SERIES_UUIDS:
-                                keeper_uuid_str = BAD_TO_GOOD_SERIES_UUIDS[str(series.id)]
+                                keeper_uuid_str = BAD_TO_GOOD_SERIES_UUIDS[
+                                    str(series.id)
+                                ]
                                 keeper_uuid = uuid.UUID(keeper_uuid_str)
-                                
+
                                 if keeper_uuid in db.series_by_id:
                                     series = db.series_by_id[keeper_uuid]
                                     found = True
-                                    logging.info(f"Deduplicating series '{title}': Merging into Keeper {keeper_uuid}")
+                                    logging.info(
+                                        f"Deduplicating series '{title}': Merging into Keeper {keeper_uuid}"
+                                    )
                                 else:
                                     series = Series(id=keeper_uuid)
                                     found = False
-                                    logging.info(f"Deduplicating series '{title}': Creating Keeper {keeper_uuid}")
+                                    logging.info(
+                                        f"Deduplicating series '{title}': Creating Keeper {keeper_uuid}"
+                                    )
 
                             if parse_series(
                                 db,
