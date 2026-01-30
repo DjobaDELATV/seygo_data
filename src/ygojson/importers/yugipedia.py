@@ -931,7 +931,11 @@ def parse_card(
                         LegalityPeriod(legality=legality, date=history_item.date)
                     )
 
-        if any(
+        # Check if card appears in any genesys point list
+        card_in_genesys = any(title in info for info in genesys_banlist.values())
+
+        # Create genesys data if card is in point list OR has valid TCG legality
+        if card_in_genesys or any(
             f is Format.TCG
             and (
                 h.legality is not Legality.UNKNOWN
