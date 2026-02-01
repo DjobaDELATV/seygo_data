@@ -1,0 +1,37 @@
+{
+  "$schema": "https://raw.githubusercontent.com/iconmaster5326/YGOJSON/main/schema/v1/skill.json",
+  "id": "e02dd229-00a2-40fd-b4f1-4f1a1eec215f",
+  "text": {
+    "en": {
+      "name": "Fortune Telling",
+      "effect": "Select 1 \"Fortune Lady\" monster you control and excavate the top card of your Deck. If the excavated card is a monster, the selected \"Fortune Lady\" monster's level increases by the level of the excavated monster. Then, return the excavated card to the top of your Deck.\nThis Skill can only be used once per turn and twice per Duel."
+    },
+    "fr": {
+      "name": "Divination",
+      "effect": "S\u00e9lectionnez 1 monstre \"Demoiselle de Fortune\" que vous contr\u00f4lez et d\u00e9voilez la carte du dessus de votre Deck. Si la carte d\u00e9voil\u00e9e est un monstre, le Niveau du monstre \"Demoiselle de Fortune\" s\u00e9lectionn\u00e9 augmente du Niveau du monstre d\u00e9voil\u00e9. Puis, remettez la carte d\u00e9voil\u00e9e sur le dessus de votre Deck.\nCette Comp\u00e9tence ne peut \u00eatre utilis\u00e9e qu'une fois par tour et deux fois par Duel."
+    },
+    "ja": {
+      "name": "\u30d5\u30a9\u30fc\u30c1\u30e5\u30f3\u30fb\u30c6\u30ea\u30f3\u30b0",
+      "effect": "\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u300c\u30d5\u30a9\u30fc\u30c1\u30e5\u30f3\u30ec\u30c7\u30a3\u300d\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u6307\u5b9a\u3057\u3001\u81ea\u5206\u306e\u30c7\u30c3\u30ad\u306e\u4e00\u756a\u4e0a\u306e\u30ab\u30fc\u30c9\u3092\u3081\u304f\u308a\u3001\u304a\u4e92\u3044\u306b\u78ba\u8a8d\u3059\u308b\u3002\u3081\u304f\u3063\u305f\u30ab\u30fc\u30c9\u304c\u30e2\u30f3\u30b9\u30bf\u30fc\u3060\u3063\u305f\u5834\u5408\u3001\u305d\u306e\u30ec\u30d9\u30eb\u306e\u6570\u3060\u3051\u6307\u5b9a\u3057\u305f\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u30ec\u30d9\u30eb\u3092\u4e0a\u3052\u308b\u3002\u3081\u304f\u3063\u305f\u30ab\u30fc\u30c9\u306f\u30c7\u30c3\u30ad\u306e\u4e00\u756a\u4e0a\u306b\u623b\u3059\u3002\u3053\u306e\u30b9\u30ad\u30eb\u306f\u30bf\u30fc\u30f3\u4e2d\u306b\uff11\u5ea6\u3001\u304b\u3064\u30c7\u30e5\u30a8\u30eb\u4e2d\u306b\uff12\u5ea6\u3057\u304b\u4f7f\u7528\u3067\u304d\u306a\u3044\u3002"
+    }
+  },
+  "cardType": "skill-dl",
+  "skillType": "Legendary",
+  "supportsArchetypes": [
+    "Fortune Lady"
+  ],
+  "releases": [
+    {
+      "character": "Dark Signer Carly Carmine",
+      "type": "duel_reward"
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Fortune Telling",
+        "id": 715010
+      }
+    ]
+  }
+}
