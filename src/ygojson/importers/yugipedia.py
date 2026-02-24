@@ -961,6 +961,8 @@ def parse_card(
                 last_points = points
             genesys_info.points = last_points
             card.legality[Format.GENESYS] = genesys_info
+            if card_in_genesys and last_points > 0:
+                logging.info(f"Genesys points assigned: '{title}' = {last_points} pts")
 
     for archseries in [
         x.strip()
@@ -3100,6 +3102,22 @@ def get_genesys_banlist(
                                 )
 
                             name = raw_fields[0].strip()
+                            # Strip quotes only if wrapping the entire name
+                            # e.g. "A Case for K9" -> A Case for K9
+                            # But NOT Maxx "C" or Contact "C" (quotes are part of name)
+                            if (
+                                (name.startswith('"') and name.endswith('"'))
+                                or (name.startswith("'") and name.endswith("'"))
+                            ) and len(name) > 2:
+                                name = name[1:-1].strip()
+                            # Also remove any wiki markup link syntax
+                            if name.startswith("[[") and name.endswith("]]"):
+                                name = name[2:-2]
+                            # Handle [[Page|Display]] format
+                            if "|" in name and "[[" not in name:
+                                pass  # already stripped, keep as-is
+                            elif "|" in name:
+                                name = name.split("|")[0].strip()
                             points = float(raw_fields[1].strip())
 
                             result[date][name] = points
@@ -3108,6 +3126,24 @@ def get_genesys_banlist(
 
         batcher.flushPendingOperations()
         progress_bar.update()
+
+        # Diagnostic logging for Genesys point lists
+        total_cards = sum(len(cards) for cards in result.values())
+        total_with_points = sum(
+            sum(1 for pts in cards.values() if pts > 0) for cards in result.values()
+        )
+        logging.info(
+            f"Genesys pointlists: {len(result)} lists, "
+            f"{total_cards} total card entries, "
+            f"{total_with_points} with points > 0"
+        )
+        for date, cards in sorted(result.items()):
+            logging.info(f"  Genesys list {date.isoformat()}: {len(cards)} cards")
+            # Log a few sample entries for debugging
+            sample = list(cards.items())[:3]
+            for name, pts in sample:
+                logging.info(f"    Sample: '{name}' = {pts}")
+
         return result
 
 
