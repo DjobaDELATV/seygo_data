@@ -348,7 +348,11 @@ def parse_skill(
         details = None
 
         # Get positional arguments (wikitextparser may assign numeric names like "1", "2")
-        args = [a for a in rel_templ.arguments if a.name is None or a.name.strip() == "" or a.name.strip().isdigit()]
+        args = [
+            a
+            for a in rel_templ.arguments
+            if a.name is None or a.name.strip() == "" or a.name.strip().isdigit()
+        ]
         if len(args) >= 1:
             character = _strip_markup(args[0].value).strip()
         if len(args) >= 2:
@@ -357,7 +361,11 @@ def parse_skill(
         # Also check named parameters
         if not character:
             for arg in rel_templ.arguments:
-                if arg.name and arg.name.strip() not in ["type", "release_date", "version"]:
+                if arg.name and arg.name.strip() not in [
+                    "type",
+                    "release_date",
+                    "version",
+                ]:
                     character = _strip_markup(arg.value).strip()
                     break
 
@@ -933,7 +941,24 @@ def parse_card(
                     )
 
         # Check if card appears in any genesys point list
+        # Try matching by Yugipedia page title first, then by English card name
         card_in_genesys = any(title in info for info in genesys_banlist.values())
+        genesys_lookup_name = title
+
+        if not card_in_genesys:
+            # Fallback: try the card's English name (may differ from page title)
+            en_text = card.text.get(Language.normalize(""))
+            card_en_name = en_text.name if en_text else None
+            if card_en_name and card_en_name != title:
+                card_in_genesys = any(
+                    card_en_name in info for info in genesys_banlist.values()
+                )
+                if card_in_genesys:
+                    genesys_lookup_name = card_en_name
+                    logging.info(
+                        f"Genesys match by en_name fallback: "
+                        f"'{card_en_name}' (page: '{title}')"
+                    )
 
         # Create genesys data if card is in point list OR has valid TCG legality
         if card_in_genesys or any(
@@ -948,9 +973,9 @@ def parse_card(
             last_points = 0
             for date, points in sorted(
                 {
-                    date: info[title]
+                    date: info[genesys_lookup_name]
                     for date, info in genesys_banlist.items()
-                    if title in info
+                    if genesys_lookup_name in info
                 }.items(),
                 key=lambda kv: kv[0],
             ):
@@ -3125,7 +3150,22 @@ def get_genesys_banlist(
                 do(banlist)
 
         batcher.flushPendingOperations()
+        # Second flush: getCategoryMembers callback registers getPageContents
+        # calls that need another flush to resolve
+        batcher.flushPendingOperations()
         progress_bar.update()
+
+        # Verify genesys data was populated
+        if len(result) == 0:
+            logging.warning(
+                "Genesys banlist is EMPTY after parsing! "
+                "Category may not have loaded correctly."
+            )
+        elif len(result) < 5:
+            logging.warning(
+                f"Genesys banlist only has {len(result)} lists "
+                f"(expected at least 5)"
+            )
 
         # Diagnostic logging for Genesys point lists
         total_cards = sum(len(cards) for cards in result.values())
