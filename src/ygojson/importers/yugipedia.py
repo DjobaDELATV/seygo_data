@@ -347,8 +347,8 @@ def parse_skill(
         character = None
         details = None
 
-        # Get positional arguments
-        args = [a for a in rel_templ.arguments if not a.name or a.name.strip() == ""]
+        # Get positional arguments (wikitextparser may assign numeric names like "1", "2")
+        args = [a for a in rel_templ.arguments if a.name is None or a.name.strip() == "" or a.name.strip().isdigit()]
         if len(args) >= 1:
             character = _strip_markup(args[0].value).strip()
         if len(args) >= 2:
@@ -357,7 +357,7 @@ def parse_skill(
         # Also check named parameters
         if not character:
             for arg in rel_templ.arguments:
-                if arg.name and arg.name.strip() not in ["type", "release_date"]:
+                if arg.name and arg.name.strip() not in ["type", "release_date", "version"]:
                     character = _strip_markup(arg.value).strip()
                     break
 
