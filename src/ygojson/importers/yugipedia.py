@@ -947,7 +947,7 @@ def parse_card(
 
         if not card_in_genesys:
             # Fallback: try the card's English name (may differ from page title)
-            en_text = card.text.get(Language.normalize(""))
+            en_text = card.text.get(Language.ENGLISH)
             card_en_name = en_text.name if en_text else None
             if card_en_name and card_en_name != title:
                 card_in_genesys = any(
@@ -3079,6 +3079,12 @@ def get_genesys_banlist(
 ) -> typing.Dict[datetime.date, typing.Dict[str, float]]:
     with tqdm.tqdm(total=1, desc="Fetching Yugipedia pointlists") as progress_bar:
         result: typing.Dict[datetime.date, typing.Dict[str, float]] = {}
+
+        # Force cache invalidation for Genesys category to pick up new point lists
+        genesys_cat_id = batcher.namesToIDs.get(CAT_BANLIST_GENESYS)
+        if genesys_cat_id is not None:
+            batcher.categoryMembersCache.pop(genesys_cat_id, None)
+        batcher.categoryMembersCache.pop(CAT_BANLIST_GENESYS, None)
 
         @batcher.getCategoryMembers(CAT_BANLIST_GENESYS)
         def onGetGenesysBanlist(banlists: typing.List[int]):
