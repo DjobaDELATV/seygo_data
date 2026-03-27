@@ -1148,6 +1148,7 @@ RARITY_STR_TO_ENUM = {
     "mlur": CardRarity.MILLENIUMULTRA,
     "mlscr": CardRarity.MILLENIUMSECRET,
     "mlgr": CardRarity.MILLENIUMGOLD,
+    "gmr": CardRarity.GRANDMASTER,
 }
 
 _RARITY_FTS_RAW: typing.List[typing.Tuple[typing.List[str], str]] = [
@@ -1662,6 +1663,14 @@ _RARITY_FTS_RAW: typing.List[typing.Tuple[typing.List[str], str]] = [
         "ScRBlue",
     ),
     (["orr", "over rush", "Over Rush Rare"], "ORR"),
+    (
+        [
+            "gmr",
+            "grand master",
+            "Grand Master Rare",
+        ],
+        "GMR",
+    ),
 ]
 RAIRTY_FULL_TO_SHORT = {kk.lower(): v for k, v in _RARITY_FTS_RAW for kk in k}
 
@@ -1728,6 +1737,7 @@ FULL_RARITY_STR_TO_ENUM = {
     "millennium ultra rare": CardRarity.MILLENIUMULTRA,  # mlur
     "millennium secret rare": CardRarity.MILLENIUMSECRET,  # mlscr
     "millennium gold rare": CardRarity.MILLENIUMGOLD,  # mlgr
+    "grand master rare": CardRarity.GRANDMASTER,  # gmr
 }
 
 EDITION_STR_TO_ENUM = {
@@ -4495,6 +4505,7 @@ class YugipediaBatcher:
             pagetitles = [str(p) for p in pages if type(p) is str]
             query = {
                 "action": "query",
+                "redirects": "1",
                 **({"pageids": "|".join(pageids)} if pageids else {}),
                 **({"titles": "|".join(pagetitles)} if pagetitles else {}),
             }

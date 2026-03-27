@@ -676,6 +676,8 @@ class CardRarity(enum.Enum):
     """Millenium Secret Rare."""
     MILLENIUMGOLD = "milleniumgold"
     """Millenium Gold Rare."""
+    GRANDMASTER = "grandmaster"
+    """Grand Master Rare."""
 
 
 class CardText:
