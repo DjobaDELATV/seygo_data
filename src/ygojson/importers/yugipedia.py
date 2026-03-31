@@ -3723,9 +3723,10 @@ def _get_lists(
             # fetching the changelog would take too long; just blow up the cache
             batcher.clearCache()
         else:
-            # We add a safety margin (26h) to ensure we overlap with the previous run (24h)
-            # This handles cases where the previous run might have missed something or if we are slightly delayed.
-            margin = datetime.timedelta(hours=26)
+            # We add a safety margin (48h) to ensure we overlap with the previous run (24h)
+            # This handles cases where the previous run might have missed something, if we are slightly delayed,
+            # or if a build was skipped entirely (covers up to 2 missed builds).
+            margin = datetime.timedelta(hours=48)
             effective_last_access = last_access - margin
 
             # clear the cache of any changed pages since (last_access - margin)
