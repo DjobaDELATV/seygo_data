@@ -169,7 +169,7 @@ def _write_card(in_json: typing.Dict[str, typing.Any], card: Card) -> Card:
     en_text.pendulum_effect = in_json.get("pend_desc") or en_text.pendulum_effect
 
     if card.card_type in {CardType.MONSTER, CardType.TOKEN}:
-        typeline = in_json["type"].split(" ")
+        typeline = (in_json.get("type") or "").split(" ")
 
         card.attribute = (
             Attribute(in_json["attribute"].lower())
@@ -180,6 +180,9 @@ def _write_card(in_json: typing.Dict[str, typing.Any], card: Card) -> Card:
         for i, v in MONSTER_CARD_TYPES.items():
             if i in typeline:
                 card.monster_card_types.append(v)
+        if not in_json.get("race"):
+            logging.warn(f"Card {en_text.name} is missing a race/type!")
+            raise InvalidCardImport
         card.type = Race(in_json["race"].lower().replace("-", "").replace(" ", ""))
         card.classifications = []
         for i, v in CLASSIFICATIONS.items():
@@ -209,7 +212,9 @@ def _write_card(in_json: typing.Dict[str, typing.Any], card: Card) -> Card:
     if card.card_type == CardType.MONSTER:
         card.scale = in_json.get("scale")
         if MonsterCardType.LINK in (card.monster_card_types or []):
-            card.link_arrows = [LINK_ARROWS[x] for x in in_json["linkmarkers"]]
+            card.link_arrows = [
+                LINK_ARROWS[x] for x in (in_json.get("linkmarkers") or [])
+            ]
     elif card.card_type in {CardType.SPELL, CardType.TRAP}:
         if in_json.get("race"):
             raw_race = in_json["race"].lower().replace("-", "")
@@ -262,7 +267,9 @@ def _write_card(in_json: typing.Dict[str, typing.Any], card: Card) -> Card:
         existing_image.last_checked = datetime.datetime.now()
 
     card.ygoprodeck = ExternalIdPair(
-        in_json["ygoprodeck_url"].replace("https://ygoprodeck.com/card/", ""),
+        (in_json.get("ygoprodeck_url") or "").replace(
+            "https://ygoprodeck.com/card/", ""
+        ),
         in_json["id"],
     )
     if "misc_info" in in_json and len(in_json["misc_info"]) > 0:
