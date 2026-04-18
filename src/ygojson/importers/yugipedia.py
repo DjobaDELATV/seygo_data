@@ -642,6 +642,7 @@ def parse_card(
                 or t.name.strip() == "Unofficial lore"
                 or t.name.strip() == "Unofficial text"
             )
+            and len(t.arguments) > 0
             and LOCALES_FULL.get(t.arguments[0].value.strip()) == key
             for t in data.templates
         ):
@@ -772,15 +773,23 @@ def parse_card(
 
         value = get_table_entry(cardtable, "link_arrows")
         if value:
-            card.link_arrows = [
-                LinkArrow(x.lower().replace("-", "").strip()) for x in value.split(",")
-            ]
+            card.link_arrows = []
+            for x in value.split(","):
+                arrow_str = x.lower().replace("-", "").strip()
+                if arrow_str in LinkArrow._value2member_map_:
+                    card.link_arrows.append(LinkArrow(arrow_str))
+                elif arrow_str:
+                    logging.warn(f"Unknown link arrow '{arrow_str}' in {title}")
     elif card.card_type == CardType.SPELL or card.card_type == CardType.TRAP:
         value = get_table_entry(cardtable, "property")
         if not value:
             logging.warn(f"Spell/trap has no subcategory: {title}")
             return False
-        card.subcategory = SubCategory(value.lower().replace("-", "").strip())
+        subcategory_str = value.lower().replace("-", "").strip()
+        if subcategory_str not in SubCategory._value2member_map_:
+            logging.warn(f"Unknown subcategory '{subcategory_str}' in {title}")
+            return False
+        card.subcategory = SubCategory(subcategory_str)
     elif card.card_type == CardType.TOKEN:
         pass
     elif card.card_type == CardType.SKILL:
