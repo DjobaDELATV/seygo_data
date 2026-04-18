@@ -2117,7 +2117,9 @@ def parse_tcg_ocg_set(
                                 code = cols[col_index]
                                 col_index += 1
                             else:
-                                abbr_override = re.match(r"abbr::[^\s;]+", post_comment)
+                                abbr_override = re.search(
+                                    r"abbr::\s*([^\s;]+)", post_comment
+                                )
                                 if abbr_override:
                                     code = str(abbr_override.group(1))
                                 else:
