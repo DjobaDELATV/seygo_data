@@ -9,12 +9,38 @@ inputs:
 runs:
   using: composite
   steps:
-    - name: Setup
-      uses: ./.github/actions/setup
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v3
+      with:
+        python-version: "3.8"
+    - name: Install YGOJSON
+      shell: bash
+      run: python -m pip install -e .[dev,test]
+    - name: Restore Temp from Pre-Yugipedia
+      uses: actions/cache/restore@v4.2.2
+      continue-on-error: true
+      with:
+        path: temp
+        key: temp-${{ github.run_id }}-pre-yugipedia
+        enableCrossOsArchive: true
+    - name: Restore Data from Pre-Yugipedia
+      uses: actions/cache/restore@v4.2.2
+      continue-on-error: true
+      with:
+        path: data
+        key: data-${{ github.run_id }}-pre-yugipedia
+        enableCrossOsArchive: true
     - name: Run YGOJSON (Yugipedia ${{inputs.i}})
       shell: bash
-      run: |
-        ygojson --production --no-ygoprodeck --no-yamlyugi --yugipedia-use-partition temp/part${{inputs.i}}.json --no-manual --individuals '' --no-individuals
-    - name: Teardown
-      uses: ./.github/actions/teardown
+      run: ygojson --production --no-ygoprodeck --no-yamlyugi --yugipedia-use-partition temp/part${{inputs.i}}.json --no-manual --individuals '' --no-individuals
+    - name: Upload Partition Temp Cache
+      uses: actions/upload-artifact@v4
       if: always()
+      with:
+        name: temp-partition-${{ inputs.i }}
+        path: |
+          temp/
+          !temp/*.zip
+          !temp/part*.json
+        retention-days: 1
+        if-no-files-found: warn
