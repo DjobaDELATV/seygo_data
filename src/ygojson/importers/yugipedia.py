@@ -54,7 +54,9 @@ def make_request(rawparams: typing.Dict[str, str], n_tries=0) -> requests.Respon
             f"Yugipedia API failed after {MAX_RETRIES} retries for params: {json.dumps(rawparams)}"
         )
 
-    wait = RATE_LIMIT * min(30 * (2**n_tries), 3600)  # exponential backoff, cap at 1h
+    wait = min(
+        RATE_LIMIT * 5 * (2**n_tries), 3600
+    )  # exponential backoff: ~5s, 11s, 22s, 44s...
     try:
         response = requests.get(
             API_URL,
