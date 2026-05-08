@@ -26,13 +26,16 @@ TIME_TO_JUST_REDOWNLOAD_ALL_PAGES = 30 * 24 * 60 * 60  # 1 month-ish
 _last_access = time.time()
 
 
+MAX_RETRIES = 10
+
+
 def make_request(rawparams: typing.Dict[str, str], n_tries=0) -> requests.Response:
     global _last_access
 
     now = time.time()
-    while (now - _last_access) <= RATE_LIMIT:
-        time.sleep(now - _last_access)
-        now = time.time()
+    elapsed = now - _last_access
+    if elapsed < RATE_LIMIT:
+        time.sleep(RATE_LIMIT - elapsed)
     _last_access = time.time()
 
     params = {
@@ -45,6 +48,13 @@ def make_request(rawparams: typing.Dict[str, str], n_tries=0) -> requests.Respon
 
     if logging.getLogger().getEffectiveLevel() <= logging.DEBUG:
         logging.debug(f"Making request: {json.dumps(params)}")
+
+    if n_tries >= MAX_RETRIES:
+        raise RuntimeError(
+            f"Yugipedia API failed after {MAX_RETRIES} retries for params: {json.dumps(rawparams)}"
+        )
+
+    wait = RATE_LIMIT * min(30 * (2**n_tries), 3600)  # exponential backoff, cap at 1h
     try:
         response = requests.get(
             API_URL,
@@ -52,23 +62,24 @@ def make_request(rawparams: typing.Dict[str, str], n_tries=0) -> requests.Respon
             headers={
                 "User-Agent": USER_AGENT,
             },
-            timeout=13,
+            timeout=30,
         )
         if logging.getLogger().getEffectiveLevel() <= logging.DEBUG:
             logging.debug(
                 f"Got response: {response.status_code} {response.reason} {response.text}"
             )
         if not response.ok:
-            # timeout; servers must be hammered
             logging.error(
-                f"Yugipedia server returned {response.status_code}: {response.reason}; waiting and retrying..."
+                f"Yugipedia server returned {response.status_code}: {response.reason}; waiting {wait:.0f}s and retrying (attempt {n_tries + 1}/{MAX_RETRIES})..."
             )
-            time.sleep(RATE_LIMIT * 30)
+            time.sleep(wait)
             return make_request(rawparams, n_tries + 1)
         return response
     except (requests.exceptions.Timeout, requests.exceptions.ConnectionError):
-        logging.error("connection error or timeout; waiting and retrying...")
-        time.sleep(RATE_LIMIT * 30)
+        logging.error(
+            f"connection error or timeout; waiting {wait:.0f}s and retrying (attempt {n_tries + 1}/{MAX_RETRIES})..."
+        )
+        time.sleep(wait)
         return make_request(rawparams, n_tries + 1)
 
 
@@ -390,6 +401,8 @@ def get_changelog(
         "list": "recentchanges",
         "rcend": since.isoformat(),
         "rclimit": "max",
+        "rcnamespace": "0|6|14",  # main (cards/sets/series) + file (image URL invalidation) + category (new set/series added)
+        "rcprop": "title|ids|type",
     }
 
     for results in paginate_query(query):
