@@ -8,6 +8,7 @@ by a parallel yugipedia import job. The merged result is written to output_dir.
 """
 import json
 import os
+import shutil
 import sys
 
 
@@ -60,6 +61,13 @@ def merge_temp_caches(output_dir: str, partition_dirs: list):
         os.path.join(output_dir, "yugipedia_missing.json"), "w", encoding="utf-8"
     ) as f:
         json.dump(list(missing), f, indent=2)
+
+    # yugipedia_last_read.json: same value in all partitions, copy from first available
+    for d in partition_dirs:
+        src = os.path.join(d, "yugipedia_last_read.json")
+        if os.path.exists(src):
+            shutil.copy(src, os.path.join(output_dir, "yugipedia_last_read.json"))
+            break
 
     print(f"Merged {len(partition_dirs)} partition caches into '{output_dir}'")
     print(f"  Pages indexed:     {len(pages)}")

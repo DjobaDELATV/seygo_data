@@ -3736,9 +3736,17 @@ def _get_lists(
     """Returns (cardIDs, setIDs, seriesIDs, skillIDs)."""
 
     last_access = db.last_yugipedia_read
+    # Prefer the temp-cached timestamp if it is more recent than the DB value.
+    # This guards against clearCache() being triggered when aggregate.zip on the
+    # release server is stale (e.g. upstream repo not updated in 30+ days).
+    cached_ts = getattr(batcher, "cachedLastYugipediaRead", None)
+    if cached_ts is not None and (last_access is None or cached_ts > last_access):
+        last_access = cached_ts
+
     db.last_yugipedia_read = (
         datetime.datetime.now()
     )  # a conservative estimate of when we accessed, so we don't miss new changelog entries
+    batcher.cachedLastYugipediaRead = db.last_yugipedia_read
 
     if last_access is not None:
         if (
@@ -3853,6 +3861,7 @@ IMAGE_URLS_FILENAME = "yugipedia_images.json"
 CAT_MEMBERS_FILENAME = "yugipedia_members.json"
 PAGE_CATS_FILENAME = "yugipedia_categories.json"
 MISSING_PAGES_FILENAME = "yugipedia_missing.json"
+LAST_READ_FILENAME = "yugipedia_last_read.json"
 
 
 class CategoryMemberType(enum.Enum):
@@ -3934,6 +3943,16 @@ class YugipediaBatcher:
             with open(path, encoding="utf-8") as file:
                 self.imagesCache = {int(k): v for k, v in json.load(file).items()}
 
+        self.cachedLastYugipediaRead: typing.Optional[datetime.datetime] = None
+        path = os.path.join(TEMP_DIR, LAST_READ_FILENAME)
+        if os.path.exists(path):
+            with open(path, encoding="utf-8") as file:
+                ts_str = json.load(file).get("lastRead")
+                if ts_str:
+                    self.cachedLastYugipediaRead = datetime.datetime.fromisoformat(
+                        ts_str
+                    )
+
     def __enter__(self):
         return self
 
@@ -4012,6 +4031,18 @@ class YugipediaBatcher:
         path = os.path.join(TEMP_DIR, IMAGE_URLS_FILENAME)
         with open(path, "w", encoding="utf-8") as file:
             json.dump({str(k): v for k, v in self.imagesCache.items()}, file, indent=2)
+
+        path = os.path.join(TEMP_DIR, LAST_READ_FILENAME)
+        with open(path, "w", encoding="utf-8") as file:
+            json.dump(
+                {
+                    "lastRead": (
+                        self.cachedLastYugipediaRead or datetime.datetime.now()
+                    ).isoformat()
+                },
+                file,
+                indent=2,
+            )
 
     def operationsPending(self) -> bool:
         return bool(

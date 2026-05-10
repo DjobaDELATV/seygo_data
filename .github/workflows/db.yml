@@ -180,7 +180,7 @@ jobs:
           enableCrossOsArchive: true
       - name: Run YGOJSON (Post-Yugipedia)
         run: |
-          ygojson --production --no-ygoprodeck --no-yamlyugi --no-aggregates
+          ygojson --production --no-ygoprodeck --no-yamlyugi
       - name: Test
         run: |
           python test/validate_data.py
@@ -198,6 +198,12 @@ jobs:
         with:
           files: data/individual
           dest: individual.zip
+
+      - name: Archive Aggregate
+        uses: vimtor/action-zip@v1.2
+        with:
+          files: data/aggregate
+          dest: aggregate.zip
 
       - name: Get Latest Release
         id: latest_release
@@ -219,6 +225,22 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           release-url: ${{ steps.latest_release.outputs.upload_url }}
           file: individual.zip
+
+      - name: Remove Old Aggregate ZIP
+        uses: flcdrg/remove-release-asset-action@v4.0.4
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          release_id: ${{ steps.latest_release.outputs.id }}
+          asset_name: aggregate.zip
+
+      - name: Upload Aggregate ZIP
+        uses: csexton/release-asset-action@v3
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          release-url: ${{ steps.latest_release.outputs.upload_url }}
+          file: aggregate.zip
 
       - name: Teardown
         uses: ./.github/actions/teardown
