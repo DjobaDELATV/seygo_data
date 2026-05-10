@@ -1,6 +1,6 @@
-{
+﻿{
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/iconmaster5326/YGOJSON/main/schema/v1/skill.json",
+  "$id": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/skill.json",
   "title": "Skill",
   "description": "A Duel Links Skill (not a physical card).",
   "type": "object",
@@ -12,7 +12,7 @@
   ],
   "properties": {
     "$schema": {
-      "const": "https://raw.githubusercontent.com/iconmaster5326/YGOJSON/main/schema/v1/skill.json"
+      "const": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/skill.json"
     },
     "id": {
       "description": "The UUID of this skill.",
