@@ -12,7 +12,10 @@ import tqdm
 import ygojson
 
 SCHEMA_DIR = os.path.join(ygojson.ROOT_DIR, "schema")
-SCHEMA_URI = "https://raw.githubusercontent.com/iconmaster5326/YGOJSON/main/schema/"
+SCHEMA_URIS = [
+    "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/",
+    "https://raw.githubusercontent.com/iconmaster5326/YGOJSON/main/schema/",
+]
 
 
 def removeprefix(self, prefix):
@@ -22,10 +25,11 @@ def removeprefix(self, prefix):
 
 
 def retrieve_from_filesystem(uri: str):
-    if not uri.startswith(SCHEMA_URI):
-        raise referencing.exceptions.NoSuchResource(ref=uri)
-    path = pathlib.Path(SCHEMA_DIR) / pathlib.Path(removeprefix(uri, SCHEMA_URI))
-    return referencing.Resource.from_contents(json.loads(path.read_text()))
+    for prefix in SCHEMA_URIS:
+        if uri.startswith(prefix):
+            path = pathlib.Path(SCHEMA_DIR) / pathlib.Path(removeprefix(uri, prefix))
+            return referencing.Resource.from_contents(json.loads(path.read_text()))
+    raise referencing.exceptions.NoSuchResource(ref=uri)
 
 
 REGISTRY = referencing.Registry(retrieve=retrieve_from_filesystem)
