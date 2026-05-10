@@ -4038,6 +4038,9 @@ def load_from_internet(
 
             if zip_already_exists:
                 response = requests.head(repository + "/" + zipname, stream=True)
+                if response.status_code == 404:
+                    progress_bar.update(2)
+                    return
                 if not response.ok:
                     response.raise_for_status()
                 if LAST_MODIFIED_HEADER in response.headers:
@@ -4057,6 +4060,9 @@ def load_from_internet(
                         "User-Agent": USER_AGENT,
                     },
                 )
+                if response.status_code == 404:
+                    progress_bar.update(1)
+                    return
                 if not response.ok:
                     response.raise_for_status()
                 with open(zippath, "wb") as file:
