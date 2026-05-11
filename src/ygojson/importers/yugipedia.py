@@ -3774,19 +3774,27 @@ def _get_lists(
     cards = []
     if import_cards:
         cards = [*get_card_pages(batcher)]
+        for _id in cards:
+            batcher.missingPagesCache.discard(str(_id))
 
     sets = []
     if import_sets:
         sets = [*get_set_pages(batcher)]
+        for _id in sets:
+            batcher.missingPagesCache.discard(str(_id))
 
     series = []
     if import_series:
         series = [*get_series_pages(batcher)]
+        for _id in series:
+            batcher.missingPagesCache.discard(str(_id))
 
     skills = []
     if import_cards:
         # We also treat skills as cards during import phase usually, but here we want separation
         skills = [*get_skill_pages(batcher)]
+        for _id in skills:
+            batcher.missingPagesCache.discard(str(_id))
 
     if cards and skills:
         # Filter out any skills that were accidentally picked up as cards (e.g. from TCG categories)
