@@ -2474,13 +2474,15 @@ def parse_tcg_ocg_set(
                     )
                     gallery_locale_editions.append((locale_code, edition_code))
 
+    galleries: typing.Dict[str, typing.List[str]] = {}
+
     for nav in navs:
         lists = [
             x.strip().lower()
             for x in get_table_entry(nav, "lists", "").split(",")
             if x.strip()
         ]
-        galleries: typing.Dict[str, typing.List[str]] = {}
+        galleries = {}
         setname = title
 
         for arg in nav.arguments:
@@ -2573,8 +2575,39 @@ def parse_tcg_ocg_set(
                             raw_locale.editions.add(EDITIONS_IN_NAV[ec])
 
     if not navs:
-        logging.warn(f"Found set without set navigation table: {title}")
-        return False
+        # No {{Set Navigation}} yet (e.g. a newly created +1 Expansion Pack).
+        # Build minimal raw_locales from {{Infobox set}} fields so the set is
+        # registered with its name and DB IDs even before a card list exists.
+        for lc, fmt in FORMATS_IN_NAV.items():
+            has_name = bool(get_table_entry(settable, lc + "_name"))
+            has_dbid = bool(get_table_entry(settable, lc + DBID_SUFFIX))
+            has_date = bool(get_table_entry(settable, lc + RELDATE_SUFFIX))
+            if has_name or has_dbid or has_date:
+                raw_locale = RawLocale(lc, fmt)
+                if has_dbid:
+                    dbarg = get_table_entry(settable, lc + DBID_SUFFIX)
+                    for raw_id in [
+                        x.strip()
+                        for x in dbarg.replace("*", "").split("\n")
+                        if x.strip()
+                    ]:
+                        try:
+                            raw_locale.db_ids.append(int(raw_id))
+                        except ValueError:
+                            if raw_id != "none":
+                                logging.warn(
+                                    f"Found bad konami ID in {title}: {raw_id}"
+                                )
+                if has_date:
+                    datearg_str = get_table_entry(settable, lc + RELDATE_SUFFIX, "")
+                    raw_locale.date = _parse_date(_strip_markup(datearg_str.strip()))
+                raw_locales[lc] = raw_locale
+        if not raw_locales:
+            logging.warn(f"Found set without set navigation table: {title}")
+            return False
+        logging.info(
+            f"Imported set '{title}' from infobox only (no Set Navigation found)."
+        )
 
     if not raw_locales:
         logging.warn(f"Found set without locales: {title}")
