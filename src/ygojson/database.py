@@ -140,6 +140,9 @@ MANUAL_DISTROS_DIR = os.path.join(MANUAL_DATA_DIR, "distributions")
 MANUAL_PRODUCTS_DIR = os.path.join(MANUAL_DATA_DIR, "sealed-products")
 """The directory containing manual sealed product fixup data."""
 
+MANUAL_CARDS_FILE = os.path.join(MANUAL_DATA_DIR, "card-merges.json")
+"""The file containing manual card removal/merge instructions."""
+
 
 def is_card_recent(card: "Card") -> bool:
     """Determine if a card is considered 'recent' based on its release date.
@@ -2662,6 +2665,77 @@ class Database:
         if not result and mfi.name:
             result = self.cards_by_en_name.get(mfi.name, result)
         return result
+
+    def _remove_card(self, card: "Card"):
+        """Removes a card from this database and all its lookup indexes, and deletes its individual file."""
+
+        if card in self.cards:
+            self.cards.remove(card)
+        if card in self.skills:
+            self.skills.remove(card)
+
+        self.cards_by_id.pop(card.id, None)
+        for pw in card.passwords:
+            if self.cards_by_password.get(pw) is card:
+                del self.cards_by_password[pw]
+        if card.yamlyugi_id and self.cards_by_yamlyugi.get(card.yamlyugi_id) is card:
+            del self.cards_by_yamlyugi[card.yamlyugi_id]
+        if Language.ENGLISH in card.text:
+            en_name = card.text[Language.ENGLISH].name
+            if self.cards_by_en_name.get(en_name) is card:
+                del self.cards_by_en_name[en_name]
+            normalized = normalize_card_name(en_name)
+            if normalized and self.cards_by_normalized_en_name.get(normalized) is card:
+                del self.cards_by_normalized_en_name[normalized]
+        if card.db_id and self.cards_by_konami_cid.get(card.db_id) is card:
+            del self.cards_by_konami_cid[card.db_id]
+        for page in card.yugipedia_pages or []:
+            if self.cards_by_yugipedia_id.get(page.id) is card:
+                del self.cards_by_yugipedia_id[page.id]
+        if (
+            card.ygoprodeck
+            and self.cards_by_ygoprodeck_id.get(card.ygoprodeck.id) is card
+        ):
+            del self.cards_by_ygoprodeck_id[card.ygoprodeck.id]
+        for image in card.images:
+            self.card_images_by_id.pop(image.id, None)
+
+        if self.individuals_dir:
+            card_file = os.path.join(
+                self.individuals_dir, CARDS_DIRNAME, str(card.id) + ".json"
+            )
+            if os.path.exists(card_file):
+                os.remove(card_file)
+
+    def manually_fixup_cards(self):
+        """Applies manual card removals from manual-data/card-merges.json."""
+
+        if not os.path.exists(MANUAL_CARDS_FILE):
+            return
+
+        with open(MANUAL_CARDS_FILE, encoding="utf-8") as file:
+            in_json = json.load(file)
+
+        n_removed = 0
+        for entry in tqdm.tqdm(
+            in_json.get("remove", []), desc="Applying manual card removals"
+        ):
+            mfi = ManualFixupIdentifier(entry)
+            card = self.lookup_card(mfi)
+            if card is None:
+                logging.warning(f"Card not found for removal: {entry}")
+                continue
+            en_name = (
+                card.text[Language.ENGLISH].name
+                if Language.ENGLISH in card.text
+                else str(card.id)
+            )
+            self._remove_card(card)
+            n_removed += 1
+            logging.info(f"Removed card: {en_name} (UUID: {card.id})")
+
+        if n_removed:
+            logging.info(f"Removed {n_removed} card(s) via manual fixups.")
 
     def manually_fixup_sets(self):
         """Applies all set manual fixups to this database."""

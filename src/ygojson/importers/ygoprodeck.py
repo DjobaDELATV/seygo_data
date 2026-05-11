@@ -147,6 +147,12 @@ def _import_card(
         if card is not None:
             return True, card
 
+    if in_json["id"] > MAX_REAL_PASSWORD:
+        # Placeholder/beta ID from YGOProDeck (>99999999) that didn't match any
+        # existing card. Don't create a ghost entry — the real card will come
+        # from Yugipedia once it's published with a proper Konami passcode.
+        raise InvalidCardImport
+
     cardtype = _parse_cardtype(in_json.get("type", ""))
 
     # if cardtype == CardType.MONSTER:

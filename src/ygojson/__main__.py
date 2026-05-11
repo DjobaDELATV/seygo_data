@@ -249,6 +249,9 @@ def main(argv: typing.Optional[typing.List[str]] = None) -> int:
     if not args.no_manual:
         logging.info("Running manual fixups...")
 
+        logging.info("\tApplying manual card fixups...")
+        db.manually_fixup_cards()
+
         if not args.no_distros:
             logging.info("\tImporting pack distributions...")
             db.manually_fixup_distros()
