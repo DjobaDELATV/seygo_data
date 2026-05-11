@@ -3519,10 +3519,25 @@ def import_from_yugipedia(
                                             ]
                                             try:
                                                 for db_id in db_ids:
-                                                    set_ = db.sets_by_konami_sid.get(
-                                                        int(db_id)
+                                                    candidate = (
+                                                        db.sets_by_konami_sid.get(
+                                                            int(db_id)
+                                                        )
                                                     )
-                                                    if set_:
+                                                    # Only reuse if the candidate has
+                                                    # no Yugipedia ID yet, or it already
+                                                    # points to this exact page. This
+                                                    # prevents two distinct Yugipedia
+                                                    # pages (e.g. a main set and its
+                                                    # +1 Bonus Pack) from sharing the
+                                                    # same DB entry via a common Konami
+                                                    # locale SID.
+                                                    if candidate and (
+                                                        not candidate.yugipedia
+                                                        or candidate.yugipedia.id
+                                                        == pageid
+                                                    ):
+                                                        set_ = candidate
                                                         break
                                             except ValueError:
                                                 if arg.value.strip() != "none":
@@ -3530,9 +3545,14 @@ def import_from_yugipedia(
                                                         f'Unparsable konami set ID for {arg.name} in {batcher.idsToNames.get(pageid, pageid)}: "{arg.value}"'
                                                     )
                                 if not set_:
-                                    set_ = db.sets_by_en_name.get(
+                                    en_name_candidate = db.sets_by_en_name.get(
                                         get_table_entry(settable, "en_name", "")
                                     )
+                                    if en_name_candidate and (
+                                        not en_name_candidate.yugipedia
+                                        or en_name_candidate.yugipedia.id == pageid
+                                    ):
+                                        set_ = en_name_candidate
                                 if not set_:
                                     set_ = Set(id=uuid.uuid4())
                                     found = False
