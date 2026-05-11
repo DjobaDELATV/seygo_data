@@ -257,6 +257,9 @@ def main(argv: typing.Optional[typing.List[str]] = None) -> int:
             db.manually_fixup_distros()
 
         if not args.no_sets:
+            logging.info("\tRemoving sets via manual merges...")
+            db.manually_fixup_set_merges()
+
             logging.info("\tFixing up sets...")
             db.manually_fixup_sets()
 

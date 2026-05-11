@@ -2579,10 +2579,9 @@ def parse_tcg_ocg_set(
         # Build minimal raw_locales from {{Infobox set}} fields so the set is
         # registered with its name and DB IDs even before a card list exists.
         for lc, fmt in FORMATS_IN_NAV.items():
-            has_name = bool(get_table_entry(settable, lc + "_name"))
             has_dbid = bool(get_table_entry(settable, lc + DBID_SUFFIX))
             has_date = bool(get_table_entry(settable, lc + RELDATE_SUFFIX))
-            if has_name or has_dbid or has_date:
+            if has_dbid or has_date:
                 raw_locale = RawLocale(lc, fmt)
                 if has_dbid:
                     dbarg = get_table_entry(settable, lc + DBID_SUFFIX)

@@ -143,6 +143,9 @@ MANUAL_PRODUCTS_DIR = os.path.join(MANUAL_DATA_DIR, "sealed-products")
 MANUAL_CARDS_FILE = os.path.join(MANUAL_DATA_DIR, "card-merges.json")
 """The file containing manual card removal/merge instructions."""
 
+MANUAL_SETS_FILE = os.path.join(MANUAL_DATA_DIR, "set-merges.json")
+"""The file containing manual set removal instructions."""
+
 
 def is_card_recent(card: "Card") -> bool:
     """Determine if a card is considered 'recent' based on its release date.
@@ -2706,6 +2709,72 @@ class Database:
             )
             if os.path.exists(card_file):
                 os.remove(card_file)
+
+    def _remove_set(self, set_: "Set"):
+        """Removes a set from this database and all its lookup indexes, and deletes its individual file."""
+
+        if set_ in self.sets:
+            self.sets.remove(set_)
+
+        self.sets_by_id.pop(set_.id, None)
+        if Language.ENGLISH in set_.name:
+            en_name = set_.name[Language.ENGLISH]
+            if self.sets_by_en_name.get(en_name) is set_:
+                del self.sets_by_en_name[en_name]
+        if set_.yugipedia:
+            if self.sets_by_yugipedia_id.get(set_.yugipedia.id) is set_:
+                del self.sets_by_yugipedia_id[set_.yugipedia.id]
+            if self.sets_by_yugipedia_name.get(set_.yugipedia.name) is set_:
+                del self.sets_by_yugipedia_name[set_.yugipedia.name]
+        for locale in set_.locales.values():
+            for db_id in locale.db_ids:
+                if self.sets_by_konami_sid.get(db_id) is set_:
+                    del self.sets_by_konami_sid[db_id]
+        for content in set_.contents:
+            if (
+                content.ygoprodeck
+                and self.sets_by_ygoprodeck_id.get(content.ygoprodeck) is set_
+            ):
+                del self.sets_by_ygoprodeck_id[content.ygoprodeck]
+            for printing in [*content.cards, *content.removed_cards]:
+                self.printings_by_id.pop(printing.id, None)
+
+        if self.individuals_dir:
+            set_file = os.path.join(
+                self.individuals_dir, SETS_DIRNAME, str(set_.id) + ".json"
+            )
+            if os.path.exists(set_file):
+                os.remove(set_file)
+
+    def manually_fixup_set_merges(self):
+        """Applies manual set removals from manual-data/set-merges.json."""
+
+        if not os.path.exists(MANUAL_SETS_FILE):
+            return
+
+        with open(MANUAL_SETS_FILE, encoding="utf-8") as file:
+            in_json = json.load(file)
+
+        n_removed = 0
+        for entry in tqdm.tqdm(
+            in_json.get("remove", []), desc="Applying manual set removals"
+        ):
+            mfi = ManualFixupIdentifier(entry)
+            set_ = self.lookup_set(mfi)
+            if set_ is None:
+                logging.warning(f"Set not found for removal: {entry}")
+                continue
+            en_name = (
+                set_.name[Language.ENGLISH]
+                if Language.ENGLISH in set_.name
+                else str(set_.id)
+            )
+            self._remove_set(set_)
+            n_removed += 1
+            logging.info(f"Removed set: {en_name} (UUID: {set_.id})")
+
+        if n_removed:
+            logging.info(f"Removed {n_removed} set(s) via manual fixups.")
 
     def manually_fixup_cards(self):
         """Applies manual card removals and renames from manual-data/card-merges.json."""
