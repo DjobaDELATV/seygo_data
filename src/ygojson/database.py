@@ -2708,7 +2708,7 @@ class Database:
                 os.remove(card_file)
 
     def manually_fixup_cards(self):
-        """Applies manual card removals from manual-data/card-merges.json."""
+        """Applies manual card removals and renames from manual-data/card-merges.json."""
 
         if not os.path.exists(MANUAL_CARDS_FILE):
             return
@@ -2736,6 +2736,47 @@ class Database:
 
         if n_removed:
             logging.info(f"Removed {n_removed} card(s) via manual fixups.")
+
+        n_renamed = 0
+        for entry in tqdm.tqdm(
+            in_json.get("rename", []), desc="Applying manual card renames"
+        ):
+            mfi = ManualFixupIdentifier(entry)
+            card = self.lookup_card(mfi)
+            if card is None:
+                logging.warning(f"Card not found for rename: {entry}")
+                continue
+            lang_code = entry.get("lang", "en") if type(entry) is dict else "en"
+            lang = Language(lang_code)
+            new_name = entry.get("newName") if type(entry) is dict else None
+            if not new_name:
+                logging.warning(f"Rename entry missing 'newName': {entry}")
+                continue
+            old_name = card.text[lang].name if lang in card.text else None
+            if (
+                lang == Language.ENGLISH
+                and old_name
+                and self.cards_by_en_name.get(old_name) is card
+            ):
+                del self.cards_by_en_name[old_name]
+                old_normalized = normalize_card_name(old_name)
+                if (
+                    old_normalized
+                    and self.cards_by_normalized_en_name.get(old_normalized) is card
+                ):
+                    del self.cards_by_normalized_en_name[old_normalized]
+            if lang not in card.text:
+                card.text[lang] = CardText(name=new_name)
+            else:
+                card.text[lang].name = new_name
+            self.add_card(card)
+            n_renamed += 1
+            logging.info(
+                f"Renamed card: '{old_name}' -> '{new_name}' (UUID: {card.id})"
+            )
+
+        if n_renamed:
+            logging.info(f"Renamed {n_renamed} card(s) via manual fixups.")
 
     def manually_fixup_sets(self):
         """Applies all set manual fixups to this database."""

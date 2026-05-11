@@ -3790,6 +3790,10 @@ def _get_lists(
             batcher.removeFromCache(CAT_OCG_CARDS)
             for _set_cat in SET_CATS:
                 batcher.removeFromCache(_set_cat)
+            # Clear ALL category-member caches so that pages newly added to any
+            # subcategory of SET_CATS (e.g. a freshly created +1 Expansion Pack)
+            # are not silently skipped due to stale sub-category member lists.
+            batcher.categoryMembersCache.clear()
 
     cards = []
     if import_cards:
