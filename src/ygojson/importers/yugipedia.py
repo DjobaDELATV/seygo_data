@@ -2811,8 +2811,12 @@ def parse_md_set(
                     continue
 
                 cardname = parts[0]
-                if cardname.endswith(MD_DISAMBIG_SUFFIX):
-                    cardname = cardname[: -len(MD_DISAMBIG_SUFFIX)]
+                # Replace {{=}} (MediaWiki template for literal "=") with actual "="
+                cardname = cardname.replace("{{=}}", "=")
+                # Strip any "(Master Duel...)" variant
+                cardname = re.sub(r"\s*\(Master Duel[^)]*\)$", "", cardname)
+                # Normalize fullwidth angle brackets (e.g. Maliss ＜Q＞) to ASCII
+                cardname = cardname.replace("＜", "<").replace("＞", ">")
 
                 def add_card(card: Card):
                     found_cards.add(card)
@@ -2824,10 +2828,24 @@ def parse_md_set(
                     def onGetID(cardid: int, _: str):
                         card = db.cards_by_yugipedia_id.get(cardid)
                         if not card:
+                            card = db.cards_by_en_name.get(cardname)
+                            if not card:
+                                card = db.cards_by_normalized_en_name.get(
+                                    normalize_card_name(cardname)
+                                )
+                            if card:
+                                add_card(card)
+                                return
 
                             @batcher.getPageID(cardname + " (card)")
                             def onGetID(cardid: int, _: str):
                                 card = db.cards_by_yugipedia_id.get(cardid)
+                                if not card:
+                                    card = db.cards_by_en_name.get(cardname)
+                                    if not card:
+                                        card = db.cards_by_normalized_en_name.get(
+                                            normalize_card_name(cardname)
+                                        )
                                 if not card:
                                     logging.warn(
                                         f"Unknown card in MD set {title}: {cardname}"
@@ -2839,6 +2857,14 @@ def parse_md_set(
                             add_card(card)
 
                 do(cardname)
+                # Fallback immédiat par nom si la page Yugipedia est manquante
+                name_card = db.cards_by_en_name.get(cardname)
+                if not name_card:
+                    name_card = db.cards_by_normalized_en_name.get(
+                        normalize_card_name(cardname)
+                    )
+                if name_card:
+                    add_card(name_card)
 
     def deloldprints():
         for i, printing in enumerate([*contents.cards]):
