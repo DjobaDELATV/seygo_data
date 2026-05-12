@@ -141,6 +141,7 @@ CAT_UNUSABLE = "Category:Unusable cards"
 CAT_MD_UNCRAFTABLE = "Category:Yu-Gi-Oh! Master Duel cards that cannot be crafted"
 CAT_ARCHETYPES = "Category:Archetypes"
 CAT_SERIES = "Category:Series"
+CAT_RUSH_DUEL_SERIES = "Category:Rush Duel series"
 
 SET_CATS = [
     "Category:TCG sets",
@@ -148,6 +149,8 @@ SET_CATS = [
     "Category:Yu-Gi-Oh! Master Duel sets",
     "Category:Yu-Gi-Oh! Duel Links sets",
     "Category:Preconstructed Decks",  # for specifically the Speed Duel box decks, because for some reason they have no format category in Yugipedia
+    "Category:+1 Expansion Packs",  # category page missing on Yugipedia, not reachable via OCG sets hierarchy
+    "Category:+1 Assist Packs",  # category page missing on Yugipedia, not reachable via OCG sets hierarchy
 ]
 
 BANLIST_CATS = {
@@ -617,6 +620,11 @@ def parse_card(
     cardtable = next(
         iter([x for x in data.templates if x.name.strip().lower() == "cardtable2"])
     )
+
+    rush_duel_flag = get_table_entry(cardtable, "rush_duel")
+    if rush_duel_flag and rush_duel_flag.strip().lower() == "true":
+        logging.debug(f"Skipping Rush Duel card: {title}")
+        return False
 
     card.text = {}
     for locale, key in LOCALES.items():
@@ -3697,6 +3705,13 @@ def import_from_yugipedia(
                         title = batcher.idsToNames.get(pageid)
                         if title is None:
                             logging.warning(f"Found series ID without title: {pageid}")
+                            return
+                        if (
+                            f"[[{CAT_RUSH_DUEL_SERIES}]]" in raw_data
+                            and "[[Category:TCG and OCG archetypes]]" not in raw_data
+                            and "[[Category:TCG and OCG series]]" not in raw_data
+                        ):
+                            logging.debug(f"Skipping Rush Duel series: {title}")
                             return
                         data = wikitextparser.parse(raw_data)
 

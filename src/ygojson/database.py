@@ -146,6 +146,9 @@ MANUAL_CARDS_FILE = os.path.join(MANUAL_DATA_DIR, "card-merges.json")
 MANUAL_SETS_FILE = os.path.join(MANUAL_DATA_DIR, "set-merges.json")
 """The file containing manual set removal instructions."""
 
+MANUAL_SERIES_FILE = os.path.join(MANUAL_DATA_DIR, "series-merges.json")
+"""The file containing manual series/archetype removal instructions."""
+
 
 def is_card_recent(card: "Card") -> bool:
     """Determine if a card is considered 'recent' based on its release date.
@@ -2745,6 +2748,70 @@ class Database:
             )
             if os.path.exists(set_file):
                 os.remove(set_file)
+
+    def _remove_series(self, series: "Series"):
+        """Removes a series from this database and all its lookup indexes, and deletes its individual file."""
+
+        if series in self.series:
+            self.series.remove(series)
+
+        self.series_by_id.pop(series.id, None)
+        if Language.ENGLISH in series.name:
+            en_name = series.name[Language.ENGLISH]
+            if self.series_by_en_name.get(en_name) is series:
+                del self.series_by_en_name[en_name]
+        if series.yugipedia:
+            if self.series_by_yugipedia_id.get(series.yugipedia.id) is series:
+                del self.series_by_yugipedia_id[series.yugipedia.id]
+
+        if self.individuals_dir:
+            series_file = os.path.join(
+                self.individuals_dir, SERIES_DIRNAME, str(series.id) + ".json"
+            )
+            if os.path.exists(series_file):
+                os.remove(series_file)
+
+    def lookup_series(self, mfi: ManualFixupIdentifier) -> typing.Optional["Series"]:
+        """Looks up a series from an MFI."""
+
+        result = None
+        if not result and mfi.id:
+            result = self.series_by_id.get(mfi.id, result)
+        if not result and mfi.yugipedia_id:
+            result = self.series_by_yugipedia_id.get(mfi.yugipedia_id, result)
+        if not result and mfi.name:
+            result = self.series_by_en_name.get(mfi.name, result)
+        return result
+
+    def manually_fixup_series_merges(self):
+        """Applies manual series removals from manual-data/series-merges.json."""
+
+        if not os.path.exists(MANUAL_SERIES_FILE):
+            return
+
+        with open(MANUAL_SERIES_FILE, encoding="utf-8") as file:
+            in_json = json.load(file)
+
+        n_removed = 0
+        for entry in tqdm.tqdm(
+            in_json.get("remove", []), desc="Applying manual series removals"
+        ):
+            mfi = ManualFixupIdentifier(entry)
+            series = self.lookup_series(mfi)
+            if series is None:
+                logging.warning(f"Series not found for removal: {entry}")
+                continue
+            en_name = (
+                series.name[Language.ENGLISH]
+                if Language.ENGLISH in series.name
+                else str(series.id)
+            )
+            self._remove_series(series)
+            n_removed += 1
+            logging.info(f"Removed series: {en_name} (UUID: {series.id})")
+
+        if n_removed:
+            logging.info(f"Removed {n_removed} series via manual fixups.")
 
     def manually_fixup_set_merges(self):
         """Applies manual set removals from manual-data/set-merges.json."""

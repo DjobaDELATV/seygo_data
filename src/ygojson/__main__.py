@@ -260,6 +260,9 @@ def main(argv: typing.Optional[typing.List[str]] = None) -> int:
             logging.info("\tRemoving sets via manual merges...")
             db.manually_fixup_set_merges()
 
+            logging.info("\tRemoving series via manual merges...")
+            db.manually_fixup_series_merges()
+
             logging.info("\tFixing up sets...")
             db.manually_fixup_sets()
 
