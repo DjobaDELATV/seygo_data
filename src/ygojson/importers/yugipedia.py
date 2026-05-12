@@ -2905,8 +2905,11 @@ def parse_dl_set(
                     continue
 
                 cardname = parts[0]
-                if cardname.endswith(DL_DISAMBIG_SUFFIX):
-                    cardname = cardname[: -len(DL_DISAMBIG_SUFFIX)]
+                # Replace {{=}} (MediaWiki template for literal "=") with actual "="
+                cardname = cardname.replace("{{=}}", "=")
+                # Strip any "(Duel Links...)" variant: (Duel Links), (Duel Links 2nd),
+                # (Duel Links card), etc. — we always want the base TCG/OCG card.
+                cardname = re.sub(r"\s*\(Duel Links[^)]*\)$", "", cardname)
 
                 def add_card(card: Card):
                     found_cards.add(card)
@@ -2918,10 +2921,24 @@ def parse_dl_set(
                     def onGetID(cardid: int, _: str):
                         card = db.cards_by_yugipedia_id.get(cardid)
                         if not card:
+                            card = db.cards_by_en_name.get(cardname)
+                            if not card:
+                                card = db.cards_by_normalized_en_name.get(
+                                    normalize_card_name(cardname)
+                                )
+                            if card:
+                                add_card(card)
+                                return
 
                             @batcher.getPageID(cardname + " (card)")
                             def onGetID(cardid: int, _: str):
                                 card = db.cards_by_yugipedia_id.get(cardid)
+                                if not card:
+                                    card = db.cards_by_en_name.get(cardname)
+                                    if not card:
+                                        card = db.cards_by_normalized_en_name.get(
+                                            normalize_card_name(cardname)
+                                        )
                                 if not card:
                                     logging.warn(
                                         f"Unknown card in DL set {title}: {cardname}"
@@ -2933,6 +2950,16 @@ def parse_dl_set(
                             add_card(card)
 
                 do(cardname)
+                # If the Yugipedia page is missing (callback never called), fall back to
+                # name lookup. This handles DL sets where the DL-specific page doesn't
+                # exist yet but the TCG/OCG card is already in the database.
+                name_card = db.cards_by_en_name.get(cardname)
+                if not name_card:
+                    name_card = db.cards_by_normalized_en_name.get(
+                        normalize_card_name(cardname)
+                    )
+                if name_card:
+                    add_card(name_card)
 
     def deloldprints():
         for i, printing in enumerate([*contents.cards]):
