@@ -1011,6 +1011,7 @@ class Card:
         supports: typing.Optional[typing.List[str]] = None,
         supports_archetypes: typing.Optional[typing.List[str]] = None,
         releases: typing.Optional[typing.List[SkillRelease]] = None,
+        alternate_artworks: typing.Optional[typing.List[typing.Dict[str, str]]] = None,
     ):
         self.id = id
         self.text = text or {}
@@ -1045,9 +1046,7 @@ class Card:
         self.supports = supports or []
         self.supports_archetypes = supports_archetypes or []
         self.releases = releases or []
-        self.supports = supports or []
-        self.supports_archetypes = supports_archetypes or []
-        self.releases = releases or []
+        self.alternate_artworks = alternate_artworks or []
 
     def _to_json(self) -> typing.Dict[str, typing.Any]:
         # Special handling for Duel Links Skills - they have a different schema
@@ -1153,6 +1152,11 @@ class Card:
                 for x in self.images
             ],
             "sets": [str(x.id) for x in self.sets],
+            **(
+                {"alternateArtworks": self.alternate_artworks}
+                if self.alternate_artworks
+                else {}
+            ),
             **({"illegal": self.illegal} if self.illegal else {}),
             "legality": {
                 k.value: {
@@ -3540,6 +3544,7 @@ class Database:
                 if "releases" in rawcard
                 else None
             ),
+            alternate_artworks=rawcard.get("alternateArtworks", []),
             passwords=rawcard["passwords"],
             images=[
                 CardImage(

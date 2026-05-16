@@ -141,6 +141,7 @@ CAT_UNUSABLE = "Category:Unusable cards"
 CAT_MD_UNCRAFTABLE = "Category:Yu-Gi-Oh! Master Duel cards that cannot be crafted"
 CAT_ARCHETYPES = "Category:Archetypes"
 CAT_SERIES = "Category:Series"
+CAT_ALTERNATE_ARTWORKS = "Category:OCG/TCG cards with alternate artworks"
 CAT_RUSH_DUEL_SERIES = "Category:Rush Duel series"
 
 SET_CATS = [
@@ -414,6 +415,11 @@ def get_changelog(
         for result in results["recentchanges"]:
             batcher.removeFromCache(result["title"])
             batcher.removeFromCache(result["pageid"])
+            # When a Card_Artworks page changes, also invalidate the main card page
+            # so that fetch_alternate_artworks() re-fetches it on the next run.
+            if result["title"].startswith("Card_Artworks:"):
+                card_name = result["title"][len("Card_Artworks:") :]
+                batcher.removeFromCache(card_name)
             yield ChangelogEntry(
                 result["pageid"], result["title"], ChangeType(result["type"])
             )
@@ -3322,6 +3328,107 @@ def get_genesys_banlist(
         return result
 
 
+def is_ocg_tcg_caption(raw: str) -> bool:
+    """Return True if a Card_Artworks gallery caption represents an OCG/TCG artwork."""
+    clean = re.sub(r"'{2,}", "", raw)
+    clean = re.sub(r"\[\[(?:[^\|\]]*\|)?([^\]]*)\]\]", r"\1", clean).strip()
+    if re.fullmatch(r"\d+(?:st|nd|rd|th)", clean, re.IGNORECASE):
+        return True
+    return ("OCG" in clean or "TCG" in clean) and "Rush Duel" not in clean
+
+
+def fetch_alternate_artworks(batcher: "YugipediaBatcher", db: "Database") -> None:
+    """Fetch alternate OCG/TCG artwork image URLs from Yugipedia Card_Artworks pages.
+
+    Only cards with 2+ distinct OCG/TCG artworks receive an alternateArtworks entry.
+    Each entry contains the artwork-only image URL and, when available, the full card
+    image URL (taken from card.images[i].card_art, matched by ordinal index).
+    """
+    cards_by_yugipedia_id = db.cards_by_yugipedia_id
+
+    @batcher.getCategoryMembers(CAT_ALTERNATE_ARTWORKS)
+    def _(member_ids: typing.List[int]):
+        for page_id in member_ids:
+            card = cards_by_yugipedia_id.get(page_id)
+            if not card:
+                continue
+            card_name = batcher.idsToNames.get(page_id)
+            if not card_name:
+                continue
+
+            def process_card(card: Card, card_name: str):
+                @batcher.getPageContents("Card_Artworks:" + card_name)
+                def on_artworks(raw_wikitext: str):
+                    gallery_match = re.search(
+                        r"<gallery[^>]*>(.*?)</gallery>",
+                        raw_wikitext,
+                        re.DOTALL,
+                    )
+                    if not gallery_match:
+                        return
+
+                    ocg_tcg_entries: typing.List[typing.Tuple[str, str]] = []
+                    for line in gallery_match.group(1).split("\n"):
+                        line = line.strip()
+                        if not line:
+                            continue
+                        parts = line.split("|", 1)
+                        if len(parts) != 2:
+                            continue
+                        filename, caption = parts[0].strip(), parts[1].strip()
+                        if not is_ocg_tcg_caption(caption):
+                            continue
+                        clean_label = re.sub(r"'{2,}", "", caption)
+                        clean_label = re.sub(
+                            r"\[\[(?:[^\|\]]*\|)?([^\]]*)\]\]",
+                            r"\1",
+                            clean_label,
+                        ).strip()
+                        ocg_tcg_entries.append((filename, clean_label))
+
+                    if len(ocg_tcg_entries) < 2:
+                        return
+
+                    # Pre-create entries; artworkUrl is filled in by getImageURL callbacks.
+                    entries: typing.List[typing.Dict[str, str]] = []
+                    for idx, (filename, label) in enumerate(ocg_tcg_entries):
+                        card_url = (
+                            card.images[idx].card_art
+                            if idx < len(card.images)
+                            else None
+                        )
+                        entry: typing.Dict[str, str] = {"label": label}
+                        if card_url:
+                            entry["cardUrl"] = card_url
+                        entries.append(entry)
+
+                    card.alternate_artworks = entries
+
+                    for idx, (filename, _) in enumerate(ocg_tcg_entries):
+
+                        def resolve(
+                            entry: typing.Dict[str, str], filename: str
+                        ) -> None:
+                            @batcher.getImageURL("File:" + filename)
+                            def on_url(artwork_url: str):
+                                entry["artworkUrl"] = artwork_url
+
+                        resolve(entries[idx], filename)
+
+            process_card(card, card_name)
+
+    batcher.flushPendingOperations()
+
+    # Drop entries that failed to resolve (missing files) and clear if < 2 remain.
+    for card in db.cards:
+        if card.alternate_artworks:
+            card.alternate_artworks = [
+                e for e in card.alternate_artworks if "artworkUrl" in e
+            ]
+            if len(card.alternate_artworks) < 2:
+                card.alternate_artworks = []
+
+
 def import_from_yugipedia(
     db: Database,
     *,
@@ -3574,6 +3681,13 @@ def import_from_yugipedia(
                 do_skill(pageid)
                 # progress_bar.update(1) removed because tqdm iterator handles it
 
+            batcher.saveCachesToDisk()
+
+        if import_cards:
+            # Flush remaining callbacks so card.images[x].card_art are all resolved
+            # before fetch_alternate_artworks() reads them.
+            batcher.flushPendingOperations()
+            fetch_alternate_artworks(batcher, db)
             batcher.saveCachesToDisk()
 
         if import_sets:
