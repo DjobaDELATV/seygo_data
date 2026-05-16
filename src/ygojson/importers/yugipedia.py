@@ -417,9 +417,11 @@ def get_changelog(
             batcher.removeFromCache(result["pageid"])
             # When a Card_Artworks page changes, also invalidate the main card page
             # so that fetch_alternate_artworks() re-fetches it on the next run.
-            if result["title"].startswith("Card_Artworks:"):
-                card_name = result["title"][len("Card_Artworks:") :]
-                batcher.removeFromCache(card_name)
+            # MediaWiki may return either underscore or space form for this namespace.
+            for prefix in ("Card_Artworks:", "Card Artworks:"):
+                if result["title"].startswith(prefix):
+                    batcher.removeFromCache(result["title"][len(prefix) :])
+                    break
             yield ChangelogEntry(
                 result["pageid"], result["title"], ChangeType(result["type"])
             )
@@ -3357,7 +3359,13 @@ def fetch_alternate_artworks(batcher: "YugipediaBatcher", db: "Database") -> Non
                 continue
 
             def process_card(card: Card, card_name: str):
-                @batcher.getPageContents("Card_Artworks:" + card_name)
+                artworks_page = "Card_Artworks:" + card_name
+                # Clear stale missingPagesCache entries from previous failed fetches
+                # (both underscore and space forms, since MediaWiki may normalize either).
+                batcher.missingPagesCache.discard(artworks_page)
+                batcher.missingPagesCache.discard("Card Artworks:" + card_name)
+
+                @batcher.getPageContents(artworks_page)
                 def on_artworks(raw_wikitext: str):
                     gallery_match = re.search(
                         r"<gallery[^>]*>(.*?)</gallery>",
@@ -4387,15 +4395,27 @@ class YugipediaBatcher:
                     callback(contents)
                 for callback in pending.get(title, []):
                     callback(contents)
+                # MediaWiki export returns canonical titles with spaces; requests may
+                # use underscores (e.g. "Card_Artworks:Foo" → "Card Artworks:Foo").
+                title_under = title.replace(" ", "_")
+                if title_under != title:
+                    for callback in pending.get(title_under, []):
+                        callback(contents)
 
         do([p for p in pages if type(p) is int])
         do([p for p in pages if type(p) is str])
 
         for p in pages:
-            page = p if type(p) is int else self.namesToIDs.get(str(p))
+            if type(p) is int:
+                page = p
+            else:
+                page = self.namesToIDs.get(str(p)) or self.namesToIDs.get(
+                    str(p).replace("_", " ")
+                )
             if page not in self.pageContentsCache:
                 self.missingPagesCache.add(str(p))
-                self.missingPagesCache.add(str(page))
+                if page is not None:
+                    self.missingPagesCache.add(str(page))
 
     pageCategoriesCache: typing.Dict[int, typing.List[int]]
     pendingGetPageCategories: typing.Dict[
