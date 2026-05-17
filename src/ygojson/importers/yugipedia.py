@@ -141,7 +141,6 @@ CAT_UNUSABLE = "Category:Unusable cards"
 CAT_MD_UNCRAFTABLE = "Category:Yu-Gi-Oh! Master Duel cards that cannot be crafted"
 CAT_ARCHETYPES = "Category:Archetypes"
 CAT_SERIES = "Category:Series"
-CAT_ALTERNATE_ARTWORKS = "Category:OCG/TCG cards with alternate artworks"
 CAT_RUSH_DUEL_SERIES = "Category:Rush Duel series"
 
 SET_CATS = [
@@ -415,13 +414,6 @@ def get_changelog(
         for result in results["recentchanges"]:
             batcher.removeFromCache(result["title"])
             batcher.removeFromCache(result["pageid"])
-            # When a Card_Artworks page changes, also invalidate the main card page
-            # so that fetch_alternate_artworks() re-fetches it on the next run.
-            # MediaWiki may return either underscore or space form for this namespace.
-            for prefix in ("Card_Artworks:", "Card Artworks:"):
-                if result["title"].startswith(prefix):
-                    batcher.removeFromCache(result["title"][len(prefix) :])
-                    break
             yield ChangelogEntry(
                 result["pageid"], result["title"], ChangeType(result["type"])
             )
@@ -859,49 +851,68 @@ def parse_card(
         is_card_recent(card) and any(should_refresh_image(img) for img in card.images)
     )
 
-    if should_fetch_yugipedia_images:
-        in_images_raw = get_table_entry(cardtable, "image")
-        if in_images_raw:
-            in_images = [
-                [x.strip() for x in x.split(";")]
-                for x in in_images_raw.split("\n")
-                if x.strip()
-            ]
+    in_images_raw = get_table_entry(cardtable, "image")
+    if in_images_raw:
+        in_images = [
+            [x.strip() for x in x.split(";")]
+            for x in in_images_raw.split("\n")
+            if x.strip()
+        ]
 
-            def add_image(in_image: list, out_image: CardImage):
-                if len(in_image) == 1:
-                    image_name = in_image[0]
-                elif len(in_image) == 2:
-                    image_name = in_image[1]
-                elif len(in_image) == 3:
-                    image_name = in_image[1]
-                else:
-                    logging.warn(
-                        f"Weird image string for {title}: {' ; '.join(in_image)}"
-                    )
-                    return
+        def add_image(
+            in_image: list, out_image: CardImage, update_card_art: bool = True
+        ):
+            if len(in_image) == 1:
+                card_file = in_image[0]
+                artwork_file = None
+            elif len(in_image) == 2:
+                card_file = in_image[1]
+                artwork_file = None
+            elif len(in_image) == 3:
+                card_file = in_image[1]
+                artwork_file = in_image[2]
+            else:
+                logging.warn(f"Weird image string for {title}: {' ; '.join(in_image)}")
+                return
 
-                @batcher.getImageURL("File:" + image_name)
-                def onGetImage(url: str):
+            if update_card_art:
+
+                @batcher.getImageURL("File:" + card_file)
+                def onGetCardImage(url: str):
                     out_image.card_art = url
                     out_image.last_checked = datetime.datetime.now()
 
-            for image in card.images:
-                if len(in_images) == 0:
-                    logging.warning(
-                        f'mismatch between number of images known and found in "{title}"\'s page!'
-                    )
-                else:
-                    in_image = in_images.pop(0)
-                    add_image(in_image, image)
-            for in_image in in_images:
-                new_image = CardImage(id=uuid.uuid4())
-                if len(card.passwords) == 1:
-                    # we don't have the full ability to correspond passwords here
-                    # but this will do for 99% of cards
-                    new_image.password = card.passwords[0]
-                add_image(in_image, new_image)
-                card.images.append(new_image)
+            # Supplement crop_art from Yugipedia when YGOProDeck hasn't provided it.
+            if artwork_file and not out_image.crop_art:
+
+                def _fill_crop(img: CardImage, fname: str) -> None:
+                    @batcher.getImageURL("File:" + fname)
+                    def onGetArtwork(url: str):
+                        img.crop_art = url
+
+                _fill_crop(out_image, artwork_file)
+
+        for image in card.images:
+            if len(in_images) == 0:
+                logging.warning(
+                    f'mismatch between number of images known and found in "{title}"\'s page!'
+                )
+            else:
+                in_image = in_images.pop(0)
+                # update_card_art only when needed; always check for missing crop_art.
+                add_image(
+                    in_image, image, update_card_art=should_fetch_yugipedia_images
+                )
+        # Always add artworks that Yugipedia lists beyond what we already have
+        # (e.g. a new artwork registered on Yugipedia but not yet in YGOProDeck).
+        for in_image in in_images:
+            new_image = CardImage(id=uuid.uuid4())
+            if len(card.passwords) == 1:
+                # we don't have the full ability to correspond passwords here
+                # but this will do for 99% of cards
+                new_image.password = card.passwords[0]
+            add_image(in_image, new_image, update_card_art=True)
+            card.images.append(new_image)
 
     md_title = title + MD_DISAMBIG_SUFFIX
 
@@ -3330,111 +3341,51 @@ def get_genesys_banlist(
         return result
 
 
-def is_ocg_tcg_caption(raw: str) -> bool:
-    """Return True if a Card_Artworks gallery caption represents an OCG/TCG artwork."""
-    clean = re.sub(r"'{2,}", "", raw)
-    clean = re.sub(r"\[\[(?:[^\|\]]*\|)?([^\]]*)\]\]", r"\1", clean).strip()
-    if re.fullmatch(r"\d+(?:st|nd|rd|th)", clean, re.IGNORECASE):
-        return True
-    return ("OCG" in clean or "TCG" in clean) and "Rush Duel" not in clean
+_ORDINALS = [
+    "1st",
+    "2nd",
+    "3rd",
+    "4th",
+    "5th",
+    "6th",
+    "7th",
+    "8th",
+    "9th",
+    "10th",
+    "11th",
+    "12th",
+    "13th",
+    "14th",
+    "15th",
+    "16th",
+    "17th",
+    "18th",
+    "19th",
+    "20th",
+]
 
 
-def fetch_alternate_artworks(batcher: "YugipediaBatcher", db: "Database") -> None:
-    """Fetch alternate OCG/TCG artwork image URLs from Yugipedia Card_Artworks pages.
+def build_alternate_artworks_from_images(db: "Database") -> None:
+    """Populate alternateArtworks from card.images for cards with 2+ art treatments.
 
-    Only cards with 2+ distinct OCG/TCG artworks receive an alternateArtworks entry.
-    Each entry contains the artwork-only image URL and, when available, the full card
-    image URL (taken from card.images[i].card_art, matched by ordinal index).
+    Uses the artwork URLs already resolved from the cardtable (same source as the
+    thumbnails shown on each card's Yugipedia page), so no extra API calls are needed.
     """
-    cards_by_yugipedia_id = db.cards_by_yugipedia_id
-
-    @batcher.getCategoryMembers(CAT_ALTERNATE_ARTWORKS)
-    def _(member_ids: typing.List[int]):
-        for page_id in member_ids:
-            card = cards_by_yugipedia_id.get(page_id)
-            if not card:
-                continue
-            card_name = batcher.idsToNames.get(page_id)
-            if not card_name:
-                continue
-
-            def process_card(card: Card, card_name: str):
-                artworks_page = "Card_Artworks:" + card_name
-                # Clear stale missingPagesCache entries from previous failed fetches
-                # (both underscore and space forms, since MediaWiki may normalize either).
-                batcher.missingPagesCache.discard(artworks_page)
-                batcher.missingPagesCache.discard("Card Artworks:" + card_name)
-
-                @batcher.getPageContents(artworks_page)
-                def on_artworks(raw_wikitext: str):
-                    gallery_match = re.search(
-                        r"<gallery[^>]*>(.*?)</gallery>",
-                        raw_wikitext,
-                        re.DOTALL,
-                    )
-                    if not gallery_match:
-                        return
-
-                    ocg_tcg_entries: typing.List[typing.Tuple[str, str]] = []
-                    for line in gallery_match.group(1).split("\n"):
-                        line = line.strip()
-                        if not line:
-                            continue
-                        parts = line.split("|", 1)
-                        if len(parts) != 2:
-                            continue
-                        filename, caption = parts[0].strip(), parts[1].strip()
-                        if not is_ocg_tcg_caption(caption):
-                            continue
-                        clean_label = re.sub(r"'{2,}", "", caption)
-                        clean_label = re.sub(
-                            r"\[\[(?:[^\|\]]*\|)?([^\]]*)\]\]",
-                            r"\1",
-                            clean_label,
-                        ).strip()
-                        ocg_tcg_entries.append((filename, clean_label))
-
-                    if len(ocg_tcg_entries) < 2:
-                        return
-
-                    # Pre-create entries; artworkUrl is filled in by getImageURL callbacks.
-                    entries: typing.List[typing.Dict[str, str]] = []
-                    for idx, (filename, label) in enumerate(ocg_tcg_entries):
-                        card_url = (
-                            card.images[idx].card_art
-                            if idx < len(card.images)
-                            else None
-                        )
-                        entry: typing.Dict[str, str] = {"label": label}
-                        if card_url:
-                            entry["cardUrl"] = card_url
-                        entries.append(entry)
-
-                    card.alternate_artworks = entries
-
-                    for idx, (filename, _) in enumerate(ocg_tcg_entries):
-
-                        def resolve(
-                            entry: typing.Dict[str, str], filename: str
-                        ) -> None:
-                            @batcher.getImageURL("File:" + filename)
-                            def on_url(artwork_url: str):
-                                entry["artworkUrl"] = artwork_url
-
-                        resolve(entries[idx], filename)
-
-            process_card(card, card_name)
-
-    batcher.flushPendingOperations()
-
-    # Drop entries that failed to resolve (missing files) and clear if < 2 remain.
     for card in db.cards:
-        if card.alternate_artworks:
-            card.alternate_artworks = [
-                e for e in card.alternate_artworks if "artworkUrl" in e
-            ]
-            if len(card.alternate_artworks) < 2:
-                card.alternate_artworks = []
+        if len(card.images) < 2:
+            card.alternate_artworks = []
+            continue
+        entries: typing.List[typing.Dict[str, str]] = []
+        for i, img in enumerate(card.images):
+            label = _ORDINALS[i] if i < len(_ORDINALS) else f"{i + 1}th"
+            entry: typing.Dict[str, str] = {"label": label}
+            if img.crop_art:
+                entry["artworkUrl"] = img.crop_art
+            if img.card_art:
+                entry["cardUrl"] = img.card_art
+            if "artworkUrl" in entry or "cardUrl" in entry:
+                entries.append(entry)
+        card.alternate_artworks = entries if len(entries) >= 2 else []
 
 
 def import_from_yugipedia(
@@ -3692,10 +3643,10 @@ def import_from_yugipedia(
             batcher.saveCachesToDisk()
 
         if import_cards:
-            # Flush remaining callbacks so card.images[x].card_art are all resolved
-            # before fetch_alternate_artworks() reads them.
+            # Flush remaining callbacks so all card.images URLs are resolved
+            # before building alternateArtworks from them.
             batcher.flushPendingOperations()
-            fetch_alternate_artworks(batcher, db)
+            build_alternate_artworks_from_images(db)
             batcher.saveCachesToDisk()
 
         if import_sets:
@@ -4016,6 +3967,18 @@ def _get_lists(
             # subcategory of SET_CATS (e.g. a freshly created +1 Expansion Pack)
             # are not silently skipped due to stale sub-category member lists.
             batcher.categoryMembersCache.clear()
+
+    # Invalidate cache for all cards with alternate artworks so their cardtable
+    # is re-fetched from Yugipedia this run — ensures new artworks and missing
+    # crop_art entries are picked up even for cards already known to YGOProDeck.
+    if import_cards:
+
+        @batcher.getCategoryMembers("Category:OCG/TCG cards with alternate artworks")
+        def _invalidate_alt_artwork_cards(member_ids: typing.List[int]):
+            for page_id in member_ids:
+                batcher.removeFromCache(page_id)
+
+        batcher.flushPendingOperations()
 
     cards = []
     if import_cards:
@@ -4396,8 +4359,17 @@ class YugipediaBatcher:
                 for callback in pending.get(title, []):
                     callback(contents)
                 # MediaWiki export returns canonical titles with spaces; requests may
-                # use underscores (e.g. "Card_Artworks:Foo" → "Card Artworks:Foo").
-                title_under = title.replace(" ", "_")
+                # use underscores only in the namespace prefix
+                # (e.g. "Card_Artworks:Ash Blossom & Joyous Spring" →
+                #       "Card Artworks:Ash Blossom & Joyous Spring").
+                # Only replace spaces in the namespace (before ":"), not in the page name.
+                colon_idx = title.find(":")
+                if colon_idx > 0:
+                    title_under = (
+                        title[:colon_idx].replace(" ", "_") + title[colon_idx:]
+                    )
+                else:
+                    title_under = title.replace(" ", "_")
                 if title_under != title:
                     for callback in pending.get(title_under, []):
                         callback(contents)
