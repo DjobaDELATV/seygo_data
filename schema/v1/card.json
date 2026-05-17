@@ -272,27 +272,26 @@
       }
     },
     "alternateArtworks": {
-      "description": "OCG/TCG alternate artworks for this card, sourced from Yugipedia's Card_Artworks pages. Only present when the card has 2 or more distinct OCG/TCG artworks.",
+      "description": "OCG/TCG alternate artworks for this card. Only present when the card has 2 or more distinct art treatments in card.images.",
       "type": "array",
       "items": {
         "description": "A single OCG/TCG artwork variant.",
         "type": "object",
         "required": [
-          "label",
-          "artworkUrl"
+          "label"
         ],
         "properties": {
           "label": {
-            "description": "The ordinal label of this artwork as listed on Yugipedia (e.g. '1st', '2nd OCG', '2nd TCG').",
+            "description": "Ordinal label for this artwork (e.g. '1st', '2nd', '3rd').",
             "type": "string"
           },
           "artworkUrl": {
-            "description": "URL to the artwork-only image (no card frame) hosted on ms.yugipedia.com.",
+            "description": "URL to the artwork-only image (no card frame), from YGOProDeck or Yugipedia. Absent if no crop image is available.",
             "type": "string",
             "format": "uri"
           },
           "cardUrl": {
-            "description": "URL to a representative full card image for this artwork (with frame), taken from the card's image list on Yugipedia or YGOProDeck. May be absent if no matching image was found.",
+            "description": "URL to the full card image (with frame), from YGOProDeck or Yugipedia. Absent if no card image is available.",
             "type": "string",
             "format": "uri"
           }
