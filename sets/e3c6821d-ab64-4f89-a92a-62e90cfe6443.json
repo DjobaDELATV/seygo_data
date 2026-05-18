@@ -1,0 +1,134 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/set.json",
+  "id": "e3c6821d-ab64-4f89-a92a-62e90cfe6443",
+  "name": {
+    "en": "Yu-Gi-Oh! World Championship 2007 prize cards"
+  },
+  "locales": {
+    "en": {
+      "language": "en",
+      "prefix": "WCPS-EN",
+      "date": "2007-07-28",
+      "cardImages": {
+        "unlimited": {
+          "bc7c0ed1-9e43-426b-94ac-a7cdb219dfa9": "https://ms.yugipedia.com//3/38/ChimaeratheMasterofBeasts-WCPS-EN-UR-UE.png",
+          "fc0b657d-9028-4e86-ba81-1cc664dbf86c": "https://ms.yugipedia.com//e/e3/EmperorofLightning-WCPS-EN-UR-UE.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "bc7c0ed1-9e43-426b-94ac-a7cdb219dfa9": {
+            "image": "https://ms.yugipedia.com//3/38/ChimaeratheMasterofBeasts-WCPS-EN-UR-UE.png"
+          },
+          "fc0b657d-9028-4e86-ba81-1cc664dbf86c": {
+            "image": "https://ms.yugipedia.com//e/e3/EmperorofLightning-WCPS-EN-UR-UE.png"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          1121206007
+        ]
+      }
+    },
+    "ae": {
+      "language": "ae",
+      "prefix": "WCPS-AE",
+      "date": "2007-07-28",
+      "image": "https://ms.yugipedia.com//2/20/Asian.png",
+      "cardImages": {
+        "unlimited": {
+          "c19cd38a-0cf1-4396-b7d6-c963ab8d8dff": "https://ms.yugipedia.com//5/57/TestamentoftheArcaneLords-WCPS-AE-SR-UE-RP.jpg"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "c19cd38a-0cf1-4396-b7d6-c963ab8d8dff": {
+            "image": "https://ms.yugipedia.com//5/57/TestamentoftheArcaneLords-WCPS-AE-SR-UE-RP.jpg"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          131309002
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "en"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "preconstructed",
+      "editions": [
+        "unlimited"
+      ],
+      "cards": [
+        {
+          "id": "a3e049bb-4014-499d-a5c3-7ce5ab7bc2cf",
+          "card": "010d58bf-ae59-4301-9d7e-a3a7992d37be",
+          "suffix": "700",
+          "rarity": "common"
+        },
+        {
+          "id": "bc7c0ed1-9e43-426b-94ac-a7cdb219dfa9",
+          "card": "73eb3843-a9ee-4e2b-af37-3e1e32bdb9f5",
+          "suffix": "701",
+          "rarity": "ultra"
+        },
+        {
+          "id": "fc0b657d-9028-4e86-ba81-1cc664dbf86c",
+          "card": "c4d90535-e8d1-496b-8483-f9daf96887ff",
+          "suffix": "702",
+          "rarity": "ultra"
+        }
+      ],
+      "externalIDs": {}
+    },
+    {
+      "locales": [
+        "ae"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "distrobution": "preconstructed",
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//2/20/Asian.png",
+      "cards": [
+        {
+          "id": "c19cd38a-0cf1-4396-b7d6-c963ab8d8dff",
+          "card": "156c450d-9544-4f54-bae3-958f1e18bb36",
+          "suffix": "703",
+          "rarity": "super",
+          "replica": true
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Yu-Gi-Oh! World Championship 2007 prize cards",
+      "id": 332036
+    }
+  }
+}

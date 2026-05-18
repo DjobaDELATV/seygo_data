@@ -1,0 +1,984 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/set.json",
+  "id": "fe6400c9-bdfe-4de7-831f-7c385c20299e",
+  "name": {
+    "en": "Champion Pack: Game Eight",
+    "fr": "Paquet du Champion: 8\u00e9me Partie",
+    "de": "Champion Pack: Game Eight",
+    "it": "Busta dei Campioni: Sfida Otto"
+  },
+  "locales": {
+    "it": {
+      "language": "it",
+      "prefix": "CP08-IT",
+      "date": "2009-01-05",
+      "image": "https://ms.yugipedia.com//b/b4/CP08-BoosterIT.png",
+      "cardImages": {
+        "unlimited": {
+          "cac1f0d3-e9b3-4c16-8199-7deecace285d": "https://ms.yugipedia.com//8/89/GravityBehemoth-CP08-IT-UR-UE.jpg",
+          "a906836f-c88e-4b29-a673-8ed05b9efa18": "https://ms.yugipedia.com//4/49/Prohibition-CP08-IT-SR-UE.png",
+          "11f690ee-e644-4629-b230-0fea33334737": "https://ms.yugipedia.com//5/52/MindCrush-CP08-IT-SR-UE.jpg",
+          "b880c22a-5575-45d4-9d8b-42ca668fb1ff": "https://ms.yugipedia.com//c/c3/DimensionalFissure-CP08-IT-SR-UE.jpg",
+          "889f1a30-b787-4ae2-ad7a-18edafa63438": "https://ms.yugipedia.com//0/09/LuminaLightswornSummoner-CP08-IT-SR-UE.png",
+          "7148f10e-b499-482f-a60f-2cc6fe8c4ce0": "https://ms.yugipedia.com//f/f4/MagiciansValkyria-CP08-IT-R-UE.png",
+          "0fa7becd-e0b9-4db5-a05e-878b59a53946": "https://ms.yugipedia.com//8/8a/SilentMagicianLV4-CP08-IT-R-UE.png",
+          "2a6d1f29-2dbf-443d-ad7a-7f92b4577c1a": "https://ms.yugipedia.com//0/0c/GreatShogunShien-CP08-IT-R-UE.jpg",
+          "eb0719e1-66aa-4e3d-844d-0074fefe6d7a": "https://ms.yugipedia.com//0/09/HeraldofCreation-CP08-IT-R-UE.jpg",
+          "13f493f8-872b-46c0-8bdb-95b9b2f6c994": "https://ms.yugipedia.com//9/9b/BurialfromaDifferentDimension-CP08-IT-R-UE.jpg",
+          "d5ee543b-7548-4117-9108-9d52487f0f4f": "https://ms.yugipedia.com//1/10/NecroGardna-CP08-IT-R-UE.jpg",
+          "1bae7030-d762-4e2d-b337-4d5ce9c32a88": "https://ms.yugipedia.com//c/cc/MushroomMan-CP08-IT-C-UE.jpg",
+          "110bb826-2d88-4a48-9f27-993fb169a286": "https://ms.yugipedia.com//1/18/RoyalOppression-CP08-IT-C-UE.png",
+          "75d82cb8-db6b-4401-b554-5ff1f38d1d87": "https://ms.yugipedia.com//0/0b/BeckoningLight-CP08-IT-C-UE.jpg",
+          "e4017c55-d620-486f-9b14-c4187edce0ba": "https://ms.yugipedia.com//4/4c/NeoSpacianDarkPanther-CP08-IT-C-UE.jpg",
+          "11e2e7b7-c65a-432b-855f-26096ddf033f": "https://ms.yugipedia.com//b/b2/AlienWarrior-CP08-IT-C-UE.png",
+          "0263c317-7978-4110-a1bb-bd2de0550ee1": "https://ms.yugipedia.com//f/f1/AlienMother-CP08-IT-C-UE.png",
+          "2d7e23b9-de46-4f99-8e51-1fa33c9f6835": "https://ms.yugipedia.com//5/54/VanitysRuler-CP08-IT-C-UE.jpg",
+          "68be693b-cd37-4392-87a9-1c1cf374e67e": "https://ms.yugipedia.com//2/29/MiraculousRebirth-CP08-IT-C-UE.jpg",
+          "f13f5eeb-82ba-4d5a-895f-26c6703ba6ae": "https://ms.yugipedia.com//a/ad/CellExplosionVirus-CP08-IT-C-UE.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "cac1f0d3-e9b3-4c16-8199-7deecace285d": {
+            "image": "https://ms.yugipedia.com//8/89/GravityBehemoth-CP08-IT-UR-UE.jpg"
+          },
+          "a906836f-c88e-4b29-a673-8ed05b9efa18": {
+            "image": "https://ms.yugipedia.com//4/49/Prohibition-CP08-IT-SR-UE.png"
+          },
+          "11f690ee-e644-4629-b230-0fea33334737": {
+            "image": "https://ms.yugipedia.com//5/52/MindCrush-CP08-IT-SR-UE.jpg"
+          },
+          "b880c22a-5575-45d4-9d8b-42ca668fb1ff": {
+            "image": "https://ms.yugipedia.com//c/c3/DimensionalFissure-CP08-IT-SR-UE.jpg"
+          },
+          "889f1a30-b787-4ae2-ad7a-18edafa63438": {
+            "image": "https://ms.yugipedia.com//0/09/LuminaLightswornSummoner-CP08-IT-SR-UE.png"
+          },
+          "7148f10e-b499-482f-a60f-2cc6fe8c4ce0": {
+            "image": "https://ms.yugipedia.com//f/f4/MagiciansValkyria-CP08-IT-R-UE.png"
+          },
+          "0fa7becd-e0b9-4db5-a05e-878b59a53946": {
+            "image": "https://ms.yugipedia.com//8/8a/SilentMagicianLV4-CP08-IT-R-UE.png"
+          },
+          "2a6d1f29-2dbf-443d-ad7a-7f92b4577c1a": {
+            "image": "https://ms.yugipedia.com//0/0c/GreatShogunShien-CP08-IT-R-UE.jpg"
+          },
+          "13f493f8-872b-46c0-8bdb-95b9b2f6c994": {
+            "image": "https://ms.yugipedia.com//9/9b/BurialfromaDifferentDimension-CP08-IT-R-UE.jpg"
+          },
+          "eb0719e1-66aa-4e3d-844d-0074fefe6d7a": {
+            "image": "https://ms.yugipedia.com//0/09/HeraldofCreation-CP08-IT-R-UE.jpg"
+          },
+          "1bae7030-d762-4e2d-b337-4d5ce9c32a88": {
+            "image": "https://ms.yugipedia.com//c/cc/MushroomMan-CP08-IT-C-UE.jpg"
+          },
+          "d5ee543b-7548-4117-9108-9d52487f0f4f": {
+            "image": "https://ms.yugipedia.com//1/10/NecroGardna-CP08-IT-R-UE.jpg"
+          },
+          "75d82cb8-db6b-4401-b554-5ff1f38d1d87": {
+            "image": "https://ms.yugipedia.com//0/0b/BeckoningLight-CP08-IT-C-UE.jpg"
+          },
+          "110bb826-2d88-4a48-9f27-993fb169a286": {
+            "image": "https://ms.yugipedia.com//1/18/RoyalOppression-CP08-IT-C-UE.png"
+          },
+          "11e2e7b7-c65a-432b-855f-26096ddf033f": {
+            "image": "https://ms.yugipedia.com//b/b2/AlienWarrior-CP08-IT-C-UE.png"
+          },
+          "e4017c55-d620-486f-9b14-c4187edce0ba": {
+            "image": "https://ms.yugipedia.com//4/4c/NeoSpacianDarkPanther-CP08-IT-C-UE.jpg"
+          },
+          "2d7e23b9-de46-4f99-8e51-1fa33c9f6835": {
+            "image": "https://ms.yugipedia.com//5/54/VanitysRuler-CP08-IT-C-UE.jpg"
+          },
+          "0263c317-7978-4110-a1bb-bd2de0550ee1": {
+            "image": "https://ms.yugipedia.com//f/f1/AlienMother-CP08-IT-C-UE.png"
+          },
+          "f13f5eeb-82ba-4d5a-895f-26c6703ba6ae": {
+            "image": "https://ms.yugipedia.com//a/ad/CellExplosionVirus-CP08-IT-C-UE.png"
+          },
+          "68be693b-cd37-4392-87a9-1c1cf374e67e": {
+            "image": "https://ms.yugipedia.com//2/29/MiraculousRebirth-CP08-IT-C-UE.jpg"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          4121207000
+        ]
+      }
+    },
+    "de": {
+      "language": "de",
+      "prefix": "CP08-DE",
+      "date": "2009-01-05",
+      "cardImages": {
+        "unlimited": {
+          "cac1f0d3-e9b3-4c16-8199-7deecace285d": "https://ms.yugipedia.com//3/39/GravityBehemoth-CP08-DE-UR-UE.jpg",
+          "a906836f-c88e-4b29-a673-8ed05b9efa18": "https://ms.yugipedia.com//8/83/Prohibition-CP08-DE-SR-UE.png",
+          "11f690ee-e644-4629-b230-0fea33334737": "https://ms.yugipedia.com//4/46/MindCrush-CP08-DE-SR-UE.png",
+          "b880c22a-5575-45d4-9d8b-42ca668fb1ff": "https://ms.yugipedia.com//e/e5/DimensionalFissure-CP08-DE-SR-UE.png",
+          "889f1a30-b787-4ae2-ad7a-18edafa63438": "https://ms.yugipedia.com//e/ed/LuminaLightswornSummoner-CP08-DE-SR-UE.png",
+          "7148f10e-b499-482f-a60f-2cc6fe8c4ce0": "https://ms.yugipedia.com//2/20/MagiciansValkyria-CP08-DE-R-UE.png",
+          "0fa7becd-e0b9-4db5-a05e-878b59a53946": "https://ms.yugipedia.com//0/0f/SilentMagicianLV4-CP08-DE-R-UE.png",
+          "2a6d1f29-2dbf-443d-ad7a-7f92b4577c1a": "https://ms.yugipedia.com//b/bc/GreatShogunShien-CP08-DE-R-UE.jpg",
+          "eb0719e1-66aa-4e3d-844d-0074fefe6d7a": "https://ms.yugipedia.com//f/f1/HeraldofCreation-CP08-DE-R-UE.jpg",
+          "13f493f8-872b-46c0-8bdb-95b9b2f6c994": "https://ms.yugipedia.com//3/31/BurialfromaDifferentDimension-CP08-DE-R-UE.png",
+          "d5ee543b-7548-4117-9108-9d52487f0f4f": "https://ms.yugipedia.com//b/bb/NecroGardna-CP08-DE-R-UE.jpg",
+          "1bae7030-d762-4e2d-b337-4d5ce9c32a88": "https://ms.yugipedia.com//5/5c/MushroomMan-CP08-DE-C-UE.jpg",
+          "110bb826-2d88-4a48-9f27-993fb169a286": "https://ms.yugipedia.com//0/0c/RoyalOppression-CP08-DE-C-UE.png",
+          "75d82cb8-db6b-4401-b554-5ff1f38d1d87": "https://ms.yugipedia.com//5/58/BeckoningLight-CP08-DE-C-UE.jpg",
+          "e4017c55-d620-486f-9b14-c4187edce0ba": "https://ms.yugipedia.com//8/8f/NeoSpacianDarkPanther-CP08-DE-C-UE.png",
+          "11e2e7b7-c65a-432b-855f-26096ddf033f": "https://ms.yugipedia.com//e/e5/AlienWarrior-CP08-DE-C-UE.jpg",
+          "0263c317-7978-4110-a1bb-bd2de0550ee1": "https://ms.yugipedia.com//e/e4/AlienMother-CP08-DE-C-UE.jpg",
+          "2d7e23b9-de46-4f99-8e51-1fa33c9f6835": "https://ms.yugipedia.com//8/83/VanitysRuler-CP08-DE-C-UE.jpg",
+          "68be693b-cd37-4392-87a9-1c1cf374e67e": "https://ms.yugipedia.com//7/74/MiraculousRebirth-CP08-DE-C-UE.jpg",
+          "f13f5eeb-82ba-4d5a-895f-26c6703ba6ae": "https://ms.yugipedia.com//d/d3/CellExplosionVirus-CP08-DE-C-UE.jpg"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "0fa7becd-e0b9-4db5-a05e-878b59a53946": {
+            "image": "https://ms.yugipedia.com//0/0f/SilentMagicianLV4-CP08-DE-R-UE.png"
+          },
+          "13f493f8-872b-46c0-8bdb-95b9b2f6c994": {
+            "image": "https://ms.yugipedia.com//3/31/BurialfromaDifferentDimension-CP08-DE-R-UE.png"
+          },
+          "eb0719e1-66aa-4e3d-844d-0074fefe6d7a": {
+            "image": "https://ms.yugipedia.com//f/f1/HeraldofCreation-CP08-DE-R-UE.jpg"
+          },
+          "1bae7030-d762-4e2d-b337-4d5ce9c32a88": {
+            "image": "https://ms.yugipedia.com//5/5c/MushroomMan-CP08-DE-C-UE.jpg"
+          },
+          "d5ee543b-7548-4117-9108-9d52487f0f4f": {
+            "image": "https://ms.yugipedia.com//b/bb/NecroGardna-CP08-DE-R-UE.jpg"
+          },
+          "75d82cb8-db6b-4401-b554-5ff1f38d1d87": {
+            "image": "https://ms.yugipedia.com//5/58/BeckoningLight-CP08-DE-C-UE.jpg"
+          },
+          "110bb826-2d88-4a48-9f27-993fb169a286": {
+            "image": "https://ms.yugipedia.com//0/0c/RoyalOppression-CP08-DE-C-UE.png"
+          },
+          "11e2e7b7-c65a-432b-855f-26096ddf033f": {
+            "image": "https://ms.yugipedia.com//e/e5/AlienWarrior-CP08-DE-C-UE.jpg"
+          },
+          "e4017c55-d620-486f-9b14-c4187edce0ba": {
+            "image": "https://ms.yugipedia.com//8/8f/NeoSpacianDarkPanther-CP08-DE-C-UE.png"
+          },
+          "2d7e23b9-de46-4f99-8e51-1fa33c9f6835": {
+            "image": "https://ms.yugipedia.com//8/83/VanitysRuler-CP08-DE-C-UE.jpg"
+          },
+          "0263c317-7978-4110-a1bb-bd2de0550ee1": {
+            "image": "https://ms.yugipedia.com//e/e4/AlienMother-CP08-DE-C-UE.jpg"
+          },
+          "f13f5eeb-82ba-4d5a-895f-26c6703ba6ae": {
+            "image": "https://ms.yugipedia.com//d/d3/CellExplosionVirus-CP08-DE-C-UE.jpg"
+          },
+          "68be693b-cd37-4392-87a9-1c1cf374e67e": {
+            "image": "https://ms.yugipedia.com//7/74/MiraculousRebirth-CP08-DE-C-UE.jpg"
+          },
+          "a906836f-c88e-4b29-a673-8ed05b9efa18": {
+            "image": "https://ms.yugipedia.com//8/83/Prohibition-CP08-DE-SR-UE.png"
+          },
+          "cac1f0d3-e9b3-4c16-8199-7deecace285d": {
+            "image": "https://ms.yugipedia.com//3/39/GravityBehemoth-CP08-DE-UR-UE.jpg"
+          },
+          "b880c22a-5575-45d4-9d8b-42ca668fb1ff": {
+            "image": "https://ms.yugipedia.com//e/e5/DimensionalFissure-CP08-DE-SR-UE.png"
+          },
+          "11f690ee-e644-4629-b230-0fea33334737": {
+            "image": "https://ms.yugipedia.com//4/46/MindCrush-CP08-DE-SR-UE.png"
+          },
+          "7148f10e-b499-482f-a60f-2cc6fe8c4ce0": {
+            "image": "https://ms.yugipedia.com//2/20/MagiciansValkyria-CP08-DE-R-UE.png"
+          },
+          "889f1a30-b787-4ae2-ad7a-18edafa63438": {
+            "image": "https://ms.yugipedia.com//e/ed/LuminaLightswornSummoner-CP08-DE-SR-UE.png"
+          },
+          "2a6d1f29-2dbf-443d-ad7a-7f92b4577c1a": {
+            "image": "https://ms.yugipedia.com//b/bc/GreatShogunShien-CP08-DE-R-UE.jpg"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          2121208000
+        ]
+      }
+    },
+    "en": {
+      "language": "en",
+      "prefix": "CP08-EN",
+      "date": "2009-01-05",
+      "image": "https://ms.yugipedia.com//b/b3/CP08-BoosterEN.png",
+      "cardImages": {
+        "unlimited": {
+          "cac1f0d3-e9b3-4c16-8199-7deecace285d": "https://ms.yugipedia.com//f/f8/GravityBehemoth-CP08-EN-UR-UE.png",
+          "a906836f-c88e-4b29-a673-8ed05b9efa18": "https://ms.yugipedia.com//9/96/Prohibition-CP08-EN-SR-UE.png",
+          "11f690ee-e644-4629-b230-0fea33334737": "https://ms.yugipedia.com//0/07/MindCrush-CP08-EN-SR-UE.jpg",
+          "b880c22a-5575-45d4-9d8b-42ca668fb1ff": "https://ms.yugipedia.com//d/de/DimensionalFissure-CP08-EN-SR-UE.png",
+          "889f1a30-b787-4ae2-ad7a-18edafa63438": "https://ms.yugipedia.com//1/18/LuminaLightswornSummoner-CP08-EN-SR-UE.jpg",
+          "7148f10e-b499-482f-a60f-2cc6fe8c4ce0": "https://ms.yugipedia.com//9/9d/MagiciansValkyria-CP08-EN-R-UE.png",
+          "0fa7becd-e0b9-4db5-a05e-878b59a53946": "https://ms.yugipedia.com//c/c1/SilentMagicianLV4-CP08-EN-R-UE.jpg",
+          "2a6d1f29-2dbf-443d-ad7a-7f92b4577c1a": "https://ms.yugipedia.com//3/38/GreatShogunShien-CP08-EN-R-UE.jpg",
+          "eb0719e1-66aa-4e3d-844d-0074fefe6d7a": "https://ms.yugipedia.com//a/a8/HeraldofCreation-CP08-EN-R-UE.jpg",
+          "13f493f8-872b-46c0-8bdb-95b9b2f6c994": "https://ms.yugipedia.com//4/41/BurialfromaDifferentDimension-CP08-EN-R-UE.jpg",
+          "d5ee543b-7548-4117-9108-9d52487f0f4f": "https://ms.yugipedia.com//5/5a/NecroGardna-CP08-EN-R-UE.jpg",
+          "1bae7030-d762-4e2d-b337-4d5ce9c32a88": "https://ms.yugipedia.com//4/46/MushroomMan-CP08-EN-C-UE.jpg",
+          "110bb826-2d88-4a48-9f27-993fb169a286": "https://ms.yugipedia.com//9/93/RoyalOppression-CP08-EN-C-UE.png",
+          "75d82cb8-db6b-4401-b554-5ff1f38d1d87": "https://ms.yugipedia.com//0/0f/BeckoningLight-CP08-EN-C-UE.jpg",
+          "e4017c55-d620-486f-9b14-c4187edce0ba": "https://ms.yugipedia.com//9/91/NeoSpacianDarkPanther-CP08-EN-C-UE.jpg",
+          "11e2e7b7-c65a-432b-855f-26096ddf033f": "https://ms.yugipedia.com//7/79/AlienWarrior-CP08-EN-C-UE.png",
+          "0263c317-7978-4110-a1bb-bd2de0550ee1": "https://ms.yugipedia.com//f/fa/AlienMother-CP08-EN-C-UE.jpg",
+          "2d7e23b9-de46-4f99-8e51-1fa33c9f6835": "https://ms.yugipedia.com//b/b2/VanitysRuler-CP08-EN-C-UE.jpg",
+          "68be693b-cd37-4392-87a9-1c1cf374e67e": "https://ms.yugipedia.com//f/f7/MiraculousRebirth-CP08-EN-C-UE.png",
+          "f13f5eeb-82ba-4d5a-895f-26c6703ba6ae": "https://ms.yugipedia.com//8/82/CellExplosionVirus-CP08-EN-C-UE.jpg"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "a906836f-c88e-4b29-a673-8ed05b9efa18": {
+            "image": "https://ms.yugipedia.com//9/96/Prohibition-CP08-EN-SR-UE.png"
+          },
+          "cac1f0d3-e9b3-4c16-8199-7deecace285d": {
+            "image": "https://ms.yugipedia.com//f/f8/GravityBehemoth-CP08-EN-UR-UE.png"
+          },
+          "b880c22a-5575-45d4-9d8b-42ca668fb1ff": {
+            "image": "https://ms.yugipedia.com//d/de/DimensionalFissure-CP08-EN-SR-UE.png"
+          },
+          "11f690ee-e644-4629-b230-0fea33334737": {
+            "image": "https://ms.yugipedia.com//0/07/MindCrush-CP08-EN-SR-UE.jpg"
+          },
+          "0fa7becd-e0b9-4db5-a05e-878b59a53946": {
+            "image": "https://ms.yugipedia.com//c/c1/SilentMagicianLV4-CP08-EN-R-UE.jpg"
+          },
+          "889f1a30-b787-4ae2-ad7a-18edafa63438": {
+            "image": "https://ms.yugipedia.com//1/18/LuminaLightswornSummoner-CP08-EN-SR-UE.jpg"
+          },
+          "7148f10e-b499-482f-a60f-2cc6fe8c4ce0": {
+            "image": "https://ms.yugipedia.com//9/9d/MagiciansValkyria-CP08-EN-R-UE.png"
+          },
+          "eb0719e1-66aa-4e3d-844d-0074fefe6d7a": {
+            "image": "https://ms.yugipedia.com//a/a8/HeraldofCreation-CP08-EN-R-UE.jpg"
+          },
+          "2a6d1f29-2dbf-443d-ad7a-7f92b4577c1a": {
+            "image": "https://ms.yugipedia.com//3/38/GreatShogunShien-CP08-EN-R-UE.jpg"
+          },
+          "d5ee543b-7548-4117-9108-9d52487f0f4f": {
+            "image": "https://ms.yugipedia.com//5/5a/NecroGardna-CP08-EN-R-UE.jpg"
+          },
+          "13f493f8-872b-46c0-8bdb-95b9b2f6c994": {
+            "image": "https://ms.yugipedia.com//4/41/BurialfromaDifferentDimension-CP08-EN-R-UE.jpg"
+          },
+          "110bb826-2d88-4a48-9f27-993fb169a286": {
+            "image": "https://ms.yugipedia.com//9/93/RoyalOppression-CP08-EN-C-UE.png"
+          },
+          "1bae7030-d762-4e2d-b337-4d5ce9c32a88": {
+            "image": "https://ms.yugipedia.com//4/46/MushroomMan-CP08-EN-C-UE.jpg"
+          },
+          "e4017c55-d620-486f-9b14-c4187edce0ba": {
+            "image": "https://ms.yugipedia.com//9/91/NeoSpacianDarkPanther-CP08-EN-C-UE.jpg"
+          },
+          "75d82cb8-db6b-4401-b554-5ff1f38d1d87": {
+            "image": "https://ms.yugipedia.com//0/0f/BeckoningLight-CP08-EN-C-UE.jpg"
+          },
+          "0263c317-7978-4110-a1bb-bd2de0550ee1": {
+            "image": "https://ms.yugipedia.com//f/fa/AlienMother-CP08-EN-C-UE.jpg"
+          },
+          "11e2e7b7-c65a-432b-855f-26096ddf033f": {
+            "image": "https://ms.yugipedia.com//7/79/AlienWarrior-CP08-EN-C-UE.png"
+          },
+          "68be693b-cd37-4392-87a9-1c1cf374e67e": {
+            "image": "https://ms.yugipedia.com//f/f7/MiraculousRebirth-CP08-EN-C-UE.png"
+          },
+          "2d7e23b9-de46-4f99-8e51-1fa33c9f6835": {
+            "image": "https://ms.yugipedia.com//b/b2/VanitysRuler-CP08-EN-C-UE.jpg"
+          },
+          "f13f5eeb-82ba-4d5a-895f-26c6703ba6ae": {
+            "image": "https://ms.yugipedia.com//8/82/CellExplosionVirus-CP08-EN-C-UE.jpg"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          1121208000
+        ]
+      }
+    },
+    "fr": {
+      "language": "fr",
+      "prefix": "CP08-FR",
+      "date": "2009-01-05",
+      "cardImages": {
+        "unlimited": {
+          "cac1f0d3-e9b3-4c16-8199-7deecace285d": "https://ms.yugipedia.com//b/bf/GravityBehemoth-CP08-FR-UR-UE.png",
+          "a906836f-c88e-4b29-a673-8ed05b9efa18": "https://ms.yugipedia.com//3/3c/Prohibition-CP08-FR-SR-UE.png",
+          "11f690ee-e644-4629-b230-0fea33334737": "https://ms.yugipedia.com//b/b1/MindCrush-CP08-FR-SR-UE.png",
+          "b880c22a-5575-45d4-9d8b-42ca668fb1ff": "https://ms.yugipedia.com//b/b2/DimensionalFissure-CP08-FR-SR-UE.jpg",
+          "889f1a30-b787-4ae2-ad7a-18edafa63438": "https://ms.yugipedia.com//3/37/LuminaLightswornSummoner-CP08-FR-SR-UE.png",
+          "7148f10e-b499-482f-a60f-2cc6fe8c4ce0": "https://ms.yugipedia.com//7/76/MagiciansValkyria-CP08-FR-R-UE.png",
+          "0fa7becd-e0b9-4db5-a05e-878b59a53946": "https://ms.yugipedia.com//1/18/SilentMagicianLV4-CP08-FR-R-UE.jpg",
+          "2a6d1f29-2dbf-443d-ad7a-7f92b4577c1a": "https://ms.yugipedia.com//4/41/GreatShogunShien-CP08-FR-R-UE.png",
+          "eb0719e1-66aa-4e3d-844d-0074fefe6d7a": "https://ms.yugipedia.com//b/bb/HeraldofCreation-CP08-FR-R-UE.jpg",
+          "13f493f8-872b-46c0-8bdb-95b9b2f6c994": "https://ms.yugipedia.com//c/cf/BurialfromaDifferentDimension-CP08-FR-R-UE.png",
+          "1bae7030-d762-4e2d-b337-4d5ce9c32a88": "https://ms.yugipedia.com//4/4f/MushroomMan-CP08-FR-C-UE.png",
+          "110bb826-2d88-4a48-9f27-993fb169a286": "https://ms.yugipedia.com//0/04/RoyalOppression-CP08-FR-C-UE.png",
+          "75d82cb8-db6b-4401-b554-5ff1f38d1d87": "https://ms.yugipedia.com//c/ca/BeckoningLight-CP08-FR-C-UE.png",
+          "e4017c55-d620-486f-9b14-c4187edce0ba": "https://ms.yugipedia.com//d/dc/NeoSpacianDarkPanther-CP08-FR-C-UE.jpg",
+          "11e2e7b7-c65a-432b-855f-26096ddf033f": "https://ms.yugipedia.com//a/a6/AlienWarrior-CP08-FR-C-UE.png",
+          "0263c317-7978-4110-a1bb-bd2de0550ee1": "https://ms.yugipedia.com//b/b1/AlienMother-CP08-FR-C-UE.png",
+          "2d7e23b9-de46-4f99-8e51-1fa33c9f6835": "https://ms.yugipedia.com//d/dc/VanitysRuler-CP08-FR-C-UE.png",
+          "68be693b-cd37-4392-87a9-1c1cf374e67e": "https://ms.yugipedia.com//4/44/MiraculousRebirth-CP08-FR-C-UE.png",
+          "f13f5eeb-82ba-4d5a-895f-26c6703ba6ae": "https://ms.yugipedia.com//a/a0/CellExplosionVirus-CP08-FR-C-UE.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "eb0719e1-66aa-4e3d-844d-0074fefe6d7a": {
+            "image": "https://ms.yugipedia.com//b/bb/HeraldofCreation-CP08-FR-R-UE.jpg"
+          },
+          "2a6d1f29-2dbf-443d-ad7a-7f92b4577c1a": {
+            "image": "https://ms.yugipedia.com//4/41/GreatShogunShien-CP08-FR-R-UE.png"
+          },
+          "13f493f8-872b-46c0-8bdb-95b9b2f6c994": {
+            "image": "https://ms.yugipedia.com//c/cf/BurialfromaDifferentDimension-CP08-FR-R-UE.png"
+          },
+          "110bb826-2d88-4a48-9f27-993fb169a286": {
+            "image": "https://ms.yugipedia.com//0/04/RoyalOppression-CP08-FR-C-UE.png"
+          },
+          "1bae7030-d762-4e2d-b337-4d5ce9c32a88": {
+            "image": "https://ms.yugipedia.com//4/4f/MushroomMan-CP08-FR-C-UE.png"
+          },
+          "75d82cb8-db6b-4401-b554-5ff1f38d1d87": {
+            "image": "https://ms.yugipedia.com//c/ca/BeckoningLight-CP08-FR-C-UE.png"
+          },
+          "68be693b-cd37-4392-87a9-1c1cf374e67e": {
+            "image": "https://ms.yugipedia.com//4/44/MiraculousRebirth-CP08-FR-C-UE.png"
+          },
+          "2d7e23b9-de46-4f99-8e51-1fa33c9f6835": {
+            "image": "https://ms.yugipedia.com//d/dc/VanitysRuler-CP08-FR-C-UE.png"
+          },
+          "0263c317-7978-4110-a1bb-bd2de0550ee1": {
+            "image": "https://ms.yugipedia.com//b/b1/AlienMother-CP08-FR-C-UE.png"
+          },
+          "0fa7becd-e0b9-4db5-a05e-878b59a53946": {
+            "image": "https://ms.yugipedia.com//1/18/SilentMagicianLV4-CP08-FR-R-UE.jpg"
+          },
+          "7148f10e-b499-482f-a60f-2cc6fe8c4ce0": {
+            "image": "https://ms.yugipedia.com//7/76/MagiciansValkyria-CP08-FR-R-UE.png"
+          },
+          "f13f5eeb-82ba-4d5a-895f-26c6703ba6ae": {
+            "image": "https://ms.yugipedia.com//a/a0/CellExplosionVirus-CP08-FR-C-UE.png"
+          },
+          "11e2e7b7-c65a-432b-855f-26096ddf033f": {
+            "image": "https://ms.yugipedia.com//a/a6/AlienWarrior-CP08-FR-C-UE.png"
+          },
+          "cac1f0d3-e9b3-4c16-8199-7deecace285d": {
+            "image": "https://ms.yugipedia.com//b/bf/GravityBehemoth-CP08-FR-UR-UE.png"
+          },
+          "11f690ee-e644-4629-b230-0fea33334737": {
+            "image": "https://ms.yugipedia.com//b/b1/MindCrush-CP08-FR-SR-UE.png"
+          },
+          "e4017c55-d620-486f-9b14-c4187edce0ba": {
+            "image": "https://ms.yugipedia.com//d/dc/NeoSpacianDarkPanther-CP08-FR-C-UE.jpg"
+          },
+          "a906836f-c88e-4b29-a673-8ed05b9efa18": {
+            "image": "https://ms.yugipedia.com//3/3c/Prohibition-CP08-FR-SR-UE.png"
+          },
+          "889f1a30-b787-4ae2-ad7a-18edafa63438": {
+            "image": "https://ms.yugipedia.com//3/37/LuminaLightswornSummoner-CP08-FR-SR-UE.png"
+          },
+          "b880c22a-5575-45d4-9d8b-42ca668fb1ff": {
+            "image": "https://ms.yugipedia.com//b/b2/DimensionalFissure-CP08-FR-SR-UE.jpg"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          3121207000
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "it"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "packsPerBox": 100,
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//b/b4/CP08-BoosterIT.png",
+      "cards": [
+        {
+          "id": "cac1f0d3-e9b3-4c16-8199-7deecace285d",
+          "card": "b2013e48-c601-4733-872b-1297d1dca34f",
+          "suffix": "001",
+          "rarity": "ultra"
+        },
+        {
+          "id": "a906836f-c88e-4b29-a673-8ed05b9efa18",
+          "card": "719fa8f0-942d-4009-b466-d35b5a48e944",
+          "suffix": "002",
+          "rarity": "super"
+        },
+        {
+          "id": "11f690ee-e644-4629-b230-0fea33334737",
+          "card": "20b30e38-999c-4a47-9c6e-9c2c1fa6eb20",
+          "suffix": "003",
+          "rarity": "super"
+        },
+        {
+          "id": "b880c22a-5575-45d4-9d8b-42ca668fb1ff",
+          "card": "a4d8295e-a1db-4b65-8b33-8a5d0e291071",
+          "suffix": "004",
+          "rarity": "super"
+        },
+        {
+          "id": "889f1a30-b787-4ae2-ad7a-18edafa63438",
+          "card": "2b808c9a-dff8-49bb-8481-ac6256078605",
+          "suffix": "005",
+          "rarity": "super"
+        },
+        {
+          "id": "7148f10e-b499-482f-a60f-2cc6fe8c4ce0",
+          "card": "b5dff6f7-04cf-459f-bec9-48ee4b3a863c",
+          "suffix": "006",
+          "rarity": "rare"
+        },
+        {
+          "id": "0fa7becd-e0b9-4db5-a05e-878b59a53946",
+          "card": "6cab8fe3-7d77-479f-b267-cd1a351dea0d",
+          "suffix": "007",
+          "rarity": "rare"
+        },
+        {
+          "id": "2a6d1f29-2dbf-443d-ad7a-7f92b4577c1a",
+          "card": "63e0b514-87e6-4b75-8a22-688942394017",
+          "suffix": "008",
+          "rarity": "rare"
+        },
+        {
+          "id": "eb0719e1-66aa-4e3d-844d-0074fefe6d7a",
+          "card": "4bf4b653-5380-4b4e-b5a4-bd1ca72fe9f1",
+          "suffix": "009",
+          "rarity": "rare"
+        },
+        {
+          "id": "13f493f8-872b-46c0-8bdb-95b9b2f6c994",
+          "card": "1d66f049-eb4a-44b5-9662-32d19db67494",
+          "suffix": "010",
+          "rarity": "rare"
+        },
+        {
+          "id": "d5ee543b-7548-4117-9108-9d52487f0f4f",
+          "card": "4cf9ca56-6453-47ef-a02e-0a6ce383d828",
+          "suffix": "011",
+          "rarity": "rare"
+        },
+        {
+          "id": "1bae7030-d762-4e2d-b337-4d5ce9c32a88",
+          "card": "6b255dcc-b608-4e94-a932-a978fd69a534",
+          "suffix": "012",
+          "rarity": "common"
+        },
+        {
+          "id": "110bb826-2d88-4a48-9f27-993fb169a286",
+          "card": "7101808d-547a-4c71-9465-ef8d960ba2ed",
+          "suffix": "013",
+          "rarity": "common"
+        },
+        {
+          "id": "75d82cb8-db6b-4401-b554-5ff1f38d1d87",
+          "card": "dafc938a-0ea2-4d9a-8816-cb5f151c2b77",
+          "suffix": "014",
+          "rarity": "common"
+        },
+        {
+          "id": "e4017c55-d620-486f-9b14-c4187edce0ba",
+          "card": "370bbee1-dab1-4c14-9185-bc1efa931780",
+          "suffix": "015",
+          "rarity": "common"
+        },
+        {
+          "id": "11e2e7b7-c65a-432b-855f-26096ddf033f",
+          "card": "df9dd6fa-3d35-4cf4-8c49-4812c213130f",
+          "suffix": "016",
+          "rarity": "common"
+        },
+        {
+          "id": "0263c317-7978-4110-a1bb-bd2de0550ee1",
+          "card": "c9e90e31-dd8d-44c5-ab39-196c2f19d295",
+          "suffix": "017",
+          "rarity": "common"
+        },
+        {
+          "id": "2d7e23b9-de46-4f99-8e51-1fa33c9f6835",
+          "card": "83d36f2a-615c-489c-9d96-42553227ffdc",
+          "suffix": "018",
+          "rarity": "common"
+        },
+        {
+          "id": "68be693b-cd37-4392-87a9-1c1cf374e67e",
+          "card": "3ce3e982-5fb6-436e-83e5-ab6fed056e44",
+          "suffix": "019",
+          "rarity": "common"
+        },
+        {
+          "id": "f13f5eeb-82ba-4d5a-895f-26c6703ba6ae",
+          "card": "209a348b-58ff-4fd6-9605-c19e0b0986db",
+          "suffix": "020",
+          "rarity": "common"
+        }
+      ],
+      "externalIDs": {
+        "ygoprodeck": "Champion Pack: Game Eight"
+      }
+    },
+    {
+      "locales": [
+        "de"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "packsPerBox": 100,
+      "editions": [
+        "unlimited"
+      ],
+      "cards": [
+        {
+          "id": "cac1f0d3-e9b3-4c16-8199-7deecace285d",
+          "card": "b2013e48-c601-4733-872b-1297d1dca34f",
+          "suffix": "001",
+          "rarity": "ultra"
+        },
+        {
+          "id": "a906836f-c88e-4b29-a673-8ed05b9efa18",
+          "card": "719fa8f0-942d-4009-b466-d35b5a48e944",
+          "suffix": "002",
+          "rarity": "super"
+        },
+        {
+          "id": "11f690ee-e644-4629-b230-0fea33334737",
+          "card": "20b30e38-999c-4a47-9c6e-9c2c1fa6eb20",
+          "suffix": "003",
+          "rarity": "super"
+        },
+        {
+          "id": "b880c22a-5575-45d4-9d8b-42ca668fb1ff",
+          "card": "a4d8295e-a1db-4b65-8b33-8a5d0e291071",
+          "suffix": "004",
+          "rarity": "super"
+        },
+        {
+          "id": "889f1a30-b787-4ae2-ad7a-18edafa63438",
+          "card": "2b808c9a-dff8-49bb-8481-ac6256078605",
+          "suffix": "005",
+          "rarity": "super"
+        },
+        {
+          "id": "7148f10e-b499-482f-a60f-2cc6fe8c4ce0",
+          "card": "b5dff6f7-04cf-459f-bec9-48ee4b3a863c",
+          "suffix": "006",
+          "rarity": "rare"
+        },
+        {
+          "id": "0fa7becd-e0b9-4db5-a05e-878b59a53946",
+          "card": "6cab8fe3-7d77-479f-b267-cd1a351dea0d",
+          "suffix": "007",
+          "rarity": "rare"
+        },
+        {
+          "id": "2a6d1f29-2dbf-443d-ad7a-7f92b4577c1a",
+          "card": "63e0b514-87e6-4b75-8a22-688942394017",
+          "suffix": "008",
+          "rarity": "rare"
+        },
+        {
+          "id": "eb0719e1-66aa-4e3d-844d-0074fefe6d7a",
+          "card": "4bf4b653-5380-4b4e-b5a4-bd1ca72fe9f1",
+          "suffix": "009",
+          "rarity": "rare"
+        },
+        {
+          "id": "13f493f8-872b-46c0-8bdb-95b9b2f6c994",
+          "card": "1d66f049-eb4a-44b5-9662-32d19db67494",
+          "suffix": "010",
+          "rarity": "rare"
+        },
+        {
+          "id": "d5ee543b-7548-4117-9108-9d52487f0f4f",
+          "card": "4cf9ca56-6453-47ef-a02e-0a6ce383d828",
+          "suffix": "011",
+          "rarity": "rare"
+        },
+        {
+          "id": "1bae7030-d762-4e2d-b337-4d5ce9c32a88",
+          "card": "6b255dcc-b608-4e94-a932-a978fd69a534",
+          "suffix": "012",
+          "rarity": "common"
+        },
+        {
+          "id": "110bb826-2d88-4a48-9f27-993fb169a286",
+          "card": "7101808d-547a-4c71-9465-ef8d960ba2ed",
+          "suffix": "013",
+          "rarity": "common"
+        },
+        {
+          "id": "75d82cb8-db6b-4401-b554-5ff1f38d1d87",
+          "card": "dafc938a-0ea2-4d9a-8816-cb5f151c2b77",
+          "suffix": "014",
+          "rarity": "common"
+        },
+        {
+          "id": "e4017c55-d620-486f-9b14-c4187edce0ba",
+          "card": "370bbee1-dab1-4c14-9185-bc1efa931780",
+          "suffix": "015",
+          "rarity": "common"
+        },
+        {
+          "id": "11e2e7b7-c65a-432b-855f-26096ddf033f",
+          "card": "df9dd6fa-3d35-4cf4-8c49-4812c213130f",
+          "suffix": "016",
+          "rarity": "common"
+        },
+        {
+          "id": "0263c317-7978-4110-a1bb-bd2de0550ee1",
+          "card": "c9e90e31-dd8d-44c5-ab39-196c2f19d295",
+          "suffix": "017",
+          "rarity": "common"
+        },
+        {
+          "id": "2d7e23b9-de46-4f99-8e51-1fa33c9f6835",
+          "card": "83d36f2a-615c-489c-9d96-42553227ffdc",
+          "suffix": "018",
+          "rarity": "common"
+        },
+        {
+          "id": "68be693b-cd37-4392-87a9-1c1cf374e67e",
+          "card": "3ce3e982-5fb6-436e-83e5-ab6fed056e44",
+          "suffix": "019",
+          "rarity": "common"
+        },
+        {
+          "id": "f13f5eeb-82ba-4d5a-895f-26c6703ba6ae",
+          "card": "209a348b-58ff-4fd6-9605-c19e0b0986db",
+          "suffix": "020",
+          "rarity": "common"
+        }
+      ],
+      "externalIDs": {
+        "ygoprodeck": "Champion Pack: Game Eight"
+      }
+    },
+    {
+      "locales": [
+        "en"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "packsPerBox": 100,
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//b/b3/CP08-BoosterEN.png",
+      "cards": [
+        {
+          "id": "cac1f0d3-e9b3-4c16-8199-7deecace285d",
+          "card": "b2013e48-c601-4733-872b-1297d1dca34f",
+          "suffix": "001",
+          "rarity": "ultra"
+        },
+        {
+          "id": "a906836f-c88e-4b29-a673-8ed05b9efa18",
+          "card": "719fa8f0-942d-4009-b466-d35b5a48e944",
+          "suffix": "002",
+          "rarity": "super"
+        },
+        {
+          "id": "11f690ee-e644-4629-b230-0fea33334737",
+          "card": "20b30e38-999c-4a47-9c6e-9c2c1fa6eb20",
+          "suffix": "003",
+          "rarity": "super"
+        },
+        {
+          "id": "b880c22a-5575-45d4-9d8b-42ca668fb1ff",
+          "card": "a4d8295e-a1db-4b65-8b33-8a5d0e291071",
+          "suffix": "004",
+          "rarity": "super"
+        },
+        {
+          "id": "889f1a30-b787-4ae2-ad7a-18edafa63438",
+          "card": "2b808c9a-dff8-49bb-8481-ac6256078605",
+          "suffix": "005",
+          "rarity": "super"
+        },
+        {
+          "id": "7148f10e-b499-482f-a60f-2cc6fe8c4ce0",
+          "card": "b5dff6f7-04cf-459f-bec9-48ee4b3a863c",
+          "suffix": "006",
+          "rarity": "rare"
+        },
+        {
+          "id": "0fa7becd-e0b9-4db5-a05e-878b59a53946",
+          "card": "6cab8fe3-7d77-479f-b267-cd1a351dea0d",
+          "suffix": "007",
+          "rarity": "rare"
+        },
+        {
+          "id": "2a6d1f29-2dbf-443d-ad7a-7f92b4577c1a",
+          "card": "63e0b514-87e6-4b75-8a22-688942394017",
+          "suffix": "008",
+          "rarity": "rare"
+        },
+        {
+          "id": "eb0719e1-66aa-4e3d-844d-0074fefe6d7a",
+          "card": "4bf4b653-5380-4b4e-b5a4-bd1ca72fe9f1",
+          "suffix": "009",
+          "rarity": "rare"
+        },
+        {
+          "id": "13f493f8-872b-46c0-8bdb-95b9b2f6c994",
+          "card": "1d66f049-eb4a-44b5-9662-32d19db67494",
+          "suffix": "010",
+          "rarity": "rare"
+        },
+        {
+          "id": "d5ee543b-7548-4117-9108-9d52487f0f4f",
+          "card": "4cf9ca56-6453-47ef-a02e-0a6ce383d828",
+          "suffix": "011",
+          "rarity": "rare"
+        },
+        {
+          "id": "1bae7030-d762-4e2d-b337-4d5ce9c32a88",
+          "card": "6b255dcc-b608-4e94-a932-a978fd69a534",
+          "suffix": "012",
+          "rarity": "common"
+        },
+        {
+          "id": "110bb826-2d88-4a48-9f27-993fb169a286",
+          "card": "7101808d-547a-4c71-9465-ef8d960ba2ed",
+          "suffix": "013",
+          "rarity": "common"
+        },
+        {
+          "id": "75d82cb8-db6b-4401-b554-5ff1f38d1d87",
+          "card": "dafc938a-0ea2-4d9a-8816-cb5f151c2b77",
+          "suffix": "014",
+          "rarity": "common"
+        },
+        {
+          "id": "e4017c55-d620-486f-9b14-c4187edce0ba",
+          "card": "370bbee1-dab1-4c14-9185-bc1efa931780",
+          "suffix": "015",
+          "rarity": "common"
+        },
+        {
+          "id": "11e2e7b7-c65a-432b-855f-26096ddf033f",
+          "card": "df9dd6fa-3d35-4cf4-8c49-4812c213130f",
+          "suffix": "016",
+          "rarity": "common"
+        },
+        {
+          "id": "0263c317-7978-4110-a1bb-bd2de0550ee1",
+          "card": "c9e90e31-dd8d-44c5-ab39-196c2f19d295",
+          "suffix": "017",
+          "rarity": "common"
+        },
+        {
+          "id": "2d7e23b9-de46-4f99-8e51-1fa33c9f6835",
+          "card": "83d36f2a-615c-489c-9d96-42553227ffdc",
+          "suffix": "018",
+          "rarity": "common"
+        },
+        {
+          "id": "68be693b-cd37-4392-87a9-1c1cf374e67e",
+          "card": "3ce3e982-5fb6-436e-83e5-ab6fed056e44",
+          "suffix": "019",
+          "rarity": "common"
+        },
+        {
+          "id": "f13f5eeb-82ba-4d5a-895f-26c6703ba6ae",
+          "card": "209a348b-58ff-4fd6-9605-c19e0b0986db",
+          "suffix": "020",
+          "rarity": "common"
+        }
+      ],
+      "externalIDs": {
+        "ygoprodeck": "Champion Pack: Game Eight"
+      }
+    },
+    {
+      "locales": [
+        "fr"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "packsPerBox": 100,
+      "editions": [
+        "unlimited"
+      ],
+      "cards": [
+        {
+          "id": "cac1f0d3-e9b3-4c16-8199-7deecace285d",
+          "card": "b2013e48-c601-4733-872b-1297d1dca34f",
+          "suffix": "001",
+          "rarity": "ultra"
+        },
+        {
+          "id": "a906836f-c88e-4b29-a673-8ed05b9efa18",
+          "card": "719fa8f0-942d-4009-b466-d35b5a48e944",
+          "suffix": "002",
+          "rarity": "super"
+        },
+        {
+          "id": "11f690ee-e644-4629-b230-0fea33334737",
+          "card": "20b30e38-999c-4a47-9c6e-9c2c1fa6eb20",
+          "suffix": "003",
+          "rarity": "super"
+        },
+        {
+          "id": "b880c22a-5575-45d4-9d8b-42ca668fb1ff",
+          "card": "a4d8295e-a1db-4b65-8b33-8a5d0e291071",
+          "suffix": "004",
+          "rarity": "super"
+        },
+        {
+          "id": "889f1a30-b787-4ae2-ad7a-18edafa63438",
+          "card": "2b808c9a-dff8-49bb-8481-ac6256078605",
+          "suffix": "005",
+          "rarity": "super"
+        },
+        {
+          "id": "7148f10e-b499-482f-a60f-2cc6fe8c4ce0",
+          "card": "b5dff6f7-04cf-459f-bec9-48ee4b3a863c",
+          "suffix": "006",
+          "rarity": "rare"
+        },
+        {
+          "id": "0fa7becd-e0b9-4db5-a05e-878b59a53946",
+          "card": "6cab8fe3-7d77-479f-b267-cd1a351dea0d",
+          "suffix": "007",
+          "rarity": "rare"
+        },
+        {
+          "id": "2a6d1f29-2dbf-443d-ad7a-7f92b4577c1a",
+          "card": "63e0b514-87e6-4b75-8a22-688942394017",
+          "suffix": "008",
+          "rarity": "rare"
+        },
+        {
+          "id": "eb0719e1-66aa-4e3d-844d-0074fefe6d7a",
+          "card": "4bf4b653-5380-4b4e-b5a4-bd1ca72fe9f1",
+          "suffix": "009",
+          "rarity": "rare"
+        },
+        {
+          "id": "13f493f8-872b-46c0-8bdb-95b9b2f6c994",
+          "card": "1d66f049-eb4a-44b5-9662-32d19db67494",
+          "suffix": "010",
+          "rarity": "rare"
+        },
+        {
+          "id": "d5ee543b-7548-4117-9108-9d52487f0f4f",
+          "card": "4cf9ca56-6453-47ef-a02e-0a6ce383d828",
+          "suffix": "011",
+          "rarity": "rare"
+        },
+        {
+          "id": "1bae7030-d762-4e2d-b337-4d5ce9c32a88",
+          "card": "6b255dcc-b608-4e94-a932-a978fd69a534",
+          "suffix": "012",
+          "rarity": "common"
+        },
+        {
+          "id": "110bb826-2d88-4a48-9f27-993fb169a286",
+          "card": "7101808d-547a-4c71-9465-ef8d960ba2ed",
+          "suffix": "013",
+          "rarity": "common"
+        },
+        {
+          "id": "75d82cb8-db6b-4401-b554-5ff1f38d1d87",
+          "card": "dafc938a-0ea2-4d9a-8816-cb5f151c2b77",
+          "suffix": "014",
+          "rarity": "common"
+        },
+        {
+          "id": "e4017c55-d620-486f-9b14-c4187edce0ba",
+          "card": "370bbee1-dab1-4c14-9185-bc1efa931780",
+          "suffix": "015",
+          "rarity": "common"
+        },
+        {
+          "id": "11e2e7b7-c65a-432b-855f-26096ddf033f",
+          "card": "df9dd6fa-3d35-4cf4-8c49-4812c213130f",
+          "suffix": "016",
+          "rarity": "common"
+        },
+        {
+          "id": "0263c317-7978-4110-a1bb-bd2de0550ee1",
+          "card": "c9e90e31-dd8d-44c5-ab39-196c2f19d295",
+          "suffix": "017",
+          "rarity": "common"
+        },
+        {
+          "id": "2d7e23b9-de46-4f99-8e51-1fa33c9f6835",
+          "card": "83d36f2a-615c-489c-9d96-42553227ffdc",
+          "suffix": "018",
+          "rarity": "common"
+        },
+        {
+          "id": "68be693b-cd37-4392-87a9-1c1cf374e67e",
+          "card": "3ce3e982-5fb6-436e-83e5-ab6fed056e44",
+          "suffix": "019",
+          "rarity": "common"
+        },
+        {
+          "id": "f13f5eeb-82ba-4d5a-895f-26c6703ba6ae",
+          "card": "209a348b-58ff-4fd6-9605-c19e0b0986db",
+          "suffix": "020",
+          "rarity": "common"
+        }
+      ],
+      "externalIDs": {
+        "ygoprodeck": "Champion Pack: Game Eight"
+      }
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Champion Pack: Game Eight",
+      "id": 56023
+    }
+  }
+}
