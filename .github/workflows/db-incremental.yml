@@ -1,0 +1,147 @@
+name: Generate/Upload Database (Incremental)
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 4,8,12,16,20 * * *'
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: db-pipeline
+  cancel-in-progress: false
+
+jobs:
+  incremental:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup
+        uses: ./.github/actions/setup
+
+      - name: Hash individual files before run
+        id: hash_before
+        run: |
+          if [ -d "data/individual" ] && [ "$(ls -A data/individual 2>/dev/null)" ]; then
+            HASH=$(find data/individual -type f -name "*.json" | sort | xargs sha256sum 2>/dev/null | sha256sum | cut -d' ' -f1)
+          else
+            HASH="no-data"
+          fi
+          echo "hash=$HASH" >> $GITHUB_OUTPUT
+          echo "Before hash: $HASH"
+
+      - name: Run YGOJSON (Incremental)
+        run: |
+          if [ "${{ steps.hash_before.outputs.hash }}" = "no-data" ]; then
+            echo "No cached data found, bootstrapping with --download"
+            ygojson --production --download
+          else
+            ygojson --production
+          fi
+
+      - name: Hash individual files after run
+        id: hash_after
+        run: |
+          HASH=$(find data/individual -type f -name "*.json" | sort | xargs sha256sum 2>/dev/null | sha256sum | cut -d' ' -f1)
+          echo "hash=$HASH" >> $GITHUB_OUTPUT
+          echo "After hash: $HASH"
+
+      - name: Detect changes
+        id: changes
+        run: |
+          BEFORE="${{ steps.hash_before.outputs.hash }}"
+          AFTER="${{ steps.hash_after.outputs.hash }}"
+          if [ "$BEFORE" != "$AFTER" ]; then
+            echo "detected=true" >> $GITHUB_OUTPUT
+            echo "Changes detected, will publish."
+          else
+            echo "detected=false" >> $GITHUB_OUTPUT
+            echo "No changes detected, skipping publish."
+          fi
+
+      - name: Push Individuals
+        if: steps.changes.outputs.detected == 'true'
+        uses: s0/git-publish-subdir-action@v2.6.0
+        env:
+          REPO: self
+          BRANCH: v1/individual
+          FOLDER: data/individual
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SQUASH_HISTORY: true
+
+      - name: Archive Individuals
+        if: steps.changes.outputs.detected == 'true'
+        uses: vimtor/action-zip@v1.2
+        with:
+          files: data/individual
+          dest: individual.zip
+
+      - name: Archive Aggregate
+        if: steps.changes.outputs.detected == 'true'
+        uses: vimtor/action-zip@v1.2
+        with:
+          files: data/aggregate
+          dest: aggregate.zip
+
+      - name: Get Latest Release
+        id: latest_release
+        if: steps.changes.outputs.detected == 'true'
+        uses: gregziegan/fetch-latest-release@v2.0.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Remove Old Individuals ZIP
+        if: steps.changes.outputs.detected == 'true'
+        uses: flcdrg/remove-release-asset-action@v4.0.4
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          release_id: ${{ steps.latest_release.outputs.id }}
+          asset_name: individual.zip
+
+      - name: Upload Individuals ZIP
+        if: steps.changes.outputs.detected == 'true'
+        uses: csexton/release-asset-action@v3
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          release-url: ${{ steps.latest_release.outputs.upload_url }}
+          file: individual.zip
+
+      - name: Remove Old Aggregate ZIP
+        if: steps.changes.outputs.detected == 'true'
+        uses: flcdrg/remove-release-asset-action@v4.0.4
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          release_id: ${{ steps.latest_release.outputs.id }}
+          asset_name: aggregate.zip
+
+      - name: Upload Aggregate ZIP
+        if: steps.changes.outputs.detected == 'true'
+        uses: csexton/release-asset-action@v3
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          release-url: ${{ steps.latest_release.outputs.upload_url }}
+          file: aggregate.zip
+
+      - name: Notify webhook
+        if: steps.changes.outputs.detected == 'true' && secrets.YGOJSON_WEBHOOK_URL != ''
+        continue-on-error: true
+        run: |
+          curl -s -X POST "${{ secrets.YGOJSON_WEBHOOK_URL }}" \
+            -H "Content-Type: application/json" \
+            -H "X-YGOJSON-Secret: ${{ secrets.YGOJSON_WEBHOOK_SECRET }}" \
+            -d '{"source":"incremental","timestamp":"'"$(date -u +%Y-%m-%dT%H:%M:%SZ)"'"}' \
+            --max-time 10 \
+            && echo "Webhook notified." \
+            || echo "Webhook notification failed (non-fatal)."
+
+      - name: Teardown
+        uses: ./.github/actions/teardown
+        if: always()

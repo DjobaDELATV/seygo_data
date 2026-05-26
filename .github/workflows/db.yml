@@ -9,6 +9,10 @@ permissions:
   contents: write
   actions: write
 
+concurrency:
+  group: db-pipeline
+  cancel-in-progress: false
+
 jobs:
   lint:
     runs-on: ubuntu-latest
