@@ -131,12 +131,19 @@ jobs:
           file: aggregate.zip
 
       - name: Notify webhook
-        if: steps.changes.outputs.detected == 'true' && secrets.YGOJSON_WEBHOOK_URL != ''
+        if: steps.changes.outputs.detected == 'true'
         continue-on-error: true
+        env:
+          WEBHOOK_URL: ${{ secrets.YGOJSON_WEBHOOK_URL }}
+          WEBHOOK_SECRET: ${{ secrets.YGOJSON_WEBHOOK_SECRET }}
         run: |
-          curl -s -X POST "${{ secrets.YGOJSON_WEBHOOK_URL }}" \
+          if [ -z "$WEBHOOK_URL" ]; then
+            echo "YGOJSON_WEBHOOK_URL not configured, skipping."
+            exit 0
+          fi
+          curl -s -X POST "$WEBHOOK_URL" \
             -H "Content-Type: application/json" \
-            -H "X-YGOJSON-Secret: ${{ secrets.YGOJSON_WEBHOOK_SECRET }}" \
+            -H "X-YGOJSON-Secret: $WEBHOOK_SECRET" \
             -d '{"source":"incremental","timestamp":"'"$(date -u +%Y-%m-%dT%H:%M:%SZ)"'"}' \
             --max-time 10 \
             && echo "Webhook notified." \
