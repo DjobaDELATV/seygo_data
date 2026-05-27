@@ -65,13 +65,34 @@ jobs:
 
       - name: Push Individuals
         if: steps.changes.outputs.detected == 'true'
-        uses: s0/git-publish-subdir-action@v2.6.0
         env:
-          REPO: self
-          BRANCH: v1/individual
-          FOLDER: data/individual
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SQUASH_HISTORY: true
+        run: |
+          set -e
+          BRANCH="v1/individual"
+          REPO_URL="https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git"
+
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+
+          TMPDIR=$(mktemp -d)
+          git -C "$TMPDIR" init
+          git -C "$TMPDIR" checkout --orphan "$BRANCH"
+          cp -r data/individual/. "$TMPDIR/"
+          git -C "$TMPDIR" add -A
+          git -C "$TMPDIR" commit -m "Update individual data ($(date -u +%Y-%m-%dT%H:%M:%SZ))"
+
+          for i in 1 2 3; do
+            echo "Push attempt $i..."
+            if git -C "$TMPDIR" push --force "$REPO_URL" "HEAD:refs/heads/$BRANCH"; then
+              echo "Push succeeded on attempt $i."
+              exit 0
+            fi
+            [ $i -lt 3 ] && { echo "Retrying in 30s..."; sleep 30; }
+          done
+
+          echo "All push attempts failed."
+          exit 1
 
       - name: Archive Individuals
         if: steps.changes.outputs.detected == 'true'
