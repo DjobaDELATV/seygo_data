@@ -270,5 +270,3 @@ jobs:
       - name: Teardown
         uses: ./.github/actions/teardown
         if: always()
-        with:
-          set-data: false
