@@ -66,19 +66,23 @@ jobs:
             echo "No changes detected, skipping publish."
           fi
 
-          # Detect new entity files (new UUID JSON files = new cards/sets/series/skills)
-          # Guard: bootstrap from empty cache = not genuine new entities
+          # Detect new entities: compare total file count (not filenames, because
+          # YGOJSON regenerates skill files with new UUIDs on every run).
+          # A net increase = genuine new entities. Same count = corrections/rebuilds only.
           if [ "$BEFORE" = "no-data" ]; then
             echo "new_entities=false" >> $GITHUB_OUTPUT
             echo "Bootstrap run (no prior cache), skipping webhook."
           else
-            NEW_COUNT=$(comm -13 /tmp/files_before.txt /tmp/files_after.txt | wc -l | tr -d ' ')
-            if [ "$NEW_COUNT" -gt 0 ]; then
+            BEFORE_COUNT=$(wc -l < /tmp/files_before.txt | tr -d ' ')
+            AFTER_COUNT=$(wc -l < /tmp/files_after.txt | tr -d ' ')
+            DELTA=$(( AFTER_COUNT - BEFORE_COUNT ))
+            echo "File count: $BEFORE_COUNT -> $AFTER_COUNT (delta $DELTA)"
+            if [ "$DELTA" -gt 0 ]; then
               echo "new_entities=true" >> $GITHUB_OUTPUT
-              echo "New entities detected ($NEW_COUNT new files), webhook will fire."
+              echo "New entities detected (+$DELTA files), webhook will fire."
             else
               echo "new_entities=false" >> $GITHUB_OUTPUT
-              echo "No new entities (corrections only), skipping webhook."
+              echo "No new entities (count stable), skipping webhook."
             fi
           fi
 
