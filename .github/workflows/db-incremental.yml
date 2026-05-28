@@ -67,13 +67,19 @@ jobs:
           fi
 
           # Detect new entity files (new UUID JSON files = new cards/sets/series/skills)
-          NEW_COUNT=$(comm -13 /tmp/files_before.txt /tmp/files_after.txt | wc -l | tr -d ' ')
-          if [ "$NEW_COUNT" -gt 0 ]; then
-            echo "new_entities=true" >> $GITHUB_OUTPUT
-            echo "New entities detected ($NEW_COUNT new files), webhook will fire."
-          else
+          # Guard: bootstrap from empty cache = not genuine new entities
+          if [ "$BEFORE" = "no-data" ]; then
             echo "new_entities=false" >> $GITHUB_OUTPUT
-            echo "No new entities (corrections only), skipping webhook."
+            echo "Bootstrap run (no prior cache), skipping webhook."
+          else
+            NEW_COUNT=$(comm -13 /tmp/files_before.txt /tmp/files_after.txt | wc -l | tr -d ' ')
+            if [ "$NEW_COUNT" -gt 0 ]; then
+              echo "new_entities=true" >> $GITHUB_OUTPUT
+              echo "New entities detected ($NEW_COUNT new files), webhook will fire."
+            else
+              echo "new_entities=false" >> $GITHUB_OUTPUT
+              echo "No new entities (corrections only), skipping webhook."
+            fi
           fi
 
       - name: Push Individuals
