@@ -3299,9 +3299,12 @@ class Database:
                 encoding="utf-8",
             ) as outfile:
                 json.dump([str(skill.id) for skill in self.skills], outfile, indent=2)
-            os.makedirs(
-                os.path.join(self.individuals_dir, SKILLS_DIRNAME), exist_ok=True
-            )
+            skills_dir = os.path.join(self.individuals_dir, SKILLS_DIRNAME)
+            os.makedirs(skills_dir, exist_ok=True)
+            current_skill_ids = {str(skill.id) for skill in self.skills}
+            for fname in os.listdir(skills_dir):
+                if fname.endswith(".json") and fname[:-5] not in current_skill_ids:
+                    os.remove(os.path.join(skills_dir, fname))
             for skill in tqdm.tqdm(self.skills, desc="Saving individual skills"):
                 self._save_skill(skill)
 
@@ -3545,7 +3548,7 @@ class Database:
                 else None
             ),
             alternate_artworks=rawcard.get("alternateArtworks", []),
-            passwords=rawcard["passwords"],
+            passwords=rawcard.get("passwords", []),
             images=[
                 CardImage(
                     id=uuid.UUID(x["id"]),
@@ -3558,7 +3561,7 @@ class Database:
                         else None
                     ),
                 )
-                for x in rawcard["images"]
+                for x in rawcard.get("images", [])
             ],
             illegal=rawcard.get("illegal", False),
             legality={
