@@ -28,8 +28,10 @@ jobs:
         run: |
           if [ -d "data/individual" ] && [ "$(ls -A data/individual 2>/dev/null)" ]; then
             HASH=$(find data/individual -type f -name "*.json" | sort | xargs sha256sum 2>/dev/null | sha256sum | cut -d' ' -f1)
+            find data/individual -type f -name "*.json" | sort > /tmp/files_before.txt
           else
             HASH="no-data"
+            touch /tmp/files_before.txt
           fi
           echo "hash=$HASH" >> $GITHUB_OUTPUT
           echo "Before hash: $HASH"
@@ -47,6 +49,7 @@ jobs:
         id: hash_after
         run: |
           HASH=$(find data/individual -type f -name "*.json" | sort | xargs sha256sum 2>/dev/null | sha256sum | cut -d' ' -f1)
+          find data/individual -type f -name "*.json" | sort > /tmp/files_after.txt
           echo "hash=$HASH" >> $GITHUB_OUTPUT
           echo "After hash: $HASH"
 
@@ -61,6 +64,16 @@ jobs:
           else
             echo "detected=false" >> $GITHUB_OUTPUT
             echo "No changes detected, skipping publish."
+          fi
+
+          # Detect new entity files (new UUID JSON files = new cards/sets/series/skills)
+          NEW_COUNT=$(comm -13 /tmp/files_before.txt /tmp/files_after.txt | wc -l | tr -d ' ')
+          if [ "$NEW_COUNT" -gt 0 ]; then
+            echo "new_entities=true" >> $GITHUB_OUTPUT
+            echo "New entities detected ($NEW_COUNT new files), webhook will fire."
+          else
+            echo "new_entities=false" >> $GITHUB_OUTPUT
+            echo "No new entities (corrections only), skipping webhook."
           fi
 
       - name: Push Individuals
@@ -152,7 +165,7 @@ jobs:
           file: aggregate.zip
 
       - name: Notify webhook
-        if: steps.changes.outputs.detected == 'true'
+        if: steps.changes.outputs.new_entities == 'true'
         continue-on-error: true
         env:
           WEBHOOK_URL: ${{ secrets.YGOJSON_WEBHOOK_URL }}
