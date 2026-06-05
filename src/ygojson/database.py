@@ -3222,9 +3222,9 @@ class Database:
     def _should_save_card(self, card: Card) -> bool:
         """
         Check if a card should be saved to disk.
-        Filters out unofficial cards (like Rush Duel cards) that have:
-        - English text marked as unofficial
-        - No associated sets (not released)
+        Filters out unofficial cards with no Yugipedia backing, no passwords,
+        no db_id, and no sets. Rush Duel cards are already excluded earlier in
+        parse_card, so this only catches truly unverifiable stubs.
         """
         # Always save cards with passwords or db_id (official cards)
         if card.passwords or card.db_id:
@@ -3234,13 +3234,18 @@ class Database:
         if card.sets:
             return True
 
+        # Always save cards imported from Yugipedia — upcoming OCG-only cards
+        # legitimately have an unofficial English name but no password/db_id yet.
+        if card.yugipedia_pages:
+            return True
+
         # Check if English text is marked as unofficial
         if Language.ENGLISH in card.text:
             if not card.text[Language.ENGLISH].official:
-                # Unofficial card with no passwords, no db_id, and no sets
-                # This is likely a Rush Duel or other unofficial card
+                # No Yugipedia backing, no passwords, no db_id, no sets:
+                # truly unverifiable stub — skip it.
                 logging.debug(
-                    f"Filtering out unofficial card: {card.text[Language.ENGLISH].name}"
+                    f"Filtering out unofficial card with no Yugipedia backing: {card.text[Language.ENGLISH].name}"
                 )
                 return False
 
