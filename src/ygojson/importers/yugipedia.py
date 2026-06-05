@@ -2511,6 +2511,14 @@ def parse_tcg_ocg_set(
         ]
         galleries = {}
         setname = title
+        # Strip Yugipedia disambiguation suffixes before building card list page names.
+        # e.g. "Ghosts From the Past (set)" → "Ghosts From the Past"
+        # so the lookup becomes "Set Card Lists:Ghosts From the Past (TCG-EN)" (correct)
+        # instead of "Set Card Lists:Ghosts From the Past (set) (TCG-EN)" (missing).
+        for suffix in (" (set)",):
+            if setname.endswith(suffix):
+                setname = setname[: -len(suffix)]
+                break
 
         for arg in nav.arguments:
             if arg.positional and arg.name == "0":
