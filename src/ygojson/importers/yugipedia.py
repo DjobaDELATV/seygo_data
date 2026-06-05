@@ -406,7 +406,7 @@ def get_changelog(
         "list": "recentchanges",
         "rcend": since.isoformat(),
         "rclimit": "max",
-        "rcnamespace": "0|6|14",  # main (cards/sets/series) + file (image URL invalidation) + category (new set/series added)
+        "rcnamespace": "0|6|14|3006",  # main (cards/sets/series) + file (image URL invalidation) + category (new set/series added) + Set Card Lists (card added to a set)
         "rcprop": "title|ids|type",
     }
 
