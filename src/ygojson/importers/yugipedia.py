@@ -3657,8 +3657,11 @@ def import_from_yugipedia(
             build_alternate_artworks_from_images(db)
             batcher.saveCachesToDisk()
 
-        # TEMP: force re-fetch du card list Beyond The Brave (cache stale depuis 31 mai, fix namespace 3006)
-        batcher.removeFromCache("Set Card Lists:Beyond The Brave (OCG-JP)")
+        # TEMP: force re-fetch des card lists Revolution Booster RV01 (cache stale, fix namespace 3006)
+        # Unchained Malevolent Magistrate Kamura (RV01-JP049) et Reincarnation of the Unchained (RV01-JP052)
+        # créées le 20 mai sur yugipedia mais jamais liées au set car namespace 3006 non tracké à l'époque
+        batcher.removeFromCache("Set Card Lists:Revolution Booster: Toon / Witchcrafter / Unchained (OCG-JP)")
+        batcher.removeFromCache("Set Card Lists:Revolution Booster: Toon / Witchcrafter / Unchained (OCG-SC)")
 
         if import_sets:
             for setid in tqdm.tqdm(sets, desc="Importing sets from Yugipedia"):
