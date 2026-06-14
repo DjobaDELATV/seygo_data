@@ -1,0 +1,161 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/set.json",
+  "id": "40b018c7-182a-4ee2-85a2-40045f7c6935",
+  "name": {
+    "en": "Yu-Gi-Oh! 5D's Volume 1",
+    "fr": "Yu-Gi-Oh! 5D's, Tome 1",
+    "ja": "\u904a\u622f\u738b\uff15\uff24\uff07\uff53 \u7b2c\uff11\u5dfb \u4ed8\u9332\u30ab\u30fc\u30c9"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "prefix": "YF01-JP",
+      "date": "2010-04-30",
+      "image": "https://ms.yugipedia.com//a/ad/YF01-PromoJP.png",
+      "cardImages": {
+        "unlimited": {}
+      },
+      "cardInfo": {
+        "unlimited": {}
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          121212001
+        ]
+      }
+    },
+    "fr": {
+      "language": "fr",
+      "prefix": "YF01-FR",
+      "date": "2012-01-20",
+      "image": "https://ms.yugipedia.com//1/17/YF01-PromoFR.png",
+      "cardImages": {
+        "limited": {
+          "a810a75e-b8e0-4de7-afbc-28a7474f7475": "https://ms.yugipedia.com//0/0a/DarkHighlander-YF01-FR-UR-LE.png"
+        }
+      },
+      "cardInfo": {
+        "limited": {
+          "a810a75e-b8e0-4de7-afbc-28a7474f7475": {
+            "image": "https://ms.yugipedia.com//0/0a/DarkHighlander-YF01-FR-UR-LE.png"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "externalIDs": {}
+    },
+    "en": {
+      "language": "en",
+      "prefix": "YF01-EN",
+      "image": "https://ms.yugipedia.com//0/0d/YF01-PromoEN.png",
+      "cardImages": {
+        "limited": {
+          "a810a75e-b8e0-4de7-afbc-28a7474f7475": "https://ms.yugipedia.com//1/1a/DarkHighlander-YF01-EN-UR-LE.png"
+        }
+      },
+      "cardInfo": {
+        "limited": {
+          "a810a75e-b8e0-4de7-afbc-28a7474f7475": {
+            "image": "https://ms.yugipedia.com//1/1a/DarkHighlander-YF01-EN-UR-LE.png"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          1111107006
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "distrobution": "preconstructed",
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//a/ad/YF01-PromoJP.png",
+      "cards": [
+        {
+          "id": "a810a75e-b8e0-4de7-afbc-28a7474f7475",
+          "card": "69cd6a74-798a-47b5-a571-0ba469e1ae47",
+          "suffix": "001",
+          "rarity": "ultra"
+        }
+      ],
+      "externalIDs": {}
+    },
+    {
+      "locales": [
+        "fr"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "preconstructed",
+      "editions": [
+        "limited"
+      ],
+      "image": "https://ms.yugipedia.com//1/17/YF01-PromoFR.png",
+      "cards": [
+        {
+          "id": "a810a75e-b8e0-4de7-afbc-28a7474f7475",
+          "card": "69cd6a74-798a-47b5-a571-0ba469e1ae47",
+          "suffix": "001",
+          "rarity": "ultra"
+        }
+      ],
+      "externalIDs": {}
+    },
+    {
+      "locales": [
+        "en"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "preconstructed",
+      "editions": [
+        "limited"
+      ],
+      "image": "https://ms.yugipedia.com//0/0d/YF01-PromoEN.png",
+      "cards": [
+        {
+          "id": "a810a75e-b8e0-4de7-afbc-28a7474f7475",
+          "card": "69cd6a74-798a-47b5-a571-0ba469e1ae47",
+          "suffix": "001",
+          "rarity": "ultra"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Yu-Gi-Oh! 5D's Volume 1 promotional card",
+      "id": 130899
+    }
+  }
+}

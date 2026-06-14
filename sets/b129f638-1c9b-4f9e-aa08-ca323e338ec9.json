@@ -1,0 +1,120 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/set.json",
+  "id": "b129f638-1c9b-4f9e-aa08-ca323e338ec9",
+  "name": {
+    "en": "Yu-Gi-Oh! GX Volume 1",
+    "ja": "\u904a\u622f\u738b\uff27\uff38 \u7b2c\uff11\u5dfb \u4ed8\u9332\u30ab\u30fc\u30c9"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "prefix": "YG01-JP",
+      "date": "2006-11-02",
+      "image": "https://ms.yugipedia.com//6/6e/YG01-PromoJP.png",
+      "cardImages": {
+        "unlimited": {
+          "937bd811-27fb-42ed-8d5c-bfc943e2b823": "https://ms.yugipedia.com//3/3d/LightandDarknessDragon-YG01-JP-UR.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "937bd811-27fb-42ed-8d5c-bfc943e2b823": {
+            "image": "https://ms.yugipedia.com//3/3d/LightandDarknessDragon-YG01-JP-UR.png"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          121208008
+        ]
+      }
+    },
+    "en": {
+      "language": "en",
+      "prefix": "YG01-EN",
+      "date": "2007-11-06",
+      "image": "https://ms.yugipedia.com//b/b4/YG01-PromoEN.png",
+      "cardImages": {
+        "limited": {
+          "c5ea7299-87ca-481e-beef-967ee4fdc7fc": "https://ms.yugipedia.com//1/15/LightandDarknessDragon-YG01-EN-ScR-LE.png"
+        }
+      },
+      "cardInfo": {
+        "limited": {
+          "c5ea7299-87ca-481e-beef-967ee4fdc7fc": {
+            "image": "https://ms.yugipedia.com//1/15/LightandDarknessDragon-YG01-EN-ScR-LE.png"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          161601204
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "distrobution": "preconstructed",
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//6/6e/YG01-PromoJP.png",
+      "cards": [
+        {
+          "id": "937bd811-27fb-42ed-8d5c-bfc943e2b823",
+          "card": "83f89a7e-5991-4710-9d05-30c63a0fae05",
+          "suffix": "001",
+          "rarity": "ultra"
+        }
+      ],
+      "externalIDs": {}
+    },
+    {
+      "locales": [
+        "en"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "preconstructed",
+      "editions": [
+        "limited"
+      ],
+      "image": "https://ms.yugipedia.com//b/b4/YG01-PromoEN.png",
+      "cards": [
+        {
+          "id": "c5ea7299-87ca-481e-beef-967ee4fdc7fc",
+          "card": "83f89a7e-5991-4710-9d05-30c63a0fae05",
+          "suffix": "001",
+          "rarity": "secret"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Yu-Gi-Oh! GX Volume 1 promotional card",
+      "id": 48054
+    }
+  }
+}

@@ -1,0 +1,2645 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/set.json",
+  "id": "ff67d52d-e992-4bdb-8435-45f60aa7cef2",
+  "name": {
+    "en": "Structure Deck: Order of the Spellcasters",
+    "fr": "Deck de Structure : La Confr\u00e9rie des Magiciens",
+    "de": "Structure Deck: Order of the Spellcasters",
+    "it": "Structure Deck: Ordine degli Incantatori",
+    "pt": "Deck Estrutural: Ordem dos Magos",
+    "es": "Baraja de Estructura: Mandato de los Conjuradores"
+  },
+  "locales": {
+    "en": {
+      "language": "en",
+      "prefix": "SR08-EN",
+      "image": "https://ms.yugipedia.com//8/82/SR08-DeckEN.png",
+      "cardImages": {
+        "1st": {
+          "0efcbbc3-eabd-4a4e-9a81-b38f1c26fe00": "https://ms.yugipedia.com//4/40/EndymiontheMightyMasterofMagic-SR08-EN-UR-1E.png",
+          "1622e8b4-f82e-40af-812b-27bf79439526": "https://ms.yugipedia.com//a/af/ReflectionofEndymion-SR08-EN-SR-1E.png",
+          "f1542151-9403-4551-a113-2ae14e88b483": "https://ms.yugipedia.com//8/8d/MagisterofEndymion-SR08-EN-C-1E.png",
+          "b9db62b2-0ac1-495e-8d11-856b13d9f303": "https://ms.yugipedia.com//e/ea/ServantofEndymion-SR08-EN-C-1E.png",
+          "5bf7d7ae-38fc-4c9c-9d39-7e41d9296c76": "https://ms.yugipedia.com//2/24/EndymiontheMasterMagician-SR08-EN-C-1E.png",
+          "04ae5243-dafd-42fe-b0cb-6c2cae61007b": "https://ms.yugipedia.com//d/d7/CrusaderofEndymion-SR08-EN-C-1E.png",
+          "cfdfe0e6-915b-4817-aab9-4382b30f065e": "https://ms.yugipedia.com//0/01/DefendertheMagicalKnight-SR08-EN-C-1E.png",
+          "af9c63df-03d2-4a6b-a0f2-9b5d93532bf6": "https://ms.yugipedia.com//b/bc/MythicalBeastCerberus-SR08-EN-C-1E.png",
+          "ccc6f71f-4576-4ce7-9df8-6222275765dd": "https://ms.yugipedia.com//1/17/MythicalBeastMedusa-SR08-EN-C-1E.png",
+          "8707b1ec-4973-44db-bbf0-30762aaefe8a": "https://ms.yugipedia.com//9/94/MagicalSomething-SR08-EN-C-1E.png",
+          "d4acabea-723c-48e5-b651-82cda7e774ef": "https://ms.yugipedia.com//6/61/MagicalExemplar-SR08-EN-C-1E.png",
+          "387419a1-7828-45a5-92ba-d66d906a09c5": "https://ms.yugipedia.com//9/98/MagicalAbductor-SR08-EN-C-1E.png",
+          "54cd972a-7ccc-4bf7-ba9f-51dc4df1f9df": "https://ms.yugipedia.com//f/f9/Disenchanter-SR08-EN-C-1E.png",
+          "88713b88-1b52-496b-abea-e8a4c922fcdc": "https://ms.yugipedia.com//b/bf/ApprenticeMagician-SR08-EN-C-1E.png",
+          "5c1d5fa5-0860-4476-abbc-75a9cab10efe": "https://ms.yugipedia.com//1/17/DarkMagicianofChaos-SR08-EN-C-1E.png",
+          "7c983555-842c-4aa1-a78a-78b3809146e2": "https://ms.yugipedia.com//3/38/FairyTailLuna-SR08-EN-C-1E.png",
+          "ec77068e-975c-4f03-8491-416737db0f8c": "https://ms.yugipedia.com//4/42/SummonerMonk-SR08-EN-C-1E.png",
+          "397403d6-2da5-49b4-a358-17eda8e69478": "https://ms.yugipedia.com//5/58/SpellbookMagicianofProphecy-SR08-EN-C-1E.png",
+          "db040233-64c5-439f-a92e-8dcba152e790": "https://ms.yugipedia.com//e/e0/MagicalUndertaker-SR08-EN-C-1E.png",
+          "842e24b9-2661-498c-970c-4993a641d530": "https://ms.yugipedia.com//a/ab/MagicianofFaith-SR08-EN-C-1E.png",
+          "76c0d178-2645-4128-908f-fac157b9c9da": "https://ms.yugipedia.com//5/54/DrollLockBird-SR08-EN-C-1E.png",
+          "554be7e7-546e-4804-8b78-f5579a91be82": "https://ms.yugipedia.com//b/b2/SpellPowerMastery-SR08-EN-SR-1E.png",
+          "f6a2913f-74db-492c-82c4-147536ac5c99": "https://ms.yugipedia.com//6/63/EndymionsLab-SR08-EN-C-1E.png",
+          "9e353d45-c919-4391-9292-4306681b521c": "https://ms.yugipedia.com//6/6b/MagicalCitadelofEndymion-SR08-EN-C-1E.png",
+          "0981572e-b879-4aa5-bcb9-cd6e0553ef07": "https://ms.yugipedia.com//5/5e/SpellPowerGrasp-SR08-EN-C-1E.png",
+          "a60fb3d7-44c1-41e8-a7e9-e323bd48e24e": "https://ms.yugipedia.com//1/15/ArcaneBarrier-SR08-EN-C-1E.png",
+          "1c5af15b-c288-40a7-a968-ad8b548e57e6": "https://ms.yugipedia.com//b/b5/SpellbookofSecrets-SR08-EN-C-1E.png",
+          "3a55a270-2d4e-41fc-b134-fc48e2bc0482": "https://ms.yugipedia.com//d/d4/SpellbookofPower-SR08-EN-C-1E.png",
+          "1c487641-4ee0-4a82-a822-aa3ace339b02": "https://ms.yugipedia.com//2/27/SpellbookofWisdom-SR08-EN-C-1E.png",
+          "9ab806e6-4afa-4b1d-be58-3bfd72090b54": "https://ms.yugipedia.com//1/1b/MagicalBlast-SR08-EN-C-1E.png",
+          "8458f383-35aa-4a10-98fe-d78c238107d1": "https://ms.yugipedia.com//6/68/MagicalDimension-SR08-EN-C-1E.png",
+          "ae2fe802-6d1f-4bb7-b09c-85ae0e91633e": "https://ms.yugipedia.com//a/ad/Terraforming-SR08-EN-C-1E.png",
+          "c5728159-6abb-452d-bb14-21bffd4e0104": "https://ms.yugipedia.com//6/6d/LeftArmOffering-SR08-EN-C-1E.png",
+          "ba124a13-5b8a-4510-a2e2-499b943dc1f9": "https://ms.yugipedia.com//6/6f/PotofDesires-SR08-EN-C-1E.png",
+          "7f3d39a7-6b58-4417-b64a-e86ec2e15755": "https://ms.yugipedia.com//7/7f/MythicalBestiamorph-SR08-EN-C-1E.png",
+          "2431f2fb-6970-4ad2-80e4-6d4ad16d7299": "https://ms.yugipedia.com//9/92/PitchBlackPowerStone-SR08-EN-C-1E.png",
+          "e24f2bcc-2139-4760-8c1d-747e1fc37ccb": "https://ms.yugipedia.com//0/0e/ExtraBuck-SR08-EN-C-1E.png",
+          "a0da2689-962a-4d70-a87a-c36c7cbeb129": "https://ms.yugipedia.com//f/fe/Gagagashield-SR08-EN-C-1E.png",
+          "ef071d78-e43f-4a9a-a645-f2372c3de200": "https://ms.yugipedia.com//a/a5/MagiciansCircle-SR08-EN-C-1E.png",
+          "65d90c92-3200-4ae2-853b-713a8082f677": "https://ms.yugipedia.com//4/40/DayBreakertheShiningMagicalWarrior-SR08-EN-UR-1E.png",
+          "4e8cfe4a-4f1c-4142-950b-68fb6e32525f": "https://ms.yugipedia.com//7/73/DwimmeredPath-SR08-EN-SR-1E.png"
+        }
+      },
+      "cardInfo": {
+        "1st": {
+          "9ab806e6-4afa-4b1d-be58-3bfd72090b54": {
+            "image": "https://ms.yugipedia.com//1/1b/MagicalBlast-SR08-EN-C-1E.png"
+          },
+          "c5728159-6abb-452d-bb14-21bffd4e0104": {
+            "image": "https://ms.yugipedia.com//6/6d/LeftArmOffering-SR08-EN-C-1E.png"
+          },
+          "ae2fe802-6d1f-4bb7-b09c-85ae0e91633e": {
+            "image": "https://ms.yugipedia.com//a/ad/Terraforming-SR08-EN-C-1E.png"
+          },
+          "7f3d39a7-6b58-4417-b64a-e86ec2e15755": {
+            "image": "https://ms.yugipedia.com//7/7f/MythicalBestiamorph-SR08-EN-C-1E.png"
+          },
+          "ba124a13-5b8a-4510-a2e2-499b943dc1f9": {
+            "image": "https://ms.yugipedia.com//6/6f/PotofDesires-SR08-EN-C-1E.png"
+          },
+          "e24f2bcc-2139-4760-8c1d-747e1fc37ccb": {
+            "image": "https://ms.yugipedia.com//0/0e/ExtraBuck-SR08-EN-C-1E.png"
+          },
+          "0efcbbc3-eabd-4a4e-9a81-b38f1c26fe00": {
+            "image": "https://ms.yugipedia.com//4/40/EndymiontheMightyMasterofMagic-SR08-EN-UR-1E.png"
+          },
+          "2431f2fb-6970-4ad2-80e4-6d4ad16d7299": {
+            "image": "https://ms.yugipedia.com//9/92/PitchBlackPowerStone-SR08-EN-C-1E.png"
+          },
+          "ef071d78-e43f-4a9a-a645-f2372c3de200": {
+            "image": "https://ms.yugipedia.com//a/a5/MagiciansCircle-SR08-EN-C-1E.png"
+          },
+          "1622e8b4-f82e-40af-812b-27bf79439526": {
+            "image": "https://ms.yugipedia.com//a/af/ReflectionofEndymion-SR08-EN-SR-1E.png"
+          },
+          "a0da2689-962a-4d70-a87a-c36c7cbeb129": {
+            "image": "https://ms.yugipedia.com//f/fe/Gagagashield-SR08-EN-C-1E.png"
+          },
+          "4e8cfe4a-4f1c-4142-950b-68fb6e32525f": {
+            "image": "https://ms.yugipedia.com//7/73/DwimmeredPath-SR08-EN-SR-1E.png"
+          },
+          "f1542151-9403-4551-a113-2ae14e88b483": {
+            "image": "https://ms.yugipedia.com//8/8d/MagisterofEndymion-SR08-EN-C-1E.png"
+          },
+          "65d90c92-3200-4ae2-853b-713a8082f677": {
+            "image": "https://ms.yugipedia.com//4/40/DayBreakertheShiningMagicalWarrior-SR08-EN-UR-1E.png"
+          },
+          "b9db62b2-0ac1-495e-8d11-856b13d9f303": {
+            "image": "https://ms.yugipedia.com//e/ea/ServantofEndymion-SR08-EN-C-1E.png"
+          },
+          "5bf7d7ae-38fc-4c9c-9d39-7e41d9296c76": {
+            "image": "https://ms.yugipedia.com//2/24/EndymiontheMasterMagician-SR08-EN-C-1E.png"
+          },
+          "04ae5243-dafd-42fe-b0cb-6c2cae61007b": {
+            "image": "https://ms.yugipedia.com//d/d7/CrusaderofEndymion-SR08-EN-C-1E.png"
+          },
+          "cfdfe0e6-915b-4817-aab9-4382b30f065e": {
+            "image": "https://ms.yugipedia.com//0/01/DefendertheMagicalKnight-SR08-EN-C-1E.png"
+          },
+          "ccc6f71f-4576-4ce7-9df8-6222275765dd": {
+            "image": "https://ms.yugipedia.com//1/17/MythicalBeastMedusa-SR08-EN-C-1E.png"
+          },
+          "af9c63df-03d2-4a6b-a0f2-9b5d93532bf6": {
+            "image": "https://ms.yugipedia.com//b/bc/MythicalBeastCerberus-SR08-EN-C-1E.png"
+          },
+          "d4acabea-723c-48e5-b651-82cda7e774ef": {
+            "image": "https://ms.yugipedia.com//6/61/MagicalExemplar-SR08-EN-C-1E.png"
+          },
+          "8707b1ec-4973-44db-bbf0-30762aaefe8a": {
+            "image": "https://ms.yugipedia.com//9/94/MagicalSomething-SR08-EN-C-1E.png"
+          },
+          "54cd972a-7ccc-4bf7-ba9f-51dc4df1f9df": {
+            "image": "https://ms.yugipedia.com//f/f9/Disenchanter-SR08-EN-C-1E.png"
+          },
+          "387419a1-7828-45a5-92ba-d66d906a09c5": {
+            "image": "https://ms.yugipedia.com//9/98/MagicalAbductor-SR08-EN-C-1E.png"
+          },
+          "5c1d5fa5-0860-4476-abbc-75a9cab10efe": {
+            "image": "https://ms.yugipedia.com//1/17/DarkMagicianofChaos-SR08-EN-C-1E.png"
+          },
+          "88713b88-1b52-496b-abea-e8a4c922fcdc": {
+            "image": "https://ms.yugipedia.com//b/bf/ApprenticeMagician-SR08-EN-C-1E.png"
+          },
+          "ec77068e-975c-4f03-8491-416737db0f8c": {
+            "image": "https://ms.yugipedia.com//4/42/SummonerMonk-SR08-EN-C-1E.png"
+          },
+          "7c983555-842c-4aa1-a78a-78b3809146e2": {
+            "image": "https://ms.yugipedia.com//3/38/FairyTailLuna-SR08-EN-C-1E.png"
+          },
+          "db040233-64c5-439f-a92e-8dcba152e790": {
+            "image": "https://ms.yugipedia.com//e/e0/MagicalUndertaker-SR08-EN-C-1E.png"
+          },
+          "397403d6-2da5-49b4-a358-17eda8e69478": {
+            "image": "https://ms.yugipedia.com//5/58/SpellbookMagicianofProphecy-SR08-EN-C-1E.png"
+          },
+          "76c0d178-2645-4128-908f-fac157b9c9da": {
+            "image": "https://ms.yugipedia.com//5/54/DrollLockBird-SR08-EN-C-1E.png"
+          },
+          "842e24b9-2661-498c-970c-4993a641d530": {
+            "image": "https://ms.yugipedia.com//a/ab/MagicianofFaith-SR08-EN-C-1E.png"
+          },
+          "f6a2913f-74db-492c-82c4-147536ac5c99": {
+            "image": "https://ms.yugipedia.com//6/63/EndymionsLab-SR08-EN-C-1E.png"
+          },
+          "554be7e7-546e-4804-8b78-f5579a91be82": {
+            "image": "https://ms.yugipedia.com//b/b2/SpellPowerMastery-SR08-EN-SR-1E.png"
+          },
+          "0981572e-b879-4aa5-bcb9-cd6e0553ef07": {
+            "image": "https://ms.yugipedia.com//5/5e/SpellPowerGrasp-SR08-EN-C-1E.png"
+          },
+          "9e353d45-c919-4391-9292-4306681b521c": {
+            "image": "https://ms.yugipedia.com//6/6b/MagicalCitadelofEndymion-SR08-EN-C-1E.png"
+          },
+          "1c5af15b-c288-40a7-a968-ad8b548e57e6": {
+            "image": "https://ms.yugipedia.com//b/b5/SpellbookofSecrets-SR08-EN-C-1E.png"
+          },
+          "a60fb3d7-44c1-41e8-a7e9-e323bd48e24e": {
+            "image": "https://ms.yugipedia.com//1/15/ArcaneBarrier-SR08-EN-C-1E.png"
+          },
+          "1c487641-4ee0-4a82-a822-aa3ace339b02": {
+            "image": "https://ms.yugipedia.com//2/27/SpellbookofWisdom-SR08-EN-C-1E.png"
+          },
+          "3a55a270-2d4e-41fc-b134-fc48e2bc0482": {
+            "image": "https://ms.yugipedia.com//d/d4/SpellbookofPower-SR08-EN-C-1E.png"
+          },
+          "8458f383-35aa-4a10-98fe-d78c238107d1": {
+            "image": "https://ms.yugipedia.com//6/68/MagicalDimension-SR08-EN-C-1E.png"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "1st"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          14415001
+        ]
+      }
+    },
+    "fr": {
+      "language": "fr",
+      "prefix": "SR08-FR",
+      "date": "2019-04-25",
+      "image": "https://ms.yugipedia.com//2/21/SR08-DeckFR.png",
+      "cardImages": {
+        "1st": {
+          "0efcbbc3-eabd-4a4e-9a81-b38f1c26fe00": "https://ms.yugipedia.com//9/9d/EndymiontheMightyMasterofMagic-SR08-FR-UR-1E.png",
+          "1622e8b4-f82e-40af-812b-27bf79439526": "https://ms.yugipedia.com//2/2e/ReflectionofEndymion-SR08-FR-SR-1E.png",
+          "f1542151-9403-4551-a113-2ae14e88b483": "https://ms.yugipedia.com//6/69/MagisterofEndymion-SR08-FR-C-1E.png",
+          "b9db62b2-0ac1-495e-8d11-856b13d9f303": "https://ms.yugipedia.com//8/84/ServantofEndymion-SR08-FR-C-1E.png",
+          "5bf7d7ae-38fc-4c9c-9d39-7e41d9296c76": "https://ms.yugipedia.com//4/47/EndymiontheMasterMagician-SR08-FR-C-1E.png",
+          "04ae5243-dafd-42fe-b0cb-6c2cae61007b": "https://ms.yugipedia.com//f/f9/CrusaderofEndymion-SR08-FR-C-1E.png",
+          "cfdfe0e6-915b-4817-aab9-4382b30f065e": "https://ms.yugipedia.com//7/7e/DefendertheMagicalKnight-SR08-FR-C-1E.png",
+          "af9c63df-03d2-4a6b-a0f2-9b5d93532bf6": "https://ms.yugipedia.com//f/fa/MythicalBeastCerberus-SR08-FR-C-1E.png",
+          "ccc6f71f-4576-4ce7-9df8-6222275765dd": "https://ms.yugipedia.com//5/5c/MythicalBeastMedusa-SR08-FR-C-1E.png",
+          "8707b1ec-4973-44db-bbf0-30762aaefe8a": "https://ms.yugipedia.com//c/c0/MagicalSomething-SR08-FR-C-1E.png",
+          "d4acabea-723c-48e5-b651-82cda7e774ef": "https://ms.yugipedia.com//3/38/MagicalExemplar-SR08-FR-C-1E.png",
+          "387419a1-7828-45a5-92ba-d66d906a09c5": "https://ms.yugipedia.com//a/a3/MagicalAbductor-SR08-FR-C-1E.png",
+          "54cd972a-7ccc-4bf7-ba9f-51dc4df1f9df": "https://ms.yugipedia.com//5/5e/Disenchanter-SR08-FR-C-1E.png",
+          "88713b88-1b52-496b-abea-e8a4c922fcdc": "https://ms.yugipedia.com//9/9b/ApprenticeMagician-SR08-FR-C-1E.png",
+          "5c1d5fa5-0860-4476-abbc-75a9cab10efe": "https://ms.yugipedia.com//e/ed/DarkMagicianofChaos-SR08-FR-C-1E.png",
+          "7c983555-842c-4aa1-a78a-78b3809146e2": "https://ms.yugipedia.com//b/bf/FairyTailLuna-SR08-FR-C-1E.png",
+          "ec77068e-975c-4f03-8491-416737db0f8c": "https://ms.yugipedia.com//3/3d/SummonerMonk-SR08-FR-C-1E.png",
+          "397403d6-2da5-49b4-a358-17eda8e69478": "https://ms.yugipedia.com//6/63/SpellbookMagicianofProphecy-SR08-FR-C-1E.png",
+          "db040233-64c5-439f-a92e-8dcba152e790": "https://ms.yugipedia.com//7/77/MagicalUndertaker-SR08-FR-C-1E.png",
+          "842e24b9-2661-498c-970c-4993a641d530": "https://ms.yugipedia.com//c/ce/MagicianofFaith-SR08-FR-C-1E.png",
+          "76c0d178-2645-4128-908f-fac157b9c9da": "https://ms.yugipedia.com//a/aa/DrollLockBird-SR08-FR-C-1E.png",
+          "554be7e7-546e-4804-8b78-f5579a91be82": "https://ms.yugipedia.com//c/c9/SpellPowerMastery-SR08-FR-SR-1E.png",
+          "f6a2913f-74db-492c-82c4-147536ac5c99": "https://ms.yugipedia.com//8/85/EndymionsLab-SR08-FR-C-1E.png",
+          "9e353d45-c919-4391-9292-4306681b521c": "https://ms.yugipedia.com//7/75/MagicalCitadelofEndymion-SR08-FR-C-1E.png",
+          "0981572e-b879-4aa5-bcb9-cd6e0553ef07": "https://ms.yugipedia.com//6/68/SpellPowerGrasp-SR08-FR-C-1E.png",
+          "a60fb3d7-44c1-41e8-a7e9-e323bd48e24e": "https://ms.yugipedia.com//3/38/ArcaneBarrier-SR08-FR-C-1E.png",
+          "1c5af15b-c288-40a7-a968-ad8b548e57e6": "https://ms.yugipedia.com//c/cc/SpellbookofSecrets-SR08-FR-C-1E.png",
+          "3a55a270-2d4e-41fc-b134-fc48e2bc0482": "https://ms.yugipedia.com//b/bb/SpellbookofPower-SR08-FR-C-1E.png",
+          "1c487641-4ee0-4a82-a822-aa3ace339b02": "https://ms.yugipedia.com//f/f5/SpellbookofWisdom-SR08-FR-C-1E.png",
+          "9ab806e6-4afa-4b1d-be58-3bfd72090b54": "https://ms.yugipedia.com//6/62/MagicalBlast-SR08-FR-C-1E.png",
+          "8458f383-35aa-4a10-98fe-d78c238107d1": "https://ms.yugipedia.com//1/12/MagicalDimension-SR08-FR-C-1E.png",
+          "ae2fe802-6d1f-4bb7-b09c-85ae0e91633e": "https://ms.yugipedia.com//3/35/Terraforming-SR08-FR-C-1E.png",
+          "c5728159-6abb-452d-bb14-21bffd4e0104": "https://ms.yugipedia.com//d/d2/LeftArmOffering-SR08-FR-C-1E.png",
+          "ba124a13-5b8a-4510-a2e2-499b943dc1f9": "https://ms.yugipedia.com//6/6a/PotofDesires-SR08-FR-C-1E.png",
+          "7f3d39a7-6b58-4417-b64a-e86ec2e15755": "https://ms.yugipedia.com//0/0c/MythicalBestiamorph-SR08-FR-C-1E.png",
+          "2431f2fb-6970-4ad2-80e4-6d4ad16d7299": "https://ms.yugipedia.com//4/41/PitchBlackPowerStone-SR08-FR-C-1E.png",
+          "e24f2bcc-2139-4760-8c1d-747e1fc37ccb": "https://ms.yugipedia.com//8/87/ExtraBuck-SR08-FR-C-1E.png",
+          "a0da2689-962a-4d70-a87a-c36c7cbeb129": "https://ms.yugipedia.com//3/33/Gagagashield-SR08-FR-C-1E.png",
+          "ef071d78-e43f-4a9a-a645-f2372c3de200": "https://ms.yugipedia.com//b/b5/MagiciansCircle-SR08-FR-C-1E.png",
+          "65d90c92-3200-4ae2-853b-713a8082f677": "https://ms.yugipedia.com//f/fc/DayBreakertheShiningMagicalWarrior-SR08-FR-UR-1E.png",
+          "4e8cfe4a-4f1c-4142-950b-68fb6e32525f": "https://ms.yugipedia.com//5/53/DwimmeredPath-SR08-FR-SR-1E.png"
+        }
+      },
+      "cardInfo": {
+        "1st": {
+          "c5728159-6abb-452d-bb14-21bffd4e0104": {
+            "image": "https://ms.yugipedia.com//d/d2/LeftArmOffering-SR08-FR-C-1E.png"
+          },
+          "ae2fe802-6d1f-4bb7-b09c-85ae0e91633e": {
+            "image": "https://ms.yugipedia.com//3/35/Terraforming-SR08-FR-C-1E.png"
+          },
+          "7f3d39a7-6b58-4417-b64a-e86ec2e15755": {
+            "image": "https://ms.yugipedia.com//0/0c/MythicalBestiamorph-SR08-FR-C-1E.png"
+          },
+          "ba124a13-5b8a-4510-a2e2-499b943dc1f9": {
+            "image": "https://ms.yugipedia.com//6/6a/PotofDesires-SR08-FR-C-1E.png"
+          },
+          "e24f2bcc-2139-4760-8c1d-747e1fc37ccb": {
+            "image": "https://ms.yugipedia.com//8/87/ExtraBuck-SR08-FR-C-1E.png"
+          },
+          "2431f2fb-6970-4ad2-80e4-6d4ad16d7299": {
+            "image": "https://ms.yugipedia.com//4/41/PitchBlackPowerStone-SR08-FR-C-1E.png"
+          },
+          "ef071d78-e43f-4a9a-a645-f2372c3de200": {
+            "image": "https://ms.yugipedia.com//b/b5/MagiciansCircle-SR08-FR-C-1E.png"
+          },
+          "a0da2689-962a-4d70-a87a-c36c7cbeb129": {
+            "image": "https://ms.yugipedia.com//3/33/Gagagashield-SR08-FR-C-1E.png"
+          },
+          "4e8cfe4a-4f1c-4142-950b-68fb6e32525f": {
+            "image": "https://ms.yugipedia.com//5/53/DwimmeredPath-SR08-FR-SR-1E.png"
+          },
+          "65d90c92-3200-4ae2-853b-713a8082f677": {
+            "image": "https://ms.yugipedia.com//f/fc/DayBreakertheShiningMagicalWarrior-SR08-FR-UR-1E.png"
+          },
+          "1622e8b4-f82e-40af-812b-27bf79439526": {
+            "image": "https://ms.yugipedia.com//2/2e/ReflectionofEndymion-SR08-FR-SR-1E.png"
+          },
+          "0efcbbc3-eabd-4a4e-9a81-b38f1c26fe00": {
+            "image": "https://ms.yugipedia.com//9/9d/EndymiontheMightyMasterofMagic-SR08-FR-UR-1E.png"
+          },
+          "8458f383-35aa-4a10-98fe-d78c238107d1": {
+            "image": "https://ms.yugipedia.com//1/12/MagicalDimension-SR08-FR-C-1E.png"
+          },
+          "b9db62b2-0ac1-495e-8d11-856b13d9f303": {
+            "image": "https://ms.yugipedia.com//8/84/ServantofEndymion-SR08-FR-C-1E.png"
+          },
+          "f1542151-9403-4551-a113-2ae14e88b483": {
+            "image": "https://ms.yugipedia.com//6/69/MagisterofEndymion-SR08-FR-C-1E.png"
+          },
+          "04ae5243-dafd-42fe-b0cb-6c2cae61007b": {
+            "image": "https://ms.yugipedia.com//f/f9/CrusaderofEndymion-SR08-FR-C-1E.png"
+          },
+          "5bf7d7ae-38fc-4c9c-9d39-7e41d9296c76": {
+            "image": "https://ms.yugipedia.com//4/47/EndymiontheMasterMagician-SR08-FR-C-1E.png"
+          },
+          "9ab806e6-4afa-4b1d-be58-3bfd72090b54": {
+            "image": "https://ms.yugipedia.com//6/62/MagicalBlast-SR08-FR-C-1E.png"
+          },
+          "af9c63df-03d2-4a6b-a0f2-9b5d93532bf6": {
+            "image": "https://ms.yugipedia.com//f/fa/MythicalBeastCerberus-SR08-FR-C-1E.png"
+          },
+          "cfdfe0e6-915b-4817-aab9-4382b30f065e": {
+            "image": "https://ms.yugipedia.com//7/7e/DefendertheMagicalKnight-SR08-FR-C-1E.png"
+          },
+          "8707b1ec-4973-44db-bbf0-30762aaefe8a": {
+            "image": "https://ms.yugipedia.com//c/c0/MagicalSomething-SR08-FR-C-1E.png"
+          },
+          "ccc6f71f-4576-4ce7-9df8-6222275765dd": {
+            "image": "https://ms.yugipedia.com//5/5c/MythicalBeastMedusa-SR08-FR-C-1E.png"
+          },
+          "387419a1-7828-45a5-92ba-d66d906a09c5": {
+            "image": "https://ms.yugipedia.com//a/a3/MagicalAbductor-SR08-FR-C-1E.png"
+          },
+          "d4acabea-723c-48e5-b651-82cda7e774ef": {
+            "image": "https://ms.yugipedia.com//3/38/MagicalExemplar-SR08-FR-C-1E.png"
+          },
+          "88713b88-1b52-496b-abea-e8a4c922fcdc": {
+            "image": "https://ms.yugipedia.com//9/9b/ApprenticeMagician-SR08-FR-C-1E.png"
+          },
+          "54cd972a-7ccc-4bf7-ba9f-51dc4df1f9df": {
+            "image": "https://ms.yugipedia.com//5/5e/Disenchanter-SR08-FR-C-1E.png"
+          },
+          "7c983555-842c-4aa1-a78a-78b3809146e2": {
+            "image": "https://ms.yugipedia.com//b/bf/FairyTailLuna-SR08-FR-C-1E.png"
+          },
+          "5c1d5fa5-0860-4476-abbc-75a9cab10efe": {
+            "image": "https://ms.yugipedia.com//e/ed/DarkMagicianofChaos-SR08-FR-C-1E.png"
+          },
+          "397403d6-2da5-49b4-a358-17eda8e69478": {
+            "image": "https://ms.yugipedia.com//6/63/SpellbookMagicianofProphecy-SR08-FR-C-1E.png"
+          },
+          "ec77068e-975c-4f03-8491-416737db0f8c": {
+            "image": "https://ms.yugipedia.com//3/3d/SummonerMonk-SR08-FR-C-1E.png"
+          },
+          "842e24b9-2661-498c-970c-4993a641d530": {
+            "image": "https://ms.yugipedia.com//c/ce/MagicianofFaith-SR08-FR-C-1E.png"
+          },
+          "db040233-64c5-439f-a92e-8dcba152e790": {
+            "image": "https://ms.yugipedia.com//7/77/MagicalUndertaker-SR08-FR-C-1E.png"
+          },
+          "554be7e7-546e-4804-8b78-f5579a91be82": {
+            "image": "https://ms.yugipedia.com//c/c9/SpellPowerMastery-SR08-FR-SR-1E.png"
+          },
+          "76c0d178-2645-4128-908f-fac157b9c9da": {
+            "image": "https://ms.yugipedia.com//a/aa/DrollLockBird-SR08-FR-C-1E.png"
+          },
+          "9e353d45-c919-4391-9292-4306681b521c": {
+            "image": "https://ms.yugipedia.com//7/75/MagicalCitadelofEndymion-SR08-FR-C-1E.png"
+          },
+          "f6a2913f-74db-492c-82c4-147536ac5c99": {
+            "image": "https://ms.yugipedia.com//8/85/EndymionsLab-SR08-FR-C-1E.png"
+          },
+          "a60fb3d7-44c1-41e8-a7e9-e323bd48e24e": {
+            "image": "https://ms.yugipedia.com//3/38/ArcaneBarrier-SR08-FR-C-1E.png"
+          },
+          "0981572e-b879-4aa5-bcb9-cd6e0553ef07": {
+            "image": "https://ms.yugipedia.com//6/68/SpellPowerGrasp-SR08-FR-C-1E.png"
+          },
+          "3a55a270-2d4e-41fc-b134-fc48e2bc0482": {
+            "image": "https://ms.yugipedia.com//b/bb/SpellbookofPower-SR08-FR-C-1E.png"
+          },
+          "1c5af15b-c288-40a7-a968-ad8b548e57e6": {
+            "image": "https://ms.yugipedia.com//c/cc/SpellbookofSecrets-SR08-FR-C-1E.png"
+          },
+          "1c487641-4ee0-4a82-a822-aa3ace339b02": {
+            "image": "https://ms.yugipedia.com//f/f5/SpellbookofWisdom-SR08-FR-C-1E.png"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "1st"
+      ],
+      "externalIDs": {}
+    },
+    "de": {
+      "language": "de",
+      "prefix": "SR08-DE",
+      "date": "2019-04-25",
+      "image": "https://ms.yugipedia.com//f/f7/SR08-DeckDE.png",
+      "cardImages": {
+        "1st": {
+          "0efcbbc3-eabd-4a4e-9a81-b38f1c26fe00": "https://ms.yugipedia.com//c/ce/EndymiontheMightyMasterofMagic-SR08-DE-UR-1E.png",
+          "1622e8b4-f82e-40af-812b-27bf79439526": "https://ms.yugipedia.com//3/3c/ReflectionofEndymion-SR08-DE-SR-1E.png",
+          "f1542151-9403-4551-a113-2ae14e88b483": "https://ms.yugipedia.com//5/5c/MagisterofEndymion-SR08-DE-C-1E.png",
+          "b9db62b2-0ac1-495e-8d11-856b13d9f303": "https://ms.yugipedia.com//c/c8/ServantofEndymion-SR08-DE-C-1E.png",
+          "5bf7d7ae-38fc-4c9c-9d39-7e41d9296c76": "https://ms.yugipedia.com//e/e3/EndymiontheMasterMagician-SR08-DE-C-1E.png",
+          "04ae5243-dafd-42fe-b0cb-6c2cae61007b": "https://ms.yugipedia.com//1/19/CrusaderofEndymion-SR08-DE-C-1E.png",
+          "cfdfe0e6-915b-4817-aab9-4382b30f065e": "https://ms.yugipedia.com//3/3f/DefendertheMagicalKnight-SR08-DE-C-1E.png",
+          "af9c63df-03d2-4a6b-a0f2-9b5d93532bf6": "https://ms.yugipedia.com//d/d4/MythicalBeastCerberus-SR08-DE-C-1E.png",
+          "ccc6f71f-4576-4ce7-9df8-6222275765dd": "https://ms.yugipedia.com//1/1a/MythicalBeastMedusa-SR08-DE-C-1E.png",
+          "8707b1ec-4973-44db-bbf0-30762aaefe8a": "https://ms.yugipedia.com//f/fc/MagicalSomething-SR08-DE-C-1E.png",
+          "d4acabea-723c-48e5-b651-82cda7e774ef": "https://ms.yugipedia.com//3/3c/MagicalExemplar-SR08-DE-C-1E.png",
+          "387419a1-7828-45a5-92ba-d66d906a09c5": "https://ms.yugipedia.com//0/06/MagicalAbductor-SR08-DE-C-1E.png",
+          "54cd972a-7ccc-4bf7-ba9f-51dc4df1f9df": "https://ms.yugipedia.com//8/8c/Disenchanter-SR08-DE-C-1E.png",
+          "88713b88-1b52-496b-abea-e8a4c922fcdc": "https://ms.yugipedia.com//4/42/ApprenticeMagician-SR08-DE-C-1E.png",
+          "5c1d5fa5-0860-4476-abbc-75a9cab10efe": "https://ms.yugipedia.com//4/47/DarkMagicianofChaos-SR08-DE-C-1E.png",
+          "7c983555-842c-4aa1-a78a-78b3809146e2": "https://ms.yugipedia.com//6/63/FairyTailLuna-SR08-DE-C-1E.png",
+          "ec77068e-975c-4f03-8491-416737db0f8c": "https://ms.yugipedia.com//9/96/SummonerMonk-SR08-DE-C-1E.png",
+          "397403d6-2da5-49b4-a358-17eda8e69478": "https://ms.yugipedia.com//9/91/SpellbookMagicianofProphecy-SR08-DE-C-1E.png",
+          "db040233-64c5-439f-a92e-8dcba152e790": "https://ms.yugipedia.com//3/37/MagicalUndertaker-SR08-DE-C-1E.png",
+          "842e24b9-2661-498c-970c-4993a641d530": "https://ms.yugipedia.com//3/39/MagicianofFaith-SR08-DE-C-1E.png",
+          "76c0d178-2645-4128-908f-fac157b9c9da": "https://ms.yugipedia.com//e/e8/DrollLockBird-SR08-DE-C-1E.png",
+          "554be7e7-546e-4804-8b78-f5579a91be82": "https://ms.yugipedia.com//8/86/SpellPowerMastery-SR08-DE-SR-1E.png",
+          "f6a2913f-74db-492c-82c4-147536ac5c99": "https://ms.yugipedia.com//4/46/EndymionsLab-SR08-DE-C-1E.png",
+          "9e353d45-c919-4391-9292-4306681b521c": "https://ms.yugipedia.com//a/ac/MagicalCitadelofEndymion-SR08-DE-C-1E.png",
+          "0981572e-b879-4aa5-bcb9-cd6e0553ef07": "https://ms.yugipedia.com//a/ab/SpellPowerGrasp-SR08-DE-C-1E.png",
+          "a60fb3d7-44c1-41e8-a7e9-e323bd48e24e": "https://ms.yugipedia.com//c/c8/ArcaneBarrier-SR08-DE-C-1E.png",
+          "1c5af15b-c288-40a7-a968-ad8b548e57e6": "https://ms.yugipedia.com//0/01/SpellbookofSecrets-SR08-DE-C-1E.png",
+          "3a55a270-2d4e-41fc-b134-fc48e2bc0482": "https://ms.yugipedia.com//f/f1/SpellbookofPower-SR08-DE-C-1E.png",
+          "1c487641-4ee0-4a82-a822-aa3ace339b02": "https://ms.yugipedia.com//8/8e/SpellbookofWisdom-SR08-DE-C-1E.png",
+          "9ab806e6-4afa-4b1d-be58-3bfd72090b54": "https://ms.yugipedia.com//6/6d/MagicalBlast-SR08-DE-C-1E.png",
+          "8458f383-35aa-4a10-98fe-d78c238107d1": "https://ms.yugipedia.com//3/32/MagicalDimension-SR08-DE-C-1E.png",
+          "ae2fe802-6d1f-4bb7-b09c-85ae0e91633e": "https://ms.yugipedia.com//4/42/Terraforming-SR08-DE-C-1E.png",
+          "c5728159-6abb-452d-bb14-21bffd4e0104": "https://ms.yugipedia.com//c/cf/LeftArmOffering-SR08-DE-C-1E.png",
+          "ba124a13-5b8a-4510-a2e2-499b943dc1f9": "https://ms.yugipedia.com//4/4c/PotofDesires-SR08-DE-C-1E.png",
+          "7f3d39a7-6b58-4417-b64a-e86ec2e15755": "https://ms.yugipedia.com//8/87/MythicalBestiamorph-SR08-DE-C-1E.png",
+          "2431f2fb-6970-4ad2-80e4-6d4ad16d7299": "https://ms.yugipedia.com//d/df/PitchBlackPowerStone-SR08-DE-C-1E.png",
+          "e24f2bcc-2139-4760-8c1d-747e1fc37ccb": "https://ms.yugipedia.com//3/3c/ExtraBuck-SR08-DE-C-1E.png",
+          "a0da2689-962a-4d70-a87a-c36c7cbeb129": "https://ms.yugipedia.com//9/9d/Gagagashield-SR08-DE-C-1E.png",
+          "ef071d78-e43f-4a9a-a645-f2372c3de200": "https://ms.yugipedia.com//5/53/MagiciansCircle-SR08-DE-C-1E.png",
+          "65d90c92-3200-4ae2-853b-713a8082f677": "https://ms.yugipedia.com//e/e1/DayBreakertheShiningMagicalWarrior-SR08-DE-UR-1E.png",
+          "4e8cfe4a-4f1c-4142-950b-68fb6e32525f": "https://ms.yugipedia.com//e/e5/DwimmeredPath-SR08-DE-SR-1E.png"
+        }
+      },
+      "cardInfo": {
+        "1st": {
+          "3a55a270-2d4e-41fc-b134-fc48e2bc0482": {
+            "image": "https://ms.yugipedia.com//f/f1/SpellbookofPower-SR08-DE-C-1E.png"
+          },
+          "88713b88-1b52-496b-abea-e8a4c922fcdc": {
+            "image": "https://ms.yugipedia.com//4/42/ApprenticeMagician-SR08-DE-C-1E.png"
+          },
+          "1c487641-4ee0-4a82-a822-aa3ace339b02": {
+            "image": "https://ms.yugipedia.com//8/8e/SpellbookofWisdom-SR08-DE-C-1E.png"
+          },
+          "9ab806e6-4afa-4b1d-be58-3bfd72090b54": {
+            "image": "https://ms.yugipedia.com//6/6d/MagicalBlast-SR08-DE-C-1E.png"
+          },
+          "8458f383-35aa-4a10-98fe-d78c238107d1": {
+            "image": "https://ms.yugipedia.com//3/32/MagicalDimension-SR08-DE-C-1E.png"
+          },
+          "8707b1ec-4973-44db-bbf0-30762aaefe8a": {
+            "image": "https://ms.yugipedia.com//f/fc/MagicalSomething-SR08-DE-C-1E.png"
+          },
+          "ae2fe802-6d1f-4bb7-b09c-85ae0e91633e": {
+            "image": "https://ms.yugipedia.com//4/42/Terraforming-SR08-DE-C-1E.png"
+          },
+          "c5728159-6abb-452d-bb14-21bffd4e0104": {
+            "image": "https://ms.yugipedia.com//c/cf/LeftArmOffering-SR08-DE-C-1E.png"
+          },
+          "1622e8b4-f82e-40af-812b-27bf79439526": {
+            "image": "https://ms.yugipedia.com//3/3c/ReflectionofEndymion-SR08-DE-SR-1E.png"
+          },
+          "ba124a13-5b8a-4510-a2e2-499b943dc1f9": {
+            "image": "https://ms.yugipedia.com//4/4c/PotofDesires-SR08-DE-C-1E.png"
+          },
+          "f1542151-9403-4551-a113-2ae14e88b483": {
+            "image": "https://ms.yugipedia.com//5/5c/MagisterofEndymion-SR08-DE-C-1E.png"
+          },
+          "0efcbbc3-eabd-4a4e-9a81-b38f1c26fe00": {
+            "image": "https://ms.yugipedia.com//c/ce/EndymiontheMightyMasterofMagic-SR08-DE-UR-1E.png"
+          },
+          "b9db62b2-0ac1-495e-8d11-856b13d9f303": {
+            "image": "https://ms.yugipedia.com//c/c8/ServantofEndymion-SR08-DE-C-1E.png"
+          },
+          "387419a1-7828-45a5-92ba-d66d906a09c5": {
+            "image": "https://ms.yugipedia.com//0/06/MagicalAbductor-SR08-DE-C-1E.png"
+          },
+          "7f3d39a7-6b58-4417-b64a-e86ec2e15755": {
+            "image": "https://ms.yugipedia.com//8/87/MythicalBestiamorph-SR08-DE-C-1E.png"
+          },
+          "5bf7d7ae-38fc-4c9c-9d39-7e41d9296c76": {
+            "image": "https://ms.yugipedia.com//e/e3/EndymiontheMasterMagician-SR08-DE-C-1E.png"
+          },
+          "04ae5243-dafd-42fe-b0cb-6c2cae61007b": {
+            "image": "https://ms.yugipedia.com//1/19/CrusaderofEndymion-SR08-DE-C-1E.png"
+          },
+          "2431f2fb-6970-4ad2-80e4-6d4ad16d7299": {
+            "image": "https://ms.yugipedia.com//d/df/PitchBlackPowerStone-SR08-DE-C-1E.png"
+          },
+          "7c983555-842c-4aa1-a78a-78b3809146e2": {
+            "image": "https://ms.yugipedia.com//6/63/FairyTailLuna-SR08-DE-C-1E.png"
+          },
+          "54cd972a-7ccc-4bf7-ba9f-51dc4df1f9df": {
+            "image": "https://ms.yugipedia.com//8/8c/Disenchanter-SR08-DE-C-1E.png"
+          },
+          "e24f2bcc-2139-4760-8c1d-747e1fc37ccb": {
+            "image": "https://ms.yugipedia.com//3/3c/ExtraBuck-SR08-DE-C-1E.png"
+          },
+          "cfdfe0e6-915b-4817-aab9-4382b30f065e": {
+            "image": "https://ms.yugipedia.com//3/3f/DefendertheMagicalKnight-SR08-DE-C-1E.png"
+          },
+          "a0da2689-962a-4d70-a87a-c36c7cbeb129": {
+            "image": "https://ms.yugipedia.com//9/9d/Gagagashield-SR08-DE-C-1E.png"
+          },
+          "ec77068e-975c-4f03-8491-416737db0f8c": {
+            "image": "https://ms.yugipedia.com//9/96/SummonerMonk-SR08-DE-C-1E.png"
+          },
+          "ef071d78-e43f-4a9a-a645-f2372c3de200": {
+            "image": "https://ms.yugipedia.com//5/53/MagiciansCircle-SR08-DE-C-1E.png"
+          },
+          "397403d6-2da5-49b4-a358-17eda8e69478": {
+            "image": "https://ms.yugipedia.com//9/91/SpellbookMagicianofProphecy-SR08-DE-C-1E.png"
+          },
+          "65d90c92-3200-4ae2-853b-713a8082f677": {
+            "image": "https://ms.yugipedia.com//e/e1/DayBreakertheShiningMagicalWarrior-SR08-DE-UR-1E.png"
+          },
+          "db040233-64c5-439f-a92e-8dcba152e790": {
+            "image": "https://ms.yugipedia.com//3/37/MagicalUndertaker-SR08-DE-C-1E.png"
+          },
+          "4e8cfe4a-4f1c-4142-950b-68fb6e32525f": {
+            "image": "https://ms.yugipedia.com//e/e5/DwimmeredPath-SR08-DE-SR-1E.png"
+          },
+          "842e24b9-2661-498c-970c-4993a641d530": {
+            "image": "https://ms.yugipedia.com//3/39/MagicianofFaith-SR08-DE-C-1E.png"
+          },
+          "d4acabea-723c-48e5-b651-82cda7e774ef": {
+            "image": "https://ms.yugipedia.com//3/3c/MagicalExemplar-SR08-DE-C-1E.png"
+          },
+          "5c1d5fa5-0860-4476-abbc-75a9cab10efe": {
+            "image": "https://ms.yugipedia.com//4/47/DarkMagicianofChaos-SR08-DE-C-1E.png"
+          },
+          "76c0d178-2645-4128-908f-fac157b9c9da": {
+            "image": "https://ms.yugipedia.com//e/e8/DrollLockBird-SR08-DE-C-1E.png"
+          },
+          "554be7e7-546e-4804-8b78-f5579a91be82": {
+            "image": "https://ms.yugipedia.com//8/86/SpellPowerMastery-SR08-DE-SR-1E.png"
+          },
+          "ccc6f71f-4576-4ce7-9df8-6222275765dd": {
+            "image": "https://ms.yugipedia.com//1/1a/MythicalBeastMedusa-SR08-DE-C-1E.png"
+          },
+          "f6a2913f-74db-492c-82c4-147536ac5c99": {
+            "image": "https://ms.yugipedia.com//4/46/EndymionsLab-SR08-DE-C-1E.png"
+          },
+          "9e353d45-c919-4391-9292-4306681b521c": {
+            "image": "https://ms.yugipedia.com//a/ac/MagicalCitadelofEndymion-SR08-DE-C-1E.png"
+          },
+          "0981572e-b879-4aa5-bcb9-cd6e0553ef07": {
+            "image": "https://ms.yugipedia.com//a/ab/SpellPowerGrasp-SR08-DE-C-1E.png"
+          },
+          "af9c63df-03d2-4a6b-a0f2-9b5d93532bf6": {
+            "image": "https://ms.yugipedia.com//d/d4/MythicalBeastCerberus-SR08-DE-C-1E.png"
+          },
+          "a60fb3d7-44c1-41e8-a7e9-e323bd48e24e": {
+            "image": "https://ms.yugipedia.com//c/c8/ArcaneBarrier-SR08-DE-C-1E.png"
+          },
+          "1c5af15b-c288-40a7-a968-ad8b548e57e6": {
+            "image": "https://ms.yugipedia.com//0/01/SpellbookofSecrets-SR08-DE-C-1E.png"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "1st"
+      ],
+      "externalIDs": {}
+    },
+    "sp": {
+      "language": "es",
+      "prefix": "SR08-SP",
+      "date": "2019-04-25",
+      "image": "https://ms.yugipedia.com//d/d8/SR08-DeckSP.png",
+      "cardImages": {
+        "1st": {
+          "5bf7d7ae-38fc-4c9c-9d39-7e41d9296c76": "https://ms.yugipedia.com//3/37/EndymiontheMasterMagician-SR08-SP-C-1E.png",
+          "04ae5243-dafd-42fe-b0cb-6c2cae61007b": "https://ms.yugipedia.com//f/f4/CrusaderofEndymion-SR08-SP-C-1E.png",
+          "cfdfe0e6-915b-4817-aab9-4382b30f065e": "https://ms.yugipedia.com//8/8e/DefendertheMagicalKnight-SR08-SP-C-1E.png",
+          "af9c63df-03d2-4a6b-a0f2-9b5d93532bf6": "https://ms.yugipedia.com//8/85/MythicalBeastCerberus-SR08-SP-C-1E.png",
+          "ccc6f71f-4576-4ce7-9df8-6222275765dd": "https://ms.yugipedia.com//e/e7/MythicalBeastMedusa-SR08-SP-C-1E.png",
+          "8707b1ec-4973-44db-bbf0-30762aaefe8a": "https://ms.yugipedia.com//9/94/MagicalSomething-SR08-SP-C-1E.png",
+          "d4acabea-723c-48e5-b651-82cda7e774ef": "https://ms.yugipedia.com//a/a9/MagicalExemplar-SR08-SP-C-1E.png",
+          "54cd972a-7ccc-4bf7-ba9f-51dc4df1f9df": "https://ms.yugipedia.com//9/9c/Disenchanter-SR08-SP-C-1E.png",
+          "88713b88-1b52-496b-abea-e8a4c922fcdc": "https://ms.yugipedia.com//5/51/ApprenticeMagician-SR08-SP-C-1E.png",
+          "5c1d5fa5-0860-4476-abbc-75a9cab10efe": "https://ms.yugipedia.com//7/7d/DarkMagicianofChaos-SR08-SP-C-1E.png",
+          "ec77068e-975c-4f03-8491-416737db0f8c": "https://ms.yugipedia.com//1/10/SummonerMonk-SR08-SP-C-1E.png",
+          "db040233-64c5-439f-a92e-8dcba152e790": "https://ms.yugipedia.com//a/a8/MagicalUndertaker-SR08-SP-C-1E.png",
+          "842e24b9-2661-498c-970c-4993a641d530": "https://ms.yugipedia.com//3/3b/MagicianofFaith-SR08-SP-C-1E.png",
+          "76c0d178-2645-4128-908f-fac157b9c9da": "https://ms.yugipedia.com//c/ca/DrollLockBird-SR08-SP-C-1E.png",
+          "0981572e-b879-4aa5-bcb9-cd6e0553ef07": "https://ms.yugipedia.com//5/5d/SpellPowerGrasp-SR08-SP-C-1E.png",
+          "a60fb3d7-44c1-41e8-a7e9-e323bd48e24e": "https://ms.yugipedia.com//2/2f/ArcaneBarrier-SR08-SP-C-1E.png",
+          "1c487641-4ee0-4a82-a822-aa3ace339b02": "https://ms.yugipedia.com//3/32/SpellbookofWisdom-SR08-SP-C-1E.png",
+          "9ab806e6-4afa-4b1d-be58-3bfd72090b54": "https://ms.yugipedia.com//7/71/MagicalBlast-SR08-SP-C-1E.png",
+          "8458f383-35aa-4a10-98fe-d78c238107d1": "https://ms.yugipedia.com//4/47/MagicalDimension-SR08-SP-C-1E.png",
+          "c5728159-6abb-452d-bb14-21bffd4e0104": "https://ms.yugipedia.com//9/94/LeftArmOffering-SR08-SP-C-1E.png",
+          "7f3d39a7-6b58-4417-b64a-e86ec2e15755": "https://ms.yugipedia.com//f/fa/MythicalBestiamorph-SR08-SP-C-1E.png",
+          "2431f2fb-6970-4ad2-80e4-6d4ad16d7299": "https://ms.yugipedia.com//9/97/PitchBlackPowerStone-SR08-SP-C-1E.png",
+          "e24f2bcc-2139-4760-8c1d-747e1fc37ccb": "https://ms.yugipedia.com//9/90/ExtraBuck-SR08-SP-C-1E.png",
+          "a0da2689-962a-4d70-a87a-c36c7cbeb129": "https://ms.yugipedia.com//1/1e/Gagagashield-SR08-SP-C-1E.png",
+          "ef071d78-e43f-4a9a-a645-f2372c3de200": "https://ms.yugipedia.com//3/38/MagiciansCircle-SR08-SP-C-1E.png",
+          "4e8cfe4a-4f1c-4142-950b-68fb6e32525f": "https://ms.yugipedia.com//8/87/DwimmeredPath-SR08-SP-SR-1E.png"
+        }
+      },
+      "cardInfo": {
+        "1st": {
+          "ef071d78-e43f-4a9a-a645-f2372c3de200": {
+            "image": "https://ms.yugipedia.com//3/38/MagiciansCircle-SR08-SP-C-1E.png"
+          },
+          "8707b1ec-4973-44db-bbf0-30762aaefe8a": {
+            "image": "https://ms.yugipedia.com//9/94/MagicalSomething-SR08-SP-C-1E.png"
+          },
+          "1c487641-4ee0-4a82-a822-aa3ace339b02": {
+            "image": "https://ms.yugipedia.com//3/32/SpellbookofWisdom-SR08-SP-C-1E.png"
+          },
+          "76c0d178-2645-4128-908f-fac157b9c9da": {
+            "image": "https://ms.yugipedia.com//c/ca/DrollLockBird-SR08-SP-C-1E.png"
+          },
+          "db040233-64c5-439f-a92e-8dcba152e790": {
+            "image": "https://ms.yugipedia.com//a/a8/MagicalUndertaker-SR08-SP-C-1E.png"
+          },
+          "d4acabea-723c-48e5-b651-82cda7e774ef": {
+            "image": "https://ms.yugipedia.com//a/a9/MagicalExemplar-SR08-SP-C-1E.png"
+          },
+          "8458f383-35aa-4a10-98fe-d78c238107d1": {
+            "image": "https://ms.yugipedia.com//4/47/MagicalDimension-SR08-SP-C-1E.png"
+          },
+          "04ae5243-dafd-42fe-b0cb-6c2cae61007b": {
+            "image": "https://ms.yugipedia.com//f/f4/CrusaderofEndymion-SR08-SP-C-1E.png"
+          },
+          "7f3d39a7-6b58-4417-b64a-e86ec2e15755": {
+            "image": "https://ms.yugipedia.com//f/fa/MythicalBestiamorph-SR08-SP-C-1E.png"
+          },
+          "af9c63df-03d2-4a6b-a0f2-9b5d93532bf6": {
+            "image": "https://ms.yugipedia.com//8/85/MythicalBeastCerberus-SR08-SP-C-1E.png"
+          },
+          "a0da2689-962a-4d70-a87a-c36c7cbeb129": {
+            "image": "https://ms.yugipedia.com//1/1e/Gagagashield-SR08-SP-C-1E.png"
+          },
+          "842e24b9-2661-498c-970c-4993a641d530": {
+            "image": "https://ms.yugipedia.com//3/3b/MagicianofFaith-SR08-SP-C-1E.png"
+          },
+          "cfdfe0e6-915b-4817-aab9-4382b30f065e": {
+            "image": "https://ms.yugipedia.com//8/8e/DefendertheMagicalKnight-SR08-SP-C-1E.png"
+          },
+          "4e8cfe4a-4f1c-4142-950b-68fb6e32525f": {
+            "image": "https://ms.yugipedia.com//8/87/DwimmeredPath-SR08-SP-SR-1E.png"
+          },
+          "9ab806e6-4afa-4b1d-be58-3bfd72090b54": {
+            "image": "https://ms.yugipedia.com//7/71/MagicalBlast-SR08-SP-C-1E.png"
+          },
+          "88713b88-1b52-496b-abea-e8a4c922fcdc": {
+            "image": "https://ms.yugipedia.com//5/51/ApprenticeMagician-SR08-SP-C-1E.png"
+          },
+          "54cd972a-7ccc-4bf7-ba9f-51dc4df1f9df": {
+            "image": "https://ms.yugipedia.com//9/9c/Disenchanter-SR08-SP-C-1E.png"
+          },
+          "e24f2bcc-2139-4760-8c1d-747e1fc37ccb": {
+            "image": "https://ms.yugipedia.com//9/90/ExtraBuck-SR08-SP-C-1E.png"
+          },
+          "ccc6f71f-4576-4ce7-9df8-6222275765dd": {
+            "image": "https://ms.yugipedia.com//e/e7/MythicalBeastMedusa-SR08-SP-C-1E.png"
+          },
+          "2431f2fb-6970-4ad2-80e4-6d4ad16d7299": {
+            "image": "https://ms.yugipedia.com//9/97/PitchBlackPowerStone-SR08-SP-C-1E.png"
+          },
+          "5c1d5fa5-0860-4476-abbc-75a9cab10efe": {
+            "image": "https://ms.yugipedia.com//7/7d/DarkMagicianofChaos-SR08-SP-C-1E.png"
+          },
+          "c5728159-6abb-452d-bb14-21bffd4e0104": {
+            "image": "https://ms.yugipedia.com//9/94/LeftArmOffering-SR08-SP-C-1E.png"
+          },
+          "0981572e-b879-4aa5-bcb9-cd6e0553ef07": {
+            "image": "https://ms.yugipedia.com//5/5d/SpellPowerGrasp-SR08-SP-C-1E.png"
+          },
+          "ec77068e-975c-4f03-8491-416737db0f8c": {
+            "image": "https://ms.yugipedia.com//1/10/SummonerMonk-SR08-SP-C-1E.png"
+          },
+          "5bf7d7ae-38fc-4c9c-9d39-7e41d9296c76": {
+            "image": "https://ms.yugipedia.com//3/37/EndymiontheMasterMagician-SR08-SP-C-1E.png"
+          },
+          "a60fb3d7-44c1-41e8-a7e9-e323bd48e24e": {
+            "image": "https://ms.yugipedia.com//2/2f/ArcaneBarrier-SR08-SP-C-1E.png"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "1st"
+      ],
+      "externalIDs": {}
+    },
+    "pt": {
+      "language": "pt",
+      "prefix": "SR08-PT",
+      "date": "2019-04-25",
+      "cardImages": {
+        "1st": {
+          "0efcbbc3-eabd-4a4e-9a81-b38f1c26fe00": "https://ms.yugipedia.com//0/0e/EndymiontheMightyMasterofMagic-SR08-PT-UR-1E.png",
+          "1622e8b4-f82e-40af-812b-27bf79439526": "https://ms.yugipedia.com//c/ce/ReflectionofEndymion-SR08-PT-SR-1E.png",
+          "f1542151-9403-4551-a113-2ae14e88b483": "https://ms.yugipedia.com//7/73/MagisterofEndymion-SR08-PT-C-1E.png",
+          "b9db62b2-0ac1-495e-8d11-856b13d9f303": "https://ms.yugipedia.com//1/1d/ServantofEndymion-SR08-PT-C-1E.png",
+          "5bf7d7ae-38fc-4c9c-9d39-7e41d9296c76": "https://ms.yugipedia.com//9/94/EndymiontheMasterMagician-SR08-PT-C-1E.png",
+          "04ae5243-dafd-42fe-b0cb-6c2cae61007b": "https://ms.yugipedia.com//3/38/CrusaderofEndymion-SR08-PT-C-1E.png",
+          "cfdfe0e6-915b-4817-aab9-4382b30f065e": "https://ms.yugipedia.com//e/e4/DefendertheMagicalKnight-SR08-PT-C-1E.png",
+          "af9c63df-03d2-4a6b-a0f2-9b5d93532bf6": "https://ms.yugipedia.com//e/e6/MythicalBeastCerberus-SR08-PT-C-1E.png",
+          "ccc6f71f-4576-4ce7-9df8-6222275765dd": "https://ms.yugipedia.com//d/d7/MythicalBeastMedusa-SR08-PT-C-1E.png",
+          "8707b1ec-4973-44db-bbf0-30762aaefe8a": "https://ms.yugipedia.com//4/4c/MagicalSomething-SR08-PT-C-1E.png",
+          "d4acabea-723c-48e5-b651-82cda7e774ef": "https://ms.yugipedia.com//2/2a/MagicalExemplar-SR08-PT-C-1E.png",
+          "387419a1-7828-45a5-92ba-d66d906a09c5": "https://ms.yugipedia.com//8/8c/MagicalAbductor-SR08-PT-C-1E.png",
+          "54cd972a-7ccc-4bf7-ba9f-51dc4df1f9df": "https://ms.yugipedia.com//0/07/Disenchanter-SR08-PT-C-1E.png",
+          "88713b88-1b52-496b-abea-e8a4c922fcdc": "https://ms.yugipedia.com//e/e3/ApprenticeMagician-SR08-PT-C-1E.png",
+          "5c1d5fa5-0860-4476-abbc-75a9cab10efe": "https://ms.yugipedia.com//1/1d/DarkMagicianofChaos-SR08-PT-C-1E.png",
+          "7c983555-842c-4aa1-a78a-78b3809146e2": "https://ms.yugipedia.com//0/07/FairyTailLuna-SR08-PT-C-1E.png",
+          "ec77068e-975c-4f03-8491-416737db0f8c": "https://ms.yugipedia.com//1/1b/SummonerMonk-SR08-PT-C-1E.png",
+          "397403d6-2da5-49b4-a358-17eda8e69478": "https://ms.yugipedia.com//2/2a/SpellbookMagicianofProphecy-SR08-PT-C-1E.png",
+          "db040233-64c5-439f-a92e-8dcba152e790": "https://ms.yugipedia.com//3/37/MagicalUndertaker-SR08-PT-C-1E.png",
+          "842e24b9-2661-498c-970c-4993a641d530": "https://ms.yugipedia.com//2/2e/MagicianofFaith-SR08-PT-C-1E.png",
+          "76c0d178-2645-4128-908f-fac157b9c9da": "https://ms.yugipedia.com//b/be/DrollLockBird-SR08-PT-C-1E.png",
+          "554be7e7-546e-4804-8b78-f5579a91be82": "https://ms.yugipedia.com//9/9c/SpellPowerMastery-SR08-PT-SR-1E.png",
+          "f6a2913f-74db-492c-82c4-147536ac5c99": "https://ms.yugipedia.com//a/a8/EndymionsLab-SR08-PT-C-1E.png",
+          "9e353d45-c919-4391-9292-4306681b521c": "https://ms.yugipedia.com//d/d2/MagicalCitadelofEndymion-SR08-PT-C-1E.png",
+          "0981572e-b879-4aa5-bcb9-cd6e0553ef07": "https://ms.yugipedia.com//e/ea/SpellPowerGrasp-SR08-PT-C-1E.png",
+          "a60fb3d7-44c1-41e8-a7e9-e323bd48e24e": "https://ms.yugipedia.com//a/a6/ArcaneBarrier-SR08-PT-C-1E.png",
+          "1c5af15b-c288-40a7-a968-ad8b548e57e6": "https://ms.yugipedia.com//3/3e/SpellbookofSecrets-SR08-PT-C-1E.png",
+          "3a55a270-2d4e-41fc-b134-fc48e2bc0482": "https://ms.yugipedia.com//2/28/SpellbookofPower-SR08-PT-C-1E.png",
+          "1c487641-4ee0-4a82-a822-aa3ace339b02": "https://ms.yugipedia.com//5/58/SpellbookofWisdom-SR08-PT-C-1E.png",
+          "9ab806e6-4afa-4b1d-be58-3bfd72090b54": "https://ms.yugipedia.com//9/9f/MagicalBlast-SR08-PT-C-1E.png",
+          "8458f383-35aa-4a10-98fe-d78c238107d1": "https://ms.yugipedia.com//b/b0/MagicalDimension-SR08-PT-C-1E.png",
+          "ae2fe802-6d1f-4bb7-b09c-85ae0e91633e": "https://ms.yugipedia.com//a/a3/Terraforming-SR08-PT-C-1E.png",
+          "c5728159-6abb-452d-bb14-21bffd4e0104": "https://ms.yugipedia.com//8/89/LeftArmOffering-SR08-PT-C-1E.png",
+          "ba124a13-5b8a-4510-a2e2-499b943dc1f9": "https://ms.yugipedia.com//6/66/PotofDesires-SR08-PT-C-1E.png",
+          "7f3d39a7-6b58-4417-b64a-e86ec2e15755": "https://ms.yugipedia.com//a/ae/MythicalBestiamorph-SR08-PT-C-1E.png",
+          "2431f2fb-6970-4ad2-80e4-6d4ad16d7299": "https://ms.yugipedia.com//0/0c/PitchBlackPowerStone-SR08-PT-C-1E.png",
+          "e24f2bcc-2139-4760-8c1d-747e1fc37ccb": "https://ms.yugipedia.com//3/3d/ExtraBuck-SR08-PT-C-1E.png",
+          "a0da2689-962a-4d70-a87a-c36c7cbeb129": "https://ms.yugipedia.com//8/8a/Gagagashield-SR08-PT-C-1E.png",
+          "ef071d78-e43f-4a9a-a645-f2372c3de200": "https://ms.yugipedia.com//8/81/MagiciansCircle-SR08-PT-C-1E.png",
+          "65d90c92-3200-4ae2-853b-713a8082f677": "https://ms.yugipedia.com//6/68/DayBreakertheShiningMagicalWarrior-SR08-PT-UR-1E.png",
+          "4e8cfe4a-4f1c-4142-950b-68fb6e32525f": "https://ms.yugipedia.com//7/76/DwimmeredPath-SR08-PT-SR-1E.png"
+        }
+      },
+      "cardInfo": {
+        "1st": {
+          "04ae5243-dafd-42fe-b0cb-6c2cae61007b": {
+            "image": "https://ms.yugipedia.com//3/38/CrusaderofEndymion-SR08-PT-C-1E.png"
+          },
+          "3a55a270-2d4e-41fc-b134-fc48e2bc0482": {
+            "image": "https://ms.yugipedia.com//2/28/SpellbookofPower-SR08-PT-C-1E.png"
+          },
+          "cfdfe0e6-915b-4817-aab9-4382b30f065e": {
+            "image": "https://ms.yugipedia.com//e/e4/DefendertheMagicalKnight-SR08-PT-C-1E.png"
+          },
+          "ccc6f71f-4576-4ce7-9df8-6222275765dd": {
+            "image": "https://ms.yugipedia.com//d/d7/MythicalBeastMedusa-SR08-PT-C-1E.png"
+          },
+          "1c5af15b-c288-40a7-a968-ad8b548e57e6": {
+            "image": "https://ms.yugipedia.com//3/3e/SpellbookofSecrets-SR08-PT-C-1E.png"
+          },
+          "1622e8b4-f82e-40af-812b-27bf79439526": {
+            "image": "https://ms.yugipedia.com//c/ce/ReflectionofEndymion-SR08-PT-SR-1E.png"
+          },
+          "ef071d78-e43f-4a9a-a645-f2372c3de200": {
+            "image": "https://ms.yugipedia.com//8/81/MagiciansCircle-SR08-PT-C-1E.png"
+          },
+          "8707b1ec-4973-44db-bbf0-30762aaefe8a": {
+            "image": "https://ms.yugipedia.com//4/4c/MagicalSomething-SR08-PT-C-1E.png"
+          },
+          "8458f383-35aa-4a10-98fe-d78c238107d1": {
+            "image": "https://ms.yugipedia.com//b/b0/MagicalDimension-SR08-PT-C-1E.png"
+          },
+          "65d90c92-3200-4ae2-853b-713a8082f677": {
+            "image": "https://ms.yugipedia.com//6/68/DayBreakertheShiningMagicalWarrior-SR08-PT-UR-1E.png"
+          },
+          "2431f2fb-6970-4ad2-80e4-6d4ad16d7299": {
+            "image": "https://ms.yugipedia.com//0/0c/PitchBlackPowerStone-SR08-PT-C-1E.png"
+          },
+          "88713b88-1b52-496b-abea-e8a4c922fcdc": {
+            "image": "https://ms.yugipedia.com//e/e3/ApprenticeMagician-SR08-PT-C-1E.png"
+          },
+          "ba124a13-5b8a-4510-a2e2-499b943dc1f9": {
+            "image": "https://ms.yugipedia.com//6/66/PotofDesires-SR08-PT-C-1E.png"
+          },
+          "54cd972a-7ccc-4bf7-ba9f-51dc4df1f9df": {
+            "image": "https://ms.yugipedia.com//0/07/Disenchanter-SR08-PT-C-1E.png"
+          },
+          "0981572e-b879-4aa5-bcb9-cd6e0553ef07": {
+            "image": "https://ms.yugipedia.com//e/ea/SpellPowerGrasp-SR08-PT-C-1E.png"
+          },
+          "e24f2bcc-2139-4760-8c1d-747e1fc37ccb": {
+            "image": "https://ms.yugipedia.com//3/3d/ExtraBuck-SR08-PT-C-1E.png"
+          },
+          "9ab806e6-4afa-4b1d-be58-3bfd72090b54": {
+            "image": "https://ms.yugipedia.com//9/9f/MagicalBlast-SR08-PT-C-1E.png"
+          },
+          "387419a1-7828-45a5-92ba-d66d906a09c5": {
+            "image": "https://ms.yugipedia.com//8/8c/MagicalAbductor-SR08-PT-C-1E.png"
+          },
+          "0efcbbc3-eabd-4a4e-9a81-b38f1c26fe00": {
+            "image": "https://ms.yugipedia.com//0/0e/EndymiontheMightyMasterofMagic-SR08-PT-UR-1E.png"
+          },
+          "a60fb3d7-44c1-41e8-a7e9-e323bd48e24e": {
+            "image": "https://ms.yugipedia.com//a/a6/ArcaneBarrier-SR08-PT-C-1E.png"
+          },
+          "76c0d178-2645-4128-908f-fac157b9c9da": {
+            "image": "https://ms.yugipedia.com//b/be/DrollLockBird-SR08-PT-C-1E.png"
+          },
+          "f6a2913f-74db-492c-82c4-147536ac5c99": {
+            "image": "https://ms.yugipedia.com//a/a8/EndymionsLab-SR08-PT-C-1E.png"
+          },
+          "c5728159-6abb-452d-bb14-21bffd4e0104": {
+            "image": "https://ms.yugipedia.com//8/89/LeftArmOffering-SR08-PT-C-1E.png"
+          },
+          "5c1d5fa5-0860-4476-abbc-75a9cab10efe": {
+            "image": "https://ms.yugipedia.com//1/1d/DarkMagicianofChaos-SR08-PT-C-1E.png"
+          },
+          "b9db62b2-0ac1-495e-8d11-856b13d9f303": {
+            "image": "https://ms.yugipedia.com//1/1d/ServantofEndymion-SR08-PT-C-1E.png"
+          },
+          "7c983555-842c-4aa1-a78a-78b3809146e2": {
+            "image": "https://ms.yugipedia.com//0/07/FairyTailLuna-SR08-PT-C-1E.png"
+          },
+          "7f3d39a7-6b58-4417-b64a-e86ec2e15755": {
+            "image": "https://ms.yugipedia.com//a/ae/MythicalBestiamorph-SR08-PT-C-1E.png"
+          },
+          "842e24b9-2661-498c-970c-4993a641d530": {
+            "image": "https://ms.yugipedia.com//2/2e/MagicianofFaith-SR08-PT-C-1E.png"
+          },
+          "4e8cfe4a-4f1c-4142-950b-68fb6e32525f": {
+            "image": "https://ms.yugipedia.com//7/76/DwimmeredPath-SR08-PT-SR-1E.png"
+          },
+          "9e353d45-c919-4391-9292-4306681b521c": {
+            "image": "https://ms.yugipedia.com//d/d2/MagicalCitadelofEndymion-SR08-PT-C-1E.png"
+          },
+          "397403d6-2da5-49b4-a358-17eda8e69478": {
+            "image": "https://ms.yugipedia.com//2/2a/SpellbookMagicianofProphecy-SR08-PT-C-1E.png"
+          },
+          "d4acabea-723c-48e5-b651-82cda7e774ef": {
+            "image": "https://ms.yugipedia.com//2/2a/MagicalExemplar-SR08-PT-C-1E.png"
+          },
+          "5bf7d7ae-38fc-4c9c-9d39-7e41d9296c76": {
+            "image": "https://ms.yugipedia.com//9/94/EndymiontheMasterMagician-SR08-PT-C-1E.png"
+          },
+          "ae2fe802-6d1f-4bb7-b09c-85ae0e91633e": {
+            "image": "https://ms.yugipedia.com//a/a3/Terraforming-SR08-PT-C-1E.png"
+          },
+          "f1542151-9403-4551-a113-2ae14e88b483": {
+            "image": "https://ms.yugipedia.com//7/73/MagisterofEndymion-SR08-PT-C-1E.png"
+          },
+          "1c487641-4ee0-4a82-a822-aa3ace339b02": {
+            "image": "https://ms.yugipedia.com//5/58/SpellbookofWisdom-SR08-PT-C-1E.png"
+          },
+          "554be7e7-546e-4804-8b78-f5579a91be82": {
+            "image": "https://ms.yugipedia.com//9/9c/SpellPowerMastery-SR08-PT-SR-1E.png"
+          },
+          "a0da2689-962a-4d70-a87a-c36c7cbeb129": {
+            "image": "https://ms.yugipedia.com//8/8a/Gagagashield-SR08-PT-C-1E.png"
+          },
+          "ec77068e-975c-4f03-8491-416737db0f8c": {
+            "image": "https://ms.yugipedia.com//1/1b/SummonerMonk-SR08-PT-C-1E.png"
+          },
+          "db040233-64c5-439f-a92e-8dcba152e790": {
+            "image": "https://ms.yugipedia.com//3/37/MagicalUndertaker-SR08-PT-C-1E.png"
+          },
+          "af9c63df-03d2-4a6b-a0f2-9b5d93532bf6": {
+            "image": "https://ms.yugipedia.com//e/e6/MythicalBeastCerberus-SR08-PT-C-1E.png"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "1st"
+      ],
+      "externalIDs": {}
+    },
+    "it": {
+      "language": "it",
+      "prefix": "SR08-IT",
+      "date": "2019-04-25",
+      "image": "https://ms.yugipedia.com//2/27/SR08-DeckIT.png",
+      "cardImages": {
+        "1st": {
+          "0efcbbc3-eabd-4a4e-9a81-b38f1c26fe00": "https://ms.yugipedia.com//b/be/EndymiontheMightyMasterofMagic-SR08-IT-UR-1E.png",
+          "1622e8b4-f82e-40af-812b-27bf79439526": "https://ms.yugipedia.com//9/99/ReflectionofEndymion-SR08-IT-SR-1E.png",
+          "f1542151-9403-4551-a113-2ae14e88b483": "https://ms.yugipedia.com//8/85/MagisterofEndymion-SR08-IT-C-1E.png",
+          "b9db62b2-0ac1-495e-8d11-856b13d9f303": "https://ms.yugipedia.com//4/47/ServantofEndymion-SR08-IT-C-1E.png",
+          "5bf7d7ae-38fc-4c9c-9d39-7e41d9296c76": "https://ms.yugipedia.com//d/dd/EndymiontheMasterMagician-SR08-IT-C-1E.png",
+          "04ae5243-dafd-42fe-b0cb-6c2cae61007b": "https://ms.yugipedia.com//2/26/CrusaderofEndymion-SR08-IT-C-1E.png",
+          "cfdfe0e6-915b-4817-aab9-4382b30f065e": "https://ms.yugipedia.com//9/96/DefendertheMagicalKnight-SR08-IT-C-1E.png",
+          "af9c63df-03d2-4a6b-a0f2-9b5d93532bf6": "https://ms.yugipedia.com//b/b9/MythicalBeastCerberus-SR08-IT-C-1E.png",
+          "ccc6f71f-4576-4ce7-9df8-6222275765dd": "https://ms.yugipedia.com//6/60/MythicalBeastMedusa-SR08-IT-C-1E.png",
+          "8707b1ec-4973-44db-bbf0-30762aaefe8a": "https://ms.yugipedia.com//c/c7/MagicalSomething-SR08-IT-C-1E.png",
+          "d4acabea-723c-48e5-b651-82cda7e774ef": "https://ms.yugipedia.com//b/b0/MagicalExemplar-SR08-IT-C-1E.png",
+          "387419a1-7828-45a5-92ba-d66d906a09c5": "https://ms.yugipedia.com//8/80/MagicalAbductor-SR08-IT-C-1E.png",
+          "54cd972a-7ccc-4bf7-ba9f-51dc4df1f9df": "https://ms.yugipedia.com//c/cf/Disenchanter-SR08-IT-C-1E.png",
+          "88713b88-1b52-496b-abea-e8a4c922fcdc": "https://ms.yugipedia.com//c/ce/ApprenticeMagician-SR08-IT-C-1E.png",
+          "5c1d5fa5-0860-4476-abbc-75a9cab10efe": "https://ms.yugipedia.com//d/d4/DarkMagicianofChaos-SR08-IT-C-1E.png",
+          "7c983555-842c-4aa1-a78a-78b3809146e2": "https://ms.yugipedia.com//8/8b/FairyTailLuna-SR08-IT-C-1E.png",
+          "ec77068e-975c-4f03-8491-416737db0f8c": "https://ms.yugipedia.com//b/b6/SummonerMonk-SR08-IT-C-1E.png",
+          "397403d6-2da5-49b4-a358-17eda8e69478": "https://ms.yugipedia.com//e/e4/SpellbookMagicianofProphecy-SR08-IT-C-1E.png",
+          "db040233-64c5-439f-a92e-8dcba152e790": "https://ms.yugipedia.com//9/9a/MagicalUndertaker-SR08-IT-C-1E.png",
+          "842e24b9-2661-498c-970c-4993a641d530": "https://ms.yugipedia.com//b/b1/MagicianofFaith-SR08-IT-C-1E.png",
+          "76c0d178-2645-4128-908f-fac157b9c9da": "https://ms.yugipedia.com//2/22/DrollLockBird-SR08-IT-C-1E.png",
+          "554be7e7-546e-4804-8b78-f5579a91be82": "https://ms.yugipedia.com//0/0f/SpellPowerMastery-SR08-IT-SR-1E.png",
+          "f6a2913f-74db-492c-82c4-147536ac5c99": "https://ms.yugipedia.com//9/9a/EndymionsLab-SR08-IT-C-1E.png",
+          "9e353d45-c919-4391-9292-4306681b521c": "https://ms.yugipedia.com//8/8d/MagicalCitadelofEndymion-SR08-IT-C-1E.png",
+          "0981572e-b879-4aa5-bcb9-cd6e0553ef07": "https://ms.yugipedia.com//2/2c/SpellPowerGrasp-SR08-IT-C-1E.png",
+          "a60fb3d7-44c1-41e8-a7e9-e323bd48e24e": "https://ms.yugipedia.com//7/72/ArcaneBarrier-SR08-IT-C-1E.png",
+          "1c5af15b-c288-40a7-a968-ad8b548e57e6": "https://ms.yugipedia.com//3/3b/SpellbookofSecrets-SR08-IT-C-1E.png",
+          "3a55a270-2d4e-41fc-b134-fc48e2bc0482": "https://ms.yugipedia.com//a/ad/SpellbookofPower-SR08-IT-C-1E.png",
+          "1c487641-4ee0-4a82-a822-aa3ace339b02": "https://ms.yugipedia.com//2/2f/SpellbookofWisdom-SR08-IT-C-1E.png",
+          "9ab806e6-4afa-4b1d-be58-3bfd72090b54": "https://ms.yugipedia.com//a/a4/MagicalBlast-SR08-IT-C-1E.png",
+          "8458f383-35aa-4a10-98fe-d78c238107d1": "https://ms.yugipedia.com//7/73/MagicalDimension-SR08-IT-C-1E.png",
+          "ae2fe802-6d1f-4bb7-b09c-85ae0e91633e": "https://ms.yugipedia.com//b/b6/Terraforming-SR08-IT-C-1E.png",
+          "c5728159-6abb-452d-bb14-21bffd4e0104": "https://ms.yugipedia.com//f/f1/LeftArmOffering-SR08-IT-C-1E.png",
+          "ba124a13-5b8a-4510-a2e2-499b943dc1f9": "https://ms.yugipedia.com//1/16/PotofDesires-SR08-IT-C-1E.png",
+          "7f3d39a7-6b58-4417-b64a-e86ec2e15755": "https://ms.yugipedia.com//4/4e/MythicalBestiamorph-SR08-IT-C-1E.png",
+          "2431f2fb-6970-4ad2-80e4-6d4ad16d7299": "https://ms.yugipedia.com//6/6e/PitchBlackPowerStone-SR08-IT-C-1E.png",
+          "e24f2bcc-2139-4760-8c1d-747e1fc37ccb": "https://ms.yugipedia.com//d/de/ExtraBuck-SR08-IT-C-1E.png",
+          "a0da2689-962a-4d70-a87a-c36c7cbeb129": "https://ms.yugipedia.com//1/15/Gagagashield-SR08-IT-C-1E.png",
+          "ef071d78-e43f-4a9a-a645-f2372c3de200": "https://ms.yugipedia.com//d/d1/MagiciansCircle-SR08-IT-C-1E.png",
+          "65d90c92-3200-4ae2-853b-713a8082f677": "https://ms.yugipedia.com//7/70/DayBreakertheShiningMagicalWarrior-SR08-IT-UR-1E.png",
+          "4e8cfe4a-4f1c-4142-950b-68fb6e32525f": "https://ms.yugipedia.com//b/b9/DwimmeredPath-SR08-IT-SR-1E.png"
+        }
+      },
+      "cardInfo": {
+        "1st": {
+          "0981572e-b879-4aa5-bcb9-cd6e0553ef07": {
+            "image": "https://ms.yugipedia.com//2/2c/SpellPowerGrasp-SR08-IT-C-1E.png"
+          },
+          "e24f2bcc-2139-4760-8c1d-747e1fc37ccb": {
+            "image": "https://ms.yugipedia.com//d/de/ExtraBuck-SR08-IT-C-1E.png"
+          },
+          "9e353d45-c919-4391-9292-4306681b521c": {
+            "image": "https://ms.yugipedia.com//8/8d/MagicalCitadelofEndymion-SR08-IT-C-1E.png"
+          },
+          "ae2fe802-6d1f-4bb7-b09c-85ae0e91633e": {
+            "image": "https://ms.yugipedia.com//b/b6/Terraforming-SR08-IT-C-1E.png"
+          },
+          "ef071d78-e43f-4a9a-a645-f2372c3de200": {
+            "image": "https://ms.yugipedia.com//d/d1/MagiciansCircle-SR08-IT-C-1E.png"
+          },
+          "76c0d178-2645-4128-908f-fac157b9c9da": {
+            "image": "https://ms.yugipedia.com//2/22/DrollLockBird-SR08-IT-C-1E.png"
+          },
+          "7c983555-842c-4aa1-a78a-78b3809146e2": {
+            "image": "https://ms.yugipedia.com//8/8b/FairyTailLuna-SR08-IT-C-1E.png"
+          },
+          "ec77068e-975c-4f03-8491-416737db0f8c": {
+            "image": "https://ms.yugipedia.com//b/b6/SummonerMonk-SR08-IT-C-1E.png"
+          },
+          "88713b88-1b52-496b-abea-e8a4c922fcdc": {
+            "image": "https://ms.yugipedia.com//c/ce/ApprenticeMagician-SR08-IT-C-1E.png"
+          },
+          "3a55a270-2d4e-41fc-b134-fc48e2bc0482": {
+            "image": "https://ms.yugipedia.com//a/ad/SpellbookofPower-SR08-IT-C-1E.png"
+          },
+          "1c5af15b-c288-40a7-a968-ad8b548e57e6": {
+            "image": "https://ms.yugipedia.com//3/3b/SpellbookofSecrets-SR08-IT-C-1E.png"
+          },
+          "a0da2689-962a-4d70-a87a-c36c7cbeb129": {
+            "image": "https://ms.yugipedia.com//1/15/Gagagashield-SR08-IT-C-1E.png"
+          },
+          "9ab806e6-4afa-4b1d-be58-3bfd72090b54": {
+            "image": "https://ms.yugipedia.com//a/a4/MagicalBlast-SR08-IT-C-1E.png"
+          },
+          "b9db62b2-0ac1-495e-8d11-856b13d9f303": {
+            "image": "https://ms.yugipedia.com//4/47/ServantofEndymion-SR08-IT-C-1E.png"
+          },
+          "397403d6-2da5-49b4-a358-17eda8e69478": {
+            "image": "https://ms.yugipedia.com//e/e4/SpellbookMagicianofProphecy-SR08-IT-C-1E.png"
+          },
+          "8707b1ec-4973-44db-bbf0-30762aaefe8a": {
+            "image": "https://ms.yugipedia.com//c/c7/MagicalSomething-SR08-IT-C-1E.png"
+          },
+          "8458f383-35aa-4a10-98fe-d78c238107d1": {
+            "image": "https://ms.yugipedia.com//7/73/MagicalDimension-SR08-IT-C-1E.png"
+          },
+          "f1542151-9403-4551-a113-2ae14e88b483": {
+            "image": "https://ms.yugipedia.com//8/85/MagisterofEndymion-SR08-IT-C-1E.png"
+          },
+          "ba124a13-5b8a-4510-a2e2-499b943dc1f9": {
+            "image": "https://ms.yugipedia.com//1/16/PotofDesires-SR08-IT-C-1E.png"
+          },
+          "1622e8b4-f82e-40af-812b-27bf79439526": {
+            "image": "https://ms.yugipedia.com//9/99/ReflectionofEndymion-SR08-IT-SR-1E.png"
+          },
+          "54cd972a-7ccc-4bf7-ba9f-51dc4df1f9df": {
+            "image": "https://ms.yugipedia.com//c/cf/Disenchanter-SR08-IT-C-1E.png"
+          },
+          "c5728159-6abb-452d-bb14-21bffd4e0104": {
+            "image": "https://ms.yugipedia.com//f/f1/LeftArmOffering-SR08-IT-C-1E.png"
+          },
+          "2431f2fb-6970-4ad2-80e4-6d4ad16d7299": {
+            "image": "https://ms.yugipedia.com//6/6e/PitchBlackPowerStone-SR08-IT-C-1E.png"
+          },
+          "842e24b9-2661-498c-970c-4993a641d530": {
+            "image": "https://ms.yugipedia.com//b/b1/MagicianofFaith-SR08-IT-C-1E.png"
+          },
+          "d4acabea-723c-48e5-b651-82cda7e774ef": {
+            "image": "https://ms.yugipedia.com//b/b0/MagicalExemplar-SR08-IT-C-1E.png"
+          },
+          "af9c63df-03d2-4a6b-a0f2-9b5d93532bf6": {
+            "image": "https://ms.yugipedia.com//b/b9/MythicalBeastCerberus-SR08-IT-C-1E.png"
+          },
+          "4e8cfe4a-4f1c-4142-950b-68fb6e32525f": {
+            "image": "https://ms.yugipedia.com//b/b9/DwimmeredPath-SR08-IT-SR-1E.png"
+          },
+          "554be7e7-546e-4804-8b78-f5579a91be82": {
+            "image": "https://ms.yugipedia.com//0/0f/SpellPowerMastery-SR08-IT-SR-1E.png"
+          },
+          "cfdfe0e6-915b-4817-aab9-4382b30f065e": {
+            "image": "https://ms.yugipedia.com//9/96/DefendertheMagicalKnight-SR08-IT-C-1E.png"
+          },
+          "1c487641-4ee0-4a82-a822-aa3ace339b02": {
+            "image": "https://ms.yugipedia.com//2/2f/SpellbookofWisdom-SR08-IT-C-1E.png"
+          },
+          "7f3d39a7-6b58-4417-b64a-e86ec2e15755": {
+            "image": "https://ms.yugipedia.com//4/4e/MythicalBestiamorph-SR08-IT-C-1E.png"
+          },
+          "ccc6f71f-4576-4ce7-9df8-6222275765dd": {
+            "image": "https://ms.yugipedia.com//6/60/MythicalBeastMedusa-SR08-IT-C-1E.png"
+          },
+          "5c1d5fa5-0860-4476-abbc-75a9cab10efe": {
+            "image": "https://ms.yugipedia.com//d/d4/DarkMagicianofChaos-SR08-IT-C-1E.png"
+          },
+          "f6a2913f-74db-492c-82c4-147536ac5c99": {
+            "image": "https://ms.yugipedia.com//9/9a/EndymionsLab-SR08-IT-C-1E.png"
+          },
+          "0efcbbc3-eabd-4a4e-9a81-b38f1c26fe00": {
+            "image": "https://ms.yugipedia.com//b/be/EndymiontheMightyMasterofMagic-SR08-IT-UR-1E.png"
+          },
+          "db040233-64c5-439f-a92e-8dcba152e790": {
+            "image": "https://ms.yugipedia.com//9/9a/MagicalUndertaker-SR08-IT-C-1E.png"
+          },
+          "387419a1-7828-45a5-92ba-d66d906a09c5": {
+            "image": "https://ms.yugipedia.com//8/80/MagicalAbductor-SR08-IT-C-1E.png"
+          },
+          "65d90c92-3200-4ae2-853b-713a8082f677": {
+            "image": "https://ms.yugipedia.com//7/70/DayBreakertheShiningMagicalWarrior-SR08-IT-UR-1E.png"
+          },
+          "04ae5243-dafd-42fe-b0cb-6c2cae61007b": {
+            "image": "https://ms.yugipedia.com//2/26/CrusaderofEndymion-SR08-IT-C-1E.png"
+          },
+          "5bf7d7ae-38fc-4c9c-9d39-7e41d9296c76": {
+            "image": "https://ms.yugipedia.com//d/dd/EndymiontheMasterMagician-SR08-IT-C-1E.png"
+          },
+          "a60fb3d7-44c1-41e8-a7e9-e323bd48e24e": {
+            "image": "https://ms.yugipedia.com//7/72/ArcaneBarrier-SR08-IT-C-1E.png"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "1st"
+      ],
+      "externalIDs": {}
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "en"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "1st"
+      ],
+      "image": "https://ms.yugipedia.com//8/82/SR08-DeckEN.png",
+      "cards": [
+        {
+          "id": "0efcbbc3-eabd-4a4e-9a81-b38f1c26fe00",
+          "card": "a127a786-a4b4-4d24-b777-50c3b39594a4",
+          "suffix": "001",
+          "rarity": "ultra"
+        },
+        {
+          "id": "1622e8b4-f82e-40af-812b-27bf79439526",
+          "card": "f7ae0333-e44e-4170-b4f8-b90d07f2c9ad",
+          "suffix": "002",
+          "rarity": "super"
+        },
+        {
+          "id": "f1542151-9403-4551-a113-2ae14e88b483",
+          "card": "17532d2f-3769-4c29-9131-e21440dd8934",
+          "suffix": "003",
+          "rarity": "common"
+        },
+        {
+          "id": "b9db62b2-0ac1-495e-8d11-856b13d9f303",
+          "card": "d686e803-ac2c-4f26-ba6e-2dd45af10129",
+          "suffix": "004",
+          "rarity": "common"
+        },
+        {
+          "id": "5bf7d7ae-38fc-4c9c-9d39-7e41d9296c76",
+          "card": "5e671dd3-8275-4d19-b765-090d093b3cfe",
+          "suffix": "005",
+          "rarity": "common"
+        },
+        {
+          "id": "04ae5243-dafd-42fe-b0cb-6c2cae61007b",
+          "card": "90021cee-fc4d-4e42-955f-d5fcbe4b48df",
+          "suffix": "006",
+          "rarity": "common"
+        },
+        {
+          "id": "cfdfe0e6-915b-4817-aab9-4382b30f065e",
+          "card": "29ab325c-9c1d-4451-a60b-1a2599e82bd2",
+          "suffix": "007",
+          "rarity": "common"
+        },
+        {
+          "id": "af9c63df-03d2-4a6b-a0f2-9b5d93532bf6",
+          "card": "73ae6902-a6bd-44cb-99d8-fe1e05deb21b",
+          "suffix": "008",
+          "rarity": "common"
+        },
+        {
+          "id": "ccc6f71f-4576-4ce7-9df8-6222275765dd",
+          "card": "85e60800-775f-46bb-b860-bd04ecf0e03f",
+          "suffix": "009",
+          "rarity": "common"
+        },
+        {
+          "id": "8707b1ec-4973-44db-bbf0-30762aaefe8a",
+          "card": "88d3a04f-b617-4439-94c8-ee3943fd22c2",
+          "suffix": "010",
+          "rarity": "common"
+        },
+        {
+          "id": "d4acabea-723c-48e5-b651-82cda7e774ef",
+          "card": "cef1d3e5-d29d-4ffd-8269-b6f3f7411fb8",
+          "suffix": "011",
+          "rarity": "common"
+        },
+        {
+          "id": "387419a1-7828-45a5-92ba-d66d906a09c5",
+          "card": "fdb10d74-0383-467f-b291-87a57f87485b",
+          "suffix": "012",
+          "rarity": "common"
+        },
+        {
+          "id": "54cd972a-7ccc-4bf7-ba9f-51dc4df1f9df",
+          "card": "5c1a5ac6-5587-44ed-aea8-62ff61761bf6",
+          "suffix": "013",
+          "rarity": "common"
+        },
+        {
+          "id": "88713b88-1b52-496b-abea-e8a4c922fcdc",
+          "card": "f74d0cb0-13dc-455a-bab9-34022e85bd3e",
+          "suffix": "014",
+          "rarity": "common"
+        },
+        {
+          "id": "5c1d5fa5-0860-4476-abbc-75a9cab10efe",
+          "card": "6ee9265d-288a-461d-92d5-44e22a420a95",
+          "suffix": "015",
+          "rarity": "common"
+        },
+        {
+          "id": "7c983555-842c-4aa1-a78a-78b3809146e2",
+          "card": "f862373f-c7a3-40ce-bef4-fd0d286a318b",
+          "suffix": "016",
+          "rarity": "common"
+        },
+        {
+          "id": "ec77068e-975c-4f03-8491-416737db0f8c",
+          "card": "70f2781c-cd5d-4663-ac6e-c90d1d953cb8",
+          "suffix": "017",
+          "rarity": "common"
+        },
+        {
+          "id": "397403d6-2da5-49b4-a358-17eda8e69478",
+          "card": "359dae3d-cb94-4934-ab0a-3db2e0f73c81",
+          "suffix": "018",
+          "rarity": "common"
+        },
+        {
+          "id": "db040233-64c5-439f-a92e-8dcba152e790",
+          "card": "611c4c30-1c4d-4f76-b783-9a59735a0417",
+          "suffix": "019",
+          "rarity": "common"
+        },
+        {
+          "id": "842e24b9-2661-498c-970c-4993a641d530",
+          "card": "4632c9ac-b8e5-43c2-b847-b58307f38e99",
+          "suffix": "020",
+          "rarity": "common"
+        },
+        {
+          "id": "76c0d178-2645-4128-908f-fac157b9c9da",
+          "card": "904b21cd-95aa-4bbf-8aea-9a522e7cc54f",
+          "suffix": "021",
+          "rarity": "common"
+        },
+        {
+          "id": "554be7e7-546e-4804-8b78-f5579a91be82",
+          "card": "cb685993-5951-4803-95e8-0a36d4a0f83d",
+          "suffix": "022",
+          "rarity": "super"
+        },
+        {
+          "id": "f6a2913f-74db-492c-82c4-147536ac5c99",
+          "card": "bcfed6aa-fbe4-41e2-9680-f9117e73da1a",
+          "suffix": "023",
+          "rarity": "common"
+        },
+        {
+          "id": "9e353d45-c919-4391-9292-4306681b521c",
+          "card": "b766a957-960b-4da2-afba-564a06adbf5e",
+          "suffix": "024",
+          "rarity": "common"
+        },
+        {
+          "id": "0981572e-b879-4aa5-bcb9-cd6e0553ef07",
+          "card": "9bde89d7-0fd8-409d-9634-13154cfbe881",
+          "suffix": "025",
+          "rarity": "common",
+          "qty": 2
+        },
+        {
+          "id": "a60fb3d7-44c1-41e8-a7e9-e323bd48e24e",
+          "card": "455283a3-9a89-4a44-ad5b-e45f181c3f9c",
+          "suffix": "026",
+          "rarity": "common"
+        },
+        {
+          "id": "1c5af15b-c288-40a7-a968-ad8b548e57e6",
+          "card": "d53a389d-5996-46c2-a446-15db7088c4f9",
+          "suffix": "027",
+          "rarity": "common"
+        },
+        {
+          "id": "3a55a270-2d4e-41fc-b134-fc48e2bc0482",
+          "card": "0b47aa23-643c-478a-8dd3-077d41ce2cd0",
+          "suffix": "028",
+          "rarity": "common"
+        },
+        {
+          "id": "1c487641-4ee0-4a82-a822-aa3ace339b02",
+          "card": "05273cc8-2664-4456-870f-4fa93cb7224e",
+          "suffix": "029",
+          "rarity": "common"
+        },
+        {
+          "id": "9ab806e6-4afa-4b1d-be58-3bfd72090b54",
+          "card": "df8f5fb0-1f07-4021-baa2-c76385e6289b",
+          "suffix": "030",
+          "rarity": "common"
+        },
+        {
+          "id": "8458f383-35aa-4a10-98fe-d78c238107d1",
+          "card": "b79dc124-2fb4-4a3f-a09d-d62cf235b620",
+          "suffix": "031",
+          "rarity": "common"
+        },
+        {
+          "id": "ae2fe802-6d1f-4bb7-b09c-85ae0e91633e",
+          "card": "a9cf20eb-ebb6-498b-93f3-59621c1750e1",
+          "suffix": "032",
+          "rarity": "common"
+        },
+        {
+          "id": "c5728159-6abb-452d-bb14-21bffd4e0104",
+          "card": "e368c4a9-1f11-480b-ba22-3a38daf22d41",
+          "suffix": "033",
+          "rarity": "common"
+        },
+        {
+          "id": "ba124a13-5b8a-4510-a2e2-499b943dc1f9",
+          "card": "20810672-4dce-47c3-9872-4db59ea622e9",
+          "suffix": "034",
+          "rarity": "common"
+        },
+        {
+          "id": "7f3d39a7-6b58-4417-b64a-e86ec2e15755",
+          "card": "e32ed3ac-cec4-4f5b-9653-d8598ab45ad9",
+          "suffix": "035",
+          "rarity": "common"
+        },
+        {
+          "id": "2431f2fb-6970-4ad2-80e4-6d4ad16d7299",
+          "card": "63403ffe-eeea-4b92-be5b-8a1f33c267c7",
+          "suffix": "036",
+          "rarity": "common"
+        },
+        {
+          "id": "e24f2bcc-2139-4760-8c1d-747e1fc37ccb",
+          "card": "abc72833-ff7f-43d9-b192-4e9fb1155979",
+          "suffix": "037",
+          "rarity": "common"
+        },
+        {
+          "id": "a0da2689-962a-4d70-a87a-c36c7cbeb129",
+          "card": "a917ca37-a073-448e-977a-5ffb98a4fd40",
+          "suffix": "038",
+          "rarity": "common"
+        },
+        {
+          "id": "ef071d78-e43f-4a9a-a645-f2372c3de200",
+          "card": "df5ec889-ed3b-4e8d-8c8f-2819495dbfbd",
+          "suffix": "039",
+          "rarity": "common"
+        },
+        {
+          "id": "65d90c92-3200-4ae2-853b-713a8082f677",
+          "card": "3cf7ab13-33e8-49a8-91f1-c427641da03d",
+          "suffix": "040",
+          "rarity": "ultra"
+        },
+        {
+          "id": "4e8cfe4a-4f1c-4142-950b-68fb6e32525f",
+          "card": "37b55e4e-2ac1-4d1a-ae77-910ebb5c9880",
+          "suffix": "041",
+          "rarity": "super"
+        }
+      ],
+      "externalIDs": {}
+    },
+    {
+      "locales": [
+        "fr"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "1st"
+      ],
+      "image": "https://ms.yugipedia.com//2/21/SR08-DeckFR.png",
+      "cards": [
+        {
+          "id": "0efcbbc3-eabd-4a4e-9a81-b38f1c26fe00",
+          "card": "a127a786-a4b4-4d24-b777-50c3b39594a4",
+          "suffix": "001",
+          "rarity": "ultra"
+        },
+        {
+          "id": "1622e8b4-f82e-40af-812b-27bf79439526",
+          "card": "f7ae0333-e44e-4170-b4f8-b90d07f2c9ad",
+          "suffix": "002",
+          "rarity": "super"
+        },
+        {
+          "id": "f1542151-9403-4551-a113-2ae14e88b483",
+          "card": "17532d2f-3769-4c29-9131-e21440dd8934",
+          "suffix": "003",
+          "rarity": "common"
+        },
+        {
+          "id": "b9db62b2-0ac1-495e-8d11-856b13d9f303",
+          "card": "d686e803-ac2c-4f26-ba6e-2dd45af10129",
+          "suffix": "004",
+          "rarity": "common"
+        },
+        {
+          "id": "5bf7d7ae-38fc-4c9c-9d39-7e41d9296c76",
+          "card": "5e671dd3-8275-4d19-b765-090d093b3cfe",
+          "suffix": "005",
+          "rarity": "common"
+        },
+        {
+          "id": "04ae5243-dafd-42fe-b0cb-6c2cae61007b",
+          "card": "90021cee-fc4d-4e42-955f-d5fcbe4b48df",
+          "suffix": "006",
+          "rarity": "common"
+        },
+        {
+          "id": "cfdfe0e6-915b-4817-aab9-4382b30f065e",
+          "card": "29ab325c-9c1d-4451-a60b-1a2599e82bd2",
+          "suffix": "007",
+          "rarity": "common"
+        },
+        {
+          "id": "af9c63df-03d2-4a6b-a0f2-9b5d93532bf6",
+          "card": "73ae6902-a6bd-44cb-99d8-fe1e05deb21b",
+          "suffix": "008",
+          "rarity": "common"
+        },
+        {
+          "id": "ccc6f71f-4576-4ce7-9df8-6222275765dd",
+          "card": "85e60800-775f-46bb-b860-bd04ecf0e03f",
+          "suffix": "009",
+          "rarity": "common"
+        },
+        {
+          "id": "8707b1ec-4973-44db-bbf0-30762aaefe8a",
+          "card": "88d3a04f-b617-4439-94c8-ee3943fd22c2",
+          "suffix": "010",
+          "rarity": "common"
+        },
+        {
+          "id": "d4acabea-723c-48e5-b651-82cda7e774ef",
+          "card": "cef1d3e5-d29d-4ffd-8269-b6f3f7411fb8",
+          "suffix": "011",
+          "rarity": "common"
+        },
+        {
+          "id": "387419a1-7828-45a5-92ba-d66d906a09c5",
+          "card": "fdb10d74-0383-467f-b291-87a57f87485b",
+          "suffix": "012",
+          "rarity": "common"
+        },
+        {
+          "id": "54cd972a-7ccc-4bf7-ba9f-51dc4df1f9df",
+          "card": "5c1a5ac6-5587-44ed-aea8-62ff61761bf6",
+          "suffix": "013",
+          "rarity": "common"
+        },
+        {
+          "id": "88713b88-1b52-496b-abea-e8a4c922fcdc",
+          "card": "f74d0cb0-13dc-455a-bab9-34022e85bd3e",
+          "suffix": "014",
+          "rarity": "common"
+        },
+        {
+          "id": "5c1d5fa5-0860-4476-abbc-75a9cab10efe",
+          "card": "6ee9265d-288a-461d-92d5-44e22a420a95",
+          "suffix": "015",
+          "rarity": "common"
+        },
+        {
+          "id": "7c983555-842c-4aa1-a78a-78b3809146e2",
+          "card": "f862373f-c7a3-40ce-bef4-fd0d286a318b",
+          "suffix": "016",
+          "rarity": "common"
+        },
+        {
+          "id": "ec77068e-975c-4f03-8491-416737db0f8c",
+          "card": "70f2781c-cd5d-4663-ac6e-c90d1d953cb8",
+          "suffix": "017",
+          "rarity": "common"
+        },
+        {
+          "id": "397403d6-2da5-49b4-a358-17eda8e69478",
+          "card": "359dae3d-cb94-4934-ab0a-3db2e0f73c81",
+          "suffix": "018",
+          "rarity": "common"
+        },
+        {
+          "id": "db040233-64c5-439f-a92e-8dcba152e790",
+          "card": "611c4c30-1c4d-4f76-b783-9a59735a0417",
+          "suffix": "019",
+          "rarity": "common"
+        },
+        {
+          "id": "842e24b9-2661-498c-970c-4993a641d530",
+          "card": "4632c9ac-b8e5-43c2-b847-b58307f38e99",
+          "suffix": "020",
+          "rarity": "common"
+        },
+        {
+          "id": "76c0d178-2645-4128-908f-fac157b9c9da",
+          "card": "904b21cd-95aa-4bbf-8aea-9a522e7cc54f",
+          "suffix": "021",
+          "rarity": "common"
+        },
+        {
+          "id": "554be7e7-546e-4804-8b78-f5579a91be82",
+          "card": "cb685993-5951-4803-95e8-0a36d4a0f83d",
+          "suffix": "022",
+          "rarity": "super"
+        },
+        {
+          "id": "f6a2913f-74db-492c-82c4-147536ac5c99",
+          "card": "bcfed6aa-fbe4-41e2-9680-f9117e73da1a",
+          "suffix": "023",
+          "rarity": "common"
+        },
+        {
+          "id": "9e353d45-c919-4391-9292-4306681b521c",
+          "card": "b766a957-960b-4da2-afba-564a06adbf5e",
+          "suffix": "024",
+          "rarity": "common"
+        },
+        {
+          "id": "0981572e-b879-4aa5-bcb9-cd6e0553ef07",
+          "card": "9bde89d7-0fd8-409d-9634-13154cfbe881",
+          "suffix": "025",
+          "rarity": "common",
+          "qty": 2
+        },
+        {
+          "id": "a60fb3d7-44c1-41e8-a7e9-e323bd48e24e",
+          "card": "455283a3-9a89-4a44-ad5b-e45f181c3f9c",
+          "suffix": "026",
+          "rarity": "common"
+        },
+        {
+          "id": "1c5af15b-c288-40a7-a968-ad8b548e57e6",
+          "card": "d53a389d-5996-46c2-a446-15db7088c4f9",
+          "suffix": "027",
+          "rarity": "common"
+        },
+        {
+          "id": "3a55a270-2d4e-41fc-b134-fc48e2bc0482",
+          "card": "0b47aa23-643c-478a-8dd3-077d41ce2cd0",
+          "suffix": "028",
+          "rarity": "common"
+        },
+        {
+          "id": "1c487641-4ee0-4a82-a822-aa3ace339b02",
+          "card": "05273cc8-2664-4456-870f-4fa93cb7224e",
+          "suffix": "029",
+          "rarity": "common"
+        },
+        {
+          "id": "9ab806e6-4afa-4b1d-be58-3bfd72090b54",
+          "card": "df8f5fb0-1f07-4021-baa2-c76385e6289b",
+          "suffix": "030",
+          "rarity": "common"
+        },
+        {
+          "id": "8458f383-35aa-4a10-98fe-d78c238107d1",
+          "card": "b79dc124-2fb4-4a3f-a09d-d62cf235b620",
+          "suffix": "031",
+          "rarity": "common"
+        },
+        {
+          "id": "ae2fe802-6d1f-4bb7-b09c-85ae0e91633e",
+          "card": "a9cf20eb-ebb6-498b-93f3-59621c1750e1",
+          "suffix": "032",
+          "rarity": "common"
+        },
+        {
+          "id": "c5728159-6abb-452d-bb14-21bffd4e0104",
+          "card": "e368c4a9-1f11-480b-ba22-3a38daf22d41",
+          "suffix": "033",
+          "rarity": "common"
+        },
+        {
+          "id": "ba124a13-5b8a-4510-a2e2-499b943dc1f9",
+          "card": "20810672-4dce-47c3-9872-4db59ea622e9",
+          "suffix": "034",
+          "rarity": "common"
+        },
+        {
+          "id": "7f3d39a7-6b58-4417-b64a-e86ec2e15755",
+          "card": "e32ed3ac-cec4-4f5b-9653-d8598ab45ad9",
+          "suffix": "035",
+          "rarity": "common"
+        },
+        {
+          "id": "2431f2fb-6970-4ad2-80e4-6d4ad16d7299",
+          "card": "63403ffe-eeea-4b92-be5b-8a1f33c267c7",
+          "suffix": "036",
+          "rarity": "common"
+        },
+        {
+          "id": "e24f2bcc-2139-4760-8c1d-747e1fc37ccb",
+          "card": "abc72833-ff7f-43d9-b192-4e9fb1155979",
+          "suffix": "037",
+          "rarity": "common"
+        },
+        {
+          "id": "a0da2689-962a-4d70-a87a-c36c7cbeb129",
+          "card": "a917ca37-a073-448e-977a-5ffb98a4fd40",
+          "suffix": "038",
+          "rarity": "common"
+        },
+        {
+          "id": "ef071d78-e43f-4a9a-a645-f2372c3de200",
+          "card": "df5ec889-ed3b-4e8d-8c8f-2819495dbfbd",
+          "suffix": "039",
+          "rarity": "common"
+        },
+        {
+          "id": "65d90c92-3200-4ae2-853b-713a8082f677",
+          "card": "3cf7ab13-33e8-49a8-91f1-c427641da03d",
+          "suffix": "040",
+          "rarity": "ultra"
+        },
+        {
+          "id": "4e8cfe4a-4f1c-4142-950b-68fb6e32525f",
+          "card": "37b55e4e-2ac1-4d1a-ae77-910ebb5c9880",
+          "suffix": "041",
+          "rarity": "super"
+        }
+      ],
+      "externalIDs": {}
+    },
+    {
+      "locales": [
+        "de"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "1st"
+      ],
+      "image": "https://ms.yugipedia.com//f/f7/SR08-DeckDE.png",
+      "cards": [
+        {
+          "id": "0efcbbc3-eabd-4a4e-9a81-b38f1c26fe00",
+          "card": "a127a786-a4b4-4d24-b777-50c3b39594a4",
+          "suffix": "001",
+          "rarity": "ultra"
+        },
+        {
+          "id": "1622e8b4-f82e-40af-812b-27bf79439526",
+          "card": "f7ae0333-e44e-4170-b4f8-b90d07f2c9ad",
+          "suffix": "002",
+          "rarity": "super"
+        },
+        {
+          "id": "f1542151-9403-4551-a113-2ae14e88b483",
+          "card": "17532d2f-3769-4c29-9131-e21440dd8934",
+          "suffix": "003",
+          "rarity": "common"
+        },
+        {
+          "id": "b9db62b2-0ac1-495e-8d11-856b13d9f303",
+          "card": "d686e803-ac2c-4f26-ba6e-2dd45af10129",
+          "suffix": "004",
+          "rarity": "common"
+        },
+        {
+          "id": "5bf7d7ae-38fc-4c9c-9d39-7e41d9296c76",
+          "card": "5e671dd3-8275-4d19-b765-090d093b3cfe",
+          "suffix": "005",
+          "rarity": "common"
+        },
+        {
+          "id": "04ae5243-dafd-42fe-b0cb-6c2cae61007b",
+          "card": "90021cee-fc4d-4e42-955f-d5fcbe4b48df",
+          "suffix": "006",
+          "rarity": "common"
+        },
+        {
+          "id": "cfdfe0e6-915b-4817-aab9-4382b30f065e",
+          "card": "29ab325c-9c1d-4451-a60b-1a2599e82bd2",
+          "suffix": "007",
+          "rarity": "common"
+        },
+        {
+          "id": "af9c63df-03d2-4a6b-a0f2-9b5d93532bf6",
+          "card": "73ae6902-a6bd-44cb-99d8-fe1e05deb21b",
+          "suffix": "008",
+          "rarity": "common"
+        },
+        {
+          "id": "ccc6f71f-4576-4ce7-9df8-6222275765dd",
+          "card": "85e60800-775f-46bb-b860-bd04ecf0e03f",
+          "suffix": "009",
+          "rarity": "common"
+        },
+        {
+          "id": "8707b1ec-4973-44db-bbf0-30762aaefe8a",
+          "card": "88d3a04f-b617-4439-94c8-ee3943fd22c2",
+          "suffix": "010",
+          "rarity": "common"
+        },
+        {
+          "id": "d4acabea-723c-48e5-b651-82cda7e774ef",
+          "card": "cef1d3e5-d29d-4ffd-8269-b6f3f7411fb8",
+          "suffix": "011",
+          "rarity": "common"
+        },
+        {
+          "id": "387419a1-7828-45a5-92ba-d66d906a09c5",
+          "card": "fdb10d74-0383-467f-b291-87a57f87485b",
+          "suffix": "012",
+          "rarity": "common"
+        },
+        {
+          "id": "54cd972a-7ccc-4bf7-ba9f-51dc4df1f9df",
+          "card": "5c1a5ac6-5587-44ed-aea8-62ff61761bf6",
+          "suffix": "013",
+          "rarity": "common"
+        },
+        {
+          "id": "88713b88-1b52-496b-abea-e8a4c922fcdc",
+          "card": "f74d0cb0-13dc-455a-bab9-34022e85bd3e",
+          "suffix": "014",
+          "rarity": "common"
+        },
+        {
+          "id": "5c1d5fa5-0860-4476-abbc-75a9cab10efe",
+          "card": "6ee9265d-288a-461d-92d5-44e22a420a95",
+          "suffix": "015",
+          "rarity": "common"
+        },
+        {
+          "id": "7c983555-842c-4aa1-a78a-78b3809146e2",
+          "card": "f862373f-c7a3-40ce-bef4-fd0d286a318b",
+          "suffix": "016",
+          "rarity": "common"
+        },
+        {
+          "id": "ec77068e-975c-4f03-8491-416737db0f8c",
+          "card": "70f2781c-cd5d-4663-ac6e-c90d1d953cb8",
+          "suffix": "017",
+          "rarity": "common"
+        },
+        {
+          "id": "397403d6-2da5-49b4-a358-17eda8e69478",
+          "card": "359dae3d-cb94-4934-ab0a-3db2e0f73c81",
+          "suffix": "018",
+          "rarity": "common"
+        },
+        {
+          "id": "db040233-64c5-439f-a92e-8dcba152e790",
+          "card": "611c4c30-1c4d-4f76-b783-9a59735a0417",
+          "suffix": "019",
+          "rarity": "common"
+        },
+        {
+          "id": "842e24b9-2661-498c-970c-4993a641d530",
+          "card": "4632c9ac-b8e5-43c2-b847-b58307f38e99",
+          "suffix": "020",
+          "rarity": "common"
+        },
+        {
+          "id": "76c0d178-2645-4128-908f-fac157b9c9da",
+          "card": "904b21cd-95aa-4bbf-8aea-9a522e7cc54f",
+          "suffix": "021",
+          "rarity": "common"
+        },
+        {
+          "id": "554be7e7-546e-4804-8b78-f5579a91be82",
+          "card": "cb685993-5951-4803-95e8-0a36d4a0f83d",
+          "suffix": "022",
+          "rarity": "super"
+        },
+        {
+          "id": "f6a2913f-74db-492c-82c4-147536ac5c99",
+          "card": "bcfed6aa-fbe4-41e2-9680-f9117e73da1a",
+          "suffix": "023",
+          "rarity": "common"
+        },
+        {
+          "id": "9e353d45-c919-4391-9292-4306681b521c",
+          "card": "b766a957-960b-4da2-afba-564a06adbf5e",
+          "suffix": "024",
+          "rarity": "common"
+        },
+        {
+          "id": "0981572e-b879-4aa5-bcb9-cd6e0553ef07",
+          "card": "9bde89d7-0fd8-409d-9634-13154cfbe881",
+          "suffix": "025",
+          "rarity": "common",
+          "qty": 2
+        },
+        {
+          "id": "a60fb3d7-44c1-41e8-a7e9-e323bd48e24e",
+          "card": "455283a3-9a89-4a44-ad5b-e45f181c3f9c",
+          "suffix": "026",
+          "rarity": "common"
+        },
+        {
+          "id": "1c5af15b-c288-40a7-a968-ad8b548e57e6",
+          "card": "d53a389d-5996-46c2-a446-15db7088c4f9",
+          "suffix": "027",
+          "rarity": "common"
+        },
+        {
+          "id": "3a55a270-2d4e-41fc-b134-fc48e2bc0482",
+          "card": "0b47aa23-643c-478a-8dd3-077d41ce2cd0",
+          "suffix": "028",
+          "rarity": "common"
+        },
+        {
+          "id": "1c487641-4ee0-4a82-a822-aa3ace339b02",
+          "card": "05273cc8-2664-4456-870f-4fa93cb7224e",
+          "suffix": "029",
+          "rarity": "common"
+        },
+        {
+          "id": "9ab806e6-4afa-4b1d-be58-3bfd72090b54",
+          "card": "df8f5fb0-1f07-4021-baa2-c76385e6289b",
+          "suffix": "030",
+          "rarity": "common"
+        },
+        {
+          "id": "8458f383-35aa-4a10-98fe-d78c238107d1",
+          "card": "b79dc124-2fb4-4a3f-a09d-d62cf235b620",
+          "suffix": "031",
+          "rarity": "common"
+        },
+        {
+          "id": "ae2fe802-6d1f-4bb7-b09c-85ae0e91633e",
+          "card": "a9cf20eb-ebb6-498b-93f3-59621c1750e1",
+          "suffix": "032",
+          "rarity": "common"
+        },
+        {
+          "id": "c5728159-6abb-452d-bb14-21bffd4e0104",
+          "card": "e368c4a9-1f11-480b-ba22-3a38daf22d41",
+          "suffix": "033",
+          "rarity": "common"
+        },
+        {
+          "id": "ba124a13-5b8a-4510-a2e2-499b943dc1f9",
+          "card": "20810672-4dce-47c3-9872-4db59ea622e9",
+          "suffix": "034",
+          "rarity": "common"
+        },
+        {
+          "id": "7f3d39a7-6b58-4417-b64a-e86ec2e15755",
+          "card": "e32ed3ac-cec4-4f5b-9653-d8598ab45ad9",
+          "suffix": "035",
+          "rarity": "common"
+        },
+        {
+          "id": "2431f2fb-6970-4ad2-80e4-6d4ad16d7299",
+          "card": "63403ffe-eeea-4b92-be5b-8a1f33c267c7",
+          "suffix": "036",
+          "rarity": "common"
+        },
+        {
+          "id": "e24f2bcc-2139-4760-8c1d-747e1fc37ccb",
+          "card": "abc72833-ff7f-43d9-b192-4e9fb1155979",
+          "suffix": "037",
+          "rarity": "common"
+        },
+        {
+          "id": "a0da2689-962a-4d70-a87a-c36c7cbeb129",
+          "card": "a917ca37-a073-448e-977a-5ffb98a4fd40",
+          "suffix": "038",
+          "rarity": "common"
+        },
+        {
+          "id": "ef071d78-e43f-4a9a-a645-f2372c3de200",
+          "card": "df5ec889-ed3b-4e8d-8c8f-2819495dbfbd",
+          "suffix": "039",
+          "rarity": "common"
+        },
+        {
+          "id": "65d90c92-3200-4ae2-853b-713a8082f677",
+          "card": "3cf7ab13-33e8-49a8-91f1-c427641da03d",
+          "suffix": "040",
+          "rarity": "ultra"
+        },
+        {
+          "id": "4e8cfe4a-4f1c-4142-950b-68fb6e32525f",
+          "card": "37b55e4e-2ac1-4d1a-ae77-910ebb5c9880",
+          "suffix": "041",
+          "rarity": "super"
+        }
+      ],
+      "externalIDs": {}
+    },
+    {
+      "locales": [
+        "sp"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "1st"
+      ],
+      "image": "https://ms.yugipedia.com//d/d8/SR08-DeckSP.png",
+      "cards": [
+        {
+          "id": "0efcbbc3-eabd-4a4e-9a81-b38f1c26fe00",
+          "card": "a127a786-a4b4-4d24-b777-50c3b39594a4",
+          "suffix": "001",
+          "rarity": "ultra"
+        },
+        {
+          "id": "1622e8b4-f82e-40af-812b-27bf79439526",
+          "card": "f7ae0333-e44e-4170-b4f8-b90d07f2c9ad",
+          "suffix": "002",
+          "rarity": "super"
+        },
+        {
+          "id": "f1542151-9403-4551-a113-2ae14e88b483",
+          "card": "17532d2f-3769-4c29-9131-e21440dd8934",
+          "suffix": "003",
+          "rarity": "common"
+        },
+        {
+          "id": "b9db62b2-0ac1-495e-8d11-856b13d9f303",
+          "card": "d686e803-ac2c-4f26-ba6e-2dd45af10129",
+          "suffix": "004",
+          "rarity": "common"
+        },
+        {
+          "id": "5bf7d7ae-38fc-4c9c-9d39-7e41d9296c76",
+          "card": "5e671dd3-8275-4d19-b765-090d093b3cfe",
+          "suffix": "005",
+          "rarity": "common"
+        },
+        {
+          "id": "04ae5243-dafd-42fe-b0cb-6c2cae61007b",
+          "card": "90021cee-fc4d-4e42-955f-d5fcbe4b48df",
+          "suffix": "006",
+          "rarity": "common"
+        },
+        {
+          "id": "cfdfe0e6-915b-4817-aab9-4382b30f065e",
+          "card": "29ab325c-9c1d-4451-a60b-1a2599e82bd2",
+          "suffix": "007",
+          "rarity": "common"
+        },
+        {
+          "id": "af9c63df-03d2-4a6b-a0f2-9b5d93532bf6",
+          "card": "73ae6902-a6bd-44cb-99d8-fe1e05deb21b",
+          "suffix": "008",
+          "rarity": "common"
+        },
+        {
+          "id": "ccc6f71f-4576-4ce7-9df8-6222275765dd",
+          "card": "85e60800-775f-46bb-b860-bd04ecf0e03f",
+          "suffix": "009",
+          "rarity": "common"
+        },
+        {
+          "id": "8707b1ec-4973-44db-bbf0-30762aaefe8a",
+          "card": "88d3a04f-b617-4439-94c8-ee3943fd22c2",
+          "suffix": "010",
+          "rarity": "common"
+        },
+        {
+          "id": "d4acabea-723c-48e5-b651-82cda7e774ef",
+          "card": "cef1d3e5-d29d-4ffd-8269-b6f3f7411fb8",
+          "suffix": "011",
+          "rarity": "common"
+        },
+        {
+          "id": "387419a1-7828-45a5-92ba-d66d906a09c5",
+          "card": "fdb10d74-0383-467f-b291-87a57f87485b",
+          "suffix": "012",
+          "rarity": "common"
+        },
+        {
+          "id": "54cd972a-7ccc-4bf7-ba9f-51dc4df1f9df",
+          "card": "5c1a5ac6-5587-44ed-aea8-62ff61761bf6",
+          "suffix": "013",
+          "rarity": "common"
+        },
+        {
+          "id": "88713b88-1b52-496b-abea-e8a4c922fcdc",
+          "card": "f74d0cb0-13dc-455a-bab9-34022e85bd3e",
+          "suffix": "014",
+          "rarity": "common"
+        },
+        {
+          "id": "5c1d5fa5-0860-4476-abbc-75a9cab10efe",
+          "card": "6ee9265d-288a-461d-92d5-44e22a420a95",
+          "suffix": "015",
+          "rarity": "common"
+        },
+        {
+          "id": "7c983555-842c-4aa1-a78a-78b3809146e2",
+          "card": "f862373f-c7a3-40ce-bef4-fd0d286a318b",
+          "suffix": "016",
+          "rarity": "common"
+        },
+        {
+          "id": "ec77068e-975c-4f03-8491-416737db0f8c",
+          "card": "70f2781c-cd5d-4663-ac6e-c90d1d953cb8",
+          "suffix": "017",
+          "rarity": "common"
+        },
+        {
+          "id": "397403d6-2da5-49b4-a358-17eda8e69478",
+          "card": "359dae3d-cb94-4934-ab0a-3db2e0f73c81",
+          "suffix": "018",
+          "rarity": "common"
+        },
+        {
+          "id": "db040233-64c5-439f-a92e-8dcba152e790",
+          "card": "611c4c30-1c4d-4f76-b783-9a59735a0417",
+          "suffix": "019",
+          "rarity": "common"
+        },
+        {
+          "id": "842e24b9-2661-498c-970c-4993a641d530",
+          "card": "4632c9ac-b8e5-43c2-b847-b58307f38e99",
+          "suffix": "020",
+          "rarity": "common"
+        },
+        {
+          "id": "76c0d178-2645-4128-908f-fac157b9c9da",
+          "card": "904b21cd-95aa-4bbf-8aea-9a522e7cc54f",
+          "suffix": "021",
+          "rarity": "common"
+        },
+        {
+          "id": "554be7e7-546e-4804-8b78-f5579a91be82",
+          "card": "cb685993-5951-4803-95e8-0a36d4a0f83d",
+          "suffix": "022",
+          "rarity": "super"
+        },
+        {
+          "id": "f6a2913f-74db-492c-82c4-147536ac5c99",
+          "card": "bcfed6aa-fbe4-41e2-9680-f9117e73da1a",
+          "suffix": "023",
+          "rarity": "common"
+        },
+        {
+          "id": "9e353d45-c919-4391-9292-4306681b521c",
+          "card": "b766a957-960b-4da2-afba-564a06adbf5e",
+          "suffix": "024",
+          "rarity": "common"
+        },
+        {
+          "id": "0981572e-b879-4aa5-bcb9-cd6e0553ef07",
+          "card": "9bde89d7-0fd8-409d-9634-13154cfbe881",
+          "suffix": "025",
+          "rarity": "common",
+          "qty": 2
+        },
+        {
+          "id": "a60fb3d7-44c1-41e8-a7e9-e323bd48e24e",
+          "card": "455283a3-9a89-4a44-ad5b-e45f181c3f9c",
+          "suffix": "026",
+          "rarity": "common"
+        },
+        {
+          "id": "1c5af15b-c288-40a7-a968-ad8b548e57e6",
+          "card": "d53a389d-5996-46c2-a446-15db7088c4f9",
+          "suffix": "027",
+          "rarity": "common"
+        },
+        {
+          "id": "3a55a270-2d4e-41fc-b134-fc48e2bc0482",
+          "card": "0b47aa23-643c-478a-8dd3-077d41ce2cd0",
+          "suffix": "028",
+          "rarity": "common"
+        },
+        {
+          "id": "1c487641-4ee0-4a82-a822-aa3ace339b02",
+          "card": "05273cc8-2664-4456-870f-4fa93cb7224e",
+          "suffix": "029",
+          "rarity": "common"
+        },
+        {
+          "id": "9ab806e6-4afa-4b1d-be58-3bfd72090b54",
+          "card": "df8f5fb0-1f07-4021-baa2-c76385e6289b",
+          "suffix": "030",
+          "rarity": "common"
+        },
+        {
+          "id": "8458f383-35aa-4a10-98fe-d78c238107d1",
+          "card": "b79dc124-2fb4-4a3f-a09d-d62cf235b620",
+          "suffix": "031",
+          "rarity": "common"
+        },
+        {
+          "id": "ae2fe802-6d1f-4bb7-b09c-85ae0e91633e",
+          "card": "a9cf20eb-ebb6-498b-93f3-59621c1750e1",
+          "suffix": "032",
+          "rarity": "common"
+        },
+        {
+          "id": "c5728159-6abb-452d-bb14-21bffd4e0104",
+          "card": "e368c4a9-1f11-480b-ba22-3a38daf22d41",
+          "suffix": "033",
+          "rarity": "common"
+        },
+        {
+          "id": "ba124a13-5b8a-4510-a2e2-499b943dc1f9",
+          "card": "20810672-4dce-47c3-9872-4db59ea622e9",
+          "suffix": "034",
+          "rarity": "common"
+        },
+        {
+          "id": "7f3d39a7-6b58-4417-b64a-e86ec2e15755",
+          "card": "e32ed3ac-cec4-4f5b-9653-d8598ab45ad9",
+          "suffix": "035",
+          "rarity": "common"
+        },
+        {
+          "id": "2431f2fb-6970-4ad2-80e4-6d4ad16d7299",
+          "card": "63403ffe-eeea-4b92-be5b-8a1f33c267c7",
+          "suffix": "036",
+          "rarity": "common"
+        },
+        {
+          "id": "e24f2bcc-2139-4760-8c1d-747e1fc37ccb",
+          "card": "abc72833-ff7f-43d9-b192-4e9fb1155979",
+          "suffix": "037",
+          "rarity": "common"
+        },
+        {
+          "id": "a0da2689-962a-4d70-a87a-c36c7cbeb129",
+          "card": "a917ca37-a073-448e-977a-5ffb98a4fd40",
+          "suffix": "038",
+          "rarity": "common"
+        },
+        {
+          "id": "ef071d78-e43f-4a9a-a645-f2372c3de200",
+          "card": "df5ec889-ed3b-4e8d-8c8f-2819495dbfbd",
+          "suffix": "039",
+          "rarity": "common"
+        },
+        {
+          "id": "65d90c92-3200-4ae2-853b-713a8082f677",
+          "card": "3cf7ab13-33e8-49a8-91f1-c427641da03d",
+          "suffix": "040",
+          "rarity": "ultra"
+        },
+        {
+          "id": "4e8cfe4a-4f1c-4142-950b-68fb6e32525f",
+          "card": "37b55e4e-2ac1-4d1a-ae77-910ebb5c9880",
+          "suffix": "041",
+          "rarity": "super"
+        }
+      ],
+      "externalIDs": {}
+    },
+    {
+      "locales": [
+        "pt"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "1st"
+      ],
+      "cards": [
+        {
+          "id": "0efcbbc3-eabd-4a4e-9a81-b38f1c26fe00",
+          "card": "a127a786-a4b4-4d24-b777-50c3b39594a4",
+          "suffix": "001",
+          "rarity": "ultra"
+        },
+        {
+          "id": "1622e8b4-f82e-40af-812b-27bf79439526",
+          "card": "f7ae0333-e44e-4170-b4f8-b90d07f2c9ad",
+          "suffix": "002",
+          "rarity": "super"
+        },
+        {
+          "id": "f1542151-9403-4551-a113-2ae14e88b483",
+          "card": "17532d2f-3769-4c29-9131-e21440dd8934",
+          "suffix": "003",
+          "rarity": "common"
+        },
+        {
+          "id": "b9db62b2-0ac1-495e-8d11-856b13d9f303",
+          "card": "d686e803-ac2c-4f26-ba6e-2dd45af10129",
+          "suffix": "004",
+          "rarity": "common"
+        },
+        {
+          "id": "5bf7d7ae-38fc-4c9c-9d39-7e41d9296c76",
+          "card": "5e671dd3-8275-4d19-b765-090d093b3cfe",
+          "suffix": "005",
+          "rarity": "common"
+        },
+        {
+          "id": "04ae5243-dafd-42fe-b0cb-6c2cae61007b",
+          "card": "90021cee-fc4d-4e42-955f-d5fcbe4b48df",
+          "suffix": "006",
+          "rarity": "common"
+        },
+        {
+          "id": "cfdfe0e6-915b-4817-aab9-4382b30f065e",
+          "card": "29ab325c-9c1d-4451-a60b-1a2599e82bd2",
+          "suffix": "007",
+          "rarity": "common"
+        },
+        {
+          "id": "af9c63df-03d2-4a6b-a0f2-9b5d93532bf6",
+          "card": "73ae6902-a6bd-44cb-99d8-fe1e05deb21b",
+          "suffix": "008",
+          "rarity": "common"
+        },
+        {
+          "id": "ccc6f71f-4576-4ce7-9df8-6222275765dd",
+          "card": "85e60800-775f-46bb-b860-bd04ecf0e03f",
+          "suffix": "009",
+          "rarity": "common"
+        },
+        {
+          "id": "8707b1ec-4973-44db-bbf0-30762aaefe8a",
+          "card": "88d3a04f-b617-4439-94c8-ee3943fd22c2",
+          "suffix": "010",
+          "rarity": "common"
+        },
+        {
+          "id": "d4acabea-723c-48e5-b651-82cda7e774ef",
+          "card": "cef1d3e5-d29d-4ffd-8269-b6f3f7411fb8",
+          "suffix": "011",
+          "rarity": "common"
+        },
+        {
+          "id": "387419a1-7828-45a5-92ba-d66d906a09c5",
+          "card": "fdb10d74-0383-467f-b291-87a57f87485b",
+          "suffix": "012",
+          "rarity": "common"
+        },
+        {
+          "id": "54cd972a-7ccc-4bf7-ba9f-51dc4df1f9df",
+          "card": "5c1a5ac6-5587-44ed-aea8-62ff61761bf6",
+          "suffix": "013",
+          "rarity": "common"
+        },
+        {
+          "id": "88713b88-1b52-496b-abea-e8a4c922fcdc",
+          "card": "f74d0cb0-13dc-455a-bab9-34022e85bd3e",
+          "suffix": "014",
+          "rarity": "common"
+        },
+        {
+          "id": "5c1d5fa5-0860-4476-abbc-75a9cab10efe",
+          "card": "6ee9265d-288a-461d-92d5-44e22a420a95",
+          "suffix": "015",
+          "rarity": "common"
+        },
+        {
+          "id": "7c983555-842c-4aa1-a78a-78b3809146e2",
+          "card": "f862373f-c7a3-40ce-bef4-fd0d286a318b",
+          "suffix": "016",
+          "rarity": "common"
+        },
+        {
+          "id": "ec77068e-975c-4f03-8491-416737db0f8c",
+          "card": "70f2781c-cd5d-4663-ac6e-c90d1d953cb8",
+          "suffix": "017",
+          "rarity": "common"
+        },
+        {
+          "id": "397403d6-2da5-49b4-a358-17eda8e69478",
+          "card": "359dae3d-cb94-4934-ab0a-3db2e0f73c81",
+          "suffix": "018",
+          "rarity": "common"
+        },
+        {
+          "id": "db040233-64c5-439f-a92e-8dcba152e790",
+          "card": "611c4c30-1c4d-4f76-b783-9a59735a0417",
+          "suffix": "019",
+          "rarity": "common"
+        },
+        {
+          "id": "842e24b9-2661-498c-970c-4993a641d530",
+          "card": "4632c9ac-b8e5-43c2-b847-b58307f38e99",
+          "suffix": "020",
+          "rarity": "common"
+        },
+        {
+          "id": "76c0d178-2645-4128-908f-fac157b9c9da",
+          "card": "904b21cd-95aa-4bbf-8aea-9a522e7cc54f",
+          "suffix": "021",
+          "rarity": "common"
+        },
+        {
+          "id": "554be7e7-546e-4804-8b78-f5579a91be82",
+          "card": "cb685993-5951-4803-95e8-0a36d4a0f83d",
+          "suffix": "022",
+          "rarity": "super"
+        },
+        {
+          "id": "f6a2913f-74db-492c-82c4-147536ac5c99",
+          "card": "bcfed6aa-fbe4-41e2-9680-f9117e73da1a",
+          "suffix": "023",
+          "rarity": "common"
+        },
+        {
+          "id": "9e353d45-c919-4391-9292-4306681b521c",
+          "card": "b766a957-960b-4da2-afba-564a06adbf5e",
+          "suffix": "024",
+          "rarity": "common"
+        },
+        {
+          "id": "0981572e-b879-4aa5-bcb9-cd6e0553ef07",
+          "card": "9bde89d7-0fd8-409d-9634-13154cfbe881",
+          "suffix": "025",
+          "rarity": "common",
+          "qty": 2
+        },
+        {
+          "id": "a60fb3d7-44c1-41e8-a7e9-e323bd48e24e",
+          "card": "455283a3-9a89-4a44-ad5b-e45f181c3f9c",
+          "suffix": "026",
+          "rarity": "common"
+        },
+        {
+          "id": "1c5af15b-c288-40a7-a968-ad8b548e57e6",
+          "card": "d53a389d-5996-46c2-a446-15db7088c4f9",
+          "suffix": "027",
+          "rarity": "common"
+        },
+        {
+          "id": "3a55a270-2d4e-41fc-b134-fc48e2bc0482",
+          "card": "0b47aa23-643c-478a-8dd3-077d41ce2cd0",
+          "suffix": "028",
+          "rarity": "common"
+        },
+        {
+          "id": "1c487641-4ee0-4a82-a822-aa3ace339b02",
+          "card": "05273cc8-2664-4456-870f-4fa93cb7224e",
+          "suffix": "029",
+          "rarity": "common"
+        },
+        {
+          "id": "9ab806e6-4afa-4b1d-be58-3bfd72090b54",
+          "card": "df8f5fb0-1f07-4021-baa2-c76385e6289b",
+          "suffix": "030",
+          "rarity": "common"
+        },
+        {
+          "id": "8458f383-35aa-4a10-98fe-d78c238107d1",
+          "card": "b79dc124-2fb4-4a3f-a09d-d62cf235b620",
+          "suffix": "031",
+          "rarity": "common"
+        },
+        {
+          "id": "ae2fe802-6d1f-4bb7-b09c-85ae0e91633e",
+          "card": "a9cf20eb-ebb6-498b-93f3-59621c1750e1",
+          "suffix": "032",
+          "rarity": "common"
+        },
+        {
+          "id": "c5728159-6abb-452d-bb14-21bffd4e0104",
+          "card": "e368c4a9-1f11-480b-ba22-3a38daf22d41",
+          "suffix": "033",
+          "rarity": "common"
+        },
+        {
+          "id": "ba124a13-5b8a-4510-a2e2-499b943dc1f9",
+          "card": "20810672-4dce-47c3-9872-4db59ea622e9",
+          "suffix": "034",
+          "rarity": "common"
+        },
+        {
+          "id": "7f3d39a7-6b58-4417-b64a-e86ec2e15755",
+          "card": "e32ed3ac-cec4-4f5b-9653-d8598ab45ad9",
+          "suffix": "035",
+          "rarity": "common"
+        },
+        {
+          "id": "2431f2fb-6970-4ad2-80e4-6d4ad16d7299",
+          "card": "63403ffe-eeea-4b92-be5b-8a1f33c267c7",
+          "suffix": "036",
+          "rarity": "common"
+        },
+        {
+          "id": "e24f2bcc-2139-4760-8c1d-747e1fc37ccb",
+          "card": "abc72833-ff7f-43d9-b192-4e9fb1155979",
+          "suffix": "037",
+          "rarity": "common"
+        },
+        {
+          "id": "a0da2689-962a-4d70-a87a-c36c7cbeb129",
+          "card": "a917ca37-a073-448e-977a-5ffb98a4fd40",
+          "suffix": "038",
+          "rarity": "common"
+        },
+        {
+          "id": "ef071d78-e43f-4a9a-a645-f2372c3de200",
+          "card": "df5ec889-ed3b-4e8d-8c8f-2819495dbfbd",
+          "suffix": "039",
+          "rarity": "common"
+        },
+        {
+          "id": "65d90c92-3200-4ae2-853b-713a8082f677",
+          "card": "3cf7ab13-33e8-49a8-91f1-c427641da03d",
+          "suffix": "040",
+          "rarity": "ultra"
+        },
+        {
+          "id": "4e8cfe4a-4f1c-4142-950b-68fb6e32525f",
+          "card": "37b55e4e-2ac1-4d1a-ae77-910ebb5c9880",
+          "suffix": "041",
+          "rarity": "super"
+        }
+      ],
+      "externalIDs": {}
+    },
+    {
+      "locales": [
+        "it"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "1st"
+      ],
+      "image": "https://ms.yugipedia.com//2/27/SR08-DeckIT.png",
+      "cards": [
+        {
+          "id": "0efcbbc3-eabd-4a4e-9a81-b38f1c26fe00",
+          "card": "a127a786-a4b4-4d24-b777-50c3b39594a4",
+          "suffix": "001",
+          "rarity": "ultra"
+        },
+        {
+          "id": "1622e8b4-f82e-40af-812b-27bf79439526",
+          "card": "f7ae0333-e44e-4170-b4f8-b90d07f2c9ad",
+          "suffix": "002",
+          "rarity": "super"
+        },
+        {
+          "id": "f1542151-9403-4551-a113-2ae14e88b483",
+          "card": "17532d2f-3769-4c29-9131-e21440dd8934",
+          "suffix": "003",
+          "rarity": "common"
+        },
+        {
+          "id": "b9db62b2-0ac1-495e-8d11-856b13d9f303",
+          "card": "d686e803-ac2c-4f26-ba6e-2dd45af10129",
+          "suffix": "004",
+          "rarity": "common"
+        },
+        {
+          "id": "5bf7d7ae-38fc-4c9c-9d39-7e41d9296c76",
+          "card": "5e671dd3-8275-4d19-b765-090d093b3cfe",
+          "suffix": "005",
+          "rarity": "common"
+        },
+        {
+          "id": "04ae5243-dafd-42fe-b0cb-6c2cae61007b",
+          "card": "90021cee-fc4d-4e42-955f-d5fcbe4b48df",
+          "suffix": "006",
+          "rarity": "common"
+        },
+        {
+          "id": "cfdfe0e6-915b-4817-aab9-4382b30f065e",
+          "card": "29ab325c-9c1d-4451-a60b-1a2599e82bd2",
+          "suffix": "007",
+          "rarity": "common"
+        },
+        {
+          "id": "af9c63df-03d2-4a6b-a0f2-9b5d93532bf6",
+          "card": "73ae6902-a6bd-44cb-99d8-fe1e05deb21b",
+          "suffix": "008",
+          "rarity": "common"
+        },
+        {
+          "id": "ccc6f71f-4576-4ce7-9df8-6222275765dd",
+          "card": "85e60800-775f-46bb-b860-bd04ecf0e03f",
+          "suffix": "009",
+          "rarity": "common"
+        },
+        {
+          "id": "8707b1ec-4973-44db-bbf0-30762aaefe8a",
+          "card": "88d3a04f-b617-4439-94c8-ee3943fd22c2",
+          "suffix": "010",
+          "rarity": "common"
+        },
+        {
+          "id": "d4acabea-723c-48e5-b651-82cda7e774ef",
+          "card": "cef1d3e5-d29d-4ffd-8269-b6f3f7411fb8",
+          "suffix": "011",
+          "rarity": "common"
+        },
+        {
+          "id": "387419a1-7828-45a5-92ba-d66d906a09c5",
+          "card": "fdb10d74-0383-467f-b291-87a57f87485b",
+          "suffix": "012",
+          "rarity": "common"
+        },
+        {
+          "id": "54cd972a-7ccc-4bf7-ba9f-51dc4df1f9df",
+          "card": "5c1a5ac6-5587-44ed-aea8-62ff61761bf6",
+          "suffix": "013",
+          "rarity": "common"
+        },
+        {
+          "id": "88713b88-1b52-496b-abea-e8a4c922fcdc",
+          "card": "f74d0cb0-13dc-455a-bab9-34022e85bd3e",
+          "suffix": "014",
+          "rarity": "common"
+        },
+        {
+          "id": "5c1d5fa5-0860-4476-abbc-75a9cab10efe",
+          "card": "6ee9265d-288a-461d-92d5-44e22a420a95",
+          "suffix": "015",
+          "rarity": "common"
+        },
+        {
+          "id": "7c983555-842c-4aa1-a78a-78b3809146e2",
+          "card": "f862373f-c7a3-40ce-bef4-fd0d286a318b",
+          "suffix": "016",
+          "rarity": "common"
+        },
+        {
+          "id": "ec77068e-975c-4f03-8491-416737db0f8c",
+          "card": "70f2781c-cd5d-4663-ac6e-c90d1d953cb8",
+          "suffix": "017",
+          "rarity": "common"
+        },
+        {
+          "id": "397403d6-2da5-49b4-a358-17eda8e69478",
+          "card": "359dae3d-cb94-4934-ab0a-3db2e0f73c81",
+          "suffix": "018",
+          "rarity": "common"
+        },
+        {
+          "id": "db040233-64c5-439f-a92e-8dcba152e790",
+          "card": "611c4c30-1c4d-4f76-b783-9a59735a0417",
+          "suffix": "019",
+          "rarity": "common"
+        },
+        {
+          "id": "842e24b9-2661-498c-970c-4993a641d530",
+          "card": "4632c9ac-b8e5-43c2-b847-b58307f38e99",
+          "suffix": "020",
+          "rarity": "common"
+        },
+        {
+          "id": "76c0d178-2645-4128-908f-fac157b9c9da",
+          "card": "904b21cd-95aa-4bbf-8aea-9a522e7cc54f",
+          "suffix": "021",
+          "rarity": "common"
+        },
+        {
+          "id": "554be7e7-546e-4804-8b78-f5579a91be82",
+          "card": "cb685993-5951-4803-95e8-0a36d4a0f83d",
+          "suffix": "022",
+          "rarity": "super"
+        },
+        {
+          "id": "f6a2913f-74db-492c-82c4-147536ac5c99",
+          "card": "bcfed6aa-fbe4-41e2-9680-f9117e73da1a",
+          "suffix": "023",
+          "rarity": "common"
+        },
+        {
+          "id": "9e353d45-c919-4391-9292-4306681b521c",
+          "card": "b766a957-960b-4da2-afba-564a06adbf5e",
+          "suffix": "024",
+          "rarity": "common"
+        },
+        {
+          "id": "0981572e-b879-4aa5-bcb9-cd6e0553ef07",
+          "card": "9bde89d7-0fd8-409d-9634-13154cfbe881",
+          "suffix": "025",
+          "rarity": "common",
+          "qty": 2
+        },
+        {
+          "id": "a60fb3d7-44c1-41e8-a7e9-e323bd48e24e",
+          "card": "455283a3-9a89-4a44-ad5b-e45f181c3f9c",
+          "suffix": "026",
+          "rarity": "common"
+        },
+        {
+          "id": "1c5af15b-c288-40a7-a968-ad8b548e57e6",
+          "card": "d53a389d-5996-46c2-a446-15db7088c4f9",
+          "suffix": "027",
+          "rarity": "common"
+        },
+        {
+          "id": "3a55a270-2d4e-41fc-b134-fc48e2bc0482",
+          "card": "0b47aa23-643c-478a-8dd3-077d41ce2cd0",
+          "suffix": "028",
+          "rarity": "common"
+        },
+        {
+          "id": "1c487641-4ee0-4a82-a822-aa3ace339b02",
+          "card": "05273cc8-2664-4456-870f-4fa93cb7224e",
+          "suffix": "029",
+          "rarity": "common"
+        },
+        {
+          "id": "9ab806e6-4afa-4b1d-be58-3bfd72090b54",
+          "card": "df8f5fb0-1f07-4021-baa2-c76385e6289b",
+          "suffix": "030",
+          "rarity": "common"
+        },
+        {
+          "id": "8458f383-35aa-4a10-98fe-d78c238107d1",
+          "card": "b79dc124-2fb4-4a3f-a09d-d62cf235b620",
+          "suffix": "031",
+          "rarity": "common"
+        },
+        {
+          "id": "ae2fe802-6d1f-4bb7-b09c-85ae0e91633e",
+          "card": "a9cf20eb-ebb6-498b-93f3-59621c1750e1",
+          "suffix": "032",
+          "rarity": "common"
+        },
+        {
+          "id": "c5728159-6abb-452d-bb14-21bffd4e0104",
+          "card": "e368c4a9-1f11-480b-ba22-3a38daf22d41",
+          "suffix": "033",
+          "rarity": "common"
+        },
+        {
+          "id": "ba124a13-5b8a-4510-a2e2-499b943dc1f9",
+          "card": "20810672-4dce-47c3-9872-4db59ea622e9",
+          "suffix": "034",
+          "rarity": "common"
+        },
+        {
+          "id": "7f3d39a7-6b58-4417-b64a-e86ec2e15755",
+          "card": "e32ed3ac-cec4-4f5b-9653-d8598ab45ad9",
+          "suffix": "035",
+          "rarity": "common"
+        },
+        {
+          "id": "2431f2fb-6970-4ad2-80e4-6d4ad16d7299",
+          "card": "63403ffe-eeea-4b92-be5b-8a1f33c267c7",
+          "suffix": "036",
+          "rarity": "common"
+        },
+        {
+          "id": "e24f2bcc-2139-4760-8c1d-747e1fc37ccb",
+          "card": "abc72833-ff7f-43d9-b192-4e9fb1155979",
+          "suffix": "037",
+          "rarity": "common"
+        },
+        {
+          "id": "a0da2689-962a-4d70-a87a-c36c7cbeb129",
+          "card": "a917ca37-a073-448e-977a-5ffb98a4fd40",
+          "suffix": "038",
+          "rarity": "common"
+        },
+        {
+          "id": "ef071d78-e43f-4a9a-a645-f2372c3de200",
+          "card": "df5ec889-ed3b-4e8d-8c8f-2819495dbfbd",
+          "suffix": "039",
+          "rarity": "common"
+        },
+        {
+          "id": "65d90c92-3200-4ae2-853b-713a8082f677",
+          "card": "3cf7ab13-33e8-49a8-91f1-c427641da03d",
+          "suffix": "040",
+          "rarity": "ultra"
+        },
+        {
+          "id": "4e8cfe4a-4f1c-4142-950b-68fb6e32525f",
+          "card": "37b55e4e-2ac1-4d1a-ae77-910ebb5c9880",
+          "suffix": "041",
+          "rarity": "super"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Structure Deck: Order of the Spellcasters",
+      "id": 589397
+    }
+  }
+}

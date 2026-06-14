@@ -1,0 +1,3331 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/set.json",
+  "id": "1d72d2b8-ac13-4926-bb85-efa99ab934d2",
+  "name": {
+    "en": "Dragons of Legend",
+    "fr": "Les Dragons de L\u00e9gende",
+    "de": "Dragons of Legend",
+    "it": "Draghi della Leggenda",
+    "pt": "Drag\u00f5es das Lendas",
+    "es": "Dragones de Leyenda"
+  },
+  "locales": {
+    "en": {
+      "language": "en",
+      "prefix": "DRLG-EN",
+      "image": "https://ms.yugipedia.com//3/39/DRLG-BoosterEN.png",
+      "cardImages": {
+        "1st": {
+          "38abee15-4301-4454-a97a-20adfe6c7c17": "https://ms.yugipedia.com//a/ad/LegendaryKnightTimaeus-DRLG-EN-ScR-1E.png",
+          "83a4e97a-375a-49c8-aee8-86503af501b5": "https://ms.yugipedia.com//5/55/Kuribandit-DRLG-EN-ScR-1E.png",
+          "3c668f68-d44f-4eab-9181-456a85d5dce6": "https://ms.yugipedia.com//f/f5/AmuletDragon-DRLG-EN-ScR-1E.png",
+          "2c320edb-db26-44d6-b0a4-e6ba242e62e3": "https://ms.yugipedia.com//2/20/DarkMagicianGirltheDragonKnight-DRLG-EN-ScR-1E.png",
+          "5eefbd63-7240-431f-82cf-178997195a84": "https://ms.yugipedia.com//2/23/TheEyeofTimaeus-DRLG-EN-ScR-1E.png",
+          "24d451fb-8798-410a-9ad3-4807678a1140": "https://ms.yugipedia.com//f/fe/LegendofHeart-DRLG-EN-ScR-1E.png",
+          "7ee6a42f-ac12-4454-b432-91a692294593": "https://ms.yugipedia.com//e/e0/BerserkerSoul-DRLG-EN-ScR-1E.png",
+          "f06b2ae0-244b-424b-aa05-5e8aa3c4597f": "https://ms.yugipedia.com//8/88/RelaySoul-DRLG-EN-SR-1E.png",
+          "feae55a6-7feb-4aa6-80b5-e9921f0d3eae": "https://ms.yugipedia.com//9/9b/GuardianEatos-DRLG-EN-SR-1E.png",
+          "c096423e-6018-439e-857c-57f419539616": "https://ms.yugipedia.com//f/f4/GuardianDreadscythe-DRLG-EN-ScR-1E.png",
+          "3c0fc5ff-c8eb-44df-a187-615d892e51c5": "https://ms.yugipedia.com//c/cc/CelestialSwordEatos-DRLG-EN-SR-1E.png",
+          "4190c872-cc1f-4fd8-a945-fa7bd7f50803": "https://ms.yugipedia.com//7/76/ReaperScytheDreadscythe-DRLG-EN-SR-1E.png",
+          "932dd1a0-3837-4d33-b3c9-f2eae890c5ae": "https://ms.yugipedia.com//f/f3/GuardedTreasure-DRLG-EN-ScR-1E.png",
+          "09d13207-89a1-48bd-96e7-67931628680d": "https://ms.yugipedia.com//9/97/SoulCharge-DRLG-EN-SR-1E.png",
+          "a6148cd7-0db6-4d66-9239-e2db56380036": "https://ms.yugipedia.com//4/4a/SabatielThePhilosophersStone-DRLG-EN-SR-1E.png",
+          "12e3c68c-e3e8-472a-862d-1452e67f51fd": "https://ms.yugipedia.com//d/d8/FlashFusion-DRLG-EN-SR-1E.png",
+          "8e0fcd34-42f2-47d7-bbe0-d4b7186cf855": "https://ms.yugipedia.com//4/47/BattleFusion-DRLG-EN-SR-1E.png",
+          "8eee6f32-8f13-4eb9-999d-8b70e54e03aa": "https://ms.yugipedia.com//b/bd/FinalFusion-DRLG-EN-SR-1E.png",
+          "de156127-dfe6-4df7-9132-588974386ca0": "https://ms.yugipedia.com//c/ce/PairCycroid-DRLG-EN-SR-1E.png",
+          "ad6c8b01-c16f-4744-a2d3-ce26177cc90f": "https://ms.yugipedia.com//3/37/AyersRockSunrise-DRLG-EN-SR-1E.png",
+          "9a9bcbb1-5077-47a8-bb50-f51281164c06": "https://ms.yugipedia.com//b/b4/DoblePasse-DRLG-EN-ScR-1E.png",
+          "14e62bba-c6ea-4aaa-9127-2b7af45400b5": "https://ms.yugipedia.com//9/99/Carboneddon-DRLG-EN-SR-1E.png",
+          "5d53f9eb-245d-482c-aa6a-c331909dd837": "https://ms.yugipedia.com//0/02/Mathematician-DRLG-EN-ScR-1E.png",
+          "081e51ea-970d-4f55-b23c-0d0edef639a6": "https://ms.yugipedia.com//c/c3/RasDisciple-DRLG-EN-ScR-1E.png",
+          "6d714d47-c5b0-412b-9f38-fa0989d61634": "https://ms.yugipedia.com//9/90/MoundoftheBoundCreator-DRLG-EN-ScR-1E.png",
+          "240895f7-3293-41ab-b21f-e362afc85be0": "https://ms.yugipedia.com//c/c6/ShootingStar-DRLG-EN-ScR-1E.png",
+          "efc77c79-edd8-441b-9866-f09612008a3e": "https://ms.yugipedia.com//6/61/BlackwingOroshitheSquall-DRLG-EN-SR-1E.png",
+          "d15c7d7a-e35a-4970-b7d2-3df202a37bb6": "https://ms.yugipedia.com//9/92/BlackwingSteamtheCloak-DRLG-EN-SR-1E.png",
+          "93e032b1-58fe-4553-a26a-7bbef8042ea9": "https://ms.yugipedia.com//7/71/BlackwingHurricanetheTornado-DRLG-EN-SR-1E.png",
+          "a220968b-641c-4a14-9f70-29801e345edc": "https://ms.yugipedia.com//7/7d/BlackSonic-DRLG-EN-ScR-1E.png",
+          "d03f0c72-a91a-4837-a743-bf8d5bddc78c": "https://ms.yugipedia.com//a/a1/BlackWingRevenge-DRLG-EN-SR-1E.png",
+          "bc28a344-7ff8-42fd-a18d-d298ec5bd2eb": "https://ms.yugipedia.com//6/6d/ShadowImpulse-DRLG-EN-SR-1E.png",
+          "3f825c89-da58-4ed0-8219-b92af1a70f84": "https://ms.yugipedia.com//0/0f/AssaultDog-DRLG-EN-SR-1E.png",
+          "9a040adb-518c-43a8-b9cf-cec18a53e76b": "https://ms.yugipedia.com//3/37/GateBlocker-DRLG-EN-ScR-1E.png",
+          "f5d78626-4196-4e91-8322-d09e04134c2d": "https://ms.yugipedia.com//d/d7/Wiretap-DRLG-EN-SR-1E.png",
+          "422102cf-9e9f-4fbd-b375-1e381925fc31": "https://ms.yugipedia.com//4/40/LionheartedLocomotive-DRLG-EN-SR-1E.png",
+          "fa67e86a-7822-4a81-97dd-ea91982ca21f": "https://ms.yugipedia.com//8/88/ExpressTrainTrolleyOlley-DRLG-EN-ScR-1E.png",
+          "653b2609-0f06-482b-b9d7-e86ca1280ff6": "https://ms.yugipedia.com//1/17/ConstructionTrainSignalRed-DRLG-EN-SR-1E.png",
+          "e5401836-da5f-4e65-84b4-ebbca086609a": "https://ms.yugipedia.com//9/91/TrainConnection-DRLG-EN-SR-1E.png",
+          "3cc1dc85-233b-4ae1-994a-7d7256cb547d": "https://ms.yugipedia.com//9/92/Number73AbyssSplash-DRLG-EN-SR-1E.png",
+          "82aba6ca-2c09-4a22-9e7d-49bbafb41fc1": "https://ms.yugipedia.com//1/14/NumberC73AbyssSupraSplash-DRLG-EN-SR-1E.png",
+          "b5a95bc0-195a-425a-8daa-63ea096f6519": "https://ms.yugipedia.com//3/3f/RankUpMagicQuickChaos-DRLG-EN-ScR-1E.png",
+          "65ba1137-9a50-4141-adeb-6cc898159814": "https://ms.yugipedia.com//7/7e/NumberC5ChaosChimeraDragon-DRLG-EN-SR-1E.png",
+          "121542f4-7737-4a15-b8be-ebc2a1d51864": "https://ms.yugipedia.com//a/a0/RankUpMagicAdmirationoftheThousands-DRLG-EN-ScR-1E.png",
+          "d7c513b2-d3dc-4a32-804d-14d9ff7a0fe6": "https://ms.yugipedia.com//5/52/MagicHand-DRLG-EN-SR-1E.png",
+          "a767b429-3df7-4512-8b2f-956f5aefb376": "https://ms.yugipedia.com//a/ae/FireHand-DRLG-EN-ScR-1E.png",
+          "5f01615f-a483-4dd7-b021-9efd2f2bc51f": "https://ms.yugipedia.com//4/48/IceHand-DRLG-EN-ScR-1E.png",
+          "ffabe7b7-8060-40a2-9e61-bba5109bb56e": "https://ms.yugipedia.com//d/d9/ProminenceHand-DRLG-EN-SR-1E.png",
+          "5a78cfa0-a9f4-40cf-a6dc-60b098256c73": "https://ms.yugipedia.com//c/cd/NumberC106GiantRedHand-DRLG-EN-SR-1E.png",
+          "c3b32dce-3da9-4be3-ae2c-96cc062d753b": "https://ms.yugipedia.com//a/a8/RisingSunSlash-DRLG-EN-SR-1E.png"
+        },
+        "unlimited": {
+          "38abee15-4301-4454-a97a-20adfe6c7c17": "https://ms.yugipedia.com//1/14/LegendaryKnightTimaeus-DRLG-EN-ScR-UE.png",
+          "83a4e97a-375a-49c8-aee8-86503af501b5": "https://ms.yugipedia.com//1/11/Kuribandit-DRLG-EN-ScR-UE.png",
+          "3c668f68-d44f-4eab-9181-456a85d5dce6": "https://ms.yugipedia.com//e/e9/AmuletDragon-DRLG-EN-ScR-UE.png",
+          "2c320edb-db26-44d6-b0a4-e6ba242e62e3": "https://ms.yugipedia.com//7/7e/DarkMagicianGirltheDragonKnight-DRLG-EN-ScR-UE.png",
+          "5eefbd63-7240-431f-82cf-178997195a84": "https://ms.yugipedia.com//d/da/TheEyeofTimaeus-DRLG-EN-ScR-UE.png",
+          "24d451fb-8798-410a-9ad3-4807678a1140": "https://ms.yugipedia.com//8/8c/LegendofHeart-DRLG-EN-ScR-UE.png",
+          "7ee6a42f-ac12-4454-b432-91a692294593": "https://ms.yugipedia.com//3/3f/BerserkerSoul-DRLG-EN-ScR-UE.png",
+          "f06b2ae0-244b-424b-aa05-5e8aa3c4597f": "https://ms.yugipedia.com//0/03/RelaySoul-DRLG-EN-SR-UE.png",
+          "feae55a6-7feb-4aa6-80b5-e9921f0d3eae": "https://ms.yugipedia.com//c/c3/GuardianEatos-DRLG-EN-SR-UE.png",
+          "c096423e-6018-439e-857c-57f419539616": "https://ms.yugipedia.com//a/a7/GuardianDreadscythe-DRLG-EN-ScR-UE.png",
+          "3c0fc5ff-c8eb-44df-a187-615d892e51c5": "https://ms.yugipedia.com//3/3f/CelestialSwordEatos-DRLG-EN-SR-UE.png",
+          "4190c872-cc1f-4fd8-a945-fa7bd7f50803": "https://ms.yugipedia.com//0/04/ReaperScytheDreadscythe-DRLG-EN-SR-UE.png",
+          "932dd1a0-3837-4d33-b3c9-f2eae890c5ae": "https://ms.yugipedia.com//a/ad/GuardedTreasure-DRLG-EN-ScR-UE.png",
+          "09d13207-89a1-48bd-96e7-67931628680d": "https://ms.yugipedia.com//1/1c/SoulCharge-DRLG-EN-SR-UE.png",
+          "a6148cd7-0db6-4d66-9239-e2db56380036": "https://ms.yugipedia.com//4/4b/SabatielThePhilosophersStone-DRLG-EN-SR-UE.png",
+          "12e3c68c-e3e8-472a-862d-1452e67f51fd": "https://ms.yugipedia.com//d/d5/FlashFusion-DRLG-EN-SR-UE.png",
+          "8e0fcd34-42f2-47d7-bbe0-d4b7186cf855": "https://ms.yugipedia.com//5/51/BattleFusion-DRLG-EN-SR-UE.png",
+          "8eee6f32-8f13-4eb9-999d-8b70e54e03aa": "https://ms.yugipedia.com//a/af/FinalFusion-DRLG-EN-SR-UE.png",
+          "de156127-dfe6-4df7-9132-588974386ca0": "https://ms.yugipedia.com//f/fd/PairCycroid-DRLG-EN-SR-UE.png",
+          "ad6c8b01-c16f-4744-a2d3-ce26177cc90f": "https://ms.yugipedia.com//2/2c/AyersRockSunrise-DRLG-EN-SR-UE.png",
+          "9a9bcbb1-5077-47a8-bb50-f51281164c06": "https://ms.yugipedia.com//1/13/DoblePasse-DRLG-EN-ScR-UE.png",
+          "14e62bba-c6ea-4aaa-9127-2b7af45400b5": "https://ms.yugipedia.com//8/85/Carboneddon-DRLG-EN-SR-UE.png",
+          "5d53f9eb-245d-482c-aa6a-c331909dd837": "https://ms.yugipedia.com//8/8e/Mathematician-DRLG-EN-ScR-UE.png",
+          "081e51ea-970d-4f55-b23c-0d0edef639a6": "https://ms.yugipedia.com//8/89/RasDisciple-DRLG-EN-ScR-UE.png",
+          "6d714d47-c5b0-412b-9f38-fa0989d61634": "https://ms.yugipedia.com//3/32/MoundoftheBoundCreator-DRLG-EN-ScR-UE.png",
+          "240895f7-3293-41ab-b21f-e362afc85be0": "https://ms.yugipedia.com//f/f3/ShootingStar-DRLG-EN-ScR-UE.png",
+          "efc77c79-edd8-441b-9866-f09612008a3e": "https://ms.yugipedia.com//8/81/BlackwingOroshitheSquall-DRLG-EN-SR-UE.png",
+          "d15c7d7a-e35a-4970-b7d2-3df202a37bb6": "https://ms.yugipedia.com//f/f5/BlackwingSteamtheCloak-DRLG-EN-SR-UE.png",
+          "93e032b1-58fe-4553-a26a-7bbef8042ea9": "https://ms.yugipedia.com//5/55/BlackwingHurricanetheTornado-DRLG-EN-SR-UE.png",
+          "a220968b-641c-4a14-9f70-29801e345edc": "https://ms.yugipedia.com//8/86/BlackSonic-DRLG-EN-ScR-UE.png",
+          "d03f0c72-a91a-4837-a743-bf8d5bddc78c": "https://ms.yugipedia.com//b/b7/BlackWingRevenge-DRLG-EN-SR-UE.png",
+          "bc28a344-7ff8-42fd-a18d-d298ec5bd2eb": "https://ms.yugipedia.com//d/d6/ShadowImpulse-DRLG-EN-SR-UE.png",
+          "3f825c89-da58-4ed0-8219-b92af1a70f84": "https://ms.yugipedia.com//4/47/AssaultDog-DRLG-EN-SR-UE.png",
+          "9a040adb-518c-43a8-b9cf-cec18a53e76b": "https://ms.yugipedia.com//4/4c/GateBlocker-DRLG-EN-ScR-UE.png",
+          "f5d78626-4196-4e91-8322-d09e04134c2d": "https://ms.yugipedia.com//f/f5/Wiretap-DRLG-EN-SR-UE.png",
+          "422102cf-9e9f-4fbd-b375-1e381925fc31": "https://ms.yugipedia.com//4/44/LionheartedLocomotive-DRLG-EN-SR-UE.png",
+          "fa67e86a-7822-4a81-97dd-ea91982ca21f": "https://ms.yugipedia.com//5/5b/ExpressTrainTrolleyOlley-DRLG-EN-ScR-UE.png",
+          "653b2609-0f06-482b-b9d7-e86ca1280ff6": "https://ms.yugipedia.com//8/83/ConstructionTrainSignalRed-DRLG-EN-SR-UE.png",
+          "e5401836-da5f-4e65-84b4-ebbca086609a": "https://ms.yugipedia.com//1/18/TrainConnection-DRLG-EN-SR-UE.png",
+          "3cc1dc85-233b-4ae1-994a-7d7256cb547d": "https://ms.yugipedia.com//e/ee/Number73AbyssSplash-DRLG-EN-SR-UE.png",
+          "82aba6ca-2c09-4a22-9e7d-49bbafb41fc1": "https://ms.yugipedia.com//6/63/NumberC73AbyssSupraSplash-DRLG-EN-SR-UE.png",
+          "b5a95bc0-195a-425a-8daa-63ea096f6519": "https://ms.yugipedia.com//2/27/RankUpMagicQuickChaos-DRLG-EN-ScR-UE.png",
+          "65ba1137-9a50-4141-adeb-6cc898159814": "https://ms.yugipedia.com//0/09/NumberC5ChaosChimeraDragon-DRLG-EN-SR-UE.png",
+          "121542f4-7737-4a15-b8be-ebc2a1d51864": "https://ms.yugipedia.com//c/cc/RankUpMagicAdmirationoftheThousands-DRLG-EN-ScR-UE.png",
+          "d7c513b2-d3dc-4a32-804d-14d9ff7a0fe6": "https://ms.yugipedia.com//b/b2/MagicHand-DRLG-EN-SR-UE.png",
+          "a767b429-3df7-4512-8b2f-956f5aefb376": "https://ms.yugipedia.com//e/eb/FireHand-DRLG-EN-ScR-UE.png",
+          "5f01615f-a483-4dd7-b021-9efd2f2bc51f": "https://ms.yugipedia.com//1/13/IceHand-DRLG-EN-ScR-UE.png",
+          "ffabe7b7-8060-40a2-9e61-bba5109bb56e": "https://ms.yugipedia.com//3/3a/ProminenceHand-DRLG-EN-SR-UE.png",
+          "5a78cfa0-a9f4-40cf-a6dc-60b098256c73": "https://ms.yugipedia.com//9/90/NumberC106GiantRedHand-DRLG-EN-SR-UE.png",
+          "c3b32dce-3da9-4be3-ae2c-96cc062d753b": "https://ms.yugipedia.com//9/90/RisingSunSlash-DRLG-EN-SR-UE.png"
+        }
+      },
+      "cardInfo": {
+        "1st": {
+          "5eefbd63-7240-431f-82cf-178997195a84": {
+            "image": "https://ms.yugipedia.com//2/23/TheEyeofTimaeus-DRLG-EN-ScR-1E.png"
+          },
+          "5a78cfa0-a9f4-40cf-a6dc-60b098256c73": {
+            "image": "https://ms.yugipedia.com//c/cd/NumberC106GiantRedHand-DRLG-EN-SR-1E.png"
+          },
+          "d15c7d7a-e35a-4970-b7d2-3df202a37bb6": {
+            "image": "https://ms.yugipedia.com//9/92/BlackwingSteamtheCloak-DRLG-EN-SR-1E.png"
+          },
+          "24d451fb-8798-410a-9ad3-4807678a1140": {
+            "image": "https://ms.yugipedia.com//f/fe/LegendofHeart-DRLG-EN-ScR-1E.png"
+          },
+          "93e032b1-58fe-4553-a26a-7bbef8042ea9": {
+            "image": "https://ms.yugipedia.com//7/71/BlackwingHurricanetheTornado-DRLG-EN-SR-1E.png"
+          },
+          "7ee6a42f-ac12-4454-b432-91a692294593": {
+            "image": "https://ms.yugipedia.com//e/e0/BerserkerSoul-DRLG-EN-ScR-1E.png"
+          },
+          "a220968b-641c-4a14-9f70-29801e345edc": {
+            "image": "https://ms.yugipedia.com//7/7d/BlackSonic-DRLG-EN-ScR-1E.png"
+          },
+          "c3b32dce-3da9-4be3-ae2c-96cc062d753b": {
+            "image": "https://ms.yugipedia.com//a/a8/RisingSunSlash-DRLG-EN-SR-1E.png"
+          },
+          "f06b2ae0-244b-424b-aa05-5e8aa3c4597f": {
+            "image": "https://ms.yugipedia.com//8/88/RelaySoul-DRLG-EN-SR-1E.png"
+          },
+          "d03f0c72-a91a-4837-a743-bf8d5bddc78c": {
+            "image": "https://ms.yugipedia.com//a/a1/BlackWingRevenge-DRLG-EN-SR-1E.png"
+          },
+          "feae55a6-7feb-4aa6-80b5-e9921f0d3eae": {
+            "image": "https://ms.yugipedia.com//9/9b/GuardianEatos-DRLG-EN-SR-1E.png"
+          },
+          "bc28a344-7ff8-42fd-a18d-d298ec5bd2eb": {
+            "image": "https://ms.yugipedia.com//6/6d/ShadowImpulse-DRLG-EN-SR-1E.png"
+          },
+          "c096423e-6018-439e-857c-57f419539616": {
+            "image": "https://ms.yugipedia.com//f/f4/GuardianDreadscythe-DRLG-EN-ScR-1E.png"
+          },
+          "3f825c89-da58-4ed0-8219-b92af1a70f84": {
+            "image": "https://ms.yugipedia.com//0/0f/AssaultDog-DRLG-EN-SR-1E.png"
+          },
+          "3c0fc5ff-c8eb-44df-a187-615d892e51c5": {
+            "image": "https://ms.yugipedia.com//c/cc/CelestialSwordEatos-DRLG-EN-SR-1E.png"
+          },
+          "9a040adb-518c-43a8-b9cf-cec18a53e76b": {
+            "image": "https://ms.yugipedia.com//3/37/GateBlocker-DRLG-EN-ScR-1E.png"
+          },
+          "ffabe7b7-8060-40a2-9e61-bba5109bb56e": {
+            "image": "https://ms.yugipedia.com//d/d9/ProminenceHand-DRLG-EN-SR-1E.png"
+          },
+          "4190c872-cc1f-4fd8-a945-fa7bd7f50803": {
+            "image": "https://ms.yugipedia.com//7/76/ReaperScytheDreadscythe-DRLG-EN-SR-1E.png"
+          },
+          "f5d78626-4196-4e91-8322-d09e04134c2d": {
+            "image": "https://ms.yugipedia.com//d/d7/Wiretap-DRLG-EN-SR-1E.png"
+          },
+          "932dd1a0-3837-4d33-b3c9-f2eae890c5ae": {
+            "image": "https://ms.yugipedia.com//f/f3/GuardedTreasure-DRLG-EN-ScR-1E.png"
+          },
+          "422102cf-9e9f-4fbd-b375-1e381925fc31": {
+            "image": "https://ms.yugipedia.com//4/40/LionheartedLocomotive-DRLG-EN-SR-1E.png"
+          },
+          "09d13207-89a1-48bd-96e7-67931628680d": {
+            "image": "https://ms.yugipedia.com//9/97/SoulCharge-DRLG-EN-SR-1E.png"
+          },
+          "fa67e86a-7822-4a81-97dd-ea91982ca21f": {
+            "image": "https://ms.yugipedia.com//8/88/ExpressTrainTrolleyOlley-DRLG-EN-ScR-1E.png"
+          },
+          "a6148cd7-0db6-4d66-9239-e2db56380036": {
+            "image": "https://ms.yugipedia.com//4/4a/SabatielThePhilosophersStone-DRLG-EN-SR-1E.png"
+          },
+          "653b2609-0f06-482b-b9d7-e86ca1280ff6": {
+            "image": "https://ms.yugipedia.com//1/17/ConstructionTrainSignalRed-DRLG-EN-SR-1E.png"
+          },
+          "240895f7-3293-41ab-b21f-e362afc85be0": {
+            "image": "https://ms.yugipedia.com//c/c6/ShootingStar-DRLG-EN-ScR-1E.png"
+          },
+          "12e3c68c-e3e8-472a-862d-1452e67f51fd": {
+            "image": "https://ms.yugipedia.com//d/d8/FlashFusion-DRLG-EN-SR-1E.png"
+          },
+          "e5401836-da5f-4e65-84b4-ebbca086609a": {
+            "image": "https://ms.yugipedia.com//9/91/TrainConnection-DRLG-EN-SR-1E.png"
+          },
+          "8e0fcd34-42f2-47d7-bbe0-d4b7186cf855": {
+            "image": "https://ms.yugipedia.com//4/47/BattleFusion-DRLG-EN-SR-1E.png"
+          },
+          "3cc1dc85-233b-4ae1-994a-7d7256cb547d": {
+            "image": "https://ms.yugipedia.com//9/92/Number73AbyssSplash-DRLG-EN-SR-1E.png"
+          },
+          "8eee6f32-8f13-4eb9-999d-8b70e54e03aa": {
+            "image": "https://ms.yugipedia.com//b/bd/FinalFusion-DRLG-EN-SR-1E.png"
+          },
+          "efc77c79-edd8-441b-9866-f09612008a3e": {
+            "image": "https://ms.yugipedia.com//6/61/BlackwingOroshitheSquall-DRLG-EN-SR-1E.png"
+          },
+          "82aba6ca-2c09-4a22-9e7d-49bbafb41fc1": {
+            "image": "https://ms.yugipedia.com//1/14/NumberC73AbyssSupraSplash-DRLG-EN-SR-1E.png"
+          },
+          "de156127-dfe6-4df7-9132-588974386ca0": {
+            "image": "https://ms.yugipedia.com//c/ce/PairCycroid-DRLG-EN-SR-1E.png"
+          },
+          "b5a95bc0-195a-425a-8daa-63ea096f6519": {
+            "image": "https://ms.yugipedia.com//3/3f/RankUpMagicQuickChaos-DRLG-EN-ScR-1E.png"
+          },
+          "ad6c8b01-c16f-4744-a2d3-ce26177cc90f": {
+            "image": "https://ms.yugipedia.com//3/37/AyersRockSunrise-DRLG-EN-SR-1E.png"
+          },
+          "65ba1137-9a50-4141-adeb-6cc898159814": {
+            "image": "https://ms.yugipedia.com//7/7e/NumberC5ChaosChimeraDragon-DRLG-EN-SR-1E.png"
+          },
+          "9a9bcbb1-5077-47a8-bb50-f51281164c06": {
+            "image": "https://ms.yugipedia.com//b/b4/DoblePasse-DRLG-EN-ScR-1E.png"
+          },
+          "38abee15-4301-4454-a97a-20adfe6c7c17": {
+            "image": "https://ms.yugipedia.com//a/ad/LegendaryKnightTimaeus-DRLG-EN-ScR-1E.png"
+          },
+          "121542f4-7737-4a15-b8be-ebc2a1d51864": {
+            "image": "https://ms.yugipedia.com//a/a0/RankUpMagicAdmirationoftheThousands-DRLG-EN-ScR-1E.png"
+          },
+          "14e62bba-c6ea-4aaa-9127-2b7af45400b5": {
+            "image": "https://ms.yugipedia.com//9/99/Carboneddon-DRLG-EN-SR-1E.png"
+          },
+          "d7c513b2-d3dc-4a32-804d-14d9ff7a0fe6": {
+            "image": "https://ms.yugipedia.com//5/52/MagicHand-DRLG-EN-SR-1E.png"
+          },
+          "5d53f9eb-245d-482c-aa6a-c331909dd837": {
+            "image": "https://ms.yugipedia.com//0/02/Mathematician-DRLG-EN-ScR-1E.png"
+          },
+          "83a4e97a-375a-49c8-aee8-86503af501b5": {
+            "image": "https://ms.yugipedia.com//5/55/Kuribandit-DRLG-EN-ScR-1E.png"
+          },
+          "a767b429-3df7-4512-8b2f-956f5aefb376": {
+            "image": "https://ms.yugipedia.com//a/ae/FireHand-DRLG-EN-ScR-1E.png"
+          },
+          "081e51ea-970d-4f55-b23c-0d0edef639a6": {
+            "image": "https://ms.yugipedia.com//c/c3/RasDisciple-DRLG-EN-ScR-1E.png"
+          },
+          "3c668f68-d44f-4eab-9181-456a85d5dce6": {
+            "image": "https://ms.yugipedia.com//f/f5/AmuletDragon-DRLG-EN-ScR-1E.png"
+          },
+          "5f01615f-a483-4dd7-b021-9efd2f2bc51f": {
+            "image": "https://ms.yugipedia.com//4/48/IceHand-DRLG-EN-ScR-1E.png"
+          },
+          "6d714d47-c5b0-412b-9f38-fa0989d61634": {
+            "image": "https://ms.yugipedia.com//9/90/MoundoftheBoundCreator-DRLG-EN-ScR-1E.png"
+          },
+          "2c320edb-db26-44d6-b0a4-e6ba242e62e3": {
+            "image": "https://ms.yugipedia.com//2/20/DarkMagicianGirltheDragonKnight-DRLG-EN-ScR-1E.png"
+          }
+        },
+        "unlimited": {
+          "5eefbd63-7240-431f-82cf-178997195a84": {
+            "image": "https://ms.yugipedia.com//d/da/TheEyeofTimaeus-DRLG-EN-ScR-UE.png"
+          },
+          "5a78cfa0-a9f4-40cf-a6dc-60b098256c73": {
+            "image": "https://ms.yugipedia.com//9/90/NumberC106GiantRedHand-DRLG-EN-SR-UE.png"
+          },
+          "d15c7d7a-e35a-4970-b7d2-3df202a37bb6": {
+            "image": "https://ms.yugipedia.com//f/f5/BlackwingSteamtheCloak-DRLG-EN-SR-UE.png"
+          },
+          "24d451fb-8798-410a-9ad3-4807678a1140": {
+            "image": "https://ms.yugipedia.com//8/8c/LegendofHeart-DRLG-EN-ScR-UE.png"
+          },
+          "93e032b1-58fe-4553-a26a-7bbef8042ea9": {
+            "image": "https://ms.yugipedia.com//5/55/BlackwingHurricanetheTornado-DRLG-EN-SR-UE.png"
+          },
+          "7ee6a42f-ac12-4454-b432-91a692294593": {
+            "image": "https://ms.yugipedia.com//3/3f/BerserkerSoul-DRLG-EN-ScR-UE.png"
+          },
+          "a220968b-641c-4a14-9f70-29801e345edc": {
+            "image": "https://ms.yugipedia.com//8/86/BlackSonic-DRLG-EN-ScR-UE.png"
+          },
+          "c3b32dce-3da9-4be3-ae2c-96cc062d753b": {
+            "image": "https://ms.yugipedia.com//9/90/RisingSunSlash-DRLG-EN-SR-UE.png"
+          },
+          "f06b2ae0-244b-424b-aa05-5e8aa3c4597f": {
+            "image": "https://ms.yugipedia.com//0/03/RelaySoul-DRLG-EN-SR-UE.png"
+          },
+          "d03f0c72-a91a-4837-a743-bf8d5bddc78c": {
+            "image": "https://ms.yugipedia.com//b/b7/BlackWingRevenge-DRLG-EN-SR-UE.png"
+          },
+          "feae55a6-7feb-4aa6-80b5-e9921f0d3eae": {
+            "image": "https://ms.yugipedia.com//c/c3/GuardianEatos-DRLG-EN-SR-UE.png"
+          },
+          "bc28a344-7ff8-42fd-a18d-d298ec5bd2eb": {
+            "image": "https://ms.yugipedia.com//d/d6/ShadowImpulse-DRLG-EN-SR-UE.png"
+          },
+          "c096423e-6018-439e-857c-57f419539616": {
+            "image": "https://ms.yugipedia.com//a/a7/GuardianDreadscythe-DRLG-EN-ScR-UE.png"
+          },
+          "3f825c89-da58-4ed0-8219-b92af1a70f84": {
+            "image": "https://ms.yugipedia.com//4/47/AssaultDog-DRLG-EN-SR-UE.png"
+          },
+          "3c0fc5ff-c8eb-44df-a187-615d892e51c5": {
+            "image": "https://ms.yugipedia.com//3/3f/CelestialSwordEatos-DRLG-EN-SR-UE.png"
+          },
+          "9a040adb-518c-43a8-b9cf-cec18a53e76b": {
+            "image": "https://ms.yugipedia.com//4/4c/GateBlocker-DRLG-EN-ScR-UE.png"
+          },
+          "ffabe7b7-8060-40a2-9e61-bba5109bb56e": {
+            "image": "https://ms.yugipedia.com//3/3a/ProminenceHand-DRLG-EN-SR-UE.png"
+          },
+          "4190c872-cc1f-4fd8-a945-fa7bd7f50803": {
+            "image": "https://ms.yugipedia.com//0/04/ReaperScytheDreadscythe-DRLG-EN-SR-UE.png"
+          },
+          "f5d78626-4196-4e91-8322-d09e04134c2d": {
+            "image": "https://ms.yugipedia.com//f/f5/Wiretap-DRLG-EN-SR-UE.png"
+          },
+          "932dd1a0-3837-4d33-b3c9-f2eae890c5ae": {
+            "image": "https://ms.yugipedia.com//a/ad/GuardedTreasure-DRLG-EN-ScR-UE.png"
+          },
+          "422102cf-9e9f-4fbd-b375-1e381925fc31": {
+            "image": "https://ms.yugipedia.com//4/44/LionheartedLocomotive-DRLG-EN-SR-UE.png"
+          },
+          "09d13207-89a1-48bd-96e7-67931628680d": {
+            "image": "https://ms.yugipedia.com//1/1c/SoulCharge-DRLG-EN-SR-UE.png"
+          },
+          "fa67e86a-7822-4a81-97dd-ea91982ca21f": {
+            "image": "https://ms.yugipedia.com//5/5b/ExpressTrainTrolleyOlley-DRLG-EN-ScR-UE.png"
+          },
+          "a6148cd7-0db6-4d66-9239-e2db56380036": {
+            "image": "https://ms.yugipedia.com//4/4b/SabatielThePhilosophersStone-DRLG-EN-SR-UE.png"
+          },
+          "653b2609-0f06-482b-b9d7-e86ca1280ff6": {
+            "image": "https://ms.yugipedia.com//8/83/ConstructionTrainSignalRed-DRLG-EN-SR-UE.png"
+          },
+          "240895f7-3293-41ab-b21f-e362afc85be0": {
+            "image": "https://ms.yugipedia.com//f/f3/ShootingStar-DRLG-EN-ScR-UE.png"
+          },
+          "12e3c68c-e3e8-472a-862d-1452e67f51fd": {
+            "image": "https://ms.yugipedia.com//d/d5/FlashFusion-DRLG-EN-SR-UE.png"
+          },
+          "e5401836-da5f-4e65-84b4-ebbca086609a": {
+            "image": "https://ms.yugipedia.com//1/18/TrainConnection-DRLG-EN-SR-UE.png"
+          },
+          "8e0fcd34-42f2-47d7-bbe0-d4b7186cf855": {
+            "image": "https://ms.yugipedia.com//5/51/BattleFusion-DRLG-EN-SR-UE.png"
+          },
+          "3cc1dc85-233b-4ae1-994a-7d7256cb547d": {
+            "image": "https://ms.yugipedia.com//e/ee/Number73AbyssSplash-DRLG-EN-SR-UE.png"
+          },
+          "8eee6f32-8f13-4eb9-999d-8b70e54e03aa": {
+            "image": "https://ms.yugipedia.com//a/af/FinalFusion-DRLG-EN-SR-UE.png"
+          },
+          "efc77c79-edd8-441b-9866-f09612008a3e": {
+            "image": "https://ms.yugipedia.com//8/81/BlackwingOroshitheSquall-DRLG-EN-SR-UE.png"
+          },
+          "82aba6ca-2c09-4a22-9e7d-49bbafb41fc1": {
+            "image": "https://ms.yugipedia.com//6/63/NumberC73AbyssSupraSplash-DRLG-EN-SR-UE.png"
+          },
+          "de156127-dfe6-4df7-9132-588974386ca0": {
+            "image": "https://ms.yugipedia.com//f/fd/PairCycroid-DRLG-EN-SR-UE.png"
+          },
+          "b5a95bc0-195a-425a-8daa-63ea096f6519": {
+            "image": "https://ms.yugipedia.com//2/27/RankUpMagicQuickChaos-DRLG-EN-ScR-UE.png"
+          },
+          "ad6c8b01-c16f-4744-a2d3-ce26177cc90f": {
+            "image": "https://ms.yugipedia.com//2/2c/AyersRockSunrise-DRLG-EN-SR-UE.png"
+          },
+          "65ba1137-9a50-4141-adeb-6cc898159814": {
+            "image": "https://ms.yugipedia.com//0/09/NumberC5ChaosChimeraDragon-DRLG-EN-SR-UE.png"
+          },
+          "9a9bcbb1-5077-47a8-bb50-f51281164c06": {
+            "image": "https://ms.yugipedia.com//1/13/DoblePasse-DRLG-EN-ScR-UE.png"
+          },
+          "38abee15-4301-4454-a97a-20adfe6c7c17": {
+            "image": "https://ms.yugipedia.com//1/14/LegendaryKnightTimaeus-DRLG-EN-ScR-UE.png"
+          },
+          "121542f4-7737-4a15-b8be-ebc2a1d51864": {
+            "image": "https://ms.yugipedia.com//c/cc/RankUpMagicAdmirationoftheThousands-DRLG-EN-ScR-UE.png"
+          },
+          "14e62bba-c6ea-4aaa-9127-2b7af45400b5": {
+            "image": "https://ms.yugipedia.com//8/85/Carboneddon-DRLG-EN-SR-UE.png"
+          },
+          "d7c513b2-d3dc-4a32-804d-14d9ff7a0fe6": {
+            "image": "https://ms.yugipedia.com//b/b2/MagicHand-DRLG-EN-SR-UE.png"
+          },
+          "5d53f9eb-245d-482c-aa6a-c331909dd837": {
+            "image": "https://ms.yugipedia.com//8/8e/Mathematician-DRLG-EN-ScR-UE.png"
+          },
+          "83a4e97a-375a-49c8-aee8-86503af501b5": {
+            "image": "https://ms.yugipedia.com//1/11/Kuribandit-DRLG-EN-ScR-UE.png"
+          },
+          "a767b429-3df7-4512-8b2f-956f5aefb376": {
+            "image": "https://ms.yugipedia.com//e/eb/FireHand-DRLG-EN-ScR-UE.png"
+          },
+          "081e51ea-970d-4f55-b23c-0d0edef639a6": {
+            "image": "https://ms.yugipedia.com//8/89/RasDisciple-DRLG-EN-ScR-UE.png"
+          },
+          "3c668f68-d44f-4eab-9181-456a85d5dce6": {
+            "image": "https://ms.yugipedia.com//e/e9/AmuletDragon-DRLG-EN-ScR-UE.png"
+          },
+          "5f01615f-a483-4dd7-b021-9efd2f2bc51f": {
+            "image": "https://ms.yugipedia.com//1/13/IceHand-DRLG-EN-ScR-UE.png"
+          },
+          "6d714d47-c5b0-412b-9f38-fa0989d61634": {
+            "image": "https://ms.yugipedia.com//3/32/MoundoftheBoundCreator-DRLG-EN-ScR-UE.png"
+          },
+          "2c320edb-db26-44d6-b0a4-e6ba242e62e3": {
+            "image": "https://ms.yugipedia.com//7/7e/DarkMagicianGirltheDragonKnight-DRLG-EN-ScR-UE.png"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "1st",
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          11113004
+        ]
+      }
+    },
+    "fr": {
+      "language": "fr",
+      "prefix": "DRLG-FR",
+      "date": "2014-04-24",
+      "image": "https://ms.yugipedia.com//9/95/DRLG-BoosterFR.png",
+      "cardImages": {
+        "1st": {
+          "38abee15-4301-4454-a97a-20adfe6c7c17": "https://ms.yugipedia.com//0/06/LegendaryKnightTimaeus-DRLG-FR-ScR-1E.png",
+          "83a4e97a-375a-49c8-aee8-86503af501b5": "https://ms.yugipedia.com//b/b9/Kuribandit-DRLG-FR-ScR-1E.png",
+          "3c668f68-d44f-4eab-9181-456a85d5dce6": "https://ms.yugipedia.com//3/3d/AmuletDragon-DRLG-FR-ScR-1E.png",
+          "2c320edb-db26-44d6-b0a4-e6ba242e62e3": "https://ms.yugipedia.com//d/d6/DarkMagicianGirltheDragonKnight-DRLG-FR-ScR-1E.png",
+          "5eefbd63-7240-431f-82cf-178997195a84": "https://ms.yugipedia.com//4/44/TheEyeofTimaeus-DRLG-FR-ScR-1E.png",
+          "24d451fb-8798-410a-9ad3-4807678a1140": "https://ms.yugipedia.com//2/20/LegendofHeart-DRLG-FR-ScR-1E.png",
+          "7ee6a42f-ac12-4454-b432-91a692294593": "https://ms.yugipedia.com//2/2b/BerserkerSoul-DRLG-FR-ScR-1E.png",
+          "f06b2ae0-244b-424b-aa05-5e8aa3c4597f": "https://ms.yugipedia.com//5/56/RelaySoul-DRLG-FR-SR-1E.png",
+          "feae55a6-7feb-4aa6-80b5-e9921f0d3eae": "https://ms.yugipedia.com//e/e2/GuardianEatos-DRLG-FR-SR-1E.png",
+          "c096423e-6018-439e-857c-57f419539616": "https://ms.yugipedia.com//c/cd/GuardianDreadscythe-DRLG-FR-ScR-1E.png",
+          "3c0fc5ff-c8eb-44df-a187-615d892e51c5": "https://ms.yugipedia.com//3/32/CelestialSwordEatos-DRLG-FR-SR-1E.png",
+          "4190c872-cc1f-4fd8-a945-fa7bd7f50803": "https://ms.yugipedia.com//0/0a/ReaperScytheDreadscythe-DRLG-FR-SR-1E.png",
+          "932dd1a0-3837-4d33-b3c9-f2eae890c5ae": "https://ms.yugipedia.com//f/fa/GuardedTreasure-DRLG-FR-ScR-1E.png",
+          "09d13207-89a1-48bd-96e7-67931628680d": "https://ms.yugipedia.com//6/65/SoulCharge-DRLG-FR-SR-1E.png",
+          "a6148cd7-0db6-4d66-9239-e2db56380036": "https://ms.yugipedia.com//0/07/SabatielThePhilosophersStone-DRLG-FR-SR-1E.png",
+          "12e3c68c-e3e8-472a-862d-1452e67f51fd": "https://ms.yugipedia.com//c/c9/FlashFusion-DRLG-FR-SR-1E.png",
+          "8e0fcd34-42f2-47d7-bbe0-d4b7186cf855": "https://ms.yugipedia.com//c/c3/BattleFusion-DRLG-FR-SR-1E.png",
+          "8eee6f32-8f13-4eb9-999d-8b70e54e03aa": "https://ms.yugipedia.com//4/46/FinalFusion-DRLG-FR-SR-1E.png",
+          "de156127-dfe6-4df7-9132-588974386ca0": "https://ms.yugipedia.com//e/e8/PairCycroid-DRLG-FR-SR-1E.png",
+          "ad6c8b01-c16f-4744-a2d3-ce26177cc90f": "https://ms.yugipedia.com//3/3d/AyersRockSunrise-DRLG-FR-SR-1E.png",
+          "9a9bcbb1-5077-47a8-bb50-f51281164c06": "https://ms.yugipedia.com//0/03/DoblePasse-DRLG-FR-ScR-1E.jpg",
+          "14e62bba-c6ea-4aaa-9127-2b7af45400b5": "https://ms.yugipedia.com//e/eb/Carboneddon-DRLG-FR-SR-1E.png",
+          "5d53f9eb-245d-482c-aa6a-c331909dd837": "https://ms.yugipedia.com//5/5a/Mathematician-DRLG-FR-ScR-1E.png",
+          "081e51ea-970d-4f55-b23c-0d0edef639a6": "https://ms.yugipedia.com//8/81/RasDisciple-DRLG-FR-ScR-1E.png",
+          "6d714d47-c5b0-412b-9f38-fa0989d61634": "https://ms.yugipedia.com//c/c3/MoundoftheBoundCreator-DRLG-FR-ScR-1E.png",
+          "240895f7-3293-41ab-b21f-e362afc85be0": "https://ms.yugipedia.com//f/fc/ShootingStar-DRLG-FR-ScR-1E.png",
+          "efc77c79-edd8-441b-9866-f09612008a3e": "https://ms.yugipedia.com//0/09/BlackwingOroshitheSquall-DRLG-FR-SR-1E.png",
+          "d15c7d7a-e35a-4970-b7d2-3df202a37bb6": "https://ms.yugipedia.com//7/7e/BlackwingSteamtheCloak-DRLG-FR-SR-1E.png",
+          "93e032b1-58fe-4553-a26a-7bbef8042ea9": "https://ms.yugipedia.com//a/aa/BlackwingHurricanetheTornado-DRLG-FR-SR-1E.png",
+          "a220968b-641c-4a14-9f70-29801e345edc": "https://ms.yugipedia.com//f/f0/BlackSonic-DRLG-FR-ScR-1E.png",
+          "d03f0c72-a91a-4837-a743-bf8d5bddc78c": "https://ms.yugipedia.com//f/fb/BlackWingRevenge-DRLG-FR-SR-1E.png",
+          "bc28a344-7ff8-42fd-a18d-d298ec5bd2eb": "https://ms.yugipedia.com//2/25/ShadowImpulse-DRLG-FR-SR-1E.png",
+          "3f825c89-da58-4ed0-8219-b92af1a70f84": "https://ms.yugipedia.com//a/ae/AssaultDog-DRLG-FR-SR-1E.png",
+          "9a040adb-518c-43a8-b9cf-cec18a53e76b": "https://ms.yugipedia.com//2/29/GateBlocker-DRLG-FR-ScR-1E.png",
+          "f5d78626-4196-4e91-8322-d09e04134c2d": "https://ms.yugipedia.com//5/5a/Wiretap-DRLG-FR-SR-1E.png",
+          "422102cf-9e9f-4fbd-b375-1e381925fc31": "https://ms.yugipedia.com//6/6f/LionheartedLocomotive-DRLG-FR-SR-1E.png",
+          "fa67e86a-7822-4a81-97dd-ea91982ca21f": "https://ms.yugipedia.com//1/13/ExpressTrainTrolleyOlley-DRLG-FR-ScR-1E.png",
+          "653b2609-0f06-482b-b9d7-e86ca1280ff6": "https://ms.yugipedia.com//5/5e/ConstructionTrainSignalRed-DRLG-FR-SR-1E.png",
+          "e5401836-da5f-4e65-84b4-ebbca086609a": "https://ms.yugipedia.com//8/89/TrainConnection-DRLG-FR-SR-1E.png",
+          "3cc1dc85-233b-4ae1-994a-7d7256cb547d": "https://ms.yugipedia.com//d/d3/Number73AbyssSplash-DRLG-FR-SR-1E.png",
+          "82aba6ca-2c09-4a22-9e7d-49bbafb41fc1": "https://ms.yugipedia.com//c/c0/NumberC73AbyssSupraSplash-DRLG-FR-SR-1E.png",
+          "b5a95bc0-195a-425a-8daa-63ea096f6519": "https://ms.yugipedia.com//e/e8/RankUpMagicQuickChaos-DRLG-FR-ScR-1E.png",
+          "65ba1137-9a50-4141-adeb-6cc898159814": "https://ms.yugipedia.com//8/89/NumberC5ChaosChimeraDragon-DRLG-FR-SR-1E.png",
+          "121542f4-7737-4a15-b8be-ebc2a1d51864": "https://ms.yugipedia.com//9/9c/RankUpMagicAdmirationoftheThousands-DRLG-FR-ScR-1E.png",
+          "d7c513b2-d3dc-4a32-804d-14d9ff7a0fe6": "https://ms.yugipedia.com//5/53/MagicHand-DRLG-FR-SR-1E.png",
+          "a767b429-3df7-4512-8b2f-956f5aefb376": "https://ms.yugipedia.com//6/6d/FireHand-DRLG-FR-ScR-1E.png",
+          "5f01615f-a483-4dd7-b021-9efd2f2bc51f": "https://ms.yugipedia.com//5/5a/IceHand-DRLG-FR-ScR-1E.png",
+          "ffabe7b7-8060-40a2-9e61-bba5109bb56e": "https://ms.yugipedia.com//9/9a/ProminenceHand-DRLG-FR-SR-1E.png",
+          "5a78cfa0-a9f4-40cf-a6dc-60b098256c73": "https://ms.yugipedia.com//8/83/NumberC106GiantRedHand-DRLG-FR-SR-1E.png",
+          "c3b32dce-3da9-4be3-ae2c-96cc062d753b": "https://ms.yugipedia.com//2/20/RisingSunSlash-DRLG-FR-SR-1E.png"
+        }
+      },
+      "cardInfo": {
+        "1st": {
+          "653b2609-0f06-482b-b9d7-e86ca1280ff6": {
+            "image": "https://ms.yugipedia.com//5/5e/ConstructionTrainSignalRed-DRLG-FR-SR-1E.png"
+          },
+          "3cc1dc85-233b-4ae1-994a-7d7256cb547d": {
+            "image": "https://ms.yugipedia.com//d/d3/Number73AbyssSplash-DRLG-FR-SR-1E.png"
+          },
+          "e5401836-da5f-4e65-84b4-ebbca086609a": {
+            "image": "https://ms.yugipedia.com//8/89/TrainConnection-DRLG-FR-SR-1E.png"
+          },
+          "422102cf-9e9f-4fbd-b375-1e381925fc31": {
+            "image": "https://ms.yugipedia.com//6/6f/LionheartedLocomotive-DRLG-FR-SR-1E.png"
+          },
+          "b5a95bc0-195a-425a-8daa-63ea096f6519": {
+            "image": "https://ms.yugipedia.com//e/e8/RankUpMagicQuickChaos-DRLG-FR-ScR-1E.png"
+          },
+          "82aba6ca-2c09-4a22-9e7d-49bbafb41fc1": {
+            "image": "https://ms.yugipedia.com//c/c0/NumberC73AbyssSupraSplash-DRLG-FR-SR-1E.png"
+          },
+          "121542f4-7737-4a15-b8be-ebc2a1d51864": {
+            "image": "https://ms.yugipedia.com//9/9c/RankUpMagicAdmirationoftheThousands-DRLG-FR-ScR-1E.png"
+          },
+          "38abee15-4301-4454-a97a-20adfe6c7c17": {
+            "image": "https://ms.yugipedia.com//0/06/LegendaryKnightTimaeus-DRLG-FR-ScR-1E.png"
+          },
+          "65ba1137-9a50-4141-adeb-6cc898159814": {
+            "image": "https://ms.yugipedia.com//8/89/NumberC5ChaosChimeraDragon-DRLG-FR-SR-1E.png"
+          },
+          "a767b429-3df7-4512-8b2f-956f5aefb376": {
+            "image": "https://ms.yugipedia.com//6/6d/FireHand-DRLG-FR-ScR-1E.png"
+          },
+          "3c668f68-d44f-4eab-9181-456a85d5dce6": {
+            "image": "https://ms.yugipedia.com//3/3d/AmuletDragon-DRLG-FR-ScR-1E.png"
+          },
+          "d7c513b2-d3dc-4a32-804d-14d9ff7a0fe6": {
+            "image": "https://ms.yugipedia.com//5/53/MagicHand-DRLG-FR-SR-1E.png"
+          },
+          "83a4e97a-375a-49c8-aee8-86503af501b5": {
+            "image": "https://ms.yugipedia.com//b/b9/Kuribandit-DRLG-FR-ScR-1E.png"
+          },
+          "ffabe7b7-8060-40a2-9e61-bba5109bb56e": {
+            "image": "https://ms.yugipedia.com//9/9a/ProminenceHand-DRLG-FR-SR-1E.png"
+          },
+          "5eefbd63-7240-431f-82cf-178997195a84": {
+            "image": "https://ms.yugipedia.com//4/44/TheEyeofTimaeus-DRLG-FR-ScR-1E.png"
+          },
+          "5f01615f-a483-4dd7-b021-9efd2f2bc51f": {
+            "image": "https://ms.yugipedia.com//5/5a/IceHand-DRLG-FR-ScR-1E.png"
+          },
+          "2c320edb-db26-44d6-b0a4-e6ba242e62e3": {
+            "image": "https://ms.yugipedia.com//d/d6/DarkMagicianGirltheDragonKnight-DRLG-FR-ScR-1E.png"
+          },
+          "7ee6a42f-ac12-4454-b432-91a692294593": {
+            "image": "https://ms.yugipedia.com//2/2b/BerserkerSoul-DRLG-FR-ScR-1E.png"
+          },
+          "5a78cfa0-a9f4-40cf-a6dc-60b098256c73": {
+            "image": "https://ms.yugipedia.com//8/83/NumberC106GiantRedHand-DRLG-FR-SR-1E.png"
+          },
+          "24d451fb-8798-410a-9ad3-4807678a1140": {
+            "image": "https://ms.yugipedia.com//2/20/LegendofHeart-DRLG-FR-ScR-1E.png"
+          },
+          "feae55a6-7feb-4aa6-80b5-e9921f0d3eae": {
+            "image": "https://ms.yugipedia.com//e/e2/GuardianEatos-DRLG-FR-SR-1E.png"
+          },
+          "c3b32dce-3da9-4be3-ae2c-96cc062d753b": {
+            "image": "https://ms.yugipedia.com//2/20/RisingSunSlash-DRLG-FR-SR-1E.png"
+          },
+          "f06b2ae0-244b-424b-aa05-5e8aa3c4597f": {
+            "image": "https://ms.yugipedia.com//5/56/RelaySoul-DRLG-FR-SR-1E.png"
+          },
+          "3c0fc5ff-c8eb-44df-a187-615d892e51c5": {
+            "image": "https://ms.yugipedia.com//3/32/CelestialSwordEatos-DRLG-FR-SR-1E.png"
+          },
+          "c096423e-6018-439e-857c-57f419539616": {
+            "image": "https://ms.yugipedia.com//c/cd/GuardianDreadscythe-DRLG-FR-ScR-1E.png"
+          },
+          "932dd1a0-3837-4d33-b3c9-f2eae890c5ae": {
+            "image": "https://ms.yugipedia.com//f/fa/GuardedTreasure-DRLG-FR-ScR-1E.png"
+          },
+          "4190c872-cc1f-4fd8-a945-fa7bd7f50803": {
+            "image": "https://ms.yugipedia.com//0/0a/ReaperScytheDreadscythe-DRLG-FR-SR-1E.png"
+          },
+          "a6148cd7-0db6-4d66-9239-e2db56380036": {
+            "image": "https://ms.yugipedia.com//0/07/SabatielThePhilosophersStone-DRLG-FR-SR-1E.png"
+          },
+          "09d13207-89a1-48bd-96e7-67931628680d": {
+            "image": "https://ms.yugipedia.com//6/65/SoulCharge-DRLG-FR-SR-1E.png"
+          },
+          "8e0fcd34-42f2-47d7-bbe0-d4b7186cf855": {
+            "image": "https://ms.yugipedia.com//c/c3/BattleFusion-DRLG-FR-SR-1E.png"
+          },
+          "12e3c68c-e3e8-472a-862d-1452e67f51fd": {
+            "image": "https://ms.yugipedia.com//c/c9/FlashFusion-DRLG-FR-SR-1E.png"
+          },
+          "de156127-dfe6-4df7-9132-588974386ca0": {
+            "image": "https://ms.yugipedia.com//e/e8/PairCycroid-DRLG-FR-SR-1E.png"
+          },
+          "8eee6f32-8f13-4eb9-999d-8b70e54e03aa": {
+            "image": "https://ms.yugipedia.com//4/46/FinalFusion-DRLG-FR-SR-1E.png"
+          },
+          "9a9bcbb1-5077-47a8-bb50-f51281164c06": {
+            "image": "https://ms.yugipedia.com//0/03/DoblePasse-DRLG-FR-ScR-1E.jpg"
+          },
+          "ad6c8b01-c16f-4744-a2d3-ce26177cc90f": {
+            "image": "https://ms.yugipedia.com//3/3d/AyersRockSunrise-DRLG-FR-SR-1E.png"
+          },
+          "5d53f9eb-245d-482c-aa6a-c331909dd837": {
+            "image": "https://ms.yugipedia.com//5/5a/Mathematician-DRLG-FR-ScR-1E.png"
+          },
+          "14e62bba-c6ea-4aaa-9127-2b7af45400b5": {
+            "image": "https://ms.yugipedia.com//e/eb/Carboneddon-DRLG-FR-SR-1E.png"
+          },
+          "6d714d47-c5b0-412b-9f38-fa0989d61634": {
+            "image": "https://ms.yugipedia.com//c/c3/MoundoftheBoundCreator-DRLG-FR-ScR-1E.png"
+          },
+          "081e51ea-970d-4f55-b23c-0d0edef639a6": {
+            "image": "https://ms.yugipedia.com//8/81/RasDisciple-DRLG-FR-ScR-1E.png"
+          },
+          "efc77c79-edd8-441b-9866-f09612008a3e": {
+            "image": "https://ms.yugipedia.com//0/09/BlackwingOroshitheSquall-DRLG-FR-SR-1E.png"
+          },
+          "240895f7-3293-41ab-b21f-e362afc85be0": {
+            "image": "https://ms.yugipedia.com//f/fc/ShootingStar-DRLG-FR-ScR-1E.png"
+          },
+          "93e032b1-58fe-4553-a26a-7bbef8042ea9": {
+            "image": "https://ms.yugipedia.com//a/aa/BlackwingHurricanetheTornado-DRLG-FR-SR-1E.png"
+          },
+          "d15c7d7a-e35a-4970-b7d2-3df202a37bb6": {
+            "image": "https://ms.yugipedia.com//7/7e/BlackwingSteamtheCloak-DRLG-FR-SR-1E.png"
+          },
+          "d03f0c72-a91a-4837-a743-bf8d5bddc78c": {
+            "image": "https://ms.yugipedia.com//f/fb/BlackWingRevenge-DRLG-FR-SR-1E.png"
+          },
+          "a220968b-641c-4a14-9f70-29801e345edc": {
+            "image": "https://ms.yugipedia.com//f/f0/BlackSonic-DRLG-FR-ScR-1E.png"
+          },
+          "fa67e86a-7822-4a81-97dd-ea91982ca21f": {
+            "image": "https://ms.yugipedia.com//1/13/ExpressTrainTrolleyOlley-DRLG-FR-ScR-1E.png"
+          },
+          "3f825c89-da58-4ed0-8219-b92af1a70f84": {
+            "image": "https://ms.yugipedia.com//a/ae/AssaultDog-DRLG-FR-SR-1E.png"
+          },
+          "bc28a344-7ff8-42fd-a18d-d298ec5bd2eb": {
+            "image": "https://ms.yugipedia.com//2/25/ShadowImpulse-DRLG-FR-SR-1E.png"
+          },
+          "f5d78626-4196-4e91-8322-d09e04134c2d": {
+            "image": "https://ms.yugipedia.com//5/5a/Wiretap-DRLG-FR-SR-1E.png"
+          },
+          "9a040adb-518c-43a8-b9cf-cec18a53e76b": {
+            "image": "https://ms.yugipedia.com//2/29/GateBlocker-DRLG-FR-ScR-1E.png"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "1st"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          31113003
+        ]
+      }
+    },
+    "de": {
+      "language": "de",
+      "prefix": "DRLG-DE",
+      "date": "2014-04-24",
+      "image": "https://ms.yugipedia.com//8/8f/DRLG-BoosterDE.png",
+      "cardImages": {
+        "1st": {
+          "38abee15-4301-4454-a97a-20adfe6c7c17": "https://ms.yugipedia.com//e/ec/LegendaryKnightTimaeus-DRLG-DE-ScR-1E.png",
+          "83a4e97a-375a-49c8-aee8-86503af501b5": "https://ms.yugipedia.com//e/e8/Kuribandit-DRLG-DE-ScR-1E.png",
+          "3c668f68-d44f-4eab-9181-456a85d5dce6": "https://ms.yugipedia.com//2/28/AmuletDragon-DRLG-DE-ScR-1E.png",
+          "2c320edb-db26-44d6-b0a4-e6ba242e62e3": "https://ms.yugipedia.com//f/f5/DarkMagicianGirltheDragonKnight-DRLG-DE-ScR-1E.png",
+          "5eefbd63-7240-431f-82cf-178997195a84": "https://ms.yugipedia.com//7/74/TheEyeofTimaeus-DRLG-DE-ScR-1E.png",
+          "24d451fb-8798-410a-9ad3-4807678a1140": "https://ms.yugipedia.com//3/3b/LegendofHeart-DRLG-DE-ScR-1E.png",
+          "7ee6a42f-ac12-4454-b432-91a692294593": "https://ms.yugipedia.com//3/3f/BerserkerSoul-DRLG-DE-ScR-1E.png",
+          "f06b2ae0-244b-424b-aa05-5e8aa3c4597f": "https://ms.yugipedia.com//e/e0/RelaySoul-DRLG-DE-SR-1E.png",
+          "feae55a6-7feb-4aa6-80b5-e9921f0d3eae": "https://ms.yugipedia.com//4/49/GuardianEatos-DRLG-DE-SR-1E.png",
+          "c096423e-6018-439e-857c-57f419539616": "https://ms.yugipedia.com//c/c5/GuardianDreadscythe-DRLG-DE-ScR-1E.png",
+          "3c0fc5ff-c8eb-44df-a187-615d892e51c5": "https://ms.yugipedia.com//1/18/CelestialSwordEatos-DRLG-DE-SR-1E.png",
+          "4190c872-cc1f-4fd8-a945-fa7bd7f50803": "https://ms.yugipedia.com//6/69/ReaperScytheDreadscythe-DRLG-DE-SR-1E.png",
+          "932dd1a0-3837-4d33-b3c9-f2eae890c5ae": "https://ms.yugipedia.com//1/1c/GuardedTreasure-DRLG-DE-ScR-1E.png",
+          "09d13207-89a1-48bd-96e7-67931628680d": "https://ms.yugipedia.com//9/91/SoulCharge-DRLG-DE-SR-1E.png",
+          "a6148cd7-0db6-4d66-9239-e2db56380036": "https://ms.yugipedia.com//a/ab/SabatielThePhilosophersStone-DRLG-DE-SR-1E.png",
+          "12e3c68c-e3e8-472a-862d-1452e67f51fd": "https://ms.yugipedia.com//f/fa/FlashFusion-DRLG-DE-SR-1E.png",
+          "8e0fcd34-42f2-47d7-bbe0-d4b7186cf855": "https://ms.yugipedia.com//d/d0/BattleFusion-DRLG-DE-SR-1E.png",
+          "8eee6f32-8f13-4eb9-999d-8b70e54e03aa": "https://ms.yugipedia.com//9/9d/FinalFusion-DRLG-DE-SR-1E.png",
+          "de156127-dfe6-4df7-9132-588974386ca0": "https://ms.yugipedia.com//4/40/PairCycroid-DRLG-DE-SR-1E.png",
+          "ad6c8b01-c16f-4744-a2d3-ce26177cc90f": "https://ms.yugipedia.com//e/e1/AyersRockSunrise-DRLG-DE-SR-1E.png",
+          "9a9bcbb1-5077-47a8-bb50-f51281164c06": "https://ms.yugipedia.com//5/51/DoblePasse-DRLG-DE-ScR-1E.png",
+          "14e62bba-c6ea-4aaa-9127-2b7af45400b5": "https://ms.yugipedia.com//0/0c/Carboneddon-DRLG-DE-SR-1E.png",
+          "5d53f9eb-245d-482c-aa6a-c331909dd837": "https://ms.yugipedia.com//e/e4/Mathematician-DRLG-DE-ScR-1E.png",
+          "081e51ea-970d-4f55-b23c-0d0edef639a6": "https://ms.yugipedia.com//7/7a/RasDisciple-DRLG-DE-ScR-1E.png",
+          "6d714d47-c5b0-412b-9f38-fa0989d61634": "https://ms.yugipedia.com//5/53/MoundoftheBoundCreator-DRLG-DE-ScR-1E.png",
+          "240895f7-3293-41ab-b21f-e362afc85be0": "https://ms.yugipedia.com//5/5c/ShootingStar-DRLG-DE-ScR-1E.png",
+          "efc77c79-edd8-441b-9866-f09612008a3e": "https://ms.yugipedia.com//4/43/BlackwingOroshitheSquall-DRLG-DE-SR-1E.png",
+          "d15c7d7a-e35a-4970-b7d2-3df202a37bb6": "https://ms.yugipedia.com//7/79/BlackwingSteamtheCloak-DRLG-DE-SR-1E.png",
+          "93e032b1-58fe-4553-a26a-7bbef8042ea9": "https://ms.yugipedia.com//1/1a/BlackwingHurricanetheTornado-DRLG-DE-SR-1E.png",
+          "a220968b-641c-4a14-9f70-29801e345edc": "https://ms.yugipedia.com//9/98/BlackSonic-DRLG-DE-ScR-1E.png",
+          "d03f0c72-a91a-4837-a743-bf8d5bddc78c": "https://ms.yugipedia.com//7/7a/BlackWingRevenge-DRLG-DE-SR-1E.png",
+          "bc28a344-7ff8-42fd-a18d-d298ec5bd2eb": "https://ms.yugipedia.com//8/8b/ShadowImpulse-DRLG-DE-SR-1E.png",
+          "3f825c89-da58-4ed0-8219-b92af1a70f84": "https://ms.yugipedia.com//f/fa/AssaultDog-DRLG-DE-SR-1E.png",
+          "9a040adb-518c-43a8-b9cf-cec18a53e76b": "https://ms.yugipedia.com//9/9e/GateBlocker-DRLG-DE-ScR-1E.png",
+          "f5d78626-4196-4e91-8322-d09e04134c2d": "https://ms.yugipedia.com//5/51/Wiretap-DRLG-DE-SR-1E.png",
+          "422102cf-9e9f-4fbd-b375-1e381925fc31": "https://ms.yugipedia.com//4/44/LionheartedLocomotive-DRLG-DE-SR-1E.png",
+          "fa67e86a-7822-4a81-97dd-ea91982ca21f": "https://ms.yugipedia.com//b/b4/ExpressTrainTrolleyOlley-DRLG-DE-ScR-1E.png",
+          "653b2609-0f06-482b-b9d7-e86ca1280ff6": "https://ms.yugipedia.com//6/6c/ConstructionTrainSignalRed-DRLG-DE-SR-1E.png",
+          "e5401836-da5f-4e65-84b4-ebbca086609a": "https://ms.yugipedia.com//4/48/TrainConnection-DRLG-DE-SR-1E.png",
+          "3cc1dc85-233b-4ae1-994a-7d7256cb547d": "https://ms.yugipedia.com//4/48/Number73AbyssSplash-DRLG-DE-SR-1E.png",
+          "82aba6ca-2c09-4a22-9e7d-49bbafb41fc1": "https://ms.yugipedia.com//7/7b/NumberC73AbyssSupraSplash-DRLG-DE-SR-1E.png",
+          "b5a95bc0-195a-425a-8daa-63ea096f6519": "https://ms.yugipedia.com//8/84/RankUpMagicQuickChaos-DRLG-DE-ScR-1E.png",
+          "65ba1137-9a50-4141-adeb-6cc898159814": "https://ms.yugipedia.com//6/61/NumberC5ChaosChimeraDragon-DRLG-DE-SR-1E.png",
+          "121542f4-7737-4a15-b8be-ebc2a1d51864": "https://ms.yugipedia.com//e/e3/RankUpMagicAdmirationoftheThousands-DRLG-DE-ScR-1E.png",
+          "d7c513b2-d3dc-4a32-804d-14d9ff7a0fe6": "https://ms.yugipedia.com//c/c6/MagicHand-DRLG-DE-SR-1E.png",
+          "a767b429-3df7-4512-8b2f-956f5aefb376": "https://ms.yugipedia.com//8/8d/FireHand-DRLG-DE-ScR-1E.png",
+          "5f01615f-a483-4dd7-b021-9efd2f2bc51f": "https://ms.yugipedia.com//7/7a/IceHand-DRLG-DE-ScR-1E.png",
+          "ffabe7b7-8060-40a2-9e61-bba5109bb56e": "https://ms.yugipedia.com//b/b9/ProminenceHand-DRLG-DE-SR-1E.png",
+          "5a78cfa0-a9f4-40cf-a6dc-60b098256c73": "https://ms.yugipedia.com//8/84/NumberC106GiantRedHand-DRLG-DE-SR-1E.png",
+          "c3b32dce-3da9-4be3-ae2c-96cc062d753b": "https://ms.yugipedia.com//3/30/RisingSunSlash-DRLG-DE-SR-1E.png"
+        },
+        "unlimited": {
+          "7ee6a42f-ac12-4454-b432-91a692294593": "https://ms.yugipedia.com//5/59/BerserkerSoul-DRLG-DE-ScR-UE.png",
+          "09d13207-89a1-48bd-96e7-67931628680d": "https://ms.yugipedia.com//e/e5/SoulCharge-DRLG-DE-SR-UE.png",
+          "a6148cd7-0db6-4d66-9239-e2db56380036": "https://ms.yugipedia.com//a/a2/SabatielThePhilosophersStone-DRLG-DE-SR-UE.png",
+          "8e0fcd34-42f2-47d7-bbe0-d4b7186cf855": "https://ms.yugipedia.com//2/23/BattleFusion-DRLG-DE-SR-UE.png",
+          "f5d78626-4196-4e91-8322-d09e04134c2d": "https://ms.yugipedia.com//4/47/Wiretap-DRLG-DE-SR-UE.png",
+          "5f01615f-a483-4dd7-b021-9efd2f2bc51f": "https://ms.yugipedia.com//b/b6/IceHand-DRLG-DE-ScR-UE.png"
+        }
+      },
+      "cardInfo": {
+        "1st": {
+          "422102cf-9e9f-4fbd-b375-1e381925fc31": {
+            "image": "https://ms.yugipedia.com//4/44/LionheartedLocomotive-DRLG-DE-SR-1E.png"
+          },
+          "d03f0c72-a91a-4837-a743-bf8d5bddc78c": {
+            "image": "https://ms.yugipedia.com//7/7a/BlackWingRevenge-DRLG-DE-SR-1E.png"
+          },
+          "f5d78626-4196-4e91-8322-d09e04134c2d": {
+            "image": "https://ms.yugipedia.com//5/51/Wiretap-DRLG-DE-SR-1E.png"
+          },
+          "c3b32dce-3da9-4be3-ae2c-96cc062d753b": {
+            "image": "https://ms.yugipedia.com//3/30/RisingSunSlash-DRLG-DE-SR-1E.png"
+          },
+          "fa67e86a-7822-4a81-97dd-ea91982ca21f": {
+            "image": "https://ms.yugipedia.com//b/b4/ExpressTrainTrolleyOlley-DRLG-DE-ScR-1E.png"
+          },
+          "e5401836-da5f-4e65-84b4-ebbca086609a": {
+            "image": "https://ms.yugipedia.com//4/48/TrainConnection-DRLG-DE-SR-1E.png"
+          },
+          "ffabe7b7-8060-40a2-9e61-bba5109bb56e": {
+            "image": "https://ms.yugipedia.com//b/b9/ProminenceHand-DRLG-DE-SR-1E.png"
+          },
+          "efc77c79-edd8-441b-9866-f09612008a3e": {
+            "image": "https://ms.yugipedia.com//4/43/BlackwingOroshitheSquall-DRLG-DE-SR-1E.png"
+          },
+          "b5a95bc0-195a-425a-8daa-63ea096f6519": {
+            "image": "https://ms.yugipedia.com//8/84/RankUpMagicQuickChaos-DRLG-DE-ScR-1E.png"
+          },
+          "3f825c89-da58-4ed0-8219-b92af1a70f84": {
+            "image": "https://ms.yugipedia.com//f/fa/AssaultDog-DRLG-DE-SR-1E.png"
+          },
+          "5f01615f-a483-4dd7-b021-9efd2f2bc51f": {
+            "image": "https://ms.yugipedia.com//7/7a/IceHand-DRLG-DE-ScR-1E.png"
+          },
+          "ad6c8b01-c16f-4744-a2d3-ce26177cc90f": {
+            "image": "https://ms.yugipedia.com//e/e1/AyersRockSunrise-DRLG-DE-SR-1E.png"
+          },
+          "9a9bcbb1-5077-47a8-bb50-f51281164c06": {
+            "image": "https://ms.yugipedia.com//5/51/DoblePasse-DRLG-DE-ScR-1E.png"
+          },
+          "14e62bba-c6ea-4aaa-9127-2b7af45400b5": {
+            "image": "https://ms.yugipedia.com//0/0c/Carboneddon-DRLG-DE-SR-1E.png"
+          },
+          "5d53f9eb-245d-482c-aa6a-c331909dd837": {
+            "image": "https://ms.yugipedia.com//e/e4/Mathematician-DRLG-DE-ScR-1E.png"
+          },
+          "38abee15-4301-4454-a97a-20adfe6c7c17": {
+            "image": "https://ms.yugipedia.com//e/ec/LegendaryKnightTimaeus-DRLG-DE-ScR-1E.png"
+          },
+          "3c668f68-d44f-4eab-9181-456a85d5dce6": {
+            "image": "https://ms.yugipedia.com//2/28/AmuletDragon-DRLG-DE-ScR-1E.png"
+          },
+          "83a4e97a-375a-49c8-aee8-86503af501b5": {
+            "image": "https://ms.yugipedia.com//e/e8/Kuribandit-DRLG-DE-ScR-1E.png"
+          },
+          "081e51ea-970d-4f55-b23c-0d0edef639a6": {
+            "image": "https://ms.yugipedia.com//7/7a/RasDisciple-DRLG-DE-ScR-1E.png"
+          },
+          "5eefbd63-7240-431f-82cf-178997195a84": {
+            "image": "https://ms.yugipedia.com//7/74/TheEyeofTimaeus-DRLG-DE-ScR-1E.png"
+          },
+          "653b2609-0f06-482b-b9d7-e86ca1280ff6": {
+            "image": "https://ms.yugipedia.com//6/6c/ConstructionTrainSignalRed-DRLG-DE-SR-1E.png"
+          },
+          "2c320edb-db26-44d6-b0a4-e6ba242e62e3": {
+            "image": "https://ms.yugipedia.com//f/f5/DarkMagicianGirltheDragonKnight-DRLG-DE-ScR-1E.png"
+          },
+          "121542f4-7737-4a15-b8be-ebc2a1d51864": {
+            "image": "https://ms.yugipedia.com//e/e3/RankUpMagicAdmirationoftheThousands-DRLG-DE-ScR-1E.png"
+          },
+          "7ee6a42f-ac12-4454-b432-91a692294593": {
+            "image": "https://ms.yugipedia.com//3/3f/BerserkerSoul-DRLG-DE-ScR-1E.png"
+          },
+          "24d451fb-8798-410a-9ad3-4807678a1140": {
+            "image": "https://ms.yugipedia.com//3/3b/LegendofHeart-DRLG-DE-ScR-1E.png"
+          },
+          "feae55a6-7feb-4aa6-80b5-e9921f0d3eae": {
+            "image": "https://ms.yugipedia.com//4/49/GuardianEatos-DRLG-DE-SR-1E.png"
+          },
+          "f06b2ae0-244b-424b-aa05-5e8aa3c4597f": {
+            "image": "https://ms.yugipedia.com//e/e0/RelaySoul-DRLG-DE-SR-1E.png"
+          },
+          "65ba1137-9a50-4141-adeb-6cc898159814": {
+            "image": "https://ms.yugipedia.com//6/61/NumberC5ChaosChimeraDragon-DRLG-DE-SR-1E.png"
+          },
+          "a767b429-3df7-4512-8b2f-956f5aefb376": {
+            "image": "https://ms.yugipedia.com//8/8d/FireHand-DRLG-DE-ScR-1E.png"
+          },
+          "3c0fc5ff-c8eb-44df-a187-615d892e51c5": {
+            "image": "https://ms.yugipedia.com//1/18/CelestialSwordEatos-DRLG-DE-SR-1E.png"
+          },
+          "bc28a344-7ff8-42fd-a18d-d298ec5bd2eb": {
+            "image": "https://ms.yugipedia.com//8/8b/ShadowImpulse-DRLG-DE-SR-1E.png"
+          },
+          "c096423e-6018-439e-857c-57f419539616": {
+            "image": "https://ms.yugipedia.com//c/c5/GuardianDreadscythe-DRLG-DE-ScR-1E.png"
+          },
+          "932dd1a0-3837-4d33-b3c9-f2eae890c5ae": {
+            "image": "https://ms.yugipedia.com//1/1c/GuardedTreasure-DRLG-DE-ScR-1E.png"
+          },
+          "240895f7-3293-41ab-b21f-e362afc85be0": {
+            "image": "https://ms.yugipedia.com//5/5c/ShootingStar-DRLG-DE-ScR-1E.png"
+          },
+          "4190c872-cc1f-4fd8-a945-fa7bd7f50803": {
+            "image": "https://ms.yugipedia.com//6/69/ReaperScytheDreadscythe-DRLG-DE-SR-1E.png"
+          },
+          "a220968b-641c-4a14-9f70-29801e345edc": {
+            "image": "https://ms.yugipedia.com//9/98/BlackSonic-DRLG-DE-ScR-1E.png"
+          },
+          "a6148cd7-0db6-4d66-9239-e2db56380036": {
+            "image": "https://ms.yugipedia.com//a/ab/SabatielThePhilosophersStone-DRLG-DE-SR-1E.png"
+          },
+          "6d714d47-c5b0-412b-9f38-fa0989d61634": {
+            "image": "https://ms.yugipedia.com//5/53/MoundoftheBoundCreator-DRLG-DE-ScR-1E.png"
+          },
+          "09d13207-89a1-48bd-96e7-67931628680d": {
+            "image": "https://ms.yugipedia.com//9/91/SoulCharge-DRLG-DE-SR-1E.png"
+          },
+          "8e0fcd34-42f2-47d7-bbe0-d4b7186cf855": {
+            "image": "https://ms.yugipedia.com//d/d0/BattleFusion-DRLG-DE-SR-1E.png"
+          },
+          "93e032b1-58fe-4553-a26a-7bbef8042ea9": {
+            "image": "https://ms.yugipedia.com//1/1a/BlackwingHurricanetheTornado-DRLG-DE-SR-1E.png"
+          },
+          "12e3c68c-e3e8-472a-862d-1452e67f51fd": {
+            "image": "https://ms.yugipedia.com//f/fa/FlashFusion-DRLG-DE-SR-1E.png"
+          },
+          "5a78cfa0-a9f4-40cf-a6dc-60b098256c73": {
+            "image": "https://ms.yugipedia.com//8/84/NumberC106GiantRedHand-DRLG-DE-SR-1E.png"
+          },
+          "de156127-dfe6-4df7-9132-588974386ca0": {
+            "image": "https://ms.yugipedia.com//4/40/PairCycroid-DRLG-DE-SR-1E.png"
+          },
+          "3cc1dc85-233b-4ae1-994a-7d7256cb547d": {
+            "image": "https://ms.yugipedia.com//4/48/Number73AbyssSplash-DRLG-DE-SR-1E.png"
+          },
+          "8eee6f32-8f13-4eb9-999d-8b70e54e03aa": {
+            "image": "https://ms.yugipedia.com//9/9d/FinalFusion-DRLG-DE-SR-1E.png"
+          },
+          "9a040adb-518c-43a8-b9cf-cec18a53e76b": {
+            "image": "https://ms.yugipedia.com//9/9e/GateBlocker-DRLG-DE-ScR-1E.png"
+          },
+          "82aba6ca-2c09-4a22-9e7d-49bbafb41fc1": {
+            "image": "https://ms.yugipedia.com//7/7b/NumberC73AbyssSupraSplash-DRLG-DE-SR-1E.png"
+          },
+          "d15c7d7a-e35a-4970-b7d2-3df202a37bb6": {
+            "image": "https://ms.yugipedia.com//7/79/BlackwingSteamtheCloak-DRLG-DE-SR-1E.png"
+          },
+          "d7c513b2-d3dc-4a32-804d-14d9ff7a0fe6": {
+            "image": "https://ms.yugipedia.com//c/c6/MagicHand-DRLG-DE-SR-1E.png"
+          }
+        },
+        "unlimited": {
+          "a6148cd7-0db6-4d66-9239-e2db56380036": {
+            "image": "https://ms.yugipedia.com//a/a2/SabatielThePhilosophersStone-DRLG-DE-SR-UE.png"
+          },
+          "09d13207-89a1-48bd-96e7-67931628680d": {
+            "image": "https://ms.yugipedia.com//e/e5/SoulCharge-DRLG-DE-SR-UE.png"
+          },
+          "8e0fcd34-42f2-47d7-bbe0-d4b7186cf855": {
+            "image": "https://ms.yugipedia.com//2/23/BattleFusion-DRLG-DE-SR-UE.png"
+          },
+          "5f01615f-a483-4dd7-b021-9efd2f2bc51f": {
+            "image": "https://ms.yugipedia.com//b/b6/IceHand-DRLG-DE-ScR-UE.png"
+          },
+          "7ee6a42f-ac12-4454-b432-91a692294593": {
+            "image": "https://ms.yugipedia.com//5/59/BerserkerSoul-DRLG-DE-ScR-UE.png"
+          },
+          "f5d78626-4196-4e91-8322-d09e04134c2d": {
+            "image": "https://ms.yugipedia.com//4/47/Wiretap-DRLG-DE-SR-UE.png"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "1st",
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          21113003
+        ]
+      }
+    },
+    "sp": {
+      "language": "es",
+      "prefix": "DRLG-SP",
+      "date": "2014-04-24",
+      "image": "https://ms.yugipedia.com//3/3a/DRLG-BoosterSP.jpg",
+      "cardImages": {
+        "1st": {
+          "38abee15-4301-4454-a97a-20adfe6c7c17": "https://ms.yugipedia.com//3/35/LegendaryKnightTimaeus-DRLG-SP-ScR-1E.png",
+          "83a4e97a-375a-49c8-aee8-86503af501b5": "https://ms.yugipedia.com//c/cc/Kuribandit-DRLG-SP-ScR-1E.jpg",
+          "3c668f68-d44f-4eab-9181-456a85d5dce6": "https://ms.yugipedia.com//3/3d/AmuletDragon-DRLG-SP-ScR-1E.png",
+          "2c320edb-db26-44d6-b0a4-e6ba242e62e3": "https://ms.yugipedia.com//4/4b/DarkMagicianGirltheDragonKnight-DRLG-SP-ScR-1E.png",
+          "5eefbd63-7240-431f-82cf-178997195a84": "https://ms.yugipedia.com//4/41/TheEyeofTimaeus-DRLG-SP-ScR-1E.png",
+          "24d451fb-8798-410a-9ad3-4807678a1140": "https://ms.yugipedia.com//4/48/LegendofHeart-DRLG-SP-ScR-1E.jpg",
+          "7ee6a42f-ac12-4454-b432-91a692294593": "https://ms.yugipedia.com//0/03/BerserkerSoul-DRLG-SP-ScR-1E.png",
+          "f06b2ae0-244b-424b-aa05-5e8aa3c4597f": "https://ms.yugipedia.com//e/e0/RelaySoul-DRLG-SP-SR-1E.png",
+          "feae55a6-7feb-4aa6-80b5-e9921f0d3eae": "https://ms.yugipedia.com//9/9f/GuardianEatos-DRLG-SP-SR-1E.png",
+          "c096423e-6018-439e-857c-57f419539616": "https://ms.yugipedia.com//8/89/GuardianDreadscythe-DRLG-SP-ScR-1E.png",
+          "09d13207-89a1-48bd-96e7-67931628680d": "https://ms.yugipedia.com//5/5c/SoulCharge-DRLG-SP-SR-1E.png",
+          "ad6c8b01-c16f-4744-a2d3-ce26177cc90f": "https://ms.yugipedia.com//9/9f/AyersRockSunrise-DRLG-SP-SR-1E.png",
+          "14e62bba-c6ea-4aaa-9127-2b7af45400b5": "https://ms.yugipedia.com//b/b6/Carboneddon-DRLG-SP-SR-1E.png",
+          "081e51ea-970d-4f55-b23c-0d0edef639a6": "https://ms.yugipedia.com//5/51/RasDisciple-DRLG-SP-ScR-1E.jpg",
+          "6d714d47-c5b0-412b-9f38-fa0989d61634": "https://ms.yugipedia.com//3/36/MoundoftheBoundCreator-DRLG-SP-ScR-1E.png",
+          "efc77c79-edd8-441b-9866-f09612008a3e": "https://ms.yugipedia.com//0/0b/BlackwingOroshitheSquall-DRLG-SP-SR-1E.png",
+          "d15c7d7a-e35a-4970-b7d2-3df202a37bb6": "https://ms.yugipedia.com//d/d2/BlackwingSteamtheCloak-DRLG-SP-SR-1E.png",
+          "93e032b1-58fe-4553-a26a-7bbef8042ea9": "https://ms.yugipedia.com//c/c8/BlackwingHurricanetheTornado-DRLG-SP-SR-1E.jpg",
+          "d03f0c72-a91a-4837-a743-bf8d5bddc78c": "https://ms.yugipedia.com//0/0f/BlackWingRevenge-DRLG-SP-SR-1E.png",
+          "3f825c89-da58-4ed0-8219-b92af1a70f84": "https://ms.yugipedia.com//4/43/AssaultDog-DRLG-SP-SR-1E.png",
+          "f5d78626-4196-4e91-8322-d09e04134c2d": "https://ms.yugipedia.com//5/54/Wiretap-DRLG-SP-SR-1E.png",
+          "653b2609-0f06-482b-b9d7-e86ca1280ff6": "https://ms.yugipedia.com//f/f2/ConstructionTrainSignalRed-DRLG-SP-SR-1E.png",
+          "e5401836-da5f-4e65-84b4-ebbca086609a": "https://ms.yugipedia.com//a/af/TrainConnection-DRLG-SP-SR-1E.png",
+          "3cc1dc85-233b-4ae1-994a-7d7256cb547d": "https://ms.yugipedia.com//f/f2/Number73AbyssSplash-DRLG-SP-SR-1E.png",
+          "82aba6ca-2c09-4a22-9e7d-49bbafb41fc1": "https://ms.yugipedia.com//5/5b/NumberC73AbyssSupraSplash-DRLG-SP-SR-1E.png",
+          "b5a95bc0-195a-425a-8daa-63ea096f6519": "https://ms.yugipedia.com//8/8c/RankUpMagicQuickChaos-DRLG-SP-ScR-1E.png",
+          "65ba1137-9a50-4141-adeb-6cc898159814": "https://ms.yugipedia.com//8/89/NumberC5ChaosChimeraDragon-DRLG-SP-SR-1E.jpg",
+          "121542f4-7737-4a15-b8be-ebc2a1d51864": "https://ms.yugipedia.com//b/ba/RankUpMagicAdmirationoftheThousands-DRLG-SP-ScR-1E.jpg",
+          "d7c513b2-d3dc-4a32-804d-14d9ff7a0fe6": "https://ms.yugipedia.com//2/2e/MagicHand-DRLG-SP-SR-1E.png",
+          "a767b429-3df7-4512-8b2f-956f5aefb376": "https://ms.yugipedia.com//8/84/FireHand-DRLG-SP-ScR-1E.png",
+          "5f01615f-a483-4dd7-b021-9efd2f2bc51f": "https://ms.yugipedia.com//6/64/IceHand-DRLG-SP-ScR-1E.png"
+        }
+      },
+      "cardInfo": {
+        "1st": {
+          "d15c7d7a-e35a-4970-b7d2-3df202a37bb6": {
+            "image": "https://ms.yugipedia.com//d/d2/BlackwingSteamtheCloak-DRLG-SP-SR-1E.png"
+          },
+          "38abee15-4301-4454-a97a-20adfe6c7c17": {
+            "image": "https://ms.yugipedia.com//3/35/LegendaryKnightTimaeus-DRLG-SP-ScR-1E.png"
+          },
+          "c096423e-6018-439e-857c-57f419539616": {
+            "image": "https://ms.yugipedia.com//8/89/GuardianDreadscythe-DRLG-SP-ScR-1E.png"
+          },
+          "d03f0c72-a91a-4837-a743-bf8d5bddc78c": {
+            "image": "https://ms.yugipedia.com//0/0f/BlackWingRevenge-DRLG-SP-SR-1E.png"
+          },
+          "d7c513b2-d3dc-4a32-804d-14d9ff7a0fe6": {
+            "image": "https://ms.yugipedia.com//2/2e/MagicHand-DRLG-SP-SR-1E.png"
+          },
+          "93e032b1-58fe-4553-a26a-7bbef8042ea9": {
+            "image": "https://ms.yugipedia.com//c/c8/BlackwingHurricanetheTornado-DRLG-SP-SR-1E.jpg"
+          },
+          "3c668f68-d44f-4eab-9181-456a85d5dce6": {
+            "image": "https://ms.yugipedia.com//3/3d/AmuletDragon-DRLG-SP-ScR-1E.png"
+          },
+          "081e51ea-970d-4f55-b23c-0d0edef639a6": {
+            "image": "https://ms.yugipedia.com//5/51/RasDisciple-DRLG-SP-ScR-1E.jpg"
+          },
+          "24d451fb-8798-410a-9ad3-4807678a1140": {
+            "image": "https://ms.yugipedia.com//4/48/LegendofHeart-DRLG-SP-ScR-1E.jpg"
+          },
+          "7ee6a42f-ac12-4454-b432-91a692294593": {
+            "image": "https://ms.yugipedia.com//0/03/BerserkerSoul-DRLG-SP-ScR-1E.png"
+          },
+          "efc77c79-edd8-441b-9866-f09612008a3e": {
+            "image": "https://ms.yugipedia.com//0/0b/BlackwingOroshitheSquall-DRLG-SP-SR-1E.png"
+          },
+          "83a4e97a-375a-49c8-aee8-86503af501b5": {
+            "image": "https://ms.yugipedia.com//c/cc/Kuribandit-DRLG-SP-ScR-1E.jpg"
+          },
+          "121542f4-7737-4a15-b8be-ebc2a1d51864": {
+            "image": "https://ms.yugipedia.com//b/ba/RankUpMagicAdmirationoftheThousands-DRLG-SP-ScR-1E.jpg"
+          },
+          "ad6c8b01-c16f-4744-a2d3-ce26177cc90f": {
+            "image": "https://ms.yugipedia.com//9/9f/AyersRockSunrise-DRLG-SP-SR-1E.png"
+          },
+          "f06b2ae0-244b-424b-aa05-5e8aa3c4597f": {
+            "image": "https://ms.yugipedia.com//e/e0/RelaySoul-DRLG-SP-SR-1E.png"
+          },
+          "3f825c89-da58-4ed0-8219-b92af1a70f84": {
+            "image": "https://ms.yugipedia.com//4/43/AssaultDog-DRLG-SP-SR-1E.png"
+          },
+          "a767b429-3df7-4512-8b2f-956f5aefb376": {
+            "image": "https://ms.yugipedia.com//8/84/FireHand-DRLG-SP-ScR-1E.png"
+          },
+          "3cc1dc85-233b-4ae1-994a-7d7256cb547d": {
+            "image": "https://ms.yugipedia.com//f/f2/Number73AbyssSplash-DRLG-SP-SR-1E.png"
+          },
+          "f5d78626-4196-4e91-8322-d09e04134c2d": {
+            "image": "https://ms.yugipedia.com//5/54/Wiretap-DRLG-SP-SR-1E.png"
+          },
+          "5eefbd63-7240-431f-82cf-178997195a84": {
+            "image": "https://ms.yugipedia.com//4/41/TheEyeofTimaeus-DRLG-SP-ScR-1E.png"
+          },
+          "6d714d47-c5b0-412b-9f38-fa0989d61634": {
+            "image": "https://ms.yugipedia.com//3/36/MoundoftheBoundCreator-DRLG-SP-ScR-1E.png"
+          },
+          "09d13207-89a1-48bd-96e7-67931628680d": {
+            "image": "https://ms.yugipedia.com//5/5c/SoulCharge-DRLG-SP-SR-1E.png"
+          },
+          "b5a95bc0-195a-425a-8daa-63ea096f6519": {
+            "image": "https://ms.yugipedia.com//8/8c/RankUpMagicQuickChaos-DRLG-SP-ScR-1E.png"
+          },
+          "feae55a6-7feb-4aa6-80b5-e9921f0d3eae": {
+            "image": "https://ms.yugipedia.com//9/9f/GuardianEatos-DRLG-SP-SR-1E.png"
+          },
+          "5f01615f-a483-4dd7-b021-9efd2f2bc51f": {
+            "image": "https://ms.yugipedia.com//6/64/IceHand-DRLG-SP-ScR-1E.png"
+          },
+          "82aba6ca-2c09-4a22-9e7d-49bbafb41fc1": {
+            "image": "https://ms.yugipedia.com//5/5b/NumberC73AbyssSupraSplash-DRLG-SP-SR-1E.png"
+          },
+          "e5401836-da5f-4e65-84b4-ebbca086609a": {
+            "image": "https://ms.yugipedia.com//a/af/TrainConnection-DRLG-SP-SR-1E.png"
+          },
+          "65ba1137-9a50-4141-adeb-6cc898159814": {
+            "image": "https://ms.yugipedia.com//8/89/NumberC5ChaosChimeraDragon-DRLG-SP-SR-1E.jpg"
+          },
+          "653b2609-0f06-482b-b9d7-e86ca1280ff6": {
+            "image": "https://ms.yugipedia.com//f/f2/ConstructionTrainSignalRed-DRLG-SP-SR-1E.png"
+          },
+          "14e62bba-c6ea-4aaa-9127-2b7af45400b5": {
+            "image": "https://ms.yugipedia.com//b/b6/Carboneddon-DRLG-SP-SR-1E.png"
+          },
+          "2c320edb-db26-44d6-b0a4-e6ba242e62e3": {
+            "image": "https://ms.yugipedia.com//4/4b/DarkMagicianGirltheDragonKnight-DRLG-SP-ScR-1E.png"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "1st"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          51112003
+        ]
+      }
+    },
+    "pt": {
+      "language": "pt",
+      "prefix": "DRLG-PT",
+      "date": "2014-04-25",
+      "image": "https://ms.yugipedia.com//0/0b/DRLG-BoosterPT.png",
+      "cardImages": {
+        "1st": {
+          "38abee15-4301-4454-a97a-20adfe6c7c17": "https://ms.yugipedia.com//9/9d/LegendaryKnightTimaeus-DRLG-PT-ScR-1E.png",
+          "83a4e97a-375a-49c8-aee8-86503af501b5": "https://ms.yugipedia.com//5/54/Kuribandit-DRLG-PT-ScR-1E.png",
+          "3c668f68-d44f-4eab-9181-456a85d5dce6": "https://ms.yugipedia.com//2/23/AmuletDragon-DRLG-PT-ScR-1E.png",
+          "2c320edb-db26-44d6-b0a4-e6ba242e62e3": "https://ms.yugipedia.com//a/a6/DarkMagicianGirltheDragonKnight-DRLG-PT-ScR-1E.png",
+          "5eefbd63-7240-431f-82cf-178997195a84": "https://ms.yugipedia.com//2/23/TheEyeofTimaeus-DRLG-PT-ScR-1E.png",
+          "feae55a6-7feb-4aa6-80b5-e9921f0d3eae": "https://ms.yugipedia.com//9/98/GuardianEatos-DRLG-PT-SR-1E.png",
+          "c096423e-6018-439e-857c-57f419539616": "https://ms.yugipedia.com//0/00/GuardianDreadscythe-DRLG-PT-ScR-1E.png",
+          "3c0fc5ff-c8eb-44df-a187-615d892e51c5": "https://ms.yugipedia.com//0/09/CelestialSwordEatos-DRLG-PT-SR-1E.png",
+          "09d13207-89a1-48bd-96e7-67931628680d": "https://ms.yugipedia.com//f/fb/SoulCharge-DRLG-PT-SR-1E.png",
+          "a6148cd7-0db6-4d66-9239-e2db56380036": "https://ms.yugipedia.com//6/65/SabatielThePhilosophersStone-DRLG-PT-SR-1E.png",
+          "12e3c68c-e3e8-472a-862d-1452e67f51fd": "https://ms.yugipedia.com//1/1a/FlashFusion-DRLG-PT-SR-1E.png",
+          "8e0fcd34-42f2-47d7-bbe0-d4b7186cf855": "https://ms.yugipedia.com//e/e1/BattleFusion-DRLG-PT-SR-1E.png",
+          "8eee6f32-8f13-4eb9-999d-8b70e54e03aa": "https://ms.yugipedia.com//8/84/FinalFusion-DRLG-PT-SR-1E.png",
+          "de156127-dfe6-4df7-9132-588974386ca0": "https://ms.yugipedia.com//e/e4/PairCycroid-DRLG-PT-SR-1E.png",
+          "ad6c8b01-c16f-4744-a2d3-ce26177cc90f": "https://ms.yugipedia.com//0/05/AyersRockSunrise-DRLG-PT-SR-1E.png",
+          "5d53f9eb-245d-482c-aa6a-c331909dd837": "https://ms.yugipedia.com//e/ed/Mathematician-DRLG-PT-ScR-1E.png",
+          "081e51ea-970d-4f55-b23c-0d0edef639a6": "https://ms.yugipedia.com//9/95/RasDisciple-DRLG-PT-ScR-1E.png",
+          "6d714d47-c5b0-412b-9f38-fa0989d61634": "https://ms.yugipedia.com//2/2f/MoundoftheBoundCreator-DRLG-PT-ScR-1E.png",
+          "efc77c79-edd8-441b-9866-f09612008a3e": "https://ms.yugipedia.com//9/93/BlackwingOroshitheSquall-DRLG-PT-SR-1E.png",
+          "d15c7d7a-e35a-4970-b7d2-3df202a37bb6": "https://ms.yugipedia.com//2/21/BlackwingSteamtheCloak-DRLG-PT-SR-1E.png",
+          "3f825c89-da58-4ed0-8219-b92af1a70f84": "https://ms.yugipedia.com//9/97/AssaultDog-DRLG-PT-SR-1E.png",
+          "f5d78626-4196-4e91-8322-d09e04134c2d": "https://ms.yugipedia.com//6/67/Wiretap-DRLG-PT-SR-1E.png",
+          "d7c513b2-d3dc-4a32-804d-14d9ff7a0fe6": "https://ms.yugipedia.com//c/cb/MagicHand-DRLG-PT-SR-1E.png",
+          "a767b429-3df7-4512-8b2f-956f5aefb376": "https://ms.yugipedia.com//5/5d/FireHand-DRLG-PT-ScR-1E.png",
+          "5f01615f-a483-4dd7-b021-9efd2f2bc51f": "https://ms.yugipedia.com//b/b9/IceHand-DRLG-PT-ScR-1E.png",
+          "ffabe7b7-8060-40a2-9e61-bba5109bb56e": "https://ms.yugipedia.com//6/68/ProminenceHand-DRLG-PT-SR-1E.png",
+          "5a78cfa0-a9f4-40cf-a6dc-60b098256c73": "https://ms.yugipedia.com//1/1b/NumberC106GiantRedHand-DRLG-PT-SR-1E.png",
+          "c3b32dce-3da9-4be3-ae2c-96cc062d753b": "https://ms.yugipedia.com//1/1c/RisingSunSlash-DRLG-PT-SR-1E.png"
+        }
+      },
+      "cardInfo": {
+        "1st": {
+          "12e3c68c-e3e8-472a-862d-1452e67f51fd": {
+            "image": "https://ms.yugipedia.com//1/1a/FlashFusion-DRLG-PT-SR-1E.png"
+          },
+          "5a78cfa0-a9f4-40cf-a6dc-60b098256c73": {
+            "image": "https://ms.yugipedia.com//1/1b/NumberC106GiantRedHand-DRLG-PT-SR-1E.png"
+          },
+          "5eefbd63-7240-431f-82cf-178997195a84": {
+            "image": "https://ms.yugipedia.com//2/23/TheEyeofTimaeus-DRLG-PT-ScR-1E.png"
+          },
+          "8e0fcd34-42f2-47d7-bbe0-d4b7186cf855": {
+            "image": "https://ms.yugipedia.com//e/e1/BattleFusion-DRLG-PT-SR-1E.png"
+          },
+          "ad6c8b01-c16f-4744-a2d3-ce26177cc90f": {
+            "image": "https://ms.yugipedia.com//0/05/AyersRockSunrise-DRLG-PT-SR-1E.png"
+          },
+          "d15c7d7a-e35a-4970-b7d2-3df202a37bb6": {
+            "image": "https://ms.yugipedia.com//2/21/BlackwingSteamtheCloak-DRLG-PT-SR-1E.png"
+          },
+          "a767b429-3df7-4512-8b2f-956f5aefb376": {
+            "image": "https://ms.yugipedia.com//5/5d/FireHand-DRLG-PT-ScR-1E.png"
+          },
+          "feae55a6-7feb-4aa6-80b5-e9921f0d3eae": {
+            "image": "https://ms.yugipedia.com//9/98/GuardianEatos-DRLG-PT-SR-1E.png"
+          },
+          "f5d78626-4196-4e91-8322-d09e04134c2d": {
+            "image": "https://ms.yugipedia.com//6/67/Wiretap-DRLG-PT-SR-1E.png"
+          },
+          "38abee15-4301-4454-a97a-20adfe6c7c17": {
+            "image": "https://ms.yugipedia.com//9/9d/LegendaryKnightTimaeus-DRLG-PT-ScR-1E.png"
+          },
+          "c096423e-6018-439e-857c-57f419539616": {
+            "image": "https://ms.yugipedia.com//0/00/GuardianDreadscythe-DRLG-PT-ScR-1E.png"
+          },
+          "ffabe7b7-8060-40a2-9e61-bba5109bb56e": {
+            "image": "https://ms.yugipedia.com//6/68/ProminenceHand-DRLG-PT-SR-1E.png"
+          },
+          "d7c513b2-d3dc-4a32-804d-14d9ff7a0fe6": {
+            "image": "https://ms.yugipedia.com//c/cb/MagicHand-DRLG-PT-SR-1E.png"
+          },
+          "a6148cd7-0db6-4d66-9239-e2db56380036": {
+            "image": "https://ms.yugipedia.com//6/65/SabatielThePhilosophersStone-DRLG-PT-SR-1E.png"
+          },
+          "3c668f68-d44f-4eab-9181-456a85d5dce6": {
+            "image": "https://ms.yugipedia.com//2/23/AmuletDragon-DRLG-PT-ScR-1E.png"
+          },
+          "5f01615f-a483-4dd7-b021-9efd2f2bc51f": {
+            "image": "https://ms.yugipedia.com//b/b9/IceHand-DRLG-PT-ScR-1E.png"
+          },
+          "2c320edb-db26-44d6-b0a4-e6ba242e62e3": {
+            "image": "https://ms.yugipedia.com//a/a6/DarkMagicianGirltheDragonKnight-DRLG-PT-ScR-1E.png"
+          },
+          "8eee6f32-8f13-4eb9-999d-8b70e54e03aa": {
+            "image": "https://ms.yugipedia.com//8/84/FinalFusion-DRLG-PT-SR-1E.png"
+          },
+          "09d13207-89a1-48bd-96e7-67931628680d": {
+            "image": "https://ms.yugipedia.com//f/fb/SoulCharge-DRLG-PT-SR-1E.png"
+          },
+          "6d714d47-c5b0-412b-9f38-fa0989d61634": {
+            "image": "https://ms.yugipedia.com//2/2f/MoundoftheBoundCreator-DRLG-PT-ScR-1E.png"
+          },
+          "efc77c79-edd8-441b-9866-f09612008a3e": {
+            "image": "https://ms.yugipedia.com//9/93/BlackwingOroshitheSquall-DRLG-PT-SR-1E.png"
+          },
+          "c3b32dce-3da9-4be3-ae2c-96cc062d753b": {
+            "image": "https://ms.yugipedia.com//1/1c/RisingSunSlash-DRLG-PT-SR-1E.png"
+          },
+          "5d53f9eb-245d-482c-aa6a-c331909dd837": {
+            "image": "https://ms.yugipedia.com//e/ed/Mathematician-DRLG-PT-ScR-1E.png"
+          },
+          "3c0fc5ff-c8eb-44df-a187-615d892e51c5": {
+            "image": "https://ms.yugipedia.com//0/09/CelestialSwordEatos-DRLG-PT-SR-1E.png"
+          },
+          "83a4e97a-375a-49c8-aee8-86503af501b5": {
+            "image": "https://ms.yugipedia.com//5/54/Kuribandit-DRLG-PT-ScR-1E.png"
+          },
+          "081e51ea-970d-4f55-b23c-0d0edef639a6": {
+            "image": "https://ms.yugipedia.com//9/95/RasDisciple-DRLG-PT-ScR-1E.png"
+          },
+          "de156127-dfe6-4df7-9132-588974386ca0": {
+            "image": "https://ms.yugipedia.com//e/e4/PairCycroid-DRLG-PT-SR-1E.png"
+          },
+          "3f825c89-da58-4ed0-8219-b92af1a70f84": {
+            "image": "https://ms.yugipedia.com//9/97/AssaultDog-DRLG-PT-SR-1E.png"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "1st"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          11113004
+        ]
+      }
+    },
+    "it": {
+      "language": "it",
+      "prefix": "DRLG-IT",
+      "date": "2014-04-24",
+      "image": "https://ms.yugipedia.com//7/7b/DRLG-BoosterIT.png",
+      "cardImages": {
+        "1st": {
+          "38abee15-4301-4454-a97a-20adfe6c7c17": "https://ms.yugipedia.com//d/d8/LegendaryKnightTimaeus-DRLG-IT-ScR-1E.png",
+          "83a4e97a-375a-49c8-aee8-86503af501b5": "https://ms.yugipedia.com//a/ab/Kuribandit-DRLG-IT-ScR-1E.png",
+          "3c668f68-d44f-4eab-9181-456a85d5dce6": "https://ms.yugipedia.com//b/bc/AmuletDragon-DRLG-IT-ScR-1E.png",
+          "2c320edb-db26-44d6-b0a4-e6ba242e62e3": "https://ms.yugipedia.com//1/13/DarkMagicianGirltheDragonKnight-DRLG-IT-ScR-1E.png",
+          "5eefbd63-7240-431f-82cf-178997195a84": "https://ms.yugipedia.com//a/a7/TheEyeofTimaeus-DRLG-IT-ScR-1E.png",
+          "7ee6a42f-ac12-4454-b432-91a692294593": "https://ms.yugipedia.com//9/92/BerserkerSoul-DRLG-IT-ScR-1E.png",
+          "f06b2ae0-244b-424b-aa05-5e8aa3c4597f": "https://ms.yugipedia.com//8/8a/RelaySoul-DRLG-IT-SR-1E.png",
+          "feae55a6-7feb-4aa6-80b5-e9921f0d3eae": "https://ms.yugipedia.com//a/af/GuardianEatos-DRLG-IT-SR-1E.png",
+          "c096423e-6018-439e-857c-57f419539616": "https://ms.yugipedia.com//e/e4/GuardianDreadscythe-DRLG-IT-ScR-1E.png",
+          "3c0fc5ff-c8eb-44df-a187-615d892e51c5": "https://ms.yugipedia.com//9/96/CelestialSwordEatos-DRLG-IT-SR-1E.png",
+          "4190c872-cc1f-4fd8-a945-fa7bd7f50803": "https://ms.yugipedia.com//e/eb/ReaperScytheDreadscythe-DRLG-IT-SR-1E.png",
+          "932dd1a0-3837-4d33-b3c9-f2eae890c5ae": "https://ms.yugipedia.com//f/f7/GuardedTreasure-DRLG-IT-ScR-1E.png",
+          "09d13207-89a1-48bd-96e7-67931628680d": "https://ms.yugipedia.com//c/cb/SoulCharge-DRLG-IT-SR-1E.png",
+          "a6148cd7-0db6-4d66-9239-e2db56380036": "https://ms.yugipedia.com//3/36/SabatielThePhilosophersStone-DRLG-IT-SR-1E.png",
+          "12e3c68c-e3e8-472a-862d-1452e67f51fd": "https://ms.yugipedia.com//c/c0/FlashFusion-DRLG-IT-SR-1E.png",
+          "8e0fcd34-42f2-47d7-bbe0-d4b7186cf855": "https://ms.yugipedia.com//d/dd/BattleFusion-DRLG-IT-SR-1E.png",
+          "de156127-dfe6-4df7-9132-588974386ca0": "https://ms.yugipedia.com//b/bb/PairCycroid-DRLG-IT-SR-1E.png",
+          "ad6c8b01-c16f-4744-a2d3-ce26177cc90f": "https://ms.yugipedia.com//5/52/AyersRockSunrise-DRLG-IT-SR-1E.png",
+          "14e62bba-c6ea-4aaa-9127-2b7af45400b5": "https://ms.yugipedia.com//7/75/Carboneddon-DRLG-IT-SR-1E.png",
+          "081e51ea-970d-4f55-b23c-0d0edef639a6": "https://ms.yugipedia.com//f/f5/RasDisciple-DRLG-IT-ScR-1E.png",
+          "6d714d47-c5b0-412b-9f38-fa0989d61634": "https://ms.yugipedia.com//f/f8/MoundoftheBoundCreator-DRLG-IT-ScR-1E.png",
+          "240895f7-3293-41ab-b21f-e362afc85be0": "https://ms.yugipedia.com//a/a2/ShootingStar-DRLG-IT-ScR-1E.png",
+          "d15c7d7a-e35a-4970-b7d2-3df202a37bb6": "https://ms.yugipedia.com//7/7d/BlackwingSteamtheCloak-DRLG-IT-SR-1E.png",
+          "93e032b1-58fe-4553-a26a-7bbef8042ea9": "https://ms.yugipedia.com//1/13/BlackwingHurricanetheTornado-DRLG-IT-SR-1E.png",
+          "bc28a344-7ff8-42fd-a18d-d298ec5bd2eb": "https://ms.yugipedia.com//2/25/ShadowImpulse-DRLG-IT-SR-1E.png",
+          "f5d78626-4196-4e91-8322-d09e04134c2d": "https://ms.yugipedia.com//8/8f/Wiretap-DRLG-IT-SR-1E.png",
+          "422102cf-9e9f-4fbd-b375-1e381925fc31": "https://ms.yugipedia.com//a/a3/LionheartedLocomotive-DRLG-IT-SR-1E.png",
+          "fa67e86a-7822-4a81-97dd-ea91982ca21f": "https://ms.yugipedia.com//9/9d/ExpressTrainTrolleyOlley-DRLG-IT-ScR-1E.png",
+          "653b2609-0f06-482b-b9d7-e86ca1280ff6": "https://ms.yugipedia.com//5/59/ConstructionTrainSignalRed-DRLG-IT-SR-1E.png",
+          "e5401836-da5f-4e65-84b4-ebbca086609a": "https://ms.yugipedia.com//f/f4/TrainConnection-DRLG-IT-SR-1E.png",
+          "82aba6ca-2c09-4a22-9e7d-49bbafb41fc1": "https://ms.yugipedia.com//0/09/NumberC73AbyssSupraSplash-DRLG-IT-SR-1E.png",
+          "b5a95bc0-195a-425a-8daa-63ea096f6519": "https://ms.yugipedia.com//1/19/RankUpMagicQuickChaos-DRLG-IT-ScR-1E.png",
+          "65ba1137-9a50-4141-adeb-6cc898159814": "https://ms.yugipedia.com//2/24/NumberC5ChaosChimeraDragon-DRLG-IT-SR-1E.png",
+          "d7c513b2-d3dc-4a32-804d-14d9ff7a0fe6": "https://ms.yugipedia.com//6/6f/MagicHand-DRLG-IT-SR-1E.png",
+          "5f01615f-a483-4dd7-b021-9efd2f2bc51f": "https://ms.yugipedia.com//7/72/IceHand-DRLG-IT-ScR-1E.png",
+          "c3b32dce-3da9-4be3-ae2c-96cc062d753b": "https://ms.yugipedia.com//c/cb/RisingSunSlash-DRLG-IT-SR-1E.png"
+        }
+      },
+      "cardInfo": {
+        "1st": {
+          "f5d78626-4196-4e91-8322-d09e04134c2d": {
+            "image": "https://ms.yugipedia.com//8/8f/Wiretap-DRLG-IT-SR-1E.png"
+          },
+          "7ee6a42f-ac12-4454-b432-91a692294593": {
+            "image": "https://ms.yugipedia.com//9/92/BerserkerSoul-DRLG-IT-ScR-1E.png"
+          },
+          "09d13207-89a1-48bd-96e7-67931628680d": {
+            "image": "https://ms.yugipedia.com//c/cb/SoulCharge-DRLG-IT-SR-1E.png"
+          },
+          "14e62bba-c6ea-4aaa-9127-2b7af45400b5": {
+            "image": "https://ms.yugipedia.com//7/75/Carboneddon-DRLG-IT-SR-1E.png"
+          },
+          "3c668f68-d44f-4eab-9181-456a85d5dce6": {
+            "image": "https://ms.yugipedia.com//b/bc/AmuletDragon-DRLG-IT-ScR-1E.png"
+          },
+          "c3b32dce-3da9-4be3-ae2c-96cc062d753b": {
+            "image": "https://ms.yugipedia.com//c/cb/RisingSunSlash-DRLG-IT-SR-1E.png"
+          },
+          "6d714d47-c5b0-412b-9f38-fa0989d61634": {
+            "image": "https://ms.yugipedia.com//f/f8/MoundoftheBoundCreator-DRLG-IT-ScR-1E.png"
+          },
+          "65ba1137-9a50-4141-adeb-6cc898159814": {
+            "image": "https://ms.yugipedia.com//2/24/NumberC5ChaosChimeraDragon-DRLG-IT-SR-1E.png"
+          },
+          "83a4e97a-375a-49c8-aee8-86503af501b5": {
+            "image": "https://ms.yugipedia.com//a/ab/Kuribandit-DRLG-IT-ScR-1E.png"
+          },
+          "f06b2ae0-244b-424b-aa05-5e8aa3c4597f": {
+            "image": "https://ms.yugipedia.com//8/8a/RelaySoul-DRLG-IT-SR-1E.png"
+          },
+          "d15c7d7a-e35a-4970-b7d2-3df202a37bb6": {
+            "image": "https://ms.yugipedia.com//7/7d/BlackwingSteamtheCloak-DRLG-IT-SR-1E.png"
+          },
+          "8e0fcd34-42f2-47d7-bbe0-d4b7186cf855": {
+            "image": "https://ms.yugipedia.com//d/dd/BattleFusion-DRLG-IT-SR-1E.png"
+          },
+          "4190c872-cc1f-4fd8-a945-fa7bd7f50803": {
+            "image": "https://ms.yugipedia.com//e/eb/ReaperScytheDreadscythe-DRLG-IT-SR-1E.png"
+          },
+          "bc28a344-7ff8-42fd-a18d-d298ec5bd2eb": {
+            "image": "https://ms.yugipedia.com//2/25/ShadowImpulse-DRLG-IT-SR-1E.png"
+          },
+          "fa67e86a-7822-4a81-97dd-ea91982ca21f": {
+            "image": "https://ms.yugipedia.com//9/9d/ExpressTrainTrolleyOlley-DRLG-IT-ScR-1E.png"
+          },
+          "feae55a6-7feb-4aa6-80b5-e9921f0d3eae": {
+            "image": "https://ms.yugipedia.com//a/af/GuardianEatos-DRLG-IT-SR-1E.png"
+          },
+          "3c0fc5ff-c8eb-44df-a187-615d892e51c5": {
+            "image": "https://ms.yugipedia.com//9/96/CelestialSwordEatos-DRLG-IT-SR-1E.png"
+          },
+          "2c320edb-db26-44d6-b0a4-e6ba242e62e3": {
+            "image": "https://ms.yugipedia.com//1/13/DarkMagicianGirltheDragonKnight-DRLG-IT-ScR-1E.png"
+          },
+          "653b2609-0f06-482b-b9d7-e86ca1280ff6": {
+            "image": "https://ms.yugipedia.com//5/59/ConstructionTrainSignalRed-DRLG-IT-SR-1E.png"
+          },
+          "240895f7-3293-41ab-b21f-e362afc85be0": {
+            "image": "https://ms.yugipedia.com//a/a2/ShootingStar-DRLG-IT-ScR-1E.png"
+          },
+          "de156127-dfe6-4df7-9132-588974386ca0": {
+            "image": "https://ms.yugipedia.com//b/bb/PairCycroid-DRLG-IT-SR-1E.png"
+          },
+          "82aba6ca-2c09-4a22-9e7d-49bbafb41fc1": {
+            "image": "https://ms.yugipedia.com//0/09/NumberC73AbyssSupraSplash-DRLG-IT-SR-1E.png"
+          },
+          "38abee15-4301-4454-a97a-20adfe6c7c17": {
+            "image": "https://ms.yugipedia.com//d/d8/LegendaryKnightTimaeus-DRLG-IT-ScR-1E.png"
+          },
+          "e5401836-da5f-4e65-84b4-ebbca086609a": {
+            "image": "https://ms.yugipedia.com//f/f4/TrainConnection-DRLG-IT-SR-1E.png"
+          },
+          "081e51ea-970d-4f55-b23c-0d0edef639a6": {
+            "image": "https://ms.yugipedia.com//f/f5/RasDisciple-DRLG-IT-ScR-1E.png"
+          },
+          "5f01615f-a483-4dd7-b021-9efd2f2bc51f": {
+            "image": "https://ms.yugipedia.com//7/72/IceHand-DRLG-IT-ScR-1E.png"
+          },
+          "5eefbd63-7240-431f-82cf-178997195a84": {
+            "image": "https://ms.yugipedia.com//a/a7/TheEyeofTimaeus-DRLG-IT-ScR-1E.png"
+          },
+          "c096423e-6018-439e-857c-57f419539616": {
+            "image": "https://ms.yugipedia.com//e/e4/GuardianDreadscythe-DRLG-IT-ScR-1E.png"
+          },
+          "d7c513b2-d3dc-4a32-804d-14d9ff7a0fe6": {
+            "image": "https://ms.yugipedia.com//6/6f/MagicHand-DRLG-IT-SR-1E.png"
+          },
+          "12e3c68c-e3e8-472a-862d-1452e67f51fd": {
+            "image": "https://ms.yugipedia.com//c/c0/FlashFusion-DRLG-IT-SR-1E.png"
+          },
+          "422102cf-9e9f-4fbd-b375-1e381925fc31": {
+            "image": "https://ms.yugipedia.com//a/a3/LionheartedLocomotive-DRLG-IT-SR-1E.png"
+          },
+          "93e032b1-58fe-4553-a26a-7bbef8042ea9": {
+            "image": "https://ms.yugipedia.com//1/13/BlackwingHurricanetheTornado-DRLG-IT-SR-1E.png"
+          },
+          "ad6c8b01-c16f-4744-a2d3-ce26177cc90f": {
+            "image": "https://ms.yugipedia.com//5/52/AyersRockSunrise-DRLG-IT-SR-1E.png"
+          },
+          "a6148cd7-0db6-4d66-9239-e2db56380036": {
+            "image": "https://ms.yugipedia.com//3/36/SabatielThePhilosophersStone-DRLG-IT-SR-1E.png"
+          },
+          "b5a95bc0-195a-425a-8daa-63ea096f6519": {
+            "image": "https://ms.yugipedia.com//1/19/RankUpMagicQuickChaos-DRLG-IT-ScR-1E.png"
+          },
+          "932dd1a0-3837-4d33-b3c9-f2eae890c5ae": {
+            "image": "https://ms.yugipedia.com//f/f7/GuardedTreasure-DRLG-IT-ScR-1E.png"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "1st"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          41113003
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "en"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "packsPerBox": 24,
+      "editions": [
+        "1st",
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//3/39/DRLG-BoosterEN.png",
+      "cards": [
+        {
+          "id": "38abee15-4301-4454-a97a-20adfe6c7c17",
+          "card": "15d94b6d-cc02-4f38-8b6a-97d3db1ff7bc",
+          "suffix": "001",
+          "rarity": "secret"
+        },
+        {
+          "id": "83a4e97a-375a-49c8-aee8-86503af501b5",
+          "card": "698aee3e-ea52-402d-a85d-d383a4a4818a",
+          "suffix": "002",
+          "rarity": "secret"
+        },
+        {
+          "id": "3c668f68-d44f-4eab-9181-456a85d5dce6",
+          "card": "caacbc89-1a7d-45d1-8c0d-2b791ca7858b",
+          "suffix": "003",
+          "rarity": "secret"
+        },
+        {
+          "id": "2c320edb-db26-44d6-b0a4-e6ba242e62e3",
+          "card": "fb76a854-1ddc-4d4e-b1de-f2b515333ae8",
+          "suffix": "004",
+          "rarity": "secret"
+        },
+        {
+          "id": "5eefbd63-7240-431f-82cf-178997195a84",
+          "card": "e820de83-d9af-41de-bb30-69baf204570b",
+          "suffix": "005",
+          "rarity": "secret"
+        },
+        {
+          "id": "24d451fb-8798-410a-9ad3-4807678a1140",
+          "card": "98c5621e-1c76-4039-bccc-008e02b144ac",
+          "suffix": "006",
+          "rarity": "secret"
+        },
+        {
+          "id": "7ee6a42f-ac12-4454-b432-91a692294593",
+          "card": "896d3898-5535-4068-8d40-46be55b62f1c",
+          "suffix": "007",
+          "rarity": "secret"
+        },
+        {
+          "id": "f06b2ae0-244b-424b-aa05-5e8aa3c4597f",
+          "card": "1b7d00d1-7756-4ae5-a862-b542993c03e6",
+          "suffix": "008",
+          "rarity": "super"
+        },
+        {
+          "id": "feae55a6-7feb-4aa6-80b5-e9921f0d3eae",
+          "card": "1f254313-5976-435b-a26b-6075b829e606",
+          "suffix": "009",
+          "rarity": "super"
+        },
+        {
+          "id": "c096423e-6018-439e-857c-57f419539616",
+          "card": "55dd2675-c25c-4ac1-adb1-0b2683afa158",
+          "suffix": "010",
+          "rarity": "secret"
+        },
+        {
+          "id": "3c0fc5ff-c8eb-44df-a187-615d892e51c5",
+          "card": "722c71dc-0280-4058-aa2d-2c5de0a9404c",
+          "suffix": "011",
+          "rarity": "super"
+        },
+        {
+          "id": "4190c872-cc1f-4fd8-a945-fa7bd7f50803",
+          "card": "4b94688f-a8d1-4255-864e-658add1bde4d",
+          "suffix": "012",
+          "rarity": "super"
+        },
+        {
+          "id": "932dd1a0-3837-4d33-b3c9-f2eae890c5ae",
+          "card": "c37898fd-0ead-4a9e-9ff4-a8c6dbeea04d",
+          "suffix": "013",
+          "rarity": "secret"
+        },
+        {
+          "id": "09d13207-89a1-48bd-96e7-67931628680d",
+          "card": "8af617e2-be77-4f9e-ae77-3d1655b47221",
+          "suffix": "014",
+          "rarity": "super"
+        },
+        {
+          "id": "a6148cd7-0db6-4d66-9239-e2db56380036",
+          "card": "dca4410e-bc66-4afa-aff2-8ee8364d825b",
+          "suffix": "015",
+          "rarity": "super"
+        },
+        {
+          "id": "12e3c68c-e3e8-472a-862d-1452e67f51fd",
+          "card": "6ca0e6bb-3c26-4c94-a471-7ce5171be509",
+          "suffix": "016",
+          "rarity": "super"
+        },
+        {
+          "id": "8e0fcd34-42f2-47d7-bbe0-d4b7186cf855",
+          "card": "b2b484f5-b56c-4de0-8992-2db752ef5651",
+          "suffix": "017",
+          "rarity": "super"
+        },
+        {
+          "id": "8eee6f32-8f13-4eb9-999d-8b70e54e03aa",
+          "card": "370a601f-0342-4ecd-a809-174c89dfb485",
+          "suffix": "018",
+          "rarity": "super"
+        },
+        {
+          "id": "de156127-dfe6-4df7-9132-588974386ca0",
+          "card": "7fd2c879-e6cd-4e10-8deb-afe5a1a12bc2",
+          "suffix": "019",
+          "rarity": "super"
+        },
+        {
+          "id": "ad6c8b01-c16f-4744-a2d3-ce26177cc90f",
+          "card": "5e10b689-59de-41cb-8d1e-1c801c3f8497",
+          "suffix": "020",
+          "rarity": "super"
+        },
+        {
+          "id": "9a9bcbb1-5077-47a8-bb50-f51281164c06",
+          "card": "b8875cac-ab87-4cf2-8ecc-41b5987b8199",
+          "suffix": "021",
+          "rarity": "secret"
+        },
+        {
+          "id": "14e62bba-c6ea-4aaa-9127-2b7af45400b5",
+          "card": "d91bed4a-9a52-4c3c-ba47-1da2a2376329",
+          "suffix": "022",
+          "rarity": "super"
+        },
+        {
+          "id": "5d53f9eb-245d-482c-aa6a-c331909dd837",
+          "card": "3df6dba8-988b-4eb1-9889-2a5990d8a2bd",
+          "suffix": "023",
+          "rarity": "secret"
+        },
+        {
+          "id": "081e51ea-970d-4f55-b23c-0d0edef639a6",
+          "card": "1939e641-8520-4e94-802b-5fd0ed76c25b",
+          "suffix": "024",
+          "rarity": "secret"
+        },
+        {
+          "id": "6d714d47-c5b0-412b-9f38-fa0989d61634",
+          "card": "9fe98947-91f4-4c95-af35-12562043ff3a",
+          "suffix": "025",
+          "rarity": "secret"
+        },
+        {
+          "id": "240895f7-3293-41ab-b21f-e362afc85be0",
+          "card": "61c453cf-c3b7-438a-ab3d-4cb607ef9783",
+          "suffix": "026",
+          "rarity": "secret"
+        },
+        {
+          "id": "efc77c79-edd8-441b-9866-f09612008a3e",
+          "card": "a85e7911-13c3-4e06-942b-19a4acb01cd2",
+          "suffix": "027",
+          "rarity": "super"
+        },
+        {
+          "id": "d15c7d7a-e35a-4970-b7d2-3df202a37bb6",
+          "card": "a83b66b0-e651-481f-b53b-b6fc177fcb01",
+          "suffix": "028",
+          "rarity": "super"
+        },
+        {
+          "id": "93e032b1-58fe-4553-a26a-7bbef8042ea9",
+          "card": "418fca1a-6ac6-4adf-99db-30c342822465",
+          "suffix": "029",
+          "rarity": "super"
+        },
+        {
+          "id": "a220968b-641c-4a14-9f70-29801e345edc",
+          "card": "1685da95-ebdc-4f20-87f3-8e49eb3a2e54",
+          "suffix": "030",
+          "rarity": "secret"
+        },
+        {
+          "id": "d03f0c72-a91a-4837-a743-bf8d5bddc78c",
+          "card": "98c7b5ff-92ff-4485-9eaa-98d0c74828b2",
+          "suffix": "031",
+          "rarity": "super"
+        },
+        {
+          "id": "bc28a344-7ff8-42fd-a18d-d298ec5bd2eb",
+          "card": "ddda8973-beaa-442c-862f-7daaa764f07b",
+          "suffix": "032",
+          "rarity": "super"
+        },
+        {
+          "id": "3f825c89-da58-4ed0-8219-b92af1a70f84",
+          "card": "78e6358d-ece8-4a39-8e41-6110c551b540",
+          "suffix": "033",
+          "rarity": "super"
+        },
+        {
+          "id": "9a040adb-518c-43a8-b9cf-cec18a53e76b",
+          "card": "0944647e-457d-42d5-81ce-e96b51ca69bc",
+          "suffix": "034",
+          "rarity": "secret"
+        },
+        {
+          "id": "f5d78626-4196-4e91-8322-d09e04134c2d",
+          "card": "171911fd-d6b7-4526-b409-524c613c6e46",
+          "suffix": "035",
+          "rarity": "super"
+        },
+        {
+          "id": "422102cf-9e9f-4fbd-b375-1e381925fc31",
+          "card": "1a515b1a-b32e-499e-939d-020e1fe82fc6",
+          "suffix": "036",
+          "rarity": "super"
+        },
+        {
+          "id": "fa67e86a-7822-4a81-97dd-ea91982ca21f",
+          "card": "163613c5-1ec4-4847-a106-1e08214bac59",
+          "suffix": "037",
+          "rarity": "secret"
+        },
+        {
+          "id": "653b2609-0f06-482b-b9d7-e86ca1280ff6",
+          "card": "65786eea-8371-469a-abe2-e91b33953269",
+          "suffix": "038",
+          "rarity": "super"
+        },
+        {
+          "id": "e5401836-da5f-4e65-84b4-ebbca086609a",
+          "card": "986b9836-1132-4fe8-b929-b0ed907882e7",
+          "suffix": "039",
+          "rarity": "super"
+        },
+        {
+          "id": "3cc1dc85-233b-4ae1-994a-7d7256cb547d",
+          "card": "c338a477-1f38-4cc7-ac0e-d620f5799ce2",
+          "suffix": "040",
+          "rarity": "super"
+        },
+        {
+          "id": "82aba6ca-2c09-4a22-9e7d-49bbafb41fc1",
+          "card": "64cffcee-6403-4a8b-8b9c-b39de9c94b84",
+          "suffix": "041",
+          "rarity": "super"
+        },
+        {
+          "id": "b5a95bc0-195a-425a-8daa-63ea096f6519",
+          "card": "e6a49bf1-9f21-4b02-a495-d08e2ba70fa5",
+          "suffix": "042",
+          "rarity": "secret"
+        },
+        {
+          "id": "65ba1137-9a50-4141-adeb-6cc898159814",
+          "card": "cfe40f80-8eb1-467a-b8c9-162ebc819ccd",
+          "suffix": "043",
+          "rarity": "super"
+        },
+        {
+          "id": "121542f4-7737-4a15-b8be-ebc2a1d51864",
+          "card": "7c39a467-70dc-4b2f-9aca-0ad52b240f3a",
+          "suffix": "044",
+          "rarity": "secret"
+        },
+        {
+          "id": "d7c513b2-d3dc-4a32-804d-14d9ff7a0fe6",
+          "card": "861fc8c1-b031-41e2-a89a-7ef362e2c3cf",
+          "suffix": "045",
+          "rarity": "super"
+        },
+        {
+          "id": "a767b429-3df7-4512-8b2f-956f5aefb376",
+          "card": "5e77b7de-a707-4159-a4ea-eb1dadc3c1be",
+          "suffix": "046",
+          "rarity": "secret"
+        },
+        {
+          "id": "5f01615f-a483-4dd7-b021-9efd2f2bc51f",
+          "card": "1e81aa26-4256-4114-a75d-b849a053771e",
+          "suffix": "047",
+          "rarity": "secret"
+        },
+        {
+          "id": "ffabe7b7-8060-40a2-9e61-bba5109bb56e",
+          "card": "4c46a3fe-a276-4fdd-bac3-dc1e1af01d96",
+          "suffix": "048",
+          "rarity": "super"
+        },
+        {
+          "id": "5a78cfa0-a9f4-40cf-a6dc-60b098256c73",
+          "card": "bbb2a233-4fc3-4f72-a612-a295af15f399",
+          "suffix": "049",
+          "rarity": "super"
+        },
+        {
+          "id": "a1a33f09-4382-4801-815c-e0ae5af2546c",
+          "card": "d157ffb0-645c-4aca-8b76-645ccf9a7686",
+          "suffix": "050",
+          "rarity": "super"
+        },
+        {
+          "id": "c3b32dce-3da9-4be3-ae2c-96cc062d753b",
+          "card": "531a081d-da64-4421-a0a1-3b4bbc22d807",
+          "suffix": "051",
+          "rarity": "super"
+        }
+      ],
+      "externalIDs": {
+        "ygoprodeck": "Dragons of Legend"
+      }
+    },
+    {
+      "locales": [
+        "fr"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "packsPerBox": 24,
+      "editions": [
+        "1st"
+      ],
+      "image": "https://ms.yugipedia.com//9/95/DRLG-BoosterFR.png",
+      "cards": [
+        {
+          "id": "38abee15-4301-4454-a97a-20adfe6c7c17",
+          "card": "15d94b6d-cc02-4f38-8b6a-97d3db1ff7bc",
+          "suffix": "001",
+          "rarity": "secret"
+        },
+        {
+          "id": "83a4e97a-375a-49c8-aee8-86503af501b5",
+          "card": "698aee3e-ea52-402d-a85d-d383a4a4818a",
+          "suffix": "002",
+          "rarity": "secret"
+        },
+        {
+          "id": "3c668f68-d44f-4eab-9181-456a85d5dce6",
+          "card": "caacbc89-1a7d-45d1-8c0d-2b791ca7858b",
+          "suffix": "003",
+          "rarity": "secret"
+        },
+        {
+          "id": "2c320edb-db26-44d6-b0a4-e6ba242e62e3",
+          "card": "fb76a854-1ddc-4d4e-b1de-f2b515333ae8",
+          "suffix": "004",
+          "rarity": "secret"
+        },
+        {
+          "id": "5eefbd63-7240-431f-82cf-178997195a84",
+          "card": "e820de83-d9af-41de-bb30-69baf204570b",
+          "suffix": "005",
+          "rarity": "secret"
+        },
+        {
+          "id": "24d451fb-8798-410a-9ad3-4807678a1140",
+          "card": "98c5621e-1c76-4039-bccc-008e02b144ac",
+          "suffix": "006",
+          "rarity": "secret"
+        },
+        {
+          "id": "7ee6a42f-ac12-4454-b432-91a692294593",
+          "card": "896d3898-5535-4068-8d40-46be55b62f1c",
+          "suffix": "007",
+          "rarity": "secret"
+        },
+        {
+          "id": "f06b2ae0-244b-424b-aa05-5e8aa3c4597f",
+          "card": "1b7d00d1-7756-4ae5-a862-b542993c03e6",
+          "suffix": "008",
+          "rarity": "super"
+        },
+        {
+          "id": "feae55a6-7feb-4aa6-80b5-e9921f0d3eae",
+          "card": "1f254313-5976-435b-a26b-6075b829e606",
+          "suffix": "009",
+          "rarity": "super"
+        },
+        {
+          "id": "c096423e-6018-439e-857c-57f419539616",
+          "card": "55dd2675-c25c-4ac1-adb1-0b2683afa158",
+          "suffix": "010",
+          "rarity": "secret"
+        },
+        {
+          "id": "3c0fc5ff-c8eb-44df-a187-615d892e51c5",
+          "card": "722c71dc-0280-4058-aa2d-2c5de0a9404c",
+          "suffix": "011",
+          "rarity": "super"
+        },
+        {
+          "id": "4190c872-cc1f-4fd8-a945-fa7bd7f50803",
+          "card": "4b94688f-a8d1-4255-864e-658add1bde4d",
+          "suffix": "012",
+          "rarity": "super"
+        },
+        {
+          "id": "932dd1a0-3837-4d33-b3c9-f2eae890c5ae",
+          "card": "c37898fd-0ead-4a9e-9ff4-a8c6dbeea04d",
+          "suffix": "013",
+          "rarity": "secret"
+        },
+        {
+          "id": "09d13207-89a1-48bd-96e7-67931628680d",
+          "card": "8af617e2-be77-4f9e-ae77-3d1655b47221",
+          "suffix": "014",
+          "rarity": "super"
+        },
+        {
+          "id": "a6148cd7-0db6-4d66-9239-e2db56380036",
+          "card": "dca4410e-bc66-4afa-aff2-8ee8364d825b",
+          "suffix": "015",
+          "rarity": "super"
+        },
+        {
+          "id": "12e3c68c-e3e8-472a-862d-1452e67f51fd",
+          "card": "6ca0e6bb-3c26-4c94-a471-7ce5171be509",
+          "suffix": "016",
+          "rarity": "super"
+        },
+        {
+          "id": "8e0fcd34-42f2-47d7-bbe0-d4b7186cf855",
+          "card": "b2b484f5-b56c-4de0-8992-2db752ef5651",
+          "suffix": "017",
+          "rarity": "super"
+        },
+        {
+          "id": "8eee6f32-8f13-4eb9-999d-8b70e54e03aa",
+          "card": "370a601f-0342-4ecd-a809-174c89dfb485",
+          "suffix": "018",
+          "rarity": "super"
+        },
+        {
+          "id": "de156127-dfe6-4df7-9132-588974386ca0",
+          "card": "7fd2c879-e6cd-4e10-8deb-afe5a1a12bc2",
+          "suffix": "019",
+          "rarity": "super"
+        },
+        {
+          "id": "ad6c8b01-c16f-4744-a2d3-ce26177cc90f",
+          "card": "5e10b689-59de-41cb-8d1e-1c801c3f8497",
+          "suffix": "020",
+          "rarity": "super"
+        },
+        {
+          "id": "9a9bcbb1-5077-47a8-bb50-f51281164c06",
+          "card": "b8875cac-ab87-4cf2-8ecc-41b5987b8199",
+          "suffix": "021",
+          "rarity": "secret"
+        },
+        {
+          "id": "14e62bba-c6ea-4aaa-9127-2b7af45400b5",
+          "card": "d91bed4a-9a52-4c3c-ba47-1da2a2376329",
+          "suffix": "022",
+          "rarity": "super"
+        },
+        {
+          "id": "5d53f9eb-245d-482c-aa6a-c331909dd837",
+          "card": "3df6dba8-988b-4eb1-9889-2a5990d8a2bd",
+          "suffix": "023",
+          "rarity": "secret"
+        },
+        {
+          "id": "081e51ea-970d-4f55-b23c-0d0edef639a6",
+          "card": "1939e641-8520-4e94-802b-5fd0ed76c25b",
+          "suffix": "024",
+          "rarity": "secret"
+        },
+        {
+          "id": "6d714d47-c5b0-412b-9f38-fa0989d61634",
+          "card": "9fe98947-91f4-4c95-af35-12562043ff3a",
+          "suffix": "025",
+          "rarity": "secret"
+        },
+        {
+          "id": "240895f7-3293-41ab-b21f-e362afc85be0",
+          "card": "61c453cf-c3b7-438a-ab3d-4cb607ef9783",
+          "suffix": "026",
+          "rarity": "secret"
+        },
+        {
+          "id": "efc77c79-edd8-441b-9866-f09612008a3e",
+          "card": "a85e7911-13c3-4e06-942b-19a4acb01cd2",
+          "suffix": "027",
+          "rarity": "super"
+        },
+        {
+          "id": "d15c7d7a-e35a-4970-b7d2-3df202a37bb6",
+          "card": "a83b66b0-e651-481f-b53b-b6fc177fcb01",
+          "suffix": "028",
+          "rarity": "super"
+        },
+        {
+          "id": "93e032b1-58fe-4553-a26a-7bbef8042ea9",
+          "card": "418fca1a-6ac6-4adf-99db-30c342822465",
+          "suffix": "029",
+          "rarity": "super"
+        },
+        {
+          "id": "a220968b-641c-4a14-9f70-29801e345edc",
+          "card": "1685da95-ebdc-4f20-87f3-8e49eb3a2e54",
+          "suffix": "030",
+          "rarity": "secret"
+        },
+        {
+          "id": "d03f0c72-a91a-4837-a743-bf8d5bddc78c",
+          "card": "98c7b5ff-92ff-4485-9eaa-98d0c74828b2",
+          "suffix": "031",
+          "rarity": "super"
+        },
+        {
+          "id": "bc28a344-7ff8-42fd-a18d-d298ec5bd2eb",
+          "card": "ddda8973-beaa-442c-862f-7daaa764f07b",
+          "suffix": "032",
+          "rarity": "super"
+        },
+        {
+          "id": "3f825c89-da58-4ed0-8219-b92af1a70f84",
+          "card": "78e6358d-ece8-4a39-8e41-6110c551b540",
+          "suffix": "033",
+          "rarity": "super"
+        },
+        {
+          "id": "9a040adb-518c-43a8-b9cf-cec18a53e76b",
+          "card": "0944647e-457d-42d5-81ce-e96b51ca69bc",
+          "suffix": "034",
+          "rarity": "secret"
+        },
+        {
+          "id": "f5d78626-4196-4e91-8322-d09e04134c2d",
+          "card": "171911fd-d6b7-4526-b409-524c613c6e46",
+          "suffix": "035",
+          "rarity": "super"
+        },
+        {
+          "id": "422102cf-9e9f-4fbd-b375-1e381925fc31",
+          "card": "1a515b1a-b32e-499e-939d-020e1fe82fc6",
+          "suffix": "036",
+          "rarity": "super"
+        },
+        {
+          "id": "fa67e86a-7822-4a81-97dd-ea91982ca21f",
+          "card": "163613c5-1ec4-4847-a106-1e08214bac59",
+          "suffix": "037",
+          "rarity": "secret"
+        },
+        {
+          "id": "653b2609-0f06-482b-b9d7-e86ca1280ff6",
+          "card": "65786eea-8371-469a-abe2-e91b33953269",
+          "suffix": "038",
+          "rarity": "super"
+        },
+        {
+          "id": "e5401836-da5f-4e65-84b4-ebbca086609a",
+          "card": "986b9836-1132-4fe8-b929-b0ed907882e7",
+          "suffix": "039",
+          "rarity": "super"
+        },
+        {
+          "id": "3cc1dc85-233b-4ae1-994a-7d7256cb547d",
+          "card": "c338a477-1f38-4cc7-ac0e-d620f5799ce2",
+          "suffix": "040",
+          "rarity": "super"
+        },
+        {
+          "id": "82aba6ca-2c09-4a22-9e7d-49bbafb41fc1",
+          "card": "64cffcee-6403-4a8b-8b9c-b39de9c94b84",
+          "suffix": "041",
+          "rarity": "super"
+        },
+        {
+          "id": "b5a95bc0-195a-425a-8daa-63ea096f6519",
+          "card": "e6a49bf1-9f21-4b02-a495-d08e2ba70fa5",
+          "suffix": "042",
+          "rarity": "secret"
+        },
+        {
+          "id": "65ba1137-9a50-4141-adeb-6cc898159814",
+          "card": "cfe40f80-8eb1-467a-b8c9-162ebc819ccd",
+          "suffix": "043",
+          "rarity": "super"
+        },
+        {
+          "id": "121542f4-7737-4a15-b8be-ebc2a1d51864",
+          "card": "7c39a467-70dc-4b2f-9aca-0ad52b240f3a",
+          "suffix": "044",
+          "rarity": "secret"
+        },
+        {
+          "id": "d7c513b2-d3dc-4a32-804d-14d9ff7a0fe6",
+          "card": "861fc8c1-b031-41e2-a89a-7ef362e2c3cf",
+          "suffix": "045",
+          "rarity": "super"
+        },
+        {
+          "id": "a767b429-3df7-4512-8b2f-956f5aefb376",
+          "card": "5e77b7de-a707-4159-a4ea-eb1dadc3c1be",
+          "suffix": "046",
+          "rarity": "secret"
+        },
+        {
+          "id": "5f01615f-a483-4dd7-b021-9efd2f2bc51f",
+          "card": "1e81aa26-4256-4114-a75d-b849a053771e",
+          "suffix": "047",
+          "rarity": "secret"
+        },
+        {
+          "id": "ffabe7b7-8060-40a2-9e61-bba5109bb56e",
+          "card": "4c46a3fe-a276-4fdd-bac3-dc1e1af01d96",
+          "suffix": "048",
+          "rarity": "super"
+        },
+        {
+          "id": "5a78cfa0-a9f4-40cf-a6dc-60b098256c73",
+          "card": "bbb2a233-4fc3-4f72-a612-a295af15f399",
+          "suffix": "049",
+          "rarity": "super"
+        },
+        {
+          "id": "a1a33f09-4382-4801-815c-e0ae5af2546c",
+          "card": "d157ffb0-645c-4aca-8b76-645ccf9a7686",
+          "suffix": "050",
+          "rarity": "super"
+        },
+        {
+          "id": "c3b32dce-3da9-4be3-ae2c-96cc062d753b",
+          "card": "531a081d-da64-4421-a0a1-3b4bbc22d807",
+          "suffix": "051",
+          "rarity": "super"
+        }
+      ],
+      "externalIDs": {
+        "ygoprodeck": "Dragons of Legend"
+      }
+    },
+    {
+      "locales": [
+        "de"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "packsPerBox": 24,
+      "editions": [
+        "1st",
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//8/8f/DRLG-BoosterDE.png",
+      "cards": [
+        {
+          "id": "38abee15-4301-4454-a97a-20adfe6c7c17",
+          "card": "15d94b6d-cc02-4f38-8b6a-97d3db1ff7bc",
+          "suffix": "001",
+          "rarity": "secret"
+        },
+        {
+          "id": "83a4e97a-375a-49c8-aee8-86503af501b5",
+          "card": "698aee3e-ea52-402d-a85d-d383a4a4818a",
+          "suffix": "002",
+          "rarity": "secret"
+        },
+        {
+          "id": "3c668f68-d44f-4eab-9181-456a85d5dce6",
+          "card": "caacbc89-1a7d-45d1-8c0d-2b791ca7858b",
+          "suffix": "003",
+          "rarity": "secret"
+        },
+        {
+          "id": "2c320edb-db26-44d6-b0a4-e6ba242e62e3",
+          "card": "fb76a854-1ddc-4d4e-b1de-f2b515333ae8",
+          "suffix": "004",
+          "rarity": "secret"
+        },
+        {
+          "id": "5eefbd63-7240-431f-82cf-178997195a84",
+          "card": "e820de83-d9af-41de-bb30-69baf204570b",
+          "suffix": "005",
+          "rarity": "secret"
+        },
+        {
+          "id": "24d451fb-8798-410a-9ad3-4807678a1140",
+          "card": "98c5621e-1c76-4039-bccc-008e02b144ac",
+          "suffix": "006",
+          "rarity": "secret"
+        },
+        {
+          "id": "7ee6a42f-ac12-4454-b432-91a692294593",
+          "card": "896d3898-5535-4068-8d40-46be55b62f1c",
+          "suffix": "007",
+          "rarity": "secret"
+        },
+        {
+          "id": "f06b2ae0-244b-424b-aa05-5e8aa3c4597f",
+          "card": "1b7d00d1-7756-4ae5-a862-b542993c03e6",
+          "suffix": "008",
+          "rarity": "super"
+        },
+        {
+          "id": "feae55a6-7feb-4aa6-80b5-e9921f0d3eae",
+          "card": "1f254313-5976-435b-a26b-6075b829e606",
+          "suffix": "009",
+          "rarity": "super"
+        },
+        {
+          "id": "c096423e-6018-439e-857c-57f419539616",
+          "card": "55dd2675-c25c-4ac1-adb1-0b2683afa158",
+          "suffix": "010",
+          "rarity": "secret"
+        },
+        {
+          "id": "3c0fc5ff-c8eb-44df-a187-615d892e51c5",
+          "card": "722c71dc-0280-4058-aa2d-2c5de0a9404c",
+          "suffix": "011",
+          "rarity": "super"
+        },
+        {
+          "id": "4190c872-cc1f-4fd8-a945-fa7bd7f50803",
+          "card": "4b94688f-a8d1-4255-864e-658add1bde4d",
+          "suffix": "012",
+          "rarity": "super"
+        },
+        {
+          "id": "932dd1a0-3837-4d33-b3c9-f2eae890c5ae",
+          "card": "c37898fd-0ead-4a9e-9ff4-a8c6dbeea04d",
+          "suffix": "013",
+          "rarity": "secret"
+        },
+        {
+          "id": "09d13207-89a1-48bd-96e7-67931628680d",
+          "card": "8af617e2-be77-4f9e-ae77-3d1655b47221",
+          "suffix": "014",
+          "rarity": "super"
+        },
+        {
+          "id": "a6148cd7-0db6-4d66-9239-e2db56380036",
+          "card": "dca4410e-bc66-4afa-aff2-8ee8364d825b",
+          "suffix": "015",
+          "rarity": "super"
+        },
+        {
+          "id": "12e3c68c-e3e8-472a-862d-1452e67f51fd",
+          "card": "6ca0e6bb-3c26-4c94-a471-7ce5171be509",
+          "suffix": "016",
+          "rarity": "super"
+        },
+        {
+          "id": "8e0fcd34-42f2-47d7-bbe0-d4b7186cf855",
+          "card": "b2b484f5-b56c-4de0-8992-2db752ef5651",
+          "suffix": "017",
+          "rarity": "super"
+        },
+        {
+          "id": "8eee6f32-8f13-4eb9-999d-8b70e54e03aa",
+          "card": "370a601f-0342-4ecd-a809-174c89dfb485",
+          "suffix": "018",
+          "rarity": "super"
+        },
+        {
+          "id": "de156127-dfe6-4df7-9132-588974386ca0",
+          "card": "7fd2c879-e6cd-4e10-8deb-afe5a1a12bc2",
+          "suffix": "019",
+          "rarity": "super"
+        },
+        {
+          "id": "ad6c8b01-c16f-4744-a2d3-ce26177cc90f",
+          "card": "5e10b689-59de-41cb-8d1e-1c801c3f8497",
+          "suffix": "020",
+          "rarity": "super"
+        },
+        {
+          "id": "9a9bcbb1-5077-47a8-bb50-f51281164c06",
+          "card": "b8875cac-ab87-4cf2-8ecc-41b5987b8199",
+          "suffix": "021",
+          "rarity": "secret"
+        },
+        {
+          "id": "14e62bba-c6ea-4aaa-9127-2b7af45400b5",
+          "card": "d91bed4a-9a52-4c3c-ba47-1da2a2376329",
+          "suffix": "022",
+          "rarity": "super"
+        },
+        {
+          "id": "5d53f9eb-245d-482c-aa6a-c331909dd837",
+          "card": "3df6dba8-988b-4eb1-9889-2a5990d8a2bd",
+          "suffix": "023",
+          "rarity": "secret"
+        },
+        {
+          "id": "081e51ea-970d-4f55-b23c-0d0edef639a6",
+          "card": "1939e641-8520-4e94-802b-5fd0ed76c25b",
+          "suffix": "024",
+          "rarity": "secret"
+        },
+        {
+          "id": "6d714d47-c5b0-412b-9f38-fa0989d61634",
+          "card": "9fe98947-91f4-4c95-af35-12562043ff3a",
+          "suffix": "025",
+          "rarity": "secret"
+        },
+        {
+          "id": "240895f7-3293-41ab-b21f-e362afc85be0",
+          "card": "61c453cf-c3b7-438a-ab3d-4cb607ef9783",
+          "suffix": "026",
+          "rarity": "secret"
+        },
+        {
+          "id": "efc77c79-edd8-441b-9866-f09612008a3e",
+          "card": "a85e7911-13c3-4e06-942b-19a4acb01cd2",
+          "suffix": "027",
+          "rarity": "super"
+        },
+        {
+          "id": "d15c7d7a-e35a-4970-b7d2-3df202a37bb6",
+          "card": "a83b66b0-e651-481f-b53b-b6fc177fcb01",
+          "suffix": "028",
+          "rarity": "super"
+        },
+        {
+          "id": "93e032b1-58fe-4553-a26a-7bbef8042ea9",
+          "card": "418fca1a-6ac6-4adf-99db-30c342822465",
+          "suffix": "029",
+          "rarity": "super"
+        },
+        {
+          "id": "a220968b-641c-4a14-9f70-29801e345edc",
+          "card": "1685da95-ebdc-4f20-87f3-8e49eb3a2e54",
+          "suffix": "030",
+          "rarity": "secret"
+        },
+        {
+          "id": "d03f0c72-a91a-4837-a743-bf8d5bddc78c",
+          "card": "98c7b5ff-92ff-4485-9eaa-98d0c74828b2",
+          "suffix": "031",
+          "rarity": "super"
+        },
+        {
+          "id": "bc28a344-7ff8-42fd-a18d-d298ec5bd2eb",
+          "card": "ddda8973-beaa-442c-862f-7daaa764f07b",
+          "suffix": "032",
+          "rarity": "super"
+        },
+        {
+          "id": "3f825c89-da58-4ed0-8219-b92af1a70f84",
+          "card": "78e6358d-ece8-4a39-8e41-6110c551b540",
+          "suffix": "033",
+          "rarity": "super"
+        },
+        {
+          "id": "9a040adb-518c-43a8-b9cf-cec18a53e76b",
+          "card": "0944647e-457d-42d5-81ce-e96b51ca69bc",
+          "suffix": "034",
+          "rarity": "secret"
+        },
+        {
+          "id": "f5d78626-4196-4e91-8322-d09e04134c2d",
+          "card": "171911fd-d6b7-4526-b409-524c613c6e46",
+          "suffix": "035",
+          "rarity": "super"
+        },
+        {
+          "id": "422102cf-9e9f-4fbd-b375-1e381925fc31",
+          "card": "1a515b1a-b32e-499e-939d-020e1fe82fc6",
+          "suffix": "036",
+          "rarity": "super"
+        },
+        {
+          "id": "fa67e86a-7822-4a81-97dd-ea91982ca21f",
+          "card": "163613c5-1ec4-4847-a106-1e08214bac59",
+          "suffix": "037",
+          "rarity": "secret"
+        },
+        {
+          "id": "653b2609-0f06-482b-b9d7-e86ca1280ff6",
+          "card": "65786eea-8371-469a-abe2-e91b33953269",
+          "suffix": "038",
+          "rarity": "super"
+        },
+        {
+          "id": "e5401836-da5f-4e65-84b4-ebbca086609a",
+          "card": "986b9836-1132-4fe8-b929-b0ed907882e7",
+          "suffix": "039",
+          "rarity": "super"
+        },
+        {
+          "id": "3cc1dc85-233b-4ae1-994a-7d7256cb547d",
+          "card": "c338a477-1f38-4cc7-ac0e-d620f5799ce2",
+          "suffix": "040",
+          "rarity": "super"
+        },
+        {
+          "id": "82aba6ca-2c09-4a22-9e7d-49bbafb41fc1",
+          "card": "64cffcee-6403-4a8b-8b9c-b39de9c94b84",
+          "suffix": "041",
+          "rarity": "super"
+        },
+        {
+          "id": "b5a95bc0-195a-425a-8daa-63ea096f6519",
+          "card": "e6a49bf1-9f21-4b02-a495-d08e2ba70fa5",
+          "suffix": "042",
+          "rarity": "secret"
+        },
+        {
+          "id": "65ba1137-9a50-4141-adeb-6cc898159814",
+          "card": "cfe40f80-8eb1-467a-b8c9-162ebc819ccd",
+          "suffix": "043",
+          "rarity": "super"
+        },
+        {
+          "id": "121542f4-7737-4a15-b8be-ebc2a1d51864",
+          "card": "7c39a467-70dc-4b2f-9aca-0ad52b240f3a",
+          "suffix": "044",
+          "rarity": "secret"
+        },
+        {
+          "id": "d7c513b2-d3dc-4a32-804d-14d9ff7a0fe6",
+          "card": "861fc8c1-b031-41e2-a89a-7ef362e2c3cf",
+          "suffix": "045",
+          "rarity": "super"
+        },
+        {
+          "id": "a767b429-3df7-4512-8b2f-956f5aefb376",
+          "card": "5e77b7de-a707-4159-a4ea-eb1dadc3c1be",
+          "suffix": "046",
+          "rarity": "secret"
+        },
+        {
+          "id": "5f01615f-a483-4dd7-b021-9efd2f2bc51f",
+          "card": "1e81aa26-4256-4114-a75d-b849a053771e",
+          "suffix": "047",
+          "rarity": "secret"
+        },
+        {
+          "id": "ffabe7b7-8060-40a2-9e61-bba5109bb56e",
+          "card": "4c46a3fe-a276-4fdd-bac3-dc1e1af01d96",
+          "suffix": "048",
+          "rarity": "super"
+        },
+        {
+          "id": "5a78cfa0-a9f4-40cf-a6dc-60b098256c73",
+          "card": "bbb2a233-4fc3-4f72-a612-a295af15f399",
+          "suffix": "049",
+          "rarity": "super"
+        },
+        {
+          "id": "a1a33f09-4382-4801-815c-e0ae5af2546c",
+          "card": "d157ffb0-645c-4aca-8b76-645ccf9a7686",
+          "suffix": "050",
+          "rarity": "super"
+        },
+        {
+          "id": "c3b32dce-3da9-4be3-ae2c-96cc062d753b",
+          "card": "531a081d-da64-4421-a0a1-3b4bbc22d807",
+          "suffix": "051",
+          "rarity": "super"
+        }
+      ],
+      "externalIDs": {
+        "ygoprodeck": "Dragons of Legend"
+      }
+    },
+    {
+      "locales": [
+        "sp"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "packsPerBox": 24,
+      "editions": [
+        "1st"
+      ],
+      "image": "https://ms.yugipedia.com//3/3a/DRLG-BoosterSP.jpg",
+      "cards": [
+        {
+          "id": "38abee15-4301-4454-a97a-20adfe6c7c17",
+          "card": "15d94b6d-cc02-4f38-8b6a-97d3db1ff7bc",
+          "suffix": "001",
+          "rarity": "secret"
+        },
+        {
+          "id": "83a4e97a-375a-49c8-aee8-86503af501b5",
+          "card": "698aee3e-ea52-402d-a85d-d383a4a4818a",
+          "suffix": "002",
+          "rarity": "secret"
+        },
+        {
+          "id": "3c668f68-d44f-4eab-9181-456a85d5dce6",
+          "card": "caacbc89-1a7d-45d1-8c0d-2b791ca7858b",
+          "suffix": "003",
+          "rarity": "secret"
+        },
+        {
+          "id": "2c320edb-db26-44d6-b0a4-e6ba242e62e3",
+          "card": "fb76a854-1ddc-4d4e-b1de-f2b515333ae8",
+          "suffix": "004",
+          "rarity": "secret"
+        },
+        {
+          "id": "5eefbd63-7240-431f-82cf-178997195a84",
+          "card": "e820de83-d9af-41de-bb30-69baf204570b",
+          "suffix": "005",
+          "rarity": "secret"
+        },
+        {
+          "id": "24d451fb-8798-410a-9ad3-4807678a1140",
+          "card": "98c5621e-1c76-4039-bccc-008e02b144ac",
+          "suffix": "006",
+          "rarity": "secret"
+        },
+        {
+          "id": "7ee6a42f-ac12-4454-b432-91a692294593",
+          "card": "896d3898-5535-4068-8d40-46be55b62f1c",
+          "suffix": "007",
+          "rarity": "secret"
+        },
+        {
+          "id": "f06b2ae0-244b-424b-aa05-5e8aa3c4597f",
+          "card": "1b7d00d1-7756-4ae5-a862-b542993c03e6",
+          "suffix": "008",
+          "rarity": "super"
+        },
+        {
+          "id": "feae55a6-7feb-4aa6-80b5-e9921f0d3eae",
+          "card": "1f254313-5976-435b-a26b-6075b829e606",
+          "suffix": "009",
+          "rarity": "super"
+        },
+        {
+          "id": "c096423e-6018-439e-857c-57f419539616",
+          "card": "55dd2675-c25c-4ac1-adb1-0b2683afa158",
+          "suffix": "010",
+          "rarity": "secret"
+        },
+        {
+          "id": "3c0fc5ff-c8eb-44df-a187-615d892e51c5",
+          "card": "722c71dc-0280-4058-aa2d-2c5de0a9404c",
+          "suffix": "011",
+          "rarity": "super"
+        },
+        {
+          "id": "4190c872-cc1f-4fd8-a945-fa7bd7f50803",
+          "card": "4b94688f-a8d1-4255-864e-658add1bde4d",
+          "suffix": "012",
+          "rarity": "super"
+        },
+        {
+          "id": "932dd1a0-3837-4d33-b3c9-f2eae890c5ae",
+          "card": "c37898fd-0ead-4a9e-9ff4-a8c6dbeea04d",
+          "suffix": "013",
+          "rarity": "secret"
+        },
+        {
+          "id": "09d13207-89a1-48bd-96e7-67931628680d",
+          "card": "8af617e2-be77-4f9e-ae77-3d1655b47221",
+          "suffix": "014",
+          "rarity": "super"
+        },
+        {
+          "id": "a6148cd7-0db6-4d66-9239-e2db56380036",
+          "card": "dca4410e-bc66-4afa-aff2-8ee8364d825b",
+          "suffix": "015",
+          "rarity": "super"
+        },
+        {
+          "id": "12e3c68c-e3e8-472a-862d-1452e67f51fd",
+          "card": "6ca0e6bb-3c26-4c94-a471-7ce5171be509",
+          "suffix": "016",
+          "rarity": "super"
+        },
+        {
+          "id": "8e0fcd34-42f2-47d7-bbe0-d4b7186cf855",
+          "card": "b2b484f5-b56c-4de0-8992-2db752ef5651",
+          "suffix": "017",
+          "rarity": "super"
+        },
+        {
+          "id": "8eee6f32-8f13-4eb9-999d-8b70e54e03aa",
+          "card": "370a601f-0342-4ecd-a809-174c89dfb485",
+          "suffix": "018",
+          "rarity": "super"
+        },
+        {
+          "id": "de156127-dfe6-4df7-9132-588974386ca0",
+          "card": "7fd2c879-e6cd-4e10-8deb-afe5a1a12bc2",
+          "suffix": "019",
+          "rarity": "super"
+        },
+        {
+          "id": "ad6c8b01-c16f-4744-a2d3-ce26177cc90f",
+          "card": "5e10b689-59de-41cb-8d1e-1c801c3f8497",
+          "suffix": "020",
+          "rarity": "super"
+        },
+        {
+          "id": "9a9bcbb1-5077-47a8-bb50-f51281164c06",
+          "card": "b8875cac-ab87-4cf2-8ecc-41b5987b8199",
+          "suffix": "021",
+          "rarity": "secret"
+        },
+        {
+          "id": "14e62bba-c6ea-4aaa-9127-2b7af45400b5",
+          "card": "d91bed4a-9a52-4c3c-ba47-1da2a2376329",
+          "suffix": "022",
+          "rarity": "super"
+        },
+        {
+          "id": "5d53f9eb-245d-482c-aa6a-c331909dd837",
+          "card": "3df6dba8-988b-4eb1-9889-2a5990d8a2bd",
+          "suffix": "023",
+          "rarity": "secret"
+        },
+        {
+          "id": "081e51ea-970d-4f55-b23c-0d0edef639a6",
+          "card": "1939e641-8520-4e94-802b-5fd0ed76c25b",
+          "suffix": "024",
+          "rarity": "secret"
+        },
+        {
+          "id": "6d714d47-c5b0-412b-9f38-fa0989d61634",
+          "card": "9fe98947-91f4-4c95-af35-12562043ff3a",
+          "suffix": "025",
+          "rarity": "secret"
+        },
+        {
+          "id": "240895f7-3293-41ab-b21f-e362afc85be0",
+          "card": "61c453cf-c3b7-438a-ab3d-4cb607ef9783",
+          "suffix": "026",
+          "rarity": "secret"
+        },
+        {
+          "id": "efc77c79-edd8-441b-9866-f09612008a3e",
+          "card": "a85e7911-13c3-4e06-942b-19a4acb01cd2",
+          "suffix": "027",
+          "rarity": "super"
+        },
+        {
+          "id": "d15c7d7a-e35a-4970-b7d2-3df202a37bb6",
+          "card": "a83b66b0-e651-481f-b53b-b6fc177fcb01",
+          "suffix": "028",
+          "rarity": "super"
+        },
+        {
+          "id": "93e032b1-58fe-4553-a26a-7bbef8042ea9",
+          "card": "418fca1a-6ac6-4adf-99db-30c342822465",
+          "suffix": "029",
+          "rarity": "super"
+        },
+        {
+          "id": "a220968b-641c-4a14-9f70-29801e345edc",
+          "card": "1685da95-ebdc-4f20-87f3-8e49eb3a2e54",
+          "suffix": "030",
+          "rarity": "secret"
+        },
+        {
+          "id": "d03f0c72-a91a-4837-a743-bf8d5bddc78c",
+          "card": "98c7b5ff-92ff-4485-9eaa-98d0c74828b2",
+          "suffix": "031",
+          "rarity": "super"
+        },
+        {
+          "id": "bc28a344-7ff8-42fd-a18d-d298ec5bd2eb",
+          "card": "ddda8973-beaa-442c-862f-7daaa764f07b",
+          "suffix": "032",
+          "rarity": "super"
+        },
+        {
+          "id": "3f825c89-da58-4ed0-8219-b92af1a70f84",
+          "card": "78e6358d-ece8-4a39-8e41-6110c551b540",
+          "suffix": "033",
+          "rarity": "super"
+        },
+        {
+          "id": "9a040adb-518c-43a8-b9cf-cec18a53e76b",
+          "card": "0944647e-457d-42d5-81ce-e96b51ca69bc",
+          "suffix": "034",
+          "rarity": "secret"
+        },
+        {
+          "id": "f5d78626-4196-4e91-8322-d09e04134c2d",
+          "card": "171911fd-d6b7-4526-b409-524c613c6e46",
+          "suffix": "035",
+          "rarity": "super"
+        },
+        {
+          "id": "422102cf-9e9f-4fbd-b375-1e381925fc31",
+          "card": "1a515b1a-b32e-499e-939d-020e1fe82fc6",
+          "suffix": "036",
+          "rarity": "super"
+        },
+        {
+          "id": "fa67e86a-7822-4a81-97dd-ea91982ca21f",
+          "card": "163613c5-1ec4-4847-a106-1e08214bac59",
+          "suffix": "037",
+          "rarity": "secret"
+        },
+        {
+          "id": "653b2609-0f06-482b-b9d7-e86ca1280ff6",
+          "card": "65786eea-8371-469a-abe2-e91b33953269",
+          "suffix": "038",
+          "rarity": "super"
+        },
+        {
+          "id": "e5401836-da5f-4e65-84b4-ebbca086609a",
+          "card": "986b9836-1132-4fe8-b929-b0ed907882e7",
+          "suffix": "039",
+          "rarity": "super"
+        },
+        {
+          "id": "3cc1dc85-233b-4ae1-994a-7d7256cb547d",
+          "card": "c338a477-1f38-4cc7-ac0e-d620f5799ce2",
+          "suffix": "040",
+          "rarity": "super"
+        },
+        {
+          "id": "82aba6ca-2c09-4a22-9e7d-49bbafb41fc1",
+          "card": "64cffcee-6403-4a8b-8b9c-b39de9c94b84",
+          "suffix": "041",
+          "rarity": "super"
+        },
+        {
+          "id": "b5a95bc0-195a-425a-8daa-63ea096f6519",
+          "card": "e6a49bf1-9f21-4b02-a495-d08e2ba70fa5",
+          "suffix": "042",
+          "rarity": "secret"
+        },
+        {
+          "id": "65ba1137-9a50-4141-adeb-6cc898159814",
+          "card": "cfe40f80-8eb1-467a-b8c9-162ebc819ccd",
+          "suffix": "043",
+          "rarity": "super"
+        },
+        {
+          "id": "121542f4-7737-4a15-b8be-ebc2a1d51864",
+          "card": "7c39a467-70dc-4b2f-9aca-0ad52b240f3a",
+          "suffix": "044",
+          "rarity": "secret"
+        },
+        {
+          "id": "d7c513b2-d3dc-4a32-804d-14d9ff7a0fe6",
+          "card": "861fc8c1-b031-41e2-a89a-7ef362e2c3cf",
+          "suffix": "045",
+          "rarity": "super"
+        },
+        {
+          "id": "a767b429-3df7-4512-8b2f-956f5aefb376",
+          "card": "5e77b7de-a707-4159-a4ea-eb1dadc3c1be",
+          "suffix": "046",
+          "rarity": "secret"
+        },
+        {
+          "id": "5f01615f-a483-4dd7-b021-9efd2f2bc51f",
+          "card": "1e81aa26-4256-4114-a75d-b849a053771e",
+          "suffix": "047",
+          "rarity": "secret"
+        },
+        {
+          "id": "ffabe7b7-8060-40a2-9e61-bba5109bb56e",
+          "card": "4c46a3fe-a276-4fdd-bac3-dc1e1af01d96",
+          "suffix": "048",
+          "rarity": "super"
+        },
+        {
+          "id": "5a78cfa0-a9f4-40cf-a6dc-60b098256c73",
+          "card": "bbb2a233-4fc3-4f72-a612-a295af15f399",
+          "suffix": "049",
+          "rarity": "super"
+        },
+        {
+          "id": "a1a33f09-4382-4801-815c-e0ae5af2546c",
+          "card": "d157ffb0-645c-4aca-8b76-645ccf9a7686",
+          "suffix": "050",
+          "rarity": "super"
+        },
+        {
+          "id": "c3b32dce-3da9-4be3-ae2c-96cc062d753b",
+          "card": "531a081d-da64-4421-a0a1-3b4bbc22d807",
+          "suffix": "051",
+          "rarity": "super"
+        }
+      ],
+      "externalIDs": {
+        "ygoprodeck": "Dragons of Legend"
+      }
+    },
+    {
+      "locales": [
+        "pt"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "packsPerBox": 24,
+      "editions": [
+        "1st"
+      ],
+      "image": "https://ms.yugipedia.com//0/0b/DRLG-BoosterPT.png",
+      "cards": [
+        {
+          "id": "38abee15-4301-4454-a97a-20adfe6c7c17",
+          "card": "15d94b6d-cc02-4f38-8b6a-97d3db1ff7bc",
+          "suffix": "001",
+          "rarity": "secret"
+        },
+        {
+          "id": "83a4e97a-375a-49c8-aee8-86503af501b5",
+          "card": "698aee3e-ea52-402d-a85d-d383a4a4818a",
+          "suffix": "002",
+          "rarity": "secret"
+        },
+        {
+          "id": "3c668f68-d44f-4eab-9181-456a85d5dce6",
+          "card": "caacbc89-1a7d-45d1-8c0d-2b791ca7858b",
+          "suffix": "003",
+          "rarity": "secret"
+        },
+        {
+          "id": "2c320edb-db26-44d6-b0a4-e6ba242e62e3",
+          "card": "fb76a854-1ddc-4d4e-b1de-f2b515333ae8",
+          "suffix": "004",
+          "rarity": "secret"
+        },
+        {
+          "id": "5eefbd63-7240-431f-82cf-178997195a84",
+          "card": "e820de83-d9af-41de-bb30-69baf204570b",
+          "suffix": "005",
+          "rarity": "secret"
+        },
+        {
+          "id": "24d451fb-8798-410a-9ad3-4807678a1140",
+          "card": "98c5621e-1c76-4039-bccc-008e02b144ac",
+          "suffix": "006",
+          "rarity": "secret"
+        },
+        {
+          "id": "7ee6a42f-ac12-4454-b432-91a692294593",
+          "card": "896d3898-5535-4068-8d40-46be55b62f1c",
+          "suffix": "007",
+          "rarity": "secret"
+        },
+        {
+          "id": "f06b2ae0-244b-424b-aa05-5e8aa3c4597f",
+          "card": "1b7d00d1-7756-4ae5-a862-b542993c03e6",
+          "suffix": "008",
+          "rarity": "super"
+        },
+        {
+          "id": "feae55a6-7feb-4aa6-80b5-e9921f0d3eae",
+          "card": "1f254313-5976-435b-a26b-6075b829e606",
+          "suffix": "009",
+          "rarity": "super"
+        },
+        {
+          "id": "c096423e-6018-439e-857c-57f419539616",
+          "card": "55dd2675-c25c-4ac1-adb1-0b2683afa158",
+          "suffix": "010",
+          "rarity": "secret"
+        },
+        {
+          "id": "3c0fc5ff-c8eb-44df-a187-615d892e51c5",
+          "card": "722c71dc-0280-4058-aa2d-2c5de0a9404c",
+          "suffix": "011",
+          "rarity": "super"
+        },
+        {
+          "id": "4190c872-cc1f-4fd8-a945-fa7bd7f50803",
+          "card": "4b94688f-a8d1-4255-864e-658add1bde4d",
+          "suffix": "012",
+          "rarity": "super"
+        },
+        {
+          "id": "932dd1a0-3837-4d33-b3c9-f2eae890c5ae",
+          "card": "c37898fd-0ead-4a9e-9ff4-a8c6dbeea04d",
+          "suffix": "013",
+          "rarity": "secret"
+        },
+        {
+          "id": "09d13207-89a1-48bd-96e7-67931628680d",
+          "card": "8af617e2-be77-4f9e-ae77-3d1655b47221",
+          "suffix": "014",
+          "rarity": "super"
+        },
+        {
+          "id": "a6148cd7-0db6-4d66-9239-e2db56380036",
+          "card": "dca4410e-bc66-4afa-aff2-8ee8364d825b",
+          "suffix": "015",
+          "rarity": "super"
+        },
+        {
+          "id": "12e3c68c-e3e8-472a-862d-1452e67f51fd",
+          "card": "6ca0e6bb-3c26-4c94-a471-7ce5171be509",
+          "suffix": "016",
+          "rarity": "super"
+        },
+        {
+          "id": "8e0fcd34-42f2-47d7-bbe0-d4b7186cf855",
+          "card": "b2b484f5-b56c-4de0-8992-2db752ef5651",
+          "suffix": "017",
+          "rarity": "super"
+        },
+        {
+          "id": "8eee6f32-8f13-4eb9-999d-8b70e54e03aa",
+          "card": "370a601f-0342-4ecd-a809-174c89dfb485",
+          "suffix": "018",
+          "rarity": "super"
+        },
+        {
+          "id": "de156127-dfe6-4df7-9132-588974386ca0",
+          "card": "7fd2c879-e6cd-4e10-8deb-afe5a1a12bc2",
+          "suffix": "019",
+          "rarity": "super"
+        },
+        {
+          "id": "ad6c8b01-c16f-4744-a2d3-ce26177cc90f",
+          "card": "5e10b689-59de-41cb-8d1e-1c801c3f8497",
+          "suffix": "020",
+          "rarity": "super"
+        },
+        {
+          "id": "9a9bcbb1-5077-47a8-bb50-f51281164c06",
+          "card": "b8875cac-ab87-4cf2-8ecc-41b5987b8199",
+          "suffix": "021",
+          "rarity": "secret"
+        },
+        {
+          "id": "14e62bba-c6ea-4aaa-9127-2b7af45400b5",
+          "card": "d91bed4a-9a52-4c3c-ba47-1da2a2376329",
+          "suffix": "022",
+          "rarity": "super"
+        },
+        {
+          "id": "5d53f9eb-245d-482c-aa6a-c331909dd837",
+          "card": "3df6dba8-988b-4eb1-9889-2a5990d8a2bd",
+          "suffix": "023",
+          "rarity": "secret"
+        },
+        {
+          "id": "081e51ea-970d-4f55-b23c-0d0edef639a6",
+          "card": "1939e641-8520-4e94-802b-5fd0ed76c25b",
+          "suffix": "024",
+          "rarity": "secret"
+        },
+        {
+          "id": "6d714d47-c5b0-412b-9f38-fa0989d61634",
+          "card": "9fe98947-91f4-4c95-af35-12562043ff3a",
+          "suffix": "025",
+          "rarity": "secret"
+        },
+        {
+          "id": "240895f7-3293-41ab-b21f-e362afc85be0",
+          "card": "61c453cf-c3b7-438a-ab3d-4cb607ef9783",
+          "suffix": "026",
+          "rarity": "secret"
+        },
+        {
+          "id": "efc77c79-edd8-441b-9866-f09612008a3e",
+          "card": "a85e7911-13c3-4e06-942b-19a4acb01cd2",
+          "suffix": "027",
+          "rarity": "super"
+        },
+        {
+          "id": "d15c7d7a-e35a-4970-b7d2-3df202a37bb6",
+          "card": "a83b66b0-e651-481f-b53b-b6fc177fcb01",
+          "suffix": "028",
+          "rarity": "super"
+        },
+        {
+          "id": "93e032b1-58fe-4553-a26a-7bbef8042ea9",
+          "card": "418fca1a-6ac6-4adf-99db-30c342822465",
+          "suffix": "029",
+          "rarity": "super"
+        },
+        {
+          "id": "a220968b-641c-4a14-9f70-29801e345edc",
+          "card": "1685da95-ebdc-4f20-87f3-8e49eb3a2e54",
+          "suffix": "030",
+          "rarity": "secret"
+        },
+        {
+          "id": "d03f0c72-a91a-4837-a743-bf8d5bddc78c",
+          "card": "98c7b5ff-92ff-4485-9eaa-98d0c74828b2",
+          "suffix": "031",
+          "rarity": "super"
+        },
+        {
+          "id": "bc28a344-7ff8-42fd-a18d-d298ec5bd2eb",
+          "card": "ddda8973-beaa-442c-862f-7daaa764f07b",
+          "suffix": "032",
+          "rarity": "super"
+        },
+        {
+          "id": "3f825c89-da58-4ed0-8219-b92af1a70f84",
+          "card": "78e6358d-ece8-4a39-8e41-6110c551b540",
+          "suffix": "033",
+          "rarity": "super"
+        },
+        {
+          "id": "9a040adb-518c-43a8-b9cf-cec18a53e76b",
+          "card": "0944647e-457d-42d5-81ce-e96b51ca69bc",
+          "suffix": "034",
+          "rarity": "secret"
+        },
+        {
+          "id": "f5d78626-4196-4e91-8322-d09e04134c2d",
+          "card": "171911fd-d6b7-4526-b409-524c613c6e46",
+          "suffix": "035",
+          "rarity": "super"
+        },
+        {
+          "id": "422102cf-9e9f-4fbd-b375-1e381925fc31",
+          "card": "1a515b1a-b32e-499e-939d-020e1fe82fc6",
+          "suffix": "036",
+          "rarity": "super"
+        },
+        {
+          "id": "fa67e86a-7822-4a81-97dd-ea91982ca21f",
+          "card": "163613c5-1ec4-4847-a106-1e08214bac59",
+          "suffix": "037",
+          "rarity": "secret"
+        },
+        {
+          "id": "653b2609-0f06-482b-b9d7-e86ca1280ff6",
+          "card": "65786eea-8371-469a-abe2-e91b33953269",
+          "suffix": "038",
+          "rarity": "super"
+        },
+        {
+          "id": "e5401836-da5f-4e65-84b4-ebbca086609a",
+          "card": "986b9836-1132-4fe8-b929-b0ed907882e7",
+          "suffix": "039",
+          "rarity": "super"
+        },
+        {
+          "id": "3cc1dc85-233b-4ae1-994a-7d7256cb547d",
+          "card": "c338a477-1f38-4cc7-ac0e-d620f5799ce2",
+          "suffix": "040",
+          "rarity": "super"
+        },
+        {
+          "id": "82aba6ca-2c09-4a22-9e7d-49bbafb41fc1",
+          "card": "64cffcee-6403-4a8b-8b9c-b39de9c94b84",
+          "suffix": "041",
+          "rarity": "super"
+        },
+        {
+          "id": "b5a95bc0-195a-425a-8daa-63ea096f6519",
+          "card": "e6a49bf1-9f21-4b02-a495-d08e2ba70fa5",
+          "suffix": "042",
+          "rarity": "secret"
+        },
+        {
+          "id": "65ba1137-9a50-4141-adeb-6cc898159814",
+          "card": "cfe40f80-8eb1-467a-b8c9-162ebc819ccd",
+          "suffix": "043",
+          "rarity": "super"
+        },
+        {
+          "id": "121542f4-7737-4a15-b8be-ebc2a1d51864",
+          "card": "7c39a467-70dc-4b2f-9aca-0ad52b240f3a",
+          "suffix": "044",
+          "rarity": "secret"
+        },
+        {
+          "id": "d7c513b2-d3dc-4a32-804d-14d9ff7a0fe6",
+          "card": "861fc8c1-b031-41e2-a89a-7ef362e2c3cf",
+          "suffix": "045",
+          "rarity": "super"
+        },
+        {
+          "id": "a767b429-3df7-4512-8b2f-956f5aefb376",
+          "card": "5e77b7de-a707-4159-a4ea-eb1dadc3c1be",
+          "suffix": "046",
+          "rarity": "secret"
+        },
+        {
+          "id": "5f01615f-a483-4dd7-b021-9efd2f2bc51f",
+          "card": "1e81aa26-4256-4114-a75d-b849a053771e",
+          "suffix": "047",
+          "rarity": "secret"
+        },
+        {
+          "id": "ffabe7b7-8060-40a2-9e61-bba5109bb56e",
+          "card": "4c46a3fe-a276-4fdd-bac3-dc1e1af01d96",
+          "suffix": "048",
+          "rarity": "super"
+        },
+        {
+          "id": "5a78cfa0-a9f4-40cf-a6dc-60b098256c73",
+          "card": "bbb2a233-4fc3-4f72-a612-a295af15f399",
+          "suffix": "049",
+          "rarity": "super"
+        },
+        {
+          "id": "a1a33f09-4382-4801-815c-e0ae5af2546c",
+          "card": "d157ffb0-645c-4aca-8b76-645ccf9a7686",
+          "suffix": "050",
+          "rarity": "super"
+        },
+        {
+          "id": "c3b32dce-3da9-4be3-ae2c-96cc062d753b",
+          "card": "531a081d-da64-4421-a0a1-3b4bbc22d807",
+          "suffix": "051",
+          "rarity": "super"
+        }
+      ],
+      "externalIDs": {
+        "ygoprodeck": "Dragons of Legend"
+      }
+    },
+    {
+      "locales": [
+        "it"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "packsPerBox": 24,
+      "editions": [
+        "1st"
+      ],
+      "image": "https://ms.yugipedia.com//7/7b/DRLG-BoosterIT.png",
+      "cards": [
+        {
+          "id": "38abee15-4301-4454-a97a-20adfe6c7c17",
+          "card": "15d94b6d-cc02-4f38-8b6a-97d3db1ff7bc",
+          "suffix": "001",
+          "rarity": "secret"
+        },
+        {
+          "id": "83a4e97a-375a-49c8-aee8-86503af501b5",
+          "card": "698aee3e-ea52-402d-a85d-d383a4a4818a",
+          "suffix": "002",
+          "rarity": "secret"
+        },
+        {
+          "id": "3c668f68-d44f-4eab-9181-456a85d5dce6",
+          "card": "caacbc89-1a7d-45d1-8c0d-2b791ca7858b",
+          "suffix": "003",
+          "rarity": "secret"
+        },
+        {
+          "id": "2c320edb-db26-44d6-b0a4-e6ba242e62e3",
+          "card": "fb76a854-1ddc-4d4e-b1de-f2b515333ae8",
+          "suffix": "004",
+          "rarity": "secret"
+        },
+        {
+          "id": "5eefbd63-7240-431f-82cf-178997195a84",
+          "card": "e820de83-d9af-41de-bb30-69baf204570b",
+          "suffix": "005",
+          "rarity": "secret"
+        },
+        {
+          "id": "24d451fb-8798-410a-9ad3-4807678a1140",
+          "card": "98c5621e-1c76-4039-bccc-008e02b144ac",
+          "suffix": "006",
+          "rarity": "secret"
+        },
+        {
+          "id": "7ee6a42f-ac12-4454-b432-91a692294593",
+          "card": "896d3898-5535-4068-8d40-46be55b62f1c",
+          "suffix": "007",
+          "rarity": "secret"
+        },
+        {
+          "id": "f06b2ae0-244b-424b-aa05-5e8aa3c4597f",
+          "card": "1b7d00d1-7756-4ae5-a862-b542993c03e6",
+          "suffix": "008",
+          "rarity": "super"
+        },
+        {
+          "id": "feae55a6-7feb-4aa6-80b5-e9921f0d3eae",
+          "card": "1f254313-5976-435b-a26b-6075b829e606",
+          "suffix": "009",
+          "rarity": "super"
+        },
+        {
+          "id": "c096423e-6018-439e-857c-57f419539616",
+          "card": "55dd2675-c25c-4ac1-adb1-0b2683afa158",
+          "suffix": "010",
+          "rarity": "secret"
+        },
+        {
+          "id": "3c0fc5ff-c8eb-44df-a187-615d892e51c5",
+          "card": "722c71dc-0280-4058-aa2d-2c5de0a9404c",
+          "suffix": "011",
+          "rarity": "super"
+        },
+        {
+          "id": "4190c872-cc1f-4fd8-a945-fa7bd7f50803",
+          "card": "4b94688f-a8d1-4255-864e-658add1bde4d",
+          "suffix": "012",
+          "rarity": "super"
+        },
+        {
+          "id": "932dd1a0-3837-4d33-b3c9-f2eae890c5ae",
+          "card": "c37898fd-0ead-4a9e-9ff4-a8c6dbeea04d",
+          "suffix": "013",
+          "rarity": "secret"
+        },
+        {
+          "id": "09d13207-89a1-48bd-96e7-67931628680d",
+          "card": "8af617e2-be77-4f9e-ae77-3d1655b47221",
+          "suffix": "014",
+          "rarity": "super"
+        },
+        {
+          "id": "a6148cd7-0db6-4d66-9239-e2db56380036",
+          "card": "dca4410e-bc66-4afa-aff2-8ee8364d825b",
+          "suffix": "015",
+          "rarity": "super"
+        },
+        {
+          "id": "12e3c68c-e3e8-472a-862d-1452e67f51fd",
+          "card": "6ca0e6bb-3c26-4c94-a471-7ce5171be509",
+          "suffix": "016",
+          "rarity": "super"
+        },
+        {
+          "id": "8e0fcd34-42f2-47d7-bbe0-d4b7186cf855",
+          "card": "b2b484f5-b56c-4de0-8992-2db752ef5651",
+          "suffix": "017",
+          "rarity": "super"
+        },
+        {
+          "id": "8eee6f32-8f13-4eb9-999d-8b70e54e03aa",
+          "card": "370a601f-0342-4ecd-a809-174c89dfb485",
+          "suffix": "018",
+          "rarity": "super"
+        },
+        {
+          "id": "de156127-dfe6-4df7-9132-588974386ca0",
+          "card": "7fd2c879-e6cd-4e10-8deb-afe5a1a12bc2",
+          "suffix": "019",
+          "rarity": "super"
+        },
+        {
+          "id": "ad6c8b01-c16f-4744-a2d3-ce26177cc90f",
+          "card": "5e10b689-59de-41cb-8d1e-1c801c3f8497",
+          "suffix": "020",
+          "rarity": "super"
+        },
+        {
+          "id": "9a9bcbb1-5077-47a8-bb50-f51281164c06",
+          "card": "b8875cac-ab87-4cf2-8ecc-41b5987b8199",
+          "suffix": "021",
+          "rarity": "secret"
+        },
+        {
+          "id": "14e62bba-c6ea-4aaa-9127-2b7af45400b5",
+          "card": "d91bed4a-9a52-4c3c-ba47-1da2a2376329",
+          "suffix": "022",
+          "rarity": "super"
+        },
+        {
+          "id": "5d53f9eb-245d-482c-aa6a-c331909dd837",
+          "card": "3df6dba8-988b-4eb1-9889-2a5990d8a2bd",
+          "suffix": "023",
+          "rarity": "secret"
+        },
+        {
+          "id": "081e51ea-970d-4f55-b23c-0d0edef639a6",
+          "card": "1939e641-8520-4e94-802b-5fd0ed76c25b",
+          "suffix": "024",
+          "rarity": "secret"
+        },
+        {
+          "id": "6d714d47-c5b0-412b-9f38-fa0989d61634",
+          "card": "9fe98947-91f4-4c95-af35-12562043ff3a",
+          "suffix": "025",
+          "rarity": "secret"
+        },
+        {
+          "id": "240895f7-3293-41ab-b21f-e362afc85be0",
+          "card": "61c453cf-c3b7-438a-ab3d-4cb607ef9783",
+          "suffix": "026",
+          "rarity": "secret"
+        },
+        {
+          "id": "efc77c79-edd8-441b-9866-f09612008a3e",
+          "card": "a85e7911-13c3-4e06-942b-19a4acb01cd2",
+          "suffix": "027",
+          "rarity": "super"
+        },
+        {
+          "id": "d15c7d7a-e35a-4970-b7d2-3df202a37bb6",
+          "card": "a83b66b0-e651-481f-b53b-b6fc177fcb01",
+          "suffix": "028",
+          "rarity": "super"
+        },
+        {
+          "id": "93e032b1-58fe-4553-a26a-7bbef8042ea9",
+          "card": "418fca1a-6ac6-4adf-99db-30c342822465",
+          "suffix": "029",
+          "rarity": "super"
+        },
+        {
+          "id": "a220968b-641c-4a14-9f70-29801e345edc",
+          "card": "1685da95-ebdc-4f20-87f3-8e49eb3a2e54",
+          "suffix": "030",
+          "rarity": "secret"
+        },
+        {
+          "id": "d03f0c72-a91a-4837-a743-bf8d5bddc78c",
+          "card": "98c7b5ff-92ff-4485-9eaa-98d0c74828b2",
+          "suffix": "031",
+          "rarity": "super"
+        },
+        {
+          "id": "bc28a344-7ff8-42fd-a18d-d298ec5bd2eb",
+          "card": "ddda8973-beaa-442c-862f-7daaa764f07b",
+          "suffix": "032",
+          "rarity": "super"
+        },
+        {
+          "id": "3f825c89-da58-4ed0-8219-b92af1a70f84",
+          "card": "78e6358d-ece8-4a39-8e41-6110c551b540",
+          "suffix": "033",
+          "rarity": "super"
+        },
+        {
+          "id": "9a040adb-518c-43a8-b9cf-cec18a53e76b",
+          "card": "0944647e-457d-42d5-81ce-e96b51ca69bc",
+          "suffix": "034",
+          "rarity": "secret"
+        },
+        {
+          "id": "f5d78626-4196-4e91-8322-d09e04134c2d",
+          "card": "171911fd-d6b7-4526-b409-524c613c6e46",
+          "suffix": "035",
+          "rarity": "super"
+        },
+        {
+          "id": "422102cf-9e9f-4fbd-b375-1e381925fc31",
+          "card": "1a515b1a-b32e-499e-939d-020e1fe82fc6",
+          "suffix": "036",
+          "rarity": "super"
+        },
+        {
+          "id": "fa67e86a-7822-4a81-97dd-ea91982ca21f",
+          "card": "163613c5-1ec4-4847-a106-1e08214bac59",
+          "suffix": "037",
+          "rarity": "secret"
+        },
+        {
+          "id": "653b2609-0f06-482b-b9d7-e86ca1280ff6",
+          "card": "65786eea-8371-469a-abe2-e91b33953269",
+          "suffix": "038",
+          "rarity": "super"
+        },
+        {
+          "id": "e5401836-da5f-4e65-84b4-ebbca086609a",
+          "card": "986b9836-1132-4fe8-b929-b0ed907882e7",
+          "suffix": "039",
+          "rarity": "super"
+        },
+        {
+          "id": "3cc1dc85-233b-4ae1-994a-7d7256cb547d",
+          "card": "c338a477-1f38-4cc7-ac0e-d620f5799ce2",
+          "suffix": "040",
+          "rarity": "super"
+        },
+        {
+          "id": "82aba6ca-2c09-4a22-9e7d-49bbafb41fc1",
+          "card": "64cffcee-6403-4a8b-8b9c-b39de9c94b84",
+          "suffix": "041",
+          "rarity": "super"
+        },
+        {
+          "id": "b5a95bc0-195a-425a-8daa-63ea096f6519",
+          "card": "e6a49bf1-9f21-4b02-a495-d08e2ba70fa5",
+          "suffix": "042",
+          "rarity": "secret"
+        },
+        {
+          "id": "65ba1137-9a50-4141-adeb-6cc898159814",
+          "card": "cfe40f80-8eb1-467a-b8c9-162ebc819ccd",
+          "suffix": "043",
+          "rarity": "super"
+        },
+        {
+          "id": "121542f4-7737-4a15-b8be-ebc2a1d51864",
+          "card": "7c39a467-70dc-4b2f-9aca-0ad52b240f3a",
+          "suffix": "044",
+          "rarity": "secret"
+        },
+        {
+          "id": "d7c513b2-d3dc-4a32-804d-14d9ff7a0fe6",
+          "card": "861fc8c1-b031-41e2-a89a-7ef362e2c3cf",
+          "suffix": "045",
+          "rarity": "super"
+        },
+        {
+          "id": "a767b429-3df7-4512-8b2f-956f5aefb376",
+          "card": "5e77b7de-a707-4159-a4ea-eb1dadc3c1be",
+          "suffix": "046",
+          "rarity": "secret"
+        },
+        {
+          "id": "5f01615f-a483-4dd7-b021-9efd2f2bc51f",
+          "card": "1e81aa26-4256-4114-a75d-b849a053771e",
+          "suffix": "047",
+          "rarity": "secret"
+        },
+        {
+          "id": "ffabe7b7-8060-40a2-9e61-bba5109bb56e",
+          "card": "4c46a3fe-a276-4fdd-bac3-dc1e1af01d96",
+          "suffix": "048",
+          "rarity": "super"
+        },
+        {
+          "id": "5a78cfa0-a9f4-40cf-a6dc-60b098256c73",
+          "card": "bbb2a233-4fc3-4f72-a612-a295af15f399",
+          "suffix": "049",
+          "rarity": "super"
+        },
+        {
+          "id": "a1a33f09-4382-4801-815c-e0ae5af2546c",
+          "card": "d157ffb0-645c-4aca-8b76-645ccf9a7686",
+          "suffix": "050",
+          "rarity": "super"
+        },
+        {
+          "id": "c3b32dce-3da9-4be3-ae2c-96cc062d753b",
+          "card": "531a081d-da64-4421-a0a1-3b4bbc22d807",
+          "suffix": "051",
+          "rarity": "super"
+        }
+      ],
+      "externalIDs": {
+        "ygoprodeck": "Dragons of Legend"
+      }
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Dragons of Legend",
+      "id": 298320
+    }
+  }
+}
