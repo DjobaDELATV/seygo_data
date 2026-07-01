@@ -112,11 +112,23 @@ class ChangelogEntry(WikiPage):
 
 def paginate_query(query) -> typing.Iterable:
     query = query.copy()
+    n_tries = 0
     while True:
-        in_json = make_request(query).json()
+        response = make_request(query)
+        try:
+            in_json = response.json()
+        except requests.exceptions.JSONDecodeError:
+            raise RuntimeError(
+                f"Yugipedia API returned an empty response after {n_tries} retries"
+            )
         if "error" in in_json:
+            n_tries += 1
+            if n_tries >= MAX_RETRIES:
+                raise RuntimeError(
+                    f"Yugipedia API kept returning errors after {MAX_RETRIES} retries: {json.dumps(in_json['error'])}"
+                )
             logging.error(
-                f"Yugipedia API returned error: {json.dumps(in_json['error'])}; waiting and retrying..."
+                f"Yugipedia API returned error: {json.dumps(in_json['error'])}; waiting and retrying (attempt {n_tries}/{MAX_RETRIES})..."
             )
             time.sleep(RATE_LIMIT * 30)
             continue
