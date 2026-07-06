@@ -27,6 +27,7 @@ _last_access = time.time()
 
 
 MAX_RETRIES = 10
+MAX_QUERY_ERROR_RETRIES = 15  # transient errors (e.g. DBConnectionError) can outlast MAX_RETRIES's flat wait, so give them more attempts with backoff
 
 
 def make_request(rawparams: typing.Dict[str, str], n_tries=0) -> requests.Response:
@@ -123,14 +124,15 @@ def paginate_query(query) -> typing.Iterable:
             )
         if "error" in in_json:
             n_tries += 1
-            if n_tries >= MAX_RETRIES:
+            if n_tries >= MAX_QUERY_ERROR_RETRIES:
                 raise RuntimeError(
-                    f"Yugipedia API kept returning errors after {MAX_RETRIES} retries: {json.dumps(in_json['error'])}"
+                    f"Yugipedia API kept returning errors after {MAX_QUERY_ERROR_RETRIES} retries: {json.dumps(in_json['error'])}"
                 )
+            wait = min(RATE_LIMIT * 30 * (2 ** (n_tries - 1)), 600)
             logging.error(
-                f"Yugipedia API returned error: {json.dumps(in_json['error'])}; waiting and retrying (attempt {n_tries}/{MAX_RETRIES})..."
+                f"Yugipedia API returned error: {json.dumps(in_json['error'])}; waiting {wait:.0f}s and retrying (attempt {n_tries}/{MAX_QUERY_ERROR_RETRIES})..."
             )
-            time.sleep(RATE_LIMIT * 30)
+            time.sleep(wait)
             continue
 
         if "query" not in in_json:
