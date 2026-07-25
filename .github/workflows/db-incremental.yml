@@ -3,7 +3,11 @@ name: Generate/Upload Database (Incremental)
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 4,8,12,16,20 * * *'
+    # 2 checks légers/jour (8h et 16h UTC) + le nightly complet à 0h UTC (db.yml) = 3 updates/jour max.
+    # Réduit de 5x/jour (toutes les 4h) pour éviter 3-4 déclenchements de update-all.js en mode
+    # light côté Seygo dans la même journée — Yu-Gi-Oh! n'a pas assez d'actualité quotidienne
+    # pour justifier une vérification toutes les 4h.
+    - cron: '0 8,16 * * *'
 
 permissions:
   contents: write
