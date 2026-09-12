@@ -1,0 +1,120 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/set.json",
+  "id": "1edd6d99-2d36-43f1-ab48-8bb82d2a87e2",
+  "name": {
+    "en": "Yu-Gi-Oh! ARC-V Volume 1",
+    "ja": "\u904a\u622f\u738b\uff21\uff32\uff23\uff0d\u2164 \u7b2c\uff11\u5dfb \u4ed8\u9332\u30ab\u30fc\u30c9"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "prefix": "YA01-JP",
+      "date": "2016-04-04",
+      "image": "https://ms.yugipedia.com//b/bf/YA01-PromoJP.png",
+      "cardImages": {
+        "unlimited": {
+          "54565ba6-08ac-4dba-9490-b0030ee908da": "https://ms.yugipedia.com//f/f9/OddEyesPhantomDragon-YA01-JP-UR.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "54565ba6-08ac-4dba-9490-b0030ee908da": {
+            "image": "https://ms.yugipedia.com//f/f9/OddEyesPhantomDragon-YA01-JP-UR.png"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          121218002
+        ]
+      }
+    },
+    "en": {
+      "language": "en",
+      "prefix": "YA01-EN",
+      "date": "2017-04-04",
+      "image": "https://ms.yugipedia.com//b/b1/YA01-PromoEN.png",
+      "cardImages": {
+        "limited": {
+          "54565ba6-08ac-4dba-9490-b0030ee908da": "https://ms.yugipedia.com//archive/4/4e/20180331171310%21OddEyesPhantomDragon-YA01-EN-UR-LE.png"
+        }
+      },
+      "cardInfo": {
+        "limited": {
+          "54565ba6-08ac-4dba-9490-b0030ee908da": {
+            "image": "https://ms.yugipedia.com//archive/4/4e/20180331171310%21OddEyesPhantomDragon-YA01-EN-UR-LE.png"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          1111113002
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "distrobution": "preconstructed",
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//b/bf/YA01-PromoJP.png",
+      "cards": [
+        {
+          "id": "54565ba6-08ac-4dba-9490-b0030ee908da",
+          "card": "edc5f887-ebdd-48e5-97de-138c5eb35c12",
+          "suffix": "001",
+          "rarity": "ultra"
+        }
+      ],
+      "externalIDs": {}
+    },
+    {
+      "locales": [
+        "en"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "preconstructed",
+      "editions": [
+        "limited"
+      ],
+      "image": "https://ms.yugipedia.com//b/b1/YA01-PromoEN.png",
+      "cards": [
+        {
+          "id": "54565ba6-08ac-4dba-9490-b0030ee908da",
+          "card": "edc5f887-ebdd-48e5-97de-138c5eb35c12",
+          "suffix": "001",
+          "rarity": "ultra"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Yu-Gi-Oh! ARC-V Volume 1 promotional card",
+      "id": 362017
+    }
+  }
+}
