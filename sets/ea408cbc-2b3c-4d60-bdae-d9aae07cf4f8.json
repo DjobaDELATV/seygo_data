@@ -1,0 +1,73 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/set.json",
+  "id": "ea408cbc-2b3c-4d60-bdae-d9aae07cf4f8",
+  "name": {
+    "en": "Yu-Gi-Oh! The Offical Magazine",
+    "it": "Yu-Gi-Oh! La Rivista Ufficiale"
+  },
+  "locales": {
+    "it": {
+      "language": "it",
+      "prefix": "YGMU-IT",
+      "image": "https://ms.yugipedia.com//f/fb/YGMU-PromoIT.jpg",
+      "cardImages": {
+        "limited": {
+          "299a0d9f-3402-4e1a-a40e-1301d2a75b0a": "https://ms.yugipedia.com//d/d0/DarkEndDragon-YGMU-IT-UR-LE.jpg",
+          "14fe917d-c1f4-42f1-9136-2a6a564c28b1": "https://ms.yugipedia.com//7/7b/TheWingedDragonofRa-YGMU-IT-UR-LE.jpg"
+        }
+      },
+      "cardInfo": {
+        "limited": {
+          "14fe917d-c1f4-42f1-9136-2a6a564c28b1": {
+            "image": "https://ms.yugipedia.com//7/7b/TheWingedDragonofRa-YGMU-IT-UR-LE.jpg"
+          },
+          "299a0d9f-3402-4e1a-a40e-1301d2a75b0a": {
+            "image": "https://ms.yugipedia.com//d/d0/DarkEndDragon-YGMU-IT-UR-LE.jpg"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "externalIDs": {}
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "it"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "image": "https://ms.yugipedia.com//f/fb/YGMU-PromoIT.jpg",
+      "cards": [
+        {
+          "id": "299a0d9f-3402-4e1a-a40e-1301d2a75b0a",
+          "card": "204451a6-5571-44f7-a1a2-5c38236a6cf7",
+          "suffix": "001",
+          "rarity": "ultra"
+        },
+        {
+          "id": "14fe917d-c1f4-42f1-9136-2a6a564c28b1",
+          "card": "85b41d7f-8b50-4f31-8ffb-6473b514afc7",
+          "suffix": "002",
+          "rarity": "ultra"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Yu-Gi-Oh! The Official Magazine promotional cards",
+      "id": 192921
+    }
+  }
+}

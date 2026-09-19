@@ -1,0 +1,141 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/set.json",
+  "id": "5c9b9462-77c8-49a5-a015-f3f496767893",
+  "name": {
+    "en": "Yu-Gi-Oh! The Movie Ani-Manga"
+  },
+  "locales": {
+    "it": {
+      "language": "it",
+      "prefix": "MOV-IT",
+      "cardImages": {
+        "limited": {
+          "24430b9e-87df-4cd0-9a87-3a65f95f06d7": "https://ms.yugipedia.com//5/51/BlueEyesShiningDragon-MOV-IT-SR-LE.jpg"
+        }
+      },
+      "cardInfo": {
+        "limited": {
+          "24430b9e-87df-4cd0-9a87-3a65f95f06d7": {
+            "image": "https://ms.yugipedia.com//5/51/BlueEyesShiningDragon-MOV-IT-SR-LE.jpg"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "externalIDs": {}
+    },
+    "en": {
+      "language": "en",
+      "prefix": "YMA-EN",
+      "image": "https://ms.yugipedia.com//2/2e/YMA-PromoEN.png",
+      "cardImages": {
+        "limited": {}
+      },
+      "cardInfo": {
+        "limited": {}
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "externalIDs": {}
+    },
+    "fr": {
+      "language": "fr",
+      "prefix": "YMM-FR",
+      "image": "https://ms.yugipedia.com//7/7f/YMM-PromoFR.png",
+      "cardImages": {
+        "limited": {}
+      },
+      "cardInfo": {
+        "limited": {}
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "externalIDs": {}
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "it"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "preconstructed",
+      "editions": [
+        "limited"
+      ],
+      "cards": [
+        {
+          "id": "24430b9e-87df-4cd0-9a87-3a65f95f06d7",
+          "card": "559bbbf2-21c2-4642-8d6c-7584e764e4ea",
+          "suffix": "001",
+          "rarity": "super"
+        }
+      ],
+      "externalIDs": {}
+    },
+    {
+      "locales": [
+        "en"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "preconstructed",
+      "editions": [
+        "limited"
+      ],
+      "image": "https://ms.yugipedia.com//2/2e/YMA-PromoEN.png",
+      "cards": [
+        {
+          "id": "357a7d1f-52a3-45de-9618-91f2391f0b24",
+          "card": "df1c71ed-62aa-4a13-ae92-f92f45090f82",
+          "suffix": "001",
+          "rarity": "prismaticsecret"
+        }
+      ],
+      "externalIDs": {}
+    },
+    {
+      "locales": [
+        "fr"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "preconstructed",
+      "editions": [
+        "limited"
+      ],
+      "image": "https://ms.yugipedia.com//7/7f/YMM-PromoFR.png",
+      "cards": [
+        {
+          "id": "ef5fab18-3fcd-4d69-8373-01da2f0f2cdc",
+          "card": "82006568-7ede-4802-8474-6c35c79a3a20",
+          "suffix": "001",
+          "rarity": "secret"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Yu-Gi-Oh! The Movie Ani-Manga promotional card",
+      "id": 7298
+    }
+  }
+}
