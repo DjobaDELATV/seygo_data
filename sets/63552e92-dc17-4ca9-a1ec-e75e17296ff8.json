@@ -1,0 +1,127 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/set.json",
+  "id": "63552e92-dc17-4ca9-a1ec-e75e17296ff8",
+  "name": {
+    "en": "Yu-Gi-Oh! World Championship 2005 prize cards"
+  },
+  "locales": {
+    "en": {
+      "language": "en",
+      "prefix": "WCS-EN",
+      "date": "2005-08-07",
+      "cardImages": {
+        "unlimited": {
+          "386315e4-02b4-40e2-8a94-fa19d392e11a": "https://ms.yugipedia.com//b/b1/KingofDestructionXexex-WCS-EN-UR-UE.jpg",
+          "ebe1ff9e-780f-492e-afc1-5526b2a2ae21": "https://ms.yugipedia.com//4/44/QueenofFateEternia-WCS-EN-UR-UE.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "386315e4-02b4-40e2-8a94-fa19d392e11a": {
+            "image": "https://ms.yugipedia.com//b/b1/KingofDestructionXexex-WCS-EN-UR-UE.jpg"
+          },
+          "ebe1ff9e-780f-492e-afc1-5526b2a2ae21": {
+            "image": "https://ms.yugipedia.com//4/44/QueenofFateEternia-WCS-EN-UR-UE.png"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          1121204006
+        ]
+      }
+    },
+    "ae": {
+      "language": "ae",
+      "prefix": "WCS-AE",
+      "date": "2005-08-07",
+      "image": "https://ms.yugipedia.com//2/20/Asian.png",
+      "cardImages": {
+        "limited": {
+          "8e58e1fb-7bb7-407d-bbad-1542f2089ad8": "https://ms.yugipedia.com//c/c5/FirewingPegasus-WCS-AE-SR-LE.jpg"
+        }
+      },
+      "cardInfo": {
+        "limited": {
+          "8e58e1fb-7bb7-407d-bbad-1542f2089ad8": {
+            "image": "https://ms.yugipedia.com//c/c5/FirewingPegasus-WCS-AE-SR-LE.jpg"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          131307000
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "en"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "preconstructed",
+      "editions": [
+        "unlimited"
+      ],
+      "cards": [
+        {
+          "id": "386315e4-02b4-40e2-8a94-fa19d392e11a",
+          "card": "a411a232-3eeb-48cf-996b-8848e484b629",
+          "suffix": "501",
+          "rarity": "ultra"
+        },
+        {
+          "id": "ebe1ff9e-780f-492e-afc1-5526b2a2ae21",
+          "card": "096171c7-53ec-44d3-a778-eda882045c10",
+          "suffix": "502",
+          "rarity": "ultra"
+        }
+      ],
+      "externalIDs": {}
+    },
+    {
+      "locales": [
+        "ae"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "distrobution": "preconstructed",
+      "editions": [
+        "limited"
+      ],
+      "image": "https://ms.yugipedia.com//2/20/Asian.png",
+      "cards": [
+        {
+          "id": "8e58e1fb-7bb7-407d-bbad-1542f2089ad8",
+          "card": "3baceef4-3ba0-4837-8637-9f6c57d19117",
+          "suffix": "503",
+          "rarity": "super"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Yu-Gi-Oh! World Championship 2005 prize cards",
+      "id": 331455
+    }
+  }
+}
