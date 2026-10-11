@@ -1,0 +1,76 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/set.json",
+  "id": "a61e732f-ae6d-47d3-b4db-fff27e67204b",
+  "name": {
+    "en": "Yugi's Collector Box"
+  },
+  "locales": {
+    "en": {
+      "language": "en",
+      "prefix": "YUCB-EN",
+      "image": "https://ms.yugipedia.com//7/7d/YUCB-PromoEN.png",
+      "cardImages": {
+        "limited": {
+          "bb5f8b15-1fb9-4bd0-966a-f32d7f0abd02": "https://ms.yugipedia.com//b/bf/DarkMagician-YUCB-EN-UR-LE.png"
+        },
+        "unlimited": {
+          "bb5f8b15-1fb9-4bd0-966a-f32d7f0abd02": "https://ms.yugipedia.com//e/e8/DarkMagician-YUCB-EN-UR-UE-CT.png"
+        }
+      },
+      "cardInfo": {
+        "limited": {
+          "bb5f8b15-1fb9-4bd0-966a-f32d7f0abd02": {
+            "image": "https://ms.yugipedia.com//b/bf/DarkMagician-YUCB-EN-UR-LE.png"
+          }
+        },
+        "unlimited": {
+          "bb5f8b15-1fb9-4bd0-966a-f32d7f0abd02": {
+            "image": "https://ms.yugipedia.com//e/e8/DarkMagician-YUCB-EN-UR-UE-CT.png"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited",
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          18811002
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "en"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited",
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//7/7d/YUCB-PromoEN.png",
+      "cards": [
+        {
+          "id": "bb5f8b15-1fb9-4bd0-966a-f32d7f0abd02",
+          "card": "cf059913-791c-4a39-a210-2a360345c841",
+          "suffix": "001",
+          "rarity": "ultra"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Yugi's Collector Box",
+      "id": 500205
+    }
+  }
+}
