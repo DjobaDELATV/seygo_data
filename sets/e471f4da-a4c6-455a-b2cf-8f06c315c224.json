@@ -1,0 +1,113 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/set.json",
+  "id": "e471f4da-a4c6-455a-b2cf-8f06c315c224",
+  "name": {
+    "en": "Yu-Gi-Oh! GX Volume 2",
+    "ja": "\u904a\u622f\u738b\uff27\uff38 \u7b2c\uff12\u5dfb \u4ed8\u9332\u30ab\u30fc\u30c9"
+  },
+  "locales": {
+    "jp": {
+      "language": "ja",
+      "prefix": "YG02-JP",
+      "date": "2007-08-03",
+      "image": "https://ms.yugipedia.com//3/3c/YG02-PromoJP.png",
+      "cardImages": {
+        "unlimited": {}
+      },
+      "cardInfo": {
+        "unlimited": {}
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          121209003
+        ]
+      }
+    },
+    "en": {
+      "language": "en",
+      "prefix": "YG02-EN",
+      "image": "https://ms.yugipedia.com//5/58/YG02-PromoEN.png",
+      "cardImages": {
+        "limited": {
+          "2fe78187-6967-48ba-9891-2ba1a6f15a16": "https://ms.yugipedia.com//0/09/ThunderKingRaiOh-YG02-EN-ScR-LE.png"
+        }
+      },
+      "cardInfo": {
+        "limited": {
+          "2fe78187-6967-48ba-9891-2ba1a6f15a16": {
+            "image": "https://ms.yugipedia.com//0/09/ThunderKingRaiOh-YG02-EN-ScR-LE.png"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          161601248
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "distrobution": "preconstructed",
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//3/3c/YG02-PromoJP.png",
+      "cards": [
+        {
+          "id": "40f7b087-ddea-4400-ba8c-b53bcd81d764",
+          "card": "3c6f44f8-f72d-48e0-8e0c-054146ab4f42",
+          "suffix": "001",
+          "rarity": "ultra"
+        }
+      ],
+      "externalIDs": {}
+    },
+    {
+      "locales": [
+        "en"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "preconstructed",
+      "editions": [
+        "limited"
+      ],
+      "image": "https://ms.yugipedia.com//5/58/YG02-PromoEN.png",
+      "cards": [
+        {
+          "id": "2fe78187-6967-48ba-9891-2ba1a6f15a16",
+          "card": "3c6f44f8-f72d-48e0-8e0c-054146ab4f42",
+          "suffix": "001",
+          "rarity": "secret"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Yu-Gi-Oh! GX Volume 2 promotional card",
+      "id": 49007
+    }
+  }
+}
