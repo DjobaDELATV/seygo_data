@@ -869,6 +869,139 @@ class SkillRelease:
         return d
 
 
+ERRATA_DATE_SOURCE_EXPLICIT = "explicit"
+"""`CardErrataVersion.date_source`: the date is written on Yugipedia (official announcement, etc.)."""
+ERRATA_DATE_SOURCE_SET = "set"
+"""`CardErrataVersion.date_source`: the date is the release date of the first set printing this version."""
+
+
+class CardErrataVersion:
+    """One version of a :class:`Card`'s text in a given language, as listed in its errata history.
+    The first version of a language is the original text; each following one is an erratum.
+
+    The ``*_diff`` fields hold the same text with ``<ins>``/``<del>`` tags kept from Yugipedia:
+    ``<ins>`` marks text added by this version, ``<del>`` marks text of this version removed by the next one.
+    They are only set when the text actually contains such tags.
+    """
+
+    name: typing.Optional[str]
+    name_diff: typing.Optional[str]
+    effect: typing.Optional[str]
+    effect_diff: typing.Optional[str]
+    pendulum_effect: typing.Optional[str]
+    pendulum_effect_diff: typing.Optional[str]
+    type_line: typing.Optional[str]
+    """The type line of a monster (e.g. ``[Spellcaster/Flip/Effect]``), when the errata lists it."""
+    type_line_diff: typing.Optional[str]
+
+    printings: typing.List[str]
+    """Set codes of the printings this version first appeared on (e.g. ``RA04-EN226``)."""
+
+    set_names: typing.List[str]
+    """Yugipedia names of the products this version appeared in. Only used to resolve `sets`/`date`; not saved."""
+
+    sets: typing.List[uuid.UUID]
+    """UUIDs of the sets this version first appeared in, when known."""
+
+    date: typing.Optional[datetime.date]
+    """When this version was first released in this language, if known.
+    Computed from the release date of `sets` in this language, or from an explicit date on Yugipedia.
+    Missing for errata not yet printed (e.g. only announced on the official database).
+    """
+
+    date_source: typing.Optional[str]
+    """Where `date` comes from: `ERRATA_DATE_SOURCE_EXPLICIT` or `ERRATA_DATE_SOURCE_SET`."""
+
+    reference: typing.Optional[str]
+    """A URL to the source of this version, when it is not a printing (official database, announcement...)."""
+
+    def __init__(
+        self,
+        *,
+        name: typing.Optional[str] = None,
+        name_diff: typing.Optional[str] = None,
+        effect: typing.Optional[str] = None,
+        effect_diff: typing.Optional[str] = None,
+        pendulum_effect: typing.Optional[str] = None,
+        pendulum_effect_diff: typing.Optional[str] = None,
+        type_line: typing.Optional[str] = None,
+        type_line_diff: typing.Optional[str] = None,
+        printings: typing.Optional[typing.List[str]] = None,
+        set_names: typing.Optional[typing.List[str]] = None,
+        sets: typing.Optional[typing.List[uuid.UUID]] = None,
+        date: typing.Optional[datetime.date] = None,
+        date_source: typing.Optional[str] = None,
+        reference: typing.Optional[str] = None,
+    ) -> None:
+        self.name = name
+        self.name_diff = name_diff
+        self.effect = effect
+        self.effect_diff = effect_diff
+        self.pendulum_effect = pendulum_effect
+        self.pendulum_effect_diff = pendulum_effect_diff
+        self.type_line = type_line
+        self.type_line_diff = type_line_diff
+        self.printings = printings or []
+        self.set_names = set_names or []
+        self.sets = sets or []
+        self.date = date
+        self.date_source = date_source
+        self.reference = reference
+
+    def _to_json(self) -> typing.Dict[str, typing.Any]:
+        return {
+            **({"name": self.name} if self.name is not None else {}),
+            **({"nameDiff": self.name_diff} if self.name_diff is not None else {}),
+            **({"effect": self.effect} if self.effect is not None else {}),
+            **(
+                {"effectDiff": self.effect_diff} if self.effect_diff is not None else {}
+            ),
+            **(
+                {"pendulumEffect": self.pendulum_effect}
+                if self.pendulum_effect is not None
+                else {}
+            ),
+            **(
+                {"pendulumEffectDiff": self.pendulum_effect_diff}
+                if self.pendulum_effect_diff is not None
+                else {}
+            ),
+            **({"typeLine": self.type_line} if self.type_line is not None else {}),
+            **(
+                {"typeLineDiff": self.type_line_diff}
+                if self.type_line_diff is not None
+                else {}
+            ),
+            **({"date": self.date.isoformat()} if self.date else {}),
+            **(
+                {"dateSource": self.date_source}
+                if self.date and self.date_source
+                else {}
+            ),
+            **({"printings": self.printings} if self.printings else {}),
+            **({"sets": [str(x) for x in self.sets]} if self.sets else {}),
+            **({"reference": self.reference} if self.reference else {}),
+        }
+
+    @classmethod
+    def _from_json(cls, raw: typing.Dict[str, typing.Any]) -> "CardErrataVersion":
+        return cls(
+            name=raw.get("name"),
+            name_diff=raw.get("nameDiff"),
+            effect=raw.get("effect"),
+            effect_diff=raw.get("effectDiff"),
+            pendulum_effect=raw.get("pendulumEffect"),
+            pendulum_effect_diff=raw.get("pendulumEffectDiff"),
+            type_line=raw.get("typeLine"),
+            type_line_diff=raw.get("typeLineDiff"),
+            printings=raw.get("printings"),
+            sets=[uuid.UUID(x) for x in raw.get("sets", [])],
+            date=datetime.date.fromisoformat(raw["date"]) if "date" in raw else None,
+            date_source=raw.get("dateSource"),
+            reference=raw.get("reference"),
+        )
+
+
 class Card:
     """A single Yugioh card or token. For information on printings of a card, see :class:`CardPrinting`."""
 
@@ -942,6 +1075,11 @@ class Card:
     legality: typing.Dict[Format, CardLegality]
     """Current legality status and legality history for the various formats: tcg, ocg, ocg-kr, masterduel, etc."""
 
+    errata: typing.Dict[Language, typing.List[CardErrataVersion]]
+    """The text history of this card, per language (only English and French are imported).
+    Each list starts with the original text, followed by every erratum in order. Empty if the card never had errata.
+    """
+
     master_duel_rarity: typing.Optional[VideoGameRaity]
     """The rarity of this card in Master Duel, if it is in Master Duel."""
 
@@ -1000,6 +1138,9 @@ class Card:
         sets: typing.Optional[typing.List["Set"]] = None,
         illegal: bool = False,
         legality: typing.Optional[typing.Dict[Format, CardLegality]] = None,
+        errata: typing.Optional[
+            typing.Dict[Language, typing.List[CardErrataVersion]]
+        ] = None,
         master_duel_rarity: typing.Optional[VideoGameRaity] = None,
         master_duel_craftable: typing.Optional[bool] = None,
         duel_links_rarity: typing.Optional[VideoGameRaity] = None,
@@ -1035,6 +1176,7 @@ class Card:
         self.sets = sets or []
         self.illegal = illegal
         self.legality = legality or {}
+        self.errata = errata or {}
         self.master_duel_rarity = master_duel_rarity
         self.master_duel_craftable = master_duel_craftable
         self.duel_links_rarity = duel_links_rarity
@@ -1184,6 +1326,16 @@ class Card:
                 }
                 for k, v in self.legality.items()
             },
+            **(
+                {
+                    "errata": {
+                        k.value: [x._to_json() for x in v]
+                        for k, v in self.errata.items()
+                    }
+                }
+                if self.errata
+                else {}
+            ),
             **(
                 {
                     "masterDuel": {
@@ -2557,6 +2709,61 @@ class Database:
             for member in series.members:
                 member.series.append(series)
 
+    def resolve_errata_dates(self):
+        """Fills `CardErrataVersion.sets` and `CardErrataVersion.date` from the printings and products
+        each errata version was found on, using the release date of those sets in the errata's language.
+        """
+
+        locales_by_code: typing.Dict[
+            str, typing.List[typing.Tuple[Set, SetLocale]]
+        ] = {}
+        for set_ in self.sets:
+            for content in set_.contents:
+                for printing in content.cards:
+                    if not printing.suffix:
+                        continue
+                    for locale_id in content.locales:
+                        locale = set_.locales.get(locale_id)
+                        if locale and locale.prefix:
+                            locales_by_code.setdefault(
+                                locale.prefix + printing.suffix, []
+                            ).append((set_, locale))
+
+        for card in self.cards:
+            for lang, versions in card.errata.items():
+                for version in versions:
+                    found: typing.List[typing.Tuple[Set, SetLocale]] = [
+                        (set_, locale)
+                        for code in version.printings
+                        for set_, locale in locales_by_code.get(code, [])
+                        if LOCALE_LANGS.get(locale.key) == lang
+                    ]
+                    if not found:
+                        # no known printing; fall back on the product names given
+                        for set_name in version.set_names:
+                            set_ = self.sets_by_yugipedia_name.get(
+                                set_name
+                            ) or self.sets_by_en_name.get(set_name)
+                            if set_:
+                                found.extend(
+                                    (set_, locale)
+                                    for locale in set_.locales.values()
+                                    if LOCALE_LANGS.get(locale.key) == lang
+                                )
+                    if not found:
+                        continue
+
+                    version.sets = []
+                    for set_, _ in found:
+                        if set_.id not in version.sets:
+                            version.sets.append(set_.id)
+                    if version.date_source == ERRATA_DATE_SOURCE_EXPLICIT:
+                        continue  # a date written on Yugipedia beats set release dates
+                    dates = [locale.date for _, locale in found if locale.date]
+                    if dates:
+                        version.date = min(dates)
+                        version.date_source = ERRATA_DATE_SOURCE_SET
+
     def lookup_set(self, mfi: ManualFixupIdentifier) -> typing.Optional[Set]:
         """Looks up a set from an MFI."""
 
@@ -3585,6 +3792,10 @@ class Database:
                     ],
                 )
                 for k, v in rawcard.get("legality", {}).items()
+            },
+            errata={
+                Language.normalize(k): [CardErrataVersion._from_json(x) for x in v]
+                for k, v in rawcard.get("errata", {}).items()
             },
             master_duel_rarity=(
                 VideoGameRaity(rawcard["masterDuel"]["rarity"])

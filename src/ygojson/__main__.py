@@ -270,6 +270,9 @@ def main(argv: typing.Optional[typing.List[str]] = None) -> int:
             logging.info("\tImporting sealed products...")
             db.manually_fixup_products()
 
+    logging.info("Resolving errata dates...")
+    db.resolve_errata_dates()
+
     logging.info("Cleaning database...")
     db.deduplicate()
 

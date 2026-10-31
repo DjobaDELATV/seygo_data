@@ -460,42 +460,78 @@
       }
     },
     "errata": {
-      "description": "Present only if this card has recieved errata. Details how the card has changed over time. Does not cover format legality information.",
+      "description": "Present only if this card has received errata in English or French. The text history of the card, keyed by language ('en', 'fr'). Each list starts with the original text, followed by every erratum in chronological order; the last entry is the most recent text. Does not cover format legality information.",
       "type": "object",
-      "required": [
-        "original",
-        "history"
-      ],
-      "properties": {
-        "original": {
-          "description": "What is the original state of the card, as first printed? A subset of the card json, with only changed properties present.",
-          "type": "object"
-        },
-        "history": {
-          "description": "The change history.",
-          "type": "array",
-          "items": {
-            "description": "A change.",
-            "type": "object",
-            "required": [
-              "date",
-              "changes",
-              "official"
-            ],
-            "properties": {
-              "date": {
-                "description": "The date of the change.",
-                "type": "string",
-                "format": "date"
-              },
-              "changes": {
-                "description": "What changed with this errata. A subset of the card json, with only changed properties present.",
-                "type": "object"
-              },
-              "official": {
-                "description": "Was this change official? Unofficial changes may occur in the case of a temporary name/text beging updated when a card officially comes out in that locale.",
-                "type": "boolean"
+      "additionalProperties": {
+        "type": "array",
+        "minItems": 2,
+        "items": {
+          "description": "One version of the card's text in this language. Every version holds the full text, so consecutive versions can be compared directly.",
+          "type": "object",
+          "properties": {
+            "name": {
+              "description": "The card's name in this version.",
+              "type": "string"
+            },
+            "nameDiff": {
+              "description": "Same as name, keeping Yugipedia's <ins>/<del> tags: <ins> marks text added by this version, <del> marks text of this version removed by the next one. Only present if it contains such tags.",
+              "type": "string"
+            },
+            "effect": {
+              "description": "The effect text or lore in this version.",
+              "type": "string"
+            },
+            "effectDiff": {
+              "description": "Same as effect, keeping <ins>/<del> tags (see nameDiff).",
+              "type": "string"
+            },
+            "pendulumEffect": {
+              "description": "The pendulum effect in this version. Only for pendulum cards.",
+              "type": "string"
+            },
+            "pendulumEffectDiff": {
+              "description": "Same as pendulumEffect, keeping <ins>/<del> tags (see nameDiff).",
+              "type": "string"
+            },
+            "typeLine": {
+              "description": "The monster type line in this version (e.g. '[Spellcaster/Flip/Effect]'), when the errata lists it.",
+              "type": "string"
+            },
+            "typeLineDiff": {
+              "description": "Same as typeLine, keeping <ins>/<del> tags (see nameDiff).",
+              "type": "string"
+            },
+            "date": {
+              "description": "When this version was first released in this language: the earliest release date, in this language, of the sets it was first printed in. Absent if unknown or not printed yet.",
+              "type": "string",
+              "format": "date"
+            },
+            "dateSource": {
+              "description": "Where date comes from: 'explicit' if the date is written on Yugipedia (official announcement, card reference...), 'set' if it is the release date, in this language, of the first set printing this version.",
+              "type": "string",
+              "enum": [
+                "explicit",
+                "set"
+              ]
+            },
+            "printings": {
+              "description": "Set codes of the printings this version first appeared on.",
+              "type": "array",
+              "items": {
+                "type": "string"
               }
+            },
+            "sets": {
+              "description": "The sets this version first appeared in. Look them up in the set JSON.",
+              "type": "array",
+              "items": {
+                "type": "string",
+                "format": "uuid"
+              }
+            },
+            "reference": {
+              "description": "A URL to the source of this version when it is not a printing: official card database, errata announcement, etc.",
+              "type": "string"
             }
           }
         }

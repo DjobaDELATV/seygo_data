@@ -420,7 +420,7 @@ def get_changelog(
         "list": "recentchanges",
         "rcend": since.isoformat(),
         "rclimit": "max",
-        "rcnamespace": "0|6|14|3006",  # main (cards/sets/series) + file (image URL invalidation) + category (new set/series added) + Set Card Lists (card added to a set)
+        "rcnamespace": "0|6|14|3006|3010",  # main (cards/sets/series) + file (image URL invalidation) + category (new set/series added) + Set Card Lists (card added to a set) + Card Errata
         "rcprop": "title|ids|type",
     }
 
@@ -615,6 +615,7 @@ def parse_card(
     banlists: typing.Dict[str, typing.List["Banlist"]],
     series_members: typing.Dict[str, typing.Set[Card]],
     genesys_banlist: typing.Dict[datetime.date, typing.Dict[str, float]],
+    errata_titles: typing.Optional[typing.Set[str]] = None,
 ) -> bool:
     """
     Parse a card from a wiki page. Returns False if this is not actually a valid card
@@ -1079,9 +1080,215 @@ def parse_card(
     if vmatch:
         card.db_id = int(vmatch.group(0))
 
-    # TODO: errata
+    if errata_titles is not None:
+        errata_title = ERRATA_NAMESPACE + title
+        if errata_title in errata_titles:
+
+            @batcher.getPageContents(errata_title)
+            def onGetErrata(raw_errata: str):
+                card.errata = parse_errata(raw_errata)
+
+        else:
+            card.errata = {}
 
     return True
+
+
+ERRATA_NAMESPACE = "Card Errata:"
+
+ERRATA_SECTION_LANGS = {
+    "english": Language.ENGLISH,
+    "french": Language.FRENCH,
+}
+"""Errata sections we import, by heading. Only cards in these categories get their errata page fetched."""
+ERRATA_CATS = [
+    "Category:Cards with English errata",
+    "Category:Cards with French errata",
+]
+
+ERRATA_PENDULUM_LABELS = {"pendulum effect", "pendulum effects", "effet pendule"}
+ERRATA_MONSTER_LABELS = {
+    "monster effect",
+    "card text",
+    "flavor text",
+    "effet de monstre",
+    "texte de carte",
+    "texte d'ambiance",
+}
+
+_ERRATA_DIFF_TAGS = {
+    "<ins>": "",
+    "</ins>": "",
+    "<del>": "",
+    "</del>": "",
+}
+_ERRATA_DIFF_TAG_RE = re.compile(r"<\s*(/?)\s*(ins|del)\s*>", re.IGNORECASE)
+_ERRATA_SET_CODE_RE = re.compile(r"^[0-9A-Z!]+-[0-9A-Z]+$")
+_ERRATA_DATE_RE = re.compile(
+    r"(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},\s*\d{4}"
+)
+
+
+def get_errata_pages(batcher: "YugipediaBatcher") -> typing.Set[str]:
+    """Titles of all errata pages (``Card Errata:...``) with errata in a language we import."""
+    result: typing.Set[str] = set()
+    for cat in ERRATA_CATS:
+
+        @batcher.getCategoryMembers(cat)
+        def onGetMembers(members: typing.List[int]):
+            pass  # only used to fill categoryMembersCache, which also knows member titles
+
+        result.update(
+            x.name
+            for x in batcher.categoryMembersCache.get(batcher.namesToIDs.get(cat), [])
+            if x.type == CategoryMemberType.PAGE
+        )
+
+    return result
+
+
+def _parse_errata_text(
+    raw: str,
+) -> typing.Tuple[typing.Optional[str], typing.Optional[str]]:
+    """Returns (plain text, text keeping <ins>/<del> tags). The latter is None when it has no such tags."""
+    s = re.sub(r"<\s*br\s*/?\s*>", "\n", raw.strip(), flags=re.IGNORECASE)
+    s = _ERRATA_DIFF_TAG_RE.sub(
+        lambda m: _ERRATA_DIFF_TAGS[f"<{m.group(1)}{m.group(2).lower()}>"], s
+    )
+    s = re.sub(r"<[^>]*>", "", s)  # any other HTML (<span>, <sup>...)
+    s = _strip_markup(s)
+    s = "\n".join(line.strip() for line in s.split("\n")).strip()
+    if not s:
+        return None, None
+
+    plain = s
+    diff = s
+    for tag, placeholder in _ERRATA_DIFF_TAGS.items():
+        plain = plain.replace(placeholder, "")
+        diff = diff.replace(placeholder, tag)
+    plain = re.sub(r"[ \t]{2,}", " ", plain).strip()
+    return plain, (diff if diff != plain else None)
+
+
+def _split_errata_lore(raw: str) -> typing.Tuple[typing.Optional[str], str]:
+    """Splits a pendulum lore into (pendulum effect, monster effect), removing their labels."""
+    parts = re.split(r"<hr\s*/?>", raw, flags=re.IGNORECASE)
+    if len(parts) != 2:
+        return None, raw
+
+    def unlabel(part: str) -> typing.Tuple[typing.Optional[str], str]:
+        m = re.match(r"\s*'''([^']+?)'''\s*:?\s*", part)
+        if m:
+            label = m.group(1).strip().rstrip(":").strip().lower()
+            if label in ERRATA_PENDULUM_LABELS or label in ERRATA_MONSTER_LABELS:
+                return label, part[m.end() :]
+        return None, part
+
+    label0, part0 = unlabel(parts[0])
+    label1, part1 = unlabel(parts[1])
+    if label0 in ERRATA_MONSTER_LABELS and label1 in ERRATA_PENDULUM_LABELS:
+        return part1, part0
+    if label0 in ERRATA_PENDULUM_LABELS or label1 in ERRATA_MONSTER_LABELS:
+        return part0, part1
+    # not a pendulum card; some old pages put the ATK/DEF line below a <hr />
+    return None, parts[0]
+
+
+def _parse_errata_caption(raw: str, version: CardErrataVersion, lang: Language):
+    parsed = wikitextparser.parse(raw)
+    for link in parsed.wikilinks:
+        target = link.target.strip()
+        if _ERRATA_SET_CODE_RE.match(target):
+            version.printings.append(target)
+        elif target:
+            version.set_names.append(target)
+    for template in parsed.templates:
+        if template.name.strip().lower() == "database link" and template.arguments:
+            cid = template.arguments[0].value.strip()
+            version.reference = f"https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&cid={cid}&request_locale={lang.value}"
+    if not version.reference and parsed.external_links:
+        version.reference = parsed.external_links[0].url
+    # an explicit date (e.g. "Official Card Reference (November 23, 2008)") beats the release date of a set
+    # (dates inside <ref>s are those of articles/accesses, not of the text)
+    found_date = _ERRATA_DATE_RE.search(
+        re.sub(r"<ref[^>]*?(?:/>|>.*?</ref>)", "", raw, flags=re.DOTALL)
+    )
+    if found_date:
+        version.date = _parse_date(found_date.group(0))
+        version.date_source = ERRATA_DATE_SOURCE_EXPLICIT
+
+
+def parse_errata(
+    raw_data: str,
+) -> typing.Dict[Language, typing.List[CardErrataVersion]]:
+    """Parses a ``Card Errata:`` page. Returns the text versions found per language, original first."""
+    result: typing.Dict[Language, typing.List[CardErrataVersion]] = {}
+
+    for section in wikitextparser.parse(raw_data).sections:
+        lang = ERRATA_SECTION_LANGS.get((section.title or "").strip().lower())
+        if lang is None:
+            continue
+
+        for table in wikitextparser.parse(section.contents).templates:
+            if table.name.strip().lower() != "errata table":
+                continue
+
+            args = {
+                arg.name.strip(): arg.value
+                for arg in table.arguments
+                if arg.value.strip()
+            }
+            indices = sorted(
+                {
+                    int(m.group(2))
+                    for m in (
+                        re.match(r"^(name|lore|card_type|cap|image)(\d+)$", k)
+                        for k in args
+                    )
+                    if m
+                }
+            )
+
+            versions: typing.List[CardErrataVersion] = []
+            for i in indices:
+                version = CardErrataVersion()
+                prev = versions[-1] if versions else None
+
+                if f"name{i}" in args:
+                    version.name, version.name_diff = _parse_errata_text(
+                        args[f"name{i}"]
+                    )
+                elif prev:
+                    version.name = prev.name
+
+                if f"lore{i}" in args:
+                    pendulum, lore = _split_errata_lore(args[f"lore{i}"])
+                    version.effect, version.effect_diff = _parse_errata_text(lore)
+                    if pendulum is not None:
+                        (
+                            version.pendulum_effect,
+                            version.pendulum_effect_diff,
+                        ) = _parse_errata_text(pendulum)
+                elif prev:
+                    version.effect = prev.effect
+                    version.pendulum_effect = prev.pendulum_effect
+
+                if f"card_type{i}" in args:
+                    version.type_line, version.type_line_diff = _parse_errata_text(
+                        args[f"card_type{i}"]
+                    )
+                elif prev:
+                    version.type_line = prev.type_line
+
+                if f"cap{i}" in args:
+                    _parse_errata_caption(args[f"cap{i}"], version, lang)
+
+                versions.append(version)
+
+            if len(versions) >= 2:
+                result.setdefault(lang, []).extend(versions)
+
+    return result
 
 
 CARD_GALLERY_NAMESPACE = "Set Card Galleries:"
@@ -1856,6 +2063,30 @@ FALLBACK_LOCALES = {
     "kr": "ko",
 }
 
+REGIONAL_LOCALES = {
+    "en": ["na", "eu", "oc", "au"],
+}
+"""Yugipedia never dates "en" itself, only its regions; "en" takes the earliest of them."""
+
+
+def _locale_release_date(
+    release_dates: typing.Dict[str, typing.Optional[datetime.date]], lc: str
+) -> typing.Optional[datetime.date]:
+    date_lc: typing.Optional[str] = lc
+    while date_lc is not None:
+        if release_dates.get(date_lc):
+            return release_dates[date_lc]
+        regional = [
+            release_dates[x]
+            for x in REGIONAL_LOCALES.get(date_lc, [])
+            if release_dates.get(x)
+        ]
+        if regional:
+            return min(regional)
+        date_lc = FALLBACK_LOCALES.get(date_lc)
+    return None
+
+
 _LD_RARITIES = {
     CardRarity.ULTRA: [
         CardRarity.ULTRA,
@@ -2517,6 +2748,13 @@ def parse_tcg_ocg_set(
 
     galleries: typing.Dict[str, typing.List[str]] = {}
 
+    release_dates = {
+        locale: _parse_date(_strip_markup(arg.value.strip()))
+        for arg in settable.arguments
+        if arg.name.strip()[-(len(RELDATE_SUFFIX) - 1) :] == RELDATE_SUFFIX[1:]
+        for locale in arg.name.strip()[: -len(RELDATE_SUFFIX)].split("/")
+    }
+
     for nav in navs:
         lists = [
             x.strip().lower()
@@ -2562,12 +2800,6 @@ def parse_tcg_ocg_set(
             logging.warn(f"Found set without card lists or galleries: {title}")
 
         all_lcs = {lc for lc in [*lists, *[y for x in galleries.values() for y in x]]}
-        release_dates = {
-            locale: _parse_date(_strip_markup(arg.value.strip()))
-            for arg in settable.arguments
-            if arg.name.strip()[-(len(RELDATE_SUFFIX) - 1) :] == RELDATE_SUFFIX[1:]
-            for locale in arg.name.strip()[: -len(RELDATE_SUFFIX)].split("/")
-        }
         for lc in all_lcs:
             if lc not in FORMATS_IN_NAV:
                 logging.warn(f"Unknown locale in {title}: {lc}")
@@ -2597,13 +2829,7 @@ def parse_tcg_ocg_set(
                         break
                     db_lc = FALLBACK_LOCALES.get(db_lc)
 
-                date_lc = lc
-                while date_lc is not None:
-                    reldatearg = release_dates.get(date_lc)
-                    if reldatearg:
-                        raw_locale.date = reldatearg
-                        break
-                    date_lc = FALLBACK_LOCALES.get(date_lc)
+                raw_locale.date = _locale_release_date(release_dates, lc)
 
                 # Parse card list if available (for released sets)
                 # If no card list yet, still continue to parse galleries (for upcoming TCG releases)
@@ -2646,9 +2872,7 @@ def parse_tcg_ocg_set(
                                 logging.warn(
                                     f"Found bad konami ID in {title}: {raw_id}"
                                 )
-                if has_date:
-                    datearg_str = get_table_entry(settable, lc + RELDATE_SUFFIX, "")
-                    raw_locale.date = _parse_date(_strip_markup(datearg_str.strip()))
+                raw_locale.date = _locale_release_date(release_dates, lc)
                 raw_locales[lc] = raw_locale
         if not raw_locales:
             logging.warn(f"Found set without set navigation table: {title}")
@@ -3422,6 +3646,8 @@ def import_from_yugipedia(
 ) -> typing.Tuple[int, int]:
     n_found = n_new = 0
 
+    check_export_format()
+
     with YugipediaBatcher() as batcher:
         atexit.register(
             lambda: batcher.saveCachesToDisk()
@@ -3475,6 +3701,7 @@ def import_from_yugipedia(
         if import_cards:
             banlists = get_banlist_pages(batcher)
             genesys_banlist = get_genesys_banlist(batcher)
+            errata_titles = get_errata_pages(batcher)
 
             for pageid in tqdm.tqdm(cards, desc="Importing cards from Yugipedia"):
 
@@ -3583,6 +3810,7 @@ def import_from_yugipedia(
                                 banlists,
                                 series_members,
                                 genesys_banlist,
+                                errata_titles,
                             ):
                                 n_found += 1  # This was `db.add_card(card)` and then `if found: n_found += 1 else: n_new += 1`.
                                 # The new logic increments n_new when card is created, so n_found is for updates.
@@ -4097,12 +4325,119 @@ BATCH_MAX = 50
 
 PAGES_FILENAME = "yugipedia_pages.json"
 CONTENTS_FILENAME = "yugipedia_contents.json"
-NAMESPACES = {"mw": "http://www.mediawiki.org/xml/export-0.10/"}
+KNOWN_EXPORT_NAMESPACE = "http://www.mediawiki.org/xml/export-0.11/"
+"""The XML export schema Yugipedia was last seen using. Parsing does not depend on it;
+a different one only raises a warning, so we notice MediaWiki upgrades."""
+EXPORT_CANARY_PAGE = "Dark Magician"
+"""A page that always exists and has a card table, fetched at startup to check we can still read exports."""
+
+_warned_export_namespaces: typing.Set[str] = set()
+
+
+class YugipediaExportError(RuntimeError):
+    """Yugipedia's XML export can no longer be read. Raised instead of marking every page as missing."""
+
+
+def _ci_annotation(level: str, title: str, message: str):
+    """Logs a message, also shown on the GitHub Actions run summary when running there."""
+    getattr(logging, level)(f"{title}: {message}")
+    if os.environ.get("GITHUB_ACTIONS") == "true":
+        print(f"::{level} title={title}::{message}", flush=True)
+
+
+def _local_name(element: xml.etree.ElementTree.Element) -> str:
+    return element.tag.rsplit("}", 1)[-1]
+
+
+def _child(
+    element: xml.etree.ElementTree.Element, name: str
+) -> typing.Optional[xml.etree.ElementTree.Element]:
+    return next((x for x in element if _local_name(x) == name), None)
+
+
+def parse_export(response_text: str) -> typing.List[typing.Tuple[int, str, str]]:
+    """Parses a ``Special:Export``-style response into (page ID, title, wikitext) tuples.
+    Works whatever the export schema version is; raises :class:`YugipediaExportError` if the structure changed.
+    """
+    try:
+        root = xml.etree.ElementTree.fromstring(response_text)
+    except xml.etree.ElementTree.ParseError as e:
+        raise YugipediaExportError(
+            f"Yugipedia export is not valid XML ({e}): {response_text[:200]!r}"
+        )
+    if _local_name(root) != "mediawiki":
+        raise YugipediaExportError(
+            f"Unexpected Yugipedia export root element: {root.tag}"
+        )
+
+    namespace = root.tag[1:].split("}", 1)[0] if root.tag.startswith("{") else ""
+    if (
+        namespace != KNOWN_EXPORT_NAMESPACE
+        and namespace not in _warned_export_namespaces
+    ):
+        _warned_export_namespaces.add(namespace)
+        _ci_annotation(
+            "warning",
+            "Yugipedia export format changed",
+            f"XML export namespace is now '{namespace}' (was '{KNOWN_EXPORT_NAMESPACE}'). "
+            "Pages are still read; check the data, then update KNOWN_EXPORT_NAMESPACE.",
+        )
+
+    result: typing.List[typing.Tuple[int, str, str]] = []
+    for page_xml in root:
+        if _local_name(page_xml) != "page":
+            continue
+        id_xml = _child(page_xml, "id")
+        title_xml = _child(page_xml, "title")
+        revision_xml = _child(page_xml, "revision")
+        text_xml = _child(revision_xml, "text") if revision_xml is not None else None
+        if id_xml is None or title_xml is None or text_xml is None:
+            raise YugipediaExportError(
+                f"Yugipedia export page without id/title/revision/text: "
+                f"{xml.etree.ElementTree.tostring(page_xml)[:300]!r}"
+            )
+        result.append(
+            (int(id_xml.text or ""), title_xml.text or "", text_xml.text or "")
+        )
+    return result
+
+
+def check_export_format():
+    """Fetches a page that always exists and fails loudly if its contents cannot be read back."""
+    pages = parse_export(
+        make_request(
+            {
+                "action": "query",
+                "export": 1,
+                "exportnowrap": 1,
+                "titles": EXPORT_CANARY_PAGE,
+            }
+        ).text
+    )
+    if not any(
+        title == EXPORT_CANARY_PAGE and "cardtable2" in contents.lower()
+        for _, title, contents in pages
+    ):
+        _ci_annotation(
+            "error",
+            "Yugipedia export unreadable",
+            f"Could not read the card table of '{EXPORT_CANARY_PAGE}' from the XML export; aborting before pages get marked as missing.",
+        )
+        raise YugipediaExportError(
+            f"Could not read '{EXPORT_CANARY_PAGE}' from the Yugipedia XML export"
+        )
+
+
 IMAGE_URLS_FILENAME = "yugipedia_images.json"
 CAT_MEMBERS_FILENAME = "yugipedia_members.json"
 PAGE_CATS_FILENAME = "yugipedia_categories.json"
 MISSING_PAGES_FILENAME = "yugipedia_missing.json"
 LAST_READ_FILENAME = "yugipedia_last_read.json"
+
+CACHE_VERSION = 2
+"""Bump this to make the next run forget the pages cached as missing.
+2: Yugipedia moved to the export-0.11 XML schema (Oct 2026); every page fetched since was wrongly marked missing.
+"""
 
 
 class CategoryMemberType(enum.Enum):
@@ -4185,14 +4520,24 @@ class YugipediaBatcher:
                 self.imagesCache = {int(k): v for k, v in json.load(file).items()}
 
         self.cachedLastYugipediaRead: typing.Optional[datetime.datetime] = None
+        cache_version = None
         path = os.path.join(TEMP_DIR, LAST_READ_FILENAME)
         if os.path.exists(path):
             with open(path, encoding="utf-8") as file:
-                ts_str = json.load(file).get("lastRead")
+                last_read = json.load(file)
+                cache_version = last_read.get("cacheVersion")
+                ts_str = last_read.get("lastRead")
                 if ts_str:
                     self.cachedLastYugipediaRead = datetime.datetime.fromisoformat(
                         ts_str
                     )
+
+        if cache_version != CACHE_VERSION and self.missingPagesCache:
+            logging.warning(
+                f"Yugipedia cache version {cache_version} != {CACHE_VERSION}: "
+                f"forgetting {len(self.missingPagesCache)} pages marked as missing so they get fetched again"
+            )
+            self.missingPagesCache.clear()
 
     def __enter__(self):
         return self
@@ -4279,7 +4624,8 @@ class YugipediaBatcher:
                 {
                     "lastRead": (
                         self.cachedLastYugipediaRead or datetime.datetime.now()
-                    ).isoformat()
+                    ).isoformat(),
+                    "cacheVersion": CACHE_VERSION,
                 },
                 file,
                 indent=2,
@@ -4361,20 +4707,11 @@ class YugipediaBatcher:
                 **({"titles": "|".join(pagetitles)} if pagetitles else {}),
             }
             response_text = make_request(query).text
-            pages_xml = xml.etree.ElementTree.fromstring(response_text)
 
-            for page_xml in pages_xml.findall("mw:page", NAMESPACES):
-                id = int(page_xml.find("mw:id", NAMESPACES).text)
-                title = page_xml.find("mw:title", NAMESPACES).text
-
+            for id, title, contents in parse_export(response_text):
                 self.namesToIDs[title] = id
                 self.idsToNames[id] = title
 
-                contents = (
-                    page_xml.find("mw:revision", NAMESPACES)
-                    .find("mw:text", NAMESPACES)
-                    .text
-                )
                 self.pageContentsCache[id] = contents
                 for callback in pending.get(id, []):
                     callback(contents)
