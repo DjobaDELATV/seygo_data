@@ -1,0 +1,77 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/set.json",
+  "id": "12e8da3d-688f-4250-b110-64a9396048b9",
+  "name": {
+    "en": "Yu-Gi-Oh! Championship Series 2013"
+  },
+  "locales": {
+    "en": {
+      "language": "en",
+      "prefix": "YCSW-EN",
+      "image": "https://ms.yugipedia.com//e/e7/YCSW-PromoEN.png",
+      "cardImages": {
+        "limited": {
+          "e5089eef-cb9b-4d21-ba8b-ee5cad779d2a": "https://ms.yugipedia.com//0/04/Number106GiantHand-YCSW-EN-SR-LE.png",
+          "d8a21397-1094-428d-9671-9c4e30ce08c5": "https://ms.yugipedia.com//e/eb/Number106GiantHand-YCSW-EN-UR-LE.png"
+        }
+      },
+      "cardInfo": {
+        "limited": {
+          "d8a21397-1094-428d-9671-9c4e30ce08c5": {
+            "image": "https://ms.yugipedia.com//e/eb/Number106GiantHand-YCSW-EN-UR-LE.png"
+          },
+          "e5089eef-cb9b-4d21-ba8b-ee5cad779d2a": {
+            "image": "https://ms.yugipedia.com//0/04/Number106GiantHand-YCSW-EN-SR-LE.png"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          1121212006
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "en"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "preconstructed",
+      "editions": [
+        "limited"
+      ],
+      "image": "https://ms.yugipedia.com//e/e7/YCSW-PromoEN.png",
+      "cards": [
+        {
+          "id": "e5089eef-cb9b-4d21-ba8b-ee5cad779d2a",
+          "card": "bc3261c9-a3d8-4e6a-96f5-8df1aceb2d33",
+          "suffix": "006",
+          "rarity": "super"
+        },
+        {
+          "id": "d8a21397-1094-428d-9671-9c4e30ce08c5",
+          "card": "bc3261c9-a3d8-4e6a-96f5-8df1aceb2d33",
+          "suffix": "006",
+          "rarity": "ultra"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Yu-Gi-Oh! Championship Series 2013 Prize Card",
+      "id": 413498
+    }
+  }
+}
