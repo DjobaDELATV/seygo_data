@@ -180,6 +180,23 @@ BANLIST_CATS = {
 }
 CAT_BANLIST_GENESYS = "Category:Genesys Point Lists"
 
+# Current TCG/OCG statuses, as computed by Yugipedia's card template and stored in Semantic MediaWiki.
+# Banlists only mention cards that are (or were) restricted, so this is the only Yugipedia source
+# telling us an unrestricted card is Unlimited (previously, only Yaml Yugi provided that).
+CARD_STATUS_PROPERTIES = {
+    Format.TCG: "TCG status",
+    Format.OCG: "OCG status",
+}
+CARD_STATUS_TO_LEGALITY = {
+    "unlimited": Legality.UNLIMITED,
+    "semi-limited": Legality.SEMILIMITED,
+    "limited": Legality.LIMITED,
+    "forbidden": Legality.FORBIDDEN,
+    "not yet released": Legality.UNRELEASED,
+}
+CARD_STATUSES_IGNORED = {"illegal", "legal"}  # non-playable cards and tokens
+SMW_ASK_LIMIT = 5000  # Yugipedia silently resets offsets above this, so we paginate by modification date
+
 DBID_SUFFIX = "_database_id"
 DBNAME_SUFFIX = "_name"
 RELDATE_SUFFIX = "_release_date"
@@ -3587,6 +3604,154 @@ def get_genesys_banlist(
         return result
 
 
+def _smw_ask(query: str) -> typing.Dict[str, typing.Any]:
+    n_tries = 0
+    while True:
+        response = make_request({"action": "ask", "query": query})
+        try:
+            in_json = response.json()
+        except requests.exceptions.JSONDecodeError:
+            in_json = {"error": "empty response"}
+        if "error" not in in_json and "errors" not in in_json:
+            # results is an empty list instead of an empty dict when nothing matches
+            return in_json.get("query", {}).get("results") or {}
+        n_tries += 1
+        if n_tries >= MAX_QUERY_ERROR_RETRIES:
+            raise RuntimeError(
+                f"Yugipedia SMW query kept returning errors after {MAX_QUERY_ERROR_RETRIES} retries: {json.dumps(in_json.get('error') or in_json.get('errors'))}"
+            )
+        wait = min(RATE_LIMIT * 30 * (2 ** (n_tries - 1)), 600)
+        logging.error(
+            f"Yugipedia SMW query returned error: {json.dumps(in_json.get('error') or in_json.get('errors'))}; waiting {wait:.0f}s and retrying (attempt {n_tries}/{MAX_QUERY_ERROR_RETRIES})..."
+        )
+        time.sleep(wait)
+
+
+def _smw_raw_date_to_iso(raw: str) -> str:
+    # SMW raw dates look like "1/2026/10/31/1/26/31/0" (calendar model/Y/M/D/h/m/s/fraction)
+    parts = [int(x) for x in raw.split("/")[1:7]]
+    parts += [0] * (6 - len(parts))
+    return "%04d-%02d-%02dT%02d:%02d:%02d" % tuple(parts)
+
+
+def get_card_statuses(
+    batcher: "YugipediaBatcher",
+) -> typing.Dict[Format, typing.Dict[str, Legality]]:
+    result: typing.Dict[Format, typing.Dict[str, Legality]] = {}
+    unknown_statuses: typing.Set[str] = set()
+
+    with tqdm.tqdm(
+        total=len(CARD_STATUS_PROPERTIES), desc="Fetching Yugipedia card statuses"
+    ) as progress_bar:
+        for format, prop in CARD_STATUS_PROPERTIES.items():
+            statuses = result.setdefault(format, {})
+            seen: typing.Set[str] = set()
+            cursor: typing.Optional[str] = None
+
+            while True:
+                conditions = f"[[{prop}::+]]"
+                if cursor:
+                    # SMW's ">" is inclusive, so pages sharing the cursor's date are re-fetched; dedup via seen
+                    conditions += f"[[Modification date::>{cursor}]]"
+                results = _smw_ask(
+                    f"{conditions}|?{prop}|?Modification date|sort=Modification date|order=asc|limit={SMW_ASK_LIMIT}"
+                )
+
+                n_new = 0
+                last_date = cursor
+                for title, info in results.items():
+                    printouts = info.get("printouts", {})
+                    dates = printouts.get("Modification date") or []
+                    if dates and dates[0].get("raw"):
+                        last_date = _smw_raw_date_to_iso(dates[0]["raw"])
+                    if title in seen:
+                        continue
+                    seen.add(title)
+                    n_new += 1
+
+                    values = printouts.get(prop) or []
+                    if not values:
+                        continue
+                    raw_status = values[0].get("fulltext", "").strip().lower()
+                    if raw_status in CARD_STATUS_TO_LEGALITY:
+                        statuses[title] = CARD_STATUS_TO_LEGALITY[raw_status]
+                    elif raw_status not in CARD_STATUSES_IGNORED:
+                        unknown_statuses.add(raw_status)
+
+                if len(results) < SMW_ASK_LIMIT or n_new == 0:
+                    break
+                if last_date == cursor:
+                    logging.warn(
+                        f"More than {SMW_ASK_LIMIT} pages share modification date {cursor}; some {prop} values may be missing"
+                    )
+                    break
+                cursor = last_date
+
+            logging.info(f"Found {len(statuses)} cards with a {prop}")
+            progress_bar.update(1)
+
+    for raw_status in unknown_statuses:
+        logging.warn(f"Found unknown card status on Yugipedia: {raw_status}")
+
+    return result
+
+
+def apply_card_statuses(
+    db: Database,
+    batcher: "YugipediaBatcher",
+    card_statuses: typing.Dict[Format, typing.Dict[str, Legality]],
+) -> None:
+    cards_by_page_name: typing.Dict[str, Card] = {}
+    for card in db.cards:
+        for page in card.yugipedia_pages or []:
+            if page.name:
+                cards_by_page_name.setdefault(page.name, card)
+
+    # Match by page ID first: stored page names go stale when Yugipedia pages get renamed
+    # (e.g. "Enhanced Metalmorph" -> "Max Metalmorph"), and SMW only gives us current titles
+    title_to_id: typing.Dict[str, int] = {}
+    for title in {t for statuses in card_statuses.values() for t in statuses}:
+
+        def do(title: str):
+            @batcher.getPageID(title)
+            def onGetID(pageid: int, _title: str):
+                title_to_id[title] = pageid
+
+        do(title)
+    batcher.flushPendingOperations()
+
+    touched: typing.Set[Card] = set()
+    for format, statuses in card_statuses.items():
+        for title, legality in statuses.items():
+            card = None
+            if title in title_to_id:
+                card = db.cards_by_yugipedia_id.get(title_to_id[title])
+            if card is None:
+                card = cards_by_page_name.get(title)
+            if card is None or card.illegal:
+                continue
+
+            if format in card.legality:
+                card.legality[format].legality = legality
+            else:
+                card.legality[format] = CardLegality(legality=legality)
+            touched.add(card)
+
+    # parse_card only creates Genesys data for cards with a TCG legality or Genesys points;
+    # cards that just got their TCG legality here deserve the same default
+    for card in touched:
+        tcg = card.legality.get(Format.TCG)
+        if (
+            Format.GENESYS not in card.legality
+            and tcg
+            and tcg.legality is not Legality.UNKNOWN
+            and tcg.legality is not Legality.UNRELEASED
+        ):
+            card.legality[Format.GENESYS] = CardLegality(points=0)
+
+    logging.info(f"Applied Yugipedia TCG/OCG statuses to {len(touched)} cards")
+
+
 _ORDINALS = [
     "1st",
     "2nd",
@@ -3898,6 +4063,12 @@ def import_from_yugipedia(
             batcher.flushPendingOperations()
             build_alternate_artworks_from_images(db)
             batcher.saveCachesToDisk()
+
+            # Applied to every card, not just the ones parsed this run: in incremental runs,
+            # cards whose page didn't change still need their current status refreshed.
+            # Partition runs only warm the page cache, so they skip this.
+            if partition_filepath is None:
+                apply_card_statuses(db, batcher, get_card_statuses(batcher))
 
         if import_sets:
             for setid in tqdm.tqdm(sets, desc="Importing sets from Yugipedia"):
