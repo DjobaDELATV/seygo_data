@@ -1,6 +1,7 @@
 # Import data from Yugipedia (https://yugipedia.com).
 import atexit
 import datetime
+import itertools
 import json
 import logging
 import math
@@ -148,7 +149,7 @@ def paginate_query(query) -> typing.Iterable:
 
 CAT_TCG_CARDS = "Category:TCG cards"
 CAT_OCG_CARDS = "Category:OCG cards"
-CAT_TOKENS = "Category:Tokens"
+CAT_TOKENS = "Category:Monster Tokens"
 CAT_SKILLS = "Category:Skill Cards"
 CAT_DL_SKILLS = "Category:Yu-Gi-Oh! Duel Links Skills"
 CAT_UNUSABLE = "Category:Unusable cards"
@@ -316,7 +317,7 @@ FILE_PREFIX = "file::"
 
 
 def get_card_pages(batcher: "YugipediaBatcher") -> typing.Iterable[int]:
-    with tqdm.tqdm(total=2, desc="Fetching Yugipedia card list") as progress_bar:
+    with tqdm.tqdm(total=3, desc="Fetching Yugipedia card list") as progress_bar:
         result = []
         seen = set()
 
@@ -328,6 +329,13 @@ def get_card_pages(batcher: "YugipediaBatcher") -> typing.Iterable[int]:
 
         @batcher.getCategoryMembers(CAT_OCG_CARDS)
         def catMem2(members: typing.List[int]):
+            result.extend(x for x in members if x not in seen)
+            seen.update(members)
+            progress_bar.update(1)
+
+        # Tokens that were never printed are in neither of the above
+        @batcher.getCategoryMembers(CAT_TOKENS)
+        def catMem3(members: typing.List[int]):
             result.extend(x for x in members if x not in seen)
             seen.update(members)
             progress_bar.update(1)
@@ -866,11 +874,12 @@ def parse_card(
         lang = Language.normalize(key)
 
         value = get_table_entry(cardtable, locale + "_name" if locale else "name")
-        if not locale and not value:
-            # "Duel Academy (card)" is named "Duel Academy", but keep the many "Token"s apart
-            value = (
-                title if title == "Token (card)" else re.sub(r" \(card\)$", "", title)
-            )
+        if not locale and title.startswith("Token ("):
+            # All of these are officially named "Token"; keep them apart
+            value = title
+        elif not locale and not value:
+            # "Duel Academy (card)" is named "Duel Academy"
+            value = re.sub(r" \(card\)$", "", title)
         if value and value.strip():
             value = _strip_markup(value.strip())
             card.text[lang] = CardText(name=value)
@@ -2416,6 +2425,8 @@ class ImageLocator(typing.NamedTuple):
 class PrintingLocator(typing.NamedTuple):
     card: Card
     rarity: CardRarity
+    variant: int = 0
+    """A set may have a Token many times in one rarity, with a different color or art."""
 
 
 class RawPrinting:
@@ -2425,9 +2436,18 @@ class RawPrinting:
     image: typing.Dict[ImageLocator, str]
     qty: int
     noabbr: bool
+    variant: int
+    description: typing.Optional[str]
 
     def __init__(
-        self, card: Card, code: str, rarity: CardRarity, qty: int, noabbr: bool
+        self,
+        card: Card,
+        code: str,
+        rarity: CardRarity,
+        qty: int,
+        noabbr: bool,
+        variant: int = 0,
+        description: typing.Optional[str] = None,
     ) -> None:
         self.card = card
         self.code = code
@@ -2435,9 +2455,11 @@ class RawPrinting:
         self.image = {}
         self.qty = qty
         self.noabbr = noabbr
+        self.variant = variant
+        self.description = description
 
     def locator(self) -> PrintingLocator:
-        return PrintingLocator(self.card, self.rarity)
+        return PrintingLocator(self.card, self.rarity, self.variant)
 
 
 class RawLocale:
@@ -2479,6 +2501,66 @@ FALLBACK_RARITIES = {
     CardRarity.SHORTPRINT: CardRarity.COMMON,
     **{r2: r1 for (r1, alt), r2 in COLORFUL_RARES.items()},
 }
+
+
+GENERIC_TOKEN_PAGES = {"Token", "Token (card)"}
+TOKEN_COLORS = {"Black", "Blue", "Green", "Orange", "Pink", "Red", "White", "Yellow"}
+TOKEN_DESCRIPTION_LINKS = {"Multiply": "Kuriboh Token"}
+"""Pages a generic Token's description links to, which mean a specific Token."""
+
+
+def get_row_description(post_comment: str) -> typing.Optional[str]:
+    """Gets the description option of a row of a set list."""
+    match = re.search(r"description::\s*(.*?)\s*(?:;|//|$)", post_comment)
+    return match.group(1) if match and match.group(1) else None
+
+
+def get_plain_description(description: str) -> str:
+    """Removes the markup, brackets and quotes around a set list row's description."""
+    plain = _strip_markup(description).strip()
+    if plain.startswith("(") and plain.endswith(")"):
+        plain = plain[1:-1].strip()
+    if len(plain) > 1 and plain.startswith('"') and plain.endswith('"'):
+        plain = plain[1:-1].strip()
+    return plain
+
+
+def find_token_pages(db: Database, description: str) -> typing.List[str]:
+    """Finds the pages of the Tokens that a generic Token's description says it is.
+    A card may show two Tokens, one on each half.
+    """
+
+    def is_token(page: str) -> bool:
+        card = db.cards_by_yugipedia_name.get(page)
+        return card is not None and card.card_type == CardType.TOKEN
+
+    links = [
+        TOKEN_DESCRIPTION_LINKS.get(link.target.strip(), link.target.strip())
+        for link in wikitextparser.parse(description).wikilinks
+    ]
+    pages = [link for link in links if is_token(link)]
+    if pages:
+        return pages
+
+    plain = get_plain_description(description)
+    candidates = [plain, f"Token ({plain})"]
+    color, _, rest = plain.partition(" ")
+    if color in TOKEN_COLORS and rest:
+        candidates += [rest, f"{rest} Token"]
+    return [candidate for candidate in candidates if is_token(candidate)][:1]
+
+
+def get_token_description(
+    description: str, pages: typing.List[str]
+) -> typing.Optional[str]:
+    """Gets what a description says about a Token, besides which Token it is."""
+    rest = get_plain_description(description)
+    for page in pages:
+        rest = rest.replace(f'"{page}"', "").replace(page, "").strip()
+    color, _, other = rest.partition(" ")
+    if color in TOKEN_COLORS and other and any(other in page for page in pages):
+        rest = color
+    return rest if rest and not any(rest in page for page in pages) else None
 
 
 def parse_tcg_ocg_set(
@@ -2554,11 +2636,22 @@ def parse_tcg_ocg_set(
                 rarity: CardRarity,
                 qty: typing.Optional[int],
                 noabbr: bool,
+                variant: int,
+                description: typing.Optional[str],
             ):
                 @get_card(name)
                 def onGetCard(card: Card):
+                    is_token = card.card_type == CardType.TOKEN
                     rcs: typing.List[RawPrinting] = []
-                    raw_rc = RawPrinting(card, code, rarity, qty or 1, noabbr)
+                    raw_rc = RawPrinting(
+                        card,
+                        code,
+                        rarity,
+                        qty or 1,
+                        noabbr,
+                        variant if is_token else 0,
+                        description if is_token else None,
+                    )
                     if (
                         setname in MANUAL_RARITY_FIXUPS
                         and rarity in MANUAL_RARITY_FIXUPS[setname]
@@ -2571,6 +2664,8 @@ def parse_tcg_ocg_set(
                                     new_rarity,
                                     raw_rc.qty,
                                     raw_rc.noabbr,
+                                    raw_rc.variant,
+                                    raw_rc.description,
                                 )
                             )
                     else:
@@ -2578,6 +2673,11 @@ def parse_tcg_ocg_set(
 
                     for rc in rcs:
                         raw_locale.cards[rc.locator()] = rc
+
+            rows_by_card: typing.Dict[
+                typing.Tuple[str, CardRarity],
+                typing.List[typing.Tuple[str, typing.Optional[str]]],
+            ] = {}
 
             for setlist in setlists:
                 raw_default_rarity = get_table_entry(setlist, "rarities", "C").strip()
@@ -2654,8 +2754,24 @@ def parse_tcg_ocg_set(
                             name = cols[col_index] if len(cols) > col_index else None
                             if not name:
                                 continue
-                            name = name.replace("#", "")
+                            name = strip_invisible_chars(name.replace("#", ""))
                             col_index += 1
+
+                            raw_description = get_row_description(post_comment)
+                            description = None
+                            names = [name]
+                            if raw_description:
+                                raw_description = get_table_entry(
+                                    setlist, "$description", "$1"
+                                ).replace("$1", raw_description)
+                                # These rows only say which Token they are in their description
+                                if name in GENERIC_TOKEN_PAGES:
+                                    names = (
+                                        find_token_pages(db, raw_description) or names
+                                    )
+                                description = get_token_description(
+                                    raw_description, names
+                                )
 
                             raw_rarities = (
                                 [
@@ -2694,13 +2810,20 @@ def parse_tcg_ocg_set(
                                         )
                                 col_index += 1
 
-                            for rarity in rarities or default_rarities:
+                            for name, rarity in itertools.product(
+                                names, rarities or default_rarities
+                            ):
+                                card_rows = rows_by_card.setdefault((name, rarity), [])
+                                if (code, description) not in card_rows:
+                                    card_rows.append((code, description))
                                 add_card_to_cardlist(
                                     name,
                                     code,
                                     rarity,
                                     qty if qty is not None else default_qty,
                                     noabbr,
+                                    card_rows.index((code, description)),
+                                    description,
                                 )
 
             if not setlists:
@@ -2730,10 +2853,51 @@ def parse_tcg_ocg_set(
                     r"<gallery[^\n]*\n(.*?)\n</gallery>", raw_gallery_data, re.DOTALL
                 )
 
-                def add_card_image(name: str, rarity: CardRarity, alt: str, image: str):
+                def add_card_image(
+                    name: str,
+                    rarity: CardRarity,
+                    alt: str,
+                    image: str,
+                    code: typing.Optional[str] = None,
+                ):
                     @batcher.getImageURL(f"File:{image}")
                     def onGetImage(url: str):
                         def onGetCard(card: Card, card_rarity: CardRarity = rarity):
+                            # A gallery's row may not say which Token it is, but its code does
+                            if card.card_type == CardType.TOKEN:
+                                all_rcs = raw_locale.cards.values()
+                                same_code = [
+                                    x
+                                    for x in all_rcs
+                                    if x.code == code
+                                    and x.card.card_type == CardType.TOKEN
+                                ]
+                                token_rcs = (
+                                    [x for x in same_code if x.rarity == card_rarity]
+                                    or same_code
+                                    or [
+                                        x
+                                        for x in all_rcs
+                                        if x.card is card and x.rarity == card_rarity
+                                    ]
+                                )
+                                # Rows without a code are told apart by their art
+                                token_rc = next(
+                                    (
+                                        x
+                                        for x in token_rcs
+                                        if alt
+                                        and x.description
+                                        and alt.lower() in x.description.lower()
+                                    ),
+                                    token_rcs[0] if token_rcs else None,
+                                )
+                                if token_rc:
+                                    for x in token_rcs:
+                                        if x.description == token_rc.description:
+                                            x.image[ImageLocator(edition, alt)] = url
+                                    return
+
                             pl = PrintingLocator(card, card_rarity)
                             if pl not in raw_locale.cards:
                                 if (
@@ -2851,7 +3015,10 @@ def parse_tcg_ocg_set(
                                 if file_override:
                                     image = file_override.group(1)
                                 else:
-                                    image = re.sub(r"\W", r"", name)
+                                    # The file of "Token (card)" is named "Token-..."
+                                    image = re.sub(
+                                        r"\W", r"", re.sub(r" \(card\)$", "", name)
+                                    )
                                     if code:
                                         code_before_dash = re.match(r"[^\-]+", code)
                                         if code_before_dash:
@@ -2878,7 +3045,7 @@ def parse_tcg_ocg_set(
                                     else:
                                         image += ".png"
 
-                                add_card_image(name, rarity, alt, image)
+                                add_card_image(name, rarity, alt, image, code)
 
                 for subgallery in subgallery_htmls:
                     lines = [x.strip() for x in subgallery.split("\n") if x.strip()]
@@ -3000,6 +3167,8 @@ def parse_tcg_ocg_set(
         # Same for regional sets, e.g. "Tournament Pack 2024 Vol.1 (OCG-AE)".
         for suffix in (
             " (set)",
+            " (TCG)",
+            " (OCG)",
             " (Asian-English)",
             " (Simplified Chinese)",
             " (Korean)",
@@ -3140,11 +3309,16 @@ def parse_tcg_ocg_set(
                 if raw_locale.key in lcs:
                     raw_locale.editions.add(EDITIONS_IN_NAV[ec])
 
-    old_printing_ids = {
-        PrintingLocator(p.card, p.rarity or CardRarity.COMMON): p.id
-        for c in set_.contents
-        for p in c.cards
-    }
+    old_printing_ids: typing.Dict[PrintingLocator, uuid.UUID] = {}
+    for c in set_.contents:
+        token_rows: typing.Dict[typing.Tuple[Card, CardRarity], int] = {}
+        for p in sorted(c.cards, key=lambda p: p.suffix or ""):
+            rarity = p.rarity or CardRarity.COMMON
+            variant = 0
+            if p.card.card_type == CardType.TOKEN:
+                variant = token_rows.get((p.card, rarity), 0)
+                token_rows[(p.card, rarity)] = variant + 1
+            old_printing_ids[PrintingLocator(p.card, rarity, variant)] = p.id
 
     set_.locales.clear()
     set_.contents.clear()
@@ -3229,6 +3403,7 @@ def parse_tcg_ocg_set(
                         suffix=None if rc.noabbr else rc.code[len(prefix) :],
                         replica=any(il.altinfo.lower() == "rp" for il in rc.image),
                         qty=rc.qty,
+                        description=rc.description,
                     )
                     raw_printings_to_printings[content][rcl] = printing
                     content.cards.append(printing)
@@ -4216,7 +4391,7 @@ def import_from_yugipedia(
                                 .lower()
                             )
                             if (
-                                ct == "counter"
+                                "counter" in ct
                                 or batcher.namesToIDs.get(CAT_TOKENS) in categories
                             ):
                                 ct = "token"

@@ -56,6 +56,10 @@
       "description": "If this set's distribution is of 'preconstructed' type, this indicates how many were present in the set. Default is 1 if not provided.",
       "type": "integer"
     },
+    "description": {
+      "description": "What sets this printing apart from the card's other printings in this set, such as the color or art of a Token. Only used for Tokens.",
+      "type": "string"
+    },
     "history": {
       "description": "Cards in virtual sets may be added or removed on Konami's whim. This is a record of when cards were added or removed from this virtual set.",
       "type": "array",

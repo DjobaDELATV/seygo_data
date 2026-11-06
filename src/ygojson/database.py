@@ -1957,6 +1957,11 @@ class CardPrinting:
     Default 1.
     """
 
+    description: typing.Optional[str]
+    """What sets this printing apart from the card's other printings in this set,
+    such as the color or art of a Token. Only used for Tokens.
+    """
+
     def __init__(
         self,
         *,
@@ -1969,6 +1974,7 @@ class CardPrinting:
         image: typing.Optional[CardImage] = None,
         replica: bool = False,
         qty: int = 1,
+        description: typing.Optional[str] = None,
     ) -> None:
         self.id = id
         self.card = card
@@ -1979,6 +1985,7 @@ class CardPrinting:
         self.image = image
         self.replica = replica
         self.qty = qty
+        self.description = description
 
     def _to_json(self) -> typing.Dict[str, typing.Any]:
         return {
@@ -1991,6 +1998,7 @@ class CardPrinting:
             **({"imageID": str(self.image.id)} if self.image else {}),
             **({"replica": True} if self.replica else {}),
             **({"qty": self.qty} if self.qty != 1 else {}),
+            **({"description": self.description} if self.description else {}),
         }
 
 
@@ -3916,6 +3924,7 @@ class Database:
             ),
             replica=rawprinting["replica"] if "replica" in rawprinting else False,
             qty=rawprinting["qty"] if "qty" in rawprinting else 1,
+            description=rawprinting.get("description"),
         )
         printings[result.id] = result
         return result
