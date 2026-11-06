@@ -378,6 +378,40 @@
         "craftable": {
           "description": "Is this card craftable using dust?",
           "type": "boolean"
+        },
+        "alternateArts": {
+          "description": "The alternate arts of this card in Master Duel. These belong to the card, not to any set.",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["number"],
+            "properties": {
+              "number": {
+                "description": "The number of this art. The card's normal art is number 1.",
+                "type": "integer"
+              },
+              "image": {
+                "description": "The URL to an image of this art.",
+                "type": "string",
+                "format": "uri"
+              },
+              "periods": {
+                "description": "When this art was available.",
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "startDate": { "type": "string", "format": "date" },
+                    "endDate": { "type": "string", "format": "date" }
+                  }
+                }
+              },
+              "source": {
+                "description": "What this art was available from, such as a bundle.",
+                "type": "string"
+              }
+            }
+          }
         }
       }
     },

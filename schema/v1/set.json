@@ -103,6 +103,29 @@
                     "description": "The URL to the full card image for this printing.",
                     "format": "uri"
                   },
+                  "variants": {
+                    "type": "array",
+                    "description": "The images of this printing with a label in Yugipedia's galleries, for example each of its alternate arts.",
+                    "items": {
+                      "type": "object",
+                      "required": ["label", "artType", "image"],
+                      "properties": {
+                        "label": {
+                          "type": "string",
+                          "description": "The label of this image in Yugipedia's galleries, such as AA2 or EA."
+                        },
+                        "artType": {
+                          "description": "What kind of art this is, if known from its label.",
+                          "enum": ["alternate", "extended", "other"]
+                        },
+                        "image": {
+                          "type": "string",
+                          "description": "The URL to the full card image for this variant.",
+                          "format": "uri"
+                        }
+                      }
+                    }
+                  },
                   "price": {
                     "type": "number",
                     "description": "Price information for this printing, if available. All prices are the most recent available as of the creation of this database, and are normalized to USD. No guarantees are made that this price is accurate, or that all sources were considered, or that the correct locale was considered."

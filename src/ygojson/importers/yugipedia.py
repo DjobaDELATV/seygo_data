@@ -154,6 +154,8 @@ CAT_SKILLS = "Category:Skill Cards"
 CAT_DL_SKILLS = "Category:Yu-Gi-Oh! Duel Links Skills"
 CAT_UNUSABLE = "Category:Unusable cards"
 CAT_MD_UNCRAFTABLE = "Category:Yu-Gi-Oh! Master Duel cards that cannot be crafted"
+CAT_MD_CARDS = "Category:Yu-Gi-Oh! Master Duel cards"
+CAT_DL_CARDS = "Category:Yu-Gi-Oh! Duel Links cards"
 CAT_ARCHETYPES = "Category:Archetypes"
 CAT_SERIES = "Category:Series"
 CAT_RUSH_DUEL_SERIES = "Category:Rush Duel series"
@@ -802,6 +804,62 @@ ABILITIES = {
 MYSTERY_ATK_DEFS = {"?", "????", "X000"}
 
 
+def normalize_video_game_title(title: str) -> str:
+    """Removes what titles of a card's pages differ by, like its < and >."""
+    return re.sub(r"[\s<>\uff1c\uff1e]", "", re.sub(r" \(card\)$", "", title)).lower()
+
+
+def find_video_game_title(
+    batcher: "YugipediaBatcher", title: str, suffix: str, category: str
+) -> str:
+    """Finds the title of a card's Master Duel or Duel Links page.
+    They aren't always named exactly like the card's own page.
+    """
+    if category not in batcher.videoGameTitles:
+
+        @batcher.getCategoryMembers(category)
+        def onGetMembers(members: typing.List[int]):
+            pass  # only used to fill categoryMembersCache, which also knows member titles
+
+        batcher.videoGameTitles[category] = {
+            normalize_video_game_title(x.name[: -len(suffix)]): x.name
+            for x in batcher.categoryMembersCache.get(
+                batcher.namesToIDs.get(category, category), []
+            )
+            if x.type == CategoryMemberType.PAGE and x.name.endswith(suffix)
+        }
+    return batcher.videoGameTitles[category].get(
+        normalize_video_game_title(title), title + suffix
+    )
+
+
+def parse_md_alternate_arts(raw: str) -> typing.List[typing.Dict[str, typing.Any]]:
+    """Parses a Master Duel page's table of alternate arts. Each row has the art's number,
+    the periods it was available in, and optionally where it was available from.
+    """
+    arts: typing.List[typing.Dict[str, typing.Any]] = []
+    for row in raw.split("\n"):
+        cols = [x.strip() for x in row.split(";")]
+        if not re.fullmatch(r"\d+", cols[0]):
+            continue
+        periods = []
+        for raw_period in cols[1].split("*") if len(cols) > 1 else []:
+            dates = [_parse_date(x.strip()) for x in raw_period.split(" - ")]
+            if len(dates) == 2 and all(dates):
+                periods.append(
+                    {"startDate": dates[0].isoformat(), "endDate": dates[1].isoformat()}
+                )
+        source = _strip_markup(cols[2]).strip() if len(cols) > 2 else ""
+        arts.append(
+            {
+                "number": int(cols[0]),
+                **({"periods": periods} if periods else {}),
+                **({"source": source} if source else {}),
+            }
+        )
+    return arts
+
+
 def _strip_markup(s: str) -> str:
     return "\n".join(
         wikitextparser.remove_markup(
@@ -1168,7 +1226,7 @@ def parse_card(
             add_image(in_image, new_image, update_card_art=True)
             card.images.append(new_image)
 
-    md_title = title + MD_DISAMBIG_SUFFIX
+    md_title = find_video_game_title(batcher, title, MD_DISAMBIG_SUFFIX, CAT_MD_CARDS)
 
     @batcher.getPageContents(md_title)
     def onGetMD(raw_vg_data: str):
@@ -1188,6 +1246,21 @@ def parse_card(
                 else:
                     card.master_duel_rarity = VideoGameRaity(rarity)
 
+            card.master_duel_alternate_arts = parse_md_alternate_arts(
+                get_table_entry(vg_table, "alternate_art", "")
+            )
+            image_base = re.sub(r"\W", "", md_title[: -len(MD_DISAMBIG_SUFFIX)])
+            for art in card.master_duel_alternate_arts:
+
+                def add_art_image(art: typing.Dict[str, typing.Any]):
+                    @batcher.getImageURL(
+                        f"File:{image_base}-MADU-EN-VG-artwork-{art['number']}.png"
+                    )
+                    def onGetImage(url: str):
+                        art["image"] = url
+
+                add_art_image(art)
+
         card.master_duel_craftable = True
 
         @batcher.getPageID(CAT_MD_UNCRAFTABLE)
@@ -1197,7 +1270,7 @@ def parse_card(
                 if uncraftable_id in cats:
                     card.master_duel_craftable = False
 
-    dl_title = title + DL_DISAMBIG_SUFFIX
+    dl_title = find_video_game_title(batcher, title, DL_DISAMBIG_SUFFIX, CAT_DL_CARDS)
 
     @batcher.getPageContents(dl_title)
     def onGetDL(raw_vg_data: str):
@@ -2509,6 +2582,15 @@ TOKEN_DESCRIPTION_LINKS = {"Multiply": "Kuriboh Token"}
 """Pages a generic Token's description links to, which mean a specific Token."""
 
 
+def get_art_type(label: str) -> str:
+    """Gets what kind of art a gallery's label for a printing's image means."""
+    if re.fullmatch(r"AA\d*|Alt", label):
+        return "alternate"
+    if re.fullmatch(r"EA\d*", label):
+        return "extended"
+    return "other"
+
+
 def get_row_description(post_comment: str) -> typing.Optional[str]:
     """Gets the description option of a row of a set list."""
     match = re.search(r"description::\s*(.*?)\s*(?:;|//|$)", post_comment)
@@ -3343,7 +3425,8 @@ def parse_tcg_ocg_set(
         # Calculate prefix only if there are cards (card list exists)
         prefix = None
         if raw_locale.cards:
-            prefix = commonprefix(c.code for c in raw_locale.cards.values())
+            # Some rows have no code, which shouldn't stop the others having a prefix
+            prefix = commonprefix(c.code for c in raw_locale.cards.values() if c.code)
             prefixfixer = re.match(r"[^\-]+\-\D*", prefix)
             if prefixfixer:
                 prefix = prefixfixer.group(0)
@@ -3414,15 +3497,24 @@ def parse_tcg_ocg_set(
                 locale.card_images.setdefault(edition, {})
                 for rc in raw_locale.cards.values():
                     ils = [il for il in rc.image if il.edition == edition]
-                    if len(ils) > 1:
-                        logging.warn(
-                            f"Found multiple images for the same card {rc.card.text[Language.ENGLISH].name} / {rc.rarity}, in {title}: {[il.altinfo for il in ils]}"
-                        )
                     if ils:
-                        il = ils[0]
-                        locale.card_images[edition][
-                            raw_printings_to_printings[content][rc.locator()]
-                        ] = rc.image[il]
+                        printing = raw_printings_to_printings[content][rc.locator()]
+                        # The main image is the normal art, if it has one
+                        il = next((x for x in ils if not x.altinfo), ils[0])
+                        locale.card_images[edition][printing] = rc.image[il]
+                        variants = [
+                            {
+                                "label": x.altinfo,
+                                "artType": get_art_type(x.altinfo),
+                                "image": rc.image[x],
+                            }
+                            for x in sorted(ils, key=lambda x: x.altinfo)
+                            if x.altinfo
+                        ]
+                        if variants:
+                            locale.card_variants.setdefault(edition, {})[
+                                printing
+                            ] = variants
 
     return True
 
@@ -5134,6 +5226,7 @@ class YugipediaBatcher:
         self.pendingImages = {}
 
         self.categoryMembersCache = {}
+        self.videoGameTitles = {}
 
         self.pendingGetPageID = {}
 
@@ -5682,6 +5775,7 @@ class YugipediaBatcher:
 
         return GetCatMemDecorator
 
+    videoGameTitles: typing.Dict[str, typing.Dict[str, str]]
     imagesCache: typing.Dict[int, str]
     pendingImages: typing.Dict[
         typing.Union[int, str], typing.List[typing.Callable[[str], None]]

@@ -1084,6 +1084,7 @@ class Card:
     """The rarity of this card in Master Duel, if it is in Master Duel."""
 
     master_duel_craftable: typing.Optional[bool]
+    master_duel_alternate_arts: typing.List[typing.Dict[str, typing.Any]]
     """If this card is craftable using dust or not, if it is in Master Duel."""
 
     duel_links_rarity: typing.Optional[VideoGameRaity]
@@ -1143,6 +1144,9 @@ class Card:
         ] = None,
         master_duel_rarity: typing.Optional[VideoGameRaity] = None,
         master_duel_craftable: typing.Optional[bool] = None,
+        master_duel_alternate_arts: typing.Optional[
+            typing.List[typing.Dict[str, typing.Any]]
+        ] = None,
         duel_links_rarity: typing.Optional[VideoGameRaity] = None,
         yugipedia_pages: typing.Optional[typing.List[ExternalIdPair]] = None,
         db_id: typing.Optional[int] = None,
@@ -1179,6 +1183,7 @@ class Card:
         self.errata = errata or {}
         self.master_duel_rarity = master_duel_rarity
         self.master_duel_craftable = master_duel_craftable
+        self.master_duel_alternate_arts = master_duel_alternate_arts or []
         self.duel_links_rarity = duel_links_rarity
         self.yugipedia_pages = yugipedia_pages
         self.db_id = db_id
@@ -1344,6 +1349,11 @@ class Card:
                             self.master_duel_craftable
                             if self.master_duel_craftable is not None
                             else True
+                        ),
+                        **(
+                            {"alternateArts": self.master_duel_alternate_arts}
+                            if self.master_duel_alternate_arts
+                            else {}
                         ),
                     }
                 }
@@ -2159,6 +2169,9 @@ class SetLocale:
     """If this is a booster pack, this is a URL to an image of this product's booster box in this locale."""
 
     card_images: typing.Dict[SetEdition, typing.Dict[CardPrinting, str]]
+    card_variants: typing.Dict[
+        SetEdition, typing.Dict[CardPrinting, typing.List[typing.Dict[str, str]]]
+    ]
     """Images of printings of cards in this locale. Keys are edition and printings. Values are URLs to images."""
 
     card_prices: typing.Dict[SetEdition, typing.Dict[CardPrinting, float]]
@@ -2192,6 +2205,12 @@ class SetLocale:
         card_prices: typing.Optional[
             typing.Dict[SetEdition, typing.Dict[CardPrinting, float]]
         ] = None,
+        card_variants: typing.Optional[
+            typing.Dict[
+                SetEdition,
+                typing.Dict[CardPrinting, typing.List[typing.Dict[str, str]]],
+            ]
+        ] = None,
         db_ids: typing.Optional[typing.List[int]] = None,
         formats: typing.Optional[typing.List[Format]] = None,
         editions: typing.Optional[typing.List[SetEdition]] = None,
@@ -2204,6 +2223,7 @@ class SetLocale:
         self.box_image = box_image
         self.card_images = card_images or {}
         self.card_prices = card_prices or {}
+        self.card_variants = card_variants or {}
         self.db_ids = db_ids or []
         self.formats = formats or []
         self.editions = editions or []
@@ -2230,6 +2250,11 @@ class SetLocale:
                         **(
                             {"price": self.card_prices[edition][printing]}
                             if printing in self.card_prices.get(edition, {})
+                            else {}
+                        ),
+                        **(
+                            {"variants": self.card_variants[edition][printing]}
+                            if printing in self.card_variants.get(edition, {})
                             else {}
                         ),
                     }
@@ -3088,6 +3113,10 @@ class Database:
             if card is None:
                 logging.warning(f"Card not found for removal: {entry}")
                 continue
+            # A YGOProDeck placeholder's ID can end up on the real card, by its name
+            if "ygoprodeckID" in entry and card.yugipedia_pages:
+                logging.warning(f"Not removing a card with a Yugipedia page: {entry}")
+                continue
             en_name = (
                 card.text[Language.ENGLISH].name
                 if Language.ENGLISH in card.text
@@ -3821,6 +3850,9 @@ class Database:
             master_duel_craftable=(
                 rawcard["masterDuel"]["craftable"] if "masterDuel" in rawcard else None
             ),
+            master_duel_alternate_arts=rawcard.get("masterDuel", {}).get(
+                "alternateArts"
+            ),
             duel_links_rarity=(
                 VideoGameRaity(rawcard["duelLinks"]["rarity"])
                 if "duelLinks" in rawcard
@@ -4012,6 +4044,14 @@ class Database:
                         printings[uuid.UUID(printing)]: info["price"]
                         for printing, info in infos.items()
                         if uuid.UUID(printing) in printings and "price" in info
+                    }
+                    for edition, infos in v.get("cardInfo", {}).items()
+                },
+                card_variants={
+                    SetEdition(edition): {
+                        printings[uuid.UUID(printing)]: info["variants"]
+                        for printing, info in infos.items()
+                        if uuid.UUID(printing) in printings and "variants" in info
                     }
                     for edition, infos in v.get("cardInfo", {}).items()
                 },
