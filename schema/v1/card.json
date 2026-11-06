@@ -384,7 +384,9 @@
           "type": "array",
           "items": {
             "type": "object",
-            "required": ["number"],
+            "required": [
+              "number"
+            ],
             "properties": {
               "number": {
                 "description": "The number of this art. The card's normal art is number 1.",
@@ -401,8 +403,14 @@
                 "items": {
                   "type": "object",
                   "properties": {
-                    "startDate": { "type": "string", "format": "date" },
-                    "endDate": { "type": "string", "format": "date" }
+                    "startDate": {
+                      "type": "string",
+                      "format": "date"
+                    },
+                    "endDate": {
+                      "type": "string",
+                      "format": "date"
+                    }
                   }
                 }
               },

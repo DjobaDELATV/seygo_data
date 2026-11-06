@@ -108,7 +108,11 @@
                     "description": "The images of this printing with a label in Yugipedia's galleries, for example each of its alternate arts.",
                     "items": {
                       "type": "object",
-                      "required": ["label", "artType", "image"],
+                      "required": [
+                        "label",
+                        "artType",
+                        "image"
+                      ],
                       "properties": {
                         "label": {
                           "type": "string",
@@ -116,7 +120,11 @@
                         },
                         "artType": {
                           "description": "What kind of art this is, if known from its label.",
-                          "enum": ["alternate", "extended", "other"]
+                          "enum": [
+                            "alternate",
+                            "extended",
+                            "other"
+                          ]
                         },
                         "image": {
                           "type": "string",
