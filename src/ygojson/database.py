@@ -2480,6 +2480,9 @@ class Database:
     cards_by_yugipedia_id: typing.Dict[int, Card]
     """You may use this to look up cards by their Yugipedia page ID."""
 
+    cards_by_yugipedia_name: typing.Dict[str, Card]
+    """You may use this to look up cards by their Yugipedia page title."""
+
     cards_by_ygoprodeck_id: typing.Dict[int, Card]
     """You may use this to look up cards by their YGOPRODECK password."""
 
@@ -2575,6 +2578,7 @@ class Database:
         self.cards_by_normalized_en_name = {}
         self.cards_by_konami_cid = {}
         self.cards_by_yugipedia_id = {}
+        self.cards_by_yugipedia_name = {}
         self.cards_by_ygoprodeck_id = {}
 
         self.card_images_by_id = {}
@@ -2630,6 +2634,7 @@ class Database:
             self.cards_by_konami_cid[card.db_id] = card
         for page in card.yugipedia_pages or []:
             self.cards_by_yugipedia_id[page.id] = card
+            self.cards_by_yugipedia_name[page.name] = card
         if card.ygoprodeck:
             self.cards_by_ygoprodeck_id[card.ygoprodeck.id] = card
 
@@ -2909,6 +2914,8 @@ class Database:
         for page in card.yugipedia_pages or []:
             if self.cards_by_yugipedia_id.get(page.id) is card:
                 del self.cards_by_yugipedia_id[page.id]
+            if self.cards_by_yugipedia_name.get(page.name) is card:
+                del self.cards_by_yugipedia_name[page.name]
         if (
             card.ygoprodeck
             and self.cards_by_ygoprodeck_id.get(card.ygoprodeck.id) is card

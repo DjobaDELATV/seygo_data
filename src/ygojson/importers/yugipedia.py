@@ -165,7 +165,117 @@ SET_CATS = [
     "Category:Preconstructed Decks",  # for specifically the Speed Duel box decks, because for some reason they have no format category in Yugipedia
     "Category:+1 Expansion Packs",  # category page missing on Yugipedia, not reachable via OCG sets hierarchy
     "Category:+1 Assist Packs",  # category page missing on Yugipedia, not reachable via OCG sets hierarchy
+    # category pages below are missing on Yugipedia, so they're not reachable via the TCG/OCG sets hierarchy
+    "Category:Ultimate Tournament Packs",
+    "Category:Winner's Packs",
+    "Category:Genesys Packs",
+    "Category:Hidden Chapter Packs",
+    "Category:Event Packs",
+    "Category:Boss Duel Decks",
+    "Category:Asian-English Tournament Packs",
+    "Category:Simplified Chinese Tournament Packs",
+    "Category:Perfect Rulebook promotional cards",
+    "Category:OCG book promotional cards",
+    "Category:Weekly Shonen Jump Jump Pack promotional cards",
+    "Category:Korean National Championship promotional cards",
+    "Category:Master Guide promotional cards",
+    "Category:Premiere! promotional cards",
+    "Category:TCG bundles",
+    "Category:Complement Packs",
+    "Category:Duelist Sets",
+    "Category:OCG Special Edition Sets",
 ]
+
+SET_PAGES = [
+    '"Dark Magician" Giveaway for 1000 People!',
+    "20th Anniversary Set",
+    "Boss Duel",
+    "Classic Times Event Special Pack Vol.1",
+    "Classic Times Event Special Pack Vol.2",
+    "Classic Times Event Ultimate Pack Vol.1",
+    "Concept Duel 1",
+    "Concept Duel 2",
+    "Concept Duel 3",
+    "Demo Speed Dueling kit",
+    "Duel Disk - Yusei Version",
+    "Duel Disk - Yusei Version DX",
+    "Duel Disk - Yusei Version DX - Limited Edition",
+    "Duel Field EX Epic of Noble Knights: Holy Sword of Guidance",
+    "Duelist Box",
+    "Duelist Pack Collection",
+    "Duelist Set DX: Double Union",
+    "E Jump lottery prize card",
+    "Jump Pack 2014 Issue 1 promotional card",
+    "Jump Pack 2014 Issue 2 promotional card",
+    "Jump Pack 2014 Issue 3 promotional card",
+    "National Championship 2010 TOP 8",
+    "National Championship 2011 (Korean)",
+    "National Championship 2013 (Korean)",
+    "SJ Jump Pack Fall 2019 promotional card",
+    "SJ Jump Pack Spring 2020 promotional card",
+    "Selection BOX Mini Vol.04",
+    "Selection BOX Mini Vol.05",
+    "Selection BOX Mini Vol.06",
+    "Selection BOX Mini Vol.07",
+    "Selection BOX Mini Vol.08",
+    "Shonen Jump Scholastic Edition Vol. 9, Issue 1 promotional card",
+    "Structure Deck EX: Masters of Chaos",
+    "Structure Deck: HERO Rising",
+    "Structure Deck: Legendary Warriors",
+    "Structure Deck: Return of the Red-Eyes",
+    "WSJ Jump Pack Fall 2017 promotional card",
+    "WSJ Jump Pack Fall 2018 promotional card",
+    "WSJ Jump Pack Spring 2018 promotional card",
+    "WSJ Jump Pack Spring 2019 promotional card",
+    "Warriors Unite",
+]
+"""Sets we want that are in no useful category."""
+
+MD_SETS_WITH_UPDATE_LOG = {"Legacy Pack"}
+"""Master Duel sets whose "Set Card Lists:" table is no longer maintained, but whose page logs the cards added and removed since release."""
+
+CAT_ALL_SETS = "Category:All sets"
+
+IGNORED_SET_CATS = [
+    # out of scope
+    "Category:Video game sets",
+    "Category:Video game promotional cards",
+    "Category:Yu-Gi-Oh! Rush Duel sets",
+    "Category:Yu-Gi-Oh! Rush Duel Half Decks",
+    "Category:Rush Duel Booster Packs",
+    "Category:Yu-Gi-Oh! Duel Links Super Mini BOXes",
+    "Category:Merchandise",
+    "Category:DDM Sets",
+    "Category:Bandai OCG sets",
+    "Category:Collector's cards sets",
+    "Category:Collectible card series",
+    "Category:Deformed Ball Chain",
+    "Category:Unreleased material",
+    "Category:Yu-Gi-Oh! GX Duel Academy",
+    "Category:Yu-Gi-Oh! Monster Capsule: Breed and Battle",
+    # real products we don't import for now
+    "Category:Book promotional cards",
+    "Category:Battle Kits",
+]
+"""Categories (searched recursively) of sets we knowingly don't import. Anything in CAT_ALL_SETS that's neither here nor in SET_CATS gets reported."""
+
+IGNORED_SET_PAGES = {
+    "BAM Legend All-Stars",
+    "Classic Times Event Entry Pack Vol.1",
+    "Classic Times Event Entry Pack Vol.2",
+    "Obscure Devastation",
+    "Series 1 (BAM)",
+    "Series 2 (BAM)",
+    "Side Series (BAM)",
+    "Star Pack 2014 Beginner's Kit",
+    "Star Pack ARC-V Beginner's Kit",
+    "Summer Festival 2013",
+    "Winter Festival 2013",
+    "Yu-Gi-Oh! the Movie VHS and DVD promotional cards",
+}
+"""Same as IGNORED_SET_CATS, for sets in no useful category."""
+
+UNCOVERED_SETS_FILENAME = "uncovered_sets.md"
 
 BANLIST_CATS = {
     "tcg": "Category:TCG Advanced Format Forbidden & Limited Lists",
@@ -240,7 +350,81 @@ def get_set_pages(batcher: "YugipediaBatcher") -> typing.Iterable[int]:
                 seen.update(members)
                 progress_bar.update(1)
 
+        for page in SET_PAGES:
+
+            @batcher.getPageID(page)
+            def onGetID(pageid: int, _: str):
+                if pageid not in seen:
+                    result.append(pageid)
+                    seen.add(pageid)
+
+        batcher._executeGetPageIDBatch()
+
         return result
+
+
+def get_uncovered_set_pages(
+    batcher: "YugipediaBatcher", known_sets: typing.Iterable[int]
+) -> typing.List[str]:
+    """Titles of the sets on Yugipedia that SET_CATS doesn't reach and that we don't knowingly ignore."""
+    known = set(known_sets)
+    seen_cats: typing.Set[typing.Union[int, str]] = set()
+
+    def add_category(cat: typing.Union[int, str]):
+        # subcategories can loop, unlike what getCategoryMembersRecursive expects
+        if cat in seen_cats:
+            return
+        seen_cats.add(cat)
+
+        @batcher.getCategoryMembers(cat)
+        def onGetMembers(members: typing.List[int]):
+            known.update(members)
+
+        @batcher.getSubcategories(cat)
+        def onGetSubcats(subcats: typing.List[int]):
+            for subcat in subcats:
+                add_category(subcat)
+
+    for cat in IGNORED_SET_CATS:
+        add_category(cat)
+
+    @batcher.getCategoryMembers(CAT_ALL_SETS)
+    def onGetAllSets(members: typing.List[int]):
+        pass  # only used to fill categoryMembersCache, which also knows member titles
+
+    return sorted(
+        x.name
+        for x in batcher.categoryMembersCache.get(
+            batcher.namesToIDs.get(CAT_ALL_SETS, CAT_ALL_SETS), []
+        )
+        if x.type == CategoryMemberType.PAGE
+        and x.id not in known
+        and x.name not in IGNORED_SET_PAGES
+    )
+
+
+def report_uncovered_sets(
+    batcher: "YugipediaBatcher", known_sets: typing.Iterable[int]
+):
+    """Warns of sets we may be missing, and leaves a report in TEMP_DIR for the nightly to publish."""
+    path = os.path.join(TEMP_DIR, UNCOVERED_SETS_FILENAME)
+    if os.path.exists(path):
+        os.remove(path)
+
+    uncovered = get_uncovered_set_pages(batcher, known_sets)
+    if not uncovered:
+        return
+
+    logging.warning(f"Found {len(uncovered)} sets not covered by SET_CATS: {uncovered}")
+    os.makedirs(TEMP_DIR, exist_ok=True)
+    with open(path, "w", encoding="utf-8") as file:
+        file.write(
+            "Ces sets sont sur Yugipedia mais ni importés ni ignorés. Pour chacun : "
+            "ajouter sa catégorie à `SET_CATS`, ou à `IGNORED_SET_CATS` / `IGNORED_SET_PAGES`.\n\n"
+        )
+        for title in uncovered:
+            url = "https://yugipedia.com/wiki/" + title.replace(" ", "_")
+            file.write(f"- [{title}]({url})\n")
 
 
 def get_series_pages(batcher: "YugipediaBatcher") -> typing.Iterable[int]:
@@ -2784,7 +2968,13 @@ def parse_tcg_ocg_set(
         # e.g. "Ghosts From the Past (set)" → "Ghosts From the Past"
         # so the lookup becomes "Set Card Lists:Ghosts From the Past (TCG-EN)" (correct)
         # instead of "Set Card Lists:Ghosts From the Past (set) (TCG-EN)" (missing).
-        for suffix in (" (set)",):
+        # Same for regional sets, e.g. "Tournament Pack 2024 Vol.1 (OCG-AE)".
+        for suffix in (
+            " (set)",
+            " (Asian-English)",
+            " (Simplified Chinese)",
+            " (Korean)",
+        ):
             if setname.endswith(suffix):
                 setname = setname[: -len(suffix)]
                 break
@@ -3039,6 +3229,47 @@ ARCHETYPE_DISAMBIG_SUFFIX = " (archetype)"
 SERIES_DISAMBIG_SUFFIX = " (series)"
 
 
+def find_set_card_by_name(db: Database, cardname: str) -> typing.Optional[Card]:
+    """Finds the card a video game set's row means, if its page can't be resolved."""
+    # The page title comes first: "Call of the Haunted" also has a Skill Card
+    return (
+        db.cards_by_yugipedia_name.get(cardname)
+        or db.cards_by_en_name.get(cardname)
+        or db.cards_by_normalized_en_name.get(normalize_card_name(cardname))
+    )
+
+
+def get_md_update_log_cards(
+    title: str, raw_data: str, raw_list: str
+) -> typing.List[str]:
+    """Applies the "Updates" log of a set's page to its "Set Card Lists:" table."""
+    cards = {x: None for x in re.findall(r'"\[\[([^\]|]+)(?:\|[^\]]*)?\]\]"', raw_list)}
+
+    log = re.search(r"^==\s*Updates\s*==$(.*?)(?=^==[^=]|\Z)", raw_data, re.M | re.S)
+    n_added, n_removed = 0, 0
+    for action, n, names in re.findall(
+        r"(Added|Removed) (\d+) cards? \((.*?)\)(?=\.|$)",
+        log.group(1) if log else "",
+        re.M,
+    ):
+        for name in re.findall(r"\[\[([^\]|]+)", names):
+            if action == "Added":
+                cards[name] = None
+            else:
+                cards.pop(name, None)
+        if action == "Added":
+            n_added += int(n)
+        else:
+            n_removed += int(n)
+
+    n_release = re.search(r"this pack had (\d+) cards", raw_data)
+    if not n_release or int(n_release[1]) + n_added - n_removed != len(cards):
+        logging.warning(
+            f"Update log of {title} doesn't add up: {n_release and n_release[1]} on release, +{n_added}, -{n_removed}, but found {len(cards)} cards"
+        )
+    return [*cards]
+
+
 def parse_md_set(
     db: Database,
     batcher: "YugipediaBatcher",
@@ -3068,6 +3299,26 @@ def parse_md_set(
     setlists = [
         x for x in data.templates if x.name.strip().lower() == "master duel set list"
     ]
+    if not setlists and title in MD_SETS_WITH_UPDATE_LOG:
+
+        @batcher.getPageContents(f"Set Card Lists:{title}")
+        def onGetList(raw_list: str):
+            rows = "\n".join(
+                x.replace("=", "{{=}}")
+                for x in get_md_update_log_cards(title, raw_data, raw_list)
+            )
+            parse_md_set(
+                db,
+                batcher,
+                pageid,
+                set_,
+                wikitextparser.parse(f"{{{{Master Duel set list|\n{rows}\n}}}}"),
+                raw_data,
+                settable,
+            )
+
+        return True
+
     if not setlists:
         logging.warn(f"Found Master Duel set without setlists: {title}")
         return False
@@ -3092,7 +3343,8 @@ def parse_md_set(
                 if not parts:
                     continue
 
-                cardname = parts[0]
+                # Drop row options, e.g. "Card (Duel Links) //rarity::[[Common|Normal]]"
+                cardname = parts[0].split("//")[0].strip()
                 # Replace {{=}} (MediaWiki template for literal "=") with actual "="
                 cardname = cardname.replace("{{=}}", "=")
                 # Strip any "(Master Duel...)" variant
@@ -3140,11 +3392,7 @@ def parse_md_set(
 
                 do(cardname)
                 # Fallback immédiat par nom si la page Yugipedia est manquante
-                name_card = db.cards_by_en_name.get(cardname)
-                if not name_card:
-                    name_card = db.cards_by_normalized_en_name.get(
-                        normalize_card_name(cardname)
-                    )
+                name_card = find_set_card_by_name(db, cardname)
                 if name_card:
                     add_card(name_card)
 
@@ -3212,7 +3460,8 @@ def parse_dl_set(
                 if not parts:
                     continue
 
-                cardname = parts[0]
+                # Drop row options, e.g. "Card (Duel Links) //rarity::[[Common|Normal]]"
+                cardname = parts[0].split("//")[0].strip()
                 # Replace {{=}} (MediaWiki template for literal "=") with actual "="
                 cardname = cardname.replace("{{=}}", "=")
                 # Strip any "(Duel Links...)" variant: (Duel Links), (Duel Links 2nd),
@@ -3261,11 +3510,7 @@ def parse_dl_set(
                 # If the Yugipedia page is missing (callback never called), fall back to
                 # name lookup. This handles DL sets where the DL-specific page doesn't
                 # exist yet but the TCG/OCG card is already in the database.
-                name_card = db.cards_by_en_name.get(cardname)
-                if not name_card:
-                    name_card = db.cards_by_normalized_en_name.get(
-                        normalize_card_name(cardname)
-                    )
+                name_card = find_set_card_by_name(db, cardname)
                 if name_card:
                     add_card(name_card)
 
@@ -3847,6 +4092,9 @@ def import_from_yugipedia(
                     series_members.setdefault(name, set())
                     for member in existing_series.members:
                         series_members[name].add(member)
+
+        if partition_filepath is None and import_sets and not specific_pages:
+            report_uncovered_sets(batcher, sets)
 
         if len(specific_pages) > 0:
             specific_ids: typing.List[int] = []
@@ -5295,6 +5543,11 @@ class YugipediaBatcher:
         class GetIDDecorator:
             def __init__(self, callback: typing.Callable[[int, str], None]) -> None:
                 if batcher.use_cache and str(page) in batcher.missingPagesCache:
+                    return
+
+                # not a valid title, and the API would read it as several of them
+                if "|" in str(page):
+                    logging.warning(f"Invalid page title: {page}")
                     return
 
                 pageid = (

@@ -8,6 +8,7 @@ on:
 permissions:
   contents: write
   actions: write
+  issues: write
 
 concurrency:
   group: db-pipeline
@@ -185,6 +186,19 @@ jobs:
       - name: Run YGOJSON (Post-Yugipedia)
         run: |
           ygojson --production --no-ygoprodeck --no-yamlyugi
+      - name: Report Uncovered Sets
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          [ -s temp/uncovered_sets.md ] || exit 0
+          TITLE="Nouveaux sets Yugipedia non couverts"
+          ISSUE=$(gh issue list --state open --search "\"$TITLE\" in:title" --json number --jq '.[0].number // empty')
+          if [ -n "$ISSUE" ]; then
+            gh issue edit "$ISSUE" --body-file temp/uncovered_sets.md
+          else
+            gh issue create --title "$TITLE" --body-file temp/uncovered_sets.md
+          fi
       - name: Test
         run: |
           python test/validate_data.py
