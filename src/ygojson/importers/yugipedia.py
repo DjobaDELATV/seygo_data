@@ -807,6 +807,18 @@ def _strip_markup(s: str) -> str:
     )
 
 
+def is_alternate_card_page(card: Card, page: int, title: str) -> bool:
+    """Is this not the card's main page, the one titled like the card?"""
+    en_text = card.text.get(Language.ENGLISH)
+    return bool(
+        en_text
+        and title != en_text.name
+        and any(
+            x.name == en_text.name and x.id != page for x in card.yugipedia_pages or []
+        )
+    )
+
+
 def parse_card(
     batcher: "YugipediaBatcher",
     page: int,
@@ -823,15 +835,22 @@ def parse_card(
     for the database, and True otherwise.
     """
 
-    for possibly_out_of_date_set in series_members.values():
-        # we do this to ensure that we don't cache bad data when a series is removed from a card
-        if card in possibly_out_of_date_set:
-            possibly_out_of_date_set.remove(card)
-
     title = batcher.idsToNames.get(page)
     if title is None:
         logging.warning(f"Card page has no title: {page}")
         return False
+
+    # An alternate page, e.g. "Polymerization (alternate password)" or "Dark Magician
+    # (Arkana)": it still leads to the card, but only the main page describes it
+    if is_alternate_card_page(card, page, title):
+        if not any(x.id == page for x in card.yugipedia_pages):
+            card.yugipedia_pages.append(ExternalIdPair(title, page))
+        return True
+
+    for possibly_out_of_date_set in series_members.values():
+        # we do this to ensure that we don't cache bad data when a series is removed from a card
+        if card in possibly_out_of_date_set:
+            possibly_out_of_date_set.remove(card)
 
     cardtable = next(
         iter([x for x in data.templates if x.name.strip().lower() == "cardtable2"])
@@ -848,7 +867,10 @@ def parse_card(
 
         value = get_table_entry(cardtable, locale + "_name" if locale else "name")
         if not locale and not value:
-            value = title
+            # "Duel Academy (card)" is named "Duel Academy", but keep the many "Token"s apart
+            value = (
+                title if title == "Token (card)" else re.sub(r" \(card\)$", "", title)
+            )
         if value and value.strip():
             value = _strip_markup(value.strip())
             card.text[lang] = CardText(name=value)
@@ -958,6 +980,13 @@ def parse_card(
         for k, v in CLASSIFICATIONS.items():
             if k in typeline and v not in card.classifications:
                 card.classifications.append(v)
+        # YGOPRODeck calls Normal Pendulum Tuners "Pendulum Tuner Effect Monster"
+        if (
+            "Normal" in typeline
+            and "Effect" not in typeline
+            and Classification.EFFECT in card.classifications
+        ):
+            card.classifications.remove(Classification.EFFECT)
         if not card.abilities:
             card.abilities = []
         for k, v in ABILITIES.items():
@@ -3225,8 +3254,46 @@ def parse_tcg_ocg_set(
 
 MD_DISAMBIG_SUFFIX = " (Master Duel)"
 DL_DISAMBIG_SUFFIX = " (Duel Links)"
+DL_RUSH_SUFFIX = "(Duel Links Rush Duel)"
 ARCHETYPE_DISAMBIG_SUFFIX = " (archetype)"
 SERIES_DISAMBIG_SUFFIX = " (series)"
+
+
+def strip_invisible_chars(text: str) -> str:
+    """Removes text direction marks, which set lists sometimes have after a card's name."""
+    return re.sub("[\u200e\u200f\u202a-\u202e]", "", text)
+
+
+def get_dl_row_card_name(row: str) -> str:
+    """Gets the name of the base card from a row of a Duel Links set list."""
+    # Drop row options, e.g. "Card (Duel Links) //rarity::[[Common|Normal]]"
+    cardname = strip_invisible_chars(row.split(";")[0]).split("//")[0].strip()
+    # Replace {{=}} (MediaWiki template for literal "=") with actual "="
+    cardname = cardname.replace("{{=}}", "=")
+    # Strip any "(Duel Links...)" variant: (Duel Links), (Duel Links 2nd),
+    # (Duel Links card), etc. - we always want the base TCG/OCG card.
+    return re.sub(r"\s*\(Duel Links[^)]*\)$", "", cardname)
+
+
+def is_rush_duel_dl_set(
+    db: Database, setlists: typing.List[wikitextparser.Template]
+) -> bool:
+    """Rush Duel cards aren't in the database, so most rows of these sets match nothing, and the rest are other cards of the same name."""
+    rows = [
+        row.strip()
+        for setlist in setlists
+        for arg in setlist.arguments
+        if arg.positional
+        for row in arg.value.split("\n")
+        if row.strip(" ;")
+    ]
+    n_real = sum(
+        1
+        for row in rows
+        if DL_RUSH_SUFFIX not in row
+        and find_set_card_by_name(db, get_dl_row_card_name(row))
+    )
+    return n_real * 2 < len(rows)
 
 
 def find_set_card_by_name(db: Database, cardname: str) -> typing.Optional[Card]:
@@ -3422,6 +3489,14 @@ def parse_dl_set(
     settable: wikitextparser.Template,
 ) -> bool:
     title = batcher.idsToNames[pageid]
+
+    setlists = [x for x in data.templates if x.name.strip().lower() == "set list"]
+    if is_rush_duel_dl_set(db, setlists):
+        logging.debug(f"Skipping Rush Duel set: {title}")
+        if set_.id in db.sets_by_id:
+            db._remove_set(set_)
+        return False
+
     set_.name[Language.ENGLISH] = (
         title[: -len(DL_DISAMBIG_SUFFIX)]
         if title.endswith(DL_DISAMBIG_SUFFIX)
@@ -3438,7 +3513,6 @@ def parse_dl_set(
         contents = SetContents(formats=[Format.DUELLINKS])
 
     found_cards: typing.Set[Card] = set()
-    setlists = [x for x in data.templates if x.name.strip().lower() == "set list"]
     if not setlists:
         logging.warn(f"Found Duel Links set without setlists: {title}")
         return False
@@ -3460,13 +3534,7 @@ def parse_dl_set(
                 if not parts:
                     continue
 
-                # Drop row options, e.g. "Card (Duel Links) //rarity::[[Common|Normal]]"
-                cardname = parts[0].split("//")[0].strip()
-                # Replace {{=}} (MediaWiki template for literal "=") with actual "="
-                cardname = cardname.replace("{{=}}", "=")
-                # Strip any "(Duel Links...)" variant: (Duel Links), (Duel Links 2nd),
-                # (Duel Links card), etc. — we always want the base TCG/OCG card.
-                cardname = re.sub(r"\s*\(Duel Links[^)]*\)$", "", cardname)
+                cardname = get_dl_row_card_name(parts[0])
 
                 def add_card(card: Card):
                     found_cards.add(card)
@@ -5539,6 +5607,9 @@ class YugipediaBatcher:
 
     def getPageID(self, page: typing.Union[str, int]):
         batcher = self
+        # the API drops these from titles, and wouldn't report the title we asked for
+        if type(page) is str:
+            page = strip_invisible_chars(page)
 
         class GetIDDecorator:
             def __init__(self, callback: typing.Callable[[int, str], None]) -> None:

@@ -2624,7 +2624,8 @@ class Database:
             self.cards_by_password[pw] = card
         if card.yamlyugi_id:
             self.cards_by_yamlyugi[card.yamlyugi_id] = card
-        if Language.ENGLISH in card.text:
+        # Duel Links Skills aren't cards, and many share a name with one
+        if Language.ENGLISH in card.text and card.card_type != CardType.SKILL_DL:
             self.cards_by_en_name[card.text[Language.ENGLISH].name] = card
             # Also index by normalized name to detect similar names
             normalized_name = normalize_card_name(card.text[Language.ENGLISH].name)
