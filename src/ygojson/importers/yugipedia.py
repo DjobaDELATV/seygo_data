@@ -309,6 +309,7 @@ CARD_STATUS_TO_LEGALITY = {
 }
 CARD_STATUSES_IGNORED = {"illegal", "legal"}  # non-playable cards and tokens
 SMW_ASK_LIMIT = 5000  # Yugipedia silently resets offsets above this, so we paginate by modification date
+SMW_ASK_PAGE = 500  # asking for SMW_ASK_LIMIT results at once can take longer than the request timeout
 
 DBID_SUFFIX = "_database_id"
 DBNAME_SUFFIX = "_name"
@@ -4233,9 +4234,14 @@ def get_card_statuses(
                 if cursor:
                     # SMW's ">" is inclusive, so pages sharing the cursor's date are re-fetched; dedup via seen
                     conditions += f"[[Modification date::>{cursor}]]"
-                results = _smw_ask(
-                    f"{conditions}|?{prop}|?Modification date|sort=Modification date|order=asc|limit={SMW_ASK_LIMIT}"
-                )
+                results: typing.Dict[str, typing.Any] = {}
+                for offset in range(0, SMW_ASK_LIMIT, SMW_ASK_PAGE):
+                    page = _smw_ask(
+                        f"{conditions}|?{prop}|?Modification date|sort=Modification date|order=asc|limit={SMW_ASK_PAGE}|offset={offset}"
+                    )
+                    results.update(page)
+                    if len(page) < SMW_ASK_PAGE:
+                        break
 
                 n_new = 0
                 last_date = cursor
