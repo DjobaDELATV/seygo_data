@@ -3570,7 +3570,15 @@ def parse_tcg_ocg_set(
                     return None
         return "extended"
 
-    for raw_locale in raw_locales.values():
+    # Some wiki locales share one of ours, like Japanese-Asian prints ("ja") and
+    # Japanese ones ("jp"): the one named like ours comes first and wins
+    def raw_locale_order(raw_locale: RawLocale) -> typing.Tuple[bool, str]:
+        return (
+            Locale.normalize(raw_locale.key).value != raw_locale.key,
+            raw_locale.key,
+        )
+
+    for raw_locale in sorted(raw_locales.values(), key=raw_locale_order):
         fmt = Format(raw_locale.format.lower())
 
         for edition in raw_locale.editions:
@@ -3589,7 +3597,7 @@ def parse_tcg_ocg_set(
             if prefixfixer:
                 prefix = prefixfixer.group(0)
 
-        locale = SetLocale(
+        new_locale = SetLocale(
             key=Locale.normalize(raw_locale.key),
             language=LOCALES.get(raw_locale.key, raw_locale.key),
             editions=[*raw_locale.editions],
@@ -3604,7 +3612,24 @@ def parse_tcg_ocg_set(
             ),
             db_ids=raw_locale.db_ids,
         )
-        set_.locales[locale.key] = locale
+        locale = set_.locales.setdefault(new_locale.key, new_locale)
+        if locale is not new_locale:
+            # Keep what the first one has, and add what only this one has
+            for edition in new_locale.editions:
+                if edition not in locale.editions:
+                    locale.editions.append(edition)
+            if fmt not in locale.formats:
+                locale.formats.append(fmt)
+            locale.image = locale.image or new_locale.image
+            locale.date = locale.date or new_locale.date
+            locale.prefix = locale.prefix or new_locale.prefix
+            locale.db_ids = locale.db_ids or new_locale.db_ids
+        # Printings of the same card and rarity share an ID across contents
+        taken_printings = {
+            (edition, printing.id)
+            for edition, images in locale.card_images.items()
+            for printing in images
+        }
 
         # Only create SetContents if there are cards (card list exists)
         # Locales without card lists (upcoming releases) will only have the pack image
@@ -3612,7 +3637,8 @@ def parse_tcg_ocg_set(
             ptc_key = tuple(raw_locale.cards)
             if ptc_key in raw_printings_to_content:
                 content = raw_printings_to_content[ptc_key]
-                content.locales.append(locale)
+                if not any(x is locale for x in content.locales):
+                    content.locales.append(locale)
                 for edition in raw_locale.editions:
                     if edition not in content.editions:
                         content.editions.append(edition)
@@ -3657,6 +3683,8 @@ def parse_tcg_ocg_set(
                     ils = [il for il in rc.image if il.edition == edition]
                     if ils:
                         printing = raw_printings_to_printings[content][rc.locator()]
+                        if (edition, printing.id) in taken_printings:
+                            continue
                         # The main image is the normal art, if it has one
                         il = next((x for x in ils if not x.altinfo), ils[0])
                         locale.card_images[edition][printing] = rc.image[il]
