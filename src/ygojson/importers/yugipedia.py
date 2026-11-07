@@ -632,7 +632,7 @@ def get_changelog(
         "list": "recentchanges",
         "rcend": since.isoformat(),
         "rclimit": "max",
-        "rcnamespace": "0|6|14|3006|3010",  # main (cards/sets/series) + file (image URL invalidation) + category (new set/series added) + Set Card Lists (card added to a set) + Card Errata
+        "rcnamespace": "0|6|14|3006|3010|3024",  # main (cards/sets/series) + file (image URL invalidation) + category (new set/series added) + Set Card Lists (card added to a set) + Card Errata + Set Card Galleries (images added to a set)
         "rcprop": "title|ids|type",
     }
 
@@ -5319,9 +5319,10 @@ PAGE_CATS_FILENAME = "yugipedia_categories.json"
 MISSING_PAGES_FILENAME = "yugipedia_missing.json"
 LAST_READ_FILENAME = "yugipedia_last_read.json"
 
-CACHE_VERSION = 2
-"""Bump this to make the next run forget the pages cached as missing.
+CACHE_VERSION = 3
+"""Bump this to make the next run forget the pages cached as missing and the cached set card galleries.
 2: Yugipedia moved to the export-0.11 XML schema (Oct 2026); every page fetched since was wrongly marked missing.
+3: The changelog didn't cover set card galleries, so the cached ones never got the images added to them since.
 """
 
 
@@ -5424,6 +5425,21 @@ class YugipediaBatcher:
                 f"forgetting {len(self.missingPagesCache)} pages marked as missing so they get fetched again"
             )
             self.missingPagesCache.clear()
+
+        if cache_version != CACHE_VERSION:
+            galleries = [
+                pageid
+                for pageid, name in self.idsToNames.items()
+                if name.startswith("Set Card Galleries:")
+                and pageid in self.pageContentsCache
+            ]
+            if galleries:
+                logging.warning(
+                    f"Yugipedia cache version {cache_version} != {CACHE_VERSION}: "
+                    f"forgetting {len(galleries)} set card galleries so they get fetched again"
+                )
+                for pageid in galleries:
+                    del self.pageContentsCache[pageid]
 
     def __enter__(self):
         return self
