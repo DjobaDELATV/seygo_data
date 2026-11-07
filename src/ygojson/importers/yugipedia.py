@@ -113,6 +113,19 @@ class ChangelogEntry(WikiPage):
 
 
 def paginate_query(query) -> typing.Iterable:
+    # The API refuses more than BATCH_MAX values, and a "|" in a title splits it in many
+    for param in ("titles", "pageids"):
+        values = str(query.get(param, "")).split("|")
+        if len(values) > BATCH_MAX:
+            logging.warning(
+                f"Splitting a query with {len(values)} {param} into batches of {BATCH_MAX}: {query[param][:500]}"
+            )
+            for i in range(0, len(values), BATCH_MAX):
+                yield from paginate_query(
+                    {**query, param: "|".join(values[i : i + BATCH_MAX])}
+                )
+            return
+
     query = query.copy()
     n_tries = 0
     while True:
