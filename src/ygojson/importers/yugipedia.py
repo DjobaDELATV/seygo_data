@@ -3010,7 +3010,33 @@ def parse_tcg_ocg_set(
                     image: str,
                     code: typing.Optional[str] = None,
                     description: typing.Optional[str] = None,
+                    image_name: typing.Optional[str] = None,
                 ):
+                    # A row can name a card by its page, like "X (Skill Card)", but the wiki
+                    # names its files after the card's English name
+                    if image_name is not None and "(" in re.sub(
+                        r" \(card\)$", "", name
+                    ):
+
+                        @get_card(name)
+                        def onGetName(card: Card):
+                            english = card.text.get(Language.ENGLISH)
+                            add_card_image(
+                                name,
+                                rarity,
+                                alt,
+                                (
+                                    re.sub(r"\W", "", english.name)
+                                    if english
+                                    else image_name
+                                )
+                                + image[len(image_name) :],
+                                code,
+                                description,
+                            )
+
+                        return
+
                     @batcher.getImageURL(f"File:{image}")
                     def onGetImage(url: str):
                         def onGetCard(card: Card, card_rarity: CardRarity = rarity):
@@ -3182,13 +3208,15 @@ def parse_tcg_ocg_set(
                                 else:
                                     alt = raw_alt
 
+                                image_name = None
                                 if file_override:
                                     image = file_override.group(1)
                                 else:
                                     # The file of "Token (card)" is named "Token-..."
-                                    image = re.sub(
+                                    image_name = re.sub(
                                         r"\W", r"", re.sub(r" \(card\)$", "", name)
                                     )
+                                    image = image_name
                                     if code:
                                         code_before_dash = re.match(r"[^\-]+", code)
                                         if code_before_dash:
@@ -3229,6 +3257,7 @@ def parse_tcg_ocg_set(
                                         )
                                     )
                                     or section_description,
+                                    image_name,
                                 )
 
                 for subgallery in subgallery_htmls:
