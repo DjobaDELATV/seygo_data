@@ -1,0 +1,140 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/set.json",
+  "id": "d9178620-7c55-444c-b9f9-d430a8334acf",
+  "name": {
+    "en": "Duel Disk - Yusei Version",
+    "ja": "\u30c7\u30e5\u30a8\u30eb\u30c7\u30a3\u30b9\u30af\u904a\u661f\uff36\uff45\uff52\uff0e"
+  },
+  "locales": {
+    "en": {
+      "language": "en",
+      "prefix": "DDY1-EN",
+      "date": "2009-11-01",
+      "image": "https://img.yugipedia.com/a/a4/DDY1-PromoEN.jpg",
+      "cardImages": {
+        "limited": {
+          "6b224de1-f919-4658-90da-31b881452554": "https://img.yugipedia.com/6/67/ViceDragon-DDY1-EN-UR-LE.jpg"
+        }
+      },
+      "cardInfo": {
+        "limited": {
+          "6b224de1-f919-4658-90da-31b881452554": {
+            "image": "https://img.yugipedia.com/6/67/ViceDragon-DDY1-EN-UR-LE.jpg"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "limited"
+      ],
+      "externalIDs": {}
+    },
+    "jp": {
+      "language": "ja",
+      "prefix": "DDY1-JP",
+      "date": "2009-09-01",
+      "image": "https://img.yugipedia.com/6/6d/DDY1-PromoJP.jpg",
+      "cardImages": {
+        "unlimited": {
+          "306d9e87-7c20-491f-b85d-925da1d398e7": "https://img.yugipedia.com/4/42/ViceDragon-DDY1-JP-DUPR-DT.jpg",
+          "55363b5a-e2b8-4e20-a49f-4f2ceec9c0a1": "https://img.yugipedia.com/6/6d/ShieldWing-DDY1-JP-DUPR-DT.jpg"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "55363b5a-e2b8-4e20-a49f-4f2ceec9c0a1": {
+            "image": "https://img.yugipedia.com/6/6d/ShieldWing-DDY1-JP-DUPR-DT.jpg",
+            "variants": [
+              {
+                "label": "DT",
+                "artType": "other",
+                "image": "https://img.yugipedia.com/6/6d/ShieldWing-DDY1-JP-DUPR-DT.jpg"
+              }
+            ]
+          },
+          "306d9e87-7c20-491f-b85d-925da1d398e7": {
+            "image": "https://img.yugipedia.com/4/42/ViceDragon-DDY1-JP-DUPR-DT.jpg",
+            "variants": [
+              {
+                "label": "DT",
+                "artType": "other",
+                "image": "https://img.yugipedia.com/4/42/ViceDragon-DDY1-JP-DUPR-DT.jpg"
+              }
+            ]
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          111110000
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "en"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "preconstructed",
+      "editions": [
+        "limited"
+      ],
+      "image": "https://img.yugipedia.com/a/a4/DDY1-PromoEN.jpg",
+      "cards": [
+        {
+          "id": "6b224de1-f919-4658-90da-31b881452554",
+          "card": "6c2a45fd-c869-49be-be84-2f0fe51a0126",
+          "suffix": "001",
+          "rarity": "ultra"
+        }
+      ],
+      "externalIDs": {}
+    },
+    {
+      "locales": [
+        "jp"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "distrobution": "preconstructed",
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://img.yugipedia.com/6/6d/DDY1-PromoJP.jpg",
+      "cards": [
+        {
+          "id": "306d9e87-7c20-491f-b85d-925da1d398e7",
+          "card": "6c2a45fd-c869-49be-be84-2f0fe51a0126",
+          "suffix": "001",
+          "rarity": "dtupr"
+        },
+        {
+          "id": "55363b5a-e2b8-4e20-a49f-4f2ceec9c0a1",
+          "card": "cb93e520-457c-4756-8fac-b0e41aaaa649",
+          "suffix": "002",
+          "rarity": "dtupr"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Duel Disk - Yusei Version",
+      "id": 114964
+    }
+  }
+}

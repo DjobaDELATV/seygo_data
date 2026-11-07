@@ -1,0 +1,992 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/set.json",
+  "id": "ab94480b-c601-4098-8856-acc470bf5fdf",
+  "name": {
+    "en": "Token Pack"
+  },
+  "locales": {
+    "fr": {
+      "language": "fr",
+      "prefix": "TKN3-FR",
+      "cardImages": {
+        "unlimited": {
+          "88feed7c-6733-4bb7-87a6-85f9acf7e49f": "https://img.yugipedia.com/5/5a/Token-TKN3-FR-C-UE-Grinder.jpg",
+          "2f1d5ee7-69a9-497c-b7a6-b7506e2bae08": "https://img.yugipedia.com/a/a6/Token-TKN3-FR-C-UE-Skyblaster.png",
+          "1a07e05c-2c25-46ba-b399-c905dcec1a5c": "https://img.yugipedia.com/5/52/Token-TKN3-FR-C-UE-Moon.jpg",
+          "fd70adbf-23fe-4fbb-bc21-d1f22258237c": "https://img.yugipedia.com/c/c1/Token-TKN3-FR-C-UE-RegeneratingRose.jpg",
+          "1a68893f-96c8-4c02-bd44-c84077d4b099": "https://img.yugipedia.com/e/eb/Token-TKN3-FR-C-UE-SinisterSeed.jpg",
+          "6cb6e984-e68d-45ba-a31a-4611bfc3ea89": "https://img.yugipedia.com/1/16/Token-TKN3-FR-C-UE-DoubleDude.jpg",
+          "2c5424ca-41af-44da-9403-a83fed95e271": "https://img.yugipedia.com/e/e0/Token-TKN3-FR-C-UE-Phantasm.jpg",
+          "48142002-0955-4992-87e5-a0bc09e5be93": "https://img.yugipedia.com/3/36/Token-TKN3-FR-C-UE-Lamb.jpg",
+          "9994e162-631f-4f80-9879-9e515615b2c7": "https://img.yugipedia.com/3/3d/Token-TKN3-FR-C-UE-MetalFiend.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "6cb6e984-e68d-45ba-a31a-4611bfc3ea89": {
+            "image": "https://img.yugipedia.com/1/16/Token-TKN3-FR-C-UE-DoubleDude.jpg",
+            "artType": "token",
+            "variants": [
+              {
+                "label": "DoubleDude",
+                "artType": "token",
+                "image": "https://img.yugipedia.com/1/16/Token-TKN3-FR-C-UE-DoubleDude.jpg"
+              }
+            ]
+          },
+          "9994e162-631f-4f80-9879-9e515615b2c7": {
+            "image": "https://img.yugipedia.com/3/3d/Token-TKN3-FR-C-UE-MetalFiend.png",
+            "artType": "token",
+            "variants": [
+              {
+                "label": "MetalFiend",
+                "artType": "token",
+                "image": "https://img.yugipedia.com/3/3d/Token-TKN3-FR-C-UE-MetalFiend.png"
+              }
+            ]
+          },
+          "1a68893f-96c8-4c02-bd44-c84077d4b099": {
+            "image": "https://img.yugipedia.com/e/eb/Token-TKN3-FR-C-UE-SinisterSeed.jpg",
+            "artType": "token",
+            "variants": [
+              {
+                "label": "SinisterSeed",
+                "artType": "token",
+                "image": "https://img.yugipedia.com/e/eb/Token-TKN3-FR-C-UE-SinisterSeed.jpg"
+              }
+            ]
+          },
+          "48142002-0955-4992-87e5-a0bc09e5be93": {
+            "image": "https://img.yugipedia.com/3/36/Token-TKN3-FR-C-UE-Lamb.jpg",
+            "artType": "token",
+            "variants": [
+              {
+                "label": "Lamb",
+                "artType": "token",
+                "image": "https://img.yugipedia.com/3/36/Token-TKN3-FR-C-UE-Lamb.jpg"
+              }
+            ]
+          },
+          "2c5424ca-41af-44da-9403-a83fed95e271": {
+            "image": "https://img.yugipedia.com/e/e0/Token-TKN3-FR-C-UE-Phantasm.jpg",
+            "artType": "token",
+            "variants": [
+              {
+                "label": "Phantasm",
+                "artType": "token",
+                "image": "https://img.yugipedia.com/e/e0/Token-TKN3-FR-C-UE-Phantasm.jpg"
+              }
+            ]
+          },
+          "2f1d5ee7-69a9-497c-b7a6-b7506e2bae08": {
+            "image": "https://img.yugipedia.com/a/a6/Token-TKN3-FR-C-UE-Skyblaster.png",
+            "artType": "token",
+            "variants": [
+              {
+                "label": "Skyblaster",
+                "artType": "token",
+                "image": "https://img.yugipedia.com/a/a6/Token-TKN3-FR-C-UE-Skyblaster.png"
+              }
+            ]
+          },
+          "88feed7c-6733-4bb7-87a6-85f9acf7e49f": {
+            "image": "https://img.yugipedia.com/5/5a/Token-TKN3-FR-C-UE-Grinder.jpg",
+            "artType": "token",
+            "variants": [
+              {
+                "label": "Grinder",
+                "artType": "token",
+                "image": "https://img.yugipedia.com/5/5a/Token-TKN3-FR-C-UE-Grinder.jpg"
+              }
+            ]
+          },
+          "fd70adbf-23fe-4fbb-bc21-d1f22258237c": {
+            "image": "https://img.yugipedia.com/c/c1/Token-TKN3-FR-C-UE-RegeneratingRose.jpg",
+            "artType": "token",
+            "variants": [
+              {
+                "label": "RegeneratingRose",
+                "artType": "token",
+                "image": "https://img.yugipedia.com/c/c1/Token-TKN3-FR-C-UE-RegeneratingRose.jpg"
+              }
+            ]
+          },
+          "1a07e05c-2c25-46ba-b399-c905dcec1a5c": {
+            "image": "https://img.yugipedia.com/5/52/Token-TKN3-FR-C-UE-Moon.jpg",
+            "artType": "token",
+            "variants": [
+              {
+                "label": "Moon",
+                "artType": "token",
+                "image": "https://img.yugipedia.com/5/52/Token-TKN3-FR-C-UE-Moon.jpg"
+              }
+            ]
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {}
+    },
+    "sp": {
+      "language": "es",
+      "prefix": "TKN3-SP",
+      "cardImages": {
+        "unlimited": {
+          "88feed7c-6733-4bb7-87a6-85f9acf7e49f": "https://img.yugipedia.com/8/80/Token-TKN3-SP-C-UE-Grinder.png",
+          "2f1d5ee7-69a9-497c-b7a6-b7506e2bae08": "https://img.yugipedia.com/b/b0/Token-TKN3-SP-C-UE-Skyblaster.png",
+          "1a07e05c-2c25-46ba-b399-c905dcec1a5c": "https://img.yugipedia.com/4/47/Token-TKN3-SP-C-UE-Moon.png",
+          "fd70adbf-23fe-4fbb-bc21-d1f22258237c": "https://img.yugipedia.com/6/61/Token-TKN3-SP-C-UE-RegeneratingRose.png",
+          "1a68893f-96c8-4c02-bd44-c84077d4b099": "https://img.yugipedia.com/c/c6/Token-TKN3-SP-C-UE-SinisterSeed.png",
+          "6cb6e984-e68d-45ba-a31a-4611bfc3ea89": "https://img.yugipedia.com/e/ec/Token-TKN3-SP-C-UE-DoubleDude.png",
+          "2c5424ca-41af-44da-9403-a83fed95e271": "https://img.yugipedia.com/7/75/Token-TKN3-SP-C-UE-Phantasm.jpg",
+          "48142002-0955-4992-87e5-a0bc09e5be93": "https://img.yugipedia.com/c/c9/Token-TKN3-SP-C-UE-Lamb.png",
+          "9994e162-631f-4f80-9879-9e515615b2c7": "https://img.yugipedia.com/4/43/Token-TKN3-SP-C-UE-MetalFiend.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "1a68893f-96c8-4c02-bd44-c84077d4b099": {
+            "image": "https://img.yugipedia.com/c/c6/Token-TKN3-SP-C-UE-SinisterSeed.png",
+            "artType": "token",
+            "variants": [
+              {
+                "label": "SinisterSeed",
+                "artType": "token",
+                "image": "https://img.yugipedia.com/c/c6/Token-TKN3-SP-C-UE-SinisterSeed.png"
+              }
+            ]
+          },
+          "fd70adbf-23fe-4fbb-bc21-d1f22258237c": {
+            "image": "https://img.yugipedia.com/6/61/Token-TKN3-SP-C-UE-RegeneratingRose.png",
+            "artType": "token",
+            "variants": [
+              {
+                "label": "RegeneratingRose",
+                "artType": "token",
+                "image": "https://img.yugipedia.com/6/61/Token-TKN3-SP-C-UE-RegeneratingRose.png"
+              }
+            ]
+          },
+          "2c5424ca-41af-44da-9403-a83fed95e271": {
+            "image": "https://img.yugipedia.com/7/75/Token-TKN3-SP-C-UE-Phantasm.jpg",
+            "artType": "token",
+            "variants": [
+              {
+                "label": "Phantasm",
+                "artType": "token",
+                "image": "https://img.yugipedia.com/7/75/Token-TKN3-SP-C-UE-Phantasm.jpg"
+              }
+            ]
+          },
+          "6cb6e984-e68d-45ba-a31a-4611bfc3ea89": {
+            "image": "https://img.yugipedia.com/e/ec/Token-TKN3-SP-C-UE-DoubleDude.png",
+            "artType": "token",
+            "variants": [
+              {
+                "label": "DoubleDude",
+                "artType": "token",
+                "image": "https://img.yugipedia.com/e/ec/Token-TKN3-SP-C-UE-DoubleDude.png"
+              }
+            ]
+          },
+          "9994e162-631f-4f80-9879-9e515615b2c7": {
+            "image": "https://img.yugipedia.com/4/43/Token-TKN3-SP-C-UE-MetalFiend.png",
+            "artType": "token",
+            "variants": [
+              {
+                "label": "MetalFiend",
+                "artType": "token",
+                "image": "https://img.yugipedia.com/4/43/Token-TKN3-SP-C-UE-MetalFiend.png"
+              }
+            ]
+          },
+          "88feed7c-6733-4bb7-87a6-85f9acf7e49f": {
+            "image": "https://img.yugipedia.com/8/80/Token-TKN3-SP-C-UE-Grinder.png",
+            "artType": "token",
+            "variants": [
+              {
+                "label": "Grinder",
+                "artType": "token",
+                "image": "https://img.yugipedia.com/8/80/Token-TKN3-SP-C-UE-Grinder.png"
+              }
+            ]
+          },
+          "1a07e05c-2c25-46ba-b399-c905dcec1a5c": {
+            "image": "https://img.yugipedia.com/4/47/Token-TKN3-SP-C-UE-Moon.png",
+            "artType": "token",
+            "variants": [
+              {
+                "label": "Moon",
+                "artType": "token",
+                "image": "https://img.yugipedia.com/4/47/Token-TKN3-SP-C-UE-Moon.png"
+              }
+            ]
+          },
+          "2f1d5ee7-69a9-497c-b7a6-b7506e2bae08": {
+            "image": "https://img.yugipedia.com/b/b0/Token-TKN3-SP-C-UE-Skyblaster.png",
+            "artType": "token",
+            "variants": [
+              {
+                "label": "Skyblaster",
+                "artType": "token",
+                "image": "https://img.yugipedia.com/b/b0/Token-TKN3-SP-C-UE-Skyblaster.png"
+              }
+            ]
+          },
+          "48142002-0955-4992-87e5-a0bc09e5be93": {
+            "image": "https://img.yugipedia.com/c/c9/Token-TKN3-SP-C-UE-Lamb.png",
+            "artType": "token",
+            "variants": [
+              {
+                "label": "Lamb",
+                "artType": "token",
+                "image": "https://img.yugipedia.com/c/c9/Token-TKN3-SP-C-UE-Lamb.png"
+              }
+            ]
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {}
+    },
+    "en": {
+      "language": "en",
+      "prefix": "TKN3-EN",
+      "cardImages": {
+        "unlimited": {
+          "88feed7c-6733-4bb7-87a6-85f9acf7e49f": "https://img.yugipedia.com/5/5a/Token-TKN3-EN-C-UE-Grinder.png",
+          "2f1d5ee7-69a9-497c-b7a6-b7506e2bae08": "https://img.yugipedia.com/3/33/Token-TKN3-EN-C-UE-Skyblaster.png",
+          "1a07e05c-2c25-46ba-b399-c905dcec1a5c": "https://img.yugipedia.com/4/4f/Token-TKN3-EN-C-UE-Moon.png",
+          "fd70adbf-23fe-4fbb-bc21-d1f22258237c": "https://img.yugipedia.com/3/3f/Token-TKN3-EN-C-UE-RegeneratingRose.png",
+          "1a68893f-96c8-4c02-bd44-c84077d4b099": "https://img.yugipedia.com/c/cf/Token-TKN3-EN-C-UE-SinisterSeed.png",
+          "6cb6e984-e68d-45ba-a31a-4611bfc3ea89": "https://img.yugipedia.com/a/ad/Token-TKN3-EN-C-UE-DoubleDude.png",
+          "2c5424ca-41af-44da-9403-a83fed95e271": "https://img.yugipedia.com/1/17/Token-TKN3-EN-C-UE-Phantasm.png",
+          "48142002-0955-4992-87e5-a0bc09e5be93": "https://img.yugipedia.com/d/d1/Token-TKN3-EN-C-UE-Lamb.jpg",
+          "9994e162-631f-4f80-9879-9e515615b2c7": "https://img.yugipedia.com/2/23/Token-TKN3-EN-C-UE-MetalFiend.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "6cb6e984-e68d-45ba-a31a-4611bfc3ea89": {
+            "image": "https://img.yugipedia.com/a/ad/Token-TKN3-EN-C-UE-DoubleDude.png",
+            "artType": "token",
+            "variants": [
+              {
+                "label": "DoubleDude",
+                "artType": "token",
+                "image": "https://img.yugipedia.com/a/ad/Token-TKN3-EN-C-UE-DoubleDude.png"
+              }
+            ]
+          },
+          "1a68893f-96c8-4c02-bd44-c84077d4b099": {
+            "image": "https://img.yugipedia.com/c/cf/Token-TKN3-EN-C-UE-SinisterSeed.png",
+            "artType": "token",
+            "variants": [
+              {
+                "label": "SinisterSeed",
+                "artType": "token",
+                "image": "https://img.yugipedia.com/c/cf/Token-TKN3-EN-C-UE-SinisterSeed.png"
+              }
+            ]
+          },
+          "48142002-0955-4992-87e5-a0bc09e5be93": {
+            "image": "https://img.yugipedia.com/d/d1/Token-TKN3-EN-C-UE-Lamb.jpg",
+            "artType": "token",
+            "variants": [
+              {
+                "label": "Lamb",
+                "artType": "token",
+                "image": "https://img.yugipedia.com/d/d1/Token-TKN3-EN-C-UE-Lamb.jpg"
+              }
+            ]
+          },
+          "2c5424ca-41af-44da-9403-a83fed95e271": {
+            "image": "https://img.yugipedia.com/1/17/Token-TKN3-EN-C-UE-Phantasm.png",
+            "artType": "token",
+            "variants": [
+              {
+                "label": "Phantasm",
+                "artType": "token",
+                "image": "https://img.yugipedia.com/1/17/Token-TKN3-EN-C-UE-Phantasm.png"
+              }
+            ]
+          },
+          "9994e162-631f-4f80-9879-9e515615b2c7": {
+            "image": "https://img.yugipedia.com/2/23/Token-TKN3-EN-C-UE-MetalFiend.png",
+            "artType": "token",
+            "variants": [
+              {
+                "label": "MetalFiend",
+                "artType": "token",
+                "image": "https://img.yugipedia.com/2/23/Token-TKN3-EN-C-UE-MetalFiend.png"
+              }
+            ]
+          },
+          "2f1d5ee7-69a9-497c-b7a6-b7506e2bae08": {
+            "image": "https://img.yugipedia.com/3/33/Token-TKN3-EN-C-UE-Skyblaster.png",
+            "artType": "token",
+            "variants": [
+              {
+                "label": "Skyblaster",
+                "artType": "token",
+                "image": "https://img.yugipedia.com/3/33/Token-TKN3-EN-C-UE-Skyblaster.png"
+              }
+            ]
+          },
+          "88feed7c-6733-4bb7-87a6-85f9acf7e49f": {
+            "image": "https://img.yugipedia.com/5/5a/Token-TKN3-EN-C-UE-Grinder.png",
+            "artType": "token",
+            "variants": [
+              {
+                "label": "Grinder",
+                "artType": "token",
+                "image": "https://img.yugipedia.com/5/5a/Token-TKN3-EN-C-UE-Grinder.png"
+              }
+            ]
+          },
+          "fd70adbf-23fe-4fbb-bc21-d1f22258237c": {
+            "image": "https://img.yugipedia.com/3/3f/Token-TKN3-EN-C-UE-RegeneratingRose.png",
+            "artType": "token",
+            "variants": [
+              {
+                "label": "RegeneratingRose",
+                "artType": "token",
+                "image": "https://img.yugipedia.com/3/3f/Token-TKN3-EN-C-UE-RegeneratingRose.png"
+              }
+            ]
+          },
+          "1a07e05c-2c25-46ba-b399-c905dcec1a5c": {
+            "image": "https://img.yugipedia.com/4/4f/Token-TKN3-EN-C-UE-Moon.png",
+            "artType": "token",
+            "variants": [
+              {
+                "label": "Moon",
+                "artType": "token",
+                "image": "https://img.yugipedia.com/4/4f/Token-TKN3-EN-C-UE-Moon.png"
+              }
+            ]
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {}
+    },
+    "de": {
+      "language": "de",
+      "prefix": "TKN3-DE",
+      "cardImages": {
+        "unlimited": {
+          "88feed7c-6733-4bb7-87a6-85f9acf7e49f": "https://img.yugipedia.com/9/94/Token-TKN3-DE-C-UE-Grinder.jpg",
+          "2f1d5ee7-69a9-497c-b7a6-b7506e2bae08": "https://img.yugipedia.com/2/2e/Token-TKN3-DE-C-UE-Skyblaster.png",
+          "1a07e05c-2c25-46ba-b399-c905dcec1a5c": "https://img.yugipedia.com/7/7c/Token-TKN3-DE-C-UE-Moon.jpg",
+          "fd70adbf-23fe-4fbb-bc21-d1f22258237c": "https://img.yugipedia.com/5/55/Token-TKN3-DE-C-UE-RegeneratingRose.jpg",
+          "1a68893f-96c8-4c02-bd44-c84077d4b099": "https://img.yugipedia.com/4/4b/Token-TKN3-DE-C-UE-SinisterSeed.jpg",
+          "6cb6e984-e68d-45ba-a31a-4611bfc3ea89": "https://img.yugipedia.com/e/e8/Token-TKN3-DE-C-UE-DoubleDude.jpg",
+          "2c5424ca-41af-44da-9403-a83fed95e271": "https://img.yugipedia.com/c/c2/Token-TKN3-DE-C-UE-Phantasm.jpg",
+          "48142002-0955-4992-87e5-a0bc09e5be93": "https://img.yugipedia.com/6/60/Token-TKN3-DE-C-UE-Lamb.jpg",
+          "9994e162-631f-4f80-9879-9e515615b2c7": "https://img.yugipedia.com/f/fa/Token-TKN3-DE-C-UE-MetalFiend.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "fd70adbf-23fe-4fbb-bc21-d1f22258237c": {
+            "image": "https://img.yugipedia.com/5/55/Token-TKN3-DE-C-UE-RegeneratingRose.jpg",
+            "artType": "token",
+            "variants": [
+              {
+                "label": "RegeneratingRose",
+                "artType": "token",
+                "image": "https://img.yugipedia.com/5/55/Token-TKN3-DE-C-UE-RegeneratingRose.jpg"
+              }
+            ]
+          },
+          "48142002-0955-4992-87e5-a0bc09e5be93": {
+            "image": "https://img.yugipedia.com/6/60/Token-TKN3-DE-C-UE-Lamb.jpg",
+            "artType": "token",
+            "variants": [
+              {
+                "label": "Lamb",
+                "artType": "token",
+                "image": "https://img.yugipedia.com/6/60/Token-TKN3-DE-C-UE-Lamb.jpg"
+              }
+            ]
+          },
+          "2c5424ca-41af-44da-9403-a83fed95e271": {
+            "image": "https://img.yugipedia.com/c/c2/Token-TKN3-DE-C-UE-Phantasm.jpg",
+            "artType": "token",
+            "variants": [
+              {
+                "label": "Phantasm",
+                "artType": "token",
+                "image": "https://img.yugipedia.com/c/c2/Token-TKN3-DE-C-UE-Phantasm.jpg"
+              }
+            ]
+          },
+          "9994e162-631f-4f80-9879-9e515615b2c7": {
+            "image": "https://img.yugipedia.com/f/fa/Token-TKN3-DE-C-UE-MetalFiend.png",
+            "artType": "token",
+            "variants": [
+              {
+                "label": "MetalFiend",
+                "artType": "token",
+                "image": "https://img.yugipedia.com/f/fa/Token-TKN3-DE-C-UE-MetalFiend.png"
+              }
+            ]
+          },
+          "88feed7c-6733-4bb7-87a6-85f9acf7e49f": {
+            "image": "https://img.yugipedia.com/9/94/Token-TKN3-DE-C-UE-Grinder.jpg",
+            "artType": "token",
+            "variants": [
+              {
+                "label": "Grinder",
+                "artType": "token",
+                "image": "https://img.yugipedia.com/9/94/Token-TKN3-DE-C-UE-Grinder.jpg"
+              }
+            ]
+          },
+          "6cb6e984-e68d-45ba-a31a-4611bfc3ea89": {
+            "image": "https://img.yugipedia.com/e/e8/Token-TKN3-DE-C-UE-DoubleDude.jpg",
+            "artType": "token",
+            "variants": [
+              {
+                "label": "DoubleDude",
+                "artType": "token",
+                "image": "https://img.yugipedia.com/e/e8/Token-TKN3-DE-C-UE-DoubleDude.jpg"
+              }
+            ]
+          },
+          "1a07e05c-2c25-46ba-b399-c905dcec1a5c": {
+            "image": "https://img.yugipedia.com/7/7c/Token-TKN3-DE-C-UE-Moon.jpg",
+            "artType": "token",
+            "variants": [
+              {
+                "label": "Moon",
+                "artType": "token",
+                "image": "https://img.yugipedia.com/7/7c/Token-TKN3-DE-C-UE-Moon.jpg"
+              }
+            ]
+          },
+          "2f1d5ee7-69a9-497c-b7a6-b7506e2bae08": {
+            "image": "https://img.yugipedia.com/2/2e/Token-TKN3-DE-C-UE-Skyblaster.png",
+            "artType": "token",
+            "variants": [
+              {
+                "label": "Skyblaster",
+                "artType": "token",
+                "image": "https://img.yugipedia.com/2/2e/Token-TKN3-DE-C-UE-Skyblaster.png"
+              }
+            ]
+          },
+          "1a68893f-96c8-4c02-bd44-c84077d4b099": {
+            "image": "https://img.yugipedia.com/4/4b/Token-TKN3-DE-C-UE-SinisterSeed.jpg",
+            "artType": "token",
+            "variants": [
+              {
+                "label": "SinisterSeed",
+                "artType": "token",
+                "image": "https://img.yugipedia.com/4/4b/Token-TKN3-DE-C-UE-SinisterSeed.jpg"
+              }
+            ]
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {}
+    },
+    "it": {
+      "language": "it",
+      "prefix": "TKN3-IT",
+      "cardImages": {
+        "unlimited": {
+          "88feed7c-6733-4bb7-87a6-85f9acf7e49f": "https://img.yugipedia.com/1/10/Token-TKN3-IT-C-UE-Grinder.png",
+          "2f1d5ee7-69a9-497c-b7a6-b7506e2bae08": "https://img.yugipedia.com/8/82/Token-TKN3-IT-C-UE-Skyblaster.png",
+          "1a07e05c-2c25-46ba-b399-c905dcec1a5c": "https://img.yugipedia.com/a/aa/Token-TKN3-IT-C-UE-Moon.png",
+          "fd70adbf-23fe-4fbb-bc21-d1f22258237c": "https://img.yugipedia.com/9/90/Token-TKN3-IT-C-UE-RegeneratingRose.png",
+          "1a68893f-96c8-4c02-bd44-c84077d4b099": "https://img.yugipedia.com/0/0a/Token-TKN3-IT-C-UE-SinisterSeed.png",
+          "6cb6e984-e68d-45ba-a31a-4611bfc3ea89": "https://img.yugipedia.com/c/c3/Token-TKN3-IT-C-UE-DoubleDude.png",
+          "2c5424ca-41af-44da-9403-a83fed95e271": "https://img.yugipedia.com/a/ad/Token-TKN3-IT-C-UE-Phantasm.png",
+          "48142002-0955-4992-87e5-a0bc09e5be93": "https://img.yugipedia.com/4/42/Token-TKN3-IT-C-UE-Lamb.png",
+          "9994e162-631f-4f80-9879-9e515615b2c7": "https://img.yugipedia.com/e/ee/Token-TKN3-IT-C-UE-MetalFiend.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "fd70adbf-23fe-4fbb-bc21-d1f22258237c": {
+            "image": "https://img.yugipedia.com/9/90/Token-TKN3-IT-C-UE-RegeneratingRose.png",
+            "artType": "token",
+            "variants": [
+              {
+                "label": "RegeneratingRose",
+                "artType": "token",
+                "image": "https://img.yugipedia.com/9/90/Token-TKN3-IT-C-UE-RegeneratingRose.png"
+              }
+            ]
+          },
+          "2c5424ca-41af-44da-9403-a83fed95e271": {
+            "image": "https://img.yugipedia.com/a/ad/Token-TKN3-IT-C-UE-Phantasm.png",
+            "artType": "token",
+            "variants": [
+              {
+                "label": "Phantasm",
+                "artType": "token",
+                "image": "https://img.yugipedia.com/a/ad/Token-TKN3-IT-C-UE-Phantasm.png"
+              }
+            ]
+          },
+          "88feed7c-6733-4bb7-87a6-85f9acf7e49f": {
+            "image": "https://img.yugipedia.com/1/10/Token-TKN3-IT-C-UE-Grinder.png",
+            "artType": "token",
+            "variants": [
+              {
+                "label": "Grinder",
+                "artType": "token",
+                "image": "https://img.yugipedia.com/1/10/Token-TKN3-IT-C-UE-Grinder.png"
+              }
+            ]
+          },
+          "1a68893f-96c8-4c02-bd44-c84077d4b099": {
+            "image": "https://img.yugipedia.com/0/0a/Token-TKN3-IT-C-UE-SinisterSeed.png",
+            "artType": "token",
+            "variants": [
+              {
+                "label": "SinisterSeed",
+                "artType": "token",
+                "image": "https://img.yugipedia.com/0/0a/Token-TKN3-IT-C-UE-SinisterSeed.png"
+              }
+            ]
+          },
+          "6cb6e984-e68d-45ba-a31a-4611bfc3ea89": {
+            "image": "https://img.yugipedia.com/c/c3/Token-TKN3-IT-C-UE-DoubleDude.png",
+            "artType": "token",
+            "variants": [
+              {
+                "label": "DoubleDude",
+                "artType": "token",
+                "image": "https://img.yugipedia.com/c/c3/Token-TKN3-IT-C-UE-DoubleDude.png"
+              }
+            ]
+          },
+          "48142002-0955-4992-87e5-a0bc09e5be93": {
+            "image": "https://img.yugipedia.com/4/42/Token-TKN3-IT-C-UE-Lamb.png",
+            "artType": "token",
+            "variants": [
+              {
+                "label": "Lamb",
+                "artType": "token",
+                "image": "https://img.yugipedia.com/4/42/Token-TKN3-IT-C-UE-Lamb.png"
+              }
+            ]
+          },
+          "2f1d5ee7-69a9-497c-b7a6-b7506e2bae08": {
+            "image": "https://img.yugipedia.com/8/82/Token-TKN3-IT-C-UE-Skyblaster.png",
+            "artType": "token",
+            "variants": [
+              {
+                "label": "Skyblaster",
+                "artType": "token",
+                "image": "https://img.yugipedia.com/8/82/Token-TKN3-IT-C-UE-Skyblaster.png"
+              }
+            ]
+          },
+          "9994e162-631f-4f80-9879-9e515615b2c7": {
+            "image": "https://img.yugipedia.com/e/ee/Token-TKN3-IT-C-UE-MetalFiend.png",
+            "artType": "token",
+            "variants": [
+              {
+                "label": "MetalFiend",
+                "artType": "token",
+                "image": "https://img.yugipedia.com/e/ee/Token-TKN3-IT-C-UE-MetalFiend.png"
+              }
+            ]
+          },
+          "1a07e05c-2c25-46ba-b399-c905dcec1a5c": {
+            "image": "https://img.yugipedia.com/a/aa/Token-TKN3-IT-C-UE-Moon.png",
+            "artType": "token",
+            "variants": [
+              {
+                "label": "Moon",
+                "artType": "token",
+                "image": "https://img.yugipedia.com/a/aa/Token-TKN3-IT-C-UE-Moon.png"
+              }
+            ]
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {}
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "fr"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "cards": [
+        {
+          "id": "88feed7c-6733-4bb7-87a6-85f9acf7e49f",
+          "card": "88bdd921-334d-429f-8680-2326374efa9c",
+          "suffix": "001",
+          "rarity": "common"
+        },
+        {
+          "id": "2f1d5ee7-69a9-497c-b7a6-b7506e2bae08",
+          "card": "6d407a50-84aa-43bc-97a4-87e5cb92e5e0",
+          "suffix": "002",
+          "rarity": "common"
+        },
+        {
+          "id": "1a07e05c-2c25-46ba-b399-c905dcec1a5c",
+          "card": "dc4d7e15-0029-4ef4-9261-d8b264d5efe7",
+          "suffix": "003",
+          "rarity": "common"
+        },
+        {
+          "id": "fd70adbf-23fe-4fbb-bc21-d1f22258237c",
+          "card": "8132be3f-c320-4b4f-9a8c-0c8ffcb7c2b6",
+          "suffix": "004",
+          "rarity": "common"
+        },
+        {
+          "id": "1a68893f-96c8-4c02-bd44-c84077d4b099",
+          "card": "614a24d7-7aaf-4983-86ae-3de5d8081c04",
+          "suffix": "005",
+          "rarity": "common"
+        },
+        {
+          "id": "6cb6e984-e68d-45ba-a31a-4611bfc3ea89",
+          "card": "9f973674-76f6-43ab-8cbf-c1b33a0fe07e",
+          "suffix": "006",
+          "rarity": "common"
+        },
+        {
+          "id": "2c5424ca-41af-44da-9403-a83fed95e271",
+          "card": "b892c799-0d08-454e-a971-456b52446799",
+          "suffix": "007",
+          "rarity": "common"
+        },
+        {
+          "id": "48142002-0955-4992-87e5-a0bc09e5be93",
+          "card": "593c08ff-f7e2-4fc8-975d-7b7f4aae5bab",
+          "suffix": "008",
+          "rarity": "common"
+        },
+        {
+          "id": "9994e162-631f-4f80-9879-9e515615b2c7",
+          "card": "b9f58802-f7ef-4204-bc88-8b6802fb24ce",
+          "suffix": "009",
+          "rarity": "common"
+        }
+      ],
+      "externalIDs": {}
+    },
+    {
+      "locales": [
+        "sp"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "cards": [
+        {
+          "id": "88feed7c-6733-4bb7-87a6-85f9acf7e49f",
+          "card": "88bdd921-334d-429f-8680-2326374efa9c",
+          "suffix": "001",
+          "rarity": "common"
+        },
+        {
+          "id": "2f1d5ee7-69a9-497c-b7a6-b7506e2bae08",
+          "card": "6d407a50-84aa-43bc-97a4-87e5cb92e5e0",
+          "suffix": "002",
+          "rarity": "common"
+        },
+        {
+          "id": "1a07e05c-2c25-46ba-b399-c905dcec1a5c",
+          "card": "dc4d7e15-0029-4ef4-9261-d8b264d5efe7",
+          "suffix": "003",
+          "rarity": "common"
+        },
+        {
+          "id": "fd70adbf-23fe-4fbb-bc21-d1f22258237c",
+          "card": "8132be3f-c320-4b4f-9a8c-0c8ffcb7c2b6",
+          "suffix": "004",
+          "rarity": "common"
+        },
+        {
+          "id": "1a68893f-96c8-4c02-bd44-c84077d4b099",
+          "card": "614a24d7-7aaf-4983-86ae-3de5d8081c04",
+          "suffix": "005",
+          "rarity": "common"
+        },
+        {
+          "id": "6cb6e984-e68d-45ba-a31a-4611bfc3ea89",
+          "card": "9f973674-76f6-43ab-8cbf-c1b33a0fe07e",
+          "suffix": "006",
+          "rarity": "common"
+        },
+        {
+          "id": "2c5424ca-41af-44da-9403-a83fed95e271",
+          "card": "b892c799-0d08-454e-a971-456b52446799",
+          "suffix": "007",
+          "rarity": "common"
+        },
+        {
+          "id": "48142002-0955-4992-87e5-a0bc09e5be93",
+          "card": "593c08ff-f7e2-4fc8-975d-7b7f4aae5bab",
+          "suffix": "008",
+          "rarity": "common"
+        },
+        {
+          "id": "9994e162-631f-4f80-9879-9e515615b2c7",
+          "card": "b9f58802-f7ef-4204-bc88-8b6802fb24ce",
+          "suffix": "009",
+          "rarity": "common"
+        }
+      ],
+      "externalIDs": {}
+    },
+    {
+      "locales": [
+        "en"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "cards": [
+        {
+          "id": "88feed7c-6733-4bb7-87a6-85f9acf7e49f",
+          "card": "88bdd921-334d-429f-8680-2326374efa9c",
+          "suffix": "001",
+          "rarity": "common"
+        },
+        {
+          "id": "2f1d5ee7-69a9-497c-b7a6-b7506e2bae08",
+          "card": "6d407a50-84aa-43bc-97a4-87e5cb92e5e0",
+          "suffix": "002",
+          "rarity": "common"
+        },
+        {
+          "id": "1a07e05c-2c25-46ba-b399-c905dcec1a5c",
+          "card": "dc4d7e15-0029-4ef4-9261-d8b264d5efe7",
+          "suffix": "003",
+          "rarity": "common"
+        },
+        {
+          "id": "fd70adbf-23fe-4fbb-bc21-d1f22258237c",
+          "card": "8132be3f-c320-4b4f-9a8c-0c8ffcb7c2b6",
+          "suffix": "004",
+          "rarity": "common"
+        },
+        {
+          "id": "1a68893f-96c8-4c02-bd44-c84077d4b099",
+          "card": "614a24d7-7aaf-4983-86ae-3de5d8081c04",
+          "suffix": "005",
+          "rarity": "common"
+        },
+        {
+          "id": "6cb6e984-e68d-45ba-a31a-4611bfc3ea89",
+          "card": "9f973674-76f6-43ab-8cbf-c1b33a0fe07e",
+          "suffix": "006",
+          "rarity": "common"
+        },
+        {
+          "id": "2c5424ca-41af-44da-9403-a83fed95e271",
+          "card": "b892c799-0d08-454e-a971-456b52446799",
+          "suffix": "007",
+          "rarity": "common"
+        },
+        {
+          "id": "48142002-0955-4992-87e5-a0bc09e5be93",
+          "card": "593c08ff-f7e2-4fc8-975d-7b7f4aae5bab",
+          "suffix": "008",
+          "rarity": "common"
+        },
+        {
+          "id": "9994e162-631f-4f80-9879-9e515615b2c7",
+          "card": "b9f58802-f7ef-4204-bc88-8b6802fb24ce",
+          "suffix": "009",
+          "rarity": "common"
+        }
+      ],
+      "externalIDs": {}
+    },
+    {
+      "locales": [
+        "de"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "cards": [
+        {
+          "id": "88feed7c-6733-4bb7-87a6-85f9acf7e49f",
+          "card": "88bdd921-334d-429f-8680-2326374efa9c",
+          "suffix": "001",
+          "rarity": "common"
+        },
+        {
+          "id": "2f1d5ee7-69a9-497c-b7a6-b7506e2bae08",
+          "card": "6d407a50-84aa-43bc-97a4-87e5cb92e5e0",
+          "suffix": "002",
+          "rarity": "common"
+        },
+        {
+          "id": "1a07e05c-2c25-46ba-b399-c905dcec1a5c",
+          "card": "dc4d7e15-0029-4ef4-9261-d8b264d5efe7",
+          "suffix": "003",
+          "rarity": "common"
+        },
+        {
+          "id": "fd70adbf-23fe-4fbb-bc21-d1f22258237c",
+          "card": "8132be3f-c320-4b4f-9a8c-0c8ffcb7c2b6",
+          "suffix": "004",
+          "rarity": "common"
+        },
+        {
+          "id": "1a68893f-96c8-4c02-bd44-c84077d4b099",
+          "card": "614a24d7-7aaf-4983-86ae-3de5d8081c04",
+          "suffix": "005",
+          "rarity": "common"
+        },
+        {
+          "id": "6cb6e984-e68d-45ba-a31a-4611bfc3ea89",
+          "card": "9f973674-76f6-43ab-8cbf-c1b33a0fe07e",
+          "suffix": "006",
+          "rarity": "common"
+        },
+        {
+          "id": "2c5424ca-41af-44da-9403-a83fed95e271",
+          "card": "b892c799-0d08-454e-a971-456b52446799",
+          "suffix": "007",
+          "rarity": "common"
+        },
+        {
+          "id": "48142002-0955-4992-87e5-a0bc09e5be93",
+          "card": "593c08ff-f7e2-4fc8-975d-7b7f4aae5bab",
+          "suffix": "008",
+          "rarity": "common"
+        },
+        {
+          "id": "9994e162-631f-4f80-9879-9e515615b2c7",
+          "card": "b9f58802-f7ef-4204-bc88-8b6802fb24ce",
+          "suffix": "009",
+          "rarity": "common"
+        }
+      ],
+      "externalIDs": {}
+    },
+    {
+      "locales": [
+        "it"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "cards": [
+        {
+          "id": "88feed7c-6733-4bb7-87a6-85f9acf7e49f",
+          "card": "88bdd921-334d-429f-8680-2326374efa9c",
+          "suffix": "001",
+          "rarity": "common"
+        },
+        {
+          "id": "2f1d5ee7-69a9-497c-b7a6-b7506e2bae08",
+          "card": "6d407a50-84aa-43bc-97a4-87e5cb92e5e0",
+          "suffix": "002",
+          "rarity": "common"
+        },
+        {
+          "id": "1a07e05c-2c25-46ba-b399-c905dcec1a5c",
+          "card": "dc4d7e15-0029-4ef4-9261-d8b264d5efe7",
+          "suffix": "003",
+          "rarity": "common"
+        },
+        {
+          "id": "fd70adbf-23fe-4fbb-bc21-d1f22258237c",
+          "card": "8132be3f-c320-4b4f-9a8c-0c8ffcb7c2b6",
+          "suffix": "004",
+          "rarity": "common"
+        },
+        {
+          "id": "1a68893f-96c8-4c02-bd44-c84077d4b099",
+          "card": "614a24d7-7aaf-4983-86ae-3de5d8081c04",
+          "suffix": "005",
+          "rarity": "common"
+        },
+        {
+          "id": "6cb6e984-e68d-45ba-a31a-4611bfc3ea89",
+          "card": "9f973674-76f6-43ab-8cbf-c1b33a0fe07e",
+          "suffix": "006",
+          "rarity": "common"
+        },
+        {
+          "id": "2c5424ca-41af-44da-9403-a83fed95e271",
+          "card": "b892c799-0d08-454e-a971-456b52446799",
+          "suffix": "007",
+          "rarity": "common"
+        },
+        {
+          "id": "48142002-0955-4992-87e5-a0bc09e5be93",
+          "card": "593c08ff-f7e2-4fc8-975d-7b7f4aae5bab",
+          "suffix": "008",
+          "rarity": "common"
+        },
+        {
+          "id": "9994e162-631f-4f80-9879-9e515615b2c7",
+          "card": "b9f58802-f7ef-4204-bc88-8b6802fb24ce",
+          "suffix": "009",
+          "rarity": "common"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Token Pack",
+      "id": 40457
+    }
+  }
+}

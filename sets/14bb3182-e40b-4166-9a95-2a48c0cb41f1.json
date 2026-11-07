@@ -1,0 +1,91 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/set.json",
+  "id": "14bb3182-e40b-4166-9a95-2a48c0cb41f1",
+  "name": {
+    "en": "Yu-Gi-Oh! World Championship 2024 participation cards"
+  },
+  "locales": {
+    "en": {
+      "language": "en",
+      "prefix": "TKN4-EN",
+      "date": "2024-09-07",
+      "image": "https://ms.yugipedia.com//7/72/2024-LogoEN.png",
+      "cardImages": {
+        "unlimited": {
+          "8b55a387-502a-46b0-b3b3-ec3b84ef42b8": "https://img.yugipedia.com/6/63/Token-TKN4-EN-C-UE-Blue.png",
+          "72298668-0ec0-483b-918d-1636ec3c60be": "https://img.yugipedia.com/b/b4/Token-TKN4-EN-C-UE-Red.png"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "72298668-0ec0-483b-918d-1636ec3c60be": {
+            "image": "https://img.yugipedia.com/b/b4/Token-TKN4-EN-C-UE-Red.png",
+            "artType": "token",
+            "variants": [
+              {
+                "label": "Red",
+                "artType": "token",
+                "image": "https://img.yugipedia.com/b/b4/Token-TKN4-EN-C-UE-Red.png"
+              }
+            ]
+          },
+          "8b55a387-502a-46b0-b3b3-ec3b84ef42b8": {
+            "image": "https://img.yugipedia.com/6/63/Token-TKN4-EN-C-UE-Blue.png",
+            "artType": "token",
+            "variants": [
+              {
+                "label": "Blue",
+                "artType": "token",
+                "image": "https://img.yugipedia.com/6/63/Token-TKN4-EN-C-UE-Blue.png"
+              }
+            ]
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {}
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "en"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "image": "https://ms.yugipedia.com//7/72/2024-LogoEN.png",
+      "cards": [
+        {
+          "id": "8b55a387-502a-46b0-b3b3-ec3b84ef42b8",
+          "card": "f2825982-fb4f-4fa3-8b1e-9cbb1c3e2c53",
+          "suffix": "020",
+          "rarity": "common",
+          "description": "World Championship 2024 - Blue"
+        },
+        {
+          "id": "72298668-0ec0-483b-918d-1636ec3c60be",
+          "card": "f2825982-fb4f-4fa3-8b1e-9cbb1c3e2c53",
+          "suffix": "020",
+          "rarity": "common",
+          "description": "World Championship 2024 - Red"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Yu-Gi-Oh! World Championship 2024 participation cards",
+      "id": 1080393
+    }
+  }
+}
