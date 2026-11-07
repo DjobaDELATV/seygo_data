@@ -2508,6 +2508,7 @@ class RawPrinting:
     code: str
     rarity: CardRarity
     image: typing.Dict[ImageLocator, str]
+    image_descriptions: typing.Dict[ImageLocator, str]
     qty: int
     noabbr: bool
     variant: int
@@ -2527,6 +2528,7 @@ class RawPrinting:
         self.code = code
         self.rarity = rarity
         self.image = {}
+        self.image_descriptions = {}
         self.qty = qty
         self.noabbr = noabbr
         self.variant = variant
@@ -2583,13 +2585,58 @@ TOKEN_DESCRIPTION_LINKS = {"Multiply": "Kuriboh Token"}
 """Pages a generic Token's description links to, which mean a specific Token."""
 
 
-def get_art_type(label: str) -> str:
-    """Gets what kind of art a gallery's label for a printing's image means."""
-    if re.fullmatch(r"AA\d*|Alt", label):
-        return "alternate"
-    if re.fullmatch(r"EA\d*", label):
+ART_DESCRIPTION_RE = re.compile(
+    r"\((?:[^()]*\s)?(?<!1st )(?:art|artwork|arkana)\)|alternate arts?\b|variant art\b",
+    re.IGNORECASE,
+)
+EXTENDED_ART_DESCRIPTION_RE = re.compile(r"extended art\b|over-?frame", re.IGNORECASE)
+
+
+def get_art_type(
+    label: str, description: typing.Optional[str], card: Card
+) -> typing.Optional[str]:
+    """Gets what kind of art a gallery row's label and description say a printing's image has."""
+    if re.fullmatch(r"EA\d*", label) or (
+        description and EXTENDED_ART_DESCRIPTION_RE.search(description)
+    ):
         return "extended"
+    if re.fullmatch(r"AA\d*|Alt", label) or (
+        description and ART_DESCRIPTION_RE.search(description)
+    ):
+        return "alternate"
+    if not label:
+        return None
+    if re.search(r"Style|Layout", label):
+        return "style"
+    if card.card_type == CardType.TOKEN:
+        return "token"
     return "other"
+
+
+def parse_extended_art_page(raw_data: str) -> typing.Dict[str, typing.Set[str]]:
+    """Gets the cards with extended art of each set from the table of the wiki's page on it."""
+    result: typing.Dict[str, typing.Set[str]] = {}
+    _, heading, table = raw_data.partition("== List of cards with extended art ==")
+    if not heading:
+        logging.warning("Could not find the list of cards with extended art")
+    for row in table.split("\n|-")[1:]:
+        cards = {x.strip() for x in re.findall(r'\*\s*"\[\[([^\]|]+)', row)}
+        for set_title in re.findall(r"''\[\[([^\]|]+?)(?:\|[^\]]*)?\]\]''", row):
+            result.setdefault(set_title.strip(), set()).update(cards)
+    return result
+
+
+def get_extended_art_cards(
+    batcher: "YugipediaBatcher",
+) -> typing.Dict[str, typing.Set[str]]:
+    result: typing.Dict[str, typing.Set[str]] = {}
+
+    @batcher.getPageContents("Extended art")
+    def onGetData(raw_data: str):
+        result.update(parse_extended_art_page(raw_data))
+
+    batcher.flushPendingOperations()
+    return result
 
 
 def get_row_description(post_comment: str) -> typing.Optional[str]:
@@ -2654,6 +2701,7 @@ def parse_tcg_ocg_set(
     data: wikitextparser.WikiText,
     raw_data: str,
     settable: wikitextparser.Template,
+    extended_art_cards: typing.Mapping[str, typing.Set[str]] = {},
 ) -> bool:
     title = batcher.idsToNames[pageid]
     set_.yugipedia = ExternalIdPair(title, pageid)
@@ -2935,6 +2983,12 @@ def parse_tcg_ocg_set(
                 subgallery_htmls = re.findall(
                     r"<gallery[^\n]*\n(.*?)\n</gallery>", raw_gallery_data, re.DOTALL
                 )
+                headings = [
+                    (x.start(), x.group(1))
+                    for x in re.finditer(
+                        r"^=+\s*(.*?)\s*=+\s*$", raw_gallery_data, re.MULTILINE
+                    )
+                ]
 
                 def add_card_image(
                     name: str,
@@ -2942,6 +2996,7 @@ def parse_tcg_ocg_set(
                     alt: str,
                     image: str,
                     code: typing.Optional[str] = None,
+                    description: typing.Optional[str] = None,
                 ):
                     @batcher.getImageURL(f"File:{image}")
                     def onGetImage(url: str):
@@ -2979,6 +3034,10 @@ def parse_tcg_ocg_set(
                                     for x in token_rcs:
                                         if x.description == token_rc.description:
                                             x.image[ImageLocator(edition, alt)] = url
+                                            if description:
+                                                x.image_descriptions[
+                                                    ImageLocator(edition, alt)
+                                                ] = description
                                     return
 
                             pl = PrintingLocator(card, card_rarity)
@@ -2997,12 +3056,27 @@ def parse_tcg_ocg_set(
                             else:
                                 rc = raw_locale.cards[pl]
                                 rc.image[ImageLocator(edition, alt)] = url
+                                if description:
+                                    rc.image_descriptions[
+                                        ImageLocator(edition, alt)
+                                    ] = description
 
                         @get_card(name)
                         def do(card: Card):
                             onGetCard(card)
 
                 for gallery in gallery_templates:
+                    # A section's heading can say what kind of art all of its rows have
+                    heading = next(
+                        (x for pos, x in reversed(headings) if pos < gallery.span[0]),
+                        "",
+                    )
+                    section_description = (
+                        heading
+                        if EXTENDED_ART_DESCRIPTION_RE.search(heading)
+                        or ART_DESCRIPTION_RE.search(heading)
+                        else None
+                    )
                     default_abbr = get_table_entry(gallery, "abbr", "").strip()
 
                     raw_default_rarity = (
@@ -3128,7 +3202,21 @@ def parse_tcg_ocg_set(
                                     else:
                                         image += ".png"
 
-                                add_card_image(name, rarity, alt, image, code)
+                                add_card_image(
+                                    name,
+                                    rarity,
+                                    alt,
+                                    image,
+                                    code,
+                                    get_row_description(
+                                        re.sub(
+                                            r"description\s*::",
+                                            "description::",
+                                            post_comment,
+                                        )
+                                    )
+                                    or section_description,
+                                )
 
                 for subgallery in subgallery_htmls:
                     lines = [x.strip() for x in subgallery.split("\n") if x.strip()]
@@ -3413,6 +3501,33 @@ def parse_tcg_ocg_set(
         SetContents, typing.Dict[PrintingLocator, CardPrinting]
     ] = {}
 
+    def get_main_art_type(
+        raw_locale: RawLocale, rc: RawPrinting, il: ImageLocator
+    ) -> typing.Optional[str]:
+        # The wiki says all Grand Master Rares are extended arts
+        if rc.rarity == CardRarity.GRANDMASTER:
+            return "extended"
+        art_type = get_art_type(il.altinfo, rc.image_descriptions.get(il), rc.card)
+        if art_type and art_type != "other":
+            return art_type
+        # If a card's in the wiki's list for this set, nothing says which of its
+        # images is the extended art, and it has only one printing, it must be that one
+        if (
+            not {x.name for x in rc.card.yugipedia_pages or []}
+            & extended_art_cards.get(title, set())
+            or sum(x.card is rc.card for x in raw_locale.cards.values()) != 1
+        ):
+            return None
+        for other_locale in raw_locales.values():
+            for other in other_locale.cards.values():
+                if other.card is rc.card and any(
+                    get_art_type(x.altinfo, other.image_descriptions.get(x), rc.card)
+                    == "extended"
+                    for x in other.image
+                ):
+                    return None
+        return "extended"
+
     for raw_locale in raw_locales.values():
         fmt = Format(raw_locale.format.lower())
 
@@ -3503,10 +3618,17 @@ def parse_tcg_ocg_set(
                         # The main image is the normal art, if it has one
                         il = next((x for x in ils if not x.altinfo), ils[0])
                         locale.card_images[edition][printing] = rc.image[il]
+                        art_type = get_main_art_type(raw_locale, rc, il)
+                        if art_type:
+                            locale.card_art_types.setdefault(edition, {})[
+                                printing
+                            ] = art_type
                         variants = [
                             {
                                 "label": x.altinfo,
-                                "artType": get_art_type(x.altinfo),
+                                "artType": get_art_type(
+                                    x.altinfo, rc.image_descriptions.get(x), rc.card
+                                ),
                                 "image": rc.image[x],
                             }
                             for x in sorted(ils, key=lambda x: x.altinfo)
@@ -4660,6 +4782,8 @@ def import_from_yugipedia(
                 apply_card_statuses(db, batcher, get_card_statuses(batcher))
 
         if import_sets:
+            extended_art_cards = get_extended_art_cards(batcher)
+
             for setid in tqdm.tqdm(sets, desc="Importing sets from Yugipedia"):
 
                 def do(pageid: int):
@@ -4747,6 +4871,7 @@ def import_from_yugipedia(
                                         data,
                                         raw_data,
                                         settable,
+                                        extended_art_cards,
                                     ):
                                         db.add_set(set_)
                                         if found:

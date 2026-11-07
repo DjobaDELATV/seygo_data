@@ -103,6 +103,15 @@
                     "description": "The URL to the full card image for this printing.",
                     "format": "uri"
                   },
+                  "artType": {
+                    "description": "What kind of art the main image has: alternate art, extended art (also known as Over-Frame), or a special style. Absent if it's the normal art or nothing says otherwise.",
+                    "enum": [
+                      "alternate",
+                      "extended",
+                      "style",
+                      "token"
+                    ]
+                  },
                   "variants": {
                     "type": "array",
                     "description": "The images of this printing with a label in Yugipedia's galleries, for example each of its alternate arts.",
@@ -119,10 +128,12 @@
                           "description": "The label of this image in Yugipedia's galleries, such as AA2 or EA."
                         },
                         "artType": {
-                          "description": "What kind of art this is, if known from its label.",
+                          "description": "What kind of art this is, if known: alternate art, extended art (also known as Over-Frame), a special style, or a different Token. Other means that its label doesn't say that the art is different.",
                           "enum": [
                             "alternate",
                             "extended",
+                            "style",
+                            "token",
                             "other"
                           ]
                         },

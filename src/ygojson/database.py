@@ -2169,6 +2169,9 @@ class SetLocale:
     """If this is a booster pack, this is a URL to an image of this product's booster box in this locale."""
 
     card_images: typing.Dict[SetEdition, typing.Dict[CardPrinting, str]]
+    card_art_types: typing.Dict[SetEdition, typing.Dict[CardPrinting, str]]
+    """What kind of art each printing's main image has, if known to not be normal."""
+
     card_variants: typing.Dict[
         SetEdition, typing.Dict[CardPrinting, typing.List[typing.Dict[str, str]]]
     ]
@@ -2205,6 +2208,9 @@ class SetLocale:
         card_prices: typing.Optional[
             typing.Dict[SetEdition, typing.Dict[CardPrinting, float]]
         ] = None,
+        card_art_types: typing.Optional[
+            typing.Dict[SetEdition, typing.Dict[CardPrinting, str]]
+        ] = None,
         card_variants: typing.Optional[
             typing.Dict[
                 SetEdition,
@@ -2223,6 +2229,7 @@ class SetLocale:
         self.box_image = box_image
         self.card_images = card_images or {}
         self.card_prices = card_prices or {}
+        self.card_art_types = card_art_types or {}
         self.card_variants = card_variants or {}
         self.db_ids = db_ids or []
         self.formats = formats or []
@@ -2250,6 +2257,11 @@ class SetLocale:
                         **(
                             {"price": self.card_prices[edition][printing]}
                             if printing in self.card_prices.get(edition, {})
+                            else {}
+                        ),
+                        **(
+                            {"artType": self.card_art_types[edition][printing]}
+                            if printing in self.card_art_types.get(edition, {})
                             else {}
                         ),
                         **(
@@ -4044,6 +4056,14 @@ class Database:
                         printings[uuid.UUID(printing)]: info["price"]
                         for printing, info in infos.items()
                         if uuid.UUID(printing) in printings and "price" in info
+                    }
+                    for edition, infos in v.get("cardInfo", {}).items()
+                },
+                card_art_types={
+                    SetEdition(edition): {
+                        printings[uuid.UUID(printing)]: info["artType"]
+                        for printing, info in infos.items()
+                        if uuid.UUID(printing) in printings and "artType" in info
                     }
                     for edition, infos in v.get("cardInfo", {}).items()
                 },
