@@ -3938,6 +3938,9 @@ def parse_md_set(
                 # if printing.card not in {p.card for p in contents.removed_cards}:
                 #     contents.removed_cards.append(printing)
 
+    # Some cards are only found by deferred lookups; deleting their printings
+    # before those run gave them a new ID every run
+    batcher.flushPendingOperations()
     deloldprints()
 
     if contents not in set_.contents:
@@ -4057,6 +4060,9 @@ def parse_dl_set(
                 # if printing.card not in {p.card for p in contents.removed_cards}:
                 #     contents.removed_cards.append(printing)
 
+    # Some cards are only found by deferred lookups; deleting their printings
+    # before those run gave them a new ID every run
+    batcher.flushPendingOperations()
     deloldprints()
 
     if contents not in set_.contents:
