@@ -3,7 +3,8 @@ name: Generate/Upload Database
 on:
   workflow_dispatch:
   schedule:
-   - cron: 0 0 * * *
+   # Off the hour: GitHub delays schedules at midnight UTC by hours
+   - cron: 17 1 * * *
 
 permissions:
   contents: write
