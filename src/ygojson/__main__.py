@@ -266,6 +266,9 @@ def main(argv: typing.Optional[typing.List[str]] = None) -> int:
             logging.info("\tFixing up sets...")
             db.manually_fixup_sets()
 
+            logging.info("\tAdding set reprints...")
+            db.manually_fixup_reprints()
+
         if not args.no_products:
             logging.info("\tImporting sealed products...")
             db.manually_fixup_products()

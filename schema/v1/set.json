@@ -165,6 +165,41 @@
               ]
             }
           },
+          "reprints": {
+            "description": "Later print runs of this set in this locale, oldest first. A reprint has the same card codes, cards and rarities; only its packaging and release date differ. Added by hand, as none of our sources list them.",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "date"
+              ],
+              "properties": {
+                "date": {
+                  "description": "The release date of this reprint.",
+                  "type": "string",
+                  "format": "date"
+                },
+                "edition": {
+                  "description": "The edition this reprint was printed in, if known.",
+                  "enum": [
+                    "1st",
+                    "unlimited",
+                    "limited"
+                  ]
+                },
+                "image": {
+                  "description": "A URL to an image of this reprint's packaging in this locale, if available.",
+                  "type": "string",
+                  "format": "uri"
+                },
+                "source": {
+                  "description": "A URL to where this reprint was announced.",
+                  "type": "string",
+                  "format": "uri"
+                }
+              }
+            }
+          },
           "formats": {
             "description": "A list of formats this set was printed in in this locale.",
             "type": "array",

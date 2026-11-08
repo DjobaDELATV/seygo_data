@@ -149,6 +149,9 @@ MANUAL_SETS_FILE = os.path.join(MANUAL_DATA_DIR, "set-merges.json")
 MANUAL_SERIES_FILE = os.path.join(MANUAL_DATA_DIR, "series-merges.json")
 """The file containing manual series/archetype removal instructions."""
 
+MANUAL_REPRINTS_FILE = os.path.join(MANUAL_DATA_DIR, "reprints.json")
+"""The file containing reprints of sets, which none of our sources give."""
+
 
 def is_card_recent(card: "Card") -> bool:
     """Determine if a card is considered 'recent' based on its release date.
@@ -2143,6 +2146,52 @@ class SetContents:
         }
 
 
+class SetReprint:
+    """A later print run of a :class:`Set` in a locale, with the same codes, cards and rarities."""
+
+    date: datetime.date
+    """The date on which this reprint was released."""
+
+    edition: typing.Optional[SetEdition]
+    """The edition this reprint was printed in, if known."""
+
+    image: typing.Optional[str]
+    """A URL to an image of this reprint's packaging."""
+
+    source: typing.Optional[str]
+    """A URL to where this reprint was announced."""
+
+    def __init__(
+        self,
+        *,
+        date: datetime.date,
+        edition: typing.Optional[SetEdition] = None,
+        image: typing.Optional[str] = None,
+        source: typing.Optional[str] = None,
+    ) -> None:
+        self.date = date
+        self.edition = edition
+        self.image = image
+        self.source = source
+
+    def _to_json(self) -> typing.Dict[str, typing.Any]:
+        return {
+            "date": self.date.isoformat(),
+            **({"edition": self.edition.value} if self.edition else {}),
+            **({"image": self.image} if self.image else {}),
+            **({"source": self.source} if self.source else {}),
+        }
+
+    @staticmethod
+    def _from_json(in_json: typing.Dict[str, typing.Any]) -> "SetReprint":
+        return SetReprint(
+            date=datetime.date.fromisoformat(in_json["date"]),
+            edition=SetEdition(in_json["edition"]) if "edition" in in_json else None,
+            image=in_json.get("image"),
+            source=in_json.get("source"),
+        )
+
+
 class SetLocale:
     """A locale in which a :class:`Set` was released."""
 
@@ -2193,6 +2242,9 @@ class SetLocale:
     editions: typing.List[SetEdition]
     """What editions this product was released in: 1st Edition, Unlimited, etc. Empty for most OCG sets."""
 
+    reprints: typing.List[SetReprint]
+    """Later print runs of this product in this locale, oldest first."""
+
     def __init__(
         self,
         *,
@@ -2220,6 +2272,7 @@ class SetLocale:
         db_ids: typing.Optional[typing.List[int]] = None,
         formats: typing.Optional[typing.List[Format]] = None,
         editions: typing.Optional[typing.List[SetEdition]] = None,
+        reprints: typing.Optional[typing.List[SetReprint]] = None,
     ) -> None:
         self.key = key
         self.language = language
@@ -2234,6 +2287,7 @@ class SetLocale:
         self.db_ids = db_ids or []
         self.formats = formats or []
         self.editions = editions or []
+        self.reprints = reprints or []
 
     def _to_json(self) -> typing.Dict[str, typing.Any]:
         return {
@@ -2287,6 +2341,11 @@ class SetLocale:
             },
             **({"formats": [x.value for x in self.formats]} if self.formats else {}),
             **({"editions": [x.value for x in self.editions]} if self.editions else {}),
+            **(
+                {"reprints": [x._to_json() for x in self.reprints]}
+                if self.reprints
+                else {}
+            ),
             "externalIDs": {
                 **({"dbIDs": self.db_ids} if self.db_ids else {}),
             },
@@ -3081,6 +3140,50 @@ class Database:
 
         if n_removed:
             logging.info(f"Removed {n_removed} series via manual fixups.")
+
+    def manually_fixup_reprints(self):
+        """Applies set reprints from manual-data/reprints.json."""
+
+        # Rebuilt from the file every run, so an entry removed there leaves the data too
+        for set_ in self.sets:
+            for locale in set_.locales.values():
+                locale.reprints = []
+
+        if not os.path.exists(MANUAL_REPRINTS_FILE):
+            return
+
+        with open(MANUAL_REPRINTS_FILE, encoding="utf-8") as file:
+            in_json = json.load(file)
+
+        for entry in in_json.get("reprints", []):
+            set_ = self.lookup_set(ManualFixupIdentifier(entry["set"]))
+            if set_ is None:
+                logging.warning(f"Set not found for reprint: {entry['set']}")
+                continue
+            for locale_name, in_locale in entry["locales"].items():
+                locale = set_.locales.get(Locale.normalize(locale_name))
+                if locale is None:
+                    logging.warning(
+                        f"Locale {locale_name} not found for reprint of: {entry['set']}"
+                    )
+                    continue
+                locale.reprints.append(
+                    SetReprint._from_json(
+                        {
+                            "date": entry["date"],
+                            **(
+                                {"edition": entry["edition"]}
+                                if "edition" in entry
+                                else {}
+                            ),
+                            **(
+                                {"source": entry["source"]} if "source" in entry else {}
+                            ),
+                            **in_locale,
+                        }
+                    )
+                )
+                locale.reprints.sort(key=lambda x: x.date)
 
     def manually_fixup_set_merges(self):
         """Applies manual set removals from manual-data/set-merges.json."""
@@ -4082,6 +4185,7 @@ class Database:
                 },
                 formats=[Format(x) for x in v.get("formats", [])],
                 editions=[SetEdition(x) for x in v.get("editions", [])],
+                reprints=[SetReprint._from_json(x) for x in v.get("reprints", [])],
                 db_ids=v["externalIDs"].get("dbIDs"),
             )
             for k, v in rawset.get("locales", {}).items()
