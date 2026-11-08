@@ -2270,15 +2270,20 @@ class SetLocale:
                             else {}
                         ),
                     }
-                    for printing in {
-                        *self.card_images.get(edition, {}).keys(),
-                        *self.card_prices.get(edition, {}).keys(),
-                    }
+                    # dict.fromkeys rather than a set keeps the same order every run
+                    for printing in dict.fromkeys(
+                        [
+                            *self.card_images.get(edition, {}).keys(),
+                            *self.card_prices.get(edition, {}).keys(),
+                        ]
+                    )
                 }
-                for edition in {
-                    *self.card_images.keys(),
-                    *self.card_prices.keys(),
-                }
+                for edition in dict.fromkeys(
+                    [
+                        *self.card_images.keys(),
+                        *self.card_prices.keys(),
+                    ]
+                )
             },
             **({"formats": [x.value for x in self.formats]} if self.formats else {}),
             **({"editions": [x.value for x in self.editions]} if self.editions else {}),

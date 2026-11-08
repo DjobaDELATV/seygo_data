@@ -2354,6 +2354,12 @@ EDITIONS_IN_NAV = {
 
 EDITIONS_IN_NAV_REVERSE = {v: k for k, v in EDITIONS_IN_NAV.items()}
 
+
+def sorted_editions(editions: typing.Iterable[SetEdition]) -> typing.List[SetEdition]:
+    """Editions are gathered in sets, whose order changes between runs; this gives them in a fixed one."""
+    return sorted(editions, key=[*SetEdition].index)
+
+
 FORMATS_IN_NAV = {
     "en": "TCG",
     "na": "TCG",
@@ -2976,7 +2982,7 @@ def parse_tcg_ocg_set(
                 )
 
             batcher.flushPendingOperations()
-            for edition in editions:
+            for edition in sorted_editions(editions):
                 get_gallery_data(setname, raw_locale, edition, raw_locale.key)
 
     def get_gallery_data(
@@ -3580,8 +3586,9 @@ def parse_tcg_ocg_set(
 
     for raw_locale in sorted(raw_locales.values(), key=raw_locale_order):
         fmt = Format(raw_locale.format.lower())
+        editions = sorted_editions(raw_locale.editions)
 
-        for edition in raw_locale.editions:
+        for edition in editions:
             image = packimages.get(
                 f"{raw_locale.key}-{EDITIONS_IN_NAV_REVERSE[edition]}"
             ) or packimages.get(raw_locale.key)
@@ -3600,7 +3607,7 @@ def parse_tcg_ocg_set(
         new_locale = SetLocale(
             key=Locale.normalize(raw_locale.key),
             language=LOCALES.get(raw_locale.key, raw_locale.key),
-            editions=[*raw_locale.editions],
+            editions=[*editions],
             formats=[fmt],
             image=[*raw_locale.images.values(), None][0],
             date=raw_locale.date,
@@ -3639,7 +3646,7 @@ def parse_tcg_ocg_set(
                 content = raw_printings_to_content[ptc_key]
                 if not any(x is locale for x in content.locales):
                     content.locales.append(locale)
-                for edition in raw_locale.editions:
+                for edition in editions:
                     if edition not in content.editions:
                         content.editions.append(edition)
                 if fmt not in content.formats:
@@ -3647,7 +3654,7 @@ def parse_tcg_ocg_set(
             else:
                 content = SetContents(
                     locales=[locale],
-                    editions=[*raw_locale.editions],
+                    editions=[*editions],
                     formats=[fmt],
                     image=[*raw_locale.images.values(), None][0],
                 )
@@ -3677,7 +3684,7 @@ def parse_tcg_ocg_set(
 
                 set_.contents.append(content)
 
-            for edition in raw_locale.editions:
+            for edition in editions:
                 locale.card_images.setdefault(edition, {})
                 for rc in raw_locale.cards.values():
                     ils = [il for il in rc.image if il.edition == edition]
