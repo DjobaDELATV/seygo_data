@@ -3023,6 +3023,11 @@ def get_token_description(
     return rest if rest and not any(rest in page for page in pages) else None
 
 
+REPRINT_TITLE_QUALIFIERS = {"25th Anniversary Edition"}
+"""Qualifiers of set pages titled "<English name> (<qualifier>)", whose English name
+is the page title, to tell them apart from the original set of the same name."""
+
+
 def parse_tcg_ocg_set(
     db: Database,
     batcher: "YugipediaBatcher",
@@ -3043,6 +3048,14 @@ def parse_tcg_ocg_set(
         if namearg and namearg.strip():
             namearg = _strip_markup(namearg.strip())
             set_.name[Language.normalize(key)] = namearg
+
+    # Some reprints have the same printed name as the original set, so only the
+    # title of their page tells them apart
+    en_name = set_.name.get(Language.ENGLISH)
+    if en_name and title in {
+        f"{en_name} ({qualifier})" for qualifier in REPRINT_TITLE_QUALIFIERS
+    }:
+        set_.name[Language.ENGLISH] = title
 
     navs = [x for x in data.templates if x.name.strip().lower() == "set navigation"]
     if len(navs) > 1:
