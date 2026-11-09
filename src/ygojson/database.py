@@ -5,6 +5,7 @@ import logging
 import os
 import os.path
 import re
+import time
 import typing
 import uuid
 import zipfile
@@ -4672,6 +4673,9 @@ REPOSITORY = "https://github.com/DjobaDELATV/seygo_data/releases/download/v1"
 LAST_MODIFIED_HEADER = "Last-Modified"
 """The HTTP header to get when the ZIP files on the server were last modified."""
 
+DOWNLOAD_MAX_RETRIES = 5
+"""How many times to try downloading the ZIP files before giving up on server/network errors."""
+
 
 def load_from_internet(
     *,
@@ -4688,6 +4692,31 @@ def load_from_internet(
     :param url: The URL to get the data ZIP files from, defaults to the official YGOJSON URL
     """
 
+    def with_retries(fn: typing.Callable[[], requests.Response]) -> requests.Response:
+        # GitHub's release CDN sometimes returns transient 5xx (e.g. 504 Gateway Time-out)
+        for attempt in range(DOWNLOAD_MAX_RETRIES):
+            try:
+                response = fn()
+                if response.status_code < 500:
+                    return response
+                error: Exception = requests.HTTPError(
+                    f"{response.status_code} {response.reason}", response=response
+                )
+            except (
+                requests.ConnectionError,
+                requests.Timeout,
+                requests.exceptions.ChunkedEncodingError,
+            ) as e:
+                error = e
+            if attempt == DOWNLOAD_MAX_RETRIES - 1:
+                raise error
+            wait = 10 * 2**attempt  # 10s, 20s, 40s...
+            logging.warning(
+                f"Download failed ({error}); retrying in {wait}s ({attempt + 1}/{DOWNLOAD_MAX_RETRIES - 1})..."
+            )
+            time.sleep(wait)
+        raise AssertionError("unreachable")
+
     def getzip(name: str, dest: str):
         with tqdm.tqdm(
             total=3, desc=f"Downloading {name}s from server"
@@ -4698,7 +4727,11 @@ def load_from_internet(
             zip_already_exists = os.path.exists(zippath)
 
             if zip_already_exists:
-                response = requests.head(repository + "/" + zipname, stream=True)
+                response = with_retries(
+                    lambda: requests.head(
+                        repository + "/" + zipname, stream=True, timeout=60
+                    )
+                )
                 if response.status_code == 404:
                     progress_bar.update(2)
                     return
@@ -4714,21 +4747,29 @@ def load_from_internet(
                 not zip_already_exists
                 or last_modified.timestamp() > os.stat(zippath).st_mtime
             ):
-                response = requests.get(
-                    repository + "/" + zipname,
-                    stream=True,
-                    headers={
-                        "User-Agent": USER_AGENT,
-                    },
-                )
+
+                def download() -> requests.Response:
+                    response = requests.get(
+                        repository + "/" + zipname,
+                        stream=True,
+                        headers={
+                            "User-Agent": USER_AGENT,
+                        },
+                        timeout=60,
+                    )
+                    if response.ok:
+                        # written inside the retried call so a connection dropped mid-stream is retried too
+                        with open(zippath, "wb") as file:
+                            for chunk in response.iter_content(chunk_size=None):
+                                file.write(chunk)
+                    return response
+
+                response = with_retries(download)
                 if response.status_code == 404:
                     progress_bar.update(1)
                     return
                 if not response.ok:
                     response.raise_for_status()
-                with open(zippath, "wb") as file:
-                    for chunk in response.iter_content(chunk_size=None):
-                        file.write(chunk)
             progress_bar.update(1)
 
             with open(zippath, "rb") as file, zipfile.ZipFile(file) as zip:
