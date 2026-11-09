@@ -200,6 +200,20 @@ jobs:
           else
             gh issue create --title "$TITLE" --body-file temp/uncovered_sets.md
           fi
+      - name: Report Deleted Yugipedia Pages
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          [ -s temp/deleted_pages.md ] || exit 0
+          # one comment per run on a single issue, so the history of removals stays in one place
+          TITLE="Cartes/sets retirés : pages Yugipedia supprimées"
+          ISSUE=$(gh issue list --state open --search "\"$TITLE\" in:title" --json number --jq '.[0].number // empty')
+          if [ -n "$ISSUE" ]; then
+            gh issue comment "$ISSUE" --body-file temp/deleted_pages.md
+          else
+            gh issue create --title "$TITLE" --body-file temp/deleted_pages.md
+          fi
       - name: Test
         run: |
           python test/validate_data.py

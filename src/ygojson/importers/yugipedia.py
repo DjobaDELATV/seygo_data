@@ -10,6 +10,7 @@ import random
 import re
 import time
 import typing
+import urllib.parse
 import uuid
 import xml.etree.ElementTree
 
@@ -292,6 +293,9 @@ IGNORED_SET_PAGES = {
 """Same as IGNORED_SET_CATS, for sets in no useful category."""
 
 UNCOVERED_SETS_FILENAME = "uncovered_sets.md"
+DELETED_PAGES_FILENAME = "deleted_pages.md"
+MAX_DELETED_PAGE_REMOVALS = 20
+"""Above this many removals in one run, assume Yugipedia answered wrong and remove nothing."""
 
 BANLIST_CATS = {
     "tcg": "Category:TCG Advanced Format Forbidden & Limited Lists",
@@ -449,6 +453,250 @@ def report_uncovered_sets(
         for title in uncovered:
             url = "https://yugipedia.com/wiki/" + title.replace(" ", "_")
             file.write(f"- [{title}]({url})\n")
+
+
+def _get_gone_page_ids(
+    page_ids: typing.Collection[int],
+) -> typing.Optional[typing.Dict[int, str]]:
+    """Asks Yugipedia which of these pages were deleted or turned into redirects.
+    Returns None if Yugipedia didn't give a clear answer, so nothing gets removed on a bad response.
+    """
+    result: typing.Dict[int, str] = {}
+    ids = sorted(page_ids)
+    for i in tqdm.tqdm(
+        range(0, len(ids), 50), desc="Checking for deleted Yugipedia pages"
+    ):
+        batch = ids[i : i + 50]
+        try:
+            response = make_request(
+                {"action": "query", "pageids": "|".join(str(x) for x in batch)}
+            ).json()
+        except (RuntimeError, ValueError) as e:
+            logging.warning(f"Could not check for deleted Yugipedia pages: {e}")
+            return None
+        if "error" in response or "query" not in response:
+            logging.warning(
+                f"Could not check for deleted Yugipedia pages: {response.get('error')}"
+            )
+            return None
+        pages = response["query"].get("pages", [])
+        if any(page.get("invalid") for page in pages):
+            logging.warning(
+                "Yugipedia found some page IDs invalid; not removing anything"
+            )
+            return None
+        present = {page["pageid"] for page in pages if not page.get("missing")}
+        for page in pages:
+            if page.get("missing"):
+                result[page["pageid"]] = "supprimée"
+        for pageid in batch:
+            # make_request follows redirects, so a page that is now a redirect comes back as its target
+            if pageid not in present and pageid not in result:
+                result[pageid] = "redirection"
+    return result
+
+
+def remove_deleted_pages(
+    db: Database,
+    known_pages: typing.Iterable[int],
+    *,
+    check_cards: bool,
+    check_sets: bool,
+):
+    """Removes cards and sets whose Yugipedia pages were all deleted (a vandal's fake card, or a page
+    recreated under another title, which would otherwise leave a duplicate behind),
+    and leaves a report in TEMP_DIR for the nightly to publish."""
+    path = os.path.join(TEMP_DIR, DELETED_PAGES_FILENAME)
+    if os.path.exists(path):
+        os.remove(path)
+
+    known = set(known_pages)
+    cards = (
+        list({card.id: card for card in [*db.cards, *db.skills]}.values())
+        if check_cards
+        else []
+    )
+    candidate_cards = [
+        card
+        for card in cards
+        if card.yugipedia_pages
+        and not any(page.id in known for page in card.yugipedia_pages)
+    ]
+    candidate_sets = [
+        set_
+        for set_ in (db.sets if check_sets else [])
+        if set_.yugipedia and set_.yugipedia.id not in known
+    ]
+    if not candidate_cards and not candidate_sets:
+        return
+
+    gone = _get_gone_page_ids(
+        {page.id for card in candidate_cards for page in card.yugipedia_pages}
+        | {set_.yugipedia.id for set_ in candidate_sets}
+    )
+    if gone is None:
+        return
+
+    gone_sets = [set_ for set_ in candidate_sets if set_.yugipedia.id in gone]
+    gone_cards = [
+        card
+        for card in candidate_cards
+        if all(page.id in gone for page in card.yugipedia_pages)
+    ]
+    if not gone_sets and not gone_cards:
+        return
+
+    # (object, reason it was kept or None if it can be removed)
+    set_results: typing.List[typing.Tuple[Set, typing.Optional[str]]] = []
+    for set_ in gone_sets:
+        printings = {
+            id(printing)
+            for content in set_.contents
+            for printing in [*content.cards, *content.removed_cards]
+        }
+        users = [
+            f"produit {product.name.get(Language.ENGLISH, product.id)}"
+            for product in db.products
+            if any(
+                pack.set is set_
+                for contents in product.contents
+                for pack in contents.packs
+            )
+        ] + [
+            f"distribution {distro.name or distro.id}"
+            for distro in db.distros
+            if any(
+                getattr(slot, "set", None) is set_
+                or any(id(x) in printings for x in getattr(slot, "cards", []))
+                for slot in distro.slots
+            )
+        ]
+        if any(content.ygoprodeck for content in set_.contents):
+            set_results.append((set_, "aussi connu de YGOPRODeck"))
+        elif users:
+            set_results.append((set_, "encore utilisé par : " + ", ".join(users)))
+        else:
+            set_results.append((set_, None))
+
+    # sets removed now no longer count as using a card
+    remaining_sets = {set_.id for set_ in db.sets} - {
+        set_.id for set_, reason in set_results if reason is None
+    }
+    card_results: typing.List[typing.Tuple[Card, typing.Optional[str]]] = []
+    for card in gone_cards:
+        users = (
+            [
+                f"set {set_.name.get(Language.ENGLISH, set_.id)}"
+                for set_ in db.sets
+                if set_.id in remaining_sets
+                and any(
+                    printing.card is card
+                    for content in set_.contents
+                    for printing in [*content.cards, *content.removed_cards]
+                )
+            ]
+            + [
+                f"série {series.name.get(Language.ENGLISH, series.id)}"
+                for series in db.series
+                if card in series.members
+            ]
+            + [
+                f"produit {product.name.get(Language.ENGLISH, product.id)}"
+                for product in db.products
+                if any(
+                    pack.card is card
+                    for contents in product.contents
+                    for pack in contents.packs
+                )
+            ]
+            + [
+                f"distribution {distro.name or distro.id}"
+                for distro in db.distros
+                if any(
+                    printing.card is card
+                    for slot in distro.slots
+                    for printing in getattr(slot, "cards", [])
+                )
+            ]
+        )
+        if card.ygoprodeck or card.yamlyugi_id:
+            card_results.append((card, "aussi connue de YGOPRODeck / Yaml Yugi"))
+        elif users:
+            card_results.append((card, "encore utilisée par : " + ", ".join(users)))
+        else:
+            card_results.append((card, None))
+
+    n_removable = sum(1 for _, reason in [*set_results, *card_results] if not reason)
+    too_many = n_removable > MAX_DELETED_PAGE_REMOVALS
+    if too_many:
+        logging.warning(
+            f"{n_removable} cards/sets have deleted Yugipedia pages, more than {MAX_DELETED_PAGE_REMOVALS}; removing none of them"
+        )
+    else:
+        for set_, reason in set_results:
+            if not reason:
+                logging.info(
+                    f"Removing set with deleted Yugipedia page: {set_.yugipedia.name}"
+                )
+                db._remove_set(set_)
+        for card, reason in card_results:
+            if not reason:
+                logging.info(
+                    f"Removing card with deleted Yugipedia page: {card.yugipedia_pages[0].name}"
+                )
+                db._remove_card(card)
+
+    def line(name: str, pages: typing.List[ExternalIdPair], id: uuid.UUID) -> str:
+        links = ", ".join(
+            f"[{page.name}](https://yugipedia.com/wiki/{page.name.replace(' ', '_')}) ({gone[page.id]})"
+            for page in pages
+        )
+        return f"- **{name}** — {links} — `{id}`"
+
+    os.makedirs(TEMP_DIR, exist_ok=True)
+    with open(path, "w", encoding="utf-8") as file:
+        file.write(
+            f"Run du {datetime.datetime.utcnow().strftime('%Y-%m-%d %H:%M')} UTC : "
+            "pages Yugipedia supprimées ou devenues des redirections.\n\n"
+        )
+        if too_many:
+            file.write(
+                f"⚠️ **Rien n'a été retiré** : {n_removable} retraits dépassent la limite de "
+                f"{MAX_DELETED_PAGE_REMOVALS} (`MAX_DELETED_PAGE_REMOVALS`). Vérifier que Yugipedia "
+                "répond correctement avant de retirer ces entrées.\n\n"
+            )
+        for (removed_title, kept_title), results, name_of, pages_of in (
+            (
+                ("Sets retirés", "Sets gardés, à vérifier"),
+                set_results,
+                lambda x: x.name.get(Language.ENGLISH, x.yugipedia.name),
+                lambda x: [x.yugipedia],
+            ),
+            (
+                ("Cartes retirées", "Cartes gardées, à vérifier"),
+                card_results,
+                lambda x: x.text[Language.ENGLISH].name
+                if Language.ENGLISH in x.text
+                else x.yugipedia_pages[0].name,
+                lambda x: x.yugipedia_pages,
+            ),
+        ):
+            removed = [x for x, reason in results if not reason and not too_many]
+            kept = [(x, reason) for x, reason in results if reason or too_many]
+            if removed:
+                file.write(f"### {removed_title}\n\n")
+                for x in removed:
+                    file.write(line(name_of(x), pages_of(x), x.id) + "\n")
+                file.write("\n")
+            if kept:
+                file.write(f"### {kept_title}\n\n")
+                for x, reason in kept:
+                    file.write(
+                        line(name_of(x), pages_of(x), x.id)
+                        + (f" — {reason}" if reason else "")
+                        + "\n"
+                    )
+                file.write("\n")
 
 
 def get_series_pages(batcher: "YugipediaBatcher") -> typing.Iterable[int]:
@@ -1453,6 +1701,30 @@ _ERRATA_SET_CODE_RE = re.compile(r"^[0-9A-Z!]+-[0-9A-Z]+$")
 _ERRATA_DATE_RE = re.compile(
     r"(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},\s*\d{4}"
 )
+# Errata references come from wiki-editable text and end up as links in apps,
+# so only official sources and web archives are kept (a vandal could add a phishing link)
+_ERRATA_REFERENCE_DOMAINS = (
+    "yugioh-card.com",
+    "konami.com",
+    "viz.com",
+    "web.archive.org",
+    "archive.is",
+    "archive.ph",
+    "archive.today",
+    "archive.vn",
+)
+
+
+def _is_trusted_errata_reference(url: str) -> bool:
+    try:
+        parsed = urllib.parse.urlsplit(url.strip())
+        host = (parsed.hostname or "").lower()
+    except ValueError:
+        return False
+    return parsed.scheme in ("http", "https") and any(
+        host == domain or host.endswith("." + domain)
+        for domain in _ERRATA_REFERENCE_DOMAINS
+    )
 
 
 def get_errata_pages(batcher: "YugipediaBatcher") -> typing.Set[str]:
@@ -1531,9 +1803,16 @@ def _parse_errata_caption(raw: str, version: CardErrataVersion, lang: Language):
     for template in parsed.templates:
         if template.name.strip().lower() == "database link" and template.arguments:
             cid = template.arguments[0].value.strip()
-            version.reference = f"https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&cid={cid}&request_locale={lang.value}"
-    if not version.reference and parsed.external_links:
-        version.reference = parsed.external_links[0].url
+            if cid.isascii() and cid.isdigit():
+                version.reference = f"https://www.db.yugioh-card.com/yugiohdb/card_search.action?ope=2&cid={cid}&request_locale={lang.value}"
+            else:
+                logging.warning(f"Ignoring errata Database link with bad cid: {cid!r}")
+    if not version.reference:
+        for link in parsed.external_links:
+            if _is_trusted_errata_reference(link.url):
+                version.reference = link.url.strip()
+                break
+            logging.warning(f"Ignoring untrusted errata reference: {link.url!r}")
     # an explicit date (e.g. "Official Card Reference (November 23, 2008)") beats the release date of a set
     # (dates inside <ref>s are those of articles/accesses, not of the text)
     found_date = _ERRATA_DATE_RE.search(
@@ -5129,6 +5408,15 @@ def import_from_yugipedia(
                             return
 
                 do(seriesid)
+
+    # after the batcher has flushed every import; only a full run knows every page that still exists
+    if partition_filepath is None and not specific_pages:
+        remove_deleted_pages(
+            db,
+            [*cards, *sets, *series, *skills],
+            check_cards=import_cards,
+            check_sets=import_sets,
+        )
 
     return n_found, n_new
 
