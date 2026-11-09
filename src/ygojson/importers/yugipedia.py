@@ -2836,6 +2836,38 @@ class RawPrinting:
         return PrintingLocator(self.card, self.rarity, self.variant)
 
 
+class SkippedSetListRow(typing.NamedTuple):
+    page: str
+    code: str
+    row: str
+    reason: str
+
+
+SKIPPED_SET_LIST_ROWS: typing.List[SkippedSetListRow] = []
+"""Rows of set lists that gave no printing, reported at the end of an import."""
+
+
+def skip_set_list_row(row: SkippedSetListRow, reason: str) -> None:
+    row = row._replace(reason=reason)
+    SKIPPED_SET_LIST_ROWS.append(row)
+    logging.warning(
+        f"Skipped row of {row.page} ({reason}): {row.code or '(no code)'} -- {row.row}"
+    )
+
+
+def report_skipped_set_list_rows() -> None:
+    if not SKIPPED_SET_LIST_ROWS:
+        return
+    by_reason: typing.Dict[str, int] = {}
+    for row in SKIPPED_SET_LIST_ROWS:
+        by_reason[row.reason] = by_reason.get(row.reason, 0) + 1
+    logging.warning(
+        f"Skipped {len(SKIPPED_SET_LIST_ROWS)} rows of set lists: "
+        + ", ".join(f"{n} {reason}" for reason, n in sorted(by_reason.items()))
+    )
+    SKIPPED_SET_LIST_ROWS.clear()
+
+
 class RawLocale:
     key: str
     format: str
@@ -3019,7 +3051,7 @@ def parse_tcg_ocg_set(
     raw_locales: typing.Dict[str, RawLocale] = {}
     packimages: typing.Dict[str, str] = {}
 
-    def get_card(name: str):
+    def get_card(name: str, row: typing.Optional[SkippedSetListRow] = None):
         class GetCardDecorator:
             def __init__(self, callback: typing.Callable[[Card], None]) -> None:
                 @batcher.getPageID(name)
@@ -3033,6 +3065,8 @@ def parse_tcg_ocg_set(
                                 logging.warn(
                                     f"Could not find card {cardname} (card) ({cardid})"
                                 )
+                                if row:
+                                    skip_set_list_row(row, "card not found")
                                 return
                             callback(card)
 
@@ -3040,6 +3074,8 @@ def parse_tcg_ocg_set(
                     card = db.cards_by_yugipedia_id.get(cardid)
                     if not card:
                         logging.warn(f"Could not find card {cardname} ({cardid})")
+                        if row:
+                            skip_set_list_row(row, "card not found")
                         return
                     callback(card)
 
@@ -3058,6 +3094,12 @@ def parse_tcg_ocg_set(
                 for x in cardlist_data.templates
                 if x.name.lower().strip() == "set list"
             ]
+            # A card can be in a set many times in one rarity, with different codes
+            # (like a new artwork in another deck), so a row is only the same
+            # printing as another if it has the same code
+            rows_by_printing: typing.Dict[
+                typing.Tuple[Card, CardRarity, typing.Union[int, str]], RawPrinting
+            ] = {}
 
             def add_card_to_cardlist(
                 name: str,
@@ -3067,8 +3109,9 @@ def parse_tcg_ocg_set(
                 noabbr: bool,
                 variant: int,
                 description: typing.Optional[str],
+                row: str,
             ):
-                @get_card(name)
+                @get_card(name, SkippedSetListRow(listpagename, code, row, ""))
                 def onGetCard(card: Card):
                     is_token = card.card_type == CardType.TOKEN
                     rcs: typing.List[RawPrinting] = []
@@ -3101,7 +3144,12 @@ def parse_tcg_ocg_set(
                         rcs.append(raw_rc)
 
                     for rc in rcs:
-                        raw_locale.cards[rc.locator()] = rc
+                        key = (rc.card, rc.rarity, rc.variant if is_token else rc.code)
+                        if key in rows_by_printing:
+                            logging.debug(
+                                f"Row of {listpagename} is the same printing as another: {row}"
+                            )
+                        rows_by_printing[key] = rc
 
             rows_by_card: typing.Dict[
                 typing.Tuple[str, CardRarity],
@@ -3182,6 +3230,10 @@ def parse_tcg_ocg_set(
 
                             name = cols[col_index] if len(cols) > col_index else None
                             if not name:
+                                skip_set_list_row(
+                                    SkippedSetListRow(listpagename, code, row, ""),
+                                    "no card name",
+                                )
                                 continue
                             name = strip_invisible_chars(name.replace("#", ""))
                             col_index += 1
@@ -3253,6 +3305,7 @@ def parse_tcg_ocg_set(
                                     noabbr,
                                     card_rows.index((code, description)),
                                     description,
+                                    row,
                                 )
 
             if not setlists:
@@ -3261,6 +3314,20 @@ def parse_tcg_ocg_set(
                 )
 
             batcher.flushPendingOperations()
+
+            # Printings of a card in one rarity are told apart by the order of their codes
+            codes_by_card: typing.Dict[
+                typing.Tuple[Card, CardRarity], typing.List[str]
+            ] = {}
+            for rc in rows_by_printing.values():
+                if rc.card.card_type != CardType.TOKEN:
+                    codes_by_card.setdefault((rc.card, rc.rarity), []).append(rc.code)
+            for rc in rows_by_printing.values():
+                if rc.card.card_type != CardType.TOKEN:
+                    rc.variant = sorted(codes_by_card[(rc.card, rc.rarity)]).index(
+                        rc.code
+                    )
+                raw_locale.cards[rc.locator()] = rc
             for edition in sorted_editions(editions):
                 get_gallery_data(setname, raw_locale, edition, raw_locale.key)
 
@@ -3364,8 +3431,13 @@ def parse_tcg_ocg_set(
                                                 ] = description
                                     return
 
-                            pl = PrintingLocator(card, card_rarity)
-                            if pl not in raw_locale.cards:
+                            # A card may have many printings in one rarity, with different codes
+                            card_rcs = [
+                                x
+                                for x in raw_locale.cards.values()
+                                if x.card is card and x.rarity == card_rarity
+                            ]
+                            if not card_rcs:
                                 if (
                                     rarity == card_rarity
                                     and card_rarity in FALLBACK_RARITIES
@@ -3378,7 +3450,10 @@ def parse_tcg_ocg_set(
                                         f"Printing in gallery {galleryname} not found in locale: {name} / {rarity.value} -- Available in {[pl.rarity.value for pl in raw_locale.cards if pl.card == card]}"
                                     )
                             else:
-                                rc = raw_locale.cards[pl]
+                                rc = next(
+                                    (x for x in card_rcs if code and x.code == code),
+                                    card_rcs[0],
+                                )
                                 rc.image[ImageLocator(edition, alt)] = url
                                 if description:
                                     rc.image_descriptions[
@@ -3808,15 +3883,69 @@ def parse_tcg_ocg_set(
                     raw_locale.editions.add(EDITIONS_IN_NAV[ec])
 
     old_printing_ids: typing.Dict[PrintingLocator, uuid.UUID] = {}
+    # Other cards than Tokens keep their IDs by their code, as a card's other
+    # printings in the same rarity can come and go
+    old_ids_by_suffix: typing.Dict[
+        typing.Tuple[Card, CardRarity, typing.Optional[str]], uuid.UUID
+    ] = {}
+    old_ids_by_card: typing.Dict[
+        typing.Tuple[Card, CardRarity], typing.Set[uuid.UUID]
+    ] = {}
+    old_suffixes: typing.Dict[uuid.UUID, typing.Optional[str]] = {}
     for c in set_.contents:
         token_rows: typing.Dict[typing.Tuple[Card, CardRarity], int] = {}
         for p in sorted(c.cards, key=lambda p: p.suffix or ""):
             rarity = p.rarity or CardRarity.COMMON
-            variant = 0
             if p.card.card_type == CardType.TOKEN:
                 variant = token_rows.get((p.card, rarity), 0)
                 token_rows[(p.card, rarity)] = variant + 1
-            old_printing_ids[PrintingLocator(p.card, rarity, variant)] = p.id
+                old_printing_ids[PrintingLocator(p.card, rarity, variant)] = p.id
+            else:
+                old_ids_by_suffix[(p.card, rarity, p.suffix)] = p.id
+                old_ids_by_card.setdefault((p.card, rarity), set()).add(p.id)
+                old_suffixes[p.id] = p.suffix
+    new_printing_ids: typing.Dict[
+        typing.Tuple[Card, CardRarity, typing.Optional[str]], uuid.UUID
+    ] = {}
+
+    def get_printing_id(
+        raw_locale: RawLocale, rc: RawPrinting, prefix: str
+    ) -> uuid.UUID:
+        if rc.card.card_type == CardType.TOKEN:
+            return old_printing_ids.get(rc.locator()) or uuid.uuid4()
+
+        def get_suffix(x: RawPrinting) -> typing.Optional[str]:
+            return None if x.noabbr else x.code[len(prefix) :]
+
+        suffix = get_suffix(rc)
+        old_id = old_ids_by_suffix.get((rc.card, rc.rarity, suffix))
+        if old_id:
+            return old_id
+        # If codes changed, the IDs no printing has kept go to the printings
+        # with new codes, both in the order of their codes
+        others = [
+            x
+            for x in raw_locale.cards.values()
+            if x.card is rc.card and x.rarity == rc.rarity
+        ]
+        kept_ids = {
+            old_ids_by_suffix.get((x.card, x.rarity, get_suffix(x))) for x in others
+        }
+        unkept_ids = sorted(
+            old_ids_by_card.get((rc.card, rc.rarity), set()) - kept_ids,
+            key=lambda x: (old_suffixes[x] or "", str(x)),
+        )
+        new_suffixes = sorted(
+            {
+                get_suffix(x) or ""
+                for x in others
+                if (x.card, x.rarity, get_suffix(x)) not in old_ids_by_suffix
+            }
+        )
+        i = new_suffixes.index(suffix or "")
+        if i < len(unkept_ids):
+            return unkept_ids[i]
+        return new_printing_ids.setdefault((rc.card, rc.rarity, suffix), uuid.uuid4())
 
     set_.locales.clear()
     set_.contents.clear()
@@ -3946,11 +4075,7 @@ def parse_tcg_ocg_set(
                         )
                         continue
                     printing = CardPrinting(
-                        id=(
-                            old_printing_ids[rcl]
-                            if rcl in old_printing_ids
-                            else uuid.uuid4()
-                        ),
+                        id=get_printing_id(raw_locale, rc, prefix or ""),
                         card=rc.card,
                         rarity=rc.rarity,
                         suffix=None if rc.noabbr else rc.code[len(prefix) :],
@@ -5418,6 +5543,7 @@ def import_from_yugipedia(
             check_sets=import_sets,
         )
 
+    report_skipped_set_list_rows()
     return n_found, n_new
 
 
