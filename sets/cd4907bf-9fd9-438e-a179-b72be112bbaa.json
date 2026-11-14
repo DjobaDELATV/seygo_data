@@ -1,0 +1,125 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/set.json",
+  "id": "cd4907bf-9fd9-438e-a179-b72be112bbaa",
+  "name": {
+    "en": "Yu-Gi-Oh! World Championship 2006 prize cards"
+  },
+  "locales": {
+    "ae": {
+      "language": "ae",
+      "prefix": "WCPS-AE",
+      "date": "2006-07-02",
+      "cardImages": {
+        "unlimited": {
+          "066cb340-8803-4901-9313-e8d6f68dc77f": "https://ms.yugipedia.com//3/3f/Seiyaryu-WCPS-AE-SR-UE.jpg"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "066cb340-8803-4901-9313-e8d6f68dc77f": {
+            "image": "https://ms.yugipedia.com//3/3f/Seiyaryu-WCPS-AE-SR-UE.jpg"
+          }
+        }
+      },
+      "formats": [
+        "ocg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          131308000
+        ]
+      }
+    },
+    "en": {
+      "language": "en",
+      "prefix": "WCPS-EN",
+      "date": "2006-07-02",
+      "cardImages": {
+        "unlimited": {
+          "214da2d8-253c-49b1-838b-518cd5667b47": "https://ms.yugipedia.com//0/0c/TestamentoftheArcaneLords-WCPS-EN-UR-UE.jpg",
+          "ebdffbac-9507-461a-b8f4-85123e18f328": "https://ms.yugipedia.com//5/5f/ArmamentoftheLethalLords-WCPS-EN-UR-UE.jpg"
+        }
+      },
+      "cardInfo": {
+        "unlimited": {
+          "214da2d8-253c-49b1-838b-518cd5667b47": {
+            "image": "https://ms.yugipedia.com//0/0c/TestamentoftheArcaneLords-WCPS-EN-UR-UE.jpg"
+          },
+          "ebdffbac-9507-461a-b8f4-85123e18f328": {
+            "image": "https://ms.yugipedia.com//5/5f/ArmamentoftheLethalLords-WCPS-EN-UR-UE.jpg"
+          }
+        }
+      },
+      "formats": [
+        "tcg"
+      ],
+      "editions": [
+        "unlimited"
+      ],
+      "externalIDs": {
+        "dbIDs": [
+          1121205008
+        ]
+      }
+    }
+  },
+  "contents": [
+    {
+      "locales": [
+        "ae"
+      ],
+      "formats": [
+        "ocg"
+      ],
+      "distrobution": "preconstructed",
+      "editions": [
+        "unlimited"
+      ],
+      "cards": [
+        {
+          "id": "066cb340-8803-4901-9313-e8d6f68dc77f",
+          "card": "95fee851-87f6-48f0-b4d1-7d97af26dbdb",
+          "suffix": "603",
+          "rarity": "super"
+        }
+      ],
+      "externalIDs": {}
+    },
+    {
+      "locales": [
+        "en"
+      ],
+      "formats": [
+        "tcg"
+      ],
+      "distrobution": "preconstructed",
+      "editions": [
+        "unlimited"
+      ],
+      "cards": [
+        {
+          "id": "214da2d8-253c-49b1-838b-518cd5667b47",
+          "card": "156c450d-9544-4f54-bae3-958f1e18bb36",
+          "suffix": "601",
+          "rarity": "ultra"
+        },
+        {
+          "id": "ebdffbac-9507-461a-b8f4-85123e18f328",
+          "card": "b733dd8d-5f79-4219-8e57-eb1e67724aac",
+          "suffix": "602",
+          "rarity": "ultra"
+        }
+      ],
+      "externalIDs": {}
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": {
+      "name": "Yu-Gi-Oh! World Championship 2006 prize cards",
+      "id": 331780
+    }
+  }
+}
