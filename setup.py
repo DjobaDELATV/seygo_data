@@ -29,7 +29,7 @@ setuptools.setup(
     keywords="yugioh,ygo,ygojson",
     packages=setuptools.find_packages("src"),
     python_requires=">=3.8, <4",
-    install_requires=["requests", "wikitextparser", "tqdm"],
+    install_requires=["requests", "wikitextparser", "tqdm", "numpy", "Pillow"],
     extras_require={
         "dev": ["pre-commit"],
         "test": ["jsonschema"],

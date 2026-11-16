@@ -1,3 +1,4 @@
+from .artworks import link_printings_to_artworks
 from .database import *
 from .importers.yamlyugi import import_from_yaml_yugi
 from .importers.ygoprodeck import import_from_ygoprodeck

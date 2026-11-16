@@ -107,6 +107,18 @@ def main(argv: typing.Optional[typing.List[str]] = None) -> int:
         help="Don't process manual fixups",
     )
     parser.add_argument(
+        "--no-artworks",
+        action="store_true",
+        help="Don't link printings to the artwork of their card they show",
+    )
+    parser.add_argument(
+        "--artwork-download-budget",
+        type=int,
+        default=3000,
+        metavar="N",
+        help="How many images to download at most to link printings to artworks; the rest wait for the next run",
+    )
+    parser.add_argument(
         "--fresh",
         action="store_true",
         help="Pretend we've never looked at our sources before (this does NOT delete database contents)",
@@ -278,6 +290,20 @@ def main(argv: typing.Optional[typing.List[str]] = None) -> int:
 
     logging.info("Cleaning database...")
     db.deduplicate()
+
+    # Partition runs only warm the caches, and have only some of the sets
+    if not (
+        args.no_artworks
+        or args.no_sets
+        or args.yugipedia_gen_partitions
+        or args.yugipedia_use_partition
+    ):
+        logging.info("Linking printings to artworks...")
+        counts = link_printings_to_artworks(db, args.artwork_download_budget)
+        logging.info(
+            "Linked printings to artworks: "
+            + ", ".join(f"{n} {reason}" for reason, n in sorted(counts.items()))
+        )
 
     logging.info("Saving database...")
     db.save(

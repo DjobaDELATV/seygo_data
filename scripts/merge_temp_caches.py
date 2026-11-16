@@ -62,6 +62,13 @@ def merge_temp_caches(output_dir: str, partition_dirs: list):
     ) as f:
         json.dump(list(missing), f, indent=2)
 
+    # artwork_fingerprints.json.gz: only grown after the partitions, so all have the same one
+    for d in partition_dirs:
+        src = os.path.join(d, "artwork_fingerprints.json.gz")
+        if os.path.exists(src):
+            shutil.copy(src, os.path.join(output_dir, "artwork_fingerprints.json.gz"))
+            break
+
     # yugipedia_last_read.json: same value in all partitions, copy from first available
     for d in partition_dirs:
         src = os.path.join(d, "yugipedia_last_read.json")
