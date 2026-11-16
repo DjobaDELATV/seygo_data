@@ -2811,6 +2811,8 @@ class RawPrinting:
     noabbr: bool
     variant: int
     description: typing.Optional[str]
+    row_description: typing.Optional[str]
+    """The description of the set list row, kept for every card, unlike `description`."""
 
     def __init__(
         self,
@@ -2821,6 +2823,7 @@ class RawPrinting:
         noabbr: bool,
         variant: int = 0,
         description: typing.Optional[str] = None,
+        row_description: typing.Optional[str] = None,
     ) -> None:
         self.card = card
         self.code = code
@@ -2831,6 +2834,7 @@ class RawPrinting:
         self.noabbr = noabbr
         self.variant = variant
         self.description = description
+        self.row_description = row_description
 
     def locator(self) -> PrintingLocator:
         return PrintingLocator(self.card, self.rarity, self.variant)
@@ -3122,6 +3126,7 @@ def parse_tcg_ocg_set(
                 noabbr: bool,
                 variant: int,
                 description: typing.Optional[str],
+                row_description: typing.Optional[str],
                 row: str,
             ):
                 @get_card(name, SkippedSetListRow(listpagename, code, row, ""))
@@ -3136,6 +3141,7 @@ def parse_tcg_ocg_set(
                         noabbr,
                         variant if is_token else 0,
                         description if is_token else None,
+                        row_description,
                     )
                     if (
                         setname in MANUAL_RARITY_FIXUPS
@@ -3151,6 +3157,7 @@ def parse_tcg_ocg_set(
                                     raw_rc.noabbr,
                                     raw_rc.variant,
                                     raw_rc.description,
+                                    raw_rc.row_description,
                                 )
                             )
                     else:
@@ -3162,6 +3169,13 @@ def parse_tcg_ocg_set(
                             logging.debug(
                                 f"Row of {listpagename} is the same printing as another: {row}"
                             )
+                            # Like a normal and an extended art row with one code: the
+                            # description then doesn't say which art the printing has
+                            if (
+                                rows_by_printing[key].row_description
+                                != rc.row_description
+                            ):
+                                rc.row_description = None
                         rows_by_printing[key] = rc
 
             rows_by_card: typing.Dict[
@@ -3318,6 +3332,7 @@ def parse_tcg_ocg_set(
                                     noabbr,
                                     card_rows.index((code, description)),
                                     description,
+                                    raw_description,
                                     row,
                                 )
 
@@ -3979,6 +3994,19 @@ def parse_tcg_ocg_set(
         art_type = get_art_type(il.altinfo, rc.image_descriptions.get(il), rc.card)
         if art_type and art_type != "other":
             return art_type
+        # The set list can say a row is an extended art when its gallery and file don't,
+        # like for cards printed only with extended art in the set, unless the gallery
+        # marks another of the printing's images as the extended art
+        if (
+            rc.row_description
+            and EXTENDED_ART_DESCRIPTION_RE.search(rc.row_description)
+            and not any(
+                get_art_type(x.altinfo, rc.image_descriptions.get(x), rc.card)
+                == "extended"
+                for x in rc.image
+            )
+        ):
+            return "extended"
         # If a card's in the wiki's list for this set, nothing says which of its
         # images is the extended art, and it has only one printing, it must be that one
         if (
