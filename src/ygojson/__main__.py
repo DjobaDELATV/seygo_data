@@ -114,7 +114,7 @@ def main(argv: typing.Optional[typing.List[str]] = None) -> int:
     parser.add_argument(
         "--artwork-download-budget",
         type=int,
-        default=3000,
+        default=40000,
         metavar="N",
         help="How many images to download at most to link printings to artworks; the rest wait for the next run",
     )
