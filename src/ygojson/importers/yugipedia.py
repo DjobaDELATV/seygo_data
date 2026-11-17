@@ -1150,12 +1150,13 @@ def _event_run_index(
     label: typing.Optional[str], runs: typing.List[EventPeriod]
 ) -> typing.Optional[int]:
     """Which run a tab like "December 2024", "Mar-Apr 2020" or "2021" is about, if only one run fits.
-    A run fits when the months (or the year) the tab names fall within its dates."""
+    A run fits when the months (or the year) the tab names fall within its dates.
+    An event that ran once owns every tab that names no other time, like "R Ticket"."""
     if not label:
         return 0 if len(runs) == 1 else None
     years = [int(x) for x in re.findall(r"\b(20\d\d)\b", label)]
     if not years:
-        return None
+        return 0 if len(runs) == 1 else None
     months = [
         i
         for i in range(1, 13)
