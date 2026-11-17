@@ -80,7 +80,11 @@ def make_request(rawparams: typing.Dict[str, str], n_tries=0) -> requests.Respon
             time.sleep(wait)
             return make_request(rawparams, n_tries + 1)
         return response
-    except (requests.exceptions.Timeout, requests.exceptions.ConnectionError):
+    except (
+        requests.exceptions.Timeout,
+        requests.exceptions.ConnectionError,
+        requests.exceptions.ChunkedEncodingError,  # body cut off mid-transfer
+    ):
         logging.error(
             f"connection error or timeout; waiting {wait:.0f}s and retrying (attempt {n_tries + 1}/{MAX_RETRIES})..."
         )
@@ -733,11 +737,104 @@ def get_skill_pages(batcher: "YugipediaBatcher") -> typing.Iterable[int]:
         return result
 
 
+class SkillReleaseDates(typing.NamedTuple):
+    """Dates the Duel Links Skill release table template looks up when not given explicitly."""
+
+    event_starts: typing.Dict[str, typing.List[typing.Optional[datetime.date]]]
+    event_ends: typing.Dict[str, typing.List[typing.Optional[datetime.date]]]
+    character_releases: typing.Dict[str, datetime.date]
+
+
+def _smw_raw_to_date(raw: str) -> typing.Optional[datetime.date]:
+    # SMW raw dates look like "1/2024/12/24"; a date missing its day or month is unknown
+    parts = raw.split("/")[1:4]
+    if len(parts) < 3:
+        return None
+    try:
+        return datetime.date(int(parts[0]), int(parts[1]), int(parts[2]))
+    except ValueError:
+        return None
+
+
+def _parse_skill_release_date(value: str) -> typing.Optional[datetime.date]:
+    # Skill pages write "2025-6-09" or "March 5, 2019", event pages sometimes "July 26th, 2024";
+    # anything vaguer (like "????-??-??") is unknown
+    value = value.strip()
+    found_date = re.fullmatch(r"(\d{4})-(\d{1,2})-(\d{1,2})", value)
+    if found_date:
+        (year, month, day) = found_date.groups()
+    else:
+        found_date = re.fullmatch(
+            r"([A-Za-z]+)\s+(\d{1,2})(?:st|nd|rd|th)?,\s*(\d{4})", value
+        )
+        if not found_date:
+            return None
+        (month, day, year) = found_date.groups()
+    try:
+        return datetime.date(int(year), _parse_month(month), int(day))
+    except ValueError:
+        return None
+
+
+def _normalize_smw_title(title: str) -> str:
+    title = title.replace("_", " ").strip()
+    return title[:1].upper() + title[1:]
+
+
+def _smw_ask_all(query: str) -> typing.Dict[str, typing.Any]:
+    results: typing.Dict[str, typing.Any] = {}
+    for offset in range(0, SMW_ASK_LIMIT, SMW_ASK_PAGE):
+        page = _smw_ask(f"{query}|limit={SMW_ASK_PAGE}|offset={offset}")
+        results.update(page)
+        if len(page) < SMW_ASK_PAGE:
+            break
+    else:
+        logging.warn(
+            f"SMW query hit {SMW_ASK_LIMIT} results; some may be missing: {query}"
+        )
+    return results
+
+
+def get_skill_release_dates() -> SkillReleaseDates:
+    with tqdm.tqdm(
+        total=2, desc="Fetching Yugipedia skill release dates"
+    ) as progress_bar:
+        event_starts: typing.Dict[str, typing.List[typing.Optional[datetime.date]]] = {}
+        event_ends: typing.Dict[str, typing.List[typing.Optional[datetime.date]]] = {}
+        for title, info in _smw_ask_all(
+            "[[Category:Yu-Gi-Oh! Duel Links events]][[Start date::+]]|?Start date|?End date"
+        ).items():
+            printouts = info.get("printouts", {})
+            # kept in SMW order, which is what the template indexes by version
+            event_starts[_normalize_smw_title(title)] = [
+                _smw_raw_to_date(x.get("raw", ""))
+                for x in printouts.get("Start date") or []
+            ]
+            event_ends[_normalize_smw_title(title)] = [
+                _smw_raw_to_date(x.get("raw", ""))
+                for x in printouts.get("End date") or []
+            ]
+        progress_bar.update(1)
+
+        character_releases: typing.Dict[str, datetime.date] = {}
+        for title, info in _smw_ask_all(
+            "[[Category:Yu-Gi-Oh! Duel Links characters]][[Release date::+]]|?Release date"
+        ).items():
+            dates = info.get("printouts", {}).get("Release date") or []
+            date = _smw_raw_to_date(dates[0].get("raw", "")) if dates else None
+            if date:
+                character_releases[_normalize_smw_title(title)] = date
+        progress_bar.update(1)
+
+    return SkillReleaseDates(event_starts, event_ends, character_releases)
+
+
 def parse_skill(
     batcher: "YugipediaBatcher",
     pageid: int,
     card: Card,
     data: wikitextparser.WikiText,
+    release_dates: typing.Optional[SkillReleaseDates] = None,
 ) -> bool:
     """
     Parse a Duel Links Skill page.
@@ -758,8 +855,10 @@ def parse_skill(
     # --- FILTERING RULES ---
 
     # Skip NPC-only skills (used_by_npcs parameter exists and has content)
+    # Skip NPC-only skills; a skill NPCs use that players can also obtain has releases too
     used_by_npcs = get_table_entry(template, "used_by_npcs")
-    if used_by_npcs and used_by_npcs.strip():
+    player_releases = get_table_entry(template, "releases")
+    if used_by_npcs and used_by_npcs.strip() and not (player_releases or "").strip():
         logging.debug(f"Skipping NPC-only skill: {title}")
         return False
 
@@ -795,6 +894,12 @@ def parse_skill(
         if lang == Language.ENGLISH and not name_val:
             name_val = title
 
+        if text_val:
+            # translations often put "<br/>" with no newline after it, which remove_markup drops entirely
+            text_val = re.sub(
+                r"<\s*br\s*/?\s*>[ \t]*\n?", "\n", text_val, flags=re.IGNORECASE
+            )
+
         if name_val:
             name_clean = _strip_markup(name_val).strip()
             effect_clean = _strip_markup(text_val).strip() if text_val else None
@@ -822,18 +927,24 @@ def parse_skill(
                 supports_list.append(line)
         card.supports = supports_list
 
-    # --- SUPPORTS ARCHETYPES ---
-    archetypes_raw = get_table_entry(template, "supports_archetypes")
-    if archetypes_raw:
-        archetypes_list = []
-        for line in archetypes_raw.split("\n"):
-            line = line.strip()
-            if line.startswith("*"):
-                line = line[1:].strip()
-            line = _strip_markup(line).strip()
-            if line:
-                archetypes_list.append(line)
-        card.supports_archetypes = archetypes_list
+    # --- SUPPORTS ARCHETYPES / RELATED ARCHETYPES ---
+    for param, attr in (
+        ("supports_archetypes", "supports_archetypes"),
+        ("related_to_archseries", "related_archetypes"),
+    ):
+        archetypes_raw = get_table_entry(template, param)
+        if archetypes_raw:
+            archetypes_list = []
+            for line in archetypes_raw.split("\n"):
+                line = line.strip()
+                if line.startswith("*"):
+                    line = line[1:].strip()
+                line = _strip_markup(line).strip()
+                if line:
+                    archetypes_list.append(line)
+            setattr(card, attr, archetypes_list)
+        else:
+            setattr(card, attr, [])
 
     # --- RELEASES PARSING ---
     # Look for {{Duel Links Skill release table}} templates
@@ -849,6 +960,7 @@ def parse_skill(
         # First positional argument is usually the character
         character = None
         details = None
+        description = None
 
         # Get positional arguments (wikitextparser may assign numeric names like "1", "2")
         args = [
@@ -860,6 +972,9 @@ def parse_skill(
             character = _strip_markup(args[0].value).strip()
         if len(args) >= 2:
             details = _strip_markup(args[1].value).strip()
+        if len(args) >= 3:
+            # how to obtain it during an event, e.g. "Win 1 Duelist Road Duel(s) against ..."
+            description = _strip_markup(args[2].value).strip() or None
 
         # Also check named parameters
         if not character:
@@ -867,22 +982,772 @@ def parse_skill(
                 if arg.name and arg.name.strip() not in [
                     "type",
                     "release_date",
+                    "removal_date",
                     "version",
                 ]:
                     character = _strip_markup(arg.value).strip()
                     break
 
         if character:
+            # same lookups as the release table template: explicit dates win,
+            # then the event's run (the Nth one for version=N), then the character's release
+            release_date = _parse_skill_release_date(
+                get_table_entry(rel_templ, "release_date") or ""
+            )
+            removal_date = _parse_skill_release_date(
+                get_table_entry(rel_templ, "removal_date") or ""
+            )
+            if release_dates:
+                release_type_key = release_type.strip().lower()
+                if release_type_key == "event" and len(args) >= 2:
+                    event = _normalize_smw_title(args[1].value)
+                    try:
+                        run = (
+                            int((get_table_entry(rel_templ, "version") or "1").strip())
+                            - 1
+                        )
+                    except ValueError:
+                        run = 0
+                    starts = release_dates.event_starts.get(event, [])
+                    ends = release_dates.event_ends.get(event, [])
+                    if not release_date and 0 <= run < len(starts):
+                        release_date = starts[run]
+                    if not removal_date and 0 <= run < len(ends):
+                        removal_date = ends[run]
+                elif (
+                    release_type_key in ("level_up", "duel_reward")
+                    and args
+                    and not release_date
+                ):
+                    release_date = release_dates.character_releases.get(
+                        _normalize_smw_title(args[0].value)
+                    )
+
             release_entry = SkillRelease(
                 character=character,
-                type=release_type.strip() if release_type else "",
+                # the template's switch is case-sensitive, but a few pages still write "Trader"
+                type=release_type.strip().lower(),
                 details=details,
+                description=description,
+                release_date=release_date,
+                removal_date=removal_date,
             )
             releases.append(release_entry)
 
     card.releases = releases
 
     return True
+
+
+CAT_DL_EVENTS = "Category:Yu-Gi-Oh! Duel Links events"
+CAT_DL_CHARACTERS = "Category:Yu-Gi-Oh! Duel Links characters"
+
+EVENT_NAME_LANGUAGES = {
+    "fr_name": Language.FRENCH,
+    "de_name": Language.GERMAN,
+    "it_name": Language.ITALIAN,
+    "pt_name": Language.PORTUGESE,
+    "es_name": Language.SPANISH,
+    "ja_name": Language.JAPANESE,
+}
+
+EVENT_REWARD_KINDS = [
+    # checked against the deepest heading first, so "Event Missions > Daily Missions" is daily
+    ("daily", "dailyMissions"),
+    ("mission", "missions"),
+    ("card trader", "cardTraderEx"),
+    ("lottery", "lottery"),
+    ("treasure box", "treasureBoxes"),
+    ("ticket", "cardTickets"),
+    ("cumulative", "cumulativeRewards"),
+    ("duel reward", "duelRewards"),
+    ("completion", "completion"),
+    # packs and boxes sold or given during the event, e.g. "D.D. BOX" or "Legendary Duelist Rainbow Pack"
+    ("pack", "packs"),
+    ("box", "packs"),
+]
+"""How a reward section is classified, by a word in its heading."""
+
+EVENT_REWARD_HEADINGS = re.compile(r"reward|mission|trader|lottery|ticket|box", re.I)
+"""Top-level headings of an event page that hold rewards, besides "Rewards" itself."""
+
+EVENT_SKIPPED_HEADINGS = re.compile(r"\btiles?\b|gallery", re.I)
+"""Board tiles aren't wanted, and galleries only hold images."""
+
+DL_RARITIES = {"UR", "SR", "R", "N"}
+
+RUSH_DUEL_WORLDS = {"Duel World (SEVENS)", "Duel World (GO RUSH!!)"}
+
+DECKLIST_CARD_PARAMS = re.compile(r"monsters$|^(?:side |extra )?(?:spells|traps)$")
+
+
+def _get_category_page_titles(
+    batcher: "YugipediaBatcher", category: str
+) -> typing.Dict[int, str]:
+    """The pages of a category, by page ID; its callback only gives IDs, so the titles come from its cache."""
+    ids: typing.List[int] = []
+
+    @batcher.getCategoryMembers(category)
+    def catMem(members: typing.List[int]):
+        ids.extend(members)
+
+    batcher.flushPendingOperations()
+    wanted = set(ids)
+    titles = {
+        x.id: x.name
+        for members in batcher.categoryMembersCache.values()
+        for x in members
+        if x.id in wanted
+    }
+    return {x: titles.get(x) or batcher.idsToNames.get(x, "") for x in ids}
+
+
+def _parse_event_periods(value: str) -> typing.List[EventPeriod]:
+    """Parses "* February 5, 2018 - February 13, 2018" lines; an unreadable side is unknown."""
+    result = []
+    for line in _strip_markup(value).split("\n"):
+        line = line.strip(" *")
+        if not line:
+            continue
+        # "May 9, 2023 - May 18, 2023", but also "May 9, 2023- May 18, 2023" or with an en dash
+        found = re.match(r"(.*?\d)\s*[-–—]\s*([A-Za-z?].*)$", line)
+        start, end = found.groups() if found else (line, "")
+        result.append(
+            EventPeriod(
+                start_date=_parse_skill_release_date(start),
+                end_date=_parse_skill_release_date(end),
+            )
+        )
+    return result
+
+
+def _event_row_when(text: str) -> typing.Dict[str, typing.Any]:
+    """When a table row says its reward was available: an exact first day ("June 15, 2019 - June 21, 2019"),
+    or only a year when the row is vaguer ("2018 Jul-Aug", "Nov-Dec 2019")."""
+    if not text:
+        return {}
+    exact = re.match(r"\s*([A-Za-z]+ \d{1,2}, \d{4})", text)
+    date = _parse_skill_release_date(exact.group(1)) if exact else None
+    if date:
+        return {"date": date.isoformat(), "availableText": text}
+    years = re.findall(r"\b(20\d\d)\b", text)
+    if years:
+        return {"year": int(years[0]), "availableText": text}
+    return {}
+
+
+def _event_text(raw: str) -> str:
+    raw = re.sub(r"<ref[^>]*/>|<ref[^>]*>.*?</ref>", "", raw, flags=re.S)
+    raw = re.sub(r"\[\[(?:File|Image):[^\]]*\]\]", "", raw)
+    raw = re.sub(r"<\s*br\s*/?\s*>", "\n", raw, flags=re.I)
+    raw = re.sub(r"<[^>]+>", "", raw)
+    return "\n".join(
+        x.strip() for x in _strip_markup(raw).split("\n") if x.strip()
+    ).strip()
+
+
+def _event_run_index(
+    label: typing.Optional[str], runs: typing.List[EventPeriod]
+) -> typing.Optional[int]:
+    """Which run a tab like "December 2024", "Mar-Apr 2020" or "2021" is about, if only one run fits.
+    A run fits when the months (or the year) the tab names fall within its dates."""
+    if not label:
+        return 0 if len(runs) == 1 else None
+    years = [int(x) for x in re.findall(r"\b(20\d\d)\b", label)]
+    if not years:
+        return None
+    months = [
+        i
+        for i in range(1, 13)
+        if re.search(
+            r"\b" + datetime.date(2000, i, 1).strftime("%b"), label, re.IGNORECASE
+        )
+    ]
+    matches = []
+    for i, run in enumerate(runs):
+        if not run.start_date:
+            continue
+        start = (run.start_date.year, run.start_date.month)
+        end = (run.end_date.year, run.end_date.month) if run.end_date else start
+        if months:
+            named = [(year, month) for year in years for month in months]
+            fits = any(start <= ym <= end for ym in named)
+        else:
+            fits = any(start[0] <= year <= end[0] for year in years)
+        if fits:
+            matches.append(i)
+    return matches[0] if len(matches) == 1 else None
+
+
+def _event_ref(key: str, found: typing.Optional[Card]) -> typing.Dict[str, typing.Any]:
+    """A reference to a card or Skill: its UUID, and its Yugipedia page ID for sites that key on that."""
+    if found is None:
+        return {}
+    return {
+        key: str(found.id),
+        **(
+            {"yugipediaId": found.yugipedia_pages[0].id}
+            if found.yugipedia_pages
+            else {}
+        ),
+    }
+
+
+class _EventLinks:
+    """Resolves what an event page links to, and remembers where each card and Skill could be obtained."""
+
+    def __init__(
+        self,
+        db: Database,
+        character_pages: typing.Set[str],
+        dl_card_pages: typing.Set[str],
+    ) -> None:
+        self.db = db
+        self.character_pages = character_pages
+        self.dl_card_pages = dl_card_pages
+        self.cards: typing.Dict[str, typing.Dict[str, typing.Any]] = {}
+        self.skills: typing.Dict[str, typing.Dict[str, typing.Any]] = {}
+
+    def resolve(
+        self, page: str, quoted: bool, in_deck: bool = False
+    ) -> typing.Optional[typing.Tuple[str, str, typing.Optional[Card]]]:
+        """Returns ("card" or "skill", name, the card or Skill if known).
+        Duel Links card pages are the authority: "KC Cup (Duel Links)" or a character's page isn't a card.
+        """
+        page = _normalize_smw_title(page)
+        if DL_RUSH_SUFFIX in page:
+            # a Rush Duel card is never the OCG/TCG card that shares its name
+            return ("rush", get_dl_row_card_name(page), None)
+        if page in self.dl_card_pages or (
+            # a Decklist only lists cards, even when it links a character's page by mistake
+            in_deck
+            and re.search(r"\(Duel Links[^)]*\)$", page)
+        ):
+            name = get_dl_row_card_name(page)
+            return ("card", name, find_set_card_by_name(self.db, name))
+        if page in self.character_pages or re.search(r"\(Duel Links[^)]*\)$", page):
+            return None
+        found = self.db.cards_by_yugipedia_name.get(page)
+        if found and found.card_type == CardType.SKILL_DL:
+            return ("skill", found.text[Language.ENGLISH].name, found)
+        if found and quoted:
+            return ("card", found.text[Language.ENGLISH].name, found)
+        return None
+
+    def cell(self, raw: str) -> typing.Dict[str, typing.Any]:
+        cards = []
+        skills = []
+        for m in re.finditer(
+            r'(?:(\d+)\s*(?:x\s*)?)?("?)\[\[([^\]|#]+)(?:#[^\]|]*)?(?:\|[^\]]*)?\]\]"?(?:\s*\(([^()\[\]]{1,20})\))?',
+            raw,
+        ):
+            quantity, quote, page, paren = m.groups()
+            resolved = self.resolve(page, bool(quote))
+            if not resolved:
+                continue
+            kind, name, found = resolved
+            if kind == "skill":
+                skills.append({"name": name, **_event_ref("skill", found)})
+                continue
+            paren = (paren or "").strip()
+            cards.append(
+                {
+                    "name": name,
+                    **_event_ref("card", found),
+                    **({"rushDuel": True} if kind == "rush" else {}),
+                    **({"quantity": int(quantity)} if quantity else {}),
+                    **({"rarity": paren} if paren in DL_RARITIES else {}),
+                    **(
+                        {"variant": paren} if paren and paren not in DL_RARITIES else {}
+                    ),
+                }
+            )
+        return {
+            "text": _event_text(raw),
+            **({"cards": cards} if cards else {}),
+            **({"skills": skills} if skills else {}),
+        }
+
+    def note_obtainable(
+        self,
+        cell: typing.Dict[str, typing.Any],
+        how: typing.Dict[str, typing.Any],
+    ):
+        for card in cell.get("cards", []):
+            key = card.get("card") or card["name"]
+            entry = self.cards.setdefault(
+                key,
+                {
+                    "name": card["name"],
+                    **({"card": card["card"]} if "card" in card else {}),
+                    **(
+                        {"yugipediaId": card["yugipediaId"]}
+                        if "yugipediaId" in card
+                        else {}
+                    ),
+                    **({"rushDuel": True} if card.get("rushDuel") else {}),
+                    "obtainedVia": [],
+                },
+            )
+            # Duel Rewards tables give the rarity in their first column instead
+            rarity = card.get("rarity") or (
+                how.get("requirement")
+                if how.get("requirement") in DL_RARITIES
+                else None
+            )
+            via = {**how, **({"rarity": rarity} if rarity else {})}
+            if via not in entry["obtainedVia"]:
+                entry["obtainedVia"].append(via)
+        for skill in cell.get("skills", []):
+            key = skill.get("skill") or skill["name"]
+            entry = self.skills.setdefault(
+                key,
+                {
+                    "name": skill["name"],
+                    **({"skill": skill["skill"]} if "skill" in skill else {}),
+                    **(
+                        {"yugipediaId": skill["yugipediaId"]}
+                        if "yugipediaId" in skill
+                        else {}
+                    ),
+                    "obtainedVia": [],
+                },
+            )
+            if how not in entry["obtainedVia"]:
+                entry["obtainedVia"].append(how)
+
+
+def _event_headings(
+    raw: str,
+) -> typing.List[typing.Tuple[typing.List[str], int, int]]:
+    """Every heading as (its path of titles, where its own text starts, where it ends)."""
+    result = []
+    path: typing.List[str] = []
+    found = list(re.finditer(r"^(={2,6})(.*?)(=+)\s*$", raw, re.M))
+    for i, m in enumerate(found):
+        # "== Event Missions ===" is a level 2 heading, like MediaWiki reads it
+        level = min(len(m.group(1)), len(m.group(3)))
+        path = path[: level - 2] + [m.group(2).strip(" =")]
+        end = found[i + 1].start() if i + 1 < len(found) else len(raw)
+        result.append((list(path), m.end(), end))
+    return result
+
+
+def _split_tabber(raw: str) -> typing.List[typing.Tuple[typing.Optional[str], str]]:
+    """Splits <tabber> tabs ("December 2024=...|-|September 2025=...") into (label, text)."""
+    result: typing.List[typing.Tuple[typing.Optional[str], str]] = []
+    pos = 0
+    for m in re.finditer(r"<tabber>(.*?)</tabber>", raw, re.S):
+        result.append((None, raw[pos : m.start()]))
+        for tab in re.split(r"^\s*\|-\|\s*", m.group(1), flags=re.M):
+            label, sep, text = tab.partition("=")
+            if sep and "\n" not in label.strip() and "{|" not in label:
+                result.append((label.strip() or None, text))
+            elif tab.strip():
+                result.append((None, tab))
+        pos = m.end()
+    result.append((None, raw[pos:]))
+    return [(label, text) for label, text in result if text.strip()]
+
+
+def _parse_event_tables(
+    raw: str, links: _EventLinks
+) -> typing.Tuple[typing.List[typing.Dict[str, typing.Any]], typing.List[str]]:
+    """Returns (the tables, the notes around them)."""
+    parsed = wikitextparser.parse(raw)
+    tables = []
+    for table in parsed.tables:
+        if table.nesting_level > 0:  # nested tables are read as part of their parent
+            continue
+        try:
+            rows = table.cells(span=True)
+        except Exception:
+            logging.warning("Unreadable table on an event page; skipped it")
+            continue
+        columns: typing.List[str] = []
+        # a row shorter than the others comes back padded with None
+        if rows and rows[0] and all(c is None or c.is_header for c in rows[0]):
+            columns = [_event_text(c.value) if c else "" for c in rows.pop(0)]
+        out_rows = [
+            [links.cell(c.value if c else "") for c in row]
+            for row in rows
+            if any(c is not None for c in row)
+        ]
+        if not out_rows:
+            continue
+        tables.append(
+            {
+                **(
+                    {"caption": _event_text(table.caption)}
+                    if table.caption and _event_text(table.caption)
+                    else {}
+                ),
+                **({"columns": columns} if any(columns) else {}),
+                "rows": out_rows,
+            }
+        )
+    outside = raw
+    for table in parsed.tables:
+        if table.nesting_level == 0:
+            outside = outside.replace(table.string, "\n")
+    # a {{Set list}} is a list of cards to choose from, e.g. for a Card Ticket
+    for template in parsed.templates:
+        if template.name.strip().lower() != "set list":
+            continue
+        rows = [
+            [
+                links.cell(
+                    '"[['
+                    + line.split("//")[0].strip()
+                    + "|"
+                    + get_dl_row_card_name(line)
+                    + ']]"'
+                )
+            ]
+            for arg in template.arguments
+            if arg.positional
+            for line in arg.value.split("\n")
+            if line.split("//")[0].strip()
+        ]
+        if rows:
+            rarities = (get_table_entry(template, "rarities") or "").strip()
+            tables.append(
+                {
+                    **({"caption": rarities} if rarities else {}),
+                    "columns": ["Card"],
+                    "rows": rows,
+                }
+            )
+        outside = outside.replace(template.string, "\n")
+    outside = re.sub(r"\{\{\s*Decklist.*?\n\}\}", "", outside, flags=re.S | re.I)
+    notes = [
+        x
+        for x in _event_text(outside).split("\n")
+        # leftovers of a <tabber> that headings cut in pieces
+        if x and not re.match(r"\|-\||.*=$", x)
+    ]
+    return tables, notes
+
+
+def _event_reward_kind(path: typing.List[str]) -> str:
+    for title in reversed(path):
+        for word, kind in EVENT_REWARD_KINDS:
+            if word in title.lower():
+                return kind
+    return "other"
+
+
+def _parse_event_rewards(
+    raw: str, runs: typing.List[EventPeriod], links: _EventLinks
+) -> typing.List[typing.Dict[str, typing.Any]]:
+    result = []
+    for path, start, end in _event_headings(raw):
+        if not (path[0].lower() == "rewards" or EVENT_REWARD_HEADINGS.search(path[0])):
+            continue
+        if any(EVENT_SKIPPED_HEADINGS.search(x) for x in path):
+            continue
+        kind = _event_reward_kind(path)
+        for label, text in _split_tabber(raw[start:end]):
+            tables, notes = _parse_event_tables(text, links)
+            if not tables and not notes:
+                continue
+            run_index = _event_run_index(label, runs)
+            how = {
+                "kind": kind,
+                **({"run": label} if label else {}),
+                **({"runIndex": run_index} if run_index is not None else {}),
+            }
+            for table in tables:
+                columns = table.get("columns", [])
+                # a column saying when each row's reward was available ("Addition date", "Date", "Period")
+                when_col = next(
+                    (
+                        i
+                        for i, c in enumerate(columns)
+                        if re.search(r"\b(date|period|addition|added)\b", c, re.I)
+                        and not re.search(r"remov", c, re.I)
+                    ),
+                    None,
+                )
+                removed_col = next(
+                    (i for i, c in enumerate(columns) if re.search(r"remov", c, re.I)),
+                    None,
+                )
+                for row in table["rows"]:
+                    when = (
+                        _event_row_when(row[when_col]["text"])
+                        if when_col is not None and when_col < len(row)
+                        else {}
+                    )
+                    removed = (
+                        row[removed_col]["text"]
+                        if removed_col is not None and removed_col < len(row)
+                        else ""
+                    )
+                    for i, cell in enumerate(row):
+                        # the first column says what earns the reward (a mission, a point total, a round...)
+                        requirement = (
+                            row[0]["text"] if i > 0 and row[0]["text"] else None
+                        )
+                        links.note_obtainable(
+                            cell,
+                            {
+                                **how,
+                                **({"requirement": requirement} if requirement else {}),
+                                **when,
+                                **({"removedText": removed} if removed else {}),
+                            },
+                        )
+            result.append(
+                {
+                    "kind": kind,
+                    "path": path,
+                    **({"run": label} if label else {}),
+                    **({"runIndex": run_index} if run_index is not None else {}),
+                    **({"notes": notes} if notes else {}),
+                    **({"tables": tables} if tables else {}),
+                }
+            )
+    return result
+
+
+def _parse_event_decks(
+    raw: str, data: wikitextparser.WikiText, links: _EventLinks
+) -> typing.List[typing.Dict[str, typing.Any]]:
+    headings = _event_headings(raw)
+    result = []
+    for template in data.templates:
+        if template.name.strip().lower() != "decklist":
+            continue
+        pos = template.span[0]
+        path = next((p for p, start, end in reversed(headings) if start <= pos), [])
+        cards = []
+        for arg in template.arguments:
+            category = arg.name.strip().lower()
+            if not DECKLIST_CARD_PARAMS.search(category):
+                continue
+            for line in arg.value.split("\n"):
+                m = re.match(
+                    r"\s*\*\s*\[\[([^\]|]+)(?:\|[^\]]*)?\]\]\s*(?:x\s*(\d+))?", line
+                )
+                if not m:
+                    continue
+                resolved = links.resolve(m.group(1), True, in_deck=True)
+                name = resolved[1] if resolved else _strip_markup(m.group(1)).strip()
+                found = resolved[2] if resolved and resolved[0] == "card" else None
+                cards.append(
+                    {
+                        "name": name,
+                        **_event_ref("card", found),
+                        **(
+                            {"rushDuel": True}
+                            if resolved and resolved[0] == "rush"
+                            else {}
+                        ),
+                        "count": int(m.group(2) or 1),
+                        "category": category,
+                    }
+                )
+        skill_raw = get_table_entry(template, "skill") or ""
+        skill = None
+        skill_link = re.search(r"\[\[([^\]|]+)", skill_raw)
+        if skill_link:
+            resolved = links.resolve(skill_link.group(1), False)
+            skill = (
+                {"name": resolved[1], **_event_ref("skill", resolved[2])}
+                if resolved and resolved[0] == "skill" and resolved[2]
+                else {"name": _strip_markup(skill_raw).strip()}
+            )
+        owner = (get_table_entry(template, "owner_name") or "").strip() or re.sub(
+            r"\s*\(Duel Links\)$",
+            "",
+            _strip_markup(get_table_entry(template, "owner") or "").strip(),
+        )
+        name = _strip_markup(get_table_entry(template, "name") or "").strip()
+        if not cards:
+            continue
+        result.append(
+            {
+                **({"path": path} if path else {}),
+                **({"name": name} if name else {}),
+                **({"owner": owner} if owner else {}),
+                **({"skill": skill} if skill else {}),
+                "cards": cards,
+            }
+        )
+    return result
+
+
+def parse_event(
+    db: Database,
+    batcher: "YugipediaBatcher",
+    pageid: int,
+    title: str,
+    event: Event,
+    raw: str,
+    character_pages: typing.Set[str],
+    dl_card_pages: typing.Set[str],
+) -> bool:
+    data = wikitextparser.parse(raw)
+    infoboxes = [
+        x
+        for x in data.templates
+        if x.name.strip().lower() == "infobox duel links event"
+    ]
+    if not infoboxes:
+        logging.warning(f"Found Duel Links event without infobox: {title}")
+        return False
+    infobox = infoboxes[0]
+
+    def param(name: str) -> str:
+        return (get_table_entry(infobox, name) or "").strip()
+
+    event.name = {
+        Language.ENGLISH: _strip_markup(
+            param("en_name") or param("name") or title
+        ).strip()
+    }
+    for key, lang in EVENT_NAME_LANGUAGES.items():
+        if param(key):
+            event.name[lang] = _strip_markup(param(key)).strip()
+    event.event_type = _strip_markup(param("type")).strip() or None
+    event.duel_worlds = [
+        x.strip(" *")
+        for x in _strip_markup(param("duel_world")).split("\n")
+        if x.strip(" *")
+    ]
+    # every Gate Event of these worlds is a Rush Duel event; mixed events only flag their Rush cards
+    event.rush_duel = bool(event.duel_worlds) and all(
+        x in RUSH_DUEL_WORLDS for x in event.duel_worlds
+    )
+    event.runs = _parse_event_periods(param("event_dates"))
+    event.card_trader_ex_dates = _parse_event_periods(
+        param("ctex_dates") or param("ct_ex_dates")
+    )
+    event.lottery_dates = _parse_event_periods(param("lottery_dates"))
+
+    links = _EventLinks(db, character_pages, dl_card_pages)
+    event.rewards = _parse_event_rewards(raw, event.runs, links)
+    event.decks = _parse_event_decks(raw, data, links)
+    event.cards = list(links.cards.values())
+    event.skills = list(links.skills.values())
+    event.yugipedia = ExternalIdPair(title, pageid)
+
+    image = _strip_markup(param("image")).strip()
+    if image:
+
+        @batcher.getImageURL("File:" + image)
+        def onGetImage(url: str):
+            event.image = url
+
+    return True
+
+
+def _event_key(name: str) -> str:
+    """How Skill pages and event pages can both write an event's name.
+    Skill pages put "Event: " in front, and Raid Duels are "Raid Duel - X", "Raid Duel: X" or "RAID DUEL: X".
+    """
+    name = _normalize_smw_title(name)
+    name = re.sub(r"^Event:\s*", "", name)
+    name = re.sub(r"^raid duel\s*[:\-]?\s*", "raid duel ", name, flags=re.IGNORECASE)
+    return name.lower()
+
+
+def link_skills_to_events(db: Database):
+    """Points each event release of a Skill at its :class:`Event`."""
+    by_key: typing.Dict[str, Event] = {}
+    for event in db.events:
+        for name in [
+            *([event.yugipedia.name] if event.yugipedia else []),
+            *([event.name[Language.ENGLISH]] if Language.ENGLISH in event.name else []),
+        ]:
+            by_key.setdefault(_event_key(name), event)
+    # Skill pages sometimes name an event by an old title that now redirects to it
+    unknown = sorted(
+        {
+            _normalize_smw_title(release.details)
+            for skill in db.skills
+            for release in skill.releases
+            if release.type == "event"
+            and release.details
+            and _event_key(release.details) not in by_key
+        }
+    )
+    for i in range(0, len(unknown), 50):
+        query = make_request(
+            {"action": "query", "titles": "|".join(unknown[i : i + 50])}
+        ).json()["query"]
+        for redirect in query.get("redirects") or []:
+            if _event_key(redirect["to"]) in by_key:
+                by_key[_event_key(redirect["from"])] = by_key[
+                    _event_key(redirect["to"])
+                ]
+    for skill in db.skills:
+        for release in skill.releases:
+            event = (
+                by_key.get(_event_key(release.details))
+                if release.type == "event" and release.details
+                else None
+            )
+            release.event = event.id if event else None
+
+
+def link_cards_to_events(db: Database):
+    """Lists on each card the events it could be obtained in, and fills a missing Duel Links rarity
+    when every reward of every event agrees on it. NPC Decks don't count: their cards weren't obtainable.
+    """
+    for card in db.cards:
+        card.duel_links_events = []
+    rarities: typing.Dict[uuid.UUID, typing.Set[str]] = {}
+    for event in db.events:
+        for entry in event.cards:
+            card = (
+                db.cards_by_id.get(uuid.UUID(entry["card"]))
+                if "card" in entry
+                else None
+            )
+            if card is None or entry.get("rushDuel"):
+                continue
+            # a row's own date ("Addition date", "Period") beats the start of the run it's in
+            dates = sorted(
+                [via["date"] for via in entry["obtainedVia"] if "date" in via]
+                + [
+                    event.runs[via["runIndex"]].start_date.isoformat()
+                    for via in entry["obtainedVia"]
+                    if "date" not in via
+                    and "runIndex" in via
+                    and via["runIndex"] < len(event.runs)
+                    and event.runs[via["runIndex"]].start_date
+                ]
+            )
+            years = sorted(via["year"] for via in entry["obtainedVia"] if "year" in via)
+            ways = []
+            for via in entry["obtainedVia"]:
+                way = {
+                    "kind": via["kind"],
+                    **({"run": via["run"]} if "run" in via else {}),
+                }
+                if way not in ways:
+                    ways.append(way)
+            card.duel_links_events.append(
+                {
+                    "event": str(event.id),
+                    **({"date": dates[0]} if dates else {}),
+                    # only the year is known, e.g. a Card Ticket choice added "2018 Jul-Aug"
+                    **({"year": years[0]} if years and not dates else {}),
+                    "via": ways,
+                }
+            )
+            rarities.setdefault(card.id, set()).update(
+                via["rarity"] for via in entry["obtainedVia"] if "rarity" in via
+            )
+    for card in db.cards:
+        card.duel_links_events.sort(
+            key=lambda x: (x.get("date") or str(x.get("year", 9999)), x["event"])
+        )
+        found = rarities.get(card.id, set())
+        if card.duel_links_rarity is None and len(found) == 1:
+            card.duel_links_rarity = VideoGameRaity(found.pop().lower())
 
 
 def get_changelog(
@@ -5223,6 +6088,8 @@ def import_from_yugipedia(
                 do(pageid)
                 # progress_bar.update(1) removed because tqdm iterator handles it
 
+            skill_release_dates = get_skill_release_dates() if skills else None
+
             for pageid in tqdm.tqdm(skills, desc="Importing skills from Yugipedia"):
 
                 def do_skill(pageid: int):
@@ -5271,7 +6138,9 @@ def import_from_yugipedia(
                                 card_type=CardType.SKILL,
                             )
 
-                        if parse_skill(batcher, pageid, card, data):
+                        if parse_skill(
+                            batcher, pageid, card, data, skill_release_dates
+                        ):
                             n_found += 1
                             # Associate Yugipedia ID
                             # db.add_card sets cards_by_yugipedia_id but we need to set it on card object first?
@@ -5574,6 +6443,70 @@ def import_from_yugipedia(
                             return
 
                 do(seriesid)
+
+        # events link to cards and Skills, so they go last; partitions leave them to the final run
+        if import_cards and partition_filepath is None:
+            batcher.flushPendingOperations()
+            event_titles = _get_category_page_titles(batcher, CAT_DL_EVENTS)
+            character_pages = {
+                _normalize_smw_title(x)
+                for x in _get_category_page_titles(batcher, CAT_DL_CHARACTERS).values()
+            }
+            dl_card_pages = {
+                _normalize_smw_title(x)
+                for x in _get_category_page_titles(batcher, CAT_DL_CARDS).values()
+            }
+            events = [*event_titles]
+            if specific_pages:
+                events = [x for x in events if x in specific_ids]
+
+            for pageid in tqdm.tqdm(events, desc="Importing events from Yugipedia"):
+
+                def do_event(pageid: int):
+                    @batcher.getPageContents(pageid)
+                    def onGetData(raw_data: str):
+                        nonlocal n_found, n_new
+                        title = event_titles.get(pageid) or batcher.idsToNames.get(
+                            pageid, ""
+                        )
+                        event = db.events_by_yugipedia_id.get(
+                            pageid
+                        ) or db.events_by_yugipedia_name.get(title)
+                        found = event is not None
+                        if event is None:
+                            event = Event(id=uuid.uuid4())
+                        if parse_event(
+                            db,
+                            batcher,
+                            pageid,
+                            title,
+                            event,
+                            raw_data,
+                            character_pages,
+                            dl_card_pages,
+                        ):
+                            db.add_event(event)
+                            if found:
+                                n_found += 1
+                            else:
+                                n_new += 1
+                            if not any(run.start_date for run in event.runs):
+                                logging.warning(
+                                    f"Duel Links event without dates: {title}"
+                                )
+
+                do_event(pageid)
+
+            batcher.flushPendingOperations()
+            link_skills_to_events(db)
+            link_cards_to_events(db)
+            # an empty list means the category couldn't be read, not that every event is gone
+            if not specific_pages and events:
+                still_there = set(events)
+                for event in [*db.events]:
+                    if not event.yugipedia or event.yugipedia.id not in still_there:
+                        db.remove_event(event)
+            batcher.saveCachesToDisk()
 
     # after the batcher has flushed every import; only a full run knows every page that still exists
     if partition_filepath is None and not specific_pages:

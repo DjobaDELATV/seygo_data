@@ -1,0 +1,437 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "title": "Duel Links Event",
+  "description": "A Duel Links event (Gate Event, Duelist Road, Raid Duel, campaign...), from its Yugipedia page.",
+  "type": "object",
+  "required": [
+    "$schema",
+    "id",
+    "name",
+    "rushDuel",
+    "runs",
+    "externalIDs"
+  ],
+  "$defs": {
+    "period": {
+      "description": "A span of days. A side is absent when Yugipedia doesn't give it.",
+      "type": "object",
+      "properties": {
+        "startDate": {
+          "type": "string",
+          "format": "date"
+        },
+        "endDate": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "obtainedVia": {
+      "description": "One way the card or Skill was given out.",
+      "type": "object",
+      "required": [
+        "kind"
+      ],
+      "properties": {
+        "kind": {
+          "$ref": "#/$defs/kind"
+        },
+        "run": {
+          "description": "The tab of the reward section on Yugipedia, e.g. \"December 2024\".",
+          "type": "string"
+        },
+        "runIndex": {
+          "description": "Which entry of runs this was given out in, when it's certain.",
+          "type": "integer",
+          "minimum": 0
+        },
+        "requirement": {
+          "description": "The first column of its row: the mission, the point total, the round, the EX Jewel cost, the lottery tier...",
+          "type": "string"
+        },
+        "rarity": {
+          "enum": [
+            "UR",
+            "SR",
+            "R",
+            "N"
+          ]
+        },
+        "date": {
+          "description": "The first day of its row's own date column (\"Date\", \"Period\", \"Addition date\"), when that's an exact date.",
+          "type": "string",
+          "format": "date"
+        },
+        "year": {
+          "description": "The year of its row's own date column, when that's vaguer than a day, e.g. \"2018 Jul-Aug\".",
+          "type": "integer"
+        },
+        "availableText": {
+          "description": "That date column as written on Yugipedia.",
+          "type": "string"
+        },
+        "removedText": {
+          "description": "Its row's \"Removal date\" column as written on Yugipedia, when filled.",
+          "type": "string"
+        }
+      }
+    },
+    "kind": {
+      "description": "What kind of reward section this is. \"other\" covers the rest (challenges, grade-ups...).",
+      "enum": [
+        "missions",
+        "dailyMissions",
+        "cardTraderEx",
+        "lottery",
+        "treasureBoxes",
+        "cardTickets",
+        "cumulativeRewards",
+        "duelRewards",
+        "completion",
+        "packs",
+        "other"
+      ]
+    },
+    "cardRef": {
+      "type": "object",
+      "required": [
+        "name"
+      ],
+      "properties": {
+        "name": {
+          "description": "The English name of the card.",
+          "type": "string"
+        },
+        "card": {
+          "description": "The UUID of the card. Absent for Duel Links-only and Rush Duel cards, which aren't in this database.",
+          "type": "string",
+          "format": "uuid"
+        },
+        "yugipediaId": {
+          "description": "The card's Yugipedia page ID, the same as externalIDs.yugipedia[0].id in its card file. Present with card when known.",
+          "type": "integer"
+        },
+        "rushDuel": {
+          "description": "True for a Rush Duel card.",
+          "const": true
+        }
+      }
+    },
+    "skillRef": {
+      "type": "object",
+      "required": [
+        "name"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "skill": {
+          "description": "The UUID of the Skill (see skill.json).",
+          "type": "string",
+          "format": "uuid"
+        },
+        "yugipediaId": {
+          "description": "The Skill's Yugipedia page ID, the same as externalIDs.yugipedia[0].id in its Skill file. Present with skill when known.",
+          "type": "integer"
+        }
+      }
+    },
+    "cell": {
+      "type": "object",
+      "required": [
+        "text"
+      ],
+      "properties": {
+        "text": {
+          "description": "The cell as plain text; lines are separated by \\n.",
+          "type": "string"
+        },
+        "cards": {
+          "type": "array",
+          "items": {
+            "allOf": [
+              {
+                "$ref": "#/$defs/cardRef"
+              }
+            ],
+            "properties": {
+              "quantity": {
+                "type": "integer"
+              },
+              "rarity": {
+                "enum": [
+                  "UR",
+                  "SR",
+                  "R",
+                  "N"
+                ]
+              },
+              "variant": {
+                "description": "A finish written after the card, e.g. \"Glossy\" or \"Prismatic\".",
+                "type": "string"
+              }
+            }
+          }
+        },
+        "skills": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/skillRef"
+          }
+        }
+      }
+    }
+  },
+  "properties": {
+    "$schema": {
+      "const": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json"
+    },
+    "id": {
+      "description": "The UUID of this event. The name of the event's file should be this UUID.",
+      "type": "string",
+      "format": "uuid"
+    },
+    "name": {
+      "description": "A map of languages to names. English is always there; most events keep their English name in other languages.",
+      "propertyNames": {
+        "$ref": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/language.json"
+      },
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "type": {
+      "description": "The kind of event as Yugipedia names it, e.g. \"Gate Event\", \"Duelist Road\", \"Raid Duel\".",
+      "type": "string"
+    },
+    "duelWorlds": {
+      "description": "The Duel Worlds the event happens in, e.g. \"Duel World (ARC-V)\".",
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "rushDuel": {
+      "description": "True for a Rush Duel event (all its Duel Worlds are SEVENS or GO RUSH!!). Other events can still give out a few Rush Duel cards; those are flagged on the cards.",
+      "type": "boolean"
+    },
+    "image": {
+      "description": "The URL of the event's banner.",
+      "type": "string",
+      "format": "uri"
+    },
+    "runs": {
+      "description": "When the event ran, one entry per run (reruns included), in Yugipedia's order. Empty when Yugipedia gives no dates.",
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/period"
+      }
+    },
+    "cardTraderExDates": {
+      "description": "When the event's Card Trader EX was open, one entry per run.",
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/period"
+      }
+    },
+    "lotteryDates": {
+      "description": "When the event's lottery was open, one entry per run.",
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/period"
+      }
+    },
+    "rewards": {
+      "description": "The reward sections of the event's page, in page order. Board tiles and galleries are left out.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "kind",
+          "path"
+        ],
+        "properties": {
+          "kind": {
+            "$ref": "#/$defs/kind"
+          },
+          "path": {
+            "description": "The headings above this section on Yugipedia, e.g. [\"Rewards\", \"Event Missions\"].",
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "run": {
+            "description": "The Yugipedia tab this section is in, e.g. \"December 2024\" or \"R Ticket\".",
+            "type": "string"
+          },
+          "runIndex": {
+            "description": "Which entry of runs this section is about, when it's certain.",
+            "type": "integer",
+            "minimum": 0
+          },
+          "notes": {
+            "description": "The text around the tables, one paragraph per entry.",
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "tables": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "rows"
+              ],
+              "properties": {
+                "caption": {
+                  "type": "string"
+                },
+                "columns": {
+                  "description": "The header row.",
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "rows": {
+                  "type": "array",
+                  "items": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/$defs/cell"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "decks": {
+      "description": "The NPC Decks of the event. Their cards weren't obtainable through them.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "cards"
+        ],
+        "properties": {
+          "path": {
+            "description": "The headings above the Deck, e.g. [\"Opponent Decks\", \"Area 1: ...\", \"Yugo\"].",
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "name": {
+            "description": "The Deck's name, often with its difficulty (\"... / Normal\").",
+            "type": "string"
+          },
+          "owner": {
+            "type": "string"
+          },
+          "skill": {
+            "$ref": "#/$defs/skillRef"
+          },
+          "cards": {
+            "type": "array",
+            "items": {
+              "allOf": [
+                {
+                  "$ref": "#/$defs/cardRef"
+                }
+              ],
+              "required": [
+                "count",
+                "category"
+              ],
+              "properties": {
+                "count": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "category": {
+                  "description": "The Yugipedia Decklist field, e.g. \"effect monsters\", \"spells\", \"fusion monsters\".",
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "cards": {
+      "description": "Every card the event gave out, and how. Cards only in NPC Decks aren't here.",
+      "type": "array",
+      "items": {
+        "allOf": [
+          {
+            "$ref": "#/$defs/cardRef"
+          }
+        ],
+        "required": [
+          "obtainedVia"
+        ],
+        "properties": {
+          "obtainedVia": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/obtainedVia"
+            }
+          }
+        }
+      }
+    },
+    "skills": {
+      "description": "Every Skill the event gave out, and how.",
+      "type": "array",
+      "items": {
+        "allOf": [
+          {
+            "$ref": "#/$defs/skillRef"
+          }
+        ],
+        "required": [
+          "obtainedVia"
+        ],
+        "properties": {
+          "obtainedVia": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/obtainedVia"
+            }
+          }
+        }
+      }
+    },
+    "externalIDs": {
+      "description": "IDs from external sources.",
+      "type": "object",
+      "properties": {
+        "yugipedia": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "name",
+              "id"
+            ],
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "id": {
+                "type": "integer"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

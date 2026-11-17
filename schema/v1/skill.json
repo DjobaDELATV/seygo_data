@@ -66,6 +66,13 @@
         "type": "string"
       }
     },
+    "relatedArchetypes": {
+      "description": "List of archetypes this skill is related to (Yugipedia's related_to_archseries), without necessarily supporting them.",
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
     "releases": {
       "description": "How this skill can be obtained.",
       "type": "array",
@@ -87,6 +94,25 @@
           "details": {
             "description": "Additional details (e.g., 'Level 20').",
             "type": "string"
+          },
+          "description": {
+            "description": "How to obtain it, e.g. the event mission ('Win 1 Duelist Road Duel(s) against ...').",
+            "type": "string"
+          },
+          "releaseDate": {
+            "description": "When this release became available (YYYY-MM-DD), as shown on Yugipedia. Absent if unknown.",
+            "type": "string",
+            "format": "date"
+          },
+          "event": {
+            "description": "The UUID of the event this release happens in (see event.json), when its Yugipedia page is known.",
+            "type": "string",
+            "format": "uuid"
+          },
+          "removalDate": {
+            "description": "When this release stopped being available (YYYY-MM-DD), as shown on Yugipedia. Absent if still available or unknown.",
+            "type": "string",
+            "format": "date"
           }
         }
       }

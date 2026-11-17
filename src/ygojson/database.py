@@ -132,6 +132,18 @@ PRODUCTS_DIRNAME = "sealedProducts"
 AGG_PRODUCTS_FILENAME = "sealedProducts.json"
 """The filename of the sealed product list, for aggregated JSON output."""
 
+AGG_SKILLS_FILENAME = "skills.json"
+"""The filename of the skill list, for aggregated JSON output."""
+
+EVENTLIST_FILENAME = "events.json"
+"""The filename of the Duel Links event list, for individualized JSON output."""
+
+EVENTS_DIRNAME = "events"
+"""The sub-directory of `INDIVIDUAL_DIR` in which individualized Duel Links event JSON is placed."""
+
+AGG_EVENTS_FILENAME = "events.json"
+"""The filename of the Duel Links event list, for aggregated JSON output."""
+
 MANUAL_SETS_DIR = os.path.join(MANUAL_DATA_DIR, "sets")
 """The directory containing manual set fixup data."""
 
@@ -852,16 +864,36 @@ class SkillRelease:
     details: typing.Optional[str]
     """Additional details (e.g. 'Level 20')."""
 
+    description: typing.Optional[str]
+    """How to obtain it, e.g. the event mission ('Win 1 Duelist Road Duel(s) against ...')."""
+
+    release_date: typing.Optional[datetime.date]
+    """When this release became available, as shown on Yugipedia."""
+
+    removal_date: typing.Optional[datetime.date]
+    """When this release stopped being available, as shown on Yugipedia."""
+
+    event: typing.Optional[uuid.UUID]
+    """The :class:`Event` this release happens in, for event releases whose event page is known."""
+
     def __init__(
         self,
         *,
         character: str,
         type: str,
         details: typing.Optional[str] = None,
+        description: typing.Optional[str] = None,
+        release_date: typing.Optional[datetime.date] = None,
+        removal_date: typing.Optional[datetime.date] = None,
+        event: typing.Optional[uuid.UUID] = None,
     ) -> None:
         self.character = character
         self.type = type
         self.details = details
+        self.description = description
+        self.release_date = release_date
+        self.removal_date = removal_date
+        self.event = event
 
     def _to_json(self) -> typing.Dict[str, typing.Any]:
         d = {
@@ -870,7 +902,171 @@ class SkillRelease:
         }
         if self.details:
             d["details"] = self.details
+        if self.description:
+            d["description"] = self.description
+        if self.release_date:
+            d["releaseDate"] = self.release_date.isoformat()
+        if self.removal_date:
+            d["removalDate"] = self.removal_date.isoformat()
+        if self.event:
+            d["event"] = str(self.event)
         return d
+
+
+class EventPeriod:
+    """A span of time something in a Duel Links :class:`Event` was available."""
+
+    start_date: typing.Optional[datetime.date]
+    """The first day, if known."""
+
+    end_date: typing.Optional[datetime.date]
+    """The last day, if known."""
+
+    def __init__(
+        self,
+        *,
+        start_date: typing.Optional[datetime.date] = None,
+        end_date: typing.Optional[datetime.date] = None,
+    ) -> None:
+        self.start_date = start_date
+        self.end_date = end_date
+
+    def _to_json(self) -> typing.Dict[str, typing.Any]:
+        return {
+            **({"startDate": self.start_date.isoformat()} if self.start_date else {}),
+            **({"endDate": self.end_date.isoformat()} if self.end_date else {}),
+        }
+
+    @staticmethod
+    def _from_json(raw: typing.Dict[str, typing.Any]) -> "EventPeriod":
+        return EventPeriod(
+            start_date=(
+                datetime.date.fromisoformat(raw["startDate"])
+                if "startDate" in raw
+                else None
+            ),
+            end_date=(
+                datetime.date.fromisoformat(raw["endDate"])
+                if "endDate" in raw
+                else None
+            ),
+        )
+
+
+class Event:
+    """A Duel Links event, such as a Duelist Road or a Raid Duel."""
+
+    id: uuid.UUID
+    """The UUID of this event."""
+
+    name: typing.Dict[Language, str]
+    """The name of this event, by language. Most languages keep the English name in game."""
+
+    event_type: typing.Optional[str]
+    """The kind of event, e.g. "Duelist Road" or "Gate Event", as Yugipedia names it."""
+
+    duel_worlds: typing.List[str]
+    """The Duel Worlds this event happens in, e.g. "Duel World (ARC-V)"."""
+
+    rush_duel: bool
+    """True if this is a Rush Duel event (all its Duel Worlds are Rush Duel ones)."""
+
+    image: typing.Optional[str]
+    """The URL of this event's banner."""
+
+    runs: typing.List[EventPeriod]
+    """When this event ran, one entry per run (reruns included), in Yugipedia's order."""
+
+    card_trader_ex_dates: typing.List[EventPeriod]
+    """When the Card Trader EX of this event was open, one entry per run."""
+
+    lottery_dates: typing.List[EventPeriod]
+    """When the lottery of this event was open, one entry per run."""
+
+    rewards: typing.List[typing.Dict[str, typing.Any]]
+    """The reward sections of this event's page (missions, Card Trader EX, lottery...), as JSON."""
+
+    decks: typing.List[typing.Dict[str, typing.Any]]
+    """The NPC Decks of this event's page, as JSON."""
+
+    cards: typing.List[typing.Dict[str, typing.Any]]
+    """The cards a player could obtain in this event, and how, as JSON."""
+
+    skills: typing.List[typing.Dict[str, typing.Any]]
+    """The Skills a player could obtain in this event, and how, as JSON."""
+
+    yugipedia: typing.Optional[ExternalIdPair]
+    """The Yugipedia page of this event."""
+
+    def __init__(
+        self,
+        *,
+        id: uuid.UUID,
+        name: typing.Optional[typing.Dict[Language, str]] = None,
+        event_type: typing.Optional[str] = None,
+        duel_worlds: typing.Optional[typing.List[str]] = None,
+        rush_duel: bool = False,
+        image: typing.Optional[str] = None,
+        runs: typing.Optional[typing.List[EventPeriod]] = None,
+        card_trader_ex_dates: typing.Optional[typing.List[EventPeriod]] = None,
+        lottery_dates: typing.Optional[typing.List[EventPeriod]] = None,
+        rewards: typing.Optional[typing.List[typing.Dict[str, typing.Any]]] = None,
+        decks: typing.Optional[typing.List[typing.Dict[str, typing.Any]]] = None,
+        cards: typing.Optional[typing.List[typing.Dict[str, typing.Any]]] = None,
+        skills: typing.Optional[typing.List[typing.Dict[str, typing.Any]]] = None,
+        yugipedia: typing.Optional[ExternalIdPair] = None,
+    ) -> None:
+        self.id = id
+        self.name = name or {}
+        self.event_type = event_type
+        self.duel_worlds = duel_worlds or []
+        self.rush_duel = rush_duel
+        self.image = image
+        self.runs = runs or []
+        self.card_trader_ex_dates = card_trader_ex_dates or []
+        self.lottery_dates = lottery_dates or []
+        self.rewards = rewards or []
+        self.decks = decks or []
+        self.cards = cards or []
+        self.skills = skills or []
+        self.yugipedia = yugipedia
+
+    def _to_json(self) -> typing.Dict[str, typing.Any]:
+        return {
+            "$schema": f"https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v{SCHEMA_VERSION}/event.json",
+            "id": str(self.id),
+            "name": {k.value: v for k, v in self.name.items()},
+            **({"type": self.event_type} if self.event_type else {}),
+            **({"duelWorlds": self.duel_worlds} if self.duel_worlds else {}),
+            "rushDuel": self.rush_duel,
+            **({"image": self.image} if self.image else {}),
+            "runs": [x._to_json() for x in self.runs],
+            **(
+                {"cardTraderExDates": [x._to_json() for x in self.card_trader_ex_dates]}
+                if self.card_trader_ex_dates
+                else {}
+            ),
+            **(
+                {"lotteryDates": [x._to_json() for x in self.lottery_dates]}
+                if self.lottery_dates
+                else {}
+            ),
+            **({"rewards": self.rewards} if self.rewards else {}),
+            **({"decks": self.decks} if self.decks else {}),
+            **({"cards": self.cards} if self.cards else {}),
+            **({"skills": self.skills} if self.skills else {}),
+            "externalIDs": {
+                **(
+                    {
+                        "yugipedia": [
+                            {"name": self.yugipedia.name, "id": self.yugipedia.id}
+                        ]
+                    }
+                    if self.yugipedia is not None
+                    else {}
+                ),
+            },
+        }
 
 
 ERRATA_DATE_SOURCE_EXPLICIT = "explicit"
@@ -1094,6 +1290,11 @@ class Card:
     duel_links_rarity: typing.Optional[VideoGameRaity]
     """The rarity of this card in Duel Links, if it is in Duel Links."""
 
+    duel_links_events: typing.List[typing.Dict[str, typing.Any]]
+    """The Duel Links events a player could obtain this card in, as JSON: the event's UUID,
+    and the first day of the run it was given out in, when the event page says which run.
+    Cards only found in NPC Decks aren't listed: those weren't obtainable."""
+
     yugipedia_pages: typing.Optional[typing.List[ExternalIdPair]]
     """The Yugipedia page you can find this card on."""
 
@@ -1114,6 +1315,9 @@ class Card:
 
     supports_archetypes: typing.List[str]
     """List of archetypes this skill supports."""
+
+    related_archetypes: typing.List[str]
+    """List of archetypes this skill is related to without necessarily supporting them."""
 
     releases: typing.List[SkillRelease]
     """List of release methods for this skill."""
@@ -1152,6 +1356,9 @@ class Card:
             typing.List[typing.Dict[str, typing.Any]]
         ] = None,
         duel_links_rarity: typing.Optional[VideoGameRaity] = None,
+        duel_links_events: typing.Optional[
+            typing.List[typing.Dict[str, typing.Any]]
+        ] = None,
         yugipedia_pages: typing.Optional[typing.List[ExternalIdPair]] = None,
         db_id: typing.Optional[int] = None,
         ygoprodeck: typing.Optional[ExternalIdPair] = None,
@@ -1159,6 +1366,7 @@ class Card:
         series: typing.Optional[typing.List["Series"]] = None,
         supports: typing.Optional[typing.List[str]] = None,
         supports_archetypes: typing.Optional[typing.List[str]] = None,
+        related_archetypes: typing.Optional[typing.List[str]] = None,
         releases: typing.Optional[typing.List[SkillRelease]] = None,
         alternate_artworks: typing.Optional[typing.List[typing.Dict[str, str]]] = None,
     ):
@@ -1189,6 +1397,7 @@ class Card:
         self.master_duel_craftable = master_duel_craftable
         self.master_duel_alternate_arts = master_duel_alternate_arts or []
         self.duel_links_rarity = duel_links_rarity
+        self.duel_links_events = duel_links_events or []
         self.yugipedia_pages = yugipedia_pages
         self.db_id = db_id
         self.ygoprodeck = ygoprodeck
@@ -1196,8 +1405,22 @@ class Card:
         self.series = series or []
         self.supports = supports or []
         self.supports_archetypes = supports_archetypes or []
+        self.related_archetypes = related_archetypes or []
         self.releases = releases or []
         self.alternate_artworks = alternate_artworks or []
+
+    def _duel_links_events_json(self) -> typing.Dict[str, typing.Any]:
+        if not self.duel_links_events:
+            return {}
+        dates = [x["date"] for x in self.duel_links_events if "date" in x]
+        years = [int(x[:4]) for x in dates] + [
+            x["year"] for x in self.duel_links_events if "year" in x
+        ]
+        return {
+            "events": self.duel_links_events,
+            **({"firstEventDate": min(dates)} if dates else {}),
+            **({"firstEventYear": min(years)} if years else {}),
+        }
 
     def _to_json(self) -> typing.Dict[str, typing.Any]:
         # Special handling for Duel Links Skills - they have a different schema
@@ -1220,6 +1443,11 @@ class Card:
                     {}
                     if not self.supports_archetypes
                     else {"supportsArchetypes": self.supports_archetypes}
+                ),
+                **(
+                    {}
+                    if not self.related_archetypes
+                    else {"relatedArchetypes": self.related_archetypes}
                 ),
                 **(
                     {}
@@ -1367,10 +1595,15 @@ class Card:
             **(
                 {
                     "duelLinks": {
-                        "rarity": self.duel_links_rarity.value,
+                        **(
+                            {"rarity": self.duel_links_rarity.value}
+                            if self.duel_links_rarity
+                            else {}
+                        ),
+                        **self._duel_links_events_json(),
                     }
                 }
-                if self.duel_links_rarity
+                if self.duel_links_rarity or self.duel_links_events
                 else {}
             ),
             "externalIDs": {
@@ -1401,6 +1634,11 @@ class Card:
             **(
                 {"supportsArchetypes": self.supports_archetypes}
                 if self.supports_archetypes
+                else {}
+            ),
+            **(
+                {"relatedArchetypes": self.related_archetypes}
+                if self.related_archetypes
                 else {}
             ),
             **(
@@ -2665,6 +2903,18 @@ class Database:
     products_by_pack_id: typing.Dict[uuid.UUID, SealedProduct]
     """You may use this to look up sealed products by what packs they are a booster box of."""
 
+    events: typing.List[Event]
+    """Duel Links events in this database."""
+
+    events_by_id: typing.Dict[uuid.UUID, Event]
+    """You may use this to look up Duel Links events by their UUID."""
+
+    events_by_yugipedia_id: typing.Dict[int, Event]
+    """You may use this to look up Duel Links events by their Yugipedia page ID."""
+
+    events_by_yugipedia_name: typing.Dict[str, Event]
+    """You may use this to look up Duel Links events by their Yugipedia page title."""
+
     def __init__(
         self,
         *,
@@ -2719,6 +2969,11 @@ class Database:
         self.products_by_yugipedia_id = {}
         self.products_by_konami_pid = {}
         self.products_by_pack_id = {}
+
+        self.events = []
+        self.events_by_id = {}
+        self.events_by_yugipedia_id = {}
+        self.events_by_yugipedia_name = {}
 
     def add_card(self, card: Card):
         """Adds a card to this database, or updated its lookup information if it's already in the database."""
@@ -2791,6 +3046,28 @@ class Database:
             self.series_by_en_name[series.name[Language.ENGLISH]] = series
         if series.yugipedia:
             self.series_by_yugipedia_id[series.yugipedia.id] = series
+
+    def add_event(self, event: Event):
+        """Adds a Duel Links event to this database, or updated its lookup information if it's already in the database."""
+
+        if event.id not in self.events_by_id:
+            self.events.append(event)
+            self.events_by_id[event.id] = event
+        if event.yugipedia:
+            self.events_by_yugipedia_id[event.yugipedia.id] = event
+            self.events_by_yugipedia_name[event.yugipedia.name] = event
+
+    def remove_event(self, event: Event):
+        """Removes a Duel Links event from this database; its individual JSON file goes on the next save."""
+
+        if event in self.events:
+            self.events.remove(event)
+        self.events_by_id.pop(event.id, None)
+        if event.yugipedia:
+            if self.events_by_yugipedia_id.get(event.yugipedia.id) is event:
+                del self.events_by_yugipedia_id[event.yugipedia.id]
+            if self.events_by_yugipedia_name.get(event.yugipedia.name) is event:
+                del self.events_by_yugipedia_name[event.yugipedia.name]
 
     def add_distro(self, distro: PackDistrobution):
         """Adds a pack distribution to this database, or updated its lookup information if it's already in the database."""
@@ -3687,6 +3964,21 @@ class Database:
                 self._save_skill(skill)
 
             with open(
+                os.path.join(self.individuals_dir, EVENTLIST_FILENAME),
+                "w",
+                encoding="utf-8",
+            ) as outfile:
+                json.dump([str(event.id) for event in self.events], outfile, indent=2)
+            events_dir = os.path.join(self.individuals_dir, EVENTS_DIRNAME)
+            os.makedirs(events_dir, exist_ok=True)
+            current_event_ids = {str(event.id) for event in self.events}
+            for fname in os.listdir(events_dir):
+                if fname.endswith(".json") and fname[:-5] not in current_event_ids:
+                    os.remove(os.path.join(events_dir, fname))
+            for event in tqdm.tqdm(self.events, desc="Saving individual events"):
+                self._save_event(event)
+
+            with open(
                 os.path.join(self.individuals_dir, SETLIST_FILENAME),
                 "w",
                 encoding="utf-8",
@@ -3842,6 +4134,21 @@ class Database:
                     indent=2,
                 )
 
+            # the CI reloads from aggregates only, so skills and events must be here to keep their UUIDs
+            with open(
+                os.path.join(self.aggregates_dir, AGG_SKILLS_FILENAME),
+                "w",
+                encoding="utf-8",
+            ) as outfile:
+                json.dump([x._to_json() for x in self.skills], outfile, indent=2)
+
+            with open(
+                os.path.join(self.aggregates_dir, AGG_EVENTS_FILENAME),
+                "w",
+                encoding="utf-8",
+            ) as outfile:
+                json.dump([x._to_json() for x in self.events], outfile, indent=2)
+
     def _save_card(self, card: Card):
         if typing.TYPE_CHECKING:
             assert self.individuals_dir is not None
@@ -3861,6 +4168,53 @@ class Database:
             encoding="utf-8",
         ) as outfile:
             json.dump(skill._to_json(), outfile, indent=2)
+
+    def _save_event(self, event: Event):
+        if typing.TYPE_CHECKING:
+            assert self.individuals_dir is not None
+        with open(
+            os.path.join(self.individuals_dir, EVENTS_DIRNAME, str(event.id) + ".json"),
+            "w",
+            encoding="utf-8",
+        ) as outfile:
+            json.dump(event._to_json(), outfile, indent=2)
+
+    def _load_event(self, rawevent: typing.Dict[str, typing.Any]) -> Event:
+        yugipedia = rawevent.get("externalIDs", {}).get("yugipedia") or []
+        return Event(
+            id=uuid.UUID(rawevent["id"]),
+            name={Language.normalize(k): v for k, v in rawevent["name"].items()},
+            event_type=rawevent.get("type"),
+            duel_worlds=rawevent.get("duelWorlds"),
+            rush_duel=rawevent.get("rushDuel", False),
+            image=rawevent.get("image"),
+            runs=[EventPeriod._from_json(x) for x in rawevent.get("runs", [])],
+            card_trader_ex_dates=[
+                EventPeriod._from_json(x) for x in rawevent.get("cardTraderExDates", [])
+            ],
+            lottery_dates=[
+                EventPeriod._from_json(x) for x in rawevent.get("lotteryDates", [])
+            ],
+            rewards=rawevent.get("rewards"),
+            decks=rawevent.get("decks"),
+            cards=rawevent.get("cards"),
+            skills=rawevent.get("skills"),
+            yugipedia=(
+                ExternalIdPair(yugipedia[0]["name"], yugipedia[0]["id"])
+                if yugipedia
+                else None
+            ),
+        )
+
+    def _load_eventlist(self) -> typing.List[uuid.UUID]:
+        if typing.TYPE_CHECKING:
+            assert self.individuals_dir is not None
+        if not os.path.exists(os.path.join(self.individuals_dir, EVENTLIST_FILENAME)):
+            return []
+        with open(
+            os.path.join(self.individuals_dir, EVENTLIST_FILENAME), encoding="utf-8"
+        ) as outfile:
+            return [uuid.UUID(x) for x in json.load(outfile)]
 
     def _load_card(self, rawcard: typing.Dict[str, typing.Any]) -> Card:
         return Card(
@@ -3913,12 +4267,25 @@ class Database:
             skill_type=rawcard["skillType"] if "skillType" in rawcard else None,
             supports=rawcard.get("supports"),
             supports_archetypes=rawcard.get("supportsArchetypes"),
+            related_archetypes=rawcard.get("relatedArchetypes"),
             releases=(
                 [
                     SkillRelease(
                         character=x["character"],
                         type=x["type"],
                         details=x.get("details"),
+                        description=x.get("description"),
+                        release_date=(
+                            datetime.date.fromisoformat(x["releaseDate"])
+                            if "releaseDate" in x
+                            else None
+                        ),
+                        removal_date=(
+                            datetime.date.fromisoformat(x["removalDate"])
+                            if "removalDate" in x
+                            else None
+                        ),
+                        event=uuid.UUID(x["event"]) if "event" in x else None,
                     )
                     for x in rawcard["releases"]
                 ]
@@ -3976,9 +4343,10 @@ class Database:
             ),
             duel_links_rarity=(
                 VideoGameRaity(rawcard["duelLinks"]["rarity"])
-                if "duelLinks" in rawcard
+                if "rarity" in rawcard.get("duelLinks", {})
                 else None
             ),
+            duel_links_events=rawcard.get("duelLinks", {}).get("events"),
             yugipedia_pages=(
                 [
                     ExternalIdPair(x["name"], x["id"])
@@ -4563,6 +4931,13 @@ def load_from_file(
             for card_json in tqdm.tqdm(json.load(outfile), desc="Loading cards"):
                 card = result._load_card(card_json)
                 result.add_card(card)
+        # older aggregates have no skills; they then get new UUIDs once, like before
+        if os.path.exists(os.path.join(aggregates_dir, AGG_SKILLS_FILENAME)):
+            with open(
+                os.path.join(aggregates_dir, AGG_SKILLS_FILENAME), encoding="utf-8"
+            ) as outfile:
+                for skill_json in tqdm.tqdm(json.load(outfile), desc="Loading skills"):
+                    result.add_card(result._load_card(skill_json))
     elif individuals_dir is not None:
         for card_id in tqdm.tqdm(result._load_cardlist(), desc="Loading cards"):
             with open(
@@ -4663,6 +5038,22 @@ def load_from_file(
             ) as outfile:
                 product = result._load_product(json.load(outfile))
             result.add_product(product)
+
+    if aggregates_dir is not None and os.path.exists(
+        os.path.join(aggregates_dir, AGG_EVENTS_FILENAME)
+    ):
+        with open(
+            os.path.join(aggregates_dir, AGG_EVENTS_FILENAME), encoding="utf-8"
+        ) as outfile:
+            for event_json in tqdm.tqdm(json.load(outfile), desc="Loading events"):
+                result.add_event(result._load_event(event_json))
+    elif individuals_dir is not None:
+        for event_id in tqdm.tqdm(result._load_eventlist(), desc="Loading events"):
+            with open(
+                os.path.join(individuals_dir, EVENTS_DIRNAME, str(event_id) + ".json"),
+                encoding="utf-8",
+            ) as outfile:
+                result.add_event(result._load_event(json.load(outfile)))
 
     return result
 

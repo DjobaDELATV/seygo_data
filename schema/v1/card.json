@@ -426,18 +426,69 @@
     "duelLinks": {
       "description": "Any Duel Links specific information. Only present if this card is in Duel Links.",
       "type": "object",
-      "required": [
-        "rarity"
-      ],
+      "required": [],
       "properties": {
         "rarity": {
-          "description": "The rairty of this card.",
+          "description": "The rairty of this card. From its Duel Links page; when that has none, from event rewards if they all agree.",
           "enum": [
             "n",
             "r",
             "sr",
             "ur"
           ]
+        },
+        "events": {
+          "description": "The Duel Links events this card could be obtained in (rewards, Card Trader EX, lottery...), earliest first. Cards only in an NPC's Deck aren't listed.",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "event"
+            ],
+            "properties": {
+              "event": {
+                "description": "The UUID of the event.",
+                "type": "string",
+                "format": "uuid"
+              },
+              "date": {
+                "description": "The earliest known day this card was obtainable in the event (YYYY-MM-DD): the date of its row when the table has one, else the first day of the run. Absent when unknown.",
+                "type": "string",
+                "format": "date"
+              },
+              "year": {
+                "description": "Only when date is absent and the page gives a vaguer time, e.g. \"2018 Jul-Aug\" for a Card Ticket choice.",
+                "type": "integer"
+              },
+              "via": {
+                "description": "How the event gave this card out: the kind of reward (see event.json) and its Yugipedia tab, e.g. a Card Ticket's name.",
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "kind"
+                  ],
+                  "properties": {
+                    "kind": {
+                      "type": "string"
+                    },
+                    "run": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "firstEventDate": {
+          "description": "The earliest known date this card could be obtained in an event (YYYY-MM-DD). Not necessarily its Duel Links release: boxes and packs aren't counted.",
+          "type": "string",
+          "format": "date"
+        },
+        "firstEventYear": {
+          "description": "The earliest known year this card could be obtained in an event, counting events that only give a year.",
+          "type": "integer"
         }
       }
     },
