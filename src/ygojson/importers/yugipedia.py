@@ -1075,6 +1075,13 @@ EVENT_SKIPPED_HEADINGS = re.compile(r"\btiles?\b|gallery", re.I)
 """Board tiles aren't wanted, and galleries only hold images."""
 
 DL_RARITIES = {"UR", "SR", "R", "N"}
+SET_LIST_DL_RARITIES = {
+    "Ultra Rare": "UR",
+    "Super Rare": "SR",
+    "Rare": "R",
+    "Common": "N",
+    "Normal": "N",
+}
 
 RUSH_DUEL_WORLDS = {"Duel World (SEVENS)", "Duel World (GO RUSH!!)"}
 
@@ -1209,8 +1216,27 @@ class _EventLinks:
         self.cards: typing.Dict[str, typing.Dict[str, typing.Any]] = {}
         self.skills: typing.Dict[str, typing.Dict[str, typing.Any]] = {}
 
+    def _dl_card(
+        self, page: str, label: typing.Optional[str]
+    ) -> typing.Tuple[str, typing.Optional[Card]]:
+        """The card a "(Duel Links)" page is about, and its name.
+        A page title can't have "#", so "Darkfire Soldier #1" is at "Darkfire Soldier 1 (Duel Links)"
+        and only the link's text names the card."""
+        name = get_dl_row_card_name(page)
+        found = find_set_card_by_name(self.db, name)
+        label = _strip_markup(label or "").strip()
+        if not found and label:
+            found = find_set_card_by_name(self.db, label)
+        if found and Language.ENGLISH in found.text:
+            name = found.text[Language.ENGLISH].name
+        return name, found
+
     def resolve(
-        self, page: str, quoted: bool, in_deck: bool = False
+        self,
+        page: str,
+        quoted: bool,
+        in_deck: bool = False,
+        label: typing.Optional[str] = None,
     ) -> typing.Optional[typing.Tuple[str, str, typing.Optional[Card]]]:
         """Returns ("card" or "skill", name, the card or Skill if known).
         Duel Links card pages are the authority: "KC Cup (Duel Links)" or a character's page isn't a card.
@@ -1224,9 +1250,15 @@ class _EventLinks:
             in_deck
             and re.search(r"\(Duel Links[^)]*\)$", page)
         ):
-            name = get_dl_row_card_name(page)
-            return ("card", name, find_set_card_by_name(self.db, name))
-        if page in self.character_pages or re.search(r"\(Duel Links[^)]*\)$", page):
+            return ("card", *self._dl_card(page, label))
+        if page in self.character_pages:
+            return None
+        if re.search(r"\(Duel Links[^)]*\)$", page):
+            # a card's Duel Links page often isn't written yet, so it's in no category,
+            # but '"[[Speedroid Wheel (Duel Links)|Speedroid Wheel]]"' still quotes that card
+            name, found = self._dl_card(page, label) if quoted else ("", None)
+            if found and found.card_type != CardType.SKILL_DL:
+                return ("card", name, found)
             return None
         found = self.db.cards_by_yugipedia_name.get(page)
         if found and found.card_type == CardType.SKILL_DL:
@@ -1239,11 +1271,11 @@ class _EventLinks:
         cards = []
         skills = []
         for m in re.finditer(
-            r'(?:(\d+)\s*(?:x\s*)?)?("?)\[\[([^\]|#]+)(?:#[^\]|]*)?(?:\|[^\]]*)?\]\]"?(?:\s*\(([^()\[\]]{1,20})\))?',
+            r'(?:(\d+)\s*(?:x\s*)?)?("?)\[\[([^\]|#]+)(?:#[^\]|]*)?(?:\|([^\]]*))?\]\]"?(?:\s*\(([^()\[\]]{1,20})\))?',
             raw,
         ):
-            quantity, quote, page, paren = m.groups()
-            resolved = self.resolve(page, bool(quote))
+            quantity, quote, page, label, paren = m.groups()
+            resolved = self.resolve(page, bool(quote), label=label)
             if not resolved:
                 continue
             kind, name, found = resolved
@@ -1395,20 +1427,27 @@ def _parse_event_tables(
     for template in parsed.templates:
         if template.name.strip().lower() != "set list":
             continue
+        # a row is "Card (Duel Links); Super Rare //@Debut::Feb 2019"
         rows = [
             [
                 links.cell(
                     '"[['
-                    + line.split("//")[0].strip()
+                    + strip_invisible_chars(line.split(";")[0].split("//")[0]).strip()
                     + "|"
                     + get_dl_row_card_name(line)
                     + ']]"'
+                    + (
+                        " (" + SET_LIST_DL_RARITIES[rarity] + ")"
+                        if rarity in SET_LIST_DL_RARITIES
+                        else ""
+                    )
                 )
             ]
             for arg in template.arguments
             if arg.positional
             for line in arg.value.split("\n")
-            if line.split("//")[0].strip()
+            if line.split(";")[0].split("//")[0].strip()
+            for rarity in [line.split("//")[0].partition(";")[2].strip()]
         ]
         if rows:
             rarities = (get_table_entry(template, "rarities") or "").strip()
@@ -1529,11 +1568,13 @@ def _parse_event_decks(
                 continue
             for line in arg.value.split("\n"):
                 m = re.match(
-                    r"\s*\*\s*\[\[([^\]|]+)(?:\|[^\]]*)?\]\]\s*(?:x\s*(\d+))?", line
+                    r"\s*\*\s*\[\[([^\]|]+)(?:\|([^\]]*))?\]\]\s*(?:x\s*(\d+))?", line
                 )
                 if not m:
                     continue
-                resolved = links.resolve(m.group(1), True, in_deck=True)
+                resolved = links.resolve(
+                    m.group(1), True, in_deck=True, label=m.group(2)
+                )
                 name = resolved[1] if resolved else _strip_markup(m.group(1)).strip()
                 found = resolved[2] if resolved and resolved[0] == "card" else None
                 cards.append(
@@ -1545,7 +1586,7 @@ def _parse_event_decks(
                             if resolved and resolved[0] == "rush"
                             else {}
                         ),
-                        "count": int(m.group(2) or 1),
+                        "count": int(m.group(3) or 1),
                         "category": category,
                     }
                 )
@@ -1642,6 +1683,52 @@ def parse_event(
             event.image = url
 
     return True
+
+
+def canonicalize_skill_archetypes(db: Database):
+    """Skill pages sometimes name an archetype by a title that redirects to its page,
+    like "True King" for "True Draco" or "Assault Mode" for "/Assault Mode".
+    Such a name is replaced by the series it redirects to, only when it matches no series itself
+    ("Stardust" redirects to a card, but is a series of its own)."""
+    series_names = {
+        name
+        for series in db.series
+        for name in [
+            *([series.yugipedia.name] if series.yugipedia else []),
+            *(
+                [series.name[Language.ENGLISH]]
+                if Language.ENGLISH in series.name
+                else []
+            ),
+        ]
+    }
+    unknown = sorted(
+        {
+            name
+            for skill in db.skills
+            for name in [*skill.supports_archetypes, *skill.related_archetypes]
+            if name not in series_names
+        }
+    )
+    renames: typing.Dict[str, str] = {}
+    for i in range(0, len(unknown), 50):
+        query = make_request(
+            {"action": "query", "titles": "|".join(unknown[i : i + 50])}
+        ).json()["query"]
+        normalized = {x["from"]: x["to"] for x in query.get("normalized") or []}
+        redirects = {x["from"]: x["to"] for x in query.get("redirects") or []}
+        for name in unknown[i : i + 50]:
+            target = redirects.get(normalized.get(name, name))
+            if target in series_names:
+                renames[name] = target
+    for skill in db.skills:
+        # dict.fromkeys keeps the order and drops a name that now appears twice
+        skill.supports_archetypes = [
+            *dict.fromkeys(renames.get(x, x) for x in skill.supports_archetypes)
+        ]
+        skill.related_archetypes = [
+            *dict.fromkeys(renames.get(x, x) for x in skill.related_archetypes)
+        ]
 
 
 def _event_key(name: str) -> str:
@@ -6499,6 +6586,7 @@ def import_from_yugipedia(
                 do_event(pageid)
 
             batcher.flushPendingOperations()
+            canonicalize_skill_archetypes(db)
             link_skills_to_events(db)
             link_cards_to_events(db)
             # an empty list means the category couldn't be read, not that every event is gone
