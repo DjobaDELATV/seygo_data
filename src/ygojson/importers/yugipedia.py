@@ -1187,6 +1187,20 @@ def _event_run_index(
     return matches[0] if len(matches) == 1 else None
 
 
+_RUN_MONTH = r"(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\.?"
+_RUN_MONTHS = rf"{_RUN_MONTH}(?:\s*[-–/]\s*{_RUN_MONTH})?"
+RUN_LABEL = re.compile(
+    rf"(?:{_RUN_MONTHS}\s+)?20\d\d(?:\s+{_RUN_MONTHS})?", re.IGNORECASE
+)
+"""A heading that only names when a run was, like "November 2021", "Mar-Apr 2020" or "2021"."""
+
+
+def _event_path_run_label(path: typing.List[str]) -> typing.Optional[str]:
+    """Some pages put each run's rewards under a heading ("Rewards > November 2021 > Daily Missions")
+    instead of a tab."""
+    return next((x for x in reversed(path) if RUN_LABEL.fullmatch(x.strip())), None)
+
+
 def _event_ref(key: str, found: typing.Optional[Card]) -> typing.Dict[str, typing.Any]:
     """A reference to a card or Skill: its UUID, and its Yugipedia page ID for sites that key on that."""
     if found is None:
@@ -1487,11 +1501,16 @@ def _parse_event_rewards(
         if any(EVENT_SKIPPED_HEADINGS.search(x) for x in path):
             continue
         kind = _event_reward_kind(path)
+        path_label = _event_path_run_label(path)
         for label, text in _split_tabber(raw[start:end]):
             tables, notes = _parse_event_tables(text, links)
             if not tables and not notes:
                 continue
             run_index = _event_run_index(label, runs)
+            if run_index is None and path_label:
+                run_index = _event_run_index(path_label, runs)
+            # a tab's own label is kept, e.g. a ticket's tab under "November 2021"
+            label = label or path_label
             how = {
                 "kind": kind,
                 **({"run": label} if label else {}),
@@ -1836,6 +1855,39 @@ def link_cards_to_events(db: Database):
         found = rarities.get(card.id, set())
         if card.duel_links_rarity is None and len(found) == 1:
             card.duel_links_rarity = VideoGameRaity(found.pop().lower())
+
+
+def report_event_run_coverage(db: Database):
+    """Logs, for events that ran more than once, the reward sections and obtentions whose run is unknown,
+    so pages to fix on Yugipedia can be found."""
+    totals = [0, 0, 0, 0]
+    for event in sorted(db.events, key=lambda x: x.name.get(Language.ENGLISH, "")):
+        if len(event.runs) < 2:
+            continue
+        sections = [x for x in event.rewards if x.get("tables")]
+        ways = [
+            via
+            for entry in [*event.cards, *event.skills]
+            for via in entry["obtainedVia"]
+        ]
+        counts = [
+            sum(1 for x in sections if "runIndex" in x),
+            len(sections),
+            sum(1 for x in ways if "runIndex" in x),
+            len(ways),
+        ]
+        totals = [a + b for a, b in zip(totals, counts)]
+        if counts[0] < counts[1]:
+            logging.info(
+                f"Duel Links event runs: {event.name.get(Language.ENGLISH)}: "
+                f"{counts[0]}/{counts[1]} reward sections and {counts[2]}/{counts[3]} obtentions have a run"
+            )
+    _ci_annotation(
+        "notice",
+        "Duel Links event runs",
+        f"events that ran more than once: {totals[0]}/{totals[1]} reward sections "
+        f"and {totals[2]}/{totals[3]} obtentions have a run",
+    )
 
 
 def get_changelog(
@@ -6589,6 +6641,7 @@ def import_from_yugipedia(
             canonicalize_skill_archetypes(db)
             link_skills_to_events(db)
             link_cards_to_events(db)
+            report_event_run_coverage(db)
             # an empty list means the category couldn't be read, not that every event is gone
             if not specific_pages and events:
                 still_there = set(events)
@@ -6785,7 +6838,7 @@ class YugipediaExportError(RuntimeError):
 
 def _ci_annotation(level: str, title: str, message: str):
     """Logs a message, also shown on the GitHub Actions run summary when running there."""
-    getattr(logging, level)(f"{title}: {message}")
+    getattr(logging, {"notice": "info"}.get(level, level))(f"{title}: {message}")
     if os.environ.get("GITHUB_ACTIONS") == "true":
         print(f"::{level} title={title}::{message}", flush=True)
 
