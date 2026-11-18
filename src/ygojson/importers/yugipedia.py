@@ -1710,6 +1710,7 @@ def parse_event(
 
 CAT_VG_NO_COUNTERPART = "Category:Video game cards with no OCG/TCG counterpart"
 CAT_RUSH_CARDS = "Category:Rush Duel cards"
+DL_ACTION_CARD_TEXT = re.compile(r"\s*Dueltain Meter\s*:\s*\d+\s*%", re.IGNORECASE)
 
 
 def parse_dl_only_card(
@@ -1839,6 +1840,11 @@ def parse_dl_only_card(
     )
     card.duel_links_number = (
         int(param("number")) if re.fullmatch(r"\d+", param("number")) else None
+    )
+    # no category or parameter tells an Action Card: only its text does, as every one starts with
+    # "Dueltain Meter: N% or above" (its image name or an "(Action Card)" title only sometimes say so)
+    card.duel_links_action_card = card_type == CardType.SPELL and bool(
+        DL_ACTION_CARD_TEXT.match(_strip_markup(text))
     )
     # its Duel Links status, like "Limited 2": the Forbidden & Limited Lists only name cards that have a counterpart
     status = BANLIST_STR_TO_LEGALITY.get(param("status").lower().replace(" ", "_"))

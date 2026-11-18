@@ -1301,6 +1301,9 @@ class Card:
     duel_links_number: typing.Optional[int]
     """The card's internal number in Duel Links, from its Duel Links page."""
 
+    duel_links_action_card: bool
+    """True if this is a Duel Links Action Card: one dealt during an Action Duel, whose text starts with "Dueltain Meter: N% or above"."""
+
     yugipedia_pages: typing.Optional[typing.List[ExternalIdPair]]
     """The Yugipedia page you can find this card on."""
 
@@ -1367,6 +1370,7 @@ class Card:
         ] = None,
         duel_links_only: bool = False,
         duel_links_number: typing.Optional[int] = None,
+        duel_links_action_card: bool = False,
         yugipedia_pages: typing.Optional[typing.List[ExternalIdPair]] = None,
         db_id: typing.Optional[int] = None,
         ygoprodeck: typing.Optional[ExternalIdPair] = None,
@@ -1408,6 +1412,7 @@ class Card:
         self.duel_links_events = duel_links_events or []
         self.duel_links_only = duel_links_only
         self.duel_links_number = duel_links_number
+        self.duel_links_action_card = duel_links_action_card
         self.yugipedia_pages = yugipedia_pages
         self.db_id = db_id
         self.ygoprodeck = ygoprodeck
@@ -1616,12 +1621,14 @@ class Card:
                             if self.duel_links_number is not None
                             else {}
                         ),
+                        **({"actionCard": True} if self.duel_links_action_card else {}),
                         **self._duel_links_events_json(),
                     }
                 }
                 if self.duel_links_rarity
                 or self.duel_links_events
                 or self.duel_links_number is not None
+                or self.duel_links_action_card
                 else {}
             ),
             "externalIDs": {
@@ -4367,6 +4374,9 @@ class Database:
             duel_links_events=rawcard.get("duelLinks", {}).get("events"),
             duel_links_only=rawcard.get("duelLinksOnly", False),
             duel_links_number=rawcard.get("duelLinks", {}).get("number"),
+            duel_links_action_card=rawcard.get("duelLinks", {}).get(
+                "actionCard", False
+            ),
             yugipedia_pages=(
                 [
                     ExternalIdPair(x["name"], x["id"])

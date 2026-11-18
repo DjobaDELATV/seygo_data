@@ -436,6 +436,10 @@
           "description": "The card's internal number in Duel Links, from its Duel Links page. Only set for Duel Links only cards.",
           "type": "integer"
         },
+        "actionCard": {
+          "description": "True if this is an Action Card, dealt during an Action Duel event instead of collected. Only set for Duel Links only Spells whose text starts with \"Dueltain Meter: N% or above\": Yugipedia has no category or parameter for them.",
+          "type": "boolean"
+        },
         "rarity": {
           "description": "The rairty of this card. From its Duel Links page; when that has none, from event rewards if they all agree.",
           "enum": [
