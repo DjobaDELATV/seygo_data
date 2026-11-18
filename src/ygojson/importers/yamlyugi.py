@@ -214,14 +214,18 @@ def _write_card(
             )
             card.type = Race.CREATORGOD
 
-        card.classifications = []
+        # Yaml Yugi's typeline sometimes lacks "Flip" or "Normal" (e.g. "Reptile / Effect"
+        # for Worm Victory), so add to what YGOPRODECK found instead of replacing it
+        if not card.classifications:
+            card.classifications = []
         for k, v in CLASSIFICATIONS.items():
-            if k in typeline:
+            if k in typeline and v not in card.classifications:
                 card.classifications.append(v)
 
-        card.abilities = []
+        if not card.abilities:
+            card.abilities = []
         for k, v in ABILITIES.items():
-            if k in typeline:
+            if k in typeline and v not in card.abilities:
                 card.abilities.append(v)
 
         if "level" in in_json:
