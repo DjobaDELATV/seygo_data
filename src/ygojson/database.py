@@ -1295,6 +1295,12 @@ class Card:
     and the first day of the run it was given out in, when the event page says which run.
     Cards only found in NPC Decks aren't listed: those weren't obtainable."""
 
+    duel_links_only: bool
+    """True if this card only exists in Duel Links (no OCG/TCG counterpart): its only page is its Duel Links page."""
+
+    duel_links_number: typing.Optional[int]
+    """The card's internal number in Duel Links, from its Duel Links page."""
+
     yugipedia_pages: typing.Optional[typing.List[ExternalIdPair]]
     """The Yugipedia page you can find this card on."""
 
@@ -1359,6 +1365,8 @@ class Card:
         duel_links_events: typing.Optional[
             typing.List[typing.Dict[str, typing.Any]]
         ] = None,
+        duel_links_only: bool = False,
+        duel_links_number: typing.Optional[int] = None,
         yugipedia_pages: typing.Optional[typing.List[ExternalIdPair]] = None,
         db_id: typing.Optional[int] = None,
         ygoprodeck: typing.Optional[ExternalIdPair] = None,
@@ -1398,6 +1406,8 @@ class Card:
         self.master_duel_alternate_arts = master_duel_alternate_arts or []
         self.duel_links_rarity = duel_links_rarity
         self.duel_links_events = duel_links_events or []
+        self.duel_links_only = duel_links_only
+        self.duel_links_number = duel_links_number
         self.yugipedia_pages = yugipedia_pages
         self.db_id = db_id
         self.ygoprodeck = ygoprodeck
@@ -1537,6 +1547,7 @@ class Card:
                 else {}
             ),
             **({"illegal": self.illegal} if self.illegal else {}),
+            **({"duelLinksOnly": True} if self.duel_links_only else {}),
             "legality": {
                 k.value: {
                     "current": v.legality.value,
@@ -1600,10 +1611,17 @@ class Card:
                             if self.duel_links_rarity
                             else {}
                         ),
+                        **(
+                            {"number": self.duel_links_number}
+                            if self.duel_links_number is not None
+                            else {}
+                        ),
                         **self._duel_links_events_json(),
                     }
                 }
-                if self.duel_links_rarity or self.duel_links_events
+                if self.duel_links_rarity
+                or self.duel_links_events
+                or self.duel_links_number is not None
                 else {}
             ),
             "externalIDs": {
@@ -4347,6 +4365,8 @@ class Database:
                 else None
             ),
             duel_links_events=rawcard.get("duelLinks", {}).get("events"),
+            duel_links_only=rawcard.get("duelLinksOnly", False),
+            duel_links_number=rawcard.get("duelLinks", {}).get("number"),
             yugipedia_pages=(
                 [
                     ExternalIdPair(x["name"], x["id"])

@@ -1223,10 +1223,12 @@ class _EventLinks:
         db: Database,
         character_pages: typing.Set[str],
         dl_card_pages: typing.Set[str],
+        dl_rush_pages: typing.AbstractSet[str] = frozenset(),
     ) -> None:
         self.db = db
         self.character_pages = character_pages
         self.dl_card_pages = dl_card_pages
+        self.dl_rush_pages = dl_rush_pages
         self.cards: typing.Dict[str, typing.Dict[str, typing.Any]] = {}
         self.skills: typing.Dict[str, typing.Dict[str, typing.Any]] = {}
 
@@ -1256,8 +1258,9 @@ class _EventLinks:
         Duel Links card pages are the authority: "KC Cup (Duel Links)" or a character's page isn't a card.
         """
         page = _normalize_smw_title(page)
-        if DL_RUSH_SUFFIX in page:
-            # a Rush Duel card is never the OCG/TCG card that shares its name
+        if DL_RUSH_SUFFIX in page or page in self.dl_rush_pages:
+            # a Rush Duel card is never the OCG/TCG card that shares its name;
+            # Rush-only cards are at "Name (Duel Links)" like any Duel Links only card
             return ("rush", get_dl_row_card_name(page), None)
         if page in self.dl_card_pages or (
             # a Decklist only lists cards, even when it links a character's page by mistake
@@ -1648,6 +1651,7 @@ def parse_event(
     raw: str,
     character_pages: typing.Set[str],
     dl_card_pages: typing.Set[str],
+    dl_rush_pages: typing.AbstractSet[str] = frozenset(),
 ) -> bool:
     data = wikitextparser.parse(raw)
     infoboxes = [
@@ -1687,7 +1691,7 @@ def parse_event(
     )
     event.lottery_dates = _parse_event_periods(param("lottery_dates"))
 
-    links = _EventLinks(db, character_pages, dl_card_pages)
+    links = _EventLinks(db, character_pages, dl_card_pages, dl_rush_pages)
     event.rewards = _parse_event_rewards(raw, event.runs, links)
     event.decks = _parse_event_decks(raw, data, links)
     event.cards = list(links.cards.values())
@@ -1702,6 +1706,159 @@ def parse_event(
             event.image = url
 
     return True
+
+
+CAT_VG_NO_COUNTERPART = "Category:Video game cards with no OCG/TCG counterpart"
+CAT_RUSH_CARDS = "Category:Rush Duel cards"
+
+
+def parse_dl_only_card(
+    db: Database,
+    batcher: "YugipediaBatcher",
+    pageid: int,
+    title: str,
+    raw: str,
+    rush_titles: typing.Set[str],
+) -> typing.Tuple[str, typing.Optional[Card]]:
+    """Makes a card of a {{Duel Links card}} page that has no OCG/TCG counterpart.
+    Returns ("card", it), or why there's none: "rush" (Rush Duel cards are left out),
+    "known" (a card of that name is in the database already, like most Tokens) or "invalid".
+    """
+    tables = [
+        x
+        for x in wikitextparser.parse(raw).templates
+        if x.name.strip().lower() == "duel links card"
+    ]
+    if not tables:
+        return ("invalid", None)
+    table = tables[0]
+
+    def param(name: str) -> str:
+        return (get_table_entry(table, name) or "").strip()
+
+    # a page title can't have "#" or "[", so "Jinzo #7.7" names itself
+    name = _strip_markup(param("name")).strip() or get_dl_row_card_name(title)
+    text = param("text")
+    # Rush Duel cards are here too, as "Name (Duel Links)": their page without the suffix is a Rush Duel card.
+    # "main" can't tell: "Pierce! (Action Card)" names the Rush Duel card "Pierce!" as its main page
+    if (
+        DL_RUSH_SUFFIX in title
+        or "[REQUIREMENT]" in text
+        or get_dl_row_card_name(title) in rush_titles
+        or name in rush_titles
+        or param("main").endswith("(Rush Duel)")
+    ):
+        return ("rush", None)
+    known = find_set_card_by_name(db, name)
+    if known and not known.duel_links_only:
+        return ("known", known)
+    if known and pageid not in [x.id for x in known.yugipedia_pages or []]:
+        logging.warning(f"Two Duel Links only cards are named {name}: {title}")
+        return ("invalid", None)
+
+    typeline = [x.strip() for x in param("types").split("/") if x.strip()]
+    card_type_param = param("card_type").lower()
+    if card_type_param in {"spell", "trap"}:
+        card_type = CardType(card_type_param)
+    elif "Token" in typeline:
+        card_type = CardType.TOKEN
+    elif typeline:
+        card_type = CardType.MONSTER
+    else:
+        logging.warning(f"Duel Links only card of unknown type: {title}")
+        return ("invalid", None)
+
+    card = db.cards_by_yugipedia_id.get(pageid) or Card(
+        id=uuid.uuid4(), card_type=card_type
+    )
+    card.card_type = card_type
+    card.duel_links_only = True
+    card.text = {}
+    for locale, key in LOCALES.items():
+        lang = Language.normalize(key)
+        if lang in card.text:
+            continue
+        value = name if not locale else _strip_markup(param(locale + "_name")).strip()
+        if not value:
+            continue
+        card.text[lang] = CardText(name=value)
+        effect = param(locale + "_text" if locale else "text")
+        if effect:
+            # "<br />" ends a line, and remove_markup drops it when no newline follows
+            effect = re.sub(r"<\s*br\s*/?\s*>[ \t]*\n?", "\n", effect, flags=re.I)
+            card.text[lang].effect = _strip_markup(effect).strip()
+
+    card.attribute = None
+    card.monster_card_types = None
+    card.type = None
+    card.classifications = None
+    card.abilities = None
+    card.level = card.rank = card.scale = None
+    card.atk = card.def_ = None
+    card.link_arrows = None
+    card.subcategory = None
+    if card_type in {CardType.MONSTER, CardType.TOKEN}:
+        attribute = param("attribute").lower()
+        if attribute in Attribute._value2member_map_:
+            card.attribute = Attribute(attribute)
+        card.monster_card_types = [
+            v for k, v in MONSTER_CARD_TYPES.items() if k in typeline
+        ]
+        card.type = next((v for k, v in TYPES.items() if k in typeline), None)
+        card.classifications = [v for k, v in CLASSIFICATIONS.items() if k in typeline]
+        card.abilities = [v for k, v in ABILITIES.items() if k in typeline]
+        for key in ("level", "rank", "pendulum_scale"):
+            if re.fullmatch(r"\d+", param(key)):
+                setattr(
+                    card, "scale" if key == "pendulum_scale" else key, int(param(key))
+                )
+        for key in ("atk", "def"):
+            value = param(key)
+            stat = (
+                "?"
+                if value in MYSTERY_ATK_DEFS
+                else int(value)
+                if re.fullmatch(r"\d+", value)
+                else None
+            )
+            setattr(card, "def_" if key == "def" else key, stat)
+        arrows = [
+            x.lower().replace("-", "").strip() for x in param("link_arrows").split(",")
+        ]
+        card.link_arrows = [
+            LinkArrow(x) for x in arrows if x in LinkArrow._value2member_map_
+        ] or None
+    else:
+        subcategory = param("property").lower().replace("-", "")
+        if subcategory in SubCategory._value2member_map_:
+            card.subcategory = SubCategory(subcategory)
+
+    rarity = SET_LIST_DL_RARITIES.get(param("rarity"), param("rarity")).lower()
+    card.duel_links_rarity = (
+        VideoGameRaity(rarity) if rarity in VideoGameRaity._value2member_map_ else None
+    )
+    card.duel_links_number = (
+        int(param("number")) if re.fullmatch(r"\d+", param("number")) else None
+    )
+    # its Duel Links status, like "Limited 2": the Forbidden & Limited Lists only name cards that have a counterpart
+    status = BANLIST_STR_TO_LEGALITY.get(param("status").lower().replace(" ", "_"))
+    if status:
+        card.legality[Format.DUELLINKS] = CardLegality(legality=status)
+    else:
+        card.legality.pop(Format.DUELLINKS, None)
+
+    image = (param("image") or param("ja_image")).split("\n")[0].split(";")[-1].strip()
+    if image:
+        if not card.images:
+            card.images = [CardImage(id=uuid.uuid4())]
+
+        @batcher.getImageURL("File:" + image)
+        def onGetImage(url: str):
+            card.images[0].card_art = url
+            card.images[0].last_checked = datetime.datetime.now()
+
+    card.yugipedia_pages = [ExternalIdPair(title, pageid)]
+    return ("card", card)
 
 
 def canonicalize_skill_archetypes(db: Database):
@@ -6596,6 +6753,54 @@ def import_from_yugipedia(
                 _normalize_smw_title(x)
                 for x in _get_category_page_titles(batcher, CAT_DL_CARDS).values()
             }
+
+            # Duel Links only cards come first, so events can link to them
+            dl_only_titles = {
+                pageid: title
+                for pageid, title in _get_category_page_titles(
+                    batcher, CAT_VG_NO_COUNTERPART
+                ).items()
+                if _normalize_smw_title(title) in dl_card_pages
+            }
+            rush_titles = {
+                _normalize_smw_title(x)
+                for x in _get_category_page_titles(batcher, CAT_RUSH_CARDS).values()
+            }
+            dl_rush_pages: typing.Set[str] = set()
+            dl_only_ids: typing.Set[uuid.UUID] = set()
+            dl_only_outcomes: typing.Dict[str, int] = {}
+            for pageid, title in tqdm.tqdm(
+                dl_only_titles.items(), desc="Importing Duel Links only cards"
+            ):
+                if specific_pages and pageid not in specific_ids:
+                    continue
+
+                def do_dl_only_card(pageid: int, title: str):
+                    @batcher.getPageContents(pageid)
+                    def onGetData(raw_data: str):
+                        outcome, card = parse_dl_only_card(
+                            db, batcher, pageid, title, raw_data, rush_titles
+                        )
+                        dl_only_outcomes[outcome] = dl_only_outcomes.get(outcome, 0) + 1
+                        if outcome == "rush":
+                            dl_rush_pages.add(_normalize_smw_title(title))
+                        elif outcome == "card" and card:
+                            db.add_card(card)
+                            dl_only_ids.add(card.id)
+
+                do_dl_only_card(pageid, title)
+
+            batcher.flushPendingOperations()
+            logging.info(f"Duel Links only cards: {dl_only_outcomes}")
+            # an empty category means it couldn't be read, not that every card is gone
+            if not specific_pages and dl_only_titles:
+                for card in [x for x in db.cards if x.duel_links_only]:
+                    if card.id not in dl_only_ids:
+                        logging.info(
+                            f"Removing Duel Links only card: {card.text[Language.ENGLISH].name}"
+                        )
+                        db._remove_card(card)
+
             events = [*event_titles]
             if specific_pages:
                 events = [x for x in events if x in specific_ids]
@@ -6624,6 +6829,7 @@ def import_from_yugipedia(
                             raw_data,
                             character_pages,
                             dl_card_pages,
+                            dl_rush_pages,
                         ):
                             db.add_event(event)
                             if found:

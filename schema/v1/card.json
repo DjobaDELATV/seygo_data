@@ -302,6 +302,10 @@
       "description": "If true, then this card is illegal, and will not have any legality history. Never set for cards that are not game pieces, such as tokens.",
       "type": "boolean"
     },
+    "duelLinksOnly": {
+      "description": "True if this card only exists in Duel Links: it has no OCG/TCG counterpart, no password and no paper sets. Its only Yugipedia page is its Duel Links page. Its Duel Links Forbidden/Limited status is in legality.duellinks. Rush Duel cards are never included.",
+      "type": "boolean"
+    },
     "legality": {
       "description": "A mapping of formats to legalities.",
       "type": "object",
@@ -428,6 +432,10 @@
       "type": "object",
       "required": [],
       "properties": {
+        "number": {
+          "description": "The card's internal number in Duel Links, from its Duel Links page. Only set for Duel Links only cards.",
+          "type": "integer"
+        },
         "rarity": {
           "description": "The rairty of this card. From its Duel Links page; when that has none, from event rewards if they all agree.",
           "enum": [
