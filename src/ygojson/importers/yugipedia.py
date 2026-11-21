@@ -3138,11 +3138,14 @@ RARITY_STR_TO_ENUM = {
     "ur": CardRarity.ULTRA,
     "rar": CardRarity.ULTRA,  # not official, but typos were made in a few galleries (?)
     "urpurple": CardRarity.ULTRA_PURPLE,  # AFAIK, Yugipedia doesn't actually use this abbreviation; we use this for consistency's sake
+    "urblue": CardRarity.ULTRA_BLUE,
+    "urred": CardRarity.ULTRA_RED,
     "utr": CardRarity.ULTIMATE,
     "se": CardRarity.SECRET,
     "scr": CardRarity.SECRET,
     "scrred": CardRarity.SECRET_RED,
     "scrblue": CardRarity.SECRET_BLUE,
+    "scr-blue": CardRarity.SECRET_BLUE,  # a typo made in a few set lists
     "uscr": CardRarity.ULTRASECRET,
     "pscr": CardRarity.PRISMATICSECRET,
     "hr": CardRarity.GHOST,
@@ -3267,6 +3270,20 @@ _RARITY_FTS_RAW: typing.List[typing.Tuple[typing.List[str], str]] = [
             "Ultra Rare (Special Purple Version)",
         ],
         "URPurple",
+    ),
+    (
+        [
+            "urblue",
+            "Ultra Rare (Special Blue Version)",
+        ],
+        "URBlue",
+    ),
+    (
+        [
+            "urred",
+            "Ultra Rare (Special Red Version)",
+        ],
+        "URRed",
     ),
     (
         [
@@ -3728,10 +3745,13 @@ FULL_RARITY_STR_TO_ENUM = {
     "super rare": CardRarity.SUPER,  # sr
     "ultra rare": CardRarity.ULTRA,  # ur
     "ultra rare (special purple version)": CardRarity.ULTRA_PURPLE,
+    "ultra rare (special blue version)": CardRarity.ULTRA_BLUE,
+    "ultra rare (special red version)": CardRarity.ULTRA_RED,
     "ultimate rare": CardRarity.ULTIMATE,  # utr
     "secret rare": CardRarity.SECRET,  # se / scr
     "secret rare (special red version)": CardRarity.SECRET_RED,
     "secret rare (special blue version)": CardRarity.SECRET_BLUE,
+    "secret rare special blue version": CardRarity.SECRET_BLUE,  # a typo made in a few set lists
     "ultra secret rare": CardRarity.ULTRASECRET,  # uscr
     "prismatic secret rare": CardRarity.PRISMATICSECRET,  # pscr
     "holographic rare": CardRarity.GHOST,  # hr / hgr
@@ -3886,6 +3906,16 @@ MANUAL_RARITY_FIXUPS = {
     "Dragons of Legend: The Complete Series": _LD_RARITIES,
     "Legendary Duelists: Season 1": _LD_RARITIES,
     "Legendary Duelists: Season 2": _LD_RARITIES,
+    "Legendary Duelists: Season 3": {
+        CardRarity.ULTRA: [
+            CardRarity.ULTRA,
+            CardRarity.ULTRA_BLUE,
+            CardRarity.ULTRA_RED,
+        ]
+    },
+    "Battles of Legend: Chapter 1": {
+        CardRarity.ULTRA: [CardRarity.ULTRA, CardRarity.ULTRA_SILVER]
+    },
     "Duelist League 2010 participation cards": {
         CardRarity.RARE: [
             CardRarity.RARE_BLUE,
@@ -4062,13 +4092,17 @@ class RawLocale:
 COLORFUL_RARES = {
     (CardRarity.RARE, "Red"): CardRarity.RARE_RED,
     (CardRarity.RARE, "Bronze"): CardRarity.RARE_COPPER,
+    (CardRarity.RARE, "Copper"): CardRarity.RARE_COPPER,
     (CardRarity.RARE, "Green"): CardRarity.RARE_GREEN,
     (CardRarity.RARE, "Silver"): CardRarity.RARE_WEDGEWOOD,
+    (CardRarity.RARE, "Wedgewood"): CardRarity.RARE_WEDGEWOOD,
     (CardRarity.RARE, "Blue"): CardRarity.RARE_BLUE,
     (CardRarity.RARE, "Purple"): CardRarity.RARE_PURPLE,
     (CardRarity.ULTRA, "Green"): CardRarity.ULTRA_GREEN,
     (CardRarity.ULTRA, "Blue"): CardRarity.ULTRA_BLUE,
     (CardRarity.ULTRA, "Purple"): CardRarity.ULTRA_PURPLE,
+    (CardRarity.ULTRA, "Red"): CardRarity.ULTRA_RED,
+    (CardRarity.ULTRA, "Silver"): CardRarity.ULTRA_SILVER,
     (CardRarity.SECRET, "Red"): CardRarity.SECRET_RED,
     (CardRarity.SECRET, "Blue"): CardRarity.SECRET_BLUE,
 }
