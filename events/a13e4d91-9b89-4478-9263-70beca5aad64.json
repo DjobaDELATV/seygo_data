@@ -1,0 +1,173 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "a13e4d91-9b89-4478-9263-70beca5aad64",
+  "name": {
+    "en": "ARC-V World Release Celebration Campaign"
+  },
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/5/5b/ARCVWorldReleaseCelebrationCampaign-Banner.png",
+  "runs": [
+    {
+      "startDate": "2021-09-28",
+      "endDate": "2022-02-28"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "other",
+      "path": [
+        "Rewards"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "Players who logged into Yu-Gi-Oh! Duel Links during this campaign would receive all of the following rewards.",
+        "In addition, for each day logged in, players would also receive 1 of the following rewards:"
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "1000 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1 \"Stargazer Magician\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Stargazer Magician",
+                    "card": "bbd3372c-8334-47f2-8f15-9ab5d6363441",
+                    "yugipediaId": 285080,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "1 \"Timegazer Magician\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Timegazer Magician",
+                    "card": "648427d8-de6b-4599-ad09-3b575714e6ec",
+                    "yugipediaId": 285640,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "1 Skill Ticket"
+              }
+            ],
+            [
+              {
+                "text": "Card Sleeves: ARC-V World Release Celebration"
+              }
+            ],
+            [
+              {
+                "text": "Game Mat: ARC-V World Release Celebration"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Day",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Day 1"
+              },
+              {
+                "text": "1 UR Ticket (Prismatic)"
+              }
+            ],
+            [
+              {
+                "text": "Day 2"
+              },
+              {
+                "text": "1 UR Dream Ticket (Glossy)"
+              }
+            ],
+            [
+              {
+                "text": "Day 3"
+              },
+              {
+                "text": "1 SR Ticket (Prismatic)"
+              }
+            ],
+            [
+              {
+                "text": "Day 4"
+              },
+              {
+                "text": "1 SR Dream Ticket (Glossy)"
+              }
+            ],
+            [
+              {
+                "text": "Day 5"
+              },
+              {
+                "text": "1 UR Ticket"
+              }
+            ],
+            [
+              {
+                "text": "Day 6"
+              },
+              {
+                "text": "1 SR Ticket"
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Stargazer Magician",
+      "card": "bbd3372c-8334-47f2-8f15-9ab5d6363441",
+      "yugipediaId": 285080,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "runIndex": 0
+        }
+      ]
+    },
+    {
+      "name": "Timegazer Magician",
+      "card": "648427d8-de6b-4599-ad09-3b575714e6ec",
+      "yugipediaId": 285640,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "runIndex": 0
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "ARC-V World Release Celebration Campaign",
+        "id": 1011690
+      }
+    ]
+  }
+}

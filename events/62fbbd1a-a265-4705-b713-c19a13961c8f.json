@@ -1,0 +1,701 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "62fbbd1a-a265-4705-b713-c19a13961c8f",
+  "name": {
+    "en": "Solemn Odion is here!"
+  },
+  "type": "Roaming Duelist event",
+  "duelWorlds": [
+    "Duel World (DM)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/5/51/SolemnOdionishere-Banner.png",
+  "runs": [
+    {
+      "startDate": "2019-05-08",
+      "endDate": "2019-05-15"
+    },
+    {
+      "startDate": "2019-08-09",
+      "endDate": "2019-08-19"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "notes": [
+        "In addition to the following, standard Duel Rewards were also available by Dueling Solemn Odion Level 30 or less."
+      ]
+    },
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "run": "August 2019",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Granmarg the Mega Monarch\"",
+                "cards": [
+                  {
+                    "name": "Granmarg the Mega Monarch",
+                    "card": "3ac90a63-2f89-47ee-8e6f-d33cf08fa4d9",
+                    "yugipediaId": 271121
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"The Prime Monarch\", \"The First Monarch\", \"Mystical Beast of Serket\", \"Temple of the Kings\"",
+                "cards": [
+                  {
+                    "name": "The Prime Monarch",
+                    "card": "bccbf1fc-6a9d-43d9-964c-b4c88b681d2c",
+                    "yugipediaId": 405142
+                  },
+                  {
+                    "name": "The First Monarch",
+                    "card": "3cbcdcbc-8d90-4184-b3c1-e5dc852e8072",
+                    "yugipediaId": 306309
+                  },
+                  {
+                    "name": "Mystical Beast of Serket",
+                    "card": "d4062776-a8e3-4c22-8db9-9b39ef5d4f51",
+                    "yugipediaId": 8184
+                  },
+                  {
+                    "name": "Temple of the Kings",
+                    "card": "78307fab-d9ea-4649-9832-d78447187fc5",
+                    "yugipediaId": 2727
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Grave Protector\", \"Curse of Royal\", \"Dark Coffin\"",
+                "cards": [
+                  {
+                    "name": "Grave Protector",
+                    "card": "ddc16c4d-b869-4eb0-b56f-a674766b3769",
+                    "yugipediaId": 18328
+                  },
+                  {
+                    "name": "Curse of Royal",
+                    "card": "14508a57-388d-4274-a8e0-8b418fb81ede",
+                    "yugipediaId": 8629
+                  },
+                  {
+                    "name": "Dark Coffin",
+                    "card": "763f1735-77e1-4afd-a015-8916fe0382c2",
+                    "yugipediaId": 14575
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Earthshaker\", \"Stone Dragon\"",
+                "cards": [
+                  {
+                    "name": "Earthshaker",
+                    "card": "93eec293-ae86-4313-a7c8-41886ef2b689",
+                    "yugipediaId": 4859
+                  },
+                  {
+                    "name": "Stone Dragon",
+                    "card": "95b7f884-d02d-49fe-98ab-48c3cdab5430",
+                    "yugipediaId": 18884
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "run": "May 2019",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Statue of Anguish Pattern\"",
+                "cards": [
+                  {
+                    "name": "Statue of Anguish Pattern",
+                    "card": "f5d2c6f5-0d03-4769-83b4-d403c35ef4ed",
+                    "yugipediaId": 334840
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"The First Monarch\", \"Mystical Beast of Serket\", \"Temple of the Kings\", \"That Wacky Alchemy!\"",
+                "cards": [
+                  {
+                    "name": "The First Monarch",
+                    "card": "3cbcdcbc-8d90-4184-b3c1-e5dc852e8072",
+                    "yugipediaId": 306309
+                  },
+                  {
+                    "name": "Mystical Beast of Serket",
+                    "card": "d4062776-a8e3-4c22-8db9-9b39ef5d4f51",
+                    "yugipediaId": 8184
+                  },
+                  {
+                    "name": "Temple of the Kings",
+                    "card": "78307fab-d9ea-4649-9832-d78447187fc5",
+                    "yugipediaId": 2727
+                  },
+                  {
+                    "name": "That Wacky Alchemy!",
+                    "card": "8ad65f44-ab4a-4954-aa1f-d8d978dc06bb",
+                    "yugipediaId": 243051
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Grave Protector\", \"Curse of Royal\", \"Dark Coffin\"",
+                "cards": [
+                  {
+                    "name": "Grave Protector",
+                    "card": "ddc16c4d-b869-4eb0-b56f-a674766b3769",
+                    "yugipediaId": 18328
+                  },
+                  {
+                    "name": "Curse of Royal",
+                    "card": "14508a57-388d-4274-a8e0-8b418fb81ede",
+                    "yugipediaId": 8629
+                  },
+                  {
+                    "name": "Dark Coffin",
+                    "card": "763f1735-77e1-4afd-a015-8916fe0382c2",
+                    "yugipediaId": 14575
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Earthshaker\", \"Stone Dragon\"",
+                "cards": [
+                  {
+                    "name": "Earthshaker",
+                    "card": "93eec293-ae86-4313-a7c8-41886ef2b689",
+                    "yugipediaId": 4859
+                  },
+                  {
+                    "name": "Stone Dragon",
+                    "card": "95b7f884-d02d-49fe-98ab-48c3cdab5430",
+                    "yugipediaId": 18884
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Rewards",
+        "Event Missions"
+      ],
+      "run": "August 2019",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against Solemn Odion in Duel World."
+              },
+              {
+                "text": "1 \"Stone Dragon\"",
+                "cards": [
+                  {
+                    "name": "Stone Dragon",
+                    "card": "95b7f884-d02d-49fe-98ab-48c3cdab5430",
+                    "yugipediaId": 18884,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 3 Duel(s) against Solemn Odion in Duel World."
+              },
+              {
+                "text": "1 \"The First Monarch\"",
+                "cards": [
+                  {
+                    "name": "The First Monarch",
+                    "card": "3cbcdcbc-8d90-4184-b3c1-e5dc852e8072",
+                    "yugipediaId": 306309,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 7 Duel(s) against Solemn Odion in Duel World."
+              },
+              {
+                "text": "1 \"The Prime Monarch\"",
+                "cards": [
+                  {
+                    "name": "The Prime Monarch",
+                    "card": "bccbf1fc-6a9d-43d9-964c-b4c88b681d2c",
+                    "yugipediaId": 405142,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Play 15 Duel(s) against Solemn Odion in Duel World. (surrenders are not counted.)"
+              },
+              {
+                "text": "1 \"Granmarg the Mega Monarch\"",
+                "cards": [
+                  {
+                    "name": "Granmarg the Mega Monarch",
+                    "card": "3ac90a63-2f89-47ee-8e6f-d33cf08fa4d9",
+                    "yugipediaId": 271121,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Rewards",
+        "Event Missions"
+      ],
+      "run": "May 2019",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against Solemn Odion in Duel World."
+              },
+              {
+                "text": "1 \"Grave Protector\"",
+                "cards": [
+                  {
+                    "name": "Grave Protector",
+                    "card": "ddc16c4d-b869-4eb0-b56f-a674766b3769",
+                    "yugipediaId": 18328,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 3 Duel(s) against Solemn Odion in Duel World."
+              },
+              {
+                "text": "1 \"Temple of the Kings\"",
+                "cards": [
+                  {
+                    "name": "Temple of the Kings",
+                    "card": "78307fab-d9ea-4649-9832-d78447187fc5",
+                    "yugipediaId": 2727,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 7 Duel(s) against Solemn Odion in Duel World."
+              },
+              {
+                "text": "1 \"The First Monarch\"",
+                "cards": [
+                  {
+                    "name": "The First Monarch",
+                    "card": "3cbcdcbc-8d90-4184-b3c1-e5dc852e8072",
+                    "yugipediaId": 306309,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Play 15 Duel(s) against Solemn Odion in Duel World. (surrenders are not counted.)"
+              },
+              {
+                "text": "1 \"Statue of Anguish Pattern\"",
+                "cards": [
+                  {
+                    "name": "Statue of Anguish Pattern",
+                    "card": "f5d2c6f5-0d03-4769-83b4-d403c35ef4ed",
+                    "yugipediaId": 334840,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Granmarg the Mega Monarch",
+      "card": "3ac90a63-2f89-47ee-8e6f-d33cf08fa4d9",
+      "yugipediaId": 271121,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "August 2019",
+          "runIndex": 1,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "missions",
+          "run": "August 2019",
+          "runIndex": 1,
+          "requirement": "Play 15 Duel(s) against Solemn Odion in Duel World. (surrenders are not counted.)"
+        }
+      ]
+    },
+    {
+      "name": "The Prime Monarch",
+      "card": "bccbf1fc-6a9d-43d9-964c-b4c88b681d2c",
+      "yugipediaId": 405142,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "August 2019",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "run": "August 2019",
+          "runIndex": 1,
+          "requirement": "Win 7 Duel(s) against Solemn Odion in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "The First Monarch",
+      "card": "3cbcdcbc-8d90-4184-b3c1-e5dc852e8072",
+      "yugipediaId": 306309,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "August 2019",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "May 2019",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "run": "August 2019",
+          "runIndex": 1,
+          "requirement": "Win 3 Duel(s) against Solemn Odion in Duel World."
+        },
+        {
+          "kind": "missions",
+          "run": "May 2019",
+          "runIndex": 0,
+          "requirement": "Win 7 Duel(s) against Solemn Odion in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Mystical Beast of Serket",
+      "card": "d4062776-a8e3-4c22-8db9-9b39ef5d4f51",
+      "yugipediaId": 8184,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "August 2019",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "May 2019",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Temple of the Kings",
+      "card": "78307fab-d9ea-4649-9832-d78447187fc5",
+      "yugipediaId": 2727,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "August 2019",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "May 2019",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "run": "May 2019",
+          "runIndex": 0,
+          "requirement": "Win 3 Duel(s) against Solemn Odion in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Grave Protector",
+      "card": "ddc16c4d-b869-4eb0-b56f-a674766b3769",
+      "yugipediaId": 18328,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "August 2019",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "May 2019",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "missions",
+          "run": "May 2019",
+          "runIndex": 0,
+          "requirement": "Win 1 Duel(s) against Solemn Odion in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Curse of Royal",
+      "card": "14508a57-388d-4274-a8e0-8b418fb81ede",
+      "yugipediaId": 8629,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "August 2019",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "May 2019",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Dark Coffin",
+      "card": "763f1735-77e1-4afd-a015-8916fe0382c2",
+      "yugipediaId": 14575,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "August 2019",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "May 2019",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Earthshaker",
+      "card": "93eec293-ae86-4313-a7c8-41886ef2b689",
+      "yugipediaId": 4859,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "August 2019",
+          "runIndex": 1,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "May 2019",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Stone Dragon",
+      "card": "95b7f884-d02d-49fe-98ab-48c3cdab5430",
+      "yugipediaId": 18884,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "August 2019",
+          "runIndex": 1,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "May 2019",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "missions",
+          "run": "August 2019",
+          "runIndex": 1,
+          "requirement": "Win 1 Duel(s) against Solemn Odion in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Statue of Anguish Pattern",
+      "card": "f5d2c6f5-0d03-4769-83b4-d403c35ef4ed",
+      "yugipediaId": 334840,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "May 2019",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "missions",
+          "run": "May 2019",
+          "runIndex": 0,
+          "requirement": "Play 15 Duel(s) against Solemn Odion in Duel World. (surrenders are not counted.)"
+        }
+      ]
+    },
+    {
+      "name": "That Wacky Alchemy!",
+      "card": "8ad65f44-ab4a-4954-aa1f-d8d978dc06bb",
+      "yugipediaId": 243051,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "May 2019",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Solemn Odion is here!",
+        "id": 612154
+      }
+    ]
+  }
+}

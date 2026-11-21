@@ -1,0 +1,646 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "8a02ee99-ce4f-4b18-9c1b-74388dda13ea",
+  "name": {
+    "en": "Sora Perse is here!"
+  },
+  "type": "Roaming Duelist event",
+  "duelWorlds": [
+    "Duel World (ARC-V)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/9/96/SoraPerseishere-Banner.png",
+  "runs": [
+    {
+      "startDate": "2022-03-19",
+      "endDate": "2022-03-26"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "In addition to the following, standard Duel Rewards are also available by Dueling Sora Perse at Level 30 or lower."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Fluffal Crane\"",
+                "cards": [
+                  {
+                    "name": "Fluffal Crane",
+                    "card": "7097550b-c12b-4bcc-acf5-61ce4cf26e32",
+                    "yugipediaId": 334356
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Fluffal Leo\", \"Battle of the Elements\", \"Miraculous Descent\", \"Toy Emperor\"",
+                "cards": [
+                  {
+                    "name": "Fluffal Leo",
+                    "card": "8f03c72c-22b2-48c4-b8fa-358726e73758",
+                    "yugipediaId": 350844
+                  },
+                  {
+                    "name": "Battle of the Elements",
+                    "card": "746d2913-621a-4cb8-a77d-62e416a0b41f",
+                    "yugipediaId": 102509
+                  },
+                  {
+                    "name": "Miraculous Descent",
+                    "card": "d34eb2e8-dbc1-4da7-b426-ce68a8ec55d7",
+                    "yugipediaId": 13287
+                  },
+                  {
+                    "name": "Toy Emperor",
+                    "card": "0f011263-9882-4302-b52e-f8d765224a69",
+                    "yugipediaId": 719936
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Mystical Sheep #1\", \"Thousand Needles\", \"Versago the Destroyer\"",
+                "cards": [
+                  {
+                    "name": "Mystical Sheep #1",
+                    "card": "56185738-a152-4e63-92a6-1147ca4ede60",
+                    "yugipediaId": 10998
+                  },
+                  {
+                    "name": "Thousand Needles",
+                    "card": "f20b14b6-600e-422e-9326-35361a52b7d7",
+                    "yugipediaId": 15931
+                  },
+                  {
+                    "name": "Versago the Destroyer",
+                    "card": "7fb2eab5-fe5d-4b01-893e-46dfb8c5911f",
+                    "yugipediaId": 505942
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Mystical Sheep #2\", \"Frenzied Panda\"",
+                "cards": [
+                  {
+                    "name": "Mystical Sheep #2",
+                    "card": "6c609cec-0be2-49ff-849d-9d035cff8b33",
+                    "yugipediaId": 505639
+                  },
+                  {
+                    "name": "Frenzied Panda",
+                    "card": "ed3a3cc6-a590-41c7-b4bc-abba4bdda838",
+                    "yugipediaId": 507217
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Rewards",
+        "Event Missions"
+      ],
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against Sora Perse in Duel World."
+              },
+              {
+                "text": "1 \"Versago the Destroyer\" (Glossy)",
+                "cards": [
+                  {
+                    "name": "Versago the Destroyer",
+                    "card": "7fb2eab5-fe5d-4b01-893e-46dfb8c5911f",
+                    "yugipediaId": 505942,
+                    "quantity": 1,
+                    "variant": "Glossy"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 3 Duel(s) against Sora Perse in Duel World."
+              },
+              {
+                "text": "1 \"Toy Emperor\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Toy Emperor",
+                    "card": "0f011263-9882-4302-b52e-f8d765224a69",
+                    "yugipediaId": 719936,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 7 Duel(s) against Sora Perse in Duel World."
+              },
+              {
+                "text": "1 \"Fluffal Leo\"",
+                "cards": [
+                  {
+                    "name": "Fluffal Leo",
+                    "card": "8f03c72c-22b2-48c4-b8fa-358726e73758",
+                    "yugipediaId": 350844,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Play 15 Duel(s) against Sora Perse in Duel World (surrenders are not counted)."
+              },
+              {
+                "text": "1 \"Fluffal Crane\"",
+                "cards": [
+                  {
+                    "name": "Fluffal Crane",
+                    "card": "7097550b-c12b-4bcc-acf5-61ce4cf26e32",
+                    "yugipediaId": 334356,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "decks": [
+    {
+      "path": [
+        "Decks",
+        "Level 30"
+      ],
+      "cards": [
+        {
+          "name": "Edge Imp Chain",
+          "card": "00bed5d6-f027-46ad-980a-8c8360797003",
+          "yugipediaId": 386437,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Edge Imp Frightfuloid",
+          "card": "e3d4f19d-4bb0-4347-8061-bcb2fc4888f6",
+          "yugipediaId": 332394,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Edge Imp Sabres",
+          "card": "23b805a2-ad79-4eea-bcb0-d01ac371983d",
+          "yugipediaId": 348761,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Edge Imp Saw",
+          "card": "c684ff45-1f60-4ba8-b1fb-4d87b237b098",
+          "yugipediaId": 376119,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Fluffal Bear",
+          "card": "cbf0e3bc-fc89-44c4-afe5-375d18bd22df",
+          "yugipediaId": 348918,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Fluffal Owl",
+          "card": "3f0a081b-501b-46bb-af7c-27b367da8c87",
+          "yugipediaId": 315624,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Fluffal Sheep",
+          "card": "bd62806a-f648-462a-a857-de7f51a1d851",
+          "yugipediaId": 374168,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Fluffal Wings",
+          "card": "0575959f-511d-4cc6-9d87-1ca40e2a990d",
+          "yugipediaId": 407911,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Frightfur Bear",
+          "card": "22b460ce-5463-4928-884d-9e20a050d4f5",
+          "yugipediaId": 348628,
+          "count": 1,
+          "category": "fusion monsters"
+        },
+        {
+          "name": "Frightfur Chimera",
+          "card": "b100edcb-fa21-402b-9800-9e3e47bc24f2",
+          "yugipediaId": 376337,
+          "count": 1,
+          "category": "fusion monsters"
+        },
+        {
+          "name": "Frightfur Factory",
+          "card": "de45c919-2f1f-47e4-b9bb-60c4bdef0d0f",
+          "yugipediaId": 332189,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Frightfur Reborn",
+          "card": "2111f1fa-d56e-494e-9f88-6f0cda1e7fcf",
+          "yugipediaId": 405015,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Polymerization",
+          "card": "54f38f67-5d19-4625-9a9a-e1445574d5bf",
+          "yugipediaId": 35,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Suture Rebirth",
+          "card": "ce930e64-383a-48a1-a386-f8924d039792",
+          "yugipediaId": 332588,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Toy Vendor",
+          "card": "b55232e3-da1d-4c8a-8d6f-2b981cdfab05",
+          "yugipediaId": 350548,
+          "count": 2,
+          "category": "spells"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Level 40"
+      ],
+      "cards": [
+        {
+          "name": "Edge Imp Chain",
+          "card": "00bed5d6-f027-46ad-980a-8c8360797003",
+          "yugipediaId": 386437,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Edge Imp Sabres",
+          "card": "23b805a2-ad79-4eea-bcb0-d01ac371983d",
+          "yugipediaId": 348761,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Edge Imp Saw",
+          "card": "c684ff45-1f60-4ba8-b1fb-4d87b237b098",
+          "yugipediaId": 376119,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Edge Imp Scythe",
+          "card": "504c791e-2aa3-4e7f-b8a7-8ac7b731cb79",
+          "yugipediaId": 714760,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Edge Imp Tomahawk",
+          "card": "1d56510c-a3cb-498c-8e00-e2b8bd9da63a",
+          "yugipediaId": 332529,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Fluffal Bear",
+          "card": "cbf0e3bc-fc89-44c4-afe5-375d18bd22df",
+          "yugipediaId": 348918,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Fluffal Dog",
+          "card": "715963c3-9adc-4603-8010-843319ca568c",
+          "yugipediaId": 309287,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Fluffal Dolphin",
+          "card": "a9de7340-e081-4940-a62f-7ff350f89f1f",
+          "yugipediaId": 714990,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Fluffal Leo",
+          "card": "8f03c72c-22b2-48c4-b8fa-358726e73758",
+          "yugipediaId": 350844,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Fluffal Owl",
+          "card": "3f0a081b-501b-46bb-af7c-27b367da8c87",
+          "yugipediaId": 315624,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Fluffal Penguin",
+          "card": "7c70e4ae-0eb1-409a-80a7-7653133d1327",
+          "yugipediaId": 394498,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Fluffal Wings",
+          "card": "0575959f-511d-4cc6-9d87-1ca40e2a990d",
+          "yugipediaId": 407911,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Frightfur Bear",
+          "card": "22b460ce-5463-4928-884d-9e20a050d4f5",
+          "yugipediaId": 348628,
+          "count": 1,
+          "category": "fusion monsters"
+        },
+        {
+          "name": "Frightfur Chimera",
+          "card": "b100edcb-fa21-402b-9800-9e3e47bc24f2",
+          "yugipediaId": 376337,
+          "count": 1,
+          "category": "fusion monsters"
+        },
+        {
+          "name": "Frightfur Daredevil",
+          "card": "fd7cd868-cc67-43e1-9acd-eaf5fc6e4a84",
+          "yugipediaId": 424828,
+          "count": 1,
+          "category": "fusion monsters"
+        },
+        {
+          "name": "Frightfur Wolf",
+          "card": "34dfeb71-9e39-4e40-bc7c-f7f6703b0ec7",
+          "yugipediaId": 315724,
+          "count": 1,
+          "category": "fusion monsters"
+        },
+        {
+          "name": "Frightfur Fusion",
+          "card": "d6f9118d-65b7-49e1-a7a8-18ca410eba74",
+          "yugipediaId": 332274,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Frightfur Patchwork",
+          "card": "664774e4-2d3d-4f43-a8b6-9711f5ad321b",
+          "yugipediaId": 396803,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Frightfur Reborn",
+          "card": "2111f1fa-d56e-494e-9f88-6f0cda1e7fcf",
+          "yugipediaId": 405015,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Polymerization",
+          "card": "54f38f67-5d19-4625-9a9a-e1445574d5bf",
+          "yugipediaId": 35,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Toy Vendor",
+          "card": "b55232e3-da1d-4c8a-8d6f-2b981cdfab05",
+          "yugipediaId": 350548,
+          "count": 2,
+          "category": "spells"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Fluffal Crane",
+      "card": "7097550b-c12b-4bcc-acf5-61ce4cf26e32",
+      "yugipediaId": 334356,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Play 15 Duel(s) against Sora Perse in Duel World (surrenders are not counted)."
+        }
+      ]
+    },
+    {
+      "name": "Fluffal Leo",
+      "card": "8f03c72c-22b2-48c4-b8fa-358726e73758",
+      "yugipediaId": 350844,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 7 Duel(s) against Sora Perse in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Battle of the Elements",
+      "card": "746d2913-621a-4cb8-a77d-62e416a0b41f",
+      "yugipediaId": 102509,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Miraculous Descent",
+      "card": "d34eb2e8-dbc1-4da7-b426-ce68a8ec55d7",
+      "yugipediaId": 13287,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Toy Emperor",
+      "card": "0f011263-9882-4302-b52e-f8d765224a69",
+      "yugipediaId": 719936,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 3 Duel(s) against Sora Perse in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Mystical Sheep #1",
+      "card": "56185738-a152-4e63-92a6-1147ca4ede60",
+      "yugipediaId": 10998,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Thousand Needles",
+      "card": "f20b14b6-600e-422e-9326-35361a52b7d7",
+      "yugipediaId": 15931,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Versago the Destroyer",
+      "card": "7fb2eab5-fe5d-4b01-893e-46dfb8c5911f",
+      "yugipediaId": 505942,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 1 Duel(s) against Sora Perse in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Mystical Sheep #2",
+      "card": "6c609cec-0be2-49ff-849d-9d035cff8b33",
+      "yugipediaId": 505639,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Frenzied Panda",
+      "card": "ed3a3cc6-a590-41c7-b4bc-abba4bdda838",
+      "yugipediaId": 507217,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Sora Perse is here!",
+        "id": 1128631
+      }
+    ]
+  }
+}

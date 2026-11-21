@@ -1,0 +1,116 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "46a0d795-7002-447d-9c2e-2f5bf43c7148",
+  "name": {
+    "en": "777,777 Pre-registrants Campaign"
+  },
+  "rushDuel": false,
+  "runs": [
+    {
+      "startDate": "2016-11-17",
+      "endDate": "2017-02-28"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "other",
+      "path": [
+        "Rewards"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "Players who logged into Yu-Gi-Oh! Duel Links during the duration of the event would receive all of the following rewards"
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "777 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Card Sleeves: Dark Magician"
+              }
+            ],
+            [
+              {
+                "text": "Card Sleeves: Blue-Eyes White Dragon"
+              }
+            ],
+            [
+              {
+                "text": "Game Mat: Yami Yugi"
+              }
+            ],
+            [
+              {
+                "text": "Game Mat: Seto Kaiba"
+              }
+            ],
+            [
+              {
+                "text": "1 \u201cDark Magician\u201d (original artwork)",
+                "cards": [
+                  {
+                    "name": "Dark Magician",
+                    "card": "cf059913-791c-4a39-a210-2a360345c841",
+                    "yugipediaId": 1132
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "1 \u201cBlue-Eyes White Dragon\u201d (original artwork)",
+                "cards": [
+                  {
+                    "name": "Blue-Eyes White Dragon",
+                    "card": "ee6249a6-f980-43b3-8e39-4ee5c89c09c0",
+                    "yugipediaId": 30
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Dark Magician",
+      "card": "cf059913-791c-4a39-a210-2a360345c841",
+      "yugipediaId": 1132,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "runIndex": 0
+        }
+      ]
+    },
+    {
+      "name": "Blue-Eyes White Dragon",
+      "card": "ee6249a6-f980-43b3-8e39-4ee5c89c09c0",
+      "yugipediaId": 30,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "runIndex": 0
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "777,777 Pre-registrants Campaign",
+        "id": 1133467
+      }
+    ]
+  }
+}

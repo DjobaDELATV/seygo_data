@@ -1,0 +1,615 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "84167411-2d0a-4be4-a081-db20773b7667",
+  "name": {
+    "en": "Shay Obsidian is here!"
+  },
+  "type": "Roaming Duelist event",
+  "duelWorlds": [
+    "Duel World (ARC-V)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/5/56/ShayObsidianishere-Banner.png",
+  "runs": [
+    {
+      "startDate": "2023-01-18",
+      "endDate": "2023-01-26"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "In addition to the following, standard Duel Rewards are also available by Dueling Shay Obsidian at Level 30 or lower."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Raidraptor - Blade Burner Falcon\"",
+                "cards": [
+                  {
+                    "name": "Raidraptor - Blade Burner Falcon",
+                    "card": "8871db1d-c36f-47bd-b44d-2919cba26bc6",
+                    "yugipediaId": 443381
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Raidraptor - Vanishing Lanius\", \"Breaker the Dark Magical Warrior\", \"Battle of the Elements\", \"Imprudent Intrusion\"",
+                "cards": [
+                  {
+                    "name": "Raidraptor - Vanishing Lanius",
+                    "card": "93393b42-9afe-49c4-9c78-a1a6c2494802",
+                    "yugipediaId": 321704
+                  },
+                  {
+                    "name": "Breaker the Dark Magical Warrior",
+                    "card": "8c2cbd32-3634-4cd8-9c8c-9f0af2447255",
+                    "yugipediaId": 336106
+                  },
+                  {
+                    "name": "Battle of the Elements",
+                    "card": "746d2913-621a-4cb8-a77d-62e416a0b41f",
+                    "yugipediaId": 102509
+                  },
+                  {
+                    "name": "Imprudent Intrusion",
+                    "card": "36554fb8-0e8b-415e-9acb-210180b311ff",
+                    "yugipediaId": 715402
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Dark Mambele\", \"Mirror of Oaths\", \"Double Payback\", \"Crevice Into the Different Dimension\", \"Chain Destruction\"",
+                "cards": [
+                  {
+                    "name": "Dark Mambele",
+                    "card": "fc969663-c5f3-4b01-b78b-31605432a621",
+                    "yugipediaId": 194452
+                  },
+                  {
+                    "name": "Mirror of Oaths",
+                    "card": "ac83d6e0-8c80-466c-86c4-8ffe9197c256",
+                    "yugipediaId": 59354
+                  },
+                  {
+                    "name": "Double Payback",
+                    "card": "ae45b8ff-a57b-4210-9160-26e446c96900",
+                    "yugipediaId": 211506
+                  },
+                  {
+                    "name": "Crevice Into the Different Dimension",
+                    "card": "9e32951d-be2e-4608-9373-3f5acc67b1a4",
+                    "yugipediaId": 127196
+                  },
+                  {
+                    "name": "Chain Destruction",
+                    "card": "4c054d55-8529-42e9-8978-16702259b1bb",
+                    "yugipediaId": 4593
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Rewards",
+        "Event Missions"
+      ],
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against Shay Obsidian in Duel World."
+              },
+              {
+                "text": "1 \"Crevice Into the Different Dimension\" (Glossy)",
+                "cards": [
+                  {
+                    "name": "Crevice Into the Different Dimension",
+                    "card": "9e32951d-be2e-4608-9373-3f5acc67b1a4",
+                    "yugipediaId": 127196,
+                    "quantity": 1,
+                    "variant": "Glossy"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 3 Duel(s) against Shay Obsidian in Duel World."
+              },
+              {
+                "text": "1 \"Breaker the Dark Magical Warrior\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Breaker the Dark Magical Warrior",
+                    "card": "8c2cbd32-3634-4cd8-9c8c-9f0af2447255",
+                    "yugipediaId": 336106,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 7 Duel(s) against Shay Obsidian in Duel World."
+              },
+              {
+                "text": "1 \"Raidraptor - Vanishing Lanius\"",
+                "cards": [
+                  {
+                    "name": "Raidraptor - Vanishing Lanius",
+                    "card": "93393b42-9afe-49c4-9c78-a1a6c2494802",
+                    "yugipediaId": 321704,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Play 15 Duel(s) against Shay Obsidian in Duel World (surrenders are not counted)."
+              },
+              {
+                "text": "1 \"Raidraptor - Blade Burner Falcon\"",
+                "cards": [
+                  {
+                    "name": "Raidraptor - Blade Burner Falcon",
+                    "card": "8871db1d-c36f-47bd-b44d-2919cba26bc6",
+                    "yugipediaId": 443381,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "decks": [
+    {
+      "path": [
+        "Decks",
+        "Level 30"
+      ],
+      "cards": [
+        {
+          "name": "Skull Red Bird",
+          "card": "ec2caf99-3985-495b-b711-55c9994f36ee",
+          "yugipediaId": 507547,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Raidraptor - Vanishing Lanius",
+          "card": "93393b42-9afe-49c4-9c78-a1a6c2494802",
+          "yugipediaId": 321704,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Raidraptor - Wild Vulture",
+          "card": "9377c1a6-e152-4bf5-b8d5-1133f0751e1f",
+          "yugipediaId": 409204,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Raidraptor - Fuzzy Lanius",
+          "card": "4ed5e089-586a-43ce-b1a6-f738252206a1",
+          "yugipediaId": 334267,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Raidraptor - Mimicry Lanius",
+          "card": "eb6cc265-1457-435b-bf5c-cca5a4fb08e7",
+          "yugipediaId": 368756,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Raidraptor - Singing Lanius",
+          "card": "d59465d6-819d-4864-abfc-83d0fad93b3c",
+          "yugipediaId": 351320,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Raidraptor - Heel Eagle",
+          "card": "90b2c74a-5f55-4562-b9b9-348ef8bd3856",
+          "yugipediaId": 716361,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Raidraptor - Skull Eagle",
+          "card": "6227cd00-e7d8-49cd-b931-d679b9712811",
+          "yugipediaId": 403049,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Raidraptor - Blaze Falcon",
+          "card": "939f407f-5961-401d-836c-f56d6a14dec1",
+          "yugipediaId": 368901,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Raidraptor - Rise Falcon",
+          "card": "aa31d24a-e1a2-4c81-974e-a9f887c39171",
+          "yugipediaId": 330724,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Raidraptor - Fiend Eagle",
+          "card": "c45b778d-4b8c-4f12-a8c4-adbe11de55ec",
+          "yugipediaId": 399102,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Swallow's Nest",
+          "card": "461ebf12-be4a-4a71-93a9-92e46d500d44",
+          "yugipediaId": 101627,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Darkness Approaches",
+          "card": "b1abc474-3eaf-4c93-9f0d-f8360836b671",
+          "yugipediaId": 3435,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Raidraptor - Nest",
+          "card": "3e5eaf92-d9db-456c-9445-f192210d1eb2",
+          "yugipediaId": 314631,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Raidraptor - Return",
+          "card": "4c73805c-c85e-4688-af64-c42c2ca25f3b",
+          "yugipediaId": 340271,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Raidraptor Replica",
+          "card": "b07f7f8b-d7a4-4132-88b5-75cceed95364",
+          "yugipediaId": 411433,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Level 40"
+      ],
+      "cards": [
+        {
+          "name": "Raidraptor - Vanishing Lanius",
+          "card": "93393b42-9afe-49c4-9c78-a1a6c2494802",
+          "yugipediaId": 321704,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Raidraptor - Fuzzy Lanius",
+          "card": "4ed5e089-586a-43ce-b1a6-f738252206a1",
+          "yugipediaId": 334267,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Raidraptor - Mimicry Lanius",
+          "card": "eb6cc265-1457-435b-bf5c-cca5a4fb08e7",
+          "yugipediaId": 368756,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Raidraptor - Sharp Lanius",
+          "card": "fb981294-28e0-4a3b-b761-36a251a01782",
+          "yugipediaId": 368820,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Raidraptor - Singing Lanius",
+          "card": "d59465d6-819d-4864-abfc-83d0fad93b3c",
+          "yugipediaId": 351320,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Raidraptor - Strangle Lanius",
+          "card": "52f34d55-517e-40a3-ac61-5574da87a879",
+          "yugipediaId": 716362,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Raidraptor - Tribute Lanius",
+          "card": "8719dc39-aa7b-471d-a69f-fecc0eb5170a",
+          "yugipediaId": 369375,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Raidraptor - Pain Lanius",
+          "card": "9f09e45b-2ca5-4a36-a463-7f9c6cb87ed8",
+          "yugipediaId": 398715,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Raidraptor - Blade Burner Falcon",
+          "card": "8871db1d-c36f-47bd-b44d-2919cba26bc6",
+          "yugipediaId": 443381,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Raidraptor - Blaze Falcon",
+          "card": "939f407f-5961-401d-836c-f56d6a14dec1",
+          "yugipediaId": 368901,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Raidraptor - Force Strix",
+          "card": "05fa93f7-ceda-427c-9920-c6b3bd679f7c",
+          "yugipediaId": 324392,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Raidraptor - Rise Falcon",
+          "card": "aa31d24a-e1a2-4c81-974e-a9f887c39171",
+          "yugipediaId": 330724,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Raidraptor - Fiend Eagle",
+          "card": "c45b778d-4b8c-4f12-a8c4-adbe11de55ec",
+          "yugipediaId": 399102,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Raidraptor - Call",
+          "card": "0a52bea9-d0ef-48ac-9855-6dd6e4a91abf",
+          "yugipediaId": 433015,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Raidraptor - Nest",
+          "card": "3e5eaf92-d9db-456c-9445-f192210d1eb2",
+          "yugipediaId": 314631,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Raidraptor - Return",
+          "card": "4c73805c-c85e-4688-af64-c42c2ca25f3b",
+          "yugipediaId": 340271,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Raidraptor Replica",
+          "card": "b07f7f8b-d7a4-4132-88b5-75cceed95364",
+          "yugipediaId": 411433,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Raidraptor - Blade Burner Falcon",
+      "card": "8871db1d-c36f-47bd-b44d-2919cba26bc6",
+      "yugipediaId": 443381,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Play 15 Duel(s) against Shay Obsidian in Duel World (surrenders are not counted)."
+        }
+      ]
+    },
+    {
+      "name": "Raidraptor - Vanishing Lanius",
+      "card": "93393b42-9afe-49c4-9c78-a1a6c2494802",
+      "yugipediaId": 321704,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 7 Duel(s) against Shay Obsidian in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Breaker the Dark Magical Warrior",
+      "card": "8c2cbd32-3634-4cd8-9c8c-9f0af2447255",
+      "yugipediaId": 336106,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 3 Duel(s) against Shay Obsidian in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Battle of the Elements",
+      "card": "746d2913-621a-4cb8-a77d-62e416a0b41f",
+      "yugipediaId": 102509,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Imprudent Intrusion",
+      "card": "36554fb8-0e8b-415e-9acb-210180b311ff",
+      "yugipediaId": 715402,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Dark Mambele",
+      "card": "fc969663-c5f3-4b01-b78b-31605432a621",
+      "yugipediaId": 194452,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Mirror of Oaths",
+      "card": "ac83d6e0-8c80-466c-86c4-8ffe9197c256",
+      "yugipediaId": 59354,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Double Payback",
+      "card": "ae45b8ff-a57b-4210-9160-26e446c96900",
+      "yugipediaId": 211506,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Crevice Into the Different Dimension",
+      "card": "9e32951d-be2e-4608-9373-3f5acc67b1a4",
+      "yugipediaId": 127196,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 1 Duel(s) against Shay Obsidian in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Chain Destruction",
+      "card": "4c054d55-8529-42e9-8978-16702259b1bb",
+      "yugipediaId": 4593,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Shay Obsidian is here!",
+        "id": 1011636
+      }
+    ]
+  }
+}

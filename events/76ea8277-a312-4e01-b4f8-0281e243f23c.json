@@ -1,0 +1,5434 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "76ea8277-a312-4e01-b4f8-0281e243f23c",
+  "name": {
+    "en": "Raid Duel - Giant Grinder: The Meet-And-Greet of Nightmares",
+    "it": "Duello di assalto: Macinatore Gigante - Incontro con l'incubo"
+  },
+  "type": "Raid Duel",
+  "duelWorlds": [
+    "Duel World (ZEXAL)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/e/ee/RaidDuelGiantGrinderTheMeetAndGreetofNightmares-Banner.png",
+  "runs": [
+    {
+      "startDate": "2021-06-29",
+      "endDate": "2021-07-08"
+    },
+    {
+      "startDate": "2021-09-20",
+      "endDate": "2021-09-27"
+    }
+  ],
+  "cardTraderExDates": [
+    {
+      "startDate": "2021-06-29",
+      "endDate": "2021-07-15"
+    },
+    {
+      "startDate": "2021-09-20",
+      "endDate": "2021-10-04"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "cumulativeRewards",
+      "path": [
+        "Rewards",
+        "Cumulative Rewards"
+      ],
+      "notes": [
+        "The following rewards were awarded during this event, based on event points accumulated over the its course:"
+      ]
+    },
+    {
+      "kind": "cumulativeRewards",
+      "path": [
+        "Rewards",
+        "Cumulative Rewards"
+      ],
+      "run": "September 2021",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "10000"
+              },
+              {
+                "text": "5 Gems"
+              }
+            ],
+            [
+              {
+                "text": "20000"
+              },
+              {
+                "text": "1000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "40000"
+              },
+              {
+                "text": "5 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "60000"
+              },
+              {
+                "text": "5 Gems"
+              }
+            ],
+            [
+              {
+                "text": "80000"
+              },
+              {
+                "text": "1 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "100000"
+              },
+              {
+                "text": "1000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "130000"
+              },
+              {
+                "text": "5 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "160000"
+              },
+              {
+                "text": "5 Gems"
+              }
+            ],
+            [
+              {
+                "text": "190000"
+              },
+              {
+                "text": "3 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "220000"
+              },
+              {
+                "text": "1000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "250000"
+              },
+              {
+                "text": "1 \"Yaiba Robo\" (Glossy)",
+                "cards": [
+                  {
+                    "name": "Yaiba Robo",
+                    "card": "e6d5320f-d064-4d43-ae43-6ec962b1ae40",
+                    "yugipediaId": 19439,
+                    "quantity": 1,
+                    "variant": "Glossy"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "280000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "310000"
+              },
+              {
+                "text": "5 Gems"
+              }
+            ],
+            [
+              {
+                "text": "340000"
+              },
+              {
+                "text": "1 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "370000"
+              },
+              {
+                "text": "2000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "400000"
+              },
+              {
+                "text": "1 \"Dark Mambele\" (Glossy)",
+                "cards": [
+                  {
+                    "name": "Dark Mambele",
+                    "card": "fc969663-c5f3-4b01-b78b-31605432a621",
+                    "yugipediaId": 194452,
+                    "quantity": 1,
+                    "variant": "Glossy"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "430000"
+              },
+              {
+                "text": "5 Gems"
+              }
+            ],
+            [
+              {
+                "text": "470000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "510000"
+              },
+              {
+                "text": "3 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "550000"
+              },
+              {
+                "text": "5 Gems"
+              }
+            ],
+            [
+              {
+                "text": "590000"
+              },
+              {
+                "text": "4000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "630000"
+              },
+              {
+                "text": "1 Results Booster"
+              }
+            ],
+            [
+              {
+                "text": "670000"
+              },
+              {
+                "text": "20 Invitations from Quattro"
+              }
+            ],
+            [
+              {
+                "text": "710000"
+              },
+              {
+                "text": "1 \"Gimmick Puppet Gear Changer\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Gimmick Puppet Gear Changer",
+                    "card": "f416c197-e187-42c8-b116-557c90fd37f8",
+                    "yugipediaId": 206061,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "750000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "800000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "850000"
+              },
+              {
+                "text": "4000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "900000"
+              },
+              {
+                "text": "1 EX Draw & Summon"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "950000"
+              },
+              {
+                "text": "1 EXP Booster"
+              }
+            ],
+            [
+              {
+                "text": "1000000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1050000"
+              },
+              {
+                "text": "20 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "1100000"
+              },
+              {
+                "text": "3 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "1150000"
+              },
+              {
+                "text": "4000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1200000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1250000"
+              },
+              {
+                "text": "20 Invitations from Quattro"
+              }
+            ],
+            [
+              {
+                "text": "1300000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "1380000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1460000"
+              },
+              {
+                "text": "4000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1540000"
+              },
+              {
+                "text": "20 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "1620000"
+              },
+              {
+                "text": "1 EX Draw & Summon"
+              }
+            ],
+            [
+              {
+                "text": "1700000"
+              },
+              {
+                "text": "4000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1780000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1860000"
+              },
+              {
+                "text": "20 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "1940000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "2020000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "2100000"
+              },
+              {
+                "text": "3 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "2180000"
+              },
+              {
+                "text": "20 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "2260000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "2340000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "2420000"
+              },
+              {
+                "text": "20 Invitations from Quattro"
+              }
+            ],
+            [
+              {
+                "text": "2500000"
+              },
+              {
+                "text": "1 \"Gimmick Puppet Des Troy\"",
+                "cards": [
+                  {
+                    "name": "Gimmick Puppet Des Troy",
+                    "card": "e1c583eb-0154-4c9b-8e29-7a55a1de26fa",
+                    "yugipediaId": 289194,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "2600000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "2700000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "2800000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "3000000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "3200000"
+              },
+              {
+                "text": "20 R Jewels"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "3400000"
+              },
+              {
+                "text": "1 EX Draw & Summon"
+              }
+            ],
+            [
+              {
+                "text": "3600000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "3800000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "4000000"
+              },
+              {
+                "text": "20 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "4200000"
+              },
+              {
+                "text": "4 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "4400000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "4700000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "5000000"
+              },
+              {
+                "text": "Game Mat: Giant Grinder: The Meet-And-Greet of Nightmares"
+              }
+            ],
+            [
+              {
+                "text": "5500000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "6000000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "6500000"
+              },
+              {
+                "text": "20 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "7000000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "7500000"
+              },
+              {
+                "text": "4 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "8000000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "8500000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "9000000"
+              },
+              {
+                "text": "1 UR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "9500000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "10000000"
+              },
+              {
+                "text": "1 \"Gimmick Puppet Scissor Arms\"",
+                "cards": [
+                  {
+                    "name": "Gimmick Puppet Scissor Arms",
+                    "card": "79c39a3a-d3e2-4980-ba7f-0776db8babd1",
+                    "yugipediaId": 215808,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10500000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "11000000"
+              },
+              {
+                "text": "5 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "11500000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "12000000"
+              },
+              {
+                "text": "Icon"
+              }
+            ],
+            [
+              {
+                "text": "13000000"
+              },
+              {
+                "text": "15000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "14000000"
+              },
+              {
+                "text": "50 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "15000000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "16000000"
+              },
+              {
+                "text": "Raid Duel - Giant Grinder: The Meet-And-Greet of Nightmares Completed (Title)"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "cumulativeRewards",
+      "path": [
+        "Rewards",
+        "Cumulative Rewards"
+      ],
+      "run": "Jun-Jul 2021",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "20000"
+              },
+              {
+                "text": "5 Gems"
+              }
+            ],
+            [
+              {
+                "text": "40000"
+              },
+              {
+                "text": "1000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "60000"
+              },
+              {
+                "text": "5 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "80000"
+              },
+              {
+                "text": "5 Gems"
+              }
+            ],
+            [
+              {
+                "text": "120000"
+              },
+              {
+                "text": "1 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "160000"
+              },
+              {
+                "text": "5 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "200000"
+              },
+              {
+                "text": "5 Gems"
+              }
+            ],
+            [
+              {
+                "text": "240000"
+              },
+              {
+                "text": "1000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "280000"
+              },
+              {
+                "text": "3 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "320000"
+              },
+              {
+                "text": "1 \"Brave Scizzar\" (Glossy)",
+                "cards": [
+                  {
+                    "name": "Brave Scizzar",
+                    "card": "257eaf68-b348-4d9b-869c-b8472e25b754",
+                    "yugipediaId": 9539,
+                    "quantity": 1,
+                    "variant": "Glossy"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "360000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "400000"
+              },
+              {
+                "text": "5 Gems"
+              }
+            ],
+            [
+              {
+                "text": "460000"
+              },
+              {
+                "text": "1 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "520000"
+              },
+              {
+                "text": "1000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "580000"
+              },
+              {
+                "text": "1 \"Maniacal Servant\" (Glossy)",
+                "cards": [
+                  {
+                    "name": "Maniacal Servant",
+                    "card": "26c4d953-22ad-47b3-a355-794ed00a45c9",
+                    "yugipediaId": 32091,
+                    "quantity": 1,
+                    "variant": "Glossy"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "640000"
+              },
+              {
+                "text": "5 Gems"
+              }
+            ],
+            [
+              {
+                "text": "720000"
+              },
+              {
+                "text": "1000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "800000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "880000"
+              },
+              {
+                "text": "3 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "960000"
+              },
+              {
+                "text": "2000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1040000"
+              },
+              {
+                "text": "5 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1120000"
+              },
+              {
+                "text": "20 Invitations from Quattro"
+              }
+            ],
+            [
+              {
+                "text": "1200000"
+              },
+              {
+                "text": "1 \"Gimmick Puppet Magnet Doll\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Gimmick Puppet Magnet Doll",
+                    "card": "cf7f240f-3876-4b78-ab30-71846ca1a126",
+                    "yugipediaId": 206148,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "1260000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1340000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "1420000"
+              },
+              {
+                "text": "2000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1500000"
+              },
+              {
+                "text": "1 EX Draw & Summon"
+              }
+            ],
+            [
+              {
+                "text": "1580000"
+              },
+              {
+                "text": "2 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "1660000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1740000"
+              },
+              {
+                "text": "2000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1820000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "1900000"
+              },
+              {
+                "text": "3 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "1980000"
+              },
+              {
+                "text": "2000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "2060000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "2140000"
+              },
+              {
+                "text": "20 Invitations from Quattro"
+              }
+            ],
+            [
+              {
+                "text": "2220000"
+              },
+              {
+                "text": "2 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "2300000"
+              },
+              {
+                "text": "Card Sleeves: Giant Grinder: The Meet-And-Greet of Nightmares"
+              }
+            ],
+            [
+              {
+                "text": "2400000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "2500000"
+              },
+              {
+                "text": "2000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "2600000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "2700000"
+              },
+              {
+                "text": "2000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "2800000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "2900000"
+              },
+              {
+                "text": "1 EX Draw & Summon"
+              }
+            ],
+            [
+              {
+                "text": "3000000"
+              },
+              {
+                "text": "2000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "3100000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "3200000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "3300000"
+              },
+              {
+                "text": "3 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "3400000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "3500000"
+              },
+              {
+                "text": "2000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "3600000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "3700000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "3800000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "3950000"
+              },
+              {
+                "text": "20 Invitations from Quattro"
+              }
+            ],
+            [
+              {
+                "text": "4100000"
+              },
+              {
+                "text": "1 \"Gimmick Puppet Gear Changer\"",
+                "cards": [
+                  {
+                    "name": "Gimmick Puppet Gear Changer",
+                    "card": "f416c197-e187-42c8-b116-557c90fd37f8",
+                    "yugipediaId": 206061,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "4250000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "4400000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "4600000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "4800000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "5000000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "5200000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "5400000"
+              },
+              {
+                "text": "1 EX Draw & Summon"
+              }
+            ],
+            [
+              {
+                "text": "5600000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "5800000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "6000000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "6200000"
+              },
+              {
+                "text": "4 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "6400000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "6600000"
+              },
+              {
+                "text": "1 UR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "6800000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "7100000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "7400000"
+              },
+              {
+                "text": "20 Invitations from Quattro"
+              }
+            ],
+            [
+              {
+                "text": "7700000"
+              },
+              {
+                "text": "Game Mat: Giant Grinder: The Meet-And-Greet of Nightmares"
+              }
+            ],
+            [
+              {
+                "text": "8000000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "8300000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "8600000"
+              },
+              {
+                "text": "20 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "9200000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "9800000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "10400000"
+              },
+              {
+                "text": "4 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "11000000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "11600000"
+              },
+              {
+                "text": "20 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "12200000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "12800000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "13400000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "14000000"
+              },
+              {
+                "text": "1 \"Gimmick Puppet Twilight Joker\"",
+                "cards": [
+                  {
+                    "name": "Gimmick Puppet Twilight Joker",
+                    "card": "3d737eff-45e6-45e7-8985-e0b88e30cd4a",
+                    "yugipediaId": 206219,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "14600000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "15200000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "16000000"
+              },
+              {
+                "text": "5 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "17000000"
+              },
+              {
+                "text": "2 SR Jewels"
+              }
+            ],
+            [
+              {
+                "text": "18000000"
+              },
+              {
+                "text": "Icon"
+              }
+            ],
+            [
+              {
+                "text": "19000000"
+              },
+              {
+                "text": "15000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "20000000"
+              },
+              {
+                "text": "50 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "21000000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "22000000"
+              },
+              {
+                "text": "1 UR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "23000000"
+              },
+              {
+                "text": "Raid Duel - Giant Grinder: The Meet-And-Greet of Nightmares Completed (Title)"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "treasureBoxes",
+      "path": [
+        "Rewards",
+        "Treasure Boxes"
+      ],
+      "notes": [
+        "Every time the player defeats Number 15: Gimmick Puppet Giant Grinder, they will be awarded with Treasure Boxes of different types."
+      ]
+    },
+    {
+      "kind": "treasureBoxes",
+      "path": [
+        "Rewards",
+        "Treasure Boxes"
+      ],
+      "run": "September 2021",
+      "runIndex": 1,
+      "tables": [
+        {
+          "rows": [
+            [
+              {
+                "text": ""
+              },
+              {
+                "text": "Rewards"
+              }
+            ],
+            [
+              {
+                "text": "Rainbow"
+              },
+              {
+                "text": "\"Gimmick Puppet Scissor Arms\" (UR), \"Gimmick Puppet Twilight Joker\" (UR), \"Gimmick Puppet Egg Head\" (UR), \"Gimmick Puppet Des Troy\" (SR), \"Gimmick Puppet Gear Changer\" (SR), \"Gimmick Puppet Magnet Doll\" (SR), \"Dark Crusader\" (SR)\n20 or 10 Gems",
+                "cards": [
+                  {
+                    "name": "Gimmick Puppet Scissor Arms",
+                    "card": "79c39a3a-d3e2-4980-ba7f-0776db8babd1",
+                    "yugipediaId": 215808,
+                    "rarity": "UR"
+                  },
+                  {
+                    "name": "Gimmick Puppet Twilight Joker",
+                    "card": "3d737eff-45e6-45e7-8985-e0b88e30cd4a",
+                    "yugipediaId": 206219,
+                    "rarity": "UR"
+                  },
+                  {
+                    "name": "Gimmick Puppet Egg Head",
+                    "card": "6dc0314d-e242-4b6a-9e4b-6ffe7af8e93e",
+                    "yugipediaId": 200853,
+                    "rarity": "UR"
+                  },
+                  {
+                    "name": "Gimmick Puppet Des Troy",
+                    "card": "e1c583eb-0154-4c9b-8e29-7a55a1de26fa",
+                    "yugipediaId": 289194,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Gimmick Puppet Gear Changer",
+                    "card": "f416c197-e187-42c8-b116-557c90fd37f8",
+                    "yugipediaId": 206061,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Gimmick Puppet Magnet Doll",
+                    "card": "cf7f240f-3876-4b78-ab30-71846ca1a126",
+                    "yugipediaId": 206148,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Dark Crusader",
+                    "card": "48482748-59d7-4e77-b451-6c4c79457879",
+                    "yugipediaId": 75178,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Gold"
+              },
+              {
+                "text": "\"Gimmick Puppet Des Troy\" (SR), \"Gimmick Puppet Gear Changer\" (SR), \"Gimmick Puppet Magnet Doll\" (SR), \"Dark Crusader\" (SR), \"Maniacal Servant\" (R), \"Dark Mambele\" (R)\n8 or 5 EX Jewel(s) (Raid Duel)\n5 or 1 Gem(s)\n1000 or 300 Gold",
+                "cards": [
+                  {
+                    "name": "Gimmick Puppet Des Troy",
+                    "card": "e1c583eb-0154-4c9b-8e29-7a55a1de26fa",
+                    "yugipediaId": 289194,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Gimmick Puppet Gear Changer",
+                    "card": "f416c197-e187-42c8-b116-557c90fd37f8",
+                    "yugipediaId": 206061,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Gimmick Puppet Magnet Doll",
+                    "card": "cf7f240f-3876-4b78-ab30-71846ca1a126",
+                    "yugipediaId": 206148,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Dark Crusader",
+                    "card": "48482748-59d7-4e77-b451-6c4c79457879",
+                    "yugipediaId": 75178,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Maniacal Servant",
+                    "card": "26c4d953-22ad-47b3-a355-794ed00a45c9",
+                    "yugipediaId": 32091,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Dark Mambele",
+                    "card": "fc969663-c5f3-4b01-b78b-31605432a621",
+                    "yugipediaId": 194452,
+                    "rarity": "R"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Silver"
+              },
+              {
+                "text": "\"Maniacal Servant\" (R), \"Dark Mambele\" (R), \"Blocker\" (N), \"Brave Scizzar\" (N), \"Yaiba Robo\" (N)\n3 EX Jewel(s) (Raid Duel)\n200 or 50 Gold\n7 or 3 Gate Keys (White, Black, Blue, Red, Yellow, or Green)",
+                "cards": [
+                  {
+                    "name": "Maniacal Servant",
+                    "card": "26c4d953-22ad-47b3-a355-794ed00a45c9",
+                    "yugipediaId": 32091,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Dark Mambele",
+                    "card": "fc969663-c5f3-4b01-b78b-31605432a621",
+                    "yugipediaId": 194452,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Blocker",
+                    "card": "1d3c0dd8-6761-4aec-a472-4415e1105ada",
+                    "yugipediaId": 9181,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Brave Scizzar",
+                    "card": "257eaf68-b348-4d9b-869c-b8472e25b754",
+                    "yugipediaId": 9539,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Yaiba Robo",
+                    "card": "e6d5320f-d064-4d43-ae43-6ec962b1ae40",
+                    "yugipediaId": 19439,
+                    "rarity": "N"
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "treasureBoxes",
+      "path": [
+        "Rewards",
+        "Treasure Boxes"
+      ],
+      "run": "Jun-Jul 2021",
+      "runIndex": 0,
+      "tables": [
+        {
+          "rows": [
+            [
+              {
+                "text": ""
+              },
+              {
+                "text": "Rewards"
+              }
+            ],
+            [
+              {
+                "text": "Rainbow"
+              },
+              {
+                "text": "\"Gimmick Puppet Twilight Joker\" (UR), \"Gimmick Puppet Egg Head\" (UR), \"Umbramirage the Elemental Lord\" (UR), \"Gimmick Puppet Gear Changer\" (SR), \"Gimmick Puppet Magnet Doll\" (SR), \"Dark Crusader\" (SR), \"Obsidian Dragon\" (SR)\n20 or 10 Gems",
+                "cards": [
+                  {
+                    "name": "Gimmick Puppet Twilight Joker",
+                    "card": "3d737eff-45e6-45e7-8985-e0b88e30cd4a",
+                    "yugipediaId": 206219,
+                    "rarity": "UR"
+                  },
+                  {
+                    "name": "Gimmick Puppet Egg Head",
+                    "card": "6dc0314d-e242-4b6a-9e4b-6ffe7af8e93e",
+                    "yugipediaId": 200853,
+                    "rarity": "UR"
+                  },
+                  {
+                    "name": "Umbramirage the Elemental Lord",
+                    "card": "3b49f5fe-8faf-4554-958a-bb105c89480e",
+                    "yugipediaId": 557270,
+                    "rarity": "UR"
+                  },
+                  {
+                    "name": "Gimmick Puppet Gear Changer",
+                    "card": "f416c197-e187-42c8-b116-557c90fd37f8",
+                    "yugipediaId": 206061,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Gimmick Puppet Magnet Doll",
+                    "card": "cf7f240f-3876-4b78-ab30-71846ca1a126",
+                    "yugipediaId": 206148,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Dark Crusader",
+                    "card": "48482748-59d7-4e77-b451-6c4c79457879",
+                    "yugipediaId": 75178,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Obsidian Dragon",
+                    "card": "13124e40-22ba-4064-b5fe-2bcd3aaf3ff1",
+                    "yugipediaId": 70049,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Gold"
+              },
+              {
+                "text": "\"Gimmick Puppet Gear Changer\" (SR), \"Gimmick Puppet Magnet Doll\" (SR), \"Dark Crusader\" (SR), \"Obsidian Dragon\" (SR), \"Maniacal Servant\" (R), \"Dark Mambele\" (R)\n5 or 3 EX Jewel(s) (Raid Duel)\n5 or 1 Gem(s)\n1000 or 300 Gold",
+                "cards": [
+                  {
+                    "name": "Gimmick Puppet Gear Changer",
+                    "card": "f416c197-e187-42c8-b116-557c90fd37f8",
+                    "yugipediaId": 206061,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Gimmick Puppet Magnet Doll",
+                    "card": "cf7f240f-3876-4b78-ab30-71846ca1a126",
+                    "yugipediaId": 206148,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Dark Crusader",
+                    "card": "48482748-59d7-4e77-b451-6c4c79457879",
+                    "yugipediaId": 75178,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Obsidian Dragon",
+                    "card": "13124e40-22ba-4064-b5fe-2bcd3aaf3ff1",
+                    "yugipediaId": 70049,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Maniacal Servant",
+                    "card": "26c4d953-22ad-47b3-a355-794ed00a45c9",
+                    "yugipediaId": 32091,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Dark Mambele",
+                    "card": "fc969663-c5f3-4b01-b78b-31605432a621",
+                    "yugipediaId": 194452,
+                    "rarity": "R"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Silver"
+              },
+              {
+                "text": "\"Maniacal Servant\" (R), \"Dark Mambele\" (R), \"Blocker\" (N), \"Brave Scizzar\" (N), \"Yaiba Robo\" (N)\n2 EX Jewel(s) (Raid Duel)\n200 or 50 Gold\n7 or 3 Gate Keys (White, Black, Blue, Red, Yellow, or Green)",
+                "cards": [
+                  {
+                    "name": "Maniacal Servant",
+                    "card": "26c4d953-22ad-47b3-a355-794ed00a45c9",
+                    "yugipediaId": 32091,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Dark Mambele",
+                    "card": "fc969663-c5f3-4b01-b78b-31605432a621",
+                    "yugipediaId": 194452,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Blocker",
+                    "card": "1d3c0dd8-6761-4aec-a472-4415e1105ada",
+                    "yugipediaId": 9181,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Brave Scizzar",
+                    "card": "257eaf68-b348-4d9b-869c-b8472e25b754",
+                    "yugipediaId": 9539,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Yaiba Robo",
+                    "card": "e6d5320f-d064-4d43-ae43-6ec962b1ae40",
+                    "yugipediaId": 19439,
+                    "rarity": "N"
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "packs",
+      "path": [
+        "Rewards",
+        "Legendary Duelist Rainbow Pack (ZEXAL)"
+      ],
+      "notes": [
+        "Awarded each time the Damage Ranking is reset. Each pack contains 1 of the following cards:"
+      ]
+    },
+    {
+      "kind": "packs",
+      "path": [
+        "Rewards",
+        "Legendary Duelist Rainbow Pack (ZEXAL)"
+      ],
+      "run": "September 2021",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "\"Photon Advancer\" (UR)",
+                "cards": [
+                  {
+                    "name": "Photon Advancer",
+                    "card": "61f5aaf6-1722-4376-8474-7ee9e87548de",
+                    "yugipediaId": 300838,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Gagaga Magician\" (UR)",
+                "cards": [
+                  {
+                    "name": "Gagaga Magician",
+                    "card": "ffe4edd8-a97e-430f-9e63-2722891d3d16",
+                    "yugipediaId": 150083,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Number 10: Illumiknight\" (UR)",
+                "cards": [
+                  {
+                    "name": "Number 10: Illumiknight",
+                    "card": "ce48f24c-8062-45b1-b558-6d21fde6e7f2",
+                    "yugipediaId": 172769,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Fairy Cheer Girl\" (UR)",
+                "cards": [
+                  {
+                    "name": "Fairy Cheer Girl",
+                    "card": "78b579d4-a3ab-4cf0-92f0-f7836be4458b",
+                    "yugipediaId": 248502,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Tin Archduke\" (UR)",
+                "cards": [
+                  {
+                    "name": "Tin Archduke",
+                    "card": "0e9d4146-74ba-4e9e-87b9-9aac666858f5",
+                    "yugipediaId": 181455,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Number 34: Terror-Byte\" (UR)",
+                "cards": [
+                  {
+                    "name": "Number 34: Terror-Byte",
+                    "card": "60159de7-f5d1-4d4f-9f9d-6f825f7a060b",
+                    "yugipediaId": 168355,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Number 47: Nightmare Shark\" (UR)",
+                "cards": [
+                  {
+                    "name": "Number 47: Nightmare Shark",
+                    "card": "d74d52b8-57bc-47da-a056-5beecad27940",
+                    "yugipediaId": 247308,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Number 17: Leviathan Dragon\" (UR)",
+                "cards": [
+                  {
+                    "name": "Number 17: Leviathan Dragon",
+                    "card": "d538a548-0d1d-4abf-886d-9b7841080371",
+                    "yugipediaId": 150636,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Archlord Zerato\" (SR)",
+                "cards": [
+                  {
+                    "name": "Archlord Zerato",
+                    "card": "6275d19d-1fae-4ee3-ae4a-78e5dc4e4ce2",
+                    "yugipediaId": 15588,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Depth Shark\" (SR)",
+                "cards": [
+                  {
+                    "name": "Depth Shark",
+                    "card": "c866360c-e4ce-48c4-96ba-beca0faa2545",
+                    "yugipediaId": 274626,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Reverse Buster\" (SR)",
+                "cards": [
+                  {
+                    "name": "Reverse Buster",
+                    "card": "125aa39f-65a7-4ca7-95d5-24c2bc4b6afd",
+                    "yugipediaId": 193517,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Photon Crusher\" (SR)",
+                "cards": [
+                  {
+                    "name": "Photon Crusher",
+                    "card": "fe970e0c-3c91-4371-873a-5c96c4c0c3d1",
+                    "yugipediaId": 190064,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Gogogo Golem\" (SR)",
+                "cards": [
+                  {
+                    "name": "Gogogo Golem",
+                    "card": "17531a23-55ad-43f0-8f17-efd9a76b1ae3",
+                    "yugipediaId": 161837,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Zeradias, Herald of Heaven\" (SR)",
+                "cards": [
+                  {
+                    "name": "Zeradias, Herald of Heaven",
+                    "card": "82536c8e-0d7a-46f5-8247-d38555421155",
+                    "yugipediaId": 20206,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Biofalcon\" (SR)",
+                "cards": [
+                  {
+                    "name": "Biofalcon",
+                    "card": "bd0d4342-546d-4417-a05a-3867a5d306dc",
+                    "yugipediaId": 127680,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Shark Stickers\" (SR)",
+                "cards": [
+                  {
+                    "name": "Shark Stickers",
+                    "card": "68f92088-b74d-459b-887a-102ff8546dae",
+                    "yugipediaId": 171917,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Toy Soldier\" (SR)",
+                "cards": [
+                  {
+                    "name": "Toy Soldier",
+                    "card": "60a33181-30c5-47ff-a059-680a504fdd94",
+                    "yugipediaId": 1029887,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Wind-Up Honeybee\" (SR)",
+                "cards": [
+                  {
+                    "name": "Wind-Up Honeybee",
+                    "card": "f3edcf6d-5ccf-44c2-a2eb-c205829921b8",
+                    "yugipediaId": 179660,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Number 20: Giga-Brilliant\" (SR)",
+                "cards": [
+                  {
+                    "name": "Number 20: Giga-Brilliant",
+                    "card": "eb4f2ead-5d09-414e-855e-8b454c40b56b",
+                    "yugipediaId": 172674,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Temtempo the Percussion Djinn\" (SR)",
+                "cards": [
+                  {
+                    "name": "Temtempo the Percussion Djinn",
+                    "card": "5f064a41-9357-437e-9e60-3db851d3e915",
+                    "yugipediaId": 189418,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Weights & Zenmaisures\" (SR)",
+                "cards": [
+                  {
+                    "name": "Weights & Zenmaisures",
+                    "card": "5ccd0c30-321e-48de-bf68-5746101ce8a4",
+                    "yugipediaId": 181035,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Reload\" (SR)",
+                "cards": [
+                  {
+                    "name": "Reload",
+                    "card": "a6572397-03da-4b2e-873f-8eeffba1a4f8",
+                    "yugipediaId": 504772,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Water Hazard\" (SR)",
+                "cards": [
+                  {
+                    "name": "Water Hazard",
+                    "card": "a7e7289e-0849-49a8-b07f-ef04c8cfdb07",
+                    "yugipediaId": 110971,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Stellarnova Wave\" (SR)",
+                "cards": [
+                  {
+                    "name": "Stellarnova Wave",
+                    "card": "3eafafe8-1377-409f-8b92-1634fe3fe120",
+                    "yugipediaId": 334266,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Divine Punishment\" (SR)",
+                "cards": [
+                  {
+                    "name": "Divine Punishment",
+                    "card": "12e80df3-0899-4bbf-b5df-7ad5b1371319",
+                    "yugipediaId": 161235,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Gamushara\" (SR)",
+                "cards": [
+                  {
+                    "name": "Gamushara",
+                    "card": "3f7533d0-4698-4701-b89a-5c0b42bf1838",
+                    "yugipediaId": 189566,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Dimension Gate\" (SR)",
+                "cards": [
+                  {
+                    "name": "Dimension Gate",
+                    "card": "b3451b1c-a951-4d53-8f68-1222816fb8bb",
+                    "yugipediaId": 235387,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "packs",
+      "path": [
+        "Rewards",
+        "Legendary Duelist Rainbow Pack (ZEXAL)"
+      ],
+      "run": "Jun-Jul 2021",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "\"Gagaga Magician\" (UR)",
+                "cards": [
+                  {
+                    "name": "Gagaga Magician",
+                    "card": "ffe4edd8-a97e-430f-9e63-2722891d3d16",
+                    "yugipediaId": 150083,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Fairy Cheer Girl\" (UR)",
+                "cards": [
+                  {
+                    "name": "Fairy Cheer Girl",
+                    "card": "78b579d4-a3ab-4cf0-92f0-f7836be4458b",
+                    "yugipediaId": 248502,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Tin Archduke\" (UR)",
+                "cards": [
+                  {
+                    "name": "Tin Archduke",
+                    "card": "0e9d4146-74ba-4e9e-87b9-9aac666858f5",
+                    "yugipediaId": 181455,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Number 47: Nightmare Shark\" (UR)",
+                "cards": [
+                  {
+                    "name": "Number 47: Nightmare Shark",
+                    "card": "d74d52b8-57bc-47da-a056-5beecad27940",
+                    "yugipediaId": 247308,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Number 17: Leviathan Dragon\" (UR)",
+                "cards": [
+                  {
+                    "name": "Number 17: Leviathan Dragon",
+                    "card": "d538a548-0d1d-4abf-886d-9b7841080371",
+                    "yugipediaId": 150636,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Archlord Zerato\" (SR)",
+                "cards": [
+                  {
+                    "name": "Archlord Zerato",
+                    "card": "6275d19d-1fae-4ee3-ae4a-78e5dc4e4ce2",
+                    "yugipediaId": 15588,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Depth Shark\" (SR)",
+                "cards": [
+                  {
+                    "name": "Depth Shark",
+                    "card": "c866360c-e4ce-48c4-96ba-beca0faa2545",
+                    "yugipediaId": 274626,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Gogogo Golem\" (SR)",
+                "cards": [
+                  {
+                    "name": "Gogogo Golem",
+                    "card": "17531a23-55ad-43f0-8f17-efd9a76b1ae3",
+                    "yugipediaId": 161837,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Zeradias, Herald of Heaven\" (SR)",
+                "cards": [
+                  {
+                    "name": "Zeradias, Herald of Heaven",
+                    "card": "82536c8e-0d7a-46f5-8247-d38555421155",
+                    "yugipediaId": 20206,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Biofalcon\" (SR)",
+                "cards": [
+                  {
+                    "name": "Biofalcon",
+                    "card": "bd0d4342-546d-4417-a05a-3867a5d306dc",
+                    "yugipediaId": 127680,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Shark Stickers\" (SR)",
+                "cards": [
+                  {
+                    "name": "Shark Stickers",
+                    "card": "68f92088-b74d-459b-887a-102ff8546dae",
+                    "yugipediaId": 171917,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Toy Soldier\" (SR)",
+                "cards": [
+                  {
+                    "name": "Toy Soldier",
+                    "card": "60a33181-30c5-47ff-a059-680a504fdd94",
+                    "yugipediaId": 1029887,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Wind-Up Honeybee\" (SR)",
+                "cards": [
+                  {
+                    "name": "Wind-Up Honeybee",
+                    "card": "f3edcf6d-5ccf-44c2-a2eb-c205829921b8",
+                    "yugipediaId": 179660,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Temtempo the Percussion Djinn\" (SR)",
+                "cards": [
+                  {
+                    "name": "Temtempo the Percussion Djinn",
+                    "card": "5f064a41-9357-437e-9e60-3db851d3e915",
+                    "yugipediaId": 189418,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Weights & Zenmaisures\" (SR)",
+                "cards": [
+                  {
+                    "name": "Weights & Zenmaisures",
+                    "card": "5ccd0c30-321e-48de-bf68-5746101ce8a4",
+                    "yugipediaId": 181035,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Reload\" (SR)",
+                "cards": [
+                  {
+                    "name": "Reload",
+                    "card": "a6572397-03da-4b2e-873f-8eeffba1a4f8",
+                    "yugipediaId": 504772,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Water Hazard\" (SR)",
+                "cards": [
+                  {
+                    "name": "Water Hazard",
+                    "card": "a7e7289e-0849-49a8-b07f-ef04c8cfdb07",
+                    "yugipediaId": 110971,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Stellarnova Wave\" (SR)",
+                "cards": [
+                  {
+                    "name": "Stellarnova Wave",
+                    "card": "3eafafe8-1377-409f-8b92-1634fe3fe120",
+                    "yugipediaId": 334266,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Divine Punishment\" (SR)",
+                "cards": [
+                  {
+                    "name": "Divine Punishment",
+                    "card": "12e80df3-0899-4bbf-b5df-7ad5b1371319",
+                    "yugipediaId": 161235,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Gamushara\" (SR)",
+                "cards": [
+                  {
+                    "name": "Gamushara",
+                    "card": "3f7533d0-4698-4701-b89a-5c0b42bf1838",
+                    "yugipediaId": 189566,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Dimension Gate\" (SR)",
+                "cards": [
+                  {
+                    "name": "Dimension Gate",
+                    "card": "b3451b1c-a951-4d53-8f68-1222816fb8bb",
+                    "yugipediaId": 235387,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "cardTraderEx",
+      "path": [
+        "Rewards",
+        "Card Trader EX"
+      ],
+      "notes": [
+        "The Card Trader EX appears during this event and remained open until one week after its conclusion. The player can trade their EX Jewels for cards, Booster Items, Gold, and Skill Chips. Each card, Skill Chip and Booster Item can only be obtained once from the Card Trader EX during this event, but Gold can be obtained any number of times."
+      ]
+    },
+    {
+      "kind": "cardTraderEx",
+      "path": [
+        "Rewards",
+        "Card Trader EX"
+      ],
+      "run": "September 2021",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "EX Jewels",
+            "Item"
+          ],
+          "rows": [
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1"
+              },
+              {
+                "text": "100 Gold"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Results Booster"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 EXP Booster"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "10 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Gimmick Puppet Scissor Arms\" (Glossy)",
+                "cards": [
+                  {
+                    "name": "Gimmick Puppet Scissor Arms",
+                    "card": "79c39a3a-d3e2-4980-ba7f-0776db8babd1",
+                    "yugipediaId": 215808,
+                    "quantity": 1,
+                    "variant": "Glossy"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "400"
+              },
+              {
+                "text": "1 \"Gimmick Puppet Scissor Arms\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Gimmick Puppet Scissor Arms",
+                    "card": "79c39a3a-d3e2-4980-ba7f-0776db8babd1",
+                    "yugipediaId": 215808,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "300"
+              },
+              {
+                "text": "1 \"Gimmick Puppet Twilight Joker\"",
+                "cards": [
+                  {
+                    "name": "Gimmick Puppet Twilight Joker",
+                    "card": "3d737eff-45e6-45e7-8985-e0b88e30cd4a",
+                    "yugipediaId": 206219,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "300"
+              },
+              {
+                "text": "1 \"Gimmick Puppet Egg Head\"",
+                "cards": [
+                  {
+                    "name": "Gimmick Puppet Egg Head",
+                    "card": "6dc0314d-e242-4b6a-9e4b-6ffe7af8e93e",
+                    "yugipediaId": 200853,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "300"
+              },
+              {
+                "text": "1 \"Umbramirage the Elemental Lord\"",
+                "cards": [
+                  {
+                    "name": "Umbramirage the Elemental Lord",
+                    "card": "3b49f5fe-8faf-4554-958a-bb105c89480e",
+                    "yugipediaId": 557270,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 Gimmick Puppet Des Troy\"",
+                "cards": [
+                  {
+                    "name": "Gimmick Puppet Des Troy",
+                    "card": "e1c583eb-0154-4c9b-8e29-7a55a1de26fa",
+                    "yugipediaId": 289194,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Gimmick Puppet Gear Changer\"",
+                "cards": [
+                  {
+                    "name": "Gimmick Puppet Gear Changer",
+                    "card": "f416c197-e187-42c8-b116-557c90fd37f8",
+                    "yugipediaId": 206061,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Gimmick Puppet Magnet Doll\"",
+                "cards": [
+                  {
+                    "name": "Gimmick Puppet Magnet Doll",
+                    "card": "cf7f240f-3876-4b78-ab30-71846ca1a126",
+                    "yugipediaId": 206148,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Dark Crusader\"",
+                "cards": [
+                  {
+                    "name": "Dark Crusader",
+                    "card": "48482748-59d7-4e77-b451-6c4c79457879",
+                    "yugipediaId": 75178,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Maniacal Servant\"",
+                "cards": [
+                  {
+                    "name": "Maniacal Servant",
+                    "card": "26c4d953-22ad-47b3-a355-794ed00a45c9",
+                    "yugipediaId": 32091,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Dark Mambele\"",
+                "cards": [
+                  {
+                    "name": "Dark Mambele",
+                    "card": "fc969663-c5f3-4b01-b78b-31605432a621",
+                    "yugipediaId": 194452,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Blocker\"",
+                "cards": [
+                  {
+                    "name": "Blocker",
+                    "card": "1d3c0dd8-6761-4aec-a472-4415e1105ada",
+                    "yugipediaId": 9181,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Brave Scizzar\"",
+                "cards": [
+                  {
+                    "name": "Brave Scizzar",
+                    "card": "257eaf68-b348-4d9b-869c-b8472e25b754",
+                    "yugipediaId": 9539,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Yaiba Robo\"",
+                "cards": [
+                  {
+                    "name": "Yaiba Robo",
+                    "card": "e6d5320f-d064-4d43-ae43-6ec962b1ae40",
+                    "yugipediaId": 19439,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "cardTraderEx",
+      "path": [
+        "Rewards",
+        "Card Trader EX"
+      ],
+      "run": "Jun-Jul 2021",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "EX Jewels",
+            "Item"
+          ],
+          "rows": [
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1"
+              },
+              {
+                "text": "100 Gold"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Results Booster"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 EXP Booster"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "10 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Gimmick Puppet Twilight Joker\" (Glossy)",
+                "cards": [
+                  {
+                    "name": "Gimmick Puppet Twilight Joker",
+                    "card": "3d737eff-45e6-45e7-8985-e0b88e30cd4a",
+                    "yugipediaId": 206219,
+                    "quantity": 1,
+                    "variant": "Glossy"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "400"
+              },
+              {
+                "text": "1 \"Gimmick Puppet Twilight Joker\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Gimmick Puppet Twilight Joker",
+                    "card": "3d737eff-45e6-45e7-8985-e0b88e30cd4a",
+                    "yugipediaId": 206219,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "300"
+              },
+              {
+                "text": "1 \"Gimmick Puppet Egg Head\"",
+                "cards": [
+                  {
+                    "name": "Gimmick Puppet Egg Head",
+                    "card": "6dc0314d-e242-4b6a-9e4b-6ffe7af8e93e",
+                    "yugipediaId": 200853,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "300"
+              },
+              {
+                "text": "1 \"Umbramirage the Elemental Lord\"",
+                "cards": [
+                  {
+                    "name": "Umbramirage the Elemental Lord",
+                    "card": "3b49f5fe-8faf-4554-958a-bb105c89480e",
+                    "yugipediaId": 557270,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Gimmick Puppet Gear Changer\"",
+                "cards": [
+                  {
+                    "name": "Gimmick Puppet Gear Changer",
+                    "card": "f416c197-e187-42c8-b116-557c90fd37f8",
+                    "yugipediaId": 206061,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Gimmick Puppet Magnet Doll\"",
+                "cards": [
+                  {
+                    "name": "Gimmick Puppet Magnet Doll",
+                    "card": "cf7f240f-3876-4b78-ab30-71846ca1a126",
+                    "yugipediaId": 206148,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Dark Crusader\"",
+                "cards": [
+                  {
+                    "name": "Dark Crusader",
+                    "card": "48482748-59d7-4e77-b451-6c4c79457879",
+                    "yugipediaId": 75178,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Obsidian Dragon\"",
+                "cards": [
+                  {
+                    "name": "Obsidian Dragon",
+                    "card": "13124e40-22ba-4064-b5fe-2bcd3aaf3ff1",
+                    "yugipediaId": 70049,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Maniacal Servant\"",
+                "cards": [
+                  {
+                    "name": "Maniacal Servant",
+                    "card": "26c4d953-22ad-47b3-a355-794ed00a45c9",
+                    "yugipediaId": 32091,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Dark Mambele\"",
+                "cards": [
+                  {
+                    "name": "Dark Mambele",
+                    "card": "fc969663-c5f3-4b01-b78b-31605432a621",
+                    "yugipediaId": 194452,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Blocker\"",
+                "cards": [
+                  {
+                    "name": "Blocker",
+                    "card": "1d3c0dd8-6761-4aec-a472-4415e1105ada",
+                    "yugipediaId": 9181,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Brave Scizzar\"",
+                "cards": [
+                  {
+                    "name": "Brave Scizzar",
+                    "card": "257eaf68-b348-4d9b-869c-b8472e25b754",
+                    "yugipediaId": 9539,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Yaiba Robo\"",
+                "cards": [
+                  {
+                    "name": "Yaiba Robo",
+                    "card": "e6d5320f-d064-4d43-ae43-6ec962b1ae40",
+                    "yugipediaId": 19439,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Rewards",
+        "Event Missions"
+      ],
+      "run": "September 2021",
+      "runIndex": 1,
+      "notes": [
+        "The following mission was added on September 23, 2021."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Defeat the Raid Boss 1 time(s)."
+              },
+              {
+                "text": "1 EX Draw & Summon"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 10 time(s)."
+              },
+              {
+                "text": "10 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 15 time(s)."
+              },
+              {
+                "text": "20 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 20 time(s)."
+              },
+              {
+                "text": "25 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 25 time(s)."
+              },
+              {
+                "text": "30 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 30 time(s)."
+              },
+              {
+                "text": "35 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 35 time(s)."
+              },
+              {
+                "text": "40 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 40 time(s)."
+              },
+              {
+                "text": "50 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 50 time(s)."
+              },
+              {
+                "text": "Icon"
+              }
+            ],
+            [
+              {
+                "text": "Play 10 Assist(s) in Raid Duel (surrenders are not counted)."
+              },
+              {
+                "text": "20 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Play 25 Assist(s) in Raid Duel (surrenders are not counted)."
+              },
+              {
+                "text": "30 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Play 50 Assist(s) in Raid Duel (surrenders are not counted)."
+              },
+              {
+                "text": "40 EX Jewels"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Inflict 8000 points of effect damage using Quattro."
+              },
+              {
+                "text": "Skill: \"Gimmick Puppet - 4 or 8\"",
+                "skills": [
+                  {
+                    "name": "Gimmick Puppet - 4 or 8",
+                    "skill": "e371d9c6-7f2d-4dd6-bb34-9dcad34d4028",
+                    "yugipediaId": 715132
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Rewards",
+        "Event Missions"
+      ],
+      "run": "Jun-Jul 2021",
+      "runIndex": 0,
+      "notes": [
+        "The following missions were added on July 4, 2021."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Defeat the Raid Boss 1 time(s)."
+              },
+              {
+                "text": "1 EX Draw & Summon"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 10 time(s)."
+              },
+              {
+                "text": "10 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 15 time(s)."
+              },
+              {
+                "text": "20 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 20 time(s)."
+              },
+              {
+                "text": "25 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 25 time(s)."
+              },
+              {
+                "text": "30 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 30 time(s)."
+              },
+              {
+                "text": "35 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 35 time(s)."
+              },
+              {
+                "text": "40 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 40 time(s)."
+              },
+              {
+                "text": "50 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 50 time(s)."
+              },
+              {
+                "text": "Icon"
+              }
+            ],
+            [
+              {
+                "text": "Play 10 Assist(s) in Raid Duel (surrenders are not counted)."
+              },
+              {
+                "text": "20 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Play 25 Assist(s) in Raid Duel (surrenders are not counted)."
+              },
+              {
+                "text": "30 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Play 50 Assist(s) in Raid Duel (surrenders are not counted)."
+              },
+              {
+                "text": "40 EX Jewels"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Defeat Raid Boss at Lvl. 2000 or above."
+              },
+              {
+                "text": "Card Sleeves: Crest (Quattro)"
+              }
+            ],
+            [
+              {
+                "text": "Inflict 30000 or more points of damage in one Duel against Raid Boss at Lvl. 2000 or above."
+              },
+              {
+                "text": "Game Mat: Crest (Quattro)"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "dailyMissions",
+      "path": [
+        "Rewards",
+        "Event Missions",
+        "Daily Missions"
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Play 1 Duel(s) in Ranked Duels (surrenders are not counted)."
+              },
+              {
+                "text": "20 Invitations from Quattro"
+              }
+            ],
+            [
+              {
+                "text": "Play 2 Duel(s) in Ranked Duels (surrenders are not counted)."
+              },
+              {
+                "text": "1 Crest"
+              }
+            ],
+            [
+              {
+                "text": "Play 3 Duel(s) in Ranked Duels (surrenders are not counted)."
+              },
+              {
+                "text": "1 Duel Gazer"
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "decks": [
+    {
+      "path": [
+        "Decks",
+        "Quattro",
+        "Level 100-200"
+      ],
+      "name": "Raise the Curtain of Darkness",
+      "owner": "Quattro",
+      "cards": [
+        {
+          "name": "Mechanical Snail",
+          "card": "6545b3d6-6562-4731-9fb4-0340706cb775",
+          "yugipediaId": 8614,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Sword Slasher",
+          "card": "07fe067e-c6cc-4d3d-bfd4-56acb4b9cfad",
+          "yugipediaId": 19793,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Yaiba Robo",
+          "card": "e6d5320f-d064-4d43-ae43-6ec962b1ae40",
+          "yugipediaId": 19439,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Gimmick Puppet Bisque Doll",
+          "card": "aba2be5c-11be-4114-b8d0-f03ac8f52c0d",
+          "yugipediaId": 625392,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gimmick Puppet Gear Changer",
+          "card": "f416c197-e187-42c8-b116-557c90fd37f8",
+          "yugipediaId": 206061,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gimmick Puppet Humpty Dumpty",
+          "card": "78299a16-3c9a-4950-ac80-c49aa02f9c1e",
+          "yugipediaId": 280437,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gimmick Puppet Magnet Doll",
+          "card": "cf7f240f-3876-4b78-ab30-71846ca1a126",
+          "yugipediaId": 206148,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Air Cracking Storm",
+          "card": "66eff590-3398-4542-b3c5-1cdc3d028ae2",
+          "yugipediaId": 492316,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Creeping Darkness",
+          "card": "d56a957e-2d8f-434d-bd6b-55ccc6ee4b52",
+          "yugipediaId": 176667,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Magnet Circle LV2",
+          "card": "bfc4888d-fcfd-47bf-b5c5-2f3bf82c49b2",
+          "yugipediaId": 16149,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Return of the Doomed",
+          "card": "423e7f15-c228-4dda-821a-788a2acfd2f9",
+          "yugipediaId": 5196,
+          "count": 2,
+          "category": "spells"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Quattro",
+        "Level 300-400"
+      ],
+      "name": "The Shown Begins",
+      "owner": "Quattro",
+      "cards": [
+        {
+          "name": "Ancient Tool",
+          "card": "32bdced5-f42b-47b6-a3fa-05911c538f08",
+          "yugipediaId": 19373,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Brave Scizzar",
+          "card": "257eaf68-b348-4d9b-869c-b8472e25b754",
+          "yugipediaId": 9539,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Sword Slasher",
+          "card": "07fe067e-c6cc-4d3d-bfd4-56acb4b9cfad",
+          "yugipediaId": 19793,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Gimmick Puppet Bisque Doll",
+          "card": "aba2be5c-11be-4114-b8d0-f03ac8f52c0d",
+          "yugipediaId": 625392,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gimmick Puppet Gear Changer",
+          "card": "f416c197-e187-42c8-b116-557c90fd37f8",
+          "yugipediaId": 206061,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gimmick Puppet Humpty Dumpty",
+          "card": "78299a16-3c9a-4950-ac80-c49aa02f9c1e",
+          "yugipediaId": 280437,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gimmick Puppet Magnet Doll",
+          "card": "cf7f240f-3876-4b78-ab30-71846ca1a126",
+          "yugipediaId": 206148,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gimmick Puppet Scissor Arms",
+          "card": "79c39a3a-d3e2-4980-ba7f-0776db8babd1",
+          "yugipediaId": 215808,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Air Cracking Storm",
+          "card": "66eff590-3398-4542-b3c5-1cdc3d028ae2",
+          "yugipediaId": 492316,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Creeping Darkness",
+          "card": "d56a957e-2d8f-434d-bd6b-55ccc6ee4b52",
+          "yugipediaId": 176667,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Dark World Dealings",
+          "card": "6377e381-1b0a-47b7-a085-a25c3eb0b560",
+          "yugipediaId": 22157,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Magnet Circle LV2",
+          "card": "bfc4888d-fcfd-47bf-b5c5-2f3bf82c49b2",
+          "yugipediaId": 16149,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Return of the Doomed",
+          "card": "423e7f15-c228-4dda-821a-788a2acfd2f9",
+          "yugipediaId": 5196,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Trojan Blast",
+          "card": "43c822cc-8cfd-4f17-98d5-ff586afe974e",
+          "yugipediaId": 12734,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Quattro",
+        "Level 500-600"
+      ],
+      "name": "Strings of Fate",
+      "owner": "Quattro",
+      "cards": [
+        {
+          "name": "Cyber Soldier",
+          "card": "fe70ddde-bc52-49f1-b4aa-2858b26f7e99",
+          "yugipediaId": 19842,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Spikebot",
+          "card": "2ed12cf4-6618-4e6a-9d9f-cfb282cd9d52",
+          "yugipediaId": 8251,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Fusilier Dragon, the Dual-Mode Beast",
+          "card": "8f3d4349-13b9-49df-8c3c-25e17a09d2fb",
+          "yugipediaId": 717,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gimmick Puppet Bisque Doll",
+          "card": "aba2be5c-11be-4114-b8d0-f03ac8f52c0d",
+          "yugipediaId": 625392,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gimmick Puppet Dreary Doll",
+          "card": "959d0186-d40a-4cee-a9eb-008c5c3ce98d",
+          "yugipediaId": 201084,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gimmick Puppet Egg Head",
+          "card": "6dc0314d-e242-4b6a-9e4b-6ffe7af8e93e",
+          "yugipediaId": 200853,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gimmick Puppet Humpty Dumpty",
+          "card": "78299a16-3c9a-4950-ac80-c49aa02f9c1e",
+          "yugipediaId": 280437,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gimmick Puppet Magnet Doll",
+          "card": "cf7f240f-3876-4b78-ab30-71846ca1a126",
+          "yugipediaId": 206148,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gimmick Puppet Scissor Arms",
+          "card": "79c39a3a-d3e2-4980-ba7f-0776db8babd1",
+          "yugipediaId": 215808,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Number 40: Gimmick Puppet of Strings",
+          "card": "15e8f04c-91ac-4b73-8650-1f30e3a1cdff",
+          "yugipediaId": 206904,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Dark World Dealings",
+          "card": "6377e381-1b0a-47b7-a085-a25c3eb0b560",
+          "yugipediaId": 22157,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Foolish Burial",
+          "card": "104893e3-7989-4e25-bcea-d0c87bb99bc7",
+          "yugipediaId": 5395,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Trade-In",
+          "card": "3bb1b2fb-9ef1-4fdd-904c-b2a538b81d1b",
+          "yugipediaId": 536748,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Tribute Doll",
+          "card": "ec71c22a-0ae5-495f-9b14-353af8e3bf81",
+          "yugipediaId": 111,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Trojan Blast",
+          "card": "43c822cc-8cfd-4f17-98d5-ff586afe974e",
+          "yugipediaId": 12734,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Quattro",
+        "Level 700-800"
+      ],
+      "name": "Strings of Destruction",
+      "owner": "Quattro",
+      "cards": [
+        {
+          "name": "Rogue Doll",
+          "card": "8ad20f11-59ca-404d-a524-85c4f46b2235",
+          "yugipediaId": 7490,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Gimmick Puppet Bisque Doll",
+          "card": "aba2be5c-11be-4114-b8d0-f03ac8f52c0d",
+          "yugipediaId": 625392,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gimmick Puppet Dreary Doll",
+          "card": "959d0186-d40a-4cee-a9eb-008c5c3ce98d",
+          "yugipediaId": 201084,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gimmick Puppet Egg Head",
+          "card": "6dc0314d-e242-4b6a-9e4b-6ffe7af8e93e",
+          "yugipediaId": 200853,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gimmick Puppet Humpty Dumpty",
+          "card": "78299a16-3c9a-4950-ac80-c49aa02f9c1e",
+          "yugipediaId": 280437,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gimmick Puppet Magnet Doll",
+          "card": "cf7f240f-3876-4b78-ab30-71846ca1a126",
+          "yugipediaId": 206148,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gimmick Puppet Scissor Arms",
+          "card": "79c39a3a-d3e2-4980-ba7f-0776db8babd1",
+          "yugipediaId": 215808,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gimmick Puppet Terror Baby",
+          "card": "c5137034-21a0-4bb0-906a-34270ed63880",
+          "yugipediaId": 625410,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Magical Marionette",
+          "card": "3fb9f42e-6b6f-4c76-87b6-dfd34697ecc5",
+          "yugipediaId": 12683,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Malice Doll of Demise",
+          "card": "390c9912-a40b-4683-9edd-44f11afbb324",
+          "yugipediaId": 12554,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Number 40: Gimmick Puppet of Strings",
+          "card": "15e8f04c-91ac-4b73-8650-1f30e3a1cdff",
+          "yugipediaId": 206904,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Dark World Dealings",
+          "card": "6377e381-1b0a-47b7-a085-a25c3eb0b560",
+          "yugipediaId": 22157,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Foolish Burial",
+          "card": "104893e3-7989-4e25-bcea-d0c87bb99bc7",
+          "yugipediaId": 5395,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Puppet Ritual",
+          "card": "d8ece3bc-9232-48d9-980e-c048cdc23c9a",
+          "yugipediaId": 206326,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Trade-In",
+          "card": "3bb1b2fb-9ef1-4fdd-904c-b2a538b81d1b",
+          "yugipediaId": 536748,
+          "count": 2,
+          "category": "spells"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Quattro",
+        "Level 900-1000"
+      ],
+      "name": "Final Dance",
+      "owner": "Quattro",
+      "cards": [
+        {
+          "name": "Blocker",
+          "card": "1d3c0dd8-6761-4aec-a472-4415e1105ada",
+          "yugipediaId": 9181,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Mechanicalchaser",
+          "card": "57731395-8620-4e81-8a7b-563e22131ff4",
+          "yugipediaId": 509334,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Gimmick Puppet Bisque Doll",
+          "card": "aba2be5c-11be-4114-b8d0-f03ac8f52c0d",
+          "yugipediaId": 625392,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gimmick Puppet Dreary Doll",
+          "card": "959d0186-d40a-4cee-a9eb-008c5c3ce98d",
+          "yugipediaId": 201084,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gimmick Puppet Egg Head",
+          "card": "6dc0314d-e242-4b6a-9e4b-6ffe7af8e93e",
+          "yugipediaId": 200853,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gimmick Puppet Humpty Dumpty",
+          "card": "78299a16-3c9a-4950-ac80-c49aa02f9c1e",
+          "yugipediaId": 280437,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gimmick Puppet Magnet Doll",
+          "card": "cf7f240f-3876-4b78-ab30-71846ca1a126",
+          "yugipediaId": 206148,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gimmick Puppet Scissor Arms",
+          "card": "79c39a3a-d3e2-4980-ba7f-0776db8babd1",
+          "yugipediaId": 215808,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gimmick Puppet Terror Baby",
+          "card": "c5137034-21a0-4bb0-906a-34270ed63880",
+          "yugipediaId": 625410,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Number 15: Gimmick Puppet Giant Grinder",
+          "card": "48d3e6d8-a3b6-4fe5-b8b0-41284dd38fc4",
+          "yugipediaId": 180713,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Number 40: Gimmick Puppet of Strings",
+          "card": "15e8f04c-91ac-4b73-8650-1f30e3a1cdff",
+          "yugipediaId": 206904,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Foolish Burial",
+          "card": "104893e3-7989-4e25-bcea-d0c87bb99bc7",
+          "yugipediaId": 5395,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Gravity Blaster",
+          "card": "226daaee-c364-4c3e-b517-d2804ea2893c",
+          "yugipediaId": 200771,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Junk Puppet",
+          "card": "4954132d-ea7d-45e1-b380-10219f237b0c",
+          "yugipediaId": 202332,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Puppet Ritual",
+          "card": "d8ece3bc-9232-48d9-980e-c048cdc23c9a",
+          "yugipediaId": 206326,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Trade-In",
+          "card": "3bb1b2fb-9ef1-4fdd-904c-b2a538b81d1b",
+          "yugipediaId": 536748,
+          "count": 2,
+          "category": "spells"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Quattro",
+        "Level 2000"
+      ],
+      "name": "Destruction Cannon!",
+      "owner": "Quattro",
+      "cards": [
+        {
+          "name": "Gimmick Puppet Bisque Doll",
+          "card": "aba2be5c-11be-4114-b8d0-f03ac8f52c0d",
+          "yugipediaId": 625392,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gimmick Puppet Des Troy",
+          "card": "e1c583eb-0154-4c9b-8e29-7a55a1de26fa",
+          "yugipediaId": 289194,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gimmick Puppet Dreary Doll",
+          "card": "959d0186-d40a-4cee-a9eb-008c5c3ce98d",
+          "yugipediaId": 201084,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gimmick Puppet Egg Head",
+          "card": "6dc0314d-e242-4b6a-9e4b-6ffe7af8e93e",
+          "yugipediaId": 200853,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gimmick Puppet Humpty Dumpty",
+          "card": "78299a16-3c9a-4950-ac80-c49aa02f9c1e",
+          "yugipediaId": 280437,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gimmick Puppet Magnet Doll",
+          "card": "cf7f240f-3876-4b78-ab30-71846ca1a126",
+          "yugipediaId": 206148,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gimmick Puppet Nightmare",
+          "card": "168b8680-d78c-4f61-a354-2534bb4d0209",
+          "yugipediaId": 215710,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gimmick Puppet Scissor Arms",
+          "card": "79c39a3a-d3e2-4980-ba7f-0776db8babd1",
+          "yugipediaId": 215808,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gimmick Puppet Terror Baby",
+          "card": "c5137034-21a0-4bb0-906a-34270ed63880",
+          "yugipediaId": 625410,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Number 15: Gimmick Puppet Giant Grinder",
+          "card": "48d3e6d8-a3b6-4fe5-b8b0-41284dd38fc4",
+          "yugipediaId": 180713,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Number 40: Gimmick Puppet of Strings",
+          "card": "15e8f04c-91ac-4b73-8650-1f30e3a1cdff",
+          "yugipediaId": 206904,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Dark World Dealings",
+          "card": "6377e381-1b0a-47b7-a085-a25c3eb0b560",
+          "yugipediaId": 22157,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Gravity Blaster",
+          "card": "226daaee-c364-4c3e-b517-d2804ea2893c",
+          "yugipediaId": 200771,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Junk Puppet",
+          "card": "4954132d-ea7d-45e1-b380-10219f237b0c",
+          "yugipediaId": 202332,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Puppet Ritual",
+          "card": "d8ece3bc-9232-48d9-980e-c048cdc23c9a",
+          "yugipediaId": 206326,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Trade-In",
+          "card": "3bb1b2fb-9ef1-4fdd-904c-b2a538b81d1b",
+          "yugipediaId": 536748,
+          "count": 2,
+          "category": "spells"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Tag Partners",
+        "Reginald \"Shark\" Kastle"
+      ],
+      "cards": [
+        {
+          "name": "Lantern Shark",
+          "card": "5e5209bd-1086-481f-9d99-73b2eedc41bb",
+          "yugipediaId": 697681,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Mermaid Shark",
+          "card": "2d31ba12-d46f-4508-8aa0-9fffac01122d",
+          "yugipediaId": 310446,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Buzzsaw Shark",
+          "card": "ebb9b8d5-95ed-45b2-9d4a-a31375f8af1f",
+          "yugipediaId": 714194,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Silent Angler",
+          "card": "165c1b34-0c7c-46d6-8b01-aac1c846c592",
+          "yugipediaId": 271857,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Shark Stickers",
+          "card": "68f92088-b74d-459b-887a-102ff8546dae",
+          "yugipediaId": 171917,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Double Fin Shark",
+          "card": "221f303f-2e3b-4d87-8d6d-b1e743778fc4",
+          "yugipediaId": 271755,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Bahamut Shark",
+          "card": "7bea229a-3ed4-4566-9dcc-f77fb80f3373",
+          "yugipediaId": 223077,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Number 32: Shark Drake",
+          "card": "d854c922-68f5-483e-9438-e5b33504cbda",
+          "yugipediaId": 181833,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Number 37: Hope Woven Dragon Spider Shark",
+          "card": "5c6699e3-1b15-4c19-be95-7ef3afbcb02e",
+          "yugipediaId": 383457,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Number 47: Nightmare Shark",
+          "card": "d74d52b8-57bc-47da-a056-5beecad27940",
+          "yugipediaId": 247308,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Black Ray Lancer",
+          "card": "72261647-f747-42ef-b255-eb27dda12091",
+          "yugipediaId": 171878,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Number 17: Leviathan Dragon",
+          "card": "d538a548-0d1d-4abf-886d-9b7841080371",
+          "yugipediaId": 150636,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Full Armored Black Ray Lancer",
+          "card": "033bbe70-a0b8-4da8-8bdf-bb05d74f785a",
+          "yugipediaId": 286423,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Book of Moon",
+          "card": "061acb6d-8bd3-4dc8-89d9-90172d723f82",
+          "yugipediaId": 595,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Surface",
+          "card": "0aae7bbb-e998-419a-840d-d49ad18b4538",
+          "yugipediaId": 163802,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Aqua Jet",
+          "card": "62919026-c6e5-478f-a3a4-597e796b9b44",
+          "yugipediaId": 152007,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Sea Lord's Amulet",
+          "card": "fb1b0723-6472-4721-8352-774633cc8aa6",
+          "yugipediaId": 308944,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Torrential Reborn",
+          "card": "434bf05f-4d20-48ab-b04e-b89aeb76fb07",
+          "yugipediaId": 226636,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Poseidon Wave",
+          "card": "a3b3eee0-5fa5-42bf-afd6-06a12541617e",
+          "yugipediaId": 156439,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Yaiba Robo",
+      "card": "e6d5320f-d064-4d43-ae43-6ec962b1ae40",
+      "yugipediaId": 19439,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "September 2021",
+          "runIndex": 1,
+          "requirement": "250000"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "September 2021",
+          "runIndex": 1,
+          "requirement": "Silver",
+          "rarity": "N"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "Jun-Jul 2021",
+          "runIndex": 0,
+          "requirement": "Silver",
+          "rarity": "N"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "September 2021",
+          "runIndex": 1,
+          "requirement": "10"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Jun-Jul 2021",
+          "runIndex": 0,
+          "requirement": "10"
+        }
+      ]
+    },
+    {
+      "name": "Dark Mambele",
+      "card": "fc969663-c5f3-4b01-b78b-31605432a621",
+      "yugipediaId": 194452,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "September 2021",
+          "runIndex": 1,
+          "requirement": "400000"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "September 2021",
+          "runIndex": 1,
+          "requirement": "Gold",
+          "rarity": "R"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "September 2021",
+          "runIndex": 1,
+          "requirement": "Silver",
+          "rarity": "R"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "Jun-Jul 2021",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "R"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "Jun-Jul 2021",
+          "runIndex": 0,
+          "requirement": "Silver",
+          "rarity": "R"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "September 2021",
+          "runIndex": 1,
+          "requirement": "30"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Jun-Jul 2021",
+          "runIndex": 0,
+          "requirement": "30"
+        }
+      ]
+    },
+    {
+      "name": "Gimmick Puppet Gear Changer",
+      "card": "f416c197-e187-42c8-b116-557c90fd37f8",
+      "yugipediaId": 206061,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "September 2021",
+          "runIndex": 1,
+          "requirement": "710000"
+        },
+        {
+          "kind": "cumulativeRewards",
+          "run": "Jun-Jul 2021",
+          "runIndex": 0,
+          "requirement": "4100000"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "September 2021",
+          "runIndex": 1,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "September 2021",
+          "runIndex": 1,
+          "requirement": "Gold",
+          "rarity": "SR"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "Jun-Jul 2021",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "Jun-Jul 2021",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "SR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "September 2021",
+          "runIndex": 1,
+          "requirement": "100"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Jun-Jul 2021",
+          "runIndex": 0,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Gimmick Puppet Des Troy",
+      "card": "e1c583eb-0154-4c9b-8e29-7a55a1de26fa",
+      "yugipediaId": 289194,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "September 2021",
+          "runIndex": 1,
+          "requirement": "2500000"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "September 2021",
+          "runIndex": 1,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "September 2021",
+          "runIndex": 1,
+          "requirement": "Gold",
+          "rarity": "SR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "September 2021",
+          "runIndex": 1,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Gimmick Puppet Scissor Arms",
+      "card": "79c39a3a-d3e2-4980-ba7f-0776db8babd1",
+      "yugipediaId": 215808,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "September 2021",
+          "runIndex": 1,
+          "requirement": "10000000"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "September 2021",
+          "runIndex": 1,
+          "requirement": "Rainbow",
+          "rarity": "UR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "September 2021",
+          "runIndex": 1,
+          "requirement": "100"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "September 2021",
+          "runIndex": 1,
+          "requirement": "400"
+        }
+      ]
+    },
+    {
+      "name": "Brave Scizzar",
+      "card": "257eaf68-b348-4d9b-869c-b8472e25b754",
+      "yugipediaId": 9539,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "Jun-Jul 2021",
+          "runIndex": 0,
+          "requirement": "320000"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "September 2021",
+          "runIndex": 1,
+          "requirement": "Silver",
+          "rarity": "N"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "Jun-Jul 2021",
+          "runIndex": 0,
+          "requirement": "Silver",
+          "rarity": "N"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "September 2021",
+          "runIndex": 1,
+          "requirement": "10"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Jun-Jul 2021",
+          "runIndex": 0,
+          "requirement": "10"
+        }
+      ]
+    },
+    {
+      "name": "Maniacal Servant",
+      "card": "26c4d953-22ad-47b3-a355-794ed00a45c9",
+      "yugipediaId": 32091,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "Jun-Jul 2021",
+          "runIndex": 0,
+          "requirement": "580000"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "September 2021",
+          "runIndex": 1,
+          "requirement": "Gold",
+          "rarity": "R"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "September 2021",
+          "runIndex": 1,
+          "requirement": "Silver",
+          "rarity": "R"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "Jun-Jul 2021",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "R"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "Jun-Jul 2021",
+          "runIndex": 0,
+          "requirement": "Silver",
+          "rarity": "R"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "September 2021",
+          "runIndex": 1,
+          "requirement": "30"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Jun-Jul 2021",
+          "runIndex": 0,
+          "requirement": "30"
+        }
+      ]
+    },
+    {
+      "name": "Gimmick Puppet Magnet Doll",
+      "card": "cf7f240f-3876-4b78-ab30-71846ca1a126",
+      "yugipediaId": 206148,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "Jun-Jul 2021",
+          "runIndex": 0,
+          "requirement": "1200000"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "September 2021",
+          "runIndex": 1,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "September 2021",
+          "runIndex": 1,
+          "requirement": "Gold",
+          "rarity": "SR"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "Jun-Jul 2021",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "Jun-Jul 2021",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "SR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "September 2021",
+          "runIndex": 1,
+          "requirement": "100"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Jun-Jul 2021",
+          "runIndex": 0,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Gimmick Puppet Twilight Joker",
+      "card": "3d737eff-45e6-45e7-8985-e0b88e30cd4a",
+      "yugipediaId": 206219,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "Jun-Jul 2021",
+          "runIndex": 0,
+          "requirement": "14000000"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "September 2021",
+          "runIndex": 1,
+          "requirement": "Rainbow",
+          "rarity": "UR"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "Jun-Jul 2021",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "UR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "September 2021",
+          "runIndex": 1,
+          "requirement": "300"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Jun-Jul 2021",
+          "runIndex": 0,
+          "requirement": "100"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Jun-Jul 2021",
+          "runIndex": 0,
+          "requirement": "400"
+        }
+      ]
+    },
+    {
+      "name": "Gimmick Puppet Egg Head",
+      "card": "6dc0314d-e242-4b6a-9e4b-6ffe7af8e93e",
+      "yugipediaId": 200853,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "September 2021",
+          "runIndex": 1,
+          "requirement": "Rainbow",
+          "rarity": "UR"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "Jun-Jul 2021",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "UR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "September 2021",
+          "runIndex": 1,
+          "requirement": "300"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Jun-Jul 2021",
+          "runIndex": 0,
+          "requirement": "300"
+        }
+      ]
+    },
+    {
+      "name": "Dark Crusader",
+      "card": "48482748-59d7-4e77-b451-6c4c79457879",
+      "yugipediaId": 75178,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "September 2021",
+          "runIndex": 1,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "September 2021",
+          "runIndex": 1,
+          "requirement": "Gold",
+          "rarity": "SR"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "Jun-Jul 2021",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "Jun-Jul 2021",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "SR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "September 2021",
+          "runIndex": 1,
+          "requirement": "100"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Jun-Jul 2021",
+          "runIndex": 0,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Blocker",
+      "card": "1d3c0dd8-6761-4aec-a472-4415e1105ada",
+      "yugipediaId": 9181,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "September 2021",
+          "runIndex": 1,
+          "requirement": "Silver",
+          "rarity": "N"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "Jun-Jul 2021",
+          "runIndex": 0,
+          "requirement": "Silver",
+          "rarity": "N"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "September 2021",
+          "runIndex": 1,
+          "requirement": "10"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Jun-Jul 2021",
+          "runIndex": 0,
+          "requirement": "10"
+        }
+      ]
+    },
+    {
+      "name": "Umbramirage the Elemental Lord",
+      "card": "3b49f5fe-8faf-4554-958a-bb105c89480e",
+      "yugipediaId": 557270,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "Jun-Jul 2021",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "UR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "September 2021",
+          "runIndex": 1,
+          "requirement": "300"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Jun-Jul 2021",
+          "runIndex": 0,
+          "requirement": "300"
+        }
+      ]
+    },
+    {
+      "name": "Obsidian Dragon",
+      "card": "13124e40-22ba-4064-b5fe-2bcd3aaf3ff1",
+      "yugipediaId": 70049,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "Jun-Jul 2021",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "Jun-Jul 2021",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "SR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Jun-Jul 2021",
+          "runIndex": 0,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Photon Advancer",
+      "card": "61f5aaf6-1722-4376-8474-7ee9e87548de",
+      "yugipediaId": 300838,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "September 2021",
+          "runIndex": 1,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Gagaga Magician",
+      "card": "ffe4edd8-a97e-430f-9e63-2722891d3d16",
+      "yugipediaId": 150083,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "September 2021",
+          "runIndex": 1,
+          "rarity": "UR"
+        },
+        {
+          "kind": "packs",
+          "run": "Jun-Jul 2021",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Number 10: Illumiknight",
+      "card": "ce48f24c-8062-45b1-b558-6d21fde6e7f2",
+      "yugipediaId": 172769,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "September 2021",
+          "runIndex": 1,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Fairy Cheer Girl",
+      "card": "78b579d4-a3ab-4cf0-92f0-f7836be4458b",
+      "yugipediaId": 248502,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "September 2021",
+          "runIndex": 1,
+          "rarity": "UR"
+        },
+        {
+          "kind": "packs",
+          "run": "Jun-Jul 2021",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Tin Archduke",
+      "card": "0e9d4146-74ba-4e9e-87b9-9aac666858f5",
+      "yugipediaId": 181455,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "September 2021",
+          "runIndex": 1,
+          "rarity": "UR"
+        },
+        {
+          "kind": "packs",
+          "run": "Jun-Jul 2021",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Number 34: Terror-Byte",
+      "card": "60159de7-f5d1-4d4f-9f9d-6f825f7a060b",
+      "yugipediaId": 168355,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "September 2021",
+          "runIndex": 1,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Number 47: Nightmare Shark",
+      "card": "d74d52b8-57bc-47da-a056-5beecad27940",
+      "yugipediaId": 247308,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "September 2021",
+          "runIndex": 1,
+          "rarity": "UR"
+        },
+        {
+          "kind": "packs",
+          "run": "Jun-Jul 2021",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Number 17: Leviathan Dragon",
+      "card": "d538a548-0d1d-4abf-886d-9b7841080371",
+      "yugipediaId": 150636,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "September 2021",
+          "runIndex": 1,
+          "rarity": "UR"
+        },
+        {
+          "kind": "packs",
+          "run": "Jun-Jul 2021",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Archlord Zerato",
+      "card": "6275d19d-1fae-4ee3-ae4a-78e5dc4e4ce2",
+      "yugipediaId": 15588,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "September 2021",
+          "runIndex": 1,
+          "rarity": "SR"
+        },
+        {
+          "kind": "packs",
+          "run": "Jun-Jul 2021",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Depth Shark",
+      "card": "c866360c-e4ce-48c4-96ba-beca0faa2545",
+      "yugipediaId": 274626,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "September 2021",
+          "runIndex": 1,
+          "rarity": "SR"
+        },
+        {
+          "kind": "packs",
+          "run": "Jun-Jul 2021",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Reverse Buster",
+      "card": "125aa39f-65a7-4ca7-95d5-24c2bc4b6afd",
+      "yugipediaId": 193517,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "September 2021",
+          "runIndex": 1,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Photon Crusher",
+      "card": "fe970e0c-3c91-4371-873a-5c96c4c0c3d1",
+      "yugipediaId": 190064,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "September 2021",
+          "runIndex": 1,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Gogogo Golem",
+      "card": "17531a23-55ad-43f0-8f17-efd9a76b1ae3",
+      "yugipediaId": 161837,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "September 2021",
+          "runIndex": 1,
+          "rarity": "SR"
+        },
+        {
+          "kind": "packs",
+          "run": "Jun-Jul 2021",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Zeradias, Herald of Heaven",
+      "card": "82536c8e-0d7a-46f5-8247-d38555421155",
+      "yugipediaId": 20206,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "September 2021",
+          "runIndex": 1,
+          "rarity": "SR"
+        },
+        {
+          "kind": "packs",
+          "run": "Jun-Jul 2021",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Biofalcon",
+      "card": "bd0d4342-546d-4417-a05a-3867a5d306dc",
+      "yugipediaId": 127680,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "September 2021",
+          "runIndex": 1,
+          "rarity": "SR"
+        },
+        {
+          "kind": "packs",
+          "run": "Jun-Jul 2021",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Shark Stickers",
+      "card": "68f92088-b74d-459b-887a-102ff8546dae",
+      "yugipediaId": 171917,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "September 2021",
+          "runIndex": 1,
+          "rarity": "SR"
+        },
+        {
+          "kind": "packs",
+          "run": "Jun-Jul 2021",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Toy Soldier",
+      "card": "60a33181-30c5-47ff-a059-680a504fdd94",
+      "yugipediaId": 1029887,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "September 2021",
+          "runIndex": 1,
+          "rarity": "SR"
+        },
+        {
+          "kind": "packs",
+          "run": "Jun-Jul 2021",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Wind-Up Honeybee",
+      "card": "f3edcf6d-5ccf-44c2-a2eb-c205829921b8",
+      "yugipediaId": 179660,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "September 2021",
+          "runIndex": 1,
+          "rarity": "SR"
+        },
+        {
+          "kind": "packs",
+          "run": "Jun-Jul 2021",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Number 20: Giga-Brilliant",
+      "card": "eb4f2ead-5d09-414e-855e-8b454c40b56b",
+      "yugipediaId": 172674,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "September 2021",
+          "runIndex": 1,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Temtempo the Percussion Djinn",
+      "card": "5f064a41-9357-437e-9e60-3db851d3e915",
+      "yugipediaId": 189418,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "September 2021",
+          "runIndex": 1,
+          "rarity": "SR"
+        },
+        {
+          "kind": "packs",
+          "run": "Jun-Jul 2021",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Weights & Zenmaisures",
+      "card": "5ccd0c30-321e-48de-bf68-5746101ce8a4",
+      "yugipediaId": 181035,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "September 2021",
+          "runIndex": 1,
+          "rarity": "SR"
+        },
+        {
+          "kind": "packs",
+          "run": "Jun-Jul 2021",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Reload",
+      "card": "a6572397-03da-4b2e-873f-8eeffba1a4f8",
+      "yugipediaId": 504772,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "September 2021",
+          "runIndex": 1,
+          "rarity": "SR"
+        },
+        {
+          "kind": "packs",
+          "run": "Jun-Jul 2021",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Water Hazard",
+      "card": "a7e7289e-0849-49a8-b07f-ef04c8cfdb07",
+      "yugipediaId": 110971,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "September 2021",
+          "runIndex": 1,
+          "rarity": "SR"
+        },
+        {
+          "kind": "packs",
+          "run": "Jun-Jul 2021",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Stellarnova Wave",
+      "card": "3eafafe8-1377-409f-8b92-1634fe3fe120",
+      "yugipediaId": 334266,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "September 2021",
+          "runIndex": 1,
+          "rarity": "SR"
+        },
+        {
+          "kind": "packs",
+          "run": "Jun-Jul 2021",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Divine Punishment",
+      "card": "12e80df3-0899-4bbf-b5df-7ad5b1371319",
+      "yugipediaId": 161235,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "September 2021",
+          "runIndex": 1,
+          "rarity": "SR"
+        },
+        {
+          "kind": "packs",
+          "run": "Jun-Jul 2021",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Gamushara",
+      "card": "3f7533d0-4698-4701-b89a-5c0b42bf1838",
+      "yugipediaId": 189566,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "September 2021",
+          "runIndex": 1,
+          "rarity": "SR"
+        },
+        {
+          "kind": "packs",
+          "run": "Jun-Jul 2021",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Dimension Gate",
+      "card": "b3451b1c-a951-4d53-8f68-1222816fb8bb",
+      "yugipediaId": 235387,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "September 2021",
+          "runIndex": 1,
+          "rarity": "SR"
+        },
+        {
+          "kind": "packs",
+          "run": "Jun-Jul 2021",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Gimmick Puppet - 4 or 8",
+      "skill": "e371d9c6-7f2d-4dd6-bb34-9dcad34d4028",
+      "yugipediaId": 715132,
+      "obtainedVia": [
+        {
+          "kind": "missions",
+          "run": "September 2021",
+          "runIndex": 1,
+          "requirement": "Inflict 8000 points of effect damage using Quattro."
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Raid Duel - Giant Grinder: The Meet-And-Greet of Nightmares",
+        "id": 1011683
+      }
+    ]
+  }
+}

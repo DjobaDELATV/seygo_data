@@ -1,0 +1,5775 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "0577e861-53d8-4226-a545-3c32a5847c02",
+  "name": {
+    "en": "RAID DUEL The Last Duel of Destiny! The Lone Duelist Nash!",
+    "ja": "\uff32\uff21\uff29\uff24 \uff24\uff35\uff25\uff2c \u5bbf\u547d\u306e\u30e9\u30b9\u30c8\u30c7\u30e5\u30a8\u30eb! \u5b64\u9ad8\u306e\u6c7a\u95d8\u8005\u30ca\u30c3\u30b7\u30e5"
+  },
+  "type": "Raid Duel",
+  "duelWorlds": [
+    "Duel World (ZEXAL)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/a/a3/RaidDuelTheLastDuelofDestinyTheLoneDuelistNash-Banner.png",
+  "runs": [
+    {
+      "startDate": "2026-01-29",
+      "endDate": "2026-02-09"
+    },
+    {
+      "startDate": "2026-03-23",
+      "endDate": "2026-03-30"
+    }
+  ],
+  "cardTraderExDates": [
+    {
+      "startDate": "2026-01-29",
+      "endDate": "2026-02-16"
+    },
+    {
+      "startDate": "2026-03-23",
+      "endDate": "2026-04-06"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "cumulativeRewards",
+      "path": [
+        "Rewards",
+        "Cumulative Rewards"
+      ],
+      "notes": [
+        "The following rewards were awarded during this event, based on event points accumulated over the course of the event:"
+      ]
+    },
+    {
+      "kind": "cumulativeRewards",
+      "path": [
+        "Rewards",
+        "Cumulative Rewards"
+      ],
+      "run": "January 2026",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "10000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "20000"
+              },
+              {
+                "text": "1000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "30000"
+              },
+              {
+                "text": "5 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "40000"
+              },
+              {
+                "text": "1 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "60000"
+              },
+              {
+                "text": "1000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "80000"
+              },
+              {
+                "text": "3 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "100000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "120000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "140000"
+              },
+              {
+                "text": "1 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "170000"
+              },
+              {
+                "text": "10 Chronicle Chips"
+              }
+            ],
+            [
+              {
+                "text": "200000"
+              },
+              {
+                "text": "1 EX Draw & Summon"
+              }
+            ],
+            [
+              {
+                "text": "250000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "300000"
+              },
+              {
+                "text": "2000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "350000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "400000"
+              },
+              {
+                "text": "5 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "500000"
+              },
+              {
+                "text": "1 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "600000"
+              },
+              {
+                "text": "3000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "700000"
+              },
+              {
+                "text": "20 Barian Crests"
+              }
+            ],
+            [
+              {
+                "text": "800000"
+              },
+              {
+                "text": "1 \"Hammer Shark\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Hammer Shark",
+                    "card": "2e272662-e455-4fab-8c7e-cba28ced74ba",
+                    "yugipediaId": 184622,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "920000"
+              },
+              {
+                "text": "1 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "1040000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1160000"
+              },
+              {
+                "text": "4 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "1280000"
+              },
+              {
+                "text": "30 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "1400000"
+              },
+              {
+                "text": "10 Chronicle Chips"
+              }
+            ],
+            [
+              {
+                "text": "1520000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1640000"
+              },
+              {
+                "text": "20 Barian Crests"
+              }
+            ],
+            [
+              {
+                "text": "1800000"
+              },
+              {
+                "text": "1 \"Crystal Shark\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Crystal Shark",
+                    "card": "faabbae7-55b3-4c81-80ce-2bcb5dc273ed",
+                    "yugipediaId": 714386,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "1910000"
+              },
+              {
+                "text": "1 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "2020000"
+              },
+              {
+                "text": "10 BOX Chips"
+              }
+            ],
+            [
+              {
+                "text": "2130000"
+              },
+              {
+                "text": "15 Gems"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "2240000"
+              },
+              {
+                "text": "20 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "2570000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "2700000"
+              },
+              {
+                "text": "Card Sleeves: RAID DUEL  The Last Duel of Destiny! The Lone Duelist Nash!"
+              }
+            ],
+            [
+              {
+                "text": "2930000"
+              },
+              {
+                "text": "10 Chronicle Chips"
+              }
+            ],
+            [
+              {
+                "text": "3160000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "3390000"
+              },
+              {
+                "text": "4 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "3620000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "3850000"
+              },
+              {
+                "text": "1 EX Draw & Summon"
+              }
+            ],
+            [
+              {
+                "text": "4080000"
+              },
+              {
+                "text": "30 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "4310000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "4600000"
+              },
+              {
+                "text": "1 \"Abyss Shark\"",
+                "cards": [
+                  {
+                    "name": "Abyss Shark",
+                    "card": "f3d2e29b-9349-4c99-8dd3-983be01be7d6",
+                    "yugipediaId": 712423,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "5000000"
+              },
+              {
+                "text": "4 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "5400000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "5800000"
+              },
+              {
+                "text": "10 BOX Chips"
+              }
+            ],
+            [
+              {
+                "text": "6200000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "6600000"
+              },
+              {
+                "text": "1 EX Draw & Summon"
+              }
+            ],
+            [
+              {
+                "text": "7000000"
+              },
+              {
+                "text": "Game Mat: RAID DUEL  The Last Duel of Destiny! The Lone Duelist Nash!"
+              }
+            ],
+            [
+              {
+                "text": "7710000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "8420000"
+              },
+              {
+                "text": "5 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "9130000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "9840000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "10550000"
+              },
+              {
+                "text": "5 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "11260000"
+              },
+              {
+                "text": "10 Chronicle Chips"
+              }
+            ],
+            [
+              {
+                "text": "12000000"
+              },
+              {
+                "text": "1 \"CXyz Barian Hope\"",
+                "cards": [
+                  {
+                    "name": "CXyz Barian Hope",
+                    "card": "13acb631-6fc9-4d88-b7a0-a7c6f710f70f",
+                    "yugipediaId": 290944,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "13700000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "15400000"
+              },
+              {
+                "text": "Stamp: Nash"
+              }
+            ],
+            [
+              {
+                "text": "17100000"
+              },
+              {
+                "text": "40 Gems"
+              }
+            ],
+            [
+              {
+                "text": "19000000"
+              },
+              {
+                "text": "Icon: RAID DUEL  The Last Duel of Destiny! The Lone Duelist Nash!"
+              }
+            ],
+            [
+              {
+                "text": "21500000"
+              },
+              {
+                "text": "10 Chronicle Chips"
+              }
+            ],
+            [
+              {
+                "text": "24000000"
+              },
+              {
+                "text": "Title: RAID DUEL  The Last Duel of Destiny! The Lone Duelist Nash! Completed"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "cumulativeRewards",
+      "path": [
+        "Rewards",
+        "Cumulative Rewards"
+      ],
+      "run": "March 2026",
+      "runIndex": 1,
+      "notes": [
+        "The following rewards were awarded during this event, based on event points accumulated over the its course:"
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "10000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "48000"
+              },
+              {
+                "text": "1000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "86000"
+              },
+              {
+                "text": "5 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "124000"
+              },
+              {
+                "text": "1 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "162000"
+              },
+              {
+                "text": "1000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "200000"
+              },
+              {
+                "text": "3 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "238000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "276000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "314000"
+              },
+              {
+                "text": "1 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "352000"
+              },
+              {
+                "text": "10 Chronicle Chips"
+              }
+            ],
+            [
+              {
+                "text": "390000"
+              },
+              {
+                "text": "1 EX Draw & Summon"
+              }
+            ],
+            [
+              {
+                "text": "428000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "466000"
+              },
+              {
+                "text": "2000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "504000"
+              },
+              {
+                "text": "15 Gems"
+              }
+            ],
+            [
+              {
+                "text": "542000"
+              },
+              {
+                "text": "5 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "580000"
+              },
+              {
+                "text": "1 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "618000"
+              },
+              {
+                "text": "3000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "656000"
+              },
+              {
+                "text": "20 Barian Crests"
+              }
+            ],
+            [
+              {
+                "text": "700000"
+              },
+              {
+                "text": "1 \"Abyss Shark\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Abyss Shark",
+                    "card": "f3d2e29b-9349-4c99-8dd3-983be01be7d6",
+                    "yugipediaId": 712423,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "770000"
+              },
+              {
+                "text": "1 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "840000"
+              },
+              {
+                "text": "15 Gems"
+              }
+            ],
+            [
+              {
+                "text": "910000"
+              },
+              {
+                "text": "4 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "980000"
+              },
+              {
+                "text": "30 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "1050000"
+              },
+              {
+                "text": "10 Chronicle Chips"
+              }
+            ],
+            [
+              {
+                "text": "1120000"
+              },
+              {
+                "text": "15 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1190000"
+              },
+              {
+                "text": "20 Barian Crests"
+              }
+            ],
+            [
+              {
+                "text": "1300000"
+              },
+              {
+                "text": "1 \"CXyz Barian Hope\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "CXyz Barian Hope",
+                    "card": "13acb631-6fc9-4d88-b7a0-a7c6f710f70f",
+                    "yugipediaId": 290944,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "1370000"
+              },
+              {
+                "text": "1 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "1440000"
+              },
+              {
+                "text": "10 BOX Chips"
+              }
+            ],
+            [
+              {
+                "text": "1510000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1580000"
+              },
+              {
+                "text": "20 R Jewels"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "1650000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1720000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1790000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1900000"
+              },
+              {
+                "text": "Card Sleeves: RAID DUEL  The Last Duel of Destiny! The Lone Duelist Nash!"
+              }
+            ],
+            [
+              {
+                "text": "2080000"
+              },
+              {
+                "text": "10 Chronicle Chips"
+              }
+            ],
+            [
+              {
+                "text": "2260000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "2440000"
+              },
+              {
+                "text": "4 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "2620000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "2800000"
+              },
+              {
+                "text": "1 EX Draw & Summon"
+              }
+            ],
+            [
+              {
+                "text": "2980000"
+              },
+              {
+                "text": "30 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "3160000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "3400000"
+              },
+              {
+                "text": "1 \"Number 71: Rebarian Shark\"",
+                "cards": [
+                  {
+                    "name": "Number 71: Rebarian Shark",
+                    "card": "0dcb7a03-c9c5-4675-88e0-cb6242abce15",
+                    "yugipediaId": 493982,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "3660000"
+              },
+              {
+                "text": "4 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "3920000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "4180000"
+              },
+              {
+                "text": "10 BOX Chips"
+              }
+            ],
+            [
+              {
+                "text": "4440000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "4700000"
+              },
+              {
+                "text": "1 EX Draw & Summon"
+              }
+            ],
+            [
+              {
+                "text": "5000000"
+              },
+              {
+                "text": "Game Mat: RAID DUEL  The Last Duel of Destiny! The Lone Duelist Nash!"
+              }
+            ],
+            [
+              {
+                "text": "5570000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "6140000"
+              },
+              {
+                "text": "5 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "6710000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "7280000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "7850000"
+              },
+              {
+                "text": "5 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "8420000"
+              },
+              {
+                "text": "10 Chronicle Chips"
+              }
+            ],
+            [
+              {
+                "text": "9000000"
+              },
+              {
+                "text": "1 \"Barian's Chaos Draw\"",
+                "cards": [
+                  {
+                    "name": "Barian's Chaos Draw",
+                    "card": "49f447df-c940-431a-bfad-e2da9be67a61",
+                    "yugipediaId": 282421,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10000000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "11000000"
+              },
+              {
+                "text": "Stamp: Nash"
+              }
+            ],
+            [
+              {
+                "text": "12000000"
+              },
+              {
+                "text": "40 Gems"
+              }
+            ],
+            [
+              {
+                "text": "13000000"
+              },
+              {
+                "text": "Icon: RAID DUEL  The Last Duel of Destiny! The Lone Duelist Nash!"
+              }
+            ],
+            [
+              {
+                "text": "15000000"
+              },
+              {
+                "text": "10 Chronicle Chips"
+              }
+            ],
+            [
+              {
+                "text": "17000000"
+              },
+              {
+                "text": "Title: RAID DUEL  The Last Duel of Destiny! The Lone Duelist Nash! Completed"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "treasureBoxes",
+      "path": [
+        "Rewards",
+        "Treasure Boxes"
+      ],
+      "notes": [
+        "Every time the player defeats Nash, they will be awarded with Treasure Boxes of different types."
+      ]
+    },
+    {
+      "kind": "treasureBoxes",
+      "path": [
+        "Rewards",
+        "Treasure Boxes"
+      ],
+      "run": "January 2026",
+      "runIndex": 0,
+      "tables": [
+        {
+          "rows": [
+            [
+              {
+                "text": ""
+              },
+              {
+                "text": "Rewards"
+              }
+            ],
+            [
+              {
+                "text": "Rainbow"
+              },
+              {
+                "text": "\"CXyz Barian Hope\" (UR), \"Number 17: Leviathan Dragon\" (UR), \"Abyss Shark\" (SR), \"Crystal Shark\" (SR), \"Hammer Shark\" (SR)\n20 or 10 Gems",
+                "cards": [
+                  {
+                    "name": "CXyz Barian Hope",
+                    "card": "13acb631-6fc9-4d88-b7a0-a7c6f710f70f",
+                    "yugipediaId": 290944,
+                    "rarity": "UR"
+                  },
+                  {
+                    "name": "Number 17: Leviathan Dragon",
+                    "card": "d538a548-0d1d-4abf-886d-9b7841080371",
+                    "yugipediaId": 150636,
+                    "rarity": "UR"
+                  },
+                  {
+                    "name": "Abyss Shark",
+                    "card": "f3d2e29b-9349-4c99-8dd3-983be01be7d6",
+                    "yugipediaId": 712423,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Crystal Shark",
+                    "card": "faabbae7-55b3-4c81-80ce-2bcb5dc273ed",
+                    "yugipediaId": 714386,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Hammer Shark",
+                    "card": "2e272662-e455-4fab-8c7e-cba28ced74ba",
+                    "yugipediaId": 184622,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Gold"
+              },
+              {
+                "text": "\"Abyss Shark\" (SR), \"Crystal Shark\" (SR), \"Hammer Shark\" (SR), \"Hydro Pressure Cannon\" (R), \"Steel Shell\" (R), \"Torpedo Fish\" (R)\n6 or 4 EX Jewel(s) (Raid Duel)\n5 or 1 Gem(s)\n1000 or 400 Gold",
+                "cards": [
+                  {
+                    "name": "Abyss Shark",
+                    "card": "f3d2e29b-9349-4c99-8dd3-983be01be7d6",
+                    "yugipediaId": 712423,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Crystal Shark",
+                    "card": "faabbae7-55b3-4c81-80ce-2bcb5dc273ed",
+                    "yugipediaId": 714386,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Hammer Shark",
+                    "card": "2e272662-e455-4fab-8c7e-cba28ced74ba",
+                    "yugipediaId": 184622,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Hydro Pressure Cannon",
+                    "card": "9c224208-fb16-4a58-b86b-38cefe820db8",
+                    "yugipediaId": 103717,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Steel Shell",
+                    "card": "0a3d2515-a91b-4097-9bb7-7c29ec8c8628",
+                    "yugipediaId": 7929,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Torpedo Fish",
+                    "card": "975845a7-f6e1-4f3b-b30d-8e8debeaaf3b",
+                    "yugipediaId": 12358,
+                    "rarity": "R"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Silver"
+              },
+              {
+                "text": "\"Hydro Pressure Cannon\" (R), \"Steel Shell\" (R), \"Torpedo Fish\" (R), \"Shark Cruiser\" (N), \"Spike Seadra\" (N)\n2 EX Jewel(s) (Raid Duel)\n200 or 50 Gold\n7 or 3 Gate Keys (White, Black, Blue, Red, Yellow, or Green)",
+                "cards": [
+                  {
+                    "name": "Hydro Pressure Cannon",
+                    "card": "9c224208-fb16-4a58-b86b-38cefe820db8",
+                    "yugipediaId": 103717,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Steel Shell",
+                    "card": "0a3d2515-a91b-4097-9bb7-7c29ec8c8628",
+                    "yugipediaId": 7929,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Torpedo Fish",
+                    "card": "975845a7-f6e1-4f3b-b30d-8e8debeaaf3b",
+                    "yugipediaId": 12358,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Shark Cruiser",
+                    "card": "a02dd826-e02e-4cc7-8933-dea41ffc155c",
+                    "yugipediaId": 103306,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Spike Seadra",
+                    "card": "529c89f8-b46d-4867-bd93-c939c2d6f591",
+                    "yugipediaId": 507435,
+                    "rarity": "N"
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "treasureBoxes",
+      "path": [
+        "Rewards",
+        "Treasure Boxes"
+      ],
+      "run": "March 2026",
+      "runIndex": 1,
+      "tables": [
+        {
+          "rows": [
+            [
+              {
+                "text": ""
+              },
+              {
+                "text": "Rewards"
+              }
+            ],
+            [
+              {
+                "text": "Rainbow"
+              },
+              {
+                "text": "\"Barian's Chaos Draw\" (UR), \"CXyz Barian Hope\" (UR), \"Number 71: Rebarian Shark\" (SR), \"Abyss Shark\" (SR), \"Crystal Shark\" (SR)\n20 or 10 Gems",
+                "cards": [
+                  {
+                    "name": "Barian's Chaos Draw",
+                    "card": "49f447df-c940-431a-bfad-e2da9be67a61",
+                    "yugipediaId": 282421,
+                    "rarity": "UR"
+                  },
+                  {
+                    "name": "CXyz Barian Hope",
+                    "card": "13acb631-6fc9-4d88-b7a0-a7c6f710f70f",
+                    "yugipediaId": 290944,
+                    "rarity": "UR"
+                  },
+                  {
+                    "name": "Number 71: Rebarian Shark",
+                    "card": "0dcb7a03-c9c5-4675-88e0-cb6242abce15",
+                    "yugipediaId": 493982,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Abyss Shark",
+                    "card": "f3d2e29b-9349-4c99-8dd3-983be01be7d6",
+                    "yugipediaId": 712423,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Crystal Shark",
+                    "card": "faabbae7-55b3-4c81-80ce-2bcb5dc273ed",
+                    "yugipediaId": 714386,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Gold"
+              },
+              {
+                "text": "\"Number 71: Rebarian Shark\" (SR), \"Abyss Shark\" (SR), \"Crystal Shark\" (SR), \"Hydro Pressure Cannon\" (R), \"Steel Shell\" (R), \"Torpedo Fish\" (R)\n6 or 4 EX Jewel(s) (Raid Duel)\n5 or 1 Gem(s)\n1000 or 400 Gold",
+                "cards": [
+                  {
+                    "name": "Number 71: Rebarian Shark",
+                    "card": "0dcb7a03-c9c5-4675-88e0-cb6242abce15",
+                    "yugipediaId": 493982,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Abyss Shark",
+                    "card": "f3d2e29b-9349-4c99-8dd3-983be01be7d6",
+                    "yugipediaId": 712423,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Crystal Shark",
+                    "card": "faabbae7-55b3-4c81-80ce-2bcb5dc273ed",
+                    "yugipediaId": 714386,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Hydro Pressure Cannon",
+                    "card": "9c224208-fb16-4a58-b86b-38cefe820db8",
+                    "yugipediaId": 103717,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Steel Shell",
+                    "card": "0a3d2515-a91b-4097-9bb7-7c29ec8c8628",
+                    "yugipediaId": 7929,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Torpedo Fish",
+                    "card": "975845a7-f6e1-4f3b-b30d-8e8debeaaf3b",
+                    "yugipediaId": 12358,
+                    "rarity": "R"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Silver"
+              },
+              {
+                "text": "\"Hydro Pressure Cannon\" (R), \"Steel Shell\" (R), \"Torpedo Fish\" (R), \"Shark Cruiser\" (N), \"Spike Seadra\" (N)\n2 EX Jewel(s) (Raid Duel)\n200 or 50 Gold\n7 or 3 Gate Keys (White, Black, Blue, Red, Yellow, or Green)",
+                "cards": [
+                  {
+                    "name": "Hydro Pressure Cannon",
+                    "card": "9c224208-fb16-4a58-b86b-38cefe820db8",
+                    "yugipediaId": 103717,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Steel Shell",
+                    "card": "0a3d2515-a91b-4097-9bb7-7c29ec8c8628",
+                    "yugipediaId": 7929,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Torpedo Fish",
+                    "card": "975845a7-f6e1-4f3b-b30d-8e8debeaaf3b",
+                    "yugipediaId": 12358,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Shark Cruiser",
+                    "card": "a02dd826-e02e-4cc7-8933-dea41ffc155c",
+                    "yugipediaId": 103306,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Spike Seadra",
+                    "card": "529c89f8-b46d-4867-bd93-c939c2d6f591",
+                    "yugipediaId": 507435,
+                    "rarity": "N"
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "packs",
+      "path": [
+        "Rewards",
+        "Legendary Duelist Rainbow Pack (ZEXAL)"
+      ],
+      "notes": [
+        "Awarded each time the Damage Ranking is reset. Each pack contains 1 of the following cards:"
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "\"Night Express Knight\" (UR)",
+                "cards": [
+                  {
+                    "name": "Night Express Knight",
+                    "card": "1747c8f5-af7b-4368-bfbc-aa03ba3e325a",
+                    "yugipediaId": 258390,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Cataclysmic Scorching Sunburner\" (UR)",
+                "cards": [
+                  {
+                    "name": "Cataclysmic Scorching Sunburner",
+                    "card": "f4e0ccae-d775-4cbb-8252-b10f1183e8db",
+                    "yugipediaId": 576136,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Gimmick Puppet Twilight Joker\" (UR)",
+                "cards": [
+                  {
+                    "name": "Gimmick Puppet Twilight Joker",
+                    "card": "3d737eff-45e6-45e7-8985-e0b88e30cd4a",
+                    "yugipediaId": 206219,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Prime Material Dragon\" (UR)",
+                "cards": [
+                  {
+                    "name": "Prime Material Dragon",
+                    "card": "f22b3e6d-56ad-49f7-b4d4-e3c1e2d18224",
+                    "yugipediaId": 88544,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Chronomaly Moai Carrier\" (UR)",
+                "cards": [
+                  {
+                    "name": "Chronomaly Moai Carrier",
+                    "card": "8b8c5399-d109-488c-b1fc-9ff066e63ba8",
+                    "yugipediaId": 300514,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Chronomaly Moai\" (UR)",
+                "cards": [
+                  {
+                    "name": "Chronomaly Moai",
+                    "card": "5aa270b3-206a-4ad3-a4c6-f9ae772cf605",
+                    "yugipediaId": 200789,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Chronomaly Tula Guardian\" (UR)",
+                "cards": [
+                  {
+                    "name": "Chronomaly Tula Guardian",
+                    "card": "5c43f49b-11e9-487e-8ade-71b928b35816",
+                    "yugipediaId": 196683,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Fencing Fire Ferret\" (UR)",
+                "cards": [
+                  {
+                    "name": "Fencing Fire Ferret",
+                    "card": "cf8acca8-99c7-4a0d-a265-447cfb4d3e3c",
+                    "yugipediaId": 260886,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Gimmick Puppet Scissor Arms\" (UR)",
+                "cards": [
+                  {
+                    "name": "Gimmick Puppet Scissor Arms",
+                    "card": "79c39a3a-d3e2-4980-ba7f-0776db8babd1",
+                    "yugipediaId": 215808,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Gimmick Puppet Egg Head\" (UR)",
+                "cards": [
+                  {
+                    "name": "Gimmick Puppet Egg Head",
+                    "card": "6dc0314d-e242-4b6a-9e4b-6ffe7af8e93e",
+                    "yugipediaId": 200853,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Photon Advancer\" (UR)",
+                "cards": [
+                  {
+                    "name": "Photon Advancer",
+                    "card": "61f5aaf6-1722-4376-8474-7ee9e87548de",
+                    "yugipediaId": 300838,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Inferno\" (UR)",
+                "cards": [
+                  {
+                    "name": "Inferno",
+                    "card": "e4fd7dec-683c-4ce8-9819-97018ddaed8b",
+                    "yugipediaId": 17157,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Gagaga Magician\" (UR)",
+                "cards": [
+                  {
+                    "name": "Gagaga Magician",
+                    "card": "ffe4edd8-a97e-430f-9e63-2722891d3d16",
+                    "yugipediaId": 150083,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Penguin Soldier\" (UR)",
+                "cards": [
+                  {
+                    "name": "Penguin Soldier",
+                    "card": "1fe38082-1018-458e-8ef2-c5f731e5fdd9",
+                    "yugipediaId": 70,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Full Armored Crystalzero Lancer\" (UR)",
+                "cards": [
+                  {
+                    "name": "Full Armored Crystalzero Lancer",
+                    "card": "60e664ce-103e-4c53-835f-ba65061115eb",
+                    "yugipediaId": 293276,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Number C80: Requiem in Berserk\" (UR)",
+                "cards": [
+                  {
+                    "name": "Number C80: Requiem in Berserk",
+                    "card": "b0aea0b4-62c3-4959-b2b0-15cc46c8a564",
+                    "yugipediaId": 282455,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Ice Princess Zereort\" (UR)",
+                "cards": [
+                  {
+                    "name": "Ice Princess Zereort",
+                    "card": "15b9d317-a393-400e-b2e6-6016c7a3328e",
+                    "yugipediaId": 273756,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Starring Knight\" (UR)",
+                "cards": [
+                  {
+                    "name": "Starring Knight",
+                    "card": "21ab64d2-2bab-480a-a043-7d6d400fed21",
+                    "yugipediaId": 716854,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Galaxy Stealth Dragon\" (UR)",
+                "cards": [
+                  {
+                    "name": "Galaxy Stealth Dragon",
+                    "card": "53ecfaa9-2e46-478b-9e36-c546f4170f57",
+                    "yugipediaId": 457257,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Number 105: Battlin' Boxer Star Cestus\" (UR)",
+                "cards": [
+                  {
+                    "name": "Number 105: Battlin' Boxer Star Cestus",
+                    "card": "66d04d1e-1331-46cd-9fe9-93167935f6ed",
+                    "yugipediaId": 256805,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Heavy Armored Train Ironwolf\" (UR)",
+                "cards": [
+                  {
+                    "name": "Heavy Armored Train Ironwolf",
+                    "card": "dd641844-646d-4ac6-8801-f63ff4b51f84",
+                    "yugipediaId": 458378,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Number 10: Illumiknight\" (UR)",
+                "cards": [
+                  {
+                    "name": "Number 10: Illumiknight",
+                    "card": "ce48f24c-8062-45b1-b558-6d21fde6e7f2",
+                    "yugipediaId": 172769,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Fairy Cheer Girl\" (UR)",
+                "cards": [
+                  {
+                    "name": "Fairy Cheer Girl",
+                    "card": "78b579d4-a3ab-4cf0-92f0-f7836be4458b",
+                    "yugipediaId": 248502,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Tin Archduke\" (UR)",
+                "cards": [
+                  {
+                    "name": "Tin Archduke",
+                    "card": "0e9d4146-74ba-4e9e-87b9-9aac666858f5",
+                    "yugipediaId": 181455,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Number 34: Terror-Byte\" (UR)",
+                "cards": [
+                  {
+                    "name": "Number 34: Terror-Byte",
+                    "card": "60159de7-f5d1-4d4f-9f9d-6f825f7a060b",
+                    "yugipediaId": 168355,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Number 47: Nightmare Shark\" (UR)",
+                "cards": [
+                  {
+                    "name": "Number 47: Nightmare Shark",
+                    "card": "d74d52b8-57bc-47da-a056-5beecad27940",
+                    "yugipediaId": 247308,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Number 17: Leviathan Dragon\" (UR)",
+                "cards": [
+                  {
+                    "name": "Number 17: Leviathan Dragon",
+                    "card": "d538a548-0d1d-4abf-886d-9b7841080371",
+                    "yugipediaId": 150636,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Sargasso Lighthouse\" (UR)",
+                "cards": [
+                  {
+                    "name": "Sargasso Lighthouse",
+                    "card": "ed1ac767-2224-4f9a-b6d4-2e3ca87ef361",
+                    "yugipediaId": 270481,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Galactic Charity\" (UR)",
+                "cards": [
+                  {
+                    "name": "Galactic Charity",
+                    "card": "bbf15bb1-f2ee-48b6-be74-60ec01cfd9d7",
+                    "yugipediaId": 296283,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Setuppercut\" (UR)",
+                "cards": [
+                  {
+                    "name": "Setuppercut",
+                    "card": "db7b32ab-0c5c-49c0-88f6-c4ebf9a9df11",
+                    "yugipediaId": 600362,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Indestructible Airship Hindenkraft\" (SR)",
+                "cards": [
+                  {
+                    "name": "Indestructible Airship Hindenkraft",
+                    "card": "d1db38fd-e9d2-4ec0-a151-91f62ae409b8",
+                    "yugipediaId": 718658,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Galactic Spiral Dragon\" (SR)",
+                "cards": [
+                  {
+                    "name": "Galactic Spiral Dragon",
+                    "card": "7048e0d6-5837-46ec-854d-327e7fe13de4",
+                    "yugipediaId": 644735,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Gimmick Puppet Magnet Doll\" (SR)",
+                "cards": [
+                  {
+                    "name": "Gimmick Puppet Magnet Doll",
+                    "card": "cf7f240f-3876-4b78-ab30-71846ca1a126",
+                    "yugipediaId": 206148,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Archlord Zerato\" (SR)",
+                "cards": [
+                  {
+                    "name": "Archlord Zerato",
+                    "card": "6275d19d-1fae-4ee3-ae4a-78e5dc4e4ce2",
+                    "yugipediaId": 15588,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Genesis Dragon\" (SR)",
+                "cards": [
+                  {
+                    "name": "Genesis Dragon",
+                    "card": "d593392e-fb44-49f2-bc2e-25f78a9b963f",
+                    "yugipediaId": 23872,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Depth Shark\" (SR)",
+                "cards": [
+                  {
+                    "name": "Depth Shark",
+                    "card": "c866360c-e4ce-48c4-96ba-beca0faa2545",
+                    "yugipediaId": 274626,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Tethys, Goddess of Light\" (SR)",
+                "cards": [
+                  {
+                    "name": "Tethys, Goddess of Light",
+                    "card": "af2ebb92-7ebb-4b22-a09c-7e6e1a8aa5b3",
+                    "yugipediaId": 69799,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Ice Hand\" (SR)",
+                "cards": [
+                  {
+                    "name": "Ice Hand",
+                    "card": "1e81aa26-4256-4114-a75d-b849a053771e",
+                    "yugipediaId": 254916,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Magic Hand\" (SR)",
+                "cards": [
+                  {
+                    "name": "Magic Hand",
+                    "card": "861fc8c1-b031-41e2-a89a-7ef362e2c3cf",
+                    "yugipediaId": 248415,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Blizzard Falcon\" (SR)",
+                "cards": [
+                  {
+                    "name": "Blizzard Falcon",
+                    "card": "b119dd7d-2498-4a92-9823-068f8fc18e16",
+                    "yugipediaId": 233060,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Lionhearted Locomotive\" (SR)",
+                "cards": [
+                  {
+                    "name": "Lionhearted Locomotive",
+                    "card": "1a515b1a-b32e-499e-939d-020e1fe82fc6",
+                    "yugipediaId": 200746,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Chronomaly Aztec Mask Golem\" (SR)",
+                "cards": [
+                  {
+                    "name": "Chronomaly Aztec Mask Golem",
+                    "card": "f4153a79-5ef9-4ef1-8bc4-e2620ec37d34",
+                    "yugipediaId": 221773,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Gimmick Puppet Des Troy\" (SR)",
+                "cards": [
+                  {
+                    "name": "Gimmick Puppet Des Troy",
+                    "card": "e1c583eb-0154-4c9b-8e29-7a55a1de26fa",
+                    "yugipediaId": 289194,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Chronomaly Golden Jet\" (SR)",
+                "cards": [
+                  {
+                    "name": "Chronomaly Golden Jet",
+                    "card": "3a6e0981-323c-4f0d-930e-0e72da3347a2",
+                    "yugipediaId": 185983,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Chronomaly Mud Golem\" (SR)",
+                "cards": [
+                  {
+                    "name": "Chronomaly Mud Golem",
+                    "card": "92cde983-0bce-4c41-9250-9a4448d544b3",
+                    "yugipediaId": 203448,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Reverse Buster\" (SR)",
+                "cards": [
+                  {
+                    "name": "Reverse Buster",
+                    "card": "125aa39f-65a7-4ca7-95d5-24c2bc4b6afd",
+                    "yugipediaId": 193517,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Photon Crusher\" (SR)",
+                "cards": [
+                  {
+                    "name": "Photon Crusher",
+                    "card": "fe970e0c-3c91-4371-873a-5c96c4c0c3d1",
+                    "yugipediaId": 190064,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Gogogo Golem\" (SR)",
+                "cards": [
+                  {
+                    "name": "Gogogo Golem",
+                    "card": "17531a23-55ad-43f0-8f17-efd9a76b1ae3",
+                    "yugipediaId": 161837,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Sand Moth\" (SR)",
+                "cards": [
+                  {
+                    "name": "Sand Moth",
+                    "card": "702f34da-6026-4365-9e45-03d9d68f208e",
+                    "yugipediaId": 11645,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Harvest Angel of Wisdom\" (SR)",
+                "cards": [
+                  {
+                    "name": "Harvest Angel of Wisdom",
+                    "card": "d62de900-c1f7-4932-bf10-0ec3e443b5aa",
+                    "yugipediaId": 19069,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Radiant Jeral\" (SR)",
+                "cards": [
+                  {
+                    "name": "Radiant Jeral",
+                    "card": "9586c63c-b1a4-4ff1-b770-cc069f2caa42",
+                    "yugipediaId": 19702,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Zeradias, Herald of Heaven\" (SR)",
+                "cards": [
+                  {
+                    "name": "Zeradias, Herald of Heaven",
+                    "card": "82536c8e-0d7a-46f5-8247-d38555421155",
+                    "yugipediaId": 20206,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Dark Crusader\" (SR)",
+                "cards": [
+                  {
+                    "name": "Dark Crusader",
+                    "card": "48482748-59d7-4e77-b451-6c4c79457879",
+                    "yugipediaId": 75178,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Biofalcon\" (SR)",
+                "cards": [
+                  {
+                    "name": "Biofalcon",
+                    "card": "bd0d4342-546d-4417-a05a-3867a5d306dc",
+                    "yugipediaId": 127680,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Shark Stickers\" (SR)",
+                "cards": [
+                  {
+                    "name": "Shark Stickers",
+                    "card": "68f92088-b74d-459b-887a-102ff8546dae",
+                    "yugipediaId": 171917,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Toy Soldier\" (SR)",
+                "cards": [
+                  {
+                    "name": "Toy Soldier",
+                    "card": "60a33181-30c5-47ff-a059-680a504fdd94",
+                    "yugipediaId": 1029887,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Nimble Momonga\" (SR)",
+                "cards": [
+                  {
+                    "name": "Nimble Momonga",
+                    "card": "fb290bf1-2ba1-43aa-9104-7134304aa7a7",
+                    "yugipediaId": 4393,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Gimmick Puppet Gear Changer\" (SR)",
+                "cards": [
+                  {
+                    "name": "Gimmick Puppet Gear Changer",
+                    "card": "f416c197-e187-42c8-b116-557c90fd37f8",
+                    "yugipediaId": 206061,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Wind-Up Honeybee\" (SR)",
+                "cards": [
+                  {
+                    "name": "Wind-Up Honeybee",
+                    "card": "f3edcf6d-5ccf-44c2-a2eb-c205829921b8",
+                    "yugipediaId": 179660,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Baromet the Sacred Sheep Shrub\" (SR)",
+                "cards": [
+                  {
+                    "name": "Baromet the Sacred Sheep Shrub",
+                    "card": "9a35449f-e1f9-4e85-8278-04e077a84720",
+                    "yugipediaId": 716564,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Number 80: Rhapsody in Berserk\" (SR)",
+                "cards": [
+                  {
+                    "name": "Number 80: Rhapsody in Berserk",
+                    "card": "148c0352-539f-426e-a94d-b1cec25a82ac",
+                    "yugipediaId": 300782,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Number 20: Giga-Brilliant\" (SR)",
+                "cards": [
+                  {
+                    "name": "Number 20: Giga-Brilliant",
+                    "card": "eb4f2ead-5d09-414e-855e-8b454c40b56b",
+                    "yugipediaId": 172674,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Temtempo the Percussion Djinn\" (SR)",
+                "cards": [
+                  {
+                    "name": "Temtempo the Percussion Djinn",
+                    "card": "5f064a41-9357-437e-9e60-3db851d3e915",
+                    "yugipediaId": 189418,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Xyz Align\" (SR)",
+                "cards": [
+                  {
+                    "name": "Xyz Align",
+                    "card": "0662de59-fe02-4398-a473-1acbccc4bfd3",
+                    "yugipediaId": 717534,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Dragon Shield\" (SR)",
+                "cards": [
+                  {
+                    "name": "Dragon Shield",
+                    "card": "9b8399d7-6ffc-4550-8f06-5753684cfe7d",
+                    "yugipediaId": 260597,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Xyz Import\" (SR)",
+                "cards": [
+                  {
+                    "name": "Xyz Import",
+                    "card": "1fd682d9-90f4-466b-ae26-0455ffb978c1",
+                    "yugipediaId": 717537,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Xyz Burst\" (SR)",
+                "cards": [
+                  {
+                    "name": "Xyz Burst",
+                    "card": "a623c077-bd21-4d32-9472-cdfbd8f7eb32",
+                    "yugipediaId": 194576,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Weights & Zenmaisures\" (SR)",
+                "cards": [
+                  {
+                    "name": "Weights & Zenmaisures",
+                    "card": "5ccd0c30-321e-48de-bf68-5746101ce8a4",
+                    "yugipediaId": 181035,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Sacred Defense Barrier\" (SR)",
+                "cards": [
+                  {
+                    "name": "Sacred Defense Barrier",
+                    "card": "73d9cecf-ffc8-48e4-9024-02d434ea5482",
+                    "yugipediaId": 719495,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Reload\" (SR)",
+                "cards": [
+                  {
+                    "name": "Reload",
+                    "card": "a6572397-03da-4b2e-873f-8eeffba1a4f8",
+                    "yugipediaId": 504772,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Water Hazard\" (SR)",
+                "cards": [
+                  {
+                    "name": "Water Hazard",
+                    "card": "a7e7289e-0849-49a8-b07f-ef04c8cfdb07",
+                    "yugipediaId": 110971,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Xyz Bento\" (SR)",
+                "cards": [
+                  {
+                    "name": "Xyz Bento",
+                    "card": "512a339f-6e8d-41c6-8c6f-277991dc6ea3",
+                    "yugipediaId": 708450,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Torrential Reborn\" (SR)",
+                "cards": [
+                  {
+                    "name": "Torrential Reborn",
+                    "card": "434bf05f-4d20-48ab-b04e-b89aeb76fb07",
+                    "yugipediaId": 226636,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Wonder Xyz\" (SR)",
+                "cards": [
+                  {
+                    "name": "Wonder Xyz",
+                    "card": "2001e89d-ad46-4f8b-9ea3-dce68c38dcd8",
+                    "yugipediaId": 360334,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Stellarnova Wave\" (SR)",
+                "cards": [
+                  {
+                    "name": "Stellarnova Wave",
+                    "card": "3eafafe8-1377-409f-8b92-1634fe3fe120",
+                    "yugipediaId": 334266,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Divine Punishment\" (SR)",
+                "cards": [
+                  {
+                    "name": "Divine Punishment",
+                    "card": "12e80df3-0899-4bbf-b5df-7ad5b1371319",
+                    "yugipediaId": 161235,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Gamushara\" (SR)",
+                "cards": [
+                  {
+                    "name": "Gamushara",
+                    "card": "3f7533d0-4698-4701-b89a-5c0b42bf1838",
+                    "yugipediaId": 189566,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Dimension Gate\" (SR)",
+                "cards": [
+                  {
+                    "name": "Dimension Gate",
+                    "card": "b3451b1c-a951-4d53-8f68-1222816fb8bb",
+                    "yugipediaId": 235387,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "cardTraderEx",
+      "path": [
+        "Rewards",
+        "Card Trader EX"
+      ],
+      "notes": [
+        "The Card Trader EX appears during this event and remains open until one week after its conclusion. The player can trade their EX Jewels for cards, Booster Items, Gold, and Skill Chips. Each card and Booster Item can only be obtained once from the Card Trader EX during this event, but the Gold can be obtained any number of times."
+      ]
+    },
+    {
+      "kind": "cardTraderEx",
+      "path": [
+        "Rewards",
+        "Card Trader EX"
+      ],
+      "run": "January 2026",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "EX Jewels",
+            "Item"
+          ],
+          "rows": [
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1"
+              },
+              {
+                "text": "100 Gold"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Results Booster"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 EXP Booster"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "10 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "10 BOX Chips"
+              }
+            ],
+            [
+              {
+                "text": "300"
+              },
+              {
+                "text": "1 \u201cCXyz Barian Hope\u201d",
+                "cards": [
+                  {
+                    "name": "CXyz Barian Hope",
+                    "card": "13acb631-6fc9-4d88-b7a0-a7c6f710f70f",
+                    "yugipediaId": 290944
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"CXyz Barian Hope\" (Glossy)",
+                "cards": [
+                  {
+                    "name": "CXyz Barian Hope",
+                    "card": "13acb631-6fc9-4d88-b7a0-a7c6f710f70f",
+                    "yugipediaId": 290944,
+                    "quantity": 1,
+                    "variant": "Glossy"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "400"
+              },
+              {
+                "text": "1 \"CXyz Barian Hope\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "CXyz Barian Hope",
+                    "card": "13acb631-6fc9-4d88-b7a0-a7c6f710f70f",
+                    "yugipediaId": 290944,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "300"
+              },
+              {
+                "text": "1 \"Number 17: Leviathan Dragon\"",
+                "cards": [
+                  {
+                    "name": "Number 17: Leviathan Dragon",
+                    "card": "d538a548-0d1d-4abf-886d-9b7841080371",
+                    "yugipediaId": 150636,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Abyss Shark\"",
+                "cards": [
+                  {
+                    "name": "Abyss Shark",
+                    "card": "f3d2e29b-9349-4c99-8dd3-983be01be7d6",
+                    "yugipediaId": 712423,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Crystal Shark\"",
+                "cards": [
+                  {
+                    "name": "Crystal Shark",
+                    "card": "faabbae7-55b3-4c81-80ce-2bcb5dc273ed",
+                    "yugipediaId": 714386,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Hammer Shark\"",
+                "cards": [
+                  {
+                    "name": "Hammer Shark",
+                    "card": "2e272662-e455-4fab-8c7e-cba28ced74ba",
+                    "yugipediaId": 184622,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Hydro Pressure Cannon\"",
+                "cards": [
+                  {
+                    "name": "Hydro Pressure Cannon",
+                    "card": "9c224208-fb16-4a58-b86b-38cefe820db8",
+                    "yugipediaId": 103717,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Steel Shell\"",
+                "cards": [
+                  {
+                    "name": "Steel Shell",
+                    "card": "0a3d2515-a91b-4097-9bb7-7c29ec8c8628",
+                    "yugipediaId": 7929,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Torpedo Fish\"",
+                "cards": [
+                  {
+                    "name": "Torpedo Fish",
+                    "card": "975845a7-f6e1-4f3b-b30d-8e8debeaaf3b",
+                    "yugipediaId": 12358,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Shark Cruiser\"",
+                "cards": [
+                  {
+                    "name": "Shark Cruiser",
+                    "card": "a02dd826-e02e-4cc7-8933-dea41ffc155c",
+                    "yugipediaId": 103306,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Spike Seadra\"",
+                "cards": [
+                  {
+                    "name": "Spike Seadra",
+                    "card": "529c89f8-b46d-4867-bd93-c939c2d6f591",
+                    "yugipediaId": 507435,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "cardTraderEx",
+      "path": [
+        "Rewards",
+        "Card Trader EX"
+      ],
+      "run": "March 2026",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "EX Jewels",
+            "Item"
+          ],
+          "rows": [
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1"
+              },
+              {
+                "text": "100 Gold"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Results Booster"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 EXP Booster"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "10 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "10 BOX Chips"
+              }
+            ],
+            [
+              {
+                "text": "300"
+              },
+              {
+                "text": "1 \u201cBarian's Chaos Draw\u201d"
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Barian's Chaos Draw\" (Glossy)",
+                "cards": [
+                  {
+                    "name": "Barian's Chaos Draw",
+                    "card": "49f447df-c940-431a-bfad-e2da9be67a61",
+                    "yugipediaId": 282421,
+                    "quantity": 1,
+                    "variant": "Glossy"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "400"
+              },
+              {
+                "text": "1 \"Barian's Chaos Draw\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Barian's Chaos Draw",
+                    "card": "49f447df-c940-431a-bfad-e2da9be67a61",
+                    "yugipediaId": 282421,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "300"
+              },
+              {
+                "text": "1 \"CXyz Barian Hope\"",
+                "cards": [
+                  {
+                    "name": "CXyz Barian Hope",
+                    "card": "13acb631-6fc9-4d88-b7a0-a7c6f710f70f",
+                    "yugipediaId": 290944,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "300"
+              },
+              {
+                "text": "1 \"Number 17: Leviathan Dragon\"",
+                "cards": [
+                  {
+                    "name": "Number 17: Leviathan Dragon",
+                    "card": "d538a548-0d1d-4abf-886d-9b7841080371",
+                    "yugipediaId": 150636,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Number 71: Rebarian Shark\"",
+                "cards": [
+                  {
+                    "name": "Number 71: Rebarian Shark",
+                    "card": "0dcb7a03-c9c5-4675-88e0-cb6242abce15",
+                    "yugipediaId": 493982,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Abyss Shark\"",
+                "cards": [
+                  {
+                    "name": "Abyss Shark",
+                    "card": "f3d2e29b-9349-4c99-8dd3-983be01be7d6",
+                    "yugipediaId": 712423,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Crystal Shark\"",
+                "cards": [
+                  {
+                    "name": "Crystal Shark",
+                    "card": "faabbae7-55b3-4c81-80ce-2bcb5dc273ed",
+                    "yugipediaId": 714386,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Hammer Shark\"",
+                "cards": [
+                  {
+                    "name": "Hammer Shark",
+                    "card": "2e272662-e455-4fab-8c7e-cba28ced74ba",
+                    "yugipediaId": 184622,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Hydro Pressure Cannon\"",
+                "cards": [
+                  {
+                    "name": "Hydro Pressure Cannon",
+                    "card": "9c224208-fb16-4a58-b86b-38cefe820db8",
+                    "yugipediaId": 103717,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Steel Shell\"",
+                "cards": [
+                  {
+                    "name": "Steel Shell",
+                    "card": "0a3d2515-a91b-4097-9bb7-7c29ec8c8628",
+                    "yugipediaId": 7929,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Torpedo Fish\"",
+                "cards": [
+                  {
+                    "name": "Torpedo Fish",
+                    "card": "975845a7-f6e1-4f3b-b30d-8e8debeaaf3b",
+                    "yugipediaId": 12358,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Shark Cruiser\"",
+                "cards": [
+                  {
+                    "name": "Shark Cruiser",
+                    "card": "a02dd826-e02e-4cc7-8933-dea41ffc155c",
+                    "yugipediaId": 103306,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Spike Seadra\"",
+                "cards": [
+                  {
+                    "name": "Spike Seadra",
+                    "card": "529c89f8-b46d-4867-bd93-c939c2d6f591",
+                    "yugipediaId": 507435,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Rewards",
+        "Event Missions"
+      ],
+      "notes": [
+        "These missions were available from the start of the event.",
+        "The following missions were available from February 2, 2026 onward.",
+        "The following missions were available from March 26, 2026 onward.",
+        "The following mission was available from March 27, 2026 onward."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Event Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Defeat the Raid Boss 1 time(s)."
+              },
+              {
+                "text": "1 EX Draw & Summon"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 10 time(s)."
+              },
+              {
+                "text": "10 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 15 time(s)."
+              },
+              {
+                "text": "20 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 20 time(s)."
+              },
+              {
+                "text": "30 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 25 time(s)."
+              },
+              {
+                "text": "40 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 30 time(s)."
+              },
+              {
+                "text": "50 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 35 time(s)."
+              },
+              {
+                "text": "60 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 40 time(s)."
+              },
+              {
+                "text": "70 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Play 10 Assist(s) in Raid Duel (surrenders are not counted)."
+              },
+              {
+                "text": "30 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Play 25 Assist(s) in Raid Duel (surrenders are not counted)."
+              },
+              {
+                "text": "40 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Play 50 Assist(s) in Raid Duel (surrenders are not counted)."
+              },
+              {
+                "text": "50 EX Jewels"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Event Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Defeat Raid Boss at Lvl. 2000 or above."
+              },
+              {
+                "text": "Card Sleeves: Nash & Yuma Tsukumo"
+              }
+            ],
+            [
+              {
+                "text": "Inflict 30000 or more points of damage in one Duel against Raid Boss at Lvl. 2000 or above."
+              },
+              {
+                "text": "Game Mat: Nash & Yuma Tsukumo"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Lvl. 2000 or above Raid Boss 3 time(s)."
+              },
+              {
+                "text": "50 Chronicle Chips"
+              }
+            ],
+            [
+              {
+                "text": "Summon \"Number 39: Utopia\" 7 time(s).",
+                "cards": [
+                  {
+                    "name": "Number 39: Utopia",
+                    "card": "aa9e5af4-5bd4-4b65-b18d-2d2e70b2731c",
+                    "yugipediaId": 161738
+                  }
+                ]
+              },
+              {
+                "text": "Icon: Nash & Yuma Tsukumo"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Event Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Defeat Raid Boss at Lvl. 2000 or above."
+              },
+              {
+                "text": "Card Sleeves: Barian Battlemorph!"
+              }
+            ],
+            [
+              {
+                "text": "Inflict 30000 or more points of damage in one Duel against Raid Boss at Lvl. 2000 or above."
+              },
+              {
+                "text": "Game Mat: Barian Battlemorph!"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Lvl. 2000 or above Raid Boss 3 time(s)."
+              },
+              {
+                "text": "50 Chronicle Chips"
+              }
+            ],
+            [
+              {
+                "text": "Summon \"Number 101: Silent Honor ARK\" 3 time(s) while playing as Nash.",
+                "cards": [
+                  {
+                    "name": "Number 101: Silent Honor ARK",
+                    "card": "a3956c1c-0ded-4a68-b557-f81c8b7c56b4",
+                    "yugipediaId": 319125
+                  }
+                ]
+              },
+              {
+                "text": "Skill: Barian Battlemorph! The Power That Guides the World",
+                "skills": [
+                  {
+                    "name": "Barian Battlemorph! The Power That Guides the World",
+                    "skill": "d4d418ed-c39c-4a68-a839-689a95a8f500",
+                    "yugipediaId": 1182224
+                  }
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Event Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Summon \"Number 39: Utopia\" 7 time(s).",
+                "cards": [
+                  {
+                    "name": "Number 39: Utopia",
+                    "card": "aa9e5af4-5bd4-4b65-b18d-2d2e70b2731c",
+                    "yugipediaId": 161738
+                  }
+                ]
+              },
+              {
+                "text": "Icon: Barian Crest"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "dailyMissions",
+      "path": [
+        "Rewards",
+        "Event Missions",
+        "Daily Missions"
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Event Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Play 1 Duel(s) in Ranked Duels (surrenders are not counted)."
+              },
+              {
+                "text": "20 Barian Crests"
+              }
+            ],
+            [
+              {
+                "text": "Play 2 Duel(s) in Ranked Duels (surrenders are not counted)."
+              },
+              {
+                "text": "20 Barian Crests"
+              }
+            ],
+            [
+              {
+                "text": "Play 3 Duel(s) in Ranked Duels (surrenders are not counted)."
+              },
+              {
+                "text": "1 Duel Gazer"
+              }
+            ],
+            [
+              {
+                "text": "Use \"Nash\" to duel 1 times in PvP (surrenders are not counted)."
+              },
+              {
+                "text": "30 EX Jewels"
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "decks": [
+    {
+      "path": [
+        "Decks",
+        "Nash",
+        "Level 100-200"
+      ],
+      "name": "Guiding the Barian World",
+      "owner": "Nash",
+      "cards": [
+        {
+          "name": "Akihiron",
+          "card": "9312a3ad-a5e7-4eb9-80fd-98ff26877fa6",
+          "yugipediaId": 7477,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Boneheimer",
+          "card": "789d6538-013a-454e-b645-77c89045d7ec",
+          "yugipediaId": 9126,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Hitodenchak",
+          "card": "f2cb937c-ee67-4a56-b355-3edddacb3cf0",
+          "yugipediaId": 5035,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Root Water",
+          "card": "7831b205-3cc9-451e-9aa9-f6e0b9f4da51",
+          "yugipediaId": 505534,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "White Dolphin",
+          "card": "f237e14f-8f64-45f8-a74b-e7cb7b5d964f",
+          "yugipediaId": 7757,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Mermaid Shark",
+          "card": "2d31ba12-d46f-4508-8aa0-9fffac01122d",
+          "yugipediaId": 310446,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Starfish",
+          "card": "bafad687-b703-44af-b490-a3cff39af40a",
+          "yugipediaId": 261545,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Xyz Remora",
+          "card": "9d1976b0-2bc3-41e5-9b8f-4da159581b15",
+          "yugipediaId": 244132,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Zone Eater",
+          "card": "5c19363d-f251-42cc-958a-67e6b8903f77",
+          "yugipediaId": 8441,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Submersible Carrier Aero Shark",
+          "card": "a0cc11bf-7d60-4373-a834-47c2cec19e28",
+          "yugipediaId": 149497,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Big Wave Small Wave",
+          "card": "4d5734a1-8448-4b32-9c03-70a9efb1fbcd",
+          "yugipediaId": 7652,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Different Dimension Deepsea Trench",
+          "card": "12d162cb-a96b-4c03-9e9e-4cac1f7cb854",
+          "yugipediaId": 197701,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Moray of Greed",
+          "card": "5c0b3aaa-9ee3-4e24-a113-332e816ed19a",
+          "yugipediaId": 101313,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Salvage",
+          "card": "da8d5a38-dd17-427b-8992-2cab97115e85",
+          "yugipediaId": 10395,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Surface",
+          "card": "0aae7bbb-e998-419a-840d-d49ad18b4538",
+          "yugipediaId": 163802,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Fish Rain",
+          "card": "48b1fde5-303c-40e2-9451-74f10e725361",
+          "yugipediaId": 171880,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Nash",
+        "Level 300-400"
+      ],
+      "name": "Nightmarish Abyss",
+      "owner": "Nash",
+      "cards": [
+        {
+          "name": "Atlantean Pikeman",
+          "card": "212ed2a1-ff62-47ba-9f2a-32aa15437053",
+          "yugipediaId": 70064,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Corroding Shark",
+          "card": "bbecbb01-e40e-47df-9c3f-97defe9537f0",
+          "yugipediaId": 7662,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Fiend Kraken",
+          "card": "f40cd392-46a7-4121-b605-11a2749a48bd",
+          "yugipediaId": 9505,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Sea Kamen",
+          "card": "10a30957-99c1-4140-bd5b-d86d1daa9fbe",
+          "yugipediaId": 9475,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Atlantean Heavy Infantry",
+          "card": "814dc7f7-6831-4b43-b178-13543c2c959e",
+          "yugipediaId": 196503,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Drill Barnacle",
+          "card": "c5a746b8-b000-4194-8717-4c83cc7ad267",
+          "yugipediaId": 165713,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Fishborg Doctor",
+          "card": "69c4e54f-39f9-49ee-81ce-763645ff7755",
+          "yugipediaId": 292844,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gazer Shark",
+          "card": "4e7368e2-2d16-4856-9492-eb34606d9c49",
+          "yugipediaId": 310093,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Mermaid Shark",
+          "card": "2d31ba12-d46f-4508-8aa0-9fffac01122d",
+          "yugipediaId": 310446,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Piranha Army",
+          "card": "0786a564-8f74-4367-8d06-75ff0cf09b2d",
+          "yugipediaId": 18080,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Number 32: Shark Drake",
+          "card": "d854c922-68f5-483e-9438-e5b33504cbda",
+          "yugipediaId": 181833,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Submersible Carrier Aero Shark",
+          "card": "a0cc11bf-7d60-4373-a834-47c2cec19e28",
+          "yugipediaId": 149497,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Big Wave Small Wave",
+          "card": "4d5734a1-8448-4b32-9c03-70a9efb1fbcd",
+          "yugipediaId": 7652,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Falling Current",
+          "card": "a1ccd6ce-5f98-4dfd-ac22-912bd0808154",
+          "yugipediaId": 185690,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Overlay Regen",
+          "card": "51236e3f-7b27-4848-84ce-c2df5694ae76",
+          "yugipediaId": 207323,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Salvage",
+          "card": "da8d5a38-dd17-427b-8992-2cab97115e85",
+          "yugipediaId": 10395,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Surface",
+          "card": "0aae7bbb-e998-419a-840d-d49ad18b4538",
+          "yugipediaId": 163802,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Fish Rain",
+          "card": "48b1fde5-303c-40e2-9451-74f10e725361",
+          "yugipediaId": 171880,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Nash",
+        "Level 500-600"
+      ],
+      "name": "True Power of Chaos",
+      "owner": "Nash",
+      "cards": [
+        {
+          "name": "Atlantean Pikeman",
+          "card": "212ed2a1-ff62-47ba-9f2a-32aa15437053",
+          "yugipediaId": 70064,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Abyss Shark",
+          "card": "f3d2e29b-9349-4c99-8dd3-983be01be7d6",
+          "yugipediaId": 712423,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Atlantean Heavy Infantry",
+          "card": "814dc7f7-6831-4b43-b178-13543c2c959e",
+          "yugipediaId": 196503,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Atlantean Marksman",
+          "card": "aa0e58c5-ead3-445b-98be-9e5a7e09d420",
+          "yugipediaId": 203675,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Crystal Shark",
+          "card": "faabbae7-55b3-4c81-80ce-2bcb5dc273ed",
+          "yugipediaId": 714386,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Double Fin Shark",
+          "card": "221f303f-2e3b-4d87-8d6d-b1e743778fc4",
+          "yugipediaId": 271755,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Double Shark",
+          "card": "d9e4f7f6-7106-47cb-9d01-5d459a635acc",
+          "yugipediaId": 228889,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Friller Rabca",
+          "card": "cddcb41e-e525-4e18-9703-6447bf6f15f7",
+          "yugipediaId": 166522,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Hyper-Ancient Shark Megalodon",
+          "card": "953c9cf1-2974-47e5-8454-2602ee4496fd",
+          "yugipediaId": 246379,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Mermaid Shark",
+          "card": "2d31ba12-d46f-4508-8aa0-9fffac01122d",
+          "yugipediaId": 310446,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Phantom Dragonray Bronto",
+          "card": "167eedcc-b0f5-4f1f-bf8e-adebb9b70ca3",
+          "yugipediaId": 539539,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Shark Stickers",
+          "card": "68f92088-b74d-459b-887a-102ff8546dae",
+          "yugipediaId": 171917,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Silent Angler",
+          "card": "165c1b34-0c7c-46d6-8b01-aac1c846c592",
+          "yugipediaId": 271857,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Skull Kraken",
+          "card": "e2ae7116-00b1-42e1-b2c8-d19dab7d4ba9",
+          "yugipediaId": 151719,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Black Ray Lancer",
+          "card": "72261647-f747-42ef-b255-eb27dda12091",
+          "yugipediaId": 171878,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Number 32: Shark Drake",
+          "card": "d854c922-68f5-483e-9438-e5b33504cbda",
+          "yugipediaId": 181833,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Number 73: Abyss Splash",
+          "card": "c338a477-1f38-4cc7-ac0e-d620f5799ce2",
+          "yugipediaId": 278279,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Submersible Carrier Aero Shark",
+          "card": "a0cc11bf-7d60-4373-a834-47c2cec19e28",
+          "yugipediaId": 149497,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Power of Kaishin",
+          "card": "1ede5c4f-d213-46d9-ad43-a9779c1f128c",
+          "yugipediaId": 506181,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Salvage",
+          "card": "da8d5a38-dd17-427b-8992-2cab97115e85",
+          "yugipediaId": 10395,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Surface",
+          "card": "0aae7bbb-e998-419a-840d-d49ad18b4538",
+          "yugipediaId": 163802,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Water Hazard",
+          "card": "a7e7289e-0849-49a8-b07f-ef04c8cfdb07",
+          "yugipediaId": 110971,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Xyz Gift",
+          "card": "33ffeb13-2a9a-4f66-99fa-f787bd96aaf4",
+          "yugipediaId": 165099,
+          "count": 1,
+          "category": "spells"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Nash",
+        "Level 700-800"
+      ],
+      "name": "Chaotic Abyss",
+      "owner": "Nash",
+      "cards": [
+        {
+          "name": "Abyss Shark",
+          "card": "f3d2e29b-9349-4c99-8dd3-983be01be7d6",
+          "yugipediaId": 712423,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Abyssal Kingshark",
+          "card": "634e1adc-d158-4f94-a3ae-9148fc2eb229",
+          "yugipediaId": 539534,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Atlantean Attack Squad",
+          "card": "f7b88913-c24b-4fa2-b17b-f14bbcf6c1f4",
+          "yugipediaId": 214532,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Buzzsaw Shark",
+          "card": "ebb9b8d5-95ed-45b2-9d4a-a31375f8af1f",
+          "yugipediaId": 714194,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Crystal Shark",
+          "card": "faabbae7-55b3-4c81-80ce-2bcb5dc273ed",
+          "yugipediaId": 714386,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Deep Sweeper",
+          "card": "da349198-ec89-4873-a802-3b2f5fcf2d06",
+          "yugipediaId": 215982,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Dream Shark",
+          "card": "56dc292b-7938-4469-b5ca-6796d30173f5",
+          "yugipediaId": 708566,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Eagle Shark",
+          "card": "5450d93d-1d8a-494f-8536-1892f9dafaeb",
+          "yugipediaId": 261594,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Hammer Shark",
+          "card": "2e272662-e455-4fab-8c7e-cba28ced74ba",
+          "yugipediaId": 184622,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Hydrojet Shark",
+          "card": "cabdec37-aca7-4eaa-8284-6b07b0847665",
+          "yugipediaId": 1085698,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Lantern Shark",
+          "card": "5e5209bd-1086-481f-9d99-73b2eedc41bb",
+          "yugipediaId": 697681,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Panther Shark",
+          "card": "85d942a0-d788-4ed4-9069-ac3bfb35cfee",
+          "yugipediaId": 261367,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Saber Shark",
+          "card": "065ecb40-34a0-46c8-9d61-b07397fec231",
+          "yugipediaId": 303973,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Silent Angler",
+          "card": "165c1b34-0c7c-46d6-8b01-aac1c846c592",
+          "yugipediaId": 271857,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Spear Shark",
+          "card": "40ef54e6-6d94-4c8f-972d-d9e693720d48",
+          "yugipediaId": 228991,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Black Ray Lancer",
+          "card": "72261647-f747-42ef-b255-eb27dda12091",
+          "yugipediaId": 171878,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Number 32: Shark Drake",
+          "card": "d854c922-68f5-483e-9438-e5b33504cbda",
+          "yugipediaId": 181833,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Number 73: Abyss Splash",
+          "card": "c338a477-1f38-4cc7-ac0e-d620f5799ce2",
+          "yugipediaId": 278279,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Submersible Carrier Aero Shark",
+          "card": "a0cc11bf-7d60-4373-a834-47c2cec19e28",
+          "yugipediaId": 149497,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Aqua Jet",
+          "card": "62919026-c6e5-478f-a3a4-597e796b9b44",
+          "yugipediaId": 152007,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Surface",
+          "card": "0aae7bbb-e998-419a-840d-d49ad18b4538",
+          "yugipediaId": 163802,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Water Hazard",
+          "card": "a7e7289e-0849-49a8-b07f-ef04c8cfdb07",
+          "yugipediaId": 110971,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Reincarnation of the Seventh Emperors",
+          "card": "449d42a4-f618-49e8-ac1a-4590a8155cf1",
+          "yugipediaId": 716413,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Torrential Reborn",
+          "card": "434bf05f-4d20-48ab-b04e-b89aeb76fb07",
+          "yugipediaId": 226636,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Nash",
+        "Level 900-1000"
+      ],
+      "name": "From the Lightless Abyss",
+      "owner": "Nash",
+      "cards": [
+        {
+          "name": "Abyss Shark",
+          "card": "f3d2e29b-9349-4c99-8dd3-983be01be7d6",
+          "yugipediaId": 712423,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Buzzsaw Shark",
+          "card": "ebb9b8d5-95ed-45b2-9d4a-a31375f8af1f",
+          "yugipediaId": 714194,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Crystal Shark",
+          "card": "faabbae7-55b3-4c81-80ce-2bcb5dc273ed",
+          "yugipediaId": 714386,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Deep Sweeper",
+          "card": "da349198-ec89-4873-a802-3b2f5fcf2d06",
+          "yugipediaId": 215982,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Double Fin Shark",
+          "card": "221f303f-2e3b-4d87-8d6d-b1e743778fc4",
+          "yugipediaId": 271755,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Eagle Shark",
+          "card": "5450d93d-1d8a-494f-8536-1892f9dafaeb",
+          "yugipediaId": 261594,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Hammer Shark",
+          "card": "2e272662-e455-4fab-8c7e-cba28ced74ba",
+          "yugipediaId": 184622,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Hydrojet Shark",
+          "card": "cabdec37-aca7-4eaa-8284-6b07b0847665",
+          "yugipediaId": 1085698,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Lantern Shark",
+          "card": "5e5209bd-1086-481f-9d99-73b2eedc41bb",
+          "yugipediaId": 697681,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Panther Shark",
+          "card": "85d942a0-d788-4ed4-9069-ac3bfb35cfee",
+          "yugipediaId": 261367,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Silent Angler",
+          "card": "165c1b34-0c7c-46d6-8b01-aac1c846c592",
+          "yugipediaId": 271857,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Silent Wobby",
+          "card": "51b917df-e7ed-486b-810e-49ee57edfab1",
+          "yugipediaId": 297358,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Surfacing Big Jaws",
+          "card": "ac3dfdff-1e2a-4097-86e8-2778a696e578",
+          "yugipediaId": 1058510,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Black Ray Lancer",
+          "card": "72261647-f747-42ef-b255-eb27dda12091",
+          "yugipediaId": 171878,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Number 101: Silent Honor ARK",
+          "card": "a3956c1c-0ded-4a68-b557-f81c8b7c56b4",
+          "yugipediaId": 319125,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Number 32: Shark Drake",
+          "card": "d854c922-68f5-483e-9438-e5b33504cbda",
+          "yugipediaId": 181833,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Number 73: Abyss Splash",
+          "card": "c338a477-1f38-4cc7-ac0e-d620f5799ce2",
+          "yugipediaId": 278279,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Number C32: Shark Drake Veiss",
+          "card": "b1b2a413-c7af-48be-8d45-d2f932e24e40",
+          "yugipediaId": 211184,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Number C73: Abyss Supra Splash",
+          "card": "64cffcee-6403-4a8b-8b9c-b39de9c94b84",
+          "yugipediaId": 286792,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Submersible Carrier Aero Shark",
+          "card": "a0cc11bf-7d60-4373-a834-47c2cec19e28",
+          "yugipediaId": 149497,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Aqua Jet",
+          "card": "62919026-c6e5-478f-a3a4-597e796b9b44",
+          "yugipediaId": 152007,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Aqua Jet Surface",
+          "card": "51730f94-7c0b-48a2-a220-0b655dc05871",
+          "yugipediaId": 1058521,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Rank-Up-Magic Barian's Force",
+          "card": "5092ddce-fb32-47ab-8f98-b2c80f8222df",
+          "yugipediaId": 235987,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Salvage",
+          "card": "da8d5a38-dd17-427b-8992-2cab97115e85",
+          "yugipediaId": 10395,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Reincarnation of the Seventh Emperors",
+          "card": "449d42a4-f618-49e8-ac1a-4590a8155cf1",
+          "yugipediaId": 716413,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Nash",
+        "Level 2000+"
+      ],
+      "name": "Guardian of Lost Souls",
+      "owner": "Nash",
+      "cards": [
+        {
+          "name": "Abyss Shark",
+          "card": "f3d2e29b-9349-4c99-8dd3-983be01be7d6",
+          "yugipediaId": 712423,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Buzzsaw Shark",
+          "card": "ebb9b8d5-95ed-45b2-9d4a-a31375f8af1f",
+          "yugipediaId": 714194,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Crystal Shark",
+          "card": "faabbae7-55b3-4c81-80ce-2bcb5dc273ed",
+          "yugipediaId": 714386,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Drake Shark",
+          "card": "f109f922-c788-4475-930b-4e32579a667f",
+          "yugipediaId": 1058511,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Dream Shark",
+          "card": "56dc292b-7938-4469-b5ca-6796d30173f5",
+          "yugipediaId": 708566,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Eagle Shark",
+          "card": "5450d93d-1d8a-494f-8536-1892f9dafaeb",
+          "yugipediaId": 261594,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Hammer Shark",
+          "card": "2e272662-e455-4fab-8c7e-cba28ced74ba",
+          "yugipediaId": 184622,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Hydrojet Shark",
+          "card": "cabdec37-aca7-4eaa-8284-6b07b0847665",
+          "yugipediaId": 1085698,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Lantern Shark",
+          "card": "5e5209bd-1086-481f-9d99-73b2eedc41bb",
+          "yugipediaId": 697681,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Panther Shark",
+          "card": "85d942a0-d788-4ed4-9069-ac3bfb35cfee",
+          "yugipediaId": 261367,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Silent Angler",
+          "card": "165c1b34-0c7c-46d6-8b01-aac1c846c592",
+          "yugipediaId": 271857,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Surfacing Big Jaws",
+          "card": "ac3dfdff-1e2a-4097-86e8-2778a696e578",
+          "yugipediaId": 1058510,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Black Ray Lancer",
+          "card": "72261647-f747-42ef-b255-eb27dda12091",
+          "yugipediaId": 171878,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Number 101: Silent Honor ARK",
+          "card": "a3956c1c-0ded-4a68-b557-f81c8b7c56b4",
+          "yugipediaId": 319125,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Number 32: Shark Drake",
+          "card": "d854c922-68f5-483e-9438-e5b33504cbda",
+          "yugipediaId": 181833,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Number 71: Rebarian Shark",
+          "card": "0dcb7a03-c9c5-4675-88e0-cb6242abce15",
+          "yugipediaId": 493982,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Number 73: Abyss Splash",
+          "card": "c338a477-1f38-4cc7-ac0e-d620f5799ce2",
+          "yugipediaId": 278279,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Number C101: Silent Honor DARK",
+          "card": "9331bcd2-5e7e-4d4f-8583-771ca541ce85",
+          "yugipediaId": 302712,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Number C32: Shark Drake Veiss",
+          "card": "b1b2a413-c7af-48be-8d45-d2f932e24e40",
+          "yugipediaId": 211184,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Number C73: Abyss Supra Splash",
+          "card": "64cffcee-6403-4a8b-8b9c-b39de9c94b84",
+          "yugipediaId": 286792,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Submersible Carrier Aero Shark",
+          "card": "a0cc11bf-7d60-4373-a834-47c2cec19e28",
+          "yugipediaId": 149497,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Aqua Jet Surface",
+          "card": "51730f94-7c0b-48a2-a220-0b655dc05871",
+          "yugipediaId": 1058521,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Rank-Up-Magic Barian's Force",
+          "card": "5092ddce-fb32-47ab-8f98-b2c80f8222df",
+          "yugipediaId": 235987,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Rank-Up-Magic Quick Chaos",
+          "card": "e6a49bf1-9f21-4b02-a495-d08e2ba70fa5",
+          "yugipediaId": 286591,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Rank-Up-Magic - The Seventh One",
+          "card": "622ff9cb-56c3-428a-8cad-dbe01e643e3e",
+          "yugipediaId": 281509,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Seventh Ascension",
+          "card": "99a46be9-dade-45a9-b878-ff794dee97b4",
+          "yugipediaId": 716651,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Seventh Eternity",
+          "card": "a629e8c2-7973-4c02-8b72-f79351c072d7",
+          "yugipediaId": 716652,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Hammer Shark",
+      "card": "2e272662-e455-4fab-8c7e-cba28ced74ba",
+      "yugipediaId": 184622,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "January 2026",
+          "runIndex": 0,
+          "requirement": "800000"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "January 2026",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "January 2026",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "SR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "January 2026",
+          "runIndex": 0,
+          "requirement": "100"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "March 2026",
+          "runIndex": 1,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Crystal Shark",
+      "card": "faabbae7-55b3-4c81-80ce-2bcb5dc273ed",
+      "yugipediaId": 714386,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "January 2026",
+          "runIndex": 0,
+          "requirement": "1800000"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "January 2026",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "January 2026",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "SR"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "March 2026",
+          "runIndex": 1,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "March 2026",
+          "runIndex": 1,
+          "requirement": "Gold",
+          "rarity": "SR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "January 2026",
+          "runIndex": 0,
+          "requirement": "100"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "March 2026",
+          "runIndex": 1,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Abyss Shark",
+      "card": "f3d2e29b-9349-4c99-8dd3-983be01be7d6",
+      "yugipediaId": 712423,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "January 2026",
+          "runIndex": 0,
+          "requirement": "4600000"
+        },
+        {
+          "kind": "cumulativeRewards",
+          "run": "March 2026",
+          "runIndex": 1,
+          "requirement": "700000"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "January 2026",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "January 2026",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "SR"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "March 2026",
+          "runIndex": 1,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "March 2026",
+          "runIndex": 1,
+          "requirement": "Gold",
+          "rarity": "SR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "January 2026",
+          "runIndex": 0,
+          "requirement": "100"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "March 2026",
+          "runIndex": 1,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "CXyz Barian Hope",
+      "card": "13acb631-6fc9-4d88-b7a0-a7c6f710f70f",
+      "yugipediaId": 290944,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "January 2026",
+          "runIndex": 0,
+          "requirement": "12000000"
+        },
+        {
+          "kind": "cumulativeRewards",
+          "run": "March 2026",
+          "runIndex": 1,
+          "requirement": "1300000"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "January 2026",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "UR"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "March 2026",
+          "runIndex": 1,
+          "requirement": "Rainbow",
+          "rarity": "UR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "January 2026",
+          "runIndex": 0,
+          "requirement": "300"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "January 2026",
+          "runIndex": 0,
+          "requirement": "100"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "January 2026",
+          "runIndex": 0,
+          "requirement": "400"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "March 2026",
+          "runIndex": 1,
+          "requirement": "300"
+        }
+      ]
+    },
+    {
+      "name": "Number 71: Rebarian Shark",
+      "card": "0dcb7a03-c9c5-4675-88e0-cb6242abce15",
+      "yugipediaId": 493982,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "March 2026",
+          "runIndex": 1,
+          "requirement": "3400000"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "March 2026",
+          "runIndex": 1,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "March 2026",
+          "runIndex": 1,
+          "requirement": "Gold",
+          "rarity": "SR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "March 2026",
+          "runIndex": 1,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Barian's Chaos Draw",
+      "card": "49f447df-c940-431a-bfad-e2da9be67a61",
+      "yugipediaId": 282421,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "March 2026",
+          "runIndex": 1,
+          "requirement": "9000000"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "March 2026",
+          "runIndex": 1,
+          "requirement": "Rainbow",
+          "rarity": "UR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "March 2026",
+          "runIndex": 1,
+          "requirement": "100"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "March 2026",
+          "runIndex": 1,
+          "requirement": "400"
+        }
+      ]
+    },
+    {
+      "name": "Number 17: Leviathan Dragon",
+      "card": "d538a548-0d1d-4abf-886d-9b7841080371",
+      "yugipediaId": 150636,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "January 2026",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "UR"
+        },
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "January 2026",
+          "runIndex": 0,
+          "requirement": "300"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "March 2026",
+          "runIndex": 1,
+          "requirement": "300"
+        }
+      ]
+    },
+    {
+      "name": "Hydro Pressure Cannon",
+      "card": "9c224208-fb16-4a58-b86b-38cefe820db8",
+      "yugipediaId": 103717,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "January 2026",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "R"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "January 2026",
+          "runIndex": 0,
+          "requirement": "Silver",
+          "rarity": "R"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "March 2026",
+          "runIndex": 1,
+          "requirement": "Gold",
+          "rarity": "R"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "March 2026",
+          "runIndex": 1,
+          "requirement": "Silver",
+          "rarity": "R"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "January 2026",
+          "runIndex": 0,
+          "requirement": "30"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "March 2026",
+          "runIndex": 1,
+          "requirement": "30"
+        }
+      ]
+    },
+    {
+      "name": "Steel Shell",
+      "card": "0a3d2515-a91b-4097-9bb7-7c29ec8c8628",
+      "yugipediaId": 7929,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "January 2026",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "R"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "January 2026",
+          "runIndex": 0,
+          "requirement": "Silver",
+          "rarity": "R"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "March 2026",
+          "runIndex": 1,
+          "requirement": "Gold",
+          "rarity": "R"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "March 2026",
+          "runIndex": 1,
+          "requirement": "Silver",
+          "rarity": "R"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "January 2026",
+          "runIndex": 0,
+          "requirement": "30"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "March 2026",
+          "runIndex": 1,
+          "requirement": "30"
+        }
+      ]
+    },
+    {
+      "name": "Torpedo Fish",
+      "card": "975845a7-f6e1-4f3b-b30d-8e8debeaaf3b",
+      "yugipediaId": 12358,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "January 2026",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "R"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "January 2026",
+          "runIndex": 0,
+          "requirement": "Silver",
+          "rarity": "R"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "March 2026",
+          "runIndex": 1,
+          "requirement": "Gold",
+          "rarity": "R"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "March 2026",
+          "runIndex": 1,
+          "requirement": "Silver",
+          "rarity": "R"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "January 2026",
+          "runIndex": 0,
+          "requirement": "30"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "March 2026",
+          "runIndex": 1,
+          "requirement": "30"
+        }
+      ]
+    },
+    {
+      "name": "Shark Cruiser",
+      "card": "a02dd826-e02e-4cc7-8933-dea41ffc155c",
+      "yugipediaId": 103306,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "January 2026",
+          "runIndex": 0,
+          "requirement": "Silver",
+          "rarity": "N"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "March 2026",
+          "runIndex": 1,
+          "requirement": "Silver",
+          "rarity": "N"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "January 2026",
+          "runIndex": 0,
+          "requirement": "10"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "March 2026",
+          "runIndex": 1,
+          "requirement": "10"
+        }
+      ]
+    },
+    {
+      "name": "Spike Seadra",
+      "card": "529c89f8-b46d-4867-bd93-c939c2d6f591",
+      "yugipediaId": 507435,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "January 2026",
+          "runIndex": 0,
+          "requirement": "Silver",
+          "rarity": "N"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "March 2026",
+          "runIndex": 1,
+          "requirement": "Silver",
+          "rarity": "N"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "January 2026",
+          "runIndex": 0,
+          "requirement": "10"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "March 2026",
+          "runIndex": 1,
+          "requirement": "10"
+        }
+      ]
+    },
+    {
+      "name": "Night Express Knight",
+      "card": "1747c8f5-af7b-4368-bfbc-aa03ba3e325a",
+      "yugipediaId": 258390,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Cataclysmic Scorching Sunburner",
+      "card": "f4e0ccae-d775-4cbb-8252-b10f1183e8db",
+      "yugipediaId": 576136,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Gimmick Puppet Twilight Joker",
+      "card": "3d737eff-45e6-45e7-8985-e0b88e30cd4a",
+      "yugipediaId": 206219,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Prime Material Dragon",
+      "card": "f22b3e6d-56ad-49f7-b4d4-e3c1e2d18224",
+      "yugipediaId": 88544,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Chronomaly Moai Carrier",
+      "card": "8b8c5399-d109-488c-b1fc-9ff066e63ba8",
+      "yugipediaId": 300514,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Chronomaly Moai",
+      "card": "5aa270b3-206a-4ad3-a4c6-f9ae772cf605",
+      "yugipediaId": 200789,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Chronomaly Tula Guardian",
+      "card": "5c43f49b-11e9-487e-8ade-71b928b35816",
+      "yugipediaId": 196683,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Fencing Fire Ferret",
+      "card": "cf8acca8-99c7-4a0d-a265-447cfb4d3e3c",
+      "yugipediaId": 260886,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Gimmick Puppet Scissor Arms",
+      "card": "79c39a3a-d3e2-4980-ba7f-0776db8babd1",
+      "yugipediaId": 215808,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Gimmick Puppet Egg Head",
+      "card": "6dc0314d-e242-4b6a-9e4b-6ffe7af8e93e",
+      "yugipediaId": 200853,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Photon Advancer",
+      "card": "61f5aaf6-1722-4376-8474-7ee9e87548de",
+      "yugipediaId": 300838,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Inferno",
+      "card": "e4fd7dec-683c-4ce8-9819-97018ddaed8b",
+      "yugipediaId": 17157,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Gagaga Magician",
+      "card": "ffe4edd8-a97e-430f-9e63-2722891d3d16",
+      "yugipediaId": 150083,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Penguin Soldier",
+      "card": "1fe38082-1018-458e-8ef2-c5f731e5fdd9",
+      "yugipediaId": 70,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Full Armored Crystalzero Lancer",
+      "card": "60e664ce-103e-4c53-835f-ba65061115eb",
+      "yugipediaId": 293276,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Number C80: Requiem in Berserk",
+      "card": "b0aea0b4-62c3-4959-b2b0-15cc46c8a564",
+      "yugipediaId": 282455,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Ice Princess Zereort",
+      "card": "15b9d317-a393-400e-b2e6-6016c7a3328e",
+      "yugipediaId": 273756,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Starring Knight",
+      "card": "21ab64d2-2bab-480a-a043-7d6d400fed21",
+      "yugipediaId": 716854,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Galaxy Stealth Dragon",
+      "card": "53ecfaa9-2e46-478b-9e36-c546f4170f57",
+      "yugipediaId": 457257,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Number 105: Battlin' Boxer Star Cestus",
+      "card": "66d04d1e-1331-46cd-9fe9-93167935f6ed",
+      "yugipediaId": 256805,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Heavy Armored Train Ironwolf",
+      "card": "dd641844-646d-4ac6-8801-f63ff4b51f84",
+      "yugipediaId": 458378,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Number 10: Illumiknight",
+      "card": "ce48f24c-8062-45b1-b558-6d21fde6e7f2",
+      "yugipediaId": 172769,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Fairy Cheer Girl",
+      "card": "78b579d4-a3ab-4cf0-92f0-f7836be4458b",
+      "yugipediaId": 248502,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Tin Archduke",
+      "card": "0e9d4146-74ba-4e9e-87b9-9aac666858f5",
+      "yugipediaId": 181455,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Number 34: Terror-Byte",
+      "card": "60159de7-f5d1-4d4f-9f9d-6f825f7a060b",
+      "yugipediaId": 168355,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Number 47: Nightmare Shark",
+      "card": "d74d52b8-57bc-47da-a056-5beecad27940",
+      "yugipediaId": 247308,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Sargasso Lighthouse",
+      "card": "ed1ac767-2224-4f9a-b6d4-2e3ca87ef361",
+      "yugipediaId": 270481,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Galactic Charity",
+      "card": "bbf15bb1-f2ee-48b6-be74-60ec01cfd9d7",
+      "yugipediaId": 296283,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Setuppercut",
+      "card": "db7b32ab-0c5c-49c0-88f6-c4ebf9a9df11",
+      "yugipediaId": 600362,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Indestructible Airship Hindenkraft",
+      "card": "d1db38fd-e9d2-4ec0-a151-91f62ae409b8",
+      "yugipediaId": 718658,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Galactic Spiral Dragon",
+      "card": "7048e0d6-5837-46ec-854d-327e7fe13de4",
+      "yugipediaId": 644735,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Gimmick Puppet Magnet Doll",
+      "card": "cf7f240f-3876-4b78-ab30-71846ca1a126",
+      "yugipediaId": 206148,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Archlord Zerato",
+      "card": "6275d19d-1fae-4ee3-ae4a-78e5dc4e4ce2",
+      "yugipediaId": 15588,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Genesis Dragon",
+      "card": "d593392e-fb44-49f2-bc2e-25f78a9b963f",
+      "yugipediaId": 23872,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Depth Shark",
+      "card": "c866360c-e4ce-48c4-96ba-beca0faa2545",
+      "yugipediaId": 274626,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Tethys, Goddess of Light",
+      "card": "af2ebb92-7ebb-4b22-a09c-7e6e1a8aa5b3",
+      "yugipediaId": 69799,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Ice Hand",
+      "card": "1e81aa26-4256-4114-a75d-b849a053771e",
+      "yugipediaId": 254916,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Magic Hand",
+      "card": "861fc8c1-b031-41e2-a89a-7ef362e2c3cf",
+      "yugipediaId": 248415,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Blizzard Falcon",
+      "card": "b119dd7d-2498-4a92-9823-068f8fc18e16",
+      "yugipediaId": 233060,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Lionhearted Locomotive",
+      "card": "1a515b1a-b32e-499e-939d-020e1fe82fc6",
+      "yugipediaId": 200746,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Chronomaly Aztec Mask Golem",
+      "card": "f4153a79-5ef9-4ef1-8bc4-e2620ec37d34",
+      "yugipediaId": 221773,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Gimmick Puppet Des Troy",
+      "card": "e1c583eb-0154-4c9b-8e29-7a55a1de26fa",
+      "yugipediaId": 289194,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Chronomaly Golden Jet",
+      "card": "3a6e0981-323c-4f0d-930e-0e72da3347a2",
+      "yugipediaId": 185983,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Chronomaly Mud Golem",
+      "card": "92cde983-0bce-4c41-9250-9a4448d544b3",
+      "yugipediaId": 203448,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Reverse Buster",
+      "card": "125aa39f-65a7-4ca7-95d5-24c2bc4b6afd",
+      "yugipediaId": 193517,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Photon Crusher",
+      "card": "fe970e0c-3c91-4371-873a-5c96c4c0c3d1",
+      "yugipediaId": 190064,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Gogogo Golem",
+      "card": "17531a23-55ad-43f0-8f17-efd9a76b1ae3",
+      "yugipediaId": 161837,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Sand Moth",
+      "card": "702f34da-6026-4365-9e45-03d9d68f208e",
+      "yugipediaId": 11645,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Harvest Angel of Wisdom",
+      "card": "d62de900-c1f7-4932-bf10-0ec3e443b5aa",
+      "yugipediaId": 19069,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Radiant Jeral",
+      "card": "9586c63c-b1a4-4ff1-b770-cc069f2caa42",
+      "yugipediaId": 19702,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Zeradias, Herald of Heaven",
+      "card": "82536c8e-0d7a-46f5-8247-d38555421155",
+      "yugipediaId": 20206,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Dark Crusader",
+      "card": "48482748-59d7-4e77-b451-6c4c79457879",
+      "yugipediaId": 75178,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Biofalcon",
+      "card": "bd0d4342-546d-4417-a05a-3867a5d306dc",
+      "yugipediaId": 127680,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Shark Stickers",
+      "card": "68f92088-b74d-459b-887a-102ff8546dae",
+      "yugipediaId": 171917,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Toy Soldier",
+      "card": "60a33181-30c5-47ff-a059-680a504fdd94",
+      "yugipediaId": 1029887,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Nimble Momonga",
+      "card": "fb290bf1-2ba1-43aa-9104-7134304aa7a7",
+      "yugipediaId": 4393,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Gimmick Puppet Gear Changer",
+      "card": "f416c197-e187-42c8-b116-557c90fd37f8",
+      "yugipediaId": 206061,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Wind-Up Honeybee",
+      "card": "f3edcf6d-5ccf-44c2-a2eb-c205829921b8",
+      "yugipediaId": 179660,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Baromet the Sacred Sheep Shrub",
+      "card": "9a35449f-e1f9-4e85-8278-04e077a84720",
+      "yugipediaId": 716564,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Number 80: Rhapsody in Berserk",
+      "card": "148c0352-539f-426e-a94d-b1cec25a82ac",
+      "yugipediaId": 300782,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Number 20: Giga-Brilliant",
+      "card": "eb4f2ead-5d09-414e-855e-8b454c40b56b",
+      "yugipediaId": 172674,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Temtempo the Percussion Djinn",
+      "card": "5f064a41-9357-437e-9e60-3db851d3e915",
+      "yugipediaId": 189418,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Xyz Align",
+      "card": "0662de59-fe02-4398-a473-1acbccc4bfd3",
+      "yugipediaId": 717534,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Dragon Shield",
+      "card": "9b8399d7-6ffc-4550-8f06-5753684cfe7d",
+      "yugipediaId": 260597,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Xyz Import",
+      "card": "1fd682d9-90f4-466b-ae26-0455ffb978c1",
+      "yugipediaId": 717537,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Xyz Burst",
+      "card": "a623c077-bd21-4d32-9472-cdfbd8f7eb32",
+      "yugipediaId": 194576,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Weights & Zenmaisures",
+      "card": "5ccd0c30-321e-48de-bf68-5746101ce8a4",
+      "yugipediaId": 181035,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Sacred Defense Barrier",
+      "card": "73d9cecf-ffc8-48e4-9024-02d434ea5482",
+      "yugipediaId": 719495,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Reload",
+      "card": "a6572397-03da-4b2e-873f-8eeffba1a4f8",
+      "yugipediaId": 504772,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Water Hazard",
+      "card": "a7e7289e-0849-49a8-b07f-ef04c8cfdb07",
+      "yugipediaId": 110971,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Xyz Bento",
+      "card": "512a339f-6e8d-41c6-8c6f-277991dc6ea3",
+      "yugipediaId": 708450,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Torrential Reborn",
+      "card": "434bf05f-4d20-48ab-b04e-b89aeb76fb07",
+      "yugipediaId": 226636,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Wonder Xyz",
+      "card": "2001e89d-ad46-4f8b-9ea3-dce68c38dcd8",
+      "yugipediaId": 360334,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Stellarnova Wave",
+      "card": "3eafafe8-1377-409f-8b92-1634fe3fe120",
+      "yugipediaId": 334266,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Divine Punishment",
+      "card": "12e80df3-0899-4bbf-b5df-7ad5b1371319",
+      "yugipediaId": 161235,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Gamushara",
+      "card": "3f7533d0-4698-4701-b89a-5c0b42bf1838",
+      "yugipediaId": 189566,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Dimension Gate",
+      "card": "b3451b1c-a951-4d53-8f68-1222816fb8bb",
+      "yugipediaId": 235387,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Number 39: Utopia",
+      "card": "aa9e5af4-5bd4-4b65-b18d-2d2e70b2731c",
+      "yugipediaId": 161738,
+      "obtainedVia": [
+        {
+          "kind": "missions"
+        }
+      ]
+    },
+    {
+      "name": "Number 101: Silent Honor ARK",
+      "card": "a3956c1c-0ded-4a68-b557-f81c8b7c56b4",
+      "yugipediaId": 319125,
+      "obtainedVia": [
+        {
+          "kind": "missions"
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Barian Battlemorph! The Power That Guides the World",
+      "skill": "d4d418ed-c39c-4a68-a839-689a95a8f500",
+      "yugipediaId": 1182224,
+      "obtainedVia": [
+        {
+          "kind": "missions",
+          "requirement": "Summon \"Number 101: Silent Honor ARK\" 3 time(s) while playing as Nash."
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "RAID DUEL The Last Duel of Destiny! The Lone Duelist Nash!",
+        "id": 1172336
+      }
+    ]
+  }
+}

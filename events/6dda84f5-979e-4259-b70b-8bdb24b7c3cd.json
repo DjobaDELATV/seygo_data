@@ -1,0 +1,611 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "6dda84f5-979e-4259-b70b-8bdb24b7c3cd",
+  "name": {
+    "en": "Solomon Muto is here!"
+  },
+  "type": "Roaming Duelist event",
+  "duelWorlds": [
+    "Duel World (DM)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/6/62/SolomonMutoishere-Banner.png",
+  "runs": [
+    {
+      "startDate": "2023-05-09",
+      "endDate": "2023-05-18"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "In addition to the following, standard Duel Rewards are also available by Dueling Solomon Muto at Level 30 or lower."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Spell Shattering Arrow\", \"Exodia Necross\"",
+                "cards": [
+                  {
+                    "name": "Spell Shattering Arrow",
+                    "card": "96ff48c3-d488-42cf-8562-44499533dfd2",
+                    "yugipediaId": 16282
+                  },
+                  {
+                    "name": "Exodia Necross",
+                    "card": "261f1e4a-8138-4958-afb4-61199033ab25",
+                    "yugipediaId": 134
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Cauldron of the Old Man\", \"The Legendary Exodia Incarnate\", \"Horn of the Unicorn\"",
+                "cards": [
+                  {
+                    "name": "Cauldron of the Old Man",
+                    "card": "53fb2434-fb45-40a8-a658-ba7dbab35e62",
+                    "yugipediaId": 641837
+                  },
+                  {
+                    "name": "The Legendary Exodia Incarnate",
+                    "card": "52d41124-c910-4d70-b25c-9738b8af620a",
+                    "yugipediaId": 432904
+                  },
+                  {
+                    "name": "Horn of the Unicorn",
+                    "card": "e904f879-103e-4027-adf1-07b2ee1af60c",
+                    "yugipediaId": 3579
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Beaver Warrior\", \"De-Spell\", \"Remove Trap\"",
+                "cards": [
+                  {
+                    "name": "Beaver Warrior",
+                    "card": "a75315dc-34b1-4cd6-9e3f-9bf14e6d998d",
+                    "yugipediaId": 506869
+                  },
+                  {
+                    "name": "De-Spell",
+                    "card": "8a8b78b5-f06a-496a-825e-223bb3b1a144",
+                    "yugipediaId": 102
+                  },
+                  {
+                    "name": "Remove Trap",
+                    "card": "2073b43f-bb99-4485-af2e-c3d8052f46de",
+                    "yugipediaId": 506619
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Contract with Exodia\", \"Torike\"",
+                "cards": [
+                  {
+                    "name": "Contract with Exodia",
+                    "card": "a7c5c279-ca67-4321-809a-65d3e906d2a0",
+                    "yugipediaId": 16820
+                  },
+                  {
+                    "name": "Torike",
+                    "card": "2081411d-afa1-43a1-8606-e71387cdb073",
+                    "yugipediaId": 18793
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Rewards",
+        "Event Missions"
+      ],
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against Solomon Muto in Duel World."
+              },
+              {
+                "text": "1 \"The Legendary Exodia Incarnate\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "The Legendary Exodia Incarnate",
+                    "card": "52d41124-c910-4d70-b25c-9738b8af620a",
+                    "yugipediaId": 432904,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 3 Duel(s) against Solomon Muto in Duel World."
+              },
+              {
+                "text": "1 \"Exodia Necross\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Exodia Necross",
+                    "card": "261f1e4a-8138-4958-afb4-61199033ab25",
+                    "yugipediaId": 134,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 7 Duel(s) against Solomon Muto in Duel World."
+              },
+              {
+                "text": "1 \"Cauldron of the Old Man\"",
+                "cards": [
+                  {
+                    "name": "Cauldron of the Old Man",
+                    "card": "53fb2434-fb45-40a8-a658-ba7dbab35e62",
+                    "yugipediaId": 641837,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Play 15 Duel(s) against Solomon Muto in Duel World (surrenders are not counted)."
+              },
+              {
+                "text": "1 \"Spell Shattering Arrow\"",
+                "cards": [
+                  {
+                    "name": "Spell Shattering Arrow",
+                    "card": "96ff48c3-d488-42cf-8562-44499533dfd2",
+                    "yugipediaId": 16282,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "decks": [
+    {
+      "path": [
+        "Decks",
+        "Level 30"
+      ],
+      "cards": [
+        {
+          "name": "Blackland Fire Dragon",
+          "card": "9a30bfd8-dd46-433b-a553-bb8d1089e1ff",
+          "yugipediaId": 4769,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Curse of Dragon",
+          "card": "09287397-c56b-41e1-9c3f-a3894733cb4a",
+          "yugipediaId": 504889,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Fairy Dragon",
+          "card": "af8540d0-d736-4763-9003-db5381615f88",
+          "yugipediaId": 9617,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Gaia The Fierce Knight",
+          "card": "09537d3e-341b-4b13-9382-a77be5ac673e",
+          "yugipediaId": 508714,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Winged Dragon, Guardian of the Fortress #1",
+          "card": "1d4dd335-b58e-44d1-a6ff-7909a737b368",
+          "yugipediaId": 508207,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Exodia Necross",
+          "card": "261f1e4a-8138-4958-afb4-61199033ab25",
+          "yugipediaId": 134,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Exodia the Forbidden One",
+          "card": "14561d43-e035-4316-ada2-81a580096212",
+          "yugipediaId": 278,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gambler of Legend",
+          "card": "a9a0ab93-1c40-42d0-9d46-ed53a230ee02",
+          "yugipediaId": 539786,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Witch of the Black Forest",
+          "card": "3394ec62-9f41-493d-968f-0ec98c045564",
+          "yugipediaId": 157,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gaia the Dragon Champion",
+          "card": "344a9cd5-b2b8-4dbd-93a4-57364cb9c6ea",
+          "yugipediaId": 507469,
+          "count": 1,
+          "category": "fusion monsters"
+        },
+        {
+          "name": "Kaiser Dragon",
+          "card": "91bb5728-1c05-462a-bc35-f2e2b550157f",
+          "yugipediaId": 8328,
+          "count": 1,
+          "category": "fusion monsters"
+        },
+        {
+          "name": "Contract with Exodia",
+          "card": "a7c5c279-ca67-4321-809a-65d3e906d2a0",
+          "yugipediaId": 16820,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Emergency Provisions",
+          "card": "3d6ce52a-4a1f-476a-ba8b-be8e3e8d566e",
+          "yugipediaId": 328,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Polymerization",
+          "card": "54f38f67-5d19-4625-9a9a-e1445574d5bf",
+          "yugipediaId": 35,
+          "count": 2,
+          "category": "spells"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Level 40"
+      ],
+      "cards": [
+        {
+          "name": "Blue-Eyes White Dragon",
+          "card": "ee6249a6-f980-43b3-8e39-4ee5c89c09c0",
+          "yugipediaId": 30,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Giant Soldier of Stone",
+          "card": "641b26c5-2b3a-4f92-adf9-e415a37d1903",
+          "yugipediaId": 506900,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Left Arm of the Forbidden One",
+          "card": "21aee25f-f335-400b-80e7-33755c4fb38b",
+          "yugipediaId": 277,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Left Leg of the Forbidden One",
+          "card": "abf39c7f-831d-45bd-824d-1d64db66575a",
+          "yugipediaId": 271,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Mystical Elf",
+          "card": "4507fde7-aeea-420b-a2be-4bd8d3654a3c",
+          "yugipediaId": 1534,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Right Arm of the Forbidden One",
+          "card": "003da05b-a081-4595-a6e3-d80b2debb0dd",
+          "yugipediaId": 281,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Right Leg of the Forbidden One",
+          "card": "eb035559-380d-4eea-bdb5-d341c23a3279",
+          "yugipediaId": 286,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Exodia the Forbidden One",
+          "card": "14561d43-e035-4316-ada2-81a580096212",
+          "yugipediaId": 278,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gambler of Legend",
+          "card": "a9a0ab93-1c40-42d0-9d46-ed53a230ee02",
+          "yugipediaId": 539786,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Sangan",
+          "card": "3fd4df9c-9923-4388-9c31-5b6ce35f436b",
+          "yugipediaId": 151,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Wandering Mummy",
+          "card": "5872d233-4414-49fd-ad34-c0f6b6968877",
+          "yugipediaId": 10650,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Witch of the Black Forest",
+          "card": "3394ec62-9f41-493d-968f-0ec98c045564",
+          "yugipediaId": 157,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Emergency Provisions",
+          "card": "3d6ce52a-4a1f-476a-ba8b-be8e3e8d566e",
+          "yugipediaId": 328,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Horn of the Unicorn",
+          "card": "e904f879-103e-4027-adf1-07b2ee1af60c",
+          "yugipediaId": 3579,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Mirage of Nightmare",
+          "card": "a6c34c8e-7852-418c-b675-df18ea36e51b",
+          "yugipediaId": 1233,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Mystical Space Typhoon",
+          "card": "da517011-e84a-4e46-b5af-45d387d002f4",
+          "yugipediaId": 1492,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Obliterate!!!",
+          "card": "abb93c06-f99f-495f-a561-245daf077fbb",
+          "yugipediaId": 433173,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Spell Shattering Arrow",
+      "card": "96ff48c3-d488-42cf-8562-44499533dfd2",
+      "yugipediaId": 16282,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Play 15 Duel(s) against Solomon Muto in Duel World (surrenders are not counted)."
+        }
+      ]
+    },
+    {
+      "name": "Exodia Necross",
+      "card": "261f1e4a-8138-4958-afb4-61199033ab25",
+      "yugipediaId": 134,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 3 Duel(s) against Solomon Muto in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Cauldron of the Old Man",
+      "card": "53fb2434-fb45-40a8-a658-ba7dbab35e62",
+      "yugipediaId": 641837,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 7 Duel(s) against Solomon Muto in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "The Legendary Exodia Incarnate",
+      "card": "52d41124-c910-4d70-b25c-9738b8af620a",
+      "yugipediaId": 432904,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 1 Duel(s) against Solomon Muto in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Horn of the Unicorn",
+      "card": "e904f879-103e-4027-adf1-07b2ee1af60c",
+      "yugipediaId": 3579,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Beaver Warrior",
+      "card": "a75315dc-34b1-4cd6-9e3f-9bf14e6d998d",
+      "yugipediaId": 506869,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "De-Spell",
+      "card": "8a8b78b5-f06a-496a-825e-223bb3b1a144",
+      "yugipediaId": 102,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Remove Trap",
+      "card": "2073b43f-bb99-4485-af2e-c3d8052f46de",
+      "yugipediaId": 506619,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Contract with Exodia",
+      "card": "a7c5c279-ca67-4321-809a-65d3e906d2a0",
+      "yugipediaId": 16820,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Torike",
+      "card": "2081411d-afa1-43a1-8606-e71387cdb073",
+      "yugipediaId": 18793,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Solomon Muto is here!",
+        "id": 1128632
+      }
+    ]
+  }
+}

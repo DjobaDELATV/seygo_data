@@ -1,0 +1,1662 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "dc1d946e-c1d8-4498-8bb3-f035fa6f505d",
+  "name": {
+    "en": "Duel Island -Gladiator-",
+    "ja": "\u30c7\u30e5\u30a8\u30eb\u30fb\u30a2\u30a4\u30e9\u30f3\u30c9\uff5e\u5263\u95d8\u7de8\uff5e"
+  },
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/2/2a/DuelIslandGladiator-Banner.png",
+  "runs": [
+    {
+      "startDate": "2018-02-27",
+      "endDate": "2018-03-09"
+    },
+    {
+      "startDate": "2018-07-13",
+      "endDate": "2018-07-23"
+    }
+  ],
+  "lotteryDates": [
+    {
+      "startDate": "2018-02-27",
+      "endDate": "2018-03-16"
+    },
+    {
+      "startDate": "2018-07-13",
+      "endDate": "2018-07-30"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "other",
+      "path": [
+        "Rewards"
+      ],
+      "notes": [
+        "There are two methods of earning rewards from this event: rewards earned through accumulating Event Points, and rewards received from the Event Lottery."
+      ]
+    },
+    {
+      "kind": "cumulativeRewards",
+      "path": [
+        "Rewards",
+        "Cumulative Rewards"
+      ],
+      "notes": [
+        "The following rewards could be earned through accumulating Event Points:"
+      ]
+    },
+    {
+      "kind": "cumulativeRewards",
+      "path": [
+        "Rewards",
+        "Cumulative Rewards"
+      ],
+      "run": "July 2018",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "Event Points",
+            "Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "2500"
+              },
+              {
+                "text": "1 AP Potion"
+              }
+            ],
+            [
+              {
+                "text": "5000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "8000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "12000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "16000"
+              },
+              {
+                "text": "20 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "20000"
+              },
+              {
+                "text": "1 \"Gladiator Beast Retiari\"",
+                "cards": [
+                  {
+                    "name": "Gladiator Beast Retiari",
+                    "card": "e7e81e49-bae5-4131-a457-2a834bda4a8b",
+                    "yugipediaId": 52381,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "25000"
+              },
+              {
+                "text": "20 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "30000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "40000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "50000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "60000"
+              },
+              {
+                "text": "1 \"Phantom Beast Thunder-Pegasus\"",
+                "cards": [
+                  {
+                    "name": "Phantom Beast Thunder-Pegasus",
+                    "card": "e22f82db-54a5-46dd-a6e8-04ae329f9ca1",
+                    "yugipediaId": 12546,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "70000"
+              },
+              {
+                "text": "1 AP Potion"
+              }
+            ],
+            [
+              {
+                "text": "80000"
+              },
+              {
+                "text": "20 Jewels"
+              }
+            ],
+            [
+              {
+                "text": "90000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "100000"
+              },
+              {
+                "text": "Card Sleeves: Duel Island -Gladiator-"
+              }
+            ],
+            [
+              {
+                "text": "110000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "120000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "130000"
+              },
+              {
+                "text": "8000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "140000"
+              },
+              {
+                "text": "40 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "150000"
+              },
+              {
+                "text": "40 Gems"
+              }
+            ],
+            [
+              {
+                "text": "170000"
+              },
+              {
+                "text": "1 \"Gladiator Beast Equeste\"",
+                "cards": [
+                  {
+                    "name": "Gladiator Beast Equeste",
+                    "card": "f4dee587-12f0-42e3-b221-50d414fa679d",
+                    "yugipediaId": 35409,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "190000"
+              },
+              {
+                "text": "1 AP Potion"
+              }
+            ],
+            [
+              {
+                "text": "210000"
+              },
+              {
+                "text": "40 Gems"
+              }
+            ],
+            [
+              {
+                "text": "230000"
+              },
+              {
+                "text": "8000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "250000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "270000"
+              },
+              {
+                "text": "8000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "290000"
+              },
+              {
+                "text": "Game Mat: Duel Island -Gladiator-"
+              }
+            ],
+            [
+              {
+                "text": "310000"
+              },
+              {
+                "text": "1 AP Potion"
+              }
+            ],
+            [
+              {
+                "text": "330000"
+              },
+              {
+                "text": "50 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "390000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "420000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "450000"
+              },
+              {
+                "text": "50 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "490000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "500000"
+              },
+              {
+                "text": "1 \"Gladiator Beast Tygerius\"",
+                "cards": [
+                  {
+                    "name": "Gladiator Beast Tygerius",
+                    "card": "e11e19bd-9a8a-4913-bb0d-f18b74940b54",
+                    "yugipediaId": 158546,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "570000"
+              },
+              {
+                "text": "40 Gems"
+              }
+            ],
+            [
+              {
+                "text": "610000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "650000"
+              },
+              {
+                "text": "12000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "700000"
+              },
+              {
+                "text": "100 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "750000"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "800000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "900000"
+              },
+              {
+                "text": "12000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "950000"
+              },
+              {
+                "text": "1 \"Gladiator Beast Darius\"",
+                "cards": [
+                  {
+                    "name": "Gladiator Beast Darius",
+                    "card": "6110e494-717d-460c-a164-0b89cca4a548",
+                    "yugipediaId": 67173,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "1000000"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1050000"
+              },
+              {
+                "text": "15000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1100000"
+              },
+              {
+                "text": "1 UR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "1200000"
+              },
+              {
+                "text": "15000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1300000"
+              },
+              {
+                "text": "Icon (\"Duel Island -Gladiator-\"-themed)"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "cumulativeRewards",
+      "path": [
+        "Rewards",
+        "Cumulative Rewards"
+      ],
+      "run": "Feb-Mar 2018",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Event Points",
+            "Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "3000"
+              },
+              {
+                "text": "1 Stamina Potion"
+              }
+            ],
+            [
+              {
+                "text": "6000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "10000"
+              },
+              {
+                "text": "2 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "15000"
+              },
+              {
+                "text": "8000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "20000"
+              },
+              {
+                "text": "2 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "25000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "30000"
+              },
+              {
+                "text": "2 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "40000"
+              },
+              {
+                "text": "8000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "50000"
+              },
+              {
+                "text": "5 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "60000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "70000"
+              },
+              {
+                "text": "1 \"Phantom Beast Wild-Horn\"",
+                "cards": [
+                  {
+                    "name": "Phantom Beast Wild-Horn",
+                    "card": "7e7b4fd0-88fc-4c0c-b63c-52809b74b789",
+                    "yugipediaId": 12526,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "80000"
+              },
+              {
+                "text": "1 Stamina Potion"
+              }
+            ],
+            [
+              {
+                "text": "90000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "100000"
+              },
+              {
+                "text": "40 Gems"
+              }
+            ],
+            [
+              {
+                "text": "120000"
+              },
+              {
+                "text": "12000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "140000"
+              },
+              {
+                "text": "20 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "160000"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "190000"
+              },
+              {
+                "text": "12000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "210000"
+              },
+              {
+                "text": "50 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "230000"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "250000"
+              },
+              {
+                "text": "1 \"Phantom Beast Cross-Wing\"",
+                "cards": [
+                  {
+                    "name": "Phantom Beast Cross-Wing",
+                    "card": "6691b3e2-bee1-4063-bb47-8271d19d18d4",
+                    "yugipediaId": 12513,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "280000"
+              },
+              {
+                "text": "15000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "310000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "340000"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "360000"
+              },
+              {
+                "text": "15000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "390000"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "420000"
+              },
+              {
+                "text": "15000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "460000"
+              },
+              {
+                "text": "1 UR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "500000"
+              },
+              {
+                "text": "1 \"Phantom Beast Thunder-Pegasus\"",
+                "cards": [
+                  {
+                    "name": "Phantom Beast Thunder-Pegasus",
+                    "card": "e22f82db-54a5-46dd-a6e8-04ae329f9ca1",
+                    "yugipediaId": 12546,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "550000"
+              },
+              {
+                "text": "20000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "600000"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "650000"
+              },
+              {
+                "text": "20000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "700000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "750000"
+              },
+              {
+                "text": "1 \"Phantom Beast Rock-Lizard\"",
+                "cards": [
+                  {
+                    "name": "Phantom Beast Rock-Lizard",
+                    "card": "543e377f-870b-4b33-b7b7-c05e6c984510",
+                    "yugipediaId": 12574,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "800000"
+              },
+              {
+                "text": "2 SR Jewels"
+              }
+            ],
+            [
+              {
+                "text": "850000"
+              },
+              {
+                "text": "30000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "900000"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "950000"
+              },
+              {
+                "text": "1 UR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "1000000"
+              },
+              {
+                "text": "Icon"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "cumulativeRewards",
+      "path": [
+        "Rewards",
+        "Cumulative Rewards"
+      ],
+      "notes": [
+        "In the July 2018 event, once the player reached or surpassed the milestone of 1300000 Event Points, they would also receive 50 R Jewels for every 300000 Event Points they earned beyond that point."
+      ]
+    },
+    {
+      "kind": "lottery",
+      "path": [
+        "Rewards",
+        "Event Lottery"
+      ],
+      "notes": [
+        "Throughout the event, the player also receives Lottery Coins (known as Island Coins in the February-March 2018 event) whenever they earn Event Points, at a rate of 1 coin for every 100 Event Points earned (rounded up). The player can spend these Lottery Coins at the Event Lottery, where 1 random reward is issued per every 30 Lottery Coins spent. These random rewards can be purchased one at a time or 10 at a time (if the player does not have enough coins to draw 10 rewards, they can instead draw as many rewards as possible if more than one). The rarity of a reward is indicated by the coloring of its panel when received, with rainbow-colored being the highest rarity, gold-colored being the medium rarity, and neutral-colored as the lowest rarity.",
+        "The Event Lottery remains open from the start of the event until one week after the event's conclusion\u2014specifically until March 16 01:00 (EDT) for the February-March 2018 event, and July 30 01:00 (EDT) for the July 2018 event."
+      ]
+    },
+    {
+      "kind": "lottery",
+      "path": [
+        "Rewards",
+        "Event Lottery"
+      ],
+      "run": "July 2018",
+      "runIndex": 1,
+      "tables": [
+        {
+          "rows": [
+            [
+              {
+                "text": ""
+              },
+              {
+                "text": "Lottery Rewards"
+              }
+            ],
+            [
+              {
+                "text": "Rainbow"
+              },
+              {
+                "text": "* \"Phantom Beast Rock-Lizard\" (UR), \"Gladiator Beast Darius\" (UR), \"Phantom Beast Thunder-Pegasus\" (SR), \"Phantom Beast Cross-Wing\" (SR), \"Phantom Beast Wild-Horn\" (SR), \"Dark Crusader\" (SR), \"Gladiator Beast Equeste\" (SR), \"Gladiator Beast Tygerius\" (SR)\n* 1 UR Jewel",
+                "cards": [
+                  {
+                    "name": "Phantom Beast Rock-Lizard",
+                    "card": "543e377f-870b-4b33-b7b7-c05e6c984510",
+                    "yugipediaId": 12574,
+                    "rarity": "UR"
+                  },
+                  {
+                    "name": "Gladiator Beast Darius",
+                    "card": "6110e494-717d-460c-a164-0b89cca4a548",
+                    "yugipediaId": 67173,
+                    "rarity": "UR"
+                  },
+                  {
+                    "name": "Phantom Beast Thunder-Pegasus",
+                    "card": "e22f82db-54a5-46dd-a6e8-04ae329f9ca1",
+                    "yugipediaId": 12546,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Phantom Beast Cross-Wing",
+                    "card": "6691b3e2-bee1-4063-bb47-8271d19d18d4",
+                    "yugipediaId": 12513,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Phantom Beast Wild-Horn",
+                    "card": "7e7b4fd0-88fc-4c0c-b63c-52809b74b789",
+                    "yugipediaId": 12526,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Dark Crusader",
+                    "card": "48482748-59d7-4e77-b451-6c4c79457879",
+                    "yugipediaId": 75178,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Gladiator Beast Equeste",
+                    "card": "f4dee587-12f0-42e3-b221-50d414fa679d",
+                    "yugipediaId": 35409,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Gladiator Beast Tygerius",
+                    "card": "e11e19bd-9a8a-4913-bb0d-f18b74940b54",
+                    "yugipediaId": 158546,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Gold"
+              },
+              {
+                "text": "* \"Chain Destruction\" (R), \"Saber Beetle\" (R), \"7 Colored Fish\" (R), \"Pyramid Energy\" (R), \"United Front\" (R), \"Gladiator Beast Retiari\" (R), \"Gladiator Taming\" (R)\n* 10 Gate Keys (White, Black, Blue, Red, Yellow, or Green)\n* 3000 or 2000 Gold\n* 1 Gem\n* 1 SR Jewel",
+                "cards": [
+                  {
+                    "name": "Chain Destruction",
+                    "card": "4c054d55-8529-42e9-8978-16702259b1bb",
+                    "yugipediaId": 4593,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Saber Beetle",
+                    "card": "e323c9f3-7c45-45f2-b450-da02fdf526dd",
+                    "yugipediaId": 11641,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "7 Colored Fish",
+                    "card": "e7f2003e-24a8-4c13-b3c1-1b54298b6c02",
+                    "yugipediaId": 2325,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Pyramid Energy",
+                    "card": "b1f99ae2-3560-48ec-914b-7e4b48e621ad",
+                    "yugipediaId": 14833,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "United Front",
+                    "card": "e33e4f89-2697-4e31-ad55-d4bdee02ae77",
+                    "yugipediaId": 174911,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Gladiator Beast Retiari",
+                    "card": "e7e81e49-bae5-4131-a457-2a834bda4a8b",
+                    "yugipediaId": 52381,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Gladiator Taming",
+                    "card": "f163190f-a3ea-41d3-ba85-ec14cee62b7a",
+                    "yugipediaId": 163054,
+                    "rarity": "R"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Normal"
+              },
+              {
+                "text": "* \"The Statue of Easter Island\" (N), \"Space Mambo\" (N), \"Dokurorider\" (N), \"Revival of Dokurorider\" (N), \"Terrorking Salmon\" (N)\n* 5 Gate Keys (White, Black, Blue, Red, Yellow, or Green)\n* 1000, 600, or 300 Gold\n* 5 R Jewels",
+                "cards": [
+                  {
+                    "name": "The Statue of Easter Island",
+                    "card": "372a33c5-d2e0-4193-85c4-ee800a83f4a9",
+                    "yugipediaId": 505893,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Space Mambo",
+                    "card": "daef60d8-c897-47e3-9db0-a60f8b44ef8d",
+                    "yugipediaId": 4532,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Dokurorider",
+                    "card": "04ce7bde-7f24-4d13-89d5-3683172d1b7f",
+                    "yugipediaId": 11256,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Revival of Dokurorider",
+                    "card": "7997423e-b3b6-4541-b32a-8920074d2dcd",
+                    "yugipediaId": 13266,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Terrorking Salmon",
+                    "card": "5516351f-9cb6-4df6-b96b-d718a15ca9ad",
+                    "yugipediaId": 1794,
+                    "rarity": "N"
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "lottery",
+      "path": [
+        "Rewards",
+        "Event Lottery"
+      ],
+      "run": "Feb-Mar 2018",
+      "runIndex": 0,
+      "tables": [
+        {
+          "rows": [
+            [
+              {
+                "text": ""
+              },
+              {
+                "text": "Lottery Rewards"
+              }
+            ],
+            [
+              {
+                "text": "Rainbow"
+              },
+              {
+                "text": "* \"Phantom Beast Rock-Lizard\" (UR), \"Phantom Beast Cross-Wing\" (SR), \"Phantom Beast Wild-Horn\" (SR), \"Golden Homunculus\" (SR), \"Dark Crusader\" (SR), \"Gamushara\" (SR)\n* 25 Gems",
+                "cards": [
+                  {
+                    "name": "Phantom Beast Rock-Lizard",
+                    "card": "543e377f-870b-4b33-b7b7-c05e6c984510",
+                    "yugipediaId": 12574,
+                    "rarity": "UR"
+                  },
+                  {
+                    "name": "Phantom Beast Cross-Wing",
+                    "card": "6691b3e2-bee1-4063-bb47-8271d19d18d4",
+                    "yugipediaId": 12513,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Phantom Beast Wild-Horn",
+                    "card": "7e7b4fd0-88fc-4c0c-b63c-52809b74b789",
+                    "yugipediaId": 12526,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Golden Homunculus",
+                    "card": "1eb64590-905e-4cc7-a42d-ccf6a5716537",
+                    "yugipediaId": 7786,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Dark Crusader",
+                    "card": "48482748-59d7-4e77-b451-6c4c79457879",
+                    "yugipediaId": 75178,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Gamushara",
+                    "card": "3f7533d0-4698-4701-b89a-5c0b42bf1838",
+                    "yugipediaId": 189566,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Gold"
+              },
+              {
+                "text": "* \"Chain Destruction\" (R), \"Saber Beetle\" (R), \"7 Colored Fish\" (R), \"Pyramid Energy\" (R), \"United Front\" (R)\n* 10 Gate Keys (White, Black, Blue, Red, Yellow, or Green)\n* 3000 or 2000 Gold\n* 15 or 10 Gems",
+                "cards": [
+                  {
+                    "name": "Chain Destruction",
+                    "card": "4c054d55-8529-42e9-8978-16702259b1bb",
+                    "yugipediaId": 4593,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Saber Beetle",
+                    "card": "e323c9f3-7c45-45f2-b450-da02fdf526dd",
+                    "yugipediaId": 11641,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "7 Colored Fish",
+                    "card": "e7f2003e-24a8-4c13-b3c1-1b54298b6c02",
+                    "yugipediaId": 2325,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Pyramid Energy",
+                    "card": "b1f99ae2-3560-48ec-914b-7e4b48e621ad",
+                    "yugipediaId": 14833,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "United Front",
+                    "card": "e33e4f89-2697-4e31-ad55-d4bdee02ae77",
+                    "yugipediaId": 174911,
+                    "rarity": "R"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Normal"
+              },
+              {
+                "text": "* \"The Statue of Easter Island\" (N), \"Space Mambo\" (N), \"Dokurorider\" (N), \"Revival of Dokurorider\" (N), \"Terrorking Salmon\" (N)\n* 5 Gate Keys (White, Black, Blue, Red, Yellow, or Green)\n* 1000, 600, or 300 Gold\n* 5 Gems",
+                "cards": [
+                  {
+                    "name": "The Statue of Easter Island",
+                    "card": "372a33c5-d2e0-4193-85c4-ee800a83f4a9",
+                    "yugipediaId": 505893,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Space Mambo",
+                    "card": "daef60d8-c897-47e3-9db0-a60f8b44ef8d",
+                    "yugipediaId": 4532,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Dokurorider",
+                    "card": "04ce7bde-7f24-4d13-89d5-3683172d1b7f",
+                    "yugipediaId": 11256,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Revival of Dokurorider",
+                    "card": "7997423e-b3b6-4541-b32a-8920074d2dcd",
+                    "yugipediaId": 13266,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Terrorking Salmon",
+                    "card": "5516351f-9cb6-4df6-b96b-d718a15ca9ad",
+                    "yugipediaId": 1794,
+                    "rarity": "N"
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Gladiator Beast Retiari",
+      "card": "e7e81e49-bae5-4131-a457-2a834bda4a8b",
+      "yugipediaId": 52381,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "July 2018",
+          "runIndex": 1,
+          "requirement": "20000"
+        },
+        {
+          "kind": "lottery",
+          "run": "July 2018",
+          "runIndex": 1,
+          "requirement": "Gold",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Phantom Beast Thunder-Pegasus",
+      "card": "e22f82db-54a5-46dd-a6e8-04ae329f9ca1",
+      "yugipediaId": 12546,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "July 2018",
+          "runIndex": 1,
+          "requirement": "60000"
+        },
+        {
+          "kind": "cumulativeRewards",
+          "run": "Feb-Mar 2018",
+          "runIndex": 0,
+          "requirement": "500000"
+        },
+        {
+          "kind": "lottery",
+          "run": "July 2018",
+          "runIndex": 1,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Gladiator Beast Equeste",
+      "card": "f4dee587-12f0-42e3-b221-50d414fa679d",
+      "yugipediaId": 35409,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "July 2018",
+          "runIndex": 1,
+          "requirement": "170000"
+        },
+        {
+          "kind": "lottery",
+          "run": "July 2018",
+          "runIndex": 1,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Gladiator Beast Tygerius",
+      "card": "e11e19bd-9a8a-4913-bb0d-f18b74940b54",
+      "yugipediaId": 158546,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "July 2018",
+          "runIndex": 1,
+          "requirement": "500000"
+        },
+        {
+          "kind": "lottery",
+          "run": "July 2018",
+          "runIndex": 1,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Gladiator Beast Darius",
+      "card": "6110e494-717d-460c-a164-0b89cca4a548",
+      "yugipediaId": 67173,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "July 2018",
+          "runIndex": 1,
+          "requirement": "950000"
+        },
+        {
+          "kind": "lottery",
+          "run": "July 2018",
+          "runIndex": 1,
+          "requirement": "Rainbow",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Phantom Beast Wild-Horn",
+      "card": "7e7b4fd0-88fc-4c0c-b63c-52809b74b789",
+      "yugipediaId": 12526,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "Feb-Mar 2018",
+          "runIndex": 0,
+          "requirement": "70000"
+        },
+        {
+          "kind": "lottery",
+          "run": "July 2018",
+          "runIndex": 1,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        },
+        {
+          "kind": "lottery",
+          "run": "Feb-Mar 2018",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Phantom Beast Cross-Wing",
+      "card": "6691b3e2-bee1-4063-bb47-8271d19d18d4",
+      "yugipediaId": 12513,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "Feb-Mar 2018",
+          "runIndex": 0,
+          "requirement": "250000"
+        },
+        {
+          "kind": "lottery",
+          "run": "July 2018",
+          "runIndex": 1,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        },
+        {
+          "kind": "lottery",
+          "run": "Feb-Mar 2018",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Phantom Beast Rock-Lizard",
+      "card": "543e377f-870b-4b33-b7b7-c05e6c984510",
+      "yugipediaId": 12574,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "Feb-Mar 2018",
+          "runIndex": 0,
+          "requirement": "750000"
+        },
+        {
+          "kind": "lottery",
+          "run": "July 2018",
+          "runIndex": 1,
+          "requirement": "Rainbow",
+          "rarity": "UR"
+        },
+        {
+          "kind": "lottery",
+          "run": "Feb-Mar 2018",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Dark Crusader",
+      "card": "48482748-59d7-4e77-b451-6c4c79457879",
+      "yugipediaId": 75178,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "July 2018",
+          "runIndex": 1,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        },
+        {
+          "kind": "lottery",
+          "run": "Feb-Mar 2018",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Chain Destruction",
+      "card": "4c054d55-8529-42e9-8978-16702259b1bb",
+      "yugipediaId": 4593,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "July 2018",
+          "runIndex": 1,
+          "requirement": "Gold",
+          "rarity": "R"
+        },
+        {
+          "kind": "lottery",
+          "run": "Feb-Mar 2018",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Saber Beetle",
+      "card": "e323c9f3-7c45-45f2-b450-da02fdf526dd",
+      "yugipediaId": 11641,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "July 2018",
+          "runIndex": 1,
+          "requirement": "Gold",
+          "rarity": "R"
+        },
+        {
+          "kind": "lottery",
+          "run": "Feb-Mar 2018",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "7 Colored Fish",
+      "card": "e7f2003e-24a8-4c13-b3c1-1b54298b6c02",
+      "yugipediaId": 2325,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "July 2018",
+          "runIndex": 1,
+          "requirement": "Gold",
+          "rarity": "R"
+        },
+        {
+          "kind": "lottery",
+          "run": "Feb-Mar 2018",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Pyramid Energy",
+      "card": "b1f99ae2-3560-48ec-914b-7e4b48e621ad",
+      "yugipediaId": 14833,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "July 2018",
+          "runIndex": 1,
+          "requirement": "Gold",
+          "rarity": "R"
+        },
+        {
+          "kind": "lottery",
+          "run": "Feb-Mar 2018",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "United Front",
+      "card": "e33e4f89-2697-4e31-ad55-d4bdee02ae77",
+      "yugipediaId": 174911,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "July 2018",
+          "runIndex": 1,
+          "requirement": "Gold",
+          "rarity": "R"
+        },
+        {
+          "kind": "lottery",
+          "run": "Feb-Mar 2018",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Gladiator Taming",
+      "card": "f163190f-a3ea-41d3-ba85-ec14cee62b7a",
+      "yugipediaId": 163054,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "July 2018",
+          "runIndex": 1,
+          "requirement": "Gold",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "The Statue of Easter Island",
+      "card": "372a33c5-d2e0-4193-85c4-ee800a83f4a9",
+      "yugipediaId": 505893,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "July 2018",
+          "runIndex": 1,
+          "requirement": "Normal",
+          "rarity": "N"
+        },
+        {
+          "kind": "lottery",
+          "run": "Feb-Mar 2018",
+          "runIndex": 0,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Space Mambo",
+      "card": "daef60d8-c897-47e3-9db0-a60f8b44ef8d",
+      "yugipediaId": 4532,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "July 2018",
+          "runIndex": 1,
+          "requirement": "Normal",
+          "rarity": "N"
+        },
+        {
+          "kind": "lottery",
+          "run": "Feb-Mar 2018",
+          "runIndex": 0,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Dokurorider",
+      "card": "04ce7bde-7f24-4d13-89d5-3683172d1b7f",
+      "yugipediaId": 11256,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "July 2018",
+          "runIndex": 1,
+          "requirement": "Normal",
+          "rarity": "N"
+        },
+        {
+          "kind": "lottery",
+          "run": "Feb-Mar 2018",
+          "runIndex": 0,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Revival of Dokurorider",
+      "card": "7997423e-b3b6-4541-b32a-8920074d2dcd",
+      "yugipediaId": 13266,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "July 2018",
+          "runIndex": 1,
+          "requirement": "Normal",
+          "rarity": "N"
+        },
+        {
+          "kind": "lottery",
+          "run": "Feb-Mar 2018",
+          "runIndex": 0,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Terrorking Salmon",
+      "card": "5516351f-9cb6-4df6-b96b-d718a15ca9ad",
+      "yugipediaId": 1794,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "July 2018",
+          "runIndex": 1,
+          "requirement": "Normal",
+          "rarity": "N"
+        },
+        {
+          "kind": "lottery",
+          "run": "Feb-Mar 2018",
+          "runIndex": 0,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Golden Homunculus",
+      "card": "1eb64590-905e-4cc7-a42d-ccf6a5716537",
+      "yugipediaId": 7786,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "Feb-Mar 2018",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Gamushara",
+      "card": "3f7533d0-4698-4701-b89a-5c0b42bf1838",
+      "yugipediaId": 189566,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "Feb-Mar 2018",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Duel Island -Gladiator-",
+        "id": 554012
+      }
+    ]
+  }
+}

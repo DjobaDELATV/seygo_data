@@ -1,0 +1,718 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "f6e311ec-90a0-45b5-8bc3-f79aef193880",
+  "name": {
+    "en": "Axel Brodie is here!"
+  },
+  "type": "Roaming Duelist event",
+  "duelWorlds": [
+    "Duel World (GX)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/6/6b/AxelBrodieishere-Banner.png",
+  "runs": [
+    {
+      "startDate": "2020-10-23",
+      "endDate": "2020-10-30"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "In addition to the following, standard Duel Rewards were also available by Dueling Axel Brodie Level 30 or less."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Inferno\", \"Pyrorex the Elemental Lord\"",
+                "cards": [
+                  {
+                    "name": "Inferno",
+                    "card": "e4fd7dec-683c-4ce8-9819-97018ddaed8b",
+                    "yugipediaId": 17157
+                  },
+                  {
+                    "name": "Pyrorex the Elemental Lord",
+                    "card": "c7109d02-2f38-414b-bc60-c6142c4fea94",
+                    "yugipediaId": 246477
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Volcanic Slicer\", \"Royal Firestorm Guards\", \"Flamvell Grunika\"",
+                "cards": [
+                  {
+                    "name": "Volcanic Slicer",
+                    "card": "41748eb5-bd9e-48a5-a45b-dbbb4472c464",
+                    "yugipediaId": 20910
+                  },
+                  {
+                    "name": "Royal Firestorm Guards",
+                    "card": "2599d11e-2352-4101-a7ee-c8f938a5770b",
+                    "yugipediaId": 67841
+                  },
+                  {
+                    "name": "Flamvell Grunika",
+                    "card": "980980d9-e5af-4e85-94a3-a624bf51edae",
+                    "yugipediaId": 46826
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Darkfire Soldier #1\", \"Raging Flame Sprite\"",
+                "cards": [
+                  {
+                    "name": "Darkfire Soldier #1",
+                    "card": "57685b6f-cddc-4c52-a5a3-5137ba4463db",
+                    "yugipediaId": 5792
+                  },
+                  {
+                    "name": "Raging Flame Sprite",
+                    "card": "8c9bae25-8466-42f9-ac10-d08cb8a983ae",
+                    "yugipediaId": 11423
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"King Pyron\", \"Flame Manipulator\", \"Fire Eye\"",
+                "cards": [
+                  {
+                    "name": "King Pyron",
+                    "card": "b3a521f9-cf27-4b39-91ae-390f1ac72b01",
+                    "yugipediaId": 510591
+                  },
+                  {
+                    "name": "Flame Manipulator",
+                    "card": "da93235c-efc5-44da-8cd5-8042e3ffafb9",
+                    "yugipediaId": 505163
+                  },
+                  {
+                    "name": "Fire Eye",
+                    "card": "72fd833a-7604-49b2-90e4-449997cce496",
+                    "yugipediaId": 7310
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Rewards",
+        "Event Missions"
+      ],
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against Axel Brodie in Duel World."
+              },
+              {
+                "text": "1 \"King Pyron\" (Glossy)",
+                "cards": [
+                  {
+                    "name": "King Pyron",
+                    "card": "b3a521f9-cf27-4b39-91ae-390f1ac72b01",
+                    "yugipediaId": 510591,
+                    "quantity": 1,
+                    "variant": "Glossy"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 3 Duel(s) against Axel Brodie in Duel World."
+              },
+              {
+                "text": "1 \"Darkfire Soldier #1\" (Glossy)",
+                "cards": [
+                  {
+                    "name": "Darkfire Soldier #1",
+                    "card": "57685b6f-cddc-4c52-a5a3-5137ba4463db",
+                    "yugipediaId": 5792,
+                    "quantity": 1,
+                    "variant": "Glossy"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 7 Duel(s) against Axel Brodie in Duel World."
+              },
+              {
+                "text": "1 \"Volcanic Slicer\"",
+                "cards": [
+                  {
+                    "name": "Volcanic Slicer",
+                    "card": "41748eb5-bd9e-48a5-a45b-dbbb4472c464",
+                    "yugipediaId": 20910,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Play 15 Duel(s) against Axel Brodie in Duel World (surrenders are not counted)."
+              },
+              {
+                "text": "1 \"Inferno\"",
+                "cards": [
+                  {
+                    "name": "Inferno",
+                    "card": "e4fd7dec-683c-4ce8-9819-97018ddaed8b",
+                    "yugipediaId": 17157,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "decks": [
+    {
+      "path": [
+        "Decks",
+        "Level 10"
+      ],
+      "cards": [
+        {
+          "name": "Flame Manipulator",
+          "card": "da93235c-efc5-44da-8cd5-8042e3ffafb9",
+          "yugipediaId": 505163,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Hinotama Soul",
+          "card": "c4fa9c0e-3b73-458a-aed1-b514ce665057",
+          "yugipediaId": 505407,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Wings of Wicked Flame",
+          "card": "57df47c0-97f9-4a9d-a409-67ee3adbd0d0",
+          "yugipediaId": 7299,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Volcanic Rat",
+          "card": "9c86a72e-fdaf-4d05-9c1b-96ceebca870a",
+          "yugipediaId": 512488,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Volcanic Shell",
+          "card": "3537991b-e82a-485c-bdc0-2f745943c2a0",
+          "yugipediaId": 20901,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Sparks",
+          "card": "f33cc012-53f0-41b0-801e-23f7c1a72f4c",
+          "yugipediaId": 544,
+          "count": 3,
+          "category": "spells"
+        },
+        {
+          "name": "Volcanic Recharge",
+          "card": "31ee19e1-ff5f-487a-9a23-a4d67c74bf38",
+          "yugipediaId": 21402,
+          "count": 2,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Level 20"
+      ],
+      "cards": [
+        {
+          "name": "Fireyarou",
+          "card": "d66afc1b-3aa4-458f-b3b6-06132f6d9ae5",
+          "yugipediaId": 507278,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Flame Champion",
+          "card": "a747ea0f-a06d-4c22-b0ba-c3b3b2999512",
+          "yugipediaId": 5767,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Volcanic Rat",
+          "card": "9c86a72e-fdaf-4d05-9c1b-96ceebca870a",
+          "yugipediaId": 512488,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Fire Trooper",
+          "card": "ca840e7d-d6a5-45b2-b6a6-173f4bc6e3b5",
+          "yugipediaId": 506871,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "The Thing in the Crater",
+          "card": "5989bd5f-740c-4ad4-8d51-5080b45f8612",
+          "yugipediaId": 12682,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Volcanic Blaster",
+          "card": "b705184d-d510-48d5-9fca-a3fa66727630",
+          "yugipediaId": 18120,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Volcanic Shell",
+          "card": "3537991b-e82a-485c-bdc0-2f745943c2a0",
+          "yugipediaId": 20901,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Hinotama",
+          "card": "ad8736d0-b7b3-4316-a79e-00eeabb5aa20",
+          "yugipediaId": 506604,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Volcanic Wall",
+          "card": "52b16a47-ec57-4fb1-b69d-58df5066631e",
+          "yugipediaId": 720065,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Volcanic Recharge",
+          "card": "31ee19e1-ff5f-487a-9a23-a4d67c74bf38",
+          "yugipediaId": 21402,
+          "count": 2,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Level 30"
+      ],
+      "cards": [
+        {
+          "name": "Darkfire Soldier #1",
+          "card": "57685b6f-cddc-4c52-a5a3-5137ba4463db",
+          "yugipediaId": 5792,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Flame Ruler",
+          "card": "f8d03a0b-b3b0-47c7-9a64-27d5b84a5be7",
+          "yugipediaId": 1701,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Flame Spirit Ignis",
+          "card": "851de42b-8a58-4d88-97ea-61f06b1fec26",
+          "yugipediaId": 29679,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Infernal Flame Emperor",
+          "card": "d00a7a9a-f8f2-45d5-8777-88847232828a",
+          "yugipediaId": 1718,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Invasion of Flames",
+          "card": "45929c9d-594d-43e5-8a20-8334ed5f7f23",
+          "yugipediaId": 15616,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Neo Flamvell Sabre",
+          "card": "a42073b8-1d54-4a24-89de-9db7708e3dad",
+          "yugipediaId": 113124,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Volcanic Doomfire",
+          "card": "3456d39e-fb58-4933-8bed-ad0a6a6f7592",
+          "yugipediaId": 511334,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Volcanic Hammerer",
+          "card": "58104f10-3d94-4555-9d8b-cf30d816a452",
+          "yugipediaId": 18240,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Volcanic Shell",
+          "card": "3537991b-e82a-485c-bdc0-2f745943c2a0",
+          "yugipediaId": 20901,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Blaze Accelerator",
+          "card": "a2d26ec4-c34b-47f4-a813-67504b8be1d9",
+          "yugipediaId": 511332,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Burial from a Different Dimension",
+          "card": "1d66f049-eb4a-44b5-9662-32d19db67494",
+          "yugipediaId": 19435,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Soul of Fire",
+          "card": "e13327c9-87aa-4bfc-b9ff-22e4f07890da",
+          "yugipediaId": 20916,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Tri-Blaze Accelerator",
+          "card": "c320dc54-ebb1-4a63-ac8a-65b71a9116ff",
+          "yugipediaId": 511331,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Volcanic Recharge",
+          "card": "31ee19e1-ff5f-487a-9a23-a4d67c74bf38",
+          "yugipediaId": 21402,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Level 40"
+      ],
+      "cards": [
+        {
+          "name": "Royal Firestorm Guards",
+          "card": "2599d11e-2352-4101-a7ee-c8f938a5770b",
+          "yugipediaId": 67841,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Sergeant Electro",
+          "card": "34200572-b4ce-47a6-805d-002e31f60684",
+          "yugipediaId": 515234,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "The Blazing Mars",
+          "card": "286d5e2b-682d-4675-ac0c-6cfdf2b6ce22",
+          "yugipediaId": 450146,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Volcanic Doomfire",
+          "card": "3456d39e-fb58-4933-8bed-ad0a6a6f7592",
+          "yugipediaId": 511334,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Volcanic Hammerer",
+          "card": "58104f10-3d94-4555-9d8b-cf30d816a452",
+          "yugipediaId": 18240,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Volcanic Rocket",
+          "card": "602931be-fd6c-4f6b-8486-09f9255657cd",
+          "yugipediaId": 511355,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Volcanic Slicer",
+          "card": "41748eb5-bd9e-48a5-a45b-dbbb4472c464",
+          "yugipediaId": 20910,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Blaze Accelerator",
+          "card": "a2d26ec4-c34b-47f4-a813-67504b8be1d9",
+          "yugipediaId": 511332,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Burial from a Different Dimension",
+          "card": "1d66f049-eb4a-44b5-9662-32d19db67494",
+          "yugipediaId": 19435,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Tri-Blaze Accelerator",
+          "card": "c320dc54-ebb1-4a63-ac8a-65b71a9116ff",
+          "yugipediaId": 511331,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Wild Fire",
+          "card": "74af7b88-9ca0-4e1c-a14f-6c12a803191a",
+          "yugipediaId": 21000,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Blaze Accelerator Reload",
+          "card": "4f560210-114e-43a5-bd2c-5c47a5b9600b",
+          "yugipediaId": 318405,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Volcanic Recharge",
+          "card": "31ee19e1-ff5f-487a-9a23-a4d67c74bf38",
+          "yugipediaId": 21402,
+          "count": 2,
+          "category": "traps"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Inferno",
+      "card": "e4fd7dec-683c-4ce8-9819-97018ddaed8b",
+      "yugipediaId": 17157,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Play 15 Duel(s) against Axel Brodie in Duel World (surrenders are not counted)."
+        }
+      ]
+    },
+    {
+      "name": "Pyrorex the Elemental Lord",
+      "card": "c7109d02-2f38-414b-bc60-c6142c4fea94",
+      "yugipediaId": 246477,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Volcanic Slicer",
+      "card": "41748eb5-bd9e-48a5-a45b-dbbb4472c464",
+      "yugipediaId": 20910,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 7 Duel(s) against Axel Brodie in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Royal Firestorm Guards",
+      "card": "2599d11e-2352-4101-a7ee-c8f938a5770b",
+      "yugipediaId": 67841,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Flamvell Grunika",
+      "card": "980980d9-e5af-4e85-94a3-a624bf51edae",
+      "yugipediaId": 46826,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Darkfire Soldier #1",
+      "card": "57685b6f-cddc-4c52-a5a3-5137ba4463db",
+      "yugipediaId": 5792,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 3 Duel(s) against Axel Brodie in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Raging Flame Sprite",
+      "card": "8c9bae25-8466-42f9-ac10-d08cb8a983ae",
+      "yugipediaId": 11423,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "King Pyron",
+      "card": "b3a521f9-cf27-4b39-91ae-390f1ac72b01",
+      "yugipediaId": 510591,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 1 Duel(s) against Axel Brodie in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Flame Manipulator",
+      "card": "da93235c-efc5-44da-8cd5-8042e3ffafb9",
+      "yugipediaId": 505163,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Fire Eye",
+      "card": "72fd833a-7604-49b2-90e4-449997cce496",
+      "yugipediaId": 7310,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Axel Brodie is here!",
+        "id": 1011652
+      }
+    ]
+  }
+}

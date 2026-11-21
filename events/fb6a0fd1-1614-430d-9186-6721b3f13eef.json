@@ -1,0 +1,3803 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "fb6a0fd1-1614-430d-9186-6721b3f13eef",
+  "name": {
+    "en": "Number Hunter: Kite Tenjo!",
+    "fr": "Chasseur de Num\u00e9ros : Kite Tenjo !",
+    "ja": "\u30ca\u30f3\u30d0\u30fc\u30ba\u30fb\u30cf\u30f3\u30bf\u30fc \u5929\u57ce\u30ab\u30a4\u30c8\uff01"
+  },
+  "type": "Gate Event",
+  "duelWorlds": [
+    "Duel World (ZEXAL)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/e/ee/NumberHunterKiteTenjo-Banner.png",
+  "runs": [
+    {
+      "startDate": "2021-01-25",
+      "endDate": "2021-02-02"
+    },
+    {
+      "startDate": "2021-06-14",
+      "endDate": "2021-06-21"
+    }
+  ],
+  "cardTraderExDates": [
+    {
+      "startDate": "2021-01-25",
+      "endDate": "2021-02-09"
+    },
+    {
+      "startDate": "2021-06-14",
+      "endDate": "2021-06-28"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "cumulativeRewards",
+      "path": [
+        "Rewards",
+        "Cumulative Rewards"
+      ],
+      "notes": [
+        "The following rewards were awarded during this event, based on event points accumulated over the course of the event:"
+      ]
+    },
+    {
+      "kind": "cumulativeRewards",
+      "path": [
+        "Rewards",
+        "Cumulative Rewards"
+      ],
+      "run": "June 2021",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "10000"
+              },
+              {
+                "text": "5 Gems"
+              }
+            ],
+            [
+              {
+                "text": "20000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "30000"
+              },
+              {
+                "text": "1 EXP Booster"
+              }
+            ],
+            [
+              {
+                "text": "50000"
+              },
+              {
+                "text": "5 Gems"
+              }
+            ],
+            [
+              {
+                "text": "70000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "90000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "110000"
+              },
+              {
+                "text": "1 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "130000"
+              },
+              {
+                "text": "5 Gems"
+              }
+            ],
+            [
+              {
+                "text": "160000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "190000"
+              },
+              {
+                "text": "1 Results Booster"
+              }
+            ],
+            [
+              {
+                "text": "220000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "250000"
+              },
+              {
+                "text": "2 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "280000"
+              },
+              {
+                "text": "1 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "310000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "340000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "370000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "400000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "430000"
+              },
+              {
+                "text": "40 Numbers Clues"
+              }
+            ],
+            [
+              {
+                "text": "460000"
+              },
+              {
+                "text": "1 \"Number 20: Giga-Brilliant\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Number 20: Giga-Brilliant",
+                    "card": "eb4f2ead-5d09-414e-855e-8b454c40b56b",
+                    "yugipediaId": 172674,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "490000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "520000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "550000"
+              },
+              {
+                "text": "2 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "580000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "610000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "640000"
+              },
+              {
+                "text": "1 EXP Booster"
+              }
+            ],
+            [
+              {
+                "text": "670000"
+              },
+              {
+                "text": "40 Numbers Clues"
+              }
+            ],
+            [
+              {
+                "text": "710000"
+              },
+              {
+                "text": "Card Sleeves: Number Hunter: Kite Tenjo!"
+              }
+            ],
+            [
+              {
+                "text": "740000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "770000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "800000"
+              },
+              {
+                "text": "30 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "830000"
+              },
+              {
+                "text": "1 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "860000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "890000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "920000"
+              },
+              {
+                "text": "3 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "950000"
+              },
+              {
+                "text": "30 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "980000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1020000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "1060000"
+              },
+              {
+                "text": "1 Results Booster"
+              }
+            ],
+            [
+              {
+                "text": "1100000"
+              },
+              {
+                "text": "1 \"Photon Advancer\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Photon Advancer",
+                    "card": "61f5aaf6-1722-4376-8474-7ee9e87548de",
+                    "yugipediaId": 300838,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "1150000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1200000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1250000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "1300000"
+              },
+              {
+                "text": "1 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "1350000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1400000"
+              },
+              {
+                "text": "30 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "1450000"
+              },
+              {
+                "text": "3 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "1500000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1550000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "1600000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1650000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1700000"
+              },
+              {
+                "text": "Game Mat: Number Hunter: Kite Tenjo!"
+              }
+            ],
+            [
+              {
+                "text": "1800000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1900000"
+              },
+              {
+                "text": "1 EXP Booster"
+              }
+            ],
+            [
+              {
+                "text": "2000000"
+              },
+              {
+                "text": "40 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "2100000"
+              },
+              {
+                "text": "5 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "2200000"
+              },
+              {
+                "text": "15000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "2300000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "2500000"
+              },
+              {
+                "text": "1 UR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "2700000"
+              },
+              {
+                "text": "1 \"Reverse Buster\"",
+                "cards": [
+                  {
+                    "name": "Reverse Buster",
+                    "card": "125aa39f-65a7-4ca7-95d5-24c2bc4b6afd",
+                    "yugipediaId": 193517,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "2900000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "3100000"
+              },
+              {
+                "text": "15000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "3300000"
+              },
+              {
+                "text": "5 SKill Chips"
+              }
+            ],
+            [
+              {
+                "text": "3500000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "3800000"
+              },
+              {
+                "text": "1 Results Booster"
+              }
+            ],
+            [
+              {
+                "text": "4100000"
+              },
+              {
+                "text": "1 \"Number 34: Terror-Byte\"",
+                "cards": [
+                  {
+                    "name": "Number 34: Terror-Byte",
+                    "card": "60159de7-f5d1-4d4f-9f9d-6f825f7a060b",
+                    "yugipediaId": 168355,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "4300000"
+              },
+              {
+                "text": "20000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "4500000"
+              },
+              {
+                "text": "5 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "4800000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "5100000"
+              },
+              {
+                "text": "Icon"
+              }
+            ],
+            [
+              {
+                "text": "5400000"
+              },
+              {
+                "text": "50 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "5700000"
+              },
+              {
+                "text": "20000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "6000000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "6300000"
+              },
+              {
+                "text": "Title: Number Hunter: Kite Tenjo! Completed"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "cumulativeRewards",
+      "path": [
+        "Rewards",
+        "Cumulative Rewards"
+      ],
+      "run": "Jan-Feb 2021",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "5000"
+              },
+              {
+                "text": "5 Gems"
+              }
+            ],
+            [
+              {
+                "text": "20000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "30000"
+              },
+              {
+                "text": "1 EXP Booster"
+              }
+            ],
+            [
+              {
+                "text": "50000"
+              },
+              {
+                "text": "5 Gems"
+              }
+            ],
+            [
+              {
+                "text": "70000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "90000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "110000"
+              },
+              {
+                "text": "1 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "130000"
+              },
+              {
+                "text": "5 Gems"
+              }
+            ],
+            [
+              {
+                "text": "150000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "170000"
+              },
+              {
+                "text": "1 Results Booster"
+              }
+            ],
+            [
+              {
+                "text": "190000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "210000"
+              },
+              {
+                "text": "5 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "230000"
+              },
+              {
+                "text": "1 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "250000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "270000"
+              },
+              {
+                "text": "40 Numbers Clues"
+              }
+            ],
+            [
+              {
+                "text": "300000"
+              },
+              {
+                "text": "1 \"Photon Crusher\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Photon Crusher",
+                    "card": "fe970e0c-3c91-4371-873a-5c96c4c0c3d1",
+                    "yugipediaId": 190064,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "320000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "340000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "360000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "380000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "400000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "420000"
+              },
+              {
+                "text": "5 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "440000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "460000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "480000"
+              },
+              {
+                "text": "1 EXP Booster"
+              }
+            ],
+            [
+              {
+                "text": "500000"
+              },
+              {
+                "text": "40 Numbers Clues"
+              }
+            ],
+            [
+              {
+                "text": "520000"
+              },
+              {
+                "text": "Card Sleeves: Number Hunter: Kite Tenjo!"
+              }
+            ],
+            [
+              {
+                "text": "540000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "560000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "580000"
+              },
+              {
+                "text": "30 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "600000"
+              },
+              {
+                "text": "1 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "620000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "640000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "660000"
+              },
+              {
+                "text": "5 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "690000"
+              },
+              {
+                "text": "30 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "720000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "750000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "780000"
+              },
+              {
+                "text": "1 Results Booster"
+              }
+            ],
+            [
+              {
+                "text": "810000"
+              },
+              {
+                "text": "1 \"Number 10: Illumiknight\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Number 10: Illumiknight",
+                    "card": "ce48f24c-8062-45b1-b558-6d21fde6e7f2",
+                    "yugipediaId": 172769,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "840000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "870000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "900000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "930000"
+              },
+              {
+                "text": "1 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "960000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1000000"
+              },
+              {
+                "text": "30 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "1050000"
+              },
+              {
+                "text": "5 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "1100000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1150000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "1200000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1250000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1300000"
+              },
+              {
+                "text": "Game Mat: Number Hunter: Kite Tenjo!"
+              }
+            ],
+            [
+              {
+                "text": "1350000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1400000"
+              },
+              {
+                "text": "1 EXP Booster"
+              }
+            ],
+            [
+              {
+                "text": "1500000"
+              },
+              {
+                "text": "40 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "1600000"
+              },
+              {
+                "text": "5 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "1700000"
+              },
+              {
+                "text": "15000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1800000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1900000"
+              },
+              {
+                "text": "1 UR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "2000000"
+              },
+              {
+                "text": "1 \"Number 20: Giga-Brilliant\"",
+                "cards": [
+                  {
+                    "name": "Number 20: Giga-Brilliant",
+                    "card": "eb4f2ead-5d09-414e-855e-8b454c40b56b",
+                    "yugipediaId": 172674,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "2200000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "2400000"
+              },
+              {
+                "text": "15000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "2600000"
+              },
+              {
+                "text": "5 SKill Chips"
+              }
+            ],
+            [
+              {
+                "text": "2800000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "3000000"
+              },
+              {
+                "text": "1 Results Booster"
+              }
+            ],
+            [
+              {
+                "text": "3200000"
+              },
+              {
+                "text": "1 \"Photon Advancer\"",
+                "cards": [
+                  {
+                    "name": "Photon Advancer",
+                    "card": "61f5aaf6-1722-4376-8474-7ee9e87548de",
+                    "yugipediaId": 300838,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "3400000"
+              },
+              {
+                "text": "20000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "3600000"
+              },
+              {
+                "text": "1 UR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "3800000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "4000000"
+              },
+              {
+                "text": "Icon"
+              }
+            ],
+            [
+              {
+                "text": "4200000"
+              },
+              {
+                "text": "50 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "4400000"
+              },
+              {
+                "text": "20000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "4700000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "5000000"
+              },
+              {
+                "text": "Title: Number Hunter: Kite Tenjo! Completed"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "notes": [
+        "When Dueling against Kite Tenjo at Level 40 or higher, these are the only cards that can drop; at lower levels, cards from the standard pool for Legendary Duelists may also drop.",
+        "Possessed Duelists possess the same rewards, but since they only spawn at Level 20, cards from the standard pool may also drop."
+      ]
+    },
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "run": "June 2021",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Number 34: Terror-Byte\", \"Photon Advancer\"",
+                "cards": [
+                  {
+                    "name": "Number 34: Terror-Byte",
+                    "card": "60159de7-f5d1-4d4f-9f9d-6f825f7a060b",
+                    "yugipediaId": 168355
+                  },
+                  {
+                    "name": "Photon Advancer",
+                    "card": "61f5aaf6-1722-4376-8474-7ee9e87548de",
+                    "yugipediaId": 300838
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Reverse Buster\", \"Number 20: Giga-Brilliant\", \"Photon Crusher\"",
+                "cards": [
+                  {
+                    "name": "Reverse Buster",
+                    "card": "125aa39f-65a7-4ca7-95d5-24c2bc4b6afd",
+                    "yugipediaId": 193517
+                  },
+                  {
+                    "name": "Number 20: Giga-Brilliant",
+                    "card": "eb4f2ead-5d09-414e-855e-8b454c40b56b",
+                    "yugipediaId": 172674
+                  },
+                  {
+                    "name": "Photon Crusher",
+                    "card": "fe970e0c-3c91-4371-873a-5c96c4c0c3d1",
+                    "yugipediaId": 190064
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Photon Booster\", \"Goddess with the Third Eye\", \"Dark-Piercing Light\", \"Divine Dragon Ragnarok\"",
+                "cards": [
+                  {
+                    "name": "Photon Booster",
+                    "card": "9d502383-9f14-4b3d-91af-c043458d5cab",
+                    "yugipediaId": 167277
+                  },
+                  {
+                    "name": "Goddess with the Third Eye",
+                    "card": "81e9d2bd-6610-4009-8fe2-b1ee13cf3bcc",
+                    "yugipediaId": 509593
+                  },
+                  {
+                    "name": "Dark-Piercing Light",
+                    "card": "d5efca29-afe1-4fb6-8090-9f7818c36603",
+                    "yugipediaId": 7948
+                  },
+                  {
+                    "name": "Divine Dragon Ragnarok",
+                    "card": "baee618d-ccc3-4fc9-b36d-9578c5c33b67",
+                    "yugipediaId": 4870
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Moon Envoy\"",
+                "cards": [
+                  {
+                    "name": "Moon Envoy",
+                    "card": "fd12e078-5d71-43be-81a2-fb11e9c6abc4",
+                    "yugipediaId": 16916
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "run": "Jan-Feb 2021",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Photon Advancer\", \"Number 10: Illumiknight\"",
+                "cards": [
+                  {
+                    "name": "Photon Advancer",
+                    "card": "61f5aaf6-1722-4376-8474-7ee9e87548de",
+                    "yugipediaId": 300838
+                  },
+                  {
+                    "name": "Number 10: Illumiknight",
+                    "card": "ce48f24c-8062-45b1-b558-6d21fde6e7f2",
+                    "yugipediaId": 172769
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Number 20: Giga-Brilliant\", \"Photon Crusher\", \"Guardian of Order\"",
+                "cards": [
+                  {
+                    "name": "Number 20: Giga-Brilliant",
+                    "card": "eb4f2ead-5d09-414e-855e-8b454c40b56b",
+                    "yugipediaId": 172674
+                  },
+                  {
+                    "name": "Photon Crusher",
+                    "card": "fe970e0c-3c91-4371-873a-5c96c4c0c3d1",
+                    "yugipediaId": 190064
+                  },
+                  {
+                    "name": "Guardian of Order",
+                    "card": "990283b9-8f3f-4c88-950d-8f329b09d0e4",
+                    "yugipediaId": 29937
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Photon Booster\", \"Goddess with the Third Eye\", \"Dark-Piercing Light\", \"Divine Dragon Ragnarok\"",
+                "cards": [
+                  {
+                    "name": "Photon Booster",
+                    "card": "9d502383-9f14-4b3d-91af-c043458d5cab",
+                    "yugipediaId": 167277
+                  },
+                  {
+                    "name": "Goddess with the Third Eye",
+                    "card": "81e9d2bd-6610-4009-8fe2-b1ee13cf3bcc",
+                    "yugipediaId": 509593
+                  },
+                  {
+                    "name": "Dark-Piercing Light",
+                    "card": "d5efca29-afe1-4fb6-8090-9f7818c36603",
+                    "yugipediaId": 7948
+                  },
+                  {
+                    "name": "Divine Dragon Ragnarok",
+                    "card": "baee618d-ccc3-4fc9-b36d-9578c5c33b67",
+                    "yugipediaId": 4870
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Moon Envoy\"",
+                "cards": [
+                  {
+                    "name": "Moon Envoy",
+                    "card": "fd12e078-5d71-43be-81a2-fb11e9c6abc4",
+                    "yugipediaId": 16916
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "cardTraderEx",
+      "path": [
+        "Rewards",
+        "Card Trader EX"
+      ],
+      "notes": [
+        "The Card Trader EX appears during this event and remains open until one week after its conclusion. The player can trade their EX Jewels for cards, Booster Items, Gold, and Skill Chips. Each card and Booster Item can only be obtained once from the Card Trader EX during this event, but the Gold can be obtained any number of times."
+      ]
+    },
+    {
+      "kind": "cardTraderEx",
+      "path": [
+        "Rewards",
+        "Card Trader EX"
+      ],
+      "run": "June 2021",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "EX Jewels",
+            "Item"
+          ],
+          "rows": [
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1"
+              },
+              {
+                "text": "100 Gold"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Results Booster"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 EXP Booster"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "10 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Number 34: Terror-Byte\" (Glossy)",
+                "cards": [
+                  {
+                    "name": "Number 34: Terror-Byte",
+                    "card": "60159de7-f5d1-4d4f-9f9d-6f825f7a060b",
+                    "yugipediaId": 168355,
+                    "quantity": 1,
+                    "variant": "Glossy"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "400"
+              },
+              {
+                "text": "1 \"Number 34: Terror-Byte\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Number 34: Terror-Byte",
+                    "card": "60159de7-f5d1-4d4f-9f9d-6f825f7a060b",
+                    "yugipediaId": 168355,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "300"
+              },
+              {
+                "text": "1 \"Photon Advancer\"",
+                "cards": [
+                  {
+                    "name": "Photon Advancer",
+                    "card": "61f5aaf6-1722-4376-8474-7ee9e87548de",
+                    "yugipediaId": 300838,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "300"
+              },
+              {
+                "text": "1 \"Number 10: Illumiknight\"",
+                "cards": [
+                  {
+                    "name": "Number 10: Illumiknight",
+                    "card": "ce48f24c-8062-45b1-b558-6d21fde6e7f2",
+                    "yugipediaId": 172769,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Reverse Buster\"",
+                "cards": [
+                  {
+                    "name": "Reverse Buster",
+                    "card": "125aa39f-65a7-4ca7-95d5-24c2bc4b6afd",
+                    "yugipediaId": 193517,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Number 20: Giga-Brilliant\"",
+                "cards": [
+                  {
+                    "name": "Number 20: Giga-Brilliant",
+                    "card": "eb4f2ead-5d09-414e-855e-8b454c40b56b",
+                    "yugipediaId": 172674,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Photon Crusher\"",
+                "cards": [
+                  {
+                    "name": "Photon Crusher",
+                    "card": "fe970e0c-3c91-4371-873a-5c96c4c0c3d1",
+                    "yugipediaId": 190064,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Photon Booster\"",
+                "cards": [
+                  {
+                    "name": "Photon Booster",
+                    "card": "9d502383-9f14-4b3d-91af-c043458d5cab",
+                    "yugipediaId": 167277,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Goddess with the Third Eye\"",
+                "cards": [
+                  {
+                    "name": "Goddess with the Third Eye",
+                    "card": "81e9d2bd-6610-4009-8fe2-b1ee13cf3bcc",
+                    "yugipediaId": 509593,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Dark-Piercing Light\"",
+                "cards": [
+                  {
+                    "name": "Dark-Piercing Light",
+                    "card": "d5efca29-afe1-4fb6-8090-9f7818c36603",
+                    "yugipediaId": 7948,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Divine Dragon Ragnarok\"",
+                "cards": [
+                  {
+                    "name": "Divine Dragon Ragnarok",
+                    "card": "baee618d-ccc3-4fc9-b36d-9578c5c33b67",
+                    "yugipediaId": 4870,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Moon Envoy\"",
+                "cards": [
+                  {
+                    "name": "Moon Envoy",
+                    "card": "fd12e078-5d71-43be-81a2-fb11e9c6abc4",
+                    "yugipediaId": 16916,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "cardTraderEx",
+      "path": [
+        "Rewards",
+        "Card Trader EX"
+      ],
+      "run": "Jan-Feb 2021",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "EX Jewels",
+            "Item"
+          ],
+          "rows": [
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1"
+              },
+              {
+                "text": "100 Gold"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Results Booster"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 EXP Booster"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "10 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Photon Advancer\" (Glossy)",
+                "cards": [
+                  {
+                    "name": "Photon Advancer",
+                    "card": "61f5aaf6-1722-4376-8474-7ee9e87548de",
+                    "yugipediaId": 300838,
+                    "quantity": 1,
+                    "variant": "Glossy"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "400"
+              },
+              {
+                "text": "1 \"Photon Advancer\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Photon Advancer",
+                    "card": "61f5aaf6-1722-4376-8474-7ee9e87548de",
+                    "yugipediaId": 300838,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "300"
+              },
+              {
+                "text": "1 \"Number 10: Illumiknight\"",
+                "cards": [
+                  {
+                    "name": "Number 10: Illumiknight",
+                    "card": "ce48f24c-8062-45b1-b558-6d21fde6e7f2",
+                    "yugipediaId": 172769,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "300"
+              },
+              {
+                "text": "1 \"Ghost Ship\"",
+                "cards": [
+                  {
+                    "name": "Ghost Ship",
+                    "card": "99acb53d-b6d4-46f2-b3a2-d158a7b789d6",
+                    "yugipediaId": 170912,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Number 20: Giga-Brilliant\"",
+                "cards": [
+                  {
+                    "name": "Number 20: Giga-Brilliant",
+                    "card": "eb4f2ead-5d09-414e-855e-8b454c40b56b",
+                    "yugipediaId": 172674,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Photon Crusher\"",
+                "cards": [
+                  {
+                    "name": "Photon Crusher",
+                    "card": "fe970e0c-3c91-4371-873a-5c96c4c0c3d1",
+                    "yugipediaId": 190064,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Guardian of Order\"",
+                "cards": [
+                  {
+                    "name": "Guardian of Order",
+                    "card": "990283b9-8f3f-4c88-950d-8f329b09d0e4",
+                    "yugipediaId": 29937,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Golden Dragon Summoner\"",
+                "cards": [
+                  {
+                    "name": "Golden Dragon Summoner",
+                    "card": "da65352e-f627-4ad4-9aa6-e8b3f03ff43d",
+                    "yugipediaId": 335797,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Photon Booster\"",
+                "cards": [
+                  {
+                    "name": "Photon Booster",
+                    "card": "9d502383-9f14-4b3d-91af-c043458d5cab",
+                    "yugipediaId": 167277,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Goddess with the Third Eye\"",
+                "cards": [
+                  {
+                    "name": "Goddess with the Third Eye",
+                    "card": "81e9d2bd-6610-4009-8fe2-b1ee13cf3bcc",
+                    "yugipediaId": 509593,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Dark-Piercing Light\"",
+                "cards": [
+                  {
+                    "name": "Dark-Piercing Light",
+                    "card": "d5efca29-afe1-4fb6-8090-9f7818c36603",
+                    "yugipediaId": 7948,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Divine Dragon Ragnarok\"",
+                "cards": [
+                  {
+                    "name": "Divine Dragon Ragnarok",
+                    "card": "baee618d-ccc3-4fc9-b36d-9578c5c33b67",
+                    "yugipediaId": 4870,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Moon Envoy\"",
+                "cards": [
+                  {
+                    "name": "Moon Envoy",
+                    "card": "fd12e078-5d71-43be-81a2-fb11e9c6abc4",
+                    "yugipediaId": 16916,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Rewards",
+        "Event Missions"
+      ],
+      "notes": [
+        "These missions were available from the start of the event.",
+        "The following missions were added on January 27, 2021.",
+        "The following missions were added on January 29, 2021."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Event Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against Kite Tenjo at Level 10 in Duel World."
+              },
+              {
+                "text": "10 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 1 Duel(s) against Kite Tenjo at Level 20 in Duel World."
+              },
+              {
+                "text": "20 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 1 Duel(s) against Kite Tenjo at Level 30 in Duel World."
+              },
+              {
+                "text": "30 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 1 Duel(s) against Kite Tenjo at Level 40 in Duel World."
+              },
+              {
+                "text": "50 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 15 Duel(s) against Kite Tenjo in Duel World."
+              },
+              {
+                "text": "30 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 30 Duel(s) against Kite Tenjo in Duel World."
+              },
+              {
+                "text": "40 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Play 25 Duel(s) against Kite Tenjo in Duel World."
+              },
+              {
+                "text": "60 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Play 50 Duel(s) against Kite Tenjo in Duel World."
+              },
+              {
+                "text": "60 EX Jewels"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Event Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Summon \"Photon Dragon\" 1 time(s) while playing as Kite Tenjo.",
+                "cards": [
+                  {
+                    "name": "Galaxy-Eyes Photon Dragon",
+                    "card": "44d46c15-4088-4150-94c1-fa22577d9751",
+                    "yugipediaId": 167376
+                  }
+                ]
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Summon \"Galaxy-Eyes Photon Dragon\" 2 time(s) while playing as Kite Tenjo."
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Summon \"Galaxy-Eyes Photon Dragon\" 3 time(s) while playing as Kite Tenjo."
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Reduce your opponent's LP to 0 by inflicting battle damage with \"Galaxy-Eyes Photon Dragon\" using Kite Tenjo."
+              },
+              {
+                "text": "10 Gems"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Event Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against Kite Tenjo at Level 50 in Duel World."
+              },
+              {
+                "text": "10 Skill Chips"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "dailyMissions",
+      "path": [
+        "Rewards",
+        "Event Missions",
+        "Daily Missions"
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Event Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Play 1 Duel(s) in Ranked Duels (surrenders are not counted)."
+              },
+              {
+                "text": "20 Numbers Clues"
+              }
+            ],
+            [
+              {
+                "text": "Play 2 Duel(s) in Ranked Duels (surrenders are not counted)."
+              },
+              {
+                "text": "20 Numbers Clues"
+              }
+            ],
+            [
+              {
+                "text": "Play 3 Duel(s) in Ranked Duels (surrenders are not counted)."
+              },
+              {
+                "text": "20 Numbers Clues"
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "decks": [
+    {
+      "path": [
+        "Decks",
+        "Event-exclusive"
+      ],
+      "name": "Kite Tenjo Deck",
+      "owner": "Kite Tenjo",
+      "cards": [
+        {
+          "name": "Galaxy-Eyes Photon Dragon",
+          "card": "44d46c15-4088-4150-94c1-fa22577d9751",
+          "yugipediaId": 167376,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Photon Advancer",
+          "card": "61f5aaf6-1722-4376-8474-7ee9e87548de",
+          "yugipediaId": 300838,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Photon Chargeman",
+          "card": "3e0c873f-288e-4a67-ac3e-2aceb9e0b165",
+          "yugipediaId": 308814,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Photon Crusher",
+          "card": "fe970e0c-3c91-4371-873a-5c96c4c0c3d1",
+          "yugipediaId": 190064,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Photon Lizard",
+          "card": "8fd771d9-313c-424f-9b14-ba91506d92fb",
+          "yugipediaId": 190003,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Photon Thrasher",
+          "card": "90b222a4-221f-4374-b54f-8a31b6d6ef01",
+          "yugipediaId": 190131,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Photon Vanisher",
+          "card": "c8b9df92-1bc7-43b8-b8ac-240903ec5660",
+          "yugipediaId": 560133,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Shining Angel",
+          "card": "8269652b-92bb-4469-859c-9622216c2669",
+          "yugipediaId": 1898,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Number 10: Illumiknight",
+          "card": "ce48f24c-8062-45b1-b558-6d21fde6e7f2",
+          "yugipediaId": 172769,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Number 20: Giga-Brilliant",
+          "card": "eb4f2ead-5d09-414e-855e-8b454c40b56b",
+          "yugipediaId": 172674,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Starliege Lord Galaxion",
+          "card": "912e9e96-7abe-4286-a219-6e5d7e95e57d",
+          "yugipediaId": 266415,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Starliege Paladynamo",
+          "card": "3a0e4a1a-f103-4824-9e32-8f064a4bc56a",
+          "yugipediaId": 235488,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Book of Moon",
+          "card": "061acb6d-8bd3-4dc8-89d9-90172d723f82",
+          "yugipediaId": 595,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Galaxy Cyclone",
+          "card": "11eb8ba5-4ccd-49d7-9350-53518d3c8e77",
+          "yugipediaId": 387477,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Photon Stream of Destruction",
+          "card": "e7fb3d21-7d02-4002-b63b-a33b850ff4e2",
+          "yugipediaId": 298863,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Photon Trident",
+          "card": "23059f57-2f21-4d73-a47a-e3be2cf05c8f",
+          "yugipediaId": 182656,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Lumenize",
+          "card": "94dd6874-b4ad-41e7-95e0-56d527049f45",
+          "yugipediaId": 174256,
+          "count": 2,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Kite Tenjo",
+        "Level 10"
+      ],
+      "name": "Number Hunter",
+      "owner": "Kite Tenjo",
+      "cards": [
+        {
+          "name": "Prisman",
+          "card": "fca9641e-f817-485a-8664-9f5a2458de6f",
+          "yugipediaId": 8608,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Photon Circle",
+          "card": "11db5577-e1df-4443-bb07-2dc58349705c",
+          "yugipediaId": 178077,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Photon Lizard",
+          "card": "8fd771d9-313c-424f-9b14-ba91506d92fb",
+          "yugipediaId": 190003,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Photon Satellite",
+          "card": "b64ce6a9-d9a8-4ec1-a0f9-9572da1fd8cd",
+          "yugipediaId": 238521,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Plasma Ball",
+          "card": "7e2100db-0692-42fb-ac8f-934c61a2a31f",
+          "yugipediaId": 174074,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Number 10: Illumiknight",
+          "card": "ce48f24c-8062-45b1-b558-6d21fde6e7f2",
+          "yugipediaId": 172769,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Galaxy Wave",
+          "card": "848e41b9-a884-473f-9d53-6a6118f09623",
+          "yugipediaId": 194752,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Overlay Regen",
+          "card": "51236e3f-7b27-4848-84ce-c2df5694ae76",
+          "yugipediaId": 207323,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Photon Veil",
+          "card": "ed71916c-0208-4860-a1cf-c8a3872ebe98",
+          "yugipediaId": 174196,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Xyz Double Back",
+          "card": "760fd8b6-2a7b-4dc5-bf37-24dcaccee678",
+          "yugipediaId": 235309,
+          "count": 1,
+          "category": "spells"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Kite Tenjo",
+        "Level 20"
+      ],
+      "name": "I'm Here to Hunt You Down",
+      "owner": "Kite Tenjo",
+      "cards": [
+        {
+          "name": "Galaxy Mirror Sage",
+          "card": "ab3cc329-3a47-4c1a-b7eb-c572763dc668",
+          "yugipediaId": 296083,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Galaxy Worm",
+          "card": "15837dad-5fff-4bba-b3e0-ba0081ced90b",
+          "yugipediaId": 355006,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Lightserpent",
+          "card": "f18ccf1d-40fe-4c22-9c19-eb8e325f94ad",
+          "yugipediaId": 174133,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Photon Leo",
+          "card": "bab09d89-bfae-4c27-93f7-de55f9e55026",
+          "yugipediaId": 193453,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Photon Lizard",
+          "card": "8fd771d9-313c-424f-9b14-ba91506d92fb",
+          "yugipediaId": 190003,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Photon Sabre Tiger",
+          "card": "8b780865-8ae2-4df6-9157-78268f5c3107",
+          "yugipediaId": 191905,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Photon Satellite",
+          "card": "b64ce6a9-d9a8-4ec1-a0f9-9572da1fd8cd",
+          "yugipediaId": 238521,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Number 10: Illumiknight",
+          "card": "ce48f24c-8062-45b1-b558-6d21fde6e7f2",
+          "yugipediaId": 172769,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Galaxy Storm",
+          "card": "1196c0a5-44c0-446c-a90a-7f03cda57885",
+          "yugipediaId": 178139,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Galaxy Wave",
+          "card": "848e41b9-a884-473f-9d53-6a6118f09623",
+          "yugipediaId": 194752,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Message in a Bottle",
+          "card": "33e8ffb9-0c3e-48f5-8d53-9a35f1ad923b",
+          "yugipediaId": 195902,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Overlay Regen",
+          "card": "51236e3f-7b27-4848-84ce-c2df5694ae76",
+          "yugipediaId": 207323,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Photon Veil",
+          "card": "ed71916c-0208-4860-a1cf-c8a3872ebe98",
+          "yugipediaId": 174196,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Xyz Double Back",
+          "card": "760fd8b6-2a7b-4dc5-bf37-24dcaccee678",
+          "yugipediaId": 235309,
+          "count": 1,
+          "category": "spells"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Kite Tenjo",
+        "Level 30"
+      ],
+      "name": "A Cosmic Scourge Descends!",
+      "owner": "Kite Tenjo",
+      "cards": [
+        {
+          "name": "Galaxy Dragon",
+          "card": "c77c4424-2034-43f0-9264-a05edb309470",
+          "yugipediaId": 256133,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Galaxy Soldier",
+          "card": "a8132f2d-21a0-4897-bba7-975e7d2d0830",
+          "yugipediaId": 297886,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Galaxy-Eyes Photon Dragon",
+          "card": "44d46c15-4088-4150-94c1-fa22577d9751",
+          "yugipediaId": 167376,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Goddess with the Third Eye",
+          "card": "81e9d2bd-6610-4009-8fe2-b1ee13cf3bcc",
+          "yugipediaId": 509593,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Photon Cerberus",
+          "card": "acc35c99-32ef-4495-870a-b434a36a4989",
+          "yugipediaId": 173205,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Photon Chargeman",
+          "card": "3e0c873f-288e-4a67-ac3e-2aceb9e0b165",
+          "yugipediaId": 308814,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Photon Lizard",
+          "card": "8fd771d9-313c-424f-9b14-ba91506d92fb",
+          "yugipediaId": 190003,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Photon Pirate",
+          "card": "e7e60308-4118-4248-81c9-c8cd0fc03c70",
+          "yugipediaId": 217986,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Photon Wyvern",
+          "card": "e631ca23-d86d-4dca-9b84-b1e70c752b00",
+          "yugipediaId": 166813,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Reverse Buster",
+          "card": "125aa39f-65a7-4ca7-95d5-24c2bc4b6afd",
+          "yugipediaId": 193517,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Shining Angel",
+          "card": "8269652b-92bb-4469-859c-9622216c2669",
+          "yugipediaId": 1898,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Twin Photon Lizard",
+          "card": "ab9a1a1b-c48a-408c-bc19-de01e4a5c69f",
+          "yugipediaId": 189919,
+          "count": 2,
+          "category": "fusion monsters"
+        },
+        {
+          "name": "Number 10: Illumiknight",
+          "card": "ce48f24c-8062-45b1-b558-6d21fde6e7f2",
+          "yugipediaId": 172769,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Number 20: Giga-Brilliant",
+          "card": "eb4f2ead-5d09-414e-855e-8b454c40b56b",
+          "yugipediaId": 172674,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Accellight",
+          "card": "f7e939b6-d415-4834-9314-464e6729e8af",
+          "yugipediaId": 235793,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Photon Lead",
+          "card": "e0854908-444f-4b8c-b453-1fb9edf1a8e8",
+          "yugipediaId": 174222,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Photon Sanctuary",
+          "card": "5e6e9365-6337-43b2-ad44-2dd62e8debbd",
+          "yugipediaId": 166760,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Photon Trident",
+          "card": "23059f57-2f21-4d73-a47a-e3be2cf05c8f",
+          "yugipediaId": 182656,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Polymerization",
+          "card": "54f38f67-5d19-4625-9a9a-e1445574d5bf",
+          "yugipediaId": 35,
+          "count": 2,
+          "category": "spells"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Kite Tenjo",
+        "Level 40"
+      ],
+      "name": "Descend, My Soul!",
+      "owner": "Kite Tenjo",
+      "cards": [
+        {
+          "name": "Daybreaker",
+          "card": "1c2ccdcb-ae6b-443d-9e6c-e0126c1fe4ec",
+          "yugipediaId": 173625,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Galaxy Knight",
+          "card": "703004af-7244-476c-96cd-3caab462b878",
+          "yugipediaId": 243120,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Galaxy Soldier",
+          "card": "a8132f2d-21a0-4897-bba7-975e7d2d0830",
+          "yugipediaId": 297886,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Galaxy Wizard",
+          "card": "5dbee483-faa7-477c-81ee-1dd56a04e998",
+          "yugipediaId": 234965,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Galaxy-Eyes Photon Dragon",
+          "card": "44d46c15-4088-4150-94c1-fa22577d9751",
+          "yugipediaId": 167376,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Photon Thrasher",
+          "card": "90b222a4-221f-4374-b54f-8a31b6d6ef01",
+          "yugipediaId": 190131,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Reverse Buster",
+          "card": "125aa39f-65a7-4ca7-95d5-24c2bc4b6afd",
+          "yugipediaId": 193517,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Paladin of Photon Dragon",
+          "card": "43b14f1f-a9de-4f98-ac1b-e24550425297",
+          "yugipediaId": 317245,
+          "count": 2,
+          "category": "ritual monsters"
+        },
+        {
+          "name": "Neo Galaxy-Eyes Photon Dragon",
+          "card": "ee0872fe-e0a3-41d6-9a11-ccf9468b63b3",
+          "yugipediaId": 189014,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Number 10: Illumiknight",
+          "card": "ce48f24c-8062-45b1-b558-6d21fde6e7f2",
+          "yugipediaId": 172769,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Accellight",
+          "card": "f7e939b6-d415-4834-9314-464e6729e8af",
+          "yugipediaId": 235793,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Galaxy Zero",
+          "card": "e3d64e38-fea7-4455-8ce5-aff1abb74044",
+          "yugipediaId": 235954,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Luminous Dragon Ritual",
+          "card": "530e05f9-15b6-425f-aa89-d355a5c6098e",
+          "yugipediaId": 317301,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Photon Sanctuary",
+          "card": "5e6e9365-6337-43b2-ad44-2dd62e8debbd",
+          "yugipediaId": 166760,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Photon Trident",
+          "card": "23059f57-2f21-4d73-a47a-e3be2cf05c8f",
+          "yugipediaId": 182656,
+          "count": 1,
+          "category": "spells"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Kite Tenjo",
+        "Level 50"
+      ],
+      "name": "Ready to Get Defeated?",
+      "owner": "Kite Tenjo",
+      "cards": [
+        {
+          "name": "Daybreaker",
+          "card": "1c2ccdcb-ae6b-443d-9e6c-e0126c1fe4ec",
+          "yugipediaId": 173625,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Galaxy Knight",
+          "card": "703004af-7244-476c-96cd-3caab462b878",
+          "yugipediaId": 243120,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Galaxy Soldier",
+          "card": "a8132f2d-21a0-4897-bba7-975e7d2d0830",
+          "yugipediaId": 297886,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Galaxy Wizard",
+          "card": "5dbee483-faa7-477c-81ee-1dd56a04e998",
+          "yugipediaId": 234965,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Galaxy-Eyes Cloudragon",
+          "card": "691ff363-83d6-49c5-98f5-33de67846aed",
+          "yugipediaId": 298568,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Galaxy-Eyes Photon Dragon",
+          "card": "44d46c15-4088-4150-94c1-fa22577d9751",
+          "yugipediaId": 167376,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Kuriphoton",
+          "card": "5c0ff034-1db0-4f23-8589-14ae36ed0c48",
+          "yugipediaId": 235242,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Numeral Hunter",
+          "card": "4b640e5a-ec5e-46de-bb92-895f8669b490",
+          "yugipediaId": 331236,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Photon Thrasher",
+          "card": "90b222a4-221f-4374-b54f-8a31b6d6ef01",
+          "yugipediaId": 190131,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Photon Vanisher",
+          "card": "c8b9df92-1bc7-43b8-b8ac-240903ec5660",
+          "yugipediaId": 560133,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Neo Galaxy-Eyes Photon Dragon",
+          "card": "ee0872fe-e0a3-41d6-9a11-ccf9468b63b3",
+          "yugipediaId": 189014,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Number 10: Illumiknight",
+          "card": "ce48f24c-8062-45b1-b558-6d21fde6e7f2",
+          "yugipediaId": 172769,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Starliege Paladynamo",
+          "card": "3a0e4a1a-f103-4824-9e32-8f064a4bc56a",
+          "yugipediaId": 235488,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Accellight",
+          "card": "f7e939b6-d415-4834-9314-464e6729e8af",
+          "yugipediaId": 235793,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Galaxy Expedition",
+          "card": "1ebaf6a3-9c9d-4096-822f-b976bc113190",
+          "yugipediaId": 242985,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Galaxy Zero",
+          "card": "e3d64e38-fea7-4455-8ce5-aff1abb74044",
+          "yugipediaId": 235954,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Photon Sanctuary",
+          "card": "5e6e9365-6337-43b2-ad44-2dd62e8debbd",
+          "yugipediaId": 166760,
+          "count": 1,
+          "category": "spells"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Possessed Duelist",
+        "Mia"
+      ],
+      "name": "Thunder Spark",
+      "owner": "Possessed Duelist",
+      "cards": [
+        {
+          "name": "Fiend Reflection #2",
+          "card": "8b4e80f3-1212-48f2-8e4f-692f99591d06",
+          "yugipediaId": 505330,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Moon Envoy",
+          "card": "fd12e078-5d71-43be-81a2-fb11e9c6abc4",
+          "yugipediaId": 16916,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Brohunder",
+          "card": "12c45f80-3c3e-4689-880e-0226e02071ec",
+          "yugipediaId": 404974,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Rai-Jin",
+          "card": "ea6729ab-a59d-4282-8827-80c16054e641",
+          "yugipediaId": 54432,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Sishunder",
+          "card": "3d3251b9-8a83-4c27-a386-4b5b8a1a2b59",
+          "yugipediaId": 198414,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "The Immortal of Thunder",
+          "card": "d3496a47-9715-4b35-bb9d-f5e678c8f40d",
+          "yugipediaId": 5694,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Wattcobra",
+          "card": "cdd9fb75-f56b-48ba-b4b8-6ab305e1d520",
+          "yugipediaId": 170997,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Wattgiraffe",
+          "card": "b2406479-1155-4aa0-9d5d-f8149af76928",
+          "yugipediaId": 514560,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Number 91: Thunder Spark Dragon",
+          "card": "521ae629-6381-4802-8207-5e7cc6a49cb9",
+          "yugipediaId": 193601,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Recycling Batteries",
+          "card": "a5ddf91b-c634-4a50-9082-c287e3149142",
+          "yugipediaId": 29291,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Spirit Converter",
+          "card": "2888223b-92d5-46cb-a9b1-e63ae461f9da",
+          "yugipediaId": 220028,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Wattcine",
+          "card": "21c4bf9b-4ec5-48c3-bd0c-e90adaf0512f",
+          "yugipediaId": 129250,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Solar Ray",
+          "card": "a01d879e-58bf-4665-b1ec-b52f3056bf03",
+          "yugipediaId": 16518,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Possessed Duelist",
+        "Ruby"
+      ],
+      "name": "Burst Shot",
+      "owner": "Possessed Duelist",
+      "cards": [
+        {
+          "name": "Bean Soldier",
+          "card": "12cb018f-52b1-455a-8f61-c19c0a2090d0",
+          "yugipediaId": 505882,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Fiend Kraken",
+          "card": "f40cd392-46a7-4121-b605-11a2749a48bd",
+          "yugipediaId": 9505,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Jellyfish",
+          "card": "920c5019-510a-459c-9a8a-ce0f08f26587",
+          "yugipediaId": 5863,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Sentinel of the Seas",
+          "card": "19d1a99d-7e12-493d-9b9a-03f867e295ba",
+          "yugipediaId": 21388,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Skull Mariner",
+          "card": "7ef798fe-383c-4b65-b984-a94c2562aed3",
+          "yugipediaId": 8459,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Snakeyashi",
+          "card": "d2273090-9b8a-4a10-adf4-3c47bb5d6306",
+          "yugipediaId": 19441,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Dark Catapulter",
+          "card": "a5632ee6-85ef-4c6a-afec-f3874b384461",
+          "yugipediaId": 2438,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Number 50: Blackship of Corn",
+          "card": "d08afd33-d262-433e-9da3-03cd59af9ffd",
+          "yugipediaId": 187878,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Cracking",
+          "card": "4166b548-130d-4c4b-875a-5c6ebb3896bd",
+          "yugipediaId": 174839,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Meteor of Destruction",
+          "card": "1c8cd4d3-8f66-4d50-abcb-541ac8e9a02a",
+          "yugipediaId": 8695,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Barrel Behind the Door",
+          "card": "a0599e7e-4786-4681-a3ba-5cfa43bbe293",
+          "yugipediaId": 2836,
+          "count": 2,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Possessed Duelist",
+        "Theo"
+      ],
+      "name": "Gold Mining",
+      "owner": "Possessed Duelist",
+      "cards": [
+        {
+          "name": "Bone Mouse",
+          "card": "c8595a10-5165-4de4-9bc4-4e52dcccb4e5",
+          "yugipediaId": 7699,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Dark Plant",
+          "card": "8666098b-c031-4d71-9ffa-cdda1a78751e",
+          "yugipediaId": 7402,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Goblin Calligrapher",
+          "card": "b8730bd1-f9d9-41a1-868b-b87ab9143056",
+          "yugipediaId": 13413,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Kozaky",
+          "card": "9faa72f8-8c1f-4980-9dc9-b7aa61cddba2",
+          "yugipediaId": 18216,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Shadow Specter",
+          "card": "4dd223b9-e29f-443b-9945-97616d19ef23",
+          "yugipediaId": 4751,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Milus Radiant",
+          "card": "175f7545-01d5-416f-a16e-9a7e22ec8a10",
+          "yugipediaId": 6417,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Moja",
+          "card": "76b0c285-e02a-4d43-8c03-be1013d86d3f",
+          "yugipediaId": 59592,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Neko Mane King",
+          "card": "39e4b941-5397-4054-9cbe-4c1108039f33",
+          "yugipediaId": 17806,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Outstanding Dog Marron",
+          "card": "ed8e2ccb-56a4-4c08-b859-370ce5b40462",
+          "yugipediaId": 15263,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Rodenut",
+          "card": "2f835e2c-e89a-441c-bf41-a682c73b57e2",
+          "yugipediaId": 171349,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Uniflora, Mystical Beast of the Forest",
+          "card": "9e454e0c-b254-4249-8307-8be2c56f4c77",
+          "yugipediaId": 214102,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Number 56: Gold Rat",
+          "card": "1e2b1e31-557c-47ef-af78-5cb0dcce7211",
+          "yugipediaId": 166802,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Opti-Camouflage Armor",
+          "card": "aa34d04f-45d2-4ca7-b3ef-579ccca5e11b",
+          "yugipediaId": 17151,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Where Arf Thou?",
+          "card": "b078797b-1b91-48e8-93f1-e92a641541f9",
+          "yugipediaId": 215187,
+          "count": 1,
+          "category": "spells"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Number 20: Giga-Brilliant",
+      "card": "eb4f2ead-5d09-414e-855e-8b454c40b56b",
+      "yugipediaId": 172674,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "June 2021",
+          "runIndex": 1,
+          "requirement": "460000"
+        },
+        {
+          "kind": "cumulativeRewards",
+          "run": "Jan-Feb 2021",
+          "runIndex": 0,
+          "requirement": "2000000"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "June 2021",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "Jan-Feb 2021",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "June 2021",
+          "runIndex": 1,
+          "requirement": "100"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Jan-Feb 2021",
+          "runIndex": 0,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Photon Advancer",
+      "card": "61f5aaf6-1722-4376-8474-7ee9e87548de",
+      "yugipediaId": 300838,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "June 2021",
+          "runIndex": 1,
+          "requirement": "1100000"
+        },
+        {
+          "kind": "cumulativeRewards",
+          "run": "Jan-Feb 2021",
+          "runIndex": 0,
+          "requirement": "3200000"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "June 2021",
+          "runIndex": 1,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "Jan-Feb 2021",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "June 2021",
+          "runIndex": 1,
+          "requirement": "300"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Jan-Feb 2021",
+          "runIndex": 0,
+          "requirement": "100"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Jan-Feb 2021",
+          "runIndex": 0,
+          "requirement": "400"
+        }
+      ]
+    },
+    {
+      "name": "Reverse Buster",
+      "card": "125aa39f-65a7-4ca7-95d5-24c2bc4b6afd",
+      "yugipediaId": 193517,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "June 2021",
+          "runIndex": 1,
+          "requirement": "2700000"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "June 2021",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "June 2021",
+          "runIndex": 1,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Number 34: Terror-Byte",
+      "card": "60159de7-f5d1-4d4f-9f9d-6f825f7a060b",
+      "yugipediaId": 168355,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "June 2021",
+          "runIndex": 1,
+          "requirement": "4100000"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "June 2021",
+          "runIndex": 1,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "June 2021",
+          "runIndex": 1,
+          "requirement": "100"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "June 2021",
+          "runIndex": 1,
+          "requirement": "400"
+        }
+      ]
+    },
+    {
+      "name": "Photon Crusher",
+      "card": "fe970e0c-3c91-4371-873a-5c96c4c0c3d1",
+      "yugipediaId": 190064,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "Jan-Feb 2021",
+          "runIndex": 0,
+          "requirement": "300000"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "June 2021",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "Jan-Feb 2021",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "June 2021",
+          "runIndex": 1,
+          "requirement": "100"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Jan-Feb 2021",
+          "runIndex": 0,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Number 10: Illumiknight",
+      "card": "ce48f24c-8062-45b1-b558-6d21fde6e7f2",
+      "yugipediaId": 172769,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "Jan-Feb 2021",
+          "runIndex": 0,
+          "requirement": "810000"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "Jan-Feb 2021",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "June 2021",
+          "runIndex": 1,
+          "requirement": "300"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Jan-Feb 2021",
+          "runIndex": 0,
+          "requirement": "300"
+        }
+      ]
+    },
+    {
+      "name": "Photon Booster",
+      "card": "9d502383-9f14-4b3d-91af-c043458d5cab",
+      "yugipediaId": 167277,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "June 2021",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "Jan-Feb 2021",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "June 2021",
+          "runIndex": 1,
+          "requirement": "30"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Jan-Feb 2021",
+          "runIndex": 0,
+          "requirement": "30"
+        }
+      ]
+    },
+    {
+      "name": "Goddess with the Third Eye",
+      "card": "81e9d2bd-6610-4009-8fe2-b1ee13cf3bcc",
+      "yugipediaId": 509593,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "June 2021",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "Jan-Feb 2021",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "June 2021",
+          "runIndex": 1,
+          "requirement": "30"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Jan-Feb 2021",
+          "runIndex": 0,
+          "requirement": "30"
+        }
+      ]
+    },
+    {
+      "name": "Dark-Piercing Light",
+      "card": "d5efca29-afe1-4fb6-8090-9f7818c36603",
+      "yugipediaId": 7948,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "June 2021",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "Jan-Feb 2021",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "June 2021",
+          "runIndex": 1,
+          "requirement": "30"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Jan-Feb 2021",
+          "runIndex": 0,
+          "requirement": "30"
+        }
+      ]
+    },
+    {
+      "name": "Divine Dragon Ragnarok",
+      "card": "baee618d-ccc3-4fc9-b36d-9578c5c33b67",
+      "yugipediaId": 4870,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "June 2021",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "Jan-Feb 2021",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "June 2021",
+          "runIndex": 1,
+          "requirement": "30"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Jan-Feb 2021",
+          "runIndex": 0,
+          "requirement": "30"
+        }
+      ]
+    },
+    {
+      "name": "Moon Envoy",
+      "card": "fd12e078-5d71-43be-81a2-fb11e9c6abc4",
+      "yugipediaId": 16916,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "June 2021",
+          "runIndex": 1,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "Jan-Feb 2021",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "June 2021",
+          "runIndex": 1,
+          "requirement": "10"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Jan-Feb 2021",
+          "runIndex": 0,
+          "requirement": "10"
+        }
+      ]
+    },
+    {
+      "name": "Guardian of Order",
+      "card": "990283b9-8f3f-4c88-950d-8f329b09d0e4",
+      "yugipediaId": 29937,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "Jan-Feb 2021",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Jan-Feb 2021",
+          "runIndex": 0,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Ghost Ship",
+      "card": "99acb53d-b6d4-46f2-b3a2-d158a7b789d6",
+      "yugipediaId": 170912,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "run": "Jan-Feb 2021",
+          "runIndex": 0,
+          "requirement": "300"
+        }
+      ]
+    },
+    {
+      "name": "Golden Dragon Summoner",
+      "card": "da65352e-f627-4ad4-9aa6-e8b3f03ff43d",
+      "yugipediaId": 335797,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "run": "Jan-Feb 2021",
+          "runIndex": 0,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Galaxy-Eyes Photon Dragon",
+      "card": "44d46c15-4088-4150-94c1-fa22577d9751",
+      "yugipediaId": 167376,
+      "obtainedVia": [
+        {
+          "kind": "missions"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Number Hunter: Kite Tenjo!",
+        "id": 1128518
+      }
+    ]
+  }
+}

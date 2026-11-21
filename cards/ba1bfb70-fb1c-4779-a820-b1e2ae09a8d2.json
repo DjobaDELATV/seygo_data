@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/card.json",
+  "id": "ba1bfb70-fb1c-4779-a820-b1e2ae09a8d2",
+  "text": {
+    "en": {
+      "name": "Level Down",
+      "effect": "Dueltain Meter: 60% or above\nDuring this turn, decrease the Level of all Monster Cards in your hand by 2."
+    },
+    "it": {
+      "name": "Livello inferiore"
+    },
+    "ja": {
+      "name": "\u30ec\u30d9\u30eb\u30fb\u30c0\u30a6\u30f3"
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "normal",
+  "passwords": [],
+  "images": [
+    {
+      "id": "61b65557-7479-4a01-b6ab-0469850fd8ff",
+      "card": "https://img.yugipedia.com/1/11/LevelDown-DULI-EN-VG-ActionCard.png",
+      "lastChecked": "2026-11-21T09:09:52.228237"
+    }
+  ],
+  "sets": [],
+  "duelLinksOnly": true,
+  "legality": {},
+  "duelLinks": {
+    "actionCard": true,
+    "events": [
+      {
+        "event": "3f1023fa-be8b-4080-a9b4-f118c93a6a31",
+        "via": [
+          {
+            "kind": "missions"
+          }
+        ]
+      }
+    ]
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Level Down",
+        "id": 984306
+      }
+    ]
+  },
+  "series": []
+}

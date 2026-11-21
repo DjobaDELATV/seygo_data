@@ -1,0 +1,86 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "6b47097c-2fef-44d1-9201-f173fd9e452a",
+  "name": {
+    "en": "Yugi Muto's Birthday Celebration Gift"
+  },
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/3/3d/YugiMutosBirthdayCelebrationGift-Banner.png",
+  "runs": [
+    {
+      "startDate": "2018-05-29",
+      "endDate": "2018-06-30"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "other",
+      "path": [
+        "Rewards"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "Players who logged into Yu-Gi-Oh! Duel Links during the following time periods would receive an appropriate \"Log-in Gift\" in their Gift Boxes.",
+        "Players who logged in between June 3 and June 30, 2018 will also receive 320 Gems."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Period",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "May 29, 2018"
+              },
+              {
+                "text": "64 Gems"
+              }
+            ],
+            [
+              {
+                "text": "May 30, 2018"
+              },
+              {
+                "text": "64 Gems"
+              }
+            ],
+            [
+              {
+                "text": "May 31, 2018"
+              },
+              {
+                "text": "64 Gems"
+              }
+            ],
+            [
+              {
+                "text": "June 1, 2018"
+              },
+              {
+                "text": "64 Gems"
+              }
+            ],
+            [
+              {
+                "text": "June 2, 2018"
+              },
+              {
+                "text": "64 Gems"
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Yugi Muto's Birthday Celebration Gift (2018)",
+        "id": 1011691
+      }
+    ]
+  }
+}

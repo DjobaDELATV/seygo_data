@@ -1,0 +1,163 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "4588fce1-210d-4053-ae86-de3d9faeea7a",
+  "name": {
+    "en": "Mission Bingo",
+    "ja": "\u30d3\u30f3\u30b4\u30df\u30c3\u30b7\u30e7\u30f3"
+  },
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/e/e0/MissionBingo-Banner.png",
+  "runs": [
+    {}
+  ],
+  "rewards": [
+    {
+      "kind": "missions",
+      "path": [
+        "Mission Bingo cards",
+        "First sheet"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "The Bingo Rewards earned for completing lines on this Bingo sheet (via completing Missions) are as follows:",
+        "* 1 line: 1 \"Shield Spear\"",
+        "* 2 lines: 50 Gems",
+        "* 3 lines: 50 Gems",
+        "* 4 lines: 1 \"Lucky Iron Axe\"",
+        "* 5 lines: 50 Gems",
+        "* 6 lines: 1 \"Metalmorph\"",
+        "* 7 lines: 50 Gems",
+        "* 8 lines: 50 Gems",
+        "* Sheet Completed: 1 \"Enemy Controller\""
+      ],
+      "tables": [
+        {
+          "rows": [
+            [
+              {
+                "text": "Play 15 Duel(s).\n30 Gems"
+              },
+              {
+                "text": "Obtain a Card from the Card Trader 3 time(s).\n20000 Gold"
+              },
+              {
+                "text": "Open 5 Card Packs.\n40 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Use Spell Cards 5 times.\n50 R Jewels"
+              },
+              {
+                "text": "Unlock Joey Wheeler.\nSkill: Fields of the Warriors (Joey Wheeler)",
+                "skills": [
+                  {
+                    "name": "Fields of the Warriors",
+                    "skill": "5ceeefbf-2f82-40f6-a71c-8087b9cdd270",
+                    "yugipediaId": 714940
+                  }
+                ]
+              },
+              {
+                "text": "Reach Stage 10 (DM).\n40 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Enter the Deck Editor\n10000 Gold"
+              },
+              {
+                "text": "Win 1 Duel(s) against Mai Valentine in Duel World.\n2 SR Jewels"
+              },
+              {
+                "text": "Successfully perform 20 Summon(s).\n40 Gems"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Mission Bingo cards",
+        "Second sheet"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "The Bingo Rewards earned for completing lines on this Bingo sheet (via completing Missions) are as follows:",
+        "* 1 line: 50 Gems",
+        "* 2 lines: 1 \"Blue Dragon Summoner\"",
+        "* 3 lines: 50 Gems",
+        "* 4 lines: 50 Gems",
+        "* 5 lines: 50 Gems",
+        "* 6 lines: 1 \"Kidmodo Dragon\"",
+        "* 7 lines: 50 Gems",
+        "* 8 lines: 100 Gems",
+        "* Sheet Completed: Access to Mokuba Kaiba as a playable character",
+        "Category:Bingo games"
+      ],
+      "tables": [
+        {
+          "rows": [
+            [
+              {
+                "text": "Watch a Street Replay\n20000 Gold"
+              },
+              {
+                "text": "Play 30 Duel(s).\n30 Gems"
+              },
+              {
+                "text": "Reach Stage 3 (GX).\n40 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Collect 50 cards.\n30000 Gold"
+              },
+              {
+                "text": "Play 5 Ranked Duels Duel(s).\n50 R Jewels"
+              },
+              {
+                "text": "Attain Silver Rank 1 Time(s) in Ranked Duels\n30000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "Open 10 Card Packs.\n3 UR Jewels"
+              },
+              {
+                "text": "Reach Stage 15 (DM).\n40 Gems"
+              },
+              {
+                "text": "Win 3 Ranked Duels Duel(s).\n3 SR Jewels"
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Fields of the Warriors",
+      "skill": "5ceeefbf-2f82-40f6-a71c-8087b9cdd270",
+      "yugipediaId": 714940,
+      "obtainedVia": [
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Use Spell Cards 5 times.\n50 R Jewels"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Mission Bingo",
+        "id": 545184
+      }
+    ]
+  }
+}

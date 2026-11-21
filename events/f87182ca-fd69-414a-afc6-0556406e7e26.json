@@ -1,0 +1,5509 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "f87182ca-fd69-414a-afc6-0556406e7e26",
+  "name": {
+    "en": "Duelist Kingdom"
+  },
+  "duelWorlds": [
+    "Duel World (DM)",
+    "Duel World (VRAINS)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/d/d9/DuelistKingdom-Banner.png",
+  "runs": [
+    {
+      "startDate": "2021-08-10",
+      "endDate": "2021-08-16"
+    },
+    {
+      "startDate": "2021-12-16",
+      "endDate": "2021-12-23"
+    },
+    {
+      "startDate": "2022-05-06",
+      "endDate": "2022-05-12"
+    },
+    {
+      "startDate": "2022-08-10",
+      "endDate": "2022-08-17"
+    },
+    {
+      "startDate": "2024-01-05",
+      "endDate": "2024-01-10"
+    }
+  ],
+  "cardTraderExDates": [
+    {
+      "startDate": "2021-08-10",
+      "endDate": "2021-08-23"
+    },
+    {
+      "startDate": "2021-12-16",
+      "endDate": "2021-12-30"
+    },
+    {
+      "startDate": "2022-05-06",
+      "endDate": "2022-05-19"
+    },
+    {
+      "startDate": "2022-08-10",
+      "endDate": "2022-08-24"
+    },
+    {
+      "startDate": "2024-01-05",
+      "endDate": "2024-01-17"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "dailyMissions",
+      "path": [
+        "Daily Missions"
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Event Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Duel 1 time(s) in the Duelist Kingdom (surrenders are not counted)."
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Duel 2 time(s) in the Duelist Kingdom (surrenders are not counted)."
+              },
+              {
+                "text": "15 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Duel 3 time(s) in the Duelist Kingdom (surrenders are not counted)."
+              },
+              {
+                "text": "25 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Duel 4 time(s) in the Duelist Kingdom (surrenders are not counted)."
+              },
+              {
+                "text": "50 EX Jewels"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "cumulativeRewards",
+      "path": [
+        "Rewards",
+        "Cumulative Rewards"
+      ],
+      "notes": [
+        "The total number of Event Points that the player has earned is tracked during the event as Cumulative Event Points. The player receive rewards for reaching certain Event Point milestones."
+      ]
+    },
+    {
+      "kind": "cumulativeRewards",
+      "path": [
+        "Rewards",
+        "Cumulative Rewards"
+      ],
+      "run": "January 2024",
+      "runIndex": 4,
+      "tables": [
+        {
+          "columns": [
+            "Points",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "2000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "4000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "6000"
+              },
+              {
+                "text": "1 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "8000"
+              },
+              {
+                "text": "5 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "10000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "12000"
+              },
+              {
+                "text": "1 EXP Booster"
+              }
+            ],
+            [
+              {
+                "text": "14000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "16000"
+              },
+              {
+                "text": "20 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "18000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "20000"
+              },
+              {
+                "text": "1 \"Codarus\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Codarus",
+                    "card": "b370e98e-c90b-44d5-8297-44a183237ae7",
+                    "yugipediaId": 108326,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "25000"
+              },
+              {
+                "text": "1 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "30000"
+              },
+              {
+                "text": "5 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "35000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "40000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "45000"
+              },
+              {
+                "text": "1 Results Booster"
+              }
+            ],
+            [
+              {
+                "text": "50000"
+              },
+              {
+                "text": "30 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "55000"
+              },
+              {
+                "text": "40 Gems"
+              }
+            ],
+            [
+              {
+                "text": "60000"
+              },
+              {
+                "text": "Card Sleeves: Duelist Kingdom (Cave)"
+              }
+            ],
+            [
+              {
+                "text": "65000"
+              },
+              {
+                "text": "5 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "70000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "75000"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "80000"
+              },
+              {
+                "text": "1 \"Mimicking Man-Eater Bug\"",
+                "cards": [
+                  {
+                    "name": "Mimicking Man-Eater Bug",
+                    "card": "e28968aa-9281-42cb-8fed-ee614a36f07e",
+                    "yugipediaId": 715919,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "85000"
+              },
+              {
+                "text": "5 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "90000"
+              },
+              {
+                "text": "60 Gems"
+              }
+            ],
+            [
+              {
+                "text": "95000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "100000"
+              },
+              {
+                "text": "10 BOX Chips"
+              }
+            ],
+            [
+              {
+                "text": "105000"
+              },
+              {
+                "text": "60 Gems"
+              }
+            ],
+            [
+              {
+                "text": "110000"
+              },
+              {
+                "text": "Game Mat: Duelist Kingdom (Cave)"
+              }
+            ],
+            [
+              {
+                "text": "115000"
+              },
+              {
+                "text": "20000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "120000"
+              },
+              {
+                "text": "5 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "128000"
+              },
+              {
+                "text": "60 Gems"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "136000"
+              },
+              {
+                "text": "10 BOX Chips"
+              }
+            ],
+            [
+              {
+                "text": "144000"
+              },
+              {
+                "text": "50 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "152000"
+              },
+              {
+                "text": "70 Gems"
+              }
+            ],
+            [
+              {
+                "text": "160000"
+              },
+              {
+                "text": "1 \"Skilled Brown Magician\"",
+                "cards": [
+                  {
+                    "name": "Skilled Brown Magician",
+                    "card": "515ee824-53a0-43f8-b702-41e80961b872",
+                    "yugipediaId": 716721,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "170000"
+              },
+              {
+                "text": "10 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "180000"
+              },
+              {
+                "text": "10 BOX Chips"
+              }
+            ],
+            [
+              {
+                "text": "190000"
+              },
+              {
+                "text": "80 Gems"
+              }
+            ],
+            [
+              {
+                "text": "200000"
+              },
+              {
+                "text": "Icon: Duelist Kingdom (Cave)"
+              }
+            ],
+            [
+              {
+                "text": "210000"
+              },
+              {
+                "text": "100 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "220000"
+              },
+              {
+                "text": "10 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "230000"
+              },
+              {
+                "text": "100 Gems"
+              }
+            ],
+            [
+              {
+                "text": "240000"
+              },
+              {
+                "text": "Title: Duelist Kingdom #6 Completed"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "cumulativeRewards",
+      "path": [
+        "Rewards",
+        "Cumulative Rewards"
+      ],
+      "run": "August 2022",
+      "runIndex": 3,
+      "tables": [
+        {
+          "columns": [
+            "Points",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "2000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "4000"
+              },
+              {
+                "text": "1 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "6000"
+              },
+              {
+                "text": "2 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "8000"
+              },
+              {
+                "text": "20 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "12000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "14000"
+              },
+              {
+                "text": "1 EXP Booster"
+              }
+            ],
+            [
+              {
+                "text": "17000"
+              },
+              {
+                "text": "2000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "21000"
+              },
+              {
+                "text": "20 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "25000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "30000"
+              },
+              {
+                "text": "2000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "35000"
+              },
+              {
+                "text": "1 \"Sweet Corn\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Sweet Corn",
+                    "card": "ddfb964d-3e8b-4507-97ad-5d9b248c6acf",
+                    "yugipediaId": 514974,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "48000"
+              },
+              {
+                "text": "1 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "45000"
+              },
+              {
+                "text": "2 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "50000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "55000"
+              },
+              {
+                "text": "2000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "60000"
+              },
+              {
+                "text": "1 Results Booster"
+              }
+            ],
+            [
+              {
+                "text": "65000"
+              },
+              {
+                "text": "30 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "70000"
+              },
+              {
+                "text": "1 Results Booster"
+              }
+            ],
+            [
+              {
+                "text": "75000"
+              },
+              {
+                "text": "3000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "80000"
+              },
+              {
+                "text": "Card Sleeves: Duelist Kingdom (Ruins)"
+              }
+            ],
+            [
+              {
+                "text": "85000"
+              },
+              {
+                "text": "30 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "90000"
+              },
+              {
+                "text": "3 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "95000"
+              },
+              {
+                "text": "40 Gems"
+              }
+            ],
+            [
+              {
+                "text": "100000"
+              },
+              {
+                "text": "1 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "105000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "110000"
+              },
+              {
+                "text": "1 \"Solidarity\"",
+                "cards": [
+                  {
+                    "name": "Solidarity",
+                    "card": "8e16199f-a214-4997-8e1c-f32119a90549",
+                    "yugipediaId": 102627,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "115000"
+              },
+              {
+                "text": "40 Gems"
+              }
+            ],
+            [
+              {
+                "text": "120000"
+              },
+              {
+                "text": "40 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "125000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "130000"
+              },
+              {
+                "text": "3 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "135000"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "140000"
+              },
+              {
+                "text": "1 EXP Booster"
+              }
+            ],
+            [
+              {
+                "text": "145000"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "150000"
+              },
+              {
+                "text": "Game Mat: Duelist Kingdom (Ruins)"
+              }
+            ],
+            [
+              {
+                "text": "156000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "162000"
+              },
+              {
+                "text": "1 UR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "170000"
+              },
+              {
+                "text": "4 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "178000"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "186000"
+              },
+              {
+                "text": "1 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "194000"
+              },
+              {
+                "text": "50 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "202000"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "210000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "220000"
+              },
+              {
+                "text": "1 \"Consolation Prize\"",
+                "cards": [
+                  {
+                    "name": "Consolation Prize",
+                    "card": "5d69594d-3f83-4629-8533-7bf394f57418",
+                    "yugipediaId": 576129,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "230000"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "240000"
+              },
+              {
+                "text": "4 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "250000"
+              },
+              {
+                "text": "1 Results Booster"
+              }
+            ],
+            [
+              {
+                "text": "260000"
+              },
+              {
+                "text": "60 Gems"
+              }
+            ],
+            [
+              {
+                "text": "270000"
+              },
+              {
+                "text": "Icon: Duelist Kingdom (Ruins)"
+              }
+            ],
+            [
+              {
+                "text": "280000"
+              },
+              {
+                "text": "100 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "290000"
+              },
+              {
+                "text": "7 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "300000"
+              },
+              {
+                "text": "70 Gems"
+              }
+            ],
+            [
+              {
+                "text": "310000"
+              },
+              {
+                "text": "Title: Duelist Kingdom #4 Completed"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "cumulativeRewards",
+      "path": [
+        "Rewards",
+        "Cumulative Rewards"
+      ],
+      "run": "December 2021",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "Points",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "2000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "4000"
+              },
+              {
+                "text": "1 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "6000"
+              },
+              {
+                "text": "2 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "8000"
+              },
+              {
+                "text": "30 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "12000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "16000"
+              },
+              {
+                "text": "1 EXP Booster"
+              }
+            ],
+            [
+              {
+                "text": "20000"
+              },
+              {
+                "text": "2000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "24000"
+              },
+              {
+                "text": "1 \"All-Out Attacks\" (Glossy)",
+                "cards": [
+                  {
+                    "name": "All-Out Attacks",
+                    "card": "c4886296-f188-4a6a-9344-e50a20544762",
+                    "yugipediaId": 70238,
+                    "quantity": 1,
+                    "variant": "Glossy"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "28000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "32000"
+              },
+              {
+                "text": "30 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "36000"
+              },
+              {
+                "text": "2000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "40000"
+              },
+              {
+                "text": "2 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "45000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "50000"
+              },
+              {
+                "text": "2000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "55000"
+              },
+              {
+                "text": "1 Results Booster"
+              }
+            ],
+            [
+              {
+                "text": "60000"
+              },
+              {
+                "text": "30 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "65000"
+              },
+              {
+                "text": "3000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "70000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "75000"
+              },
+              {
+                "text": "1 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "80000"
+              },
+              {
+                "text": "30 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "85000"
+              },
+              {
+                "text": "3000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "90000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "95000"
+              },
+              {
+                "text": "1 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "100000"
+              },
+              {
+                "text": "Card Sleeves: Duelist Kingdom (Volcano)"
+              }
+            ],
+            [
+              {
+                "text": "105000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "110000"
+              },
+              {
+                "text": "3 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "115000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "120000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "125000"
+              },
+              {
+                "text": "40 R Jewels"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "130000"
+              },
+              {
+                "text": "1 \"Blast Sphere\"",
+                "cards": [
+                  {
+                    "name": "Blast Sphere",
+                    "card": "a38602c1-3828-4e28-a0f3-7ea7c91604b4",
+                    "yugipediaId": 12714,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "135000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "140000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "145000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "150000"
+              },
+              {
+                "text": "3 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "160000"
+              },
+              {
+                "text": "50 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "170000"
+              },
+              {
+                "text": "40 Gems"
+              }
+            ],
+            [
+              {
+                "text": "180000"
+              },
+              {
+                "text": "Game Mat: Duelist Kingdom (Volcano)"
+              }
+            ],
+            [
+              {
+                "text": "190000"
+              },
+              {
+                "text": "1 EXP Booster"
+              }
+            ],
+            [
+              {
+                "text": "200000"
+              },
+              {
+                "text": "40 Gems"
+              }
+            ],
+            [
+              {
+                "text": "210000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "220000"
+              },
+              {
+                "text": "1 UR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "230000"
+              },
+              {
+                "text": "4 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "240000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "250000"
+              },
+              {
+                "text": "40 Gems"
+              }
+            ],
+            [
+              {
+                "text": "260000"
+              },
+              {
+                "text": "50 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "270000"
+              },
+              {
+                "text": "1 \"Archfiend's Staff of Despair\"",
+                "cards": [
+                  {
+                    "name": "Archfiend's Staff of Despair",
+                    "card": "4ddfdd0e-9a7a-4b42-8e55-683f67e946be",
+                    "yugipediaId": 713069,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "280000"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "290000"
+              },
+              {
+                "text": "1 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "300000"
+              },
+              {
+                "text": "4 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "310000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "320000"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "340000"
+              },
+              {
+                "text": "Icon (Volcano)"
+              }
+            ],
+            [
+              {
+                "text": "350000"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "360000"
+              },
+              {
+                "text": "7 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "370000"
+              },
+              {
+                "text": "5 EXP Boosters"
+              }
+            ],
+            [
+              {
+                "text": "390000"
+              },
+              {
+                "text": "50 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "410000"
+              },
+              {
+                "text": "60 Gems"
+              }
+            ],
+            [
+              {
+                "text": "430000"
+              },
+              {
+                "text": "Title: Duelist Kingdom #2 Completed"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "cumulativeRewards",
+      "path": [
+        "Rewards",
+        "Cumulative Rewards"
+      ],
+      "run": "August 2021",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Points",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "2000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "4000"
+              },
+              {
+                "text": "1 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "7000"
+              },
+              {
+                "text": "2 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "10000"
+              },
+              {
+                "text": "30 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "13000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "16000"
+              },
+              {
+                "text": "1 EXP Booster"
+              }
+            ],
+            [
+              {
+                "text": "19000"
+              },
+              {
+                "text": "2000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "22000"
+              },
+              {
+                "text": "30 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "25000"
+              },
+              {
+                "text": "1 \"Armed Samurai - Ben Kei\"",
+                "cards": [
+                  {
+                    "name": "Armed Samurai - Ben Kei",
+                    "card": "d885b8b7-5855-4992-b0ff-43d524d24b19",
+                    "yugipediaId": 13812,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "29000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "33000"
+              },
+              {
+                "text": "3000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "37000"
+              },
+              {
+                "text": "2 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "41000"
+              },
+              {
+                "text": "3000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "45000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "49000"
+              },
+              {
+                "text": "1 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "54000"
+              },
+              {
+                "text": "Card Sleeves: Duelist Kingdom"
+              }
+            ],
+            [
+              {
+                "text": "58000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "62000"
+              },
+              {
+                "text": "4 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "66000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "70000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "74000"
+              },
+              {
+                "text": "40 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "79000"
+              },
+              {
+                "text": "1 \"All-Out Attacks\"",
+                "cards": [
+                  {
+                    "name": "All-Out Attacks",
+                    "card": "c4886296-f188-4a6a-9344-e50a20544762",
+                    "yugipediaId": 70238,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "84000"
+              },
+              {
+                "text": "40 Gems"
+              }
+            ],
+            [
+              {
+                "text": "90000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "96000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "102000"
+              },
+              {
+                "text": "4 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "108000"
+              },
+              {
+                "text": "1 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "114000"
+              },
+              {
+                "text": "40 Gems"
+              }
+            ],
+            [
+              {
+                "text": "120000"
+              },
+              {
+                "text": "Game Mat: Duelist Kingdom"
+              }
+            ],
+            [
+              {
+                "text": "125000"
+              },
+              {
+                "text": "50 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "130000"
+              },
+              {
+                "text": "1 EXP Booster"
+              }
+            ],
+            [
+              {
+                "text": "135000"
+              },
+              {
+                "text": "40 Gems"
+              }
+            ],
+            [
+              {
+                "text": "140000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "145000"
+              },
+              {
+                "text": "1 UR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "150000"
+              },
+              {
+                "text": "6 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "155000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "160000"
+              },
+              {
+                "text": "40 Gems"
+              }
+            ],
+            [
+              {
+                "text": "165000"
+              },
+              {
+                "text": "50 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "170000"
+              },
+              {
+                "text": "1 \"Saambell the Summoner\"",
+                "cards": [
+                  {
+                    "name": "Saambell the Summoner",
+                    "card": "8826606a-9abb-4ac4-a833-40eabe4c46c8",
+                    "yugipediaId": 170879,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "176000"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "182000"
+              },
+              {
+                "text": "1 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "188000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "194000"
+              },
+              {
+                "text": "60 Gems"
+              }
+            ],
+            [
+              {
+                "text": "200000"
+              },
+              {
+                "text": "Icon"
+              }
+            ],
+            [
+              {
+                "text": "208000"
+              },
+              {
+                "text": "7 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "216000"
+              },
+              {
+                "text": "60 Gems"
+              }
+            ],
+            [
+              {
+                "text": "224000"
+              },
+              {
+                "text": "1 EXP Booster"
+              }
+            ],
+            [
+              {
+                "text": "232000"
+              },
+              {
+                "text": "50 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "240000"
+              },
+              {
+                "text": "80 Gems"
+              }
+            ],
+            [
+              {
+                "text": "250000"
+              },
+              {
+                "text": "Title: Duelist Kingdom Completed"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "treasureBoxes",
+      "path": [
+        "Rewards",
+        "Treasure Boxes",
+        "Reward List"
+      ],
+      "run": "January 2024",
+      "runIndex": 4,
+      "tables": [
+        {
+          "columns": [
+            "Reward",
+            "Silver",
+            "Gold",
+            "Rainbow"
+          ],
+          "rows": [
+            [
+              {
+                "text": "\"Skilled Brown Magician\" (UR)",
+                "cards": [
+                  {
+                    "name": "Skilled Brown Magician",
+                    "card": "515ee824-53a0-43f8-b702-41e80961b872",
+                    "yugipediaId": 716721,
+                    "rarity": "UR"
+                  }
+                ]
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": "\u2714"
+              }
+            ],
+            [
+              {
+                "text": "\"Reproducus\" (UR)"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": "\u2714"
+              }
+            ],
+            [
+              {
+                "text": "\"Mimicking Man-Eater Bug\" (SR)",
+                "cards": [
+                  {
+                    "name": "Mimicking Man-Eater Bug",
+                    "card": "e28968aa-9281-42cb-8fed-ee614a36f07e",
+                    "yugipediaId": 715919,
+                    "rarity": "SR"
+                  }
+                ]
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": "\u2714"
+              }
+            ],
+            [
+              {
+                "text": "\"Codarus\" (SR)",
+                "cards": [
+                  {
+                    "name": "Codarus",
+                    "card": "b370e98e-c90b-44d5-8297-44a183237ae7",
+                    "yugipediaId": 108326,
+                    "rarity": "SR"
+                  }
+                ]
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": "\u2714"
+              }
+            ],
+            [
+              {
+                "text": "\"Rebuildeer\" (SR)",
+                "cards": [
+                  {
+                    "name": "Rebuildeer",
+                    "card": "f66dbd1b-947e-41a4-86eb-9ed739287cc6",
+                    "yugipediaId": 598282,
+                    "rarity": "SR"
+                  }
+                ]
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": "\u2714"
+              }
+            ],
+            [
+              {
+                "text": "\"Jam Breeding Machine\" (R)",
+                "cards": [
+                  {
+                    "name": "Jam Breeding Machine",
+                    "card": "64122ed7-04f3-4731-b4b9-6cf70575218d",
+                    "yugipediaId": 5391,
+                    "rarity": "R"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "\"Empress Judge\" (R)",
+                "cards": [
+                  {
+                    "name": "Empress Judge",
+                    "card": "105385e6-b40b-40e4-9f10-e16ca9a6905b",
+                    "yugipediaId": 4039,
+                    "rarity": "R"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "\"Star Siphon\" (R)",
+                "cards": [
+                  {
+                    "name": "Star Siphon",
+                    "card": "02ef2b48-7d5d-4fa1-af38-1d04bd09a680",
+                    "yugipediaId": 125720,
+                    "rarity": "R"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "\"Smashing Horn\" (R)",
+                "cards": [
+                  {
+                    "name": "Smashing Horn",
+                    "card": "53bd67a6-df44-4cd1-8b54-a1f83a261d53",
+                    "yugipediaId": 186994,
+                    "rarity": "R"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "\"Ghostrick Skeleton\" (R)",
+                "cards": [
+                  {
+                    "name": "Ghostrick Skeleton",
+                    "card": "839dfa4d-0b00-4e2a-8156-c76331ab96e3",
+                    "yugipediaId": 306625,
+                    "rarity": "R"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "\"Commander of Swords\" (N)",
+                "cards": [
+                  {
+                    "name": "Commander of Swords",
+                    "card": "23f3c9b6-6601-4341-bc9f-d8d5ac704f0c",
+                    "yugipediaId": 179746,
+                    "rarity": "N"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "\"Swamp Battleguard\" (N)",
+                "cards": [
+                  {
+                    "name": "Swamp Battleguard",
+                    "card": "56f24600-c560-415d-9f98-4bb24c346f18",
+                    "yugipediaId": 5075,
+                    "rarity": "N"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "\"Yamadron\" (N)",
+                "cards": [
+                  {
+                    "name": "Yamadron",
+                    "card": "bd5af5a2-7d16-48da-a5d1-c438f7804b81",
+                    "yugipediaId": 505790,
+                    "rarity": "N"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "\"Knight's Title\" (N)",
+                "cards": [
+                  {
+                    "name": "Knight's Title",
+                    "card": "eb88b5c7-b539-48fd-a1ef-1d5cc60119e7",
+                    "yugipediaId": 510507,
+                    "rarity": "N"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "\"Small Piece Golem\" (N)",
+                "cards": [
+                  {
+                    "name": "Small Piece Golem",
+                    "card": "573fe6bc-ef56-4e14-b996-adc9ac2ee50a",
+                    "yugipediaId": 29271,
+                    "rarity": "N"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "20 EX Jewels (Carnival)"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "10 EX Jewels (Carnival)"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "5 EX Jewel (Carnival)"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "15 Gems"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": "\u2714"
+              }
+            ],
+            [
+              {
+                "text": "10 Gems"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": "\u2714"
+              }
+            ],
+            [
+              {
+                "text": "5 Gems"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": "\u2714"
+              }
+            ],
+            [
+              {
+                "text": "3 Gem"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "1 Gem"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "3000 Gold"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "1000 Gold"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "500 Gold"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "200 Gold"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "treasureBoxes",
+      "path": [
+        "Rewards",
+        "Treasure Boxes",
+        "Reward List"
+      ],
+      "run": "December 2021",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "Reward",
+            "Silver",
+            "Gold",
+            "Rainbow"
+          ],
+          "rows": [
+            [
+              {
+                "text": "\"Archfiend's Staff of Despair\" (UR)",
+                "cards": [
+                  {
+                    "name": "Archfiend's Staff of Despair",
+                    "card": "4ddfdd0e-9a7a-4b42-8e55-683f67e946be",
+                    "yugipediaId": 713069,
+                    "rarity": "UR"
+                  }
+                ]
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": "\u2714"
+              }
+            ],
+            [
+              {
+                "text": "\"Saambell the Summoner\" (UR)",
+                "cards": [
+                  {
+                    "name": "Saambell the Summoner",
+                    "card": "8826606a-9abb-4ac4-a833-40eabe4c46c8",
+                    "yugipediaId": 170879,
+                    "rarity": "UR"
+                  }
+                ]
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": "\u2714"
+              }
+            ],
+            [
+              {
+                "text": "\"Blast Sphere\" (SR)",
+                "cards": [
+                  {
+                    "name": "Blast Sphere",
+                    "card": "a38602c1-3828-4e28-a0f3-7ea7c91604b4",
+                    "yugipediaId": 12714,
+                    "rarity": "SR"
+                  }
+                ]
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": "\u2714"
+              }
+            ],
+            [
+              {
+                "text": "\"All-Out Attacks\" (SR)",
+                "cards": [
+                  {
+                    "name": "All-Out Attacks",
+                    "card": "c4886296-f188-4a6a-9344-e50a20544762",
+                    "yugipediaId": 70238,
+                    "rarity": "SR"
+                  }
+                ]
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": "\u2714"
+              }
+            ],
+            [
+              {
+                "text": "\"Armed Samurai - Ben Kei\" (SR)",
+                "cards": [
+                  {
+                    "name": "Armed Samurai - Ben Kei",
+                    "card": "d885b8b7-5855-4992-b0ff-43d524d24b19",
+                    "yugipediaId": 13812,
+                    "rarity": "SR"
+                  }
+                ]
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": "\u2714"
+              }
+            ],
+            [
+              {
+                "text": "\"Spiral Spear Strike\" (R)",
+                "cards": [
+                  {
+                    "name": "Spiral Spear Strike",
+                    "card": "720608f4-072d-4303-bf21-ef6776768bd5",
+                    "yugipediaId": 13986,
+                    "rarity": "R"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "\"Raise Body Heat\" (R)",
+                "cards": [
+                  {
+                    "name": "Raise Body Heat",
+                    "card": "5fc5c9a6-2f0c-4179-ad96-bdf4ded9dabe",
+                    "yugipediaId": 506479,
+                    "rarity": "R"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "\"Dice Re-Roll\" (R)",
+                "cards": [
+                  {
+                    "name": "Dice Re-Roll",
+                    "card": "4793d1c2-7094-4920-87c7-4b654d024306",
+                    "yugipediaId": 15771,
+                    "rarity": "R"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "\"Maximum Six\" (R)",
+                "cards": [
+                  {
+                    "name": "Maximum Six",
+                    "card": "2c4d1276-ac0d-42ee-ac92-aae66d328adb",
+                    "yugipediaId": 16692,
+                    "rarity": "R"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "\"Harpie Lady 3\" (R)",
+                "cards": [
+                  {
+                    "name": "Harpie Lady 3",
+                    "card": "513c89d3-7821-42a7-96ed-06486dafb164",
+                    "yugipediaId": 4667,
+                    "rarity": "R"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "\"Harpie Lady\" (N)",
+                "cards": [
+                  {
+                    "name": "Harpie Lady",
+                    "card": "d74aa39a-d6ed-4a08-921d-a5cc42b3d794",
+                    "yugipediaId": 508378,
+                    "rarity": "N"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "\"Pendulum Machine\" (N)",
+                "cards": [
+                  {
+                    "name": "Pendulum Machine",
+                    "card": "0f55c68f-250f-4c63-9365-a06cc14c8e5e",
+                    "yugipediaId": 12705,
+                    "rarity": "N"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "\"Megazowler\" (N)",
+                "cards": [
+                  {
+                    "name": "Megazowler",
+                    "card": "afbb94c7-bf56-46e3-9047-8a4ac23b1dcf",
+                    "yugipediaId": 21442,
+                    "rarity": "N"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "\"Dark Rabbit\" (N)",
+                "cards": [
+                  {
+                    "name": "Dark Rabbit",
+                    "card": "65ac0cfa-10a1-42b6-983d-02d6c902a960",
+                    "yugipediaId": 14407,
+                    "rarity": "N"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "\"Chosen One\" (N)",
+                "cards": [
+                  {
+                    "name": "Chosen One",
+                    "card": "68d0ae2d-c15a-4582-a461-b2288621bca2",
+                    "yugipediaId": 5082,
+                    "rarity": "N"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "20 EX Jewels (Carnival)"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "10 EX Jewels (Carnival)"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "5 EX Jewel (Carnival)"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "15 Gems"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": "\u2714"
+              }
+            ],
+            [
+              {
+                "text": "10 Gems"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": "\u2714"
+              }
+            ],
+            [
+              {
+                "text": "5 Gems"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": "\u2714"
+              }
+            ],
+            [
+              {
+                "text": "3 Gem"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "1 Gem"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "3000 Gold"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "1000 Gold"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "500 Gold"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "200 Gold"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "treasureBoxes",
+      "path": [
+        "Rewards",
+        "Treasure Boxes",
+        "Reward List"
+      ],
+      "run": "August 2021",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Reward",
+            "Silver",
+            "Gold",
+            "Rainbow"
+          ],
+          "rows": [
+            [
+              {
+                "text": "\"Saambell the Summoner\" (UR)",
+                "cards": [
+                  {
+                    "name": "Saambell the Summoner",
+                    "card": "8826606a-9abb-4ac4-a833-40eabe4c46c8",
+                    "yugipediaId": 170879,
+                    "rarity": "UR"
+                  }
+                ]
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": "\u2714"
+              }
+            ],
+            [
+              {
+                "text": "\"Doggy Diver\" (UR)",
+                "cards": [
+                  {
+                    "name": "Doggy Diver",
+                    "card": "93b99582-fbfa-438b-aa3d-163c68986e50",
+                    "yugipediaId": 286950,
+                    "rarity": "UR"
+                  }
+                ]
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": "\u2714"
+              }
+            ],
+            [
+              {
+                "text": "\"All-Out Attacks\" (SR)",
+                "cards": [
+                  {
+                    "name": "All-Out Attacks",
+                    "card": "c4886296-f188-4a6a-9344-e50a20544762",
+                    "yugipediaId": 70238,
+                    "rarity": "SR"
+                  }
+                ]
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": "\u2714"
+              }
+            ],
+            [
+              {
+                "text": "\"Armed Samurai - Ben Kei\" (SR)",
+                "cards": [
+                  {
+                    "name": "Armed Samurai - Ben Kei",
+                    "card": "d885b8b7-5855-4992-b0ff-43d524d24b19",
+                    "yugipediaId": 13812,
+                    "rarity": "SR"
+                  }
+                ]
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": "\u2714"
+              }
+            ],
+            [
+              {
+                "text": "\"Toon Gemini Elf\" (SR)",
+                "cards": [
+                  {
+                    "name": "Toon Gemini Elf",
+                    "card": "4129df38-b83d-4dab-9a5b-1ed8c84b814b",
+                    "yugipediaId": 144,
+                    "rarity": "SR"
+                  }
+                ]
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": "\u2714"
+              }
+            ],
+            [
+              {
+                "text": "\"Laser Cannon Armor\" (R)",
+                "cards": [
+                  {
+                    "name": "Laser Cannon Armor",
+                    "card": "a4ded5dc-9f74-41e7-9cd3-89968e3d9384",
+                    "yugipediaId": 506317,
+                    "rarity": "R"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "\"Lightray Gearfried\" (R)",
+                "cards": [
+                  {
+                    "name": "Lightray Gearfried",
+                    "card": "e350bb13-e8c1-419d-9222-a9a91ed50b36",
+                    "yugipediaId": 209380,
+                    "rarity": "R"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "\"Madolche Chouxvalier\" (R)",
+                "cards": [
+                  {
+                    "name": "Madolche Chouxvalier",
+                    "card": "8ed25555-d90d-4eb2-8dfc-262f25101003",
+                    "yugipediaId": 198605,
+                    "rarity": "R"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "\"Spiral Spear Strike\" (R)",
+                "cards": [
+                  {
+                    "name": "Spiral Spear Strike",
+                    "card": "720608f4-072d-4303-bf21-ef6776768bd5",
+                    "yugipediaId": 13986,
+                    "rarity": "R"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "\"Manga Ryu-Ran\" (R)",
+                "cards": [
+                  {
+                    "name": "Manga Ryu-Ran",
+                    "card": "ce9bea71-24b7-4ba2-b086-827f7c71f0fa",
+                    "yugipediaId": 124,
+                    "rarity": "R"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "\"Harpie Lady\" (N)",
+                "cards": [
+                  {
+                    "name": "Harpie Lady",
+                    "card": "d74aa39a-d6ed-4a08-921d-a5cc42b3d794",
+                    "yugipediaId": 508378,
+                    "rarity": "N"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "\"Baby Dragon\" (N)",
+                "cards": [
+                  {
+                    "name": "Baby Dragon",
+                    "card": "03767e4f-6893-4059-bc22-f99ebd454655",
+                    "yugipediaId": 64,
+                    "rarity": "N"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "\"Goblin of Greed\" (N)",
+                "cards": [
+                  {
+                    "name": "Goblin of Greed",
+                    "card": "115fcd20-e010-4d1b-91cc-b40d0dd34dd1",
+                    "yugipediaId": 15279,
+                    "rarity": "N"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "\"Kamakiriman\" (N)",
+                "cards": [
+                  {
+                    "name": "Kamakiriman",
+                    "card": "baa816ba-7c87-4f42-92d7-b7ee78ad73af",
+                    "yugipediaId": 19313,
+                    "rarity": "N"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "\"Parrot Dragon\" (N)",
+                "cards": [
+                  {
+                    "name": "Parrot Dragon",
+                    "card": "01e5e2a1-93f4-4d1f-bb8d-344824728f07",
+                    "yugipediaId": 12352,
+                    "rarity": "N"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "25 EX Jewels (Carnival)"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "15 EX Jewels (Carnival)"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "1 EX Jewel (Carnival)"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "20 Gems"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": "\u2714"
+              }
+            ],
+            [
+              {
+                "text": "10 Gems"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": "\u2714"
+              }
+            ],
+            [
+              {
+                "text": "5 Gems"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "1 Gem"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "3000 Gold"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "1000 Gold"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "500 Gold"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "200 Gold"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "cardTraderEx",
+      "path": [
+        "Rewards",
+        "Card Trader EX"
+      ],
+      "notes": [
+        "The Card Trader EX appears during this event and remained open until one week after its conclusion. The player can trade their EX Jewels for cards, Booster Items, and Gold. Each card and Booster Item can only be obtained once from the Card Trader EX during this event, but the Gold can be obtained any number of times."
+      ]
+    },
+    {
+      "kind": "cardTraderEx",
+      "path": [
+        "Rewards",
+        "Card Trader EX"
+      ],
+      "run": "January 2024",
+      "runIndex": 4,
+      "tables": [
+        {
+          "columns": [
+            "EX Jewels",
+            "Item"
+          ],
+          "rows": [
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1"
+              },
+              {
+                "text": "100 Gold"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Results Booster"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 EXP Booster"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "10 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "10 BOX Chips"
+              }
+            ],
+            [
+              {
+                "text": "300"
+              },
+              {
+                "text": "1 \"Skilled Brown Magician\"",
+                "cards": [
+                  {
+                    "name": "Skilled Brown Magician",
+                    "card": "515ee824-53a0-43f8-b702-41e80961b872",
+                    "yugipediaId": 716721,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Skilled Brown Magician\" (Glossy)",
+                "cards": [
+                  {
+                    "name": "Skilled Brown Magician",
+                    "card": "515ee824-53a0-43f8-b702-41e80961b872",
+                    "yugipediaId": 716721,
+                    "quantity": 1,
+                    "variant": "Glossy"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "400"
+              },
+              {
+                "text": "1 \"Skilled Brown Magician\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Skilled Brown Magician",
+                    "card": "515ee824-53a0-43f8-b702-41e80961b872",
+                    "yugipediaId": 716721,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "300"
+              },
+              {
+                "text": "1 \"Reproducus\""
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Mimicking Man-Eater Bug\" (SR)",
+                "cards": [
+                  {
+                    "name": "Mimicking Man-Eater Bug",
+                    "card": "e28968aa-9281-42cb-8fed-ee614a36f07e",
+                    "yugipediaId": 715919,
+                    "quantity": 1,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Codarus\"",
+                "cards": [
+                  {
+                    "name": "Codarus",
+                    "card": "b370e98e-c90b-44d5-8297-44a183237ae7",
+                    "yugipediaId": 108326,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Rebuildeer\"",
+                "cards": [
+                  {
+                    "name": "Rebuildeer",
+                    "card": "f66dbd1b-947e-41a4-86eb-9ed739287cc6",
+                    "yugipediaId": 598282,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Jam Breeding Machine\"",
+                "cards": [
+                  {
+                    "name": "Jam Breeding Machine",
+                    "card": "64122ed7-04f3-4731-b4b9-6cf70575218d",
+                    "yugipediaId": 5391,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Empress Judge\"",
+                "cards": [
+                  {
+                    "name": "Empress Judge",
+                    "card": "105385e6-b40b-40e4-9f10-e16ca9a6905b",
+                    "yugipediaId": 4039,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Star Siphon\"",
+                "cards": [
+                  {
+                    "name": "Star Siphon",
+                    "card": "02ef2b48-7d5d-4fa1-af38-1d04bd09a680",
+                    "yugipediaId": 125720,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Smashing Horn\"",
+                "cards": [
+                  {
+                    "name": "Smashing Horn",
+                    "card": "53bd67a6-df44-4cd1-8b54-a1f83a261d53",
+                    "yugipediaId": 186994,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Ghostrick Skeleton\"",
+                "cards": [
+                  {
+                    "name": "Ghostrick Skeleton",
+                    "card": "839dfa4d-0b00-4e2a-8156-c76331ab96e3",
+                    "yugipediaId": 306625,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Commander of Swords\"",
+                "cards": [
+                  {
+                    "name": "Commander of Swords",
+                    "card": "23f3c9b6-6601-4341-bc9f-d8d5ac704f0c",
+                    "yugipediaId": 179746,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Swamp Battleguard\"",
+                "cards": [
+                  {
+                    "name": "Swamp Battleguard",
+                    "card": "56f24600-c560-415d-9f98-4bb24c346f18",
+                    "yugipediaId": 5075,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Yamadron\"",
+                "cards": [
+                  {
+                    "name": "Yamadron",
+                    "card": "bd5af5a2-7d16-48da-a5d1-c438f7804b81",
+                    "yugipediaId": 505790,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Knight's Title\"",
+                "cards": [
+                  {
+                    "name": "Knight's Title",
+                    "card": "eb88b5c7-b539-48fd-a1ef-1d5cc60119e7",
+                    "yugipediaId": 510507,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Small Piece Golem\"",
+                "cards": [
+                  {
+                    "name": "Small Piece Golem",
+                    "card": "573fe6bc-ef56-4e14-b996-adc9ac2ee50a",
+                    "yugipediaId": 29271,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "cardTraderEx",
+      "path": [
+        "Rewards",
+        "Card Trader EX"
+      ],
+      "run": "December 2021",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "EX Jewels",
+            "Item"
+          ],
+          "rows": [
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1"
+              },
+              {
+                "text": "100 Gold"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Results Booster"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 EXP Booster"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "10 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "300"
+              },
+              {
+                "text": "1 \"Archfiend's Staff of Despair\"",
+                "cards": [
+                  {
+                    "name": "Archfiend's Staff of Despair",
+                    "card": "4ddfdd0e-9a7a-4b42-8e55-683f67e946be",
+                    "yugipediaId": 713069,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Archfiend's Staff of Despair\" (Glossy)",
+                "cards": [
+                  {
+                    "name": "Archfiend's Staff of Despair",
+                    "card": "4ddfdd0e-9a7a-4b42-8e55-683f67e946be",
+                    "yugipediaId": 713069,
+                    "quantity": 1,
+                    "variant": "Glossy"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "400"
+              },
+              {
+                "text": "1 \"Archfiend's Staff of Despair\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Archfiend's Staff of Despair",
+                    "card": "4ddfdd0e-9a7a-4b42-8e55-683f67e946be",
+                    "yugipediaId": 713069,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "300"
+              },
+              {
+                "text": "1 \"Saambell the Summoner\"",
+                "cards": [
+                  {
+                    "name": "Saambell the Summoner",
+                    "card": "8826606a-9abb-4ac4-a833-40eabe4c46c8",
+                    "yugipediaId": 170879,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Blast Sphere\"",
+                "cards": [
+                  {
+                    "name": "Blast Sphere",
+                    "card": "a38602c1-3828-4e28-a0f3-7ea7c91604b4",
+                    "yugipediaId": 12714,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"All-Out Attacks\"",
+                "cards": [
+                  {
+                    "name": "All-Out Attacks",
+                    "card": "c4886296-f188-4a6a-9344-e50a20544762",
+                    "yugipediaId": 70238,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Armed Samurai - Ben Kei\"",
+                "cards": [
+                  {
+                    "name": "Armed Samurai - Ben Kei",
+                    "card": "d885b8b7-5855-4992-b0ff-43d524d24b19",
+                    "yugipediaId": 13812,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Spiral Spear Strike\"",
+                "cards": [
+                  {
+                    "name": "Spiral Spear Strike",
+                    "card": "720608f4-072d-4303-bf21-ef6776768bd5",
+                    "yugipediaId": 13986,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Raise Body Heat\"",
+                "cards": [
+                  {
+                    "name": "Raise Body Heat",
+                    "card": "5fc5c9a6-2f0c-4179-ad96-bdf4ded9dabe",
+                    "yugipediaId": 506479,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Dice Re-Roll\"",
+                "cards": [
+                  {
+                    "name": "Dice Re-Roll",
+                    "card": "4793d1c2-7094-4920-87c7-4b654d024306",
+                    "yugipediaId": 15771,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Maximum Six\"",
+                "cards": [
+                  {
+                    "name": "Maximum Six",
+                    "card": "2c4d1276-ac0d-42ee-ac92-aae66d328adb",
+                    "yugipediaId": 16692,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Harpie Lady 3\"",
+                "cards": [
+                  {
+                    "name": "Harpie Lady 3",
+                    "card": "513c89d3-7821-42a7-96ed-06486dafb164",
+                    "yugipediaId": 4667,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Harpie Lady\"",
+                "cards": [
+                  {
+                    "name": "Harpie Lady",
+                    "card": "d74aa39a-d6ed-4a08-921d-a5cc42b3d794",
+                    "yugipediaId": 508378,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Pendulum Machine\"",
+                "cards": [
+                  {
+                    "name": "Pendulum Machine",
+                    "card": "0f55c68f-250f-4c63-9365-a06cc14c8e5e",
+                    "yugipediaId": 12705,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Megazowler\"",
+                "cards": [
+                  {
+                    "name": "Megazowler",
+                    "card": "afbb94c7-bf56-46e3-9047-8a4ac23b1dcf",
+                    "yugipediaId": 21442,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Dark Rabbit\"",
+                "cards": [
+                  {
+                    "name": "Dark Rabbit",
+                    "card": "65ac0cfa-10a1-42b6-983d-02d6c902a960",
+                    "yugipediaId": 14407,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Chosen One\"",
+                "cards": [
+                  {
+                    "name": "Chosen One",
+                    "card": "68d0ae2d-c15a-4582-a461-b2288621bca2",
+                    "yugipediaId": 5082,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "cardTraderEx",
+      "path": [
+        "Rewards",
+        "Card Trader EX"
+      ],
+      "run": "August 2021",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "EX Jewels",
+            "Item"
+          ],
+          "rows": [
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1"
+              },
+              {
+                "text": "100 Gold"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Results Booster"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 EXP Booster"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "10 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "300"
+              },
+              {
+                "text": "1 \"Saambell the Summoner\"",
+                "cards": [
+                  {
+                    "name": "Saambell the Summoner",
+                    "card": "8826606a-9abb-4ac4-a833-40eabe4c46c8",
+                    "yugipediaId": 170879,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Saambell the Summoner\" (Glossy)",
+                "cards": [
+                  {
+                    "name": "Saambell the Summoner",
+                    "card": "8826606a-9abb-4ac4-a833-40eabe4c46c8",
+                    "yugipediaId": 170879,
+                    "quantity": 1,
+                    "variant": "Glossy"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "400"
+              },
+              {
+                "text": "1 \"Saambell the Summoner\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Saambell the Summoner",
+                    "card": "8826606a-9abb-4ac4-a833-40eabe4c46c8",
+                    "yugipediaId": 170879,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "300"
+              },
+              {
+                "text": "1 \"Doggy Diver\"",
+                "cards": [
+                  {
+                    "name": "Doggy Diver",
+                    "card": "93b99582-fbfa-438b-aa3d-163c68986e50",
+                    "yugipediaId": 286950,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"All-Out Attacks\"",
+                "cards": [
+                  {
+                    "name": "All-Out Attacks",
+                    "card": "c4886296-f188-4a6a-9344-e50a20544762",
+                    "yugipediaId": 70238,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Armed Samurai - Ben Kei\"",
+                "cards": [
+                  {
+                    "name": "Armed Samurai - Ben Kei",
+                    "card": "d885b8b7-5855-4992-b0ff-43d524d24b19",
+                    "yugipediaId": 13812,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Toon Gemini Elf\"",
+                "cards": [
+                  {
+                    "name": "Toon Gemini Elf",
+                    "card": "4129df38-b83d-4dab-9a5b-1ed8c84b814b",
+                    "yugipediaId": 144,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Laser Cannon Armor\"",
+                "cards": [
+                  {
+                    "name": "Laser Cannon Armor",
+                    "card": "a4ded5dc-9f74-41e7-9cd3-89968e3d9384",
+                    "yugipediaId": 506317,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Lightray Gearfried\"",
+                "cards": [
+                  {
+                    "name": "Lightray Gearfried",
+                    "card": "e350bb13-e8c1-419d-9222-a9a91ed50b36",
+                    "yugipediaId": 209380,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Madolche Chouxvalier\"",
+                "cards": [
+                  {
+                    "name": "Madolche Chouxvalier",
+                    "card": "8ed25555-d90d-4eb2-8dfc-262f25101003",
+                    "yugipediaId": 198605,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Spiral Spear Strike\"",
+                "cards": [
+                  {
+                    "name": "Spiral Spear Strike",
+                    "card": "720608f4-072d-4303-bf21-ef6776768bd5",
+                    "yugipediaId": 13986,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Manga Ryu-Ran\"",
+                "cards": [
+                  {
+                    "name": "Manga Ryu-Ran",
+                    "card": "ce9bea71-24b7-4ba2-b086-827f7c71f0fa",
+                    "yugipediaId": 124,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Harpie Lady\"",
+                "cards": [
+                  {
+                    "name": "Harpie Lady",
+                    "card": "d74aa39a-d6ed-4a08-921d-a5cc42b3d794",
+                    "yugipediaId": 508378,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Baby Dragon\"",
+                "cards": [
+                  {
+                    "name": "Baby Dragon",
+                    "card": "03767e4f-6893-4059-bc22-f99ebd454655",
+                    "yugipediaId": 64,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Goblin of Greed\"",
+                "cards": [
+                  {
+                    "name": "Goblin of Greed",
+                    "card": "115fcd20-e010-4d1b-91cc-b40d0dd34dd1",
+                    "yugipediaId": 15279,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Kamakiriman\"",
+                "cards": [
+                  {
+                    "name": "Kamakiriman",
+                    "card": "baa816ba-7c87-4f42-92d7-b7ee78ad73af",
+                    "yugipediaId": 19313,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Parrot Dragon\"",
+                "cards": [
+                  {
+                    "name": "Parrot Dragon",
+                    "card": "01e5e2a1-93f4-4d1f-bb8d-344824728f07",
+                    "yugipediaId": 12352,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Codarus",
+      "card": "b370e98e-c90b-44d5-8297-44a183237ae7",
+      "yugipediaId": 108326,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "January 2024",
+          "runIndex": 4,
+          "requirement": "20000"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "January 2024",
+          "runIndex": 4,
+          "rarity": "SR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "January 2024",
+          "runIndex": 4,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Mimicking Man-Eater Bug",
+      "card": "e28968aa-9281-42cb-8fed-ee614a36f07e",
+      "yugipediaId": 715919,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "January 2024",
+          "runIndex": 4,
+          "requirement": "80000"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "January 2024",
+          "runIndex": 4,
+          "rarity": "SR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "January 2024",
+          "runIndex": 4,
+          "requirement": "100",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Skilled Brown Magician",
+      "card": "515ee824-53a0-43f8-b702-41e80961b872",
+      "yugipediaId": 716721,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "January 2024",
+          "runIndex": 4,
+          "requirement": "160000"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "January 2024",
+          "runIndex": 4,
+          "rarity": "UR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "January 2024",
+          "runIndex": 4,
+          "requirement": "300"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "January 2024",
+          "runIndex": 4,
+          "requirement": "100"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "January 2024",
+          "runIndex": 4,
+          "requirement": "400"
+        }
+      ]
+    },
+    {
+      "name": "Sweet Corn",
+      "card": "ddfb964d-3e8b-4507-97ad-5d9b248c6acf",
+      "yugipediaId": 514974,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "August 2022",
+          "runIndex": 3,
+          "requirement": "35000"
+        }
+      ]
+    },
+    {
+      "name": "Solidarity",
+      "card": "8e16199f-a214-4997-8e1c-f32119a90549",
+      "yugipediaId": 102627,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "August 2022",
+          "runIndex": 3,
+          "requirement": "110000"
+        }
+      ]
+    },
+    {
+      "name": "Consolation Prize",
+      "card": "5d69594d-3f83-4629-8533-7bf394f57418",
+      "yugipediaId": 576129,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "August 2022",
+          "runIndex": 3,
+          "requirement": "220000"
+        }
+      ]
+    },
+    {
+      "name": "All-Out Attacks",
+      "card": "c4886296-f188-4a6a-9344-e50a20544762",
+      "yugipediaId": 70238,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "December 2021",
+          "runIndex": 1,
+          "requirement": "24000"
+        },
+        {
+          "kind": "cumulativeRewards",
+          "run": "August 2021",
+          "runIndex": 0,
+          "requirement": "79000"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "December 2021",
+          "runIndex": 1,
+          "rarity": "SR"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "August 2021",
+          "runIndex": 0,
+          "rarity": "SR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "December 2021",
+          "runIndex": 1,
+          "requirement": "100"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "August 2021",
+          "runIndex": 0,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Blast Sphere",
+      "card": "a38602c1-3828-4e28-a0f3-7ea7c91604b4",
+      "yugipediaId": 12714,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "December 2021",
+          "runIndex": 1,
+          "requirement": "130000"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "December 2021",
+          "runIndex": 1,
+          "rarity": "SR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "December 2021",
+          "runIndex": 1,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Archfiend's Staff of Despair",
+      "card": "4ddfdd0e-9a7a-4b42-8e55-683f67e946be",
+      "yugipediaId": 713069,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "December 2021",
+          "runIndex": 1,
+          "requirement": "270000"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "December 2021",
+          "runIndex": 1,
+          "rarity": "UR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "December 2021",
+          "runIndex": 1,
+          "requirement": "300"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "December 2021",
+          "runIndex": 1,
+          "requirement": "100"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "December 2021",
+          "runIndex": 1,
+          "requirement": "400"
+        }
+      ]
+    },
+    {
+      "name": "Armed Samurai - Ben Kei",
+      "card": "d885b8b7-5855-4992-b0ff-43d524d24b19",
+      "yugipediaId": 13812,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "August 2021",
+          "runIndex": 0,
+          "requirement": "25000"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "December 2021",
+          "runIndex": 1,
+          "rarity": "SR"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "August 2021",
+          "runIndex": 0,
+          "rarity": "SR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "December 2021",
+          "runIndex": 1,
+          "requirement": "100"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "August 2021",
+          "runIndex": 0,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Saambell the Summoner",
+      "card": "8826606a-9abb-4ac4-a833-40eabe4c46c8",
+      "yugipediaId": 170879,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "August 2021",
+          "runIndex": 0,
+          "requirement": "170000"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "December 2021",
+          "runIndex": 1,
+          "rarity": "UR"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "August 2021",
+          "runIndex": 0,
+          "rarity": "UR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "December 2021",
+          "runIndex": 1,
+          "requirement": "300"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "August 2021",
+          "runIndex": 0,
+          "requirement": "300"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "August 2021",
+          "runIndex": 0,
+          "requirement": "100"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "August 2021",
+          "runIndex": 0,
+          "requirement": "400"
+        }
+      ]
+    },
+    {
+      "name": "Rebuildeer",
+      "card": "f66dbd1b-947e-41a4-86eb-9ed739287cc6",
+      "yugipediaId": 598282,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "January 2024",
+          "runIndex": 4,
+          "rarity": "SR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "January 2024",
+          "runIndex": 4,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Jam Breeding Machine",
+      "card": "64122ed7-04f3-4731-b4b9-6cf70575218d",
+      "yugipediaId": 5391,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "January 2024",
+          "runIndex": 4,
+          "rarity": "R"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "January 2024",
+          "runIndex": 4,
+          "requirement": "30"
+        }
+      ]
+    },
+    {
+      "name": "Empress Judge",
+      "card": "105385e6-b40b-40e4-9f10-e16ca9a6905b",
+      "yugipediaId": 4039,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "January 2024",
+          "runIndex": 4,
+          "rarity": "R"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "January 2024",
+          "runIndex": 4,
+          "requirement": "30"
+        }
+      ]
+    },
+    {
+      "name": "Star Siphon",
+      "card": "02ef2b48-7d5d-4fa1-af38-1d04bd09a680",
+      "yugipediaId": 125720,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "January 2024",
+          "runIndex": 4,
+          "rarity": "R"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "January 2024",
+          "runIndex": 4,
+          "requirement": "30"
+        }
+      ]
+    },
+    {
+      "name": "Smashing Horn",
+      "card": "53bd67a6-df44-4cd1-8b54-a1f83a261d53",
+      "yugipediaId": 186994,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "January 2024",
+          "runIndex": 4,
+          "rarity": "R"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "January 2024",
+          "runIndex": 4,
+          "requirement": "30"
+        }
+      ]
+    },
+    {
+      "name": "Ghostrick Skeleton",
+      "card": "839dfa4d-0b00-4e2a-8156-c76331ab96e3",
+      "yugipediaId": 306625,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "January 2024",
+          "runIndex": 4,
+          "rarity": "R"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "January 2024",
+          "runIndex": 4,
+          "requirement": "30"
+        }
+      ]
+    },
+    {
+      "name": "Commander of Swords",
+      "card": "23f3c9b6-6601-4341-bc9f-d8d5ac704f0c",
+      "yugipediaId": 179746,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "January 2024",
+          "runIndex": 4,
+          "rarity": "N"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "January 2024",
+          "runIndex": 4,
+          "requirement": "10"
+        }
+      ]
+    },
+    {
+      "name": "Swamp Battleguard",
+      "card": "56f24600-c560-415d-9f98-4bb24c346f18",
+      "yugipediaId": 5075,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "January 2024",
+          "runIndex": 4,
+          "rarity": "N"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "January 2024",
+          "runIndex": 4,
+          "requirement": "10"
+        }
+      ]
+    },
+    {
+      "name": "Yamadron",
+      "card": "bd5af5a2-7d16-48da-a5d1-c438f7804b81",
+      "yugipediaId": 505790,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "January 2024",
+          "runIndex": 4,
+          "rarity": "N"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "January 2024",
+          "runIndex": 4,
+          "requirement": "10"
+        }
+      ]
+    },
+    {
+      "name": "Knight's Title",
+      "card": "eb88b5c7-b539-48fd-a1ef-1d5cc60119e7",
+      "yugipediaId": 510507,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "January 2024",
+          "runIndex": 4,
+          "rarity": "N"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "January 2024",
+          "runIndex": 4,
+          "requirement": "10"
+        }
+      ]
+    },
+    {
+      "name": "Small Piece Golem",
+      "card": "573fe6bc-ef56-4e14-b996-adc9ac2ee50a",
+      "yugipediaId": 29271,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "January 2024",
+          "runIndex": 4,
+          "rarity": "N"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "January 2024",
+          "runIndex": 4,
+          "requirement": "10"
+        }
+      ]
+    },
+    {
+      "name": "Spiral Spear Strike",
+      "card": "720608f4-072d-4303-bf21-ef6776768bd5",
+      "yugipediaId": 13986,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "December 2021",
+          "runIndex": 1,
+          "rarity": "R"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "August 2021",
+          "runIndex": 0,
+          "rarity": "R"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "December 2021",
+          "runIndex": 1,
+          "requirement": "30"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "August 2021",
+          "runIndex": 0,
+          "requirement": "30"
+        }
+      ]
+    },
+    {
+      "name": "Raise Body Heat",
+      "card": "5fc5c9a6-2f0c-4179-ad96-bdf4ded9dabe",
+      "yugipediaId": 506479,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "December 2021",
+          "runIndex": 1,
+          "rarity": "R"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "December 2021",
+          "runIndex": 1,
+          "requirement": "30"
+        }
+      ]
+    },
+    {
+      "name": "Dice Re-Roll",
+      "card": "4793d1c2-7094-4920-87c7-4b654d024306",
+      "yugipediaId": 15771,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "December 2021",
+          "runIndex": 1,
+          "rarity": "R"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "December 2021",
+          "runIndex": 1,
+          "requirement": "30"
+        }
+      ]
+    },
+    {
+      "name": "Maximum Six",
+      "card": "2c4d1276-ac0d-42ee-ac92-aae66d328adb",
+      "yugipediaId": 16692,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "December 2021",
+          "runIndex": 1,
+          "rarity": "R"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "December 2021",
+          "runIndex": 1,
+          "requirement": "30"
+        }
+      ]
+    },
+    {
+      "name": "Harpie Lady 3",
+      "card": "513c89d3-7821-42a7-96ed-06486dafb164",
+      "yugipediaId": 4667,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "December 2021",
+          "runIndex": 1,
+          "rarity": "R"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "December 2021",
+          "runIndex": 1,
+          "requirement": "30"
+        }
+      ]
+    },
+    {
+      "name": "Harpie Lady",
+      "card": "d74aa39a-d6ed-4a08-921d-a5cc42b3d794",
+      "yugipediaId": 508378,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "December 2021",
+          "runIndex": 1,
+          "rarity": "N"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "August 2021",
+          "runIndex": 0,
+          "rarity": "N"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "December 2021",
+          "runIndex": 1,
+          "requirement": "10"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "August 2021",
+          "runIndex": 0,
+          "requirement": "10"
+        }
+      ]
+    },
+    {
+      "name": "Pendulum Machine",
+      "card": "0f55c68f-250f-4c63-9365-a06cc14c8e5e",
+      "yugipediaId": 12705,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "December 2021",
+          "runIndex": 1,
+          "rarity": "N"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "December 2021",
+          "runIndex": 1,
+          "requirement": "10"
+        }
+      ]
+    },
+    {
+      "name": "Megazowler",
+      "card": "afbb94c7-bf56-46e3-9047-8a4ac23b1dcf",
+      "yugipediaId": 21442,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "December 2021",
+          "runIndex": 1,
+          "rarity": "N"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "December 2021",
+          "runIndex": 1,
+          "requirement": "10"
+        }
+      ]
+    },
+    {
+      "name": "Dark Rabbit",
+      "card": "65ac0cfa-10a1-42b6-983d-02d6c902a960",
+      "yugipediaId": 14407,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "December 2021",
+          "runIndex": 1,
+          "rarity": "N"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "December 2021",
+          "runIndex": 1,
+          "requirement": "10"
+        }
+      ]
+    },
+    {
+      "name": "Chosen One",
+      "card": "68d0ae2d-c15a-4582-a461-b2288621bca2",
+      "yugipediaId": 5082,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "December 2021",
+          "runIndex": 1,
+          "rarity": "N"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "December 2021",
+          "runIndex": 1,
+          "requirement": "10"
+        }
+      ]
+    },
+    {
+      "name": "Doggy Diver",
+      "card": "93b99582-fbfa-438b-aa3d-163c68986e50",
+      "yugipediaId": 286950,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "August 2021",
+          "runIndex": 0,
+          "rarity": "UR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "August 2021",
+          "runIndex": 0,
+          "requirement": "300"
+        }
+      ]
+    },
+    {
+      "name": "Toon Gemini Elf",
+      "card": "4129df38-b83d-4dab-9a5b-1ed8c84b814b",
+      "yugipediaId": 144,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "August 2021",
+          "runIndex": 0,
+          "rarity": "SR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "August 2021",
+          "runIndex": 0,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Laser Cannon Armor",
+      "card": "a4ded5dc-9f74-41e7-9cd3-89968e3d9384",
+      "yugipediaId": 506317,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "August 2021",
+          "runIndex": 0,
+          "rarity": "R"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "August 2021",
+          "runIndex": 0,
+          "requirement": "30"
+        }
+      ]
+    },
+    {
+      "name": "Lightray Gearfried",
+      "card": "e350bb13-e8c1-419d-9222-a9a91ed50b36",
+      "yugipediaId": 209380,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "August 2021",
+          "runIndex": 0,
+          "rarity": "R"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "August 2021",
+          "runIndex": 0,
+          "requirement": "30"
+        }
+      ]
+    },
+    {
+      "name": "Madolche Chouxvalier",
+      "card": "8ed25555-d90d-4eb2-8dfc-262f25101003",
+      "yugipediaId": 198605,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "August 2021",
+          "runIndex": 0,
+          "rarity": "R"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "August 2021",
+          "runIndex": 0,
+          "requirement": "30"
+        }
+      ]
+    },
+    {
+      "name": "Manga Ryu-Ran",
+      "card": "ce9bea71-24b7-4ba2-b086-827f7c71f0fa",
+      "yugipediaId": 124,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "August 2021",
+          "runIndex": 0,
+          "rarity": "R"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "August 2021",
+          "runIndex": 0,
+          "requirement": "30"
+        }
+      ]
+    },
+    {
+      "name": "Baby Dragon",
+      "card": "03767e4f-6893-4059-bc22-f99ebd454655",
+      "yugipediaId": 64,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "August 2021",
+          "runIndex": 0,
+          "rarity": "N"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "August 2021",
+          "runIndex": 0,
+          "requirement": "10"
+        }
+      ]
+    },
+    {
+      "name": "Goblin of Greed",
+      "card": "115fcd20-e010-4d1b-91cc-b40d0dd34dd1",
+      "yugipediaId": 15279,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "August 2021",
+          "runIndex": 0,
+          "rarity": "N"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "August 2021",
+          "runIndex": 0,
+          "requirement": "10"
+        }
+      ]
+    },
+    {
+      "name": "Kamakiriman",
+      "card": "baa816ba-7c87-4f42-92d7-b7ee78ad73af",
+      "yugipediaId": 19313,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "August 2021",
+          "runIndex": 0,
+          "rarity": "N"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "August 2021",
+          "runIndex": 0,
+          "requirement": "10"
+        }
+      ]
+    },
+    {
+      "name": "Parrot Dragon",
+      "card": "01e5e2a1-93f4-4d1f-bb8d-344824728f07",
+      "yugipediaId": 12352,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "August 2021",
+          "runIndex": 0,
+          "rarity": "N"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "August 2021",
+          "runIndex": 0,
+          "requirement": "10"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Duelist Kingdom (event)",
+        "id": 1011656
+      }
+    ]
+  }
+}

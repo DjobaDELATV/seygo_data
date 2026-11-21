@@ -1,0 +1,5618 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "27568f62-7155-43ae-a63b-7590321c6b3d",
+  "name": {
+    "en": "RAID DUEL: War in the Dimensional Battlefield! Number 104: Masquerade"
+  },
+  "type": "Raid Duel",
+  "duelWorlds": [
+    "Duel World (ZEXAL)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/7/78/RaidDuelWarintheDimensionalBattlefieldNumber104Masquerade-Banner.png",
+  "runs": [
+    {
+      "startDate": "2025-05-15",
+      "endDate": "2025-05-26"
+    },
+    {
+      "startDate": "2025-10-28",
+      "endDate": "2025-11-03"
+    }
+  ],
+  "cardTraderExDates": [
+    {
+      "startDate": "2025-05-15",
+      "endDate": "2025-06-02"
+    },
+    {
+      "startDate": "2025-10-28",
+      "endDate": "2025-11-10"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "cumulativeRewards",
+      "path": [
+        "Rewards",
+        "Cumulative Rewards"
+      ],
+      "run": "May 2025",
+      "runIndex": 0,
+      "notes": [
+        "The following rewards were awarded during this event, based on event points accumulated over the its course:"
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "10000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "20000"
+              },
+              {
+                "text": "1000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "30000"
+              },
+              {
+                "text": "5 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "40000"
+              },
+              {
+                "text": "1 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "60000"
+              },
+              {
+                "text": "1000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "80000"
+              },
+              {
+                "text": "3 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "100000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "120000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "140000"
+              },
+              {
+                "text": "1 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "170000"
+              },
+              {
+                "text": "10 Chronicle Chips"
+              }
+            ],
+            [
+              {
+                "text": "200000"
+              },
+              {
+                "text": "1 EX Draw & Summon"
+              }
+            ],
+            [
+              {
+                "text": "250000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "300000"
+              },
+              {
+                "text": "2000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "350000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "400000"
+              },
+              {
+                "text": "5 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "500000"
+              },
+              {
+                "text": "1 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "600000"
+              },
+              {
+                "text": "3000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "700000"
+              },
+              {
+                "text": "20 Dimensional Coordinates"
+              }
+            ],
+            [
+              {
+                "text": "800000"
+              },
+              {
+                "text": "\"Terrible Deal\" (Glossy)",
+                "cards": [
+                  {
+                    "name": "Terrible Deal",
+                    "card": "e46d166f-11a3-469e-84db-e3d9e86b5354",
+                    "yugipediaId": 20279,
+                    "variant": "Glossy"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "900000"
+              },
+              {
+                "text": "1 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "1000000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1100000"
+              },
+              {
+                "text": "4 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "1200000"
+              },
+              {
+                "text": "30 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "1300000"
+              },
+              {
+                "text": "10 Chronicle Chips"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "1400000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1500000"
+              },
+              {
+                "text": "20 Dimensional Coordinates"
+              }
+            ],
+            [
+              {
+                "text": "1600000"
+              },
+              {
+                "text": "1 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "1700000"
+              },
+              {
+                "text": "10 Chronicle Chips"
+              }
+            ],
+            [
+              {
+                "text": "1800000"
+              },
+              {
+                "text": "\"Sargasso the D.D. Battlefield\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Sargasso the D.D. Battlefield",
+                    "card": "ead13dcb-81b8-42ea-aa1c-e26ddc2b3a6a",
+                    "yugipediaId": 270225,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "1900000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "2100000"
+              },
+              {
+                "text": "20 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "2300000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "2500000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "2700000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "2900000"
+              },
+              {
+                "text": "Card Sleeves: RAID DUEL: War in the Dimensional Battlefield! Number 104: Masquerade"
+              }
+            ],
+            [
+              {
+                "text": "3100000"
+              },
+              {
+                "text": "10 Chronicle Chips"
+              }
+            ],
+            [
+              {
+                "text": "3300000"
+              },
+              {
+                "text": "15 Gems"
+              }
+            ],
+            [
+              {
+                "text": "3500000"
+              },
+              {
+                "text": "4 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "3700000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "3900000"
+              },
+              {
+                "text": "1 EX Draw & Summon"
+              }
+            ],
+            [
+              {
+                "text": "4100000"
+              },
+              {
+                "text": "30 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "4400000"
+              },
+              {
+                "text": "15 Gems"
+              }
+            ],
+            [
+              {
+                "text": "4700000"
+              },
+              {
+                "text": "\"Corrupted Keys\"",
+                "cards": [
+                  {
+                    "name": "Corrupted Keys",
+                    "card": "ece26462-88a3-4665-be5a-fa7560484de6",
+                    "yugipediaId": 265418
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "5000000"
+              },
+              {
+                "text": "4 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "5400000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "5800000"
+              },
+              {
+                "text": "10 Chronicle Chips"
+              }
+            ],
+            [
+              {
+                "text": "6200000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "6600000"
+              },
+              {
+                "text": "1 EX Draw & Summon"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "7000000"
+              },
+              {
+                "text": "Game Mat: RAID DUEL: War in the Dimensional Battlefield! Number 104: Masquerade"
+              }
+            ],
+            [
+              {
+                "text": "7500000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "8000000"
+              },
+              {
+                "text": "5 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "8500000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "9000000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "10000000"
+              },
+              {
+                "text": "5 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "11000000"
+              },
+              {
+                "text": "10 Chronicle Chips"
+              }
+            ],
+            [
+              {
+                "text": "12000000"
+              },
+              {
+                "text": "\"Number C104: Umbral Horror Masquerade\"",
+                "cards": [
+                  {
+                    "name": "Number C104: Umbral Horror Masquerade",
+                    "card": "24655596-74ad-46f2-aaa1-30cc5c00230a",
+                    "yugipediaId": 269976
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "14000000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "16000000"
+              },
+              {
+                "text": "Stamp: Vector"
+              }
+            ],
+            [
+              {
+                "text": "18000000"
+              },
+              {
+                "text": "Icon: RAID DUEL: War in the Dimensional Battlefield! Number 104: Masquerade"
+              }
+            ],
+            [
+              {
+                "text": "19000000"
+              },
+              {
+                "text": "40 Gems"
+              }
+            ],
+            [
+              {
+                "text": "20000000"
+              },
+              {
+                "text": "10 Chronicle Chips"
+              }
+            ],
+            [
+              {
+                "text": "22000000"
+              },
+              {
+                "text": "RAID DUEL: War in the Dimensional Battlefield! Number 104: Masquerade Completed (Title)"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "cumulativeRewards",
+      "path": [
+        "Rewards",
+        "Cumulative Rewards"
+      ],
+      "run": "Oct-Nov 2025",
+      "runIndex": 1,
+      "notes": [
+        "The following rewards were awarded during this event, based on event points accumulated over the its course:"
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "10000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "20000"
+              },
+              {
+                "text": "1000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "30000"
+              },
+              {
+                "text": "5 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "40000"
+              },
+              {
+                "text": "1 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "60000"
+              },
+              {
+                "text": "1000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "80000"
+              },
+              {
+                "text": "3 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "100000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "120000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "140000"
+              },
+              {
+                "text": "1 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "170000"
+              },
+              {
+                "text": "10 Chronicle Chips"
+              }
+            ],
+            [
+              {
+                "text": "200000"
+              },
+              {
+                "text": "1 EX Draw & Summon"
+              }
+            ],
+            [
+              {
+                "text": "250000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "300000"
+              },
+              {
+                "text": "2000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "350000"
+              },
+              {
+                "text": "15 Gems"
+              }
+            ],
+            [
+              {
+                "text": "400000"
+              },
+              {
+                "text": "5 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "500000"
+              },
+              {
+                "text": "1 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "600000"
+              },
+              {
+                "text": "3000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "700000"
+              },
+              {
+                "text": "20 Dimensional Coordinates"
+              }
+            ],
+            [
+              {
+                "text": "800000"
+              },
+              {
+                "text": "\"Corrupted Keys\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Corrupted Keys",
+                    "card": "ece26462-88a3-4665-be5a-fa7560484de6",
+                    "yugipediaId": 265418,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "900000"
+              },
+              {
+                "text": "1 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "1000000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1100000"
+              },
+              {
+                "text": "4 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "1200000"
+              },
+              {
+                "text": "30 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "1300000"
+              },
+              {
+                "text": "10 Chronicle Chips"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "1400000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1500000"
+              },
+              {
+                "text": "20 Dimensional Coordinates"
+              }
+            ],
+            [
+              {
+                "text": "1600000"
+              },
+              {
+                "text": "\"Number C104: Umbral Horror Masquerade\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Number C104: Umbral Horror Masquerade",
+                    "card": "24655596-74ad-46f2-aaa1-30cc5c00230a",
+                    "yugipediaId": 269976,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "1700000"
+              },
+              {
+                "text": "1 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "1800000"
+              },
+              {
+                "text": "10 BOX Chips"
+              }
+            ],
+            [
+              {
+                "text": "1900000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "2000000"
+              },
+              {
+                "text": "20 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "2100000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "2200000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "2300000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "2500000"
+              },
+              {
+                "text": "Card Sleeves: RAID DUEL: War in the Dimensional Battlefield! Number 104: Masquerade"
+              }
+            ],
+            [
+              {
+                "text": "2700000"
+              },
+              {
+                "text": "10 Chronicle Chips"
+              }
+            ],
+            [
+              {
+                "text": "2900000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "3100000"
+              },
+              {
+                "text": "4 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "3300000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "3500000"
+              },
+              {
+                "text": "1 EX Draw & Summon"
+              }
+            ],
+            [
+              {
+                "text": "3800000"
+              },
+              {
+                "text": "30 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "4100000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "4400000"
+              },
+              {
+                "text": "\"Number 43: Manipulator of Souls\"",
+                "cards": [
+                  {
+                    "name": "Number 43: Manipulator of Souls",
+                    "card": "aec4c8b8-1ac9-4f92-a5e1-e72afd22440b",
+                    "yugipediaId": 286001
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "4700000"
+              },
+              {
+                "text": "4 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "5000000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "5500000"
+              },
+              {
+                "text": "10 BOX Chips"
+              }
+            ],
+            [
+              {
+                "text": "6000000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "6500000"
+              },
+              {
+                "text": "1 EX Draw & Summon"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "7000000"
+              },
+              {
+                "text": "Game Mat: RAID DUEL: War in the Dimensional Battlefield! Number 104: Masquerade"
+              }
+            ],
+            [
+              {
+                "text": "7500000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "8000000"
+              },
+              {
+                "text": "5 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "8500000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "9000000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "10000000"
+              },
+              {
+                "text": "5 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "11000000"
+              },
+              {
+                "text": "10 Chronicle Chips"
+              }
+            ],
+            [
+              {
+                "text": "12000000"
+              },
+              {
+                "text": "\"Number C43: High Manipulator of Chaos\"",
+                "cards": [
+                  {
+                    "name": "Number C43: High Manipulator of Chaos",
+                    "card": "a8efbefc-19d2-4998-963e-e147aa694ba8",
+                    "yugipediaId": 290995
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "13000000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "14000000"
+              },
+              {
+                "text": "Stamp: Vector"
+              }
+            ],
+            [
+              {
+                "text": "15000000"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "16000000"
+              },
+              {
+                "text": "Icon: RAID DUEL: War in the Dimensional Battlefield! Number 104: Masquerade"
+              }
+            ],
+            [
+              {
+                "text": "18000000"
+              },
+              {
+                "text": "10 Chronicle Chips"
+              }
+            ],
+            [
+              {
+                "text": "20000000"
+              },
+              {
+                "text": "RAID DUEL: War in the Dimensional Battlefield! Number 104: Masquerade Completed (Title)"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "treasureBoxes",
+      "path": [
+        "Rewards",
+        "Treasure Boxes"
+      ],
+      "notes": [
+        "Every time the player defeats Number 104: Masquerade, they will be awarded with Treasure Boxes of different types."
+      ]
+    },
+    {
+      "kind": "treasureBoxes",
+      "path": [
+        "Rewards",
+        "Treasure Boxes"
+      ],
+      "run": "May 2025",
+      "runIndex": 0,
+      "tables": [
+        {
+          "rows": [
+            [
+              {
+                "text": ""
+              },
+              {
+                "text": "Rewards"
+              }
+            ],
+            [
+              {
+                "text": "Rainbow"
+              },
+              {
+                "text": "\"Number C104: Umbral Horror Masquerade\" (UR), \"Sargasso Lighthouse\" (UR), \"Corrupted Keys\" (SR), \"Sargasso the D.D. Battlefield\" (SR), \"Number 65: Djinn Buster\" (SR)\n20 or 10 Gems",
+                "cards": [
+                  {
+                    "name": "Number C104: Umbral Horror Masquerade",
+                    "card": "24655596-74ad-46f2-aaa1-30cc5c00230a",
+                    "yugipediaId": 269976,
+                    "rarity": "UR"
+                  },
+                  {
+                    "name": "Sargasso Lighthouse",
+                    "card": "ed1ac767-2224-4f9a-b6d4-2e3ca87ef361",
+                    "yugipediaId": 270481,
+                    "rarity": "UR"
+                  },
+                  {
+                    "name": "Corrupted Keys",
+                    "card": "ece26462-88a3-4665-be5a-fa7560484de6",
+                    "yugipediaId": 265418,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Sargasso the D.D. Battlefield",
+                    "card": "ead13dcb-81b8-42ea-aa1c-e26ddc2b3a6a",
+                    "yugipediaId": 270225,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Number 65: Djinn Buster",
+                    "card": "827e3e03-abcf-42f6-a105-4258ffa56be5",
+                    "yugipediaId": 274918,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Gold"
+              },
+              {
+                "text": "\"Corrupted Keys\" (SR), \"Sargasso the D.D. Battlefield\" (SR), \"Number 65: Djinn Buster\" (SR), \"Fake Trap\" (R), \"Terrible Deal\" (R), \"Dark Mambele\" (R)\n6 or 4 EX Jewel(s) (Raid Duel)\n5 or 1 Gem(s)\n1000 or 400 Gold",
+                "cards": [
+                  {
+                    "name": "Corrupted Keys",
+                    "card": "ece26462-88a3-4665-be5a-fa7560484de6",
+                    "yugipediaId": 265418,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Sargasso the D.D. Battlefield",
+                    "card": "ead13dcb-81b8-42ea-aa1c-e26ddc2b3a6a",
+                    "yugipediaId": 270225,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Number 65: Djinn Buster",
+                    "card": "827e3e03-abcf-42f6-a105-4258ffa56be5",
+                    "yugipediaId": 274918,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Fake Trap",
+                    "card": "14d8a45a-957e-4d79-ba57-09972c2222f4",
+                    "yugipediaId": 4965,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Terrible Deal",
+                    "card": "e46d166f-11a3-469e-84db-e3d9e86b5354",
+                    "yugipediaId": 20279,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Dark Mambele",
+                    "card": "fc969663-c5f3-4b01-b78b-31605432a621",
+                    "yugipediaId": 194452,
+                    "rarity": "R"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Silver"
+              },
+              {
+                "text": "\"Fake Trap\" (R), \"Terrible Deal\" (R), \"Dark Membele\" (R), \"Abyssal Designator\" (N), \"Dark Chimera\" (N)\n2 EX Jewel(s) (Raid Duel)\n200 or 50 Gold\n7 or 3 Gate Keys (White, Black, Blue, Red, Yellow, or Green)",
+                "cards": [
+                  {
+                    "name": "Fake Trap",
+                    "card": "14d8a45a-957e-4d79-ba57-09972c2222f4",
+                    "yugipediaId": 4965,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Terrible Deal",
+                    "card": "e46d166f-11a3-469e-84db-e3d9e86b5354",
+                    "yugipediaId": 20279,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Dark Mambele",
+                    "card": "fc969663-c5f3-4b01-b78b-31605432a621",
+                    "yugipediaId": 194452,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Abyssal Designator",
+                    "card": "e2246e5e-9a24-4fb6-9b4c-45cc695b3a47",
+                    "yugipediaId": 12726,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Dark Chimera",
+                    "card": "a878c736-5f49-4a2a-bc62-5fb12128815d",
+                    "yugipediaId": 18149,
+                    "rarity": "N"
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "treasureBoxes",
+      "path": [
+        "Rewards",
+        "Treasure Boxes"
+      ],
+      "run": "Oct-Nov 2025",
+      "runIndex": 1,
+      "tables": [
+        {
+          "rows": [
+            [
+              {
+                "text": ""
+              },
+              {
+                "text": "Rewards"
+              }
+            ],
+            [
+              {
+                "text": "Rainbow"
+              },
+              {
+                "text": "\"Number C43: High Manipulator of Chaos\" (UR), \"Number C104: Umbral Horror Masquerade\" (UR), \"Number 43: Manipulator of Souls\" (SR), \"Corrupted Keys\" (SR), \"Sargasso the D.D. Battlefield\" (SR)\n20 or 10 Gems",
+                "cards": [
+                  {
+                    "name": "Number C43: High Manipulator of Chaos",
+                    "card": "a8efbefc-19d2-4998-963e-e147aa694ba8",
+                    "yugipediaId": 290995,
+                    "rarity": "UR"
+                  },
+                  {
+                    "name": "Number C104: Umbral Horror Masquerade",
+                    "card": "24655596-74ad-46f2-aaa1-30cc5c00230a",
+                    "yugipediaId": 269976,
+                    "rarity": "UR"
+                  },
+                  {
+                    "name": "Number 43: Manipulator of Souls",
+                    "card": "aec4c8b8-1ac9-4f92-a5e1-e72afd22440b",
+                    "yugipediaId": 286001,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Corrupted Keys",
+                    "card": "ece26462-88a3-4665-be5a-fa7560484de6",
+                    "yugipediaId": 265418,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Sargasso the D.D. Battlefield",
+                    "card": "ead13dcb-81b8-42ea-aa1c-e26ddc2b3a6a",
+                    "yugipediaId": 270225,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Gold"
+              },
+              {
+                "text": "\"Number 43: Manipulator of Souls\" (SR), \"Corrupted Keys\" (SR), \"Sargasso the D.D. Battlefield\" (SR), \"Fake Trap\" (R), \"Terrible Deal\" (R), \"Dark Mambele\" (R)\n6 or 4 EX Jewel(s) (Raid Duel)\n5 or 1 Gem(s)\n1000 or 400 Gold",
+                "cards": [
+                  {
+                    "name": "Number 43: Manipulator of Souls",
+                    "card": "aec4c8b8-1ac9-4f92-a5e1-e72afd22440b",
+                    "yugipediaId": 286001,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Corrupted Keys",
+                    "card": "ece26462-88a3-4665-be5a-fa7560484de6",
+                    "yugipediaId": 265418,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Sargasso the D.D. Battlefield",
+                    "card": "ead13dcb-81b8-42ea-aa1c-e26ddc2b3a6a",
+                    "yugipediaId": 270225,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Fake Trap",
+                    "card": "14d8a45a-957e-4d79-ba57-09972c2222f4",
+                    "yugipediaId": 4965,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Terrible Deal",
+                    "card": "e46d166f-11a3-469e-84db-e3d9e86b5354",
+                    "yugipediaId": 20279,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Dark Mambele",
+                    "card": "fc969663-c5f3-4b01-b78b-31605432a621",
+                    "yugipediaId": 194452,
+                    "rarity": "R"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Silver"
+              },
+              {
+                "text": "\"Fake Trap\" (R), \"Terrible Deal\" (R), \"Dark Membele\" (R), \"Abyssal Designator\" (N), \"Dark Chimera\" (N)\n2 EX Jewel(s) (Raid Duel)\n200 or 50 Gold\n7 or 3 Gate Keys (White, Black, Blue, Red, Yellow, or Green)",
+                "cards": [
+                  {
+                    "name": "Fake Trap",
+                    "card": "14d8a45a-957e-4d79-ba57-09972c2222f4",
+                    "yugipediaId": 4965,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Terrible Deal",
+                    "card": "e46d166f-11a3-469e-84db-e3d9e86b5354",
+                    "yugipediaId": 20279,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Dark Mambele",
+                    "card": "fc969663-c5f3-4b01-b78b-31605432a621",
+                    "yugipediaId": 194452,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Abyssal Designator",
+                    "card": "e2246e5e-9a24-4fb6-9b4c-45cc695b3a47",
+                    "yugipediaId": 12726,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Dark Chimera",
+                    "card": "a878c736-5f49-4a2a-bc62-5fb12128815d",
+                    "yugipediaId": 18149,
+                    "rarity": "N"
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "packs",
+      "path": [
+        "Rewards",
+        "Legendary Duelist Rainbow Pack (ZEXAL)"
+      ],
+      "notes": [
+        "Awarded each time the Damage Ranking is reset. Each pack contains 1 of the following cards:"
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "\"Night Express Knight\" (UR)",
+                "cards": [
+                  {
+                    "name": "Night Express Knight",
+                    "card": "1747c8f5-af7b-4368-bfbc-aa03ba3e325a",
+                    "yugipediaId": 258390,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Cataclysmic Scorching Sunburner\" (UR)",
+                "cards": [
+                  {
+                    "name": "Cataclysmic Scorching Sunburner",
+                    "card": "f4e0ccae-d775-4cbb-8252-b10f1183e8db",
+                    "yugipediaId": 576136,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Gimmick Puppet Twilight Joker\" (UR)",
+                "cards": [
+                  {
+                    "name": "Gimmick Puppet Twilight Joker",
+                    "card": "3d737eff-45e6-45e7-8985-e0b88e30cd4a",
+                    "yugipediaId": 206219,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Prime Material Dragon\" (UR)",
+                "cards": [
+                  {
+                    "name": "Prime Material Dragon",
+                    "card": "f22b3e6d-56ad-49f7-b4d4-e3c1e2d18224",
+                    "yugipediaId": 88544,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Chronomaly Moai Carrier\" (UR)",
+                "cards": [
+                  {
+                    "name": "Chronomaly Moai Carrier",
+                    "card": "8b8c5399-d109-488c-b1fc-9ff066e63ba8",
+                    "yugipediaId": 300514,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Chronomaly Moai\" (UR)",
+                "cards": [
+                  {
+                    "name": "Chronomaly Moai",
+                    "card": "5aa270b3-206a-4ad3-a4c6-f9ae772cf605",
+                    "yugipediaId": 200789,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Chronomaly Tula Guardian\" (UR)",
+                "cards": [
+                  {
+                    "name": "Chronomaly Tula Guardian",
+                    "card": "5c43f49b-11e9-487e-8ade-71b928b35816",
+                    "yugipediaId": 196683,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Fencing Fire Ferret\" (UR)",
+                "cards": [
+                  {
+                    "name": "Fencing Fire Ferret",
+                    "card": "cf8acca8-99c7-4a0d-a265-447cfb4d3e3c",
+                    "yugipediaId": 260886,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Express Train Trolley Olley\" (UR)",
+                "cards": [
+                  {
+                    "name": "Express Train Trolley Olley",
+                    "card": "163613c5-1ec4-4847-a106-1e08214bac59",
+                    "yugipediaId": 200775,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Gimmick Puppet Scissor Arms\" (UR)",
+                "cards": [
+                  {
+                    "name": "Gimmick Puppet Scissor Arms",
+                    "card": "79c39a3a-d3e2-4980-ba7f-0776db8babd1",
+                    "yugipediaId": 215808,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Gimmick Puppet Egg Head\" (UR)",
+                "cards": [
+                  {
+                    "name": "Gimmick Puppet Egg Head",
+                    "card": "6dc0314d-e242-4b6a-9e4b-6ffe7af8e93e",
+                    "yugipediaId": 200853,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Photon Advancer\" (UR)",
+                "cards": [
+                  {
+                    "name": "Photon Advancer",
+                    "card": "61f5aaf6-1722-4376-8474-7ee9e87548de",
+                    "yugipediaId": 300838,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Inferno\" (UR)",
+                "cards": [
+                  {
+                    "name": "Inferno",
+                    "card": "e4fd7dec-683c-4ce8-9819-97018ddaed8b",
+                    "yugipediaId": 17157,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Gagaga Magician\" (UR)",
+                "cards": [
+                  {
+                    "name": "Gagaga Magician",
+                    "card": "ffe4edd8-a97e-430f-9e63-2722891d3d16",
+                    "yugipediaId": 150083,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Penguin Soldier\" (UR)",
+                "cards": [
+                  {
+                    "name": "Penguin Soldier",
+                    "card": "1fe38082-1018-458e-8ef2-c5f731e5fdd9",
+                    "yugipediaId": 70,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Full Armored Crystalzero Lancer\" (UR)",
+                "cards": [
+                  {
+                    "name": "Full Armored Crystalzero Lancer",
+                    "card": "60e664ce-103e-4c53-835f-ba65061115eb",
+                    "yugipediaId": 293276,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Number C80: Requiem in Berserk\" (UR)",
+                "cards": [
+                  {
+                    "name": "Number C80: Requiem in Berserk",
+                    "card": "b0aea0b4-62c3-4959-b2b0-15cc46c8a564",
+                    "yugipediaId": 282455,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Ice Princess Zereort\" (UR)",
+                "cards": [
+                  {
+                    "name": "Ice Princess Zereort",
+                    "card": "15b9d317-a393-400e-b2e6-6016c7a3328e",
+                    "yugipediaId": 273756,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Starring Knight\" (UR)",
+                "cards": [
+                  {
+                    "name": "Starring Knight",
+                    "card": "21ab64d2-2bab-480a-a043-7d6d400fed21",
+                    "yugipediaId": 716854,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Galaxy Stealth Dragon\" (UR)",
+                "cards": [
+                  {
+                    "name": "Galaxy Stealth Dragon",
+                    "card": "53ecfaa9-2e46-478b-9e36-c546f4170f57",
+                    "yugipediaId": 457257,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Number 105: Battlin' Boxer Star Cestus\" (UR)",
+                "cards": [
+                  {
+                    "name": "Number 105: Battlin' Boxer Star Cestus",
+                    "card": "66d04d1e-1331-46cd-9fe9-93167935f6ed",
+                    "yugipediaId": 256805,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Heavy Armored Train Ironwolf\" (UR)",
+                "cards": [
+                  {
+                    "name": "Heavy Armored Train Ironwolf",
+                    "card": "dd641844-646d-4ac6-8801-f63ff4b51f84",
+                    "yugipediaId": 458378,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Number 10: Illumiknight\" (UR)",
+                "cards": [
+                  {
+                    "name": "Number 10: Illumiknight",
+                    "card": "ce48f24c-8062-45b1-b558-6d21fde6e7f2",
+                    "yugipediaId": 172769,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Fairy Cheer Girl\" (UR)",
+                "cards": [
+                  {
+                    "name": "Fairy Cheer Girl",
+                    "card": "78b579d4-a3ab-4cf0-92f0-f7836be4458b",
+                    "yugipediaId": 248502,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Tin Archduke\" (UR)",
+                "cards": [
+                  {
+                    "name": "Tin Archduke",
+                    "card": "0e9d4146-74ba-4e9e-87b9-9aac666858f5",
+                    "yugipediaId": 181455,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Number 34: Terror-Byte\" (UR)",
+                "cards": [
+                  {
+                    "name": "Number 34: Terror-Byte",
+                    "card": "60159de7-f5d1-4d4f-9f9d-6f825f7a060b",
+                    "yugipediaId": 168355,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Number 47: Nightmare Shark\" (UR)",
+                "cards": [
+                  {
+                    "name": "Number 47: Nightmare Shark",
+                    "card": "d74d52b8-57bc-47da-a056-5beecad27940",
+                    "yugipediaId": 247308,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Number 17: Leviathan Dragon\" (UR)",
+                "cards": [
+                  {
+                    "name": "Number 17: Leviathan Dragon",
+                    "card": "d538a548-0d1d-4abf-886d-9b7841080371",
+                    "yugipediaId": 150636,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Sargasso Lighthouse\" (UR)",
+                "cards": [
+                  {
+                    "name": "Sargasso Lighthouse",
+                    "card": "ed1ac767-2224-4f9a-b6d4-2e3ca87ef361",
+                    "yugipediaId": 270481,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Galactic Charity\" (UR)",
+                "cards": [
+                  {
+                    "name": "Galactic Charity",
+                    "card": "bbf15bb1-f2ee-48b6-be74-60ec01cfd9d7",
+                    "yugipediaId": 296283,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Setuppercut\" (UR)",
+                "cards": [
+                  {
+                    "name": "Setuppercut",
+                    "card": "db7b32ab-0c5c-49c0-88f6-c4ebf9a9df11",
+                    "yugipediaId": 600362,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Indestructible Airship Hindenkraft\" (SR)",
+                "cards": [
+                  {
+                    "name": "Indestructible Airship Hindenkraft",
+                    "card": "d1db38fd-e9d2-4ec0-a151-91f62ae409b8",
+                    "yugipediaId": 718658,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Galactic Spiral Dragon\" (SR)",
+                "cards": [
+                  {
+                    "name": "Galactic Spiral Dragon",
+                    "card": "7048e0d6-5837-46ec-854d-327e7fe13de4",
+                    "yugipediaId": 644735,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Gimmick Puppet Magnet Doll\" (SR)",
+                "cards": [
+                  {
+                    "name": "Gimmick Puppet Magnet Doll",
+                    "card": "cf7f240f-3876-4b78-ab30-71846ca1a126",
+                    "yugipediaId": 206148,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Archlord Zerato\" (SR)",
+                "cards": [
+                  {
+                    "name": "Archlord Zerato",
+                    "card": "6275d19d-1fae-4ee3-ae4a-78e5dc4e4ce2",
+                    "yugipediaId": 15588,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Genesis Dragon\" (SR)",
+                "cards": [
+                  {
+                    "name": "Genesis Dragon",
+                    "card": "d593392e-fb44-49f2-bc2e-25f78a9b963f",
+                    "yugipediaId": 23872,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Depth Shark\" (SR)",
+                "cards": [
+                  {
+                    "name": "Depth Shark",
+                    "card": "c866360c-e4ce-48c4-96ba-beca0faa2545",
+                    "yugipediaId": 274626,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Tethys, Goddess of Light\" (SR)",
+                "cards": [
+                  {
+                    "name": "Tethys, Goddess of Light",
+                    "card": "af2ebb92-7ebb-4b22-a09c-7e6e1a8aa5b3",
+                    "yugipediaId": 69799,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Magic Hand\" (SR)",
+                "cards": [
+                  {
+                    "name": "Magic Hand",
+                    "card": "861fc8c1-b031-41e2-a89a-7ef362e2c3cf",
+                    "yugipediaId": 248415,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Blizzard Falcon\" (SR)",
+                "cards": [
+                  {
+                    "name": "Blizzard Falcon",
+                    "card": "b119dd7d-2498-4a92-9823-068f8fc18e16",
+                    "yugipediaId": 233060,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Lionhearted Locomotive\" (SR)",
+                "cards": [
+                  {
+                    "name": "Lionhearted Locomotive",
+                    "card": "1a515b1a-b32e-499e-939d-020e1fe82fc6",
+                    "yugipediaId": 200746,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Chronomaly Aztec Mask Golem\" (SR)",
+                "cards": [
+                  {
+                    "name": "Chronomaly Aztec Mask Golem",
+                    "card": "f4153a79-5ef9-4ef1-8bc4-e2620ec37d34",
+                    "yugipediaId": 221773,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Gimmick Puppet Des Troy\" (SR)",
+                "cards": [
+                  {
+                    "name": "Gimmick Puppet Des Troy",
+                    "card": "e1c583eb-0154-4c9b-8e29-7a55a1de26fa",
+                    "yugipediaId": 289194,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Chronomaly Golden Jet\" (SR)",
+                "cards": [
+                  {
+                    "name": "Chronomaly Golden Jet",
+                    "card": "3a6e0981-323c-4f0d-930e-0e72da3347a2",
+                    "yugipediaId": 185983,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Chronomaly Mud Golem\" (SR)",
+                "cards": [
+                  {
+                    "name": "Chronomaly Mud Golem",
+                    "card": "92cde983-0bce-4c41-9250-9a4448d544b3",
+                    "yugipediaId": 203448,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Reverse Buster\" (SR)",
+                "cards": [
+                  {
+                    "name": "Reverse Buster",
+                    "card": "125aa39f-65a7-4ca7-95d5-24c2bc4b6afd",
+                    "yugipediaId": 193517,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Photon Crusher\" (SR)",
+                "cards": [
+                  {
+                    "name": "Photon Crusher",
+                    "card": "fe970e0c-3c91-4371-873a-5c96c4c0c3d1",
+                    "yugipediaId": 190064,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Gogogo Golem\" (SR)",
+                "cards": [
+                  {
+                    "name": "Gogogo Golem",
+                    "card": "17531a23-55ad-43f0-8f17-efd9a76b1ae3",
+                    "yugipediaId": 161837,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Sand Moth\" (SR)",
+                "cards": [
+                  {
+                    "name": "Sand Moth",
+                    "card": "702f34da-6026-4365-9e45-03d9d68f208e",
+                    "yugipediaId": 11645,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Harvest Angel of Wisdom\" (SR)",
+                "cards": [
+                  {
+                    "name": "Harvest Angel of Wisdom",
+                    "card": "d62de900-c1f7-4932-bf10-0ec3e443b5aa",
+                    "yugipediaId": 19069,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Radiant Jeral\" (SR)",
+                "cards": [
+                  {
+                    "name": "Radiant Jeral",
+                    "card": "9586c63c-b1a4-4ff1-b770-cc069f2caa42",
+                    "yugipediaId": 19702,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Zeradias, Herald of Heaven\" (SR)",
+                "cards": [
+                  {
+                    "name": "Zeradias, Herald of Heaven",
+                    "card": "82536c8e-0d7a-46f5-8247-d38555421155",
+                    "yugipediaId": 20206,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Dark Crusader\" (SR)",
+                "cards": [
+                  {
+                    "name": "Dark Crusader",
+                    "card": "48482748-59d7-4e77-b451-6c4c79457879",
+                    "yugipediaId": 75178,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Biofalcon\" (SR)",
+                "cards": [
+                  {
+                    "name": "Biofalcon",
+                    "card": "bd0d4342-546d-4417-a05a-3867a5d306dc",
+                    "yugipediaId": 127680,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Shark Stickers\" (SR)",
+                "cards": [
+                  {
+                    "name": "Shark Stickers",
+                    "card": "68f92088-b74d-459b-887a-102ff8546dae",
+                    "yugipediaId": 171917,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Toy Soldier\" (SR)",
+                "cards": [
+                  {
+                    "name": "Toy Soldier",
+                    "card": "60a33181-30c5-47ff-a059-680a504fdd94",
+                    "yugipediaId": 1029887,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Nimble Momonga\" (SR)",
+                "cards": [
+                  {
+                    "name": "Nimble Momonga",
+                    "card": "fb290bf1-2ba1-43aa-9104-7134304aa7a7",
+                    "yugipediaId": 4393,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Gimmick Puppet Gear Changer\" (SR)",
+                "cards": [
+                  {
+                    "name": "Gimmick Puppet Gear Changer",
+                    "card": "f416c197-e187-42c8-b116-557c90fd37f8",
+                    "yugipediaId": 206061,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Wind-Up Honeybee\" (SR)",
+                "cards": [
+                  {
+                    "name": "Wind-Up Honeybee",
+                    "card": "f3edcf6d-5ccf-44c2-a2eb-c205829921b8",
+                    "yugipediaId": 179660,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Baromet the Sacred Sheep Shrub\" (SR)",
+                "cards": [
+                  {
+                    "name": "Baromet the Sacred Sheep Shrub",
+                    "card": "9a35449f-e1f9-4e85-8278-04e077a84720",
+                    "yugipediaId": 716564,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Number 80: Rhapsody in Berserk\" (SR)",
+                "cards": [
+                  {
+                    "name": "Number 80: Rhapsody in Berserk",
+                    "card": "148c0352-539f-426e-a94d-b1cec25a82ac",
+                    "yugipediaId": 300782,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Number 20: Giga-Brilliant\" (SR)",
+                "cards": [
+                  {
+                    "name": "Number 20: Giga-Brilliant",
+                    "card": "eb4f2ead-5d09-414e-855e-8b454c40b56b",
+                    "yugipediaId": 172674,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Temtempo the Percussion Djinn\" (SR)",
+                "cards": [
+                  {
+                    "name": "Temtempo the Percussion Djinn",
+                    "card": "5f064a41-9357-437e-9e60-3db851d3e915",
+                    "yugipediaId": 189418,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Xyz Align\" (SR)",
+                "cards": [
+                  {
+                    "name": "Xyz Align",
+                    "card": "0662de59-fe02-4398-a473-1acbccc4bfd3",
+                    "yugipediaId": 717534,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Dragon Shield\" (SR)",
+                "cards": [
+                  {
+                    "name": "Dragon Shield",
+                    "card": "9b8399d7-6ffc-4550-8f06-5753684cfe7d",
+                    "yugipediaId": 260597,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Xyz Import\" (SR)",
+                "cards": [
+                  {
+                    "name": "Xyz Import",
+                    "card": "1fd682d9-90f4-466b-ae26-0455ffb978c1",
+                    "yugipediaId": 717537,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Xyz Burst\" (SR)",
+                "cards": [
+                  {
+                    "name": "Xyz Burst",
+                    "card": "a623c077-bd21-4d32-9472-cdfbd8f7eb32",
+                    "yugipediaId": 194576,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Weights & Zenmaisures\" (SR)",
+                "cards": [
+                  {
+                    "name": "Weights & Zenmaisures",
+                    "card": "5ccd0c30-321e-48de-bf68-5746101ce8a4",
+                    "yugipediaId": 181035,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Sacred Defense Barrier\" (SR)",
+                "cards": [
+                  {
+                    "name": "Sacred Defense Barrier",
+                    "card": "73d9cecf-ffc8-48e4-9024-02d434ea5482",
+                    "yugipediaId": 719495,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Reload\" (SR)",
+                "cards": [
+                  {
+                    "name": "Reload",
+                    "card": "a6572397-03da-4b2e-873f-8eeffba1a4f8",
+                    "yugipediaId": 504772,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Water Hazard\" (SR)",
+                "cards": [
+                  {
+                    "name": "Water Hazard",
+                    "card": "a7e7289e-0849-49a8-b07f-ef04c8cfdb07",
+                    "yugipediaId": 110971,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Xyz Bento\" (SR)",
+                "cards": [
+                  {
+                    "name": "Xyz Bento",
+                    "card": "512a339f-6e8d-41c6-8c6f-277991dc6ea3",
+                    "yugipediaId": 708450,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Torrential Reborn\" (SR)",
+                "cards": [
+                  {
+                    "name": "Torrential Reborn",
+                    "card": "434bf05f-4d20-48ab-b04e-b89aeb76fb07",
+                    "yugipediaId": 226636,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Wonder Xyz\" (SR)",
+                "cards": [
+                  {
+                    "name": "Wonder Xyz",
+                    "card": "2001e89d-ad46-4f8b-9ea3-dce68c38dcd8",
+                    "yugipediaId": 360334,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Stellarnova Wave\" (SR)",
+                "cards": [
+                  {
+                    "name": "Stellarnova Wave",
+                    "card": "3eafafe8-1377-409f-8b92-1634fe3fe120",
+                    "yugipediaId": 334266,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Divine Punishment\" (SR)",
+                "cards": [
+                  {
+                    "name": "Divine Punishment",
+                    "card": "12e80df3-0899-4bbf-b5df-7ad5b1371319",
+                    "yugipediaId": 161235,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Gamushara\" (SR)",
+                "cards": [
+                  {
+                    "name": "Gamushara",
+                    "card": "3f7533d0-4698-4701-b89a-5c0b42bf1838",
+                    "yugipediaId": 189566,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Dimension Gate\" (SR)",
+                "cards": [
+                  {
+                    "name": "Dimension Gate",
+                    "card": "b3451b1c-a951-4d53-8f68-1222816fb8bb",
+                    "yugipediaId": 235387,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "cardTraderEx",
+      "path": [
+        "Rewards",
+        "Card Trader EX"
+      ],
+      "notes": [
+        "The Card Trader EX appears during this event and remained open until one week after its conclusion. The player can trade their EX Jewels for cards, Booster Items, Gold, and Skill Chips. Each card, Skill Chip and Booster Item can only be obtained once from the Card Trader EX during this event, but Gold can be obtained any number of times."
+      ]
+    },
+    {
+      "kind": "cardTraderEx",
+      "path": [
+        "Rewards",
+        "Card Trader EX"
+      ],
+      "run": "May 2025",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "EX Jewels",
+            "Item"
+          ],
+          "rows": [
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1"
+              },
+              {
+                "text": "100 Gold"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Results Booster"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 EXP Booster"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "1 Cloak"
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "10 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "10 BOX Chips"
+              }
+            ],
+            [
+              {
+                "text": "300"
+              },
+              {
+                "text": "1 \"Number C104: Umbral Horror Masquerade\"",
+                "cards": [
+                  {
+                    "name": "Number C104: Umbral Horror Masquerade",
+                    "card": "24655596-74ad-46f2-aaa1-30cc5c00230a",
+                    "yugipediaId": 269976,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Number C104: Umbral Horror Masquerade\" (Glossy)",
+                "cards": [
+                  {
+                    "name": "Number C104: Umbral Horror Masquerade",
+                    "card": "24655596-74ad-46f2-aaa1-30cc5c00230a",
+                    "yugipediaId": 269976,
+                    "quantity": 1,
+                    "variant": "Glossy"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "400"
+              },
+              {
+                "text": "1 \"Number C104: Umbral Horror Masquerade\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Number C104: Umbral Horror Masquerade",
+                    "card": "24655596-74ad-46f2-aaa1-30cc5c00230a",
+                    "yugipediaId": 269976,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "300"
+              },
+              {
+                "text": "1 \"Sargasso Lighthouse\"",
+                "cards": [
+                  {
+                    "name": "Sargasso Lighthouse",
+                    "card": "ed1ac767-2224-4f9a-b6d4-2e3ca87ef361",
+                    "yugipediaId": 270481,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Corrupted Keys\"",
+                "cards": [
+                  {
+                    "name": "Corrupted Keys",
+                    "card": "ece26462-88a3-4665-be5a-fa7560484de6",
+                    "yugipediaId": 265418,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Sargasso the D.D. Battlefield\"",
+                "cards": [
+                  {
+                    "name": "Sargasso the D.D. Battlefield",
+                    "card": "ead13dcb-81b8-42ea-aa1c-e26ddc2b3a6a",
+                    "yugipediaId": 270225,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Number 65: Djinn Buster\"",
+                "cards": [
+                  {
+                    "name": "Number 65: Djinn Buster",
+                    "card": "827e3e03-abcf-42f6-a105-4258ffa56be5",
+                    "yugipediaId": 274918,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Fake Trap\"",
+                "cards": [
+                  {
+                    "name": "Fake Trap",
+                    "card": "14d8a45a-957e-4d79-ba57-09972c2222f4",
+                    "yugipediaId": 4965,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Terrible Deal\"",
+                "cards": [
+                  {
+                    "name": "Terrible Deal",
+                    "card": "e46d166f-11a3-469e-84db-e3d9e86b5354",
+                    "yugipediaId": 20279,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Dark Mambele\"",
+                "cards": [
+                  {
+                    "name": "Dark Mambele",
+                    "card": "fc969663-c5f3-4b01-b78b-31605432a621",
+                    "yugipediaId": 194452,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Abyssal Designator\"",
+                "cards": [
+                  {
+                    "name": "Abyssal Designator",
+                    "card": "e2246e5e-9a24-4fb6-9b4c-45cc695b3a47",
+                    "yugipediaId": 12726,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Dark Chimera\"",
+                "cards": [
+                  {
+                    "name": "Dark Chimera",
+                    "card": "a878c736-5f49-4a2a-bc62-5fb12128815d",
+                    "yugipediaId": 18149,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "cardTraderEx",
+      "path": [
+        "Rewards",
+        "Card Trader EX"
+      ],
+      "run": "Oct-Nov 2025",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "EX Jewels",
+            "Item"
+          ],
+          "rows": [
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1"
+              },
+              {
+                "text": "100 Gold"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Results Booster"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 EXP Booster"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "1 Cloak"
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "10 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "10 BOX Chips"
+              }
+            ],
+            [
+              {
+                "text": "300"
+              },
+              {
+                "text": "1 \"Number C43: High Manipulator of Chaos\"",
+                "cards": [
+                  {
+                    "name": "Number C43: High Manipulator of Chaos",
+                    "card": "a8efbefc-19d2-4998-963e-e147aa694ba8",
+                    "yugipediaId": 290995,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Number C43: High Manipulator of Chaos\" (Glossy)",
+                "cards": [
+                  {
+                    "name": "Number C43: High Manipulator of Chaos",
+                    "card": "a8efbefc-19d2-4998-963e-e147aa694ba8",
+                    "yugipediaId": 290995,
+                    "quantity": 1,
+                    "variant": "Glossy"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "400"
+              },
+              {
+                "text": "1 \"Number C43: High Manipulator of Chaos\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Number C43: High Manipulator of Chaos",
+                    "card": "a8efbefc-19d2-4998-963e-e147aa694ba8",
+                    "yugipediaId": 290995,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "300"
+              },
+              {
+                "text": "1 \"Number C104: Umbral Horror Masquerade\"",
+                "cards": [
+                  {
+                    "name": "Number C104: Umbral Horror Masquerade",
+                    "card": "24655596-74ad-46f2-aaa1-30cc5c00230a",
+                    "yugipediaId": 269976,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Number 43: Manipulator of Souls\"",
+                "cards": [
+                  {
+                    "name": "Number 43: Manipulator of Souls",
+                    "card": "aec4c8b8-1ac9-4f92-a5e1-e72afd22440b",
+                    "yugipediaId": 286001,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Corrupted Keys\"",
+                "cards": [
+                  {
+                    "name": "Corrupted Keys",
+                    "card": "ece26462-88a3-4665-be5a-fa7560484de6",
+                    "yugipediaId": 265418,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Sargasso the D.D. Battlefield\"",
+                "cards": [
+                  {
+                    "name": "Sargasso the D.D. Battlefield",
+                    "card": "ead13dcb-81b8-42ea-aa1c-e26ddc2b3a6a",
+                    "yugipediaId": 270225,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Fake Trap\"",
+                "cards": [
+                  {
+                    "name": "Fake Trap",
+                    "card": "14d8a45a-957e-4d79-ba57-09972c2222f4",
+                    "yugipediaId": 4965,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Terrible Deal\"",
+                "cards": [
+                  {
+                    "name": "Terrible Deal",
+                    "card": "e46d166f-11a3-469e-84db-e3d9e86b5354",
+                    "yugipediaId": 20279,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Dark Mambele\"",
+                "cards": [
+                  {
+                    "name": "Dark Mambele",
+                    "card": "fc969663-c5f3-4b01-b78b-31605432a621",
+                    "yugipediaId": 194452,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Abyssal Designator\"",
+                "cards": [
+                  {
+                    "name": "Abyssal Designator",
+                    "card": "e2246e5e-9a24-4fb6-9b4c-45cc695b3a47",
+                    "yugipediaId": 12726,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Dark Chimera\"",
+                "cards": [
+                  {
+                    "name": "Dark Chimera",
+                    "card": "a878c736-5f49-4a2a-bc62-5fb12128815d",
+                    "yugipediaId": 18149,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Rewards",
+        "Event Missions"
+      ],
+      "run": "May 2025",
+      "runIndex": 0,
+      "notes": [
+        "The following missions were added on May 17, 2025."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Defeat the Raid Boss 1 time(s)."
+              },
+              {
+                "text": "1 EX Draw and Summon"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 10 time(s)."
+              },
+              {
+                "text": "10 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 15 time(s)."
+              },
+              {
+                "text": "20 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 20 time(s)."
+              },
+              {
+                "text": "25 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 25 time(s)."
+              },
+              {
+                "text": "30 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 30 time(s)."
+              },
+              {
+                "text": "35 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 35 time(s)."
+              },
+              {
+                "text": "40 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 40 time(s)."
+              },
+              {
+                "text": "50 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Play 10 Assist(s) in Raid Duel (surrenders are not counted)."
+              },
+              {
+                "text": "20 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Play 25 Assist(s) in Raid Duel (surrenders are not counted)."
+              },
+              {
+                "text": "30 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Play 50 Assist(s) in Raid Duel (surrenders are not counted)."
+              },
+              {
+                "text": "40 EX Jewels"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Defeat Raid Boss at Lvl. 2000 or above"
+              },
+              {
+                "text": "Card Sleeves: ZEXAL II & Number C39: Utopia Ray Victory"
+              }
+            ],
+            [
+              {
+                "text": "Inflict 30000 or more points of damage in one Duel against Raid Boss at Lvl. 2000 or above."
+              },
+              {
+                "text": "Game Mat: ZEXAL II & Number C39: Utopia Ray Victory"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Lvl. 2000 or above Raid Boss 3 time(s)."
+              },
+              {
+                "text": "50 Chronicle Chips"
+              }
+            ],
+            [
+              {
+                "text": "Summon \"Number C39: Utopia Ray Victory\" 3 time(s) while playing as Yuma and Astral."
+              },
+              {
+                "text": "Skill: \"ZEXAL II - Shining Evolution\"",
+                "skills": [
+                  {
+                    "name": "ZEXAL II - Shining Evolution",
+                    "skill": "9462e9d4-4d4f-439b-81d5-7099c996ac49",
+                    "yugipediaId": 1127677
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Reduce your opponent's LP to 0 by inflicting battle damage with \"Number C39: Utopia Ray Victory\" using Yuma and Astral."
+              },
+              {
+                "text": "Icon: ZEXAL II & Number C39: Utopia Ray Victory"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Rewards",
+        "Event Missions"
+      ],
+      "run": "Oct-Nov 2025",
+      "runIndex": 1,
+      "notes": [
+        "The following missions were added on October 30, 2025.",
+        "The following mission was added on November 1, 2025."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Defeat the Raid Boss 1 time(s)."
+              },
+              {
+                "text": "1 EX Draw and Summon"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 10 time(s)."
+              },
+              {
+                "text": "10 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 15 time(s)."
+              },
+              {
+                "text": "20 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 20 time(s)."
+              },
+              {
+                "text": "30 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 25 time(s)."
+              },
+              {
+                "text": "40 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 30 time(s)."
+              },
+              {
+                "text": "50 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 35 time(s)."
+              },
+              {
+                "text": "60 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 40 time(s)."
+              },
+              {
+                "text": "70 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Play 10 Assist(s) in Raid Duel (surrenders are not counted)."
+              },
+              {
+                "text": "30 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Play 25 Assist(s) in Raid Duel (surrenders are not counted)."
+              },
+              {
+                "text": "40 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Play 50 Assist(s) in Raid Duel (surrenders are not counted)."
+              },
+              {
+                "text": "50 EX Jewels"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Defeat Raid Boss at Lvl. 2000 or above"
+              },
+              {
+                "text": "Card Sleeves: Vector & Number C104: Umbral Horror Masquerade"
+              }
+            ],
+            [
+              {
+                "text": "Inflict 30000 or more points of damage in one Duel against Raid Boss at Lvl. 2000 or above."
+              },
+              {
+                "text": "Game Mat: Vector & Number C104: Umbral Horror Masquerade"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Lvl. 2000 or above Raid Boss 3 time(s)."
+              },
+              {
+                "text": "50 Chronicle Chips"
+              }
+            ],
+            [
+              {
+                "text": "Summon \"Number C39: Utopia Ray Victory\" 3 time(s) while playing as Yuma and Astral."
+              },
+              {
+                "text": "Skill: \"ZEXAL II - Shining Evolution\"",
+                "skills": [
+                  {
+                    "name": "ZEXAL II - Shining Evolution",
+                    "skill": "9462e9d4-4d4f-439b-81d5-7099c996ac49",
+                    "yugipediaId": 1127677
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Summon \"Number C104: Umbral Horror Masquerade\" 3 time(s) while playing as Vector."
+              },
+              {
+                "text": "Skill: \"Barian Battlemorph! Destiny Draw: RUM\"",
+                "skills": [
+                  {
+                    "name": "Barian Battlemorph! Destiny Draw: RUM",
+                    "skill": "9af524df-ff64-4f66-b414-ff9ffb676bcd",
+                    "yugipediaId": 1156831
+                  }
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Reduce your opponent's LP to 0 by inflicting battle damage with \"Number C39: Utopia Ray Victory\" using Yuma and Astral."
+              },
+              {
+                "text": "Icon: Vector & Number C104: Umbral Horror Masquerade"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "dailyMissions",
+      "path": [
+        "Rewards",
+        "Event Missions",
+        "Daily Missions"
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Play 1 Duel(s) in Ranked Duels (surrenders are not counted)."
+              },
+              {
+                "text": "20 Dimensional Coordinates"
+              }
+            ],
+            [
+              {
+                "text": "Play 2 Duel(s) in Ranked Duels (surrenders are not counted)."
+              },
+              {
+                "text": "20 Dimensional Coordinates"
+              }
+            ],
+            [
+              {
+                "text": "Play 3 Duel(s) in Ranked Duels (surrenders are not counted)."
+              },
+              {
+                "text": "1 Duel Gazer"
+              }
+            ],
+            [
+              {
+                "text": "Use \"Vector\" to duel 1 times in PvP (surrenders are not counted)."
+              },
+              {
+                "text": "30 EX Jewels"
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "decks": [
+    {
+      "path": [
+        "Decks",
+        "Vector",
+        "Level 100-200"
+      ],
+      "name": "I'm Vector",
+      "owner": "Vector",
+      "cards": [
+        {
+          "name": "Claw Reacher",
+          "card": "ca42815f-8cf3-4cca-a1ae-d859535bb24f",
+          "yugipediaId": 10235,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Midnight Fiend",
+          "card": "8fd8436c-572f-440d-9f0a-aae1c1a15155",
+          "yugipediaId": 7058,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "The Shadow Who Controls the Dark",
+          "card": "c87edf78-2a8c-4a40-8c31-4b4ab2c79d7d",
+          "yugipediaId": 7045,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Gorgonic Gargoyle",
+          "card": "31b4c2db-a46c-47a8-bcdc-700c75257e17",
+          "yugipediaId": 270055,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gorgonic Ghoul",
+          "card": "f7d45af0-6ce3-44fa-aec2-7ff5314677b6",
+          "yugipediaId": 309902,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Malicevorous Fork",
+          "card": "86d7becc-d350-49d2-9d95-47b89a632e59",
+          "yugipediaId": 277427,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Malicevorous Knife",
+          "card": "e0f01d22-ab4b-4a83-8a27-01f060cb3379",
+          "yugipediaId": 277426,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Malicevorous Spoon",
+          "card": "4d67f6ef-a103-4b34-9f4b-865bf57ff55a",
+          "yugipediaId": 277428,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Umbral Horror Ghost",
+          "card": "e3b2d97a-352e-4657-b3b7-416e8da9b7f4",
+          "yugipediaId": 286222,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Peeking Goblin",
+          "card": "fccafaa7-efc8-443d-993d-828385ad1a0c",
+          "yugipediaId": 175620,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Pride of the Weak",
+          "card": "bea3fa58-43b4-4835-bd65-27f18de9a380",
+          "yugipediaId": 56300,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Sargasso Lighthouse",
+          "card": "ed1ac767-2224-4f9a-b6d4-2e3ca87ef361",
+          "yugipediaId": 270481,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Where Arf Thou?",
+          "card": "b078797b-1b91-48e8-93f1-e92a641541f9",
+          "yugipediaId": 215187,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Legacy of Yata-Garasu",
+          "card": "d2f93d2d-83d1-46d6-874b-c2e42b7fe4df",
+          "yugipediaId": 5797,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Vector",
+        "Level 300-400"
+      ],
+      "name": "That's the Ray Way!",
+      "owner": "Vector",
+      "cards": [
+        {
+          "name": "Metal Guardian",
+          "card": "85cd67b9-91c3-48fe-b507-1ab9767b0b25",
+          "yugipediaId": 16835,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "That Which Feeds on Life",
+          "card": "e3c7faa7-5cca-48f6-a15a-d1e9d4112a24",
+          "yugipediaId": 9282,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Gorgonic Gargoyle",
+          "card": "31b4c2db-a46c-47a8-bcdc-700c75257e17",
+          "yugipediaId": 270055,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gorgonic Ghoul",
+          "card": "f7d45af0-6ce3-44fa-aec2-7ff5314677b6",
+          "yugipediaId": 309902,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Malicevorous Fork",
+          "card": "86d7becc-d350-49d2-9d95-47b89a632e59",
+          "yugipediaId": 277427,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Malicevorous Knife",
+          "card": "e0f01d22-ab4b-4a83-8a27-01f060cb3379",
+          "yugipediaId": 277426,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Malicevorous Spoon",
+          "card": "4d67f6ef-a103-4b34-9f4b-865bf57ff55a",
+          "yugipediaId": 277428,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Umbral Horror Ghost",
+          "card": "e3b2d97a-352e-4657-b3b7-416e8da9b7f4",
+          "yugipediaId": 286222,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Number 43: Manipulator of Souls",
+          "card": "aec4c8b8-1ac9-4f92-a5e1-e72afd22440b",
+          "yugipediaId": 286001,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Abyssal Designator",
+          "card": "e2246e5e-9a24-4fb6-9b4c-45cc695b3a47",
+          "yugipediaId": 12726,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Dark Energy",
+          "card": "d3f6a945-ad63-4e2c-81ad-7bdf2d89c27a",
+          "yugipediaId": 506281,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Sargasso Lighthouse",
+          "card": "ed1ac767-2224-4f9a-b6d4-2e3ca87ef361",
+          "yugipediaId": 270481,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Vengeful Servant",
+          "card": "97bd8a76-4a1b-4644-916c-7d36cd7f8a41",
+          "yugipediaId": 40747,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Graceful Revival",
+          "card": "7d9d10c5-0fdc-4d8f-af0f-de6d7cc7f94d",
+          "yugipediaId": 24669,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Vector",
+        "Level 500-600"
+      ],
+      "name": "Savor These Last Few Moments!",
+      "owner": "Vector",
+      "cards": [
+        {
+          "name": "Dark Titan of Terror",
+          "card": "4f8df86e-0033-49f6-802f-d127d5f55623",
+          "yugipediaId": 8901,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Neck Hunter",
+          "card": "d27ab02f-5bb9-4e08-bc31-3c12197a3933",
+          "yugipediaId": 19908,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Witty Phantom",
+          "card": "fc284202-8cb9-4cd0-8cf7-d2db0b664ea3",
+          "yugipediaId": 507020,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Gorgonic Cerberus",
+          "card": "6d40708c-1449-486c-b990-e4bf26b828a2",
+          "yugipediaId": 310334,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gorgonic Gargoyle",
+          "card": "31b4c2db-a46c-47a8-bcdc-700c75257e17",
+          "yugipediaId": 270055,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Malicevorous Fork",
+          "card": "86d7becc-d350-49d2-9d95-47b89a632e59",
+          "yugipediaId": 277427,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Malicevorous Knife",
+          "card": "e0f01d22-ab4b-4a83-8a27-01f060cb3379",
+          "yugipediaId": 277426,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Malicevorous Spoon",
+          "card": "4d67f6ef-a103-4b34-9f4b-865bf57ff55a",
+          "yugipediaId": 277428,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Umbral Horror Ghost",
+          "card": "e3b2d97a-352e-4657-b3b7-416e8da9b7f4",
+          "yugipediaId": 286222,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Number 43: Manipulator of Souls",
+          "card": "aec4c8b8-1ac9-4f92-a5e1-e72afd22440b",
+          "yugipediaId": 286001,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Sargasso Lighthouse",
+          "card": "ed1ac767-2224-4f9a-b6d4-2e3ca87ef361",
+          "yugipediaId": 270481,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Sword of Dark Rites",
+          "card": "a516002e-e6f1-4cd1-8051-f853392c7715",
+          "yugipediaId": 20404,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Dark Spirit Art - Greed",
+          "card": "836b9914-9507-443b-8819-39287dd1213d",
+          "yugipediaId": 67213,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Escape from the Dark Dimension",
+          "card": "8f98f367-ef83-4bf3-aa53-b93b87244b9b",
+          "yugipediaId": 67286,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Fiend Griefing",
+          "card": "fdc34865-86dd-4bb6-aa62-edbb2a4c0685",
+          "yugipediaId": 334808,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Vector",
+        "Level 700-800"
+      ],
+      "name": "Time for Chaos to Reign!",
+      "owner": "Vector",
+      "cards": [
+        {
+          "name": "Element Doom",
+          "card": "72598f42-de05-42e5-85f6-036c56f7ad63",
+          "yugipediaId": 15556,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gorgonic Cerberus",
+          "card": "6d40708c-1449-486c-b990-e4bf26b828a2",
+          "yugipediaId": 310334,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gorgonic Gargoyle",
+          "card": "31b4c2db-a46c-47a8-bcdc-700c75257e17",
+          "yugipediaId": 270055,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Prometheus, King of the Shadows",
+          "card": "25aa3793-f4d4-4ef5-ad47-70a579185a20",
+          "yugipediaId": 19229,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Umbral Horror Ghost",
+          "card": "e3b2d97a-352e-4657-b3b7-416e8da9b7f4",
+          "yugipediaId": 286222,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Umbral Horror Ghoul",
+          "card": "3f864d5e-b2c7-4a1a-8e31-3dac6541d794",
+          "yugipediaId": 271767,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Number 43: Manipulator of Souls",
+          "card": "aec4c8b8-1ac9-4f92-a5e1-e72afd22440b",
+          "yugipediaId": 286001,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Number 104: Masquerade",
+          "card": "157dcf41-0300-43ec-b847-da8ae6185207",
+          "yugipediaId": 267875,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Final Gesture",
+          "card": "7b4d8a8a-6708-4751-8b5b-3dd7b479deda",
+          "yugipediaId": 242926,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Glorious Numbers",
+          "card": "891752a4-fabf-4701-8258-2442efab6509",
+          "yugipediaId": 559038,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Sargasso Lighthouse",
+          "card": "ed1ac767-2224-4f9a-b6d4-2e3ca87ef361",
+          "yugipediaId": 270481,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Sargasso the D.D. Battlefield",
+          "card": "ead13dcb-81b8-42ea-aa1c-e26ddc2b3a6a",
+          "yugipediaId": 270225,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Grave Lure",
+          "card": "ba2566ce-762d-4fc7-8307-f5fafc4767fb",
+          "yugipediaId": 17268,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Painful Escape",
+          "card": "f2b9afd6-59a7-4e18-846b-6e862ea29bc7",
+          "yugipediaId": 361452,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Vector",
+        "Level 900-1000"
+      ],
+      "name": "You're Going to Like This!",
+      "owner": "Vector",
+      "cards": [
+        {
+          "name": "Dark Hunter",
+          "card": "fb8444ee-e19b-4d10-b666-dd3aa5b22a6d",
+          "yugipediaId": 35538,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Element Doom",
+          "card": "72598f42-de05-42e5-85f6-036c56f7ad63",
+          "yugipediaId": 15556,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gorgonic Cerberus",
+          "card": "6d40708c-1449-486c-b990-e4bf26b828a2",
+          "yugipediaId": 310334,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gorgonic Gargoyle",
+          "card": "31b4c2db-a46c-47a8-bcdc-700c75257e17",
+          "yugipediaId": 270055,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Shadow Delver",
+          "card": "6ca52d03-92b7-4cb2-99a2-5de451ecd039",
+          "yugipediaId": 511444,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Umbral Horror Ghost",
+          "card": "e3b2d97a-352e-4657-b3b7-416e8da9b7f4",
+          "yugipediaId": 286222,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Umbral Horror Ghoul",
+          "card": "3f864d5e-b2c7-4a1a-8e31-3dac6541d794",
+          "yugipediaId": 271767,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Number 43: Manipulator of Souls",
+          "card": "aec4c8b8-1ac9-4f92-a5e1-e72afd22440b",
+          "yugipediaId": 286001,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Number 104: Masquerade",
+          "card": "157dcf41-0300-43ec-b847-da8ae6185207",
+          "yugipediaId": 267875,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Number C104: Umbral Horror Masquerade",
+          "card": "24655596-74ad-46f2-aaa1-30cc5c00230a",
+          "yugipediaId": 269976,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Demise of the Land",
+          "card": "a8b41ff8-5acc-49a2-b558-596a976706ed",
+          "yugipediaId": 81355,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Glorious Numbers",
+          "card": "891752a4-fabf-4701-8258-2442efab6509",
+          "yugipediaId": 559038,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Rank-Up-Magic Barian's Force",
+          "card": "5092ddce-fb32-47ab-8f98-b2c80f8222df",
+          "yugipediaId": 235987,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Sargasso Lighthouse",
+          "card": "ed1ac767-2224-4f9a-b6d4-2e3ca87ef361",
+          "yugipediaId": 270481,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Sargasso the D.D. Battlefield",
+          "card": "ead13dcb-81b8-42ea-aa1c-e26ddc2b3a6a",
+          "yugipediaId": 270225,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Sword of Dark Destruction",
+          "card": "57c55cbd-835a-4ce4-8273-c98bf4454a43",
+          "yugipediaId": 7839,
+          "count": 1,
+          "category": "spells"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Vector",
+        "Level 2000 and higher"
+      ],
+      "name": "You Won't Call Me Ray Anymore?",
+      "owner": "Vector",
+      "cards": [
+        {
+          "name": "Dark Hunter",
+          "card": "fb8444ee-e19b-4d10-b666-dd3aa5b22a6d",
+          "yugipediaId": 35538,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Element Doom",
+          "card": "72598f42-de05-42e5-85f6-036c56f7ad63",
+          "yugipediaId": 15556,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gorgonic Cerberus",
+          "card": "6d40708c-1449-486c-b990-e4bf26b828a2",
+          "yugipediaId": 310334,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gorgonic Gargoyle",
+          "card": "31b4c2db-a46c-47a8-bcdc-700c75257e17",
+          "yugipediaId": 270055,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Prufinesse, the Tactical Trapper",
+          "card": "0175dbd8-3a74-40df-961d-ea0ba4bb9816",
+          "yugipediaId": 716311,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Shadow Delver",
+          "card": "6ca52d03-92b7-4cb2-99a2-5de451ecd039",
+          "yugipediaId": 511444,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Umbral Horror Ghost",
+          "card": "e3b2d97a-352e-4657-b3b7-416e8da9b7f4",
+          "yugipediaId": 286222,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Umbral Horror Ghoul",
+          "card": "3f864d5e-b2c7-4a1a-8e31-3dac6541d794",
+          "yugipediaId": 271767,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Number 5: Doom Chimera Dragon",
+          "card": "c6a3e890-7ace-4263-b41d-02832419b746",
+          "yugipediaId": 287070,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Number 43: Manipulator of Souls",
+          "card": "aec4c8b8-1ac9-4f92-a5e1-e72afd22440b",
+          "yugipediaId": 286001,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Number 65: Djinn Buster",
+          "card": "827e3e03-abcf-42f6-a105-4258ffa56be5",
+          "yugipediaId": 274918,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Number 104: Masquerade",
+          "card": "157dcf41-0300-43ec-b847-da8ae6185207",
+          "yugipediaId": 267875,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Number C65: King Overfiend",
+          "card": "3e4ada39-4f3c-43ec-8da1-2030bcee8df9",
+          "yugipediaId": 277462,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Number C104: Umbral Horror Masquerade",
+          "card": "24655596-74ad-46f2-aaa1-30cc5c00230a",
+          "yugipediaId": 269976,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Glorious Numbers",
+          "card": "891752a4-fabf-4701-8258-2442efab6509",
+          "yugipediaId": 559038,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Rank-Up-Magic Admiration of the Thousands",
+          "card": "7c39a467-70dc-4b2f-9aca-0ad52b240f3a",
+          "yugipediaId": 286444,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Rank-Up-Magic Barian's Force",
+          "card": "5092ddce-fb32-47ab-8f98-b2c80f8222df",
+          "yugipediaId": 235987,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Sargasso Lighthouse",
+          "card": "ed1ac767-2224-4f9a-b6d4-2e3ca87ef361",
+          "yugipediaId": 270481,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Sargasso the D.D. Battlefield",
+          "card": "ead13dcb-81b8-42ea-aa1c-e26ddc2b3a6a",
+          "yugipediaId": 270225,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Terraforming",
+          "card": "a9cf20eb-ebb6-498b-93f3-59621c1750e1",
+          "yugipediaId": 15979,
+          "count": 1,
+          "category": "spells"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Terrible Deal",
+      "card": "e46d166f-11a3-469e-84db-e3d9e86b5354",
+      "yugipediaId": 20279,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "May 2025",
+          "runIndex": 0,
+          "requirement": "800000"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "May 2025",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "R"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "May 2025",
+          "runIndex": 0,
+          "requirement": "Silver",
+          "rarity": "R"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "Oct-Nov 2025",
+          "runIndex": 1,
+          "requirement": "Gold",
+          "rarity": "R"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "Oct-Nov 2025",
+          "runIndex": 1,
+          "requirement": "Silver",
+          "rarity": "R"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "May 2025",
+          "runIndex": 0,
+          "requirement": "30"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Oct-Nov 2025",
+          "runIndex": 1,
+          "requirement": "30"
+        }
+      ]
+    },
+    {
+      "name": "Sargasso the D.D. Battlefield",
+      "card": "ead13dcb-81b8-42ea-aa1c-e26ddc2b3a6a",
+      "yugipediaId": 270225,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "May 2025",
+          "runIndex": 0,
+          "requirement": "1800000"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "May 2025",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "May 2025",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "SR"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "Oct-Nov 2025",
+          "runIndex": 1,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "Oct-Nov 2025",
+          "runIndex": 1,
+          "requirement": "Gold",
+          "rarity": "SR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "May 2025",
+          "runIndex": 0,
+          "requirement": "100"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Oct-Nov 2025",
+          "runIndex": 1,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Corrupted Keys",
+      "card": "ece26462-88a3-4665-be5a-fa7560484de6",
+      "yugipediaId": 265418,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "May 2025",
+          "runIndex": 0,
+          "requirement": "4700000"
+        },
+        {
+          "kind": "cumulativeRewards",
+          "run": "Oct-Nov 2025",
+          "runIndex": 1,
+          "requirement": "800000"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "May 2025",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "May 2025",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "SR"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "Oct-Nov 2025",
+          "runIndex": 1,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "Oct-Nov 2025",
+          "runIndex": 1,
+          "requirement": "Gold",
+          "rarity": "SR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "May 2025",
+          "runIndex": 0,
+          "requirement": "100"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Oct-Nov 2025",
+          "runIndex": 1,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Number C104: Umbral Horror Masquerade",
+      "card": "24655596-74ad-46f2-aaa1-30cc5c00230a",
+      "yugipediaId": 269976,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "May 2025",
+          "runIndex": 0,
+          "requirement": "12000000"
+        },
+        {
+          "kind": "cumulativeRewards",
+          "run": "Oct-Nov 2025",
+          "runIndex": 1,
+          "requirement": "1600000"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "May 2025",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "UR"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "Oct-Nov 2025",
+          "runIndex": 1,
+          "requirement": "Rainbow",
+          "rarity": "UR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "May 2025",
+          "runIndex": 0,
+          "requirement": "300"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "May 2025",
+          "runIndex": 0,
+          "requirement": "100"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "May 2025",
+          "runIndex": 0,
+          "requirement": "400"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Oct-Nov 2025",
+          "runIndex": 1,
+          "requirement": "300"
+        }
+      ]
+    },
+    {
+      "name": "Number 43: Manipulator of Souls",
+      "card": "aec4c8b8-1ac9-4f92-a5e1-e72afd22440b",
+      "yugipediaId": 286001,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "Oct-Nov 2025",
+          "runIndex": 1,
+          "requirement": "4400000"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "Oct-Nov 2025",
+          "runIndex": 1,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "Oct-Nov 2025",
+          "runIndex": 1,
+          "requirement": "Gold",
+          "rarity": "SR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Oct-Nov 2025",
+          "runIndex": 1,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Number C43: High Manipulator of Chaos",
+      "card": "a8efbefc-19d2-4998-963e-e147aa694ba8",
+      "yugipediaId": 290995,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "Oct-Nov 2025",
+          "runIndex": 1,
+          "requirement": "12000000"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "Oct-Nov 2025",
+          "runIndex": 1,
+          "requirement": "Rainbow",
+          "rarity": "UR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Oct-Nov 2025",
+          "runIndex": 1,
+          "requirement": "300"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Oct-Nov 2025",
+          "runIndex": 1,
+          "requirement": "100"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Oct-Nov 2025",
+          "runIndex": 1,
+          "requirement": "400"
+        }
+      ]
+    },
+    {
+      "name": "Sargasso Lighthouse",
+      "card": "ed1ac767-2224-4f9a-b6d4-2e3ca87ef361",
+      "yugipediaId": 270481,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "May 2025",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "UR"
+        },
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "May 2025",
+          "runIndex": 0,
+          "requirement": "300"
+        }
+      ]
+    },
+    {
+      "name": "Number 65: Djinn Buster",
+      "card": "827e3e03-abcf-42f6-a105-4258ffa56be5",
+      "yugipediaId": 274918,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "May 2025",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "May 2025",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "SR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "May 2025",
+          "runIndex": 0,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Fake Trap",
+      "card": "14d8a45a-957e-4d79-ba57-09972c2222f4",
+      "yugipediaId": 4965,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "May 2025",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "R"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "May 2025",
+          "runIndex": 0,
+          "requirement": "Silver",
+          "rarity": "R"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "Oct-Nov 2025",
+          "runIndex": 1,
+          "requirement": "Gold",
+          "rarity": "R"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "Oct-Nov 2025",
+          "runIndex": 1,
+          "requirement": "Silver",
+          "rarity": "R"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "May 2025",
+          "runIndex": 0,
+          "requirement": "30"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Oct-Nov 2025",
+          "runIndex": 1,
+          "requirement": "30"
+        }
+      ]
+    },
+    {
+      "name": "Dark Mambele",
+      "card": "fc969663-c5f3-4b01-b78b-31605432a621",
+      "yugipediaId": 194452,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "May 2025",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "R"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "May 2025",
+          "runIndex": 0,
+          "requirement": "Silver",
+          "rarity": "R"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "Oct-Nov 2025",
+          "runIndex": 1,
+          "requirement": "Gold",
+          "rarity": "R"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "Oct-Nov 2025",
+          "runIndex": 1,
+          "requirement": "Silver",
+          "rarity": "R"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "May 2025",
+          "runIndex": 0,
+          "requirement": "30"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Oct-Nov 2025",
+          "runIndex": 1,
+          "requirement": "30"
+        }
+      ]
+    },
+    {
+      "name": "Abyssal Designator",
+      "card": "e2246e5e-9a24-4fb6-9b4c-45cc695b3a47",
+      "yugipediaId": 12726,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "May 2025",
+          "runIndex": 0,
+          "requirement": "Silver",
+          "rarity": "N"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "Oct-Nov 2025",
+          "runIndex": 1,
+          "requirement": "Silver",
+          "rarity": "N"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "May 2025",
+          "runIndex": 0,
+          "requirement": "10"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Oct-Nov 2025",
+          "runIndex": 1,
+          "requirement": "10"
+        }
+      ]
+    },
+    {
+      "name": "Dark Chimera",
+      "card": "a878c736-5f49-4a2a-bc62-5fb12128815d",
+      "yugipediaId": 18149,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "May 2025",
+          "runIndex": 0,
+          "requirement": "Silver",
+          "rarity": "N"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "Oct-Nov 2025",
+          "runIndex": 1,
+          "requirement": "Silver",
+          "rarity": "N"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "May 2025",
+          "runIndex": 0,
+          "requirement": "10"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Oct-Nov 2025",
+          "runIndex": 1,
+          "requirement": "10"
+        }
+      ]
+    },
+    {
+      "name": "Night Express Knight",
+      "card": "1747c8f5-af7b-4368-bfbc-aa03ba3e325a",
+      "yugipediaId": 258390,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Cataclysmic Scorching Sunburner",
+      "card": "f4e0ccae-d775-4cbb-8252-b10f1183e8db",
+      "yugipediaId": 576136,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Gimmick Puppet Twilight Joker",
+      "card": "3d737eff-45e6-45e7-8985-e0b88e30cd4a",
+      "yugipediaId": 206219,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Prime Material Dragon",
+      "card": "f22b3e6d-56ad-49f7-b4d4-e3c1e2d18224",
+      "yugipediaId": 88544,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Chronomaly Moai Carrier",
+      "card": "8b8c5399-d109-488c-b1fc-9ff066e63ba8",
+      "yugipediaId": 300514,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Chronomaly Moai",
+      "card": "5aa270b3-206a-4ad3-a4c6-f9ae772cf605",
+      "yugipediaId": 200789,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Chronomaly Tula Guardian",
+      "card": "5c43f49b-11e9-487e-8ade-71b928b35816",
+      "yugipediaId": 196683,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Fencing Fire Ferret",
+      "card": "cf8acca8-99c7-4a0d-a265-447cfb4d3e3c",
+      "yugipediaId": 260886,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Express Train Trolley Olley",
+      "card": "163613c5-1ec4-4847-a106-1e08214bac59",
+      "yugipediaId": 200775,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Gimmick Puppet Scissor Arms",
+      "card": "79c39a3a-d3e2-4980-ba7f-0776db8babd1",
+      "yugipediaId": 215808,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Gimmick Puppet Egg Head",
+      "card": "6dc0314d-e242-4b6a-9e4b-6ffe7af8e93e",
+      "yugipediaId": 200853,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Photon Advancer",
+      "card": "61f5aaf6-1722-4376-8474-7ee9e87548de",
+      "yugipediaId": 300838,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Inferno",
+      "card": "e4fd7dec-683c-4ce8-9819-97018ddaed8b",
+      "yugipediaId": 17157,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Gagaga Magician",
+      "card": "ffe4edd8-a97e-430f-9e63-2722891d3d16",
+      "yugipediaId": 150083,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Penguin Soldier",
+      "card": "1fe38082-1018-458e-8ef2-c5f731e5fdd9",
+      "yugipediaId": 70,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Full Armored Crystalzero Lancer",
+      "card": "60e664ce-103e-4c53-835f-ba65061115eb",
+      "yugipediaId": 293276,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Number C80: Requiem in Berserk",
+      "card": "b0aea0b4-62c3-4959-b2b0-15cc46c8a564",
+      "yugipediaId": 282455,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Ice Princess Zereort",
+      "card": "15b9d317-a393-400e-b2e6-6016c7a3328e",
+      "yugipediaId": 273756,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Starring Knight",
+      "card": "21ab64d2-2bab-480a-a043-7d6d400fed21",
+      "yugipediaId": 716854,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Galaxy Stealth Dragon",
+      "card": "53ecfaa9-2e46-478b-9e36-c546f4170f57",
+      "yugipediaId": 457257,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Number 105: Battlin' Boxer Star Cestus",
+      "card": "66d04d1e-1331-46cd-9fe9-93167935f6ed",
+      "yugipediaId": 256805,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Heavy Armored Train Ironwolf",
+      "card": "dd641844-646d-4ac6-8801-f63ff4b51f84",
+      "yugipediaId": 458378,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Number 10: Illumiknight",
+      "card": "ce48f24c-8062-45b1-b558-6d21fde6e7f2",
+      "yugipediaId": 172769,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Fairy Cheer Girl",
+      "card": "78b579d4-a3ab-4cf0-92f0-f7836be4458b",
+      "yugipediaId": 248502,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Tin Archduke",
+      "card": "0e9d4146-74ba-4e9e-87b9-9aac666858f5",
+      "yugipediaId": 181455,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Number 34: Terror-Byte",
+      "card": "60159de7-f5d1-4d4f-9f9d-6f825f7a060b",
+      "yugipediaId": 168355,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Number 47: Nightmare Shark",
+      "card": "d74d52b8-57bc-47da-a056-5beecad27940",
+      "yugipediaId": 247308,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Number 17: Leviathan Dragon",
+      "card": "d538a548-0d1d-4abf-886d-9b7841080371",
+      "yugipediaId": 150636,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Galactic Charity",
+      "card": "bbf15bb1-f2ee-48b6-be74-60ec01cfd9d7",
+      "yugipediaId": 296283,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Setuppercut",
+      "card": "db7b32ab-0c5c-49c0-88f6-c4ebf9a9df11",
+      "yugipediaId": 600362,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Indestructible Airship Hindenkraft",
+      "card": "d1db38fd-e9d2-4ec0-a151-91f62ae409b8",
+      "yugipediaId": 718658,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Galactic Spiral Dragon",
+      "card": "7048e0d6-5837-46ec-854d-327e7fe13de4",
+      "yugipediaId": 644735,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Gimmick Puppet Magnet Doll",
+      "card": "cf7f240f-3876-4b78-ab30-71846ca1a126",
+      "yugipediaId": 206148,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Archlord Zerato",
+      "card": "6275d19d-1fae-4ee3-ae4a-78e5dc4e4ce2",
+      "yugipediaId": 15588,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Genesis Dragon",
+      "card": "d593392e-fb44-49f2-bc2e-25f78a9b963f",
+      "yugipediaId": 23872,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Depth Shark",
+      "card": "c866360c-e4ce-48c4-96ba-beca0faa2545",
+      "yugipediaId": 274626,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Tethys, Goddess of Light",
+      "card": "af2ebb92-7ebb-4b22-a09c-7e6e1a8aa5b3",
+      "yugipediaId": 69799,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Magic Hand",
+      "card": "861fc8c1-b031-41e2-a89a-7ef362e2c3cf",
+      "yugipediaId": 248415,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Blizzard Falcon",
+      "card": "b119dd7d-2498-4a92-9823-068f8fc18e16",
+      "yugipediaId": 233060,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Lionhearted Locomotive",
+      "card": "1a515b1a-b32e-499e-939d-020e1fe82fc6",
+      "yugipediaId": 200746,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Chronomaly Aztec Mask Golem",
+      "card": "f4153a79-5ef9-4ef1-8bc4-e2620ec37d34",
+      "yugipediaId": 221773,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Gimmick Puppet Des Troy",
+      "card": "e1c583eb-0154-4c9b-8e29-7a55a1de26fa",
+      "yugipediaId": 289194,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Chronomaly Golden Jet",
+      "card": "3a6e0981-323c-4f0d-930e-0e72da3347a2",
+      "yugipediaId": 185983,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Chronomaly Mud Golem",
+      "card": "92cde983-0bce-4c41-9250-9a4448d544b3",
+      "yugipediaId": 203448,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Reverse Buster",
+      "card": "125aa39f-65a7-4ca7-95d5-24c2bc4b6afd",
+      "yugipediaId": 193517,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Photon Crusher",
+      "card": "fe970e0c-3c91-4371-873a-5c96c4c0c3d1",
+      "yugipediaId": 190064,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Gogogo Golem",
+      "card": "17531a23-55ad-43f0-8f17-efd9a76b1ae3",
+      "yugipediaId": 161837,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Sand Moth",
+      "card": "702f34da-6026-4365-9e45-03d9d68f208e",
+      "yugipediaId": 11645,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Harvest Angel of Wisdom",
+      "card": "d62de900-c1f7-4932-bf10-0ec3e443b5aa",
+      "yugipediaId": 19069,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Radiant Jeral",
+      "card": "9586c63c-b1a4-4ff1-b770-cc069f2caa42",
+      "yugipediaId": 19702,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Zeradias, Herald of Heaven",
+      "card": "82536c8e-0d7a-46f5-8247-d38555421155",
+      "yugipediaId": 20206,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Dark Crusader",
+      "card": "48482748-59d7-4e77-b451-6c4c79457879",
+      "yugipediaId": 75178,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Biofalcon",
+      "card": "bd0d4342-546d-4417-a05a-3867a5d306dc",
+      "yugipediaId": 127680,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Shark Stickers",
+      "card": "68f92088-b74d-459b-887a-102ff8546dae",
+      "yugipediaId": 171917,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Toy Soldier",
+      "card": "60a33181-30c5-47ff-a059-680a504fdd94",
+      "yugipediaId": 1029887,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Nimble Momonga",
+      "card": "fb290bf1-2ba1-43aa-9104-7134304aa7a7",
+      "yugipediaId": 4393,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Gimmick Puppet Gear Changer",
+      "card": "f416c197-e187-42c8-b116-557c90fd37f8",
+      "yugipediaId": 206061,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Wind-Up Honeybee",
+      "card": "f3edcf6d-5ccf-44c2-a2eb-c205829921b8",
+      "yugipediaId": 179660,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Baromet the Sacred Sheep Shrub",
+      "card": "9a35449f-e1f9-4e85-8278-04e077a84720",
+      "yugipediaId": 716564,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Number 80: Rhapsody in Berserk",
+      "card": "148c0352-539f-426e-a94d-b1cec25a82ac",
+      "yugipediaId": 300782,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Number 20: Giga-Brilliant",
+      "card": "eb4f2ead-5d09-414e-855e-8b454c40b56b",
+      "yugipediaId": 172674,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Temtempo the Percussion Djinn",
+      "card": "5f064a41-9357-437e-9e60-3db851d3e915",
+      "yugipediaId": 189418,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Xyz Align",
+      "card": "0662de59-fe02-4398-a473-1acbccc4bfd3",
+      "yugipediaId": 717534,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Dragon Shield",
+      "card": "9b8399d7-6ffc-4550-8f06-5753684cfe7d",
+      "yugipediaId": 260597,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Xyz Import",
+      "card": "1fd682d9-90f4-466b-ae26-0455ffb978c1",
+      "yugipediaId": 717537,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Xyz Burst",
+      "card": "a623c077-bd21-4d32-9472-cdfbd8f7eb32",
+      "yugipediaId": 194576,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Weights & Zenmaisures",
+      "card": "5ccd0c30-321e-48de-bf68-5746101ce8a4",
+      "yugipediaId": 181035,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Sacred Defense Barrier",
+      "card": "73d9cecf-ffc8-48e4-9024-02d434ea5482",
+      "yugipediaId": 719495,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Reload",
+      "card": "a6572397-03da-4b2e-873f-8eeffba1a4f8",
+      "yugipediaId": 504772,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Water Hazard",
+      "card": "a7e7289e-0849-49a8-b07f-ef04c8cfdb07",
+      "yugipediaId": 110971,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Xyz Bento",
+      "card": "512a339f-6e8d-41c6-8c6f-277991dc6ea3",
+      "yugipediaId": 708450,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Torrential Reborn",
+      "card": "434bf05f-4d20-48ab-b04e-b89aeb76fb07",
+      "yugipediaId": 226636,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Wonder Xyz",
+      "card": "2001e89d-ad46-4f8b-9ea3-dce68c38dcd8",
+      "yugipediaId": 360334,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Stellarnova Wave",
+      "card": "3eafafe8-1377-409f-8b92-1634fe3fe120",
+      "yugipediaId": 334266,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Divine Punishment",
+      "card": "12e80df3-0899-4bbf-b5df-7ad5b1371319",
+      "yugipediaId": 161235,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Gamushara",
+      "card": "3f7533d0-4698-4701-b89a-5c0b42bf1838",
+      "yugipediaId": 189566,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Dimension Gate",
+      "card": "b3451b1c-a951-4d53-8f68-1222816fb8bb",
+      "yugipediaId": 235387,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "ZEXAL II - Shining Evolution",
+      "skill": "9462e9d4-4d4f-439b-81d5-7099c996ac49",
+      "yugipediaId": 1127677,
+      "obtainedVia": [
+        {
+          "kind": "missions",
+          "run": "May 2025",
+          "runIndex": 0,
+          "requirement": "Summon \"Number C39: Utopia Ray Victory\" 3 time(s) while playing as Yuma and Astral."
+        },
+        {
+          "kind": "missions",
+          "run": "Oct-Nov 2025",
+          "runIndex": 1,
+          "requirement": "Summon \"Number C39: Utopia Ray Victory\" 3 time(s) while playing as Yuma and Astral."
+        }
+      ]
+    },
+    {
+      "name": "Barian Battlemorph! Destiny Draw: RUM",
+      "skill": "9af524df-ff64-4f66-b414-ff9ffb676bcd",
+      "yugipediaId": 1156831,
+      "obtainedVia": [
+        {
+          "kind": "missions",
+          "run": "Oct-Nov 2025",
+          "runIndex": 1,
+          "requirement": "Summon \"Number C104: Umbral Horror Masquerade\" 3 time(s) while playing as Vector."
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "RAID DUEL: War in the Dimensional Battlefield! Number 104: Masquerade",
+        "id": 1128485
+      }
+    ]
+  }
+}

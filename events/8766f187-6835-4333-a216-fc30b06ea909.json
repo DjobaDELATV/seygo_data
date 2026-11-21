@@ -1,0 +1,857 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "8766f187-6835-4333-a216-fc30b06ea909",
+  "name": {
+    "en": "Bonds Beyond Time: Paradox Appears"
+  },
+  "type": "Roaming Duelist event",
+  "duelWorlds": [
+    "Duel World (5D's)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/1/12/BondsBeyondTimeParadoxAppears-Banner.png",
+  "runs": [
+    {
+      "startDate": "2022-04-21",
+      "endDate": "2022-04-30"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel rewards"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "In addition to the following, standard Duel Rewards are also available by Dueling Paradox at Level 30 or lower."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Fiendish Portrait\", \"Malefic Red-Eyes Black Dragon\", \"Malefic Force\"",
+                "cards": [
+                  {
+                    "name": "Fiendish Portrait",
+                    "card": "6e0c3c73-911d-488e-8971-4bb1c5b0b49c",
+                    "yugipediaId": 669673
+                  },
+                  {
+                    "name": "Malefic Red-Eyes Black Dragon",
+                    "card": "8036caae-9a8a-4a96-af37-5eb4c4bbae7e",
+                    "yugipediaId": 514016
+                  },
+                  {
+                    "name": "Malefic Force",
+                    "card": "9e8b64fb-152f-4a22-bc75-a728bdeb0f62",
+                    "yugipediaId": 1174667
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Loud Cloud the Storm Serpent\", \"Time Machine\"",
+                "cards": [
+                  {
+                    "name": "Loud Cloud the Storm Serpent",
+                    "card": "9cee7dd9-c093-4d3b-857b-14c57c4c5602",
+                    "yugipediaId": 588766
+                  },
+                  {
+                    "name": "Time Machine",
+                    "card": "4f13d084-1948-40c8-aa6c-f954f4040ad4",
+                    "yugipediaId": 16436
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Cloning\", \"Different Dimension Capsule\", \"Tri-Horned Dragon\", \"Triggered Summon\", \"Graverobber\"",
+                "cards": [
+                  {
+                    "name": "Cloning",
+                    "card": "b08009dc-6a89-4ab9-aac9-a7ecf583674a",
+                    "yugipediaId": 12648
+                  },
+                  {
+                    "name": "Different Dimension Capsule",
+                    "card": "4573972d-bbdf-4729-92c3-394f880617d0",
+                    "yugipediaId": 15592
+                  },
+                  {
+                    "name": "Tri-Horned Dragon",
+                    "card": "93e53920-5ab1-466e-a7a8-6c35b60b3fcc",
+                    "yugipediaId": 2661
+                  },
+                  {
+                    "name": "Triggered Summon",
+                    "card": "c8610a5c-28a1-47e7-835f-07a5daa3ae2f",
+                    "yugipediaId": 21028
+                  },
+                  {
+                    "name": "Graverobber",
+                    "card": "ca2f6ccd-f4e0-440c-8d61-77690e1921ca",
+                    "yugipediaId": 504801
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": ""
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Rewards",
+        "Event missions"
+      ],
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against Paradox in Duel World."
+              },
+              {
+                "text": "1 \"Cloning\" (Glossy)",
+                "cards": [
+                  {
+                    "name": "Cloning",
+                    "card": "b08009dc-6a89-4ab9-aac9-a7ecf583674a",
+                    "yugipediaId": 12648,
+                    "quantity": 1,
+                    "variant": "Glossy"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 3 Duel(s) against Paradox in Duel World."
+              },
+              {
+                "text": "1 \"Time Machine\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Time Machine",
+                    "card": "4f13d084-1948-40c8-aa6c-f954f4040ad4",
+                    "yugipediaId": 16436,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 7 Duel(s) against Paradox in Duel World."
+              },
+              {
+                "text": "1 \"Loud Cloud the Storm Serpent\"",
+                "cards": [
+                  {
+                    "name": "Loud Cloud the Storm Serpent",
+                    "card": "9cee7dd9-c093-4d3b-857b-14c57c4c5602",
+                    "yugipediaId": 588766,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Play 15 Duel(s) against Paradox in Duel World (surrenders are not counted)."
+              },
+              {
+                "text": "1 \"Fiendish Portrait\"",
+                "cards": [
+                  {
+                    "name": "Fiendish Portrait",
+                    "card": "6e0c3c73-911d-488e-8971-4bb1c5b0b49c",
+                    "yugipediaId": 669673,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "decks": [
+    {
+      "path": [
+        "Decks",
+        "Level 10"
+      ],
+      "name": "The Great Experiment",
+      "owner": "Paradox",
+      "cards": [
+        {
+          "name": "Ancient Tool",
+          "card": "32bdced5-f42b-47b6-a3fa-05911c538f08",
+          "yugipediaId": 19373,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Necrolancer the Time-lord",
+          "card": "e709538d-94eb-444a-b60c-0f07156fcafa",
+          "yugipediaId": 9377,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Serpent Night Dragon",
+          "card": "be409524-28d6-4d7c-b584-412f8dab8937",
+          "yugipediaId": 7945,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Ally of Justice Unlimiter",
+          "card": "553cc8ab-ce4b-4697-98c0-dc2d9f553c0d",
+          "yugipediaId": 57450,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "D.D. Patrol Plane",
+          "card": "c19d4ed1-eaed-4924-ae3d-318bc6b70aec",
+          "yugipediaId": 642437,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Genex Recycled",
+          "card": "9a1372d1-5091-4a47-87d9-7b2cff86af34",
+          "yugipediaId": 57424,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Genex Spare",
+          "card": "198c1921-cd08-4b28-84ed-4867a939715e",
+          "yugipediaId": 46514,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Hack Worm",
+          "card": "d5a50b7a-02ad-4d6f-8a6d-ccfcd8a88019",
+          "yugipediaId": 492055,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Dimension Distortion",
+          "card": "6503f8df-5d59-4794-b13a-77245cd4f8ca",
+          "yugipediaId": 14822,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Painful Return",
+          "card": "25c57d0c-a0e6-4fd4-baf7-ce9e691a6344",
+          "yugipediaId": 191531,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "The Beginning of the End",
+          "card": "c3fa8524-a90d-46a0-8e1d-afb941301ac3",
+          "yugipediaId": 76412,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Escape from the Dark Dimension",
+          "card": "8f98f367-ef83-4bf3-aa53-b93b87244b9b",
+          "yugipediaId": 67286,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Level 20"
+      ],
+      "name": "For the Sake of Changing History",
+      "owner": "Paradox",
+      "cards": [
+        {
+          "name": "Genex Controller",
+          "card": "94df5076-e0b0-41da-b1b9-33ccf82e08f1",
+          "yugipediaId": 27673,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Ally of Justice Cyclone Creator",
+          "card": "21a7b711-7afd-441e-989f-4254a60b0798",
+          "yugipediaId": 43589,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Ally of Justice Searcher",
+          "card": "bffff336-69a0-4f89-b3ef-4bd4a9d5c5d2",
+          "yugipediaId": 45131,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Ally of Justice Unknown Crusher",
+          "card": "6ef95631-ef23-4091-8f51-c41de590f7a2",
+          "yugipediaId": 25028,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "D.D. Patrol Plane",
+          "card": "c19d4ed1-eaed-4924-ae3d-318bc6b70aec",
+          "yugipediaId": 642437,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Dark Horus",
+          "card": "c84eb3aa-d0c1-479d-9462-5fd69ab4ac53",
+          "yugipediaId": 75333,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Dimension Jar",
+          "card": "688b368c-b75a-4df0-b70a-1227ae784dce",
+          "yugipediaId": 17815,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Divine Dragon Apocralyph",
+          "card": "7fb57883-8f72-4f52-92a7-f9341f806c54",
+          "yugipediaId": 194088,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Genex Spare",
+          "card": "198c1921-cd08-4b28-84ed-4867a939715e",
+          "yugipediaId": 46514,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Unauthorized Bootup Device",
+          "card": "ce9f836d-9e9e-4625-b8a6-cbc79f236107",
+          "yugipediaId": 717312,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Dimension Distortion",
+          "card": "6503f8df-5d59-4794-b13a-77245cd4f8ca",
+          "yugipediaId": 14822,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Final Gesture",
+          "card": "7b4d8a8a-6708-4751-8b5b-3dd7b479deda",
+          "yugipediaId": 242926,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "The Beginning of the End",
+          "card": "c3fa8524-a90d-46a0-8e1d-afb941301ac3",
+          "yugipediaId": 76412,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Escape from the Dark Dimension",
+          "card": "8f98f367-ef83-4bf3-aa53-b93b87244b9b",
+          "yugipediaId": 67286,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Reverse Trap",
+          "card": "61b284a4-e5b1-4d78-883f-ce212efa0ca0",
+          "yugipediaId": 509721,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Level 30"
+      ],
+      "name": "I Will Eliminate You All!",
+      "owner": "Paradox",
+      "cards": [
+        {
+          "name": "Blackland Fire Dragon",
+          "card": "9a30bfd8-dd46-433b-a553-bb8d1089e1ff",
+          "yugipediaId": 4769,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Blocker",
+          "card": "1d3c0dd8-6761-4aec-a472-4415e1105ada",
+          "yugipediaId": 9181,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Koumori Dragon",
+          "card": "5ec341d4-a41a-4406-9c9b-b8d2547f38bd",
+          "yugipediaId": 4114,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Red-Eyes Black Dragon",
+          "card": "2259107b-9d4b-42b0-af3d-5d7c738e85da",
+          "yugipediaId": 73,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Ally of Justice Cyclone Creator",
+          "card": "21a7b711-7afd-441e-989f-4254a60b0798",
+          "yugipediaId": 43589,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Divine Dragon Apocralyph",
+          "card": "7fb57883-8f72-4f52-92a7-f9341f806c54",
+          "yugipediaId": 194088,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Fusilier Dragon, the Dual-Mode Beast",
+          "card": "8f3d4349-13b9-49df-8c3c-25e17a09d2fb",
+          "yugipediaId": 717,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Malefic Red-Eyes Black Dragon",
+          "card": "8036caae-9a8a-4a96-af37-5eb4c4bbae7e",
+          "yugipediaId": 514016,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Malefic Stardust Dragon",
+          "card": "ec4b7be0-db5d-42c7-b09e-8ac263c239dc",
+          "yugipediaId": 514574,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Genex Controller",
+          "card": "94df5076-e0b0-41da-b1b9-33ccf82e08f1",
+          "yugipediaId": 27673,
+          "count": 1,
+          "category": "tuner monsters"
+        },
+        {
+          "name": "Stardust Dragon",
+          "card": "64785f1b-9863-4343-975b-ad91c9d5168f",
+          "yugipediaId": 86825,
+          "count": 1,
+          "category": "synchro monsters"
+        },
+        {
+          "name": "Malefic World",
+          "card": "a3cfcd21-e50d-4664-8cf8-c3fa33aac75e",
+          "yugipediaId": 129602,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Escape from the Dark Dimension",
+          "card": "8f98f367-ef83-4bf3-aa53-b93b87244b9b",
+          "yugipediaId": 67286,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Malefic Tune",
+          "card": "2921b6fd-484b-4606-b54e-88e06e4e5526",
+          "yugipediaId": 591613,
+          "count": 2,
+          "category": "traps"
+        },
+        {
+          "name": "Reverse Trap",
+          "card": "61b284a4-e5b1-4d78-883f-ce212efa0ca0",
+          "yugipediaId": 509721,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Time Machine",
+          "card": "4f13d084-1948-40c8-aa6c-f954f4040ad4",
+          "yugipediaId": 16436,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Level 40"
+      ],
+      "name": "Darkness from the Dimensional Fissure",
+      "owner": "Paradox",
+      "cards": [
+        {
+          "name": "Blue-Eyes White Dragon",
+          "card": "ee6249a6-f980-43b3-8e39-4ee5c89c09c0",
+          "yugipediaId": 30,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Hunter Dragon",
+          "card": "da67b9b9-a746-4c75-bcb4-73b3d10fbb3e",
+          "yugipediaId": 512550,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Mechanicalchaser",
+          "card": "57731395-8620-4e81-8a7b-563e22131ff4",
+          "yugipediaId": 509334,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Red-Eyes Black Dragon",
+          "card": "2259107b-9d4b-42b0-af3d-5d7c738e85da",
+          "yugipediaId": 73,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Dimension Fortress Weapon",
+          "card": "f7e072f3-b59d-4c19-885c-22f513dbd29b",
+          "yugipediaId": 57438,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Dragard",
+          "card": "a53685eb-f952-4ade-b007-7e51c4b33856",
+          "yugipediaId": 191502,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Genex Ally Bellflame",
+          "card": "a7974b06-dcd8-4dbb-9fc0-40419b0b836e",
+          "yugipediaId": 126721,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Genex Ally Crusher",
+          "card": "cbe1e73f-7a2e-402b-82b1-26ec5c9e4e8f",
+          "yugipediaId": 126757,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Jack Wyvern",
+          "card": "30a5be55-8439-4e41-99ee-68485b9c79fb",
+          "yugipediaId": 492040,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Malefic Blue-Eyes White Dragon",
+          "card": "86d36e0a-350b-46ad-b058-59788c96c481",
+          "yugipediaId": 513506,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Malefic Red-Eyes Black Dragon",
+          "card": "8036caae-9a8a-4a96-af37-5eb4c4bbae7e",
+          "yugipediaId": 514016,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Malefic Stardust Dragon",
+          "card": "ec4b7be0-db5d-42c7-b09e-8ac263c239dc",
+          "yugipediaId": 514574,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Malefic Parallel Gear",
+          "card": "e79ae985-e362-46d3-993c-557fc980223e",
+          "yugipediaId": 129631,
+          "count": 1,
+          "category": "tuner monsters"
+        },
+        {
+          "name": "Malefic Paradox Dragon",
+          "card": "2e12c535-3f5f-4618-ba66-779da000105f",
+          "yugipediaId": 129521,
+          "count": 1,
+          "category": "synchro monsters"
+        },
+        {
+          "name": "Stardust Dragon",
+          "card": "64785f1b-9863-4343-975b-ad91c9d5168f",
+          "yugipediaId": 86825,
+          "count": 1,
+          "category": "synchro monsters"
+        },
+        {
+          "name": "Malefic Selector",
+          "card": "1f59ad35-1ef3-4214-830a-2e589ee957bc",
+          "yugipediaId": 589691,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Malefic World",
+          "card": "a3cfcd21-e50d-4664-8cf8-c3fa33aac75e",
+          "yugipediaId": 129602,
+          "count": 3,
+          "category": "spells"
+        },
+        {
+          "name": "Malefic Tune",
+          "card": "2921b6fd-484b-4606-b54e-88e06e4e5526",
+          "yugipediaId": 591613,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Reverse Trap",
+          "card": "61b284a4-e5b1-4d78-883f-ce212efa0ca0",
+          "yugipediaId": 509721,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Time Machine",
+          "card": "4f13d084-1948-40c8-aa6c-f954f4040ad4",
+          "yugipediaId": 16436,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Fiendish Portrait",
+      "card": "6e0c3c73-911d-488e-8971-4bb1c5b0b49c",
+      "yugipediaId": 669673,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Play 15 Duel(s) against Paradox in Duel World (surrenders are not counted)."
+        }
+      ]
+    },
+    {
+      "name": "Malefic Red-Eyes Black Dragon",
+      "card": "8036caae-9a8a-4a96-af37-5eb4c4bbae7e",
+      "yugipediaId": 514016,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Malefic Force",
+      "card": "9e8b64fb-152f-4a22-bc75-a728bdeb0f62",
+      "yugipediaId": 1174667,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Loud Cloud the Storm Serpent",
+      "card": "9cee7dd9-c093-4d3b-857b-14c57c4c5602",
+      "yugipediaId": 588766,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 7 Duel(s) against Paradox in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Time Machine",
+      "card": "4f13d084-1948-40c8-aa6c-f954f4040ad4",
+      "yugipediaId": 16436,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 3 Duel(s) against Paradox in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Cloning",
+      "card": "b08009dc-6a89-4ab9-aac9-a7ecf583674a",
+      "yugipediaId": 12648,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 1 Duel(s) against Paradox in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Different Dimension Capsule",
+      "card": "4573972d-bbdf-4729-92c3-394f880617d0",
+      "yugipediaId": 15592,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Tri-Horned Dragon",
+      "card": "93e53920-5ab1-466e-a7a8-6c35b60b3fcc",
+      "yugipediaId": 2661,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Triggered Summon",
+      "card": "c8610a5c-28a1-47e7-835f-07a5daa3ae2f",
+      "yugipediaId": 21028,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Graverobber",
+      "card": "ca2f6ccd-f4e0-440c-8d61-77690e1921ca",
+      "yugipediaId": 504801,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Bonds Beyond Time: Paradox Appears",
+        "id": 1011650
+      }
+    ]
+  }
+}

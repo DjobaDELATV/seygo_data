@@ -1,0 +1,207 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "9d60e01a-52db-4064-b5b4-bce76e97707a",
+  "name": {
+    "en": "GO RUSH!! World Release Celebration Campaign"
+  },
+  "rushDuel": false,
+  "runs": [
+    {
+      "startDate": "2024-10-01",
+      "endDate": "2025-02-28"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "other",
+      "path": [
+        "Rewards"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "Players who logged into Yu-Gi-Oh! Duel Links during this campaign would receive all of the following rewards.",
+        "In addition, for each day logged in, players would also receive 1 of the following rewards:",
+        "Finally, until January 9, 2025, a special campaign took place that allowed players to receive 10 free Packs and 1 UR card each from \"Galactica Go Rush\" and \"Fusion of Revolution\", as well as 1 free copy each of \"Structure Deck: Transam Universe\" and \"Structure Deck: HERO's Stage\"."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "1000 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1 \"Dark Magician\" (Aurora Processing)",
+                "cards": [
+                  {
+                    "name": "Dark Magician",
+                    "card": "cf059913-791c-4a39-a210-2a360345c841",
+                    "yugipediaId": 1132,
+                    "quantity": 1,
+                    "variant": "Aurora Processing"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "1 \"Ancient Gear Golem (Rush Duel)\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Ancient Gear Golem",
+                    "rushDuel": true,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Special Processing (Surface: Crystal)"
+              }
+            ],
+            [
+              {
+                "text": "Special Processing (Rim Color: Gold)"
+              }
+            ],
+            [
+              {
+                "text": "Special Processing (Name Color: Gold)"
+              }
+            ],
+            [
+              {
+                "text": "1 Skill Ticket"
+              }
+            ],
+            [
+              {
+                "text": "1 Character Unlock Ticket"
+              }
+            ],
+            [
+              {
+                "text": "Card Sleeves: \"Yu-Gi-Oh! GO RUSH!! World Release & Massive Major Update Campaign\""
+              }
+            ],
+            [
+              {
+                "text": "Game Mat: \"Yu-Gi-Oh! GO RUSH!! World Release & Massive Major Update Campaign\""
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Day",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Day 1"
+              },
+              {
+                "text": "1 SR/UR Choice Ticket (Rush/Prismatic)"
+              }
+            ],
+            [
+              {
+                "text": "Day 2"
+              },
+              {
+                "text": "1 UR Dream Ticket (Rush/Glossy)"
+              }
+            ],
+            [
+              {
+                "text": "Day 3"
+              },
+              {
+                "text": "1 SR/UR Choice Ticket (Speed/Prismatic)"
+              }
+            ],
+            [
+              {
+                "text": "Day 4"
+              },
+              {
+                "text": "1 UR Dream Ticket (Speed/Glossy)"
+              }
+            ],
+            [
+              {
+                "text": "Day 5"
+              },
+              {
+                "text": "1 SR/UR Choice Ticket (Rush)"
+              }
+            ],
+            [
+              {
+                "text": "Day 6"
+              },
+              {
+                "text": "1 SR Dream Ticket (Rush/Glossy)"
+              }
+            ],
+            [
+              {
+                "text": "Day 7"
+              },
+              {
+                "text": "1 SR/UR Choice Ticket (Speed)"
+              }
+            ],
+            [
+              {
+                "text": "Day 8"
+              },
+              {
+                "text": "1 SR Dream Ticket (Speed/Glossy)"
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Dark Magician",
+      "card": "cf059913-791c-4a39-a210-2a360345c841",
+      "yugipediaId": 1132,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "runIndex": 0
+        }
+      ]
+    },
+    {
+      "name": "Ancient Gear Golem",
+      "rushDuel": true,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "runIndex": 0
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "GO RUSH!! World Release Celebration Campaign",
+        "id": 1128533
+      }
+    ]
+  }
+}

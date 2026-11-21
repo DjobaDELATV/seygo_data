@@ -1,0 +1,272 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "fa9dd51d-4cb7-4e83-8e0a-05eac3ab172b",
+  "name": {
+    "en": "Transcend Game"
+  },
+  "type": "Roaming Duelist event",
+  "duelWorlds": [
+    "Duel World (DSOD)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/e/e5/TranscendGame-Banner.png",
+  "runs": [
+    {
+      "startDate": "2019-09-30",
+      "endDate": "2019-10-07"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "In addition to the following, standard Duel Rewards were also available by Dueling Unknown Duelist Level 30 or less."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Duza the Meteor Cubic Vessel\", \"Ghost Ship\"",
+                "cards": [
+                  {
+                    "name": "Duza the Meteor Cubic Vessel",
+                    "card": "53254604-2e6f-4040-ae05-69b51b7f51ef",
+                    "yugipediaId": 376179
+                  },
+                  {
+                    "name": "Ghost Ship",
+                    "card": "99acb53d-b6d4-46f2-b3a2-d158a7b789d6",
+                    "yugipediaId": 170912
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Cubic Mandala\", \"Constellar Algiedi\", \"Diana the Light Spirit\"",
+                "cards": [
+                  {
+                    "name": "Cubic Mandala",
+                    "card": "31e40e4e-ef1d-47b9-97c9-a9e002197020",
+                    "yugipediaId": 447708
+                  },
+                  {
+                    "name": "Constellar Algiedi",
+                    "card": "a0322cfd-869d-4aa3-9404-746cb5ed9cd8",
+                    "yugipediaId": 179596
+                  },
+                  {
+                    "name": "Diana the Light Spirit",
+                    "card": "da47d044-b107-4ddb-ab58-13c5d5d548f2",
+                    "yugipediaId": 566149
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Constellar Virgo\", \"Constellar Aldebaran\", \"Constellar Star Cradle\"",
+                "cards": [
+                  {
+                    "name": "Constellar Virgo",
+                    "card": "9e7a7177-9803-4b02-953e-49a8a9c38d28",
+                    "yugipediaId": 194219
+                  },
+                  {
+                    "name": "Constellar Aldebaran",
+                    "card": "f2665cbf-0ef0-4b53-b7f0-847e12af2655",
+                    "yugipediaId": 179522
+                  },
+                  {
+                    "name": "Constellar Star Cradle",
+                    "card": "91ac86cb-6793-46c7-90cd-079d06142c2d",
+                    "yugipediaId": 219039
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Lucky Trinket\", \"Fiend Reflection #2\"",
+                "cards": [
+                  {
+                    "name": "Lucky Trinket",
+                    "card": "3e33404c-d993-404a-a781-afc93c965b6e",
+                    "yugipediaId": 6559
+                  },
+                  {
+                    "name": "Fiend Reflection #2",
+                    "card": "8b4e80f3-1212-48f2-8e4f-692f99591d06",
+                    "yugipediaId": 505330
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Duza the Meteor Cubic Vessel",
+      "card": "53254604-2e6f-4040-ae05-69b51b7f51ef",
+      "yugipediaId": 376179,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Ghost Ship",
+      "card": "99acb53d-b6d4-46f2-b3a2-d158a7b789d6",
+      "yugipediaId": 170912,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Cubic Mandala",
+      "card": "31e40e4e-ef1d-47b9-97c9-a9e002197020",
+      "yugipediaId": 447708,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Constellar Algiedi",
+      "card": "a0322cfd-869d-4aa3-9404-746cb5ed9cd8",
+      "yugipediaId": 179596,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Diana the Light Spirit",
+      "card": "da47d044-b107-4ddb-ab58-13c5d5d548f2",
+      "yugipediaId": 566149,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Constellar Virgo",
+      "card": "9e7a7177-9803-4b02-953e-49a8a9c38d28",
+      "yugipediaId": 194219,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Constellar Aldebaran",
+      "card": "f2665cbf-0ef0-4b53-b7f0-847e12af2655",
+      "yugipediaId": 179522,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Constellar Star Cradle",
+      "card": "91ac86cb-6793-46c7-90cd-079d06142c2d",
+      "yugipediaId": 219039,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Lucky Trinket",
+      "card": "3e33404c-d993-404a-a781-afc93c965b6e",
+      "yugipediaId": 6559,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Fiend Reflection #2",
+      "card": "8b4e80f3-1212-48f2-8e4f-692f99591d06",
+      "yugipediaId": 505330,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Transcend Game (Duel Links)",
+        "id": 665750
+      }
+    ]
+  }
+}

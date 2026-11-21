@@ -1,0 +1,3904 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "522531af-ec09-4abe-a821-f6d1229e8ab1",
+  "name": {
+    "en": "The Chill That Freezes the Sun! Ice Queen Marin",
+    "ja": "\u707c\u71b1\u306e\u592a\u967d\u3059\u3089\u77ac\u9593\u51cd\u7d50\uff01\u6c37\u306e\u5263\u30e1\u30e9\u30b0"
+  },
+  "type": "Gate Event",
+  "duelWorlds": [
+    "Duel World (ZEXAL)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/9/98/TheChillThatFreezestheSunIceQueenMarin-Banner.png",
+  "runs": [
+    {
+      "startDate": "2025-12-23",
+      "endDate": "2026-01-03"
+    },
+    {
+      "startDate": "2026-02-23",
+      "endDate": "2026-03-02"
+    }
+  ],
+  "cardTraderExDates": [
+    {
+      "startDate": "2025-12-23",
+      "endDate": "2026-01-10"
+    },
+    {
+      "startDate": "2026-02-23",
+      "endDate": "2026-03-09"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "cumulativeRewards",
+      "path": [
+        "Rewards",
+        "Cumulative Rewards"
+      ],
+      "notes": [
+        "The following rewards were awarded during this event, based on event points accumulated over the course of the event:"
+      ]
+    },
+    {
+      "kind": "cumulativeRewards",
+      "path": [
+        "Rewards",
+        "Cumulative Rewards"
+      ],
+      "run": "December 2025",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "5000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "16000"
+              },
+              {
+                "text": "1 EXP Booster"
+              }
+            ],
+            [
+              {
+                "text": "27000"
+              },
+              {
+                "text": "30 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "38000"
+              },
+              {
+                "text": "5 Gems"
+              }
+            ],
+            [
+              {
+                "text": "70000"
+              },
+              {
+                "text": "1 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "49000"
+              },
+              {
+                "text": "10 BOX Chips"
+              }
+            ],
+            [
+              {
+                "text": "60000"
+              },
+              {
+                "text": "1 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "71000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "82000"
+              },
+              {
+                "text": "15 Gems"
+              }
+            ],
+            [
+              {
+                "text": "100000"
+              },
+              {
+                "text": "1 \"Water Hazard\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Water Hazard",
+                    "card": "a7e7289e-0849-49a8-b07f-ef04c8cfdb07",
+                    "yugipediaId": 110971,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "125000"
+              },
+              {
+                "text": "80 Chaos Overlay Units"
+              }
+            ],
+            [
+              {
+                "text": "150000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "175000"
+              },
+              {
+                "text": "1 Results Booster"
+              }
+            ],
+            [
+              {
+                "text": "200000"
+              },
+              {
+                "text": "20 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "225000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "250000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "275000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "300000"
+              },
+              {
+                "text": "Card Sleeves: The Chill That Freezes the Sun! Ice Queen Marin"
+              }
+            ],
+            [
+              {
+                "text": "338000"
+              },
+              {
+                "text": "10 BOX Chips"
+              }
+            ],
+            [
+              {
+                "text": "376000"
+              },
+              {
+                "text": "15 Gems"
+              }
+            ],
+            [
+              {
+                "text": "414000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "452000"
+              },
+              {
+                "text": "20 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "490000"
+              },
+              {
+                "text": "1 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "528000"
+              },
+              {
+                "text": "10 BOX Chips"
+              }
+            ],
+            [
+              {
+                "text": "566000"
+              },
+              {
+                "text": "15 Gems"
+              }
+            ],
+            [
+              {
+                "text": "610000"
+              },
+              {
+                "text": "1 \"Sirenorca\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Sirenorca",
+                    "card": "1a253bf8-e267-4218-b669-fd8873bc016b",
+                    "yugipediaId": 307078,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "722000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "834000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "946000"
+              },
+              {
+                "text": "1 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "1058000"
+              },
+              {
+                "text": "5 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "1170000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1282000"
+              },
+              {
+                "text": "30 EX Jewels"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "1400000"
+              },
+              {
+                "text": "Game Mat: The Chill That Freezes the Sun! Ice Queen Marin"
+              }
+            ],
+            [
+              {
+                "text": "1530000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1660000"
+              },
+              {
+                "text": "10 Chronicle Chips"
+              }
+            ],
+            [
+              {
+                "text": "1790000"
+              },
+              {
+                "text": "30 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "1920000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "2050000"
+              },
+              {
+                "text": "30 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "2180000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "2310000"
+              },
+              {
+                "text": "5 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "2440000"
+              },
+              {
+                "text": "30 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "2570000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "2700000"
+              },
+              {
+                "text": "1 \"Crystal Shark\"",
+                "cards": [
+                  {
+                    "name": "Crystal Shark",
+                    "card": "faabbae7-55b3-4c81-80ce-2bcb5dc273ed",
+                    "yugipediaId": 714386,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "2911000"
+              },
+              {
+                "text": "20 Chronicle Chips"
+              }
+            ],
+            [
+              {
+                "text": "3122000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "3333000"
+              },
+              {
+                "text": "1 EXP Booster"
+              }
+            ],
+            [
+              {
+                "text": "3544000"
+              },
+              {
+                "text": "40 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "3755000"
+              },
+              {
+                "text": "5 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "3966000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "4177000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "4388000"
+              },
+              {
+                "text": "40 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "4600000"
+              },
+              {
+                "text": "1 \"Number 103: Ragnazero\"",
+                "cards": [
+                  {
+                    "name": "Number 103: Ragnazero",
+                    "card": "fa83494f-62bf-461a-bbae-610aad48c559",
+                    "yugipediaId": 280542,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "5020000"
+              },
+              {
+                "text": "10 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "5440000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "5860000"
+              },
+              {
+                "text": "40 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "6280000"
+              },
+              {
+                "text": "Stamp: Marin"
+              }
+            ],
+            [
+              {
+                "text": "6700000"
+              },
+              {
+                "text": "Icon: The Chill That Freezes the Sun! Ice Queen Marin"
+              }
+            ],
+            [
+              {
+                "text": "7160000"
+              },
+              {
+                "text": "20 Chronicle Chips"
+              }
+            ],
+            [
+              {
+                "text": "7620000"
+              },
+              {
+                "text": "35 Gems"
+              }
+            ],
+            [
+              {
+                "text": "8080000"
+              },
+              {
+                "text": "15000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "8540000"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "9000000"
+              },
+              {
+                "text": "Title: The Chill That Freezes the Sun! Ice Queen Marin Completed"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "cumulativeRewards",
+      "path": [
+        "Rewards",
+        "Cumulative Rewards"
+      ],
+      "run": "February 2026",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "5000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "16000"
+              },
+              {
+                "text": "1 EXP Booster"
+              }
+            ],
+            [
+              {
+                "text": "27000"
+              },
+              {
+                "text": "30 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "38000"
+              },
+              {
+                "text": "1 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "49000"
+              },
+              {
+                "text": "10 BOX Chips"
+              }
+            ],
+            [
+              {
+                "text": "60000"
+              },
+              {
+                "text": "1 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "71000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "82000"
+              },
+              {
+                "text": "15 Gems"
+              }
+            ],
+            [
+              {
+                "text": "100000"
+              },
+              {
+                "text": "1 \"Crystal Shark\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Crystal Shark",
+                    "card": "faabbae7-55b3-4c81-80ce-2bcb5dc273ed",
+                    "yugipediaId": 714386,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "132000"
+              },
+              {
+                "text": "80 Chaos Overlay Units"
+              }
+            ],
+            [
+              {
+                "text": "164000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "196000"
+              },
+              {
+                "text": "2 EXP Booster"
+              }
+            ],
+            [
+              {
+                "text": "228000"
+              },
+              {
+                "text": "20 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "260000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "292000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "324000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "360000"
+              },
+              {
+                "text": "Card Sleeves: The Chill That Freezes the Sun! Ice Queen Marin"
+              }
+            ],
+            [
+              {
+                "text": "407000"
+              },
+              {
+                "text": "10 BOX Chips"
+              }
+            ],
+            [
+              {
+                "text": "454000"
+              },
+              {
+                "text": "15 Gems"
+              }
+            ],
+            [
+              {
+                "text": "501000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "548000"
+              },
+              {
+                "text": "20 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "595000"
+              },
+              {
+                "text": "1 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "642000"
+              },
+              {
+                "text": "10 BOX Chips"
+              }
+            ],
+            [
+              {
+                "text": "689000"
+              },
+              {
+                "text": "15 Gems"
+              }
+            ],
+            [
+              {
+                "text": "740000"
+              },
+              {
+                "text": "1 \"Number 103: Ragnazero\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Number 103: Ragnazero",
+                    "card": "fa83494f-62bf-461a-bbae-610aad48c559",
+                    "yugipediaId": 280542,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "820000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "900000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "980000"
+              },
+              {
+                "text": "1 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "1060000"
+              },
+              {
+                "text": "5 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "1140000"
+              },
+              {
+                "text": "15 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1220000"
+              },
+              {
+                "text": "30 EX Jewels"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "1300000"
+              },
+              {
+                "text": "Game Mat: The Chill That Freezes the Sun! Ice Queen Marin"
+              }
+            ],
+            [
+              {
+                "text": "1400000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1500000"
+              },
+              {
+                "text": "10 Chronicle Chips"
+              }
+            ],
+            [
+              {
+                "text": "1600000"
+              },
+              {
+                "text": "30 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "1700000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1800000"
+              },
+              {
+                "text": "30 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "1900000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "2000000"
+              },
+              {
+                "text": "5 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "2100000"
+              },
+              {
+                "text": "30 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "2200000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "2300000"
+              },
+              {
+                "text": "1 \"Xyz Avenger\"",
+                "cards": [
+                  {
+                    "name": "Xyz Avenger",
+                    "card": "9b65d35e-0b3f-45df-a552-94c5295cea4f",
+                    "yugipediaId": 306070,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "2477000"
+              },
+              {
+                "text": "20 Chronicle Chips"
+              }
+            ],
+            [
+              {
+                "text": "2654000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "2831000"
+              },
+              {
+                "text": "1 EXP Booster"
+              }
+            ],
+            [
+              {
+                "text": "3008000"
+              },
+              {
+                "text": "40 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "3185000"
+              },
+              {
+                "text": "5 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "3362000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "3539000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "3716000"
+              },
+              {
+                "text": "40 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "3900000"
+              },
+              {
+                "text": "1 \"Barian Untopia\"",
+                "cards": [
+                  {
+                    "name": "Barian Untopia",
+                    "card": "c5fccb24-f243-4986-be59-b48b6358b432",
+                    "yugipediaId": 713452,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "4120000"
+              },
+              {
+                "text": "10 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "4340000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "4560000"
+              },
+              {
+                "text": "40 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "4780000"
+              },
+              {
+                "text": "Stamp: Marin"
+              }
+            ],
+            [
+              {
+                "text": "5000000"
+              },
+              {
+                "text": "Icon: The Chill That Freezes the Sun! Ice Queen Marin"
+              }
+            ],
+            [
+              {
+                "text": "5200000"
+              },
+              {
+                "text": "20 Chronicle Chips"
+              }
+            ],
+            [
+              {
+                "text": "5400000"
+              },
+              {
+                "text": "35 Gems"
+              }
+            ],
+            [
+              {
+                "text": "5600000"
+              },
+              {
+                "text": "15000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "5800000"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "6000000"
+              },
+              {
+                "text": "Title: The Chill That Freezes the Sun! Ice Queen Marin Completed"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "notes": [
+        "When Dueling against Marin at Level 40 or higher, these are the only cards that can drop; at lower levels, cards from the standard pool for Legendary Duelists may also drop.",
+        "Event Duelists possess the same rewards, but since they only spawn at Level 30, cards from the standard pool may also drop."
+      ]
+    },
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "run": "December 2025",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Number 103: Ragnazero\", \"Sirenorca\"",
+                "cards": [
+                  {
+                    "name": "Number 103: Ragnazero",
+                    "card": "fa83494f-62bf-461a-bbae-610aad48c559",
+                    "yugipediaId": 280542
+                  },
+                  {
+                    "name": "Sirenorca",
+                    "card": "1a253bf8-e267-4218-b669-fd8873bc016b",
+                    "yugipediaId": 307078
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Crystal Shark\", \"Water Hazard\", \"Medium of the Ice Barrier\"",
+                "cards": [
+                  {
+                    "name": "Crystal Shark",
+                    "card": "faabbae7-55b3-4c81-80ce-2bcb5dc273ed",
+                    "yugipediaId": 714386
+                  },
+                  {
+                    "name": "Water Hazard",
+                    "card": "a7e7289e-0849-49a8-b07f-ef04c8cfdb07",
+                    "yugipediaId": 110971
+                  },
+                  {
+                    "name": "Medium of the Ice Barrier",
+                    "card": "6e24cec0-ef75-4c7b-9270-8053cf15f629",
+                    "yugipediaId": 46854
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Power of Kaishin\", \"Hydro Pressure Cannon\", \"Transmodify\"",
+                "cards": [
+                  {
+                    "name": "Power of Kaishin",
+                    "card": "1ede5c4f-d213-46d9-ad43-a9779c1f128c",
+                    "yugipediaId": 506181
+                  },
+                  {
+                    "name": "Hydro Pressure Cannon",
+                    "card": "9c224208-fb16-4a58-b86b-38cefe820db8",
+                    "yugipediaId": 103717
+                  },
+                  {
+                    "name": "Transmodify",
+                    "card": "0ad1d0c0-d253-46c4-826e-82709c6c3cc8",
+                    "yugipediaId": 273699
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Waterdragon Fairy\", \"Water Element\"",
+                "cards": [
+                  {
+                    "name": "Waterdragon Fairy",
+                    "card": "615fdaf1-277e-46fb-b841-bdaaa53ce7e7",
+                    "yugipediaId": 19079
+                  },
+                  {
+                    "name": "Water Element",
+                    "card": "137fd75d-512a-4016-9a52-761a00ac1ef3",
+                    "yugipediaId": 7332
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "run": "February 2026",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Barian Untopia\", \"Number 103: Ragnazero\"",
+                "cards": [
+                  {
+                    "name": "Barian Untopia",
+                    "card": "c5fccb24-f243-4986-be59-b48b6358b432",
+                    "yugipediaId": 713452
+                  },
+                  {
+                    "name": "Number 103: Ragnazero",
+                    "card": "fa83494f-62bf-461a-bbae-610aad48c559",
+                    "yugipediaId": 280542
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Xyz Avenger, \"Crystal Shark\"\", \"Water Hazard\"",
+                "cards": [
+                  {
+                    "name": "Xyz Avenger",
+                    "card": "9b65d35e-0b3f-45df-a552-94c5295cea4f",
+                    "yugipediaId": 306070
+                  },
+                  {
+                    "name": "Crystal Shark",
+                    "card": "faabbae7-55b3-4c81-80ce-2bcb5dc273ed",
+                    "yugipediaId": 714386
+                  },
+                  {
+                    "name": "Water Hazard",
+                    "card": "a7e7289e-0849-49a8-b07f-ef04c8cfdb07",
+                    "yugipediaId": 110971
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Power of Kaishin\", \"Hydro Pressure Cannon\", \"Transmodify\"",
+                "cards": [
+                  {
+                    "name": "Power of Kaishin",
+                    "card": "1ede5c4f-d213-46d9-ad43-a9779c1f128c",
+                    "yugipediaId": 506181
+                  },
+                  {
+                    "name": "Hydro Pressure Cannon",
+                    "card": "9c224208-fb16-4a58-b86b-38cefe820db8",
+                    "yugipediaId": 103717
+                  },
+                  {
+                    "name": "Transmodify",
+                    "card": "0ad1d0c0-d253-46c4-826e-82709c6c3cc8",
+                    "yugipediaId": 273699
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Waterdragon Fairy\", \"Water Element\"",
+                "cards": [
+                  {
+                    "name": "Waterdragon Fairy",
+                    "card": "615fdaf1-277e-46fb-b841-bdaaa53ce7e7",
+                    "yugipediaId": 19079
+                  },
+                  {
+                    "name": "Water Element",
+                    "card": "137fd75d-512a-4016-9a52-761a00ac1ef3",
+                    "yugipediaId": 7332
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "cardTraderEx",
+      "path": [
+        "Rewards",
+        "Card Trader EX"
+      ],
+      "notes": [
+        "The Card Trader EX appears during this event and remains open until one week after its conclusion. The player can trade their EX Jewels for cards, Booster Items, Gold, and Skill Chips. Each card and Booster Item can only be obtained once from the Card Trader EX during this event, but the Gold can be obtained any number of times."
+      ]
+    },
+    {
+      "kind": "cardTraderEx",
+      "path": [
+        "Rewards",
+        "Card Trader EX"
+      ],
+      "run": "December 2025",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "EX Jewels",
+            "Item"
+          ],
+          "rows": [
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1"
+              },
+              {
+                "text": "100 Gold"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Results Booster"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 EXP Booster"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "10 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "300"
+              },
+              {
+                "text": "1 \"Number 103: Ragnazero\"",
+                "cards": [
+                  {
+                    "name": "Number 103: Ragnazero",
+                    "card": "fa83494f-62bf-461a-bbae-610aad48c559",
+                    "yugipediaId": 280542,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Number 103: Ragnazero\" (Glossy)",
+                "cards": [
+                  {
+                    "name": "Number 103: Ragnazero",
+                    "card": "fa83494f-62bf-461a-bbae-610aad48c559",
+                    "yugipediaId": 280542,
+                    "quantity": 1,
+                    "variant": "Glossy"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "400"
+              },
+              {
+                "text": "1 \"Number 103: Ragnazero\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Number 103: Ragnazero",
+                    "card": "fa83494f-62bf-461a-bbae-610aad48c559",
+                    "yugipediaId": 280542,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "300"
+              },
+              {
+                "text": "1 \"Sirenorca\"",
+                "cards": [
+                  {
+                    "name": "Sirenorca",
+                    "card": "1a253bf8-e267-4218-b669-fd8873bc016b",
+                    "yugipediaId": 307078,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Crystal Shark\"",
+                "cards": [
+                  {
+                    "name": "Crystal Shark",
+                    "card": "faabbae7-55b3-4c81-80ce-2bcb5dc273ed",
+                    "yugipediaId": 714386,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Water Hazard\"",
+                "cards": [
+                  {
+                    "name": "Water Hazard",
+                    "card": "a7e7289e-0849-49a8-b07f-ef04c8cfdb07",
+                    "yugipediaId": 110971,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Medium of the Ice Barrier\"",
+                "cards": [
+                  {
+                    "name": "Medium of the Ice Barrier",
+                    "card": "6e24cec0-ef75-4c7b-9270-8053cf15f629",
+                    "yugipediaId": 46854,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Power of Kaishin\"",
+                "cards": [
+                  {
+                    "name": "Power of Kaishin",
+                    "card": "1ede5c4f-d213-46d9-ad43-a9779c1f128c",
+                    "yugipediaId": 506181,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Hydro Pressure Cannon\"",
+                "cards": [
+                  {
+                    "name": "Hydro Pressure Cannon",
+                    "card": "9c224208-fb16-4a58-b86b-38cefe820db8",
+                    "yugipediaId": 103717,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Transmodify\"",
+                "cards": [
+                  {
+                    "name": "Transmodify",
+                    "card": "0ad1d0c0-d253-46c4-826e-82709c6c3cc8",
+                    "yugipediaId": 273699,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Waterdragon Fairy\"",
+                "cards": [
+                  {
+                    "name": "Waterdragon Fairy",
+                    "card": "615fdaf1-277e-46fb-b841-bdaaa53ce7e7",
+                    "yugipediaId": 19079,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Water Element\"",
+                "cards": [
+                  {
+                    "name": "Water Element",
+                    "card": "137fd75d-512a-4016-9a52-761a00ac1ef3",
+                    "yugipediaId": 7332,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "cardTraderEx",
+      "path": [
+        "Rewards",
+        "Card Trader EX"
+      ],
+      "run": "February 2026",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "EX Jewels",
+            "Item"
+          ],
+          "rows": [
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1"
+              },
+              {
+                "text": "100 Gold"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Results Booster"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 EXP Booster"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "10 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "300"
+              },
+              {
+                "text": "1 \"Barian Untopia\"",
+                "cards": [
+                  {
+                    "name": "Barian Untopia",
+                    "card": "c5fccb24-f243-4986-be59-b48b6358b432",
+                    "yugipediaId": 713452,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Barian Untopia\" (Glossy)",
+                "cards": [
+                  {
+                    "name": "Barian Untopia",
+                    "card": "c5fccb24-f243-4986-be59-b48b6358b432",
+                    "yugipediaId": 713452,
+                    "quantity": 1,
+                    "variant": "Glossy"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "400"
+              },
+              {
+                "text": "1 \"Barian Untopia\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Barian Untopia",
+                    "card": "c5fccb24-f243-4986-be59-b48b6358b432",
+                    "yugipediaId": 713452,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "300"
+              },
+              {
+                "text": "1 \"Number 103: Ragnazero\"",
+                "cards": [
+                  {
+                    "name": "Number 103: Ragnazero",
+                    "card": "fa83494f-62bf-461a-bbae-610aad48c559",
+                    "yugipediaId": 280542,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Xyz Avenger\"",
+                "cards": [
+                  {
+                    "name": "Xyz Avenger",
+                    "card": "9b65d35e-0b3f-45df-a552-94c5295cea4f",
+                    "yugipediaId": 306070,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Crystal Shark\"",
+                "cards": [
+                  {
+                    "name": "Crystal Shark",
+                    "card": "faabbae7-55b3-4c81-80ce-2bcb5dc273ed",
+                    "yugipediaId": 714386,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Water Hazard\"",
+                "cards": [
+                  {
+                    "name": "Water Hazard",
+                    "card": "a7e7289e-0849-49a8-b07f-ef04c8cfdb07",
+                    "yugipediaId": 110971,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Medium of the Ice Barrier\"",
+                "cards": [
+                  {
+                    "name": "Medium of the Ice Barrier",
+                    "card": "6e24cec0-ef75-4c7b-9270-8053cf15f629",
+                    "yugipediaId": 46854,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Power of Kaishin\"",
+                "cards": [
+                  {
+                    "name": "Power of Kaishin",
+                    "card": "1ede5c4f-d213-46d9-ad43-a9779c1f128c",
+                    "yugipediaId": 506181,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Hydro Pressure Cannon\"",
+                "cards": [
+                  {
+                    "name": "Hydro Pressure Cannon",
+                    "card": "9c224208-fb16-4a58-b86b-38cefe820db8",
+                    "yugipediaId": 103717,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Transmodify\"",
+                "cards": [
+                  {
+                    "name": "Transmodify",
+                    "card": "0ad1d0c0-d253-46c4-826e-82709c6c3cc8",
+                    "yugipediaId": 273699,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Waterdragon Fairy\"",
+                "cards": [
+                  {
+                    "name": "Waterdragon Fairy",
+                    "card": "615fdaf1-277e-46fb-b841-bdaaa53ce7e7",
+                    "yugipediaId": 19079,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Water Element\"",
+                "cards": [
+                  {
+                    "name": "Water Element",
+                    "card": "137fd75d-512a-4016-9a52-761a00ac1ef3",
+                    "yugipediaId": 7332,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Rewards",
+        "Event Missions"
+      ],
+      "notes": [
+        "These missions were available from the start of the event.",
+        "The following missions were added on December 25, 2025 during the first run, and February 24, 2026 during the second run.",
+        "The following missions were added on December 27, 2025.",
+        "The following missions were added on December 29, 2025.",
+        "The following missions were added on February 25, 2026."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Event Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against Marin (Barian) at Level 10 in Duel World."
+              },
+              {
+                "text": "10 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 1 Duel(s) against Marin (Barian) at Level 20 in Duel World."
+              },
+              {
+                "text": "20 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 1 Duel(s) against Marin (Barian) at Level 30 in Duel World."
+              },
+              {
+                "text": "30 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 1 Duel(s) against Marin (Barian) at Level 40 in Duel World."
+              },
+              {
+                "text": "40 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 20 Duel(s) against Marin (Barian) in Duel World."
+              },
+              {
+                "text": "40 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 40 Duel(s) against Marin (Barian) in Duel World."
+              },
+              {
+                "text": "40 EX Jewels"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Event Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 5 Duel(s) using Marin."
+              },
+              {
+                "text": "Card Sleeves: Marin & Dumon"
+              }
+            ],
+            [
+              {
+                "text": "Win 10 Duel(s) using Marin."
+              },
+              {
+                "text": "10 Gems"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Event Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Summon \"Number 103: Ragnazero\" 1 time(s) while playing as Marin.",
+                "cards": [
+                  {
+                    "name": "Number 103: Ragnazero",
+                    "card": "fa83494f-62bf-461a-bbae-610aad48c559",
+                    "yugipediaId": 280542
+                  }
+                ]
+              },
+              {
+                "text": "Game Mat: Marin & Dumon"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Event Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against Ice Queen Marin."
+              },
+              {
+                "text": "Icon: Marin & Dumon"
+              }
+            ],
+            [
+              {
+                "text": "Win 3 Duel(s) against Ice Queen Marin."
+              },
+              {
+                "text": "50 Chronicle Chips"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Event Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against Ice Queen Marin."
+              },
+              {
+                "text": "Icon: Number 103: Ragnazero & Number C103: Ragnafinity & Number 94: Crystalzero"
+              }
+            ],
+            [
+              {
+                "text": "Win 3 Duel(s) against Ice Queen Marin."
+              },
+              {
+                "text": "50 Chronicle Chips"
+              }
+            ],
+            [
+              {
+                "text": "Summon \"Number 103: Ragnazero\" 1 time(s) while playing as Marin.",
+                "cards": [
+                  {
+                    "name": "Number 103: Ragnazero",
+                    "card": "fa83494f-62bf-461a-bbae-610aad48c559",
+                    "yugipediaId": 280542
+                  }
+                ]
+              },
+              {
+                "text": "Game Mat: Number 103: Ragnazero & Number C103: Ragnafinity & Number 94: Crystalzero"
+              }
+            ],
+            [
+              {
+                "text": "Summon \"Number 103: Ragnazero\" 3 time(s) while playing as Marin.",
+                "cards": [
+                  {
+                    "name": "Number 103: Ragnazero",
+                    "card": "fa83494f-62bf-461a-bbae-610aad48c559",
+                    "yugipediaId": 280542
+                  }
+                ]
+              },
+              {
+                "text": "Skill: Barian Battlemorph! Ragnafinity",
+                "skills": [
+                  {
+                    "name": "Barian Battlemorph! Ragnafinity",
+                    "skill": "129a98cd-a0f8-46e7-ab77-3bc1edcee9e9",
+                    "yugipediaId": 1177226
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "dailyMissions",
+      "path": [
+        "Rewards",
+        "Event Missions",
+        "Daily Missions"
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Event Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Play 1 Duel(s) in Ranked Duels (surrenders are not counted)."
+              },
+              {
+                "text": "40 Chaos Overlay Units"
+              }
+            ],
+            [
+              {
+                "text": "Play 2 Duel(s) in Ranked Duels (surrenders are not counted)."
+              },
+              {
+                "text": "40 Chaos Overlay Units"
+              }
+            ],
+            [
+              {
+                "text": "Play 3 Duel(s) in Ranked Duels (surrenders are not counted)."
+              },
+              {
+                "text": "40 Chaos Overlay Units"
+              }
+            ],
+            [
+              {
+                "text": "Use \u201cMarin\u201d to duel 1 times in PvP (surrenders are not counted)."
+              },
+              {
+                "text": "40 EX Jewels"
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "decks": [
+    {
+      "path": [
+        "Decks",
+        "Event-exclusive"
+      ],
+      "name": "The Heart-Chilling Name!",
+      "owner": "Marin",
+      "cards": [
+        {
+          "name": "Aurora Wing",
+          "card": "f73990e2-b745-430d-8dc1-4e2e7284cde9",
+          "yugipediaId": 233605,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Blizzard Falcon",
+          "card": "b119dd7d-2498-4a92-9823-068f8fc18e16",
+          "yugipediaId": 233060,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Blizzard Thunderbird",
+          "card": "6c513fbf-ad2e-4d64-a9bd-d4d2f4fdfe06",
+          "yugipediaId": 286451,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Migratory Zereort",
+          "card": "ec34bbc3-e318-4a3a-8742-035a3d42d6eb",
+          "yugipediaId": 1071348,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Full Armored Utopic Ray Lancer",
+          "card": "ff0e5dd9-e8fa-4fb8-828c-f6db8b2cab22",
+          "yugipediaId": 1033526,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Ice Beast Zerofyne",
+          "card": "3766080e-fa00-4d0b-8cdf-8f00b35d600c",
+          "yugipediaId": 234161,
+          "count": 2,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Ice Princess Zereort",
+          "card": "15b9d317-a393-400e-b2e6-6016c7a3328e",
+          "yugipediaId": 273756,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Number 103: Ragnazero",
+          "card": "fa83494f-62bf-461a-bbae-610aad48c559",
+          "yugipediaId": 280542,
+          "count": 3,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Number C103: Ragnafinity",
+          "card": "53cc36e1-3565-4024-a503-979ce8bb60a1",
+          "yugipediaId": 282184,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Book of Eclipse",
+          "card": "56a3f2b8-c351-4dea-84bc-5fbdcec9fa33",
+          "yugipediaId": 32471,
+          "count": 3,
+          "category": "spells"
+        },
+        {
+          "name": "Cosmic Cyclone",
+          "card": "0504a396-62e3-485c-9fec-3b382021160a",
+          "yugipediaId": 387306,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Forbidden Droplet",
+          "card": "e8bb5e04-dbb1-4390-bd08-3dd2010d035e",
+          "yugipediaId": 715001,
+          "count": 3,
+          "category": "spells"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Marin",
+        "Level 10"
+      ],
+      "name": "Ice Queen Marin",
+      "owner": "Marin",
+      "cards": [
+        {
+          "name": "Bolt Penguin",
+          "card": "e480c3c9-8329-4f31-9c06-2f65e1854ded",
+          "yugipediaId": 7781,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Ice Water",
+          "card": "dec1415c-0d05-48c8-9e09-c70afb3c4163",
+          "yugipediaId": 21602,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Peacock",
+          "card": "5e7f4f46-58f7-4611-b852-dd6d252e8da5",
+          "yugipediaId": 7824,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Water Element",
+          "card": "137fd75d-512a-4016-9a52-761a00ac1ef3",
+          "yugipediaId": 7332,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Wing Eagle",
+          "card": "b12214bb-060a-4284-ac70-54ae1d242af2",
+          "yugipediaId": 19115,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Blizzed, Defender of the Ice Barrier",
+          "card": "5480fdaf-9b21-4af1-ab8d-3e48b153f78b",
+          "yugipediaId": 82733,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Caravan of the Ice Barrier",
+          "card": "8282f6a8-64c8-4393-9a18-cb825110cb84",
+          "yugipediaId": 92973,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Deep Sea Artisan",
+          "card": "83c19c8e-ddf5-4490-8fb2-3502bb578f4c",
+          "yugipediaId": 695880,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Duck Dummy",
+          "card": "08a299d7-ac80-418f-9b91-b3824ceb80d9",
+          "yugipediaId": 519622,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Guard Penguin",
+          "card": "171ba962-ae82-4231-8cb8-0f18032b0632",
+          "yugipediaId": 273422,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Mermail Abyssdine",
+          "card": "8e7c2374-9612-48ae-89d1-cb567c4ab5c3",
+          "yugipediaId": 247706,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Penguin Knight",
+          "card": "4ab0e1ae-3bc1-4027-aad0-cd2b32fae3a4",
+          "yugipediaId": 4553,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Ice Princess Zereort",
+          "card": "15b9d317-a393-400e-b2e6-6016c7a3328e",
+          "yugipediaId": 273756,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "After the Storm",
+          "card": "de63866e-6546-4a3b-a276-b7d9344243a7",
+          "yugipediaId": 229684,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Different Dimension Deepsea Trench",
+          "card": "12d162cb-a96b-4c03-9e9e-4cac1f7cb854",
+          "yugipediaId": 197701,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Fish and Swaps",
+          "card": "e411f8e9-887b-4e0c-91f5-1b4b95161e7f",
+          "yugipediaId": 190989,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Medallion of the Ice Barrier",
+          "card": "79522779-1435-4adc-bbc5-0d8e662fded7",
+          "yugipediaId": 132073,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Salvage",
+          "card": "da8d5a38-dd17-427b-8992-2cab97115e85",
+          "yugipediaId": 10395,
+          "count": 1,
+          "category": "spells"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Marin",
+        "Level 20"
+      ],
+      "name": "Rio is No More",
+      "owner": "Marin",
+      "cards": [
+        {
+          "name": "Bolt Penguin",
+          "card": "e480c3c9-8329-4f31-9c06-2f65e1854ded",
+          "yugipediaId": 7781,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Flying Penguin",
+          "card": "e32c4bc6-6177-4527-9ce5-2ff2a19f1882",
+          "yugipediaId": 7314,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Queen Bird",
+          "card": "beab988d-a7ee-4b8b-998f-269360a82220",
+          "yugipediaId": 7288,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Guard Penguin",
+          "card": "171ba962-ae82-4231-8cb8-0f18032b0632",
+          "yugipediaId": 273422,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Icejade Acti",
+          "card": "321d08e4-f9ed-452a-97c9-faea851c7ee5",
+          "yugipediaId": 715371,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Icejade Tinola",
+          "card": "c78d322d-6b63-466a-bf62-88870685613b",
+          "yugipediaId": 715383,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Mermail Abyssgunde",
+          "card": "4362bde4-f291-4299-b47d-6154168487f3",
+          "yugipediaId": 196555,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Mermail Abysshilde",
+          "card": "33300c95-cde5-4ed3-92d6-9e9f4fb54100",
+          "yugipediaId": 196617,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Penguin Knight",
+          "card": "4ab0e1ae-3bc1-4027-aad0-cd2b32fae3a4",
+          "yugipediaId": 4553,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "The Great Emperor Penguin",
+          "card": "8476b5b8-bb59-4cb4-a9a8-1d18a70b5747",
+          "yugipediaId": 174081,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Ice Princess Zereort",
+          "card": "15b9d317-a393-400e-b2e6-6016c7a3328e",
+          "yugipediaId": 273756,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Different Dimension Deepsea Trench",
+          "card": "12d162cb-a96b-4c03-9e9e-4cac1f7cb854",
+          "yugipediaId": 197701,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Power of Kaishin",
+          "card": "1ede5c4f-d213-46d9-ad43-a9779c1f128c",
+          "yugipediaId": 506181,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Salvage",
+          "card": "da8d5a38-dd17-427b-8992-2cab97115e85",
+          "yugipediaId": 10395,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Unicorn Beacon",
+          "card": "2c053b6c-0a7d-4b44-b465-dbf3b332076e",
+          "yugipediaId": 129465,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Diamond Dust",
+          "card": "36a2e9a6-3d7f-429b-beda-ae523acd9f2b",
+          "yugipediaId": 232951,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Marin",
+        "Level 30"
+      ],
+      "name": "Barian Determination",
+      "owner": "Marin",
+      "cards": [
+        {
+          "name": "Aurora Wing",
+          "card": "f73990e2-b745-430d-8dc1-4e2e7284cde9",
+          "yugipediaId": 233605,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Blizzard Falcon",
+          "card": "b119dd7d-2498-4a92-9823-068f8fc18e16",
+          "yugipediaId": 233060,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Crystal Shark",
+          "card": "faabbae7-55b3-4c81-80ce-2bcb5dc273ed",
+          "yugipediaId": 714386,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Icejade Acti",
+          "card": "321d08e4-f9ed-452a-97c9-faea851c7ee5",
+          "yugipediaId": 715371,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Icejade Tinola",
+          "card": "c78d322d-6b63-466a-bf62-88870685613b",
+          "yugipediaId": 715383,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Mermail Abyssgunde",
+          "card": "4362bde4-f291-4299-b47d-6154168487f3",
+          "yugipediaId": 196555,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Mermail Abysshilde",
+          "card": "33300c95-cde5-4ed3-92d6-9e9f4fb54100",
+          "yugipediaId": 196617,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Mermail Abysslinde",
+          "card": "fc8569a2-6f1e-44a7-a742-a3aea22caa08",
+          "yugipediaId": 225325,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Sirenorca",
+          "card": "1a253bf8-e267-4218-b669-fd8873bc016b",
+          "yugipediaId": 307078,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Supreme Sea Mare",
+          "card": "70a140dc-aa31-49e7-92a6-4fc00352005b",
+          "yugipediaId": 716937,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "The Great Emperor Penguin",
+          "card": "8476b5b8-bb59-4cb4-a9a8-1d18a70b5747",
+          "yugipediaId": 174081,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Ice Beast Zerofyne",
+          "card": "3766080e-fa00-4d0b-8cdf-8f00b35d600c",
+          "yugipediaId": 234161,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Ice Princess Zereort",
+          "card": "15b9d317-a393-400e-b2e6-6016c7a3328e",
+          "yugipediaId": 273756,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Different Dimension Deepsea Trench",
+          "card": "12d162cb-a96b-4c03-9e9e-4cac1f7cb854",
+          "yugipediaId": 197701,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Follow Wind",
+          "card": "4806d1f0-2fbd-41f6-995b-a64b4eacc11b",
+          "yugipediaId": 506508,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Icejade Cradle",
+          "card": "e98006d5-44d0-4e8e-8042-0bea36774784",
+          "yugipediaId": 715375,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Moray of Greed",
+          "card": "5c0b3aaa-9ee3-4e24-a113-332e816ed19a",
+          "yugipediaId": 101313,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Steel Shell",
+          "card": "0a3d2515-a91b-4097-9bb7-7c29ec8c8628",
+          "yugipediaId": 7929,
+          "count": 1,
+          "category": "spells"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Marin",
+        "Level 40"
+      ],
+      "name": "Freeze!",
+      "owner": "Marin",
+      "cards": [
+        {
+          "name": "Aurora Wing",
+          "card": "f73990e2-b745-430d-8dc1-4e2e7284cde9",
+          "yugipediaId": 233605,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Blizzard Falcon",
+          "card": "b119dd7d-2498-4a92-9823-068f8fc18e16",
+          "yugipediaId": 233060,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Crystal Shark",
+          "card": "faabbae7-55b3-4c81-80ce-2bcb5dc273ed",
+          "yugipediaId": 714386,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Dance Princess of the Ice Barrier",
+          "card": "98de79eb-83d2-4f84-b7b1-1511829fe61c",
+          "yugipediaId": 131593,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Icejade Acti",
+          "card": "321d08e4-f9ed-452a-97c9-faea851c7ee5",
+          "yugipediaId": 715371,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Icejade Aegirine",
+          "card": "6f1519e6-03e1-4fac-8713-df6537c7100e",
+          "yugipediaId": 715372,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Icejade Tinola",
+          "card": "c78d322d-6b63-466a-bf62-88870685613b",
+          "yugipediaId": 715383,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Icejade Tremora",
+          "card": "167a3e41-285b-4e16-a7f0-f6d89877752a",
+          "yugipediaId": 715384,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Migratory Zereort",
+          "card": "ec34bbc3-e318-4a3a-8742-035a3d42d6eb",
+          "yugipediaId": 1071348,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Sirenorca",
+          "card": "1a253bf8-e267-4218-b669-fd8873bc016b",
+          "yugipediaId": 307078,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Supreme Sea Mare",
+          "card": "70a140dc-aa31-49e7-92a6-4fc00352005b",
+          "yugipediaId": 716937,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Ice Beast Zerofyne",
+          "card": "3766080e-fa00-4d0b-8cdf-8f00b35d600c",
+          "yugipediaId": 234161,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Ice Princess Zereort",
+          "card": "15b9d317-a393-400e-b2e6-6016c7a3328e",
+          "yugipediaId": 273756,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Number 103: Ragnazero",
+          "card": "fa83494f-62bf-461a-bbae-610aad48c559",
+          "yugipediaId": 280542,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Number C103: Ragnafinity",
+          "card": "53cc36e1-3565-4024-a503-979ce8bb60a1",
+          "yugipediaId": 282184,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Follow Wind",
+          "card": "4806d1f0-2fbd-41f6-995b-a64b4eacc11b",
+          "yugipediaId": 506508,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Icejade Cradle",
+          "card": "e98006d5-44d0-4e8e-8042-0bea36774784",
+          "yugipediaId": 715375,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Lemuria, the Forgotten City",
+          "card": "4f01e563-a02e-4257-aa99-503e11a8374c",
+          "yugipediaId": 196371,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Medallion of the Ice Barrier",
+          "card": "79522779-1435-4adc-bbc5-0d8e662fded7",
+          "yugipediaId": 132073,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Rank-Up-Magic Barian's Force",
+          "card": "5092ddce-fb32-47ab-8f98-b2c80f8222df",
+          "yugipediaId": 235987,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Swallow's Nest",
+          "card": "461ebf12-be4a-4a71-93a9-92e46d500d44",
+          "yugipediaId": 101627,
+          "count": 1,
+          "category": "spells"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Marin",
+        "Level 50"
+      ],
+      "name": "Power to Freeze Time",
+      "owner": "Marin",
+      "cards": [
+        {
+          "name": "Aurora Wing",
+          "card": "f73990e2-b745-430d-8dc1-4e2e7284cde9",
+          "yugipediaId": 233605,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Blizzard Falcon",
+          "card": "b119dd7d-2498-4a92-9823-068f8fc18e16",
+          "yugipediaId": 233060,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Crystal Shark",
+          "card": "faabbae7-55b3-4c81-80ce-2bcb5dc273ed",
+          "yugipediaId": 714386,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Dance Princess of the Ice Barrier",
+          "card": "98de79eb-83d2-4f84-b7b1-1511829fe61c",
+          "yugipediaId": 131593,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Judge of the Ice Barrier",
+          "card": "cc70c07e-2779-4058-bcb0-127b85525dc1",
+          "yugipediaId": 712275,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Icejade Acti",
+          "card": "321d08e4-f9ed-452a-97c9-faea851c7ee5",
+          "yugipediaId": 715371,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Icejade Aegirine",
+          "card": "6f1519e6-03e1-4fac-8713-df6537c7100e",
+          "yugipediaId": 715372,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Icejade Tinola",
+          "card": "c78d322d-6b63-466a-bf62-88870685613b",
+          "yugipediaId": 715383,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Icejade Tremora",
+          "card": "167a3e41-285b-4e16-a7f0-f6d89877752a",
+          "yugipediaId": 715384,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Migratory Zereort",
+          "card": "ec34bbc3-e318-4a3a-8742-035a3d42d6eb",
+          "yugipediaId": 1071348,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Full Armored Crystalzero Lancer",
+          "card": "60e664ce-103e-4c53-835f-ba65061115eb",
+          "yugipediaId": 293276,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Ice Beast Zerofyne",
+          "card": "3766080e-fa00-4d0b-8cdf-8f00b35d600c",
+          "yugipediaId": 234161,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Ice Princess Zereort",
+          "card": "15b9d317-a393-400e-b2e6-6016c7a3328e",
+          "yugipediaId": 273756,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Number 94: Crystalzero",
+          "card": "f931ee9d-d215-4ee8-930d-151ae594f019",
+          "yugipediaId": 274460,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Number 103: Ragnazero",
+          "card": "fa83494f-62bf-461a-bbae-610aad48c559",
+          "yugipediaId": 280542,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Number C103: Ragnafinity",
+          "card": "53cc36e1-3565-4024-a503-979ce8bb60a1",
+          "yugipediaId": 282184,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Icejade Cradle",
+          "card": "e98006d5-44d0-4e8e-8042-0bea36774784",
+          "yugipediaId": 715375,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Lemuria, the Forgotten City",
+          "card": "4f01e563-a02e-4257-aa99-503e11a8374c",
+          "yugipediaId": 196371,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Medallion of the Ice Barrier",
+          "card": "79522779-1435-4adc-bbc5-0d8e662fded7",
+          "yugipediaId": 132073,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Rank-Up-Magic Barian's Force",
+          "card": "5092ddce-fb32-47ab-8f98-b2c80f8222df",
+          "yugipediaId": 235987,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Swallow's Nest",
+          "card": "461ebf12-be4a-4a71-93a9-92e46d500d44",
+          "yugipediaId": 101627,
+          "count": 1,
+          "category": "spells"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Event Duelist",
+        "Bronk Stone"
+      ],
+      "name": "I\u2019ll take ya on!",
+      "owner": "Bronk Stone",
+      "cards": [
+        {
+          "name": "Ancient Tool",
+          "card": "32bdced5-f42b-47b6-a3fa-05911c538f08",
+          "yugipediaId": 19373,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Disk Magician",
+          "card": "170b027f-2f5d-477a-9018-06c8d4ed6084",
+          "yugipediaId": 4933,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Giga-Tech Wolf",
+          "card": "48b18eb7-c51a-4a44-a039-eeb6ff195a6a",
+          "yugipediaId": 4750,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Mighty Guard",
+          "card": "bc7f00d4-91d3-451f-b58b-7a84685a17cd",
+          "yugipediaId": 13471,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Steel Ogre Grotto #1",
+          "card": "82bc798e-555b-4541-887c-ca273789cc3f",
+          "yugipediaId": 507614,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Geargiano",
+          "card": "59796be7-1455-43b7-b159-a222af9f1588",
+          "yugipediaId": 174336,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Geargiauger",
+          "card": "4d247291-51fa-43b4-a09c-63fac2e5004a",
+          "yugipediaId": 295757,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Scrap Recycler",
+          "card": "9ee3c602-ecb0-495a-8198-c2bd50402668",
+          "yugipediaId": 113521,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Steel Scorpion",
+          "card": "275e6661-d67a-4634-8652-5cbe60b99412",
+          "yugipediaId": 3417,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Wind-Up Bat",
+          "card": "e1ff31ed-a899-43cd-b9bb-1b6eef4da064",
+          "yugipediaId": 175629,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Wind-Up Honeybee",
+          "card": "f3edcf6d-5ccf-44c2-a2eb-c205829921b8",
+          "yugipediaId": 179660,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Wind-Up Rat",
+          "card": "f2fbbd61-a7ed-4a95-b8f9-e155a06f166b",
+          "yugipediaId": 179573,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Tin Archduke",
+          "card": "0e9d4146-74ba-4e9e-87b9-9aac666858f5",
+          "yugipediaId": 181455,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Legendary Wind-Up Key",
+          "card": "929c6657-35c4-452a-860f-f07973982fd1",
+          "yugipediaId": 163394,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Magnet Circle LV2",
+          "card": "bfc4888d-fcfd-47bf-b5c5-2f3bf82c49b2",
+          "yugipediaId": 16149,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Zenmairch",
+          "card": "f9d067e2-609f-4158-9389-e9a14b4414c5",
+          "yugipediaId": 162654,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Event Duelist",
+        "Alito"
+      ],
+      "name": "Unveiling My All",
+      "owner": "Alito",
+      "cards": [
+        {
+          "name": "Battlin' Boxer Big Bandage",
+          "card": "1f17fc91-812e-4469-a07c-ac6dfb548d19",
+          "yugipediaId": 290886,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Battlin' Boxer Glassjaw",
+          "card": "ec0b149d-bfd1-4ad5-b448-0dc5e6a90177",
+          "yugipediaId": 246397,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Battlin' Boxer Headgeared",
+          "card": "4c6e305f-dd65-4b56-bd6e-00205585fe82",
+          "yugipediaId": 246034,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Battlin' Boxer Promoter",
+          "card": "6535796c-ae2d-4f07-97b2-dc05353b8873",
+          "yugipediaId": 903928,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Battlin' Boxer Rabbit Puncher",
+          "card": "f2ae53c5-99a8-46a9-8a67-6e6aa7f62160",
+          "yugipediaId": 258105,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Battlin' Boxer Rib Gardna",
+          "card": "4bb37fd1-1ab2-4c7c-9508-78dc23fec2f8",
+          "yugipediaId": 259324,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Battlin' Boxer Shadow",
+          "card": "8271fb51-a601-4aa5-a90c-86fb0c19a66f",
+          "yugipediaId": 298647,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Battlin' Boxer Sparrer",
+          "card": "52ca99ba-eec9-48f6-ba32-954ef547e84f",
+          "yugipediaId": 256451,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Battlin' Boxer Switchitter",
+          "card": "e304d0f1-0f23-404a-8c92-46d7be6bfb84",
+          "yugipediaId": 256528,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Battlin' Boxer Uppercutter",
+          "card": "753b9817-4dc8-4a79-b89d-1b86c857e411",
+          "yugipediaId": 903926,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Des Kangaroo",
+          "card": "4ca433bb-3dce-4e88-8802-23a795798948",
+          "yugipediaId": 11431,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Jabbing Panda",
+          "card": "707530ce-3194-4cd4-b23c-6150441dcdf3",
+          "yugipediaId": 715453,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Kangaroo Champ",
+          "card": "f75d03e1-2afb-444b-a173-59f5c56b6c5c",
+          "yugipediaId": 13911,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Battlin' Boxer Cheat Commissioner",
+          "card": "2586519e-df6f-4b10-b88c-b6c82d23074c",
+          "yugipediaId": 258056,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Battlin' Boxer King Dempsey",
+          "card": "ddaf08ee-7a67-415c-b3c6-b735a72fe65e",
+          "yugipediaId": 903930,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Number 79: Battlin' Boxer Nova Kaiser",
+          "card": "7ca42882-a71b-4caf-b69b-e9e1a8500ac6",
+          "yugipediaId": 297828,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Number C79: Battlin' Boxer General Kaiser",
+          "card": "f788ec0c-9e39-45ff-8d5c-62846c823639",
+          "yugipediaId": 903929,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Number C105: Battlin' Boxer Comet Cestus",
+          "card": "c295b975-e4a6-4eaf-a605-80f6d7688edb",
+          "yugipediaId": 268037,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Battlin' Boxing Spirits",
+          "card": "acfd3dae-ec7f-479c-95a8-f7a842113223",
+          "yugipediaId": 270085,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Guard Penalty",
+          "card": "6f93e2a6-92cf-4c22-8c20-da864e9ca95f",
+          "yugipediaId": 13042,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Rank-Up-Magic Barian's Force",
+          "card": "5092ddce-fb32-47ab-8f98-b2c80f8222df",
+          "yugipediaId": 235987,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Ring Announcer",
+          "card": "4aac239b-df79-4edb-86a1-4e3c3f514ece",
+          "yugipediaId": 975425,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Armor Break",
+          "card": "f6a5432d-56ba-4c51-96ba-3728f6f64abe",
+          "yugipediaId": 18203,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Numbers Overlay Boost",
+          "card": "44d03bb8-b746-4c24-afec-b5b8308a59e1",
+          "yugipediaId": 259436,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Riryoku Field",
+          "card": "b710adbe-f65b-430f-983b-b1066a01b2a4",
+          "yugipediaId": 7922,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Event Duelist",
+        "Vector"
+      ],
+      "name": "You're Going to Like This!",
+      "owner": "Vector",
+      "cards": [
+        {
+          "name": "Dark Hunter",
+          "card": "fb8444ee-e19b-4d10-b666-dd3aa5b22a6d",
+          "yugipediaId": 35538,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Element Doom",
+          "card": "72598f42-de05-42e5-85f6-036c56f7ad63",
+          "yugipediaId": 15556,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gorgonic Cerberus",
+          "card": "6d40708c-1449-486c-b990-e4bf26b828a2",
+          "yugipediaId": 310334,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gorgonic Gargoyle",
+          "card": "31b4c2db-a46c-47a8-bcdc-700c75257e17",
+          "yugipediaId": 270055,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Shadow Delver",
+          "card": "6ca52d03-92b7-4cb2-99a2-5de451ecd039",
+          "yugipediaId": 511444,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Umbral Horror Ghost",
+          "card": "e3b2d97a-352e-4657-b3b7-416e8da9b7f4",
+          "yugipediaId": 286222,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Umbral Horror Ghoul",
+          "card": "3f864d5e-b2c7-4a1a-8e31-3dac6541d794",
+          "yugipediaId": 271767,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Number 43: Manipulator of Souls",
+          "card": "aec4c8b8-1ac9-4f92-a5e1-e72afd22440b",
+          "yugipediaId": 286001,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Number 104: Masquerade",
+          "card": "157dcf41-0300-43ec-b847-da8ae6185207",
+          "yugipediaId": 267875,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Number C104: Umbral Horror Masquerade",
+          "card": "24655596-74ad-46f2-aaa1-30cc5c00230a",
+          "yugipediaId": 269976,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Demise of the Land",
+          "card": "a8b41ff8-5acc-49a2-b558-596a976706ed",
+          "yugipediaId": 81355,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Glorious Numbers",
+          "card": "891752a4-fabf-4701-8258-2442efab6509",
+          "yugipediaId": 559038,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Rank-Up-Magic Barian's Force",
+          "card": "5092ddce-fb32-47ab-8f98-b2c80f8222df",
+          "yugipediaId": 235987,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Sargasso Lighthouse",
+          "card": "ed1ac767-2224-4f9a-b6d4-2e3ca87ef361",
+          "yugipediaId": 270481,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Sargasso the D.D. Battlefield",
+          "card": "ead13dcb-81b8-42ea-aa1c-e26ddc2b3a6a",
+          "yugipediaId": 270225,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Sword of Dark Destruction",
+          "card": "57c55cbd-835a-4ce4-8273-c98bf4454a43",
+          "yugipediaId": 7839,
+          "count": 1,
+          "category": "spells"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Water Hazard",
+      "card": "a7e7289e-0849-49a8-b07f-ef04c8cfdb07",
+      "yugipediaId": 110971,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "December 2025",
+          "runIndex": 0,
+          "requirement": "100000"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "December 2025",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "February 2026",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "December 2025",
+          "runIndex": 0,
+          "requirement": "100"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "February 2026",
+          "runIndex": 1,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Sirenorca",
+      "card": "1a253bf8-e267-4218-b669-fd8873bc016b",
+      "yugipediaId": 307078,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "December 2025",
+          "runIndex": 0,
+          "requirement": "610000"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "December 2025",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "December 2025",
+          "runIndex": 0,
+          "requirement": "300"
+        }
+      ]
+    },
+    {
+      "name": "Crystal Shark",
+      "card": "faabbae7-55b3-4c81-80ce-2bcb5dc273ed",
+      "yugipediaId": 714386,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "December 2025",
+          "runIndex": 0,
+          "requirement": "2700000"
+        },
+        {
+          "kind": "cumulativeRewards",
+          "run": "February 2026",
+          "runIndex": 1,
+          "requirement": "100000"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "December 2025",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "February 2026",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "December 2025",
+          "runIndex": 0,
+          "requirement": "100"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "February 2026",
+          "runIndex": 1,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Number 103: Ragnazero",
+      "card": "fa83494f-62bf-461a-bbae-610aad48c559",
+      "yugipediaId": 280542,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "December 2025",
+          "runIndex": 0,
+          "requirement": "4600000"
+        },
+        {
+          "kind": "cumulativeRewards",
+          "run": "February 2026",
+          "runIndex": 1,
+          "requirement": "740000"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "December 2025",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "February 2026",
+          "runIndex": 1,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "December 2025",
+          "runIndex": 0,
+          "requirement": "300"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "December 2025",
+          "runIndex": 0,
+          "requirement": "100"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "December 2025",
+          "runIndex": 0,
+          "requirement": "400"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "February 2026",
+          "runIndex": 1,
+          "requirement": "300"
+        },
+        {
+          "kind": "missions"
+        }
+      ]
+    },
+    {
+      "name": "Xyz Avenger",
+      "card": "9b65d35e-0b3f-45df-a552-94c5295cea4f",
+      "yugipediaId": 306070,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "February 2026",
+          "runIndex": 1,
+          "requirement": "2300000"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "February 2026",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "February 2026",
+          "runIndex": 1,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Barian Untopia",
+      "card": "c5fccb24-f243-4986-be59-b48b6358b432",
+      "yugipediaId": 713452,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "February 2026",
+          "runIndex": 1,
+          "requirement": "3900000"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "February 2026",
+          "runIndex": 1,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "February 2026",
+          "runIndex": 1,
+          "requirement": "300"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "February 2026",
+          "runIndex": 1,
+          "requirement": "100"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "February 2026",
+          "runIndex": 1,
+          "requirement": "400"
+        }
+      ]
+    },
+    {
+      "name": "Medium of the Ice Barrier",
+      "card": "6e24cec0-ef75-4c7b-9270-8053cf15f629",
+      "yugipediaId": 46854,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "December 2025",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "December 2025",
+          "runIndex": 0,
+          "requirement": "100"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "February 2026",
+          "runIndex": 1,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Power of Kaishin",
+      "card": "1ede5c4f-d213-46d9-ad43-a9779c1f128c",
+      "yugipediaId": 506181,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "December 2025",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "February 2026",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "December 2025",
+          "runIndex": 0,
+          "requirement": "30"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "February 2026",
+          "runIndex": 1,
+          "requirement": "30"
+        }
+      ]
+    },
+    {
+      "name": "Hydro Pressure Cannon",
+      "card": "9c224208-fb16-4a58-b86b-38cefe820db8",
+      "yugipediaId": 103717,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "December 2025",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "February 2026",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "December 2025",
+          "runIndex": 0,
+          "requirement": "30"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "February 2026",
+          "runIndex": 1,
+          "requirement": "30"
+        }
+      ]
+    },
+    {
+      "name": "Transmodify",
+      "card": "0ad1d0c0-d253-46c4-826e-82709c6c3cc8",
+      "yugipediaId": 273699,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "December 2025",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "February 2026",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "December 2025",
+          "runIndex": 0,
+          "requirement": "30"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "February 2026",
+          "runIndex": 1,
+          "requirement": "30"
+        }
+      ]
+    },
+    {
+      "name": "Waterdragon Fairy",
+      "card": "615fdaf1-277e-46fb-b841-bdaaa53ce7e7",
+      "yugipediaId": 19079,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "December 2025",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "February 2026",
+          "runIndex": 1,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "December 2025",
+          "runIndex": 0,
+          "requirement": "10"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "February 2026",
+          "runIndex": 1,
+          "requirement": "10"
+        }
+      ]
+    },
+    {
+      "name": "Water Element",
+      "card": "137fd75d-512a-4016-9a52-761a00ac1ef3",
+      "yugipediaId": 7332,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "December 2025",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "February 2026",
+          "runIndex": 1,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "December 2025",
+          "runIndex": 0,
+          "requirement": "10"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "February 2026",
+          "runIndex": 1,
+          "requirement": "10"
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Barian Battlemorph! Ragnafinity",
+      "skill": "129a98cd-a0f8-46e7-ab77-3bc1edcee9e9",
+      "yugipediaId": 1177226,
+      "obtainedVia": [
+        {
+          "kind": "missions",
+          "requirement": "Summon \"Number 103: Ragnazero\" 3 time(s) while playing as Marin."
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "The Chill That Freezes the Sun! Ice Queen Marin",
+        "id": 1165427
+      }
+    ]
+  }
+}

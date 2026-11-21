@@ -1,0 +1,172 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "631d55ba-add2-4324-bcc9-5eff3696e35f",
+  "name": {
+    "en": "Yusei Fudo's Birthday Celebration Gift"
+  },
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/e/ee/YuseiFudosBirthdayCelebrationGift-Banner.png",
+  "runs": [
+    {
+      "startDate": "2019-07-06",
+      "endDate": "2019-07-17"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "other",
+      "path": [
+        "Rewards"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "Players who logged into Yu-Gi-Oh! Duel Links during the following time periods would receive an appropriate \"Log-in Gift\" in their Gift Boxes. As such, it was possible to receive some (or all) of these gifts at the same time, if the player did not log in to receive a gift on an earlier day.",
+        "Additionally, this campaign marked the debut of a 3D Summoning animation for \"Junk Warrior\" (for Yusei Fudo), as well as a new Skill for Yusei: \"Tuning\". Players would receive the Skill in their Gift Boxes upon their first log-in to Yu-Gi-Oh! Duel Links during the campaign."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Period",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "July 6, 2019, 20:00 (EST) - July 13, 2019, 19:59 (EST)"
+              },
+              {
+                "text": "1 \"Junk Berserker\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Junk Berserker",
+                    "card": "3ceb5425-53e8-42a3-b028-ccb4829570a9",
+                    "yugipediaId": 152804,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "July 7, 2019, 20:00 (EST) - July 14, 2019, 19:59 (EST)"
+              },
+              {
+                "text": "1 \"Starlight Road\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Starlight Road",
+                    "card": "adb0cabc-58e8-4a7c-b6ef-000088d6ed16",
+                    "yugipediaId": 95654,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "July 8, 2019, 20:00 (EST) - July 15, 2019, 19:59 (EST)"
+              },
+              {
+                "text": "1 \"Mach Synchron\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Mach Synchron",
+                    "card": "c47d1c46-6580-4b3b-a64b-8735fc91c303",
+                    "yugipediaId": 643414,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "July 9, 2019, 20:00 (EST) - July 16, 2019, 19:59 (EST)"
+              },
+              {
+                "text": "1 \"Lightning Warrior\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Lightning Warrior",
+                    "card": "69cc2337-2524-446b-9a93-8e97b0f9458c",
+                    "yugipediaId": 114590,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Junk Berserker",
+      "card": "3ceb5425-53e8-42a3-b028-ccb4829570a9",
+      "yugipediaId": 152804,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "runIndex": 0,
+          "requirement": "July 6, 2019, 20:00 (EST) - July 13, 2019, 19:59 (EST)",
+          "date": "2019-07-06",
+          "availableText": "July 6, 2019, 20:00 (EST) - July 13, 2019, 19:59 (EST)"
+        }
+      ]
+    },
+    {
+      "name": "Starlight Road",
+      "card": "adb0cabc-58e8-4a7c-b6ef-000088d6ed16",
+      "yugipediaId": 95654,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "runIndex": 0,
+          "requirement": "July 7, 2019, 20:00 (EST) - July 14, 2019, 19:59 (EST)",
+          "date": "2019-07-07",
+          "availableText": "July 7, 2019, 20:00 (EST) - July 14, 2019, 19:59 (EST)"
+        }
+      ]
+    },
+    {
+      "name": "Mach Synchron",
+      "card": "c47d1c46-6580-4b3b-a64b-8735fc91c303",
+      "yugipediaId": 643414,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "runIndex": 0,
+          "requirement": "July 8, 2019, 20:00 (EST) - July 15, 2019, 19:59 (EST)",
+          "date": "2019-07-08",
+          "availableText": "July 8, 2019, 20:00 (EST) - July 15, 2019, 19:59 (EST)"
+        }
+      ]
+    },
+    {
+      "name": "Lightning Warrior",
+      "card": "69cc2337-2524-446b-9a93-8e97b0f9458c",
+      "yugipediaId": 114590,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "runIndex": 0,
+          "requirement": "July 9, 2019, 20:00 (EST) - July 16, 2019, 19:59 (EST)",
+          "date": "2019-07-09",
+          "availableText": "July 9, 2019, 20:00 (EST) - July 16, 2019, 19:59 (EST)"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Yusei Fudo's Birthday Celebration Gift",
+        "id": 643411
+      }
+    ]
+  }
+}

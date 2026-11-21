@@ -1,0 +1,93 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "36e496ef-db78-4b95-814b-005ac14665a7",
+  "name": {
+    "en": "KC Grand Tournament Countdown Bonus"
+  },
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/4/40/KCGrandTournamentCountdownBonus-Banner.png",
+  "runs": [
+    {
+      "startDate": "2020-07-19",
+      "endDate": "2020-07-25"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "other",
+      "path": [
+        "Rewards"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "Players who logged into Yu-Gi-Oh! Duel Links during the following time periods would receive an appropriate \"Log-in Gift\" in their Gift Boxes."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Period",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "July 19, 2020, 10:00 (EST) - July 20, 2020, 09:59 (EST)"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "July 20, 2020, 10:00 (EST) - July 21, 2020, 09:59 (EST)"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "July 21, 2020, 10:00 (EST) - July 22, 2020, 09:59 (EST)"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "July 22, 2020, 10:00 (EST) - July 23, 2020, 09:59 (EST)"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "July 23, 2020, 10:00 (EST) - July 24, 2020, 09:59 (EST)"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "July 24, 2020, 10:00 (EST) - July 25, 2020, 09:59 (EST)"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "KC Grand Tournament Countdown Bonus",
+        "id": 1011711
+      }
+    ]
+  }
+}

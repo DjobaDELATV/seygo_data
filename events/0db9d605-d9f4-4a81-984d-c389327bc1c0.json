@@ -1,0 +1,583 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "0db9d605-d9f4-4a81-984d-c389327bc1c0",
+  "name": {
+    "en": "Anna Kaboom is here!"
+  },
+  "type": "Roaming Duelist event",
+  "duelWorlds": [
+    "Duel World (ZEXAL)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/9/9e/AnnaKaboomishere-Banner.png",
+  "runs": [
+    {
+      "startDate": "2021-12-29",
+      "endDate": "2022-01-06"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "In addition to the following, standard Duel Rewards are also available by Dueling Anna Kaboom at Level 30 or lower."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Express Train Trolley Olley\", \"Granmarg the Mega Monarch\"",
+                "cards": [
+                  {
+                    "name": "Express Train Trolley Olley",
+                    "card": "163613c5-1ec4-4847-a106-1e08214bac59",
+                    "yugipediaId": 200775
+                  },
+                  {
+                    "name": "Granmarg the Mega Monarch",
+                    "card": "3ac90a63-2f89-47ee-8e6f-d33cf08fa4d9",
+                    "yugipediaId": 271121
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Lionhearted Locomotive\", \"Linear Accelerator Cannon\", \"Gear Golem the Moving Fortress\"",
+                "cards": [
+                  {
+                    "name": "Lionhearted Locomotive",
+                    "card": "1a515b1a-b32e-499e-939d-020e1fe82fc6",
+                    "yugipediaId": 200746
+                  },
+                  {
+                    "name": "Linear Accelerator Cannon",
+                    "card": "5e577b2e-965c-410a-b303-9b5556189f28",
+                    "yugipediaId": 12890
+                  },
+                  {
+                    "name": "Gear Golem the Moving Fortress",
+                    "card": "8cd4af6b-00d9-4818-81ad-26114d5f499b",
+                    "yugipediaId": 11614
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Overdrive\", \"D.D. Dynamite\", \"Oni Tank T-34\", \"Over Capacity\"",
+                "cards": [
+                  {
+                    "name": "Overdrive",
+                    "card": "e9cbef52-c593-427d-9d4b-93b34bf35563",
+                    "yugipediaId": 6929
+                  },
+                  {
+                    "name": "D.D. Dynamite",
+                    "card": "95abe45a-43bc-403b-a209-5c2fb9b8e81a",
+                    "yugipediaId": 13448
+                  },
+                  {
+                    "name": "Oni Tank T-34",
+                    "card": "14aec8b4-6162-47ae-a91d-026ae2687a01",
+                    "yugipediaId": 6913
+                  },
+                  {
+                    "name": "Over Capacity",
+                    "card": "eae53f1d-8906-462f-a441-afbfe1ad5518",
+                    "yugipediaId": 194407
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Taunt\"",
+                "cards": [
+                  {
+                    "name": "Taunt",
+                    "card": "01478657-4924-445f-92de-ac87e4a96ea0",
+                    "yugipediaId": 12531
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Rewards",
+        "Event Missions"
+      ],
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against Anna Kaboom in Duel World."
+              },
+              {
+                "text": "1 \"Over Capacity\" (Glossy)",
+                "cards": [
+                  {
+                    "name": "Over Capacity",
+                    "card": "eae53f1d-8906-462f-a441-afbfe1ad5518",
+                    "yugipediaId": 194407,
+                    "quantity": 1,
+                    "variant": "Glossy"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 3 Duel(s) against Anna Kaboom in Duel World."
+              },
+              {
+                "text": "1 \"Gear Golem the Moving Fortress\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Gear Golem the Moving Fortress",
+                    "card": "8cd4af6b-00d9-4818-81ad-26114d5f499b",
+                    "yugipediaId": 11614,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 7 Duel(s) against Anna Kaboom in Duel World."
+              },
+              {
+                "text": "1 \"Lionhearted Locomotive\"",
+                "cards": [
+                  {
+                    "name": "Lionhearted Locomotive",
+                    "card": "1a515b1a-b32e-499e-939d-020e1fe82fc6",
+                    "yugipediaId": 200746,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Play 15 Duel(s) against Anna Kaboom in Duel World (surrenders are not counted)."
+              },
+              {
+                "text": "1 \"Express Train Trolley Olley\"",
+                "cards": [
+                  {
+                    "name": "Express Train Trolley Olley",
+                    "card": "163613c5-1ec4-4847-a106-1e08214bac59",
+                    "yugipediaId": 200775,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "decks": [
+    {
+      "path": [
+        "Decks",
+        "Level 30"
+      ],
+      "cards": [
+        {
+          "name": "Bokoichi the Freightening Car",
+          "card": "ec943ad7-4b0f-4f25-af60-4d3a735a9ef6",
+          "yugipediaId": 13500,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Oni Tank T-34",
+          "card": "14aec8b4-6162-47ae-a91d-026ae2687a01",
+          "yugipediaId": 6913,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Overdrive",
+          "card": "e9cbef52-c593-427d-9d4b-93b34bf35563",
+          "yugipediaId": 6929,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Dekoichi the Battlechanted Locomotive",
+          "card": "8aa87340-4d1a-4050-8eeb-7e392f24d058",
+          "yugipediaId": 508679,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cannon Soldier",
+          "card": "3b432725-1bd4-42c3-bf96-df775caaa3b4",
+          "yugipediaId": 4320,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cannon Soldier MK-2",
+          "card": "45109dc5-6a69-42c7-92e2-ab013386fd0f",
+          "yugipediaId": 71616,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Monster Express",
+          "card": "25bb5dfd-6a57-426e-9ff1-cbe2a074fb93",
+          "yugipediaId": 666396,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Heavy Armored Train Ironwolf",
+          "card": "dd641844-646d-4ac6-8801-f63ff4b51f84",
+          "yugipediaId": 458378,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Urgent Schedule",
+          "card": "ff5dea15-2e94-40cd-99d7-f49aa2caf812",
+          "yugipediaId": 577972,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Cry Havoc!",
+          "card": "1fe2a148-f6b3-471e-affc-62bf0d65f3f3",
+          "yugipediaId": 70269,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Cyber Summon Blaster",
+          "card": "9b88ebbb-3f05-4023-9d9b-6b8069e2f0e8",
+          "yugipediaId": 13587,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Level 40"
+      ],
+      "cards": [
+        {
+          "name": "Express Train Trolley Olley",
+          "card": "163613c5-1ec4-4847-a106-1e08214bac59",
+          "yugipediaId": 200775,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Flying Pegasus Railroad Stampede",
+          "card": "096d85b8-33b6-402e-ba39-c9146b9cd999",
+          "yugipediaId": 577969,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Genex Turbine",
+          "card": "7526f658-5a34-4bb2-b14b-7ecf06647572",
+          "yugipediaId": 46534,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Lionhearted Locomotive",
+          "card": "1a515b1a-b32e-499e-939d-020e1fe82fc6",
+          "yugipediaId": 200746,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Monster Express",
+          "card": "25bb5dfd-6a57-426e-9ff1-cbe2a074fb93",
+          "yugipediaId": 666396,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Night Express Knight",
+          "card": "1747c8f5-af7b-4368-bfbc-aa03ba3e325a",
+          "yugipediaId": 258390,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Rocket Arrow Express",
+          "card": "d283bfba-0165-4bdf-8489-ff37e38b14c4",
+          "yugipediaId": 188974,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Snow Plow Hustle Rustle",
+          "card": "4f53ccf0-e0a5-4749-b125-c4407368aaf4",
+          "yugipediaId": 189083,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Heavy Armored Train Ironwolf",
+          "card": "dd641844-646d-4ac6-8801-f63ff4b51f84",
+          "yugipediaId": 458378,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Superdreadnought Rail Cannon Gustav Max",
+          "card": "72aa1849-bb39-4d89-863a-8cdaa7b2d6ea",
+          "yugipediaId": 177231,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Revolving Switchyard",
+          "card": "6b4e0e32-3603-4d80-925c-d4ed2c611b93",
+          "yugipediaId": 360585,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Southern Stars",
+          "card": "2f7fdc76-57ac-45f4-8a80-aa4cd077289c",
+          "yugipediaId": 719648,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Special Schedule",
+          "card": "717fc565-1e3d-4b8e-80a5-fc3e4568ad85",
+          "yugipediaId": 189290,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Train Connection",
+          "card": "986b9836-1132-4fe8-b929-b0ed907882e7",
+          "yugipediaId": 189202,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Urgent Schedule",
+          "card": "ff5dea15-2e94-40cd-99d7-f49aa2caf812",
+          "yugipediaId": 577972,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Cyber Summon Blaster",
+          "card": "9b88ebbb-3f05-4023-9d9b-6b8069e2f0e8",
+          "yugipediaId": 13587,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Express Train Trolley Olley",
+      "card": "163613c5-1ec4-4847-a106-1e08214bac59",
+      "yugipediaId": 200775,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Play 15 Duel(s) against Anna Kaboom in Duel World (surrenders are not counted)."
+        }
+      ]
+    },
+    {
+      "name": "Granmarg the Mega Monarch",
+      "card": "3ac90a63-2f89-47ee-8e6f-d33cf08fa4d9",
+      "yugipediaId": 271121,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Lionhearted Locomotive",
+      "card": "1a515b1a-b32e-499e-939d-020e1fe82fc6",
+      "yugipediaId": 200746,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 7 Duel(s) against Anna Kaboom in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Linear Accelerator Cannon",
+      "card": "5e577b2e-965c-410a-b303-9b5556189f28",
+      "yugipediaId": 12890,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Gear Golem the Moving Fortress",
+      "card": "8cd4af6b-00d9-4818-81ad-26114d5f499b",
+      "yugipediaId": 11614,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 3 Duel(s) against Anna Kaboom in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Overdrive",
+      "card": "e9cbef52-c593-427d-9d4b-93b34bf35563",
+      "yugipediaId": 6929,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "D.D. Dynamite",
+      "card": "95abe45a-43bc-403b-a209-5c2fb9b8e81a",
+      "yugipediaId": 13448,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Oni Tank T-34",
+      "card": "14aec8b4-6162-47ae-a91d-026ae2687a01",
+      "yugipediaId": 6913,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Over Capacity",
+      "card": "eae53f1d-8906-462f-a441-afbfe1ad5518",
+      "yugipediaId": 194407,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 1 Duel(s) against Anna Kaboom in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Taunt",
+      "card": "01478657-4924-445f-92de-ac87e4a96ea0",
+      "yugipediaId": 12531,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Anna Kaboom is here!",
+        "id": 1011668
+      }
+    ]
+  }
+}

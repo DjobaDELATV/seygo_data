@@ -1,0 +1,50 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "41fbff69-3afb-48da-936c-4bab3d4b9db7",
+  "name": {
+    "en": "TDGP Celebration Campaign"
+  },
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/9/9a/TDGPCelebrationCampaign-Banner.png",
+  "runs": [
+    {
+      "startDate": "2019-10-22",
+      "endDate": "2019-11-05"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "missions",
+      "path": [
+        "Event Missions"
+      ],
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Event Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Play 1 Duel(s) using Yusei Fudo."
+              },
+              {
+                "text": "50 Gems"
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "TDGP Celebration Campaign",
+        "id": 1135717
+      }
+    ]
+  }
+}

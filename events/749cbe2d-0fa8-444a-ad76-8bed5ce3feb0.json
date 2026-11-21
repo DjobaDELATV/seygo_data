@@ -1,0 +1,2212 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "749cbe2d-0fa8-444a-ad76-8bed5ce3feb0",
+  "name": {
+    "en": "Tag Duel Tournament V",
+    "ja": "\u30bf\u30c3\u30b0\u30c7\u30e5\u30a8\u30eb\u30c8\u30fc\u30ca\u30e1\u30f3\u30c8"
+  },
+  "type": "Tag Duel Tournament",
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/a/a4/TagDuelTournament-Banner.png",
+  "runs": [
+    {
+      "startDate": "2019-08-16",
+      "endDate": "2019-08-27"
+    }
+  ],
+  "cardTraderExDates": [
+    {
+      "startDate": "2019-08-16",
+      "endDate": "2019-09-03"
+    }
+  ],
+  "lotteryDates": [
+    {
+      "startDate": "2019-08-16",
+      "endDate": "2019-09-03"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "completion",
+      "path": [
+        "Rewards",
+        "Completion"
+      ],
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Cup",
+            "Clear",
+            "Round",
+            "Completion Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "5D's"
+              },
+              {
+                "text": "First Clear"
+              },
+              {
+                "text": "Round 1"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "5D's"
+              },
+              {
+                "text": "First Clear"
+              },
+              {
+                "text": "Round 2"
+              },
+              {
+                "text": "1 Extra Cards"
+              }
+            ],
+            [
+              {
+                "text": "5D's"
+              },
+              {
+                "text": "First Clear"
+              },
+              {
+                "text": "Round 3"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "5D's"
+              },
+              {
+                "text": "First Clear"
+              },
+              {
+                "text": "Semi-Final"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "5D's"
+              },
+              {
+                "text": "First Clear"
+              },
+              {
+                "text": "Final Round"
+              },
+              {
+                "text": "1 \"Kuwagata \u03b1\"",
+                "cards": [
+                  {
+                    "name": "Kuwagata \u03b1",
+                    "card": "90f0f21e-e1c9-48cb-a3d7-6609fe066672",
+                    "yugipediaId": 9815,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "5D's"
+              },
+              {
+                "text": "Second Clear"
+              },
+              {
+                "text": "Round 1"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "5D's"
+              },
+              {
+                "text": "Second Clear"
+              },
+              {
+                "text": "Round 2"
+              },
+              {
+                "text": "50 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "5D's"
+              },
+              {
+                "text": "Second Clear"
+              },
+              {
+                "text": "Round 3"
+              },
+              {
+                "text": "1 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "5D's"
+              },
+              {
+                "text": "Second Clear"
+              },
+              {
+                "text": "Semi-Final"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "5D's"
+              },
+              {
+                "text": "Second Clear"
+              },
+              {
+                "text": "Final Round"
+              },
+              {
+                "text": "1 \"Chaos Goddess\"",
+                "cards": [
+                  {
+                    "name": "Chaos Goddess",
+                    "card": "04b76410-52c8-415d-8754-29755da1dd9c",
+                    "yugipediaId": 514553,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "5D's"
+              },
+              {
+                "text": "Third Clear"
+              },
+              {
+                "text": "Round 1"
+              },
+              {
+                "text": "1 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "5D's"
+              },
+              {
+                "text": "Third Clear"
+              },
+              {
+                "text": "Round 2"
+              },
+              {
+                "text": "3000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "5D's"
+              },
+              {
+                "text": "Third Clear"
+              },
+              {
+                "text": "Round 3"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "5D's"
+              },
+              {
+                "text": "Third Clear"
+              },
+              {
+                "text": "Semi-Final"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "5D's"
+              },
+              {
+                "text": "Third Clear"
+              },
+              {
+                "text": "Final Round"
+              },
+              {
+                "text": "1 \"Red Rising Dragon\"",
+                "cards": [
+                  {
+                    "name": "Red Rising Dragon",
+                    "card": "5c979ada-22f7-45b8-87a4-a8c1d74b768e",
+                    "yugipediaId": 453378,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "DM"
+              },
+              {
+                "text": "First Clear"
+              },
+              {
+                "text": "Round 1"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "DM"
+              },
+              {
+                "text": "First Clear"
+              },
+              {
+                "text": "Round 2"
+              },
+              {
+                "text": "1 EXP Booster"
+              }
+            ],
+            [
+              {
+                "text": "DM"
+              },
+              {
+                "text": "First Clear"
+              },
+              {
+                "text": "Round 3"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "DM"
+              },
+              {
+                "text": "First Clear"
+              },
+              {
+                "text": "Round 4"
+              },
+              {
+                "text": "1 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "DM"
+              },
+              {
+                "text": "First Clear"
+              },
+              {
+                "text": "Semi-Final"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "DM"
+              },
+              {
+                "text": "First Clear"
+              },
+              {
+                "text": "Final Round"
+              },
+              {
+                "text": "Access to Lumis and Umbra as a playable characters"
+              }
+            ],
+            [
+              {
+                "text": "DM"
+              },
+              {
+                "text": "Second Clear"
+              },
+              {
+                "text": "Round 1"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "DM"
+              },
+              {
+                "text": "Second Clear"
+              },
+              {
+                "text": "Round 2"
+              },
+              {
+                "text": "1 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "DM"
+              },
+              {
+                "text": "Second Clear"
+              },
+              {
+                "text": "Round 3"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "DM"
+              },
+              {
+                "text": "Second Clear"
+              },
+              {
+                "text": "Round 4"
+              },
+              {
+                "text": "50 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "DM"
+              },
+              {
+                "text": "Second Clear"
+              },
+              {
+                "text": "Semi-Final"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "DM"
+              },
+              {
+                "text": "Second Clear"
+              },
+              {
+                "text": "Final Round"
+              },
+              {
+                "text": "1 \"Pyrotech Mech - Shiryu\"",
+                "cards": [
+                  {
+                    "name": "Pyrotech Mech - Shiryu",
+                    "card": "6024f037-d597-4c8e-aa29-734dbbebfb27",
+                    "yugipediaId": 246576,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "DM"
+              },
+              {
+                "text": "Third Clear"
+              },
+              {
+                "text": "Round 1"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "DM"
+              },
+              {
+                "text": "Third Clear"
+              },
+              {
+                "text": "Round 2"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "DM"
+              },
+              {
+                "text": "Third Clear"
+              },
+              {
+                "text": "Round 3"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "DM"
+              },
+              {
+                "text": "Third Clear"
+              },
+              {
+                "text": "Round 4"
+              },
+              {
+                "text": "2 SR Jewels"
+              }
+            ],
+            [
+              {
+                "text": "DM"
+              },
+              {
+                "text": "Third Clear"
+              },
+              {
+                "text": "Semi-Final"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "DM"
+              },
+              {
+                "text": "Third Clear"
+              },
+              {
+                "text": "Final Round"
+              },
+              {
+                "text": "Skill: Mask of Restrict",
+                "skills": [
+                  {
+                    "name": "Mask of Restrict (Skill)",
+                    "skill": "897163e6-3402-4a06-bda0-d418a4dd907d",
+                    "yugipediaId": 715810
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "GX"
+              },
+              {
+                "text": "First Clear"
+              },
+              {
+                "text": "Round 1"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "GX"
+              },
+              {
+                "text": "First Clear"
+              },
+              {
+                "text": "Round 2"
+              },
+              {
+                "text": "100 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "GX"
+              },
+              {
+                "text": "First Clear"
+              },
+              {
+                "text": "Round 3"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "GX"
+              },
+              {
+                "text": "First Clear"
+              },
+              {
+                "text": "Round 4"
+              },
+              {
+                "text": "1 \"Comrade Swordsman of Landstar\"",
+                "cards": [
+                  {
+                    "name": "Comrade Swordsman of Landstar",
+                    "card": "f81856df-a942-44dd-97b8-d5712827648d",
+                    "yugipediaId": 45501,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "GX"
+              },
+              {
+                "text": "First Clear"
+              },
+              {
+                "text": "Round 5"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "GX"
+              },
+              {
+                "text": "First Clear"
+              },
+              {
+                "text": "Semi-Final"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "GX"
+              },
+              {
+                "text": "First Clear"
+              },
+              {
+                "text": "Final Round"
+              },
+              {
+                "text": "1 \"Splendid Venus\"",
+                "cards": [
+                  {
+                    "name": "Splendid Venus",
+                    "card": "3afa44fd-3ddf-4814-8462-eab2cc0acf54",
+                    "yugipediaId": 513127,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "GX"
+              },
+              {
+                "text": "Second Clear"
+              },
+              {
+                "text": "Round 1"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "GX"
+              },
+              {
+                "text": "Second Clear"
+              },
+              {
+                "text": "Round 2"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "GX"
+              },
+              {
+                "text": "Second Clear"
+              },
+              {
+                "text": "Round 3"
+              },
+              {
+                "text": "1 UR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "GX"
+              },
+              {
+                "text": "Second Clear"
+              },
+              {
+                "text": "Round 4"
+              },
+              {
+                "text": "1 \"Missing Force\"",
+                "cards": [
+                  {
+                    "name": "Missing Force",
+                    "card": "0d6ec897-2deb-4faa-8cb7-6fd4c4ceae9c",
+                    "yugipediaId": 230704,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "GX"
+              },
+              {
+                "text": "Second Clear"
+              },
+              {
+                "text": "Round 5"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "GX"
+              },
+              {
+                "text": "Second Clear"
+              },
+              {
+                "text": "Semi-Final"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "GX"
+              },
+              {
+                "text": "Second Clear"
+              },
+              {
+                "text": "Final Round"
+              },
+              {
+                "text": "1 \"Illusory Snatcher\"",
+                "cards": [
+                  {
+                    "name": "Illusory Snatcher",
+                    "card": "9a85c8cb-14d8-4a49-b78f-79a0979e0908",
+                    "yugipediaId": 214343,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "GX"
+              },
+              {
+                "text": "Third Clear"
+              },
+              {
+                "text": "Round 1"
+              },
+              {
+                "text": "12000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "GX"
+              },
+              {
+                "text": "Third Clear"
+              },
+              {
+                "text": "Round 2"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "GX"
+              },
+              {
+                "text": "Third Clear"
+              },
+              {
+                "text": "Round 3"
+              },
+              {
+                "text": "1 UR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "GX"
+              },
+              {
+                "text": "Third Clear"
+              },
+              {
+                "text": "Round 4"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "GX"
+              },
+              {
+                "text": "Third Clear"
+              },
+              {
+                "text": "Round 5"
+              },
+              {
+                "text": "15000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "GX"
+              },
+              {
+                "text": "Third Clear"
+              },
+              {
+                "text": "Semi-Final"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "GX"
+              },
+              {
+                "text": "Third Clear"
+              },
+              {
+                "text": "Final Round"
+              },
+              {
+                "text": "1 \"Ally of Justice Core Destroyer\"",
+                "cards": [
+                  {
+                    "name": "Ally of Justice Core Destroyer",
+                    "card": "70879d33-ad76-44d5-ae4f-76272183a9a4",
+                    "yugipediaId": 118645,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Special"
+              },
+              {
+                "text": "First Clear"
+              },
+              {
+                "text": "Round 1"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Special"
+              },
+              {
+                "text": "First Clear"
+              },
+              {
+                "text": "Semi-Final"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Special"
+              },
+              {
+                "text": "First Clear"
+              },
+              {
+                "text": "Final Round"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Special"
+              },
+              {
+                "text": "Second Clear"
+              },
+              {
+                "text": "Round 1"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Special"
+              },
+              {
+                "text": "Second Clear"
+              },
+              {
+                "text": "Semi-Final"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Special"
+              },
+              {
+                "text": "Second Clear"
+              },
+              {
+                "text": "Final Round"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Special"
+              },
+              {
+                "text": "Third Clear"
+              },
+              {
+                "text": "Round 1"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Special"
+              },
+              {
+                "text": "Third Clear"
+              },
+              {
+                "text": "Semi-Final"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Special"
+              },
+              {
+                "text": "Third Clear"
+              },
+              {
+                "text": "Final Round"
+              },
+              {
+                "text": "Tag Duel Tournament V Completed"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "cardTraderEx",
+      "path": [
+        "Rewards",
+        "Card Trader EX"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "The Card Trader EX appears during this event and remained open until one week after its conclusion. The player can trade their EX Jewels for cards, Booster Items, and Gold. Each card and Booster Item can only be obtained once from the Card Trader EX during this event, but the Gold can be obtained any number of times."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "EX Jewels",
+            "Item"
+          ],
+          "rows": [
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1"
+              },
+              {
+                "text": "100 Gold"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Results Booster"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 EXP Booster"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "300"
+              },
+              {
+                "text": "1 \"Ally of Justice Core Destroyer\"",
+                "cards": [
+                  {
+                    "name": "Ally of Justice Core Destroyer",
+                    "card": "70879d33-ad76-44d5-ae4f-76272183a9a4",
+                    "yugipediaId": 118645,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "300"
+              },
+              {
+                "text": "1 \"Red Rising Dragon\"",
+                "cards": [
+                  {
+                    "name": "Red Rising Dragon",
+                    "card": "5c979ada-22f7-45b8-87a4-a8c1d74b768e",
+                    "yugipediaId": 453378,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "300"
+              },
+              {
+                "text": "1 \"Illusory Snatcher\"",
+                "cards": [
+                  {
+                    "name": "Illusory Snatcher",
+                    "card": "9a85c8cb-14d8-4a49-b78f-79a0979e0908",
+                    "yugipediaId": 214343,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Pyrotech Mech - Shiryu\"",
+                "cards": [
+                  {
+                    "name": "Pyrotech Mech - Shiryu",
+                    "card": "6024f037-d597-4c8e-aa29-734dbbebfb27",
+                    "yugipediaId": 246576,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Splendid Venus\"",
+                "cards": [
+                  {
+                    "name": "Splendid Venus",
+                    "card": "3afa44fd-3ddf-4814-8462-eab2cc0acf54",
+                    "yugipediaId": 513127,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Chaos Goddess\"",
+                "cards": [
+                  {
+                    "name": "Chaos Goddess",
+                    "card": "04b76410-52c8-415d-8754-29755da1dd9c",
+                    "yugipediaId": 514553,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Obsidian Dragon\"",
+                "cards": [
+                  {
+                    "name": "Obsidian Dragon",
+                    "card": "13124e40-22ba-4064-b5fe-2bcd3aaf3ff1",
+                    "yugipediaId": 70049,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Evilswarm Obliviwisp\"",
+                "cards": [
+                  {
+                    "name": "Evilswarm Obliviwisp",
+                    "card": "fc3598ee-1fc7-45f5-8a41-5ba7240ac8d2",
+                    "yugipediaId": 177831,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Missing Force\"",
+                "cards": [
+                  {
+                    "name": "Missing Force",
+                    "card": "0d6ec897-2deb-4faa-8cb7-6fd4c4ceae9c",
+                    "yugipediaId": 230704,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Final Gesture\"",
+                "cards": [
+                  {
+                    "name": "Final Gesture",
+                    "card": "7b4d8a8a-6708-4751-8b5b-3dd7b479deda",
+                    "yugipediaId": 242926,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Trust Guardian\"",
+                "cards": [
+                  {
+                    "name": "Trust Guardian",
+                    "card": "1a32ddac-5922-41b4-b323-65a9d9cb707b",
+                    "yugipediaId": 106869,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Searchlightman\"",
+                "cards": [
+                  {
+                    "name": "Searchlightman",
+                    "card": "9151323a-4be1-4418-9f87-cba0d320816f",
+                    "yugipediaId": 16476,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Nuvia the Wicked\"",
+                "cards": [
+                  {
+                    "name": "Nuvia the Wicked",
+                    "card": "158b0114-0d92-49b9-9ea9-f055567df732",
+                    "yugipediaId": 5071,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Shining Abyss\"",
+                "cards": [
+                  {
+                    "name": "Shining Abyss",
+                    "card": "2081094d-2112-4b2f-9937-c429262ca766",
+                    "yugipediaId": 3612,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Darkfall\"",
+                "cards": [
+                  {
+                    "name": "Darkfall",
+                    "card": "ac66e13d-8440-433a-93e5-10349b78a554",
+                    "yugipediaId": 131108,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Emissary from Pandemonium\"",
+                "cards": [
+                  {
+                    "name": "Emissary from Pandemonium",
+                    "card": "6b7d1c28-1f4a-400f-9594-079d0148cce6",
+                    "yugipediaId": 58680,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Kuwagata \u03b1\"",
+                "cards": [
+                  {
+                    "name": "Kuwagata \u03b1",
+                    "card": "90f0f21e-e1c9-48cb-a3d7-6609fe066672",
+                    "yugipediaId": 9815,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Kageningen\"",
+                "cards": [
+                  {
+                    "name": "Kageningen",
+                    "card": "7c71f98d-754d-49ea-a8f0-444ec6bfb805",
+                    "yugipediaId": 4637,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Rallis the Star Bird\"",
+                "cards": [
+                  {
+                    "name": "Rallis the Star Bird",
+                    "card": "676989b6-41df-4835-b70d-a091f0502bef",
+                    "yugipediaId": 6220,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Three-Legged Zombies\"",
+                "cards": [
+                  {
+                    "name": "Three-Legged Zombies",
+                    "card": "bede07f3-f513-4360-8b7d-1ffccad4e66a",
+                    "yugipediaId": 505784,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Masked Clown\"",
+                "cards": [
+                  {
+                    "name": "Masked Clown",
+                    "card": "fbfb684a-4176-4a3b-b1a8-bb3335756082",
+                    "yugipediaId": 4669,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Sword Arm of Dragon\"",
+                "cards": [
+                  {
+                    "name": "Sword Arm of Dragon",
+                    "card": "5c43cdcf-aaf0-4818-a508-bd4419a02d63",
+                    "yugipediaId": 20048,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "lottery",
+      "path": [
+        "Rewards",
+        "Lottery"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "The player can spend a multiple of 30 Lottery Coins (max. 300 at a time) to obtain one random reward for each 30 Lottery Coins spent."
+      ],
+      "tables": [
+        {
+          "rows": [
+            [
+              {
+                "text": ""
+              },
+              {
+                "text": "Lottery Rewards"
+              }
+            ],
+            [
+              {
+                "text": "Rainbow"
+              },
+              {
+                "text": "\"Ally of Justice Core Destroyer\" (UR), \"Red Rising Dragon\" (UR), \"Illusory Snatcher\" (UR), \"Pyrotech Mech - Shiryu\" (SR), \"Splendid Venus\" (SR), \"Chaos Goddess\" (SR), \"Obsidian Dragon\" (SR), \"Evilswarm Obliviwisp\" (SR), \"Missing Force\" (SR), \"Final Gesture\" (SR)\n1 UR Jewel",
+                "cards": [
+                  {
+                    "name": "Ally of Justice Core Destroyer",
+                    "card": "70879d33-ad76-44d5-ae4f-76272183a9a4",
+                    "yugipediaId": 118645,
+                    "rarity": "UR"
+                  },
+                  {
+                    "name": "Red Rising Dragon",
+                    "card": "5c979ada-22f7-45b8-87a4-a8c1d74b768e",
+                    "yugipediaId": 453378,
+                    "rarity": "UR"
+                  },
+                  {
+                    "name": "Illusory Snatcher",
+                    "card": "9a85c8cb-14d8-4a49-b78f-79a0979e0908",
+                    "yugipediaId": 214343,
+                    "rarity": "UR"
+                  },
+                  {
+                    "name": "Pyrotech Mech - Shiryu",
+                    "card": "6024f037-d597-4c8e-aa29-734dbbebfb27",
+                    "yugipediaId": 246576,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Splendid Venus",
+                    "card": "3afa44fd-3ddf-4814-8462-eab2cc0acf54",
+                    "yugipediaId": 513127,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Chaos Goddess",
+                    "card": "04b76410-52c8-415d-8754-29755da1dd9c",
+                    "yugipediaId": 514553,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Obsidian Dragon",
+                    "card": "13124e40-22ba-4064-b5fe-2bcd3aaf3ff1",
+                    "yugipediaId": 70049,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Evilswarm Obliviwisp",
+                    "card": "fc3598ee-1fc7-45f5-8a41-5ba7240ac8d2",
+                    "yugipediaId": 177831,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Missing Force",
+                    "card": "0d6ec897-2deb-4faa-8cb7-6fd4c4ceae9c",
+                    "yugipediaId": 230704,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Final Gesture",
+                    "card": "7b4d8a8a-6708-4751-8b5b-3dd7b479deda",
+                    "yugipediaId": 242926,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Gold"
+              },
+              {
+                "text": "\"Trust Guardian\" (R), \"Searchlightman\" (R), \"Nuvia the Wicked\" (R), \"Shining Abyss\" (R), \"Darkfall\" (R), \"Emissary from Pandemonium\" (R)\n3000 or 2000 Gold\n10 Gems\n10 Gate Keys (White, Black, Blue, Red, Yellow or Green)\n1 SR Jewel\n20 EX Jewels (Tag Duels)",
+                "cards": [
+                  {
+                    "name": "Trust Guardian",
+                    "card": "1a32ddac-5922-41b4-b323-65a9d9cb707b",
+                    "yugipediaId": 106869,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Searchlightman",
+                    "card": "9151323a-4be1-4418-9f87-cba0d320816f",
+                    "yugipediaId": 16476,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Nuvia the Wicked",
+                    "card": "158b0114-0d92-49b9-9ea9-f055567df732",
+                    "yugipediaId": 5071,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Shining Abyss",
+                    "card": "2081094d-2112-4b2f-9937-c429262ca766",
+                    "yugipediaId": 3612,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Darkfall",
+                    "card": "ac66e13d-8440-433a-93e5-10349b78a554",
+                    "yugipediaId": 131108,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Emissary from Pandemonium",
+                    "card": "6b7d1c28-1f4a-400f-9594-079d0148cce6",
+                    "yugipediaId": 58680,
+                    "rarity": "R"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Normal"
+              },
+              {
+                "text": "\"Kuwagata \u03b1\" (N), \"Kageningen\" (N), \"Rallis the Star Bird\" (N), \"Three-Legged Zombies\" (N), \"Masked Clown\" (N), \"Sword Arm of Dragon\" (N)\n1000, 600 or 300 Gold\n5 or 1 Gem(s)\n5 Gate Keys (White, Black, Blue, Red, Yellow or Green)\n5 R Jewels\n10, 5, or 1 EX Jewels (Tag Duels)",
+                "cards": [
+                  {
+                    "name": "Kuwagata \u03b1",
+                    "card": "90f0f21e-e1c9-48cb-a3d7-6609fe066672",
+                    "yugipediaId": 9815,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Kageningen",
+                    "card": "7c71f98d-754d-49ea-a8f0-444ec6bfb805",
+                    "yugipediaId": 4637,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Rallis the Star Bird",
+                    "card": "676989b6-41df-4835-b70d-a091f0502bef",
+                    "yugipediaId": 6220,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Three-Legged Zombies",
+                    "card": "bede07f3-f513-4360-8b7d-1ffccad4e66a",
+                    "yugipediaId": 505784,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Masked Clown",
+                    "card": "fbfb684a-4176-4a3b-b1a8-bb3335756082",
+                    "yugipediaId": 4669,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Sword Arm of Dragon",
+                    "card": "5c43cdcf-aaf0-4818-a508-bd4419a02d63",
+                    "yugipediaId": 20048,
+                    "rarity": "N"
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Rewards",
+        "Event Missions"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "These missions were added on August 22, 2019."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Successfully perform 3 Synchro Summon(s) in Tag Duel."
+              },
+              {
+                "text": "Card Sleeves: 5D's Cup (Leo)"
+              }
+            ],
+            [
+              {
+                "text": "Successfully perform 6 Synchro Summon(s) in Tag Duel."
+              },
+              {
+                "text": "Game Mat: 5D's Cup (Leo)"
+              }
+            ],
+            [
+              {
+                "text": "Successfully perform 3 Tribute Summon(s) in Tag Duel."
+              },
+              {
+                "text": "Card Sleeves: DM Cup (Joey Wheeler)"
+              }
+            ],
+            [
+              {
+                "text": "Successfully perform 6 Tribute Summon(s) in Tag Duel."
+              },
+              {
+                "text": "Game Mat: DM Cup (Joey Wheeler)"
+              }
+            ],
+            [
+              {
+                "text": "Successfully perform 3 Fusion Summon(s) in Tag Duel."
+              },
+              {
+                "text": "Card Sleeves: GX Cup (Jaden/Yubel)"
+              }
+            ],
+            [
+              {
+                "text": "Successfully perform 6 Fusion Summon(s) in Tag Duel."
+              },
+              {
+                "text": "Game Mat: GX Cup (Jaden/Yubel)"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "dailyMissions",
+      "path": [
+        "Rewards",
+        "Event Missions",
+        "Daily Missions"
+      ],
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Event Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Play 1 Duel(s) in Ranked Duels (surrenders are not counted.)"
+              },
+              {
+                "text": "10 Friendship Letters"
+              }
+            ],
+            [
+              {
+                "text": "Play 2 Duel(s) in Ranked Duels (surrenders are not counted.)"
+              },
+              {
+                "text": "10 Friendship Letters"
+              }
+            ],
+            [
+              {
+                "text": "Play 3 Duel(s) in Ranked Duels (surrenders are not counted.)"
+              },
+              {
+                "text": "10 Friendship Letters"
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Kuwagata \u03b1",
+      "card": "90f0f21e-e1c9-48cb-a3d7-6609fe066672",
+      "yugipediaId": 9815,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "runIndex": 0,
+          "requirement": "5D's"
+        },
+        {
+          "kind": "cardTraderEx",
+          "runIndex": 0,
+          "requirement": "10"
+        },
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Chaos Goddess",
+      "card": "04b76410-52c8-415d-8754-29755da1dd9c",
+      "yugipediaId": 514553,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "runIndex": 0,
+          "requirement": "5D's"
+        },
+        {
+          "kind": "cardTraderEx",
+          "runIndex": 0,
+          "requirement": "100"
+        },
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Red Rising Dragon",
+      "card": "5c979ada-22f7-45b8-87a4-a8c1d74b768e",
+      "yugipediaId": 453378,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "runIndex": 0,
+          "requirement": "5D's"
+        },
+        {
+          "kind": "cardTraderEx",
+          "runIndex": 0,
+          "requirement": "300"
+        },
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Pyrotech Mech - Shiryu",
+      "card": "6024f037-d597-4c8e-aa29-734dbbebfb27",
+      "yugipediaId": 246576,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "runIndex": 0,
+          "requirement": "DM"
+        },
+        {
+          "kind": "cardTraderEx",
+          "runIndex": 0,
+          "requirement": "100"
+        },
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Comrade Swordsman of Landstar",
+      "card": "f81856df-a942-44dd-97b8-d5712827648d",
+      "yugipediaId": 45501,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "runIndex": 0,
+          "requirement": "GX"
+        }
+      ]
+    },
+    {
+      "name": "Splendid Venus",
+      "card": "3afa44fd-3ddf-4814-8462-eab2cc0acf54",
+      "yugipediaId": 513127,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "runIndex": 0,
+          "requirement": "GX"
+        },
+        {
+          "kind": "cardTraderEx",
+          "runIndex": 0,
+          "requirement": "100"
+        },
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Missing Force",
+      "card": "0d6ec897-2deb-4faa-8cb7-6fd4c4ceae9c",
+      "yugipediaId": 230704,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "runIndex": 0,
+          "requirement": "GX"
+        },
+        {
+          "kind": "cardTraderEx",
+          "runIndex": 0,
+          "requirement": "100"
+        },
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Illusory Snatcher",
+      "card": "9a85c8cb-14d8-4a49-b78f-79a0979e0908",
+      "yugipediaId": 214343,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "runIndex": 0,
+          "requirement": "GX"
+        },
+        {
+          "kind": "cardTraderEx",
+          "runIndex": 0,
+          "requirement": "300"
+        },
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Ally of Justice Core Destroyer",
+      "card": "70879d33-ad76-44d5-ae4f-76272183a9a4",
+      "yugipediaId": 118645,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "runIndex": 0,
+          "requirement": "GX"
+        },
+        {
+          "kind": "cardTraderEx",
+          "runIndex": 0,
+          "requirement": "300"
+        },
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Obsidian Dragon",
+      "card": "13124e40-22ba-4064-b5fe-2bcd3aaf3ff1",
+      "yugipediaId": 70049,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "runIndex": 0,
+          "requirement": "100"
+        },
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Evilswarm Obliviwisp",
+      "card": "fc3598ee-1fc7-45f5-8a41-5ba7240ac8d2",
+      "yugipediaId": 177831,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "runIndex": 0,
+          "requirement": "100"
+        },
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Final Gesture",
+      "card": "7b4d8a8a-6708-4751-8b5b-3dd7b479deda",
+      "yugipediaId": 242926,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "runIndex": 0,
+          "requirement": "100"
+        },
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Trust Guardian",
+      "card": "1a32ddac-5922-41b4-b323-65a9d9cb707b",
+      "yugipediaId": 106869,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "runIndex": 0,
+          "requirement": "30"
+        },
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Searchlightman",
+      "card": "9151323a-4be1-4418-9f87-cba0d320816f",
+      "yugipediaId": 16476,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "runIndex": 0,
+          "requirement": "30"
+        },
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Nuvia the Wicked",
+      "card": "158b0114-0d92-49b9-9ea9-f055567df732",
+      "yugipediaId": 5071,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "runIndex": 0,
+          "requirement": "30"
+        },
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Shining Abyss",
+      "card": "2081094d-2112-4b2f-9937-c429262ca766",
+      "yugipediaId": 3612,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "runIndex": 0,
+          "requirement": "30"
+        },
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Darkfall",
+      "card": "ac66e13d-8440-433a-93e5-10349b78a554",
+      "yugipediaId": 131108,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "runIndex": 0,
+          "requirement": "30"
+        },
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Emissary from Pandemonium",
+      "card": "6b7d1c28-1f4a-400f-9594-079d0148cce6",
+      "yugipediaId": 58680,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "runIndex": 0,
+          "requirement": "30"
+        },
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Kageningen",
+      "card": "7c71f98d-754d-49ea-a8f0-444ec6bfb805",
+      "yugipediaId": 4637,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "runIndex": 0,
+          "requirement": "10"
+        },
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Rallis the Star Bird",
+      "card": "676989b6-41df-4835-b70d-a091f0502bef",
+      "yugipediaId": 6220,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "runIndex": 0,
+          "requirement": "10"
+        },
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Three-Legged Zombies",
+      "card": "bede07f3-f513-4360-8b7d-1ffccad4e66a",
+      "yugipediaId": 505784,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "runIndex": 0,
+          "requirement": "10"
+        },
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Masked Clown",
+      "card": "fbfb684a-4176-4a3b-b1a8-bb3335756082",
+      "yugipediaId": 4669,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "runIndex": 0,
+          "requirement": "10"
+        },
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Sword Arm of Dragon",
+      "card": "5c43cdcf-aaf0-4818-a508-bd4419a02d63",
+      "yugipediaId": 20048,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "runIndex": 0,
+          "requirement": "10"
+        },
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Mask of Restrict (Skill)",
+      "skill": "897163e6-3402-4a06-bda0-d418a4dd907d",
+      "yugipediaId": 715810,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "runIndex": 0,
+          "requirement": "DM"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Tag Duel Tournament V",
+        "id": 658718
+      }
+    ]
+  }
+}

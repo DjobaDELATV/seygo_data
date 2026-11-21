@@ -1,0 +1,998 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "a2cda6c4-241e-4484-b86a-de8d9d6fab54",
+  "name": {
+    "en": "Bonz's Spooky Zombie Party",
+    "ja": "\u30b4\u30fc\u30b9\u30c8\u9aa8\u585a\u306e\u30a2\u30f3\u30c7\u30c3\u30c8\u30db\u30e9\u30fc\u30b7\u30e7\u30fc"
+  },
+  "type": "Duel-A-Thon",
+  "duelWorlds": [
+    "Duel World (DM)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/4/46/BonzsSpookyZombieParty-Banner.png",
+  "runs": [
+    {
+      "startDate": "2017-12-19",
+      "endDate": "2017-12-26"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Pumpking the King of Ghosts\"",
+                "cards": [
+                  {
+                    "name": "Pumpking the King of Ghosts",
+                    "card": "a3145a23-88f4-4cb7-bf44-9f8b000b1f4a",
+                    "yugipediaId": 62
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Ryu Kokki\", \"Castle of Dark Illusions\", \"Ghostrick Stein\", \"Ghostrick Witch\", \"Call of the Mummy\", \"Monster Rebone\"",
+                "cards": [
+                  {
+                    "name": "Ryu Kokki",
+                    "card": "8c58d60f-3c00-4eff-baaf-698786e185f3",
+                    "yugipediaId": 1888
+                  },
+                  {
+                    "name": "Castle of Dark Illusions",
+                    "card": "92299df5-f62b-49a0-950f-b1c9732aa53d",
+                    "yugipediaId": 4995
+                  },
+                  {
+                    "name": "Ghostrick Stein",
+                    "card": "6f9e0d07-e9ce-46f3-a0f5-e7462964927e",
+                    "yugipediaId": 256441
+                  },
+                  {
+                    "name": "Ghostrick Witch",
+                    "card": "1c1d8b88-69fe-470b-8cf6-d07a60c9e98c",
+                    "yugipediaId": 256577
+                  },
+                  {
+                    "name": "Call of the Mummy",
+                    "card": "6dae878b-af73-46cb-bda3-ed87c84afeab",
+                    "yugipediaId": 2239
+                  },
+                  {
+                    "name": "Monster Rebone",
+                    "card": "11e30679-34c2-4074-82b2-60ff08d63608",
+                    "yugipediaId": 334713
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Ghostrick Ghoul\", \"Ghostrick Mummy\", \"Ghostrick Skeleton\", \"Ghostrick Vanish\"",
+                "cards": [
+                  {
+                    "name": "Ghostrick Ghoul",
+                    "card": "ae8fd713-9804-4651-bbe9-999ffc6851d3",
+                    "yugipediaId": 320162
+                  },
+                  {
+                    "name": "Ghostrick Mummy",
+                    "card": "fdca6bc6-fd30-4225-8f0c-9ed321001d7d",
+                    "yugipediaId": 306659
+                  },
+                  {
+                    "name": "Ghostrick Skeleton",
+                    "card": "839dfa4d-0b00-4e2a-8156-c76331ab96e3",
+                    "yugipediaId": 306625
+                  },
+                  {
+                    "name": "Ghostrick Vanish",
+                    "card": "f9222ebc-8ba4-47b9-a24b-d141ecd91069",
+                    "yugipediaId": 256935
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Armored Zombie\", \"Clown Zombie\", \"Skull Servant\"",
+                "cards": [
+                  {
+                    "name": "Armored Zombie",
+                    "card": "cbdc42a4-d211-45ad-8181-aa505fb91f6a",
+                    "yugipediaId": 510596
+                  },
+                  {
+                    "name": "Clown Zombie",
+                    "card": "f21acbd6-00df-4906-afa7-65e959317236",
+                    "yugipediaId": 509005
+                  },
+                  {
+                    "name": "Skull Servant",
+                    "card": "5fc83ceb-96ce-4614-ba94-20b81d29f8a2",
+                    "yugipediaId": 504815
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "cumulativeRewards",
+      "path": [
+        "Rewards",
+        "Cumulative"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "During the course of the event, players earned the following rewards by reaching milestones in terms of accumulated event points. Items were deposited in the player's Gift Box for later redemption."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Points",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "150"
+              },
+              {
+                "text": "50 Gems + Cutscene"
+              }
+            ],
+            [
+              {
+                "text": "400"
+              },
+              {
+                "text": "5000 Gold + Cutscene"
+              }
+            ],
+            [
+              {
+                "text": "800"
+              },
+              {
+                "text": "1 copy of \"Ghostrick Stein\"",
+                "cards": [
+                  {
+                    "name": "Ghostrick Stein",
+                    "card": "6f9e0d07-e9ce-46f3-a0f5-e7462964927e",
+                    "yugipediaId": 256441
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "1300"
+              },
+              {
+                "text": "10000 Gold + Cutscene"
+              }
+            ],
+            [
+              {
+                "text": "1900"
+              },
+              {
+                "text": "Access to Bonz as a playable character"
+              }
+            ],
+            [
+              {
+                "text": "2500"
+              },
+              {
+                "text": "15000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "3100"
+              },
+              {
+                "text": "1 copy of \"Ghostrick Witch\"",
+                "cards": [
+                  {
+                    "name": "Ghostrick Witch",
+                    "card": "1c1d8b88-69fe-470b-8cf6-d07a60c9e98c",
+                    "yugipediaId": 256577
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "3700"
+              },
+              {
+                "text": "100 Gems"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "dailyMissions",
+      "path": [
+        "Rewards",
+        "Daily"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "Each day, the player could complete up to 5 Duel Meters, each of which required a different amount of points to sequentially complete. If a Duel Meter was completed, the appropriate reward was deposited in the player's Gift Box, and any excess points were transferred to the next Duel Meter (if applicable). When a new day began - which it did at 13:00 (EST) each day - any points leftover from an uncompleted Duel Meter would be deposited as an equal amount of Gold in the player's Gift Box, and the player could no longer earn points for the previous day's Duel Meters."
+      ],
+      "tables": [
+        {
+          "caption": "Day 1",
+          "columns": [
+            "Points",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "500 Gold"
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 copy of \"Clown Zombie\"",
+                "cards": [
+                  {
+                    "name": "Clown Zombie",
+                    "card": "f21acbd6-00df-4906-afa7-65e959317236",
+                    "yugipediaId": 509005
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "60"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "130"
+              },
+              {
+                "text": "1000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "160"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ]
+          ]
+        },
+        {
+          "caption": "Day 2",
+          "columns": [
+            "Points",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "500 Gold"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "1 copy of \"Ghostrick Ghoul\"",
+                "cards": [
+                  {
+                    "name": "Ghostrick Ghoul",
+                    "card": "ae8fd713-9804-4651-bbe9-999ffc6851d3",
+                    "yugipediaId": 320162
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "110"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "200"
+              },
+              {
+                "text": "1000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "270"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ]
+          ]
+        },
+        {
+          "caption": "Day 3",
+          "columns": [
+            "Points",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "500 Gold"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "1 copy of \"Ghostrick Mummy\"",
+                "cards": [
+                  {
+                    "name": "Ghostrick Mummy",
+                    "card": "fdca6bc6-fd30-4225-8f0c-9ed321001d7d",
+                    "yugipediaId": 306659
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "110"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "200"
+              },
+              {
+                "text": "1000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "270"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ]
+          ]
+        },
+        {
+          "caption": "Day 4",
+          "columns": [
+            "Points",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "500 Gold"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "1 copy of \"Ghostrick Skeleton\"",
+                "cards": [
+                  {
+                    "name": "Ghostrick Skeleton",
+                    "card": "839dfa4d-0b00-4e2a-8156-c76331ab96e3",
+                    "yugipediaId": 306625
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "110"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "200"
+              },
+              {
+                "text": "1000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "270"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ]
+          ]
+        },
+        {
+          "caption": "Day 5",
+          "columns": [
+            "Points",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "500 Gold"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "1 copy of \"Clown Zombie\"",
+                "cards": [
+                  {
+                    "name": "Clown Zombie",
+                    "card": "f21acbd6-00df-4906-afa7-65e959317236",
+                    "yugipediaId": 509005
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "110"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "200"
+              },
+              {
+                "text": "1000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "270"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ]
+          ]
+        },
+        {
+          "caption": "Day 6",
+          "columns": [
+            "Points",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "500 Gold"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "1 copy of \"Ghostrick Ghoul\"",
+                "cards": [
+                  {
+                    "name": "Ghostrick Ghoul",
+                    "card": "ae8fd713-9804-4651-bbe9-999ffc6851d3",
+                    "yugipediaId": 320162
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "110"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "200"
+              },
+              {
+                "text": "1000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "270"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ]
+          ]
+        },
+        {
+          "caption": "Day 7",
+          "columns": [
+            "Points",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "500 Gold"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "1 copy of \"Ghostrick Mummy\"",
+                "cards": [
+                  {
+                    "name": "Ghostrick Mummy",
+                    "card": "fdca6bc6-fd30-4225-8f0c-9ed321001d7d",
+                    "yugipediaId": 306659
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "110"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "200"
+              },
+              {
+                "text": "2000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "270"
+              },
+              {
+                "text": "100 Gems"
+              }
+            ]
+          ]
+        },
+        {
+          "caption": "Day 8",
+          "columns": [
+            "Points",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "500 Gold"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "1 copy of \"Ghostrick Skeleton\"",
+                "cards": [
+                  {
+                    "name": "Ghostrick Skeleton",
+                    "card": "839dfa4d-0b00-4e2a-8156-c76331ab96e3",
+                    "yugipediaId": 306625
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "110"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "200"
+              },
+              {
+                "text": "2000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "270"
+              },
+              {
+                "text": "100 Gems"
+              }
+            ]
+          ]
+        },
+        {
+          "caption": "Day 9",
+          "columns": [
+            "Points",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "500 Gold"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "1 copy of \"Ghostrick Vanish\"",
+                "cards": [
+                  {
+                    "name": "Ghostrick Vanish",
+                    "card": "f9222ebc-8ba4-47b9-a24b-d141ecd91069",
+                    "yugipediaId": 256935
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "110"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "200"
+              },
+              {
+                "text": "2000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "270"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Pumpking the King of Ghosts",
+      "card": "a3145a23-88f4-4cb7-bf44-9f8b000b1f4a",
+      "yugipediaId": 62,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Ryu Kokki",
+      "card": "8c58d60f-3c00-4eff-baaf-698786e185f3",
+      "yugipediaId": 1888,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Castle of Dark Illusions",
+      "card": "92299df5-f62b-49a0-950f-b1c9732aa53d",
+      "yugipediaId": 4995,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Ghostrick Stein",
+      "card": "6f9e0d07-e9ce-46f3-a0f5-e7462964927e",
+      "yugipediaId": 256441,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "cumulativeRewards",
+          "runIndex": 0,
+          "requirement": "800"
+        }
+      ]
+    },
+    {
+      "name": "Ghostrick Witch",
+      "card": "1c1d8b88-69fe-470b-8cf6-d07a60c9e98c",
+      "yugipediaId": 256577,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "cumulativeRewards",
+          "runIndex": 0,
+          "requirement": "3100"
+        }
+      ]
+    },
+    {
+      "name": "Call of the Mummy",
+      "card": "6dae878b-af73-46cb-bda3-ed87c84afeab",
+      "yugipediaId": 2239,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Monster Rebone",
+      "card": "11e30679-34c2-4074-82b2-60ff08d63608",
+      "yugipediaId": 334713,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Ghostrick Ghoul",
+      "card": "ae8fd713-9804-4651-bbe9-999ffc6851d3",
+      "yugipediaId": 320162,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "dailyMissions",
+          "runIndex": 0,
+          "requirement": "50"
+        }
+      ]
+    },
+    {
+      "name": "Ghostrick Mummy",
+      "card": "fdca6bc6-fd30-4225-8f0c-9ed321001d7d",
+      "yugipediaId": 306659,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "dailyMissions",
+          "runIndex": 0,
+          "requirement": "50"
+        }
+      ]
+    },
+    {
+      "name": "Ghostrick Skeleton",
+      "card": "839dfa4d-0b00-4e2a-8156-c76331ab96e3",
+      "yugipediaId": 306625,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "dailyMissions",
+          "runIndex": 0,
+          "requirement": "50"
+        }
+      ]
+    },
+    {
+      "name": "Ghostrick Vanish",
+      "card": "f9222ebc-8ba4-47b9-a24b-d141ecd91069",
+      "yugipediaId": 256935,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "dailyMissions",
+          "runIndex": 0,
+          "requirement": "50"
+        }
+      ]
+    },
+    {
+      "name": "Armored Zombie",
+      "card": "cbdc42a4-d211-45ad-8181-aa505fb91f6a",
+      "yugipediaId": 510596,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Clown Zombie",
+      "card": "f21acbd6-00df-4906-afa7-65e959317236",
+      "yugipediaId": 509005,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "dailyMissions",
+          "runIndex": 0,
+          "requirement": "30"
+        },
+        {
+          "kind": "dailyMissions",
+          "runIndex": 0,
+          "requirement": "50"
+        }
+      ]
+    },
+    {
+      "name": "Skull Servant",
+      "card": "5fc83ceb-96ce-4614-ba94-20b81d29f8a2",
+      "yugipediaId": 504815,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Bonz's Spooky Zombie Party",
+        "id": 559780
+      }
+    ]
+  }
+}

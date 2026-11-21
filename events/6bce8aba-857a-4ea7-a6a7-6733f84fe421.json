@@ -1,0 +1,3634 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "6bce8aba-857a-4ea7-a6a7-6733f84fe421",
+  "name": {
+    "en": "Wave Duel Scramble"
+  },
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/4/46/WaveDuelScramble-Banner.png",
+  "runs": [
+    {
+      "startDate": "2022-03-16",
+      "endDate": "2022-03-24"
+    },
+    {
+      "startDate": "2022-07-21",
+      "endDate": "2022-07-30"
+    },
+    {
+      "startDate": "2023-01-15",
+      "endDate": "2023-01-26"
+    },
+    {
+      "startDate": "2026-07-16",
+      "endDate": "2026-07-26"
+    }
+  ],
+  "cardTraderExDates": [
+    {
+      "startDate": "2022-03-16",
+      "endDate": "2022-03-31"
+    },
+    {
+      "startDate": "2022-07-21",
+      "endDate": "2022-08-06"
+    },
+    {
+      "startDate": "2023-01-15",
+      "endDate": "2023-02-02"
+    },
+    {
+      "startDate": "2026-07-16",
+      "endDate": "2026-08-02"
+    }
+  ],
+  "lotteryDates": [
+    {
+      "startDate": "2022-03-16",
+      "endDate": "2022-03-31"
+    },
+    {
+      "startDate": "2022-07-21",
+      "endDate": "2022-08-06"
+    },
+    {
+      "startDate": "2023-01-15",
+      "endDate": "2023-02-02"
+    },
+    {
+      "startDate": "2026-07-16",
+      "endDate": "2026-08-02"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "completion",
+      "path": [
+        "Rewards",
+        "Completion"
+      ],
+      "run": "July 2026",
+      "runIndex": 3,
+      "tables": [
+        {
+          "caption": "DM Wave",
+          "columns": [
+            "Round",
+            "Completion Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Round 1"
+              },
+              {
+                "text": "1 EX Draw & Summon\n100 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 2"
+              },
+              {
+                "text": "5000 Gold\n100 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 3"
+              },
+              {
+                "text": "5 Gems\n100 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 4"
+              },
+              {
+                "text": "50 R Jewels\n100 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 5"
+              },
+              {
+                "text": "5 Skill Chips\n100 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 6"
+              },
+              {
+                "text": "5 Gems\n100 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 7"
+              },
+              {
+                "text": "5000 Gold\n100 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 8"
+              },
+              {
+                "text": "3 Extra Cards\n100 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 9"
+              },
+              {
+                "text": "10 Gems\n100 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Final Round"
+              },
+              {
+                "text": "\"Mist Body\" (Prismatic)\n150 Lottery Coins",
+                "cards": [
+                  {
+                    "name": "Mist Body",
+                    "card": "b78e6181-ccca-407c-ae84-4c35f3bbdc2f",
+                    "yugipediaId": 16791,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Challenge Round"
+              },
+              {
+                "text": "Game Mat: DM Wave (Yami Yugi, Seto Kaiba, and Yami Marik)\n300 Lottery Coins"
+              }
+            ]
+          ]
+        },
+        {
+          "caption": "GX Wave",
+          "columns": [
+            "Round",
+            "Completion Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Round 1"
+              },
+              {
+                "text": "10000 Gold\n150 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 2"
+              },
+              {
+                "text": "3 Extra Cards\n150 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 3"
+              },
+              {
+                "text": "10 Gems\n150 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 4"
+              },
+              {
+                "text": "5 Skill Chips\n150 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 5"
+              },
+              {
+                "text": "30 R Jewels\n150 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 6"
+              },
+              {
+                "text": "10 Gems\n150 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 7"
+              },
+              {
+                "text": "10000 Gold\n150 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 8"
+              },
+              {
+                "text": "30 R Jewels\n150 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 9"
+              },
+              {
+                "text": "20 Gems\n150 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Final Round"
+              },
+              {
+                "text": "\"Queen Dragun Djinn\" (Prismatic)\n200 Lottery Coins",
+                "cards": [
+                  {
+                    "name": "Queen Dragun Djinn",
+                    "card": "7a1c0c1e-65bc-4636-afdc-4353be8e6a47",
+                    "yugipediaId": 209157,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Challenge Round"
+              },
+              {
+                "text": "Game Mat: GX Wave (Sartorius Kumar, Yubel, and Supreme King Jaden)\n300 Lottery Coins"
+              }
+            ]
+          ]
+        },
+        {
+          "caption": "ARC-V Wave",
+          "columns": [
+            "Round",
+            "Completion Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Round 1"
+              },
+              {
+                "text": "3 Results Boosters\n200 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 2"
+              },
+              {
+                "text": "20000 Gold\n200 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 3"
+              },
+              {
+                "text": "20 Gems\n200 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 4"
+              },
+              {
+                "text": "2 SR Jewels\n200 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 5"
+              },
+              {
+                "text": "5 Skill Chips\n200 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 6"
+              },
+              {
+                "text": "20 Gems\n200 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 7"
+              },
+              {
+                "text": "50 R Jewels\n200 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 8"
+              },
+              {
+                "text": "1 UR Jewel\n200 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 9"
+              },
+              {
+                "text": "30 Gems\n200 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Final Round"
+              },
+              {
+                "text": "\"Fairy Wind\"\n250 Lottery Coins",
+                "cards": [
+                  {
+                    "name": "Fairy Wind",
+                    "card": "f10cbb25-f4f8-4241-b730-d141aedbb386",
+                    "yugipediaId": 38098
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Challenge Round"
+              },
+              {
+                "text": "Game Mat: ARC-V Wave (Yuto and Shay Obsidian)\n300 Lottery Coins"
+              }
+            ]
+          ]
+        },
+        {
+          "caption": "VRAINS Wave",
+          "columns": [
+            "Round",
+            "Completion Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Round 1"
+              },
+              {
+                "text": "3 EXP Boosters\n250 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 2"
+              },
+              {
+                "text": "20000 Gold\n250 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 3"
+              },
+              {
+                "text": "20 Gems\n250 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 4"
+              },
+              {
+                "text": "2 SR Jewels\n250 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 5"
+              },
+              {
+                "text": "10 Skill Chips\n250 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 6"
+              },
+              {
+                "text": "20 Gems\n250 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 7"
+              },
+              {
+                "text": "\"Psychic Blade\"\n200 Lottery Coins",
+                "cards": [
+                  {
+                    "name": "Psychic Blade",
+                    "card": "99e41d7b-0589-4d7a-b565-70f2a052a36b",
+                    "yugipediaId": 409542
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Round 8"
+              },
+              {
+                "text": "1 UR Jewel\n200 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 9"
+              },
+              {
+                "text": "30 Gems\n200 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Final Round"
+              },
+              {
+                "text": "Icon: Wave Duel Scramble #3\n250 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Challenge Round"
+              },
+              {
+                "text": "Game Mat: VRAINS Wave (The Gore, Soulburner, and Playmaker and Ai)\n300 Lottery Coins"
+              }
+            ]
+          ]
+        },
+        {
+          "caption": "EX Wave",
+          "columns": [
+            "Round",
+            "Completion Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Round 1 (DM)"
+              },
+              {
+                "text": "20 Gems\n300 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 2 (GX)"
+              },
+              {
+                "text": "20 Gems\n300 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 3 (ARC-V)"
+              },
+              {
+                "text": "30 Gems\n300 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Final Round (VRAINS)"
+              },
+              {
+                "text": "Title: Wave Duel Scramble #3 Completed\n300 Lottery Coins"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "completion",
+      "path": [
+        "Rewards",
+        "Completion"
+      ],
+      "run": "January 2023",
+      "runIndex": 2,
+      "tables": [
+        {
+          "caption": "DM Wave",
+          "columns": [
+            "Round",
+            "Completion Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Round 1"
+              },
+              {
+                "text": "1 EX Draw & Summon\n100 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 2"
+              },
+              {
+                "text": "5000 Gold\n100 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 3"
+              },
+              {
+                "text": "5 Gems\n100 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 4"
+              },
+              {
+                "text": "50 R Jewels\n100 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 5"
+              },
+              {
+                "text": "5 Skill Chips\n100 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 6"
+              },
+              {
+                "text": "5 Gems\n100 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 7"
+              },
+              {
+                "text": "5000 Gold\n100 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 8"
+              },
+              {
+                "text": "3 Extra Cards\n100 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 9"
+              },
+              {
+                "text": "10 Gems\n100 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Final Round"
+              },
+              {
+                "text": "\"Mist Body\" (Prismatic)\n150 Lottery Coins",
+                "cards": [
+                  {
+                    "name": "Mist Body",
+                    "card": "b78e6181-ccca-407c-ae84-4c35f3bbdc2f",
+                    "yugipediaId": 16791,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Challenge Round"
+              },
+              {
+                "text": "Game Mat: DM Wave (Yami Yugi, Seto Kaiba, and Yami Marik)\n300 Lottery Coins"
+              }
+            ]
+          ]
+        },
+        {
+          "caption": "GX Wave",
+          "columns": [
+            "Round",
+            "Completion Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Round 1"
+              },
+              {
+                "text": "10000 Gold\n150 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 2"
+              },
+              {
+                "text": "3 Extra Cards\n150 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 3"
+              },
+              {
+                "text": "10 Gems\n150 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 4"
+              },
+              {
+                "text": "5 Skill Chips\n150 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 5"
+              },
+              {
+                "text": "30 R Jewels\n150 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 6"
+              },
+              {
+                "text": "10 Gems\n150 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 7"
+              },
+              {
+                "text": "10000 Gold\n150 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 8"
+              },
+              {
+                "text": "30 R Jewels\n150 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 9"
+              },
+              {
+                "text": "20 Gems\n150 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Final Round"
+              },
+              {
+                "text": "\"Queen Dragun Djinn\" (Prismatic)\n200 Lottery Coins",
+                "cards": [
+                  {
+                    "name": "Queen Dragun Djinn",
+                    "card": "7a1c0c1e-65bc-4636-afdc-4353be8e6a47",
+                    "yugipediaId": 209157,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Challenge Round"
+              },
+              {
+                "text": "Game Mat: GX Wave (Sartorius Kumar, Yubel, and Supreme King Jaden)\n300 Lottery Coins"
+              }
+            ]
+          ]
+        },
+        {
+          "caption": "ARC-V Wave",
+          "columns": [
+            "Round",
+            "Completion Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Round 1"
+              },
+              {
+                "text": "3 Results Boosters\n200 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 2"
+              },
+              {
+                "text": "20000 Gold\n200 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 3"
+              },
+              {
+                "text": "20 Gems\n200 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 4"
+              },
+              {
+                "text": "2 SR Jewels\n200 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 5"
+              },
+              {
+                "text": "5 Skill Chips\n200 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 6"
+              },
+              {
+                "text": "20 Gems\n200 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 7"
+              },
+              {
+                "text": "50 R Jewels\n200 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 8"
+              },
+              {
+                "text": "1 UR Jewel\n200 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 9"
+              },
+              {
+                "text": "30 Gems\n200 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Final Round"
+              },
+              {
+                "text": "\"Fairy Wind\"\n250 Lottery Coins",
+                "cards": [
+                  {
+                    "name": "Fairy Wind",
+                    "card": "f10cbb25-f4f8-4241-b730-d141aedbb386",
+                    "yugipediaId": 38098
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Challenge Round"
+              },
+              {
+                "text": "Game Mat: ARC-V Wave (Yuto and Shay Obsidian)\n300 Lottery Coins"
+              }
+            ]
+          ]
+        },
+        {
+          "caption": "VRAINS Wave",
+          "columns": [
+            "Round",
+            "Completion Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Round 1"
+              },
+              {
+                "text": "3 EXP Boosters\n250 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 2"
+              },
+              {
+                "text": "20000 Gold\n250 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 3"
+              },
+              {
+                "text": "20 Gems\n250 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 4"
+              },
+              {
+                "text": "2 SR Jewels\n250 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 5"
+              },
+              {
+                "text": "10 Skill Chips\n250 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 6"
+              },
+              {
+                "text": "20 Gems\n250 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 7"
+              },
+              {
+                "text": "\"Psychic Blade\"\n200 Lottery Coins",
+                "cards": [
+                  {
+                    "name": "Psychic Blade",
+                    "card": "99e41d7b-0589-4d7a-b565-70f2a052a36b",
+                    "yugipediaId": 409542
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Round 8"
+              },
+              {
+                "text": "1 UR Jewel\n200 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 9"
+              },
+              {
+                "text": "30 Gems\n200 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Final Round"
+              },
+              {
+                "text": "Icon: Wave Duel Scramble #3\n250 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Challenge Round"
+              },
+              {
+                "text": "Game Mat: VRAINS Wave (The Gore, Soulburner, and Playmaker and Ai)\n300 Lottery Coins"
+              }
+            ]
+          ]
+        },
+        {
+          "caption": "EX Wave",
+          "columns": [
+            "Round",
+            "Completion Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Round 1 (DM)"
+              },
+              {
+                "text": "20 Gems\n300 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 2 (GX)"
+              },
+              {
+                "text": "20 Gems\n300 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 3 (ARC-V)"
+              },
+              {
+                "text": "30 Gems\n300 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Final Round (VRAINS)"
+              },
+              {
+                "text": "Title: Wave Duel Scramble #3 Completed\n300 Lottery Coins"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "completion",
+      "path": [
+        "Rewards",
+        "Completion"
+      ],
+      "run": "July 2022",
+      "runIndex": 1,
+      "tables": [
+        {
+          "caption": "DSOD Wave",
+          "columns": [
+            "Round",
+            "Completion Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Round 1"
+              },
+              {
+                "text": "1 EX Draw & Summon\n100 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 2"
+              },
+              {
+                "text": "5000 Gold\n100 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 3"
+              },
+              {
+                "text": "10 Gems\n100 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 4"
+              },
+              {
+                "text": "50 R Jewels\n100 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 5"
+              },
+              {
+                "text": "5 Skill Chips\n100 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 6"
+              },
+              {
+                "text": "20 Gems\n150 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 7"
+              },
+              {
+                "text": "5000 Gold\n150 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 8"
+              },
+              {
+                "text": "3 Extra Cards\n150 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 9"
+              },
+              {
+                "text": "30 Gems\n150 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Final Round"
+              },
+              {
+                "text": "\"Unwavering Bond\" (Prismatic)\n150 Lottery Coins",
+                "cards": [
+                  {
+                    "name": "Unwavering Bond",
+                    "card": "52d36645-ca3d-41bd-879a-41ef0476c31f",
+                    "yugipediaId": 360473,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Challenge Round"
+              },
+              {
+                "text": "Game Mat: DSOD Wave (Mokuba Kaiba and Seto Kaiba)\n300 Lottery Coins"
+              }
+            ]
+          ]
+        },
+        {
+          "caption": "5D's Wave",
+          "columns": [
+            "Round",
+            "Completion Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Round 1"
+              },
+              {
+                "text": "10000 Gold\n150 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 2"
+              },
+              {
+                "text": "3 Extra Lifes\n150 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 3"
+              },
+              {
+                "text": "30 Gems\n150 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 4"
+              },
+              {
+                "text": "5 Skill Chips\n150 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 5"
+              },
+              {
+                "text": "50 R Jewels\n150 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 6"
+              },
+              {
+                "text": "30 Gems\n200 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 7"
+              },
+              {
+                "text": "10000 Gold\n200 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 8"
+              },
+              {
+                "text": "5 Skill Chips\n200 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 9"
+              },
+              {
+                "text": "30 Gems\n200 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Final Round"
+              },
+              {
+                "text": "\"Mist Body\"\n200 Lottery Coins",
+                "cards": [
+                  {
+                    "name": "Mist Body",
+                    "card": "b78e6181-ccca-407c-ae84-4c35f3bbdc2f",
+                    "yugipediaId": 16791
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Challenge Round"
+              },
+              {
+                "text": "Game Mat: 5D's Wave (Dark Signer Kalin Kessler, Dark Signer Carly Carmine, and Dark Signer Rex Goodwin)\n300 Lottery Coins"
+              }
+            ]
+          ]
+        },
+        {
+          "caption": "ZEXAL Wave",
+          "columns": [
+            "Round",
+            "Completion Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Round 1"
+              },
+              {
+                "text": "3 EXP Boosters\n200 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 2"
+              },
+              {
+                "text": "20000 Gold\n200 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 3"
+              },
+              {
+                "text": "30 Gems\n200 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 4"
+              },
+              {
+                "text": "2 SR Jewels\n250 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 5"
+              },
+              {
+                "text": "10 Skill Chips\n250 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 6"
+              },
+              {
+                "text": "\"Queen Dragun Djinn\"\n250 Lottery Coins",
+                "cards": [
+                  {
+                    "name": "Queen Dragun Djinn",
+                    "card": "7a1c0c1e-65bc-4636-afdc-4353be8e6a47",
+                    "yugipediaId": 209157
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Round 7"
+              },
+              {
+                "text": "40 Gems\n250 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 8"
+              },
+              {
+                "text": "1 UR Jewel\n300 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 9"
+              },
+              {
+                "text": "40 Gems\n300 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Final Round"
+              },
+              {
+                "text": "Icon: Wave Duel Scramble #2\n300 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Challenge Round"
+              },
+              {
+                "text": "Game Mat: ZEXAL Wave (Reginald \"Shark\" Kastle, Kite Tenjo and ZEXAL)\n300 Lottery Coins"
+              }
+            ]
+          ]
+        },
+        {
+          "caption": "EX Wave",
+          "columns": [
+            "Round",
+            "Completion Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Round 1 (DSOD)"
+              },
+              {
+                "text": "50 R Jewels\n300 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 2 (5D's)"
+              },
+              {
+                "text": "50 Gems\n300 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Final Round (VRAINS)"
+              },
+              {
+                "text": "Title: Wave Duel Scramble #2 Completed\n300 Lottery Coins"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "completion",
+      "path": [
+        "Rewards",
+        "Completion"
+      ],
+      "run": "March 2022",
+      "runIndex": 0,
+      "tables": [
+        {
+          "caption": "ARC-V Wave",
+          "columns": [
+            "Round",
+            "Completion Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Round 1"
+              },
+              {
+                "text": "1 EX Draw & Summon\n100 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 2"
+              },
+              {
+                "text": "5000 Gold\n100 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 3"
+              },
+              {
+                "text": "10 Gems\n100 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 4"
+              },
+              {
+                "text": "50 R Jewels\n100 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 5"
+              },
+              {
+                "text": "5 Skill Chips\n100 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 6"
+              },
+              {
+                "text": "20 Gems\n150 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 7"
+              },
+              {
+                "text": "5000 Gold\n150 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 8"
+              },
+              {
+                "text": "3 Extra Cards\n150 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 9"
+              },
+              {
+                "text": "30 Gems\n150 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Final Round"
+              },
+              {
+                "text": "\"Big Belly Knight\" (Prismatic)\n150 Lottery Coins",
+                "cards": [
+                  {
+                    "name": "Big Belly Knight",
+                    "card": "18063a08-53ee-4c8f-82f6-7ec1ab1cad3e",
+                    "yugipediaId": 220538,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Challenge Round"
+              },
+              {
+                "text": "Game Mat: ARC-V Wave (Yuya Sakaki, Zuzu Boyle, and Declan Akaba)\n300 Lottery Coins"
+              }
+            ]
+          ]
+        },
+        {
+          "caption": "GX Wave",
+          "columns": [
+            "Round",
+            "Completion Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Round 1"
+              },
+              {
+                "text": "10000 Gold\n150 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 2"
+              },
+              {
+                "text": "3 Extra Lifes\n150 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 3"
+              },
+              {
+                "text": "30 Gems\n150 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 4"
+              },
+              {
+                "text": "5 Skill Chips\n150 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 5"
+              },
+              {
+                "text": "50 R Jewels\n150 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 6"
+              },
+              {
+                "text": "30 Gems\n200 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 7"
+              },
+              {
+                "text": "10000 Gold\n200 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 8"
+              },
+              {
+                "text": "5 Skill Chips\n200 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 9"
+              },
+              {
+                "text": "40 Gems\n200 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Final Round"
+              },
+              {
+                "text": "\"Unwavering Bond\"\n200 Lottery Coins",
+                "cards": [
+                  {
+                    "name": "Unwavering Bond",
+                    "card": "52d36645-ca3d-41bd-879a-41ef0476c31f",
+                    "yugipediaId": 360473
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Challenge Round"
+              },
+              {
+                "text": "Game Mat: GX Wave (Syrus Truesdale, Chazz Princeton, and Jaden Yuki)\n300 Lottery Coins"
+              }
+            ]
+          ]
+        },
+        {
+          "caption": "DM Wave",
+          "columns": [
+            "Round",
+            "Completion Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Round 1"
+              },
+              {
+                "text": "3 EXP Boosters\n200 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 2"
+              },
+              {
+                "text": "20000 Gold\n200 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 3"
+              },
+              {
+                "text": "40 Gems\n200 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 4"
+              },
+              {
+                "text": "2 SR Jewels\n250 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 5"
+              },
+              {
+                "text": "10 Skill Chips\n250 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 6"
+              },
+              {
+                "text": "\"Bownty\"\n250 Lottery Coins",
+                "cards": [
+                  {
+                    "name": "Bownty",
+                    "card": "088d76fb-6db3-46a7-a520-a0f004c49b22",
+                    "yugipediaId": 643434
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Round 7"
+              },
+              {
+                "text": "50 Gems\n250 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 8"
+              },
+              {
+                "text": "1 UR Jewel\n300 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 9"
+              },
+              {
+                "text": "50 Gems\n300 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Final Round"
+              },
+              {
+                "text": "Icon: Wave Duel Scramble\n300 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Challenge Round"
+              },
+              {
+                "text": "Game Mat: DM Wave (Tristan Taylor, Joey Wheeler (DM), and Yami Yugi)\n300 Lottery Coins"
+              }
+            ]
+          ]
+        },
+        {
+          "caption": "EX Wave",
+          "columns": [
+            "Round",
+            "Completion Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Round 1 (ARC-V)"
+              },
+              {
+                "text": "50 R Jewels\n200 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Round 2 (GX)"
+              },
+              {
+                "text": "60 Gems\n200 Lottery Coins"
+              }
+            ],
+            [
+              {
+                "text": "Final Round (DM)"
+              },
+              {
+                "text": "Title: Wave Duel Scramble Completed\n200 Lottery Coins"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "lottery",
+      "path": [
+        "Rewards",
+        "Lottery Coins"
+      ],
+      "notes": [
+        "Lottery Coins can be obtained as rewards from Wave Duels, both as First Completion Rewards as above, and as rewards from duel results."
+      ]
+    },
+    {
+      "kind": "lottery",
+      "path": [
+        "Rewards",
+        "Lottery Coins"
+      ],
+      "run": "July 2026",
+      "runIndex": 3,
+      "tables": [
+        {
+          "rows": [
+            [
+              {
+                "text": ""
+              },
+              {
+                "text": "DM"
+              },
+              {
+                "text": "GX"
+              },
+              {
+                "text": "ARC-V"
+              },
+              {
+                "text": "VRAINS"
+              },
+              {
+                "text": "EX"
+              }
+            ],
+            [
+              {
+                "text": "Standard Duelist"
+              },
+              {
+                "text": "10"
+              },
+              {
+                "text": "20"
+              },
+              {
+                "text": "30"
+              },
+              {
+                "text": "35"
+              },
+              {
+                "text": "-"
+              }
+            ],
+            [
+              {
+                "text": "Legendary Duelist"
+              },
+              {
+                "text": "20 (30 on Challenge Round)"
+              },
+              {
+                "text": "30 (40 on Challenge Round)"
+              },
+              {
+                "text": "40 (50 on Challenge Round)"
+              },
+              {
+                "text": "45 (50 on Challenge Round)"
+              },
+              {
+                "text": "50 (DM)\n60 (GX)\n70 (ARC-V)\n80 (VRAINS)"
+              }
+            ],
+            [
+              {
+                "text": "Tour Guide"
+              },
+              {
+                "text": "50 (+50 Bonus)"
+              },
+              {
+                "text": "50 (+50 Bonus)"
+              },
+              {
+                "text": "50 (+50 Bonus)"
+              },
+              {
+                "text": "50 (+50 Bonus)"
+              },
+              {
+                "text": "50 (+50 Bonus)"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "lottery",
+      "path": [
+        "Rewards",
+        "Lottery Coins"
+      ],
+      "run": "January 2023",
+      "runIndex": 2,
+      "tables": [
+        {
+          "rows": [
+            [
+              {
+                "text": ""
+              },
+              {
+                "text": "DM"
+              },
+              {
+                "text": "GX"
+              },
+              {
+                "text": "ARC-V"
+              },
+              {
+                "text": "VRAINS"
+              },
+              {
+                "text": "EX"
+              }
+            ],
+            [
+              {
+                "text": "Standard Duelist"
+              },
+              {
+                "text": "10"
+              },
+              {
+                "text": "20"
+              },
+              {
+                "text": "30"
+              },
+              {
+                "text": "35"
+              },
+              {
+                "text": "-"
+              }
+            ],
+            [
+              {
+                "text": "Legendary Duelist"
+              },
+              {
+                "text": "20 (30 on Challenge Round)"
+              },
+              {
+                "text": "30 (40 on Challenge Round)"
+              },
+              {
+                "text": "40 (50 on Challenge Round)"
+              },
+              {
+                "text": "45 (50 on Challenge Round)"
+              },
+              {
+                "text": "50 (DM)\n60 (GX)\n70 (ARC-V)\n80 (VRAINS)"
+              }
+            ],
+            [
+              {
+                "text": "Tour Guide"
+              },
+              {
+                "text": "50 (+50 Bonus)"
+              },
+              {
+                "text": "50 (+50 Bonus)"
+              },
+              {
+                "text": "50 (+50 Bonus)"
+              },
+              {
+                "text": "50 (+50 Bonus)"
+              },
+              {
+                "text": "50 (+50 Bonus)"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "lottery",
+      "path": [
+        "Rewards",
+        "Lottery Coins"
+      ],
+      "run": "July 2022",
+      "runIndex": 1,
+      "tables": [
+        {
+          "rows": [
+            [
+              {
+                "text": ""
+              },
+              {
+                "text": "DSOD"
+              },
+              {
+                "text": "5D's"
+              },
+              {
+                "text": "ZEXAL"
+              },
+              {
+                "text": "EX"
+              }
+            ],
+            [
+              {
+                "text": "Standard Duelist"
+              },
+              {
+                "text": "10"
+              },
+              {
+                "text": "20"
+              },
+              {
+                "text": "30"
+              },
+              {
+                "text": "30 (only appears via bonus round)"
+              }
+            ],
+            [
+              {
+                "text": "Legendary Duelist"
+              },
+              {
+                "text": "20 (30 on Challenge Round)"
+              },
+              {
+                "text": "30 (40 on Challenge Round)"
+              },
+              {
+                "text": "40 (50 on Challenge Round)"
+              },
+              {
+                "text": "50 (DSOD)\n60 (5D's)\n70 (ZEXAL)"
+              }
+            ],
+            [
+              {
+                "text": "Tour Guide"
+              },
+              {
+                "text": "50 (+100 Bonus)"
+              },
+              {
+                "text": "50 (+100 Bonus)"
+              },
+              {
+                "text": "50 (+100 Bonus)"
+              },
+              {
+                "text": "50 (+100 Bonus)"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "lottery",
+      "path": [
+        "Rewards",
+        "Lottery Coins"
+      ],
+      "run": "July 2022",
+      "runIndex": 1,
+      "tables": [
+        {
+          "rows": [
+            [
+              {
+                "text": ""
+              },
+              {
+                "text": "DSOD"
+              },
+              {
+                "text": "5D's"
+              },
+              {
+                "text": "ZEXAL"
+              },
+              {
+                "text": "EX"
+              }
+            ],
+            [
+              {
+                "text": "Standard Duelist"
+              },
+              {
+                "text": "10"
+              },
+              {
+                "text": "20"
+              },
+              {
+                "text": "30"
+              },
+              {
+                "text": "30 (only appears via bonus round)"
+              }
+            ],
+            [
+              {
+                "text": "Legendary Duelist"
+              },
+              {
+                "text": "20 (30 on Challenge Round)"
+              },
+              {
+                "text": "30 (40 on Challenge Round)"
+              },
+              {
+                "text": "40 (50 on Challenge Round)"
+              },
+              {
+                "text": "50 (ARC-V)\n60 (GX)\n70 (DM)"
+              }
+            ],
+            [
+              {
+                "text": "Tour Guide"
+              },
+              {
+                "text": "50 (+100 Bonus)"
+              },
+              {
+                "text": "50 (+100 Bonus)"
+              },
+              {
+                "text": "50 (+100 Bonus)"
+              },
+              {
+                "text": "50 (+100 Bonus)"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "lottery",
+      "path": [
+        "Rewards",
+        "Lottery Coins"
+      ],
+      "notes": [
+        "Rewards above are for duel victories. A loss results in half the reward."
+      ]
+    },
+    {
+      "kind": "lottery",
+      "path": [
+        "Rewards",
+        "Lottery"
+      ],
+      "notes": [
+        "The player can spend a multiple of 30 Lottery Coins (max. 3000 at a time) to obtain one random reward for each 30 Lottery Coins spent. The Lottery remained available until a week after the event's conclusion and could be accessed from the \"Information\" menu."
+      ]
+    },
+    {
+      "kind": "lottery",
+      "path": [
+        "Rewards",
+        "Lottery"
+      ],
+      "run": "July 2026",
+      "runIndex": 3,
+      "tables": [
+        {
+          "rows": [
+            [
+              {
+                "text": ""
+              },
+              {
+                "text": "Lottery Rewards"
+              }
+            ],
+            [
+              {
+                "text": "Rainbow"
+              },
+              {
+                "text": "\"Psychic Blade\" (UR), \"Queen Dragun Djinn\" (UR), \"Fairy Wind\" (SR), \"Mist Body\" (SR), \"Unwavering Bond\" (SR), \"Blast Sphere\" (SR)\n1 UR Jewel\n10 Gems",
+                "cards": [
+                  {
+                    "name": "Psychic Blade",
+                    "card": "99e41d7b-0589-4d7a-b565-70f2a052a36b",
+                    "yugipediaId": 409542,
+                    "rarity": "UR"
+                  },
+                  {
+                    "name": "Queen Dragun Djinn",
+                    "card": "7a1c0c1e-65bc-4636-afdc-4353be8e6a47",
+                    "yugipediaId": 209157,
+                    "rarity": "UR"
+                  },
+                  {
+                    "name": "Fairy Wind",
+                    "card": "f10cbb25-f4f8-4241-b730-d141aedbb386",
+                    "yugipediaId": 38098,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Mist Body",
+                    "card": "b78e6181-ccca-407c-ae84-4c35f3bbdc2f",
+                    "yugipediaId": 16791,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Unwavering Bond",
+                    "card": "52d36645-ca3d-41bd-879a-41ef0476c31f",
+                    "yugipediaId": 360473,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Blast Sphere",
+                    "card": "a38602c1-3828-4e28-a0f3-7ea7c91604b4",
+                    "yugipediaId": 12714,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Gold"
+              },
+              {
+                "text": "\"Muko\" (R), \"Jurrac Spinos\" (R), \"Fire Sorcerer\" (R), \"Teleport\" (R), \"Space Gift\" (R)\n1 SR Jewel\n5 Gems\n20 EX Jewels\n3000 or 2000 Gold\n10 Gate Keys (White, Black, Blue, Red, Yellow, or Green)",
+                "cards": [
+                  {
+                    "name": "Muko",
+                    "card": "a1b22eb8-c6f5-47bb-8f0b-50555f8ff5d3",
+                    "yugipediaId": 5334,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Jurrac Spinos",
+                    "card": "ed8a6a65-fb95-45ac-86e4-bd22280eba24",
+                    "yugipediaId": 52017,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Fire Sorcerer",
+                    "card": "930bc822-319c-4027-b795-b798890f7fed",
+                    "yugipediaId": 5541,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Teleport",
+                    "card": "ed7fd24f-0c09-4031-968c-620119a11295",
+                    "yugipediaId": 27562,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Space Gift",
+                    "card": "17f56d21-0502-4d64-b18a-171970a2ea87",
+                    "yugipediaId": 69640,
+                    "rarity": "R"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Normal"
+              },
+              {
+                "text": "\"Spike Seadra\" (N), \"Eagle Eye\" (N), \"Spell Purification\" (N), \"The Inexperienced Spy\" (N), \"Five Brothers Explosion\" (N)\n3 R Jewels\n1 Gem\n8, 4, or 1 EX Jewel(s)\n1000, 600, or 300 Gold\n5 Gate Keys (White, Black, Blue, Red, Yellow, or Green)",
+                "cards": [
+                  {
+                    "name": "Spike Seadra",
+                    "card": "529c89f8-b46d-4867-bd93-c939c2d6f591",
+                    "yugipediaId": 507435,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Eagle Eye",
+                    "card": "58e64a40-6e18-4dae-bde6-72f3475480de",
+                    "yugipediaId": 13797,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Spell Purification",
+                    "card": "37af7504-96b0-4e08-8622-37dfae2b66b1",
+                    "yugipediaId": 12905,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "The Inexperienced Spy",
+                    "card": "41bd8a2a-5af7-4c84-aaad-ec43c961698d",
+                    "yugipediaId": 7961,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Five Brothers Explosion",
+                    "card": "a3529464-c32f-4719-a6d4-c680a6aef75b",
+                    "yugipediaId": 277832,
+                    "rarity": "N"
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "lottery",
+      "path": [
+        "Rewards",
+        "Lottery"
+      ],
+      "run": "January 2023",
+      "runIndex": 2,
+      "tables": [
+        {
+          "rows": [
+            [
+              {
+                "text": ""
+              },
+              {
+                "text": "Lottery Rewards"
+              }
+            ],
+            [
+              {
+                "text": "Rainbow"
+              },
+              {
+                "text": "\"Psychic Blade\" (UR), \"Queen Dragun Djinn\" (UR), \"Fairy Wind\" (SR), \"Mist Body\" (SR), \"Unwavering Bond\" (SR), \"Blast Sphere\" (SR)\n1 UR Jewel\n10 Gems",
+                "cards": [
+                  {
+                    "name": "Psychic Blade",
+                    "card": "99e41d7b-0589-4d7a-b565-70f2a052a36b",
+                    "yugipediaId": 409542,
+                    "rarity": "UR"
+                  },
+                  {
+                    "name": "Queen Dragun Djinn",
+                    "card": "7a1c0c1e-65bc-4636-afdc-4353be8e6a47",
+                    "yugipediaId": 209157,
+                    "rarity": "UR"
+                  },
+                  {
+                    "name": "Fairy Wind",
+                    "card": "f10cbb25-f4f8-4241-b730-d141aedbb386",
+                    "yugipediaId": 38098,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Mist Body",
+                    "card": "b78e6181-ccca-407c-ae84-4c35f3bbdc2f",
+                    "yugipediaId": 16791,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Unwavering Bond",
+                    "card": "52d36645-ca3d-41bd-879a-41ef0476c31f",
+                    "yugipediaId": 360473,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Blast Sphere",
+                    "card": "a38602c1-3828-4e28-a0f3-7ea7c91604b4",
+                    "yugipediaId": 12714,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Gold"
+              },
+              {
+                "text": "\"Muko\" (R), \"Jurrac Spinos\" (R), \"Fire Sorcerer\" (R), \"Teleport\" (R), \"Space Gift\" (R)\n1 SR Jewel\n5 Gems\n20 EX Jewels\n3000 or 2000 Gold\n10 Gate Keys (White, Black, Blue, Red, Yellow, or Green)",
+                "cards": [
+                  {
+                    "name": "Muko",
+                    "card": "a1b22eb8-c6f5-47bb-8f0b-50555f8ff5d3",
+                    "yugipediaId": 5334,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Jurrac Spinos",
+                    "card": "ed8a6a65-fb95-45ac-86e4-bd22280eba24",
+                    "yugipediaId": 52017,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Fire Sorcerer",
+                    "card": "930bc822-319c-4027-b795-b798890f7fed",
+                    "yugipediaId": 5541,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Teleport",
+                    "card": "ed7fd24f-0c09-4031-968c-620119a11295",
+                    "yugipediaId": 27562,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Space Gift",
+                    "card": "17f56d21-0502-4d64-b18a-171970a2ea87",
+                    "yugipediaId": 69640,
+                    "rarity": "R"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Normal"
+              },
+              {
+                "text": "\"Spike Seadra\" (N), \"Eagle Eye\" (N), \"Spell Purification\" (N), \"The Inexperienced Spy\" (N), \"Five Brothers Explosion\" (N)\n3 R Jewels\n1 Gem\n8, 4, or 1 EX Jewel(s)\n1000, 600, or 300 Gold\n5 Gate Keys (White, Black, Blue, Red, Yellow, or Green)",
+                "cards": [
+                  {
+                    "name": "Spike Seadra",
+                    "card": "529c89f8-b46d-4867-bd93-c939c2d6f591",
+                    "yugipediaId": 507435,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Eagle Eye",
+                    "card": "58e64a40-6e18-4dae-bde6-72f3475480de",
+                    "yugipediaId": 13797,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Spell Purification",
+                    "card": "37af7504-96b0-4e08-8622-37dfae2b66b1",
+                    "yugipediaId": 12905,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "The Inexperienced Spy",
+                    "card": "41bd8a2a-5af7-4c84-aaad-ec43c961698d",
+                    "yugipediaId": 7961,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Five Brothers Explosion",
+                    "card": "a3529464-c32f-4719-a6d4-c680a6aef75b",
+                    "yugipediaId": 277832,
+                    "rarity": "N"
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "lottery",
+      "path": [
+        "Rewards",
+        "Lottery"
+      ],
+      "run": "July 2022",
+      "runIndex": 1,
+      "tables": [
+        {
+          "rows": [
+            [
+              {
+                "text": ""
+              },
+              {
+                "text": "Lottery Rewards"
+              }
+            ],
+            [
+              {
+                "text": "Rainbow"
+              },
+              {
+                "text": "\"Queen Dragun Djinn\" (UR), \"Bownty\" (UR), \"Mist Body\" (SR), \"Unwavering Bond\" (SR), \"Blast Sphere\" (SR), \"Big Belly Knight\" (SR)\n1 UR Jewel\n10 Gems",
+                "cards": [
+                  {
+                    "name": "Queen Dragun Djinn",
+                    "card": "7a1c0c1e-65bc-4636-afdc-4353be8e6a47",
+                    "yugipediaId": 209157,
+                    "rarity": "UR"
+                  },
+                  {
+                    "name": "Bownty",
+                    "card": "088d76fb-6db3-46a7-a520-a0f004c49b22",
+                    "yugipediaId": 643434,
+                    "rarity": "UR"
+                  },
+                  {
+                    "name": "Mist Body",
+                    "card": "b78e6181-ccca-407c-ae84-4c35f3bbdc2f",
+                    "yugipediaId": 16791,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Unwavering Bond",
+                    "card": "52d36645-ca3d-41bd-879a-41ef0476c31f",
+                    "yugipediaId": 360473,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Blast Sphere",
+                    "card": "a38602c1-3828-4e28-a0f3-7ea7c91604b4",
+                    "yugipediaId": 12714,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Big Belly Knight",
+                    "card": "18063a08-53ee-4c8f-82f6-7ec1ab1cad3e",
+                    "yugipediaId": 220538,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Gold"
+              },
+              {
+                "text": "\"Hyozanryu\" (R), \"Cannonball Spear Shellfish\" (R), \"Terrible Deal\" (R), \"Nuvia the Wicked\" (R), \"House of Adhesive Tape\" (R)\n1 SR Jewel\n5 Gems\n20 EX Jewels\n3000 or 2000 Gold\n10 Gate Keys (White, Black, Blue, Red, Yellow, or Green)",
+                "cards": [
+                  {
+                    "name": "Hyozanryu",
+                    "card": "3ec398e7-5dc8-4aba-a126-cbcc5eb3bfb9",
+                    "yugipediaId": 2742,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Cannonball Spear Shellfish",
+                    "card": "fd8b5c73-8fa9-411a-94fb-fe24eda07be2",
+                    "yugipediaId": 12075,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Terrible Deal",
+                    "card": "e46d166f-11a3-469e-84db-e3d9e86b5354",
+                    "yugipediaId": 20279,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Nuvia the Wicked",
+                    "card": "158b0114-0d92-49b9-9ea9-f055567df732",
+                    "yugipediaId": 5071,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "House of Adhesive Tape",
+                    "card": "9cb9c931-77f3-4b3a-83ae-87f9c01a1906",
+                    "yugipediaId": 3854,
+                    "rarity": "R"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Normal"
+              },
+              {
+                "text": "\"Tyhone #2\" (N), \"Mooyan Curry\" (N), \"Hungry Burger\" (N), \"Hamburger Recipe\" (N), \"Chosen One\" (N)\n3 R Jewels\n1 Gem\n8, 4, or 1 EX Jewel(s)\n1000, 600, or 300 Gold\n5 Gate Keys (White, Black, Blue, Red, Yellow, or Green)",
+                "cards": [
+                  {
+                    "name": "Tyhone #2",
+                    "card": "7b7eff51-1a4c-493e-be05-ebd1fbf5a596",
+                    "yugipediaId": 8560,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Mooyan Curry",
+                    "card": "65109f2e-caa9-4749-988d-e55d080f2778",
+                    "yugipediaId": 4879,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Hungry Burger",
+                    "card": "fc086fd9-fa26-4e95-b06e-85c56797c9ff",
+                    "yugipediaId": 1668,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Hamburger Recipe",
+                    "card": "6ef45c37-9b63-4dc5-841c-29f15e1417ad",
+                    "yugipediaId": 3808,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Chosen One",
+                    "card": "68d0ae2d-c15a-4582-a461-b2288621bca2",
+                    "yugipediaId": 5082,
+                    "rarity": "N"
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "lottery",
+      "path": [
+        "Rewards",
+        "Lottery"
+      ],
+      "run": "March 2022",
+      "runIndex": 0,
+      "tables": [
+        {
+          "rows": [
+            [
+              {
+                "text": ""
+              },
+              {
+                "text": "Lottery Rewards"
+              }
+            ],
+            [
+              {
+                "text": "Rainbow"
+              },
+              {
+                "text": "\"Bownty\" (UR), \"Saambell the Summoner\" (UR), \"Unwavering Bond\" (SR), \"Blast Sphere\" (SR), \"Big Belly Knight\" (SR), \"Bull Blader\" (SR)\n1 UR Jewel\n10 Gems",
+                "cards": [
+                  {
+                    "name": "Bownty",
+                    "card": "088d76fb-6db3-46a7-a520-a0f004c49b22",
+                    "yugipediaId": 643434,
+                    "rarity": "UR"
+                  },
+                  {
+                    "name": "Saambell the Summoner",
+                    "card": "8826606a-9abb-4ac4-a833-40eabe4c46c8",
+                    "yugipediaId": 170879,
+                    "rarity": "UR"
+                  },
+                  {
+                    "name": "Unwavering Bond",
+                    "card": "52d36645-ca3d-41bd-879a-41ef0476c31f",
+                    "yugipediaId": 360473,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Blast Sphere",
+                    "card": "a38602c1-3828-4e28-a0f3-7ea7c91604b4",
+                    "yugipediaId": 12714,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Big Belly Knight",
+                    "card": "18063a08-53ee-4c8f-82f6-7ec1ab1cad3e",
+                    "yugipediaId": 220538,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Bull Blader",
+                    "card": "e9dac5af-a8dd-451b-8d1c-3fc2d8f6580a",
+                    "yugipediaId": 200276,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Gold"
+              },
+              {
+                "text": "\"Skull Mariner\" (R), \"Manga Ryu-Ran\" (R), \"Rude Kaiser\" (R), \"Umi\" (R), \"Stop Defense\" (R)\n1 SR Jewel\n5 Gems\n20 EX Jewels\n3000 or 2000 Gold\n10 Gate Keys (White, Black, Blue, Red, Yellow, or Green)",
+                "cards": [
+                  {
+                    "name": "Skull Mariner",
+                    "card": "7ef798fe-383c-4b65-b984-a94c2562aed3",
+                    "yugipediaId": 8459,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Manga Ryu-Ran",
+                    "card": "ce9bea71-24b7-4ba2-b086-827f7c71f0fa",
+                    "yugipediaId": 124,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Rude Kaiser",
+                    "card": "66f8ebc0-a24c-4116-b088-12e7dceecbab",
+                    "yugipediaId": 4338,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Umi",
+                    "card": "e36f60ce-f791-48c4-a318-b7f417078983",
+                    "yugipediaId": 570,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Stop Defense",
+                    "card": "1cb9d249-c385-47ff-8d32-ab5c2cb7fb12",
+                    "yugipediaId": 507324,
+                    "rarity": "R"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Normal"
+              },
+              {
+                "text": "\"Relieve Monster\" (N), \"Kishido Spirit\" (N), \"Amazoness Blowpiper\" (N), \"Light of Judgment\" (N), \"Gigobyte\" (N)\n3 R Jewels\n1 Gem\n8, 4, or 1 EX Jewel(s)\n1000, 600, or 300 Gold\n5 Gate Keys (White, Black, Blue, Red, Yellow, or Green)",
+                "cards": [
+                  {
+                    "name": "Relieve Monster",
+                    "card": "60ce6776-eae3-41ef-bc59-1472a786d2cd",
+                    "yugipediaId": 16843,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Kishido Spirit",
+                    "card": "d1cb60bc-b941-4685-a01c-14e335830a36",
+                    "yugipediaId": 12459,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Amazoness Blowpiper",
+                    "card": "5b5acc44-6b41-46cc-981e-3d8a723d9a41",
+                    "yugipediaId": 3387,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Light of Judgment",
+                    "card": "f72265c7-0c2a-4431-b974-cbf1ba593d12",
+                    "yugipediaId": 17992,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Gigobyte",
+                    "card": "1f663762-1ec1-40e9-b73f-1f241a019ff9",
+                    "yugipediaId": 16211,
+                    "rarity": "N"
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Rewards",
+        "Event Missions"
+      ],
+      "run": "November 2022",
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Duel 1 time(s) without surrendering in Wave Duels."
+              },
+              {
+                "text": "1 EX Draw and Summon"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "dailyMissions",
+      "path": [
+        "Rewards",
+        "Event Missions",
+        "Daily Missions"
+      ],
+      "notes": [
+        "The following were added on January 23, 2023 (July 26, 2022? of July event)."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Play 1 Duel(s) in Ranked Duels (surrenders are not counted)."
+              },
+              {
+                "text": "20 Scramble Tickets"
+              }
+            ],
+            [
+              {
+                "text": "Play 2 Duel(s) in Ranked Duels (surrenders are not counted)."
+              },
+              {
+                "text": "20 Scramble Tickets"
+              }
+            ],
+            [
+              {
+                "text": "Play 3 Duel(s) in Ranked Duels (surrenders are not counted)."
+              },
+              {
+                "text": "20 Scramble Tickets"
+              }
+            ],
+            [
+              {
+                "text": "Duel 1 time(s) without surrendering in Wave Duels."
+              },
+              {
+                "text": "20 EX Jewels"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Duel 2 time(s) without surrendering in Wave Duels."
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Duel 3 time(s) without surrendering in Wave Duels."
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Duel 4 time(s) without surrendering in Wave Duels."
+              },
+              {
+                "text": "10 Gems"
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Mist Body",
+      "card": "b78e6181-ccca-407c-ae84-4c35f3bbdc2f",
+      "yugipediaId": 16791,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "run": "July 2026",
+          "runIndex": 3,
+          "requirement": "Final Round"
+        },
+        {
+          "kind": "completion",
+          "run": "January 2023",
+          "runIndex": 2,
+          "requirement": "Final Round"
+        },
+        {
+          "kind": "completion",
+          "run": "July 2022",
+          "runIndex": 1,
+          "requirement": "Final Round"
+        },
+        {
+          "kind": "lottery",
+          "run": "July 2026",
+          "runIndex": 3,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        },
+        {
+          "kind": "lottery",
+          "run": "January 2023",
+          "runIndex": 2,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        },
+        {
+          "kind": "lottery",
+          "run": "July 2022",
+          "runIndex": 1,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Queen Dragun Djinn",
+      "card": "7a1c0c1e-65bc-4636-afdc-4353be8e6a47",
+      "yugipediaId": 209157,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "run": "July 2026",
+          "runIndex": 3,
+          "requirement": "Final Round"
+        },
+        {
+          "kind": "completion",
+          "run": "January 2023",
+          "runIndex": 2,
+          "requirement": "Final Round"
+        },
+        {
+          "kind": "completion",
+          "run": "July 2022",
+          "runIndex": 1,
+          "requirement": "Round 6"
+        },
+        {
+          "kind": "lottery",
+          "run": "July 2026",
+          "runIndex": 3,
+          "requirement": "Rainbow",
+          "rarity": "UR"
+        },
+        {
+          "kind": "lottery",
+          "run": "January 2023",
+          "runIndex": 2,
+          "requirement": "Rainbow",
+          "rarity": "UR"
+        },
+        {
+          "kind": "lottery",
+          "run": "July 2022",
+          "runIndex": 1,
+          "requirement": "Rainbow",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Fairy Wind",
+      "card": "f10cbb25-f4f8-4241-b730-d141aedbb386",
+      "yugipediaId": 38098,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "run": "July 2026",
+          "runIndex": 3,
+          "requirement": "Final Round"
+        },
+        {
+          "kind": "completion",
+          "run": "January 2023",
+          "runIndex": 2,
+          "requirement": "Final Round"
+        },
+        {
+          "kind": "lottery",
+          "run": "July 2026",
+          "runIndex": 3,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        },
+        {
+          "kind": "lottery",
+          "run": "January 2023",
+          "runIndex": 2,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Psychic Blade",
+      "card": "99e41d7b-0589-4d7a-b565-70f2a052a36b",
+      "yugipediaId": 409542,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "run": "July 2026",
+          "runIndex": 3,
+          "requirement": "Round 7"
+        },
+        {
+          "kind": "completion",
+          "run": "January 2023",
+          "runIndex": 2,
+          "requirement": "Round 7"
+        },
+        {
+          "kind": "lottery",
+          "run": "July 2026",
+          "runIndex": 3,
+          "requirement": "Rainbow",
+          "rarity": "UR"
+        },
+        {
+          "kind": "lottery",
+          "run": "January 2023",
+          "runIndex": 2,
+          "requirement": "Rainbow",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Unwavering Bond",
+      "card": "52d36645-ca3d-41bd-879a-41ef0476c31f",
+      "yugipediaId": 360473,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "run": "July 2022",
+          "runIndex": 1,
+          "requirement": "Final Round"
+        },
+        {
+          "kind": "completion",
+          "run": "March 2022",
+          "runIndex": 0,
+          "requirement": "Final Round"
+        },
+        {
+          "kind": "lottery",
+          "run": "July 2026",
+          "runIndex": 3,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        },
+        {
+          "kind": "lottery",
+          "run": "January 2023",
+          "runIndex": 2,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        },
+        {
+          "kind": "lottery",
+          "run": "July 2022",
+          "runIndex": 1,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        },
+        {
+          "kind": "lottery",
+          "run": "March 2022",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Big Belly Knight",
+      "card": "18063a08-53ee-4c8f-82f6-7ec1ab1cad3e",
+      "yugipediaId": 220538,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "run": "March 2022",
+          "runIndex": 0,
+          "requirement": "Final Round"
+        },
+        {
+          "kind": "lottery",
+          "run": "July 2022",
+          "runIndex": 1,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        },
+        {
+          "kind": "lottery",
+          "run": "March 2022",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Bownty",
+      "card": "088d76fb-6db3-46a7-a520-a0f004c49b22",
+      "yugipediaId": 643434,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "run": "March 2022",
+          "runIndex": 0,
+          "requirement": "Round 6"
+        },
+        {
+          "kind": "lottery",
+          "run": "July 2022",
+          "runIndex": 1,
+          "requirement": "Rainbow",
+          "rarity": "UR"
+        },
+        {
+          "kind": "lottery",
+          "run": "March 2022",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Blast Sphere",
+      "card": "a38602c1-3828-4e28-a0f3-7ea7c91604b4",
+      "yugipediaId": 12714,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "July 2026",
+          "runIndex": 3,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        },
+        {
+          "kind": "lottery",
+          "run": "January 2023",
+          "runIndex": 2,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        },
+        {
+          "kind": "lottery",
+          "run": "July 2022",
+          "runIndex": 1,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        },
+        {
+          "kind": "lottery",
+          "run": "March 2022",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Muko",
+      "card": "a1b22eb8-c6f5-47bb-8f0b-50555f8ff5d3",
+      "yugipediaId": 5334,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "July 2026",
+          "runIndex": 3,
+          "requirement": "Gold",
+          "rarity": "R"
+        },
+        {
+          "kind": "lottery",
+          "run": "January 2023",
+          "runIndex": 2,
+          "requirement": "Gold",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Jurrac Spinos",
+      "card": "ed8a6a65-fb95-45ac-86e4-bd22280eba24",
+      "yugipediaId": 52017,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "July 2026",
+          "runIndex": 3,
+          "requirement": "Gold",
+          "rarity": "R"
+        },
+        {
+          "kind": "lottery",
+          "run": "January 2023",
+          "runIndex": 2,
+          "requirement": "Gold",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Fire Sorcerer",
+      "card": "930bc822-319c-4027-b795-b798890f7fed",
+      "yugipediaId": 5541,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "July 2026",
+          "runIndex": 3,
+          "requirement": "Gold",
+          "rarity": "R"
+        },
+        {
+          "kind": "lottery",
+          "run": "January 2023",
+          "runIndex": 2,
+          "requirement": "Gold",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Teleport",
+      "card": "ed7fd24f-0c09-4031-968c-620119a11295",
+      "yugipediaId": 27562,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "July 2026",
+          "runIndex": 3,
+          "requirement": "Gold",
+          "rarity": "R"
+        },
+        {
+          "kind": "lottery",
+          "run": "January 2023",
+          "runIndex": 2,
+          "requirement": "Gold",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Space Gift",
+      "card": "17f56d21-0502-4d64-b18a-171970a2ea87",
+      "yugipediaId": 69640,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "July 2026",
+          "runIndex": 3,
+          "requirement": "Gold",
+          "rarity": "R"
+        },
+        {
+          "kind": "lottery",
+          "run": "January 2023",
+          "runIndex": 2,
+          "requirement": "Gold",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Spike Seadra",
+      "card": "529c89f8-b46d-4867-bd93-c939c2d6f591",
+      "yugipediaId": 507435,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "July 2026",
+          "runIndex": 3,
+          "requirement": "Normal",
+          "rarity": "N"
+        },
+        {
+          "kind": "lottery",
+          "run": "January 2023",
+          "runIndex": 2,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Eagle Eye",
+      "card": "58e64a40-6e18-4dae-bde6-72f3475480de",
+      "yugipediaId": 13797,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "July 2026",
+          "runIndex": 3,
+          "requirement": "Normal",
+          "rarity": "N"
+        },
+        {
+          "kind": "lottery",
+          "run": "January 2023",
+          "runIndex": 2,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Spell Purification",
+      "card": "37af7504-96b0-4e08-8622-37dfae2b66b1",
+      "yugipediaId": 12905,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "July 2026",
+          "runIndex": 3,
+          "requirement": "Normal",
+          "rarity": "N"
+        },
+        {
+          "kind": "lottery",
+          "run": "January 2023",
+          "runIndex": 2,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "The Inexperienced Spy",
+      "card": "41bd8a2a-5af7-4c84-aaad-ec43c961698d",
+      "yugipediaId": 7961,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "July 2026",
+          "runIndex": 3,
+          "requirement": "Normal",
+          "rarity": "N"
+        },
+        {
+          "kind": "lottery",
+          "run": "January 2023",
+          "runIndex": 2,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Five Brothers Explosion",
+      "card": "a3529464-c32f-4719-a6d4-c680a6aef75b",
+      "yugipediaId": 277832,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "July 2026",
+          "runIndex": 3,
+          "requirement": "Normal",
+          "rarity": "N"
+        },
+        {
+          "kind": "lottery",
+          "run": "January 2023",
+          "runIndex": 2,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Hyozanryu",
+      "card": "3ec398e7-5dc8-4aba-a126-cbcc5eb3bfb9",
+      "yugipediaId": 2742,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "July 2022",
+          "runIndex": 1,
+          "requirement": "Gold",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Cannonball Spear Shellfish",
+      "card": "fd8b5c73-8fa9-411a-94fb-fe24eda07be2",
+      "yugipediaId": 12075,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "July 2022",
+          "runIndex": 1,
+          "requirement": "Gold",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Terrible Deal",
+      "card": "e46d166f-11a3-469e-84db-e3d9e86b5354",
+      "yugipediaId": 20279,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "July 2022",
+          "runIndex": 1,
+          "requirement": "Gold",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Nuvia the Wicked",
+      "card": "158b0114-0d92-49b9-9ea9-f055567df732",
+      "yugipediaId": 5071,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "July 2022",
+          "runIndex": 1,
+          "requirement": "Gold",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "House of Adhesive Tape",
+      "card": "9cb9c931-77f3-4b3a-83ae-87f9c01a1906",
+      "yugipediaId": 3854,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "July 2022",
+          "runIndex": 1,
+          "requirement": "Gold",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Tyhone #2",
+      "card": "7b7eff51-1a4c-493e-be05-ebd1fbf5a596",
+      "yugipediaId": 8560,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "July 2022",
+          "runIndex": 1,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Mooyan Curry",
+      "card": "65109f2e-caa9-4749-988d-e55d080f2778",
+      "yugipediaId": 4879,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "July 2022",
+          "runIndex": 1,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Hungry Burger",
+      "card": "fc086fd9-fa26-4e95-b06e-85c56797c9ff",
+      "yugipediaId": 1668,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "July 2022",
+          "runIndex": 1,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Hamburger Recipe",
+      "card": "6ef45c37-9b63-4dc5-841c-29f15e1417ad",
+      "yugipediaId": 3808,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "July 2022",
+          "runIndex": 1,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Chosen One",
+      "card": "68d0ae2d-c15a-4582-a461-b2288621bca2",
+      "yugipediaId": 5082,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "July 2022",
+          "runIndex": 1,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Saambell the Summoner",
+      "card": "8826606a-9abb-4ac4-a833-40eabe4c46c8",
+      "yugipediaId": 170879,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "March 2022",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Bull Blader",
+      "card": "e9dac5af-a8dd-451b-8d1c-3fc2d8f6580a",
+      "yugipediaId": 200276,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "March 2022",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Skull Mariner",
+      "card": "7ef798fe-383c-4b65-b984-a94c2562aed3",
+      "yugipediaId": 8459,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "March 2022",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Manga Ryu-Ran",
+      "card": "ce9bea71-24b7-4ba2-b086-827f7c71f0fa",
+      "yugipediaId": 124,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "March 2022",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Rude Kaiser",
+      "card": "66f8ebc0-a24c-4116-b088-12e7dceecbab",
+      "yugipediaId": 4338,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "March 2022",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Umi",
+      "card": "e36f60ce-f791-48c4-a318-b7f417078983",
+      "yugipediaId": 570,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "March 2022",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Stop Defense",
+      "card": "1cb9d249-c385-47ff-8d32-ab5c2cb7fb12",
+      "yugipediaId": 507324,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "March 2022",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Relieve Monster",
+      "card": "60ce6776-eae3-41ef-bc59-1472a786d2cd",
+      "yugipediaId": 16843,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "March 2022",
+          "runIndex": 0,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Kishido Spirit",
+      "card": "d1cb60bc-b941-4685-a01c-14e335830a36",
+      "yugipediaId": 12459,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "March 2022",
+          "runIndex": 0,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Amazoness Blowpiper",
+      "card": "5b5acc44-6b41-46cc-981e-3d8a723d9a41",
+      "yugipediaId": 3387,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "March 2022",
+          "runIndex": 0,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Light of Judgment",
+      "card": "f72265c7-0c2a-4431-b974-cbf1ba593d12",
+      "yugipediaId": 17992,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "March 2022",
+          "runIndex": 0,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Gigobyte",
+      "card": "1f663762-1ec1-40e9-b73f-1f241a019ff9",
+      "yugipediaId": 16211,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "March 2022",
+          "runIndex": 0,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Wave Duel Scramble",
+        "id": 1011626
+      }
+    ]
+  }
+}

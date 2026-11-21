@@ -1,0 +1,363 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "7b2a43df-0d77-4904-b494-e0e19c331983",
+  "name": {
+    "en": "Rex Raptor's Dino Mayhem!"
+  },
+  "type": "Duel-A-Thon",
+  "duelWorlds": [
+    "Duel World (DM)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/b/b3/RexRaptorsDinoMayhem-Banner.png",
+  "runs": [
+    {
+      "startDate": "2017-09-11",
+      "endDate": "2017-09-19"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "cumulativeRewards",
+      "path": [
+        "Rewards",
+        "Cumulative Rewards"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "Whenever a player earned points for their Daily Duel Meter, they also earned an equal amount of points for their Cumulative Duel Meter, even if they had maxed out their Daily Duel Meter. By doing so, players could earn rewards for the point milestones they attained during the event, in addition to viewing event-exclusive dialogue cutscenes."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Points",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "150"
+              },
+              {
+                "text": "50 Gems + Cutscene"
+              }
+            ],
+            [
+              {
+                "text": "400"
+              },
+              {
+                "text": "5000 Gold + Cutscene"
+              }
+            ],
+            [
+              {
+                "text": "800"
+              },
+              {
+                "text": "1 \"Dark Driceratops\"",
+                "cards": [
+                  {
+                    "name": "Dark Driceratops",
+                    "card": "4d753cd3-9c0b-4f1d-8a00-c2ccb2b72b98",
+                    "yugipediaId": 15980,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "1300"
+              },
+              {
+                "text": "10000 Gold + Cutscene"
+              }
+            ],
+            [
+              {
+                "text": "1900"
+              },
+              {
+                "text": "100 Gems"
+              }
+            ],
+            [
+              {
+                "text": "2500"
+              },
+              {
+                "text": "15000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "3100"
+              },
+              {
+                "text": "1 \"Jurassic World\" + Cutscene",
+                "cards": [
+                  {
+                    "name": "Jurassic World",
+                    "card": "9e420b00-eea2-487b-8969-d0506eeaa356",
+                    "yugipediaId": 8983,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "3700"
+              },
+              {
+                "text": "100 Gems"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "In addition to the following, standard Duel Rewards were also available by Roaring Rex Raptor at Level 30 or lower."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Destroyersaurus\", \"Black Ptera\", \"Jurassic World\", \"Big Evolution Pill\", \"Hunting Instinct\"",
+                "cards": [
+                  {
+                    "name": "Destroyersaurus",
+                    "card": "048373c0-a718-437e-b203-a80163434700",
+                    "yugipediaId": 18447
+                  },
+                  {
+                    "name": "Black Ptera",
+                    "card": "0ae7d39a-a49c-4e21-8d25-9bb51b76c99e",
+                    "yugipediaId": 15836
+                  },
+                  {
+                    "name": "Jurassic World",
+                    "card": "9e420b00-eea2-487b-8969-d0506eeaa356",
+                    "yugipediaId": 8983
+                  },
+                  {
+                    "name": "Big Evolution Pill",
+                    "card": "4bcaf3dc-2a81-4114-a43c-c30c40e1f741",
+                    "yugipediaId": 15944
+                  },
+                  {
+                    "name": "Hunting Instinct",
+                    "card": "59f7dea4-89dc-493c-a9fb-c02756cf17a3",
+                    "yugipediaId": 15798
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Dark Driceratops\", \"Two-Headed King Rex\", \"Crawling Dragon #2\", \"Spacetime Transcendence \", \"Survival Instinct\"",
+                "cards": [
+                  {
+                    "name": "Dark Driceratops",
+                    "card": "4d753cd3-9c0b-4f1d-8a00-c2ccb2b72b98",
+                    "yugipediaId": 15980
+                  },
+                  {
+                    "name": "Two-Headed King Rex",
+                    "card": "c3af5d30-a8fd-4db0-8e64-65819614f76b",
+                    "yugipediaId": 10801
+                  },
+                  {
+                    "name": "Crawling Dragon #2",
+                    "card": "e07a82bb-0bd1-4a06-8418-c27e51e45384",
+                    "yugipediaId": 9410
+                  },
+                  {
+                    "name": "Spacetime Transcendence",
+                    "card": "982cac61-16eb-4993-885f-d6174b4eb2c8",
+                    "yugipediaId": 493870
+                  },
+                  {
+                    "name": "Survival Instinct",
+                    "card": "f5a62402-84b3-44b0-b77a-4dd960b8297c",
+                    "yugipediaId": 15791
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Dark Driceratops",
+      "card": "4d753cd3-9c0b-4f1d-8a00-c2ccb2b72b98",
+      "yugipediaId": 15980,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "runIndex": 0,
+          "requirement": "800"
+        },
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Jurassic World",
+      "card": "9e420b00-eea2-487b-8969-d0506eeaa356",
+      "yugipediaId": 8983,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "runIndex": 0,
+          "requirement": "3100"
+        },
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Destroyersaurus",
+      "card": "048373c0-a718-437e-b203-a80163434700",
+      "yugipediaId": 18447,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Black Ptera",
+      "card": "0ae7d39a-a49c-4e21-8d25-9bb51b76c99e",
+      "yugipediaId": 15836,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Big Evolution Pill",
+      "card": "4bcaf3dc-2a81-4114-a43c-c30c40e1f741",
+      "yugipediaId": 15944,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Hunting Instinct",
+      "card": "59f7dea4-89dc-493c-a9fb-c02756cf17a3",
+      "yugipediaId": 15798,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Two-Headed King Rex",
+      "card": "c3af5d30-a8fd-4db0-8e64-65819614f76b",
+      "yugipediaId": 10801,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Crawling Dragon #2",
+      "card": "e07a82bb-0bd1-4a06-8418-c27e51e45384",
+      "yugipediaId": 9410,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Spacetime Transcendence",
+      "card": "982cac61-16eb-4993-885f-d6174b4eb2c8",
+      "yugipediaId": 493870,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Survival Instinct",
+      "card": "f5a62402-84b3-44b0-b77a-4dd960b8297c",
+      "yugipediaId": 15791,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Rex Raptor's Dino Mayhem!",
+        "id": 585973
+      }
+    ]
+  }
+}

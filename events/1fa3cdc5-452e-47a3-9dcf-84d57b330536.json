@@ -1,0 +1,2208 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "1fa3cdc5-452e-47a3-9dcf-84d57b330536",
+  "name": {
+    "en": "Event Rush #1: DM: Yami Bakura Makes His Move!",
+    "ja": "\u30a4\u30d9\u30f3\u30c8\u30e9\u30c3\u30b7\u30e5\u7b2c1\u5f3e DM \u52d5\u304d\u51fa\u3059 \u95c7\u30d0\u30af\u30e9"
+  },
+  "type": "Gate Event",
+  "duelWorlds": [
+    "Duel World (DM)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/5/5c/EventRush1DMYamiBakuraMakesHisMove-Banner.png",
+  "runs": [
+    {
+      "startDate": "2026-09-30",
+      "endDate": "2026-10-13"
+    }
+  ],
+  "cardTraderExDates": [
+    {
+      "startDate": "2026-09-30",
+      "endDate": "2026-10-13"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "cumulativeRewards",
+      "path": [
+        "Rewards",
+        "Cumulative Rewards"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "The following rewards were awarded during this event, based on event points accumulated over the course of the event:"
+      ]
+    },
+    {
+      "kind": "cumulativeRewards",
+      "path": [
+        "Rewards",
+        "Cumulative Rewards"
+      ],
+      "run": "Sept-Oct 2026",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "5000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "16000"
+              },
+              {
+                "text": "1 EXP Booster"
+              }
+            ],
+            [
+              {
+                "text": "27000"
+              },
+              {
+                "text": "30 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "38000"
+              },
+              {
+                "text": "1 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "49000"
+              },
+              {
+                "text": "10 BOX Chips"
+              }
+            ],
+            [
+              {
+                "text": "60000"
+              },
+              {
+                "text": "1 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "71000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "82000"
+              },
+              {
+                "text": "15 Gems"
+              }
+            ],
+            [
+              {
+                "text": "100000"
+              },
+              {
+                "text": "1 \"Puppet Master\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Puppet Master",
+                    "card": "648f02d8-c1ed-462f-baa0-f6365307bbf3",
+                    "yugipediaId": 16376,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "176000"
+              },
+              {
+                "text": "80 Ten-Sided Dice"
+              }
+            ],
+            [
+              {
+                "text": "252000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "328000"
+              },
+              {
+                "text": "2 Results Boosters"
+              }
+            ],
+            [
+              {
+                "text": "404000"
+              },
+              {
+                "text": "5 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "480000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "556000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "632000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "710000"
+              },
+              {
+                "text": "Card Sleeves: DM: Yami Bakura Makes His Move!"
+              }
+            ],
+            [
+              {
+                "text": "768000"
+              },
+              {
+                "text": "10 BOX Chips"
+              }
+            ],
+            [
+              {
+                "text": "826000"
+              },
+              {
+                "text": "15 Gems"
+              }
+            ],
+            [
+              {
+                "text": "884000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "942000"
+              },
+              {
+                "text": "5 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "1000000"
+              },
+              {
+                "text": "1 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "1058000"
+              },
+              {
+                "text": "10 BOX Chips"
+              }
+            ],
+            [
+              {
+                "text": "1116000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1180000"
+              },
+              {
+                "text": "1 \"Dark Necrofear\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Dark Necrofear",
+                    "card": "ad2a88e1-06ec-4983-b2b1-f63542fcfa80",
+                    "yugipediaId": 1529,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "1282000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "1384000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1486000"
+              },
+              {
+                "text": "1 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "1588000"
+              },
+              {
+                "text": "5 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "1690000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1792000"
+              },
+              {
+                "text": "10 EX Jewels"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "1900000"
+              },
+              {
+                "text": "Game Mat: DM: Yami Bakura Makes His Move"
+              }
+            ],
+            [
+              {
+                "text": "2055000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "2210000"
+              },
+              {
+                "text": "10 Chronicle Chips"
+              }
+            ],
+            [
+              {
+                "text": "2365000"
+              },
+              {
+                "text": "30 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "2520000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "2675000"
+              },
+              {
+                "text": "10 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "2830000"
+              },
+              {
+                "text": "5 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "2985000"
+              },
+              {
+                "text": "30 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "3140000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "3300000"
+              },
+              {
+                "text": "1 \"Dark Spirit of Malice\"",
+                "cards": [
+                  {
+                    "name": "Dark Spirit of Malice",
+                    "card": "dd9d1999-abb4-4184-82c3-e74da4714fe9",
+                    "yugipediaId": 606269,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "3542000"
+              },
+              {
+                "text": "20 Chronicle Chips"
+              }
+            ],
+            [
+              {
+                "text": "3784000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "4026000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "4268000"
+              },
+              {
+                "text": "10 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "4510000"
+              },
+              {
+                "text": "5 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "4752000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "5000000"
+              },
+              {
+                "text": "1 \"Dark Spirit of Banishment\"",
+                "cards": [
+                  {
+                    "name": "Dark Spirit of Banishment",
+                    "card": "12bf01eb-657c-48e1-aae3-64895a41e50d",
+                    "yugipediaId": 606268,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "5325000"
+              },
+              {
+                "text": "10 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "5650000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "5975000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "6300000"
+              },
+              {
+                "text": "40 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "6625000"
+              },
+              {
+                "text": "1 EXP Booster"
+              }
+            ],
+            [
+              {
+                "text": "6950000"
+              },
+              {
+                "text": "10 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "7275000"
+              },
+              {
+                "text": "Stamp: Millennium Ring"
+              }
+            ],
+            [
+              {
+                "text": "7600000"
+              },
+              {
+                "text": "Icon: DM: Yami Bakura Makes His Move!"
+              }
+            ],
+            [
+              {
+                "text": "7960000"
+              },
+              {
+                "text": "20 Chronicle Chips"
+              }
+            ],
+            [
+              {
+                "text": "8320000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "8680000"
+              },
+              {
+                "text": "15000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "9040000"
+              },
+              {
+                "text": "40 Gems"
+              }
+            ],
+            [
+              {
+                "text": "9400000"
+              },
+              {
+                "text": "Title: DM: Yami Bakura Makes His Move! Completed"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "When Dueling against Yami Bakura (Coat) at Level 40 or higher, these are the only cards that can drop; at lower levels, cards from the standard pool for Legendary Duelists may also drop.",
+        "Event Duelists possess the same rewards, but since they only spawn at Level 30, cards from the standard pool may also drop."
+      ]
+    },
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "run": "Sept-Oct 2026",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Dark Spirit of Banishment\", \"Dark Necrofear\"",
+                "cards": [
+                  {
+                    "name": "Dark Spirit of Banishment",
+                    "card": "12bf01eb-657c-48e1-aae3-64895a41e50d",
+                    "yugipediaId": 606268
+                  },
+                  {
+                    "name": "Dark Necrofear",
+                    "card": "ad2a88e1-06ec-4983-b2b1-f63542fcfa80",
+                    "yugipediaId": 1529
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Dark Spirit of Malice\", \"Puppet Master\", \"Dark Spirit of the Silent\"",
+                "cards": [
+                  {
+                    "name": "Dark Spirit of Malice",
+                    "card": "dd9d1999-abb4-4184-82c3-e74da4714fe9",
+                    "yugipediaId": 606269
+                  },
+                  {
+                    "name": "Puppet Master",
+                    "card": "648f02d8-c1ed-462f-baa0-f6365307bbf3",
+                    "yugipediaId": 16376
+                  },
+                  {
+                    "name": "Dark Spirit of the Silent",
+                    "card": "ca52f99c-4fd9-48c2-9992-d131a6b6fb58",
+                    "yugipediaId": 3248
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Beast of Talwar\", \"The Earl of Demise\", \"Dark Mambele\", \"Call of the Earthbound\", \"Fiend Griefing\"",
+                "cards": [
+                  {
+                    "name": "Beast of Talwar",
+                    "card": "713f3ee8-02a9-47d6-8279-bc8673c2b701",
+                    "yugipediaId": 8572
+                  },
+                  {
+                    "name": "The Earl of Demise",
+                    "card": "4fc80a68-5c40-4d92-91c9-6db5bf3d54a0",
+                    "yugipediaId": 9108
+                  },
+                  {
+                    "name": "Dark Mambele",
+                    "card": "fc969663-c5f3-4b01-b78b-31605432a621",
+                    "yugipediaId": 194452
+                  },
+                  {
+                    "name": "Call of the Earthbound",
+                    "card": "fb52f874-67ff-4ebb-83af-a27d8f474135",
+                    "yugipediaId": 18574
+                  },
+                  {
+                    "name": "Fiend Griefing",
+                    "card": "fdc34865-86dd-4bb6-aa62-edbb2a4c0685",
+                    "yugipediaId": 334808
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "cardTraderEx",
+      "path": [
+        "Rewards",
+        "Card Trader EX"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "The Card Trader EX appears during this event and remains open until one week after its conclusion. The player can trade their EX Jewels for cards, Booster Items, Gold, and Skill Chips. Each card and Booster Item can only be obtained once from the Card Trader EX during this event, but the Gold can be obtained any number of times."
+      ]
+    },
+    {
+      "kind": "cardTraderEx",
+      "path": [
+        "Rewards",
+        "Card Trader EX"
+      ],
+      "run": "Sept-Oct 2026",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "EX Jewels",
+            "Item"
+          ],
+          "rows": [
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1"
+              },
+              {
+                "text": "100 Gold"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Results Booster"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 EXP Booster"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "10 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "300"
+              },
+              {
+                "text": "1  \"Dark Spirit of Banishment\"",
+                "cards": [
+                  {
+                    "name": "Dark Spirit of Banishment",
+                    "card": "12bf01eb-657c-48e1-aae3-64895a41e50d",
+                    "yugipediaId": 606268,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Dark Spirit of Banishment\" (Glossy)",
+                "cards": [
+                  {
+                    "name": "Dark Spirit of Banishment",
+                    "card": "12bf01eb-657c-48e1-aae3-64895a41e50d",
+                    "yugipediaId": 606268,
+                    "quantity": 1,
+                    "variant": "Glossy"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "400"
+              },
+              {
+                "text": "1 \"Dark Spirit of Banishment\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Dark Spirit of Banishment",
+                    "card": "12bf01eb-657c-48e1-aae3-64895a41e50d",
+                    "yugipediaId": 606268,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Dark Spirit of Malice\"",
+                "cards": [
+                  {
+                    "name": "Dark Spirit of Malice",
+                    "card": "dd9d1999-abb4-4184-82c3-e74da4714fe9",
+                    "yugipediaId": 606269,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "300"
+              },
+              {
+                "text": "1  \"Dark Necrofear\"",
+                "cards": [
+                  {
+                    "name": "Dark Necrofear",
+                    "card": "ad2a88e1-06ec-4983-b2b1-f63542fcfa80",
+                    "yugipediaId": 1529,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Puppet Master\"",
+                "cards": [
+                  {
+                    "name": "Puppet Master",
+                    "card": "648f02d8-c1ed-462f-baa0-f6365307bbf3",
+                    "yugipediaId": 16376,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Dark Spirit of the Silent\"",
+                "cards": [
+                  {
+                    "name": "Dark Spirit of the Silent",
+                    "card": "ca52f99c-4fd9-48c2-9992-d131a6b6fb58",
+                    "yugipediaId": 3248,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Beast of Talwar\"",
+                "cards": [
+                  {
+                    "name": "Beast of Talwar",
+                    "card": "713f3ee8-02a9-47d6-8279-bc8673c2b701",
+                    "yugipediaId": 8572,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"The Earl of Demise\"",
+                "cards": [
+                  {
+                    "name": "The Earl of Demise",
+                    "card": "4fc80a68-5c40-4d92-91c9-6db5bf3d54a0",
+                    "yugipediaId": 9108,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Dark Mambele\"",
+                "cards": [
+                  {
+                    "name": "Dark Mambele",
+                    "card": "fc969663-c5f3-4b01-b78b-31605432a621",
+                    "yugipediaId": 194452,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Call of the Earthbound\"",
+                "cards": [
+                  {
+                    "name": "Call of the Earthbound",
+                    "card": "fb52f874-67ff-4ebb-83af-a27d8f474135",
+                    "yugipediaId": 18574,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Fiend Griefing\"",
+                "cards": [
+                  {
+                    "name": "Fiend Griefing",
+                    "card": "fdc34865-86dd-4bb6-aa62-edbb2a4c0685",
+                    "yugipediaId": 334808,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Rewards",
+        "Event Missions"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "These missions were available from the start of the event.",
+        "The following missions were added on October 2, 2026.",
+        "The following mission was added on October 4, 2026.",
+        "The following missions were added on October 6, 2026."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Event Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against Yami Bakura (Coat) at Level 10 in Duel World."
+              },
+              {
+                "text": "10 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 1 Duel(s) against Yami Bakura (Coat) at Level 20 in Duel World."
+              },
+              {
+                "text": "20 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 1 Duel(s) against Yami Bakura (Coat) at Level 30 in Duel World."
+              },
+              {
+                "text": "30 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 1 Duel(s) against Yami Bakura (Coat) at Level 40 in Duel World."
+              },
+              {
+                "text": "40 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 20 Duel(s) against Yami Bakura (Coat) in Duel World."
+              },
+              {
+                "text": "20 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 40 Duel(s) against Yami Bakura (Coat) in Duel World."
+              },
+              {
+                "text": "30 EX Jewels"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Event Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 5 Duel(s) using Yami Bakura (Coat)."
+              },
+              {
+                "text": "Card Sleeves: Yami Bakura (Coat) & Yugi Muto (DM)"
+              }
+            ],
+            [
+              {
+                "text": "Win 10 Duel(s) using Yami Bakura (Coat)."
+              },
+              {
+                "text": "10 Gems"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Event Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Summon \"Dark Necrofear\" 1 time(s) while playing as Yami Bakura (Coat).",
+                "cards": [
+                  {
+                    "name": "Dark Necrofear",
+                    "card": "ad2a88e1-06ec-4983-b2b1-f63542fcfa80",
+                    "yugipediaId": 1529
+                  }
+                ]
+              },
+              {
+                "text": "Game Mat: Yami Bakura (Coat) & Yugi Muto (DM)"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Event Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against \"Darkness Encroaches Yami Bakura\"."
+              },
+              {
+                "text": "Icon: Yami Bakura (Coat) & Yugi Muto (DM)"
+              }
+            ],
+            [
+              {
+                "text": "Win 3 Duel(s) against \"Darkness Encroaches Yami Bakura\"."
+              },
+              {
+                "text": "50 Chronicle Chips"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "dailyMissions",
+      "path": [
+        "Rewards",
+        "Event Missions",
+        "Daily Missions"
+      ],
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Event Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Play 1 Duel(s) in Ranked Duels (surrenders are not counted)."
+              },
+              {
+                "text": "40 Ten-Sided Dice"
+              }
+            ],
+            [
+              {
+                "text": "Play 2 Duel(s) in Ranked Duels (surrenders are not counted)."
+              },
+              {
+                "text": "40 Ten-Sided Dice"
+              }
+            ],
+            [
+              {
+                "text": "Play 3 Duel(s) in Ranked Duels (surrenders are not counted)."
+              },
+              {
+                "text": "40 Ten-Sided Dice"
+              }
+            ],
+            [
+              {
+                "text": "Use \"Yami Bakura (Coat)\" to duel 1 times in PvP (surrenders are not counted)."
+              },
+              {
+                "text": "30 EX Jewels"
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "decks": [
+    {
+      "path": [
+        "Decks",
+        "Event-exclusive"
+      ],
+      "name": "That King Is a Handful",
+      "owner": "Yami Bakura",
+      "cards": [
+        {
+          "name": "Archfiend Emperor, the First Lord of Horror",
+          "card": "5cc98edb-3511-48c7-b890-a97088b7cdd1",
+          "yugipediaId": 268052,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Curse Necrofear",
+          "card": "18086e88-cc8b-437b-8594-77774e365a08",
+          "yugipediaId": 606267,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Dark Necrofear",
+          "card": "ad2a88e1-06ec-4983-b2b1-f63542fcfa80",
+          "yugipediaId": 1529,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Dark Spirit of Banishment",
+          "card": "12bf01eb-657c-48e1-aae3-64895a41e50d",
+          "yugipediaId": 606268,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Dark Spirit of Malice",
+          "card": "dd9d1999-abb4-4184-82c3-e74da4714fe9",
+          "yugipediaId": 606269,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Fiendish Rhino Warrior",
+          "card": "b6552d65-c31d-4903-87f4-663256394bcb",
+          "yugipediaId": 335992,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Dark Master - Zorc",
+          "card": "169be1d6-76f1-49ae-b256-237463d27663",
+          "yugipediaId": 599,
+          "count": 2,
+          "category": "ritual monsters"
+        },
+        {
+          "name": "Contract with the Dark Master",
+          "card": "997bbbc8-c61b-489e-8dd1-07ddb1fb345e",
+          "yugipediaId": 14440,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Pre-Preparation of Rites",
+          "card": "ae21a30b-2bba-4676-bdee-65f31e185b32",
+          "yugipediaId": 382897,
+          "count": 3,
+          "category": "spells"
+        },
+        {
+          "name": "Call of the Archfiend",
+          "card": "250a3632-d367-42c6-b202-c0f78dff7db0",
+          "yugipediaId": 531590,
+          "count": 2,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Yami Bakura (Coat)",
+        "Level 10"
+      ],
+      "name": "You Lose, You Die. You Game?",
+      "owner": "Yami Bakura",
+      "cards": [
+        {
+          "name": "Happy Lover",
+          "card": "f0211baa-dc8b-472f-a225-c57c419468bc",
+          "yugipediaId": 6593,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Phantom Ghost",
+          "rushDuel": true,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Shadow Specter",
+          "card": "4dd223b9-e29f-443b-9945-97616d19ef23",
+          "yugipediaId": 4751,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Souls of the Forgotten",
+          "card": "95d4a58b-2dc1-43c6-941f-ac16414d9de6",
+          "yugipediaId": 8505,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Electric Lizard",
+          "card": "8e8b5f37-7690-4b7a-a1be-276cf4b9a367",
+          "yugipediaId": 84,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Malice Ascendant",
+          "card": "d874e1be-a478-4301-a0a5-aa4320c1e02d",
+          "yugipediaId": 12451,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Mask of Darkness",
+          "card": "e5d26167-94c4-4276-bae8-32594d593f0f",
+          "yugipediaId": 1936,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Sangan",
+          "card": "3fd4df9c-9923-4388-9c31-5b6ce35f436b",
+          "yugipediaId": 151,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Dark Designator",
+          "card": "b36f22e0-a49f-4e49-89d9-90d35b159f9b",
+          "yugipediaId": 4666,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Exchange",
+          "card": "55145daa-ad38-4eec-a3f1-10062e63716c",
+          "yugipediaId": 450,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Foolish Burial",
+          "card": "104893e3-7989-4e25-bcea-d0c87bb99bc7",
+          "yugipediaId": 5395,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Overdone Burial",
+          "card": "fda5a53e-1188-4d25-bc59-a4cf6bad53d4",
+          "yugipediaId": 519673,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "The Shallow Grave",
+          "card": "64a96ce7-c392-481b-9aa8-8e87bc33ab85",
+          "yugipediaId": 4178,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Call of the Earthbound",
+          "card": "fb52f874-67ff-4ebb-83af-a27d8f474135",
+          "yugipediaId": 18574,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Yami Bakura (Coat)",
+        "Level 20"
+      ],
+      "name": "I Want To See Your Raw Fear!",
+      "owner": "Yami Bakura",
+      "cards": [
+        {
+          "name": "Dark King of the Abyss",
+          "card": "5a40a68f-e3fe-4a82-8e9f-caebac334757",
+          "yugipediaId": 505277,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Lady of Faith",
+          "card": "a7594d14-1fe2-472d-9e51-28d76464f7cc",
+          "yugipediaId": 6737,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "The Earl of Demise",
+          "card": "4fc80a68-5c40-4d92-91c9-6db5bf3d54a0",
+          "yugipediaId": 9108,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "The Portrait's Secret",
+          "card": "f9b6deb9-e4c3-46f8-86ce-837accee2595",
+          "yugipediaId": 9006,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Endless Decay",
+          "card": "dc46203c-2f66-4a2e-924c-0558e6c4a298",
+          "yugipediaId": 151645,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gernia",
+          "card": "d6096a53-54a4-40b9-852a-aa7c4d027baf",
+          "yugipediaId": 16741,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Goblin Zombie",
+          "card": "f3588132-544e-476b-9bbd-da7222e14d37",
+          "yugipediaId": 16764,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Mask of Darkness",
+          "card": "e5d26167-94c4-4276-bae8-32594d593f0f",
+          "yugipediaId": 1936,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Sangan",
+          "card": "3fd4df9c-9923-4388-9c31-5b6ce35f436b",
+          "yugipediaId": 151,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "White Magical Hat",
+          "card": "d9231316-d745-4706-82d1-65c04367f76f",
+          "yugipediaId": 3015,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Winged Minion",
+          "card": "ea99ed2a-479e-49bd-8e56-0670d3f73ad8",
+          "yugipediaId": 4265,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Exchange",
+          "card": "55145daa-ad38-4eec-a3f1-10062e63716c",
+          "yugipediaId": 450,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "The Puppet Magic of Dark Ruler",
+          "card": "ad51c93e-a521-4107-9459-c9400044b1dc",
+          "yugipediaId": 4493,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "The Shallow Grave",
+          "card": "64a96ce7-c392-481b-9aa8-8e87bc33ab85",
+          "yugipediaId": 4178,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Call of the Earthbound",
+          "card": "fb52f874-67ff-4ebb-83af-a27d8f474135",
+          "yugipediaId": 18574,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Trap of Darkness",
+          "card": "fe800506-38c5-4e69-b243-1b1b53ef51cf",
+          "yugipediaId": 17023,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Yami Bakura (Coat)",
+        "Level 30"
+      ],
+      "name": "You\u2019re Getting Erased!",
+      "owner": "Yami Bakura",
+      "cards": [
+        {
+          "name": "Baron of the Fiend Sword",
+          "card": "79a36f7a-7f00-41e5-bce1-33883e16373c",
+          "yugipediaId": 3229,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Headless Knight",
+          "card": "0fccf355-5b7c-43f5-8021-5ca71385d23a",
+          "yugipediaId": 9065,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "The Gross Ghost of Fled Dreams",
+          "card": "303331e5-66f5-4363-a07b-29bf0c9f3521",
+          "yugipediaId": 9029,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Dark Necrofear",
+          "card": "ad2a88e1-06ec-4983-b2b1-f63542fcfa80",
+          "yugipediaId": 1529,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Dark Ruler Ha Des",
+          "card": "cd7cf59f-ef0d-4d61-921d-3cf6762dedc6",
+          "yugipediaId": 401,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Luna the Dark Spirit",
+          "card": "cef40945-6b80-462b-a581-2148c6be3a21",
+          "yugipediaId": 642378,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Morphing Jar",
+          "card": "64d749c4-4908-40b5-af1f-b6cbb2916fb8",
+          "yugipediaId": 1340,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Puppet Master",
+          "card": "648f02d8-c1ed-462f-baa0-f6365307bbf3",
+          "yugipediaId": 16376,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Sangan",
+          "card": "3fd4df9c-9923-4388-9c31-5b6ce35f436b",
+          "yugipediaId": 151,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Trance Archfiend",
+          "card": "ca6606f8-7ebd-47f1-90de-a4804ea706dc",
+          "yugipediaId": 176503,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Allure of Darkness",
+          "card": "c4153d67-cdc1-4829-b151-fcb0aeb0d2eb",
+          "yugipediaId": 85247,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Ectoplasmer",
+          "card": "345d33de-8549-49b0-895b-3961f027b9c0",
+          "yugipediaId": 2885,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Premature Burial",
+          "card": "4137ce7d-bb16-46fe-8474-d2eb871fea55",
+          "yugipediaId": 34,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Just Desserts",
+          "card": "cc84d786-5d7e-4b4a-82b5-995c335d6ba2",
+          "yugipediaId": 547,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Zoma the Spirit",
+          "card": "668ea786-e371-481e-9e1e-c1fc8e32ac94",
+          "yugipediaId": 10810,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Yami Bakura (Coat)",
+        "Level 40"
+      ],
+      "name": "The Ultimate Shadow Game",
+      "owner": "Yami Bakura",
+      "cards": [
+        {
+          "name": "Earthbound Spirit",
+          "card": "707f5494-6b0a-4ff7-84f9-04c9960c667f",
+          "yugipediaId": 9093,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Curse Necrofear",
+          "card": "18086e88-cc8b-437b-8594-77774e365a08",
+          "yugipediaId": 606267,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Dark Necrofear",
+          "card": "ad2a88e1-06ec-4983-b2b1-f63542fcfa80",
+          "yugipediaId": 1529,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Dark Spirit of Malice",
+          "card": "dd9d1999-abb4-4184-82c3-e74da4714fe9",
+          "yugipediaId": 606269,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Diabound Kernel",
+          "card": "c0b2aabd-e1be-45a6-a120-b4c746ddb9c1",
+          "yugipediaId": 404627,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Doomcaliber Knight",
+          "card": "ee20d6a6-d68e-4d61-8275-167ed86786d6",
+          "yugipediaId": 19351,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Luna the Dark Spirit",
+          "card": "cef40945-6b80-462b-a581-2148c6be3a21",
+          "yugipediaId": 642378,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Necroface",
+          "card": "9b8dc7a0-bd5a-47d8-bcfc-0838ecb71012",
+          "yugipediaId": 15486,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Trance Archfiend",
+          "card": "ca6606f8-7ebd-47f1-90de-a4804ea706dc",
+          "yugipediaId": 176503,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Allure of Darkness",
+          "card": "c4153d67-cdc1-4829-b151-fcb0aeb0d2eb",
+          "yugipediaId": 85247,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Ectoplasmer",
+          "card": "345d33de-8549-49b0-895b-3961f027b9c0",
+          "yugipediaId": 2885,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Premature Burial",
+          "card": "4137ce7d-bb16-46fe-8474-d2eb871fea55",
+          "yugipediaId": 34,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Spiritualism",
+          "card": "9f9356fc-727c-473e-8179-0d18b5b15a4e",
+          "yugipediaId": 3470,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Dark Spirit of the Silent",
+          "card": "ca52f99c-4fd9-48c2-9992-d131a6b6fb58",
+          "yugipediaId": 3248,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Multiple Destruction",
+          "card": "db7864d3-56de-49ca-b7c2-0162e2eaab19",
+          "yugipediaId": 21303,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Zoma the Spirit",
+          "card": "668ea786-e371-481e-9e1e-c1fc8e32ac94",
+          "yugipediaId": 10810,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Yami Bakura (Coat)",
+        "Level 50"
+      ],
+      "name": "I'm Sending You to Shadow Realm!",
+      "owner": "Yami Bakura",
+      "cards": [
+        {
+          "name": "Curse Necrofear",
+          "card": "18086e88-cc8b-437b-8594-77774e365a08",
+          "yugipediaId": 606267,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Dark Necrofear",
+          "card": "ad2a88e1-06ec-4983-b2b1-f63542fcfa80",
+          "yugipediaId": 1529,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Dark Spirit of Banishment",
+          "card": "12bf01eb-657c-48e1-aae3-64895a41e50d",
+          "yugipediaId": 606268,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Dark Spirit of Malice",
+          "card": "dd9d1999-abb4-4184-82c3-e74da4714fe9",
+          "yugipediaId": 606269,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Diabound Kernel",
+          "card": "c0b2aabd-e1be-45a6-a120-b4c746ddb9c1",
+          "yugipediaId": 404627,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Doomcaliber Knight",
+          "card": "ee20d6a6-d68e-4d61-8275-167ed86786d6",
+          "yugipediaId": 19351,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Luna the Dark Spirit",
+          "card": "cef40945-6b80-462b-a581-2148c6be3a21",
+          "yugipediaId": 642378,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Necroface",
+          "card": "9b8dc7a0-bd5a-47d8-bcfc-0838ecb71012",
+          "yugipediaId": 15486,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Trance Archfiend",
+          "card": "ca6606f8-7ebd-47f1-90de-a4804ea706dc",
+          "yugipediaId": 176503,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Allure of Darkness",
+          "card": "c4153d67-cdc1-4829-b151-fcb0aeb0d2eb",
+          "yugipediaId": 85247,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Ectoplasmer",
+          "card": "345d33de-8549-49b0-895b-3961f027b9c0",
+          "yugipediaId": 2885,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Premature Burial",
+          "card": "4137ce7d-bb16-46fe-8474-d2eb871fea55",
+          "yugipediaId": 34,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Spiritualism",
+          "card": "9f9356fc-727c-473e-8179-0d18b5b15a4e",
+          "yugipediaId": 3470,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Dark Spirit of the Silent",
+          "card": "ca52f99c-4fd9-48c2-9992-d131a6b6fb58",
+          "yugipediaId": 3248,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Zoma the Spirit",
+          "card": "668ea786-e371-481e-9e1e-c1fc8e32ac94",
+          "yugipediaId": 10810,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Event Duelist",
+        "Bonz"
+      ],
+      "name": "Raving Cemetery",
+      "owner": "Bonz",
+      "cards": [
+        {
+          "name": "Armored Zombie",
+          "card": "cbdc42a4-d211-45ad-8181-aa505fb91f6a",
+          "yugipediaId": 510596,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Clown Zombie",
+          "card": "f21acbd6-00df-4906-afa7-65e959317236",
+          "yugipediaId": 509005,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Dragon Zombie",
+          "card": "29d8796c-eb9a-4e35-b54a-842fbecc6c6a",
+          "yugipediaId": 2845,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Graveyard and the Hand of Invitation",
+          "card": "c41e3ba6-05e9-4291-8904-cdc717044a73",
+          "yugipediaId": 7063,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Skull Servant",
+          "card": "5fc83ceb-96ce-4614-ba94-20b81d29f8a2",
+          "yugipediaId": 504815,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "The Snake Hair",
+          "card": "15ae98e2-1420-4ea3-9e14-4fef2cbaf68c",
+          "yugipediaId": 20073,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Zanki",
+          "card": "e814c0ae-9f96-4573-bde3-6e19ccfa6398",
+          "yugipediaId": 21674,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Crass Clown",
+          "card": "e142a785-f4b5-408d-a9f4-388db3fee848",
+          "yugipediaId": 5577,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Goblin Zombie",
+          "card": "f3588132-544e-476b-9bbd-da7222e14d37",
+          "yugipediaId": 16764,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Pumpking the King of Ghosts",
+          "card": "a3145a23-88f4-4cb7-bf44-9f8b000b1f4a",
+          "yugipediaId": 62,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Polymerization",
+          "card": "54f38f67-5d19-4625-9a9a-e1445574d5bf",
+          "yugipediaId": 35,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Stop Defense",
+          "card": "1cb9d249-c385-47ff-8d32-ab5c2cb7fb12",
+          "yugipediaId": 507324,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Call of the Haunted",
+          "card": "8b90d4cb-0fb1-46a6-bbe2-83738b26fe0a",
+          "yugipediaId": 131,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Skull Invitation",
+          "card": "e168aa0f-bb4e-494f-b8bb-f0c0da27b719",
+          "yugipediaId": 6832,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Puppet Master",
+      "card": "648f02d8-c1ed-462f-baa0-f6365307bbf3",
+      "yugipediaId": 16376,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "Sept-Oct 2026",
+          "runIndex": 0,
+          "requirement": "100000"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "Sept-Oct 2026",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Sept-Oct 2026",
+          "runIndex": 0,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Dark Necrofear",
+      "card": "ad2a88e1-06ec-4983-b2b1-f63542fcfa80",
+      "yugipediaId": 1529,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "Sept-Oct 2026",
+          "runIndex": 0,
+          "requirement": "1180000"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "Sept-Oct 2026",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Sept-Oct 2026",
+          "runIndex": 0,
+          "requirement": "300"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0
+        }
+      ]
+    },
+    {
+      "name": "Dark Spirit of Malice",
+      "card": "dd9d1999-abb4-4184-82c3-e74da4714fe9",
+      "yugipediaId": 606269,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "Sept-Oct 2026",
+          "runIndex": 0,
+          "requirement": "3300000"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "Sept-Oct 2026",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Sept-Oct 2026",
+          "runIndex": 0,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Dark Spirit of Banishment",
+      "card": "12bf01eb-657c-48e1-aae3-64895a41e50d",
+      "yugipediaId": 606268,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "Sept-Oct 2026",
+          "runIndex": 0,
+          "requirement": "5000000"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "Sept-Oct 2026",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Sept-Oct 2026",
+          "runIndex": 0,
+          "requirement": "300"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Sept-Oct 2026",
+          "runIndex": 0,
+          "requirement": "100"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Sept-Oct 2026",
+          "runIndex": 0,
+          "requirement": "400"
+        }
+      ]
+    },
+    {
+      "name": "Dark Spirit of the Silent",
+      "card": "ca52f99c-4fd9-48c2-9992-d131a6b6fb58",
+      "yugipediaId": 3248,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "Sept-Oct 2026",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Sept-Oct 2026",
+          "runIndex": 0,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Beast of Talwar",
+      "card": "713f3ee8-02a9-47d6-8279-bc8673c2b701",
+      "yugipediaId": 8572,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "Sept-Oct 2026",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Sept-Oct 2026",
+          "runIndex": 0,
+          "requirement": "30"
+        }
+      ]
+    },
+    {
+      "name": "The Earl of Demise",
+      "card": "4fc80a68-5c40-4d92-91c9-6db5bf3d54a0",
+      "yugipediaId": 9108,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "Sept-Oct 2026",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Sept-Oct 2026",
+          "runIndex": 0,
+          "requirement": "30"
+        }
+      ]
+    },
+    {
+      "name": "Dark Mambele",
+      "card": "fc969663-c5f3-4b01-b78b-31605432a621",
+      "yugipediaId": 194452,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "Sept-Oct 2026",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Sept-Oct 2026",
+          "runIndex": 0,
+          "requirement": "30"
+        }
+      ]
+    },
+    {
+      "name": "Call of the Earthbound",
+      "card": "fb52f874-67ff-4ebb-83af-a27d8f474135",
+      "yugipediaId": 18574,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "Sept-Oct 2026",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Sept-Oct 2026",
+          "runIndex": 0,
+          "requirement": "30"
+        }
+      ]
+    },
+    {
+      "name": "Fiend Griefing",
+      "card": "fdc34865-86dd-4bb6-aa62-edbb2a4c0685",
+      "yugipediaId": 334808,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "Sept-Oct 2026",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Sept-Oct 2026",
+          "runIndex": 0,
+          "requirement": "30"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Event Rush 1: DM: Yami Bakura Makes His Move!",
+        "id": 1231343
+      }
+    ]
+  }
+}
