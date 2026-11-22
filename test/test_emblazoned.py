@@ -202,6 +202,18 @@ def test_printings_keep_their_ids():
         assert printings[key].id == old[key].id
 
 
+def test_list_alternate_art_goes_to_the_emblazoned_printing():
+    printings = printings_of(import_set())
+    # The set list puts the alternate art on the Secret Rare, but the gallery shows it
+    # on the emblazoned one
+    assert printings[("002", CardRarity.SECRET)].variants == []
+    emblazoned = printings[("002", CardRarity.SECRET_EMBLAZONED)]
+    assert emblazoned.art_type is None
+    assert emblazoned.variants == [{"artType": "alternate", "label": "AA"}]
+    # Nothing says the others have another art
+    assert printings[("013", CardRarity.SECRET_EMBLAZONED)].variants == []
+
+
 if __name__ == "__main__":
     for name, test in [*globals().items()]:
         if name.startswith("test_"):

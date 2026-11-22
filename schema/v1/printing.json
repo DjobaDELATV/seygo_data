@@ -60,6 +60,41 @@
       "description": "What sets this printing apart from the card's other printings in this set, such as the color or art of a Token. Only used for Tokens.",
       "type": "string"
     },
+    "artType": {
+      "description": "What kind of art this printing has, when the set list says so for all its rows: extended art (also known as Over-Frame) or alternate art. Absent if it's the normal art or nothing says otherwise. Given even without images; see 'cardInfo' in the set's locales for the images.",
+      "enum": [
+        "alternate",
+        "extended"
+      ]
+    },
+    "artLabel": {
+      "description": "What the set list calls this printing's art, when it says more than 'artType', such as Stamp or Chibi for alternate arts. Only given with 'artType'.",
+      "type": "string"
+    },
+    "variants": {
+      "description": "The other arts this printing has besides its normal one, when the set list has a row for each, such as its extended art. Given even without images; see 'cardInfo' in the set's locales for the images.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "artType",
+          "label"
+        ],
+        "properties": {
+          "artType": {
+            "description": "What kind of art this is: extended art (also known as Over-Frame) or alternate art.",
+            "enum": [
+              "alternate",
+              "extended"
+            ]
+          },
+          "label": {
+            "description": "The label of this art: what the set list calls it, such as Stamp or Chibi, else the label Yugipedia's galleries give it, such as EA or AA2.",
+            "type": "string"
+          }
+        }
+      }
+    },
     "history": {
       "description": "Cards in virtual sets may be added or removed on Konami's whim. This is a record of when cards were added or removed from this virtual set.",
       "type": "array",

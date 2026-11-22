@@ -2257,6 +2257,21 @@ class CardPrinting:
     such as the color or art of a Token. Only used for Tokens.
     """
 
+    art_type: typing.Optional[str]
+    """What kind of art this printing has, when the set list says all of its rows
+    have one: "extended" (Over-Frame) or "alternate". Absent for the normal art.
+    """
+
+    art_label: typing.Optional[str]
+    """What the set list calls this printing's art, when it says more than its art
+    type, such as "Stamp" or "Chibi" for alternate arts.
+    """
+
+    variants: typing.List[typing.Dict[str, str]]
+    """The other arts this printing has besides its normal one, when the set list
+    has rows for both, such as ``{"artType": "extended", "label": "EA"}``.
+    """
+
     def __init__(
         self,
         *,
@@ -2270,6 +2285,9 @@ class CardPrinting:
         replica: bool = False,
         qty: int = 1,
         description: typing.Optional[str] = None,
+        art_type: typing.Optional[str] = None,
+        art_label: typing.Optional[str] = None,
+        variants: typing.Optional[typing.List[typing.Dict[str, str]]] = None,
     ) -> None:
         self.id = id
         self.card = card
@@ -2281,6 +2299,9 @@ class CardPrinting:
         self.replica = replica
         self.qty = qty
         self.description = description
+        self.art_type = art_type
+        self.art_label = art_label
+        self.variants = variants or []
 
     def _to_json(self) -> typing.Dict[str, typing.Any]:
         return {
@@ -2294,6 +2315,9 @@ class CardPrinting:
             **({"replica": True} if self.replica else {}),
             **({"qty": self.qty} if self.qty != 1 else {}),
             **({"description": self.description} if self.description else {}),
+            **({"artType": self.art_type} if self.art_type else {}),
+            **({"artLabel": self.art_label} if self.art_label else {}),
+            **({"variants": [{**x} for x in self.variants]} if self.variants else {}),
         }
 
 
@@ -4494,6 +4518,9 @@ class Database:
             replica=rawprinting["replica"] if "replica" in rawprinting else False,
             qty=rawprinting["qty"] if "qty" in rawprinting else 1,
             description=rawprinting.get("description"),
+            art_type=rawprinting.get("artType"),
+            art_label=rawprinting.get("artLabel"),
+            variants=rawprinting.get("variants"),
         )
         printings[result.id] = result
         return result

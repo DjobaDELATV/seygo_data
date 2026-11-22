@@ -4231,6 +4231,10 @@ class RawPrinting:
         self.variant = variant
         self.description = description
         self.row_description = row_description
+        self.row_art_types = [get_row_art_type(row_description)]
+
+    row_art_types: typing.List[typing.Optional["RowArt"]]
+    """The art each set list row of this printing says it has, None for the normal art."""
 
     def locator(self) -> PrintingLocator:
         return PrintingLocator(self.card, self.rarity, self.variant)
@@ -4351,6 +4355,41 @@ def get_art_type(
     if card.card_type == CardType.TOKEN:
         return "token"
     return "other"
+
+
+LIST_ART_TYPES = {"extended": "EA", "alternate": "AA"}
+"""The arts a set list row's description can say a printing has, with their gallery labels."""
+
+
+NAMED_ART_DESCRIPTION_RE = re.compile(
+    r"\(\s*([^()\s]+)\s+art(?:work)?s?\s*\)", re.IGNORECASE
+)
+GENERIC_ART_NAMES_RE = re.compile(
+    r"new|alternat(?:e|ive)|variant|original|different|\d+(?:st|nd|rd|th)|first|second|third",
+    re.IGNORECASE,
+)
+
+
+class RowArt(typing.NamedTuple):
+    art_type: str
+    label: str
+    """The gallery's label for this art, or what the set list calls it, like "Stamp"
+    for a "(stamp artwork)": stores tell those apart."""
+
+
+def get_row_art_type(description: typing.Optional[str]) -> typing.Optional[RowArt]:
+    """Gets what kind of art a set list row's description says its printing has."""
+    if not description:
+        return None
+    if EXTENDED_ART_DESCRIPTION_RE.search(description):
+        return RowArt("extended", LIST_ART_TYPES["extended"])
+    if ART_DESCRIPTION_RE.search(description):
+        named = NAMED_ART_DESCRIPTION_RE.search(description)
+        if named and not GENERIC_ART_NAMES_RE.fullmatch(named.group(1)):
+            name = named.group(1)
+            return RowArt("alternate", name[0].upper() + name[1:])
+        return RowArt("alternate", LIST_ART_TYPES["alternate"])
+    return None
 
 
 def parse_extended_art_page(raw_data: str) -> typing.Dict[str, typing.Set[str]]:
@@ -4582,6 +4621,10 @@ def parse_tcg_ocg_set(
                                 != rc.row_description
                             ):
                                 rc.row_description = None
+                            rc.row_art_types = [
+                                *rows_by_printing[key].row_art_types,
+                                *rc.row_art_types,
+                            ]
                         rows_by_printing[key] = rc
 
             rows_by_card: typing.Dict[
@@ -4808,6 +4851,8 @@ def parse_tcg_ocg_set(
                             any(x.noabbr for x in same_card if x.code == code),
                             len([x for x in same_card if x.rarity == rarity]),
                         )
+                        # It has no set list row
+                        rc.row_art_types = []
                         raw_locale.cards[rc.locator()] = rc
                     return rc
 
@@ -5525,6 +5570,110 @@ def parse_tcg_ocg_set(
                     return None
         return "extended"
 
+    def get_gallery_art_types(rcl: PrintingLocator) -> typing.Optional[typing.Set[str]]:
+        """The arts the galleries show for a printing in any locale, or None without images."""
+        result: typing.Optional[typing.Set[str]] = None
+        for raw_locale in raw_locales.values():
+            rc = raw_locale.cards.get(rcl)
+            if rc is None or not rc.image:
+                continue
+            result = result or set()
+            for il in rc.image:
+                result.add(
+                    get_art_type(il.altinfo, rc.image_descriptions.get(il), rc.card)
+                    or ""
+                )
+        return result
+
+    def get_row_arts(
+        rcl: PrintingLocator,
+    ) -> typing.Tuple[bool, typing.Dict[RowArt, int]]:
+        """Whether a printing has a set list row with the normal art, and how many rows
+        of each other art it has. Lists that say nothing of its arts don't count: some
+        locales' lists don't have the descriptions others have."""
+        has_normal = False
+        counts: typing.Dict[RowArt, int] = {}
+        for raw_locale in raw_locales.values():
+            rc = raw_locale.cards.get(rcl)
+            if rc is None:
+                continue
+            if any(rc.row_art_types):
+                has_normal = has_normal or None in rc.row_art_types
+            for art_type in {x for x in rc.row_art_types if x}:
+                counts[art_type] = max(
+                    counts.get(art_type, 0), rc.row_art_types.count(art_type)
+                )
+        return has_normal, counts
+
+    def get_same_code_printings(
+        rcl: PrintingLocator, from_list: bool
+    ) -> typing.Set[PrintingLocator]:
+        """The card's other printings with a printing's code, from set list rows or not."""
+        result: typing.Set[PrintingLocator] = set()
+        for raw_locale in raw_locales.values():
+            rc = raw_locale.cards.get(rcl)
+            if rc is None:
+                continue
+            for x in raw_locale.cards.values():
+                if (
+                    x is not rc
+                    and x.card is rc.card
+                    and x.code == rc.code
+                    and bool(x.row_art_types) == from_list
+                ):
+                    result.add(x.locator())
+        return result
+
+    def get_list_arts(
+        rcl: PrintingLocator,
+    ) -> typing.Tuple[
+        typing.Optional[str], typing.Optional[str], typing.List[typing.Dict[str, str]]
+    ]:
+        """Gets what arts the set lists say a printing has, whether there are images or not:
+        its own art type and what the list calls it, if all its rows have one, and its
+        other arts."""
+        if rcl.card.card_type == CardType.TOKEN:
+            return None, None, []
+        # The wiki says all Grand Master Rares are extended arts
+        if rcl.rarity == CardRarity.GRANDMASTER:
+            return "extended", None, []
+        has_normal, counts = get_row_arts(rcl)
+        gallery_art_types = get_gallery_art_types(rcl)
+        # Lists put the arts of printings only galleries have, like emblazoned
+        # alternate arts, on the printing with their code that the list has: the
+        # galleries say which one they belong to
+        if not counts and not has_normal:
+            for other in get_same_code_printings(rcl, True):
+                other_art_types = get_gallery_art_types(other)
+                other_has_normal, other_counts = get_row_arts(other)
+                for art, n in other_counts.items():
+                    if (
+                        art.art_type in (gallery_art_types or ())
+                        and other_art_types is not None
+                        and art.art_type not in other_art_types
+                    ):
+                        counts[art] = max(counts.get(art, 0), n)
+                        has_normal = has_normal or other_has_normal
+        elif gallery_art_types is not None:
+            others = get_same_code_printings(rcl, False)
+            for art in [*counts]:
+                if art.art_type not in gallery_art_types and any(
+                    art.art_type in (get_gallery_art_types(x) or ()) for x in others
+                ):
+                    del counts[art]
+        arts = [
+            {"artType": art.art_type, "label": art.label + (str(i + 1) if i else "")}
+            for art in sorted(counts)
+            for i in range(counts[art])
+        ]
+        if has_normal or not arts:
+            return None, None, arts
+        # The gallery's labels say nothing more than the art type
+        label: typing.Optional[str] = arts[0]["label"]
+        if label == LIST_ART_TYPES[arts[0]["artType"]]:
+            label = None
+        return arts[0]["artType"], label, arts[1:]
+
     # Some wiki locales share one of ours, like Japanese-Asian prints ("ja") and
     # Japanese ones ("jp"): the one named like ours comes first and wins
     def raw_locale_order(raw_locale: RawLocale) -> typing.Tuple[bool, str]:
@@ -5615,6 +5764,7 @@ def parse_tcg_ocg_set(
                             f"Found mutliple printings with the same code and rarity in the same locale in {title}: {rcl.card.text[Language.ENGLISH].name} / {rcl.rarity.value}"
                         )
                         continue
+                    art_type, art_label, variants = get_list_arts(rcl)
                     printing = CardPrinting(
                         id=get_printing_id(raw_locale, rc, prefix or ""),
                         card=rc.card,
@@ -5623,6 +5773,9 @@ def parse_tcg_ocg_set(
                         replica=any(il.altinfo.lower() == "rp" for il in rc.image),
                         qty=rc.qty,
                         description=rc.description,
+                        art_type=art_type,
+                        art_label=art_label,
+                        variants=variants,
                     )
                     raw_printings_to_printings[content][rcl] = printing
                     content.cards.append(printing)
