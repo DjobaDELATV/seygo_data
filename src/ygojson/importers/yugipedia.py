@@ -3902,6 +3902,13 @@ _DL_RARITIES = {
         CardRarity.RARE_BLUE,
     ]
 }
+_SBPR_RARITIES = {
+    CardRarity.SECRET: [CardRarity.SECRET_BLUE],
+    # The wiki's lists say some English ones are Prismatic Secret Rares, but their pages
+    # and the colorful rare page say they're Secret Rares with blue names
+    CardRarity.PRISMATICSECRET: [CardRarity.SECRET_BLUE],
+}
+"""The SBPR promos' Secret Rares all have blue names, though their set lists don't say so."""
 MANUAL_RARITY_FIXUPS = {
     "Dragons of Legend: The Complete Series": _LD_RARITIES,
     "Legendary Duelists: Season 1": _LD_RARITIES,
@@ -3932,6 +3939,24 @@ MANUAL_RARITY_FIXUPS = {
     "Duelist League 16 participation cards": _DL_RARITIES,
     "Duelist League 17 participation cards": _DL_RARITIES,
     "Duelist League 18 participation cards": _DL_RARITIES,
+    **{
+        setname: _SBPR_RARITIES
+        for setname in [
+            "Remote Duel at Home Sweepstakes",
+            "Yu-Gi-Oh! at Home Sweepstakes",
+            "Palladium Oracle Mahad Sweepstakes",
+            "Blue-Eyes Alternative White Dragon Sweepstakes",
+            "Remote Duel Twitter Campaigns",
+            "Remote Duel Giveaway Campaign",
+            "Remote Duel Discord Official Server Registration Campaign",
+            "Summer National General Yu-Gi-Oh! OCG Test promotional card",
+            "Yu-Gi-Oh! United Duel Tournament 2020 prize card",
+            "Yu-Gi-Oh! United Duel Tournament May 2021 prize card",
+            "Yu-Gi-Oh! United Duel Tournament November 2021 prize card",
+            "Yu-Gi-Oh! United Duel Tournament August 2022 prize card",
+            "Yu-Gi-Oh! United Duel Tournament February 2023 prize card",
+        ]
+    },
 }
 
 
@@ -4667,8 +4692,18 @@ def parse_tcg_ocg_set(
                                 for x in raw_locale.cards.values()
                                 if x.card is card and x.rarity == card_rarity
                             ]
+                            # A set's rarity the fixups replace with another one
+                            replacements = MANUAL_RARITY_FIXUPS.get(setname, {}).get(
+                                card_rarity, []
+                            )
                             if not card_rcs:
                                 if (
+                                    rarity == card_rarity
+                                    and len(replacements) == 1
+                                    and replacements[0] != card_rarity
+                                ):
+                                    onGetCard(card, replacements[0])
+                                elif (
                                     rarity == card_rarity
                                     and card_rarity in FALLBACK_RARITIES
                                 ):
@@ -5151,6 +5186,12 @@ def parse_tcg_ocg_set(
         old_id = old_ids_by_suffix.get((rc.card, rc.rarity, suffix))
         if old_id:
             return old_id
+        # A printing whose rarity the fixups replace keeps the ID it had under the old one
+        for old_rarity, new_rarities in MANUAL_RARITY_FIXUPS.get(title, {}).items():
+            if new_rarities == [rc.rarity] != [old_rarity]:
+                old_id = old_ids_by_suffix.get((rc.card, old_rarity, suffix))
+                if old_id:
+                    return old_id
         # If codes changed, the IDs no printing has kept go to the printings
         # with new codes, both in the order of their codes
         others = [
