@@ -3909,6 +3909,8 @@ _SBPR_RARITIES = {
     CardRarity.PRISMATICSECRET: [CardRarity.SECRET_BLUE],
 }
 """The SBPR promos' Secret Rares all have blue names, though their set lists don't say so."""
+_VJ_RARITIES = {CardRarity.ULTRA: [CardRarity.ULTRA_RED]}
+"""V Jump Edition Ultra Rares have red names, though their set lists don't say so."""
 MANUAL_RARITY_FIXUPS = {
     "Dragons of Legend: The Complete Series": _LD_RARITIES,
     "Legendary Duelists: Season 1": _LD_RARITIES,
@@ -3940,6 +3942,14 @@ MANUAL_RARITY_FIXUPS = {
     "Duelist League 17 participation cards": _DL_RARITIES,
     "Duelist League 18 participation cards": _DL_RARITIES,
     **{
+        f"V Jump Edition{number}": _VJ_RARITIES
+        # V Jump Edition 2 is left out: its cards are Duel Terminal Ultra Parallel Rares
+        for number in ["", " 3", " 4", " 5", " 6", " 7", " 8", " 9", " 10"]
+    },
+    "Yu-Gi-Oh! Duel Monsters: The Legend of Duelist Quarter Century attendance cards": {
+        CardRarity.TWENTYFIFTHSECRET: [CardRarity.TWENTYFIFTHSECRET_GREEN]
+    },
+    **{
         setname: _SBPR_RARITIES
         for setname in [
             "Remote Duel at Home Sweepstakes",
@@ -3958,6 +3968,84 @@ MANUAL_RARITY_FIXUPS = {
         ]
     },
 }
+
+
+def _english_name(card: Card) -> str:
+    english = card.text.get(Language.ENGLISH)
+    return english.name if english else ""
+
+
+def _battle_pack_rarity(
+    card: Card, rarity: CardRarity, description: typing.Optional[str]
+) -> CardRarity:
+    """Battle Pack Rares have black names, or white ones for Xyz Monsters."""
+    if rarity != CardRarity.RARE:
+        return rarity
+    if MonsterCardType.XYZ in (card.monster_card_types or []):
+        return CardRarity.RARE_WHITE
+    return CardRarity.RARE_BLACK
+
+
+def _number_complete_file_rarity(
+    card: Card, rarity: CardRarity, description: typing.Optional[str]
+) -> CardRarity:
+    """Over-Hundred Numbers and their Chaos forms have red names, Future Numbers blue ones."""
+    if rarity != CardRarity.ULTRA:
+        return rarity
+    name = _english_name(card)
+    if re.match(r"Number C?10[1-7]:", name):
+        return CardRarity.ULTRA_RED
+    if re.match(r"Number F\d", name):
+        return CardRarity.ULTRA_BLUE
+    return rarity
+
+
+def _quarter_century_art_collection_rarity(
+    card: Card, rarity: CardRarity, description: typing.Optional[str]
+) -> CardRarity:
+    """The 3rd artwork of "Dark Magician Girl" has a pink name."""
+    if (
+        rarity == CardRarity.TWENTYFIFTHSECRET
+        and _english_name(card) == "Dark Magician Girl"
+        and description
+        and "3rd artwork" in description
+    ):
+        return CardRarity.TWENTYFIFTHSECRET_PINK
+    return rarity
+
+
+CARD_RARITY_FIXUPS: typing.Dict[
+    str, typing.Callable[[Card, CardRarity, typing.Optional[str]], CardRarity]
+] = {
+    "Battle Pack: Epic Dawn": _battle_pack_rarity,
+    "Battle Pack 2: War of the Giants": _battle_pack_rarity,
+    "Battle Pack 3: Monster League": _battle_pack_rarity,
+    "Number Complete File -Piece of Memories-": _number_complete_file_rarity,
+    "Quarter Century Art Collection": _quarter_century_art_collection_rarity,
+}
+"""Sets whose lists give some cards their base rarity though they have colored names.
+Each gives a card's real rarity from its listed one and its row's description."""
+
+
+def fix_card_rarity(
+    setname: str,
+    card: Card,
+    rarity: CardRarity,
+    description: typing.Optional[str] = None,
+) -> CardRarity:
+    fixup = CARD_RARITY_FIXUPS.get(setname)
+    return fixup(card, rarity, description) if fixup else rarity
+
+
+GALLERY_COLORFUL_RARES = {
+    (
+        "Quarter Century Art Collection",
+        "Dark Magician Girl",
+        CardRarity.TWENTYFIFTHSECRET,
+        "AA",
+    ): CardRarity.TWENTYFIFTHSECRET_PINK,
+}
+"""Gallery rows (set, card, rarity and alt) that show a colorful rare."""
 
 
 def commonprefix(m: typing.Iterable[str]):
@@ -4363,7 +4451,7 @@ def parse_tcg_ocg_set(
                     raw_rc = RawPrinting(
                         card,
                         code,
-                        rarity,
+                        fix_card_rarity(setname, card, rarity, row_description),
                         qty or 1,
                         noabbr,
                         variant if is_token else 0,
@@ -4372,9 +4460,9 @@ def parse_tcg_ocg_set(
                     )
                     if (
                         setname in MANUAL_RARITY_FIXUPS
-                        and rarity in MANUAL_RARITY_FIXUPS[setname]
+                        and raw_rc.rarity in MANUAL_RARITY_FIXUPS[setname]
                     ):
-                        for new_rarity in MANUAL_RARITY_FIXUPS[setname][rarity]:
+                        for new_rarity in MANUAL_RARITY_FIXUPS[setname][raw_rc.rarity]:
                             rcs.append(
                                 RawPrinting(
                                     raw_rc.card,
@@ -4686,6 +4774,9 @@ def parse_tcg_ocg_set(
                                                 ] = description
                                     return
 
+                            if card_rarity == rarity:
+                                card_rarity = fix_card_rarity(setname, card, rarity)
+
                             # A card may have many printings in one rarity, with different codes
                             card_rcs = [
                                 x
@@ -4827,8 +4918,21 @@ def parse_tcg_ocg_set(
                                     col_index += 1
 
                                 colorful_rare_selector = (rarity, raw_alt)
+                                set_colorful_rare_selector = (
+                                    setname,
+                                    name,
+                                    rarity,
+                                    raw_alt,
+                                )
                                 if colorful_rare_selector in COLORFUL_RARES:
                                     rarity = COLORFUL_RARES[colorful_rare_selector]
+                                    alt = ""
+                                elif (
+                                    set_colorful_rare_selector in GALLERY_COLORFUL_RARES
+                                ):
+                                    rarity = GALLERY_COLORFUL_RARES[
+                                        set_colorful_rare_selector
+                                    ]
                                     alt = ""
                                 else:
                                     alt = raw_alt
@@ -5186,12 +5290,29 @@ def parse_tcg_ocg_set(
         old_id = old_ids_by_suffix.get((rc.card, rc.rarity, suffix))
         if old_id:
             return old_id
-        # A printing whose rarity the fixups replace keeps the ID it had under the old one
-        for old_rarity, new_rarities in MANUAL_RARITY_FIXUPS.get(title, {}).items():
-            if new_rarities == [rc.rarity] != [old_rarity]:
-                old_id = old_ids_by_suffix.get((rc.card, old_rarity, suffix))
-                if old_id:
-                    return old_id
+        # A printing whose rarity the fixups replace keeps the ID it had under the old
+        # one, unless another printing still has that rarity and code
+        for old_rarity in CardRarity:
+            if old_rarity == rc.rarity:
+                continue
+            replaced = MANUAL_RARITY_FIXUPS.get(title, {}).get(old_rarity) == [
+                rc.rarity
+            ] or (
+                fix_card_rarity(title, rc.card, old_rarity, rc.row_description)
+                == rc.rarity
+            )
+            old_id = old_ids_by_suffix.get((rc.card, old_rarity, suffix))
+            if (
+                replaced
+                and old_id
+                and not any(
+                    x.card is rc.card
+                    and x.rarity == old_rarity
+                    and get_suffix(x) == suffix
+                    for x in raw_locale.cards.values()
+                )
+            ):
+                return old_id
         # If codes changed, the IDs no printing has kept go to the printings
         # with new codes, both in the order of their codes
         others = [
