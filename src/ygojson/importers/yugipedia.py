@@ -3911,6 +3911,13 @@ _SBPR_RARITIES = {
 """The SBPR promos' Secret Rares all have blue names, though their set lists don't say so."""
 _VJ_RARITIES = {CardRarity.ULTRA: [CardRarity.ULTRA_RED]}
 """V Jump Edition Ultra Rares have red names, though their set lists don't say so."""
+EMBLAZONED_RARITIES = {
+    CardRarity.ULTRA: CardRarity.ULTRA_EMBLAZONED,
+    CardRarity.SECRET: CardRarity.SECRET_EMBLAZONED,
+    CardRarity.STARLIGHT: CardRarity.STARLIGHT_EMBLAZONED,
+}
+"""Rarities whose cards can have an emblem or logo in their text box, like in World
+Championship Limited Packs, where galleries have sections of them marked "Emblazoned"."""
 MANUAL_RARITY_FIXUPS = {
     "Dragons of Legend: The Complete Series": _LD_RARITIES,
     "Legendary Duelists: Season 1": _LD_RARITIES,
@@ -4014,6 +4021,82 @@ def _quarter_century_art_collection_rarity(
     return rarity
 
 
+_BLMM_EMBLAZONED_CARDS = {
+    "Dragonmaid Cehrmba",
+    "Lady's Dragonmaid",
+    "Noh-P.U.N.K. Rising Scale",
+    "P.U.N.K. JAM FEVER!",
+    "Galatea-I, the Orcust Automaton",
+    "Enlilgirsu, the Orcust Mekk-Knight",
+    "Nurse Dragonmaid",
+    "Dragonmaid Ernus",
+    "Laundry Dragonmaid",
+    "Dragonmaid Nudyarl",
+    "Kitchen Dragonmaid",
+    "Dragonmaid Tinkhec",
+    "Parlor Dragonmaid",
+    "Dragonmaid Lorpar",
+    "Chamber Dragonmaid",
+    "House Dragonmaid",
+    "Dragonmaid Sheou",
+    "Dragonmaid Hospitality",
+    "Dragonmaid Welcome",
+    "Dragonmaid Changeover",
+    "Dragonmaid Downtime",
+    "Dragonmaid Tidying",
+    "Ukiyoe-P.U.N.K. Sharakusai",
+    "Gagaku-P.U.N.K. Wa Gon",
+    "Joruri-P.U.N.K. Madame Spider",
+    "Noh-P.U.N.K. Ze Amin",
+    "Noh-P.U.N.K. Foxy Tune",
+    "Noh-P.U.N.K. Ogre Dance",
+    "Noh-P.U.N.K. Deer Note",
+    "Ukiyoe-P.U.N.K. Amazing Dragon",
+    "P.U.N.K. JAM Dragon Drive",
+    "Ukiyoe-P.U.N.K. Rising Carp",
+    "P.U.N.K. JAM Extreme Session",
+    "Joruri-P.U.N.K. Dangerous Gabu",
+    'World Legacy - "World Crown"',
+    "Orcust Brass Bombard",
+    "Orcust Cymbal Skeleton",
+    "Orcust Harp Horror",
+    'World Legacy - "World Wand"',
+    "Orcust Knightmare",
+    "Girsu, the Orcust Mekk-Knight",
+    "Ib the World Chalice Justiciar",
+    "Dingirsu, the Orcust of the Evening Star",
+    "Knightmare Phoenix",
+    "Knightmare Unicorn",
+    "Galatea, the Orcust Automaton",
+    "Longirsu, the Orcust Orchestrator",
+    "Mekk-Knight Crusadia Avramax",
+    "Orcustrated Return",
+    "Orcustrated Babel",
+    "Orcust Crescendo",
+}
+"""The cards of BLMM-EN048 to BLMM-EN098, the set's 51 emblazoned Ultra Rares."""
+
+
+def _monster_mayhem_rarity(
+    card: Card, rarity: CardRarity, description: typing.Optional[str]
+) -> CardRarity:
+    """The Dragonmaid, P.U.N.K. and Orcust Ultra Rares have their archetype's emblem,
+    though nothing in the set's list or gallery says so. Their Starlight Rares don't."""
+    if rarity == CardRarity.ULTRA and _english_name(card) in _BLMM_EMBLAZONED_CARDS:
+        return CardRarity.ULTRA_EMBLAZONED
+    return rarity
+
+
+def _world_championship_2026_rarity(
+    card: Card, rarity: CardRarity, description: typing.Optional[str]
+) -> CardRarity:
+    """The list gives "Monster Reborn" a Secret and a Starlight Rare,
+    but the gallery only has emblazoned ones."""
+    if _english_name(card) == "Monster Reborn":
+        return EMBLAZONED_RARITIES.get(rarity, rarity)
+    return rarity
+
+
 CARD_RARITY_FIXUPS: typing.Dict[
     str, typing.Callable[[Card, CardRarity, typing.Optional[str]], CardRarity]
 ] = {
@@ -4022,6 +4105,8 @@ CARD_RARITY_FIXUPS: typing.Dict[
     "Battle Pack 3: Monster League": _battle_pack_rarity,
     "Number Complete File -Piece of Memories-": _number_complete_file_rarity,
     "Quarter Century Art Collection": _quarter_century_art_collection_rarity,
+    "Battles of Legend: Monster Mayhem": _monster_mayhem_rarity,
+    "Limited Pack World Championship 2026": _world_championship_2026_rarity,
 }
 """Sets whose lists give some cards their base rarity though they have colored names.
 Each gives a card's real rarity from its listed one and its row's description."""
@@ -4218,13 +4303,19 @@ COLORFUL_RARES = {
     (CardRarity.ULTRA, "Silver"): CardRarity.ULTRA_SILVER,
     (CardRarity.SECRET, "Red"): CardRarity.SECRET_RED,
     (CardRarity.SECRET, "Blue"): CardRarity.SECRET_BLUE,
+    **{(r1, "Emblazoned"): r2 for r1, r2 in EMBLAZONED_RARITIES.items()},
 }
 
 
 FALLBACK_RARITIES = {
     CardRarity.COMMON: CardRarity.SHORTPRINT,
     CardRarity.SHORTPRINT: CardRarity.COMMON,
-    **{r2: r1 for (r1, alt), r2 in COLORFUL_RARES.items()},
+    # Emblazoned printings aren't in set lists: their gallery rows make them instead
+    **{
+        r2: r1
+        for (r1, alt), r2 in COLORFUL_RARES.items()
+        if r2 not in EMBLAZONED_RARITIES.values()
+    },
 }
 
 
@@ -4698,6 +4789,36 @@ def parse_tcg_ocg_set(
                     )
                 ]
 
+                def get_emblazoned_printing(
+                    card: Card, rarity: CardRarity, code: str
+                ) -> RawPrinting:
+                    """Set lists don't have emblazoned printings, so a gallery row makes one
+                    from the card's other printings with its code."""
+                    same_card = [x for x in raw_locale.cards.values() if x.card is card]
+                    rc = next(
+                        (x for x in same_card if x.rarity == rarity and x.code == code),
+                        None,
+                    )
+                    if not rc:
+                        rc = RawPrinting(
+                            card,
+                            code,
+                            rarity,
+                            1,
+                            any(x.noabbr for x in same_card if x.code == code),
+                            len([x for x in same_card if x.rarity == rarity]),
+                        )
+                        raw_locale.cards[rc.locator()] = rc
+                    return rc
+
+                def add_emblazoned_printing(
+                    name: str, rarity: CardRarity, code: str
+                ) -> None:
+                    # Even if the gallery has no image for it yet
+                    @get_card(name)
+                    def onGetCard(card: Card):
+                        get_emblazoned_printing(card, rarity, code)
+
                 def add_card_image(
                     name: str,
                     rarity: CardRarity,
@@ -4783,6 +4904,14 @@ def parse_tcg_ocg_set(
                                 for x in raw_locale.cards.values()
                                 if x.card is card and x.rarity == card_rarity
                             ]
+                            if (
+                                not card_rcs
+                                and code
+                                and card_rarity in EMBLAZONED_RARITIES.values()
+                            ):
+                                card_rcs = [
+                                    get_emblazoned_printing(card, card_rarity, code)
+                                ]
                             # A set's rarity the fixups replace with another one
                             replacements = MANUAL_RARITY_FIXUPS.get(setname, {}).get(
                                 card_rarity, []
@@ -4927,6 +5056,11 @@ def parse_tcg_ocg_set(
                                 if colorful_rare_selector in COLORFUL_RARES:
                                     rarity = COLORFUL_RARES[colorful_rare_selector]
                                     alt = ""
+                                elif (rarity, default_alt) in COLORFUL_RARES:
+                                    # A row of a section of colorful rares, like an
+                                    # alternate art in the emblazoned ones
+                                    rarity = COLORFUL_RARES[(rarity, default_alt)]
+                                    alt = raw_alt
                                 elif (
                                     set_colorful_rare_selector in GALLERY_COLORFUL_RARES
                                 ):
@@ -4936,6 +5070,8 @@ def parse_tcg_ocg_set(
                                     alt = ""
                                 else:
                                     alt = raw_alt
+                                if code and rarity in EMBLAZONED_RARITIES.values():
+                                    add_emblazoned_printing(name, rarity, code)
 
                                 image_name = None
                                 if file_override:
