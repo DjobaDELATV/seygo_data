@@ -1042,6 +1042,10 @@ def parse_skill(
 CAT_DL_EVENTS = "Category:Yu-Gi-Oh! Duel Links events"
 CAT_DL_CHARACTERS = "Category:Yu-Gi-Oh! Duel Links characters"
 
+NOT_DL_EVENTS = {"Ranked Duels (Duel Links)", "Duel Quiz", "Character Deck Duels"}
+NOT_DL_EVENTS_PATTERN = re.compile(r"^Duel World \([^)]+\)$")
+"""Pages of the events category that are game modes or Duel Worlds, not events; "Mission Bingo" stays."""
+
 EVENT_NAME_LANGUAGES = {
     "fr_name": Language.FRENCH,
     "de_name": Language.GERMAN,
@@ -7272,7 +7276,13 @@ def import_from_yugipedia(
         # events link to cards and Skills, so they go last; partitions leave them to the final run
         if import_cards and partition_filepath is None:
             batcher.flushPendingOperations()
-            event_titles = _get_category_page_titles(batcher, CAT_DL_EVENTS)
+            event_titles = {
+                pageid: title
+                for pageid, title in _get_category_page_titles(
+                    batcher, CAT_DL_EVENTS
+                ).items()
+                if title not in NOT_DL_EVENTS and not NOT_DL_EVENTS_PATTERN.match(title)
+            }
             character_pages = {
                 _normalize_smw_title(x)
                 for x in _get_category_page_titles(batcher, CAT_DL_CHARACTERS).values()
