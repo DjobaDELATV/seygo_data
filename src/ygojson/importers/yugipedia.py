@@ -1130,7 +1130,8 @@ def _parse_event_periods(value: str) -> typing.List[EventPeriod]:
 
 def get_event_type_runs() -> typing.Dict[str, typing.List[EventPeriod]]:
     """The runs of each event type, like "Tag Duel Tournament", whose page lists its events instead of having dates:
-    one run per event of that type, as the page's "List" table ({{#ask: ... [[Event type::...]]}}) shows them."""
+    one run per event of that type, as the page's "List" table ({{#ask: ... [[Event type::...]]}}) shows them.
+    """
     result: typing.Dict[str, typing.List[EventPeriod]] = {}
     for info in _smw_ask_all(
         "[[Category:Yu-Gi-Oh! Duel Links events]][[Event type::+]][[Start date::+]]|?Event type|?Start date|?End date"
