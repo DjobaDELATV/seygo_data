@@ -1128,6 +1128,38 @@ def _parse_event_periods(value: str) -> typing.List[EventPeriod]:
     return result
 
 
+def get_event_type_runs() -> typing.Dict[str, typing.List[EventPeriod]]:
+    """The runs of each event type, like "Tag Duel Tournament", whose page lists its events instead of having dates:
+    one run per event of that type, as the page's "List" table ({{#ask: ... [[Event type::...]]}}) shows them."""
+    result: typing.Dict[str, typing.List[EventPeriod]] = {}
+    for info in _smw_ask_all(
+        "[[Category:Yu-Gi-Oh! Duel Links events]][[Event type::+]][[Start date::+]]|?Event type|?Start date|?End date"
+    ).values():
+        printouts = info.get("printouts", {})
+        starts = [
+            _smw_raw_to_date(x.get("raw", ""))
+            for x in printouts.get("Start date") or []
+        ]
+        ends = [
+            _smw_raw_to_date(x.get("raw", "")) for x in printouts.get("End date") or []
+        ]
+        for event_type in printouts.get("Event type") or []:
+            name = _normalize_smw_title(
+                event_type.get("fulltext", "")
+                if isinstance(event_type, dict)
+                else str(event_type)
+            )
+            for i, start in enumerate(starts):
+                result.setdefault(name, []).append(
+                    EventPeriod(
+                        start_date=start, end_date=ends[i] if i < len(ends) else None
+                    )
+                )
+    for runs in result.values():
+        runs.sort(key=lambda x: x.start_date or datetime.date.max)
+    return result
+
+
 def _event_row_when(text: str) -> typing.Dict[str, typing.Any]:
     """When a table row says its reward was available: an exact first day ("June 15, 2019 - June 21, 2019"),
     or only a year when the row is vaguer ("2018 Jul-Aug", "Nov-Dec 2019")."""
@@ -1652,6 +1684,7 @@ def parse_event(
     character_pages: typing.Set[str],
     dl_card_pages: typing.Set[str],
     dl_rush_pages: typing.AbstractSet[str] = frozenset(),
+    event_type_runs: typing.Mapping[str, typing.List[EventPeriod]] = {},
 ) -> bool:
     data = wikitextparser.parse(raw)
     infoboxes = [
@@ -1686,6 +1719,9 @@ def parse_event(
         x in RUSH_DUEL_WORLDS for x in event.duel_worlds
     )
     event.runs = _parse_event_periods(param("event_dates"))
+    if not event.runs:
+        # an event type's page has no dates of its own: it ran whenever one of its events did
+        event.runs = [*event_type_runs.get(_normalize_smw_title(title), [])]
     event.card_trader_ex_dates = _parse_event_periods(
         param("ctex_dates") or param("ct_ex_dates")
     )
@@ -7292,6 +7328,7 @@ def import_from_yugipedia(
                         )
                         db._remove_card(card)
 
+            event_type_runs = get_event_type_runs()
             events = [*event_titles]
             if specific_pages:
                 events = [x for x in events if x in specific_ids]
@@ -7321,6 +7358,7 @@ def import_from_yugipedia(
                             character_pages,
                             dl_card_pages,
                             dl_rush_pages,
+                            event_type_runs,
                         ):
                             db.add_event(event)
                             if found:
