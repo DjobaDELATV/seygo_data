@@ -1072,8 +1072,13 @@ EVENT_REWARD_KINDS = [
 ]
 """How a reward section is classified, by a word in its heading."""
 
-EVENT_REWARD_HEADINGS = re.compile(r"reward|mission|trader|lottery|ticket|box", re.I)
-"""Top-level headings of an event page that hold rewards, besides "Rewards" itself."""
+EVENT_REWARD_HEADINGS = re.compile(
+    r"reward|mission|trader|lottery|ticket|box|capsule", re.I
+)
+"""Headings of an event page that hold rewards, besides "Rewards" itself."""
+
+EVENT_NON_REWARD_HEADINGS = re.compile(r"\bdecks?\b|decklist|\bstory\b|dialogue", re.I)
+"""Decklists and story sections may be under a heading that sounds like rewards, but their cards aren't."""
 
 EVENT_SKIPPED_HEADINGS = re.compile(r"\btiles?\b|gallery", re.I)
 """Board tiles aren't wanted, and galleries only hold images."""
@@ -1198,6 +1203,10 @@ def _event_run_index(
     An event that ran once owns every tab that names no other time, like "R Ticket"."""
     if not label:
         return 0 if len(runs) == 1 else None
+    ordinal = RUN_ORDINAL.match(label)
+    if ordinal:
+        index = RUN_ORDINALS[ordinal.group(1).lower()]
+        return index if index < len(runs) else None
     years = [int(x) for x in re.findall(r"\b(20\d\d)\b", label)]
     if not years:
         return 0 if len(runs) == 1 else None
@@ -1224,6 +1233,20 @@ def _event_run_index(
     return matches[0] if len(matches) == 1 else None
 
 
+RUN_ORDINALS = {
+    "first": 0,
+    "1st": 0,
+    "second": 1,
+    "2nd": 1,
+    "third": 2,
+    "3rd": 2,
+    "fourth": 3,
+    "4th": 3,
+}
+RUN_ORDINAL = re.compile(r"\s*(" + "|".join(RUN_ORDINALS) + r")\s+run\b", re.I)
+"""A heading or table caption that counts runs instead of naming when they were, like "Second run"."""
+
+
 _RUN_MONTH = r"(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\.?"
 _RUN_MONTHS = rf"{_RUN_MONTH}(?:\s*[-–/]\s*{_RUN_MONTH})?"
 RUN_LABEL = re.compile(
@@ -1234,8 +1257,15 @@ RUN_LABEL = re.compile(
 
 def _event_path_run_label(path: typing.List[str]) -> typing.Optional[str]:
     """Some pages put each run's rewards under a heading ("Rewards > November 2021 > Daily Missions")
-    instead of a tab."""
-    return next((x for x in reversed(path) if RUN_LABEL.fullmatch(x.strip())), None)
+    instead of a tab, or count them ("Duel Rewards > Second run")."""
+    return next(
+        (
+            x
+            for x in reversed(path)
+            if RUN_LABEL.fullmatch(x.strip()) or RUN_ORDINAL.match(x)
+        ),
+        None,
+    )
 
 
 def _event_ref(key: str, found: typing.Optional[Card]) -> typing.Dict[str, typing.Any]:
@@ -1325,7 +1355,7 @@ class _EventLinks:
         cards = []
         skills = []
         for m in re.finditer(
-            r'(?:(\d+)\s*(?:x\s*)?)?("?)\[\[([^\]|#]+)(?:#[^\]|]*)?(?:\|([^\]]*))?\]\]"?(?:\s*\(([^()\[\]]{1,20})\))?',
+            r'(?:(\d+)\s*(?:x\s*)?)?(["“”]?)\[\[([^\]|#]+)(?:#[^\]|]*)?(?:\|([^\]]*))?\]\]["“”]?(?:\s*\(([^()\[\]]{1,20})\))?',
             raw,
         ):
             quantity, quote, page, label, paren = m.groups()
@@ -1531,17 +1561,62 @@ def _event_reward_kind(path: typing.List[str]) -> str:
     return "other"
 
 
+_EventRewardPart = typing.Tuple[
+    typing.Optional[str],
+    typing.Optional[int],
+    typing.List[typing.Dict[str, typing.Any]],
+    typing.List[str],
+]
+"""Rewards of one run in a section: (its tab or heading, which run, its tables, its notes)."""
+
+
+def _split_event_caption_runs(
+    label: typing.Optional[str],
+    run_index: typing.Optional[int],
+    tables: typing.List[typing.Dict[str, typing.Any]],
+    notes: typing.List[str],
+    runs: typing.List[EventPeriod],
+) -> typing.List[_EventRewardPart]:
+    """Some pages tell runs apart by their tables' captions ("First run", "Second run") instead of a tab or heading:
+    each of those tables is about its own run."""
+    parts: typing.List[_EventRewardPart] = [(label, run_index, [], notes)]
+    for table in tables:
+        caption = table.get("caption", "")
+        index = (
+            _event_run_index(caption, runs)
+            if run_index is None and RUN_ORDINAL.match(caption)
+            else None
+        )
+        if index is None:
+            parts[0][2].append(table)
+        else:
+            parts.append((caption, index, [table], []))
+    return [x for x in parts if x[2] or x[3]]
+
+
 def _parse_event_rewards(
     raw: str, runs: typing.List[EventPeriod], links: _EventLinks
 ) -> typing.List[typing.Dict[str, typing.Any]]:
     result = []
     for path, start, end in _event_headings(raw):
-        if not (path[0].lower() == "rewards" or EVENT_REWARD_HEADINGS.search(path[0])):
+        is_reward = [
+            x.lower() == "rewards" or bool(EVENT_REWARD_HEADINGS.search(x))
+            for x in path
+        ]
+        # rewards are often a level below "Event Details" ("Event Details > Duel Rewards")
+        if not (
+            is_reward[0]
+            or (
+                any(is_reward)
+                and not any(EVENT_NON_REWARD_HEADINGS.search(x) for x in path)
+            )
+        ):
             continue
         if any(EVENT_SKIPPED_HEADINGS.search(x) for x in path):
             continue
         kind = _event_reward_kind(path)
         path_label = _event_path_run_label(path)
+        parts: typing.List[_EventRewardPart] = []
         for label, text in _split_tabber(raw[start:end]):
             tables, notes = _parse_event_tables(text, links)
             if not tables and not notes:
@@ -1551,6 +1626,20 @@ def _parse_event_rewards(
                 run_index = _event_run_index(path_label, runs)
             # a tab's own label is kept, e.g. a ticket's tab under "November 2021"
             label = label or path_label
+            parts.extend(
+                _split_event_caption_runs(label, run_index, tables, notes, runs)
+            )
+        # below another heading, a section without cards is rarely about rewards,
+        # e.g. the board moves of "Event details > Duel Missions"
+        if not is_reward[0] and not any(
+            "cards" in cell or "skills" in cell
+            for _, _, tables, _ in parts
+            for table in tables
+            for row in table["rows"]
+            for cell in row
+        ):
+            continue
+        for label, run_index, tables, notes in parts:
             how = {
                 "kind": kind,
                 **({"run": label} if label else {}),
