@@ -1,0 +1,171 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "02edefc7-67bf-4306-a629-960670b11fc1",
+  "name": {
+    "en": "Yugi Muto's Birthday Celebration Gift"
+  },
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/3/3d/YugiMutosBirthdayCelebrationGift-Banner.png",
+  "runs": [
+    {
+      "startDate": "2019-06-03",
+      "endDate": "2019-06-07"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "other",
+      "path": [
+        "Rewards"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "Players who logged into Yu-Gi-Oh! Duel Links during the following time periods would receive an appropriate \"Log-in Gift\" in their Gift Boxes."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Period",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "June 3, 2019 - June 4, 2019"
+              },
+              {
+                "text": "1 \"Alpha The Magnet Warrior\" (Glossy)",
+                "cards": [
+                  {
+                    "name": "Alpha The Magnet Warrior",
+                    "card": "2e11e214-3b34-4029-b4b8-bfcc7ec33b37",
+                    "yugipediaId": 65,
+                    "quantity": 1,
+                    "variant": "Glossy"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "June 4, 2019 - June 5, 2019"
+              },
+              {
+                "text": "1 \"Beta The Magnet Warrior\" (Glossy)",
+                "cards": [
+                  {
+                    "name": "Beta The Magnet Warrior",
+                    "card": "6cac5315-3e5b-4d6d-9901-8e0841fc3a99",
+                    "yugipediaId": 68,
+                    "quantity": 1,
+                    "variant": "Glossy"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "June 5, 2019 - June 6, 2019"
+              },
+              {
+                "text": "1 \"Gamma The Magnet Warrior\" (Glossy)",
+                "cards": [
+                  {
+                    "name": "Gamma The Magnet Warrior",
+                    "card": "1780ae6e-566a-4f4f-81b3-ee65ea648b95",
+                    "yugipediaId": 72,
+                    "quantity": 1,
+                    "variant": "Glossy"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "June 6, 2019 - June 7, 2019"
+              },
+              {
+                "text": "1 \"Valkyrion the Magna Warrior\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Valkyrion the Magna Warrior",
+                    "card": "04f01e78-e2ea-494a-bff2-4e81e9362bbb",
+                    "yugipediaId": 60,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Alpha The Magnet Warrior",
+      "card": "2e11e214-3b34-4029-b4b8-bfcc7ec33b37",
+      "yugipediaId": 65,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "runIndex": 0,
+          "requirement": "June 3, 2019 - June 4, 2019",
+          "date": "2019-06-03",
+          "availableText": "June 3, 2019 - June 4, 2019"
+        }
+      ]
+    },
+    {
+      "name": "Beta The Magnet Warrior",
+      "card": "6cac5315-3e5b-4d6d-9901-8e0841fc3a99",
+      "yugipediaId": 68,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "runIndex": 0,
+          "requirement": "June 4, 2019 - June 5, 2019",
+          "date": "2019-06-04",
+          "availableText": "June 4, 2019 - June 5, 2019"
+        }
+      ]
+    },
+    {
+      "name": "Gamma The Magnet Warrior",
+      "card": "1780ae6e-566a-4f4f-81b3-ee65ea648b95",
+      "yugipediaId": 72,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "runIndex": 0,
+          "requirement": "June 5, 2019 - June 6, 2019",
+          "date": "2019-06-05",
+          "availableText": "June 5, 2019 - June 6, 2019"
+        }
+      ]
+    },
+    {
+      "name": "Valkyrion the Magna Warrior",
+      "card": "04f01e78-e2ea-494a-bff2-4e81e9362bbb",
+      "yugipediaId": 60,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "runIndex": 0,
+          "requirement": "June 6, 2019 - June 7, 2019",
+          "date": "2019-06-06",
+          "availableText": "June 6, 2019 - June 7, 2019"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Yugi Muto's Birthday Celebration Gift (2019)",
+        "id": 1011692
+      }
+    ]
+  }
+}

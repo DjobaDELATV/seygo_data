@@ -1,0 +1,93 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "45dcc4f6-2ded-45df-b144-8a461906c607",
+  "name": {
+    "en": "WCS 2023 Qualifiers Celebration! Road to Worlds! Campaign"
+  },
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/f/fe/WCS2023QualifiersCelebration-RoadtoWorlds-Banner.png",
+  "runs": [
+    {
+      "startDate": "2023-05-10",
+      "endDate": "2023-06-29"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "other",
+      "path": [
+        "Rewards"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "Players who logged into Yu-Gi-Oh! Master Duel during the campaign would automatically complete the following Limited-Time Login Missions, depending on how many separate days they logged in during the campaign."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Days",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "1"
+              },
+              {
+                "text": "\"Blackwing Full Armor Master\" (Royal Finish) x1"
+              }
+            ],
+            [
+              {
+                "text": "2"
+              },
+              {
+                "text": "500 Gems"
+              }
+            ],
+            [
+              {
+                "text": "3"
+              },
+              {
+                "text": "200 Gems"
+              }
+            ],
+            [
+              {
+                "text": "4"
+              },
+              {
+                "text": "Icon: Blackwing Full Armor Master"
+              }
+            ],
+            [
+              {
+                "text": "5"
+              },
+              {
+                "text": "200 Gems"
+              }
+            ],
+            [
+              {
+                "text": "6"
+              },
+              {
+                "text": "100 Gems"
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "WCS 2023 Qualifiers Celebration! Road to Worlds! Campaign",
+        "id": 991198
+      }
+    ]
+  }
+}

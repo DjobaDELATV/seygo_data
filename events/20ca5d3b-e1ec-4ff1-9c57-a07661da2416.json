@@ -1,0 +1,6335 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "20ca5d3b-e1ec-4ff1-9c57-a07661da2416",
+  "name": {
+    "en": "Raid Duel - Bonds Beyond Time: Paradox vs. The Three Duelists"
+  },
+  "type": "Raid Duel",
+  "duelWorlds": [
+    "Duel World (DM)",
+    "Duel World (GX)",
+    "Duel World (5D's)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/1/1c/RaidDuelBondsBeyondTimeParadoxvsTheThreeDuelists-Banner.png",
+  "runs": [
+    {
+      "startDate": "2022-08-25",
+      "endDate": "2022-09-06"
+    },
+    {
+      "startDate": "2022-11-30",
+      "endDate": "2022-12-08"
+    }
+  ],
+  "cardTraderExDates": [
+    {
+      "startDate": "2022-08-25",
+      "endDate": "2022-09-13"
+    },
+    {
+      "startDate": "2022-11-30",
+      "endDate": "2022-12-15"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "cumulativeRewards",
+      "path": [
+        "Rewards",
+        "Cumulative rewards"
+      ],
+      "run": "December 2022",
+      "runIndex": 1,
+      "notes": [
+        "The following rewards were awarded during this event, based on event points accumulated over the its course:"
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "10000"
+              },
+              {
+                "text": "5 Gems"
+              }
+            ],
+            [
+              {
+                "text": "20000"
+              },
+              {
+                "text": "1000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "30000"
+              },
+              {
+                "text": "5 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "40000"
+              },
+              {
+                "text": "1 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "60000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "80000"
+              },
+              {
+                "text": "3 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "100000"
+              },
+              {
+                "text": "5 Gems"
+              }
+            ],
+            [
+              {
+                "text": "120000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "140000"
+              },
+              {
+                "text": "1 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "170000"
+              },
+              {
+                "text": "2000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "200000"
+              },
+              {
+                "text": "1 EX Draw & Summon"
+              }
+            ],
+            [
+              {
+                "text": "250000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "300000"
+              },
+              {
+                "text": "2000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "350000"
+              },
+              {
+                "text": "5 Gems"
+              }
+            ],
+            [
+              {
+                "text": "400000"
+              },
+              {
+                "text": "5 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "450000"
+              },
+              {
+                "text": "1 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "500000"
+              },
+              {
+                "text": "4000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "550000"
+              },
+              {
+                "text": "Paradox's Mask * 20"
+              }
+            ],
+            [
+              {
+                "text": "600000"
+              },
+              {
+                "text": "\"Different Dimension Capsule\" (Glossy)",
+                "cards": [
+                  {
+                    "name": "Different Dimension Capsule",
+                    "card": "4573972d-bbdf-4729-92c3-394f880617d0",
+                    "yugipediaId": 15592,
+                    "variant": "Glossy"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "650000"
+              },
+              {
+                "text": "1 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "700000"
+              },
+              {
+                "text": "5 Gems"
+              }
+            ],
+            [
+              {
+                "text": "750000"
+              },
+              {
+                "text": "4 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "800000"
+              },
+              {
+                "text": "30 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "850000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "900000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "9500000"
+              },
+              {
+                "text": "Paradox's Mask * 20"
+              }
+            ],
+            [
+              {
+                "text": "1000000"
+              },
+              {
+                "text": "\"Imprudent Intrusion\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Imprudent Intrusion",
+                    "card": "36554fb8-0e8b-415e-9acb-210180b311ff",
+                    "yugipediaId": 715402,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "1100000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1200000"
+              },
+              {
+                "text": "20 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "1300000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1400000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1500000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "1600000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "1700000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1800000"
+              },
+              {
+                "text": "4 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "1900000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "2100000"
+              },
+              {
+                "text": "1 EX Draw & Summon"
+              }
+            ],
+            [
+              {
+                "text": "2200000"
+              },
+              {
+                "text": "Card Sleeves: Bonds Beyond Time: Paradox vs. The Three Duelists"
+              }
+            ],
+            [
+              {
+                "text": "2300000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "2500000"
+              },
+              {
+                "text": "\"Stall Turn\"",
+                "cards": [
+                  {
+                    "name": "Stall Turn",
+                    "card": "06b376c6-57ed-4e28-9ca2-547e98e23d13",
+                    "yugipediaId": 716840
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "2700000"
+              },
+              {
+                "text": "30 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "2900000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "3100000"
+              },
+              {
+                "text": "4 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "3300000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "3500000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "3700000"
+              },
+              {
+                "text": "1 UR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "4000000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "4300000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "4600000"
+              },
+              {
+                "text": "1 EX Draw & Summon"
+              }
+            ],
+            [
+              {
+                "text": "4900000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "5200000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "5500000"
+              },
+              {
+                "text": "40 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "5800000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "6000000"
+              },
+              {
+                "text": "Game Mat: Bonds Beyond Time: Paradox vs. The Three Duelists"
+              }
+            ],
+            [
+              {
+                "text": "6100000"
+              },
+              {
+                "text": "5 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "6500000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "7000000"
+              },
+              {
+                "text": "\"Master's Diploman\"",
+                "cards": [
+                  {
+                    "name": "Master's Diploman",
+                    "card": "9f32e452-b7a3-45f1-9c16-9152eb79de1d",
+                    "yugipediaId": 715827
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "7500000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "8000000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "8500000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "9000000"
+              },
+              {
+                "text": "2 SR Jewels"
+              }
+            ],
+            [
+              {
+                "text": "10000000"
+              },
+              {
+                "text": "5 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "10500000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "11000000"
+              },
+              {
+                "text": "Icon: Bonds Beyond Time: Paradox vs. The Three Duelists"
+              }
+            ],
+            [
+              {
+                "text": "115000000"
+              },
+              {
+                "text": "50 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "12000000"
+              },
+              {
+                "text": "40 Gems"
+              }
+            ],
+            [
+              {
+                "text": "12500000"
+              },
+              {
+                "text": "20000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "13000000"
+              },
+              {
+                "text": "1 UR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "14000000"
+              },
+              {
+                "text": "Bonds Beyond Time: Paradox vs. The Three Duelists (Title)"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "cumulativeRewards",
+      "path": [
+        "Rewards",
+        "Cumulative rewards"
+      ],
+      "run": "August 2022",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "50000"
+              },
+              {
+                "text": "5 Gems"
+              }
+            ],
+            [
+              {
+                "text": "100000"
+              },
+              {
+                "text": "1000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "150000"
+              },
+              {
+                "text": "5 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "200000"
+              },
+              {
+                "text": "5 Gems"
+              }
+            ],
+            [
+              {
+                "text": "250000"
+              },
+              {
+                "text": "1 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "300000"
+              },
+              {
+                "text": "5 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "350000"
+              },
+              {
+                "text": "5 Gems"
+              }
+            ],
+            [
+              {
+                "text": "400000"
+              },
+              {
+                "text": "1000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "450000"
+              },
+              {
+                "text": "3 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "500000"
+              },
+              {
+                "text": "5 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "550000"
+              },
+              {
+                "text": "5 Gems"
+              }
+            ],
+            [
+              {
+                "text": "600000"
+              },
+              {
+                "text": "1 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "650000"
+              },
+              {
+                "text": "20 Paradox's Masks"
+              }
+            ],
+            [
+              {
+                "text": "700000"
+              },
+              {
+                "text": "1 \"Tri-Horned Dragon\" (Glossy)",
+                "cards": [
+                  {
+                    "name": "Tri-Horned Dragon",
+                    "card": "93e53920-5ab1-466e-a7a8-6c35b60b3fcc",
+                    "yugipediaId": 2661,
+                    "quantity": 1,
+                    "variant": "Glossy"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "750000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "800000"
+              },
+              {
+                "text": "2000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "850000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "900000"
+              },
+              {
+                "text": "4 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "950000"
+              },
+              {
+                "text": "2 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "1000000"
+              },
+              {
+                "text": "2000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1050000"
+              },
+              {
+                "text": "20 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "1100000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1150000"
+              },
+              {
+                "text": "1 EX Draw & Summon"
+              }
+            ],
+            [
+              {
+                "text": "1200000"
+              },
+              {
+                "text": "4000 Gold"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "1300000"
+              },
+              {
+                "text": "20 Paradox's Masks"
+              }
+            ],
+            [
+              {
+                "text": "1400000"
+              },
+              {
+                "text": "1 \"Revenge Rally\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Revenge Rally",
+                    "card": "1abf73b5-9496-47c0-9fda-5e0085e2ba9c",
+                    "yugipediaId": 693846,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "1500000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1600000"
+              },
+              {
+                "text": "30 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "1700000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1800000"
+              },
+              {
+                "text": "2 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "1900000"
+              },
+              {
+                "text": "4 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "2000000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "2100000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "2200000"
+              },
+              {
+                "text": "Card Sleeves: Bonds Beyond Time: Paradox vs. The Three Duelists"
+              }
+            ],
+            [
+              {
+                "text": "2300000"
+              },
+              {
+                "text": "30 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "2400000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "2500000"
+              },
+              {
+                "text": "1 EX Draw & Summon"
+              }
+            ],
+            [
+              {
+                "text": "2700000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "2900000"
+              },
+              {
+                "text": "4 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "3100000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "3300000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "3500000"
+              },
+              {
+                "text": "1 \"Imprudent Intrusion\"",
+                "cards": [
+                  {
+                    "name": "Imprudent Intrusion",
+                    "card": "36554fb8-0e8b-415e-9acb-210180b311ff",
+                    "yugipediaId": 715402,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "3700000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "3900000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "4200000"
+              },
+              {
+                "text": "1 EX Draw & Summon"
+              }
+            ],
+            [
+              {
+                "text": "4500000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "4800000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "5100000"
+              },
+              {
+                "text": "1 UR Jewel"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "5400000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "5700000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "6000000"
+              },
+              {
+                "text": "Game Mat: Bonds Beyond Time: Paradox vs. The Three Duelists"
+              }
+            ],
+            [
+              {
+                "text": "6500000"
+              },
+              {
+                "text": "40 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "7000000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "7500000"
+              },
+              {
+                "text": "5 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "8000000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "8500000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "9000000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "10000000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "11000000"
+              },
+              {
+                "text": "1 \"Darton the Mechanical Monstrosity\"",
+                "cards": [
+                  {
+                    "name": "Darton the Mechanical Monstrosity",
+                    "card": "b390f34e-88ab-4c39-b28e-eace15b81204",
+                    "yugipediaId": 714490,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "12000000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "13000000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "14000000"
+              },
+              {
+                "text": "5 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "15000000"
+              },
+              {
+                "text": "2 SR Jewels"
+              }
+            ],
+            [
+              {
+                "text": "16000000"
+              },
+              {
+                "text": "Icon"
+              }
+            ],
+            [
+              {
+                "text": "17000000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "18000000"
+              },
+              {
+                "text": "50 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "19000000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "20000000"
+              },
+              {
+                "text": "15000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "21000000"
+              },
+              {
+                "text": "1 UR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "22000000"
+              },
+              {
+                "text": "Bonds Beyond Time: Paradox vs. The Three Duelists Completed (Title)"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "treasureBoxes",
+      "path": [
+        "Rewards",
+        "Treasure Boxes"
+      ],
+      "notes": [
+        "Every time the player defeats Malefic Truth Dragon, they will be awarded with Treasure Boxes of different types."
+      ]
+    },
+    {
+      "kind": "treasureBoxes",
+      "path": [
+        "Rewards",
+        "Treasure Boxes"
+      ],
+      "run": "November 2022",
+      "runIndex": 1,
+      "tables": [
+        {
+          "rows": [
+            [
+              {
+                "text": ""
+              },
+              {
+                "text": "Rewards"
+              }
+            ],
+            [
+              {
+                "text": "Rainbow"
+              },
+              {
+                "text": "\"Master's Diploman\" (UR), \"Darton the Mechanical Monstrosity\" (UR), \"Megamorph\" (UR), \"Stall Turn\" (SR), \"Imprudent Intrusion\" (SR), \"Revenge Rally\" (SR)\n20 or 10 Gems",
+                "cards": [
+                  {
+                    "name": "Master's Diploman",
+                    "card": "9f32e452-b7a3-45f1-9c16-9152eb79de1d",
+                    "yugipediaId": 715827,
+                    "rarity": "UR"
+                  },
+                  {
+                    "name": "Darton the Mechanical Monstrosity",
+                    "card": "b390f34e-88ab-4c39-b28e-eace15b81204",
+                    "yugipediaId": 714490,
+                    "rarity": "UR"
+                  },
+                  {
+                    "name": "Megamorph",
+                    "card": "c8f0486a-9958-4199-b3df-22fe4f21f9ee",
+                    "yugipediaId": 1715,
+                    "rarity": "UR"
+                  },
+                  {
+                    "name": "Stall Turn",
+                    "card": "06b376c6-57ed-4e28-9ca2-547e98e23d13",
+                    "yugipediaId": 716840,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Imprudent Intrusion",
+                    "card": "36554fb8-0e8b-415e-9acb-210180b311ff",
+                    "yugipediaId": 715402,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Revenge Rally",
+                    "card": "1abf73b5-9496-47c0-9fda-5e0085e2ba9c",
+                    "yugipediaId": 693846,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Gold"
+              },
+              {
+                "text": "\"Stall Turn\" (SR), \"Imprudent Intrusion\" (SR), \"Revenge Rally\" (SR), \"Cloning\" (R), \"Different Dimension Capsule\" (R), \"Tri-Horned Dragon\" (SR), \"Triggered Summon\" (R), \"Graverobber\" (R)\n8 or 5 EX Jewel(s) (Raid Duel)\n5 or 1 Gem(s)\n1000 or 400 Gold",
+                "cards": [
+                  {
+                    "name": "Stall Turn",
+                    "card": "06b376c6-57ed-4e28-9ca2-547e98e23d13",
+                    "yugipediaId": 716840,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Imprudent Intrusion",
+                    "card": "36554fb8-0e8b-415e-9acb-210180b311ff",
+                    "yugipediaId": 715402,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Revenge Rally",
+                    "card": "1abf73b5-9496-47c0-9fda-5e0085e2ba9c",
+                    "yugipediaId": 693846,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Cloning",
+                    "card": "b08009dc-6a89-4ab9-aac9-a7ecf583674a",
+                    "yugipediaId": 12648,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Different Dimension Capsule",
+                    "card": "4573972d-bbdf-4729-92c3-394f880617d0",
+                    "yugipediaId": 15592,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Tri-Horned Dragon",
+                    "card": "93e53920-5ab1-466e-a7a8-6c35b60b3fcc",
+                    "yugipediaId": 2661,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Triggered Summon",
+                    "card": "c8610a5c-28a1-47e7-835f-07a5daa3ae2f",
+                    "yugipediaId": 21028,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Graverobber",
+                    "card": "ca2f6ccd-f4e0-440c-8d61-77690e1921ca",
+                    "yugipediaId": 504801,
+                    "rarity": "R"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Silver"
+              },
+              {
+                "text": "\"Cloning\" (R), \"Different Dimension Capsule\" (R), \"Tri-Horned Dragon\" (SR), \"Triggered Summon\" (R), \"Graverobber\" (R)\n3 EX Jewel(s) (Raid Duel)\n200 or 50 Gold\n7 or 3 Gate Keys (White, Black, Blue, Red, Yellow, or Green)",
+                "cards": [
+                  {
+                    "name": "Cloning",
+                    "card": "b08009dc-6a89-4ab9-aac9-a7ecf583674a",
+                    "yugipediaId": 12648,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Different Dimension Capsule",
+                    "card": "4573972d-bbdf-4729-92c3-394f880617d0",
+                    "yugipediaId": 15592,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Tri-Horned Dragon",
+                    "card": "93e53920-5ab1-466e-a7a8-6c35b60b3fcc",
+                    "yugipediaId": 2661,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Triggered Summon",
+                    "card": "c8610a5c-28a1-47e7-835f-07a5daa3ae2f",
+                    "yugipediaId": 21028,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Graverobber",
+                    "card": "ca2f6ccd-f4e0-440c-8d61-77690e1921ca",
+                    "yugipediaId": 504801,
+                    "rarity": "R"
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "treasureBoxes",
+      "path": [
+        "Rewards",
+        "Treasure Boxes"
+      ],
+      "run": "August 2022",
+      "runIndex": 0,
+      "tables": [
+        {
+          "rows": [
+            [
+              {
+                "text": ""
+              },
+              {
+                "text": "Rewards"
+              }
+            ],
+            [
+              {
+                "text": "Rainbow"
+              },
+              {
+                "text": "\"Darton the Mechanical Monstrosity\" (UR), \"Megamorph\" (UR), \"Fiendish Portrait\" (UR), \"Imprudent Intrusion\" (SR), \"Revenge Rally\" (SR), \"Loud Cloud the Storm Serpent\" (SR)\n20 or 10 Gems",
+                "cards": [
+                  {
+                    "name": "Darton the Mechanical Monstrosity",
+                    "card": "b390f34e-88ab-4c39-b28e-eace15b81204",
+                    "yugipediaId": 714490,
+                    "rarity": "UR"
+                  },
+                  {
+                    "name": "Megamorph",
+                    "card": "c8f0486a-9958-4199-b3df-22fe4f21f9ee",
+                    "yugipediaId": 1715,
+                    "rarity": "UR"
+                  },
+                  {
+                    "name": "Fiendish Portrait",
+                    "card": "6e0c3c73-911d-488e-8971-4bb1c5b0b49c",
+                    "yugipediaId": 669673,
+                    "rarity": "UR"
+                  },
+                  {
+                    "name": "Imprudent Intrusion",
+                    "card": "36554fb8-0e8b-415e-9acb-210180b311ff",
+                    "yugipediaId": 715402,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Revenge Rally",
+                    "card": "1abf73b5-9496-47c0-9fda-5e0085e2ba9c",
+                    "yugipediaId": 693846,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Loud Cloud the Storm Serpent",
+                    "card": "9cee7dd9-c093-4d3b-857b-14c57c4c5602",
+                    "yugipediaId": 588766,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Gold"
+              },
+              {
+                "text": "\"Imprudent Intrusion\" (SR), \"Revenge Rally\" (SR), \"Loud Cloud the Storm Serpent\" (SR), \"Cloning\" (R), \"Different Dimension Capsule\" (R), \"Tri-Horned Dragon\" (SR), \"Triggered Summon\" (R), \"Graverobber\" (R)\n8 or 5 EX Jewel(s) (Raid Duel)\n5 or 1 Gem(s)\n1000 or 400 Gold",
+                "cards": [
+                  {
+                    "name": "Imprudent Intrusion",
+                    "card": "36554fb8-0e8b-415e-9acb-210180b311ff",
+                    "yugipediaId": 715402,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Revenge Rally",
+                    "card": "1abf73b5-9496-47c0-9fda-5e0085e2ba9c",
+                    "yugipediaId": 693846,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Loud Cloud the Storm Serpent",
+                    "card": "9cee7dd9-c093-4d3b-857b-14c57c4c5602",
+                    "yugipediaId": 588766,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Cloning",
+                    "card": "b08009dc-6a89-4ab9-aac9-a7ecf583674a",
+                    "yugipediaId": 12648,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Different Dimension Capsule",
+                    "card": "4573972d-bbdf-4729-92c3-394f880617d0",
+                    "yugipediaId": 15592,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Tri-Horned Dragon",
+                    "card": "93e53920-5ab1-466e-a7a8-6c35b60b3fcc",
+                    "yugipediaId": 2661,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Triggered Summon",
+                    "card": "c8610a5c-28a1-47e7-835f-07a5daa3ae2f",
+                    "yugipediaId": 21028,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Graverobber",
+                    "card": "ca2f6ccd-f4e0-440c-8d61-77690e1921ca",
+                    "yugipediaId": 504801,
+                    "rarity": "R"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Silver"
+              },
+              {
+                "text": "\"Cloning\" (R), \"Different Dimension Capsule\" (R), \"Tri-Horned Dragon\" (SR), \"Triggered Summon\" (R), \"Graverobber\" (R)\n3 EX Jewel(s) (Raid Duel)\n200 or 50 Gold\n7 or 3 Gate Keys (White, Black, Blue, Red, Yellow, or Green)",
+                "cards": [
+                  {
+                    "name": "Cloning",
+                    "card": "b08009dc-6a89-4ab9-aac9-a7ecf583674a",
+                    "yugipediaId": 12648,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Different Dimension Capsule",
+                    "card": "4573972d-bbdf-4729-92c3-394f880617d0",
+                    "yugipediaId": 15592,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Tri-Horned Dragon",
+                    "card": "93e53920-5ab1-466e-a7a8-6c35b60b3fcc",
+                    "yugipediaId": 2661,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Triggered Summon",
+                    "card": "c8610a5c-28a1-47e7-835f-07a5daa3ae2f",
+                    "yugipediaId": 21028,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Graverobber",
+                    "card": "ca2f6ccd-f4e0-440c-8d61-77690e1921ca",
+                    "yugipediaId": 504801,
+                    "rarity": "R"
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "packs",
+      "path": [
+        "Rewards",
+        "Legendary Duelist Rainbow Pack (5D's)"
+      ],
+      "notes": [
+        "Awarded each time the Damage Ranking is reset. Each pack contains 1 of the following cards:"
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "\"Rosaria, the Stately Fallen Angel\" (UR)",
+                "cards": [
+                  {
+                    "name": "Rosaria, the Stately Fallen Angel",
+                    "card": "0d787d4e-6050-4cac-9ece-c3a170665323",
+                    "yugipediaId": 162923,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Infernity Destroyer\" (UR)",
+                "cards": [
+                  {
+                    "name": "Infernity Destroyer",
+                    "card": "291c2fbe-8b64-46c3-994a-be641d9bf24d",
+                    "yugipediaId": 50728,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Strong Wind Dragon\" (UR)",
+                "cards": [
+                  {
+                    "name": "Strong Wind Dragon",
+                    "card": "6f16ee43-420c-40fa-bf41-1c234373bafe",
+                    "yugipediaId": 48267,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Blackwing - Elphin the Raven\" (UR)",
+                "cards": [
+                  {
+                    "name": "Blackwing - Elphin the Raven",
+                    "card": "cd0dead5-3fb1-4a97-ae04-95f9405bd3fb",
+                    "yugipediaId": 51408,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Fortune Lady Dark\" (UR)",
+                "cards": [
+                  {
+                    "name": "Fortune Lady Dark",
+                    "card": "4e28bf97-5ab9-452d-9d46-8feea5c8424f",
+                    "yugipediaId": 103881,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Oracle of the Sun\" (UR)",
+                "cards": [
+                  {
+                    "name": "Oracle of the Sun",
+                    "card": "bbe35713-b351-49d1-80d9-ad2bcf36aad2",
+                    "yugipediaId": 95026,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Luna the Dark Spirit\" (UR)",
+                "cards": [
+                  {
+                    "name": "Luna the Dark Spirit",
+                    "card": "cef40945-6b80-462b-a581-2148c6be3a21",
+                    "yugipediaId": 642378,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Fortune Fairy Swee\" (UR)",
+                "cards": [
+                  {
+                    "name": "Fortune Fairy Swee",
+                    "card": "198238c6-8d3a-40cd-af47-47e39a41d79a",
+                    "yugipediaId": 606185,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Morphtronic Videon\" (UR)",
+                "cards": [
+                  {
+                    "name": "Morphtronic Videon",
+                    "card": "134f3ea4-9194-4b6e-84be-baca4f94e0d1",
+                    "yugipediaId": 61428,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Regulus\" (UR)",
+                "cards": [
+                  {
+                    "name": "Regulus",
+                    "card": "adee9206-f8a7-4b0c-b027-e7eb0315d3f8",
+                    "yugipediaId": 95504,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Black Salvo\" (UR)",
+                "cards": [
+                  {
+                    "name": "Black Salvo",
+                    "card": "5347715a-4d9e-4e98-ac19-d14df9b6297d",
+                    "yugipediaId": 45535,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Fortune Fairy En\" (UR)",
+                "cards": [
+                  {
+                    "name": "Fortune Fairy En",
+                    "card": "38b8b3ab-c6f1-4944-8473-dc86f0547bb9",
+                    "yugipediaId": 606182,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Unauthorized Bootup Device\" (UR)",
+                "cards": [
+                  {
+                    "name": "Unauthorized Bootup Device",
+                    "card": "ce9f836d-9e9e-4625-b8a6-cbc79f236107",
+                    "yugipediaId": 717312,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"T.G. Gear Zombie\" (UR)",
+                "cards": [
+                  {
+                    "name": "T.G. Gear Zombie",
+                    "card": "507afd06-2801-4c85-8949-ddaf804e84b4",
+                    "yugipediaId": 598528,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Fortune Fairy Hikari\" (UR)",
+                "cards": [
+                  {
+                    "name": "Fortune Fairy Hikari",
+                    "card": "42bd5ac0-20fc-428a-9386-67edb412ae45",
+                    "yugipediaId": 598481,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Fortune Lady Light\" (UR)",
+                "cards": [
+                  {
+                    "name": "Fortune Lady Light",
+                    "card": "0ef0fb79-ca08-461c-9a2e-596760821d59",
+                    "yugipediaId": 60736,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Infernity Mirage\" (UR)",
+                "cards": [
+                  {
+                    "name": "Infernity Mirage",
+                    "card": "b5388aed-e81e-48c8-9658-f9f899ee15a3",
+                    "yugipediaId": 116792,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Stygian Security\" (UR)",
+                "cards": [
+                  {
+                    "name": "Stygian Security",
+                    "card": "e3a8bda7-a66a-44ee-b627-4ded3acd3b81",
+                    "yugipediaId": 109857,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Multiple Piece Golem\" (UR)",
+                "cards": [
+                  {
+                    "name": "Multiple Piece Golem",
+                    "card": "e4284e42-c6f1-4917-a05b-6b294bee4a77",
+                    "yugipediaId": 84202,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"T.G. Blade Blaster\" (UR)",
+                "cards": [
+                  {
+                    "name": "T.G. Blade Blaster",
+                    "card": "119ab8a9-c6d3-4d76-a367-82acd5d19782",
+                    "yugipediaId": 105455,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Infernity Doom Dragon\" (UR)",
+                "cards": [
+                  {
+                    "name": "Infernity Doom Dragon",
+                    "card": "1c8ea10b-94ae-48bc-b523-b58643d719cd",
+                    "yugipediaId": 107731,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Hundred Eyes Dragon\" (UR)",
+                "cards": [
+                  {
+                    "name": "Hundred Eyes Dragon",
+                    "card": "42d4becd-9da2-487e-8807-ca54062d5965",
+                    "yugipediaId": 53019,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Junk Berserker\" (UR)",
+                "cards": [
+                  {
+                    "name": "Junk Berserker",
+                    "card": "3ceb5425-53e8-42a3-b028-ccb4829570a9",
+                    "yugipediaId": 152804,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"T.G. Power Gladiator\" (UR)",
+                "cards": [
+                  {
+                    "name": "T.G. Power Gladiator",
+                    "card": "b792282f-bee3-4ae4-94b9-ecc9d4c34cc7",
+                    "yugipediaId": 106034,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Goyo Chaser\" (UR)",
+                "cards": [
+                  {
+                    "name": "Goyo Chaser",
+                    "card": "c6970f71-1563-4f5c-a6a2-739814afaae0",
+                    "yugipediaId": 427892,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Scrap Breaker\" (UR)",
+                "cards": [
+                  {
+                    "name": "Scrap Breaker",
+                    "card": "421b73aa-cd60-4071-bcb3-008040a863a4",
+                    "yugipediaId": 148374,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Labyrinth of Kline\" (UR)",
+                "cards": [
+                  {
+                    "name": "Labyrinth of Kline",
+                    "card": "48732cc3-9d9c-442d-9d1c-67aa8c9b0dc8",
+                    "yugipediaId": 718764,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"King's Consonance\" (UR)",
+                "cards": [
+                  {
+                    "name": "King's Consonance",
+                    "card": "b4dec248-7ac9-46bb-808b-56385bdb3181",
+                    "yugipediaId": 383856,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Elemental Grace Doriado\" (SR)",
+                "cards": [
+                  {
+                    "name": "Elemental Grace Doriado",
+                    "card": "de320587-e1bb-42ab-9afe-b3bc61038917",
+                    "yugipediaId": 443792,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Fortune Lady Earth\" (SR)",
+                "cards": [
+                  {
+                    "name": "Fortune Lady Earth",
+                    "card": "8dd5a8f3-0f67-4bf9-a88e-4bc3633f20f5",
+                    "yugipediaId": 61000,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Big Piece Golem\" (SR)",
+                "cards": [
+                  {
+                    "name": "Big Piece Golem",
+                    "card": "d70d8abe-67d7-418b-9ce2-cbc097c89797",
+                    "yugipediaId": 29325,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Genex Ally Volcannon\" (SR)",
+                "cards": [
+                  {
+                    "name": "Genex Ally Volcannon",
+                    "card": "134e6fe5-bd86-4086-a9f4-b2ebdc29de89",
+                    "yugipediaId": 112090,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Fabled Ashenveil\" (SR)",
+                "cards": [
+                  {
+                    "name": "Fabled Ashenveil",
+                    "card": "2a389b55-925c-4a23-a811-69e009d5e463",
+                    "yugipediaId": 98564,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Dimension Fortress Weapon\" (SR)",
+                "cards": [
+                  {
+                    "name": "Dimension Fortress Weapon",
+                    "card": "f7e072f3-b59d-4c19-885c-22f513dbd29b",
+                    "yugipediaId": 57438,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Solitaire Magician\" (SR)",
+                "cards": [
+                  {
+                    "name": "Solitaire Magician",
+                    "card": "deb734cf-95a7-4611-ae61-852ccf86ba26",
+                    "yugipediaId": 100452,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Apocatequil\" (SR)",
+                "cards": [
+                  {
+                    "name": "Apocatequil",
+                    "card": "05733edc-809e-4fa3-a7a3-b7e26f2028fd",
+                    "yugipediaId": 112221,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Infernity Patriarch\" (SR)",
+                "cards": [
+                  {
+                    "name": "Infernity Patriarch",
+                    "card": "d47585b5-04bf-40e9-b422-67a237f60e28",
+                    "yugipediaId": 354901,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Retaliating \"C\"\" (SR)",
+                "cards": [
+                  {
+                    "name": "Retaliating \"C\"",
+                    "card": "0e3205ab-6a6a-492e-aa97-24a52fbf802e",
+                    "yugipediaId": 422181,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Lancer Archfiend\" (SR)",
+                "cards": [
+                  {
+                    "name": "Lancer Archfiend",
+                    "card": "67e97436-8556-4900-b2b3-3e9c64d59aab",
+                    "yugipediaId": 136068,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Gate Blocker\" (SR)",
+                "cards": [
+                  {
+                    "name": "Gate Blocker",
+                    "card": "0944647e-457d-42d5-81ce-e96b51ca69bc",
+                    "yugipediaId": 30647,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Samurai Sword Baron\" (SR)",
+                "cards": [
+                  {
+                    "name": "Samurai Sword Baron",
+                    "card": "9d91a47c-9c2d-4dec-8a71-4105023311d4",
+                    "yugipediaId": 98646,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Search Striker\" (SR)",
+                "cards": [
+                  {
+                    "name": "Search Striker",
+                    "card": "428bbf3d-6173-4ced-97a9-fd3460c6fcbe",
+                    "yugipediaId": 43477,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Revival Rose\" (SR)",
+                "cards": [
+                  {
+                    "name": "Revival Rose",
+                    "card": "5abf410b-f2e3-43a1-b5b2-704e31c8b59e",
+                    "yugipediaId": 108972,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Rose Witch\" (SR)",
+                "cards": [
+                  {
+                    "name": "Rose Witch",
+                    "card": "16f1726d-62af-4405-84c9-77846d5a16a9",
+                    "yugipediaId": 121958,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Sunlight Unicorn\" (SR)",
+                "cards": [
+                  {
+                    "name": "Sunlight Unicorn",
+                    "card": "0d2b0929-aa12-47b6-80bc-050df0c21fa4",
+                    "yugipediaId": 46958,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Wisel Attack 3\" (SR)",
+                "cards": [
+                  {
+                    "name": "Wisel Attack 3",
+                    "card": "ef02690d-b83e-4af8-9751-daabe3a5b8a9",
+                    "yugipediaId": 720120,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Temperance of Prophecy\" (SR)",
+                "cards": [
+                  {
+                    "name": "Temperance of Prophecy",
+                    "card": "1b790ae8-288e-4855-b49f-6918145ce750",
+                    "yugipediaId": 213821,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Fortune Lady Wind\" (SR)",
+                "cards": [
+                  {
+                    "name": "Fortune Lady Wind",
+                    "card": "a9f9416e-61a4-43aa-a27b-7a5dd2e5cbcf",
+                    "yugipediaId": 61018,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Infernity Knight\" (SR)",
+                "cards": [
+                  {
+                    "name": "Infernity Knight",
+                    "card": "9823b4aa-2b4c-46fa-a030-a1248b2f7e07",
+                    "yugipediaId": 156986,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Magical King Moonstar\" (SR)",
+                "cards": [
+                  {
+                    "name": "Magical King Moonstar",
+                    "card": "4a799795-1a1e-4f8e-a04f-23d713d4005b",
+                    "yugipediaId": 383466,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Flare Resonator\" (SR)",
+                "cards": [
+                  {
+                    "name": "Flare Resonator",
+                    "card": "b75b66ed-f7ca-4ac6-9e86-bafc1fa0f42b",
+                    "yugipediaId": 111841,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Blackwing - Ghibli the Searing Wind\" (SR)",
+                "cards": [
+                  {
+                    "name": "Blackwing - Ghibli the Searing Wind",
+                    "card": "76c5d959-8548-42f2-8202-b5c37a60217b",
+                    "yugipediaId": 113969,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Shield Warrior\" (SR)",
+                "cards": [
+                  {
+                    "name": "Shield Warrior",
+                    "card": "a1aeeb6c-1c8d-4c7a-8a05-1c3f1068a7c6",
+                    "yugipediaId": 29442,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Dash Warrior\" (SR)",
+                "cards": [
+                  {
+                    "name": "Dash Warrior",
+                    "card": "5122d63e-0e95-49fa-bf92-f5fef4825fc3",
+                    "yugipediaId": 127820,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Frequency Magician\" (SR)",
+                "cards": [
+                  {
+                    "name": "Frequency Magician",
+                    "card": "74f5f7f0-9653-4938-bd7b-64b601b5c363",
+                    "yugipediaId": 77026,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Infernity Beetle\" (SR)",
+                "cards": [
+                  {
+                    "name": "Infernity Beetle",
+                    "card": "45ce63dc-aa0d-4739-ac43-ea22f77d06ce",
+                    "yugipediaId": 513518,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Jutte Fighter\" (SR)",
+                "cards": [
+                  {
+                    "name": "Jutte Fighter",
+                    "card": "0abc377c-f429-4141-8dc2-ed36dc0dd719",
+                    "yugipediaId": 81664,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Blackwing - Fane the Steel Chain\" (SR)",
+                "cards": [
+                  {
+                    "name": "Blackwing - Fane the Steel Chain",
+                    "card": "ba31c1ff-9233-4770-a561-06245833a026",
+                    "yugipediaId": 57999,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Dark Verger\" (SR)",
+                "cards": [
+                  {
+                    "name": "Dark Verger",
+                    "card": "72f95f97-3168-4a78-a155-6897bf18921e",
+                    "yugipediaId": 39268,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Fortress Warrior\" (SR)",
+                "cards": [
+                  {
+                    "name": "Fortress Warrior",
+                    "card": "55cf2d94-750d-4f37-91c7-8b29d2c3c378",
+                    "yugipediaId": 44662,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Morphtronic Cameran\" (SR)",
+                "cards": [
+                  {
+                    "name": "Morphtronic Cameran",
+                    "card": "88a66e8d-208c-43e9-90ae-f42483da6e1e",
+                    "yugipediaId": 46848,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Wattfox\" (SR)",
+                "cards": [
+                  {
+                    "name": "Wattfox",
+                    "card": "79f80150-23fc-4af1-a4ec-292e4f2e92de",
+                    "yugipediaId": 127731,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"T.G. Booster Raptor\" (SR)",
+                "cards": [
+                  {
+                    "name": "T.G. Booster Raptor",
+                    "card": "e5407cd7-ddaf-4981-ac5f-1dcd8dd1485f",
+                    "yugipediaId": 575057,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"T.G. Tank Grub\" (SR)",
+                "cards": [
+                  {
+                    "name": "T.G. Tank Grub",
+                    "card": "d5dcfeff-8e3c-4138-be1f-500db0e801a1",
+                    "yugipediaId": 575871,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Cupid Volley\" (SR)",
+                "cards": [
+                  {
+                    "name": "Cupid Volley",
+                    "card": "4d21d0f0-6d73-4e2e-a01d-530d2934e0f9",
+                    "yugipediaId": 557289,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Sun Dragon Inti\" (SR)",
+                "cards": [
+                  {
+                    "name": "Sun Dragon Inti",
+                    "card": "d1ec86c5-8a19-4afa-8000-15bb650c5e97",
+                    "yugipediaId": 94635,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Moon Dragon Quilla\" (SR)",
+                "cards": [
+                  {
+                    "name": "Moon Dragon Quilla",
+                    "card": "634649a8-8d59-46ed-a677-3620f7a62ab8",
+                    "yugipediaId": 94689,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Archfiend's Call\" (SR)",
+                "cards": [
+                  {
+                    "name": "Archfiend's Call",
+                    "card": "9e1bed78-2a10-4094-b20f-dcc357e45bab",
+                    "yugipediaId": 570211,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Opti-Camouflage Armor\" (SR)",
+                "cards": [
+                  {
+                    "name": "Opti-Camouflage Armor",
+                    "card": "aa34d04f-45d2-4ca7-b3ef-579ccca5e11b",
+                    "yugipediaId": 17151,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Uni-Song Tuning\" (SR)",
+                "cards": [
+                  {
+                    "name": "Uni-Song Tuning",
+                    "card": "bf63e5bf-44b1-4b92-9226-9d9aadde7469",
+                    "yugipediaId": 577416,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Dwimmered Path\" (SR)",
+                "cards": [
+                  {
+                    "name": "Dwimmered Path",
+                    "card": "37b55e4e-2ac1-4d1a-ae77-910ebb5c9880",
+                    "yugipediaId": 594488,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Miracle Stone\" (SR)",
+                "cards": [
+                  {
+                    "name": "Miracle Stone",
+                    "card": "44a857d7-61b3-487b-ae9f-64e0f39014b6",
+                    "yugipediaId": 606189,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Fortune's Future\" (SR)",
+                "cards": [
+                  {
+                    "name": "Fortune's Future",
+                    "card": "b90c79ec-b952-49b9-9dc4-f082b71ee461",
+                    "yugipediaId": 99188,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Against the Wind\" (SR)",
+                "cards": [
+                  {
+                    "name": "Against the Wind",
+                    "card": "6cbf8cd9-321e-45a9-adc4-4c4a9008657a",
+                    "yugipediaId": 50836,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Fighting Spirit\" (SR)",
+                "cards": [
+                  {
+                    "name": "Fighting Spirit",
+                    "card": "70184a14-b59a-4886-8d97-cac7b275e972",
+                    "yugipediaId": 29709,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Morphtronic Map\" (SR)",
+                "cards": [
+                  {
+                    "name": "Morphtronic Map",
+                    "card": "334ec752-34e7-4de0-9830-4554cf01f740",
+                    "yugipediaId": 57784,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Morphtronic Repair Unit\" (SR)",
+                "cards": [
+                  {
+                    "name": "Morphtronic Repair Unit",
+                    "card": "8c99c883-420f-4a0a-bcf6-bcd58a079243",
+                    "yugipediaId": 59310,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Thorn of Malice\" (SR)",
+                "cards": [
+                  {
+                    "name": "Thorn of Malice",
+                    "card": "ed46b874-dfe4-4ff0-a9b9-ddedba366bad",
+                    "yugipediaId": 63011,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Infernity Reflector\" (SR)",
+                "cards": [
+                  {
+                    "name": "Infernity Reflector",
+                    "card": "39fc72c1-2efd-4e33-a34f-01561ab5d2e2",
+                    "yugipediaId": 513522,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Passion of Baimasse\" (SR)",
+                "cards": [
+                  {
+                    "name": "Passion of Baimasse",
+                    "card": "619173ce-39d6-4cc3-918b-c26008a83252",
+                    "yugipediaId": 719214,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Roar of the Earthbound Immortal\" (SR)",
+                "cards": [
+                  {
+                    "name": "Roar of the Earthbound Immortal",
+                    "card": "7d2ba59c-3f6b-416a-882e-f161dee84f42",
+                    "yugipediaId": 101365,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Infernity Force\" (SR)",
+                "cards": [
+                  {
+                    "name": "Infernity Force",
+                    "card": "7e1670a4-878d-4cbc-ad86-dde96438a83d",
+                    "yugipediaId": 100257,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Altar of the Bound Deity\" (SR)",
+                "cards": [
+                  {
+                    "name": "Altar of the Bound Deity",
+                    "card": "e5efb67a-d332-4b39-9747-1ba19a65e849",
+                    "yugipediaId": 642336,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Earthbound Wave\" (SR)",
+                "cards": [
+                  {
+                    "name": "Earthbound Wave",
+                    "card": "b9c0e339-5e9f-441b-ba83-7b80bcdfe2f7",
+                    "yugipediaId": 101330,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Infernity Inferno\" (SR)",
+                "cards": [
+                  {
+                    "name": "Infernity Inferno",
+                    "card": "0a9e079e-be1c-4968-a1d6-1b76833915dd",
+                    "yugipediaId": 516271,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Descending Lost Star\" (SR)",
+                "cards": [
+                  {
+                    "name": "Descending Lost Star",
+                    "card": "9d20feb2-d4c1-4bfa-b812-b9b3d6b00cfc",
+                    "yugipediaId": 48945,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Blackwing - Bombardment\" (SR)",
+                "cards": [
+                  {
+                    "name": "Blackwing - Bombardment",
+                    "card": "52296db6-5d8b-4faf-aabe-d18bcb5ab030",
+                    "yugipediaId": 99320,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Morphtronic Mix-up\" (SR)",
+                "cards": [
+                  {
+                    "name": "Morphtronic Mix-up",
+                    "card": "7ddb5569-6835-428c-a886-c395bfdaa918",
+                    "yugipediaId": 57724,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "cardTraderEx",
+      "path": [
+        "Rewards",
+        "Card Trader EX"
+      ],
+      "notes": [
+        "The Card Trader EX appears during this event and remained open until one week after its conclusion. The player can trade their EX Jewels for cards, Booster Items, Gold, and Skill Chips. Each card, Skill Chip and Booster Item can only be obtained once from the Card Trader EX during this event, but Gold can be obtained any number of times."
+      ]
+    },
+    {
+      "kind": "cardTraderEx",
+      "path": [
+        "Rewards",
+        "Card Trader EX"
+      ],
+      "run": "November 2022",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "EX Jewels",
+            "Item"
+          ],
+          "rows": [
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1"
+              },
+              {
+                "text": "100 Gold"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Results Booster"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 EXP Booster"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "10 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Master's Diploman\" (Glossy)",
+                "cards": [
+                  {
+                    "name": "Master's Diploman",
+                    "card": "9f32e452-b7a3-45f1-9c16-9152eb79de1d",
+                    "yugipediaId": 715827,
+                    "quantity": 1,
+                    "variant": "Glossy"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "400"
+              },
+              {
+                "text": "1 \"Master's Diploman\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Master's Diploman",
+                    "card": "9f32e452-b7a3-45f1-9c16-9152eb79de1d",
+                    "yugipediaId": 715827,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "300"
+              },
+              {
+                "text": "1 \"Darton the Mechanical Monstrosity\"",
+                "cards": [
+                  {
+                    "name": "Darton the Mechanical Monstrosity",
+                    "card": "b390f34e-88ab-4c39-b28e-eace15b81204",
+                    "yugipediaId": 714490,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "300"
+              },
+              {
+                "text": "1 \"Megamorph\"",
+                "cards": [
+                  {
+                    "name": "Megamorph",
+                    "card": "c8f0486a-9958-4199-b3df-22fe4f21f9ee",
+                    "yugipediaId": 1715,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Stall Turn\"",
+                "cards": [
+                  {
+                    "name": "Stall Turn",
+                    "card": "06b376c6-57ed-4e28-9ca2-547e98e23d13",
+                    "yugipediaId": 716840,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Imprudent Intrusion\"",
+                "cards": [
+                  {
+                    "name": "Imprudent Intrusion",
+                    "card": "36554fb8-0e8b-415e-9acb-210180b311ff",
+                    "yugipediaId": 715402,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Revenge Rally\"",
+                "cards": [
+                  {
+                    "name": "Revenge Rally",
+                    "card": "1abf73b5-9496-47c0-9fda-5e0085e2ba9c",
+                    "yugipediaId": 693846,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Cloning\"",
+                "cards": [
+                  {
+                    "name": "Cloning",
+                    "card": "b08009dc-6a89-4ab9-aac9-a7ecf583674a",
+                    "yugipediaId": 12648,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Different Dimension Capsule\"",
+                "cards": [
+                  {
+                    "name": "Different Dimension Capsule",
+                    "card": "4573972d-bbdf-4729-92c3-394f880617d0",
+                    "yugipediaId": 15592,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Tri-Horned Dragon\"",
+                "cards": [
+                  {
+                    "name": "Tri-Horned Dragon",
+                    "card": "93e53920-5ab1-466e-a7a8-6c35b60b3fcc",
+                    "yugipediaId": 2661,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Triggered Summon\"",
+                "cards": [
+                  {
+                    "name": "Triggered Summon",
+                    "card": "c8610a5c-28a1-47e7-835f-07a5daa3ae2f",
+                    "yugipediaId": 21028,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Graverobber\"",
+                "cards": [
+                  {
+                    "name": "Graverobber",
+                    "card": "ca2f6ccd-f4e0-440c-8d61-77690e1921ca",
+                    "yugipediaId": 504801,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "cardTraderEx",
+      "path": [
+        "Rewards",
+        "Card Trader EX"
+      ],
+      "run": "August 2022",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "EX Jewels",
+            "Item"
+          ],
+          "rows": [
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1"
+              },
+              {
+                "text": "100 Gold"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Results Booster"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 EXP Booster"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "10 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Darton the Mechanical Monstrosity\" (Glossy)",
+                "cards": [
+                  {
+                    "name": "Darton the Mechanical Monstrosity",
+                    "card": "b390f34e-88ab-4c39-b28e-eace15b81204",
+                    "yugipediaId": 714490,
+                    "quantity": 1,
+                    "variant": "Glossy"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "400"
+              },
+              {
+                "text": "1 \"Darton the Mechanical Monstrosity\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Darton the Mechanical Monstrosity",
+                    "card": "b390f34e-88ab-4c39-b28e-eace15b81204",
+                    "yugipediaId": 714490,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "300"
+              },
+              {
+                "text": "1 \"Megamorph\"",
+                "cards": [
+                  {
+                    "name": "Megamorph",
+                    "card": "c8f0486a-9958-4199-b3df-22fe4f21f9ee",
+                    "yugipediaId": 1715,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "300"
+              },
+              {
+                "text": "1 \"Fiendish Portrait\"",
+                "cards": [
+                  {
+                    "name": "Fiendish Portrait",
+                    "card": "6e0c3c73-911d-488e-8971-4bb1c5b0b49c",
+                    "yugipediaId": 669673,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Imprudent Intrusion\"",
+                "cards": [
+                  {
+                    "name": "Imprudent Intrusion",
+                    "card": "36554fb8-0e8b-415e-9acb-210180b311ff",
+                    "yugipediaId": 715402,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Revenge Rally\"",
+                "cards": [
+                  {
+                    "name": "Revenge Rally",
+                    "card": "1abf73b5-9496-47c0-9fda-5e0085e2ba9c",
+                    "yugipediaId": 693846,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Loud Cloud the Storm Serpent\"",
+                "cards": [
+                  {
+                    "name": "Loud Cloud the Storm Serpent",
+                    "card": "9cee7dd9-c093-4d3b-857b-14c57c4c5602",
+                    "yugipediaId": 588766,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Cloning\"",
+                "cards": [
+                  {
+                    "name": "Cloning",
+                    "card": "b08009dc-6a89-4ab9-aac9-a7ecf583674a",
+                    "yugipediaId": 12648,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Different Dimension Capsule\"",
+                "cards": [
+                  {
+                    "name": "Different Dimension Capsule",
+                    "card": "4573972d-bbdf-4729-92c3-394f880617d0",
+                    "yugipediaId": 15592,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Tri-Horned Dragon\"",
+                "cards": [
+                  {
+                    "name": "Tri-Horned Dragon",
+                    "card": "93e53920-5ab1-466e-a7a8-6c35b60b3fcc",
+                    "yugipediaId": 2661,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Triggered Summon\"",
+                "cards": [
+                  {
+                    "name": "Triggered Summon",
+                    "card": "c8610a5c-28a1-47e7-835f-07a5daa3ae2f",
+                    "yugipediaId": 21028,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Graverobber\"",
+                "cards": [
+                  {
+                    "name": "Graverobber",
+                    "card": "ca2f6ccd-f4e0-440c-8d61-77690e1921ca",
+                    "yugipediaId": 504801,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Rewards",
+        "Event missions"
+      ],
+      "run": "November 2022",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Defeat the Raid Boss 1 time(s)."
+              },
+              {
+                "text": "1 EX Draw and Summon"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 10 time(s)."
+              },
+              {
+                "text": "10 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 15 time(s)."
+              },
+              {
+                "text": "20 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 20 time(s)."
+              },
+              {
+                "text": "25 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 25 time(s)."
+              },
+              {
+                "text": "30 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 30 time(s)."
+              },
+              {
+                "text": "35 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 35 time(s)."
+              },
+              {
+                "text": "40 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 40 time(s)."
+              },
+              {
+                "text": "50 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Play 10 Assist(s) in Raid Duel (surrenders are not counted)."
+              },
+              {
+                "text": "20 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Play 20 Assist(s) in Raid Duel (surrenders are not counted)."
+              },
+              {
+                "text": "30 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Play 40 Assist(s) in Raid Duel (surrenders are not counted)."
+              },
+              {
+                "text": "40 EX Jewels"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Rewards",
+        "Event missions"
+      ],
+      "run": "August 2022",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Defeat the Raid Boss 1 time(s)."
+              },
+              {
+                "text": "1 EX Draw and Summon"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 10 time(s)."
+              },
+              {
+                "text": "10 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 15 time(s)."
+              },
+              {
+                "text": "20 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 20 time(s)."
+              },
+              {
+                "text": "25 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 25 time(s)."
+              },
+              {
+                "text": "30 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 30 time(s)."
+              },
+              {
+                "text": "35 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 35 time(s)."
+              },
+              {
+                "text": "40 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 40 time(s)."
+              },
+              {
+                "text": "50 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Play 10 Assist(s) in Raid Duel (surrenders are not counted)."
+              },
+              {
+                "text": "20 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Play 20 Assist(s) in Raid Duel (surrenders are not counted)."
+              },
+              {
+                "text": "30 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Play 40 Assist(s) in Raid Duel (surrenders are not counted)."
+              },
+              {
+                "text": "40 EX Jewels"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Rewards",
+        "Event missions"
+      ],
+      "notes": [
+        "The following missions were added on August 29, 2021 (during the first run) or ??? (during the second run). Each mission does not appear if the player already has that reward from the previous run."
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Rewards",
+        "Event missions"
+      ],
+      "run": "November 2022",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Defeat Raid Boss at Lvl. 2000 or above."
+              },
+              {
+                "text": "Card Sleeves"
+              }
+            ],
+            [
+              {
+                "text": "Inflict 30000 or more points of damage in one Duel against Raid Boss at Lvl. 2000 or above."
+              },
+              {
+                "text": "Game Mat"
+              }
+            ],
+            [
+              {
+                "text": "Summon a Level (Rank) 7 or higher Dragon-Type monster 3 time(s) using Paradox."
+              },
+              {
+                "text": "Skill: \"The Opposites\"",
+                "skills": [
+                  {
+                    "name": "The Opposites",
+                    "skill": "cc9ce298-71af-4e8d-860e-fb037c866f0d",
+                    "yugipediaId": 717084
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Rewards",
+        "Event missions"
+      ],
+      "run": "August 2022",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Defeat Raid Boss at Lvl. 2000 or above."
+              },
+              {
+                "text": "Card Sleeves"
+              }
+            ],
+            [
+              {
+                "text": "Inflict 30000 or more points of damage in one Duel against Raid Boss at Lvl. 2000 or above."
+              },
+              {
+                "text": "Game Mat"
+              }
+            ],
+            [
+              {
+                "text": "Summon a Level (Rank) 7 or higher Dragon-Type monster 3 time(s) using Paradox."
+              },
+              {
+                "text": "Skill: \"The Opposites\"",
+                "skills": [
+                  {
+                    "name": "The Opposites",
+                    "skill": "cc9ce298-71af-4e8d-860e-fb037c866f0d",
+                    "yugipediaId": 717084
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "dailyMissions",
+      "path": [
+        "Rewards",
+        "Event missions",
+        "Daily missions"
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Play 1 Duel(s) in Ranked Duels (surrenders are not counted)."
+              },
+              {
+                "text": "20 Paradox's Masks"
+              }
+            ],
+            [
+              {
+                "text": "Play 2 Duel(s) in Ranked Duels (surrenders are not counted)."
+              },
+              {
+                "text": "20 Paradox's Masks"
+              }
+            ],
+            [
+              {
+                "text": "Play 3 Duel(s) in Ranked Duels (surrenders are not counted)."
+              },
+              {
+                "text": "1 Bonds Beyond Time"
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "decks": [
+    {
+      "path": [
+        "Decks",
+        "Level 100-200"
+      ],
+      "cards": [
+        {
+          "name": "Ancient Tool",
+          "card": "32bdced5-f42b-47b6-a3fa-05911c538f08",
+          "yugipediaId": 19373,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Necrolancer the Time-lord",
+          "card": "e709538d-94eb-444a-b60c-0f07156fcafa",
+          "yugipediaId": 9377,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Ryu-Kishin",
+          "card": "9289009d-fcdf-4e91-98e1-0c4400d767fe",
+          "yugipediaId": 7000,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Serpent Night Dragon",
+          "card": "be409524-28d6-4d7c-b584-412f8dab8937",
+          "yugipediaId": 7945,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Ally of Justice Unlimiter",
+          "card": "553cc8ab-ce4b-4697-98c0-dc2d9f553c0d",
+          "yugipediaId": 57450,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cyber Ouroboros",
+          "card": "f73f6865-01b8-4cd4-b626-7ddc51507344",
+          "yugipediaId": 508992,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Hack Worm",
+          "card": "d5a50b7a-02ad-4d6f-8a6d-ccfcd8a88019",
+          "yugipediaId": 492055,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Proto-Cyber Dragon",
+          "card": "18506662-300b-4845-b6e5-83c11f35bef6",
+          "yugipediaId": 1959,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Genex Recycled",
+          "card": "9a1372d1-5091-4a47-87d9-7b2cff86af34",
+          "yugipediaId": 57424,
+          "count": 2,
+          "category": "tuner monsters"
+        },
+        {
+          "name": "Genex Spare",
+          "card": "198c1921-cd08-4b28-84ed-4867a939715e",
+          "yugipediaId": 46514,
+          "count": 1,
+          "category": "tuner monsters"
+        },
+        {
+          "name": "Advance Force",
+          "card": "a8975c27-45db-4048-b74f-c684105550b0",
+          "yugipediaId": 93433,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Dimension Distortion",
+          "card": "6503f8df-5d59-4794-b13a-77245cd4f8ca",
+          "yugipediaId": 14822,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Reload",
+          "card": "a6572397-03da-4b2e-873f-8eeffba1a4f8",
+          "yugipediaId": 504772,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "The Beginning of the End",
+          "card": "c3fa8524-a90d-46a0-8e1d-afb941301ac3",
+          "yugipediaId": 76412,
+          "count": 1,
+          "category": "spells"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Level 300-400"
+      ],
+      "cards": [
+        {
+          "name": "Grappler",
+          "card": "01690c28-557e-4a36-9752-4673c2b8aff3",
+          "yugipediaId": 21466,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Hitotsu-Me Giant",
+          "card": "0e9a1e21-a913-46e8-b24b-68e06c7916ed",
+          "yugipediaId": 2861,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Necrolancer the Time-lord",
+          "card": "e709538d-94eb-444a-b60c-0f07156fcafa",
+          "yugipediaId": 9377,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Serpent Night Dragon",
+          "card": "be409524-28d6-4d7c-b584-412f8dab8937",
+          "yugipediaId": 7945,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Yaiba Robo",
+          "card": "e6d5320f-d064-4d43-ae43-6ec962b1ae40",
+          "yugipediaId": 19439,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Ally of Justice Unlimiter",
+          "card": "553cc8ab-ce4b-4697-98c0-dc2d9f553c0d",
+          "yugipediaId": 57450,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Card Breaker",
+          "card": "6b8799e8-c6f5-4f28-b06b-4c7d8e4437b5",
+          "yugipediaId": 514207,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Fusilier Dragon, the Dual-Mode Beast",
+          "card": "8f3d4349-13b9-49df-8c3c-25e17a09d2fb",
+          "yugipediaId": 717,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Proto-Cyber Dragon",
+          "card": "18506662-300b-4845-b6e5-83c11f35bef6",
+          "yugipediaId": 1959,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Salvage Warrior",
+          "card": "76f29ce2-1b95-41df-ab62-365a331f2c88",
+          "yugipediaId": 148847,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Genex Recycled",
+          "card": "9a1372d1-5091-4a47-87d9-7b2cff86af34",
+          "yugipediaId": 57424,
+          "count": 1,
+          "category": "tuner monsters"
+        },
+        {
+          "name": "Genex Spare",
+          "card": "198c1921-cd08-4b28-84ed-4867a939715e",
+          "yugipediaId": 46514,
+          "count": 1,
+          "category": "tuner monsters"
+        },
+        {
+          "name": "Advance Force",
+          "card": "a8975c27-45db-4048-b74f-c684105550b0",
+          "yugipediaId": 93433,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Double Summon",
+          "card": "1943dc3b-0f2c-4f4e-8a46-c79c77ce0d01",
+          "yugipediaId": 511069,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Painful Return",
+          "card": "25c57d0c-a0e6-4fd4-baf7-ce9e691a6344",
+          "yugipediaId": 191531,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Pot of Dichotomy",
+          "card": "61c02703-799c-477f-a8d5-fd4f099f97e5",
+          "yugipediaId": 271268,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "The Beginning of the End",
+          "card": "c3fa8524-a90d-46a0-8e1d-afb941301ac3",
+          "yugipediaId": 76412,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Tribute Doll",
+          "card": "ec71c22a-0ae5-495f-9b14-353af8e3bf81",
+          "yugipediaId": 111,
+          "count": 1,
+          "category": "spells"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Level 500-600"
+      ],
+      "cards": [
+        {
+          "name": "Ryu-Kishin Powered",
+          "card": "f9f9a883-8376-48cd-8b09-7f22c6fbd0fd",
+          "yugipediaId": 6026,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Tiger Axe",
+          "card": "16c81fe0-d9da-4b11-8c5e-3b747d07ea49",
+          "yugipediaId": 9026,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Ally of Justice Searcher",
+          "card": "bffff336-69a0-4f89-b3ef-4bd4a9d5c5d2",
+          "yugipediaId": 45131,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Ally of Justice Unknown Crusher",
+          "card": "6ef95631-ef23-4091-8f51-c41de590f7a2",
+          "yugipediaId": 25028,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "D.D. Patrol Plane",
+          "card": "c19d4ed1-eaed-4924-ae3d-318bc6b70aec",
+          "yugipediaId": 642437,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Dark Horus",
+          "card": "c84eb3aa-d0c1-479d-9462-5fd69ab4ac53",
+          "yugipediaId": 75333,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Dimension Jar",
+          "card": "688b368c-b75a-4df0-b70a-1227ae784dce",
+          "yugipediaId": 17815,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Divine Dragon Apocralyph",
+          "card": "7fb57883-8f72-4f52-92a7-f9341f806c54",
+          "yugipediaId": 194088,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gauntlet Warrior",
+          "card": "9f5e60d5-009c-41e2-84dd-b8c4d531a46b",
+          "yugipediaId": 98749,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Hayabusa Knight",
+          "card": "db1b534c-6327-493e-8cf6-92f1794638d9",
+          "yugipediaId": 8279,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Invitation to a Dark Sleep",
+          "card": "93a84e79-153d-4e59-8c1c-6662efa8bbbe",
+          "yugipediaId": 8261,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Unauthorized Bootup Device",
+          "card": "ce9f836d-9e9e-4625-b8a6-cbc79f236107",
+          "yugipediaId": 717312,
+          "count": 1,
+          "category": "union monsters"
+        },
+        {
+          "name": "Genex Controller",
+          "card": "94df5076-e0b0-41da-b1b9-33ccf82e08f1",
+          "yugipediaId": 27673,
+          "count": 1,
+          "category": "tuner monsters"
+        },
+        {
+          "name": "Genex Spare",
+          "card": "198c1921-cd08-4b28-84ed-4867a939715e",
+          "yugipediaId": 46514,
+          "count": 1,
+          "category": "tuner monsters"
+        },
+        {
+          "name": "Counter Cleaner",
+          "card": "b025c378-0512-41bf-8409-74e976312b78",
+          "yugipediaId": 13160,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Final Gesture",
+          "card": "7b4d8a8a-6708-4751-8b5b-3dd7b479deda",
+          "yugipediaId": 242926,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Pot of Dichotomy",
+          "card": "61c02703-799c-477f-a8d5-fd4f099f97e5",
+          "yugipediaId": 271268,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Energy-Absorbing Monolith",
+          "card": "14df2d96-f7ad-4694-b698-f5d13df42098",
+          "yugipediaId": 505226,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Level 700-800",
+        "First run"
+      ],
+      "cards": [
+        {
+          "name": "Battle Ox",
+          "card": "7fe24ba3-82da-4787-8cc8-30f051160562",
+          "yugipediaId": 4068,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Blackland Fire Dragon",
+          "card": "9a30bfd8-dd46-433b-a553-bb8d1089e1ff",
+          "yugipediaId": 4769,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Koumori Dragon",
+          "card": "5ec341d4-a41a-4406-9c9b-b8d2547f38bd",
+          "yugipediaId": 4114,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Red-Eyes Black Dragon",
+          "card": "2259107b-9d4b-42b0-af3d-5d7c738e85da",
+          "yugipediaId": 73,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Cyber Dragon",
+          "card": "f021f76f-cf78-461c-81da-762fad9c8469",
+          "yugipediaId": 146094,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Divine Dragon Apocralyph",
+          "card": "7fb57883-8f72-4f52-92a7-f9341f806c54",
+          "yugipediaId": 194088,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Malefic Red-Eyes Black Dragon",
+          "card": "8036caae-9a8a-4a96-af37-5eb4c4bbae7e",
+          "yugipediaId": 514016,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Malefic Stardust Dragon",
+          "card": "ec4b7be0-db5d-42c7-b09e-8ac263c239dc",
+          "yugipediaId": 514574,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Ally of Justice Cyclone Creator",
+          "card": "21a7b711-7afd-441e-989f-4254a60b0798",
+          "yugipediaId": 43589,
+          "count": 1,
+          "category": "tuner monsters"
+        },
+        {
+          "name": "Genex Controller",
+          "card": "94df5076-e0b0-41da-b1b9-33ccf82e08f1",
+          "yugipediaId": 27673,
+          "count": 1,
+          "category": "tuner monsters"
+        },
+        {
+          "name": "Stardust Dragon",
+          "card": "64785f1b-9863-4343-975b-ad91c9d5168f",
+          "yugipediaId": 86825,
+          "count": 1,
+          "category": "synchro monsters"
+        },
+        {
+          "name": "Malefic World",
+          "card": "a3cfcd21-e50d-4664-8cf8-c3fa33aac75e",
+          "yugipediaId": 129602,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Escape from the Dark Dimension",
+          "card": "8f98f367-ef83-4bf3-aa53-b93b87244b9b",
+          "yugipediaId": 67286,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Malefic Tune",
+          "card": "2921b6fd-484b-4606-b54e-88e06e4e5526",
+          "yugipediaId": 591613,
+          "count": 2,
+          "category": "traps"
+        },
+        {
+          "name": "Reverse Trap",
+          "card": "61b284a4-e5b1-4d78-883f-ce212efa0ca0",
+          "yugipediaId": 509721,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Time Machine",
+          "card": "4f13d084-1948-40c8-aa6c-f954f4040ad4",
+          "yugipediaId": 16436,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Level 700-800",
+        "Second run"
+      ],
+      "cards": [
+        {
+          "name": "Battle Ox",
+          "card": "7fe24ba3-82da-4787-8cc8-30f051160562",
+          "yugipediaId": 4068,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Blackland Fire Dragon",
+          "card": "9a30bfd8-dd46-433b-a553-bb8d1089e1ff",
+          "yugipediaId": 4769,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Koumori Dragon",
+          "card": "5ec341d4-a41a-4406-9c9b-b8d2547f38bd",
+          "yugipediaId": 4114,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Red-Eyes Black Dragon",
+          "card": "2259107b-9d4b-42b0-af3d-5d7c738e85da",
+          "yugipediaId": 73,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Cyber Dragon",
+          "card": "f021f76f-cf78-461c-81da-762fad9c8469",
+          "yugipediaId": 146094,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Divine Dragon Apocralyph",
+          "card": "7fb57883-8f72-4f52-92a7-f9341f806c54",
+          "yugipediaId": 194088,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Malefic Red-Eyes Black Dragon",
+          "card": "8036caae-9a8a-4a96-af37-5eb4c4bbae7e",
+          "yugipediaId": 514016,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Malefic Stardust Dragon",
+          "card": "ec4b7be0-db5d-42c7-b09e-8ac263c239dc",
+          "yugipediaId": 514574,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Ally of Justice Cyclone Creator",
+          "card": "21a7b711-7afd-441e-989f-4254a60b0798",
+          "yugipediaId": 43589,
+          "count": 1,
+          "category": "tuner monsters"
+        },
+        {
+          "name": "Genex Controller",
+          "card": "94df5076-e0b0-41da-b1b9-33ccf82e08f1",
+          "yugipediaId": 27673,
+          "count": 2,
+          "category": "tuner monsters"
+        },
+        {
+          "name": "Stardust Dragon",
+          "card": "64785f1b-9863-4343-975b-ad91c9d5168f",
+          "yugipediaId": 86825,
+          "count": 1,
+          "category": "synchro monsters"
+        },
+        {
+          "name": "Malefic World",
+          "card": "a3cfcd21-e50d-4664-8cf8-c3fa33aac75e",
+          "yugipediaId": 129602,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Escape from the Dark Dimension",
+          "card": "8f98f367-ef83-4bf3-aa53-b93b87244b9b",
+          "yugipediaId": 67286,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Malefic Tune",
+          "card": "2921b6fd-484b-4606-b54e-88e06e4e5526",
+          "yugipediaId": 591613,
+          "count": 2,
+          "category": "traps"
+        },
+        {
+          "name": "Time Machine",
+          "card": "4f13d084-1948-40c8-aa6c-f954f4040ad4",
+          "yugipediaId": 16436,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Level 900-1000",
+        "First run"
+      ],
+      "cards": [
+        {
+          "name": "Axe Raider",
+          "card": "b82c05be-7930-44ca-9a28-ffe0ac527e38",
+          "yugipediaId": 8766,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Blue-Eyes White Dragon",
+          "card": "ee6249a6-f980-43b3-8e39-4ee5c89c09c0",
+          "yugipediaId": 30,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Hunter Dragon",
+          "card": "da67b9b9-a746-4c75-bcb4-73b3d10fbb3e",
+          "yugipediaId": 512550,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Mechanicalchaser",
+          "card": "57731395-8620-4e81-8a7b-563e22131ff4",
+          "yugipediaId": 509334,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Red-Eyes Black Dragon",
+          "card": "2259107b-9d4b-42b0-af3d-5d7c738e85da",
+          "yugipediaId": 73,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Dimension Fortress Weapon",
+          "card": "f7e072f3-b59d-4c19-885c-22f513dbd29b",
+          "yugipediaId": 57438,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Dragard",
+          "card": "a53685eb-f952-4ade-b007-7e51c4b33856",
+          "yugipediaId": 191502,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Genex Ally Bellflame",
+          "card": "a7974b06-dcd8-4dbb-9fc0-40419b0b836e",
+          "yugipediaId": 126721,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Genex Ally Crusher",
+          "card": "cbe1e73f-7a2e-402b-82b1-26ec5c9e4e8f",
+          "yugipediaId": 126757,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Jack Wyvern",
+          "card": "30a5be55-8439-4e41-99ee-68485b9c79fb",
+          "yugipediaId": 492040,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Malefic Blue-Eyes White Dragon",
+          "card": "86d36e0a-350b-46ad-b058-59788c96c481",
+          "yugipediaId": 513506,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Malefic Red-Eyes Black Dragon",
+          "card": "8036caae-9a8a-4a96-af37-5eb4c4bbae7e",
+          "yugipediaId": 514016,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Malefic Stardust Dragon",
+          "card": "ec4b7be0-db5d-42c7-b09e-8ac263c239dc",
+          "yugipediaId": 514574,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Malefic Parallel Gear",
+          "card": "e79ae985-e362-46d3-993c-557fc980223e",
+          "yugipediaId": 129631,
+          "count": 1,
+          "category": "tuner monsters"
+        },
+        {
+          "name": "Malefic Paradox Dragon",
+          "card": "2e12c535-3f5f-4618-ba66-779da000105f",
+          "yugipediaId": 129521,
+          "count": 1,
+          "category": "synchro monsters"
+        },
+        {
+          "name": "Stardust Dragon",
+          "card": "64785f1b-9863-4343-975b-ad91c9d5168f",
+          "yugipediaId": 86825,
+          "count": 1,
+          "category": "synchro monsters"
+        },
+        {
+          "name": "Malefic World",
+          "card": "a3cfcd21-e50d-4664-8cf8-c3fa33aac75e",
+          "yugipediaId": 129602,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Malefic Tune",
+          "card": "2921b6fd-484b-4606-b54e-88e06e4e5526",
+          "yugipediaId": 591613,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Reverse Trap",
+          "card": "61b284a4-e5b1-4d78-883f-ce212efa0ca0",
+          "yugipediaId": 509721,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Time Machine",
+          "card": "4f13d084-1948-40c8-aa6c-f954f4040ad4",
+          "yugipediaId": 16436,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Triggered Summon",
+          "card": "c8610a5c-28a1-47e7-835f-07a5daa3ae2f",
+          "yugipediaId": 21028,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Level 900-1000",
+        "Second run"
+      ],
+      "cards": [
+        {
+          "name": "Axe Raider",
+          "card": "b82c05be-7930-44ca-9a28-ffe0ac527e38",
+          "yugipediaId": 8766,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Blue-Eyes White Dragon",
+          "card": "ee6249a6-f980-43b3-8e39-4ee5c89c09c0",
+          "yugipediaId": 30,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Hunter Dragon",
+          "card": "da67b9b9-a746-4c75-bcb4-73b3d10fbb3e",
+          "yugipediaId": 512550,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Mechanicalchaser",
+          "card": "57731395-8620-4e81-8a7b-563e22131ff4",
+          "yugipediaId": 509334,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Red-Eyes Black Dragon",
+          "card": "2259107b-9d4b-42b0-af3d-5d7c738e85da",
+          "yugipediaId": 73,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Dimension Fortress Weapon",
+          "card": "f7e072f3-b59d-4c19-885c-22f513dbd29b",
+          "yugipediaId": 57438,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Dragard",
+          "card": "a53685eb-f952-4ade-b007-7e51c4b33856",
+          "yugipediaId": 191502,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Genex Ally Bellflame",
+          "card": "a7974b06-dcd8-4dbb-9fc0-40419b0b836e",
+          "yugipediaId": 126721,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Genex Ally Crusher",
+          "card": "cbe1e73f-7a2e-402b-82b1-26ec5c9e4e8f",
+          "yugipediaId": 126757,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Jack Wyvern",
+          "card": "30a5be55-8439-4e41-99ee-68485b9c79fb",
+          "yugipediaId": 492040,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Malefic Blue-Eyes White Dragon",
+          "card": "86d36e0a-350b-46ad-b058-59788c96c481",
+          "yugipediaId": 513506,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Malefic Red-Eyes Black Dragon",
+          "card": "8036caae-9a8a-4a96-af37-5eb4c4bbae7e",
+          "yugipediaId": 514016,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Malefic Stardust Dragon",
+          "card": "ec4b7be0-db5d-42c7-b09e-8ac263c239dc",
+          "yugipediaId": 514574,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Malefic Parallel Gear",
+          "card": "e79ae985-e362-46d3-993c-557fc980223e",
+          "yugipediaId": 129631,
+          "count": 1,
+          "category": "tuner monsters"
+        },
+        {
+          "name": "Malefic Paradox Dragon",
+          "card": "2e12c535-3f5f-4618-ba66-779da000105f",
+          "yugipediaId": 129521,
+          "count": 1,
+          "category": "synchro monsters"
+        },
+        {
+          "name": "Stardust Dragon",
+          "card": "64785f1b-9863-4343-975b-ad91c9d5168f",
+          "yugipediaId": 86825,
+          "count": 1,
+          "category": "synchro monsters"
+        },
+        {
+          "name": "Malefic World",
+          "card": "a3cfcd21-e50d-4664-8cf8-c3fa33aac75e",
+          "yugipediaId": 129602,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Malefic Tune",
+          "card": "2921b6fd-484b-4606-b54e-88e06e4e5526",
+          "yugipediaId": 591613,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Time Machine",
+          "card": "4f13d084-1948-40c8-aa6c-f954f4040ad4",
+          "yugipediaId": 16436,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Triggered Summon",
+          "card": "c8610a5c-28a1-47e7-835f-07a5daa3ae2f",
+          "yugipediaId": 21028,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Level 2000 and higher"
+      ],
+      "cards": [
+        {
+          "name": "Axe Raider",
+          "card": "b82c05be-7930-44ca-9a28-ffe0ac527e38",
+          "yugipediaId": 8766,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Battle Ox",
+          "card": "7fe24ba3-82da-4787-8cc8-30f051160562",
+          "yugipediaId": 4068,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Blackland Fire Dragon",
+          "card": "9a30bfd8-dd46-433b-a553-bb8d1089e1ff",
+          "yugipediaId": 4769,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Blue-Eyes White Dragon",
+          "card": "ee6249a6-f980-43b3-8e39-4ee5c89c09c0",
+          "yugipediaId": 30,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Red-Eyes Black Dragon",
+          "card": "2259107b-9d4b-42b0-af3d-5d7c738e85da",
+          "yugipediaId": 73,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Vorse Raider",
+          "card": "5bdf440e-e2fe-499c-a7cd-01fa8a826d5e",
+          "yugipediaId": 106,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Cyber Dragon",
+          "card": "f021f76f-cf78-461c-81da-762fad9c8469",
+          "yugipediaId": 146094,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Infernal Dragon",
+          "card": "e38d2b7d-21c1-44c7-9871-dc5d15105484",
+          "yugipediaId": 19402,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Malefic Blue-Eyes White Dragon",
+          "card": "86d36e0a-350b-46ad-b058-59788c96c481",
+          "yugipediaId": 513506,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Malefic Red-Eyes Black Dragon",
+          "card": "8036caae-9a8a-4a96-af37-5eb4c4bbae7e",
+          "yugipediaId": 514016,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Malefic Stardust Dragon",
+          "card": "ec4b7be0-db5d-42c7-b09e-8ac263c239dc",
+          "yugipediaId": 514574,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Malefic Truth Dragon",
+          "card": "4e722c26-9c59-4748-af0e-76e4a1a1060c",
+          "yugipediaId": 129248,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Ally of Justice Cyclone Creator",
+          "card": "21a7b711-7afd-441e-989f-4254a60b0798",
+          "yugipediaId": 43589,
+          "count": 1,
+          "category": "tuner monsters"
+        },
+        {
+          "name": "Genex Controller",
+          "card": "94df5076-e0b0-41da-b1b9-33ccf82e08f1",
+          "yugipediaId": 27673,
+          "count": 1,
+          "category": "tuner monsters"
+        },
+        {
+          "name": "Malefic Parallel Gear",
+          "card": "e79ae985-e362-46d3-993c-557fc980223e",
+          "yugipediaId": 129631,
+          "count": 1,
+          "category": "tuner monsters"
+        },
+        {
+          "name": "Malefic Paradox Dragon",
+          "card": "2e12c535-3f5f-4618-ba66-779da000105f",
+          "yugipediaId": 129521,
+          "count": 1,
+          "category": "synchro monsters"
+        },
+        {
+          "name": "Stardust Dragon",
+          "card": "64785f1b-9863-4343-975b-ad91c9d5168f",
+          "yugipediaId": 86825,
+          "count": 1,
+          "category": "synchro monsters"
+        },
+        {
+          "name": "Malefic World",
+          "card": "a3cfcd21-e50d-4664-8cf8-c3fa33aac75e",
+          "yugipediaId": 129602,
+          "count": 3,
+          "category": "spells"
+        },
+        {
+          "name": "Malefic Tune",
+          "card": "2921b6fd-484b-4606-b54e-88e06e4e5526",
+          "yugipediaId": 591613,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Time Machine",
+          "card": "4f13d084-1948-40c8-aa6c-f954f4040ad4",
+          "yugipediaId": 16436,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Different Dimension Capsule",
+      "card": "4573972d-bbdf-4729-92c3-394f880617d0",
+      "yugipediaId": 15592,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "December 2022",
+          "runIndex": 1,
+          "requirement": "600000"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "November 2022",
+          "runIndex": 1,
+          "requirement": "Gold",
+          "rarity": "R"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "November 2022",
+          "runIndex": 1,
+          "requirement": "Silver",
+          "rarity": "R"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "August 2022",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "R"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "August 2022",
+          "runIndex": 0,
+          "requirement": "Silver",
+          "rarity": "R"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "November 2022",
+          "runIndex": 1,
+          "requirement": "30"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "August 2022",
+          "runIndex": 0,
+          "requirement": "30"
+        }
+      ]
+    },
+    {
+      "name": "Imprudent Intrusion",
+      "card": "36554fb8-0e8b-415e-9acb-210180b311ff",
+      "yugipediaId": 715402,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "December 2022",
+          "runIndex": 1,
+          "requirement": "1000000"
+        },
+        {
+          "kind": "cumulativeRewards",
+          "run": "August 2022",
+          "runIndex": 0,
+          "requirement": "3500000"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "November 2022",
+          "runIndex": 1,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "November 2022",
+          "runIndex": 1,
+          "requirement": "Gold",
+          "rarity": "SR"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "August 2022",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "August 2022",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "SR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "November 2022",
+          "runIndex": 1,
+          "requirement": "100"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "August 2022",
+          "runIndex": 0,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Stall Turn",
+      "card": "06b376c6-57ed-4e28-9ca2-547e98e23d13",
+      "yugipediaId": 716840,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "December 2022",
+          "runIndex": 1,
+          "requirement": "2500000"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "November 2022",
+          "runIndex": 1,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "November 2022",
+          "runIndex": 1,
+          "requirement": "Gold",
+          "rarity": "SR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "November 2022",
+          "runIndex": 1,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Master's Diploman",
+      "card": "9f32e452-b7a3-45f1-9c16-9152eb79de1d",
+      "yugipediaId": 715827,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "December 2022",
+          "runIndex": 1,
+          "requirement": "7000000"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "November 2022",
+          "runIndex": 1,
+          "requirement": "Rainbow",
+          "rarity": "UR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "November 2022",
+          "runIndex": 1,
+          "requirement": "100"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "November 2022",
+          "runIndex": 1,
+          "requirement": "400"
+        }
+      ]
+    },
+    {
+      "name": "Tri-Horned Dragon",
+      "card": "93e53920-5ab1-466e-a7a8-6c35b60b3fcc",
+      "yugipediaId": 2661,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "August 2022",
+          "runIndex": 0,
+          "requirement": "700000"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "November 2022",
+          "runIndex": 1,
+          "requirement": "Gold",
+          "rarity": "SR"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "November 2022",
+          "runIndex": 1,
+          "requirement": "Silver",
+          "rarity": "SR"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "August 2022",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "SR"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "August 2022",
+          "runIndex": 0,
+          "requirement": "Silver",
+          "rarity": "SR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "November 2022",
+          "runIndex": 1,
+          "requirement": "30"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "August 2022",
+          "runIndex": 0,
+          "requirement": "30"
+        }
+      ]
+    },
+    {
+      "name": "Revenge Rally",
+      "card": "1abf73b5-9496-47c0-9fda-5e0085e2ba9c",
+      "yugipediaId": 693846,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "August 2022",
+          "runIndex": 0,
+          "requirement": "1400000"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "November 2022",
+          "runIndex": 1,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "November 2022",
+          "runIndex": 1,
+          "requirement": "Gold",
+          "rarity": "SR"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "August 2022",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "August 2022",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "SR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "November 2022",
+          "runIndex": 1,
+          "requirement": "100"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "August 2022",
+          "runIndex": 0,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Darton the Mechanical Monstrosity",
+      "card": "b390f34e-88ab-4c39-b28e-eace15b81204",
+      "yugipediaId": 714490,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "August 2022",
+          "runIndex": 0,
+          "requirement": "11000000"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "November 2022",
+          "runIndex": 1,
+          "requirement": "Rainbow",
+          "rarity": "UR"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "August 2022",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "UR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "November 2022",
+          "runIndex": 1,
+          "requirement": "300"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "August 2022",
+          "runIndex": 0,
+          "requirement": "100"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "August 2022",
+          "runIndex": 0,
+          "requirement": "400"
+        }
+      ]
+    },
+    {
+      "name": "Megamorph",
+      "card": "c8f0486a-9958-4199-b3df-22fe4f21f9ee",
+      "yugipediaId": 1715,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "November 2022",
+          "runIndex": 1,
+          "requirement": "Rainbow",
+          "rarity": "UR"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "August 2022",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "UR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "November 2022",
+          "runIndex": 1,
+          "requirement": "300"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "August 2022",
+          "runIndex": 0,
+          "requirement": "300"
+        }
+      ]
+    },
+    {
+      "name": "Cloning",
+      "card": "b08009dc-6a89-4ab9-aac9-a7ecf583674a",
+      "yugipediaId": 12648,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "November 2022",
+          "runIndex": 1,
+          "requirement": "Gold",
+          "rarity": "R"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "November 2022",
+          "runIndex": 1,
+          "requirement": "Silver",
+          "rarity": "R"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "August 2022",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "R"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "August 2022",
+          "runIndex": 0,
+          "requirement": "Silver",
+          "rarity": "R"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "November 2022",
+          "runIndex": 1,
+          "requirement": "30"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "August 2022",
+          "runIndex": 0,
+          "requirement": "30"
+        }
+      ]
+    },
+    {
+      "name": "Triggered Summon",
+      "card": "c8610a5c-28a1-47e7-835f-07a5daa3ae2f",
+      "yugipediaId": 21028,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "November 2022",
+          "runIndex": 1,
+          "requirement": "Gold",
+          "rarity": "R"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "November 2022",
+          "runIndex": 1,
+          "requirement": "Silver",
+          "rarity": "R"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "August 2022",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "R"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "August 2022",
+          "runIndex": 0,
+          "requirement": "Silver",
+          "rarity": "R"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "November 2022",
+          "runIndex": 1,
+          "requirement": "30"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "August 2022",
+          "runIndex": 0,
+          "requirement": "30"
+        }
+      ]
+    },
+    {
+      "name": "Graverobber",
+      "card": "ca2f6ccd-f4e0-440c-8d61-77690e1921ca",
+      "yugipediaId": 504801,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "November 2022",
+          "runIndex": 1,
+          "requirement": "Gold",
+          "rarity": "R"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "November 2022",
+          "runIndex": 1,
+          "requirement": "Silver",
+          "rarity": "R"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "August 2022",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "R"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "August 2022",
+          "runIndex": 0,
+          "requirement": "Silver",
+          "rarity": "R"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "November 2022",
+          "runIndex": 1,
+          "requirement": "30"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "August 2022",
+          "runIndex": 0,
+          "requirement": "30"
+        }
+      ]
+    },
+    {
+      "name": "Fiendish Portrait",
+      "card": "6e0c3c73-911d-488e-8971-4bb1c5b0b49c",
+      "yugipediaId": 669673,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "August 2022",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "UR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "August 2022",
+          "runIndex": 0,
+          "requirement": "300"
+        }
+      ]
+    },
+    {
+      "name": "Loud Cloud the Storm Serpent",
+      "card": "9cee7dd9-c093-4d3b-857b-14c57c4c5602",
+      "yugipediaId": 588766,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "August 2022",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "August 2022",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "SR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "August 2022",
+          "runIndex": 0,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Rosaria, the Stately Fallen Angel",
+      "card": "0d787d4e-6050-4cac-9ece-c3a170665323",
+      "yugipediaId": 162923,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Infernity Destroyer",
+      "card": "291c2fbe-8b64-46c3-994a-be641d9bf24d",
+      "yugipediaId": 50728,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Strong Wind Dragon",
+      "card": "6f16ee43-420c-40fa-bf41-1c234373bafe",
+      "yugipediaId": 48267,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Blackwing - Elphin the Raven",
+      "card": "cd0dead5-3fb1-4a97-ae04-95f9405bd3fb",
+      "yugipediaId": 51408,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Fortune Lady Dark",
+      "card": "4e28bf97-5ab9-452d-9d46-8feea5c8424f",
+      "yugipediaId": 103881,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Oracle of the Sun",
+      "card": "bbe35713-b351-49d1-80d9-ad2bcf36aad2",
+      "yugipediaId": 95026,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Luna the Dark Spirit",
+      "card": "cef40945-6b80-462b-a581-2148c6be3a21",
+      "yugipediaId": 642378,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Fortune Fairy Swee",
+      "card": "198238c6-8d3a-40cd-af47-47e39a41d79a",
+      "yugipediaId": 606185,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Morphtronic Videon",
+      "card": "134f3ea4-9194-4b6e-84be-baca4f94e0d1",
+      "yugipediaId": 61428,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Regulus",
+      "card": "adee9206-f8a7-4b0c-b027-e7eb0315d3f8",
+      "yugipediaId": 95504,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Black Salvo",
+      "card": "5347715a-4d9e-4e98-ac19-d14df9b6297d",
+      "yugipediaId": 45535,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Fortune Fairy En",
+      "card": "38b8b3ab-c6f1-4944-8473-dc86f0547bb9",
+      "yugipediaId": 606182,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Unauthorized Bootup Device",
+      "card": "ce9f836d-9e9e-4625-b8a6-cbc79f236107",
+      "yugipediaId": 717312,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "T.G. Gear Zombie",
+      "card": "507afd06-2801-4c85-8949-ddaf804e84b4",
+      "yugipediaId": 598528,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Fortune Fairy Hikari",
+      "card": "42bd5ac0-20fc-428a-9386-67edb412ae45",
+      "yugipediaId": 598481,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Fortune Lady Light",
+      "card": "0ef0fb79-ca08-461c-9a2e-596760821d59",
+      "yugipediaId": 60736,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Infernity Mirage",
+      "card": "b5388aed-e81e-48c8-9658-f9f899ee15a3",
+      "yugipediaId": 116792,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Stygian Security",
+      "card": "e3a8bda7-a66a-44ee-b627-4ded3acd3b81",
+      "yugipediaId": 109857,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Multiple Piece Golem",
+      "card": "e4284e42-c6f1-4917-a05b-6b294bee4a77",
+      "yugipediaId": 84202,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "T.G. Blade Blaster",
+      "card": "119ab8a9-c6d3-4d76-a367-82acd5d19782",
+      "yugipediaId": 105455,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Infernity Doom Dragon",
+      "card": "1c8ea10b-94ae-48bc-b523-b58643d719cd",
+      "yugipediaId": 107731,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Hundred Eyes Dragon",
+      "card": "42d4becd-9da2-487e-8807-ca54062d5965",
+      "yugipediaId": 53019,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Junk Berserker",
+      "card": "3ceb5425-53e8-42a3-b028-ccb4829570a9",
+      "yugipediaId": 152804,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "T.G. Power Gladiator",
+      "card": "b792282f-bee3-4ae4-94b9-ecc9d4c34cc7",
+      "yugipediaId": 106034,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Goyo Chaser",
+      "card": "c6970f71-1563-4f5c-a6a2-739814afaae0",
+      "yugipediaId": 427892,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Scrap Breaker",
+      "card": "421b73aa-cd60-4071-bcb3-008040a863a4",
+      "yugipediaId": 148374,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Labyrinth of Kline",
+      "card": "48732cc3-9d9c-442d-9d1c-67aa8c9b0dc8",
+      "yugipediaId": 718764,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "King's Consonance",
+      "card": "b4dec248-7ac9-46bb-808b-56385bdb3181",
+      "yugipediaId": 383856,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Elemental Grace Doriado",
+      "card": "de320587-e1bb-42ab-9afe-b3bc61038917",
+      "yugipediaId": 443792,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Fortune Lady Earth",
+      "card": "8dd5a8f3-0f67-4bf9-a88e-4bc3633f20f5",
+      "yugipediaId": 61000,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Big Piece Golem",
+      "card": "d70d8abe-67d7-418b-9ce2-cbc097c89797",
+      "yugipediaId": 29325,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Genex Ally Volcannon",
+      "card": "134e6fe5-bd86-4086-a9f4-b2ebdc29de89",
+      "yugipediaId": 112090,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Fabled Ashenveil",
+      "card": "2a389b55-925c-4a23-a811-69e009d5e463",
+      "yugipediaId": 98564,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Dimension Fortress Weapon",
+      "card": "f7e072f3-b59d-4c19-885c-22f513dbd29b",
+      "yugipediaId": 57438,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Solitaire Magician",
+      "card": "deb734cf-95a7-4611-ae61-852ccf86ba26",
+      "yugipediaId": 100452,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Apocatequil",
+      "card": "05733edc-809e-4fa3-a7a3-b7e26f2028fd",
+      "yugipediaId": 112221,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Infernity Patriarch",
+      "card": "d47585b5-04bf-40e9-b422-67a237f60e28",
+      "yugipediaId": 354901,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Retaliating \"C\"",
+      "card": "0e3205ab-6a6a-492e-aa97-24a52fbf802e",
+      "yugipediaId": 422181,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Lancer Archfiend",
+      "card": "67e97436-8556-4900-b2b3-3e9c64d59aab",
+      "yugipediaId": 136068,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Gate Blocker",
+      "card": "0944647e-457d-42d5-81ce-e96b51ca69bc",
+      "yugipediaId": 30647,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Samurai Sword Baron",
+      "card": "9d91a47c-9c2d-4dec-8a71-4105023311d4",
+      "yugipediaId": 98646,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Search Striker",
+      "card": "428bbf3d-6173-4ced-97a9-fd3460c6fcbe",
+      "yugipediaId": 43477,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Revival Rose",
+      "card": "5abf410b-f2e3-43a1-b5b2-704e31c8b59e",
+      "yugipediaId": 108972,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Rose Witch",
+      "card": "16f1726d-62af-4405-84c9-77846d5a16a9",
+      "yugipediaId": 121958,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Sunlight Unicorn",
+      "card": "0d2b0929-aa12-47b6-80bc-050df0c21fa4",
+      "yugipediaId": 46958,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Wisel Attack 3",
+      "card": "ef02690d-b83e-4af8-9751-daabe3a5b8a9",
+      "yugipediaId": 720120,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Temperance of Prophecy",
+      "card": "1b790ae8-288e-4855-b49f-6918145ce750",
+      "yugipediaId": 213821,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Fortune Lady Wind",
+      "card": "a9f9416e-61a4-43aa-a27b-7a5dd2e5cbcf",
+      "yugipediaId": 61018,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Infernity Knight",
+      "card": "9823b4aa-2b4c-46fa-a030-a1248b2f7e07",
+      "yugipediaId": 156986,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Magical King Moonstar",
+      "card": "4a799795-1a1e-4f8e-a04f-23d713d4005b",
+      "yugipediaId": 383466,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Flare Resonator",
+      "card": "b75b66ed-f7ca-4ac6-9e86-bafc1fa0f42b",
+      "yugipediaId": 111841,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Blackwing - Ghibli the Searing Wind",
+      "card": "76c5d959-8548-42f2-8202-b5c37a60217b",
+      "yugipediaId": 113969,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Shield Warrior",
+      "card": "a1aeeb6c-1c8d-4c7a-8a05-1c3f1068a7c6",
+      "yugipediaId": 29442,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Dash Warrior",
+      "card": "5122d63e-0e95-49fa-bf92-f5fef4825fc3",
+      "yugipediaId": 127820,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Frequency Magician",
+      "card": "74f5f7f0-9653-4938-bd7b-64b601b5c363",
+      "yugipediaId": 77026,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Infernity Beetle",
+      "card": "45ce63dc-aa0d-4739-ac43-ea22f77d06ce",
+      "yugipediaId": 513518,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Jutte Fighter",
+      "card": "0abc377c-f429-4141-8dc2-ed36dc0dd719",
+      "yugipediaId": 81664,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Blackwing - Fane the Steel Chain",
+      "card": "ba31c1ff-9233-4770-a561-06245833a026",
+      "yugipediaId": 57999,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Dark Verger",
+      "card": "72f95f97-3168-4a78-a155-6897bf18921e",
+      "yugipediaId": 39268,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Fortress Warrior",
+      "card": "55cf2d94-750d-4f37-91c7-8b29d2c3c378",
+      "yugipediaId": 44662,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Morphtronic Cameran",
+      "card": "88a66e8d-208c-43e9-90ae-f42483da6e1e",
+      "yugipediaId": 46848,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Wattfox",
+      "card": "79f80150-23fc-4af1-a4ec-292e4f2e92de",
+      "yugipediaId": 127731,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "T.G. Booster Raptor",
+      "card": "e5407cd7-ddaf-4981-ac5f-1dcd8dd1485f",
+      "yugipediaId": 575057,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "T.G. Tank Grub",
+      "card": "d5dcfeff-8e3c-4138-be1f-500db0e801a1",
+      "yugipediaId": 575871,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Cupid Volley",
+      "card": "4d21d0f0-6d73-4e2e-a01d-530d2934e0f9",
+      "yugipediaId": 557289,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Sun Dragon Inti",
+      "card": "d1ec86c5-8a19-4afa-8000-15bb650c5e97",
+      "yugipediaId": 94635,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Moon Dragon Quilla",
+      "card": "634649a8-8d59-46ed-a677-3620f7a62ab8",
+      "yugipediaId": 94689,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Archfiend's Call",
+      "card": "9e1bed78-2a10-4094-b20f-dcc357e45bab",
+      "yugipediaId": 570211,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Opti-Camouflage Armor",
+      "card": "aa34d04f-45d2-4ca7-b3ef-579ccca5e11b",
+      "yugipediaId": 17151,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Uni-Song Tuning",
+      "card": "bf63e5bf-44b1-4b92-9226-9d9aadde7469",
+      "yugipediaId": 577416,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Dwimmered Path",
+      "card": "37b55e4e-2ac1-4d1a-ae77-910ebb5c9880",
+      "yugipediaId": 594488,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Miracle Stone",
+      "card": "44a857d7-61b3-487b-ae9f-64e0f39014b6",
+      "yugipediaId": 606189,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Fortune's Future",
+      "card": "b90c79ec-b952-49b9-9dc4-f082b71ee461",
+      "yugipediaId": 99188,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Against the Wind",
+      "card": "6cbf8cd9-321e-45a9-adc4-4c4a9008657a",
+      "yugipediaId": 50836,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Fighting Spirit",
+      "card": "70184a14-b59a-4886-8d97-cac7b275e972",
+      "yugipediaId": 29709,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Morphtronic Map",
+      "card": "334ec752-34e7-4de0-9830-4554cf01f740",
+      "yugipediaId": 57784,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Morphtronic Repair Unit",
+      "card": "8c99c883-420f-4a0a-bcf6-bcd58a079243",
+      "yugipediaId": 59310,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Thorn of Malice",
+      "card": "ed46b874-dfe4-4ff0-a9b9-ddedba366bad",
+      "yugipediaId": 63011,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Infernity Reflector",
+      "card": "39fc72c1-2efd-4e33-a34f-01561ab5d2e2",
+      "yugipediaId": 513522,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Passion of Baimasse",
+      "card": "619173ce-39d6-4cc3-918b-c26008a83252",
+      "yugipediaId": 719214,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Roar of the Earthbound Immortal",
+      "card": "7d2ba59c-3f6b-416a-882e-f161dee84f42",
+      "yugipediaId": 101365,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Infernity Force",
+      "card": "7e1670a4-878d-4cbc-ad86-dde96438a83d",
+      "yugipediaId": 100257,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Altar of the Bound Deity",
+      "card": "e5efb67a-d332-4b39-9747-1ba19a65e849",
+      "yugipediaId": 642336,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Earthbound Wave",
+      "card": "b9c0e339-5e9f-441b-ba83-7b80bcdfe2f7",
+      "yugipediaId": 101330,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Infernity Inferno",
+      "card": "0a9e079e-be1c-4968-a1d6-1b76833915dd",
+      "yugipediaId": 516271,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Descending Lost Star",
+      "card": "9d20feb2-d4c1-4bfa-b812-b9b3d6b00cfc",
+      "yugipediaId": 48945,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Blackwing - Bombardment",
+      "card": "52296db6-5d8b-4faf-aabe-d18bcb5ab030",
+      "yugipediaId": 99320,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Morphtronic Mix-up",
+      "card": "7ddb5569-6835-428c-a886-c395bfdaa918",
+      "yugipediaId": 57724,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "rarity": "SR"
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "The Opposites",
+      "skill": "cc9ce298-71af-4e8d-860e-fb037c866f0d",
+      "yugipediaId": 717084,
+      "obtainedVia": [
+        {
+          "kind": "missions",
+          "run": "November 2022",
+          "runIndex": 1,
+          "requirement": "Summon a Level (Rank) 7 or higher Dragon-Type monster 3 time(s) using Paradox."
+        },
+        {
+          "kind": "missions",
+          "run": "August 2022",
+          "runIndex": 0,
+          "requirement": "Summon a Level (Rank) 7 or higher Dragon-Type monster 3 time(s) using Paradox."
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Raid Duel - Bonds Beyond Time: Paradox vs. The Three Duelists",
+        "id": 1011667
+      }
+    ]
+  }
+}

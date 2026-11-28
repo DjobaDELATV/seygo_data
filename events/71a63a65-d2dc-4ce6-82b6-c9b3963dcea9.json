@@ -1,0 +1,374 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "71a63a65-d2dc-4ce6-82b6-c9b3963dcea9",
+  "name": {
+    "en": "Lumis and Umbra (Roaming Duelist event)"
+  },
+  "type": "Roaming Duelist event",
+  "duelWorlds": [
+    "Duel World (DM)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/2/26/LumisUmbraarehere-Banner.png",
+  "runs": [
+    {
+      "startDate": "2019-02-20",
+      "endDate": "2019-02-26"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Event Details",
+        "Duel Rewards"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "In addition to the following, standard Duel Rewards were also available by Dueling Lumis and Umbra Level 30 or less."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Illusory Snatcher\"",
+                "cards": [
+                  {
+                    "name": "Illusory Snatcher",
+                    "card": "9a85c8cb-14d8-4a49-b78f-79a0979e0908",
+                    "yugipediaId": 214343
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Obsidian Dragon\", \"Evilswarm Obliviwisp\", \"Missing Force\", \"Final Gesture\"",
+                "cards": [
+                  {
+                    "name": "Obsidian Dragon",
+                    "card": "13124e40-22ba-4064-b5fe-2bcd3aaf3ff1",
+                    "yugipediaId": 70049
+                  },
+                  {
+                    "name": "Evilswarm Obliviwisp",
+                    "card": "fc3598ee-1fc7-45f5-8a41-5ba7240ac8d2",
+                    "yugipediaId": 177831
+                  },
+                  {
+                    "name": "Missing Force",
+                    "card": "0d6ec897-2deb-4faa-8cb7-6fd4c4ceae9c",
+                    "yugipediaId": 230704
+                  },
+                  {
+                    "name": "Final Gesture",
+                    "card": "7b4d8a8a-6708-4751-8b5b-3dd7b479deda",
+                    "yugipediaId": 242926
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Shining Abyss\", \"Nuvia the Wicked\", \"Darkfall\"",
+                "cards": [
+                  {
+                    "name": "Shining Abyss",
+                    "card": "2081094d-2112-4b2f-9937-c429262ca766",
+                    "yugipediaId": 3612
+                  },
+                  {
+                    "name": "Nuvia the Wicked",
+                    "card": "158b0114-0d92-49b9-9ea9-f055567df732",
+                    "yugipediaId": 5071
+                  },
+                  {
+                    "name": "Darkfall",
+                    "card": "ac66e13d-8440-433a-93e5-10349b78a554",
+                    "yugipediaId": 131108
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Three-Legged Zombies\", \"Masked Clown\"",
+                "cards": [
+                  {
+                    "name": "Three-Legged Zombies",
+                    "card": "bede07f3-f513-4360-8b7d-1ffccad4e66a",
+                    "yugipediaId": 505784
+                  },
+                  {
+                    "name": "Masked Clown",
+                    "card": "fbfb684a-4176-4a3b-b1a8-bb3335756082",
+                    "yugipediaId": 4669
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Event Details",
+        "Event Missions"
+      ],
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against Lumis and Umbra in Duel World."
+              },
+              {
+                "text": "1 \"Shining Abyss\"",
+                "cards": [
+                  {
+                    "name": "Shining Abyss",
+                    "card": "2081094d-2112-4b2f-9937-c429262ca766",
+                    "yugipediaId": 3612,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 3 Duel(s) against Lumis and Umbra in Duel World."
+              },
+              {
+                "text": "1 \"Final Gesture\"",
+                "cards": [
+                  {
+                    "name": "Final Gesture",
+                    "card": "7b4d8a8a-6708-4751-8b5b-3dd7b479deda",
+                    "yugipediaId": 242926,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 7 Duel(s) against Lumis and Umbra in Duel World."
+              },
+              {
+                "text": "1 \"Obsidian Dragon\"",
+                "cards": [
+                  {
+                    "name": "Obsidian Dragon",
+                    "card": "13124e40-22ba-4064-b5fe-2bcd3aaf3ff1",
+                    "yugipediaId": 70049,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Play 15 Duel(s) against Lumis and Umbra in Duel World. (surrenders are not counted.)"
+              },
+              {
+                "text": "1 \"Illusory Snatcher\"",
+                "cards": [
+                  {
+                    "name": "Illusory Snatcher",
+                    "card": "9a85c8cb-14d8-4a49-b78f-79a0979e0908",
+                    "yugipediaId": 214343,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Illusory Snatcher",
+      "card": "9a85c8cb-14d8-4a49-b78f-79a0979e0908",
+      "yugipediaId": 214343,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Play 15 Duel(s) against Lumis and Umbra in Duel World. (surrenders are not counted.)"
+        }
+      ]
+    },
+    {
+      "name": "Obsidian Dragon",
+      "card": "13124e40-22ba-4064-b5fe-2bcd3aaf3ff1",
+      "yugipediaId": 70049,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 7 Duel(s) against Lumis and Umbra in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Evilswarm Obliviwisp",
+      "card": "fc3598ee-1fc7-45f5-8a41-5ba7240ac8d2",
+      "yugipediaId": 177831,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Missing Force",
+      "card": "0d6ec897-2deb-4faa-8cb7-6fd4c4ceae9c",
+      "yugipediaId": 230704,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Final Gesture",
+      "card": "7b4d8a8a-6708-4751-8b5b-3dd7b479deda",
+      "yugipediaId": 242926,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 3 Duel(s) against Lumis and Umbra in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Shining Abyss",
+      "card": "2081094d-2112-4b2f-9937-c429262ca766",
+      "yugipediaId": 3612,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 1 Duel(s) against Lumis and Umbra in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Nuvia the Wicked",
+      "card": "158b0114-0d92-49b9-9ea9-f055567df732",
+      "yugipediaId": 5071,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Darkfall",
+      "card": "ac66e13d-8440-433a-93e5-10349b78a554",
+      "yugipediaId": 131108,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Three-Legged Zombies",
+      "card": "bede07f3-f513-4360-8b7d-1ffccad4e66a",
+      "yugipediaId": 505784,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Masked Clown",
+      "card": "fbfb684a-4176-4a3b-b1a8-bb3335756082",
+      "yugipediaId": 4669,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Lumis & Umbra are here!",
+        "id": 596367
+      }
+    ]
+  }
+}

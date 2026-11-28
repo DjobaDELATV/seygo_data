@@ -1,0 +1,183 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "c747a7d1-ce50-4b4b-b7bd-4667e236718f",
+  "name": {
+    "en": "Jaden Yuki's Birthday Celebration Gift"
+  },
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/b/bb/JadenYukisBirthdayCelebrationGift-Banner.png",
+  "runs": [
+    {
+      "startDate": "2018-08-28",
+      "endDate": "2018-09-01"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "other",
+      "path": [
+        "Rewards"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "Players who logged into Yu-Gi-Oh! Duel Links during the following time periods would receive an appropriate \"Log-in Gift\" in their Gift Boxes.",
+        "Additionally, this campaign marked the debut of a 3D Summoning animation for \"Elemental HERO Flame Wingman\" (for Jaden Yuki)."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Day",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "August 28"
+              },
+              {
+                "text": "1 \"Elemental HERO Avian\" (Glossy)",
+                "cards": [
+                  {
+                    "name": "Elemental HERO Avian",
+                    "card": "88fc369b-c037-4877-8932-b991f1ff31da",
+                    "yugipediaId": 1782,
+                    "quantity": 1,
+                    "variant": "Glossy"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "August 29"
+              },
+              {
+                "text": "1 \"Elemental HERO Burstinatrix\" (Glossy)",
+                "cards": [
+                  {
+                    "name": "Elemental HERO Burstinatrix",
+                    "card": "b2d47d2d-f68d-4de2-8c2c-ba4cff6e7abf",
+                    "yugipediaId": 1713,
+                    "quantity": 1,
+                    "variant": "Glossy"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "August 30"
+              },
+              {
+                "text": "1 \"Elemental HERO Flame Wingman\" (Glossy)",
+                "cards": [
+                  {
+                    "name": "Elemental HERO Flame Wingman",
+                    "card": "96beb37e-70b8-4b0e-83c7-6efb1026ba17",
+                    "yugipediaId": 1748,
+                    "quantity": 1,
+                    "variant": "Glossy"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "August 31"
+              },
+              {
+                "text": "1 \"Skyscraper\" (Prismatic)\n1 \"Elemental HERO Neos\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Skyscraper",
+                    "card": "22a3bfe7-c293-49da-97b6-422eb531d112",
+                    "yugipediaId": 1537,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  },
+                  {
+                    "name": "Elemental HERO Neos",
+                    "card": "846f587c-3c3c-420a-9d7c-a4f4d7454fd0",
+                    "yugipediaId": 8803,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Elemental HERO Avian",
+      "card": "88fc369b-c037-4877-8932-b991f1ff31da",
+      "yugipediaId": 1782,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "runIndex": 0,
+          "requirement": "August 28"
+        }
+      ]
+    },
+    {
+      "name": "Elemental HERO Burstinatrix",
+      "card": "b2d47d2d-f68d-4de2-8c2c-ba4cff6e7abf",
+      "yugipediaId": 1713,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "runIndex": 0,
+          "requirement": "August 29"
+        }
+      ]
+    },
+    {
+      "name": "Elemental HERO Flame Wingman",
+      "card": "96beb37e-70b8-4b0e-83c7-6efb1026ba17",
+      "yugipediaId": 1748,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "runIndex": 0,
+          "requirement": "August 30"
+        }
+      ]
+    },
+    {
+      "name": "Skyscraper",
+      "card": "22a3bfe7-c293-49da-97b6-422eb531d112",
+      "yugipediaId": 1537,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "runIndex": 0,
+          "requirement": "August 31"
+        }
+      ]
+    },
+    {
+      "name": "Elemental HERO Neos",
+      "card": "846f587c-3c3c-420a-9d7c-a4f4d7454fd0",
+      "yugipediaId": 8803,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "runIndex": 0,
+          "requirement": "August 31"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Jaden Yuki's Birthday Celebration Gift",
+        "id": 650510
+      }
+    ]
+  }
+}

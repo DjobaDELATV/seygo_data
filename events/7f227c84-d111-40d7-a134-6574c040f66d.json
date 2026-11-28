@@ -1,0 +1,374 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "7f227c84-d111-40d7-a134-6574c040f66d",
+  "name": {
+    "en": "Carly Carmine is here!"
+  },
+  "type": "Roaming Duelist event",
+  "duelWorlds": [
+    "Duel World (5D's)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/a/a9/CarlyCarmineishere-Banner.png",
+  "runs": [
+    {
+      "startDate": "2020-01-13",
+      "endDate": "2020-01-20"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "In addition to the following, standard Duel Rewards were also available by Dueling Carly Carmine Level 30 or less."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Fortune Fairy Hikari\"",
+                "cards": [
+                  {
+                    "name": "Fortune Fairy Hikari",
+                    "card": "42bd5ac0-20fc-428a-9386-67edb412ae45",
+                    "yugipediaId": 598481
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Miracle Stone\", \"Dwimmered Path\", \"Medium of the Ice Barrier\", \"Quick Booster\"",
+                "cards": [
+                  {
+                    "name": "Miracle Stone",
+                    "card": "44a857d7-61b3-487b-ae9f-64e0f39014b6",
+                    "yugipediaId": 606189
+                  },
+                  {
+                    "name": "Dwimmered Path",
+                    "card": "37b55e4e-2ac1-4d1a-ae77-910ebb5c9880",
+                    "yugipediaId": 594488
+                  },
+                  {
+                    "name": "Medium of the Ice Barrier",
+                    "card": "6e24cec0-ef75-4c7b-9270-8053cf15f629",
+                    "yugipediaId": 46854
+                  },
+                  {
+                    "name": "Quick Booster",
+                    "card": "71c20372-623a-4234-88e7-cf493c4b04f5",
+                    "yugipediaId": 250707
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Fortune Fairy Chee\", \"Spellbook Star Hall\", \"Hermit of Prophecy\"",
+                "cards": [
+                  {
+                    "name": "Fortune Fairy Chee",
+                    "card": "576d3fd4-2326-43c5-ac43-eb045ead5607",
+                    "yugipediaId": 606187
+                  },
+                  {
+                    "name": "Spellbook Star Hall",
+                    "card": "c118a143-9f7c-46bb-b877-e12387760e83",
+                    "yugipediaId": 251991
+                  },
+                  {
+                    "name": "Hermit of Prophecy",
+                    "card": "ee55e1a3-bed3-4660-8295-408912091ba3",
+                    "yugipediaId": 223222
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Fairywitch\", \"Ancient Sorcerer\"",
+                "cards": [
+                  {
+                    "name": "Fairywitch",
+                    "card": "041549db-140b-4022-8887-5535eaf65674",
+                    "yugipediaId": 7550
+                  },
+                  {
+                    "name": "Ancient Sorcerer",
+                    "card": "6f17a256-d055-4be5-ab3d-47cf969337d1",
+                    "yugipediaId": 21480
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Rewards",
+        "Event Missions"
+      ],
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against Carly Carmine in Duel World."
+              },
+              {
+                "text": "1 \"Fortune Fairy Chee\"",
+                "cards": [
+                  {
+                    "name": "Fortune Fairy Chee",
+                    "card": "576d3fd4-2326-43c5-ac43-eb045ead5607",
+                    "yugipediaId": 606187,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 3 Duel(s) against Carly Carmine in Duel World."
+              },
+              {
+                "text": "1 \"Dwimmered Path\"",
+                "cards": [
+                  {
+                    "name": "Dwimmered Path",
+                    "card": "37b55e4e-2ac1-4d1a-ae77-910ebb5c9880",
+                    "yugipediaId": 594488,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 7 Duel(s) against Carly Carmine in Duel World."
+              },
+              {
+                "text": "1 \"Miracle Stone\"",
+                "cards": [
+                  {
+                    "name": "Miracle Stone",
+                    "card": "44a857d7-61b3-487b-ae9f-64e0f39014b6",
+                    "yugipediaId": 606189,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Play 15 Duel(s) against Carly Carmine in Duel World. (surrenders are not counted.)"
+              },
+              {
+                "text": "1 \"Fortune Fairy Hikari\"",
+                "cards": [
+                  {
+                    "name": "Fortune Fairy Hikari",
+                    "card": "42bd5ac0-20fc-428a-9386-67edb412ae45",
+                    "yugipediaId": 598481,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Fortune Fairy Hikari",
+      "card": "42bd5ac0-20fc-428a-9386-67edb412ae45",
+      "yugipediaId": 598481,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Play 15 Duel(s) against Carly Carmine in Duel World. (surrenders are not counted.)"
+        }
+      ]
+    },
+    {
+      "name": "Miracle Stone",
+      "card": "44a857d7-61b3-487b-ae9f-64e0f39014b6",
+      "yugipediaId": 606189,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 7 Duel(s) against Carly Carmine in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Dwimmered Path",
+      "card": "37b55e4e-2ac1-4d1a-ae77-910ebb5c9880",
+      "yugipediaId": 594488,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 3 Duel(s) against Carly Carmine in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Medium of the Ice Barrier",
+      "card": "6e24cec0-ef75-4c7b-9270-8053cf15f629",
+      "yugipediaId": 46854,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Quick Booster",
+      "card": "71c20372-623a-4234-88e7-cf493c4b04f5",
+      "yugipediaId": 250707,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Fortune Fairy Chee",
+      "card": "576d3fd4-2326-43c5-ac43-eb045ead5607",
+      "yugipediaId": 606187,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 1 Duel(s) against Carly Carmine in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Spellbook Star Hall",
+      "card": "c118a143-9f7c-46bb-b877-e12387760e83",
+      "yugipediaId": 251991,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Hermit of Prophecy",
+      "card": "ee55e1a3-bed3-4660-8295-408912091ba3",
+      "yugipediaId": 223222,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Fairywitch",
+      "card": "041549db-140b-4022-8887-5535eaf65674",
+      "yugipediaId": 7550,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Ancient Sorcerer",
+      "card": "6f17a256-d055-4be5-ab3d-47cf969337d1",
+      "yugipediaId": 21480,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Carly Carmine is here!",
+        "id": 1011657
+      }
+    ]
+  }
+}

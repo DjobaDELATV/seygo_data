@@ -1,0 +1,110 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "711487e7-6f96-4c9f-b3de-4d28b9bb76c9",
+  "name": {
+    "en": "\"Power Pros\" App x \"Yu-Gi-Oh!\" Collab Campaign"
+  },
+  "rushDuel": false,
+  "runs": [
+    {
+      "startDate": "2023-02-20",
+      "endDate": "2023-05-01"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "other",
+      "path": [
+        "Rewards"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "Players who logged into Yu-Gi-Oh! Duel Links during the duration of the event would receive all of the following rewards."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "1 \"Power Pro Lady Sisters\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Power Pro Lady Sisters",
+                    "card": "992bef10-faa4-4cd5-b7e2-55691ec36928",
+                    "yugipediaId": 716264,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "1 \"Power Pro Knight Sisters\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Power Pro Knight Sisters",
+                    "card": "e14bc989-2b36-48f5-988d-16bda20c3073",
+                    "yugipediaId": 716263,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Card sleeves: \"Power Pros\" App x \"Yu-Gi-Oh!\" Collab Campaign (Yugi Muto)"
+              }
+            ],
+            [
+              {
+                "text": "Card sleeves: \"Power Pros\" App x \"Yu-Gi-Oh!\" Collab Campaign (Seto Kaiba)"
+              }
+            ],
+            [
+              {
+                "text": "Card sleeves: \"Power Pros\" App x \"Yu-Gi-Oh!\" Collab Campaign (T\u00e9a Gardner)"
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Power Pro Lady Sisters",
+      "card": "992bef10-faa4-4cd5-b7e2-55691ec36928",
+      "yugipediaId": 716264,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "runIndex": 0
+        }
+      ]
+    },
+    {
+      "name": "Power Pro Knight Sisters",
+      "card": "e14bc989-2b36-48f5-988d-16bda20c3073",
+      "yugipediaId": 716263,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "runIndex": 0
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "\"Power Pros\" App x \"Yu-Gi-Oh!\" Collab Campaign",
+        "id": 1011628
+      }
+    ]
+  }
+}

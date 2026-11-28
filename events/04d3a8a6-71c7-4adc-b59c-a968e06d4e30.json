@@ -1,0 +1,630 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "04d3a8a6-71c7-4adc-b59c-a968e06d4e30",
+  "name": {
+    "en": "Mokuba Kaiba (Roaming Duelist event)"
+  },
+  "type": "Roaming Duelist event",
+  "duelWorlds": [
+    "Duel World (DM)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/5/5f/MokubaKaibaishere-Banner.png",
+  "runs": [
+    {
+      "startDate": "2017-06-19",
+      "endDate": "2017-06-27"
+    },
+    {
+      "startDate": "2017-08-22",
+      "endDate": "2017-08-28"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "notes": [
+        "In addition to the following, standard Duel Rewards were also available by Dueling Mokuba Level 30 or less."
+      ]
+    },
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "run": "August 2017",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Frost and Flame Dragon\", \"Darkflare Dragon\"",
+                "cards": [
+                  {
+                    "name": "Frost and Flame Dragon",
+                    "card": "a483754b-bae6-4684-a49a-40beed4b5db9",
+                    "yugipediaId": 511013
+                  },
+                  {
+                    "name": "Darkflare Dragon",
+                    "card": "7fa501be-bc43-451a-bd3b-ade77d5cab68",
+                    "yugipediaId": 178480
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Mosaic Manticore\", \"Divine Dragon Apocralyph\", \"Kidmodo Dragon\", \"Beacon of White\", \"Advance Draw\"",
+                "cards": [
+                  {
+                    "name": "Mosaic Manticore",
+                    "card": "54c8b868-f97c-4ce9-87b4-53497e43aaa9",
+                    "yugipediaId": 18899
+                  },
+                  {
+                    "name": "Divine Dragon Apocralyph",
+                    "card": "7fb57883-8f72-4f52-92a7-f9341f806c54",
+                    "yugipediaId": 194088
+                  },
+                  {
+                    "name": "Kidmodo Dragon",
+                    "card": "6fc44d69-6a7b-4b96-aaf1-32f1d1214b3a",
+                    "yugipediaId": 260324
+                  },
+                  {
+                    "name": "Beacon of White",
+                    "card": "8658c4d7-5c52-4569-8293-fd9910760f26",
+                    "yugipediaId": 384590
+                  },
+                  {
+                    "name": "Advance Draw",
+                    "card": "fc9db17a-84c7-4cb8-822a-e0fdfbbc5288",
+                    "yugipediaId": 52147
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Lava Dragon\", \"Divine Dragon Ragnarok\", \"Dragon Manipulator\", \"Dragon's Rage\"",
+                "cards": [
+                  {
+                    "name": "Lava Dragon",
+                    "card": "09f70f7d-2736-47f2-943e-626f1edef978",
+                    "yugipediaId": 59006
+                  },
+                  {
+                    "name": "Divine Dragon Ragnarok",
+                    "card": "baee618d-ccc3-4fc9-b36d-9578c5c33b67",
+                    "yugipediaId": 4870
+                  },
+                  {
+                    "name": "Dragon Manipulator",
+                    "card": "290dde93-f8e2-4a3f-8e82-cf201f57f64a",
+                    "yugipediaId": 7601
+                  },
+                  {
+                    "name": "Dragon's Rage",
+                    "card": "fcd788ee-4faa-46de-a0bf-a020257a227f",
+                    "yugipediaId": 9842
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"D. Tribe\", \"The Dragon's Bead\"",
+                "cards": [
+                  {
+                    "name": "D. Tribe",
+                    "card": "7ed4dc81-0d6a-4d14-9858-5e03785759da",
+                    "yugipediaId": 7996
+                  },
+                  {
+                    "name": "The Dragon's Bead",
+                    "card": "bcb64ea3-1654-439b-9a7d-ada51bb2db0c",
+                    "yugipediaId": 7604
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "run": "June 2017",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Darkflare Dragon\"",
+                "cards": [
+                  {
+                    "name": "Darkflare Dragon",
+                    "card": "7fa501be-bc43-451a-bd3b-ade77d5cab68",
+                    "yugipediaId": 178480
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Divine Dragon Apocralyph\", \"Kidmodo Dragon\", \"Beacon of White\", \"Advance Draw\"",
+                "cards": [
+                  {
+                    "name": "Divine Dragon Apocralyph",
+                    "card": "7fb57883-8f72-4f52-92a7-f9341f806c54",
+                    "yugipediaId": 194088
+                  },
+                  {
+                    "name": "Kidmodo Dragon",
+                    "card": "6fc44d69-6a7b-4b96-aaf1-32f1d1214b3a",
+                    "yugipediaId": 260324
+                  },
+                  {
+                    "name": "Beacon of White",
+                    "card": "8658c4d7-5c52-4569-8293-fd9910760f26",
+                    "yugipediaId": 384590
+                  },
+                  {
+                    "name": "Advance Draw",
+                    "card": "fc9db17a-84c7-4cb8-822a-e0fdfbbc5288",
+                    "yugipediaId": 52147
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Lava Dragon\", \"Divine Dragon Ragnarok\", \"Dragon's Rage\"",
+                "cards": [
+                  {
+                    "name": "Lava Dragon",
+                    "card": "09f70f7d-2736-47f2-943e-626f1edef978",
+                    "yugipediaId": 59006
+                  },
+                  {
+                    "name": "Divine Dragon Ragnarok",
+                    "card": "baee618d-ccc3-4fc9-b36d-9578c5c33b67",
+                    "yugipediaId": 4870
+                  },
+                  {
+                    "name": "Dragon's Rage",
+                    "card": "fcd788ee-4faa-46de-a0bf-a020257a227f",
+                    "yugipediaId": 9842
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"D. Tribe\", \"The Dragon's Bead\"",
+                "cards": [
+                  {
+                    "name": "D. Tribe",
+                    "card": "7ed4dc81-0d6a-4d14-9858-5e03785759da",
+                    "yugipediaId": 7996
+                  },
+                  {
+                    "name": "The Dragon's Bead",
+                    "card": "bcb64ea3-1654-439b-9a7d-ada51bb2db0c",
+                    "yugipediaId": 7604
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Rewards",
+        "Event Missions"
+      ],
+      "notes": [
+        "These missions were only available during the August 2017 run of this event."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against Mokuba Kaiba in Duel World."
+              },
+              {
+                "text": "1 \"Dragon's Rage\"",
+                "cards": [
+                  {
+                    "name": "Dragon's Rage",
+                    "card": "fcd788ee-4faa-46de-a0bf-a020257a227f",
+                    "yugipediaId": 9842,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 3 Duel(s) against Mokuba Kaiba in Duel World."
+              },
+              {
+                "text": "1 \"Lava Dragon\"",
+                "cards": [
+                  {
+                    "name": "Lava Dragon",
+                    "card": "09f70f7d-2736-47f2-943e-626f1edef978",
+                    "yugipediaId": 59006,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 7 Duel(s) against Mokuba Kaiba in Duel World."
+              },
+              {
+                "text": "1 \"Kidmodo Dragon\"",
+                "cards": [
+                  {
+                    "name": "Kidmodo Dragon",
+                    "card": "6fc44d69-6a7b-4b96-aaf1-32f1d1214b3a",
+                    "yugipediaId": 260324,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Play 15 Duel(s) against Mokuba Kaiba in Duel World."
+              },
+              {
+                "text": "1 \"Divine Dragon Apocralyph\"",
+                "cards": [
+                  {
+                    "name": "Divine Dragon Apocralyph",
+                    "card": "7fb57883-8f72-4f52-92a7-f9341f806c54",
+                    "yugipediaId": 194088,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Frost and Flame Dragon",
+      "card": "a483754b-bae6-4684-a49a-40beed4b5db9",
+      "yugipediaId": 511013,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "August 2017",
+          "runIndex": 1,
+          "requirement": "UR",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Darkflare Dragon",
+      "card": "7fa501be-bc43-451a-bd3b-ade77d5cab68",
+      "yugipediaId": 178480,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "August 2017",
+          "runIndex": 1,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "June 2017",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Mosaic Manticore",
+      "card": "54c8b868-f97c-4ce9-87b4-53497e43aaa9",
+      "yugipediaId": 18899,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "August 2017",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Divine Dragon Apocralyph",
+      "card": "7fb57883-8f72-4f52-92a7-f9341f806c54",
+      "yugipediaId": 194088,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "August 2017",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "June 2017",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "requirement": "Play 15 Duel(s) against Mokuba Kaiba in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Kidmodo Dragon",
+      "card": "6fc44d69-6a7b-4b96-aaf1-32f1d1214b3a",
+      "yugipediaId": 260324,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "August 2017",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "June 2017",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "requirement": "Win 7 Duel(s) against Mokuba Kaiba in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Beacon of White",
+      "card": "8658c4d7-5c52-4569-8293-fd9910760f26",
+      "yugipediaId": 384590,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "August 2017",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "June 2017",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Advance Draw",
+      "card": "fc9db17a-84c7-4cb8-822a-e0fdfbbc5288",
+      "yugipediaId": 52147,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "August 2017",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "June 2017",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Lava Dragon",
+      "card": "09f70f7d-2736-47f2-943e-626f1edef978",
+      "yugipediaId": 59006,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "August 2017",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "June 2017",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "missions",
+          "requirement": "Win 3 Duel(s) against Mokuba Kaiba in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Divine Dragon Ragnarok",
+      "card": "baee618d-ccc3-4fc9-b36d-9578c5c33b67",
+      "yugipediaId": 4870,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "August 2017",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "June 2017",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Dragon Manipulator",
+      "card": "290dde93-f8e2-4a3f-8e82-cf201f57f64a",
+      "yugipediaId": 7601,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "August 2017",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Dragon's Rage",
+      "card": "fcd788ee-4faa-46de-a0bf-a020257a227f",
+      "yugipediaId": 9842,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "August 2017",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "June 2017",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "missions",
+          "requirement": "Win 1 Duel(s) against Mokuba Kaiba in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "D. Tribe",
+      "card": "7ed4dc81-0d6a-4d14-9858-5e03785759da",
+      "yugipediaId": 7996,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "August 2017",
+          "runIndex": 1,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "June 2017",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "The Dragon's Bead",
+      "card": "bcb64ea3-1654-439b-9a7d-ada51bb2db0c",
+      "yugipediaId": 7604,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "August 2017",
+          "runIndex": 1,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "June 2017",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Mokuba Kaiba is here!",
+        "id": 679727
+      }
+    ]
+  }
+}

@@ -1,0 +1,681 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "59548daa-b122-4744-8f87-d9b8be97199e",
+  "name": {
+    "en": "Fantastic Pegasus"
+  },
+  "type": "Roaming Duelist event",
+  "duelWorlds": [
+    "Duel World (DM)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/2/2a/FantasticPegasusishere-Banner.png",
+  "runs": [
+    {
+      "startDate": "2019-06-20",
+      "endDate": "2019-06-27"
+    },
+    {
+      "startDate": "2019-09-08",
+      "endDate": "2019-09-17"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "notes": [
+        "In addition to the following, standard Duel Rewards were also available by Dueling Fantastic Pegasus Level 30 or less."
+      ]
+    },
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "run": "September 2019",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Toon Dark Magician\"",
+                "cards": [
+                  {
+                    "name": "Toon Dark Magician",
+                    "card": "019f6dad-a78f-47a0-b9e2-63470a9f514a",
+                    "yugipediaId": 371054
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Toon Ancient Gear Golem\", \"Toon Gemini Elf\", \"Toon Barrel Dragon\", \"Toon World\"",
+                "cards": [
+                  {
+                    "name": "Toon Ancient Gear Golem",
+                    "card": "63efd38f-40bb-4dd0-a326-bef1dd7005b9",
+                    "yugipediaId": 71374
+                  },
+                  {
+                    "name": "Toon Gemini Elf",
+                    "card": "4129df38-b83d-4dab-9a5b-1ed8c84b814b",
+                    "yugipediaId": 144
+                  },
+                  {
+                    "name": "Toon Barrel Dragon",
+                    "card": "d0fb9c81-5c01-4bc2-86d2-05e592176ed6",
+                    "yugipediaId": 408750
+                  },
+                  {
+                    "name": "Toon World",
+                    "card": "b1351bfd-0aed-4515-b842-80ead4537193",
+                    "yugipediaId": 420460
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Manga Ryu-Ran\", \"Toon Buster Blader\", \"Toon Alligator\", \"Jigen Bakudan\", \"Sword of Deep-Seated\"",
+                "cards": [
+                  {
+                    "name": "Manga Ryu-Ran",
+                    "card": "ce9bea71-24b7-4ba2-b086-827f7c71f0fa",
+                    "yugipediaId": 124
+                  },
+                  {
+                    "name": "Toon Buster Blader",
+                    "card": "525ffc54-11be-40c0-8ec6-2ac2a4ce94f5",
+                    "yugipediaId": 420676
+                  },
+                  {
+                    "name": "Toon Alligator",
+                    "card": "acbb9b08-cd62-4ad4-b9d7-a0876384301c",
+                    "yugipediaId": 7672
+                  },
+                  {
+                    "name": "Jigen Bakudan",
+                    "card": "8da500fa-f9ea-449a-b390-ac769c38f2c7",
+                    "yugipediaId": 4034
+                  },
+                  {
+                    "name": "Sword of Deep-Seated",
+                    "card": "b33e7054-d0e3-41b4-8eb5-9b42cdb93ae7",
+                    "yugipediaId": 6923
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "run": "June 2019",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Toon Cyber Dragon\"",
+                "cards": [
+                  {
+                    "name": "Toon Cyber Dragon",
+                    "card": "af9daf75-a16b-4871-82eb-2ba0aa203c56",
+                    "yugipediaId": 354273
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Toon Gemini Elf\", \"Toon Barrel Dragon\", \"Toon Mermaid\", \"Toon World\"",
+                "cards": [
+                  {
+                    "name": "Toon Gemini Elf",
+                    "card": "4129df38-b83d-4dab-9a5b-1ed8c84b814b",
+                    "yugipediaId": 144
+                  },
+                  {
+                    "name": "Toon Barrel Dragon",
+                    "card": "d0fb9c81-5c01-4bc2-86d2-05e592176ed6",
+                    "yugipediaId": 408750
+                  },
+                  {
+                    "name": "Toon Mermaid",
+                    "card": "5c9fc860-a9c4-4ef3-a8f3-cffd0e13f8b6",
+                    "yugipediaId": 233
+                  },
+                  {
+                    "name": "Toon World",
+                    "card": "b1351bfd-0aed-4515-b842-80ead4537193",
+                    "yugipediaId": 420460
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Manga Ryu-Ran\", \"Toon Buster Blader\", \"Toon Alligator\", \"Jigen Bakudan\", \"Sword of Deep-Seated\"",
+                "cards": [
+                  {
+                    "name": "Manga Ryu-Ran",
+                    "card": "ce9bea71-24b7-4ba2-b086-827f7c71f0fa",
+                    "yugipediaId": 124
+                  },
+                  {
+                    "name": "Toon Buster Blader",
+                    "card": "525ffc54-11be-40c0-8ec6-2ac2a4ce94f5",
+                    "yugipediaId": 420676
+                  },
+                  {
+                    "name": "Toon Alligator",
+                    "card": "acbb9b08-cd62-4ad4-b9d7-a0876384301c",
+                    "yugipediaId": 7672
+                  },
+                  {
+                    "name": "Jigen Bakudan",
+                    "card": "8da500fa-f9ea-449a-b390-ac769c38f2c7",
+                    "yugipediaId": 4034
+                  },
+                  {
+                    "name": "Sword of Deep-Seated",
+                    "card": "b33e7054-d0e3-41b4-8eb5-9b42cdb93ae7",
+                    "yugipediaId": 6923
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Rewards",
+        "Event Missions"
+      ],
+      "run": "September 2019",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against Fantastic Pegasus."
+              },
+              {
+                "text": "1 \"Toon Buster Blader\"",
+                "cards": [
+                  {
+                    "name": "Toon Buster Blader",
+                    "card": "525ffc54-11be-40c0-8ec6-2ac2a4ce94f5",
+                    "yugipediaId": 420676,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 3 Duel(s) against Fantastic Pegasus."
+              },
+              {
+                "text": "1 \"Toon Gemini Elf\"",
+                "cards": [
+                  {
+                    "name": "Toon Gemini Elf",
+                    "card": "4129df38-b83d-4dab-9a5b-1ed8c84b814b",
+                    "yugipediaId": 144,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 7 Duel(s) against Fantastic Pegasus."
+              },
+              {
+                "text": "1 \"Toon Ancient Gear Golem\"",
+                "cards": [
+                  {
+                    "name": "Toon Ancient Gear Golem",
+                    "card": "63efd38f-40bb-4dd0-a326-bef1dd7005b9",
+                    "yugipediaId": 71374,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Play 15 Duel(s) against Fantastic Pegasus. (surrenders are not counted.)"
+              },
+              {
+                "text": "1 \"Toon Dark Magician\"",
+                "cards": [
+                  {
+                    "name": "Toon Dark Magician",
+                    "card": "019f6dad-a78f-47a0-b9e2-63470a9f514a",
+                    "yugipediaId": 371054,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Rewards",
+        "Event Missions"
+      ],
+      "run": "June 2019",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against Fantastic Pegasus."
+              },
+              {
+                "text": "1 \"Manga Ryu-Ran\"",
+                "cards": [
+                  {
+                    "name": "Manga Ryu-Ran",
+                    "card": "ce9bea71-24b7-4ba2-b086-827f7c71f0fa",
+                    "yugipediaId": 124,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 3 Duel(s) against Fantastic Pegasus."
+              },
+              {
+                "text": "1 \"Toon Barrel Dragon\"",
+                "cards": [
+                  {
+                    "name": "Toon Barrel Dragon",
+                    "card": "d0fb9c81-5c01-4bc2-86d2-05e592176ed6",
+                    "yugipediaId": 408750,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 7 Duel(s) against Fantastic Pegasus."
+              },
+              {
+                "text": "1 \"Toon Gemini Elf\"",
+                "cards": [
+                  {
+                    "name": "Toon Gemini Elf",
+                    "card": "4129df38-b83d-4dab-9a5b-1ed8c84b814b",
+                    "yugipediaId": 144,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Play 15 Duel(s) against Fantastic Pegasus. (surrenders are not counted.)"
+              },
+              {
+                "text": "1 \"Toon Cyber Dragon\"",
+                "cards": [
+                  {
+                    "name": "Toon Cyber Dragon",
+                    "card": "af9daf75-a16b-4871-82eb-2ba0aa203c56",
+                    "yugipediaId": 354273,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Toon Dark Magician",
+      "card": "019f6dad-a78f-47a0-b9e2-63470a9f514a",
+      "yugipediaId": 371054,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "September 2019",
+          "runIndex": 1,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "missions",
+          "run": "September 2019",
+          "runIndex": 1,
+          "requirement": "Play 15 Duel(s) against Fantastic Pegasus. (surrenders are not counted.)"
+        }
+      ]
+    },
+    {
+      "name": "Toon Ancient Gear Golem",
+      "card": "63efd38f-40bb-4dd0-a326-bef1dd7005b9",
+      "yugipediaId": 71374,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "September 2019",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "run": "September 2019",
+          "runIndex": 1,
+          "requirement": "Win 7 Duel(s) against Fantastic Pegasus."
+        }
+      ]
+    },
+    {
+      "name": "Toon Gemini Elf",
+      "card": "4129df38-b83d-4dab-9a5b-1ed8c84b814b",
+      "yugipediaId": 144,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "September 2019",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "June 2019",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "run": "September 2019",
+          "runIndex": 1,
+          "requirement": "Win 3 Duel(s) against Fantastic Pegasus."
+        },
+        {
+          "kind": "missions",
+          "run": "June 2019",
+          "runIndex": 0,
+          "requirement": "Win 7 Duel(s) against Fantastic Pegasus."
+        }
+      ]
+    },
+    {
+      "name": "Toon Barrel Dragon",
+      "card": "d0fb9c81-5c01-4bc2-86d2-05e592176ed6",
+      "yugipediaId": 408750,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "September 2019",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "June 2019",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "run": "June 2019",
+          "runIndex": 0,
+          "requirement": "Win 3 Duel(s) against Fantastic Pegasus."
+        }
+      ]
+    },
+    {
+      "name": "Toon World",
+      "card": "b1351bfd-0aed-4515-b842-80ead4537193",
+      "yugipediaId": 420460,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "September 2019",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "June 2019",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Manga Ryu-Ran",
+      "card": "ce9bea71-24b7-4ba2-b086-827f7c71f0fa",
+      "yugipediaId": 124,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "September 2019",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "June 2019",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "missions",
+          "run": "June 2019",
+          "runIndex": 0,
+          "requirement": "Win 1 Duel(s) against Fantastic Pegasus."
+        }
+      ]
+    },
+    {
+      "name": "Toon Buster Blader",
+      "card": "525ffc54-11be-40c0-8ec6-2ac2a4ce94f5",
+      "yugipediaId": 420676,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "September 2019",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "June 2019",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "missions",
+          "run": "September 2019",
+          "runIndex": 1,
+          "requirement": "Win 1 Duel(s) against Fantastic Pegasus."
+        }
+      ]
+    },
+    {
+      "name": "Toon Alligator",
+      "card": "acbb9b08-cd62-4ad4-b9d7-a0876384301c",
+      "yugipediaId": 7672,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "September 2019",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "June 2019",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Jigen Bakudan",
+      "card": "8da500fa-f9ea-449a-b390-ac769c38f2c7",
+      "yugipediaId": 4034,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "September 2019",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "June 2019",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Sword of Deep-Seated",
+      "card": "b33e7054-d0e3-41b4-8eb5-9b42cdb93ae7",
+      "yugipediaId": 6923,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "September 2019",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "June 2019",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Toon Cyber Dragon",
+      "card": "af9daf75-a16b-4871-82eb-2ba0aa203c56",
+      "yugipediaId": 354273,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "June 2019",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "missions",
+          "run": "June 2019",
+          "runIndex": 0,
+          "requirement": "Play 15 Duel(s) against Fantastic Pegasus. (surrenders are not counted.)"
+        }
+      ]
+    },
+    {
+      "name": "Toon Mermaid",
+      "card": "5c9fc860-a9c4-4ef3-a8f3-cffd0e13f8b6",
+      "yugipediaId": 233,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "June 2019",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Fantastic Pegasus is here!",
+        "id": 640600
+      }
+    ]
+  }
+}

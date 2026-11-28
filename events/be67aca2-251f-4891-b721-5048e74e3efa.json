@@ -1,0 +1,374 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "be67aca2-251f-4891-b721-5048e74e3efa",
+  "name": {
+    "en": "Jack Atlas is here!"
+  },
+  "type": "Roaming Duelist event",
+  "duelWorlds": [
+    "Duel World (5D's)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/7/74/JackAtlasishere-Banner.png",
+  "runs": [
+    {
+      "startDate": "2018-11-26",
+      "endDate": "2018-12-04"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Event Details",
+        "Duel Rewards"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "In addition to the following, standard Duel Rewards were also available by Dueling Jack Atlas Level 30 or less."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Multiple Piece Golem\"",
+                "cards": [
+                  {
+                    "name": "Multiple Piece Golem",
+                    "card": "e4284e42-c6f1-4917-a05b-6b294bee4a77",
+                    "yugipediaId": 84202
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Big Piece Golem\", \"Lancer Archfiend\", \"Flare Resonator\", \"Descending Lost Star\"",
+                "cards": [
+                  {
+                    "name": "Big Piece Golem",
+                    "card": "d70d8abe-67d7-418b-9ce2-cbc097c89797",
+                    "yugipediaId": 29325
+                  },
+                  {
+                    "name": "Lancer Archfiend",
+                    "card": "67e97436-8556-4900-b2b3-3e9c64d59aab",
+                    "yugipediaId": 136068
+                  },
+                  {
+                    "name": "Flare Resonator",
+                    "card": "b75b66ed-f7ca-4ac6-9e86-bafc1fa0f42b",
+                    "yugipediaId": 111841
+                  },
+                  {
+                    "name": "Descending Lost Star",
+                    "card": "9d20feb2-d4c1-4bfa-b812-b9b3d6b00cfc",
+                    "yugipediaId": 48945
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Medium Piece Golem\", \"Mad Archfiend\", \"Power Invader\"",
+                "cards": [
+                  {
+                    "name": "Medium Piece Golem",
+                    "card": "27ba2fd9-743d-4828-aa3b-1b1d64e60129",
+                    "yugipediaId": 83636
+                  },
+                  {
+                    "name": "Mad Archfiend",
+                    "card": "edc410a9-44a0-4c3a-b1e1-4d59fe49bcd8",
+                    "yugipediaId": 31784
+                  },
+                  {
+                    "name": "Power Invader",
+                    "card": "92711950-3670-4804-8fea-7c2677ac4499",
+                    "yugipediaId": 110869
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Small Piece Golem\", \"Extra Veiler\"",
+                "cards": [
+                  {
+                    "name": "Small Piece Golem",
+                    "card": "573fe6bc-ef56-4e14-b996-adc9ac2ee50a",
+                    "yugipediaId": 29271
+                  },
+                  {
+                    "name": "Extra Veiler",
+                    "card": "b81e6818-e6af-4c3b-b57e-f0daa6725395",
+                    "yugipediaId": 145272
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Event Details",
+        "Event Missions"
+      ],
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against Jack Atlas."
+              },
+              {
+                "text": "1 \"Small Piece Golem\"",
+                "cards": [
+                  {
+                    "name": "Small Piece Golem",
+                    "card": "573fe6bc-ef56-4e14-b996-adc9ac2ee50a",
+                    "yugipediaId": 29271,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 3 Duel(s) against Jack Atlas."
+              },
+              {
+                "text": "1 \"Medium Piece Golem\"",
+                "cards": [
+                  {
+                    "name": "Medium Piece Golem",
+                    "card": "27ba2fd9-743d-4828-aa3b-1b1d64e60129",
+                    "yugipediaId": 83636,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 7 Duel(s) against Jack Atlas."
+              },
+              {
+                "text": "1 \"Big Piece Golem\"",
+                "cards": [
+                  {
+                    "name": "Big Piece Golem",
+                    "card": "d70d8abe-67d7-418b-9ce2-cbc097c89797",
+                    "yugipediaId": 29325,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Play 15 Duel(s) against Jack Atlas. (surrenders are not counted.)"
+              },
+              {
+                "text": "1 \"Multiple Piece Golem\"",
+                "cards": [
+                  {
+                    "name": "Multiple Piece Golem",
+                    "card": "e4284e42-c6f1-4917-a05b-6b294bee4a77",
+                    "yugipediaId": 84202,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Multiple Piece Golem",
+      "card": "e4284e42-c6f1-4917-a05b-6b294bee4a77",
+      "yugipediaId": 84202,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Play 15 Duel(s) against Jack Atlas. (surrenders are not counted.)"
+        }
+      ]
+    },
+    {
+      "name": "Big Piece Golem",
+      "card": "d70d8abe-67d7-418b-9ce2-cbc097c89797",
+      "yugipediaId": 29325,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 7 Duel(s) against Jack Atlas."
+        }
+      ]
+    },
+    {
+      "name": "Lancer Archfiend",
+      "card": "67e97436-8556-4900-b2b3-3e9c64d59aab",
+      "yugipediaId": 136068,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Flare Resonator",
+      "card": "b75b66ed-f7ca-4ac6-9e86-bafc1fa0f42b",
+      "yugipediaId": 111841,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Descending Lost Star",
+      "card": "9d20feb2-d4c1-4bfa-b812-b9b3d6b00cfc",
+      "yugipediaId": 48945,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Medium Piece Golem",
+      "card": "27ba2fd9-743d-4828-aa3b-1b1d64e60129",
+      "yugipediaId": 83636,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 3 Duel(s) against Jack Atlas."
+        }
+      ]
+    },
+    {
+      "name": "Mad Archfiend",
+      "card": "edc410a9-44a0-4c3a-b1e1-4d59fe49bcd8",
+      "yugipediaId": 31784,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Power Invader",
+      "card": "92711950-3670-4804-8fea-7c2677ac4499",
+      "yugipediaId": 110869,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Small Piece Golem",
+      "card": "573fe6bc-ef56-4e14-b996-adc9ac2ee50a",
+      "yugipediaId": 29271,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 1 Duel(s) against Jack Atlas."
+        }
+      ]
+    },
+    {
+      "name": "Extra Veiler",
+      "card": "b81e6818-e6af-4c3b-b57e-f0daa6725395",
+      "yugipediaId": 145272,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Jack Atlas is here!",
+        "id": 606753
+      }
+    ]
+  }
+}

@@ -1,0 +1,395 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "13d2138e-8133-4192-8c53-e8c7decd73b6",
+  "name": {
+    "en": "UTS on the Hunt! Finding Zuwijo!"
+  },
+  "type": "Gate Event",
+  "duelWorlds": [
+    "Duel World (GO RUSH!!)"
+  ],
+  "rushDuel": true,
+  "image": "https://img.yugipedia.com/b/b1/UTSontheHuntFindingZuwijo-Banner.png",
+  "runs": [
+    {
+      "startDate": "2024-11-26",
+      "endDate": "2024-12-05"
+    },
+    {
+      "startDate": "2025-04-21",
+      "endDate": "2025-04-29"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "run": "April 2025",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Voidvelg Tyrfing\", \"Voidvelg Elysium\"",
+                "cards": [
+                  {
+                    "name": "Voidvelg Tyrfing",
+                    "rushDuel": true
+                  },
+                  {
+                    "name": "Voidvelg Elysium",
+                    "rushDuel": true
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Voidvelg Black Dwarf\", \"Star Trancer\"",
+                "cards": [
+                  {
+                    "name": "Voidvelg Black Dwarf",
+                    "rushDuel": true
+                  },
+                  {
+                    "name": "Star Trancer",
+                    "rushDuel": true
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Dimension Azarth\"",
+                "cards": [
+                  {
+                    "name": "Dimension Azarth",
+                    "rushDuel": true
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Hitotsu-Me Giant\", \"Binding Chain\", \"Sparks\", \"Blue-Eyed Silver Zombie\"",
+                "cards": [
+                  {
+                    "name": "Hitotsu-Me Giant",
+                    "card": "0e9a1e21-a913-46e8-b24b-68e06c7916ed",
+                    "yugipediaId": 2861
+                  },
+                  {
+                    "name": "Binding Chain",
+                    "card": "76166444-00d2-4368-9218-76310e10c605",
+                    "yugipediaId": 19097
+                  },
+                  {
+                    "name": "Sparks",
+                    "card": "f33cc012-53f0-41b0-801e-23f7c1a72f4c",
+                    "yugipediaId": 544
+                  },
+                  {
+                    "name": "Blue-Eyed Silver Zombie",
+                    "card": "b5f4c187-72eb-4043-96ff-a2774d1f817a",
+                    "yugipediaId": 5816
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "run": "November 2024",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Voidvelg Elysium\"",
+                "cards": [
+                  {
+                    "name": "Voidvelg Elysium",
+                    "rushDuel": true
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Star Trancer\"",
+                "cards": [
+                  {
+                    "name": "Star Trancer",
+                    "rushDuel": true
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Dimension Azarth\"",
+                "cards": [
+                  {
+                    "name": "Dimension Azarth",
+                    "rushDuel": true
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Hitotsu-Me Giant\", \"Binding Chain\", \"Sparks\", \"Blue-Eyed Silver Zombie\"",
+                "cards": [
+                  {
+                    "name": "Hitotsu-Me Giant",
+                    "card": "0e9a1e21-a913-46e8-b24b-68e06c7916ed",
+                    "yugipediaId": 2861
+                  },
+                  {
+                    "name": "Binding Chain",
+                    "card": "76166444-00d2-4368-9218-76310e10c605",
+                    "yugipediaId": 19097
+                  },
+                  {
+                    "name": "Sparks",
+                    "card": "f33cc012-53f0-41b0-801e-23f7c1a72f4c",
+                    "yugipediaId": 544
+                  },
+                  {
+                    "name": "Blue-Eyed Silver Zombie",
+                    "card": "b5f4c187-72eb-4043-96ff-a2774d1f817a",
+                    "yugipediaId": 5816
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Voidvelg Tyrfing",
+      "rushDuel": true,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2025",
+          "runIndex": 1,
+          "requirement": "UR",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Voidvelg Elysium",
+      "rushDuel": true,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2025",
+          "runIndex": 1,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "November 2024",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Voidvelg Black Dwarf",
+      "rushDuel": true,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2025",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Star Trancer",
+      "rushDuel": true,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2025",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "November 2024",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Dimension Azarth",
+      "rushDuel": true,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2025",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "November 2024",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Hitotsu-Me Giant",
+      "card": "0e9a1e21-a913-46e8-b24b-68e06c7916ed",
+      "yugipediaId": 2861,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2025",
+          "runIndex": 1,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "November 2024",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Binding Chain",
+      "card": "76166444-00d2-4368-9218-76310e10c605",
+      "yugipediaId": 19097,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2025",
+          "runIndex": 1,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "November 2024",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Sparks",
+      "card": "f33cc012-53f0-41b0-801e-23f7c1a72f4c",
+      "yugipediaId": 544,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2025",
+          "runIndex": 1,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "November 2024",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Blue-Eyed Silver Zombie",
+      "card": "b5f4c187-72eb-4043-96ff-a2774d1f817a",
+      "yugipediaId": 5816,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2025",
+          "runIndex": 1,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "November 2024",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "UTS on the Hunt! Finding Zuwijo!",
+        "id": 1236551
+      }
+    ]
+  }
+}

@@ -1,0 +1,390 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "ab0c3829-d211-4ce1-a94e-2a6bca4b42da",
+  "name": {
+    "en": "Serious Chazz"
+  },
+  "type": "Roaming Duelist event",
+  "duelWorlds": [
+    "Duel World (GX)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/6/69/SeriousChazzishere-Banner.png",
+  "runs": [
+    {
+      "startDate": "2018-08-13",
+      "endDate": "2018-08-20"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Event Details",
+        "Duel Rewards"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "In addition to the following, standard Duel Rewards were also available by Dueling Serious Chazz Level 30 or less."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Ojamatch\", \"Armed Dragon LV10\"",
+                "cards": [
+                  {
+                    "name": "Ojamatch",
+                    "card": "78f81e42-092f-4240-b987-debaa16a16e3",
+                    "yugipediaId": 532981
+                  },
+                  {
+                    "name": "Armed Dragon LV10",
+                    "card": "fa384ff5-c385-439d-b2f4-76f1a0966ced",
+                    "yugipediaId": 1746
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Ojamandala\", \"Armed Dragon LV5\", \"Axe Dragonute\"",
+                "cards": [
+                  {
+                    "name": "Ojamandala",
+                    "card": "aa5464da-aeef-4856-ba75-117cf93f0da3",
+                    "yugipediaId": 595415
+                  },
+                  {
+                    "name": "Armed Dragon LV5",
+                    "card": "0ef7e978-0f3b-40ae-a96e-4b5b68a9a1ec",
+                    "yugipediaId": 4372
+                  },
+                  {
+                    "name": "Axe Dragonute",
+                    "card": "c83c42b6-9cbe-4e69-a8b9-30b6a24726ca",
+                    "yugipediaId": 6165
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Armed Dragon LV7\", \"Gemini Imps\", \"Armed Dragon LV3\", \"Chthonian Polymer\"",
+                "cards": [
+                  {
+                    "name": "Armed Dragon LV7",
+                    "card": "b9058d0b-af70-459e-8fc3-a4cab616cc64",
+                    "yugipediaId": 1606
+                  },
+                  {
+                    "name": "Gemini Imps",
+                    "card": "fed3287c-c5e7-4506-8a42-c9cc0d6fd11c",
+                    "yugipediaId": 5677
+                  },
+                  {
+                    "name": "Armed Dragon LV3",
+                    "card": "fd8bf276-039b-4735-8d7b-9a413922975f",
+                    "yugipediaId": 508687
+                  },
+                  {
+                    "name": "Chthonian Polymer",
+                    "card": "d58f2dc9-012b-4c8e-94cd-a23d2266b933",
+                    "yugipediaId": 5412
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Infernal Incinerator\"",
+                "cards": [
+                  {
+                    "name": "Infernal Incinerator",
+                    "card": "866c2c68-0eb7-4119-a55f-7677b496bd50",
+                    "yugipediaId": 509370
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Event Details",
+        "Event Missions"
+      ],
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against Serious Chazz."
+              },
+              {
+                "text": "1 \"Armed Dragon LV7\"",
+                "cards": [
+                  {
+                    "name": "Armed Dragon LV7",
+                    "card": "b9058d0b-af70-459e-8fc3-a4cab616cc64",
+                    "yugipediaId": 1606,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 3 Duel(s) against Serious Chazz."
+              },
+              {
+                "text": "1 \"Ojamandala\"",
+                "cards": [
+                  {
+                    "name": "Ojamandala",
+                    "card": "aa5464da-aeef-4856-ba75-117cf93f0da3",
+                    "yugipediaId": 595415,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 7 Duel(s) against Serious Chazz."
+              },
+              {
+                "text": "1 \"Axe Dragonute\"",
+                "cards": [
+                  {
+                    "name": "Axe Dragonute",
+                    "card": "c83c42b6-9cbe-4e69-a8b9-30b6a24726ca",
+                    "yugipediaId": 6165,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Play 15 Duel(s) against Serious Chazz. (surrenders are not counted.)"
+              },
+              {
+                "text": "1 \"Ojamatch\"",
+                "cards": [
+                  {
+                    "name": "Ojamatch",
+                    "card": "78f81e42-092f-4240-b987-debaa16a16e3",
+                    "yugipediaId": 532981,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Play 20 Duel(s) against Serious Chazz. (surrenders are not counted.)"
+              },
+              {
+                "text": "Card Sleeves: Armed Dragon"
+              }
+            ],
+            [
+              {
+                "text": "Play 25 Duel(s) against Serious Chazz. (surrenders are not counted.)"
+              },
+              {
+                "text": "Game Mat: Armed Dragon"
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Ojamatch",
+      "card": "78f81e42-092f-4240-b987-debaa16a16e3",
+      "yugipediaId": 532981,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Play 15 Duel(s) against Serious Chazz. (surrenders are not counted.)"
+        }
+      ]
+    },
+    {
+      "name": "Armed Dragon LV10",
+      "card": "fa384ff5-c385-439d-b2f4-76f1a0966ced",
+      "yugipediaId": 1746,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Ojamandala",
+      "card": "aa5464da-aeef-4856-ba75-117cf93f0da3",
+      "yugipediaId": 595415,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 3 Duel(s) against Serious Chazz."
+        }
+      ]
+    },
+    {
+      "name": "Armed Dragon LV5",
+      "card": "0ef7e978-0f3b-40ae-a96e-4b5b68a9a1ec",
+      "yugipediaId": 4372,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Axe Dragonute",
+      "card": "c83c42b6-9cbe-4e69-a8b9-30b6a24726ca",
+      "yugipediaId": 6165,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 7 Duel(s) against Serious Chazz."
+        }
+      ]
+    },
+    {
+      "name": "Armed Dragon LV7",
+      "card": "b9058d0b-af70-459e-8fc3-a4cab616cc64",
+      "yugipediaId": 1606,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 1 Duel(s) against Serious Chazz."
+        }
+      ]
+    },
+    {
+      "name": "Gemini Imps",
+      "card": "fed3287c-c5e7-4506-8a42-c9cc0d6fd11c",
+      "yugipediaId": 5677,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Armed Dragon LV3",
+      "card": "fd8bf276-039b-4735-8d7b-9a413922975f",
+      "yugipediaId": 508687,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Chthonian Polymer",
+      "card": "d58f2dc9-012b-4c8e-94cd-a23d2266b933",
+      "yugipediaId": 5412,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Infernal Incinerator",
+      "card": "866c2c68-0eb7-4119-a55f-7677b496bd50",
+      "yugipediaId": 509370,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Serious Chazz is here!",
+        "id": 659275
+      }
+    ]
+  }
+}

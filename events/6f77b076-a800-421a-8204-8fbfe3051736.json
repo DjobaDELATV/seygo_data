@@ -1,0 +1,411 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "6f77b076-a800-421a-8204-8fbfe3051736",
+  "name": {
+    "en": "Bonz (Roaming Duelist event)"
+  },
+  "type": "Roaming Duelist event",
+  "duelWorlds": [
+    "Duel World (DM)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/f/f8/Bonzishere-Banner.png",
+  "runs": [
+    {
+      "startDate": "2017-10-12",
+      "endDate": "2017-10-19"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Event Details",
+        "Duel Rewards"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "In addition to the following, standard Duel Rewards were also available by Dueling Bonz Level 30 or less."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Pumpking the King of Ghosts\"",
+                "cards": [
+                  {
+                    "name": "Pumpking the King of Ghosts",
+                    "card": "a3145a23-88f4-4cb7-bf44-9f8b000b1f4a",
+                    "yugipediaId": 62
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Ryu Kokki\", \"Castle of Dark Illusions\", \"Call of the Mummy\", \"Monster Rebone\"",
+                "cards": [
+                  {
+                    "name": "Ryu Kokki",
+                    "card": "8c58d60f-3c00-4eff-baaf-698786e185f3",
+                    "yugipediaId": 1888
+                  },
+                  {
+                    "name": "Castle of Dark Illusions",
+                    "card": "92299df5-f62b-49a0-950f-b1c9732aa53d",
+                    "yugipediaId": 4995
+                  },
+                  {
+                    "name": "Call of the Mummy",
+                    "card": "6dae878b-af73-46cb-bda3-ed87c84afeab",
+                    "yugipediaId": 2239
+                  },
+                  {
+                    "name": "Monster Rebone",
+                    "card": "11e30679-34c2-4074-82b2-60ff08d63608",
+                    "yugipediaId": 334713
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Ghostrick Ghoul\", \"Ghostrick Mummy\", \"Ghostrick Skeleton\"",
+                "cards": [
+                  {
+                    "name": "Ghostrick Ghoul",
+                    "card": "ae8fd713-9804-4651-bbe9-999ffc6851d3",
+                    "yugipediaId": 320162
+                  },
+                  {
+                    "name": "Ghostrick Mummy",
+                    "card": "fdca6bc6-fd30-4225-8f0c-9ed321001d7d",
+                    "yugipediaId": 306659
+                  },
+                  {
+                    "name": "Ghostrick Skeleton",
+                    "card": "839dfa4d-0b00-4e2a-8156-c76331ab96e3",
+                    "yugipediaId": 306625
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Armored Zombie\", \"Clown Zombie\"",
+                "cards": [
+                  {
+                    "name": "Armored Zombie",
+                    "card": "cbdc42a4-d211-45ad-8181-aa505fb91f6a",
+                    "yugipediaId": 510596
+                  },
+                  {
+                    "name": "Clown Zombie",
+                    "card": "f21acbd6-00df-4906-afa7-65e959317236",
+                    "yugipediaId": 509005
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Event Details",
+        "Event Missions"
+      ],
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against Bonz in Duel World."
+              },
+              {
+                "text": "1 \"Armored Zombie\"",
+                "cards": [
+                  {
+                    "name": "Armored Zombie",
+                    "card": "cbdc42a4-d211-45ad-8181-aa505fb91f6a",
+                    "yugipediaId": 510596,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 3 Duel(s) against Bonz in Duel World."
+              },
+              {
+                "text": "1 \"Ghostrick Skeleton\"",
+                "cards": [
+                  {
+                    "name": "Ghostrick Skeleton",
+                    "card": "839dfa4d-0b00-4e2a-8156-c76331ab96e3",
+                    "yugipediaId": 306625,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 7 Duel(s) against Bonz in Duel World."
+              },
+              {
+                "text": "1 \"Castle of Dark Illusions\"",
+                "cards": [
+                  {
+                    "name": "Castle of Dark Illusions",
+                    "card": "92299df5-f62b-49a0-950f-b1c9732aa53d",
+                    "yugipediaId": 4995,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Play 10 Duel(s) against Bonz in Duel World."
+              },
+              {
+                "text": "1 \"Call of the Mummy\"",
+                "cards": [
+                  {
+                    "name": "Call of the Mummy",
+                    "card": "6dae878b-af73-46cb-bda3-ed87c84afeab",
+                    "yugipediaId": 2239,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Play 15 Duel(s) against Bonz in Duel World."
+              },
+              {
+                "text": "1 \"Pumpking the King of Ghosts\"",
+                "cards": [
+                  {
+                    "name": "Pumpking the King of Ghosts",
+                    "card": "a3145a23-88f4-4cb7-bf44-9f8b000b1f4a",
+                    "yugipediaId": 62,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Achieve 1 No Damage win(s) in Duels against Bonz using Joey Wheeler."
+              },
+              {
+                "text": "Card Sleeves"
+              }
+            ],
+            [
+              {
+                "text": "Achieve 3 No Damage win(s) in Duels against Bonz using Joey Wheeler."
+              },
+              {
+                "text": "Game Mat"
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Pumpking the King of Ghosts",
+      "card": "a3145a23-88f4-4cb7-bf44-9f8b000b1f4a",
+      "yugipediaId": 62,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Play 15 Duel(s) against Bonz in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Ryu Kokki",
+      "card": "8c58d60f-3c00-4eff-baaf-698786e185f3",
+      "yugipediaId": 1888,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Castle of Dark Illusions",
+      "card": "92299df5-f62b-49a0-950f-b1c9732aa53d",
+      "yugipediaId": 4995,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 7 Duel(s) against Bonz in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Call of the Mummy",
+      "card": "6dae878b-af73-46cb-bda3-ed87c84afeab",
+      "yugipediaId": 2239,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Play 10 Duel(s) against Bonz in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Monster Rebone",
+      "card": "11e30679-34c2-4074-82b2-60ff08d63608",
+      "yugipediaId": 334713,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Ghostrick Ghoul",
+      "card": "ae8fd713-9804-4651-bbe9-999ffc6851d3",
+      "yugipediaId": 320162,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Ghostrick Mummy",
+      "card": "fdca6bc6-fd30-4225-8f0c-9ed321001d7d",
+      "yugipediaId": 306659,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Ghostrick Skeleton",
+      "card": "839dfa4d-0b00-4e2a-8156-c76331ab96e3",
+      "yugipediaId": 306625,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 3 Duel(s) against Bonz in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Armored Zombie",
+      "card": "cbdc42a4-d211-45ad-8181-aa505fb91f6a",
+      "yugipediaId": 510596,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 1 Duel(s) against Bonz in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Clown Zombie",
+      "card": "f21acbd6-00df-4906-afa7-65e959317236",
+      "yugipediaId": 509005,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Bonz is here!",
+        "id": 694700
+      }
+    ]
+  }
+}

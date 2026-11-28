@@ -1,0 +1,213 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "033e17bf-5a11-4d93-89b1-cdd641f7da04",
+  "name": {
+    "en": "8th Anniversary Campaign"
+  },
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/f/f8/8thAnniversaryCampaign-Banner.png",
+  "runs": [
+    {
+      "startDate": "2025-01-12",
+      "endDate": "2026-01-11"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "other",
+      "path": [
+        "Rewards"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "Players who logged into Yu-Gi-Oh! Duel Links during the duration of the event would receive all of the following rewards.",
+        "In addition, for each day logged in, players would also receive 1 of the following rewards:"
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "1 \"Rainbow Neos\" (Ultra Prismatic)",
+                "cards": [
+                  {
+                    "name": "Rainbow Neos",
+                    "card": "dbf1e1ac-8b8e-4a50-8b2b-5803e85797da",
+                    "yugipediaId": 539132,
+                    "quantity": 1,
+                    "variant": "Ultra Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "1 \"Pot of Greed\" (Rush Duel/Prismatic)",
+                "cards": [
+                  {
+                    "name": "Pot of Greed",
+                    "rushDuel": true,
+                    "quantity": 1,
+                    "variant": "Rush Duel/Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "1000 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1 Chronicle Card Ticket (Surface Finish: Full Starlight/Rim Color: Silver/Name Color: Gold)"
+              }
+            ],
+            [
+              {
+                "text": "1 Skill Ticket"
+              }
+            ],
+            [
+              {
+                "text": "1 Character Unlock Ticket"
+              }
+            ],
+            [
+              {
+                "text": "Card Sleeves: 8-Year Anniversary"
+              }
+            ],
+            [
+              {
+                "text": "Game Mat: 8-Year Anniversary"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Day",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Day 1"
+              },
+              {
+                "text": "1 UR/SR Ticket (Speed/Prismatic)"
+              }
+            ],
+            [
+              {
+                "text": "Day 2"
+              },
+              {
+                "text": "1 Dream SR Ticket (Speed/Glossy)"
+              }
+            ],
+            [
+              {
+                "text": "Day 3"
+              },
+              {
+                "text": "1 Name Color: Gold"
+              }
+            ],
+            [
+              {
+                "text": "Day 4"
+              },
+              {
+                "text": "1 Dream SR Ticket (Rush/Glossy)"
+              }
+            ],
+            [
+              {
+                "text": "Day 5"
+              },
+              {
+                "text": "1 UR/SR Ticket (Rush/Prismatic)"
+              }
+            ],
+            [
+              {
+                "text": "Day 6"
+              },
+              {
+                "text": "1 Rim Color: Gold"
+              }
+            ],
+            [
+              {
+                "text": "Day 7"
+              },
+              {
+                "text": "1 Dream UR Ticket (Speed/Glossy)"
+              }
+            ],
+            [
+              {
+                "text": "Day 8"
+              },
+              {
+                "text": "1 Dream UR Ticket (Rush/Glossy)"
+              }
+            ],
+            [
+              {
+                "text": "Day 9"
+              },
+              {
+                "text": "1 UR/SR Ticket (Speed/Glossy)"
+              }
+            ],
+            [
+              {
+                "text": "Day 10"
+              },
+              {
+                "text": "1 Surface Finish: Aurora"
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Rainbow Neos",
+      "card": "dbf1e1ac-8b8e-4a50-8b2b-5803e85797da",
+      "yugipediaId": 539132,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "runIndex": 0
+        }
+      ]
+    },
+    {
+      "name": "Pot of Greed",
+      "rushDuel": true,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "runIndex": 0
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "8th Anniversary Campaign",
+        "id": 1169762
+      }
+    ]
+  }
+}

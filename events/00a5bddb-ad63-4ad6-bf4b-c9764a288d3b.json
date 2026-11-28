@@ -1,0 +1,723 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "00a5bddb-ad63-4ad6-bf4b-c9764a288d3b",
+  "name": {
+    "en": "Epic Yami"
+  },
+  "type": "Roaming Duelist event",
+  "duelWorlds": [
+    "Duel World (DM)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/2/2d/EpicYamiishere-Banner.png",
+  "runs": [
+    {
+      "startDate": "2019-01-11",
+      "endDate": "2019-01-18"
+    },
+    {
+      "startDate": "2019-04-08",
+      "endDate": "2019-04-15"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Event Details",
+        "Duel Rewards"
+      ],
+      "notes": [
+        "In addition to the following, standard Duel Rewards were also available by Dueling Epic Yami Level 30 or less."
+      ]
+    },
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Event Details",
+        "Duel Rewards"
+      ],
+      "run": "April 2019",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Archfiend Commander\"",
+                "cards": [
+                  {
+                    "name": "Archfiend Commander",
+                    "card": "1350acd8-8c37-4b7d-ae57-afd51fa80b8b",
+                    "yugipediaId": 269889
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Crusader of Endymion\", \"Charging Gaia the Fierce Knight\", \"The Legendary Exodia Incarnate\", \"Dark Magic Expanded\"",
+                "cards": [
+                  {
+                    "name": "Crusader of Endymion",
+                    "card": "90021cee-fc4d-4e42-955f-d5fcbe4b48df",
+                    "yugipediaId": 98318
+                  },
+                  {
+                    "name": "Charging Gaia the Fierce Knight",
+                    "card": "241e8650-c933-4dc8-9d45-cffb809d32b7",
+                    "yugipediaId": 354510
+                  },
+                  {
+                    "name": "The Legendary Exodia Incarnate",
+                    "card": "52d41124-c910-4d70-b25c-9738b8af620a",
+                    "yugipediaId": 432904
+                  },
+                  {
+                    "name": "Dark Magic Expanded",
+                    "card": "d99d72d9-41d1-4854-9d69-8afcec58ec58",
+                    "yugipediaId": 384345
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Aqua Madoor\", \"Kanan the Swordmistress\"",
+                "cards": [
+                  {
+                    "name": "Aqua Madoor",
+                    "card": "b043a315-3350-4e84-86e6-fce5fe9fe141",
+                    "yugipediaId": 505432
+                  },
+                  {
+                    "name": "Kanan the Swordmistress",
+                    "card": "7def39ea-fc9a-49ea-8097-0e55ec111744",
+                    "yugipediaId": 2443
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Mushroom Man\", \"Griffore\", \"Ancient Sorcerer\"",
+                "cards": [
+                  {
+                    "name": "Mushroom Man",
+                    "card": "6b255dcc-b608-4e94-a932-a978fd69a534",
+                    "yugipediaId": 18141
+                  },
+                  {
+                    "name": "Griffore",
+                    "card": "ea78efdc-dc78-4644-ba12-01f83a277bc8",
+                    "yugipediaId": 21669
+                  },
+                  {
+                    "name": "Ancient Sorcerer",
+                    "card": "6f17a256-d055-4be5-ab3d-47cf969337d1",
+                    "yugipediaId": 21480
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Event Details",
+        "Duel Rewards"
+      ],
+      "run": "January 2019",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Magician of Dark Illusion\"",
+                "cards": [
+                  {
+                    "name": "Magician of Dark Illusion",
+                    "card": "050c5212-445f-4543-8df3-d574f60bce36",
+                    "yugipediaId": 359929
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Crusader of Endymion\", \"Charging Gaia the Fierce Knight\", \"Magician's Robe\", \"Dark Magic Expanded\"",
+                "cards": [
+                  {
+                    "name": "Crusader of Endymion",
+                    "card": "90021cee-fc4d-4e42-955f-d5fcbe4b48df",
+                    "yugipediaId": 98318
+                  },
+                  {
+                    "name": "Charging Gaia the Fierce Knight",
+                    "card": "241e8650-c933-4dc8-9d45-cffb809d32b7",
+                    "yugipediaId": 354510
+                  },
+                  {
+                    "name": "Magician's Robe",
+                    "card": "c009396c-2910-46aa-9327-d67536693632",
+                    "yugipediaId": 360101
+                  },
+                  {
+                    "name": "Dark Magic Expanded",
+                    "card": "d99d72d9-41d1-4854-9d69-8afcec58ec58",
+                    "yugipediaId": 384345
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Mystical Elf\", \"Kanan the Swordmistress\"",
+                "cards": [
+                  {
+                    "name": "Mystical Elf",
+                    "card": "4507fde7-aeea-420b-a2be-4bd8d3654a3c",
+                    "yugipediaId": 1534
+                  },
+                  {
+                    "name": "Kanan the Swordmistress",
+                    "card": "7def39ea-fc9a-49ea-8097-0e55ec111744",
+                    "yugipediaId": 2443
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Mushroom Man\", \"Griffore\", \"Kamionwizard\"",
+                "cards": [
+                  {
+                    "name": "Mushroom Man",
+                    "card": "6b255dcc-b608-4e94-a932-a978fd69a534",
+                    "yugipediaId": 18141
+                  },
+                  {
+                    "name": "Griffore",
+                    "card": "ea78efdc-dc78-4644-ba12-01f83a277bc8",
+                    "yugipediaId": 21669
+                  },
+                  {
+                    "name": "Kamionwizard",
+                    "card": "868bce77-217e-4829-ba79-41751cba085e",
+                    "yugipediaId": 5856
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Event Details",
+        "Event Missions"
+      ],
+      "run": "April 2019",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against Epic Yami."
+              },
+              {
+                "text": "1 \"Aqua Madoor\"",
+                "cards": [
+                  {
+                    "name": "Aqua Madoor",
+                    "card": "b043a315-3350-4e84-86e6-fce5fe9fe141",
+                    "yugipediaId": 505432,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 3 Duel(s) against Epic Yami."
+              },
+              {
+                "text": "1 \"Charging Gaia the Fierce Knight\"",
+                "cards": [
+                  {
+                    "name": "Charging Gaia the Fierce Knight",
+                    "card": "241e8650-c933-4dc8-9d45-cffb809d32b7",
+                    "yugipediaId": 354510,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 7 Duel(s) against Epic Yami."
+              },
+              {
+                "text": "1 \"The Legendary Exodia Incarnate\"",
+                "cards": [
+                  {
+                    "name": "The Legendary Exodia Incarnate",
+                    "card": "52d41124-c910-4d70-b25c-9738b8af620a",
+                    "yugipediaId": 432904,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Play 15 Duel(s) against Epic Yami. (surrenders are not counted.)"
+              },
+              {
+                "text": "1 \"Archfiend Commander\"",
+                "cards": [
+                  {
+                    "name": "Archfiend Commander",
+                    "card": "1350acd8-8c37-4b7d-ae57-afd51fa80b8b",
+                    "yugipediaId": 269889,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Event Details",
+        "Event Missions"
+      ],
+      "run": "January 2019",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against Epic Yami."
+              },
+              {
+                "text": "1 \"Kanan the Swordmistress\"",
+                "cards": [
+                  {
+                    "name": "Kanan the Swordmistress",
+                    "card": "7def39ea-fc9a-49ea-8097-0e55ec111744",
+                    "yugipediaId": 2443,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 3 Duel(s) against Epic Yami."
+              },
+              {
+                "text": "1 \"Magician's Robe\"",
+                "cards": [
+                  {
+                    "name": "Magician's Robe",
+                    "card": "c009396c-2910-46aa-9327-d67536693632",
+                    "yugipediaId": 360101,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 7 Duel(s) against Epic Yami."
+              },
+              {
+                "text": "1 \"Crusader of Endymion\"",
+                "cards": [
+                  {
+                    "name": "Crusader of Endymion",
+                    "card": "90021cee-fc4d-4e42-955f-d5fcbe4b48df",
+                    "yugipediaId": 98318,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Play 15 Duel(s) against Epic Yami. (surrenders are not counted.)"
+              },
+              {
+                "text": "1 \"Magician of Dark Illusion\"",
+                "cards": [
+                  {
+                    "name": "Magician of Dark Illusion",
+                    "card": "050c5212-445f-4543-8df3-d574f60bce36",
+                    "yugipediaId": 359929,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Play 20 Duel(s) against Epic Yami. (surrenders are not counted.)"
+              },
+              {
+                "text": "Skill: Master of Magicians"
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Archfiend Commander",
+      "card": "1350acd8-8c37-4b7d-ae57-afd51fa80b8b",
+      "yugipediaId": 269889,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2019",
+          "runIndex": 1,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "missions",
+          "run": "April 2019",
+          "runIndex": 1,
+          "requirement": "Play 15 Duel(s) against Epic Yami. (surrenders are not counted.)"
+        }
+      ]
+    },
+    {
+      "name": "Crusader of Endymion",
+      "card": "90021cee-fc4d-4e42-955f-d5fcbe4b48df",
+      "yugipediaId": 98318,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2019",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "January 2019",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "run": "January 2019",
+          "runIndex": 0,
+          "requirement": "Win 7 Duel(s) against Epic Yami."
+        }
+      ]
+    },
+    {
+      "name": "Charging Gaia the Fierce Knight",
+      "card": "241e8650-c933-4dc8-9d45-cffb809d32b7",
+      "yugipediaId": 354510,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2019",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "January 2019",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "run": "April 2019",
+          "runIndex": 1,
+          "requirement": "Win 3 Duel(s) against Epic Yami."
+        }
+      ]
+    },
+    {
+      "name": "The Legendary Exodia Incarnate",
+      "card": "52d41124-c910-4d70-b25c-9738b8af620a",
+      "yugipediaId": 432904,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2019",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "run": "April 2019",
+          "runIndex": 1,
+          "requirement": "Win 7 Duel(s) against Epic Yami."
+        }
+      ]
+    },
+    {
+      "name": "Dark Magic Expanded",
+      "card": "d99d72d9-41d1-4854-9d69-8afcec58ec58",
+      "yugipediaId": 384345,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2019",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "January 2019",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Aqua Madoor",
+      "card": "b043a315-3350-4e84-86e6-fce5fe9fe141",
+      "yugipediaId": 505432,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2019",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "missions",
+          "run": "April 2019",
+          "runIndex": 1,
+          "requirement": "Win 1 Duel(s) against Epic Yami."
+        }
+      ]
+    },
+    {
+      "name": "Kanan the Swordmistress",
+      "card": "7def39ea-fc9a-49ea-8097-0e55ec111744",
+      "yugipediaId": 2443,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2019",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "January 2019",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "missions",
+          "run": "January 2019",
+          "runIndex": 0,
+          "requirement": "Win 1 Duel(s) against Epic Yami."
+        }
+      ]
+    },
+    {
+      "name": "Mushroom Man",
+      "card": "6b255dcc-b608-4e94-a932-a978fd69a534",
+      "yugipediaId": 18141,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2019",
+          "runIndex": 1,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "January 2019",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Griffore",
+      "card": "ea78efdc-dc78-4644-ba12-01f83a277bc8",
+      "yugipediaId": 21669,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2019",
+          "runIndex": 1,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "January 2019",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Ancient Sorcerer",
+      "card": "6f17a256-d055-4be5-ab3d-47cf969337d1",
+      "yugipediaId": 21480,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2019",
+          "runIndex": 1,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Magician of Dark Illusion",
+      "card": "050c5212-445f-4543-8df3-d574f60bce36",
+      "yugipediaId": 359929,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "January 2019",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "missions",
+          "run": "January 2019",
+          "runIndex": 0,
+          "requirement": "Play 15 Duel(s) against Epic Yami. (surrenders are not counted.)"
+        }
+      ]
+    },
+    {
+      "name": "Magician's Robe",
+      "card": "c009396c-2910-46aa-9327-d67536693632",
+      "yugipediaId": 360101,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "January 2019",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "run": "January 2019",
+          "runIndex": 0,
+          "requirement": "Win 3 Duel(s) against Epic Yami."
+        }
+      ]
+    },
+    {
+      "name": "Mystical Elf",
+      "card": "4507fde7-aeea-420b-a2be-4bd8d3654a3c",
+      "yugipediaId": 1534,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "January 2019",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Kamionwizard",
+      "card": "868bce77-217e-4829-ba79-41751cba085e",
+      "yugipediaId": 5856,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "January 2019",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Epic Yami is here!",
+        "id": 588536
+      }
+    ]
+  }
+}

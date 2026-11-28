@@ -1,0 +1,5911 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "3c4d1f07-0012-4c5d-823c-ea37f5f5f47b",
+  "name": {
+    "en": "D.D. Tower: Sacred Light Dimension"
+  },
+  "type": "D.D. Tower",
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/5/5b/DDTowerLightDimension-Banner.png",
+  "runs": [
+    {
+      "startDate": "2018-12-14",
+      "endDate": "2018-12-24"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "completion",
+      "path": [
+        "Floors completion rewards"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "Rewards can be earned by completing floors of the tower."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Floor",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "1"
+              },
+              {
+                "text": "3 LP Potion"
+              }
+            ],
+            [
+              {
+                "text": "2"
+              },
+              {
+                "text": "40 Gems"
+              }
+            ],
+            [
+              {
+                "text": "3"
+              },
+              {
+                "text": "3 Extra Card Booster"
+              }
+            ],
+            [
+              {
+                "text": "4"
+              },
+              {
+                "text": "60 Gems"
+              }
+            ],
+            [
+              {
+                "text": "5"
+              },
+              {
+                "text": "3 Extra Life Booster"
+              }
+            ],
+            [
+              {
+                "text": "6"
+              },
+              {
+                "text": "4 LP Potions (Small)"
+              }
+            ],
+            [
+              {
+                "text": "7"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "8"
+              },
+              {
+                "text": "80 Gems"
+              }
+            ],
+            [
+              {
+                "text": "9"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Lightray Diabolos\"",
+                "cards": [
+                  {
+                    "name": "Lightray Diabolos",
+                    "card": "08ccb066-1d36-4845-b07f-50621aa22f87",
+                    "yugipediaId": 210127,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Floor",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "11"
+              },
+              {
+                "text": "40 Gems"
+              }
+            ],
+            [
+              {
+                "text": "12"
+              },
+              {
+                "text": "2 LP Potions"
+              }
+            ],
+            [
+              {
+                "text": "13"
+              },
+              {
+                "text": "60 Gems"
+              }
+            ],
+            [
+              {
+                "text": "14"
+              },
+              {
+                "text": "100 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "15"
+              },
+              {
+                "text": "1 \"Layard the Liberator\"",
+                "cards": [
+                  {
+                    "name": "Layard the Liberator",
+                    "card": "42e5d8e9-3d0c-4e03-97f2-0f547a5a1df1",
+                    "yugipediaId": 12759,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "16"
+              },
+              {
+                "text": "3 LP Potions (Small)"
+              }
+            ],
+            [
+              {
+                "text": "17"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "18"
+              },
+              {
+                "text": "7000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "19"
+              },
+              {
+                "text": "80 Gems"
+              }
+            ],
+            [
+              {
+                "text": "20"
+              },
+              {
+                "text": "1 \"Diana the Light Spirit\"",
+                "cards": [
+                  {
+                    "name": "Diana the Light Spirit",
+                    "card": "da47d044-b107-4ddb-ab58-13c5d5d548f2",
+                    "yugipediaId": 566149,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Floor",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "21"
+              },
+              {
+                "text": "7000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "22"
+              },
+              {
+                "text": "1 LP Potion"
+              }
+            ],
+            [
+              {
+                "text": "23"
+              },
+              {
+                "text": "80 Gems"
+              }
+            ],
+            [
+              {
+                "text": "24"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "25"
+              },
+              {
+                "text": "100 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "26"
+              },
+              {
+                "text": "2 LP Potions (Small)"
+              }
+            ],
+            [
+              {
+                "text": "27"
+              },
+              {
+                "text": "80 Gems"
+              }
+            ],
+            [
+              {
+                "text": "28"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "29"
+              },
+              {
+                "text": "1 UR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Lightning Warrior\"",
+                "cards": [
+                  {
+                    "name": "Lightning Warrior",
+                    "card": "69cc2337-2524-446b-9a93-8e97b0f9458c",
+                    "yugipediaId": 114590,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Floor",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "31"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "32"
+              },
+              {
+                "text": "1 LP Potion"
+              }
+            ],
+            [
+              {
+                "text": "33"
+              },
+              {
+                "text": "80 Gems"
+              }
+            ],
+            [
+              {
+                "text": "34"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "35"
+              },
+              {
+                "text": "100 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "36"
+              },
+              {
+                "text": "2 LP Potions (Small)"
+              }
+            ],
+            [
+              {
+                "text": "37"
+              },
+              {
+                "text": "80 Gems"
+              }
+            ],
+            [
+              {
+                "text": "38"
+              },
+              {
+                "text": "15000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "39"
+              },
+              {
+                "text": "1 UR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "40"
+              },
+              {
+                "text": "1 \"Lightning Warrior\"",
+                "cards": [
+                  {
+                    "name": "Lightning Warrior",
+                    "card": "69cc2337-2524-446b-9a93-8e97b0f9458c",
+                    "yugipediaId": 114590,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Floor",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "41"
+              },
+              {
+                "text": "Card Sleeves: D.D. Tower -Sacred LIGHT Dimension- EX"
+              }
+            ],
+            [
+              {
+                "text": "42"
+              },
+              {
+                "text": "100 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "43"
+              },
+              {
+                "text": "2 SR Jewels"
+              }
+            ],
+            [
+              {
+                "text": "44"
+              },
+              {
+                "text": "80 Gems"
+              }
+            ],
+            [
+              {
+                "text": "45"
+              },
+              {
+                "text": "Game Mat: D.D. Tower -Sacred LIGHT Dimension- EX"
+              }
+            ],
+            [
+              {
+                "text": "46"
+              },
+              {
+                "text": "200 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "47"
+              },
+              {
+                "text": "20000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "48"
+              },
+              {
+                "text": "80 Gems"
+              }
+            ],
+            [
+              {
+                "text": "49"
+              },
+              {
+                "text": "Icon: White Magician Pikeru"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "1 \"Lightning Warrior\"",
+                "cards": [
+                  {
+                    "name": "Lightning Warrior",
+                    "card": "69cc2337-2524-446b-9a93-8e97b0f9458c",
+                    "yugipediaId": 114590,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "packs",
+      "path": [
+        "D.D. BOX"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "There are 24 items in the D.D. BOX. The player can exchange 5 D.D. Orbs for 1 random item from the BOX, also the player can reset the box at any time. In addition, Gems were also added on the D.D. Box.",
+        "After the conclusion of the event, the LP Potions are replaced by 1000 Gold each; the LP Potions (Small) are replaced by 200 Gold each; while the D.D. Draw items are replaced by 500 Gold each."
+      ]
+    },
+    {
+      "kind": "packs",
+      "path": [
+        "D.D. BOX",
+        "Until 2nd Reset"
+      ],
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Item",
+            "Qty"
+          ],
+          "rows": [
+            [
+              {
+                "text": "\"Vylon Tetra\"",
+                "cards": [
+                  {
+                    "name": "Vylon Tetra",
+                    "card": "4e422876-1883-47e9-800f-ef4eb2c1ae67",
+                    "yugipediaId": 158401
+                  }
+                ]
+              },
+              {
+                "text": "1"
+              }
+            ],
+            [
+              {
+                "text": "\"Diana the Light Spirit\"",
+                "cards": [
+                  {
+                    "name": "Diana the Light Spirit",
+                    "card": "da47d044-b107-4ddb-ab58-13c5d5d548f2",
+                    "yugipediaId": 566149
+                  }
+                ]
+              },
+              {
+                "text": "1"
+              }
+            ],
+            [
+              {
+                "text": "\"Lightning Blade\"",
+                "cards": [
+                  {
+                    "name": "Lightning Blade",
+                    "card": "c4310cc7-5424-4af9-8880-7154333feec6",
+                    "yugipediaId": 5275
+                  }
+                ]
+              },
+              {
+                "text": "1"
+              }
+            ],
+            [
+              {
+                "text": "\"Layard the Liberator\"",
+                "cards": [
+                  {
+                    "name": "Layard the Liberator",
+                    "card": "42e5d8e9-3d0c-4e03-97f2-0f547a5a1df1",
+                    "yugipediaId": 12759
+                  }
+                ]
+              },
+              {
+                "text": "1"
+              }
+            ],
+            [
+              {
+                "text": "\"Lightray Gearfried\"",
+                "cards": [
+                  {
+                    "name": "Lightray Gearfried",
+                    "card": "e350bb13-e8c1-419d-9222-a9a91ed50b36",
+                    "yugipediaId": 209380
+                  }
+                ]
+              },
+              {
+                "text": "1"
+              }
+            ],
+            [
+              {
+                "text": "\"Lightray Diabolos\"",
+                "cards": [
+                  {
+                    "name": "Lightray Diabolos",
+                    "card": "08ccb066-1d36-4845-b07f-50621aa22f87",
+                    "yugipediaId": 210127
+                  }
+                ]
+              },
+              {
+                "text": "1"
+              }
+            ],
+            [
+              {
+                "text": "\"Moon Envoy\"",
+                "cards": [
+                  {
+                    "name": "Moon Envoy",
+                    "card": "fd12e078-5d71-43be-81a2-fb11e9c6abc4",
+                    "yugipediaId": 16916
+                  }
+                ]
+              },
+              {
+                "text": "1"
+              }
+            ],
+            [
+              {
+                "text": "\"Dark Witch\"",
+                "cards": [
+                  {
+                    "name": "Dark Witch",
+                    "card": "90ed2e90-4da1-4a80-b68d-2e224be56e93",
+                    "yugipediaId": 8587
+                  }
+                ]
+              },
+              {
+                "text": "1"
+              }
+            ],
+            [
+              {
+                "text": "Legendary Duelist Rainbow Pack (DM)"
+              },
+              {
+                "text": "1"
+              }
+            ],
+            [
+              {
+                "text": "Legendary Duelist Rainbow Pack (GX)"
+              },
+              {
+                "text": "1"
+              }
+            ],
+            [
+              {
+                "text": "Legendary Duelist Rainbow Pack (5D's)"
+              },
+              {
+                "text": "1"
+              }
+            ],
+            [
+              {
+                "text": "DARK Dimension Pack"
+              },
+              {
+                "text": "1"
+              }
+            ],
+            [
+              {
+                "text": "LP Potion (Small)"
+              },
+              {
+                "text": "6"
+              }
+            ],
+            [
+              {
+                "text": "D.D. Draw"
+              },
+              {
+                "text": "1"
+              }
+            ],
+            [
+              {
+                "text": "Extra Life Booster"
+              },
+              {
+                "text": "1"
+              }
+            ],
+            [
+              {
+                "text": "Extra Card Booster"
+              },
+              {
+                "text": "1"
+              }
+            ],
+            [
+              {
+                "text": "40 Gems"
+              },
+              {
+                "text": "3"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "packs",
+      "path": [
+        "D.D. BOX",
+        "After 3nd Reset"
+      ],
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Item",
+            "Qty"
+          ],
+          "rows": [
+            [
+              {
+                "text": "\"Vylon Tetra\"",
+                "cards": [
+                  {
+                    "name": "Vylon Tetra",
+                    "card": "4e422876-1883-47e9-800f-ef4eb2c1ae67",
+                    "yugipediaId": 158401
+                  }
+                ]
+              },
+              {
+                "text": "1"
+              }
+            ],
+            [
+              {
+                "text": "\"Diana the Light Spirit\"",
+                "cards": [
+                  {
+                    "name": "Diana the Light Spirit",
+                    "card": "da47d044-b107-4ddb-ab58-13c5d5d548f2",
+                    "yugipediaId": 566149
+                  }
+                ]
+              },
+              {
+                "text": "1"
+              }
+            ],
+            [
+              {
+                "text": "\"Lightning Blade\"",
+                "cards": [
+                  {
+                    "name": "Lightning Blade",
+                    "card": "c4310cc7-5424-4af9-8880-7154333feec6",
+                    "yugipediaId": 5275
+                  }
+                ]
+              },
+              {
+                "text": "1"
+              }
+            ],
+            [
+              {
+                "text": "\"Layard the Liberator\"",
+                "cards": [
+                  {
+                    "name": "Layard the Liberator",
+                    "card": "42e5d8e9-3d0c-4e03-97f2-0f547a5a1df1",
+                    "yugipediaId": 12759
+                  }
+                ]
+              },
+              {
+                "text": "1"
+              }
+            ],
+            [
+              {
+                "text": "\"Lightray Gearfried\"",
+                "cards": [
+                  {
+                    "name": "Lightray Gearfried",
+                    "card": "e350bb13-e8c1-419d-9222-a9a91ed50b36",
+                    "yugipediaId": 209380
+                  }
+                ]
+              },
+              {
+                "text": "1"
+              }
+            ],
+            [
+              {
+                "text": "\"Lightray Diabolos\"",
+                "cards": [
+                  {
+                    "name": "Lightray Diabolos",
+                    "card": "08ccb066-1d36-4845-b07f-50621aa22f87",
+                    "yugipediaId": 210127
+                  }
+                ]
+              },
+              {
+                "text": "1"
+              }
+            ],
+            [
+              {
+                "text": "\"Moon Envoy\"",
+                "cards": [
+                  {
+                    "name": "Moon Envoy",
+                    "card": "fd12e078-5d71-43be-81a2-fb11e9c6abc4",
+                    "yugipediaId": 16916
+                  }
+                ]
+              },
+              {
+                "text": "1"
+              }
+            ],
+            [
+              {
+                "text": "\"Dark Witch\"",
+                "cards": [
+                  {
+                    "name": "Dark Witch",
+                    "card": "90ed2e90-4da1-4a80-b68d-2e224be56e93",
+                    "yugipediaId": 8587
+                  }
+                ]
+              },
+              {
+                "text": "1"
+              }
+            ],
+            [
+              {
+                "text": "Legendary Duelist Rainbow Pack (DM)"
+              },
+              {
+                "text": "1"
+              }
+            ],
+            [
+              {
+                "text": "Legendary Duelist Rainbow Pack (GX)"
+              },
+              {
+                "text": "1"
+              }
+            ],
+            [
+              {
+                "text": "DARK Dimension Pack"
+              },
+              {
+                "text": "1"
+              }
+            ],
+            [
+              {
+                "text": "LP Potion (Small)"
+              },
+              {
+                "text": "6"
+              }
+            ],
+            [
+              {
+                "text": "D.D. Draw"
+              },
+              {
+                "text": "2"
+              }
+            ],
+            [
+              {
+                "text": "8000 Gold"
+              },
+              {
+                "text": "5"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "packs",
+      "path": [
+        "D.D. BOX",
+        "DARK Dimension Pack"
+      ],
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "\"Exodia Necross\" (UR)",
+                "cards": [
+                  {
+                    "name": "Exodia Necross",
+                    "card": "261f1e4a-8138-4958-afb4-61199033ab25",
+                    "yugipediaId": 134,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Skull Meister\" (SR)",
+                "cards": [
+                  {
+                    "name": "Skull Meister",
+                    "card": "a30fa67f-0fc4-4746-b6f3-e37c3e08e660",
+                    "yugipediaId": 153162,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Patrician of Darkness\" (SR)",
+                "cards": [
+                  {
+                    "name": "Patrician of Darkness",
+                    "card": "d70b4cd5-772d-4538-9c10-5a0cb7ee8520",
+                    "yugipediaId": 9963,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Tri-Horned Dragon\" (R)",
+                "cards": [
+                  {
+                    "name": "Tri-Horned Dragon",
+                    "card": "93e53920-5ab1-466e-a7a8-6c35b60b3fcc",
+                    "yugipediaId": 2661,
+                    "rarity": "R"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Getsu Fuhma\" (R)",
+                "cards": [
+                  {
+                    "name": "Getsu Fuhma",
+                    "card": "906756d3-3bc8-4421-aa8b-f481631c9d72",
+                    "yugipediaId": 12253,
+                    "rarity": "R"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Flame Ghost\" (N)",
+                "cards": [
+                  {
+                    "name": "Flame Ghost",
+                    "card": "3800158e-c6dd-45ee-9291-e3ea347dc489",
+                    "yugipediaId": 505480,
+                    "rarity": "N"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Ally of Justice Rudra\" (N)",
+                "cards": [
+                  {
+                    "name": "Ally of Justice Rudra",
+                    "card": "e21a15ec-f340-4e59-a882-8ba51a0d2693",
+                    "yugipediaId": 78505,
+                    "rarity": "N"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Contract with Exodia\" (N)",
+                "cards": [
+                  {
+                    "name": "Contract with Exodia",
+                    "card": "a7c5c279-ca67-4321-809a-65d3e906d2a0",
+                    "yugipediaId": 16820,
+                    "rarity": "N"
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "packs",
+      "path": [
+        "D.D. BOX",
+        "Legendary Duelist Rainbow Pack (DM)"
+      ],
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "\"Dark Magician\" (UR)",
+                "cards": [
+                  {
+                    "name": "Dark Magician",
+                    "card": "cf059913-791c-4a39-a210-2a360345c841",
+                    "yugipediaId": 1132,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Mystic Box\" (SR)",
+                "cards": [
+                  {
+                    "name": "Mystic Box",
+                    "card": "c815882c-7fc4-4a8e-8e66-642193f133b4",
+                    "yugipediaId": 7418,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Blue-Eyes White Dragon\" (UR)",
+                "cards": [
+                  {
+                    "name": "Blue-Eyes White Dragon",
+                    "card": "ee6249a6-f980-43b3-8e39-4ee5c89c09c0",
+                    "yugipediaId": 30,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Enemy Controller\" (SR)",
+                "cards": [
+                  {
+                    "name": "Enemy Controller",
+                    "card": "bf6033ba-cb14-439f-94cc-79a7e87a294c",
+                    "yugipediaId": 910,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Gilford the Lightning\" (SR)",
+                "cards": [
+                  {
+                    "name": "Gilford the Lightning",
+                    "card": "685e497a-d5c7-4f2d-a19c-741bd5af685b",
+                    "yugipediaId": 555,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Metalmorph\" (SR)",
+                "cards": [
+                  {
+                    "name": "Metalmorph",
+                    "card": "66e33c2f-2b4e-45cf-81a9-54a3720f9b7c",
+                    "yugipediaId": 1682,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Harpie's Pet Dragon\" (SR)",
+                "cards": [
+                  {
+                    "name": "Harpie's Pet Dragon",
+                    "card": "87a0de30-1c88-4302-af47-f4d0759e9f1b",
+                    "yugipediaId": 4686,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Amazoness Tiger\" (SR)",
+                "cards": [
+                  {
+                    "name": "Amazoness Tiger",
+                    "card": "dcc95eac-b4b4-4d9c-978d-8d3411ebc6ac",
+                    "yugipediaId": 17801,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Dark Magician Girl\" (UR)",
+                "cards": [
+                  {
+                    "name": "Dark Magician Girl",
+                    "card": "74689510-87f2-4e2a-b806-693c7f0e0a98",
+                    "yugipediaId": 1523,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Supremacy Berry\" (SR)",
+                "cards": [
+                  {
+                    "name": "Supremacy Berry",
+                    "card": "447f4819-6304-4c6b-95e3-4672d3b18494",
+                    "yugipediaId": 59371,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Skull-Mark Ladybug\" (SR)",
+                "cards": [
+                  {
+                    "name": "Skull-Mark Ladybug",
+                    "card": "e0ca2b19-cad8-48f0-9303-c9fe4c4987c2",
+                    "yugipediaId": 16737,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Cocoon of Evolution\" (SR)",
+                "cards": [
+                  {
+                    "name": "Cocoon of Evolution",
+                    "card": "a1046094-8a1e-4433-b26b-62a1afa3584e",
+                    "yugipediaId": 508574,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Big Evolution Pill\" (SR)",
+                "cards": [
+                  {
+                    "name": "Big Evolution Pill",
+                    "card": "4bcaf3dc-2a81-4114-a43c-c30c40e1f741",
+                    "yugipediaId": 15944,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Hunting Instinct\" (SR)",
+                "cards": [
+                  {
+                    "name": "Hunting Instinct",
+                    "card": "59f7dea4-89dc-493c-a9fb-c02756cf17a3",
+                    "yugipediaId": 15798,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Orca Mega-Fortress of Darkness\" (SR)",
+                "cards": [
+                  {
+                    "name": "Orca Mega-Fortress of Darkness",
+                    "card": "cebd372d-35ab-44e7-aede-793b15a093d8",
+                    "yugipediaId": 7825,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Water Hazard\" (SR)",
+                "cards": [
+                  {
+                    "name": "Water Hazard",
+                    "card": "a7e7289e-0849-49a8-b07f-ef04c8cfdb07",
+                    "yugipediaId": 110971,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Barrel Dragon\" (UR)",
+                "cards": [
+                  {
+                    "name": "Barrel Dragon",
+                    "card": "544f9b8f-714f-42f2-9e0e-1ccb52727e14",
+                    "yugipediaId": 528,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Rare Metalmorph\" (SR)",
+                "cards": [
+                  {
+                    "name": "Rare Metalmorph",
+                    "card": "1a4e4c6b-409a-4569-a345-73cf4fd9a35b",
+                    "yugipediaId": 11984,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Gravekeeper's Priestess\" (SR)",
+                "cards": [
+                  {
+                    "name": "Gravekeeper's Priestess",
+                    "card": "bb9e710b-a203-469b-adf6-05e578372d61",
+                    "yugipediaId": 118750,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Zolga\" (SR)",
+                "cards": [
+                  {
+                    "name": "Zolga",
+                    "card": "58a8267c-e2d4-4d1b-b945-aa132f2759a8",
+                    "yugipediaId": 14426,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Millennium Scorpion\" (SR)",
+                "cards": [
+                  {
+                    "name": "Millennium Scorpion",
+                    "card": "ac8fb91f-81aa-4877-8fd6-0e3972b57d35",
+                    "yugipediaId": 16219,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Gravekeeper's Recruiter\" (SR)",
+                "cards": [
+                  {
+                    "name": "Gravekeeper's Recruiter",
+                    "card": "9f0e860e-48a7-45b4-b1e2-a5575383691e",
+                    "yugipediaId": 152726,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Blue-Eyes Toon Dragon\" (SR)",
+                "cards": [
+                  {
+                    "name": "Blue-Eyes Toon Dragon",
+                    "card": "c5dfa1a0-27bf-46f0-bc39-b3f52253e153",
+                    "yugipediaId": 98,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Toon Mermaid\" (SR)",
+                "cards": [
+                  {
+                    "name": "Toon Mermaid",
+                    "card": "5c9fc860-a9c4-4ef3-a8f3-cffd0e13f8b6",
+                    "yugipediaId": 233,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Destruct Potion\" (SR)",
+                "cards": [
+                  {
+                    "name": "Destruct Potion",
+                    "card": "4f5ebb42-32c7-4628-9d9f-44505ffe868b",
+                    "yugipediaId": 103602,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Dimension Gate\" (SR)",
+                "cards": [
+                  {
+                    "name": "Dimension Gate",
+                    "card": "b3451b1c-a951-4d53-8f68-1222816fb8bb",
+                    "yugipediaId": 235387,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Archfiend Empress\" (SR)",
+                "cards": [
+                  {
+                    "name": "Archfiend Empress",
+                    "card": "b5895b88-6710-4c38-91ce-954b5945d7de",
+                    "yugipediaId": 157949,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Trance Archfiend\" (SR)",
+                "cards": [
+                  {
+                    "name": "Trance Archfiend",
+                    "card": "ca6606f8-7ebd-47f1-90de-a4804ea706dc",
+                    "yugipediaId": 176503,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Valkyrion the Magna Warrior\" (UR)",
+                "cards": [
+                  {
+                    "name": "Valkyrion the Magna Warrior",
+                    "card": "04f01e78-e2ea-494a-bff2-4e81e9362bbb",
+                    "yugipediaId": 60,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Gandora the Dragon of Destruction\" (UR)",
+                "cards": [
+                  {
+                    "name": "Gandora the Dragon of Destruction",
+                    "card": "bb5518a3-27a2-4b07-b52a-9b77203fc0f7",
+                    "yugipediaId": 15783,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Frost and Flame Dragon\" (UR)",
+                "cards": [
+                  {
+                    "name": "Frost and Flame Dragon",
+                    "card": "a483754b-bae6-4684-a49a-40beed4b5db9",
+                    "yugipediaId": 511013,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Darkflare Dragon\" (UR)",
+                "cards": [
+                  {
+                    "name": "Darkflare Dragon",
+                    "card": "7fa501be-bc43-451a-bd3b-ade77d5cab68",
+                    "yugipediaId": 178480,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Ryu Kokki\" (SR)",
+                "cards": [
+                  {
+                    "name": "Ryu Kokki",
+                    "card": "8c58d60f-3c00-4eff-baaf-698786e185f3",
+                    "yugipediaId": 1888,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Call of the Mummy\" (SR)",
+                "cards": [
+                  {
+                    "name": "Call of the Mummy",
+                    "card": "6dae878b-af73-46cb-bda3-ed87c84afeab",
+                    "yugipediaId": 2239,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Anti-Magic Arrows\" (SR)",
+                "cards": [
+                  {
+                    "name": "Anti-Magic Arrows",
+                    "card": "4f233a98-1199-4b82-b585-88373eb1574d",
+                    "yugipediaId": 12275,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Dark Eradicator Warlock\" (SR)",
+                "cards": [
+                  {
+                    "name": "Dark Eradicator Warlock",
+                    "card": "59b75735-3034-4660-8d7f-ce906d03c0a3",
+                    "yugipediaId": 533,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Master Gig\" (UR)",
+                "cards": [
+                  {
+                    "name": "Master Gig",
+                    "card": "143e97d3-26bf-426f-b1b7-1a92a2aef80d",
+                    "yugipediaId": 58648,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Scrap Recycler\" (SR)",
+                "cards": [
+                  {
+                    "name": "Scrap Recycler",
+                    "card": "9ee3c602-ecb0-495a-8198-c2bd50402668",
+                    "yugipediaId": 113521,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "packs",
+      "path": [
+        "D.D. BOX",
+        "Legendary Duelist Rainbow Pack (GX)"
+      ],
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "\"Elemental HERO Neos\" (UR)",
+                "cards": [
+                  {
+                    "name": "Elemental HERO Neos",
+                    "card": "846f587c-3c3c-420a-9d7c-a4f4d7454fd0",
+                    "yugipediaId": 8803,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"The Flute of Summoning Kuriboh\" (SR)",
+                "cards": [
+                  {
+                    "name": "The Flute of Summoning Kuriboh",
+                    "card": "f90eef1b-75e6-48d5-b113-17f6c6ad9285",
+                    "yugipediaId": 5947,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Elemental HERO Thunder Giant\" (SR)",
+                "cards": [
+                  {
+                    "name": "Elemental HERO Thunder Giant",
+                    "card": "6bde9806-8717-41c6-9295-313d30fe380f",
+                    "yugipediaId": 1925,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Ojama King\" (UR)",
+                "cards": [
+                  {
+                    "name": "Ojama King",
+                    "card": "e25bb461-e40d-49f1-8d70-6fd2df5d2170",
+                    "yugipediaId": 1611,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Armed Dragon LV5\" (SR)",
+                "cards": [
+                  {
+                    "name": "Armed Dragon LV5",
+                    "card": "0ef7e978-0f3b-40ae-a96e-4b5b68a9a1ec",
+                    "yugipediaId": 4372,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Ojama Blue\" (SR)",
+                "cards": [
+                  {
+                    "name": "Ojama Blue",
+                    "card": "d2a14ab8-3832-4785-af5f-2e5b50720464",
+                    "yugipediaId": 61398,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"White Night Queen\" (SR)",
+                "cards": [
+                  {
+                    "name": "White Night Queen",
+                    "card": "f01ea6a1-c9df-4056-9527-8eb6d1622921",
+                    "yugipediaId": 15202,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Cyber Blader\" (UR)",
+                "cards": [
+                  {
+                    "name": "Cyber Blader",
+                    "card": "a5404713-631f-460f-91d6-0c4cd3bd7f66",
+                    "yugipediaId": 5551,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Machine Angel Absolute Ritual\" (SR)",
+                "cards": [
+                  {
+                    "name": "Machine Angel Absolute Ritual",
+                    "card": "82dd7eec-7336-4c51-8ab1-dc1f68c2448b",
+                    "yugipediaId": 429805,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Destiny HERO - Diamond Dude\" (SR)",
+                "cards": [
+                  {
+                    "name": "Destiny HERO - Diamond Dude",
+                    "card": "85166817-0512-4bda-a711-c7c3eb1a27ff",
+                    "yugipediaId": 11974,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Destiny HERO - Fear Monger\" (SR)",
+                "cards": [
+                  {
+                    "name": "Destiny HERO - Fear Monger",
+                    "card": "de75d055-05f3-4a4b-961c-9ac27b892aed",
+                    "yugipediaId": 11368,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Destiny Signal\" (SR)",
+                "cards": [
+                  {
+                    "name": "Destiny Signal",
+                    "card": "4e9ceebc-4093-4fdb-aa88-4d293500beee",
+                    "yugipediaId": 12199,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"DNA Transplant\" (SR)",
+                "cards": [
+                  {
+                    "name": "DNA Transplant",
+                    "card": "5fef1ff4-854d-4c7b-9308-c06cb86304b1",
+                    "yugipediaId": 13804,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Cursed Seal of the Forbidden Spell\" (SR)",
+                "cards": [
+                  {
+                    "name": "Cursed Seal of the Forbidden Spell",
+                    "card": "af08ae38-69c8-42a0-a92c-c3bc81c76835",
+                    "yugipediaId": 15705,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"D.D. Survivor\" (SR)",
+                "cards": [
+                  {
+                    "name": "D.D. Survivor",
+                    "card": "640969a2-8814-4d17-bba6-7a999ba06634",
+                    "yugipediaId": 2371,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Ultimate Ancient Gear Golem\" (UR)",
+                "cards": [
+                  {
+                    "name": "Ultimate Ancient Gear Golem",
+                    "card": "4f6d0b2f-65fd-49db-a45c-a9dc08a89a9c",
+                    "yugipediaId": 86143,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Ancient Gear Golem\" (UR)",
+                "cards": [
+                  {
+                    "name": "Ancient Gear Golem",
+                    "card": "fae1ecc6-a974-48d1-82cc-1a632879b43f",
+                    "yugipediaId": 2956,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Biofalcon\" (SR)",
+                "cards": [
+                  {
+                    "name": "Biofalcon",
+                    "card": "bd0d4342-546d-4417-a05a-3867a5d306dc",
+                    "yugipediaId": 127680,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Crystal Promise\" (SR)",
+                "cards": [
+                  {
+                    "name": "Crystal Promise",
+                    "card": "55322fdc-aed5-4e85-b8e1-4b19fe20eea9",
+                    "yugipediaId": 21369,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Rainbow Life\" (SR)",
+                "cards": [
+                  {
+                    "name": "Rainbow Life",
+                    "card": "ec2041f1-3474-40ef-b71b-e7a6811f7310",
+                    "yugipediaId": 508740,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Chimeratech Overdragon\" (UR)",
+                "cards": [
+                  {
+                    "name": "Chimeratech Overdragon",
+                    "card": "954f71f3-105b-463d-9c8a-24ffbaf9b801",
+                    "yugipediaId": 6855,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Cyber Dragon Zwei\" (SR)",
+                "cards": [
+                  {
+                    "name": "Cyber Dragon Zwei",
+                    "card": "53e02674-7c3e-4ae7-aa73-38bc07fbc5d2",
+                    "yugipediaId": 108249,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "packs",
+      "path": [
+        "D.D. BOX",
+        "Legendary Duelist Rainbow Pack (5D's)"
+      ],
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "\"Junk Berserker\" (UR)",
+                "cards": [
+                  {
+                    "name": "Junk Berserker",
+                    "card": "3ceb5425-53e8-42a3-b028-ccb4829570a9",
+                    "yugipediaId": 152804,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Shield Warrior\" (SR)",
+                "cards": [
+                  {
+                    "name": "Shield Warrior",
+                    "card": "a1aeeb6c-1c8d-4c7a-8a05-1c3f1068a7c6",
+                    "yugipediaId": 29442,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Dash Warrior\" (SR)",
+                "cards": [
+                  {
+                    "name": "Dash Warrior",
+                    "card": "5122d63e-0e95-49fa-bf92-f5fef4825fc3",
+                    "yugipediaId": 127820,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Rosaria, the Stately Fallen Angel\" (UR)",
+                "cards": [
+                  {
+                    "name": "Rosaria, the Stately Fallen Angel",
+                    "card": "0d787d4e-6050-4cac-9ece-c3a170665323",
+                    "yugipediaId": 162923,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Rose Witch\" (SR)",
+                "cards": [
+                  {
+                    "name": "Rose Witch",
+                    "card": "16f1726d-62af-4405-84c9-77846d5a16a9",
+                    "yugipediaId": 121958,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Dark Verger\" (SR)",
+                "cards": [
+                  {
+                    "name": "Dark Verger",
+                    "card": "72f95f97-3168-4a78-a155-6897bf18921e",
+                    "yugipediaId": 39268,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Morphtronic Videon\" (UR)",
+                "cards": [
+                  {
+                    "name": "Morphtronic Videon",
+                    "card": "134f3ea4-9194-4b6e-84be-baca4f94e0d1",
+                    "yugipediaId": 61428,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Morphtronic Repair Unit\" (SR)",
+                "cards": [
+                  {
+                    "name": "Morphtronic Repair Unit",
+                    "card": "8c99c883-420f-4a0a-bcf6-bcd58a079243",
+                    "yugipediaId": 59310,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Morphtronic Map\" (SR)",
+                "cards": [
+                  {
+                    "name": "Morphtronic Map",
+                    "card": "334ec752-34e7-4de0-9830-4554cf01f740",
+                    "yugipediaId": 57784,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Regulus\" (UR)",
+                "cards": [
+                  {
+                    "name": "Regulus",
+                    "card": "adee9206-f8a7-4b0c-b027-e7eb0315d3f8",
+                    "yugipediaId": 95504,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Sunlight Unicorn\" (SR)",
+                "cards": [
+                  {
+                    "name": "Sunlight Unicorn",
+                    "card": "0d2b0929-aa12-47b6-80bc-050df0c21fa4",
+                    "yugipediaId": 46958,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Wattfox\" (SR)",
+                "cards": [
+                  {
+                    "name": "Wattfox",
+                    "card": "79f80150-23fc-4af1-a4ec-292e4f2e92de",
+                    "yugipediaId": 127731,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Blackwing - Elphin the Raven\" (UR)",
+                "cards": [
+                  {
+                    "name": "Blackwing - Elphin the Raven",
+                    "card": "cd0dead5-3fb1-4a97-ae04-95f9405bd3fb",
+                    "yugipediaId": 51408,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Blackwing - Fane the Steel Chain\" (SR)",
+                "cards": [
+                  {
+                    "name": "Blackwing - Fane the Steel Chain",
+                    "card": "ba31c1ff-9233-4770-a561-06245833a026",
+                    "yugipediaId": 57999,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Against the Wind\" (SR)",
+                "cards": [
+                  {
+                    "name": "Against the Wind",
+                    "card": "6cbf8cd9-321e-45a9-adc4-4c4a9008657a",
+                    "yugipediaId": 50836,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "decks": [
+    {
+      "path": [
+        "Tower Monster Decks",
+        "Level 10"
+      ],
+      "cards": [
+        {
+          "name": "Happy Lover",
+          "card": "f0211baa-dc8b-472f-a225-c57c419468bc",
+          "yugipediaId": 6593,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Key Mace",
+          "card": "6dfa1692-b74d-4bb7-823c-05bf4bb3c963",
+          "yugipediaId": 4700,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Mystical Capture Chain",
+          "card": "296d2b92-9ae6-479e-8b08-e278a1926f34",
+          "yugipediaId": 6810,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Shining Friendship",
+          "card": "41fe73af-3aa7-422b-9da2-ffe858c7c4eb",
+          "yugipediaId": 7598,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Tenderness",
+          "card": "97752ee1-365f-4c17-a380-af392d1d1a25",
+          "yugipediaId": 19093,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Weather Control",
+          "card": "54dc650c-2949-4093-8fe8-f57984d4920b",
+          "yugipediaId": 6972,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Wing Egg Elf",
+          "card": "d15c3f8d-9316-4f61-a077-1a3a02f2a03a",
+          "yugipediaId": 19466,
+          "count": 3,
+          "category": "normal monsters"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Tower Monster Decks",
+        "Level 10"
+      ],
+      "cards": [
+        {
+          "name": "Genin",
+          "card": "ee265d5e-85bc-490e-92c2-cbf1a065c6ed",
+          "yugipediaId": 4692,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Lady of Faith",
+          "card": "a7594d14-1fe2-472d-9e51-28d76464f7cc",
+          "yugipediaId": 6737,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Emissary of the Oasis",
+          "card": "d6ba400d-e271-4b27-b278-4f02ebead399",
+          "yugipediaId": 12034,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Pixie Knight",
+          "card": "9ef1b1ca-20ca-40d6-b228-490afdcf9a56",
+          "yugipediaId": 12310,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Sand Gambler",
+          "card": "c146ac2a-8fcf-4511-a450-470b344de894",
+          "yugipediaId": 8001,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "White Magician Pikeru",
+          "card": "d7e3d65c-6b5c-45a0-b78b-d97bae6077e7",
+          "yugipediaId": 8518,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cards from the Sky",
+          "card": "88a66554-b1fc-442f-89be-faccd84f5ba2",
+          "yugipediaId": 146652,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Photon Lead",
+          "card": "e0854908-444f-4b8c-b453-1fb9edf1a8e8",
+          "yugipediaId": 174222,
+          "count": 2,
+          "category": "spells"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Tower Monster Decks",
+        "Level 10"
+      ],
+      "cards": [
+        {
+          "name": "Bio-Mage",
+          "card": "303029a7-db17-4cac-a00c-0ec51cbcb047",
+          "yugipediaId": 8904,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Moon Envoy",
+          "card": "fd12e078-5d71-43be-81a2-fb11e9c6abc4",
+          "yugipediaId": 16916,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "C\u00fa Chulainn the Awakened",
+          "card": "eed6773d-18f0-43e7-823e-c1d539e05529",
+          "yugipediaId": 22129,
+          "count": 3,
+          "category": "ritual monsters"
+        },
+        {
+          "name": "Elemental Mistress Doriado",
+          "card": "cd1e8464-756e-46be-a63a-3171d4496551",
+          "yugipediaId": 13352,
+          "count": 3,
+          "category": "ritual monsters"
+        },
+        {
+          "name": "Ascending Soul",
+          "card": "8236c9e2-ea5b-4407-9512-c082c378c4f9",
+          "yugipediaId": 111481,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Doriado's Blessing",
+          "card": "12f6e7b8-90c4-47bc-ac24-027fdcf3fa52",
+          "yugipediaId": 16812,
+          "count": 3,
+          "category": "spells"
+        },
+        {
+          "name": "Emblem of the Awakening",
+          "card": "5d8aecc9-48c9-4128-8168-0bab96765c4e",
+          "yugipediaId": 22318,
+          "count": 3,
+          "category": "spells"
+        },
+        {
+          "name": "Ritual Cage",
+          "card": "619fd773-f383-490b-baca-ffce5425a67e",
+          "yugipediaId": 108834,
+          "count": 1,
+          "category": "spells"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Tower Monster Decks",
+        "Level 10"
+      ],
+      "cards": [
+        {
+          "name": "Wattkid",
+          "card": "4efedbe2-7308-42b6-aa70-d2613499ef05",
+          "yugipediaId": 505839,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Brohunder",
+          "card": "12c45f80-3c3e-4689-880e-0226e02071ec",
+          "yugipediaId": 404974,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Electric Snake",
+          "card": "d15b1e43-b170-4b52-a316-6b3cb38a1825",
+          "yugipediaId": 7257,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Pahunder",
+          "card": "4609d07c-98d3-4c8b-a405-2ec4d24236ee",
+          "yugipediaId": 198555,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Plasma Ball",
+          "card": "7e2100db-0692-42fb-ac8f-934c61a2a31f",
+          "yugipediaId": 174074,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Sishunder",
+          "card": "3d3251b9-8a83-4c27-a386-4b5b8a1a2b59",
+          "yugipediaId": 198414,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Wattcine",
+          "card": "21c4bf9b-4ec5-48c3-bd0c-e90adaf0512f",
+          "yugipediaId": 129250,
+          "count": 2,
+          "category": "spells"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Tower Monster Decks",
+        "Level 10"
+      ],
+      "cards": [
+        {
+          "name": "Lyna the Light Charmer",
+          "card": "50a32c4c-aaa2-4c45-8e71-ff8849b6437e",
+          "yugipediaId": 127720,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Searchlightman",
+          "card": "9151323a-4be1-4418-9f87-cba0d320816f",
+          "yugipediaId": 16476,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Skelengel",
+          "card": "8b7cc560-df0e-495f-a343-4a0876a34fd6",
+          "yugipediaId": 2819,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "The Immortal of Thunder",
+          "card": "d3496a47-9715-4b35-bb9d-f5e678c8f40d",
+          "yugipediaId": 5694,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "The Stern Mystic",
+          "card": "42705e3d-dd18-4f93-a8f6-6e6f66eb5554",
+          "yugipediaId": 3146,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Worm Linx",
+          "card": "d487bc7f-1d21-4229-b8ab-f8a365ee85a8",
+          "yugipediaId": 46819,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Ready for Intercepting",
+          "card": "ae0a515d-34f9-488a-905c-7a7e10b91227",
+          "yugipediaId": 2831,
+          "count": 2,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Tower Monster Decks",
+        "Level 20"
+      ],
+      "cards": [
+        {
+          "name": "Ojama Black",
+          "card": "94448672-8f04-4b97-b477-2c96bd734578",
+          "yugipediaId": 5437,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Ojama Green",
+          "card": "6a842d2e-bd87-47f7-8c37-4ce9a3afb5e1",
+          "yugipediaId": 5418,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Ojama Yellow",
+          "card": "8b9dac3d-c91e-4dca-8b9c-dbdff8ce40f5",
+          "yugipediaId": 5117,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Ojama Blue",
+          "card": "d2a14ab8-3832-4785-af5f-2e5b50720464",
+          "yugipediaId": 61398,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Ojama Country",
+          "card": "02518b96-e681-4dbf-9d7e-15e7bba91ee8",
+          "yugipediaId": 61435,
+          "count": 3,
+          "category": "spells"
+        },
+        {
+          "name": "Ojama Delta Hurricane!!",
+          "card": "066a560f-b02f-4733-8e76-a774437fb9ee",
+          "yugipediaId": 5496,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Ojamandala",
+          "card": "aa5464da-aeef-4856-ba75-117cf93f0da3",
+          "yugipediaId": 595415,
+          "count": 3,
+          "category": "spells"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Tower Monster Decks",
+        "Level 20"
+      ],
+      "cards": [
+        {
+          "name": "Gradius",
+          "card": "4cb7fbf7-501a-4fb3-a7fb-dcc21d00273a",
+          "yugipediaId": 8008,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "DUCKER Mobile Cannon",
+          "card": "bf35a329-ffb9-4d41-86c6-7fdec3fbd939",
+          "yugipediaId": 80516,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gradius' Option",
+          "card": "7b67e122-d4d0-49ed-a382-6727616549ad",
+          "yugipediaId": 7883,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Lord British Space Fighter",
+          "card": "362e51f7-64b9-44c4-b5f4-1b3189894529",
+          "yugipediaId": 100803,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Victory Viper XX03",
+          "card": "35d12934-eac6-4a40-932c-1c122d040906",
+          "yugipediaId": 7964,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cyclon Laser",
+          "card": "e5db8b95-2370-4a1b-b4fe-0b8ab18a566a",
+          "yugipediaId": 3491,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Power Capsule",
+          "card": "04b94ce5-b112-487c-830a-d57cbe5d86a5",
+          "yugipediaId": 12618,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Unexpected Dai",
+          "card": "c69d74f9-eae8-422a-a7c9-03198cf7874f",
+          "yugipediaId": 335123,
+          "count": 2,
+          "category": "spells"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Tower Monster Decks",
+        "Level 20"
+      ],
+      "cards": [
+        {
+          "name": "Protector of the Throne",
+          "card": "819bcb03-6a1b-4063-bfeb-502582a418a0",
+          "yugipediaId": 6126,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "A/D Changer",
+          "card": "c7d4d3b0-b785-4789-8f7e-78007b14f296",
+          "yugipediaId": 120969,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Dawn Knight",
+          "card": "5611e9ae-ea1b-4e9b-9ffa-3933d818b4f4",
+          "yugipediaId": 299020,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "The Light - Hex-Sealed Fusion",
+          "card": "86fab730-89b4-478a-aa88-e9ac68cb1c37",
+          "yugipediaId": 13510,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Giltia the D. Knight",
+          "card": "1adc9589-36fc-433e-b698-77d41e37803b",
+          "yugipediaId": 5537,
+          "count": 3,
+          "category": "fusion monsters"
+        },
+        {
+          "name": "Fusion Sage",
+          "card": "6edf119a-772e-49d1-a9d6-928ad898861f",
+          "yugipediaId": 2487,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Legendary Sword",
+          "card": "bac8b5a8-fded-4ef6-a318-da967b3447d6",
+          "yugipediaId": 505906,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Polymerization",
+          "card": "54f38f67-5d19-4625-9a9a-e1445574d5bf",
+          "yugipediaId": 35,
+          "count": 3,
+          "category": "spells"
+        },
+        {
+          "name": "The Warrior Returning Alive",
+          "card": "493c24bb-0b08-4bb5-b9f3-a4b60cb3f98e",
+          "yugipediaId": 1885,
+          "count": 2,
+          "category": "spells"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Tower Monster Decks",
+        "Level 20"
+      ],
+      "cards": [
+        {
+          "name": "Ancient Elf",
+          "card": "11849a8e-4f30-4041-b68b-d8087dcd2c21",
+          "yugipediaId": 3687,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Elemental HERO Sparkman",
+          "card": "38f30d25-9b1b-434e-959a-b77ace27fae8",
+          "yugipediaId": 549,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Fairy's Gift",
+          "card": "fb6e8d51-0f7a-495e-919b-7d1ab084d6da",
+          "yugipediaId": 7325,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Queen's Knight",
+          "card": "3dc71ed6-86da-4bfc-988f-e8f1c2650bc1",
+          "yugipediaId": 508138,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Sage of Stillness",
+          "card": "c1cdcbd6-5691-4162-a97e-77139e07c9d4",
+          "yugipediaId": 504894,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Book of Secret Arts",
+          "card": "59a5960e-1404-46bd-8569-47fb9e016dac",
+          "yugipediaId": 506147,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "The A. Forces",
+          "card": "cbc52ed6-8f58-40aa-9d4f-bea6a5f5115e",
+          "yugipediaId": 7532,
+          "count": 3,
+          "category": "spells"
+        },
+        {
+          "name": "Copy Knight",
+          "card": "3dac8f66-0ba5-47be-87e8-84c98f33d2b3",
+          "yugipediaId": 169437,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Tower Monster Decks",
+        "Level 20"
+      ],
+      "cards": [
+        {
+          "name": "Absorbing Kid from the Sky",
+          "card": "06b3ff3d-070a-4f9b-a80e-18686da3a05c",
+          "yugipediaId": 18136,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cupid Volley",
+          "card": "4d21d0f0-6d73-4e2e-a01d-530d2934e0f9",
+          "yugipediaId": 557289,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Dimensional Alchemist",
+          "card": "8cd313c0-89a8-4959-8b6a-f763855408d6",
+          "yugipediaId": 70826,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Fairy Archer",
+          "card": "b0193b9c-9da9-4790-a1b0-385830e718b1",
+          "yugipediaId": 117875,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Majestic Mech - Senku",
+          "card": "f781b81b-fc70-49a5-b269-0fc2dab9221b",
+          "yugipediaId": 16783,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Royal Knight",
+          "card": "c069c549-040b-4a55-931d-7b8798495b5e",
+          "yugipediaId": 11501,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Celestial Transformation",
+          "card": "3bc78330-9428-4468-a0d0-98d9850fef86",
+          "yugipediaId": 16420,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Silver Bow and Arrow",
+          "card": "81c5593c-8016-4e8f-bde0-73a07efea492",
+          "yugipediaId": 506365,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Miraculous Descent",
+          "card": "d34eb2e8-dbc1-4da7-b426-ce68a8ec55d7",
+          "yugipediaId": 13287,
+          "count": 2,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Tower Monster Decks",
+        "Level 30"
+      ],
+      "cards": [
+        {
+          "name": "Divine Dragon Ragnarok",
+          "card": "baee618d-ccc3-4fc9-b36d-9578c5c33b67",
+          "yugipediaId": 4870,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Galaxy Serpent",
+          "card": "c10dab53-cee1-4e29-aead-e4a8029de83f",
+          "yugipediaId": 291630,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Ancient Dragon",
+          "card": "f1059030-112a-4be0-8cb0-c2604ae3e4b3",
+          "yugipediaId": 203730,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Element Dragon",
+          "card": "ee1d3444-2d13-4ce9-8705-56ca071eabb2",
+          "yugipediaId": 12107,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Mirage Dragon",
+          "card": "a0c5865c-fa70-403e-9c10-4369a74d6062",
+          "yugipediaId": 41,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Prime Material Dragon",
+          "card": "f22b3e6d-56ad-49f7-b4d4-e3c1e2d18224",
+          "yugipediaId": 88544,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Angel of Zera",
+          "card": "2f1ab5b4-c47c-4574-9372-5862f24286f1",
+          "yugipediaId": 302229,
+          "count": 1,
+          "category": "synchro monsters"
+        },
+        {
+          "name": "Powered Inzektron",
+          "card": "19a5e2eb-a360-44c8-9af3-11fcd47472c1",
+          "yugipediaId": 281333,
+          "count": 2,
+          "category": "synchro monsters"
+        },
+        {
+          "name": "Dragon Treasure",
+          "card": "7347fdb9-4df8-4c17-be5f-9c9f68db1eef",
+          "yugipediaId": 506395,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Castle of Dragon Souls",
+          "card": "0c1d547d-9b4c-4532-8c1a-25fc9cc3d8da",
+          "yugipediaId": 278344,
+          "count": 2,
+          "category": "traps"
+        },
+        {
+          "name": "Dragon's Rage",
+          "card": "fcd788ee-4faa-46de-a0bf-a020257a227f",
+          "yugipediaId": 9842,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Tyrant Wing",
+          "card": "a1e33ab3-4930-4532-b52a-3eb0b741dd96",
+          "yugipediaId": 336565,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Tower Monster Decks",
+        "Level 30"
+      ],
+      "cards": [
+        {
+          "name": "Dawnbreak Gardna",
+          "card": "14bec31f-6a23-4569-93cb-5909a5f2e439",
+          "yugipediaId": 511443,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Energy Bravery",
+          "card": "18bf00cf-6158-4b90-b610-c48cd0318b80",
+          "yugipediaId": 99212,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Future Samurai",
+          "card": "ff9e7595-a2d0-4fb5-8b02-bef9590c5c28",
+          "yugipediaId": 67091,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Knight Day Grepher",
+          "card": "3d76257a-b74b-4ad1-9488-ffec61765bd9",
+          "yugipediaId": 271027,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Superalloy Beast Raptinus",
+          "card": "2df3abfc-22e3-4434-9070-332c7906bd51",
+          "yugipediaId": 539795,
+          "count": 2,
+          "category": "fusion monsters"
+        },
+        {
+          "name": "Gemini Spark",
+          "card": "77d04cb3-d5f8-4e67-b98c-5253e7b3e9bc",
+          "yugipediaId": 101065,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Polymerization",
+          "card": "54f38f67-5d19-4625-9a9a-e1445574d5bf",
+          "yugipediaId": 35,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Supervise",
+          "card": "3842d8dc-740c-488c-8b75-425f705df8de",
+          "yugipediaId": 98734,
+          "count": 3,
+          "category": "spells"
+        },
+        {
+          "name": "Gemini Counter",
+          "card": "ca65ed38-9ead-4650-b7fc-02facde76fe3",
+          "yugipediaId": 101357,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Tower Monster Decks",
+        "Level 30"
+      ],
+      "cards": [
+        {
+          "name": "Alien Ammonite",
+          "card": "841886f2-50cf-4b95-a265-de3c727dd7b6",
+          "yugipediaId": 44913,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Alien Dog",
+          "card": "23235cff-aff5-4083-9f20-90536cb83df6",
+          "yugipediaId": 58763,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Alien Grey",
+          "card": "c3b1a22f-f650-4367-8b54-a0d08fefeecb",
+          "yugipediaId": 11338,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Alien Kid",
+          "card": "a6cd8b21-2270-4222-bb64-ccb7fa6e26c4",
+          "yugipediaId": 50966,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cosmic Horror Gangi'el",
+          "card": "bfc26c78-4516-4515-91db-70bc719b136d",
+          "yugipediaId": 6721,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Flying Saucer Muusik'i",
+          "card": "69d6f3c2-8c7b-44fc-9c8b-e42c4b9b2fb3",
+          "yugipediaId": 12716,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Aromaseraphy Rosemary",
+          "card": "e16e6baf-7a04-4d9f-bab9-a0376e241ac0",
+          "yugipediaId": 443273,
+          "count": 1,
+          "category": "synchro monsters"
+        },
+        {
+          "name": "Cosmic Fortress Gol'gar",
+          "card": "742e61fe-da7c-41f0-91f8-cdc028d3a5d8",
+          "yugipediaId": 44937,
+          "count": 2,
+          "category": "synchro monsters"
+        },
+        {
+          "name": "\"A\" Cell Breeding Device",
+          "card": "1dcb2475-f4cc-46c2-84a0-38ff0a973e28",
+          "yugipediaId": 20250,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "\"A\" Cell Recombination Device",
+          "card": "296a4d3e-0ad5-4eb6-ace1-26f8f5c11a60",
+          "yugipediaId": 457318,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Code A Ancient Ruins",
+          "card": "5859240d-cf48-4eb1-acc3-cf4d8f1c5ba0",
+          "yugipediaId": 58308,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Corruption Cell \"A\"",
+          "card": "6a366794-a6be-4f58-adcd-4111c2433622",
+          "yugipediaId": 12909,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Double Summon",
+          "card": "1943dc3b-0f2c-4f4e-8a46-c79c77ce0d01",
+          "yugipediaId": 511069,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Otherworld - The \"A\" Zone",
+          "card": "ae129b6e-52fa-4b5b-be38-4f477a601343",
+          "yugipediaId": 21387,
+          "count": 1,
+          "category": "spells"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Tower Monster Decks",
+        "Level 30"
+      ],
+      "cards": [
+        {
+          "name": "Alien Ammonite",
+          "card": "841886f2-50cf-4b95-a265-de3c727dd7b6",
+          "yugipediaId": 44913,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Alien Dog",
+          "card": "23235cff-aff5-4083-9f20-90536cb83df6",
+          "yugipediaId": 58763,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Alien Grey",
+          "card": "c3b1a22f-f650-4367-8b54-a0d08fefeecb",
+          "yugipediaId": 11338,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Alien Kid",
+          "card": "a6cd8b21-2270-4222-bb64-ccb7fa6e26c4",
+          "yugipediaId": 50966,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cosmic Horror Gangi'el",
+          "card": "bfc26c78-4516-4515-91db-70bc719b136d",
+          "yugipediaId": 6721,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Flying Saucer Muusik'i",
+          "card": "69d6f3c2-8c7b-44fc-9c8b-e42c4b9b2fb3",
+          "yugipediaId": 12716,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cosmic Fortress Gol'gar",
+          "card": "742e61fe-da7c-41f0-91f8-cdc028d3a5d8",
+          "yugipediaId": 44937,
+          "count": 1,
+          "category": "synchro monsters"
+        },
+        {
+          "name": "\"A\" Cell Breeding Device",
+          "card": "1dcb2475-f4cc-46c2-84a0-38ff0a973e28",
+          "yugipediaId": 20250,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Corruption Cell \"A\"",
+          "card": "6a366794-a6be-4f58-adcd-4111c2433622",
+          "yugipediaId": 12909,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Double Summon",
+          "card": "1943dc3b-0f2c-4f4e-8a46-c79c77ce0d01",
+          "yugipediaId": 511069,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Otherworld - The \"A\" Zone",
+          "card": "ae129b6e-52fa-4b5b-be38-4f477a601343",
+          "yugipediaId": 21387,
+          "count": 2,
+          "category": "spells"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Tower Monster Decks",
+        "Level 30"
+      ],
+      "cards": [
+        {
+          "name": "Blade Knight",
+          "card": "95bb4584-f75c-4cb2-86fa-b08f1a4c0f86",
+          "yugipediaId": 542,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Freed the Brave Wanderer",
+          "card": "1dcf0cdc-55e5-46a0-9508-55176b35757d",
+          "yugipediaId": 506568,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Rocket Warrior",
+          "card": "c2fba50b-d595-4b6a-bd89-542cd990623b",
+          "yugipediaId": 391,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Wind-Up Knight",
+          "card": "214a6ad8-865e-4e40-b65e-fff3c8e3046c",
+          "yugipediaId": 161553,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Assault Armor",
+          "card": "4183cb13-b735-4f8b-b90a-267ded65d34b",
+          "yugipediaId": 535680,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Light Laser",
+          "card": "d67eabfa-af82-45d3-a603-799426554c86",
+          "yugipediaId": 18526,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Lightning Blade",
+          "card": "c4310cc7-5424-4af9-8880-7154333feec6",
+          "yugipediaId": 5275,
+          "count": 3,
+          "category": "spells"
+        },
+        {
+          "name": "The Warrior Returning Alive",
+          "card": "493c24bb-0b08-4bb5-b9f3-a4b60cb3f98e",
+          "yugipediaId": 1885,
+          "count": 2,
+          "category": "spells"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Tower Monster Decks",
+        "Level 30"
+      ],
+      "cards": [
+        {
+          "name": "Blade Knight",
+          "card": "95bb4584-f75c-4cb2-86fa-b08f1a4c0f86",
+          "yugipediaId": 542,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Freed the Brave Wanderer",
+          "card": "1dcf0cdc-55e5-46a0-9508-55176b35757d",
+          "yugipediaId": 506568,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Future Samurai",
+          "card": "ff9e7595-a2d0-4fb5-8b02-bef9590c5c28",
+          "yugipediaId": 67091,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Rocket Warrior",
+          "card": "c2fba50b-d595-4b6a-bd89-542cd990623b",
+          "yugipediaId": 391,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "White Ninja",
+          "card": "1ce1f36a-0a2b-4e8d-9924-5e36f6a1bb53",
+          "yugipediaId": 5380,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Wind-Up Knight",
+          "card": "214a6ad8-865e-4e40-b65e-fff3c8e3046c",
+          "yugipediaId": 161553,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Light Laser",
+          "card": "d67eabfa-af82-45d3-a603-799426554c86",
+          "yugipediaId": 18526,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "The Warrior Returning Alive",
+          "card": "493c24bb-0b08-4bb5-b9f3-a4b60cb3f98e",
+          "yugipediaId": 1885,
+          "count": 2,
+          "category": "spells"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Tower Monster Decks",
+        "Level 30"
+      ],
+      "cards": [
+        {
+          "name": "Elemental HERO Sparkman",
+          "card": "38f30d25-9b1b-434e-959a-b77ace27fae8",
+          "yugipediaId": 549,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Elemental HERO Captain Gold",
+          "card": "ed30ce75-4e48-44f1-b68a-92674230df5f",
+          "yugipediaId": 20173,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "The Light - Hex-Sealed Fusion",
+          "card": "86fab730-89b4-478a-aa88-e9ac68cb1c37",
+          "yugipediaId": 13510,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Elemental HERO Thunder Giant",
+          "card": "6bde9806-8717-41c6-9295-313d30fe380f",
+          "yugipediaId": 1925,
+          "count": 2,
+          "category": "fusion monsters"
+        },
+        {
+          "name": "Elemental HERO Shining Flare Wingman",
+          "card": "a4655c1a-f951-41d4-8c3a-debdf3c5e668",
+          "yugipediaId": 8723,
+          "count": 2,
+          "category": "fusion monsters"
+        },
+        {
+          "name": "Fusion Sage",
+          "card": "6edf119a-772e-49d1-a9d6-928ad898861f",
+          "yugipediaId": 2487,
+          "count": 3,
+          "category": "spells"
+        },
+        {
+          "name": "Polymerization",
+          "card": "54f38f67-5d19-4625-9a9a-e1445574d5bf",
+          "yugipediaId": 35,
+          "count": 3,
+          "category": "spells"
+        },
+        {
+          "name": "Skyscraper",
+          "card": "22a3bfe7-c293-49da-97b6-422eb531d112",
+          "yugipediaId": 1537,
+          "count": 3,
+          "category": "spells"
+        },
+        {
+          "name": "The Warrior Returning Alive",
+          "card": "493c24bb-0b08-4bb5-b9f3-a4b60cb3f98e",
+          "yugipediaId": 1885,
+          "count": 2,
+          "category": "spells"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Tower Monster Decks",
+        "Level 30"
+      ],
+      "cards": [
+        {
+          "name": "Jack's Knight",
+          "card": "6c9de5b0-ddd5-45d5-a729-707bcac2df08",
+          "yugipediaId": 508168,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Queen's Knight",
+          "card": "3dc71ed6-86da-4bfc-988f-e8f1c2650bc1",
+          "yugipediaId": 508138,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "King's Knight",
+          "card": "f61614e6-d231-4cd0-8127-4a521be02ff0",
+          "yugipediaId": 508150,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Arcana Knight Joker",
+          "card": "11725b4b-85bd-4065-a06b-4d674596eeea",
+          "yugipediaId": 16944,
+          "count": 3,
+          "category": "fusion monsters"
+        },
+        {
+          "name": "Divine Sword - Phoenix Blade",
+          "card": "b5462b38-a06c-497b-81c1-ce13c07fa7e7",
+          "yugipediaId": 16407,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Double Summon",
+          "card": "1943dc3b-0f2c-4f4e-8a46-c79c77ce0d01",
+          "yugipediaId": 511069,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Fusion Recycling Plant",
+          "card": "0682bc28-8674-449e-8722-95cc6d345975",
+          "yugipediaId": 437299,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Polymerization",
+          "card": "54f38f67-5d19-4625-9a9a-e1445574d5bf",
+          "yugipediaId": 35,
+          "count": 3,
+          "category": "spells"
+        },
+        {
+          "name": "Sword of Dragon's Soul",
+          "card": "042eae23-4507-4bbb-bb3f-8a758dd283de",
+          "yugipediaId": 7387,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "The Warrior Returning Alive",
+          "card": "493c24bb-0b08-4bb5-b9f3-a4b60cb3f98e",
+          "yugipediaId": 1885,
+          "count": 1,
+          "category": "spells"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Tower Monster Decks",
+        "Level 30"
+      ],
+      "cards": [
+        {
+          "name": "Elemental HERO Neos",
+          "card": "846f587c-3c3c-420a-9d7c-a4f4d7454fd0",
+          "yugipediaId": 8803,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Elemental HERO Neos Alius",
+          "card": "766f8632-9f20-4934-bcdd-42cd5fd325b7",
+          "yugipediaId": 511440,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Neo-Spacian Glow Moss",
+          "card": "8fa123c9-8572-4095-bff6-30293de40686",
+          "yugipediaId": 20911,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "The Light - Hex-Sealed Fusion",
+          "card": "86fab730-89b4-478a-aa88-e9ac68cb1c37",
+          "yugipediaId": 13510,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Elemental HERO Glow Neos",
+          "card": "78d27b42-b098-4cdd-867c-7ab1b76d5ee3",
+          "yugipediaId": 21230,
+          "count": 2,
+          "category": "fusion monsters"
+        },
+        {
+          "name": "Elemental HERO Neos Knight",
+          "card": "a56d0b86-95c1-4581-8b09-9e71cfe3e293",
+          "yugipediaId": 125240,
+          "count": 3,
+          "category": "fusion monsters"
+        },
+        {
+          "name": "Miracle Contact",
+          "card": "de067c58-fcd0-4e1b-8edc-9f7d6dbbcdb9",
+          "yugipediaId": 86323,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "O - Oversoul",
+          "card": "0be0317f-8746-4d14-9174-7b440673b2b7",
+          "yugipediaId": 510543,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Polymerization",
+          "card": "54f38f67-5d19-4625-9a9a-e1445574d5bf",
+          "yugipediaId": 35,
+          "count": 3,
+          "category": "spells"
+        },
+        {
+          "name": "Reverse of Neos",
+          "card": "904300d6-efed-42b2-b17a-353342a8c496",
+          "yugipediaId": 18025,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Supervise",
+          "card": "3842d8dc-740c-488c-8b75-425f705df8de",
+          "yugipediaId": 98734,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Wrath of Neos",
+          "card": "0fb74a3b-c7bf-420f-a025-e06cd30411db",
+          "yugipediaId": 77344,
+          "count": 1,
+          "category": "spells"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Tower Monster Decks",
+        "Level 30"
+      ],
+      "cards": [
+        {
+          "name": "V-Tiger Jet",
+          "card": "a32c0a07-f398-42b3-9d6f-ee8d0586a291",
+          "yugipediaId": 563,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "X-Head Cannon",
+          "card": "1719156f-e3b3-42b8-9d46-ed801e3b77ef",
+          "yugipediaId": 1919,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "B-Buster Drake",
+          "card": "0aa9fb2b-96e0-459e-ac5a-31fa35358f16",
+          "yugipediaId": 443434,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Heavy Mech Support Platform",
+          "card": "aad13811-b290-4975-9877-aa3a3cfcdca2",
+          "yugipediaId": 15628,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "W-Wing Catapult",
+          "card": "2da80abc-1c60-4c3b-b0d5-d8a87d5ed18c",
+          "yugipediaId": 566,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Y-Dragon Head",
+          "card": "54837bd2-128e-46e5-b1c9-a711f50e87d0",
+          "yugipediaId": 145,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Z-Metal Tank",
+          "card": "f35c1520-5232-48da-be4f-36ecf3806ff6",
+          "yugipediaId": 1616,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "VW-Tiger Catapult",
+          "card": "9e9fe78c-6b58-45ee-a966-25dbb1c0618e",
+          "yugipediaId": 1559,
+          "count": 2,
+          "category": "fusion monsters"
+        },
+        {
+          "name": "XYZ-Dragon Cannon",
+          "card": "eba236a3-cc3b-44a0-8e12-c31ff8a3d514",
+          "yugipediaId": 1962,
+          "count": 1,
+          "category": "fusion monsters"
+        },
+        {
+          "name": "YZ-Tank Dragon",
+          "card": "eca7087f-0c8c-4f64-ac8a-56b1d1a3e995",
+          "yugipediaId": 1915,
+          "count": 1,
+          "category": "fusion monsters"
+        },
+        {
+          "name": "VWXYZ-Dragon Catapult Cannon",
+          "card": "b3c6827a-019a-44cb-8b86-0b52500e2bad",
+          "yugipediaId": 336,
+          "count": 1,
+          "category": "fusion monsters"
+        },
+        {
+          "name": "Frontline Base",
+          "card": "893bd5cd-e2c2-454d-bd28-c729e12e7392",
+          "yugipediaId": 17827,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Fusion Tag",
+          "card": "abdb31ac-638d-4e81-a537-2e6830822961",
+          "yugipediaId": 221221,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Machina Armored Unit",
+          "card": "f6a53abe-94ec-4f30-97ca-a7c03a1ae0f8",
+          "yugipediaId": 113601,
+          "count": 2,
+          "category": "spells"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Tower Monster Decks",
+        "Level 40"
+      ],
+      "cards": [
+        {
+          "name": "Fabled Gallabas",
+          "card": "cc81ac96-c04e-44fb-8852-8429159a92a0",
+          "yugipediaId": 50853,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Fabled Grimro",
+          "card": "27fbf72d-8277-47e7-aa7f-b2c81293b2f9",
+          "yugipediaId": 56603,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Fabled Krus",
+          "card": "6e2d5ddc-c6c5-4f34-ba80-15aecc978fe5",
+          "yugipediaId": 51760,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Fabled Kushano",
+          "card": "480dd813-4873-4fac-b741-645344e47d52",
+          "yugipediaId": 57373,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Fabled Lurrie",
+          "card": "4148a070-00be-43e3-a3c9-76e09ac951b6",
+          "yugipediaId": 50848,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Fabled Raven",
+          "card": "4018c0a4-39c2-457c-bec2-47ad55d3b959",
+          "yugipediaId": 43638,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Fabled Soulkius",
+          "card": "35e9f5f4-9d2f-426a-96c2-262ae824c2f3",
+          "yugipediaId": 51954,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "The Fabled Catsith",
+          "card": "756b4038-4179-4c92-ab55-2dbf0bea14cd",
+          "yugipediaId": 116472,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "The Fabled Cerburrel",
+          "card": "e86f1f88-3e3a-4529-a6c4-feed4ea88ac2",
+          "yugipediaId": 107492,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "The Fabled Chawa",
+          "card": "a296f443-889f-4496-b038-5001a8465ddc",
+          "yugipediaId": 116423,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "The Fabled Ganashia",
+          "card": "68ead1c8-4935-4363-8ba7-5bec10467a50",
+          "yugipediaId": 116516,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Fabled Leviathan",
+          "card": "4ee09f97-9767-45a2-b366-9230567d8756",
+          "yugipediaId": 51940,
+          "count": 1,
+          "category": "synchro monsters"
+        },
+        {
+          "name": "Fabled Ragin",
+          "card": "9f6711c6-5f16-43a9-91a0-e23e789a72a4",
+          "yugipediaId": 98199,
+          "count": 1,
+          "category": "synchro monsters"
+        },
+        {
+          "name": "Fabled Valkyrus",
+          "card": "af9c3458-4c5b-4635-980f-95e0af4dc4c2",
+          "yugipediaId": 56385,
+          "count": 1,
+          "category": "synchro monsters"
+        },
+        {
+          "name": "Dark World Dealings",
+          "card": "6377e381-1b0a-47b7-a085-a25c3eb0b560",
+          "yugipediaId": 22157,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Beckoning Light",
+          "card": "dafc938a-0ea2-4d9a-8816-cb5f151c2b77",
+          "yugipediaId": 17197,
+          "count": 2,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Tower Monster Decks",
+        "Level 40"
+      ],
+      "cards": [
+        {
+          "name": "Batteryman AA",
+          "card": "cee6da92-4069-421e-887c-2a8fc519f933",
+          "yugipediaId": 17231,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Batteryman Charger",
+          "card": "39a4eec5-a8a1-4091-a994-5266fd839aa1",
+          "yugipediaId": 81736,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Batteryman D",
+          "card": "8c0f9dd1-1308-4980-9db8-eabbac0a11ed",
+          "yugipediaId": 17233,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Batteryman Solar",
+          "card": "90778e93-70be-4906-9292-103418537e1d",
+          "yugipediaId": 548033,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Diana the Light Spirit",
+          "card": "da47d044-b107-4ddb-ab58-13c5d5d548f2",
+          "yugipediaId": 566149,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Mithra the Thunder Vassal",
+          "card": "78919fe4-59cd-426c-9f26-e88b0941c7ed",
+          "yugipediaId": 333986,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Super-Electromagnetic Voltech Dragon",
+          "card": "f2aee45a-23c8-46f1-a7c1-7ea848924fdc",
+          "yugipediaId": 10369,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Batteryman Charger",
+          "card": "39a4eec5-a8a1-4091-a994-5266fd839aa1",
+          "yugipediaId": 81736,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Wattcube",
+          "card": "eb7396bb-8301-402a-a4cb-94ea2234eef2",
+          "yugipediaId": 127121,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Judgment of Thunder",
+          "card": "8528be66-7b05-4f06-9ef5-98d20b3c3edf",
+          "yugipediaId": 31565,
+          "count": 2,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Tower Monster Decks",
+        "Level 40"
+      ],
+      "cards": [
+        {
+          "name": "Aurkus, Lightsworn Druid",
+          "card": "a445d300-7523-4f19-bc5e-888ba276bf7f",
+          "yugipediaId": 27541,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Celestia, Lightsworn Angel",
+          "card": "eadbd93f-d168-4f77-9092-6dcb4d784570",
+          "yugipediaId": 82391,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Garoth, Lightsworn Warrior",
+          "card": "e9ba96d3-82ba-47ef-9074-990d3e60ad75",
+          "yugipediaId": 80833,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gragonith, Lightsworn Dragon",
+          "card": "a9d9cefa-3836-4dd2-9b09-727d15ceb729",
+          "yugipediaId": 86522,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Jain, Lightsworn Paladin",
+          "card": "e407471c-934e-420c-8d70-4bb81f9cbd57",
+          "yugipediaId": 86548,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Lyla, Lightsworn Sorceress",
+          "card": "f0403e60-e7fd-46fe-8f4c-9f29fd6a0489",
+          "yugipediaId": 86640,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Raiden, Hand of the Lightsworn",
+          "card": "9d56ddde-7601-4da7-87e5-7bd9744ab225",
+          "yugipediaId": 313071,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Rinyan, Lightsworn Rogue",
+          "card": "95b2d525-29a8-42b7-9448-ef4b9476c051",
+          "yugipediaId": 111154,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Ryko, Lightsworn Hunter",
+          "card": "f468c1b8-d6bc-4d9c-a516-50e86105c7fc",
+          "yugipediaId": 80960,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Shire, Lightsworn Spirit",
+          "card": "573718e6-9d2d-4839-960c-f150f7d78113",
+          "yugipediaId": 111290,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Wulf, Lightsworn Beast",
+          "card": "5f229b73-9b57-4a83-bf71-550c9874e44b",
+          "yugipediaId": 80713,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Angel of Zera",
+          "card": "2f1ab5b4-c47c-4574-9372-5862f24286f1",
+          "yugipediaId": 302229,
+          "count": 1,
+          "category": "synchro monsters"
+        },
+        {
+          "name": "Powered Inzektron",
+          "card": "19a5e2eb-a360-44c8-9af3-11fcd47472c1",
+          "yugipediaId": 281333,
+          "count": 1,
+          "category": "synchro monsters"
+        },
+        {
+          "name": "Galaxy Cyclone",
+          "card": "11eb8ba5-4ccd-49d7-9350-53518d3c8e77",
+          "yugipediaId": 387477,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Lightsworn Sanctuary",
+          "card": "45d74c91-b79d-4502-b7e6-8377655cea99",
+          "yugipediaId": 312957,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Lightsworn Sabre",
+          "card": "a017a8ad-7f34-4d37-9958-bdc7656fda00",
+          "yugipediaId": 32385,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Realm of Light",
+          "card": "f660e496-c620-4486-9c03-9a2c0983c07c",
+          "yugipediaId": 82053,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "That Grass Looks Greener",
+          "card": "eb006268-d84b-4b03-bb2c-88dfa317b27b",
+          "yugipediaId": 464689,
+          "count": 3,
+          "category": "spells"
+        },
+        {
+          "name": "Glorious Illusion",
+          "card": "8e242c85-022e-4151-ba1e-b1e4a43516dd",
+          "yugipediaId": 81300,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Jar of Avarice",
+          "card": "514f7afa-3866-4e53-a1f1-7f03c757f41d",
+          "yugipediaId": 143165,
+          "count": 2,
+          "category": "traps"
+        },
+        {
+          "name": "Light Spiral",
+          "card": "d150d9dd-669d-4cf7-8aad-b5cb523e26d6",
+          "yugipediaId": 82543,
+          "count": 2,
+          "category": "traps"
+        },
+        {
+          "name": "Simultaneous Loss",
+          "card": "390633c3-bdaa-4b06-b54a-f05efbde3be0",
+          "yugipediaId": 11404,
+          "count": 2,
+          "category": "traps"
+        },
+        {
+          "name": "Skill Successor",
+          "card": "7f4f93dc-c7a2-4623-b6a6-80d9549be108",
+          "yugipediaId": 54385,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Tower Monster Decks",
+        "Level 40"
+      ],
+      "cards": [
+        {
+          "name": "Maha Vailo",
+          "card": "0326aaa3-f44a-4abc-aed0-ca79e29f6d4a",
+          "yugipediaId": 7834,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Trident Warrior",
+          "card": "f2861968-ced4-48ad-9544-b18f97bcb6ec",
+          "yugipediaId": 129187,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Vylon Cube",
+          "card": "725a5545-33a3-4a15-8b6e-c5277b8fd2df",
+          "yugipediaId": 129603,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Vylon Stella",
+          "card": "66843397-e07d-4f80-b9ec-f3b599ddbd97",
+          "yugipediaId": 161472,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Vylon Epsilon",
+          "card": "a2a89220-d5c3-436b-97a9-cdbdd659812d",
+          "yugipediaId": 129580,
+          "count": 2,
+          "category": "synchro monsters"
+        },
+        {
+          "name": "Vylon Sigma",
+          "card": "e123bfef-6fef-4418-8faf-ceb36e820ad9",
+          "yugipediaId": 129542,
+          "count": 3,
+          "category": "synchro monsters"
+        },
+        {
+          "name": "Mage Power",
+          "card": "ccce7b4a-010b-4a4a-93d0-bb87832845e5",
+          "yugipediaId": 52,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Synchro Boost",
+          "card": "a0b4fa63-ddfc-43d7-8a54-1d833f6f910b",
+          "yugipediaId": 91548,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Vylon Element",
+          "card": "fadd69fb-6cbb-44d6-8b1f-2f5a3485a29d",
+          "yugipediaId": 146894,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Vylon Material",
+          "card": "fab0ba07-97fe-4467-a24a-e0f6a320ce06",
+          "yugipediaId": 129691,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Vylon Matter",
+          "card": "666d8d11-5b77-4faf-a46b-67f24e978962",
+          "yugipediaId": 157556,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Vylon Segment",
+          "card": "8481dbc1-51f8-46e3-8fee-4eacb2a2056c",
+          "yugipediaId": 162381,
+          "count": 1,
+          "category": "spells"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Tower Monster Decks",
+        "Level 40"
+      ],
+      "cards": [
+        {
+          "name": "Alchemist of Black Spells",
+          "card": "7dc32029-21ee-4694-be6b-559d4008ff8d",
+          "yugipediaId": 119544,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Blast Magician",
+          "card": "803badc1-30c7-4ceb-bcc1-3a0d6e3f7250",
+          "yugipediaId": 14228,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Defender, the Magical Knight",
+          "card": "29ab325c-9c1d-4451-a60b-1a2599e82bd2",
+          "yugipediaId": 50819,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Silent Magician",
+          "card": "72a71552-3bb8-41d0-bfdd-3c169bb87909",
+          "yugipediaId": 472764,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Silent Magician LV4",
+          "card": "6cab8fe3-7d77-479f-b267-cd1a351dea0d",
+          "yugipediaId": 266,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Silent Magician LV8",
+          "card": "fa5ecd9b-9272-44d8-9b09-ce7358aa52f2",
+          "yugipediaId": 270,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Double Cyclone",
+          "card": "83a73eae-c9f4-4495-ad28-f83b14458bca",
+          "yugipediaId": 118338,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Level Up!",
+          "card": "f17b2719-e885-4730-9f94-e3f1e4fbf1c3",
+          "yugipediaId": 15,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Silent Burning",
+          "card": "2eee3134-486e-4343-ab89-aa3f603bc483",
+          "yugipediaId": 472676,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Spell Power Grasp",
+          "card": "9bde89d7-0fd8-409d-9634-13154cfbe881",
+          "yugipediaId": 53538,
+          "count": 3,
+          "category": "spells"
+        },
+        {
+          "name": "Pitch-Black Power Stone",
+          "card": "63403ffe-eeea-4b92-be5b-8a1f33c267c7",
+          "yugipediaId": 7915,
+          "count": 2,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Tower Monster Decks",
+        "Level 40"
+      ],
+      "cards": [
+        {
+          "name": "Galaxy Serpent",
+          "card": "c10dab53-cee1-4e29-aead-e4a8029de83f",
+          "yugipediaId": 291630,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Hieratic Seal of the Sun Dragon Overlord",
+          "card": "3a4c7aab-93a1-4d52-b97a-4c4657e7b06d",
+          "yugipediaId": 200334,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Hieratic Dragon of Eset",
+          "card": "9d5f5211-e78f-454e-8671-f475864d7c7f",
+          "yugipediaId": 216801,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Hieratic Dragon of Nebthet",
+          "card": "9127b3c4-3c9a-486a-b2f1-41bf9f5dca75",
+          "yugipediaId": 216965,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Hieratic Dragon of Su",
+          "card": "be3d582d-7375-426f-9811-4cb316ae3be7",
+          "yugipediaId": 200039,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Hieratic Dragon of Tefnuit",
+          "card": "c8cfcb25-c618-4a4c-adc2-d66dff4bc30f",
+          "yugipediaId": 217256,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Angel of Zera",
+          "card": "2f1ab5b4-c47c-4574-9372-5862f24286f1",
+          "yugipediaId": 302229,
+          "count": 1,
+          "category": "synchro monsters"
+        },
+        {
+          "name": "Lightning Warrior",
+          "card": "69cc2337-2524-446b-9a93-8e97b0f9458c",
+          "yugipediaId": 114590,
+          "count": 1,
+          "category": "synchro monsters"
+        },
+        {
+          "name": "Hieratic Seal of Convocation",
+          "card": "ec4bd520-30eb-47c2-80ad-c769374c845b",
+          "yugipediaId": 216128,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Hieratic Seal of Supremacy",
+          "card": "2d9b6e40-2b5d-4c13-a534-9683ac62433a",
+          "yugipediaId": 216065,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Order to Charge",
+          "card": "ef9b4d42-03f6-4786-8c21-cf6f555c68a0",
+          "yugipediaId": 18341,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Soul Exchange",
+          "card": "d34b4886-bf0a-4866-b7fb-23b162978bc8",
+          "yugipediaId": 139,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Hieratic Seal From the Ashes",
+          "card": "f45d689c-5052-47da-ada5-637b01251ac6",
+          "yugipediaId": 200678,
+          "count": 2,
+          "category": "traps"
+        },
+        {
+          "name": "Hieratic Seal of Banishment",
+          "card": "98e74e34-83e7-423b-90eb-22223b5e74f7",
+          "yugipediaId": 215975,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Hieratic Seal of Reflection",
+          "card": "8dc7ddb6-bd2f-4931-9082-6a21f9deb1a9",
+          "yugipediaId": 221086,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Tower Monster Decks",
+        "Level 50"
+      ],
+      "cards": [
+        {
+          "name": "Noble Knight Artorigus",
+          "card": "6d4b7f7f-8df2-4b84-9586-6feb425f9802",
+          "yugipediaId": 209293,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Noble Knight Bedwyr",
+          "card": "2eff4ddf-b56e-4232-8dfc-10a12e28884e",
+          "yugipediaId": 364418,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Noble Knight Borz",
+          "card": "f3b731ad-2fae-4fca-a79d-782d49309b21",
+          "yugipediaId": 293193,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Noble Knight Drystan",
+          "card": "b3dcf168-1bb1-40fa-9675-6ea7bbaf240c",
+          "yugipediaId": 301673,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Noble Knight Gawayn",
+          "card": "50aace5c-afb3-4c45-b3aa-7420e4b68c90",
+          "yugipediaId": 227738,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Noble Knight Gwalchavad",
+          "card": "6d5abd13-ded9-4e39-ae8d-85eb82b5c0b3",
+          "yugipediaId": 277587,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Noble Knight Medraut",
+          "card": "bfcfa7bb-0448-4caa-96ff-912f83f9e404",
+          "yugipediaId": 270626,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Noble Knight Peredur",
+          "card": "a9947c2b-d5c8-4f8f-bd0b-e0a595d5db3e",
+          "yugipediaId": 303895,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Double Cyclone",
+          "card": "83a73eae-c9f4-4495-ad28-f83b14458bca",
+          "yugipediaId": 118338,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Glory of the Noble Knights",
+          "card": "10f06298-5980-4d9d-9da2-45cc4510dd54",
+          "yugipediaId": 525078,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Last Chapter of the Noble Knights",
+          "card": "4c6f8e8f-677b-4fd1-b0b4-b5fe268dce84",
+          "yugipediaId": 310317,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Noble Arms - Arfeudutyr",
+          "card": "8d58c956-58ec-4a90-b33c-eb55d065ca85",
+          "yugipediaId": 252568,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Noble Arms - Caliburn",
+          "card": "ce7da86d-391b-4a22-b522-44cf9720ee3e",
+          "yugipediaId": 254145,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Noble Arms - Gallatin",
+          "card": "46d424b5-27f8-4b6e-8bf4-4faff80fdae6",
+          "yugipediaId": 232721,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Noble Arms of Destiny",
+          "card": "8ebf33d2-4d57-422b-893b-3dc74a5a4492",
+          "yugipediaId": 277589,
+          "count": 1,
+          "category": "spells"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Tower Monster Decks",
+        "Level 50"
+      ],
+      "cards": [
+        {
+          "name": "Alexandrite Dragon",
+          "card": "72d46fe5-859f-4e93-929c-403bc1fe2934",
+          "yugipediaId": 178946,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Blue-Eyes White Dragon",
+          "card": "ee6249a6-f980-43b3-8e39-4ee5c89c09c0",
+          "yugipediaId": 30,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Arkbrave Dragon",
+          "card": "0c9c83df-f088-472a-ad68-8df8d27a8608",
+          "yugipediaId": 409447,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Dragon Knight of Creation",
+          "card": "5d5c4c86-ec24-4c2e-a2ee-329a93896bf0",
+          "yugipediaId": 409534,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Dragon Spirit of White",
+          "card": "ab10ea93-0174-41c2-ac69-d1e32ea88684",
+          "yugipediaId": 372143,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Protector with Eyes of Blue",
+          "card": "eda42e78-d7a3-4ccb-b021-d1d6a56cfe6d",
+          "yugipediaId": 373881,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "The White Stone of Legend",
+          "card": "c6be2a34-ef79-4f51-af08-8aa02d740a14",
+          "yugipediaId": 45520,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Azure-Eyes Silver Dragon",
+          "card": "be4b7ca4-3ade-4b24-810d-4a9aff7db534",
+          "yugipediaId": 274281,
+          "count": 3,
+          "category": "synchro monsters"
+        },
+        {
+          "name": "Bingo Machine, Go!!!",
+          "card": "0725b02d-7855-4e93-9cd5-cc9ac5d42708",
+          "yugipediaId": 560112,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Foolish Burial",
+          "card": "104893e3-7989-4e25-bcea-d0c87bb99bc7",
+          "yugipediaId": 5395,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Silver's Cry",
+          "card": "94eceda8-01c6-4222-8467-614ccb9175f5",
+          "yugipediaId": 256983,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Tribute to The Doomed",
+          "card": "cc2448c4-ac6d-4eea-98b9-6e995f11d5e9",
+          "yugipediaId": 5033,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Birthright",
+          "card": "9fbd372c-4450-4f47-9f18-ac26f907e776",
+          "yugipediaId": 22054,
+          "count": 2,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Tower Monster Decks",
+        "Level 50"
+      ],
+      "cards": [
+        {
+          "name": "Blade Knight",
+          "card": "95bb4584-f75c-4cb2-86fa-b08f1a4c0f86",
+          "yugipediaId": 542,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "D.D. Warrior Lady",
+          "card": "783bbf25-9bf4-4f10-91ae-45ee1246f35a",
+          "yugipediaId": 1003,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Silent Swordsman LV3",
+          "card": "ee4e1eae-dc91-4507-bdb8-5823bcc867d3",
+          "yugipediaId": 8342,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Silent Swordsman LV5",
+          "card": "3d424a22-be71-4067-9924-cbbd3070ada1",
+          "yugipediaId": 2353,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Silent Swordsman LV7",
+          "card": "33e35bd2-2caf-46e5-8db1-652c83252475",
+          "yugipediaId": 506532,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Card Advance",
+          "card": "ab40c52b-d376-4539-a755-e1bc971d8ac3",
+          "yugipediaId": 316084,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Legendary Sword",
+          "card": "bac8b5a8-fded-4ef6-a318-da967b3447d6",
+          "yugipediaId": 505906,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Level Up!",
+          "card": "f17b2719-e885-4730-9f94-e3f1e4fbf1c3",
+          "yugipediaId": 15,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Silent Sword Slash",
+          "card": "d7b85a1a-7cad-4818-8b98-2f8448c0eaca",
+          "yugipediaId": 442985,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Soul Exchange",
+          "card": "d34b4886-bf0a-4866-b7fb-23b162978bc8",
+          "yugipediaId": 139,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "The Warrior Returning Alive",
+          "card": "493c24bb-0b08-4bb5-b9f3-a4b60cb3f98e",
+          "yugipediaId": 1885,
+          "count": 2,
+          "category": "spells"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Tower Monster Decks",
+        "Level 50"
+      ],
+      "cards": [
+        {
+          "name": "Cyber Petit Angel",
+          "card": "a2c44a3a-c4e9-4a65-834e-8ea6a0b341f2",
+          "yugipediaId": 458049,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Milla the Temporal Magician",
+          "card": "a1c87a53-28ef-416a-a402-29e034395403",
+          "yugipediaId": 172938,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Senju of the Thousand Hands",
+          "card": "60176541-b8ae-47cf-92e9-7d52c375c758",
+          "yugipediaId": 4096,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cyber Angel Benten",
+          "card": "136fc2fa-f0f7-4b93-a508-5f5d35de0553",
+          "yugipediaId": 14545,
+          "count": 3,
+          "category": "ritual monsters"
+        },
+        {
+          "name": "Cyber Angel Dakini",
+          "card": "bfb78479-2df9-4348-8566-82d94b039bbc",
+          "yugipediaId": 13398,
+          "count": 1,
+          "category": "ritual monsters"
+        },
+        {
+          "name": "Cyber Angel Idaten",
+          "card": "bede148e-65b0-4ed2-9f20-6164a4b73571",
+          "yugipediaId": 14558,
+          "count": 2,
+          "category": "ritual monsters"
+        },
+        {
+          "name": "Saffira, Queen of Dragons",
+          "card": "a7fb99ac-bbc5-4d1e-8f0b-07f89cc9b7c1",
+          "yugipediaId": 305299,
+          "count": 1,
+          "category": "ritual monsters"
+        },
+        {
+          "name": "Ascending Soul",
+          "card": "8236c9e2-ea5b-4407-9512-c082c378c4f9",
+          "yugipediaId": 111481,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Hymn of Light",
+          "card": "c906a11d-3ce5-43e7-a7da-bace4b2a619f",
+          "yugipediaId": 306015,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Machine Angel Absolute Ritual",
+          "card": "82dd7eec-7336-4c51-8ab1-dc1f68c2448b",
+          "yugipediaId": 429805,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Machine Angel Ritual",
+          "card": "854b8ad4-721b-42c9-9567-b95330754a87",
+          "yugipediaId": 14698,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Sprite's Blessing",
+          "card": "c3fa6096-e494-4b5e-a5b0-c038ee947966",
+          "yugipediaId": 464693,
+          "count": 2,
+          "category": "spells"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Tower Monster Decks",
+        "Level 50"
+      ],
+      "cards": [
+        {
+          "name": "Bujin Arasuda",
+          "card": "e86ae572-9f50-4caa-8657-6d6d368c28de",
+          "yugipediaId": 312551,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Bujin Hirume",
+          "card": "929ac3f8-5818-4835-9370-2151835ad4a9",
+          "yugipediaId": 291710,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Bujin Mikazuchi",
+          "card": "6e5ba983-9c51-4e7f-95b6-29a17adc9613",
+          "yugipediaId": 256143,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Bujin Yamato",
+          "card": "51993d51-0276-4262-80eb-30bc671d90c7",
+          "yugipediaId": 271090,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Bujingi Centipede",
+          "card": "6ac984d8-e972-4d55-bc1c-58a6049ca2d7",
+          "yugipediaId": 257085,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Bujingi Crane",
+          "card": "f9f168bd-000e-4d41-9395-1d119049ecb4",
+          "yugipediaId": 271267,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Bujingi Hare",
+          "card": "029b650e-aa02-4e7a-a7da-b5ae6dd003a5",
+          "yugipediaId": 306561,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Bujingi Ibis",
+          "card": "a1ed37b6-a9f0-45f8-a3d8-719460148acb",
+          "yugipediaId": 257119,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Bujingi Pavo",
+          "card": "764cc458-0569-4d59-b4e2-69e58af9c9e9",
+          "yugipediaId": 280528,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Bujingi Raven",
+          "card": "d2b0f3a2-56fb-46a8-91c9-4fce205adae7",
+          "yugipediaId": 302633,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Bujingi Swallow",
+          "card": "23f8b524-16c2-4706-9a88-9038ba88ae27",
+          "yugipediaId": 306573,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Bujingi Turtle",
+          "card": "c4180cbb-aa9a-46f0-89ed-74edf47dd163",
+          "yugipediaId": 271177,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Bujin Regalia - The Mirror",
+          "card": "306d4939-1dc6-4a19-9bf9-dc8124130dcb",
+          "yugipediaId": 256185,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Bujinunity",
+          "card": "0d70537a-3d2f-424f-99a6-27ac509779ab",
+          "yugipediaId": 307087,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Bujin Regalia - The Sword",
+          "card": "0b6fdb1a-3c05-4655-9f65-72cd9e07a6a5",
+          "yugipediaId": 271400,
+          "count": 2,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Tower Monster Decks",
+        "Level 50"
+      ],
+      "cards": [
+        {
+          "name": "Worm Apocalypse",
+          "card": "e5a93b02-a2da-4c0f-93e4-b2ded5bb1b13",
+          "yugipediaId": 77916,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Worm Cartaros",
+          "card": "03a487ff-d6c1-41b2-9021-88f4559b3b20",
+          "yugipediaId": 77756,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Worm Dimikles",
+          "card": "c4cb392d-c8bd-4ab9-afa8-4e39ca99e7e7",
+          "yugipediaId": 77895,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Worm Jetelikpse",
+          "card": "3ad03d0a-ff75-4e6d-8138-f3dbeb4b8412",
+          "yugipediaId": 27800,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Worm King",
+          "card": "12bdd942-546d-4146-9c98-39128ffcb83c",
+          "yugipediaId": 23681,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Worm Queen",
+          "card": "ba58e2f5-9d74-443b-a018-a6feb8ba98ee",
+          "yugipediaId": 57483,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Worm Rakuyeh",
+          "card": "3b9280fc-916a-4e00-a8f5-6a8572fd191a",
+          "yugipediaId": 57497,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Worm Tentacles",
+          "card": "87db3c35-9864-428c-8e0a-f8b55405b0eb",
+          "yugipediaId": 52072,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Worm Xex",
+          "card": "b8d27a16-486c-49ec-b303-d2f608a3d642",
+          "yugipediaId": 98544,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Worm Yagan",
+          "card": "04e5eba0-11e3-4d10-8403-05d21facd7d1",
+          "yugipediaId": 99077,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Worm Call",
+          "card": "bfccb01f-cb4f-4e0a-a0cb-27e2fd2947b3",
+          "yugipediaId": 118617,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "W Nebula Meteorite",
+          "card": "b8318dd9-e346-4eeb-a4db-8c96566d9812",
+          "yugipediaId": 158454,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Lightray Diabolos",
+      "card": "08ccb066-1d36-4845-b07f-50621aa22f87",
+      "yugipediaId": 210127,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "runIndex": 0,
+          "requirement": "10"
+        },
+        {
+          "kind": "packs",
+          "runIndex": 0
+        }
+      ]
+    },
+    {
+      "name": "Layard the Liberator",
+      "card": "42e5d8e9-3d0c-4e03-97f2-0f547a5a1df1",
+      "yugipediaId": 12759,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "runIndex": 0,
+          "requirement": "15"
+        },
+        {
+          "kind": "packs",
+          "runIndex": 0
+        }
+      ]
+    },
+    {
+      "name": "Diana the Light Spirit",
+      "card": "da47d044-b107-4ddb-ab58-13c5d5d548f2",
+      "yugipediaId": 566149,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "runIndex": 0,
+          "requirement": "20"
+        },
+        {
+          "kind": "packs",
+          "runIndex": 0
+        }
+      ]
+    },
+    {
+      "name": "Lightning Warrior",
+      "card": "69cc2337-2524-446b-9a93-8e97b0f9458c",
+      "yugipediaId": 114590,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "runIndex": 0,
+          "requirement": "30"
+        },
+        {
+          "kind": "completion",
+          "runIndex": 0,
+          "requirement": "40"
+        },
+        {
+          "kind": "completion",
+          "runIndex": 0,
+          "requirement": "50"
+        }
+      ]
+    },
+    {
+      "name": "Vylon Tetra",
+      "card": "4e422876-1883-47e9-800f-ef4eb2c1ae67",
+      "yugipediaId": 158401,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0
+        }
+      ]
+    },
+    {
+      "name": "Lightning Blade",
+      "card": "c4310cc7-5424-4af9-8880-7154333feec6",
+      "yugipediaId": 5275,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0
+        }
+      ]
+    },
+    {
+      "name": "Lightray Gearfried",
+      "card": "e350bb13-e8c1-419d-9222-a9a91ed50b36",
+      "yugipediaId": 209380,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0
+        }
+      ]
+    },
+    {
+      "name": "Moon Envoy",
+      "card": "fd12e078-5d71-43be-81a2-fb11e9c6abc4",
+      "yugipediaId": 16916,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0
+        }
+      ]
+    },
+    {
+      "name": "Dark Witch",
+      "card": "90ed2e90-4da1-4a80-b68d-2e224be56e93",
+      "yugipediaId": 8587,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0
+        }
+      ]
+    },
+    {
+      "name": "Exodia Necross",
+      "card": "261f1e4a-8138-4958-afb4-61199033ab25",
+      "yugipediaId": 134,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Skull Meister",
+      "card": "a30fa67f-0fc4-4746-b6f3-e37c3e08e660",
+      "yugipediaId": 153162,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Patrician of Darkness",
+      "card": "d70b4cd5-772d-4538-9c10-5a0cb7ee8520",
+      "yugipediaId": 9963,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Tri-Horned Dragon",
+      "card": "93e53920-5ab1-466e-a7a8-6c35b60b3fcc",
+      "yugipediaId": 2661,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Getsu Fuhma",
+      "card": "906756d3-3bc8-4421-aa8b-f481631c9d72",
+      "yugipediaId": 12253,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Flame Ghost",
+      "card": "3800158e-c6dd-45ee-9291-e3ea347dc489",
+      "yugipediaId": 505480,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Ally of Justice Rudra",
+      "card": "e21a15ec-f340-4e59-a882-8ba51a0d2693",
+      "yugipediaId": 78505,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Contract with Exodia",
+      "card": "a7c5c279-ca67-4321-809a-65d3e906d2a0",
+      "yugipediaId": 16820,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Dark Magician",
+      "card": "cf059913-791c-4a39-a210-2a360345c841",
+      "yugipediaId": 1132,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Mystic Box",
+      "card": "c815882c-7fc4-4a8e-8e66-642193f133b4",
+      "yugipediaId": 7418,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Blue-Eyes White Dragon",
+      "card": "ee6249a6-f980-43b3-8e39-4ee5c89c09c0",
+      "yugipediaId": 30,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Enemy Controller",
+      "card": "bf6033ba-cb14-439f-94cc-79a7e87a294c",
+      "yugipediaId": 910,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Gilford the Lightning",
+      "card": "685e497a-d5c7-4f2d-a19c-741bd5af685b",
+      "yugipediaId": 555,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Metalmorph",
+      "card": "66e33c2f-2b4e-45cf-81a9-54a3720f9b7c",
+      "yugipediaId": 1682,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Harpie's Pet Dragon",
+      "card": "87a0de30-1c88-4302-af47-f4d0759e9f1b",
+      "yugipediaId": 4686,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Amazoness Tiger",
+      "card": "dcc95eac-b4b4-4d9c-978d-8d3411ebc6ac",
+      "yugipediaId": 17801,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Dark Magician Girl",
+      "card": "74689510-87f2-4e2a-b806-693c7f0e0a98",
+      "yugipediaId": 1523,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Supremacy Berry",
+      "card": "447f4819-6304-4c6b-95e3-4672d3b18494",
+      "yugipediaId": 59371,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Skull-Mark Ladybug",
+      "card": "e0ca2b19-cad8-48f0-9303-c9fe4c4987c2",
+      "yugipediaId": 16737,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Cocoon of Evolution",
+      "card": "a1046094-8a1e-4433-b26b-62a1afa3584e",
+      "yugipediaId": 508574,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Big Evolution Pill",
+      "card": "4bcaf3dc-2a81-4114-a43c-c30c40e1f741",
+      "yugipediaId": 15944,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Hunting Instinct",
+      "card": "59f7dea4-89dc-493c-a9fb-c02756cf17a3",
+      "yugipediaId": 15798,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Orca Mega-Fortress of Darkness",
+      "card": "cebd372d-35ab-44e7-aede-793b15a093d8",
+      "yugipediaId": 7825,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Water Hazard",
+      "card": "a7e7289e-0849-49a8-b07f-ef04c8cfdb07",
+      "yugipediaId": 110971,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Barrel Dragon",
+      "card": "544f9b8f-714f-42f2-9e0e-1ccb52727e14",
+      "yugipediaId": 528,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Rare Metalmorph",
+      "card": "1a4e4c6b-409a-4569-a345-73cf4fd9a35b",
+      "yugipediaId": 11984,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Gravekeeper's Priestess",
+      "card": "bb9e710b-a203-469b-adf6-05e578372d61",
+      "yugipediaId": 118750,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Zolga",
+      "card": "58a8267c-e2d4-4d1b-b945-aa132f2759a8",
+      "yugipediaId": 14426,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Millennium Scorpion",
+      "card": "ac8fb91f-81aa-4877-8fd6-0e3972b57d35",
+      "yugipediaId": 16219,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Gravekeeper's Recruiter",
+      "card": "9f0e860e-48a7-45b4-b1e2-a5575383691e",
+      "yugipediaId": 152726,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Blue-Eyes Toon Dragon",
+      "card": "c5dfa1a0-27bf-46f0-bc39-b3f52253e153",
+      "yugipediaId": 98,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Toon Mermaid",
+      "card": "5c9fc860-a9c4-4ef3-a8f3-cffd0e13f8b6",
+      "yugipediaId": 233,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Destruct Potion",
+      "card": "4f5ebb42-32c7-4628-9d9f-44505ffe868b",
+      "yugipediaId": 103602,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Dimension Gate",
+      "card": "b3451b1c-a951-4d53-8f68-1222816fb8bb",
+      "yugipediaId": 235387,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Archfiend Empress",
+      "card": "b5895b88-6710-4c38-91ce-954b5945d7de",
+      "yugipediaId": 157949,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Trance Archfiend",
+      "card": "ca6606f8-7ebd-47f1-90de-a4804ea706dc",
+      "yugipediaId": 176503,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Valkyrion the Magna Warrior",
+      "card": "04f01e78-e2ea-494a-bff2-4e81e9362bbb",
+      "yugipediaId": 60,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Gandora the Dragon of Destruction",
+      "card": "bb5518a3-27a2-4b07-b52a-9b77203fc0f7",
+      "yugipediaId": 15783,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Frost and Flame Dragon",
+      "card": "a483754b-bae6-4684-a49a-40beed4b5db9",
+      "yugipediaId": 511013,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Darkflare Dragon",
+      "card": "7fa501be-bc43-451a-bd3b-ade77d5cab68",
+      "yugipediaId": 178480,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Ryu Kokki",
+      "card": "8c58d60f-3c00-4eff-baaf-698786e185f3",
+      "yugipediaId": 1888,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Call of the Mummy",
+      "card": "6dae878b-af73-46cb-bda3-ed87c84afeab",
+      "yugipediaId": 2239,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Anti-Magic Arrows",
+      "card": "4f233a98-1199-4b82-b585-88373eb1574d",
+      "yugipediaId": 12275,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Dark Eradicator Warlock",
+      "card": "59b75735-3034-4660-8d7f-ce906d03c0a3",
+      "yugipediaId": 533,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Master Gig",
+      "card": "143e97d3-26bf-426f-b1b7-1a92a2aef80d",
+      "yugipediaId": 58648,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Scrap Recycler",
+      "card": "9ee3c602-ecb0-495a-8198-c2bd50402668",
+      "yugipediaId": 113521,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Elemental HERO Neos",
+      "card": "846f587c-3c3c-420a-9d7c-a4f4d7454fd0",
+      "yugipediaId": 8803,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "The Flute of Summoning Kuriboh",
+      "card": "f90eef1b-75e6-48d5-b113-17f6c6ad9285",
+      "yugipediaId": 5947,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Elemental HERO Thunder Giant",
+      "card": "6bde9806-8717-41c6-9295-313d30fe380f",
+      "yugipediaId": 1925,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Ojama King",
+      "card": "e25bb461-e40d-49f1-8d70-6fd2df5d2170",
+      "yugipediaId": 1611,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Armed Dragon LV5",
+      "card": "0ef7e978-0f3b-40ae-a96e-4b5b68a9a1ec",
+      "yugipediaId": 4372,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Ojama Blue",
+      "card": "d2a14ab8-3832-4785-af5f-2e5b50720464",
+      "yugipediaId": 61398,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "White Night Queen",
+      "card": "f01ea6a1-c9df-4056-9527-8eb6d1622921",
+      "yugipediaId": 15202,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Cyber Blader",
+      "card": "a5404713-631f-460f-91d6-0c4cd3bd7f66",
+      "yugipediaId": 5551,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Machine Angel Absolute Ritual",
+      "card": "82dd7eec-7336-4c51-8ab1-dc1f68c2448b",
+      "yugipediaId": 429805,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Destiny HERO - Diamond Dude",
+      "card": "85166817-0512-4bda-a711-c7c3eb1a27ff",
+      "yugipediaId": 11974,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Destiny HERO - Fear Monger",
+      "card": "de75d055-05f3-4a4b-961c-9ac27b892aed",
+      "yugipediaId": 11368,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Destiny Signal",
+      "card": "4e9ceebc-4093-4fdb-aa88-4d293500beee",
+      "yugipediaId": 12199,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "DNA Transplant",
+      "card": "5fef1ff4-854d-4c7b-9308-c06cb86304b1",
+      "yugipediaId": 13804,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Cursed Seal of the Forbidden Spell",
+      "card": "af08ae38-69c8-42a0-a92c-c3bc81c76835",
+      "yugipediaId": 15705,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "D.D. Survivor",
+      "card": "640969a2-8814-4d17-bba6-7a999ba06634",
+      "yugipediaId": 2371,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Ultimate Ancient Gear Golem",
+      "card": "4f6d0b2f-65fd-49db-a45c-a9dc08a89a9c",
+      "yugipediaId": 86143,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Ancient Gear Golem",
+      "card": "fae1ecc6-a974-48d1-82cc-1a632879b43f",
+      "yugipediaId": 2956,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Biofalcon",
+      "card": "bd0d4342-546d-4417-a05a-3867a5d306dc",
+      "yugipediaId": 127680,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Crystal Promise",
+      "card": "55322fdc-aed5-4e85-b8e1-4b19fe20eea9",
+      "yugipediaId": 21369,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Rainbow Life",
+      "card": "ec2041f1-3474-40ef-b71b-e7a6811f7310",
+      "yugipediaId": 508740,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Chimeratech Overdragon",
+      "card": "954f71f3-105b-463d-9c8a-24ffbaf9b801",
+      "yugipediaId": 6855,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Cyber Dragon Zwei",
+      "card": "53e02674-7c3e-4ae7-aa73-38bc07fbc5d2",
+      "yugipediaId": 108249,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Junk Berserker",
+      "card": "3ceb5425-53e8-42a3-b028-ccb4829570a9",
+      "yugipediaId": 152804,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Shield Warrior",
+      "card": "a1aeeb6c-1c8d-4c7a-8a05-1c3f1068a7c6",
+      "yugipediaId": 29442,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Dash Warrior",
+      "card": "5122d63e-0e95-49fa-bf92-f5fef4825fc3",
+      "yugipediaId": 127820,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Rosaria, the Stately Fallen Angel",
+      "card": "0d787d4e-6050-4cac-9ece-c3a170665323",
+      "yugipediaId": 162923,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Rose Witch",
+      "card": "16f1726d-62af-4405-84c9-77846d5a16a9",
+      "yugipediaId": 121958,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Dark Verger",
+      "card": "72f95f97-3168-4a78-a155-6897bf18921e",
+      "yugipediaId": 39268,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Morphtronic Videon",
+      "card": "134f3ea4-9194-4b6e-84be-baca4f94e0d1",
+      "yugipediaId": 61428,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Morphtronic Repair Unit",
+      "card": "8c99c883-420f-4a0a-bcf6-bcd58a079243",
+      "yugipediaId": 59310,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Morphtronic Map",
+      "card": "334ec752-34e7-4de0-9830-4554cf01f740",
+      "yugipediaId": 57784,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Regulus",
+      "card": "adee9206-f8a7-4b0c-b027-e7eb0315d3f8",
+      "yugipediaId": 95504,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Sunlight Unicorn",
+      "card": "0d2b0929-aa12-47b6-80bc-050df0c21fa4",
+      "yugipediaId": 46958,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Wattfox",
+      "card": "79f80150-23fc-4af1-a4ec-292e4f2e92de",
+      "yugipediaId": 127731,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Blackwing - Elphin the Raven",
+      "card": "cd0dead5-3fb1-4a97-ae04-95f9405bd3fb",
+      "yugipediaId": 51408,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Blackwing - Fane the Steel Chain",
+      "card": "ba31c1ff-9233-4770-a561-06245833a026",
+      "yugipediaId": 57999,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Against the Wind",
+      "card": "6cbf8cd9-321e-45a9-adc4-4c4a9008657a",
+      "yugipediaId": 50836,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "D.D. Tower: Sacred Light Dimension",
+        "id": 585353
+      }
+    ]
+  }
+}

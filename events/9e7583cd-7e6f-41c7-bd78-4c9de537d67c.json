@@ -1,0 +1,2702 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "9e7583cd-7e6f-41c7-bd78-4c9de537d67c",
+  "name": {
+    "en": "Espa Roba's Duel Carnival"
+  },
+  "type": "Duel Carnival",
+  "duelWorlds": [
+    "Duel World (DM)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/7/74/EspaRobaDuelCarnival-Banner.png",
+  "runs": [
+    {
+      "startDate": "2018-06-26",
+      "endDate": "2018-07-06"
+    },
+    {
+      "startDate": "2018-10-09",
+      "endDate": "2018-10-18"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "cumulativeRewards",
+      "path": [
+        "Rewards",
+        "Cumulative Rewards"
+      ],
+      "notes": [
+        "The total number of Event Points that the player has earned is tracked during the event as Cumulative Event Points. The player receive rewards for reaching certain Event Point milestones."
+      ]
+    },
+    {
+      "kind": "cumulativeRewards",
+      "path": [
+        "Rewards",
+        "Cumulative Rewards"
+      ],
+      "run": "October 2018",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "Points",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "2000"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "4000"
+              },
+              {
+                "text": "30 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "8000"
+              },
+              {
+                "text": "1 \"Goblin of Greed\"",
+                "cards": [
+                  {
+                    "name": "Goblin of Greed",
+                    "card": "115fcd20-e010-4d1b-91cc-b40d0dd34dd1",
+                    "yugipediaId": 15279,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "12000"
+              },
+              {
+                "text": "120 Gems"
+              }
+            ],
+            [
+              {
+                "text": "14000"
+              },
+              {
+                "text": "30 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "17000"
+              },
+              {
+                "text": "1 \"Heartless Drop Off\"",
+                "cards": [
+                  {
+                    "name": "Heartless Drop Off",
+                    "card": "e5ab1f2f-a474-4e24-9253-d378ab8831c3",
+                    "yugipediaId": 548652,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "20000"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "25000"
+              },
+              {
+                "text": "7500 Gold"
+              }
+            ],
+            [
+              {
+                "text": "30000"
+              },
+              {
+                "text": "60 Gems"
+              }
+            ],
+            [
+              {
+                "text": "35000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "40000"
+              },
+              {
+                "text": "Unlocks Espa Roba"
+              }
+            ],
+            [
+              {
+                "text": "45000"
+              },
+              {
+                "text": "60 Gems"
+              }
+            ],
+            [
+              {
+                "text": "50000"
+              },
+              {
+                "text": "1 \"Risebell the Star Adjuster\"",
+                "cards": [
+                  {
+                    "name": "Risebell the Star Adjuster",
+                    "card": "908c53c4-9343-4080-a3b7-1a96bfed1e1f",
+                    "yugipediaId": 267936,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "55000"
+              },
+              {
+                "text": "60 Gems"
+              }
+            ],
+            [
+              {
+                "text": "60000"
+              },
+              {
+                "text": "50 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "65000"
+              },
+              {
+                "text": "60 Gems"
+              }
+            ],
+            [
+              {
+                "text": "70000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "75000"
+              },
+              {
+                "text": "1 \"Goblin Marauding Squad\"",
+                "cards": [
+                  {
+                    "name": "Goblin Marauding Squad",
+                    "card": "4ac8bd1e-f10b-4cca-af98-7dfcba1cb809",
+                    "yugipediaId": 214168,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "80000"
+              },
+              {
+                "text": "2 SR Jewels"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "90000"
+              },
+              {
+                "text": "80 Gems"
+              }
+            ],
+            [
+              {
+                "text": "100000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "110000"
+              },
+              {
+                "text": "\"Cyber Energy Amplified\" (Skill)",
+                "skills": [
+                  {
+                    "name": "Cyber Energy Amplified",
+                    "skill": "485f3012-8bd9-4994-95b3-752714bd9cc1",
+                    "yugipediaId": 714408
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "120000"
+              },
+              {
+                "text": "80 Gems"
+              }
+            ],
+            [
+              {
+                "text": "130000"
+              },
+              {
+                "text": "50 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "140000"
+              },
+              {
+                "text": "80 Gems"
+              }
+            ],
+            [
+              {
+                "text": "150000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "160000"
+              },
+              {
+                "text": "1 \"Jinzo\"",
+                "cards": [
+                  {
+                    "name": "Jinzo",
+                    "card": "ef691e2a-10af-4486-b949-ec6800be764a",
+                    "yugipediaId": 163,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "170000"
+              },
+              {
+                "text": "20000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "190000"
+              },
+              {
+                "text": "100 Gems"
+              }
+            ],
+            [
+              {
+                "text": "210000"
+              },
+              {
+                "text": "1 UR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "230000"
+              },
+              {
+                "text": "25000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "250000"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "270000"
+              },
+              {
+                "text": "1 \"Psychic Ace\"",
+                "cards": [
+                  {
+                    "name": "Psychic Ace",
+                    "card": "b028bc9e-6f04-4853-b9f4-a605d5ba0efe",
+                    "yugipediaId": 557301,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "290000"
+              },
+              {
+                "text": "50 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "310000"
+              },
+              {
+                "text": "50 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "330000"
+              },
+              {
+                "text": "50 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "350000"
+              },
+              {
+                "text": "50 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "370000"
+              },
+              {
+                "text": "100 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "400000"
+              },
+              {
+                "text": "Game Mat: Espa Roba's Duel Carnival (Psychic-Type)"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "cumulativeRewards",
+      "path": [
+        "Rewards",
+        "Cumulative Rewards"
+      ],
+      "run": "Jun-Jul 2018",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Points",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "1000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "2000"
+              },
+              {
+                "text": "30 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "4000"
+              },
+              {
+                "text": "1 \"Teleport\"",
+                "cards": [
+                  {
+                    "name": "Teleport",
+                    "card": "ed7fd24f-0c09-4031-968c-620119a11295",
+                    "yugipediaId": 27562,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "6000"
+              },
+              {
+                "text": "75 Gems"
+              }
+            ],
+            [
+              {
+                "text": "8000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "10000"
+              },
+              {
+                "text": "30 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "12000"
+              },
+              {
+                "text": "1 \"D.D. Telepon\"",
+                "cards": [
+                  {
+                    "name": "D.D. Telepon",
+                    "card": "90607f32-5d60-43c7-b43b-645ef6b140fa",
+                    "yugipediaId": 170945,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "15000"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "18000"
+              },
+              {
+                "text": "7500 Gold"
+              }
+            ],
+            [
+              {
+                "text": "21000"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "24000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "27000"
+              },
+              {
+                "text": "Unlocks Espa Roba"
+              }
+            ],
+            [
+              {
+                "text": "30000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "34000"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "38000"
+              },
+              {
+                "text": "1 \"Heartless Drop Off\"",
+                "cards": [
+                  {
+                    "name": "Heartless Drop Off",
+                    "card": "e5ab1f2f-a474-4e24-9253-d378ab8831c3",
+                    "yugipediaId": 548652,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "42000"
+              },
+              {
+                "text": "50 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "46000"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "50000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "54000"
+              },
+              {
+                "text": "1 \"Pulse Mines\"",
+                "cards": [
+                  {
+                    "name": "Pulse Mines",
+                    "card": "74bed315-31ed-4a2b-a7f5-53e5d3bcbd55",
+                    "yugipediaId": 492212,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "60000"
+              },
+              {
+                "text": "2 SR Jewels"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "66000"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "72000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "80000"
+              },
+              {
+                "text": "1 \"Battle of the Elements\"",
+                "cards": [
+                  {
+                    "name": "Battle of the Elements",
+                    "card": "746d2913-621a-4cb8-a77d-62e416a0b41f",
+                    "yugipediaId": 102509,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "88000"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "96000"
+              },
+              {
+                "text": "1 UR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "104000"
+              },
+              {
+                "text": "100 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "112000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "120000"
+              },
+              {
+                "text": "1 \"Master Gig\"",
+                "cards": [
+                  {
+                    "name": "Master Gig",
+                    "card": "143e97d3-26bf-426f-b1b7-1a92a2aef80d",
+                    "yugipediaId": 58648,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "130000"
+              },
+              {
+                "text": "20000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "140000"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "150000"
+              },
+              {
+                "text": "1 UR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "160000"
+              },
+              {
+                "text": "25000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "170000"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "180000"
+              },
+              {
+                "text": "1 \"Monster Reborn Reborn\"",
+                "cards": [
+                  {
+                    "name": "Monster Reborn Reborn",
+                    "card": "5d75dfd7-2cd9-4d14-8b4f-a6b372af0be1",
+                    "yugipediaId": 548638,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "200000"
+              },
+              {
+                "text": "100 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "220000"
+              },
+              {
+                "text": "100 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "240000"
+              },
+              {
+                "text": "100 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "260000"
+              },
+              {
+                "text": "100 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "280000"
+              },
+              {
+                "text": "100 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "300000"
+              },
+              {
+                "text": "100 R Jewels"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "treasureBoxes",
+      "path": [
+        "Rewards",
+        "Treasure Boxes",
+        "How to Obtain"
+      ],
+      "notes": [
+        "After a team match ends and the player's team disbands, they are awarded a number of Treasure Boxes, depending on a number of factors including their own performance and their team's performance.",
+        "After a Round ends, the player is awarded a number of Treasure Boxes, depending on whether their faction won or lost the round."
+      ],
+      "tables": [
+        {
+          "caption": "Standard",
+          "columns": [
+            "Requirement",
+            "Silver",
+            "Gold"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Team Victory"
+              },
+              {
+                "text": "4"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "Team Member Ranking 1st Place"
+              },
+              {
+                "text": "4"
+              },
+              {
+                "text": "1"
+              }
+            ],
+            [
+              {
+                "text": "Team Member Ranking 2nd, 3rd Place"
+              },
+              {
+                "text": "3"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "Duel 1 time (excludes Surrenders.)"
+              },
+              {
+                "text": "3"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "Win 1 Duel."
+              },
+              {
+                "text": "1"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "Win 3 Duels."
+              },
+              {
+                "text": "1"
+              },
+              {
+                "text": ""
+              }
+            ]
+          ]
+        },
+        {
+          "caption": "Bonus Match",
+          "columns": [
+            "Requirement",
+            "Silver",
+            "Gold"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Team Victory"
+              },
+              {
+                "text": "4"
+              },
+              {
+                "text": "1"
+              }
+            ],
+            [
+              {
+                "text": "Team Member Ranking 1st Place"
+              },
+              {
+                "text": "5"
+              },
+              {
+                "text": "2"
+              }
+            ],
+            [
+              {
+                "text": "Team Member Ranking 2nd, 3rd Place"
+              },
+              {
+                "text": "4"
+              },
+              {
+                "text": "1"
+              }
+            ],
+            [
+              {
+                "text": "Duel 1 time (excludes Surrenders.)"
+              },
+              {
+                "text": "3"
+              },
+              {
+                "text": "1"
+              }
+            ],
+            [
+              {
+                "text": "Win 1 Duel."
+              },
+              {
+                "text": "1"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "Win 3 Duels."
+              },
+              {
+                "text": "1"
+              },
+              {
+                "text": ""
+              }
+            ]
+          ]
+        },
+        {
+          "caption": "Round Reward",
+          "columns": [
+            "Reward",
+            "Silver",
+            "Gold"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Round Victory"
+              },
+              {
+                "text": "8"
+              },
+              {
+                "text": "2"
+              }
+            ],
+            [
+              {
+                "text": "Round Defeat"
+              },
+              {
+                "text": "7"
+              },
+              {
+                "text": "1"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "treasureBoxes",
+      "path": [
+        "Rewards",
+        "Treasure Boxes",
+        "Reward List"
+      ],
+      "notes": [
+        "Gold Treasure Boxes and Silver Treasure Boxes contain different rewards. Gold Treasure Boxes only contain Gems or cards that are R or above."
+      ]
+    },
+    {
+      "kind": "treasureBoxes",
+      "path": [
+        "Rewards",
+        "Treasure Boxes",
+        "Reward List"
+      ],
+      "run": "October 2018",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "Reward",
+            "Silver",
+            "Gold"
+          ],
+          "rows": [
+            [
+              {
+                "text": "\"Psychic Ace\" (UR)",
+                "cards": [
+                  {
+                    "name": "Psychic Ace",
+                    "card": "b028bc9e-6f04-4853-b9f4-a605d5ba0efe",
+                    "yugipediaId": 557301,
+                    "rarity": "UR"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": "\u2714"
+              }
+            ],
+            [
+              {
+                "text": "\"Monster Reborn Reborn\" (UR)",
+                "cards": [
+                  {
+                    "name": "Monster Reborn Reborn",
+                    "card": "5d75dfd7-2cd9-4d14-8b4f-a6b372af0be1",
+                    "yugipediaId": 548638,
+                    "rarity": "UR"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": "\u2714"
+              }
+            ],
+            [
+              {
+                "text": "\"Master Gig\" (UR)",
+                "cards": [
+                  {
+                    "name": "Master Gig",
+                    "card": "143e97d3-26bf-426f-b1b7-1a92a2aef80d",
+                    "yugipediaId": 58648,
+                    "rarity": "UR"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": "\u2714"
+              }
+            ],
+            [
+              {
+                "text": "\"Goblin Marauding Squad\" (SR)",
+                "cards": [
+                  {
+                    "name": "Goblin Marauding Squad",
+                    "card": "4ac8bd1e-f10b-4cca-af98-7dfcba1cb809",
+                    "yugipediaId": 214168,
+                    "rarity": "SR"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": "\u2714"
+              }
+            ],
+            [
+              {
+                "text": "\"Risebell the Star Adjuster\" (SR)",
+                "cards": [
+                  {
+                    "name": "Risebell the Star Adjuster",
+                    "card": "908c53c4-9343-4080-a3b7-1a96bfed1e1f",
+                    "yugipediaId": 267936,
+                    "rarity": "SR"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": "\u2714"
+              }
+            ],
+            [
+              {
+                "text": "\"Battle of the Elements\" (SR)",
+                "cards": [
+                  {
+                    "name": "Battle of the Elements",
+                    "card": "746d2913-621a-4cb8-a77d-62e416a0b41f",
+                    "yugipediaId": 102509,
+                    "rarity": "SR"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": "\u2714"
+              }
+            ],
+            [
+              {
+                "text": "\"Heartless Drop Off\" (SR)",
+                "cards": [
+                  {
+                    "name": "Heartless Drop Off",
+                    "card": "e5ab1f2f-a474-4e24-9253-d378ab8831c3",
+                    "yugipediaId": 548652,
+                    "rarity": "SR"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": "\u2714"
+              }
+            ],
+            [
+              {
+                "text": "\"Pulse Mines\" (SR)",
+                "cards": [
+                  {
+                    "name": "Pulse Mines",
+                    "card": "74bed315-31ed-4a2b-a7f5-53e5d3bcbd55",
+                    "yugipediaId": 492212,
+                    "rarity": "SR"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": "\u2714"
+              }
+            ],
+            [
+              {
+                "text": "\"D.D. Telepon\" (SR)",
+                "cards": [
+                  {
+                    "name": "D.D. Telepon",
+                    "card": "90607f32-5d60-43c7-b43b-645ef6b140fa",
+                    "yugipediaId": 170945,
+                    "rarity": "SR"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": "\u2714"
+              }
+            ],
+            [
+              {
+                "text": "\"Teleport\" (R)",
+                "cards": [
+                  {
+                    "name": "Teleport",
+                    "card": "ed7fd24f-0c09-4031-968c-620119a11295",
+                    "yugipediaId": 27562,
+                    "rarity": "R"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": "\u2714"
+              }
+            ],
+            [
+              {
+                "text": "\"Cyber Esper\" (R)",
+                "cards": [
+                  {
+                    "name": "Cyber Esper",
+                    "card": "561b5e74-ea31-44b7-8089-f383f91b9e0c",
+                    "yugipediaId": 18389,
+                    "rarity": "R"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": "\u2714"
+              }
+            ],
+            [
+              {
+                "text": "\"Senri Eye\" (R)",
+                "cards": [
+                  {
+                    "name": "Senri Eye",
+                    "card": "9e1e3f3c-74ed-41ae-976d-045173cf85c8",
+                    "yugipediaId": 13001,
+                    "rarity": "R"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": "\u2714"
+              }
+            ],
+            [
+              {
+                "text": "\"Omega Goggles\" (R)",
+                "cards": [
+                  {
+                    "name": "Omega Goggles",
+                    "card": "210711dc-b307-4451-bf86-6fd9dd7f9325",
+                    "yugipediaId": 45599,
+                    "rarity": "R"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": "\u2714"
+              }
+            ],
+            [
+              {
+                "text": "\"Inspection\" (R)",
+                "cards": [
+                  {
+                    "name": "Inspection",
+                    "card": "ff94083c-a5bb-4e5a-9591-45017288c0d4",
+                    "yugipediaId": 5698,
+                    "rarity": "R"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": "\u2714"
+              }
+            ],
+            [
+              {
+                "text": "\"Goblin of Greed\" (N)",
+                "cards": [
+                  {
+                    "name": "Goblin of Greed",
+                    "card": "115fcd20-e010-4d1b-91cc-b40d0dd34dd1",
+                    "yugipediaId": 15279,
+                    "rarity": "N"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "\"Metal Dragon\" (N)",
+                "cards": [
+                  {
+                    "name": "Metal Dragon",
+                    "card": "13b6c721-0302-48ff-9c78-e275befc76c3",
+                    "yugipediaId": 507384,
+                    "rarity": "N"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "\"Steel Ogre Grotto #1\" (N)",
+                "cards": [
+                  {
+                    "name": "Steel Ogre Grotto #1",
+                    "card": "82bc798e-555b-4541-887c-ca273789cc3f",
+                    "yugipediaId": 507614,
+                    "rarity": "N"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "\"Psychic Kappa\" (N)",
+                "cards": [
+                  {
+                    "name": "Psychic Kappa",
+                    "card": "925baf4a-7a9f-409f-ae54-bb61aa47c567",
+                    "yugipediaId": 3560,
+                    "rarity": "N"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "\"Cyber Soldier of Darkworld\" (N)",
+                "cards": [
+                  {
+                    "name": "Cyber Soldier of Darkworld",
+                    "card": "f1348a22-3743-4deb-89d3-f8312d29fee5",
+                    "yugipediaId": 9094,
+                    "rarity": "N"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "\"Lesser Dragon\" (N)",
+                "cards": [
+                  {
+                    "name": "Lesser Dragon",
+                    "card": "c1d52eca-887a-4461-b619-a70de4e65f23",
+                    "yugipediaId": 507620,
+                    "rarity": "N"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "20 Gems"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": "\u2714"
+              }
+            ],
+            [
+              {
+                "text": "10 Gems"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": "\u2714"
+              }
+            ],
+            [
+              {
+                "text": "5 Gems"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": "\u2714"
+              }
+            ],
+            [
+              {
+                "text": "1 Gems"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": "\u2714"
+              }
+            ],
+            [
+              {
+                "text": "10000 Gold"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "5000 Gold"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "2000 Gold"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "1000 Gold"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "10 White Gate Keys"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "5 White Gate Keys"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "10 Black Gate Keys"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "5 Black Gate Keys"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "10 Blue Gate Keys"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "5 Blue Gate Keys"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "10 Red Gate Keys"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "5 Red Gate Keys"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "10 Yellow Gate Keys"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "5 Yellow Gate Keys"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "10 Green Gate Keys"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "5 Green Gate Keys"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "treasureBoxes",
+      "path": [
+        "Rewards",
+        "Treasure Boxes",
+        "Reward List"
+      ],
+      "run": "Jun-Jul 2018",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Reward",
+            "Silver",
+            "Gold"
+          ],
+          "rows": [
+            [
+              {
+                "text": "\"Monster Reborn Reborn\" (UR)",
+                "cards": [
+                  {
+                    "name": "Monster Reborn Reborn",
+                    "card": "5d75dfd7-2cd9-4d14-8b4f-a6b372af0be1",
+                    "yugipediaId": 548638,
+                    "rarity": "UR"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": "\u2714"
+              }
+            ],
+            [
+              {
+                "text": "\"Master Gig\" (UR)",
+                "cards": [
+                  {
+                    "name": "Master Gig",
+                    "card": "143e97d3-26bf-426f-b1b7-1a92a2aef80d",
+                    "yugipediaId": 58648,
+                    "rarity": "UR"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": "\u2714"
+              }
+            ],
+            [
+              {
+                "text": "\"Battle of the Elements\" (SR)",
+                "cards": [
+                  {
+                    "name": "Battle of the Elements",
+                    "card": "746d2913-621a-4cb8-a77d-62e416a0b41f",
+                    "yugipediaId": 102509,
+                    "rarity": "SR"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": "\u2714"
+              }
+            ],
+            [
+              {
+                "text": "\"Heartless Drop Off\" (SR)",
+                "cards": [
+                  {
+                    "name": "Heartless Drop Off",
+                    "card": "e5ab1f2f-a474-4e24-9253-d378ab8831c3",
+                    "yugipediaId": 548652,
+                    "rarity": "SR"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": "\u2714"
+              }
+            ],
+            [
+              {
+                "text": "\"Pulse Mines\" (SR)",
+                "cards": [
+                  {
+                    "name": "Pulse Mines",
+                    "card": "74bed315-31ed-4a2b-a7f5-53e5d3bcbd55",
+                    "yugipediaId": 492212,
+                    "rarity": "SR"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": "\u2714"
+              }
+            ],
+            [
+              {
+                "text": "\"D.D. Telepon\" (SR)",
+                "cards": [
+                  {
+                    "name": "D.D. Telepon",
+                    "card": "90607f32-5d60-43c7-b43b-645ef6b140fa",
+                    "yugipediaId": 170945,
+                    "rarity": "SR"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": "\u2714"
+              }
+            ],
+            [
+              {
+                "text": "\"Teleport\" (R)",
+                "cards": [
+                  {
+                    "name": "Teleport",
+                    "card": "ed7fd24f-0c09-4031-968c-620119a11295",
+                    "yugipediaId": 27562,
+                    "rarity": "R"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": "\u2714"
+              }
+            ],
+            [
+              {
+                "text": "\"Cyber Esper\" (R)",
+                "cards": [
+                  {
+                    "name": "Cyber Esper",
+                    "card": "561b5e74-ea31-44b7-8089-f383f91b9e0c",
+                    "yugipediaId": 18389,
+                    "rarity": "R"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": "\u2714"
+              }
+            ],
+            [
+              {
+                "text": "\"Senri Eye\" (R)",
+                "cards": [
+                  {
+                    "name": "Senri Eye",
+                    "card": "9e1e3f3c-74ed-41ae-976d-045173cf85c8",
+                    "yugipediaId": 13001,
+                    "rarity": "R"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": "\u2714"
+              }
+            ],
+            [
+              {
+                "text": "\"Omega Goggles\" (R)",
+                "cards": [
+                  {
+                    "name": "Omega Goggles",
+                    "card": "210711dc-b307-4451-bf86-6fd9dd7f9325",
+                    "yugipediaId": 45599,
+                    "rarity": "R"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": "\u2714"
+              }
+            ],
+            [
+              {
+                "text": "\"Inspection\" (R)",
+                "cards": [
+                  {
+                    "name": "Inspection",
+                    "card": "ff94083c-a5bb-4e5a-9591-45017288c0d4",
+                    "yugipediaId": 5698,
+                    "rarity": "R"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": "\u2714"
+              }
+            ],
+            [
+              {
+                "text": "\"Metal Dragon\" (N)",
+                "cards": [
+                  {
+                    "name": "Metal Dragon",
+                    "card": "13b6c721-0302-48ff-9c78-e275befc76c3",
+                    "yugipediaId": 507384,
+                    "rarity": "N"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "\"Steel Ogre Grotto #1\" (N)",
+                "cards": [
+                  {
+                    "name": "Steel Ogre Grotto #1",
+                    "card": "82bc798e-555b-4541-887c-ca273789cc3f",
+                    "yugipediaId": 507614,
+                    "rarity": "N"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "\"Psychic Kappa\" (N)",
+                "cards": [
+                  {
+                    "name": "Psychic Kappa",
+                    "card": "925baf4a-7a9f-409f-ae54-bb61aa47c567",
+                    "yugipediaId": 3560,
+                    "rarity": "N"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "\"Cyber Soldier of Darkworld\" (N)",
+                "cards": [
+                  {
+                    "name": "Cyber Soldier of Darkworld",
+                    "card": "f1348a22-3743-4deb-89d3-f8312d29fee5",
+                    "yugipediaId": 9094,
+                    "rarity": "N"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "\"Lesser Dragon\" (N)",
+                "cards": [
+                  {
+                    "name": "Lesser Dragon",
+                    "card": "c1d52eca-887a-4461-b619-a70de4e65f23",
+                    "yugipediaId": 507620,
+                    "rarity": "N"
+                  }
+                ]
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "25 Gems"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": "\u2714"
+              }
+            ],
+            [
+              {
+                "text": "15 Gems"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": "\u2714"
+              }
+            ],
+            [
+              {
+                "text": "10 Gems"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": "\u2714"
+              }
+            ],
+            [
+              {
+                "text": "5 Gems"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": "\u2714"
+              }
+            ],
+            [
+              {
+                "text": "3000 Gold"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "2000 Gold"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "1000 Gold"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "600 Gold"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "300 Gold"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "10 White Gate Keys"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "5 White Gate Keys"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "10 Black Gate Keys"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "5 Black Gate Keys"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "10 Blue Gate Keys"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "5 Blue Gate Keys"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "10 Red Gate Keys"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "5 Red Gate Keys"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "10 Yellow Gate Keys"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "5 Yellow Gate Keys"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "10 Green Gate Keys"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "5 Green Gate Keys"
+              },
+              {
+                "text": "\u2714"
+              },
+              {
+                "text": ""
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "other",
+      "path": [
+        "Rewards",
+        "Game Mat"
+      ],
+      "notes": [
+        "All players obtained a Gate Mat representing the faction that won the final round (Machine), regardless of their own faction. The Game Mat was sent to the Gift Box of players who logged between July 6 and 13, 2018."
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Goblin of Greed",
+      "card": "115fcd20-e010-4d1b-91cc-b40d0dd34dd1",
+      "yugipediaId": 15279,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "October 2018",
+          "runIndex": 1,
+          "requirement": "8000"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "October 2018",
+          "runIndex": 1,
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Heartless Drop Off",
+      "card": "e5ab1f2f-a474-4e24-9253-d378ab8831c3",
+      "yugipediaId": 548652,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "October 2018",
+          "runIndex": 1,
+          "requirement": "17000"
+        },
+        {
+          "kind": "cumulativeRewards",
+          "run": "Jun-Jul 2018",
+          "runIndex": 0,
+          "requirement": "38000"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "October 2018",
+          "runIndex": 1,
+          "rarity": "SR"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "Jun-Jul 2018",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Risebell the Star Adjuster",
+      "card": "908c53c4-9343-4080-a3b7-1a96bfed1e1f",
+      "yugipediaId": 267936,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "October 2018",
+          "runIndex": 1,
+          "requirement": "50000"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "October 2018",
+          "runIndex": 1,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Goblin Marauding Squad",
+      "card": "4ac8bd1e-f10b-4cca-af98-7dfcba1cb809",
+      "yugipediaId": 214168,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "October 2018",
+          "runIndex": 1,
+          "requirement": "75000"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "October 2018",
+          "runIndex": 1,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Jinzo",
+      "card": "ef691e2a-10af-4486-b949-ec6800be764a",
+      "yugipediaId": 163,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "October 2018",
+          "runIndex": 1,
+          "requirement": "160000"
+        }
+      ]
+    },
+    {
+      "name": "Psychic Ace",
+      "card": "b028bc9e-6f04-4853-b9f4-a605d5ba0efe",
+      "yugipediaId": 557301,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "October 2018",
+          "runIndex": 1,
+          "requirement": "270000"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "October 2018",
+          "runIndex": 1,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Teleport",
+      "card": "ed7fd24f-0c09-4031-968c-620119a11295",
+      "yugipediaId": 27562,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "Jun-Jul 2018",
+          "runIndex": 0,
+          "requirement": "4000"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "October 2018",
+          "runIndex": 1,
+          "rarity": "R"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "Jun-Jul 2018",
+          "runIndex": 0,
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "D.D. Telepon",
+      "card": "90607f32-5d60-43c7-b43b-645ef6b140fa",
+      "yugipediaId": 170945,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "Jun-Jul 2018",
+          "runIndex": 0,
+          "requirement": "12000"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "October 2018",
+          "runIndex": 1,
+          "rarity": "SR"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "Jun-Jul 2018",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Pulse Mines",
+      "card": "74bed315-31ed-4a2b-a7f5-53e5d3bcbd55",
+      "yugipediaId": 492212,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "Jun-Jul 2018",
+          "runIndex": 0,
+          "requirement": "54000"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "October 2018",
+          "runIndex": 1,
+          "rarity": "SR"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "Jun-Jul 2018",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Battle of the Elements",
+      "card": "746d2913-621a-4cb8-a77d-62e416a0b41f",
+      "yugipediaId": 102509,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "Jun-Jul 2018",
+          "runIndex": 0,
+          "requirement": "80000"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "October 2018",
+          "runIndex": 1,
+          "rarity": "SR"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "Jun-Jul 2018",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Master Gig",
+      "card": "143e97d3-26bf-426f-b1b7-1a92a2aef80d",
+      "yugipediaId": 58648,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "Jun-Jul 2018",
+          "runIndex": 0,
+          "requirement": "120000"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "October 2018",
+          "runIndex": 1,
+          "rarity": "UR"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "Jun-Jul 2018",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Monster Reborn Reborn",
+      "card": "5d75dfd7-2cd9-4d14-8b4f-a6b372af0be1",
+      "yugipediaId": 548638,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "Jun-Jul 2018",
+          "runIndex": 0,
+          "requirement": "180000"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "October 2018",
+          "runIndex": 1,
+          "rarity": "UR"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "Jun-Jul 2018",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Cyber Esper",
+      "card": "561b5e74-ea31-44b7-8089-f383f91b9e0c",
+      "yugipediaId": 18389,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "October 2018",
+          "runIndex": 1,
+          "rarity": "R"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "Jun-Jul 2018",
+          "runIndex": 0,
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Senri Eye",
+      "card": "9e1e3f3c-74ed-41ae-976d-045173cf85c8",
+      "yugipediaId": 13001,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "October 2018",
+          "runIndex": 1,
+          "rarity": "R"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "Jun-Jul 2018",
+          "runIndex": 0,
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Omega Goggles",
+      "card": "210711dc-b307-4451-bf86-6fd9dd7f9325",
+      "yugipediaId": 45599,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "October 2018",
+          "runIndex": 1,
+          "rarity": "R"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "Jun-Jul 2018",
+          "runIndex": 0,
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Inspection",
+      "card": "ff94083c-a5bb-4e5a-9591-45017288c0d4",
+      "yugipediaId": 5698,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "October 2018",
+          "runIndex": 1,
+          "rarity": "R"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "Jun-Jul 2018",
+          "runIndex": 0,
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Metal Dragon",
+      "card": "13b6c721-0302-48ff-9c78-e275befc76c3",
+      "yugipediaId": 507384,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "October 2018",
+          "runIndex": 1,
+          "rarity": "N"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "Jun-Jul 2018",
+          "runIndex": 0,
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Steel Ogre Grotto #1",
+      "card": "82bc798e-555b-4541-887c-ca273789cc3f",
+      "yugipediaId": 507614,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "October 2018",
+          "runIndex": 1,
+          "rarity": "N"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "Jun-Jul 2018",
+          "runIndex": 0,
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Psychic Kappa",
+      "card": "925baf4a-7a9f-409f-ae54-bb61aa47c567",
+      "yugipediaId": 3560,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "October 2018",
+          "runIndex": 1,
+          "rarity": "N"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "Jun-Jul 2018",
+          "runIndex": 0,
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Cyber Soldier of Darkworld",
+      "card": "f1348a22-3743-4deb-89d3-f8312d29fee5",
+      "yugipediaId": 9094,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "October 2018",
+          "runIndex": 1,
+          "rarity": "N"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "Jun-Jul 2018",
+          "runIndex": 0,
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Lesser Dragon",
+      "card": "c1d52eca-887a-4461-b619-a70de4e65f23",
+      "yugipediaId": 507620,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "October 2018",
+          "runIndex": 1,
+          "rarity": "N"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "Jun-Jul 2018",
+          "runIndex": 0,
+          "rarity": "N"
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Cyber Energy Amplified",
+      "skill": "485f3012-8bd9-4994-95b3-752714bd9cc1",
+      "yugipediaId": 714408,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "October 2018",
+          "runIndex": 1,
+          "requirement": "110000"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Espa Roba's Duel Carnival",
+        "id": 565710
+      }
+    ]
+  }
+}

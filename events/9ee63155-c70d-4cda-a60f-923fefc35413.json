@@ -1,0 +1,199 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "9ee63155-c70d-4cda-a60f-923fefc35413",
+  "name": {
+    "en": "4th Anniversary Campaign"
+  },
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/a/a9/4thAnniversaryCampaign-Banner.png",
+  "runs": [
+    {
+      "startDate": "2021-01-11",
+      "endDate": "2022-02-28"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "other",
+      "path": [
+        "Rewards"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "Players who logged into Yu-Gi-Oh! Duel Links during the duration of the event would receive all of the following rewards.",
+        "In addition, for each day logged in, players would also receive 1 of the following rewards:"
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "1000 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1 \"Blue-Eyes Alternative White Dragon\" (Ultra Prismatic)",
+                "cards": [
+                  {
+                    "name": "Blue-Eyes Alternative White Dragon",
+                    "card": "d2ac9cf4-65fe-4353-85b8-128507467a7b",
+                    "yugipediaId": 372420,
+                    "quantity": 1,
+                    "variant": "Ultra Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "1 alternate artwork \"Blue-Eyes White Dragon\" (Ultra Prismatic)",
+                "cards": [
+                  {
+                    "name": "Blue-Eyes White Dragon",
+                    "card": "ee6249a6-f980-43b3-8e39-4ee5c89c09c0",
+                    "yugipediaId": 30,
+                    "variant": "Ultra Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "1 Skill Ticket"
+              }
+            ],
+            [
+              {
+                "text": "Card Sleeves: 4-Year Anniversary"
+              }
+            ],
+            [
+              {
+                "text": "Game Mat: 4-Year Anniversary"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Day",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Day 1"
+              },
+              {
+                "text": "1 UR Ticket (Prismatic)"
+              }
+            ],
+            [
+              {
+                "text": "Day 2"
+              },
+              {
+                "text": "1 UR Dream Ticket (Glossy)"
+              }
+            ],
+            [
+              {
+                "text": "Day 3"
+              },
+              {
+                "text": "1 SR Ticket (Prismatic)"
+              }
+            ],
+            [
+              {
+                "text": "Day 4"
+              },
+              {
+                "text": "1 SR Dream Ticket (Glossy)"
+              }
+            ],
+            [
+              {
+                "text": "Day 5"
+              },
+              {
+                "text": "1 UR Ticket (Glossy)"
+              }
+            ],
+            [
+              {
+                "text": "Day 6"
+              },
+              {
+                "text": "1 SR Ticket (Glossy)"
+              }
+            ],
+            [
+              {
+                "text": "Day 7"
+              },
+              {
+                "text": "1 UR Ticket"
+              }
+            ],
+            [
+              {
+                "text": "Day 8"
+              },
+              {
+                "text": "1 SR Ticket"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "other",
+      "path": [
+        "Rewards",
+        "Giveaway Extension"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "On November 4, 2021, it was announced that the duration of this campaign would be extended. It was previously set to end on January 11, 2022, and was extended until February 28, 2022."
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Blue-Eyes Alternative White Dragon",
+      "card": "d2ac9cf4-65fe-4353-85b8-128507467a7b",
+      "yugipediaId": 372420,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "runIndex": 0
+        }
+      ]
+    },
+    {
+      "name": "Blue-Eyes White Dragon",
+      "card": "ee6249a6-f980-43b3-8e39-4ee5c89c09c0",
+      "yugipediaId": 30,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "runIndex": 0
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "4th Anniversary Campaign",
+        "id": 1011686
+      }
+    ]
+  }
+}

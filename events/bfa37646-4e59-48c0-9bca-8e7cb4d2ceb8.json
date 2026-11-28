@@ -1,0 +1,759 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "bfa37646-4e59-48c0-9bca-8e7cb4d2ceb8",
+  "name": {
+    "en": "Espa Roba (Roaming Duelist event)"
+  },
+  "type": "Roaming Duelist event",
+  "duelWorlds": [
+    "Duel World (DM)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/a/ad/EspaRobaishere-Banner.png",
+  "runs": [
+    {
+      "startDate": "2017-11-21",
+      "endDate": "2017-11-28"
+    },
+    {
+      "startDate": "2018-02-13",
+      "endDate": "2018-02-18"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Event Details",
+        "Duel Rewards"
+      ],
+      "notes": [
+        "In addition to the following, standard Duel Rewards were also available by Dueling Espa Roba Level 30 or less."
+      ]
+    },
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Event Details",
+        "Duel Rewards"
+      ],
+      "run": "February 2018",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Master Gig\"",
+                "cards": [
+                  {
+                    "name": "Master Gig",
+                    "card": "143e97d3-26bf-426f-b1b7-1a92a2aef80d",
+                    "yugipediaId": 58648
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Scrap Recycler\", \"Time Escaper\", \"D.D. Telepon\", \"Psychic Overload\", \"Pulse Mines\"",
+                "cards": [
+                  {
+                    "name": "Scrap Recycler",
+                    "card": "9ee3c602-ecb0-495a-8198-c2bd50402668",
+                    "yugipediaId": 113521
+                  },
+                  {
+                    "name": "Time Escaper",
+                    "card": "75900111-1d06-4401-b3d8-7c42791fe001",
+                    "yugipediaId": 174280
+                  },
+                  {
+                    "name": "D.D. Telepon",
+                    "card": "90607f32-5d60-43c7-b43b-645ef6b140fa",
+                    "yugipediaId": 170945
+                  },
+                  {
+                    "name": "Psychic Overload",
+                    "card": "abd58ed2-4f3f-4dd4-9d04-f77078d1a533",
+                    "yugipediaId": 31471
+                  },
+                  {
+                    "name": "Pulse Mines",
+                    "card": "74bed315-31ed-4a2b-a7f5-53e5d3bcbd55",
+                    "yugipediaId": 492212
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Cyber Esper\", \"Senri Eye\", \"Omega Goggles\", \"Inspection\"",
+                "cards": [
+                  {
+                    "name": "Cyber Esper",
+                    "card": "561b5e74-ea31-44b7-8089-f383f91b9e0c",
+                    "yugipediaId": 18389
+                  },
+                  {
+                    "name": "Senri Eye",
+                    "card": "9e1e3f3c-74ed-41ae-976d-045173cf85c8",
+                    "yugipediaId": 13001
+                  },
+                  {
+                    "name": "Omega Goggles",
+                    "card": "210711dc-b307-4451-bf86-6fd9dd7f9325",
+                    "yugipediaId": 45599
+                  },
+                  {
+                    "name": "Inspection",
+                    "card": "ff94083c-a5bb-4e5a-9591-45017288c0d4",
+                    "yugipediaId": 5698
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Cyber Soldier of Darkworld\"",
+                "cards": [
+                  {
+                    "name": "Cyber Soldier of Darkworld",
+                    "card": "f1348a22-3743-4deb-89d3-f8312d29fee5",
+                    "yugipediaId": 9094
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Event Details",
+        "Duel Rewards"
+      ],
+      "run": "November 2017",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Armored Axon Kicker\"",
+                "cards": [
+                  {
+                    "name": "Armored Axon Kicker",
+                    "card": "d5368e30-f9e6-4919-96ee-dc0e7bc4244f",
+                    "yugipediaId": 95230
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Scrap Recycler\", \"Time Escaper\", \"Psychic Shockwave\", \"Pulse Mines\"",
+                "cards": [
+                  {
+                    "name": "Scrap Recycler",
+                    "card": "9ee3c602-ecb0-495a-8198-c2bd50402668",
+                    "yugipediaId": 113521
+                  },
+                  {
+                    "name": "Time Escaper",
+                    "card": "75900111-1d06-4401-b3d8-7c42791fe001",
+                    "yugipediaId": 174280
+                  },
+                  {
+                    "name": "Psychic Shockwave",
+                    "card": "9189e72e-5620-4c10-aeeb-6c0408cd1592",
+                    "yugipediaId": 170858
+                  },
+                  {
+                    "name": "Pulse Mines",
+                    "card": "74bed315-31ed-4a2b-a7f5-53e5d3bcbd55",
+                    "yugipediaId": 492212
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Cyber Esper\", \"Senri Eye\", \"Omega Goggles\", \"Inspection\"",
+                "cards": [
+                  {
+                    "name": "Cyber Esper",
+                    "card": "561b5e74-ea31-44b7-8089-f383f91b9e0c",
+                    "yugipediaId": 18389
+                  },
+                  {
+                    "name": "Senri Eye",
+                    "card": "9e1e3f3c-74ed-41ae-976d-045173cf85c8",
+                    "yugipediaId": 13001
+                  },
+                  {
+                    "name": "Omega Goggles",
+                    "card": "210711dc-b307-4451-bf86-6fd9dd7f9325",
+                    "yugipediaId": 45599
+                  },
+                  {
+                    "name": "Inspection",
+                    "card": "ff94083c-a5bb-4e5a-9591-45017288c0d4",
+                    "yugipediaId": 5698
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Cyber Soldier\"",
+                "cards": [
+                  {
+                    "name": "Cyber Soldier",
+                    "card": "fe70ddde-bc52-49f1-b4aa-2858b26f7e99",
+                    "yugipediaId": 19842
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Event Details",
+        "Event Missions"
+      ],
+      "run": "February 2018",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 3 Duel(s) against Espa Roba in Duel World."
+              },
+              {
+                "text": "1 \"Cyber Esper\"",
+                "cards": [
+                  {
+                    "name": "Cyber Esper",
+                    "card": "561b5e74-ea31-44b7-8089-f383f91b9e0c",
+                    "yugipediaId": 18389,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 7 Duel(s) against Espa Roba in Duel World."
+              },
+              {
+                "text": "1 \"Psychic Overload\"",
+                "cards": [
+                  {
+                    "name": "Psychic Overload",
+                    "card": "abd58ed2-4f3f-4dd4-9d04-f77078d1a533",
+                    "yugipediaId": 31471,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Play 10 Duel(s) against Espa Roba in Duel World."
+              },
+              {
+                "text": "1 \"D.D. Telepon\"",
+                "cards": [
+                  {
+                    "name": "D.D. Telepon",
+                    "card": "90607f32-5d60-43c7-b43b-645ef6b140fa",
+                    "yugipediaId": 170945,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Play 15 Duel(s) against Espa Roba in Duel World."
+              },
+              {
+                "text": "1 \"Master Gig\"",
+                "cards": [
+                  {
+                    "name": "Master Gig",
+                    "card": "143e97d3-26bf-426f-b1b7-1a92a2aef80d",
+                    "yugipediaId": 58648,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 1 Duel(s) against Espa Roba while playing as Joey Wheeler."
+              },
+              {
+                "text": "Card Sleeves: Psy-Kids"
+              }
+            ],
+            [
+              {
+                "text": "Win 1 Duel(s) against Espa Roba while playing as Joey Wheeler."
+              },
+              {
+                "text": "Game Mat: Psy-Kids"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Event Details",
+        "Event Missions"
+      ],
+      "run": "November 2017",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 3 Duel(s) against Espa Roba in Duel World."
+              },
+              {
+                "text": "1 \"Cyber Esper\"",
+                "cards": [
+                  {
+                    "name": "Cyber Esper",
+                    "card": "561b5e74-ea31-44b7-8089-f383f91b9e0c",
+                    "yugipediaId": 18389,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 7 Duel(s) against Espa Roba in Duel World."
+              },
+              {
+                "text": "1 \"Psychic Shockwave\"",
+                "cards": [
+                  {
+                    "name": "Psychic Shockwave",
+                    "card": "9189e72e-5620-4c10-aeeb-6c0408cd1592",
+                    "yugipediaId": 170858,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Play 10 Duel(s) against Espa Roba in Duel World."
+              },
+              {
+                "text": "1 \"Pulse Mines\"",
+                "cards": [
+                  {
+                    "name": "Pulse Mines",
+                    "card": "74bed315-31ed-4a2b-a7f5-53e5d3bcbd55",
+                    "yugipediaId": 492212,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Play 15 Duel(s) against Espa Roba in Duel World."
+              },
+              {
+                "text": "1 \"Armored Axon Kicker\"",
+                "cards": [
+                  {
+                    "name": "Armored Axon Kicker",
+                    "card": "d5368e30-f9e6-4919-96ee-dc0e7bc4244f",
+                    "yugipediaId": 95230,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 1 Duel(s) against Espa Roba while playing as Joey Wheeler."
+              },
+              {
+                "text": "Card Sleeves"
+              }
+            ],
+            [
+              {
+                "text": "Win 1 Duel(s) against Espa Roba while playing as Joey Wheeler."
+              },
+              {
+                "text": "Game Mat"
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Master Gig",
+      "card": "143e97d3-26bf-426f-b1b7-1a92a2aef80d",
+      "yugipediaId": 58648,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "February 2018",
+          "runIndex": 1,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "missions",
+          "run": "February 2018",
+          "runIndex": 1,
+          "requirement": "Play 15 Duel(s) against Espa Roba in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Scrap Recycler",
+      "card": "9ee3c602-ecb0-495a-8198-c2bd50402668",
+      "yugipediaId": 113521,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "February 2018",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "November 2017",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Time Escaper",
+      "card": "75900111-1d06-4401-b3d8-7c42791fe001",
+      "yugipediaId": 174280,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "February 2018",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "November 2017",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "D.D. Telepon",
+      "card": "90607f32-5d60-43c7-b43b-645ef6b140fa",
+      "yugipediaId": 170945,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "February 2018",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "run": "February 2018",
+          "runIndex": 1,
+          "requirement": "Play 10 Duel(s) against Espa Roba in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Psychic Overload",
+      "card": "abd58ed2-4f3f-4dd4-9d04-f77078d1a533",
+      "yugipediaId": 31471,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "February 2018",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "run": "February 2018",
+          "runIndex": 1,
+          "requirement": "Win 7 Duel(s) against Espa Roba in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Pulse Mines",
+      "card": "74bed315-31ed-4a2b-a7f5-53e5d3bcbd55",
+      "yugipediaId": 492212,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "February 2018",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "November 2017",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "run": "November 2017",
+          "runIndex": 0,
+          "requirement": "Play 10 Duel(s) against Espa Roba in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Cyber Esper",
+      "card": "561b5e74-ea31-44b7-8089-f383f91b9e0c",
+      "yugipediaId": 18389,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "February 2018",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "November 2017",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "missions",
+          "run": "February 2018",
+          "runIndex": 1,
+          "requirement": "Win 3 Duel(s) against Espa Roba in Duel World."
+        },
+        {
+          "kind": "missions",
+          "run": "November 2017",
+          "runIndex": 0,
+          "requirement": "Win 3 Duel(s) against Espa Roba in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Senri Eye",
+      "card": "9e1e3f3c-74ed-41ae-976d-045173cf85c8",
+      "yugipediaId": 13001,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "February 2018",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "November 2017",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Omega Goggles",
+      "card": "210711dc-b307-4451-bf86-6fd9dd7f9325",
+      "yugipediaId": 45599,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "February 2018",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "November 2017",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Inspection",
+      "card": "ff94083c-a5bb-4e5a-9591-45017288c0d4",
+      "yugipediaId": 5698,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "February 2018",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "November 2017",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Cyber Soldier of Darkworld",
+      "card": "f1348a22-3743-4deb-89d3-f8312d29fee5",
+      "yugipediaId": 9094,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "February 2018",
+          "runIndex": 1,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Armored Axon Kicker",
+      "card": "d5368e30-f9e6-4919-96ee-dc0e7bc4244f",
+      "yugipediaId": 95230,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "November 2017",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "missions",
+          "run": "November 2017",
+          "runIndex": 0,
+          "requirement": "Play 15 Duel(s) against Espa Roba in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Psychic Shockwave",
+      "card": "9189e72e-5620-4c10-aeeb-6c0408cd1592",
+      "yugipediaId": 170858,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "November 2017",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "run": "November 2017",
+          "runIndex": 0,
+          "requirement": "Win 7 Duel(s) against Espa Roba in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Cyber Soldier",
+      "card": "fe70ddde-bc52-49f1-b4aa-2858b26f7e99",
+      "yugipediaId": 19842,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "November 2017",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Espa Roba is here!",
+        "id": 696115
+      }
+    ]
+  }
+}

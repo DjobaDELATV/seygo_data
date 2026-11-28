@@ -1,0 +1,99 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "9f8b3a9c-2d91-4017-a79d-7f1758a7d7b5",
+  "name": {
+    "en": "Swing Into Action! Pendulum Summon Challenge!"
+  },
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/b/b8/SwingIntoActionPendulumSummonChallenge-Banner.png",
+  "runs": [
+    {
+      "startDate": "2021-10-01",
+      "endDate": "2021-10-05"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "cumulativeRewards",
+      "path": [
+        "Rewards",
+        "Cumulative Rewards"
+      ],
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Points",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "5000000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "10000000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "20000000"
+              },
+              {
+                "text": "Card Sleeves: Stargazer Magician & Timegazer Magician"
+              }
+            ],
+            [
+              {
+                "text": "30000000"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "40000000"
+              },
+              {
+                "text": "Game Mat: Stargazer Magician & Timegazer Magician"
+              }
+            ],
+            [
+              {
+                "text": "50000000"
+              },
+              {
+                "text": "100 Gems"
+              }
+            ],
+            [
+              {
+                "text": "60000000"
+              },
+              {
+                "text": "Icon: Yuya\u2019s Pendant"
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Swing Into Action! Pendulum Summon Challenge!",
+        "id": 1133571
+      }
+    ]
+  }
+}

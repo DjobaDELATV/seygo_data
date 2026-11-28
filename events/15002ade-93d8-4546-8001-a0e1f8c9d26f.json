@@ -1,0 +1,1197 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "15002ade-93d8-4546-8001-a0e1f8c9d26f",
+  "name": {
+    "en": "D.D. Castle: Emergence"
+  },
+  "type": "D.D. Castle",
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/f/f4/DDCastleEmergence-Banner.png",
+  "runs": [
+    {
+      "startDate": "2020-05-07",
+      "endDate": "2020-05-13"
+    }
+  ],
+  "cardTraderExDates": [
+    {
+      "startDate": "2020-05-07",
+      "endDate": "2020-05-20"
+    }
+  ],
+  "lotteryDates": [
+    {
+      "startDate": "2020-05-07",
+      "endDate": "2020-05-20"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "completion",
+      "path": [
+        "Rewards",
+        "Floor completion rewards"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "Rewards can be earned by completing floors of the tower."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Floor",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "1F"
+              },
+              {
+                "text": "1 EX Draw & Summon"
+              }
+            ],
+            [
+              {
+                "text": "2F"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "3F"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "4F"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "5F"
+              },
+              {
+                "text": "50 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "6F"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "7F"
+              },
+              {
+                "text": "10 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "8F"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "9F"
+              },
+              {
+                "text": "3 Extra Cards"
+              }
+            ],
+            [
+              {
+                "text": "10F"
+              },
+              {
+                "text": "Card Sleeves: Reign-Beaux, Overlord of Dark World"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Floor",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "11F"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "12F"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "13F"
+              },
+              {
+                "text": "3 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "14F"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "15F"
+              },
+              {
+                "text": "1 \"Chaos Betrayer\"",
+                "cards": [
+                  {
+                    "name": "Chaos Betrayer",
+                    "card": "6c692f92-ca1e-4eea-9519-4aab68dfcfd3",
+                    "yugipediaId": 585460,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "16F"
+              },
+              {
+                "text": "50 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "17F"
+              },
+              {
+                "text": "10 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "18F"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "19F"
+              },
+              {
+                "text": "1 EX Draw & Summon"
+              }
+            ],
+            [
+              {
+                "text": "20F"
+              },
+              {
+                "text": "Game Mat: Reign-Beaux, Overlord of Dark World"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Floor",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "21F"
+              },
+              {
+                "text": "50 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "22F"
+              },
+              {
+                "text": "3 EXP Boosters"
+              }
+            ],
+            [
+              {
+                "text": "23F"
+              },
+              {
+                "text": "40 Gems"
+              }
+            ],
+            [
+              {
+                "text": "24F"
+              },
+              {
+                "text": "20000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "25F"
+              },
+              {
+                "text": "1 \"Goldd, Wu-Lord of Dark World\"",
+                "cards": [
+                  {
+                    "name": "Goldd, Wu-Lord of Dark World",
+                    "card": "f1ee8158-a4ac-423d-8d71-dac41249684e",
+                    "yugipediaId": 5023,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "26F"
+              },
+              {
+                "text": "40 Gems"
+              }
+            ],
+            [
+              {
+                "text": "27F"
+              },
+              {
+                "text": "10 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "28F"
+              },
+              {
+                "text": "1 UR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "29F"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "30F"
+              },
+              {
+                "text": "Icon"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "completion",
+      "path": [
+        "Rewards",
+        "Floor completion rewards",
+        "Challenge Floors"
+      ],
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Challenge",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "10F"
+              },
+              {
+                "text": "60 Gems"
+              }
+            ],
+            [
+              {
+                "text": "20F"
+              },
+              {
+                "text": "70 Gems"
+              }
+            ],
+            [
+              {
+                "text": "30F"
+              },
+              {
+                "text": "D.D. Castle: Emergence Completed"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "cardTraderEx",
+      "path": [
+        "Rewards",
+        "Card Trader EX"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "The Card Trader EX appears during this event and remained open until one week after its conclusion. The player can trade their EX Jewels for cards, Booster Items, Gold, and Skill Chips. Each card and Booster Item can only be obtained once from the Card Trader EX during this event, but the Gold can be obtained any number of times. When purchasing one of the latter, the player can chose how many copies they wish to exchange."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "EX Jewels",
+            "Item"
+          ],
+          "rows": [
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1"
+              },
+              {
+                "text": "100 Gold"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Results Booster"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 EXP Booster"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "10 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Goldd, Wu-Lord of Dark World\" (Glossy)",
+                "cards": [
+                  {
+                    "name": "Goldd, Wu-Lord of Dark World",
+                    "card": "f1ee8158-a4ac-423d-8d71-dac41249684e",
+                    "yugipediaId": 5023,
+                    "quantity": 1,
+                    "variant": "Glossy"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "400"
+              },
+              {
+                "text": "1 \"Goldd, Wu-Lord of Dark World\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Goldd, Wu-Lord of Dark World",
+                    "card": "f1ee8158-a4ac-423d-8d71-dac41249684e",
+                    "yugipediaId": 5023,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "300"
+              },
+              {
+                "text": "1 \"Rainbow Dark Dragon\"",
+                "cards": [
+                  {
+                    "name": "Rainbow Dark Dragon",
+                    "card": "1fc35c16-6fad-429f-bf10-9714dc3f3dfd",
+                    "yugipediaId": 507634,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Chaos Betrayer\"",
+                "cards": [
+                  {
+                    "name": "Chaos Betrayer",
+                    "card": "6c692f92-ca1e-4eea-9519-4aab68dfcfd3",
+                    "yugipediaId": 585460,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Silent Paladin\"",
+                "cards": [
+                  {
+                    "name": "Silent Paladin",
+                    "card": "92282e3e-9ca9-43cc-9a93-730dfa8b5c90",
+                    "yugipediaId": 472878,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Goblin Attack Force\"",
+                "cards": [
+                  {
+                    "name": "Goblin Attack Force",
+                    "card": "b95fc7e9-f36a-4602-a337-12473a55a157",
+                    "yugipediaId": 63,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Splendid Venus\"",
+                "cards": [
+                  {
+                    "name": "Splendid Venus",
+                    "card": "3afa44fd-3ddf-4814-8462-eab2cc0acf54",
+                    "yugipediaId": 513127,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Maximum Six\"",
+                "cards": [
+                  {
+                    "name": "Maximum Six",
+                    "card": "2c4d1276-ac0d-42ee-ac92-aae66d328adb",
+                    "yugipediaId": 16692,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Garoozis\"",
+                "cards": [
+                  {
+                    "name": "Garoozis",
+                    "card": "6b6d5c52-2fc9-4ff8-b516-33fcec2c4026",
+                    "yugipediaId": 11012,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Card Ejector\"",
+                "cards": [
+                  {
+                    "name": "Card Ejector",
+                    "card": "ba53681c-8b21-4154-bde7-4b0990f7ec01",
+                    "yugipediaId": 69884,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Hydrogeddon\"",
+                "cards": [
+                  {
+                    "name": "Hydrogeddon",
+                    "card": "25ff26ce-3467-4b9b-846a-f06a07459914",
+                    "yugipediaId": 704,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Oxygeddon\"",
+                "cards": [
+                  {
+                    "name": "Oxygeddon",
+                    "card": "d96a7929-618c-4fcd-a8b2-417b0788fe22",
+                    "yugipediaId": 700,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Waterdragon Fairy\"",
+                "cards": [
+                  {
+                    "name": "Waterdragon Fairy",
+                    "card": "615fdaf1-277e-46fb-b841-bdaaa53ce7e7",
+                    "yugipediaId": 19079,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Karakuri Spider\"",
+                "cards": [
+                  {
+                    "name": "Karakuri Spider",
+                    "card": "e85b5601-f863-4b65-8d87-8ffc65c8f6a7",
+                    "yugipediaId": 8822,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Rainbow Flower\"",
+                "cards": [
+                  {
+                    "name": "Rainbow Flower",
+                    "card": "db55d06a-1642-4688-83d5-4c411feab3fe",
+                    "yugipediaId": 3530,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Wings of Wicked Flame\"",
+                "cards": [
+                  {
+                    "name": "Wings of Wicked Flame",
+                    "card": "57df47c0-97f9-4a9d-a409-67ee3adbd0d0",
+                    "yugipediaId": 7299,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Horn Imp\"",
+                "cards": [
+                  {
+                    "name": "Horn Imp",
+                    "card": "cc5ca76d-9370-4ee2-bea3-33f701ce60a4",
+                    "yugipediaId": 21626,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "lottery",
+      "path": [
+        "Rewards",
+        "Lottery"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "The player can spend a multiple of 30 Lottery Coins (max. 300 at a time) to obtain one random reward for each 30 Lottery Coins spent. The Lottery remained available until after the event's conclusion, and could be accessed from the \"Information\" menu."
+      ],
+      "tables": [
+        {
+          "rows": [
+            [
+              {
+                "text": ""
+              },
+              {
+                "text": "Lottery Rewards"
+              }
+            ],
+            [
+              {
+                "text": "Rainbow"
+              },
+              {
+                "text": "\"Goldd, Wu-Lord of Dark World\" (UR), \"Rainbow Dark Dragon\" (UR), \"Chaos Betrayer\" (SR), \"Silent Paladin\" (SR), \"Goblin Attack Force\" (SR), \"Splendid Venus\" (SR)\n10 Gems",
+                "cards": [
+                  {
+                    "name": "Goldd, Wu-Lord of Dark World",
+                    "card": "f1ee8158-a4ac-423d-8d71-dac41249684e",
+                    "yugipediaId": 5023,
+                    "rarity": "UR"
+                  },
+                  {
+                    "name": "Rainbow Dark Dragon",
+                    "card": "1fc35c16-6fad-429f-bf10-9714dc3f3dfd",
+                    "yugipediaId": 507634,
+                    "rarity": "UR"
+                  },
+                  {
+                    "name": "Chaos Betrayer",
+                    "card": "6c692f92-ca1e-4eea-9519-4aab68dfcfd3",
+                    "yugipediaId": 585460,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Silent Paladin",
+                    "card": "92282e3e-9ca9-43cc-9a93-730dfa8b5c90",
+                    "yugipediaId": 472878,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Goblin Attack Force",
+                    "card": "b95fc7e9-f36a-4602-a337-12473a55a157",
+                    "yugipediaId": 63,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Splendid Venus",
+                    "card": "3afa44fd-3ddf-4814-8462-eab2cc0acf54",
+                    "yugipediaId": 513127,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Gold"
+              },
+              {
+                "text": "\"Maximum Six\" (R), \"Garoozis\" (R), \"Card Ejector\" (R), \"Hydrogeddon\" (R), \"Oxygeddon\" (R)\n1 SR Jewel\n20 EX Jewels (D.D. Castle)\n5 Gems\n3000 or 2000 Gold\n10 Gate Keys (White, Black, Blue, Red, Yellow or Green)",
+                "cards": [
+                  {
+                    "name": "Maximum Six",
+                    "card": "2c4d1276-ac0d-42ee-ac92-aae66d328adb",
+                    "yugipediaId": 16692,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Garoozis",
+                    "card": "6b6d5c52-2fc9-4ff8-b516-33fcec2c4026",
+                    "yugipediaId": 11012,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Card Ejector",
+                    "card": "ba53681c-8b21-4154-bde7-4b0990f7ec01",
+                    "yugipediaId": 69884,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Hydrogeddon",
+                    "card": "25ff26ce-3467-4b9b-846a-f06a07459914",
+                    "yugipediaId": 704,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Oxygeddon",
+                    "card": "d96a7929-618c-4fcd-a8b2-417b0788fe22",
+                    "yugipediaId": 700,
+                    "rarity": "R"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Normal"
+              },
+              {
+                "text": "\"Waterdragon Fairy\" (N), \"Karakuri Spider\" (N), \"Rainbow Flower\" (N), \"Wings of Wicked Flame\" (N), \"Horn Imp\" (N)\n5 R Jewels\n12, 6, or 1 EX Jewel(s) (D.D. Castle)\n1 Gem\n1000, 600, or 300 Gold\n5 Gate Keys (White, Black, Blue, Red, Yellow or Green)",
+                "cards": [
+                  {
+                    "name": "Waterdragon Fairy",
+                    "card": "615fdaf1-277e-46fb-b841-bdaaa53ce7e7",
+                    "yugipediaId": 19079,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Karakuri Spider",
+                    "card": "e85b5601-f863-4b65-8d87-8ffc65c8f6a7",
+                    "yugipediaId": 8822,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Rainbow Flower",
+                    "card": "db55d06a-1642-4688-83d5-4c411feab3fe",
+                    "yugipediaId": 3530,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Wings of Wicked Flame",
+                    "card": "57df47c0-97f9-4a9d-a409-67ee3adbd0d0",
+                    "yugipediaId": 7299,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Horn Imp",
+                    "card": "cc5ca76d-9370-4ee2-bea3-33f701ce60a4",
+                    "yugipediaId": 21626,
+                    "rarity": "N"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Unknown"
+              },
+              {
+                "text": "1 UR Jewel"
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Chaos Betrayer",
+      "card": "6c692f92-ca1e-4eea-9519-4aab68dfcfd3",
+      "yugipediaId": 585460,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "runIndex": 0,
+          "requirement": "15F"
+        },
+        {
+          "kind": "cardTraderEx",
+          "runIndex": 0,
+          "requirement": "100"
+        },
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Goldd, Wu-Lord of Dark World",
+      "card": "f1ee8158-a4ac-423d-8d71-dac41249684e",
+      "yugipediaId": 5023,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "runIndex": 0,
+          "requirement": "25F"
+        },
+        {
+          "kind": "cardTraderEx",
+          "runIndex": 0,
+          "requirement": "100"
+        },
+        {
+          "kind": "cardTraderEx",
+          "runIndex": 0,
+          "requirement": "400"
+        },
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Rainbow Dark Dragon",
+      "card": "1fc35c16-6fad-429f-bf10-9714dc3f3dfd",
+      "yugipediaId": 507634,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "runIndex": 0,
+          "requirement": "300"
+        },
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Silent Paladin",
+      "card": "92282e3e-9ca9-43cc-9a93-730dfa8b5c90",
+      "yugipediaId": 472878,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "runIndex": 0,
+          "requirement": "100"
+        },
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Goblin Attack Force",
+      "card": "b95fc7e9-f36a-4602-a337-12473a55a157",
+      "yugipediaId": 63,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "runIndex": 0,
+          "requirement": "100"
+        },
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Splendid Venus",
+      "card": "3afa44fd-3ddf-4814-8462-eab2cc0acf54",
+      "yugipediaId": 513127,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "runIndex": 0,
+          "requirement": "100"
+        },
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Maximum Six",
+      "card": "2c4d1276-ac0d-42ee-ac92-aae66d328adb",
+      "yugipediaId": 16692,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "runIndex": 0,
+          "requirement": "30"
+        },
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Garoozis",
+      "card": "6b6d5c52-2fc9-4ff8-b516-33fcec2c4026",
+      "yugipediaId": 11012,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "runIndex": 0,
+          "requirement": "30"
+        },
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Card Ejector",
+      "card": "ba53681c-8b21-4154-bde7-4b0990f7ec01",
+      "yugipediaId": 69884,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "runIndex": 0,
+          "requirement": "30"
+        },
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Hydrogeddon",
+      "card": "25ff26ce-3467-4b9b-846a-f06a07459914",
+      "yugipediaId": 704,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "runIndex": 0,
+          "requirement": "30"
+        },
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Oxygeddon",
+      "card": "d96a7929-618c-4fcd-a8b2-417b0788fe22",
+      "yugipediaId": 700,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "runIndex": 0,
+          "requirement": "30"
+        },
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Waterdragon Fairy",
+      "card": "615fdaf1-277e-46fb-b841-bdaaa53ce7e7",
+      "yugipediaId": 19079,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "runIndex": 0,
+          "requirement": "10"
+        },
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Karakuri Spider",
+      "card": "e85b5601-f863-4b65-8d87-8ffc65c8f6a7",
+      "yugipediaId": 8822,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "runIndex": 0,
+          "requirement": "10"
+        },
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Rainbow Flower",
+      "card": "db55d06a-1642-4688-83d5-4c411feab3fe",
+      "yugipediaId": 3530,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "runIndex": 0,
+          "requirement": "10"
+        },
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Wings of Wicked Flame",
+      "card": "57df47c0-97f9-4a9d-a409-67ee3adbd0d0",
+      "yugipediaId": 7299,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "runIndex": 0,
+          "requirement": "10"
+        },
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Horn Imp",
+      "card": "cc5ca76d-9370-4ee2-bea3-33f701ce60a4",
+      "yugipediaId": 21626,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "runIndex": 0,
+          "requirement": "10"
+        },
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "D.D. Castle: Emergence",
+        "id": 1011684
+      }
+    ]
+  }
+}

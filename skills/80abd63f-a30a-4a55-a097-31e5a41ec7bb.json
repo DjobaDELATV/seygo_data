@@ -1,0 +1,44 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/skill.json",
+  "id": "80abd63f-a30a-4a55-a097-31e5a41ec7bb",
+  "text": {
+    "en": {
+      "name": "Ready to Get Defeated?",
+      "effect": "Increase the ATK of 1 \"Galaxy-Eyes\" monster on your field that is not a \"Number\" monster by 1000 until the end of the turn. This Skill can only be used once per Duel."
+    },
+    "fr": {
+      "name": "Pr\u00eat pour la d\u00e9faite ?",
+      "effect": "Augmentez l'ATK d'1 monstre \"Yeux Galactique\" autre que des monstres \"Num\u00e9ro\" sur votre Terrain de 1 000 jusqu'\u00e0 la fin du tour. Cette Comp\u00e9tence ne peut \u00eatre utilis\u00e9e qu'une fois par Duel."
+    }
+  },
+  "cardType": "skill-dl",
+  "skillType": "Legendary",
+  "supportsArchetypes": [
+    "Galaxy-Eyes"
+  ],
+  "releases": [
+    {
+      "character": "Kite Tenjo (Duel Links)",
+      "type": "mission",
+      "details": "Reduce your opponent's LP to 0 by inflicting battle damage with \"Galaxy-Eyes Photon Dragon\" in a Duel against Yuma and Astral while playing as Kite Tenjo.",
+      "releaseDate": "2021-08-18"
+    },
+    {
+      "character": "Kite Tenjo (Duel Links)",
+      "type": "event",
+      "details": "Number Hunter: Kite Tenjo!",
+      "description": "Event Mission",
+      "releaseDate": "2021-06-19",
+      "removalDate": "2021-06-21",
+      "event": "fb6a0fd1-1614-430d-9186-6721b3f13eef"
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Ready to Get Defeated?",
+        "id": 716387
+      }
+    ]
+  }
+}

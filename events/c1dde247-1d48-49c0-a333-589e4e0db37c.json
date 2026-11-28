@@ -1,0 +1,1612 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "c1dde247-1d48-49c0-a333-589e4e0db37c",
+  "name": {
+    "en": "Celebrity Duelist Incoming! Blue Angel"
+  },
+  "type": "Gate Event",
+  "duelWorlds": [
+    "Duel World (VRAINS)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/a/a2/CelebrityDuelistIncomingBlueAngel.png",
+  "runs": [
+    {
+      "startDate": "2022-10-19",
+      "endDate": "2022-10-31"
+    },
+    {
+      "startDate": "2023-01-06",
+      "endDate": "2023-01-15"
+    }
+  ],
+  "cardTraderExDates": [
+    {
+      "startDate": "2022-10-19",
+      "endDate": "2022-11-07"
+    },
+    {
+      "startDate": "2023-01-06",
+      "endDate": "2023-01-22"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "other",
+      "path": [
+        "Rewards",
+        "Cheer Score Rewards"
+      ],
+      "notes": [
+        "You will obtain special rewards for reaching various Cheer Score milestones as follows."
+      ]
+    },
+    {
+      "kind": "other",
+      "path": [
+        "Rewards",
+        "Cheer Score Rewards"
+      ],
+      "run": "January 2023",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "Card Sleeves: Blue Angel (Cheer Reward A)"
+              }
+            ],
+            [
+              {
+                "text": "200"
+              },
+              {
+                "text": "20 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "300"
+              },
+              {
+                "text": "Game Mat: Blue Angel (Cheer Reward A)"
+              }
+            ],
+            [
+              {
+                "text": "500"
+              },
+              {
+                "text": "20 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "700"
+              },
+              {
+                "text": "Card Sleeves: Blue Angel (Cheer Reward B)"
+              }
+            ],
+            [
+              {
+                "text": "1000"
+              },
+              {
+                "text": "20 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "1300"
+              },
+              {
+                "text": "Game Mat: Blue Angel (Cheer Reward B)"
+              }
+            ],
+            [
+              {
+                "text": "1600"
+              },
+              {
+                "text": "20 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "2000"
+              },
+              {
+                "text": "Card Sleeves: Blue Angel (Cheer Reward C)"
+              }
+            ],
+            [
+              {
+                "text": "2400"
+              },
+              {
+                "text": "20 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "2800"
+              },
+              {
+                "text": "Game Mat: Blue Angel (Cheer Reward C)"
+              }
+            ],
+            [
+              {
+                "text": "3200"
+              },
+              {
+                "text": "20 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "3600"
+              },
+              {
+                "text": "Icon: Cheer"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "other",
+      "path": [
+        "Rewards",
+        "Cheer Score Rewards"
+      ],
+      "run": "October 2022",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "Card Sleeves: Blue Angel (Cheer Reward A)"
+              }
+            ],
+            [
+              {
+                "text": "200"
+              },
+              {
+                "text": "20 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "300"
+              },
+              {
+                "text": "Game Mat: Blue Angel (Cheer Reward A)"
+              }
+            ],
+            [
+              {
+                "text": "500"
+              },
+              {
+                "text": "20 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "700"
+              },
+              {
+                "text": "Card Sleeves: Blue Angel (Cheer Reward B)"
+              }
+            ],
+            [
+              {
+                "text": "1000"
+              },
+              {
+                "text": "20 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "1300"
+              },
+              {
+                "text": "Game Mat: Blue Angel (Cheer Reward B)"
+              }
+            ],
+            [
+              {
+                "text": "1600"
+              },
+              {
+                "text": "20 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "2000"
+              },
+              {
+                "text": "Icon: Cheer"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "other",
+      "path": [
+        "Rewards",
+        "Cheer Score Rewards"
+      ],
+      "notes": [
+        "Additional 20 EX Jewels awarded every 400 additional points."
+      ]
+    },
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "notes": [
+        "When Dueling against Blue Angel Level 40 or higher, these are the only cards that can drop; at lower levels, cards from the standard pool for Legendary Duelists may also drop. Dueling Celebrity Duelist Blue Angel or Competitive Playmaker at any level will also drop cards from this pool."
+      ]
+    },
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "run": "January 2023",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Trickstar Band Sweet Guitar\", \"Trickstar Foxglove Witch\"",
+                "cards": [
+                  {
+                    "name": "Trickstar Band Sweet Guitar",
+                    "card": "8a56fe04-8d31-47de-820b-ebbdb9318fda",
+                    "yugipediaId": 575843
+                  },
+                  {
+                    "name": "Trickstar Foxglove Witch",
+                    "card": "8e175742-9d79-4964-a3e3-3730647e8397",
+                    "yugipediaId": 546391
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Trickstar Fusion\", \"Trickstar Light Arena\", Athena\"",
+                "cards": [
+                  {
+                    "name": "Trickstar Fusion",
+                    "card": "3421a33a-e253-4a41-9f53-1dca78d3a384",
+                    "yugipediaId": 577163
+                  },
+                  {
+                    "name": "Trickstar Light Arena",
+                    "card": "0afb170c-d56f-4aa4-83a6-2dcba8d82839",
+                    "yugipediaId": 546372
+                  },
+                  {
+                    "name": "Athena",
+                    "card": "3034aaeb-1c56-453e-9fd2-35bfe6a434c9",
+                    "yugipediaId": 63714
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Spirit of the Harp\", \"Soul of the Pure\", \"Elf's Light\"",
+                "cards": [
+                  {
+                    "name": "Spirit of the Harp",
+                    "card": "9211fc4b-66fe-4a6c-a19e-fa048ad22651",
+                    "yugipediaId": 507139
+                  },
+                  {
+                    "name": "Soul of the Pure",
+                    "card": "a52c052a-96ca-43ec-885c-4423e6f50448",
+                    "yugipediaId": 7973
+                  },
+                  {
+                    "name": "Elf's Light",
+                    "card": "592529c7-732a-4ef1-aaa0-3d65bb177610",
+                    "yugipediaId": 7858
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Dancing Elf\", \"Fairywitch\"",
+                "cards": [
+                  {
+                    "name": "Dancing Elf",
+                    "card": "48f3a731-adba-4e83-983a-4fe0c0b7ea0b",
+                    "yugipediaId": 9846
+                  },
+                  {
+                    "name": "Fairywitch",
+                    "card": "041549db-140b-4022-8887-5535eaf65674",
+                    "yugipediaId": 7550
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "run": "October 2022",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Trickstar Foxglove Witch\"",
+                "cards": [
+                  {
+                    "name": "Trickstar Foxglove Witch",
+                    "card": "8e175742-9d79-4964-a3e3-3730647e8397",
+                    "yugipediaId": 546391
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Trickstar Light Arena\", \"Cupid Volley\", \"Cupid Serve\", Athena\"",
+                "cards": [
+                  {
+                    "name": "Trickstar Light Arena",
+                    "card": "0afb170c-d56f-4aa4-83a6-2dcba8d82839",
+                    "yugipediaId": 546372
+                  },
+                  {
+                    "name": "Cupid Volley",
+                    "card": "4d21d0f0-6d73-4e2e-a01d-530d2934e0f9",
+                    "yugipediaId": 557289
+                  },
+                  {
+                    "name": "Cupid Serve",
+                    "card": "37e4a27d-3584-4f9b-9c73-d7aed0504daa",
+                    "yugipediaId": 669660
+                  },
+                  {
+                    "name": "Athena",
+                    "card": "3034aaeb-1c56-453e-9fd2-35bfe6a434c9",
+                    "yugipediaId": 63714
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Spirit of the Harp\", \"Soul of the Pure\", \"Elf's Light\"",
+                "cards": [
+                  {
+                    "name": "Spirit of the Harp",
+                    "card": "9211fc4b-66fe-4a6c-a19e-fa048ad22651",
+                    "yugipediaId": 507139
+                  },
+                  {
+                    "name": "Soul of the Pure",
+                    "card": "a52c052a-96ca-43ec-885c-4423e6f50448",
+                    "yugipediaId": 7973
+                  },
+                  {
+                    "name": "Elf's Light",
+                    "card": "592529c7-732a-4ef1-aaa0-3d65bb177610",
+                    "yugipediaId": 7858
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Dancing Elf\", \"Fairywitch\"",
+                "cards": [
+                  {
+                    "name": "Dancing Elf",
+                    "card": "48f3a731-adba-4e83-983a-4fe0c0b7ea0b",
+                    "yugipediaId": 9846
+                  },
+                  {
+                    "name": "Fairywitch",
+                    "card": "041549db-140b-4022-8887-5535eaf65674",
+                    "yugipediaId": 7550
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "cardTraderEx",
+      "path": [
+        "Rewards",
+        "Card Trader EX"
+      ],
+      "notes": [
+        "The Card Trader EX appears during this event and remains open until one week after its conclusion. The player can trade their EX Jewels for cards, Booster Items, Gold, and Skill Chips. Each card and Booster Item can only be obtained once from the Card Trader EX during this event, but the Gold can be obtained any number of times."
+      ]
+    },
+    {
+      "kind": "cardTraderEx",
+      "path": [
+        "Rewards",
+        "Card Trader EX"
+      ],
+      "run": "January 2023",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "EX Jewels",
+            "Item"
+          ],
+          "rows": [
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1"
+              },
+              {
+                "text": "100 Gold"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Results Booster"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 EXP Booster"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "10 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Trickstar Band Sweet Guitar\" (Glossy)",
+                "cards": [
+                  {
+                    "name": "Trickstar Band Sweet Guitar",
+                    "card": "8a56fe04-8d31-47de-820b-ebbdb9318fda",
+                    "yugipediaId": 575843,
+                    "quantity": 1,
+                    "variant": "Glossy"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "400"
+              },
+              {
+                "text": "1 \"Trickstar Band Sweet Guitar\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Trickstar Band Sweet Guitar",
+                    "card": "8a56fe04-8d31-47de-820b-ebbdb9318fda",
+                    "yugipediaId": 575843,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "300"
+              },
+              {
+                "text": "1 \"Trickstar Foxglove Witch\"",
+                "cards": [
+                  {
+                    "name": "Trickstar Foxglove Witch",
+                    "card": "8e175742-9d79-4964-a3e3-3730647e8397",
+                    "yugipediaId": 546391,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Trickstar Fusion\"",
+                "cards": [
+                  {
+                    "name": "Trickstar Fusion",
+                    "card": "3421a33a-e253-4a41-9f53-1dca78d3a384",
+                    "yugipediaId": 577163,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Trickstar Light Arena\"",
+                "cards": [
+                  {
+                    "name": "Trickstar Light Arena",
+                    "card": "0afb170c-d56f-4aa4-83a6-2dcba8d82839",
+                    "yugipediaId": 546372,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Athena\"",
+                "cards": [
+                  {
+                    "name": "Athena",
+                    "card": "3034aaeb-1c56-453e-9fd2-35bfe6a434c9",
+                    "yugipediaId": 63714,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Spirit of the Harp\"",
+                "cards": [
+                  {
+                    "name": "Spirit of the Harp",
+                    "card": "9211fc4b-66fe-4a6c-a19e-fa048ad22651",
+                    "yugipediaId": 507139,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Soul of the Pure\"",
+                "cards": [
+                  {
+                    "name": "Soul of the Pure",
+                    "card": "a52c052a-96ca-43ec-885c-4423e6f50448",
+                    "yugipediaId": 7973,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Elf's Light\"",
+                "cards": [
+                  {
+                    "name": "Elf's Light",
+                    "card": "592529c7-732a-4ef1-aaa0-3d65bb177610",
+                    "yugipediaId": 7858,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Dancing Elf\"",
+                "cards": [
+                  {
+                    "name": "Dancing Elf",
+                    "card": "48f3a731-adba-4e83-983a-4fe0c0b7ea0b",
+                    "yugipediaId": 9846,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Fairywitch\"",
+                "cards": [
+                  {
+                    "name": "Fairywitch",
+                    "card": "041549db-140b-4022-8887-5535eaf65674",
+                    "yugipediaId": 7550,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "cardTraderEx",
+      "path": [
+        "Rewards",
+        "Card Trader EX"
+      ],
+      "run": "October 2022",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "EX Jewels",
+            "Item"
+          ],
+          "rows": [
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1"
+              },
+              {
+                "text": "100 Gold"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Results Booster"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 EXP Booster"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "10 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Trickstar Foxglove Witch\" (Glossy)",
+                "cards": [
+                  {
+                    "name": "Trickstar Foxglove Witch",
+                    "card": "8e175742-9d79-4964-a3e3-3730647e8397",
+                    "yugipediaId": 546391,
+                    "quantity": 1,
+                    "variant": "Glossy"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "400"
+              },
+              {
+                "text": "1 \"Trickstar Foxglove Witch\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Trickstar Foxglove Witch",
+                    "card": "8e175742-9d79-4964-a3e3-3730647e8397",
+                    "yugipediaId": 546391,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Trickstar Light Arena\"",
+                "cards": [
+                  {
+                    "name": "Trickstar Light Arena",
+                    "card": "0afb170c-d56f-4aa4-83a6-2dcba8d82839",
+                    "yugipediaId": 546372,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Cupid Volley\"",
+                "cards": [
+                  {
+                    "name": "Cupid Volley",
+                    "card": "4d21d0f0-6d73-4e2e-a01d-530d2934e0f9",
+                    "yugipediaId": 557289,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Cupid Serve\"",
+                "cards": [
+                  {
+                    "name": "Cupid Serve",
+                    "card": "37e4a27d-3584-4f9b-9c73-d7aed0504daa",
+                    "yugipediaId": 669660,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Athena\"",
+                "cards": [
+                  {
+                    "name": "Athena",
+                    "card": "3034aaeb-1c56-453e-9fd2-35bfe6a434c9",
+                    "yugipediaId": 63714,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Spirit of the Harp\"",
+                "cards": [
+                  {
+                    "name": "Spirit of the Harp",
+                    "card": "9211fc4b-66fe-4a6c-a19e-fa048ad22651",
+                    "yugipediaId": 507139,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Soul of the Pure\"",
+                "cards": [
+                  {
+                    "name": "Soul of the Pure",
+                    "card": "a52c052a-96ca-43ec-885c-4423e6f50448",
+                    "yugipediaId": 7973,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Elf's Light\"",
+                "cards": [
+                  {
+                    "name": "Elf's Light",
+                    "card": "592529c7-732a-4ef1-aaa0-3d65bb177610",
+                    "yugipediaId": 7858,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Dancing Elf\"",
+                "cards": [
+                  {
+                    "name": "Dancing Elf",
+                    "card": "48f3a731-adba-4e83-983a-4fe0c0b7ea0b",
+                    "yugipediaId": 9846,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Fairywitch\"",
+                "cards": [
+                  {
+                    "name": "Fairywitch",
+                    "card": "041549db-140b-4022-8887-5535eaf65674",
+                    "yugipediaId": 7550,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Rewards",
+        "Event Missions"
+      ],
+      "notes": [
+        "These missions were available from the start of the event."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Event Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against Blue Angel at Level 10 in Duel World."
+              },
+              {
+                "text": "10 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 1 Duel(s) against Blue Angel at Level 20 in Duel World."
+              },
+              {
+                "text": "20 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 1 Duel(s) against Blue Angel at Level 30 in Duel World."
+              },
+              {
+                "text": "30 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 1 Duel(s) against Blue Angel at Level 40 in Duel World."
+              },
+              {
+                "text": "40 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 15 Duel(s) against Blue Angel in Duel World."
+              },
+              {
+                "text": "40 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 30 Duel(s) against Blue Angel in Duel World."
+              },
+              {
+                "text": "40 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Play 20 Duel(s) against Blue Angel in Duel World."
+              },
+              {
+                "text": "60 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Play 40 Duel(s) against Blue Angel in Duel World."
+              },
+              {
+                "text": "60 EX Jewels"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "dailyMissions",
+      "path": [
+        "Rewards",
+        "Event Missions",
+        "Daily Missions"
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Event Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Play 1 Duel(s) in Ranked Duels (surrenders are not counted)."
+              },
+              {
+                "text": "40 Cheer Supplies"
+              }
+            ],
+            [
+              {
+                "text": "Play 2 Duel(s) in Ranked Duels (surrenders are not counted)."
+              },
+              {
+                "text": "40 Cheer Supplies"
+              }
+            ],
+            [
+              {
+                "text": "Play 3 Duel(s) in Ranked Duels (surrenders are not counted)."
+              },
+              {
+                "text": "40 Cheer Supplies"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Rewards",
+        "Event Missions",
+        "Special Missions"
+      ],
+      "notes": [
+        "These were unlocked January 7."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Event Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Summon \"Trickstar Holly Angel\" 1 time(s) while playing as Blue Angel.",
+                "cards": [
+                  {
+                    "name": "Trickstar Holly Angel",
+                    "card": "ded7f530-c103-4186-9848-2869da89ba1a",
+                    "yugipediaId": 480268
+                  }
+                ]
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Summon \"Trickstar Holly Angel\" 2 time(s) while playing as Blue Angel.",
+                "cards": [
+                  {
+                    "name": "Trickstar Holly Angel",
+                    "card": "ded7f530-c103-4186-9848-2869da89ba1a",
+                    "yugipediaId": 480268
+                  }
+                ]
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Summon \"Trickstar Holly Angel\" 3 time(s) while playing as Blue Angel.",
+                "cards": [
+                  {
+                    "name": "Trickstar Holly Angel",
+                    "card": "ded7f530-c103-4186-9848-2869da89ba1a",
+                    "yugipediaId": 480268
+                  }
+                ]
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Win by reducing your opponent's LP to 0 by inflicting effect or battle damage with \"Trickstar Holly Angel\" using Blue Angel.",
+                "cards": [
+                  {
+                    "name": "Trickstar Holly Angel",
+                    "card": "ded7f530-c103-4186-9848-2869da89ba1a",
+                    "yugipediaId": 480268
+                  }
+                ]
+              },
+              {
+                "text": "10 Gems"
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Trickstar Band Sweet Guitar",
+      "card": "8a56fe04-8d31-47de-820b-ebbdb9318fda",
+      "yugipediaId": 575843,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "January 2023",
+          "runIndex": 1,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "January 2023",
+          "runIndex": 1,
+          "requirement": "100"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "January 2023",
+          "runIndex": 1,
+          "requirement": "400"
+        }
+      ]
+    },
+    {
+      "name": "Trickstar Foxglove Witch",
+      "card": "8e175742-9d79-4964-a3e3-3730647e8397",
+      "yugipediaId": 546391,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "January 2023",
+          "runIndex": 1,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "October 2022",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "January 2023",
+          "runIndex": 1,
+          "requirement": "300"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "October 2022",
+          "runIndex": 0,
+          "requirement": "100"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "October 2022",
+          "runIndex": 0,
+          "requirement": "400"
+        }
+      ]
+    },
+    {
+      "name": "Trickstar Fusion",
+      "card": "3421a33a-e253-4a41-9f53-1dca78d3a384",
+      "yugipediaId": 577163,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "January 2023",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "January 2023",
+          "runIndex": 1,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Trickstar Light Arena",
+      "card": "0afb170c-d56f-4aa4-83a6-2dcba8d82839",
+      "yugipediaId": 546372,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "January 2023",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "October 2022",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "January 2023",
+          "runIndex": 1,
+          "requirement": "100"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "October 2022",
+          "runIndex": 0,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Athena",
+      "card": "3034aaeb-1c56-453e-9fd2-35bfe6a434c9",
+      "yugipediaId": 63714,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "January 2023",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "October 2022",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "January 2023",
+          "runIndex": 1,
+          "requirement": "100"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "October 2022",
+          "runIndex": 0,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Spirit of the Harp",
+      "card": "9211fc4b-66fe-4a6c-a19e-fa048ad22651",
+      "yugipediaId": 507139,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "January 2023",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "October 2022",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "January 2023",
+          "runIndex": 1,
+          "requirement": "30"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "October 2022",
+          "runIndex": 0,
+          "requirement": "30"
+        }
+      ]
+    },
+    {
+      "name": "Soul of the Pure",
+      "card": "a52c052a-96ca-43ec-885c-4423e6f50448",
+      "yugipediaId": 7973,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "January 2023",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "October 2022",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "January 2023",
+          "runIndex": 1,
+          "requirement": "30"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "October 2022",
+          "runIndex": 0,
+          "requirement": "30"
+        }
+      ]
+    },
+    {
+      "name": "Elf's Light",
+      "card": "592529c7-732a-4ef1-aaa0-3d65bb177610",
+      "yugipediaId": 7858,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "January 2023",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "October 2022",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "January 2023",
+          "runIndex": 1,
+          "requirement": "30"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "October 2022",
+          "runIndex": 0,
+          "requirement": "30"
+        }
+      ]
+    },
+    {
+      "name": "Dancing Elf",
+      "card": "48f3a731-adba-4e83-983a-4fe0c0b7ea0b",
+      "yugipediaId": 9846,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "January 2023",
+          "runIndex": 1,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "October 2022",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "January 2023",
+          "runIndex": 1,
+          "requirement": "10"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "October 2022",
+          "runIndex": 0,
+          "requirement": "10"
+        }
+      ]
+    },
+    {
+      "name": "Fairywitch",
+      "card": "041549db-140b-4022-8887-5535eaf65674",
+      "yugipediaId": 7550,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "January 2023",
+          "runIndex": 1,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "October 2022",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "January 2023",
+          "runIndex": 1,
+          "requirement": "10"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "October 2022",
+          "runIndex": 0,
+          "requirement": "10"
+        }
+      ]
+    },
+    {
+      "name": "Cupid Volley",
+      "card": "4d21d0f0-6d73-4e2e-a01d-530d2934e0f9",
+      "yugipediaId": 557289,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "October 2022",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "October 2022",
+          "runIndex": 0,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Cupid Serve",
+      "card": "37e4a27d-3584-4f9b-9c73-d7aed0504daa",
+      "yugipediaId": 669660,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "October 2022",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "October 2022",
+          "runIndex": 0,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Trickstar Holly Angel",
+      "card": "ded7f530-c103-4186-9848-2869da89ba1a",
+      "yugipediaId": 480268,
+      "obtainedVia": [
+        {
+          "kind": "missions"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Celebrity Duelist Incoming! Blue Angel",
+        "id": 1011618
+      }
+    ]
+  }
+}

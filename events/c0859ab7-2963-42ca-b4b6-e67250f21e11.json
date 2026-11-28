@@ -1,0 +1,93 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "c0859ab7-2963-42ca-b4b6-e67250f21e11",
+  "name": {
+    "en": "World Championship 2018 Celebration Campaign"
+  },
+  "rushDuel": false,
+  "runs": [
+    {
+      "startDate": "2018-05-09",
+      "endDate": "2018-06-30"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "other",
+      "path": [
+        "Rewards"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "Players who logged into Yu-Gi-Oh! Duel Links during the duration of the event would receive 1000 Gems and 1 Prismatic copy of \"Dark Magician Girl\" with alternate artwork.",
+        "In addition, for each day logged in, players would also receive 1 of the following rewards:"
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Day",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Day 1"
+              },
+              {
+                "text": "1 SR Ticket"
+              }
+            ],
+            [
+              {
+                "text": "Day 2"
+              },
+              {
+                "text": "1 UR Dream Ticket"
+              }
+            ],
+            [
+              {
+                "text": "Day 3"
+              },
+              {
+                "text": "1 SR Ticket"
+              }
+            ],
+            [
+              {
+                "text": "Day 4"
+              },
+              {
+                "text": "1 UR Ticket"
+              }
+            ],
+            [
+              {
+                "text": "Day 5"
+              },
+              {
+                "text": "1 SR Ticket"
+              }
+            ],
+            [
+              {
+                "text": "Day 6"
+              },
+              {
+                "text": "1 UR Ticket"
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "World Championship 2018 Celebration Campaign",
+        "id": 1011635
+      }
+    ]
+  }
+}

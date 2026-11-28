@@ -1,0 +1,118 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "1719e1d9-d1ca-40df-82cd-dff6f42a03a4",
+  "name": {
+    "en": "Duel World (GX) Release Celebration Campaign"
+  },
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/c/c3/DuelWorldGXReleaseCelebrationCampaign-Banner.png",
+  "runs": [
+    {
+      "startDate": "2017-09-28",
+      "endDate": "2018-02-28"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "other",
+      "path": [
+        "Rewards"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "Players who logged into Yu-Gi-Oh! Duel Links during this campaign would receive all of the following rewards.",
+        "In addition, for each day logged in, players would also receive 1 of the following rewards:"
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "1010 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Card Sleeves: GX Release Celebration"
+              }
+            ],
+            [
+              {
+                "text": "Game Mat: GX Release Celebration"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Day",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Day 1"
+              },
+              {
+                "text": "1 SR Ticket"
+              }
+            ],
+            [
+              {
+                "text": "Day 2"
+              },
+              {
+                "text": "1 UR Ticket"
+              }
+            ],
+            [
+              {
+                "text": "Day 3"
+              },
+              {
+                "text": "1 SR Ticket"
+              }
+            ],
+            [
+              {
+                "text": "Day 4"
+              },
+              {
+                "text": "1 SR Ticket"
+              }
+            ],
+            [
+              {
+                "text": "Day 5"
+              },
+              {
+                "text": "1 UR Ticket"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Mission Bingo"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "The Mission Bingo feature was added in this event, and became available to all players even after this event ended. It allows the players to complete several missions and unlock Mokuba Kaiba as a playable character."
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Duel World (GX) Release Celebration Campaign",
+        "id": 1128534
+      }
+    ]
+  }
+}

@@ -1,0 +1,378 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "6b4ed705-01b2-4181-a524-5975a453ea99",
+  "name": {
+    "en": "Chazz-A-Thon"
+  },
+  "type": "Duel-A-Thon",
+  "duelWorlds": [
+    "Duel World (GX)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/b/bc/ChazzAThon-Banner.png",
+  "runs": [
+    {
+      "startDate": "2018-02-05",
+      "endDate": "2018-02-13"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "other",
+      "path": [
+        "Rewards",
+        "Duel"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "When Dueling against Serious Chazz Level 40, these are the only cards that can drop; at lower levels, cards from the standard pool for Legendary Duelists may also drop."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Armed Dragon LV10\", \"VWXYZ-Dragon Catapult Cannon\"",
+                "cards": [
+                  {
+                    "name": "Armed Dragon LV10",
+                    "card": "fa384ff5-c385-439d-b2f4-76f1a0966ced",
+                    "yugipediaId": 1746
+                  },
+                  {
+                    "name": "VWXYZ-Dragon Catapult Cannon",
+                    "card": "b3c6827a-019a-44cb-8b86-0b52500e2bad",
+                    "yugipediaId": 336
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Despair from the Dark\", \"Armed Dragon LV5\", \"Lancer Lindwurm\"",
+                "cards": [
+                  {
+                    "name": "Despair from the Dark",
+                    "card": "0eccf399-6d0d-4061-a2ff-cec63b5bee2d",
+                    "yugipediaId": 2246
+                  },
+                  {
+                    "name": "Armed Dragon LV5",
+                    "card": "0ef7e978-0f3b-40ae-a96e-4b5b68a9a1ec",
+                    "yugipediaId": 4372
+                  },
+                  {
+                    "name": "Lancer Lindwurm",
+                    "card": "9bac197b-fa2a-4c07-b66a-efe620663e57",
+                    "yugipediaId": 51369
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Armed Dragon LV7\", \"Gemini Imps\", \"Armed Dragon LV3\", \"Chthonian Polymer\"",
+                "cards": [
+                  {
+                    "name": "Armed Dragon LV7",
+                    "card": "b9058d0b-af70-459e-8fc3-a4cab616cc64",
+                    "yugipediaId": 1606
+                  },
+                  {
+                    "name": "Gemini Imps",
+                    "card": "fed3287c-c5e7-4506-8a42-c9cc0d6fd11c",
+                    "yugipediaId": 5677
+                  },
+                  {
+                    "name": "Armed Dragon LV3",
+                    "card": "fd8bf276-039b-4735-8d7b-9a413922975f",
+                    "yugipediaId": 508687
+                  },
+                  {
+                    "name": "Chthonian Polymer",
+                    "card": "d58f2dc9-012b-4c8e-94cd-a23d2266b933",
+                    "yugipediaId": 5412
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Infernal Incinerator\"",
+                "cards": [
+                  {
+                    "name": "Infernal Incinerator",
+                    "card": "866c2c68-0eb7-4119-a55f-7677b496bd50",
+                    "yugipediaId": 509370
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "cumulativeRewards",
+      "path": [
+        "Rewards",
+        "Cumulative"
+      ],
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Points",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "150"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "460"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "860"
+              },
+              {
+                "text": "\"VWXYZ-Dragon Catapult Cannon\"",
+                "cards": [
+                  {
+                    "name": "VWXYZ-Dragon Catapult Cannon",
+                    "card": "b3c6827a-019a-44cb-8b86-0b52500e2bad",
+                    "yugipediaId": 336
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "1360"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1960"
+              },
+              {
+                "text": "100 Gems"
+              }
+            ],
+            [
+              {
+                "text": "2560"
+              },
+              {
+                "text": "15000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "3160"
+              },
+              {
+                "text": "\"Armed Dragon LV10\"",
+                "cards": [
+                  {
+                    "name": "Armed Dragon LV10",
+                    "card": "fa384ff5-c385-439d-b2f4-76f1a0966ced",
+                    "yugipediaId": 1746
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "3760"
+              },
+              {
+                "text": "100 Gems"
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Armed Dragon LV10",
+      "card": "fa384ff5-c385-439d-b2f4-76f1a0966ced",
+      "yugipediaId": 1746,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "cumulativeRewards",
+          "runIndex": 0,
+          "requirement": "3160"
+        }
+      ]
+    },
+    {
+      "name": "VWXYZ-Dragon Catapult Cannon",
+      "card": "b3c6827a-019a-44cb-8b86-0b52500e2bad",
+      "yugipediaId": 336,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "cumulativeRewards",
+          "runIndex": 0,
+          "requirement": "860"
+        }
+      ]
+    },
+    {
+      "name": "Despair from the Dark",
+      "card": "0eccf399-6d0d-4061-a2ff-cec63b5bee2d",
+      "yugipediaId": 2246,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Armed Dragon LV5",
+      "card": "0ef7e978-0f3b-40ae-a96e-4b5b68a9a1ec",
+      "yugipediaId": 4372,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Lancer Lindwurm",
+      "card": "9bac197b-fa2a-4c07-b66a-efe620663e57",
+      "yugipediaId": 51369,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Armed Dragon LV7",
+      "card": "b9058d0b-af70-459e-8fc3-a4cab616cc64",
+      "yugipediaId": 1606,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Gemini Imps",
+      "card": "fed3287c-c5e7-4506-8a42-c9cc0d6fd11c",
+      "yugipediaId": 5677,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Armed Dragon LV3",
+      "card": "fd8bf276-039b-4735-8d7b-9a413922975f",
+      "yugipediaId": 508687,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Chthonian Polymer",
+      "card": "d58f2dc9-012b-4c8e-94cd-a23d2266b933",
+      "yugipediaId": 5412,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Infernal Incinerator",
+      "card": "866c2c68-0eb7-4119-a55f-7677b496bd50",
+      "yugipediaId": 509370,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Chazz-A-Thon",
+        "id": 551640
+      }
+    ]
+  }
+}

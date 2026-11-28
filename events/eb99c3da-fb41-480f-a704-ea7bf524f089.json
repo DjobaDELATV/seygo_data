@@ -1,0 +1,1413 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "eb99c3da-fb41-480f-a704-ea7bf524f089",
+  "name": {
+    "en": "Maximum Curiosity! Nail Saionji"
+  },
+  "type": "Gate Event",
+  "duelWorlds": [
+    "Duel World (SEVENS)"
+  ],
+  "rushDuel": true,
+  "image": "https://img.yugipedia.com/c/c7/MaximumCuriosityNailSaionji-Banner.png",
+  "runs": [
+    {
+      "startDate": "2024-02-27",
+      "endDate": "2024-03-08"
+    },
+    {
+      "startDate": "2024-04-23",
+      "endDate": "2024-04-30"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "run": "April 2024",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Viscom Nanotron\", \"Sigurstate Sol\"",
+                "cards": [
+                  {
+                    "name": "Viscom Nanotron",
+                    "rushDuel": true
+                  },
+                  {
+                    "name": "Sigurstate Sol",
+                    "rushDuel": true
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Yoctron\", \"Attron\"",
+                "cards": [
+                  {
+                    "name": "Yoctron",
+                    "rushDuel": true
+                  },
+                  {
+                    "name": "Attron",
+                    "rushDuel": true
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Water Magician\", \"Doriado\", \"Masaki the Legendary Swordsman\", \"Blue-Eyed Silver Zombie\", \"Blue Medicine\"",
+                "cards": [
+                  {
+                    "name": "Water Magician",
+                    "card": "2abbf888-5ee4-40f1-9dff-6aef86de0546",
+                    "yugipediaId": 13304
+                  },
+                  {
+                    "name": "Doriado",
+                    "card": "d605b0a5-1b70-4447-9a76-72044560fe4e",
+                    "yugipediaId": 9203
+                  },
+                  {
+                    "name": "Masaki the Legendary Swordsman",
+                    "card": "576b3056-3822-4890-bcc0-39aae8eedd8b",
+                    "yugipediaId": 505662
+                  },
+                  {
+                    "name": "Blue-Eyed Silver Zombie",
+                    "card": "b5f4c187-72eb-4043-96ff-a2774d1f817a",
+                    "yugipediaId": 5816
+                  },
+                  {
+                    "name": "Blue Medicine",
+                    "card": "7a640df9-d311-4883-9ba6-028fd7dd527e",
+                    "yugipediaId": 7250
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "run": "February 2024",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Sigurstate Sol\"",
+                "cards": [
+                  {
+                    "name": "Sigurstate Sol",
+                    "rushDuel": true
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Attron\"",
+                "cards": [
+                  {
+                    "name": "Attron",
+                    "rushDuel": true
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Water Magician\", \"Doriado\", \"Masaki the Legendary Swordsman\", \"Blue-Eyed Silver Zombie\", \"Blue Medicine\"",
+                "cards": [
+                  {
+                    "name": "Water Magician",
+                    "card": "2abbf888-5ee4-40f1-9dff-6aef86de0546",
+                    "yugipediaId": 13304
+                  },
+                  {
+                    "name": "Doriado",
+                    "card": "d605b0a5-1b70-4447-9a76-72044560fe4e",
+                    "yugipediaId": 9203
+                  },
+                  {
+                    "name": "Masaki the Legendary Swordsman",
+                    "card": "576b3056-3822-4890-bcc0-39aae8eedd8b",
+                    "yugipediaId": 505662
+                  },
+                  {
+                    "name": "Blue-Eyed Silver Zombie",
+                    "card": "b5f4c187-72eb-4043-96ff-a2774d1f817a",
+                    "yugipediaId": 5816
+                  },
+                  {
+                    "name": "Blue Medicine",
+                    "card": "7a640df9-d311-4883-9ba6-028fd7dd527e",
+                    "yugipediaId": 7250
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "decks": [
+    {
+      "path": [
+        "Decks",
+        "Event-exclusive",
+        "Yuga Ohdo"
+      ],
+      "cards": [
+        {
+          "name": "Ansler the Magical Swordsman",
+          "rushDuel": true,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Light Sorcerer",
+          "rushDuel": true,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Light Sorcerer of Sanctity",
+          "rushDuel": true,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Magician's Valkyria",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Sevens Road Mage",
+          "rushDuel": true,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Sevens Road Magician",
+          "rushDuel": true,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Supreme Machine Magnum Overlord",
+          "rushDuel": true,
+          "count": 3,
+          "category": "maximum monsters"
+        },
+        {
+          "name": "Supreme Machine Magnum Overlord (L)",
+          "rushDuel": true,
+          "count": 1,
+          "category": "maximum monsters"
+        },
+        {
+          "name": "Supreme Machine Magnum Overlord (R)",
+          "rushDuel": true,
+          "count": 1,
+          "category": "maximum monsters"
+        },
+        {
+          "name": "Monster Reincarnation",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Talismanic Seal Array",
+          "rushDuel": true,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Curtain of Sparks",
+          "rushDuel": true,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Widespread Ruin",
+          "rushDuel": true,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Event-exclusive",
+        "Nail Saionji"
+      ],
+      "cards": [
+        {
+          "name": "Connector Dog",
+          "rushDuel": true,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Dark Femtron",
+          "rushDuel": true,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Femtron",
+          "rushDuel": true,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Attrashoot Hydron",
+          "rushDuel": true,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Attron",
+          "rushDuel": true,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Sigurstate Sol",
+          "rushDuel": true,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Yggdrago the Sky Emperor",
+          "rushDuel": true,
+          "count": 3,
+          "category": "maximum monsters"
+        },
+        {
+          "name": "Yggdrago the Sky Emperor (L)",
+          "rushDuel": true,
+          "count": 1,
+          "category": "maximum monsters"
+        },
+        {
+          "name": "Yggdrago the Sky Emperor (R)",
+          "rushDuel": true,
+          "count": 1,
+          "category": "maximum monsters"
+        },
+        {
+          "name": "Monster Reincarnation",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Talismanic Seal Array",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "The Barrier",
+          "rushDuel": true,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Widespread Ruin",
+          "rushDuel": true,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Nail Saionji",
+        "Level 10"
+      ],
+      "cards": [
+        {
+          "name": "Big Bang Egger",
+          "rushDuel": true,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Blue-Eyes White Cat",
+          "rushDuel": true,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Red-Eyes Black Cat",
+          "rushDuel": true,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Scarechair Bone",
+          "rushDuel": true,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Scarechair Relaxer",
+          "rushDuel": true,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Scarechair Scale",
+          "rushDuel": true,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Washsprayer the Cleansketeer",
+          "rushDuel": true,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Yoctron",
+          "rushDuel": true,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Zeptron",
+          "rushDuel": true,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Zuse the Wisdom Vassal",
+          "rushDuel": true,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cat's Eye",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Darkness Ri-chair-al",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Heavenly Gift",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Pierce!",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Transmigration of Curiosity",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Quantum Hole",
+          "rushDuel": true,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Triangle Reborn",
+          "rushDuel": true,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Nail Saionji",
+        "Level 20"
+      ],
+      "cards": [
+        {
+          "name": "Blue-Eyes White Cat",
+          "rushDuel": true,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Cosmoscallion",
+          "rushDuel": true,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Red-Eyes Black Cat",
+          "rushDuel": true,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Scarechair Gear",
+          "rushDuel": true,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Scarechair Saber",
+          "rushDuel": true,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Attron",
+          "rushDuel": true,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Crystal Brain",
+          "rushDuel": true,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Peacock Picotron",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Reset Runner",
+          "rushDuel": true,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Scrubbing Santa Cloth",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Yoctron",
+          "rushDuel": true,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Zeptron",
+          "rushDuel": true,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Zuse the Wisdom Vassal",
+          "rushDuel": true,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Heavenly Gift",
+          "rushDuel": true,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Pierce!",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Transmigration of Curiosity",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Quantum Hole",
+          "rushDuel": true,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Site Preview",
+          "rushDuel": true,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Triangle Reborn",
+          "rushDuel": true,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Nail Saionji",
+        "Level 30"
+      ],
+      "cards": [
+        {
+          "name": "Cycliptron",
+          "rushDuel": true,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Femtron",
+          "rushDuel": true,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Attron",
+          "rushDuel": true,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Crystal Brain",
+          "rushDuel": true,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Peacock Picotron",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Reset Runner",
+          "rushDuel": true,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Seedchrotron Brusselun",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Viscom Nanotron",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Wilhel the Wisdom Monarch",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Yoctron",
+          "rushDuel": true,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Zeptron",
+          "rushDuel": true,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Zuse the Wisdom Vassal",
+          "rushDuel": true,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Heavenly Gift",
+          "rushDuel": true,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "One-Side Reverse",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Transmigration of Curiosity",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Quantum Hole",
+          "rushDuel": true,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Site Preview",
+          "rushDuel": true,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Triangle Reborn",
+          "rushDuel": true,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Nail Saionji",
+        "Level 40"
+      ],
+      "cards": [
+        {
+          "name": "Connector Dog",
+          "rushDuel": true,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Cycliptron",
+          "rushDuel": true,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Dark Femtron",
+          "rushDuel": true,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Femtron",
+          "rushDuel": true,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Attron",
+          "rushDuel": true,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Crystal Brain",
+          "rushDuel": true,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Peacock Picotron",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Reset Runner",
+          "rushDuel": true,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Seedchrotron Brusselun",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Sigurstate Sol",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Viscom Nanotron",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Wilhel the Wisdom Monarch",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Yoctron",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Zeptron",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Zuse the Wisdom Vassal",
+          "rushDuel": true,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Heavenly Gift",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Silent Doom",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Transmigration of Curiosity",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Brutal Retribution",
+          "rushDuel": true,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Quantum Hole",
+          "rushDuel": true,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Site Preview",
+          "rushDuel": true,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Triangle Reborn",
+          "rushDuel": true,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Curious Nail",
+        "Level 50"
+      ],
+      "cards": [
+        {
+          "name": "Connector Dog",
+          "rushDuel": true,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Cycliptron",
+          "rushDuel": true,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Dark Femtron",
+          "rushDuel": true,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Femtron",
+          "rushDuel": true,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Attrashoot Hydron",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Attron",
+          "rushDuel": true,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Crystal Brain",
+          "rushDuel": true,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Peacock Picotron",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Reset Runner",
+          "rushDuel": true,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Seedchrotron Brusselun",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Shrinker Shrimp",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Viscom Nanotron",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Yoctron",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Zeptron",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Heavenly Gift",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Silent Doom",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Transmigration of Curiosity",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Brutal Retribution",
+          "rushDuel": true,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Quantum Hole",
+          "rushDuel": true,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Site Preview",
+          "rushDuel": true,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Triangle Reborn",
+          "rushDuel": true,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Event Duelist",
+        "Seatbastian"
+      ],
+      "cards": [
+        {
+          "name": "Babysitter Goat",
+          "rushDuel": true,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Scarechair Bone",
+          "rushDuel": true,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Scarechair Gear",
+          "rushDuel": true,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Scarechair Saber",
+          "rushDuel": true,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Vishwar Randi",
+          "rushDuel": true,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Archfiend's Summoning Flute",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Darkness Fource Seeker",
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Darkness Rogue",
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Scarechair Relaxer",
+          "rushDuel": true,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Scarechair Scale",
+          "rushDuel": true,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Shadow Buyer",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Specter of Heaven's End",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Tama the Mancer Cat",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Darkness Ri-chair-al",
+          "rushDuel": true,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Magical Stone Excavation",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Pierce!",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Seal of the Ancients",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Nutrient Zero",
+          "rushDuel": true,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Triangle Reborn",
+          "rushDuel": true,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Event Duelist",
+        "Celestia Noodlina"
+      ],
+      "cards": [
+        {
+          "name": "Aitsu",
+          "rushDuel": true,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Big Bang Egger",
+          "rushDuel": true,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Boosturtle",
+          "rushDuel": true,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Cosmoscallion",
+          "rushDuel": true,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Flame Manipulator",
+          "rushDuel": true,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Magical Beast Wolfang",
+          "rushDuel": true,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Mushroom Man",
+          "rushDuel": true,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Northern Dumplina",
+          "rushDuel": true,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Volcanic Rat",
+          "rushDuel": true,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Anmagmabear",
+          "rushDuel": true,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Heat Hyena",
+          "rushDuel": true,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Red Medicine",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Silent Doom",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Sparks",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "1-Up",
+          "rushDuel": true,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Counter Cannonball",
+          "rushDuel": true,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Site Preview",
+          "rushDuel": true,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Viscom Nanotron",
+      "rushDuel": true,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2024",
+          "runIndex": 1,
+          "requirement": "UR",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Sigurstate Sol",
+      "rushDuel": true,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2024",
+          "runIndex": 1,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "February 2024",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Yoctron",
+      "rushDuel": true,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2024",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Attron",
+      "rushDuel": true,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2024",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "February 2024",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Water Magician",
+      "card": "2abbf888-5ee4-40f1-9dff-6aef86de0546",
+      "yugipediaId": 13304,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2024",
+          "runIndex": 1,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "February 2024",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Doriado",
+      "card": "d605b0a5-1b70-4447-9a76-72044560fe4e",
+      "yugipediaId": 9203,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2024",
+          "runIndex": 1,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "February 2024",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Masaki the Legendary Swordsman",
+      "card": "576b3056-3822-4890-bcc0-39aae8eedd8b",
+      "yugipediaId": 505662,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2024",
+          "runIndex": 1,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "February 2024",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Blue-Eyed Silver Zombie",
+      "card": "b5f4c187-72eb-4043-96ff-a2774d1f817a",
+      "yugipediaId": 5816,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2024",
+          "runIndex": 1,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "February 2024",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Blue Medicine",
+      "card": "7a640df9-d311-4883-9ba6-028fd7dd527e",
+      "yugipediaId": 7250,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2024",
+          "runIndex": 1,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "February 2024",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Maximum Curiosity! Nail Saionji",
+        "id": 1232212
+      }
+    ]
+  }
+}

@@ -1,0 +1,867 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "24cf390b-e8ed-4d81-a286-2fd2b0a08d43",
+  "name": {
+    "en": "Primo is here!"
+  },
+  "type": "Roaming Duelist event",
+  "duelWorlds": [
+    "Duel World (5D's)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/4/4d/Primoishere-Banner.png",
+  "runs": [
+    {
+      "startDate": "2021-03-17",
+      "endDate": "2021-03-24"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "In addition to the following, standard Duel Rewards are also available by Dueling Primo or Ghost at Level 30 or lower."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Labyrinth of Kline\", \"Ally of Justice Core Destroyer\"",
+                "cards": [
+                  {
+                    "name": "Labyrinth of Kline",
+                    "card": "48732cc3-9d9c-442d-9d1c-67aa8c9b0dc8",
+                    "yugipediaId": 718764
+                  },
+                  {
+                    "name": "Ally of Justice Core Destroyer",
+                    "card": "70879d33-ad76-44d5-ae4f-76272183a9a4",
+                    "yugipediaId": 118645
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Genex Ally Volcannon\", \"Dimension Fortress Weapon\", \"DNA Transplant\"",
+                "cards": [
+                  {
+                    "name": "Genex Ally Volcannon",
+                    "card": "134e6fe5-bd86-4086-a9f4-b2ebdc29de89",
+                    "yugipediaId": 112090
+                  },
+                  {
+                    "name": "Dimension Fortress Weapon",
+                    "card": "f7e072f3-b59d-4c19-885c-22f513dbd29b",
+                    "yugipediaId": 57438
+                  },
+                  {
+                    "name": "DNA Transplant",
+                    "card": "5fef1ff4-854d-4c7b-9308-c06cb86304b1",
+                    "yugipediaId": 13804
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Divergence\", \"Jinzo #7\", \"Searchlightman\"",
+                "cards": [
+                  {
+                    "name": "Divergence",
+                    "card": "77566e0f-c3bf-4358-a50a-1d69a743944a",
+                    "yugipediaId": 718022
+                  },
+                  {
+                    "name": "Jinzo #7",
+                    "card": "8e2d3ec6-61c6-4389-8863-12597ef599b5",
+                    "yugipediaId": 3497
+                  },
+                  {
+                    "name": "Searchlightman",
+                    "card": "9151323a-4be1-4418-9f87-cba0d320816f",
+                    "yugipediaId": 16476
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Ally of Justice Rudra\", \"Blocker\"",
+                "cards": [
+                  {
+                    "name": "Ally of Justice Rudra",
+                    "card": "e21a15ec-f340-4e59-a882-8ba51a0d2693",
+                    "yugipediaId": 78505
+                  },
+                  {
+                    "name": "Blocker",
+                    "card": "1d3c0dd8-6761-4aec-a472-4415e1105ada",
+                    "yugipediaId": 9181
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Rewards",
+        "Event Missions"
+      ],
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against Primo in Duel World."
+              },
+              {
+                "text": "1 \"Divergence\" (Glossy)",
+                "cards": [
+                  {
+                    "name": "Divergence",
+                    "card": "77566e0f-c3bf-4358-a50a-1d69a743944a",
+                    "yugipediaId": 718022,
+                    "quantity": 1,
+                    "variant": "Glossy"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 3 Duel(s) against Primo in Duel World."
+              },
+              {
+                "text": "1 \"Dimension Fortress Weapon\" (Glossy)",
+                "cards": [
+                  {
+                    "name": "Dimension Fortress Weapon",
+                    "card": "f7e072f3-b59d-4c19-885c-22f513dbd29b",
+                    "yugipediaId": 57438,
+                    "quantity": 1,
+                    "variant": "Glossy"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 7 Duel(s) against Primo in Duel World."
+              },
+              {
+                "text": "1 \"Genex Ally Volcannon\"",
+                "cards": [
+                  {
+                    "name": "Genex Ally Volcannon",
+                    "card": "134e6fe5-bd86-4086-a9f4-b2ebdc29de89",
+                    "yugipediaId": 112090,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Play 15 Duel(s) against Primo in Duel World (surrenders are not counted)."
+              },
+              {
+                "text": "1 \"Labyrinth of Kline\"",
+                "cards": [
+                  {
+                    "name": "Labyrinth of Kline",
+                    "card": "48732cc3-9d9c-442d-9d1c-67aa8c9b0dc8",
+                    "yugipediaId": 718764,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "decks": [
+    {
+      "path": [
+        "Decks",
+        "Ghost",
+        "Level 20"
+      ],
+      "name": "Ally of Justice \u2013 Energy Dispersive",
+      "owner": "Ghost",
+      "cards": [
+        {
+          "name": "Ally of Justice Clausolas",
+          "card": "47ef34cf-cc75-4de9-b8f6-e876cf50edcf",
+          "yugipediaId": 78039,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Brave Scizzar",
+          "card": "257eaf68-b348-4d9b-869c-b8472e25b754",
+          "yugipediaId": 9539,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Cyber Soldier of Darkworld",
+          "card": "f1348a22-3743-4deb-89d3-f8312d29fee5",
+          "yugipediaId": 9094,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Disk Magician",
+          "card": "170b027f-2f5d-477a-9018-06c8d4ed6084",
+          "yugipediaId": 4933,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Ally of Justice Reverse Break",
+          "card": "4139d265-f467-46e1-b2ec-c64d83b95410",
+          "yugipediaId": 57358,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Ally of Justice Searcher",
+          "card": "bffff336-69a0-4f89-b3ef-4bd4a9d5c5d2",
+          "yugipediaId": 45131,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Ally of Justice Unknown Crusher",
+          "card": "6ef95631-ef23-4091-8f51-c41de590f7a2",
+          "yugipediaId": 25028,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Ally Salvo",
+          "card": "ae4cb150-1c3f-4430-bb63-2755b2c31617",
+          "yugipediaId": 24982,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Creeping Darkness",
+          "card": "d56a957e-2d8f-434d-bd6b-55ccc6ee4b52",
+          "yugipediaId": 176667,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "DNA Checkup",
+          "card": "b883fb65-2fea-4da8-9a2e-6ce6384c1521",
+          "yugipediaId": 45475,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Escape from the Dark Dimension",
+          "card": "8f98f367-ef83-4bf3-aa53-b93b87244b9b",
+          "yugipediaId": 67286,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Primo",
+        "Level 10"
+      ],
+      "name": "A New Threat",
+      "owner": "Primo",
+      "cards": [
+        {
+          "name": "Mechanical Snail",
+          "card": "6545b3d6-6562-4731-9fb4-0340706cb775",
+          "yugipediaId": 8614,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Sword Slasher",
+          "card": "07fe067e-c6cc-4d3d-bfd4-56acb4b9cfad",
+          "yugipediaId": 19793,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Yaiba Robo",
+          "card": "e6d5320f-d064-4d43-ae43-6ec962b1ae40",
+          "yugipediaId": 19439,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "D.D. Scout Plane",
+          "card": "3fd42ace-2554-410b-affd-c4746e1b837b",
+          "yugipediaId": 10859,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Hack Worm",
+          "card": "d5a50b7a-02ad-4d6f-8a6d-ccfcd8a88019",
+          "yugipediaId": 492055,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Jinzo #7",
+          "card": "8e2d3ec6-61c6-4389-8863-12597ef599b5",
+          "yugipediaId": 3497,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Meklord Emperor Wisel",
+          "card": "a6fb0ddb-d9d4-453c-a8dc-5fe736cd8ea4",
+          "yugipediaId": 95008,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Air Cracking Storm",
+          "card": "66eff590-3398-4542-b3c5-1cdc3d028ae2",
+          "yugipediaId": 492316,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Machine Duplication",
+          "card": "343a0243-1420-4874-9d34-499b4afa1d17",
+          "yugipediaId": 16720,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Magnet Circle LV2",
+          "card": "bfc4888d-fcfd-47bf-b5c5-2f3bf82c49b2",
+          "yugipediaId": 16149,
+          "count": 2,
+          "category": "spells"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Primo",
+        "Level 20"
+      ],
+      "name": "Meklord Emperor: Human",
+      "owner": "Primo",
+      "cards": [
+        {
+          "name": "Ancient Tool",
+          "card": "32bdced5-f42b-47b6-a3fa-05911c538f08",
+          "yugipediaId": 19373,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Brave Scizzar",
+          "card": "257eaf68-b348-4d9b-869c-b8472e25b754",
+          "yugipediaId": 9539,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Cyber Falcon",
+          "card": "a4631a43-d1e1-4752-9a75-35437d5291df",
+          "yugipediaId": 5836,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Cyber Soldier of Darkworld",
+          "card": "f1348a22-3743-4deb-89d3-f8312d29fee5",
+          "yugipediaId": 9094,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Ally Salvo",
+          "card": "ae4cb150-1c3f-4430-bb63-2755b2c31617",
+          "yugipediaId": 24982,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cannon Soldier",
+          "card": "3b432725-1bd4-42c3-bf96-df775caaa3b4",
+          "yugipediaId": 4320,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "D.D. Patrol Plane",
+          "card": "c19d4ed1-eaed-4924-ae3d-318bc6b70aec",
+          "yugipediaId": 642437,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Meklord Emperor Wisel",
+          "card": "a6fb0ddb-d9d4-453c-a8dc-5fe736cd8ea4",
+          "yugipediaId": 95008,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Sonic Jammer",
+          "card": "f5542816-6c2d-4ec6-8fb1-154a7ea5a73c",
+          "yugipediaId": 16751,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Creeping Darkness",
+          "card": "d56a957e-2d8f-434d-bd6b-55ccc6ee4b52",
+          "yugipediaId": 176667,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Machine Conversion Factory",
+          "card": "897770ef-563c-43db-a972-86725e135d81",
+          "yugipediaId": 506464,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Escape from the Dark Dimension",
+          "card": "8f98f367-ef83-4bf3-aa53-b93b87244b9b",
+          "yugipediaId": 67286,
+          "count": 2,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Primo",
+        "Level 30"
+      ],
+      "name": "Synchro Destroyers",
+      "owner": "Primo",
+      "cards": [
+        {
+          "name": "Ally Salvo",
+          "card": "ae4cb150-1c3f-4430-bb63-2755b2c31617",
+          "yugipediaId": 24982,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Genex Ally Changer",
+          "card": "ff84221e-dcc6-43b9-992e-c94390abcb3d",
+          "yugipediaId": 112034,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Genex Turbine",
+          "card": "7526f658-5a34-4bb2-b14b-7ecf06647572",
+          "yugipediaId": 46534,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Meklord Emperor Wisel",
+          "card": "a6fb0ddb-d9d4-453c-a8dc-5fe736cd8ea4",
+          "yugipediaId": 95008,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Scrap Breaker",
+          "card": "421b73aa-cd60-4071-bcb3-008040a863a4",
+          "yugipediaId": 148374,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Scrap Shark",
+          "card": "d74f8f90-e57e-4285-897d-2ef541148b1c",
+          "yugipediaId": 156771,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Wisel Attack",
+          "card": "800a49d1-1aff-442e-a9be-899e9758edd5",
+          "yugipediaId": 720119,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Wisel Carrier",
+          "card": "361e9888-022a-4f51-b3e8-beb566f7a7c2",
+          "yugipediaId": 720121,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Wisel Guard",
+          "card": "6c44a7cf-ed51-4f68-8183-efdf833f6c16",
+          "yugipediaId": 720122,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Wisel Top",
+          "card": "cf19d6c1-ceba-44e4-9c93-d3806513284b",
+          "yugipediaId": 720124,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Machine Conversion Factory",
+          "card": "897770ef-563c-43db-a972-86725e135d81",
+          "yugipediaId": 506464,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Battle Return",
+          "card": "166f3235-9aef-4688-b322-d9b329be0641",
+          "yugipediaId": 713510,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Divergence",
+          "card": "77566e0f-c3bf-4358-a50a-1d69a743944a",
+          "yugipediaId": 718022,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Primo",
+        "Level 40"
+      ],
+      "name": "Steel Slash",
+      "owner": "Primo",
+      "cards": [
+        {
+          "name": "Ally Salvo",
+          "card": "ae4cb150-1c3f-4430-bb63-2755b2c31617",
+          "yugipediaId": 24982,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Genex Ally Duradark",
+          "card": "c0776e01-f195-44ba-9a4b-a52e13480592",
+          "yugipediaId": 92834,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Genex Ally Powercell",
+          "card": "3e7af71d-9cf2-41fb-b92c-4289c5d80646",
+          "yugipediaId": 112146,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Meklord Emperor Wisel",
+          "card": "a6fb0ddb-d9d4-453c-a8dc-5fe736cd8ea4",
+          "yugipediaId": 95008,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Wisel Attack",
+          "card": "800a49d1-1aff-442e-a9be-899e9758edd5",
+          "yugipediaId": 720119,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Wisel Attack 3",
+          "card": "ef02690d-b83e-4af8-9751-daabe3a5b8a9",
+          "yugipediaId": 720120,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Wisel Carrier",
+          "card": "361e9888-022a-4f51-b3e8-beb566f7a7c2",
+          "yugipediaId": 720121,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Wisel Guard",
+          "card": "6c44a7cf-ed51-4f68-8183-efdf833f6c16",
+          "yugipediaId": 720122,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Wisel Guard 3",
+          "card": "b1c491b4-76b2-4efa-948e-228ce5784194",
+          "yugipediaId": 720123,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Wisel Top",
+          "card": "cf19d6c1-ceba-44e4-9c93-d3806513284b",
+          "yugipediaId": 720124,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Wisel Top 3",
+          "card": "971446f3-04be-4f8a-b6b9-02238eb1e156",
+          "yugipediaId": 720125,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Convert Ghost",
+          "card": "00d1a0a1-2dd7-4a03-bcf9-ae0cc93797ca",
+          "yugipediaId": 717763,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Divergence",
+          "card": "77566e0f-c3bf-4358-a50a-1d69a743944a",
+          "yugipediaId": 718022,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Labyrinth of Kline",
+          "card": "48732cc3-9d9c-442d-9d1c-67aa8c9b0dc8",
+          "yugipediaId": 718764,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Spark Breaker",
+          "card": "b5e3fcc0-e170-4c82-a186-0333f5ba02b1",
+          "yugipediaId": 719650,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Twin Vortex",
+          "card": "a21d12ac-5c0d-4586-9cfb-a1ad59b6b3a5",
+          "yugipediaId": 719991,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Labyrinth of Kline",
+      "card": "48732cc3-9d9c-442d-9d1c-67aa8c9b0dc8",
+      "yugipediaId": 718764,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Play 15 Duel(s) against Primo in Duel World (surrenders are not counted)."
+        }
+      ]
+    },
+    {
+      "name": "Ally of Justice Core Destroyer",
+      "card": "70879d33-ad76-44d5-ae4f-76272183a9a4",
+      "yugipediaId": 118645,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Genex Ally Volcannon",
+      "card": "134e6fe5-bd86-4086-a9f4-b2ebdc29de89",
+      "yugipediaId": 112090,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 7 Duel(s) against Primo in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Dimension Fortress Weapon",
+      "card": "f7e072f3-b59d-4c19-885c-22f513dbd29b",
+      "yugipediaId": 57438,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 3 Duel(s) against Primo in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "DNA Transplant",
+      "card": "5fef1ff4-854d-4c7b-9308-c06cb86304b1",
+      "yugipediaId": 13804,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Divergence",
+      "card": "77566e0f-c3bf-4358-a50a-1d69a743944a",
+      "yugipediaId": 718022,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 1 Duel(s) against Primo in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Jinzo #7",
+      "card": "8e2d3ec6-61c6-4389-8863-12597ef599b5",
+      "yugipediaId": 3497,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Searchlightman",
+      "card": "9151323a-4be1-4418-9f87-cba0d320816f",
+      "yugipediaId": 16476,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Ally of Justice Rudra",
+      "card": "e21a15ec-f340-4e59-a882-8ba51a0d2693",
+      "yugipediaId": 78505,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Blocker",
+      "card": "1d3c0dd8-6761-4aec-a472-4415e1105ada",
+      "yugipediaId": 9181,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Primo is here!",
+        "id": 1011651
+      }
+    ]
+  }
+}

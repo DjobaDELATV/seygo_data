@@ -1,0 +1,167 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/card.json",
+  "id": "1b60b0f0-e433-43ee-8dca-800824a63e9a",
+  "text": {
+    "en": {
+      "name": "Unity",
+      "effect": "Select 1 monster on your side of the field. The DEF of the selected monster becomes equal to the combined original DEF of all face-up monsters on your side of the field, until the end of this turn."
+    },
+    "ja": {
+      "name": "\u7d50\u675f \uff35\uff2e\uff29\uff34\uff39",
+      "effect": "\u2460\uff1a\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\uff11\u4f53\u3092\u5bfe\u8c61\u3068\u3057\u3066\u767a\u52d5\u3067\u304d\u308b\u3002\u305d\u306e\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u5b88\u5099\u529b\u306f\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u3001\u81ea\u5206\u30d5\u30a3\u30fc\u30eb\u30c9\u306e\u5168\u3066\u306e\u8868\u5074\u8868\u793a\u30e2\u30f3\u30b9\u30bf\u30fc\u306e\u5143\u3005\u306e\u5b88\u5099\u529b\u3092\u5408\u8a08\u3057\u305f\u6570\u5024\u306b\u306a\u308b\u3002"
+    }
+  },
+  "cardType": "spell",
+  "subcategory": "quickplay",
+  "passwords": [
+    "14731897"
+  ],
+  "images": [
+    {
+      "id": "debf15fc-0456-4d9f-b2e3-4de9f40fc439",
+      "password": "14731897",
+      "art": "https://images.ygoprodeck.com/images/cards_cropped/14731897.jpg",
+      "card": "https://images.ygoprodeck.com/images/cards/14731897.jpg",
+      "lastChecked": "2026-11-28T08:57:13.740571"
+    }
+  ],
+  "sets": [
+    "5fb5e0ca-b912-4cf6-a5d5-b6c4145bb451",
+    "2937a748-10ad-47f5-b8a5-d534178142b9",
+    "87a1146d-0def-4853-9f46-64c31d62677a",
+    "30512b72-8468-408e-bb9a-eb5bb4ebd0b2",
+    "c503f9f9-6052-42e1-bf68-fb9e9500a6df",
+    "20aef38f-0cfe-44d6-a583-15ed31c2cf7e",
+    "272bc3d1-237a-4e68-a209-6169c4c7bf66"
+  ],
+  "legality": {
+    "tcg": {
+      "current": "unlimited",
+      "currentLegality": "unlimited"
+    },
+    "ocg": {
+      "current": "unlimited",
+      "currentLegality": "unlimited"
+    },
+    "genesys": {
+      "current": "unlimited",
+      "currentLegality": "unlimited",
+      "currentPoints": 0
+    }
+  },
+  "masterDuel": {
+    "rarity": "ur",
+    "craftable": true
+  },
+  "duelLinks": {
+    "rarity": "ur",
+    "events": [
+      {
+        "event": "61c27c6d-de25-42e1-8c3d-4491d355e7d7",
+        "date": "2018-01-24",
+        "via": [
+          {
+            "kind": "completion"
+          },
+          {
+            "kind": "lottery"
+          }
+        ]
+      },
+      {
+        "event": "4690f0f4-89bf-4719-b1be-712b5f065913",
+        "date": "2018-06-11",
+        "via": [
+          {
+            "kind": "completion"
+          },
+          {
+            "kind": "cardTraderEx"
+          },
+          {
+            "kind": "lottery"
+          }
+        ]
+      },
+      {
+        "event": "deec0985-aa01-4c62-9e31-b8c5feaf1d61",
+        "date": "2019-01-08",
+        "via": [
+          {
+            "kind": "completion"
+          },
+          {
+            "kind": "lottery"
+          }
+        ]
+      },
+      {
+        "event": "fab0a82c-3eab-4d5e-a6b3-fea13d82c17e",
+        "date": "2020-01-11",
+        "via": [
+          {
+            "kind": "cardTickets",
+            "run": "UR Ticket (Basic/Glossy/Prismatic)"
+          },
+          {
+            "kind": "cardTickets",
+            "run": "UR Dream Ticket"
+          }
+        ]
+      },
+      {
+        "event": "675b8fb3-465d-4614-8ec1-b6bacf6519ef",
+        "date": "2020-05-19",
+        "via": [
+          {
+            "kind": "cardTickets",
+            "run": "UR Ticket (Basic)/(Prismatic)"
+          },
+          {
+            "kind": "cardTickets",
+            "run": "UR Dream Ticket"
+          }
+        ]
+      },
+      {
+        "event": "9e09bba8-9361-4f5a-b354-0cd179b61bd0",
+        "date": "2020-09-29",
+        "via": [
+          {
+            "kind": "cardTickets",
+            "run": "UR Ticket (Basic)/(Prismatic)"
+          },
+          {
+            "kind": "cardTickets",
+            "run": "UR Dream Ticket"
+          }
+        ]
+      },
+      {
+        "event": "8ff317a0-8cf8-4b07-8746-4314791f7b53",
+        "via": [
+          {
+            "kind": "cardTickets"
+          }
+        ]
+      }
+    ],
+    "firstEventDate": "2018-01-24",
+    "firstEventYear": 2018
+  },
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Unity",
+        "id": 7406
+      }
+    ],
+    "dbID": 5755,
+    "ygoprodeck": {
+      "id": 14731897,
+      "name": "unity-1259"
+    },
+    "yamlyugiID": 14731897
+  },
+  "series": []
+}

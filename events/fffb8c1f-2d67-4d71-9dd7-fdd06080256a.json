@@ -1,0 +1,477 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "fffb8c1f-2d67-4d71-9dd7-fdd06080256a",
+  "name": {
+    "en": "F-L-A-M-E! The Return of the Fire Ignis!"
+  },
+  "type": "Gate Event",
+  "duelWorlds": [
+    "Duel World (VRAINS)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/7/7c/FLAMETheReturnoftheFireIgnis-Banner.png",
+  "runs": [
+    {
+      "startDate": "2025-01-23",
+      "endDate": "2025-02-05"
+    },
+    {
+      "startDate": "2025-04-29",
+      "endDate": "2025-05-07"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "run": "April 2025",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Burning Draw\", \"Salamangreat Transcendence\"",
+                "cards": [
+                  {
+                    "name": "Burning Draw",
+                    "card": "21649f00-c659-4d1b-8ab9-210a90bb4cb9",
+                    "yugipediaId": 697903
+                  },
+                  {
+                    "name": "Salamangreat Transcendence",
+                    "card": "f7466a3d-89d3-4acc-b406-26619a19c65c",
+                    "yugipediaId": 643396
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Salamangreat Zebroid X\", \"Salamangreat Mole\", \"Salamangreat Sanctuary\"",
+                "cards": [
+                  {
+                    "name": "Salamangreat Zebroid X",
+                    "card": "d17992a3-1076-4f25-bb9f-ba905968dd1f",
+                    "yugipediaId": 703507
+                  },
+                  {
+                    "name": "Salamangreat Mole",
+                    "card": "34727279-43e4-4ecf-bafc-bdb1d9df586c",
+                    "yugipediaId": 580749
+                  },
+                  {
+                    "name": "Salamangreat Sanctuary",
+                    "card": "40e98514-4dc9-4d8f-b9ad-b2c64d0e6a44",
+                    "yugipediaId": 565293
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Raging Flame Sprite\", \"Darkfire Soldier #1\", \"Hazy Flame Sphynx\"",
+                "cards": [
+                  {
+                    "name": "Raging Flame Sprite",
+                    "card": "8c9bae25-8466-42f9-ac10-d08cb8a983ae",
+                    "yugipediaId": 11423
+                  },
+                  {
+                    "name": "Darkfire Soldier #1",
+                    "card": "57685b6f-cddc-4c52-a5a3-5137ba4463db",
+                    "yugipediaId": 5792
+                  },
+                  {
+                    "name": "Hazy Flame Sphynx",
+                    "card": "cb5927e4-16e4-45ff-ab56-b23555685eba",
+                    "yugipediaId": 248587
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Wings of Wicked Flame\", \"Flame Manipulator\"",
+                "cards": [
+                  {
+                    "name": "Wings of Wicked Flame",
+                    "card": "57df47c0-97f9-4a9d-a409-67ee3adbd0d0",
+                    "yugipediaId": 7299
+                  },
+                  {
+                    "name": "Flame Manipulator",
+                    "card": "da93235c-efc5-44da-8cd5-8042e3ffafb9",
+                    "yugipediaId": 505163
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "run": "January 2025",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Salamangreat Transcendence\", \"Salamangreat Balelynx\"",
+                "cards": [
+                  {
+                    "name": "Salamangreat Transcendence",
+                    "card": "f7466a3d-89d3-4acc-b406-26619a19c65c",
+                    "yugipediaId": 643396
+                  },
+                  {
+                    "name": "Salamangreat Balelynx",
+                    "card": "6ef46e7c-b659-44a3-aba3-9565d96aa94c",
+                    "yugipediaId": 578111
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Salamangreat Mole\", \"Salamangreat Sanctuary\", \"Salamangreat Foxy\"",
+                "cards": [
+                  {
+                    "name": "Salamangreat Mole",
+                    "card": "34727279-43e4-4ecf-bafc-bdb1d9df586c",
+                    "yugipediaId": 580749
+                  },
+                  {
+                    "name": "Salamangreat Sanctuary",
+                    "card": "40e98514-4dc9-4d8f-b9ad-b2c64d0e6a44",
+                    "yugipediaId": 565293
+                  },
+                  {
+                    "name": "Salamangreat Foxy",
+                    "card": "ed8f4059-5a12-448e-8691-0adb30fa7412",
+                    "yugipediaId": 563492
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Raging Flame Sprite\", \"Darkfire Soldier #1\", \"Hazy Flame Sphynx\"",
+                "cards": [
+                  {
+                    "name": "Raging Flame Sprite",
+                    "card": "8c9bae25-8466-42f9-ac10-d08cb8a983ae",
+                    "yugipediaId": 11423
+                  },
+                  {
+                    "name": "Darkfire Soldier #1",
+                    "card": "57685b6f-cddc-4c52-a5a3-5137ba4463db",
+                    "yugipediaId": 5792
+                  },
+                  {
+                    "name": "Hazy Flame Sphynx",
+                    "card": "cb5927e4-16e4-45ff-ab56-b23555685eba",
+                    "yugipediaId": 248587
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Wings of Wicked Flame\", \"Flame Manipulator\"",
+                "cards": [
+                  {
+                    "name": "Wings of Wicked Flame",
+                    "card": "57df47c0-97f9-4a9d-a409-67ee3adbd0d0",
+                    "yugipediaId": 7299
+                  },
+                  {
+                    "name": "Flame Manipulator",
+                    "card": "da93235c-efc5-44da-8cd5-8042e3ffafb9",
+                    "yugipediaId": 505163
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Burning Draw",
+      "card": "21649f00-c659-4d1b-8ab9-210a90bb4cb9",
+      "yugipediaId": 697903,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2025",
+          "runIndex": 1,
+          "requirement": "UR",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Salamangreat Transcendence",
+      "card": "f7466a3d-89d3-4acc-b406-26619a19c65c",
+      "yugipediaId": 643396,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2025",
+          "runIndex": 1,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "January 2025",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Salamangreat Zebroid X",
+      "card": "d17992a3-1076-4f25-bb9f-ba905968dd1f",
+      "yugipediaId": 703507,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2025",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Salamangreat Mole",
+      "card": "34727279-43e4-4ecf-bafc-bdb1d9df586c",
+      "yugipediaId": 580749,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2025",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "January 2025",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Salamangreat Sanctuary",
+      "card": "40e98514-4dc9-4d8f-b9ad-b2c64d0e6a44",
+      "yugipediaId": 565293,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2025",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "January 2025",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Raging Flame Sprite",
+      "card": "8c9bae25-8466-42f9-ac10-d08cb8a983ae",
+      "yugipediaId": 11423,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2025",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "January 2025",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Darkfire Soldier #1",
+      "card": "57685b6f-cddc-4c52-a5a3-5137ba4463db",
+      "yugipediaId": 5792,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2025",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "January 2025",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Hazy Flame Sphynx",
+      "card": "cb5927e4-16e4-45ff-ab56-b23555685eba",
+      "yugipediaId": 248587,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2025",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "January 2025",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Wings of Wicked Flame",
+      "card": "57df47c0-97f9-4a9d-a409-67ee3adbd0d0",
+      "yugipediaId": 7299,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2025",
+          "runIndex": 1,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "January 2025",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Flame Manipulator",
+      "card": "da93235c-efc5-44da-8cd5-8042e3ffafb9",
+      "yugipediaId": 505163,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2025",
+          "runIndex": 1,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "January 2025",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Salamangreat Balelynx",
+      "card": "6ef46e7c-b659-44a3-aba3-9565d96aa94c",
+      "yugipediaId": 578111,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "January 2025",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Salamangreat Foxy",
+      "card": "ed8f4059-5a12-448e-8691-0adb30fa7412",
+      "yugipediaId": 563492,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "January 2025",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "F-L-A-M-E! The Return of the Fire Ignis!",
+        "id": 1236529
+      }
+    ]
+  }
+}

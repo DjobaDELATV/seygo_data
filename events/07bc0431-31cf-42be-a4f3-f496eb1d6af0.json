@@ -1,0 +1,824 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "07bc0431-31cf-42be-a4f3-f496eb1d6af0",
+  "name": {
+    "en": "Trey is here!"
+  },
+  "type": "Roaming Duelist event",
+  "duelWorlds": [
+    "Duel World (ZEXAL)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/a/ad/Treyishere-Banner.png",
+  "runs": [
+    {
+      "startDate": "2021-07-02",
+      "endDate": "2021-07-12"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "In addition to the following, standard Duel Rewards are also available by Dueling Trey at Level 30 or lower."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Chronomaly Tula Guardian\", \"Grandsoil the Elemental Lord\"",
+                "cards": [
+                  {
+                    "name": "Chronomaly Tula Guardian",
+                    "card": "5c43f49b-11e9-487e-8ade-71b928b35816",
+                    "yugipediaId": 196683
+                  },
+                  {
+                    "name": "Grandsoil the Elemental Lord",
+                    "card": "f8058777-4de0-4ed9-a7bb-cd952e7b6f1a",
+                    "yugipediaId": 208275
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Chronomaly Mud Golem\", \"Sacred Defense Barrier\", \"Sand Moth\"",
+                "cards": [
+                  {
+                    "name": "Chronomaly Mud Golem",
+                    "card": "92cde983-0bce-4c41-9250-9a4448d544b3",
+                    "yugipediaId": 203448
+                  },
+                  {
+                    "name": "Sacred Defense Barrier",
+                    "card": "73d9cecf-ffc8-48e4-9024-02d434ea5482",
+                    "yugipediaId": 719495
+                  },
+                  {
+                    "name": "Sand Moth",
+                    "card": "702f34da-6026-4365-9e45-03d9d68f208e",
+                    "yugipediaId": 11645
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Rock Spirit\", \"Invigoration\", \"Pyramid Energy\"",
+                "cards": [
+                  {
+                    "name": "Rock Spirit",
+                    "card": "ebc2ea4a-27df-407a-a71f-5f28c37b2ff6",
+                    "yugipediaId": 19274
+                  },
+                  {
+                    "name": "Invigoration",
+                    "card": "79acf17f-7a1c-4551-804c-27155b0cf71d",
+                    "yugipediaId": 7823
+                  },
+                  {
+                    "name": "Pyramid Energy",
+                    "card": "b1f99ae2-3560-48ec-914b-7e4b48e621ad",
+                    "yugipediaId": 14833
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Ancient Jar\", \"Haniwa\"",
+                "cards": [
+                  {
+                    "name": "Ancient Jar",
+                    "card": "f30bb920-d1a4-41a9-bdb7-ef2480febf97",
+                    "yugipediaId": 7279
+                  },
+                  {
+                    "name": "Haniwa",
+                    "card": "521a1b0f-8690-48df-85c1-094e0703b743",
+                    "yugipediaId": 8599
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Rewards",
+        "Event Missions"
+      ],
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against Trey in Duel World."
+              },
+              {
+                "text": "1 \"Rock Spirit\" (Glossy)",
+                "cards": [
+                  {
+                    "name": "Rock Spirit",
+                    "card": "ebc2ea4a-27df-407a-a71f-5f28c37b2ff6",
+                    "yugipediaId": 19274,
+                    "quantity": 1,
+                    "variant": "Glossy"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 3 Duel(s) against Trey in Duel World."
+              },
+              {
+                "text": "1 \"Sand Moth\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Sand Moth",
+                    "card": "702f34da-6026-4365-9e45-03d9d68f208e",
+                    "yugipediaId": 11645,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 7 Duel(s) against Trey in Duel World."
+              },
+              {
+                "text": "1 \"Chronomaly Mud Golem\"",
+                "cards": [
+                  {
+                    "name": "Chronomaly Mud Golem",
+                    "card": "92cde983-0bce-4c41-9250-9a4448d544b3",
+                    "yugipediaId": 203448,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Play 15 Duel(s) against Trey in Duel World (surrenders are not counted)."
+              },
+              {
+                "text": "1 \"Chronomaly Tula Guardian\"",
+                "cards": [
+                  {
+                    "name": "Chronomaly Tula Guardian",
+                    "card": "5c43f49b-11e9-487e-8ade-71b928b35816",
+                    "yugipediaId": 196683,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "decks": [
+    {
+      "path": [
+        "Decks",
+        "Level 10"
+      ],
+      "name": "Hope for the Future",
+      "owner": "Trey",
+      "cards": [
+        {
+          "name": "Ancient Jar",
+          "card": "f30bb920-d1a4-41a9-bdb7-ef2480febf97",
+          "yugipediaId": 7279,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Haniwa",
+          "card": "521a1b0f-8690-48df-85c1-094e0703b743",
+          "yugipediaId": 8599,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Rock Ogre Grotto #2",
+          "card": "11b7fee6-20c5-40d1-a779-2d56ba93c0e7",
+          "yugipediaId": 4825,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Chronomaly Crystal Skull",
+          "card": "f954502e-0ef7-4d96-826a-ddc002345f77",
+          "yugipediaId": 185905,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Chronomaly Sol Monolith",
+          "card": "748faee8-aa78-4def-9816-2d4a2f5f764e",
+          "yugipediaId": 203628,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Doki Doki",
+          "card": "163d4d34-7f20-4eed-9ca6-76c8ba38ff1f",
+          "yugipediaId": 457591,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Chronomaly City Babylon",
+          "card": "db5be457-11bc-4265-a48b-dab4b3c41bc5",
+          "yugipediaId": 196854,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Chronomaly Technology",
+          "card": "5957922d-8050-468b-857f-7c89671f48b1",
+          "yugipediaId": 184859,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Rock Bombardment",
+          "card": "5e01822e-6c26-4e6b-ac3c-aaf896f0ed8c",
+          "yugipediaId": 17236,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Spiritual Earth Art - Kurogane",
+          "card": "c23c2fa6-ee81-4eed-b2e4-325c91456374",
+          "yugipediaId": 16332,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Level 20"
+      ],
+      "name": "Divine Artifacts",
+      "owner": "Trey",
+      "cards": [
+        {
+          "name": "Rock Spirit",
+          "card": "ebc2ea4a-27df-407a-a71f-5f28c37b2ff6",
+          "yugipediaId": 19274,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "The Statue of Easter Island",
+          "card": "372a33c5-d2e0-4193-85c4-ee800a83f4a9",
+          "yugipediaId": 505893,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Chronomaly Crystal Bones",
+          "card": "7073b58d-e509-426e-998d-c01e17f9a073",
+          "yugipediaId": 185833,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Chronomaly Crystal Skull",
+          "card": "f954502e-0ef7-4d96-826a-ddc002345f77",
+          "yugipediaId": 185905,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Chronomaly Gordian Knot",
+          "card": "c2632734-a359-4d86-8115-264b4da8469b",
+          "yugipediaId": 302467,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Chronomaly Sol Monolith",
+          "card": "748faee8-aa78-4def-9816-2d4a2f5f764e",
+          "yugipediaId": 203628,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Chronomaly Tuspa Rocket",
+          "card": "f5552915-c82f-491d-8390-04c55018c914",
+          "yugipediaId": 665704,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Doki Doki",
+          "card": "163d4d34-7f20-4eed-9ca6-76c8ba38ff1f",
+          "yugipediaId": 457591,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Number 33: Chronomaly Machu Mech",
+          "card": "05f8b00c-05bc-4dff-ac55-91ba97161e5d",
+          "yugipediaId": 197717,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Canyon",
+          "card": "a8e56c26-faa2-42db-8469-7884a6e053d6",
+          "yugipediaId": 2949,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Chronomaly City Babylon",
+          "card": "db5be457-11bc-4265-a48b-dab4b3c41bc5",
+          "yugipediaId": 196854,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Chronomaly Technology",
+          "card": "5957922d-8050-468b-857f-7c89671f48b1",
+          "yugipediaId": 184859,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Rock Bombardment",
+          "card": "5e01822e-6c26-4e6b-ac3c-aaf896f0ed8c",
+          "yugipediaId": 17236,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Level 30"
+      ],
+      "name": "Meteor Meltdown",
+      "owner": "Trey",
+      "cards": [
+        {
+          "name": "Chronomaly Aztec Mask Golem",
+          "card": "f4153a79-5ef9-4ef1-8bc4-e2620ec37d34",
+          "yugipediaId": 221773,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Chronomaly Colossal Head",
+          "card": "1ae00ced-3fb4-48da-8c6b-28cb6de7c676",
+          "yugipediaId": 185353,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Chronomaly Crystal Bones",
+          "card": "7073b58d-e509-426e-998d-c01e17f9a073",
+          "yugipediaId": 185833,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Chronomaly Crystal Skull",
+          "card": "f954502e-0ef7-4d96-826a-ddc002345f77",
+          "yugipediaId": 185905,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Chronomaly Golden Jet",
+          "card": "3a6e0981-323c-4f0d-930e-0e72da3347a2",
+          "yugipediaId": 185983,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Chronomaly Gordian Knot",
+          "card": "c2632734-a359-4d86-8115-264b4da8469b",
+          "yugipediaId": 302467,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Chronomaly Mayan Machine",
+          "card": "9be040ce-9315-4774-8361-111e8f7e929a",
+          "yugipediaId": 185213,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Chronomaly Tuspa Rocket",
+          "card": "f5552915-c82f-491d-8390-04c55018c914",
+          "yugipediaId": 665704,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Chronomaly Winged Sphinx",
+          "card": "a783b60a-1676-40ba-b825-dd299d01c084",
+          "yugipediaId": 300422,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "World Legacy - \"World Armor\"",
+          "card": "92755b92-b49c-4620-be27-c0e71a028c15",
+          "yugipediaId": 500293,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Number 33: Chronomaly Machu Mech",
+          "card": "05f8b00c-05bc-4dff-ac55-91ba97161e5d",
+          "yugipediaId": 197717,
+          "count": 2,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Chronomaly City Babylon",
+          "card": "db5be457-11bc-4265-a48b-dab4b3c41bc5",
+          "yugipediaId": 196854,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Chronomaly Technology",
+          "card": "5957922d-8050-468b-857f-7c89671f48b1",
+          "yugipediaId": 184859,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Stonehenge Methods",
+          "card": "9d78a22e-2697-40e9-8ae6-1890ec89bfb1",
+          "yugipediaId": 186343,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Level 40"
+      ],
+      "name": "Eternal Devastation",
+      "owner": "Trey",
+      "cards": [
+        {
+          "name": "Chronomaly Aztec Mask Golem",
+          "card": "f4153a79-5ef9-4ef1-8bc4-e2620ec37d34",
+          "yugipediaId": 221773,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Chronomaly Cabrera Trebuchet",
+          "card": "f7a18d93-b9cb-44d5-a5d1-f0a3f7b269fd",
+          "yugipediaId": 196807,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Chronomaly Crystal Bones",
+          "card": "7073b58d-e509-426e-998d-c01e17f9a073",
+          "yugipediaId": 185833,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Chronomaly Crystal Skull",
+          "card": "f954502e-0ef7-4d96-826a-ddc002345f77",
+          "yugipediaId": 185905,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Chronomaly Golden Jet",
+          "card": "3a6e0981-323c-4f0d-930e-0e72da3347a2",
+          "yugipediaId": 185983,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Chronomaly Gordian Knot",
+          "card": "c2632734-a359-4d86-8115-264b4da8469b",
+          "yugipediaId": 302467,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Chronomaly Moai",
+          "card": "5aa270b3-206a-4ad3-a4c6-f9ae772cf605",
+          "yugipediaId": 200789,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Chronomaly Moai Carrier",
+          "card": "8b8c5399-d109-488c-b1fc-9ff066e63ba8",
+          "yugipediaId": 300514,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Chronomaly Mud Golem",
+          "card": "92cde983-0bce-4c41-9250-9a4448d544b3",
+          "yugipediaId": 203448,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Chronomaly Nebra Disk",
+          "card": "eec4ac41-5ed9-4d0b-a695-a5ae64ebafc8",
+          "yugipediaId": 306258,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Chronomaly Sol Monolith",
+          "card": "748faee8-aa78-4def-9816-2d4a2f5f764e",
+          "yugipediaId": 203628,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Chronomaly Tula Guardian",
+          "card": "5c43f49b-11e9-487e-8ade-71b928b35816",
+          "yugipediaId": 196683,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Chronomaly Tuspa Rocket",
+          "card": "f5552915-c82f-491d-8390-04c55018c914",
+          "yugipediaId": 665704,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Chronomaly Winged Sphinx",
+          "card": "a783b60a-1676-40ba-b825-dd299d01c084",
+          "yugipediaId": 300422,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Number 6: Chronomaly Atlandis",
+          "card": "d3da1434-4710-4edd-87d6-548312a63868",
+          "yugipediaId": 196987,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Number 33: Chronomaly Machu Mech",
+          "card": "05f8b00c-05bc-4dff-ac55-91ba97161e5d",
+          "yugipediaId": 197717,
+          "count": 2,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Number 36: Chronomaly Chateau Huyuk",
+          "card": "c4df0d11-b542-48eb-be47-03214e326eb3",
+          "yugipediaId": 306368,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Chronomaly City Babylon",
+          "card": "db5be457-11bc-4265-a48b-dab4b3c41bc5",
+          "yugipediaId": 196854,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Chronomaly Pyramid Eye Tablet",
+          "card": "c4857053-8224-458b-ae92-8b1611ca171b",
+          "yugipediaId": 207175,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Chronomaly Technology",
+          "card": "5957922d-8050-468b-857f-7c89671f48b1",
+          "yugipediaId": 184859,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Stonehenge Methods",
+          "card": "9d78a22e-2697-40e9-8ae6-1890ec89bfb1",
+          "yugipediaId": 186343,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Chronomaly Tula Guardian",
+      "card": "5c43f49b-11e9-487e-8ade-71b928b35816",
+      "yugipediaId": 196683,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Play 15 Duel(s) against Trey in Duel World (surrenders are not counted)."
+        }
+      ]
+    },
+    {
+      "name": "Grandsoil the Elemental Lord",
+      "card": "f8058777-4de0-4ed9-a7bb-cd952e7b6f1a",
+      "yugipediaId": 208275,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Chronomaly Mud Golem",
+      "card": "92cde983-0bce-4c41-9250-9a4448d544b3",
+      "yugipediaId": 203448,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 7 Duel(s) against Trey in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Sacred Defense Barrier",
+      "card": "73d9cecf-ffc8-48e4-9024-02d434ea5482",
+      "yugipediaId": 719495,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Sand Moth",
+      "card": "702f34da-6026-4365-9e45-03d9d68f208e",
+      "yugipediaId": 11645,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 3 Duel(s) against Trey in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Rock Spirit",
+      "card": "ebc2ea4a-27df-407a-a71f-5f28c37b2ff6",
+      "yugipediaId": 19274,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 1 Duel(s) against Trey in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Invigoration",
+      "card": "79acf17f-7a1c-4551-804c-27155b0cf71d",
+      "yugipediaId": 7823,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Pyramid Energy",
+      "card": "b1f99ae2-3560-48ec-914b-7e4b48e621ad",
+      "yugipediaId": 14833,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Ancient Jar",
+      "card": "f30bb920-d1a4-41a9-bdb7-ef2480febf97",
+      "yugipediaId": 7279,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Haniwa",
+      "card": "521a1b0f-8690-48df-85c1-094e0703b743",
+      "yugipediaId": 8599,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Trey is here!",
+        "id": 1011622
+      }
+    ]
+  }
+}

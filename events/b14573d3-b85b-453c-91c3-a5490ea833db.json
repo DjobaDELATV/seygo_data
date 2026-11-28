@@ -1,0 +1,625 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "b14573d3-b85b-453c-91c3-a5490ea833db",
+  "name": {
+    "en": "Rio Kastle is here!"
+  },
+  "type": "Roaming Duelist event",
+  "duelWorlds": [
+    "Duel World (ZEXAL)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/f/f9/RioKastleishere-Banner.png",
+  "runs": [
+    {
+      "startDate": "2022-05-17",
+      "endDate": "2022-05-26"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "In addition to the following, standard Duel Rewards are also available by Dueling Rio Kastle at Level 30 or lower."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Penguin Soldier\", \"Sirenorca\"",
+                "cards": [
+                  {
+                    "name": "Penguin Soldier",
+                    "card": "1fe38082-1018-458e-8ef2-c5f731e5fdd9",
+                    "yugipediaId": 70
+                  },
+                  {
+                    "name": "Sirenorca",
+                    "card": "1a253bf8-e267-4218-b669-fd8873bc016b",
+                    "yugipediaId": 307078
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Blizzard Falcon\", \"Stealth Bird\", \"Water Hazard\"",
+                "cards": [
+                  {
+                    "name": "Blizzard Falcon",
+                    "card": "b119dd7d-2498-4a92-9823-068f8fc18e16",
+                    "yugipediaId": 233060
+                  },
+                  {
+                    "name": "Stealth Bird",
+                    "card": "6f49666d-2fcc-4843-9fa0-9a4566fa717c",
+                    "yugipediaId": 506577
+                  },
+                  {
+                    "name": "Water Hazard",
+                    "card": "a7e7289e-0849-49a8-b07f-ef04c8cfdb07",
+                    "yugipediaId": 110971
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Steel Shell\", \"Follow Wind\"",
+                "cards": [
+                  {
+                    "name": "Steel Shell",
+                    "card": "0a3d2515-a91b-4097-9bb7-7c29ec8c8628",
+                    "yugipediaId": 7929
+                  },
+                  {
+                    "name": "Follow Wind",
+                    "card": "4806d1f0-2fbd-41f6-995b-a64b4eacc11b",
+                    "yugipediaId": 506508
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Rainbow Marine Mermaid\", \"Water Girl\", \"Ice Water\"",
+                "cards": [
+                  {
+                    "name": "Rainbow Marine Mermaid",
+                    "card": "0950d968-56ea-4ed7-8eb7-ed3148544d9d",
+                    "yugipediaId": 19856
+                  },
+                  {
+                    "name": "Water Girl",
+                    "card": "a0fabb18-7b99-42a1-958d-15ef43e5fe19",
+                    "yugipediaId": 19381
+                  },
+                  {
+                    "name": "Ice Water",
+                    "card": "dec1415c-0d05-48c8-9e09-c70afb3c4163",
+                    "yugipediaId": 21602
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Rewards",
+        "Event Missions"
+      ],
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against Rio Kastle in Duel World."
+              },
+              {
+                "text": "1 \"Water Hazard\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Water Hazard",
+                    "card": "a7e7289e-0849-49a8-b07f-ef04c8cfdb07",
+                    "yugipediaId": 110971,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 3 Duel(s) against Rio Kastle in Duel World."
+              },
+              {
+                "text": "1 \"Stealth Bird\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Stealth Bird",
+                    "card": "6f49666d-2fcc-4843-9fa0-9a4566fa717c",
+                    "yugipediaId": 506577,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 7 Duel(s) against Rio Kastle in Duel World."
+              },
+              {
+                "text": "1 \"Blizzard Falcon\"",
+                "cards": [
+                  {
+                    "name": "Blizzard Falcon",
+                    "card": "b119dd7d-2498-4a92-9823-068f8fc18e16",
+                    "yugipediaId": 233060,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Play 15 Duel(s) against Rio Kastle in Duel World (surrenders are not counted)."
+              },
+              {
+                "text": "1 \"Penguin Soldier\"",
+                "cards": [
+                  {
+                    "name": "Penguin Soldier",
+                    "card": "1fe38082-1018-458e-8ef2-c5f731e5fdd9",
+                    "yugipediaId": 70,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "decks": [
+    {
+      "path": [
+        "Decks",
+        "Level 30"
+      ],
+      "cards": [
+        {
+          "name": "Blue-Winged Crown",
+          "card": "7c8dd8cc-634c-4620-be29-6b49ee56b81f",
+          "yugipediaId": 6859,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Flying Penguin",
+          "card": "e32c4bc6-6177-4527-9ce5-2ff2a19f1882",
+          "yugipediaId": 7314,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Aurora Wing",
+          "card": "f73990e2-b745-430d-8dc1-4e2e7284cde9",
+          "yugipediaId": 233605,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Blizzard Falcon",
+          "card": "b119dd7d-2498-4a92-9823-068f8fc18e16",
+          "yugipediaId": 233060,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Duck Dummy",
+          "card": "08a299d7-ac80-418f-9b91-b3824ceb80d9",
+          "yugipediaId": 519622,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Eagle Eye",
+          "card": "58e64a40-6e18-4dae-bde6-72f3475480de",
+          "yugipediaId": 13797,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Puny Penguin",
+          "card": "57cba12b-115a-4bb6-b8e3-ae2d57f71270",
+          "yugipediaId": 241962,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Sonic Shooter",
+          "card": "de0b8b9a-1cd4-4548-a282-242147f8517e",
+          "yugipediaId": 11531,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Stealth Bird",
+          "card": "6f49666d-2fcc-4843-9fa0-9a4566fa717c",
+          "yugipediaId": 506577,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "The Great Emperor Penguin",
+          "card": "8476b5b8-bb59-4cb4-a9a8-1d18a70b5747",
+          "yugipediaId": 174081,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Ice Beast Zerofyne",
+          "card": "3766080e-fa00-4d0b-8cdf-8f00b35d600c",
+          "yugipediaId": 234161,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Ice Princess Zereort",
+          "card": "15b9d317-a393-400e-b2e6-6016c7a3328e",
+          "yugipediaId": 273756,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Different Dimension Deepsea Trench",
+          "card": "12d162cb-a96b-4c03-9e9e-4cac1f7cb854",
+          "yugipediaId": 197701,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Follow Wind",
+          "card": "4806d1f0-2fbd-41f6-995b-a64b4eacc11b",
+          "yugipediaId": 506508,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Salvage",
+          "card": "da8d5a38-dd17-427b-8992-2cab97115e85",
+          "yugipediaId": 10395,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Steel Shell",
+          "card": "0a3d2515-a91b-4097-9bb7-7c29ec8c8628",
+          "yugipediaId": 7929,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Unicorn Beacon",
+          "card": "2c053b6c-0a7d-4b44-b465-dbf3b332076e",
+          "yugipediaId": 129465,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Water Hazard",
+          "card": "a7e7289e-0849-49a8-b07f-ef04c8cfdb07",
+          "yugipediaId": 110971,
+          "count": 1,
+          "category": "spells"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Level 40"
+      ],
+      "cards": [
+        {
+          "name": "Phantom Gryphon",
+          "card": "85c134da-660d-4542-af41-41603f3f7b0c",
+          "yugipediaId": 333067,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Aurora Wing",
+          "card": "f73990e2-b745-430d-8dc1-4e2e7284cde9",
+          "yugipediaId": 233605,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Blizzard Falcon",
+          "card": "b119dd7d-2498-4a92-9823-068f8fc18e16",
+          "yugipediaId": 233060,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cure Mermaid",
+          "card": "c8e7754b-7ecd-4dd2-8238-3f64cb5026d8",
+          "yugipediaId": 5691,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Garuda the Wind Spirit",
+          "card": "aefedfdb-9770-4899-9fa6-c67ab457b6a4",
+          "yugipediaId": 3133,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Mahjong Munia Maidens",
+          "card": "f9fb7eea-4a38-4551-b249-6b242330c4b2",
+          "yugipediaId": 532137,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Sacred Crane",
+          "card": "3be26b57-53f7-45c9-bf8d-5aea8af95e92",
+          "yugipediaId": 12141,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Sirenorca",
+          "card": "1a253bf8-e267-4218-b669-fd8873bc016b",
+          "yugipediaId": 307078,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Stealth Bird",
+          "card": "6f49666d-2fcc-4843-9fa0-9a4566fa717c",
+          "yugipediaId": 506577,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Ice Beast Zerofyne",
+          "card": "3766080e-fa00-4d0b-8cdf-8f00b35d600c",
+          "yugipediaId": 234161,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Ice Princess Zereort",
+          "card": "15b9d317-a393-400e-b2e6-6016c7a3328e",
+          "yugipediaId": 273756,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Follow Wind",
+          "card": "4806d1f0-2fbd-41f6-995b-a64b4eacc11b",
+          "yugipediaId": 506508,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Lemuria, the Forgotten City",
+          "card": "4f01e563-a02e-4257-aa99-503e11a8374c",
+          "yugipediaId": 196371,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Swallow's Nest",
+          "card": "461ebf12-be4a-4a71-93a9-92e46d500d44",
+          "yugipediaId": 101627,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Water Hazard",
+          "card": "a7e7289e-0849-49a8-b07f-ef04c8cfdb07",
+          "yugipediaId": 110971,
+          "count": 1,
+          "category": "spells"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Penguin Soldier",
+      "card": "1fe38082-1018-458e-8ef2-c5f731e5fdd9",
+      "yugipediaId": 70,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Play 15 Duel(s) against Rio Kastle in Duel World (surrenders are not counted)."
+        }
+      ]
+    },
+    {
+      "name": "Sirenorca",
+      "card": "1a253bf8-e267-4218-b669-fd8873bc016b",
+      "yugipediaId": 307078,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Blizzard Falcon",
+      "card": "b119dd7d-2498-4a92-9823-068f8fc18e16",
+      "yugipediaId": 233060,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 7 Duel(s) against Rio Kastle in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Stealth Bird",
+      "card": "6f49666d-2fcc-4843-9fa0-9a4566fa717c",
+      "yugipediaId": 506577,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 3 Duel(s) against Rio Kastle in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Water Hazard",
+      "card": "a7e7289e-0849-49a8-b07f-ef04c8cfdb07",
+      "yugipediaId": 110971,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 1 Duel(s) against Rio Kastle in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Steel Shell",
+      "card": "0a3d2515-a91b-4097-9bb7-7c29ec8c8628",
+      "yugipediaId": 7929,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Follow Wind",
+      "card": "4806d1f0-2fbd-41f6-995b-a64b4eacc11b",
+      "yugipediaId": 506508,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Rainbow Marine Mermaid",
+      "card": "0950d968-56ea-4ed7-8eb7-ed3148544d9d",
+      "yugipediaId": 19856,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Water Girl",
+      "card": "a0fabb18-7b99-42a1-958d-15ef43e5fe19",
+      "yugipediaId": 19381,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Ice Water",
+      "card": "dec1415c-0d05-48c8-9e09-c70afb3c4163",
+      "yugipediaId": 21602,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Rio Kastle is here!",
+        "id": 1128627
+      }
+    ]
+  }
+}

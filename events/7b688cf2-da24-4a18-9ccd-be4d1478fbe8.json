@@ -1,0 +1,681 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "7b688cf2-da24-4a18-9ccd-be4d1478fbe8",
+  "name": {
+    "en": "Alluring Alexis is here!"
+  },
+  "type": "Roaming Duelist event",
+  "duelWorlds": [
+    "Duel World (GX)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/5/5a/AlluringAlexisishere-Banner.png",
+  "runs": [
+    {
+      "startDate": "2019-07-19",
+      "endDate": "2019-07-26"
+    },
+    {
+      "startDate": "2019-11-27",
+      "endDate": "2019-12-05"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "notes": [
+        "In addition to the following, standard Duel Rewards were also available by Dueling Alluring Alexis Level 30 or less."
+      ]
+    },
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "run": "Nov-Dec 2019",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Cyber Angel Izana\", \"Cyber Tutubon\"",
+                "cards": [
+                  {
+                    "name": "Cyber Angel Izana",
+                    "card": "11f38ab0-4e50-44a2-96b5-4031b17f48e9",
+                    "yugipediaId": 577926
+                  },
+                  {
+                    "name": "Cyber Tutubon",
+                    "card": "614016de-e870-4889-840b-7ff3ebca701e",
+                    "yugipediaId": 430730
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Merciful Machine Angel\", \"Magnificent Machine Angel\", \"Machine Angel Absolute Ritual\"",
+                "cards": [
+                  {
+                    "name": "Merciful Machine Angel",
+                    "card": "e0799a80-d3c2-4acb-aea5-9e574fa417fd",
+                    "yugipediaId": 577936
+                  },
+                  {
+                    "name": "Magnificent Machine Angel",
+                    "card": "c4a31683-2414-4b64-af57-b5a57a092844",
+                    "yugipediaId": 579986
+                  },
+                  {
+                    "name": "Machine Angel Absolute Ritual",
+                    "card": "82dd7eec-7336-4c51-8ab1-dc1f68c2448b",
+                    "yugipediaId": 429805
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Inferno Hammer\", \"Cyber Angel Benten\", \"Etoile Cyber\", \"Machine Angel Ritual\", \"A Rival Appears!\"",
+                "cards": [
+                  {
+                    "name": "Inferno Hammer",
+                    "card": "40ebdcbb-1d95-48f4-af30-0ed1686540c6",
+                    "yugipediaId": 7411
+                  },
+                  {
+                    "name": "Cyber Angel Benten",
+                    "card": "136fc2fa-f0f7-4b93-a508-5f5d35de0553",
+                    "yugipediaId": 14545
+                  },
+                  {
+                    "name": "Etoile Cyber",
+                    "card": "e7936ded-7d46-4bc4-983b-15496aa90c82",
+                    "yugipediaId": 12202
+                  },
+                  {
+                    "name": "Machine Angel Ritual",
+                    "card": "854b8ad4-721b-42c9-9567-b95330754a87",
+                    "yugipediaId": 14698
+                  },
+                  {
+                    "name": "A Rival Appears!",
+                    "card": "3f9a9c49-6709-4f8a-a98e-8f1b52bf519d",
+                    "yugipediaId": 10887
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "run": "July 2019",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Cyber Angel Izana\"",
+                "cards": [
+                  {
+                    "name": "Cyber Angel Izana",
+                    "card": "11f38ab0-4e50-44a2-96b5-4031b17f48e9",
+                    "yugipediaId": 577926
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Cyber Angel Dakini\", \"Merciful Machine Angel\", \"Machine Angel Absolute Ritual\", \"Spell Shield Type-8\"",
+                "cards": [
+                  {
+                    "name": "Cyber Angel Dakini",
+                    "card": "bfb78479-2df9-4348-8566-82d94b039bbc",
+                    "yugipediaId": 13398
+                  },
+                  {
+                    "name": "Merciful Machine Angel",
+                    "card": "e0799a80-d3c2-4acb-aea5-9e574fa417fd",
+                    "yugipediaId": 577936
+                  },
+                  {
+                    "name": "Machine Angel Absolute Ritual",
+                    "card": "82dd7eec-7336-4c51-8ab1-dc1f68c2448b",
+                    "yugipediaId": 429805
+                  },
+                  {
+                    "name": "Spell Shield Type-8",
+                    "card": "252b9928-5a37-4f5d-9912-1f5d9c12e9d2",
+                    "yugipediaId": 2252
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Inferno Hammer\", \"Cyber Angel Benten\", \"Etoile Cyber\", \"Machine Angel Ritual\", \"A Rival Appears!\"",
+                "cards": [
+                  {
+                    "name": "Inferno Hammer",
+                    "card": "40ebdcbb-1d95-48f4-af30-0ed1686540c6",
+                    "yugipediaId": 7411
+                  },
+                  {
+                    "name": "Cyber Angel Benten",
+                    "card": "136fc2fa-f0f7-4b93-a508-5f5d35de0553",
+                    "yugipediaId": 14545
+                  },
+                  {
+                    "name": "Etoile Cyber",
+                    "card": "e7936ded-7d46-4bc4-983b-15496aa90c82",
+                    "yugipediaId": 12202
+                  },
+                  {
+                    "name": "Machine Angel Ritual",
+                    "card": "854b8ad4-721b-42c9-9567-b95330754a87",
+                    "yugipediaId": 14698
+                  },
+                  {
+                    "name": "A Rival Appears!",
+                    "card": "3f9a9c49-6709-4f8a-a98e-8f1b52bf519d",
+                    "yugipediaId": 10887
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Rewards",
+        "Event Missions"
+      ],
+      "run": "Nov-Dec 2019",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against Alluring Alexis."
+              },
+              {
+                "text": "1 \"Cyber Angel Benten\"",
+                "cards": [
+                  {
+                    "name": "Cyber Angel Benten",
+                    "card": "136fc2fa-f0f7-4b93-a508-5f5d35de0553",
+                    "yugipediaId": 14545,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 3 Duel(s) against Alluring Alexis."
+              },
+              {
+                "text": "1 \"Merciful Machine Angel\"",
+                "cards": [
+                  {
+                    "name": "Merciful Machine Angel",
+                    "card": "e0799a80-d3c2-4acb-aea5-9e574fa417fd",
+                    "yugipediaId": 577936,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 7 Duel(s) against Alluring Alexis."
+              },
+              {
+                "text": "1 \"Magnificent Machine Angel\"",
+                "cards": [
+                  {
+                    "name": "Magnificent Machine Angel",
+                    "card": "c4a31683-2414-4b64-af57-b5a57a092844",
+                    "yugipediaId": 579986,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Play 15 Duel(s) against Alluring Alexis. (surrenders are not counted.)"
+              },
+              {
+                "text": "1 \"Cyber Tutubon\"",
+                "cards": [
+                  {
+                    "name": "Cyber Tutubon",
+                    "card": "614016de-e870-4889-840b-7ff3ebca701e",
+                    "yugipediaId": 430730,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Rewards",
+        "Event Missions"
+      ],
+      "run": "July 2019",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against Alluring Alexis."
+              },
+              {
+                "text": "1 \"Inferno Hammer\"",
+                "cards": [
+                  {
+                    "name": "Inferno Hammer",
+                    "card": "40ebdcbb-1d95-48f4-af30-0ed1686540c6",
+                    "yugipediaId": 7411,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 3 Duel(s) against Alluring Alexis."
+              },
+              {
+                "text": "1 \"Cyber Angel Dakini\"",
+                "cards": [
+                  {
+                    "name": "Cyber Angel Dakini",
+                    "card": "bfb78479-2df9-4348-8566-82d94b039bbc",
+                    "yugipediaId": 13398,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 7 Duel(s) against Alluring Alexis."
+              },
+              {
+                "text": "1 \"Merciful Machine Angel\"",
+                "cards": [
+                  {
+                    "name": "Merciful Machine Angel",
+                    "card": "e0799a80-d3c2-4acb-aea5-9e574fa417fd",
+                    "yugipediaId": 577936,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Play 15 Duel(s) against Alluring Alexis. (surrenders are not counted.)"
+              },
+              {
+                "text": "1 \"Cyber Angel Izana\"",
+                "cards": [
+                  {
+                    "name": "Cyber Angel Izana",
+                    "card": "11f38ab0-4e50-44a2-96b5-4031b17f48e9",
+                    "yugipediaId": 577926,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Cyber Angel Izana",
+      "card": "11f38ab0-4e50-44a2-96b5-4031b17f48e9",
+      "yugipediaId": 577926,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "Nov-Dec 2019",
+          "runIndex": 1,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "July 2019",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "missions",
+          "run": "July 2019",
+          "runIndex": 0,
+          "requirement": "Play 15 Duel(s) against Alluring Alexis. (surrenders are not counted.)"
+        }
+      ]
+    },
+    {
+      "name": "Cyber Tutubon",
+      "card": "614016de-e870-4889-840b-7ff3ebca701e",
+      "yugipediaId": 430730,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "Nov-Dec 2019",
+          "runIndex": 1,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "missions",
+          "run": "Nov-Dec 2019",
+          "runIndex": 1,
+          "requirement": "Play 15 Duel(s) against Alluring Alexis. (surrenders are not counted.)"
+        }
+      ]
+    },
+    {
+      "name": "Merciful Machine Angel",
+      "card": "e0799a80-d3c2-4acb-aea5-9e574fa417fd",
+      "yugipediaId": 577936,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "Nov-Dec 2019",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "July 2019",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "run": "Nov-Dec 2019",
+          "runIndex": 1,
+          "requirement": "Win 3 Duel(s) against Alluring Alexis."
+        },
+        {
+          "kind": "missions",
+          "run": "July 2019",
+          "runIndex": 0,
+          "requirement": "Win 7 Duel(s) against Alluring Alexis."
+        }
+      ]
+    },
+    {
+      "name": "Magnificent Machine Angel",
+      "card": "c4a31683-2414-4b64-af57-b5a57a092844",
+      "yugipediaId": 579986,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "Nov-Dec 2019",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "run": "Nov-Dec 2019",
+          "runIndex": 1,
+          "requirement": "Win 7 Duel(s) against Alluring Alexis."
+        }
+      ]
+    },
+    {
+      "name": "Machine Angel Absolute Ritual",
+      "card": "82dd7eec-7336-4c51-8ab1-dc1f68c2448b",
+      "yugipediaId": 429805,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "Nov-Dec 2019",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "July 2019",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Inferno Hammer",
+      "card": "40ebdcbb-1d95-48f4-af30-0ed1686540c6",
+      "yugipediaId": 7411,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "Nov-Dec 2019",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "July 2019",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "missions",
+          "run": "July 2019",
+          "runIndex": 0,
+          "requirement": "Win 1 Duel(s) against Alluring Alexis."
+        }
+      ]
+    },
+    {
+      "name": "Cyber Angel Benten",
+      "card": "136fc2fa-f0f7-4b93-a508-5f5d35de0553",
+      "yugipediaId": 14545,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "Nov-Dec 2019",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "July 2019",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "missions",
+          "run": "Nov-Dec 2019",
+          "runIndex": 1,
+          "requirement": "Win 1 Duel(s) against Alluring Alexis."
+        }
+      ]
+    },
+    {
+      "name": "Etoile Cyber",
+      "card": "e7936ded-7d46-4bc4-983b-15496aa90c82",
+      "yugipediaId": 12202,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "Nov-Dec 2019",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "July 2019",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Machine Angel Ritual",
+      "card": "854b8ad4-721b-42c9-9567-b95330754a87",
+      "yugipediaId": 14698,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "Nov-Dec 2019",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "July 2019",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "A Rival Appears!",
+      "card": "3f9a9c49-6709-4f8a-a98e-8f1b52bf519d",
+      "yugipediaId": 10887,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "Nov-Dec 2019",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "July 2019",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Cyber Angel Dakini",
+      "card": "bfb78479-2df9-4348-8566-82d94b039bbc",
+      "yugipediaId": 13398,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "July 2019",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "run": "July 2019",
+          "runIndex": 0,
+          "requirement": "Win 3 Duel(s) against Alluring Alexis."
+        }
+      ]
+    },
+    {
+      "name": "Spell Shield Type-8",
+      "card": "252b9928-5a37-4f5d-9912-1f5d9c12e9d2",
+      "yugipediaId": 2252,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "July 2019",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Alluring Alexis is here!",
+        "id": 646834
+      }
+    ]
+  }
+}

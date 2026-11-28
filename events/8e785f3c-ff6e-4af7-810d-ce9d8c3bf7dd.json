@@ -1,0 +1,202 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "8e785f3c-ff6e-4af7-810d-ce9d8c3bf7dd",
+  "name": {
+    "en": "VRAINS World Release Celebration Campaign"
+  },
+  "rushDuel": false,
+  "runs": [
+    {
+      "startDate": "2022-09-28",
+      "endDate": "2023-03-01"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "other",
+      "path": [
+        "Rewards"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "Players who logged into Yu-Gi-Oh! Duel Links during this campaign would receive all of the following rewards.",
+        "In addition, for each day logged in, players would also receive 1 of the following rewards:"
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "1000 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1 \"Code Talker\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Code Talker",
+                    "card": "13ccab19-a883-4247-b81b-19d26f7b488f",
+                    "yugipediaId": 499144,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "1 \"Cyberse Wizard\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Cyberse Wizard",
+                    "card": "5f6245db-0cff-423f-bb08-26397e0b4c56",
+                    "yugipediaId": 500689,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "1 \"Backup Secretary\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Backup Secretary",
+                    "card": "6f3290ab-0039-4f39-9053-d94a56899886",
+                    "yugipediaId": 485030,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "1 Skill Ticket"
+              }
+            ],
+            [
+              {
+                "text": "1 Character Unlock Ticket"
+              }
+            ],
+            [
+              {
+                "text": "Card Sleeves: VRAINS World Release Celebration"
+              }
+            ],
+            [
+              {
+                "text": "Game Mat: VRAINS World Release Celebration"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Day",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Day 1"
+              },
+              {
+                "text": "1 UR Ticket (Glossy)"
+              }
+            ],
+            [
+              {
+                "text": "Day 2"
+              },
+              {
+                "text": "1 UR Dream Ticket (Glossy)"
+              }
+            ],
+            [
+              {
+                "text": "Day 3"
+              },
+              {
+                "text": "1 SR Ticket (Prismatic)"
+              }
+            ],
+            [
+              {
+                "text": "Day 4"
+              },
+              {
+                "text": "1 SR Dream Ticket (Glossy)"
+              }
+            ],
+            [
+              {
+                "text": "Day 5"
+              },
+              {
+                "text": "1 UR Ticket"
+              }
+            ],
+            [
+              {
+                "text": "Day 6"
+              },
+              {
+                "text": "1 SR Ticket"
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Code Talker",
+      "card": "13ccab19-a883-4247-b81b-19d26f7b488f",
+      "yugipediaId": 499144,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "runIndex": 0
+        }
+      ]
+    },
+    {
+      "name": "Cyberse Wizard",
+      "card": "5f6245db-0cff-423f-bb08-26397e0b4c56",
+      "yugipediaId": 500689,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "runIndex": 0
+        }
+      ]
+    },
+    {
+      "name": "Backup Secretary",
+      "card": "6f3290ab-0039-4f39-9053-d94a56899886",
+      "yugipediaId": 485030,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "runIndex": 0
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "VRAINS World Release Celebration Campaign",
+        "id": 1128531
+      }
+    ]
+  }
+}

@@ -1,0 +1,1453 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "deec0985-aa01-4c62-9e31-b8c5feaf1d61",
+  "name": {
+    "en": "Tag Duel Tournament III",
+    "ja": "\u30bf\u30c3\u30b0\u30c7\u30e5\u30a8\u30eb\u30c8\u30fc\u30ca\u30e1\u30f3\u30c8"
+  },
+  "type": "Tag Duel Tournament",
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/a/a4/TagDuelTournament-Banner.png",
+  "runs": [
+    {
+      "startDate": "2019-01-08",
+      "endDate": "2019-01-18"
+    }
+  ],
+  "lotteryDates": [
+    {
+      "startDate": "2019-01-08",
+      "endDate": "2019-01-24"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "completion",
+      "path": [
+        "Rewards",
+        "Completion"
+      ],
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Cup",
+            "Clear",
+            "Round",
+            "Completion Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Stardust"
+              },
+              {
+                "text": "First Clear"
+              },
+              {
+                "text": "Round 1"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Stardust"
+              },
+              {
+                "text": "First Clear"
+              },
+              {
+                "text": "Round 2"
+              },
+              {
+                "text": "3 Extra Cards"
+              }
+            ],
+            [
+              {
+                "text": "Stardust"
+              },
+              {
+                "text": "First Clear"
+              },
+              {
+                "text": "Round 3"
+              },
+              {
+                "text": "1 \"Kageningen\"",
+                "cards": [
+                  {
+                    "name": "Kageningen",
+                    "card": "7c71f98d-754d-49ea-a8f0-444ec6bfb805",
+                    "yugipediaId": 4637,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Stardust"
+              },
+              {
+                "text": "First Clear"
+              },
+              {
+                "text": "Semi-Final"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Stardust"
+              },
+              {
+                "text": "First Clear"
+              },
+              {
+                "text": "Final Round"
+              },
+              {
+                "text": "1 \"Trust Guardian\"",
+                "cards": [
+                  {
+                    "name": "Trust Guardian",
+                    "card": "1a32ddac-5922-41b4-b323-65a9d9cb707b",
+                    "yugipediaId": 106869,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Stardust"
+              },
+              {
+                "text": "Second Clear"
+              },
+              {
+                "text": "Round 1"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Stardust"
+              },
+              {
+                "text": "Second Clear"
+              },
+              {
+                "text": "Round 2"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "Stardust"
+              },
+              {
+                "text": "Second Clear"
+              },
+              {
+                "text": "Round 3"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Stardust"
+              },
+              {
+                "text": "Second Clear"
+              },
+              {
+                "text": "Semi-Final"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Stardust"
+              },
+              {
+                "text": "Second Clear"
+              },
+              {
+                "text": "Final Round"
+              },
+              {
+                "text": "1 \"Garoozis\"",
+                "cards": [
+                  {
+                    "name": "Garoozis",
+                    "card": "6b6d5c52-2fc9-4ff8-b516-33fcec2c4026",
+                    "yugipediaId": 11012,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Stardust"
+              },
+              {
+                "text": "Third Clear"
+              },
+              {
+                "text": "Round 1"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Stardust"
+              },
+              {
+                "text": "Third Clear"
+              },
+              {
+                "text": "Round 2"
+              },
+              {
+                "text": "3000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "Stardust"
+              },
+              {
+                "text": "Third Clear"
+              },
+              {
+                "text": "Round 3"
+              },
+              {
+                "text": "1 \"Searchlightman\"",
+                "cards": [
+                  {
+                    "name": "Searchlightman",
+                    "card": "9151323a-4be1-4418-9f87-cba0d320816f",
+                    "yugipediaId": 16476,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Stardust"
+              },
+              {
+                "text": "Third Clear"
+              },
+              {
+                "text": "Semi-Final"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Stardust"
+              },
+              {
+                "text": "Third Clear"
+              },
+              {
+                "text": "Final Round"
+              },
+              {
+                "text": "1 \"Evilswarm O'lantern\"",
+                "cards": [
+                  {
+                    "name": "Evilswarm O'lantern",
+                    "card": "3dec968e-2c85-44fe-a710-bb9cd6bfd5fd",
+                    "yugipediaId": 179816,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Neos"
+              },
+              {
+                "text": "First Clear"
+              },
+              {
+                "text": "Round 1"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Neos"
+              },
+              {
+                "text": "First Clear"
+              },
+              {
+                "text": "Round 2"
+              },
+              {
+                "text": "3 Extra Lifes"
+              }
+            ],
+            [
+              {
+                "text": "Neos"
+              },
+              {
+                "text": "First Clear"
+              },
+              {
+                "text": "Round 3"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "Neos"
+              },
+              {
+                "text": "First Clear"
+              },
+              {
+                "text": "Round 4"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Neos"
+              },
+              {
+                "text": "First Clear"
+              },
+              {
+                "text": "Semi-Final"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Neos"
+              },
+              {
+                "text": "First Clear"
+              },
+              {
+                "text": "Final Round"
+              },
+              {
+                "text": "1 \"Elemental HERO Shining Flare Wingman\"",
+                "cards": [
+                  {
+                    "name": "Elemental HERO Shining Flare Wingman",
+                    "card": "a4655c1a-f951-41d4-8c3a-debdf3c5e668",
+                    "yugipediaId": 8723,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Neos"
+              },
+              {
+                "text": "Second Clear"
+              },
+              {
+                "text": "Round 1"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Neos"
+              },
+              {
+                "text": "Second Clear"
+              },
+              {
+                "text": "Round 2"
+              },
+              {
+                "text": "3 EXP Boosters"
+              }
+            ],
+            [
+              {
+                "text": "Neos"
+              },
+              {
+                "text": "Second Clear"
+              },
+              {
+                "text": "Round 3"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "Neos"
+              },
+              {
+                "text": "Second Clear"
+              },
+              {
+                "text": "Round 4"
+              },
+              {
+                "text": "40 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Neos"
+              },
+              {
+                "text": "Second Clear"
+              },
+              {
+                "text": "Semi-Final"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "Neos"
+              },
+              {
+                "text": "Second Clear"
+              },
+              {
+                "text": "Final Round"
+              },
+              {
+                "text": "1 \"Comrade Swordsman of Landstar\"",
+                "cards": [
+                  {
+                    "name": "Comrade Swordsman of Landstar",
+                    "card": "f81856df-a942-44dd-97b8-d5712827648d",
+                    "yugipediaId": 45501,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Neos"
+              },
+              {
+                "text": "Third Clear"
+              },
+              {
+                "text": "Round 1"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Neos"
+              },
+              {
+                "text": "Third Clear"
+              },
+              {
+                "text": "Round 2"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "Neos"
+              },
+              {
+                "text": "Third Clear"
+              },
+              {
+                "text": "Round 3"
+              },
+              {
+                "text": "50 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Neos"
+              },
+              {
+                "text": "Third Clear"
+              },
+              {
+                "text": "Round 4"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Neos"
+              },
+              {
+                "text": "Third Clear"
+              },
+              {
+                "text": "Semi-Final"
+              },
+              {
+                "text": "40 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Neos"
+              },
+              {
+                "text": "Third Clear"
+              },
+              {
+                "text": "Final Round"
+              },
+              {
+                "text": "1 \"Chaos Goddess\"",
+                "cards": [
+                  {
+                    "name": "Chaos Goddess",
+                    "card": "04b76410-52c8-415d-8754-29755da1dd9c",
+                    "yugipediaId": 514553,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Dark Magic"
+              },
+              {
+                "text": "First Clear"
+              },
+              {
+                "text": "Round 1"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Dark Magic"
+              },
+              {
+                "text": "First Clear"
+              },
+              {
+                "text": "Round 2"
+              },
+              {
+                "text": "3 EXP Boosters"
+              }
+            ],
+            [
+              {
+                "text": "Dark Magic"
+              },
+              {
+                "text": "First Clear"
+              },
+              {
+                "text": "Round 3"
+              },
+              {
+                "text": "1 UR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "Dark Magic"
+              },
+              {
+                "text": "First Clear"
+              },
+              {
+                "text": "Round 4"
+              },
+              {
+                "text": "1 \"Zombyra the Dark\"",
+                "cards": [
+                  {
+                    "name": "Zombyra the Dark",
+                    "card": "22779be3-8e9d-43d1-98a7-09ae0956f074",
+                    "yugipediaId": 1892,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Dark Magic"
+              },
+              {
+                "text": "First Clear"
+              },
+              {
+                "text": "Round 5"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "Dark Magic"
+              },
+              {
+                "text": "First Clear"
+              },
+              {
+                "text": "Semi-Final"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Dark Magic"
+              },
+              {
+                "text": "First Clear"
+              },
+              {
+                "text": "Final Round"
+              },
+              {
+                "text": "1 \"Unity\"",
+                "cards": [
+                  {
+                    "name": "Unity",
+                    "card": "1b60b0f0-e433-43ee-8dca-800824a63e9a",
+                    "yugipediaId": 7406,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Dark Magic"
+              },
+              {
+                "text": "Second Clear"
+              },
+              {
+                "text": "Round 1"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Dark Magic"
+              },
+              {
+                "text": "Second Clear"
+              },
+              {
+                "text": "Round 2"
+              },
+              {
+                "text": "7000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "Dark Magic"
+              },
+              {
+                "text": "Second Clear"
+              },
+              {
+                "text": "Round 3"
+              },
+              {
+                "text": "1 UR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "Dark Magic"
+              },
+              {
+                "text": "Second Clear"
+              },
+              {
+                "text": "Round 4"
+              },
+              {
+                "text": "1 \"Kryuel\"",
+                "cards": [
+                  {
+                    "name": "Kryuel",
+                    "card": "3d421e8c-b2b2-4eef-877b-96d5c01ba525",
+                    "yugipediaId": 14263,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Dark Magic"
+              },
+              {
+                "text": "Second Clear"
+              },
+              {
+                "text": "Round 5"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "Dark Magic"
+              },
+              {
+                "text": "Second Clear"
+              },
+              {
+                "text": "Semi-Final"
+              },
+              {
+                "text": "60 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Dark Magic"
+              },
+              {
+                "text": "Second Clear"
+              },
+              {
+                "text": "Final Round"
+              },
+              {
+                "text": "1 \"Prime Material Dragon\"",
+                "cards": [
+                  {
+                    "name": "Prime Material Dragon",
+                    "card": "f22b3e6d-56ad-49f7-b4d4-e3c1e2d18224",
+                    "yugipediaId": 88544,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Dark Magic"
+              },
+              {
+                "text": "Third Clear"
+              },
+              {
+                "text": "Round 1"
+              },
+              {
+                "text": "7000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "Dark Magic"
+              },
+              {
+                "text": "Third Clear"
+              },
+              {
+                "text": "Round 2"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Dark Magic"
+              },
+              {
+                "text": "Third Clear"
+              },
+              {
+                "text": "Round 3"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Dark Magic"
+              },
+              {
+                "text": "Third Clear"
+              },
+              {
+                "text": "Round 4"
+              },
+              {
+                "text": "50 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Dark Magic"
+              },
+              {
+                "text": "Third Clear"
+              },
+              {
+                "text": "Round 5"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "Dark Magic"
+              },
+              {
+                "text": "Third Clear"
+              },
+              {
+                "text": "Semi-Final"
+              },
+              {
+                "text": "70 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Dark Magic"
+              },
+              {
+                "text": "Third Clear"
+              },
+              {
+                "text": "Final Round"
+              },
+              {
+                "text": "1 \"Starlight Road\"",
+                "cards": [
+                  {
+                    "name": "Starlight Road",
+                    "card": "adb0cabc-58e8-4a7c-b6ef-000088d6ed16",
+                    "yugipediaId": 95654,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "lottery",
+      "path": [
+        "Rewards",
+        "Lottery"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "The player can spend a multiple of 30 Lottery Coins (max. 300 at a time) to obtain one random reward for each 30 Lottery Coins spent."
+      ],
+      "tables": [
+        {
+          "rows": [
+            [
+              {
+                "text": ""
+              },
+              {
+                "text": "Lottery Rewards"
+              }
+            ],
+            [
+              {
+                "text": "Rainbow"
+              },
+              {
+                "text": "\"Starlight Road\" (UR), \"Prime Material Dragon\" (UR), \"Unity\" (UR), \"Comrade Swordsman of Landstar\" (SR), \"Chaos Goddess\" (SR), \"Evilswarm O'lantern\" (SR), \"Elemental HERO Shining Flare Wingman\" (SR), \"Zombyra the Dark\" (SR), \"Kryuel\" (SR)\n20 or 15 Gems",
+                "cards": [
+                  {
+                    "name": "Starlight Road",
+                    "card": "adb0cabc-58e8-4a7c-b6ef-000088d6ed16",
+                    "yugipediaId": 95654,
+                    "rarity": "UR"
+                  },
+                  {
+                    "name": "Prime Material Dragon",
+                    "card": "f22b3e6d-56ad-49f7-b4d4-e3c1e2d18224",
+                    "yugipediaId": 88544,
+                    "rarity": "UR"
+                  },
+                  {
+                    "name": "Unity",
+                    "card": "1b60b0f0-e433-43ee-8dca-800824a63e9a",
+                    "yugipediaId": 7406,
+                    "rarity": "UR"
+                  },
+                  {
+                    "name": "Comrade Swordsman of Landstar",
+                    "card": "f81856df-a942-44dd-97b8-d5712827648d",
+                    "yugipediaId": 45501,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Chaos Goddess",
+                    "card": "04b76410-52c8-415d-8754-29755da1dd9c",
+                    "yugipediaId": 514553,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Evilswarm O'lantern",
+                    "card": "3dec968e-2c85-44fe-a710-bb9cd6bfd5fd",
+                    "yugipediaId": 179816,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Elemental HERO Shining Flare Wingman",
+                    "card": "a4655c1a-f951-41d4-8c3a-debdf3c5e668",
+                    "yugipediaId": 8723,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Zombyra the Dark",
+                    "card": "22779be3-8e9d-43d1-98a7-09ae0956f074",
+                    "yugipediaId": 1892,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Kryuel",
+                    "card": "3d421e8c-b2b2-4eef-877b-96d5c01ba525",
+                    "yugipediaId": 14263,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Gold"
+              },
+              {
+                "text": "\"Trust Guardian\" (R)\", Searchlightman\" (R), \"Garoozis\" (R), \"Dark Zebra\" (R), \"Maximum Six\" (R), \"Gamble\" (R)\n10 Gems\n3000, or 2000 Gold\n10 Gate Keys (White, Black, Blue, Red, Yellow or Green)",
+                "cards": [
+                  {
+                    "name": "Trust Guardian",
+                    "card": "1a32ddac-5922-41b4-b323-65a9d9cb707b",
+                    "yugipediaId": 106869,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Searchlightman",
+                    "card": "9151323a-4be1-4418-9f87-cba0d320816f",
+                    "yugipediaId": 16476,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Garoozis",
+                    "card": "6b6d5c52-2fc9-4ff8-b516-33fcec2c4026",
+                    "yugipediaId": 11012,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Dark Zebra",
+                    "card": "20c1bdef-26f4-46bb-b2df-3f244db4932f",
+                    "yugipediaId": 4175,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Maximum Six",
+                    "card": "2c4d1276-ac0d-42ee-ac92-aae66d328adb",
+                    "yugipediaId": 16692,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Gamble",
+                    "card": "dfc7c740-565d-4ee4-9fa9-0425b98418b6",
+                    "yugipediaId": 6727,
+                    "rarity": "R"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Normal"
+              },
+              {
+                "text": "\"Kageningen\" (N), \"Rallis the Star Bird\" (N), \"Fiend's Mirror\" (N), \"Destroyer Golem\" (N), \"Kojikocy\" (N), \"Beastly Mirror Ritual\" (N), \"Enervating Mist\" (N)\n5, or 1 Gem(s)\n1000, 600, or 300 Gold\n5 Gate Keys (White, Black, Blue, Red, Yellow or Green)",
+                "cards": [
+                  {
+                    "name": "Kageningen",
+                    "card": "7c71f98d-754d-49ea-a8f0-444ec6bfb805",
+                    "yugipediaId": 4637,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Rallis the Star Bird",
+                    "card": "676989b6-41df-4835-b70d-a091f0502bef",
+                    "yugipediaId": 6220,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Fiend's Mirror",
+                    "card": "983d5e90-e348-483b-bc5f-1c42c15a8dcd",
+                    "yugipediaId": 9981,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Destroyer Golem",
+                    "card": "0b835f77-3c6c-4c8b-a8fb-dc4bc8602c46",
+                    "yugipediaId": 3828,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Kojikocy",
+                    "card": "7a09e8f8-6d36-4dc9-bf2e-7a5b393fb556",
+                    "yugipediaId": 508552,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Beastly Mirror Ritual",
+                    "card": "252850e8-40ea-48fd-9fa1-9fe88ba5cf3f",
+                    "yugipediaId": 10028,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Enervating Mist",
+                    "card": "9de9b970-25d2-4f01-b994-0831698ef5c2",
+                    "yugipediaId": 12973,
+                    "rarity": "N"
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Kageningen",
+      "card": "7c71f98d-754d-49ea-a8f0-444ec6bfb805",
+      "yugipediaId": 4637,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "runIndex": 0,
+          "requirement": "Stardust"
+        },
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Trust Guardian",
+      "card": "1a32ddac-5922-41b4-b323-65a9d9cb707b",
+      "yugipediaId": 106869,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "runIndex": 0,
+          "requirement": "Stardust"
+        },
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Garoozis",
+      "card": "6b6d5c52-2fc9-4ff8-b516-33fcec2c4026",
+      "yugipediaId": 11012,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "runIndex": 0,
+          "requirement": "Stardust"
+        },
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Searchlightman",
+      "card": "9151323a-4be1-4418-9f87-cba0d320816f",
+      "yugipediaId": 16476,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "runIndex": 0,
+          "requirement": "Stardust"
+        },
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Evilswarm O'lantern",
+      "card": "3dec968e-2c85-44fe-a710-bb9cd6bfd5fd",
+      "yugipediaId": 179816,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "runIndex": 0,
+          "requirement": "Stardust"
+        },
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Elemental HERO Shining Flare Wingman",
+      "card": "a4655c1a-f951-41d4-8c3a-debdf3c5e668",
+      "yugipediaId": 8723,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "runIndex": 0,
+          "requirement": "Neos"
+        },
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Comrade Swordsman of Landstar",
+      "card": "f81856df-a942-44dd-97b8-d5712827648d",
+      "yugipediaId": 45501,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "runIndex": 0,
+          "requirement": "Neos"
+        },
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Chaos Goddess",
+      "card": "04b76410-52c8-415d-8754-29755da1dd9c",
+      "yugipediaId": 514553,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "runIndex": 0,
+          "requirement": "Neos"
+        },
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Zombyra the Dark",
+      "card": "22779be3-8e9d-43d1-98a7-09ae0956f074",
+      "yugipediaId": 1892,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "runIndex": 0,
+          "requirement": "Dark Magic"
+        },
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Unity",
+      "card": "1b60b0f0-e433-43ee-8dca-800824a63e9a",
+      "yugipediaId": 7406,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "runIndex": 0,
+          "requirement": "Dark Magic"
+        },
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Kryuel",
+      "card": "3d421e8c-b2b2-4eef-877b-96d5c01ba525",
+      "yugipediaId": 14263,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "runIndex": 0,
+          "requirement": "Dark Magic"
+        },
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Prime Material Dragon",
+      "card": "f22b3e6d-56ad-49f7-b4d4-e3c1e2d18224",
+      "yugipediaId": 88544,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "runIndex": 0,
+          "requirement": "Dark Magic"
+        },
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Starlight Road",
+      "card": "adb0cabc-58e8-4a7c-b6ef-000088d6ed16",
+      "yugipediaId": 95654,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "runIndex": 0,
+          "requirement": "Dark Magic"
+        },
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Dark Zebra",
+      "card": "20c1bdef-26f4-46bb-b2df-3f244db4932f",
+      "yugipediaId": 4175,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Maximum Six",
+      "card": "2c4d1276-ac0d-42ee-ac92-aae66d328adb",
+      "yugipediaId": 16692,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Gamble",
+      "card": "dfc7c740-565d-4ee4-9fa9-0425b98418b6",
+      "yugipediaId": 6727,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Rallis the Star Bird",
+      "card": "676989b6-41df-4835-b70d-a091f0502bef",
+      "yugipediaId": 6220,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Fiend's Mirror",
+      "card": "983d5e90-e348-483b-bc5f-1c42c15a8dcd",
+      "yugipediaId": 9981,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Destroyer Golem",
+      "card": "0b835f77-3c6c-4c8b-a8fb-dc4bc8602c46",
+      "yugipediaId": 3828,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Kojikocy",
+      "card": "7a09e8f8-6d36-4dc9-bf2e-7a5b393fb556",
+      "yugipediaId": 508552,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Beastly Mirror Ritual",
+      "card": "252850e8-40ea-48fd-9fa1-9fe88ba5cf3f",
+      "yugipediaId": 10028,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Enervating Mist",
+      "card": "9de9b970-25d2-4f01-b994-0831698ef5c2",
+      "yugipediaId": 12973,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "runIndex": 0,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Tag Duel Tournament III",
+        "id": 588330
+      }
+    ]
+  }
+}

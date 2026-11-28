@@ -1,0 +1,5555 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "ea98e72e-9f17-43ee-8a67-c9d7a8b4be2f",
+  "name": {
+    "en": "Event Rush #2: GX RAID DUEL: The Unbeatable Zane!",
+    "ja": "\u30a4\u30d9\u30f3\u30c8\u30e9\u30c3\u30b7\u30e5\u7b2c2\u5f3e GX \uff32\uff21\uff29\uff24 \uff24\uff35\uff25\uff2c \u30ab\u30a4\u30b6\u30fc\u4eae!"
+  },
+  "type": "Raid Duel",
+  "duelWorlds": [
+    "Duel World (GX)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/f/fe/EventRush2GXRAIDDUELTheUnbeatableZane-Banner.png",
+  "runs": [
+    {
+      "startDate": "2026-10-13",
+      "endDate": "2026-10-26"
+    }
+  ],
+  "cardTraderExDates": [
+    {
+      "startDate": "2026-10-13",
+      "endDate": "2026-11-01"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "cumulativeRewards",
+      "path": [
+        "Rewards",
+        "Cumulative Rewards"
+      ],
+      "run": "October 2026",
+      "runIndex": 0,
+      "notes": [
+        "The following rewards were awarded during this event, based on event points accumulated over the its course:"
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "10000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "20000"
+              },
+              {
+                "text": "1000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "30000"
+              },
+              {
+                "text": "5 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "40000"
+              },
+              {
+                "text": "1 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "60000"
+              },
+              {
+                "text": "1000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "80000"
+              },
+              {
+                "text": "3 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "100000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "120000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "140000"
+              },
+              {
+                "text": "1 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "170000"
+              },
+              {
+                "text": "10 Chronicle Chips"
+              }
+            ],
+            [
+              {
+                "text": "200000"
+              },
+              {
+                "text": "1 EX Draw & Summon"
+              }
+            ],
+            [
+              {
+                "text": "250000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "300000"
+              },
+              {
+                "text": "2000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "350000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "400000"
+              },
+              {
+                "text": "5 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "500000"
+              },
+              {
+                "text": "1 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "600000"
+              },
+              {
+                "text": "3000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "700000"
+              },
+              {
+                "text": "20 Duel Permission Slips"
+              }
+            ],
+            [
+              {
+                "text": "800000"
+              },
+              {
+                "text": "\"Cyber Dragon Zwei\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Cyber Dragon Zwei",
+                    "card": "53e02674-7c3e-4ae7-aa73-38bc07fbc5d2",
+                    "yugipediaId": 108249,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "910000"
+              },
+              {
+                "text": "1 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "1020000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1130000"
+              },
+              {
+                "text": "4 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "1240000"
+              },
+              {
+                "text": "30 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "1350000"
+              },
+              {
+                "text": "10 Chronicle Chips"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "1460000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1570000"
+              },
+              {
+                "text": "20 Duel Permission Slips"
+              }
+            ],
+            [
+              {
+                "text": "1700000"
+              },
+              {
+                "text": "\"Cyber End Dragon\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Cyber End Dragon",
+                    "card": "ba42c674-83a3-4e29-81b8-bdcfcb7cd2fc",
+                    "yugipediaId": 441,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "1810000"
+              },
+              {
+                "text": "1 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "1920000"
+              },
+              {
+                "text": "10 Chronicle Chips"
+              }
+            ],
+            [
+              {
+                "text": "2030000"
+              },
+              {
+                "text": "15 Gems"
+              }
+            ],
+            [
+              {
+                "text": "2140000"
+              },
+              {
+                "text": "20 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "2250000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "2360000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "2470000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "2600000"
+              },
+              {
+                "text": "Card Sleeves: GX RAID DUEL: The Unbeatable Zane!"
+              }
+            ],
+            [
+              {
+                "text": "2830000"
+              },
+              {
+                "text": "10 Chronicle Chips"
+              }
+            ],
+            [
+              {
+                "text": "3060000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "3290000"
+              },
+              {
+                "text": "4 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "3520000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "3750000"
+              },
+              {
+                "text": "1 EX Draw & Summon"
+              }
+            ],
+            [
+              {
+                "text": "3980000"
+              },
+              {
+                "text": "30 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "4210000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "4700000"
+              },
+              {
+                "text": "\"Cyber Eternal\"",
+                "cards": [
+                  {
+                    "name": "Cyber Eternal",
+                    "card": "1f959ebe-6077-4625-91f2-fa8e2e6618b0",
+                    "yugipediaId": 714411
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "4910000"
+              },
+              {
+                "text": "4 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "5320000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "5730000"
+              },
+              {
+                "text": "10 Chronicle Chips"
+              }
+            ],
+            [
+              {
+                "text": "6140000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "6600000"
+              },
+              {
+                "text": "1 EX Draw & Summon"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "7000000"
+              },
+              {
+                "text": "Game Mat: GX RAID DUEL: The Unbeatable Zane!"
+              }
+            ],
+            [
+              {
+                "text": "7570000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "8140000"
+              },
+              {
+                "text": "5 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "8710000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "9280000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "9850000"
+              },
+              {
+                "text": "5 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "10420000"
+              },
+              {
+                "text": "10 Chronicle Chips"
+              }
+            ],
+            [
+              {
+                "text": "11000000"
+              },
+              {
+                "text": "\"Cyber Eternity Dragon\"",
+                "cards": [
+                  {
+                    "name": "Cyber Eternity Dragon",
+                    "card": "96522859-5c22-443a-bbb9-a84270335bc4",
+                    "yugipediaId": 560115
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "12700000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "14400000"
+              },
+              {
+                "text": "Stamp: Zane Truesdale (Obelisk Blue)"
+              }
+            ],
+            [
+              {
+                "text": "16100000"
+              },
+              {
+                "text": "40 Gems"
+              }
+            ],
+            [
+              {
+                "text": "18000000"
+              },
+              {
+                "text": "Icon: GX RAID DUEL: The Unbeatable Zane!"
+              }
+            ],
+            [
+              {
+                "text": "20500000"
+              },
+              {
+                "text": "10 Chronicle Chips"
+              }
+            ],
+            [
+              {
+                "text": "23000000"
+              },
+              {
+                "text": "GX RAID DUEL: The Unbeatable Zane! Completed (Title)"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "treasureBoxes",
+      "path": [
+        "Rewards",
+        "Treasure Boxes"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "Every time the player defeats Cyber End Dragon, they will be awarded with Treasure Boxes of different types."
+      ]
+    },
+    {
+      "kind": "treasureBoxes",
+      "path": [
+        "Rewards",
+        "Treasure Boxes"
+      ],
+      "run": "October 2026",
+      "runIndex": 0,
+      "tables": [
+        {
+          "rows": [
+            [
+              {
+                "text": ""
+              },
+              {
+                "text": "Rewards"
+              }
+            ],
+            [
+              {
+                "text": "Rainbow"
+              },
+              {
+                "text": "\"Cyber Eternity Dragon\" (UR), \"Cyber End Dragon\" (UR), \"Cyber Eternal\" (SR), \"Cybernetic Fusion Support\" (SR), \"Cyber Dragon Zwei\" (SR)\n20 or 10 Gems",
+                "cards": [
+                  {
+                    "name": "Cyber Eternity Dragon",
+                    "card": "96522859-5c22-443a-bbb9-a84270335bc4",
+                    "yugipediaId": 560115,
+                    "rarity": "UR"
+                  },
+                  {
+                    "name": "Cyber End Dragon",
+                    "card": "ba42c674-83a3-4e29-81b8-bdcfcb7cd2fc",
+                    "yugipediaId": 441,
+                    "rarity": "UR"
+                  },
+                  {
+                    "name": "Cyber Eternal",
+                    "card": "1f959ebe-6077-4625-91f2-fa8e2e6618b0",
+                    "yugipediaId": 714411,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Cybernetic Fusion Support",
+                    "card": "5c46ed99-547c-47e0-a014-4614195b4460",
+                    "yugipediaId": 22210,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Cyber Dragon Zwei",
+                    "card": "53e02674-7c3e-4ae7-aa73-38bc07fbc5d2",
+                    "yugipediaId": 108249,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Gold"
+              },
+              {
+                "text": "\"Cyber Eternal\" (SR), \"Cybernetic Fusion Support\" (SR), \"Cyber Dragon Zwei\" (SR), \"Damage Polarizer\" (R), \"Cyber Kirin\" (R), \"Proto-Cyber Dragon\" (R)\n6 or 4 EX Jewel(s) (Raid Duel)\n5 or 1 Gem(s)\n1000 or 400 Gold",
+                "cards": [
+                  {
+                    "name": "Cyber Eternal",
+                    "card": "1f959ebe-6077-4625-91f2-fa8e2e6618b0",
+                    "yugipediaId": 714411,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Cybernetic Fusion Support",
+                    "card": "5c46ed99-547c-47e0-a014-4614195b4460",
+                    "yugipediaId": 22210,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Cyber Dragon Zwei",
+                    "card": "53e02674-7c3e-4ae7-aa73-38bc07fbc5d2",
+                    "yugipediaId": 108249,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Damage Polarizer",
+                    "card": "cf436319-29ce-4ee6-8074-2bdfb8103736",
+                    "yugipediaId": 22185,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Cyber Kirin",
+                    "card": "250779b3-4af2-4675-8eca-968f69f50dac",
+                    "yugipediaId": 15595,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Proto-Cyber Dragon",
+                    "card": "18506662-300b-4845-b6e5-83c11f35bef6",
+                    "yugipediaId": 1959,
+                    "rarity": "R"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Silver"
+              },
+              {
+                "text": "\"Damage Polarizer\" (R), \"Cyber Kirin\" (R), \"Proto-Cyber Dragon\" (R), \"Cyber Falcon\" (N), \"Kaiser Dragon\" (N)\n2 EX Jewel(s) (Raid Duel)\n200 or 50 Gold\n7 or 3 Gate Keys (White, Black, Blue, Red, Yellow, or Green)",
+                "cards": [
+                  {
+                    "name": "Damage Polarizer",
+                    "card": "cf436319-29ce-4ee6-8074-2bdfb8103736",
+                    "yugipediaId": 22185,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Cyber Kirin",
+                    "card": "250779b3-4af2-4675-8eca-968f69f50dac",
+                    "yugipediaId": 15595,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Proto-Cyber Dragon",
+                    "card": "18506662-300b-4845-b6e5-83c11f35bef6",
+                    "yugipediaId": 1959,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Cyber Falcon",
+                    "card": "a4631a43-d1e1-4752-9a75-35437d5291df",
+                    "yugipediaId": 5836,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Kaiser Dragon",
+                    "card": "91bb5728-1c05-462a-bc35-f2e2b550157f",
+                    "yugipediaId": 8328,
+                    "rarity": "N"
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "packs",
+      "path": [
+        "Rewards",
+        "Legendary Duelist Rainbow Pack (GX)"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "Awarded each time the Damage Ranking is reset. Each pack contains 1 of the following cards:"
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "\"Yubel - The Ultimate Nightmare\" (UR)",
+                "cards": [
+                  {
+                    "name": "Yubel - The Ultimate Nightmare",
+                    "card": "0c6f2225-9906-4693-b192-43f3f1c080bd",
+                    "yugipediaId": 69183,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Yubel - Terror Incarnate\" (UR)",
+                "cards": [
+                  {
+                    "name": "Yubel - Terror Incarnate",
+                    "card": "f467b4eb-5872-41da-9089-150e7fea96d1",
+                    "yugipediaId": 73753,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Neos Wiseman\" (UR)",
+                "cards": [
+                  {
+                    "name": "Neos Wiseman",
+                    "card": "d62d54a5-c5ea-4e31-b39c-cd6b359ebd15",
+                    "yugipediaId": 86391,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Arcana Force EX - The Light Ruler\" (UR)",
+                "cards": [
+                  {
+                    "name": "Arcana Force EX - The Light Ruler",
+                    "card": "76d49051-842a-4af3-9973-f830725370c3",
+                    "yugipediaId": 19554,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Yubel\" (UR)",
+                "cards": [
+                  {
+                    "name": "Yubel",
+                    "card": "178d35a8-85e2-497b-8808-41d8ec73bd46",
+                    "yugipediaId": 511211,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Rainbow Dragon\" (UR)",
+                "cards": [
+                  {
+                    "name": "Rainbow Dragon",
+                    "card": "ab6ee7b4-e8f6-4dce-8ffd-b53221a592b3",
+                    "yugipediaId": 510535,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Dark Alligator\" (UR)",
+                "cards": [
+                  {
+                    "name": "Dark Alligator",
+                    "card": "34ea1f35-75f6-4468-bdbf-a6b082d26320",
+                    "yugipediaId": 707977,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Prometeor, the Burning Star\" (UR)",
+                "cards": [
+                  {
+                    "name": "Prometeor, the Burning Star",
+                    "card": "0a1bcff9-bf75-4743-ba98-c4cd2435159e",
+                    "yugipediaId": 644761,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"The Blazing Mars\" (UR)",
+                "cards": [
+                  {
+                    "name": "The Blazing Mars",
+                    "card": "286d5e2b-682d-4675-ac0c-6cfdf2b6ce22",
+                    "yugipediaId": 450146,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Ultimate Tyranno\" (UR)",
+                "cards": [
+                  {
+                    "name": "Ultimate Tyranno",
+                    "card": "9d8b6032-7774-4707-ac79-0774f82740a0",
+                    "yugipediaId": 6611,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Ancient Gear Golem\" (UR)",
+                "cards": [
+                  {
+                    "name": "Ancient Gear Golem",
+                    "card": "fae1ecc6-a974-48d1-82cc-1a632879b43f",
+                    "yugipediaId": 2956,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Water Dragon\" (UR)",
+                "cards": [
+                  {
+                    "name": "Water Dragon",
+                    "card": "0a9a6dac-0f00-4aa6-98d1-515c61f14536",
+                    "yugipediaId": 11623,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Arcana Force XII - The Hangman\" (UR)",
+                "cards": [
+                  {
+                    "name": "Arcana Force XII - The Hangman",
+                    "card": "70fa4178-e622-48e6-9067-62a7f9574cd4",
+                    "yugipediaId": 1185661,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Stegocyber\" (UR)",
+                "cards": [
+                  {
+                    "name": "Stegocyber",
+                    "card": "147e62c3-2c66-4a55-a6a0-37def886de3a",
+                    "yugipediaId": 324020,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Goldd, Wu-Lord of Dark World\" (UR)",
+                "cards": [
+                  {
+                    "name": "Goldd, Wu-Lord of Dark World",
+                    "card": "f1ee8158-a4ac-423d-8d71-dac41249684e",
+                    "yugipediaId": 5023,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Inferno\" (UR)",
+                "cards": [
+                  {
+                    "name": "Inferno",
+                    "card": "e4fd7dec-683c-4ce8-9819-97018ddaed8b",
+                    "yugipediaId": 17157,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Familiar-Possessed - Lyna\" (UR)",
+                "cards": [
+                  {
+                    "name": "Familiar-Possessed - Lyna",
+                    "card": "d99fd567-e1c6-4f4b-aee1-ac71056517ef",
+                    "yugipediaId": 480387,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Evolsaur Diplo\" (UR)",
+                "cards": [
+                  {
+                    "name": "Evolsaur Diplo",
+                    "card": "e7e32a73-20ef-4fb8-8de9-3f1d288a6342",
+                    "yugipediaId": 174461,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Duke Shade, the Sinister Shadow Lord\" (UR)",
+                "cards": [
+                  {
+                    "name": "Duke Shade, the Sinister Shadow Lord",
+                    "card": "62d54b4d-7719-4ded-9a81-97abfed3c9ec",
+                    "yugipediaId": 554287,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Giant Rex\" (UR)",
+                "cards": [
+                  {
+                    "name": "Giant Rex",
+                    "card": "c0d791e8-7efd-47b2-8662-fbb6654a0b36",
+                    "yugipediaId": 494132,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Crystal Beast Sapphire Pegasus\" (UR)",
+                "cards": [
+                  {
+                    "name": "Crystal Beast Sapphire Pegasus",
+                    "card": "c7bb63ee-b4e1-4fb4-8884-dc898a15445b",
+                    "yugipediaId": 511289,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Expressroid\" (UR)",
+                "cards": [
+                  {
+                    "name": "Expressroid",
+                    "card": "0b51d49c-1857-41f1-b55d-73981ecdc71f",
+                    "yugipediaId": 13733,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Lumina, Twilightsworn Shaman\" (UR)",
+                "cards": [
+                  {
+                    "name": "Lumina, Twilightsworn Shaman",
+                    "card": "cc8d320c-98b8-4689-97c3-415ad60658ae",
+                    "yugipediaId": 480287,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Evil HERO Infernal Prodigy\" (UR)",
+                "cards": [
+                  {
+                    "name": "Evil HERO Infernal Prodigy",
+                    "card": "224ae5d4-91fd-47a4-9c5d-c21d0144d257",
+                    "yugipediaId": 538634,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Maiden in Love\" (UR)",
+                "cards": [
+                  {
+                    "name": "Maiden in Love",
+                    "card": "aedbe786-c466-480a-855b-039d23d2515f",
+                    "yugipediaId": 1123217,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Grave Squirmer\" (UR)",
+                "cards": [
+                  {
+                    "name": "Grave Squirmer",
+                    "card": "ab3f1503-f525-4135-aa22-e6366fa7a09e",
+                    "yugipediaId": 510959,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Elemental HERO Neos\" (UR)",
+                "cards": [
+                  {
+                    "name": "Elemental HERO Neos",
+                    "card": "846f587c-3c3c-420a-9d7c-a4f4d7454fd0",
+                    "yugipediaId": 8803,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Elemental HERO Divine Neos\" (UR)",
+                "cards": [
+                  {
+                    "name": "Elemental HERO Divine Neos",
+                    "card": "9af6928d-f6d9-44f1-bfba-6167961b907d",
+                    "yugipediaId": 46287,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Cyberdarkness Dragon\" (UR)",
+                "cards": [
+                  {
+                    "name": "Cyberdarkness Dragon",
+                    "card": "0f1f367e-47c1-43bd-a700-be489e7d185f",
+                    "yugipediaId": 496103,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Elemental HERO Electrum\" (UR)",
+                "cards": [
+                  {
+                    "name": "Elemental HERO Electrum",
+                    "card": "7b52a801-c0bf-4a5e-b9f2-033aa4aebc74",
+                    "yugipediaId": 5916,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Ultimate Ancient Gear Golem\" (UR)",
+                "cards": [
+                  {
+                    "name": "Ultimate Ancient Gear Golem",
+                    "card": "4f6d0b2f-65fd-49db-a45c-a9dc08a89a9c",
+                    "yugipediaId": 86143,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Chimeratech Overdragon\" (UR)",
+                "cards": [
+                  {
+                    "name": "Chimeratech Overdragon",
+                    "card": "954f71f3-105b-463d-9c8a-24ffbaf9b801",
+                    "yugipediaId": 6855,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Fossil Machine Skull Convoy\" (UR)",
+                "cards": [
+                  {
+                    "name": "Fossil Machine Skull Convoy",
+                    "card": "b8e25d1f-0acd-49dc-a32e-7caae3eb54e4",
+                    "yugipediaId": 708232,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Cyberdark Dragon\" (UR)",
+                "cards": [
+                  {
+                    "name": "Cyberdark Dragon",
+                    "card": "e2da0622-da7a-4cf6-abb4-700ea2123285",
+                    "yugipediaId": 13029,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Super Vehicroid Jumbo Drill\" (UR)",
+                "cards": [
+                  {
+                    "name": "Super Vehicroid Jumbo Drill",
+                    "card": "3ec24d73-7fd1-485c-bdfa-f950b62080f0",
+                    "yugipediaId": 7752,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Cyber Blader\" (UR)",
+                "cards": [
+                  {
+                    "name": "Cyber Blader",
+                    "card": "a5404713-631f-460f-91d6-0c4cd3bd7f66",
+                    "yugipediaId": 5551,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Archfiend's Manifestation\" (UR)",
+                "cards": [
+                  {
+                    "name": "Archfiend's Manifestation",
+                    "card": "7b4dd035-a2b4-4b0f-9d5a-7553f1367f04",
+                    "yugipediaId": 560089,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Ojama King\" (UR)",
+                "cards": [
+                  {
+                    "name": "Ojama King",
+                    "card": "e25bb461-e40d-49f1-8d70-6fd2df5d2170",
+                    "yugipediaId": 1611,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Supreme King's Castle\" (UR)",
+                "cards": [
+                  {
+                    "name": "Supreme King's Castle",
+                    "card": "2dcef07a-a636-48fa-b4ca-cce075599b78",
+                    "yugipediaId": 628281,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Rare Value\" (UR)",
+                "cards": [
+                  {
+                    "name": "Rare Value",
+                    "card": "6ce54cbc-a07b-47a5-8fc7-45bd26745fe4",
+                    "yugipediaId": 20968,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Cyber Angel Dakini\" (SR)",
+                "cards": [
+                  {
+                    "name": "Cyber Angel Dakini",
+                    "card": "bfb78479-2df9-4348-8566-82d94b039bbc",
+                    "yugipediaId": 13398,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Annihilator Archfiend\" (SR)",
+                "cards": [
+                  {
+                    "name": "Annihilator Archfiend",
+                    "card": "403807cb-3fff-42c2-bb26-016efc97c36d",
+                    "yugipediaId": 712920,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Legendary Maju Garzett\" (SR)",
+                "cards": [
+                  {
+                    "name": "Legendary Maju Garzett",
+                    "card": "61b1e654-c3d2-4b01-bf43-8ca72869dfe5",
+                    "yugipediaId": 361883,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Armoroid\" (SR)",
+                "cards": [
+                  {
+                    "name": "Armoroid",
+                    "card": "aad48720-e479-42c3-b28d-63ea9dce500a",
+                    "yugipediaId": 505828,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Despair from the Dark\" (SR)",
+                "cards": [
+                  {
+                    "name": "Despair from the Dark",
+                    "card": "0eccf399-6d0d-4061-a2ff-cec63b5bee2d",
+                    "yugipediaId": 2246,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Arcana Force XVIII - The Moon\" (SR)",
+                "cards": [
+                  {
+                    "name": "Arcana Force XVIII - The Moon",
+                    "card": "e4d91f71-9b9c-4f52-8527-7797803a796e",
+                    "yugipediaId": 18900,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Cyber Prima\" (SR)",
+                "cards": [
+                  {
+                    "name": "Cyber Prima",
+                    "card": "3a725238-5b75-423d-9f79-d2b4ee94018f",
+                    "yugipediaId": 2867,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Destiny HERO - Dasher\" (SR)",
+                "cards": [
+                  {
+                    "name": "Destiny HERO - Dasher",
+                    "card": "f9366a03-44c5-4044-918d-10d67be9b883",
+                    "yugipediaId": 6500,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Destiny HERO - Double Dude\" (SR)",
+                "cards": [
+                  {
+                    "name": "Destiny HERO - Double Dude",
+                    "card": "53c77a2c-ab1b-4378-a0ac-d2dd2dfd793d",
+                    "yugipediaId": 6333,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Emes the Infinity\" (SR)",
+                "cards": [
+                  {
+                    "name": "Emes the Infinity",
+                    "card": "3f58a7be-00a9-4067-b2ec-ee350f084d20",
+                    "yugipediaId": 14619,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"White Night Queen\" (SR)",
+                "cards": [
+                  {
+                    "name": "White Night Queen",
+                    "card": "f01ea6a1-c9df-4056-9527-8eb6d1622921",
+                    "yugipediaId": 15202,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Arcana Force XIV - Temperance\" (SR)",
+                "cards": [
+                  {
+                    "name": "Arcana Force XIV - Temperance",
+                    "card": "764acc1d-0fe4-4428-bd97-06ed23fe3632",
+                    "yugipediaId": 19525,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Evilswarm Golem\" (SR)",
+                "cards": [
+                  {
+                    "name": "Evilswarm Golem",
+                    "card": "b5cef198-88df-403b-ae0f-ebe0b555241d",
+                    "yugipediaId": 177603,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Ancient Gear Engineer\" (SR)",
+                "cards": [
+                  {
+                    "name": "Ancient Gear Engineer",
+                    "card": "c3d7cd02-dcaa-4245-91c0-38b606ef2c6e",
+                    "yugipediaId": 21176,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Armed Dragon LV5\" (SR)",
+                "cards": [
+                  {
+                    "name": "Armed Dragon LV5",
+                    "card": "0ef7e978-0f3b-40ae-a96e-4b5b68a9a1ec",
+                    "yugipediaId": 4372,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Shell Knight\" (SR)",
+                "cards": [
+                  {
+                    "name": "Shell Knight",
+                    "card": "7fbd7058-51c2-4ad4-bcee-7a94182eb423",
+                    "yugipediaId": 708223,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Command Knight\" (SR)",
+                "cards": [
+                  {
+                    "name": "Command Knight",
+                    "card": "42fb6fee-ec4d-4a8d-91bf-c82881bf3702",
+                    "yugipediaId": 571,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Laval Magma Cannoneer\" (SR)",
+                "cards": [
+                  {
+                    "name": "Laval Magma Cannoneer",
+                    "card": "3bedcdc9-516a-4d49-812e-fb8f62ba06e0",
+                    "yugipediaId": 174437,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Volcanic Slicer\" (SR)",
+                "cards": [
+                  {
+                    "name": "Volcanic Slicer",
+                    "card": "41748eb5-bd9e-48a5-a45b-dbbb4472c464",
+                    "yugipediaId": 20910,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Lyla, Twilightsworn Enchantress\" (SR)",
+                "cards": [
+                  {
+                    "name": "Lyla, Twilightsworn Enchantress",
+                    "card": "499ee42f-1893-4305-838f-0be2e41c89f2",
+                    "yugipediaId": 480285,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Arcana Force I - The Magician\" (SR)",
+                "cards": [
+                  {
+                    "name": "Arcana Force I - The Magician",
+                    "card": "306d7957-aa96-4dca-a101-6b660fc8dba7",
+                    "yugipediaId": 19422,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Arcana Force III - The Empress\" (SR)",
+                "cards": [
+                  {
+                    "name": "Arcana Force III - The Empress",
+                    "card": "dc00043f-1928-4936-a6d1-92684b4afe10",
+                    "yugipediaId": 19529,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Evilswarm Hraesvelg\" (SR)",
+                "cards": [
+                  {
+                    "name": "Evilswarm Hraesvelg",
+                    "card": "34842281-15be-415a-b68a-b9e3047f0fad",
+                    "yugipediaId": 179956,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Black Stego\" (SR)",
+                "cards": [
+                  {
+                    "name": "Black Stego",
+                    "card": "ab13071c-d2de-448c-905d-97e512f2ad29",
+                    "yugipediaId": 15621,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Miracle Jurassic Egg\" (SR)",
+                "cards": [
+                  {
+                    "name": "Miracle Jurassic Egg",
+                    "card": "c173544a-e78e-4b2f-867d-54bb04905829",
+                    "yugipediaId": 6661,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Goblin Elite Attack Force\" (SR)",
+                "cards": [
+                  {
+                    "name": "Goblin Elite Attack Force",
+                    "card": "d12d4c93-0064-484c-8f78-5fa1fa68e11a",
+                    "yugipediaId": 263,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Des Dendle\" (SR)",
+                "cards": [
+                  {
+                    "name": "Des Dendle",
+                    "card": "ecb181c4-dd05-420c-9306-a48650812cd7",
+                    "yugipediaId": 17549,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Skilled White Magician\" (SR)",
+                "cards": [
+                  {
+                    "name": "Skilled White Magician",
+                    "card": "fdeb32b7-d2f9-4b6f-8d6c-7005852fced0",
+                    "yugipediaId": 1488,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Cyberdark Edge\" (SR)",
+                "cards": [
+                  {
+                    "name": "Cyberdark Edge",
+                    "card": "1f6ab0ec-a721-46a6-9259-09c6736ca3a7",
+                    "yugipediaId": 14777,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Cyberdark Horn\" (SR)",
+                "cards": [
+                  {
+                    "name": "Cyberdark Horn",
+                    "card": "af5e6af1-8e32-4d0e-91cb-dcbb1aa5196b",
+                    "yugipediaId": 14692,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Cyberdark Keel\" (SR)",
+                "cards": [
+                  {
+                    "name": "Cyberdark Keel",
+                    "card": "13fe77ce-5163-452b-aa32-991237a9de02",
+                    "yugipediaId": 14795,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Infernal Dragon\" (SR)",
+                "cards": [
+                  {
+                    "name": "Infernal Dragon",
+                    "card": "e38d2b7d-21c1-44c7-9871-dc5d15105484",
+                    "yugipediaId": 19402,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Jetroid\" (SR)",
+                "cards": [
+                  {
+                    "name": "Jetroid",
+                    "card": "3df0c43c-8d5c-4dd7-9fb7-16904c80d2bd",
+                    "yugipediaId": 4021,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Drillroid\" (SR)",
+                "cards": [
+                  {
+                    "name": "Drillroid",
+                    "card": "2457697d-33f3-46ac-b546-12d11671f6d1",
+                    "yugipediaId": 696,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Steamroid\" (SR)",
+                "cards": [
+                  {
+                    "name": "Steamroid",
+                    "card": "1840ead9-d13f-48f1-b02d-9aad0eeb013e",
+                    "yugipediaId": 17749,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Fossil Tusker\" (SR)",
+                "cards": [
+                  {
+                    "name": "Fossil Tusker",
+                    "card": "f8a724c6-7508-412e-84a7-7c2410ceb435",
+                    "yugipediaId": 539537,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Submarineroid\" (SR)",
+                "cards": [
+                  {
+                    "name": "Submarineroid",
+                    "card": "1aca7516-ae4c-4c3d-aa80-a3411485e24b",
+                    "yugipediaId": 14526,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Biofalcon\" (SR)",
+                "cards": [
+                  {
+                    "name": "Biofalcon",
+                    "card": "bd0d4342-546d-4417-a05a-3867a5d306dc",
+                    "yugipediaId": 127680,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Cyber Dragon Zwei\" (SR)",
+                "cards": [
+                  {
+                    "name": "Cyber Dragon Zwei",
+                    "card": "53e02674-7c3e-4ae7-aa73-38bc07fbc5d2",
+                    "yugipediaId": 108249,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Skilled Dark Magician\" (SR)",
+                "cards": [
+                  {
+                    "name": "Skilled Dark Magician",
+                    "card": "49319d03-c493-4174-a9e7-f30ae26b9277",
+                    "yugipediaId": 961,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Crystal Beast Amber Mammoth\" (SR)",
+                "cards": [
+                  {
+                    "name": "Crystal Beast Amber Mammoth",
+                    "card": "1adabed7-2616-4c4c-a3fa-16b487ad2161",
+                    "yugipediaId": 511285,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Crystal Beast Topaz Tiger\" (SR)",
+                "cards": [
+                  {
+                    "name": "Crystal Beast Topaz Tiger",
+                    "card": "e2ed6cc5-d201-492c-9bcf-e6454fceac1e",
+                    "yugipediaId": 511290,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Phantom Skyblaster\" (SR)",
+                "cards": [
+                  {
+                    "name": "Phantom Skyblaster",
+                    "card": "b3c3d9ea-4bd9-41ca-b709-2dd1117a3a3c",
+                    "yugipediaId": 509774,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Ancient Gear Knight\" (SR)",
+                "cards": [
+                  {
+                    "name": "Ancient Gear Knight",
+                    "card": "c8198941-f918-4444-bc24-1681b74ac3bb",
+                    "yugipediaId": 539785,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"D.D. Survivor\" (SR)",
+                "cards": [
+                  {
+                    "name": "D.D. Survivor",
+                    "card": "640969a2-8814-4d17-bba6-7a999ba06634",
+                    "yugipediaId": 2371,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Destiny HERO - Diamond Dude\" (SR)",
+                "cards": [
+                  {
+                    "name": "Destiny HERO - Diamond Dude",
+                    "card": "85166817-0512-4bda-a711-c7c3eb1a27ff",
+                    "yugipediaId": 11974,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Destiny HERO - Fear Monger\" (SR)",
+                "cards": [
+                  {
+                    "name": "Destiny HERO - Fear Monger",
+                    "card": "de75d055-05f3-4a4b-961c-9ac27b892aed",
+                    "yugipediaId": 11368,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Homunculus the Alchemic Being\" (SR)",
+                "cards": [
+                  {
+                    "name": "Homunculus the Alchemic Being",
+                    "card": "9abb6f76-d775-4054-ba8d-26ecf7f8046b",
+                    "yugipediaId": 12814,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Flint Cragger\" (SR)",
+                "cards": [
+                  {
+                    "name": "Flint Cragger",
+                    "card": "56233ebe-ccd0-4f35-88b4-4df45fd98ac8",
+                    "yugipediaId": 708260,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Cyberdark Cannon\" (SR)",
+                "cards": [
+                  {
+                    "name": "Cyberdark Cannon",
+                    "card": "c459e909-a968-4c3b-a738-6b92c713be8f",
+                    "yugipediaId": 497948,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Cyberdark Claw\" (SR)",
+                "cards": [
+                  {
+                    "name": "Cyberdark Claw",
+                    "card": "77f170d0-7b35-4ba9-b300-d8be0d15acae",
+                    "yugipediaId": 497949,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Gyroid\" (SR)",
+                "cards": [
+                  {
+                    "name": "Gyroid",
+                    "card": "187e7315-ffcd-4586-9d85-5293caf36d42",
+                    "yugipediaId": 17747,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Herald of Green Light\" (SR)",
+                "cards": [
+                  {
+                    "name": "Herald of Green Light",
+                    "card": "03434f0b-c0c7-4c96-8948-7d2a1c12729a",
+                    "yugipediaId": 13416,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Evoltile Najasho\" (SR)",
+                "cards": [
+                  {
+                    "name": "Evoltile Najasho",
+                    "card": "7d23203b-2fb7-4d8a-9f95-0c8bf8a0d8bb",
+                    "yugipediaId": 208346,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Ojama Blue\" (SR)",
+                "cards": [
+                  {
+                    "name": "Ojama Blue",
+                    "card": "d2a14ab8-3832-4785-af5f-2e5b50720464",
+                    "yugipediaId": 61398,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Samsara Lotus\" (SR)",
+                "cards": [
+                  {
+                    "name": "Samsara Lotus",
+                    "card": "071fb4be-15eb-49d4-b3eb-591be508a304",
+                    "yugipediaId": 74107,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Winged Kuriboh\" (SR)",
+                "cards": [
+                  {
+                    "name": "Winged Kuriboh",
+                    "card": "f486263f-0803-45ba-98e5-99420b27bb92",
+                    "yugipediaId": 1640,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Elemental HERO Core\" (SR)",
+                "cards": [
+                  {
+                    "name": "Elemental HERO Core",
+                    "card": "66f360b7-6511-42bd-b8ba-7309baa67776",
+                    "yugipediaId": 353107,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Elemental HERO Tempest\" (SR)",
+                "cards": [
+                  {
+                    "name": "Elemental HERO Tempest",
+                    "card": "b5fb8fa1-7bd5-48a8-8a8c-299add2cddd1",
+                    "yugipediaId": 1857,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Evil HERO Infernal Sniper\" (SR)",
+                "cards": [
+                  {
+                    "name": "Evil HERO Infernal Sniper",
+                    "card": "edc976c5-763a-4caa-a2a0-6d4ec205d063",
+                    "yugipediaId": 538194,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Ambulance Rescueroid\" (SR)",
+                "cards": [
+                  {
+                    "name": "Ambulance Rescueroid",
+                    "card": "dd714b2e-2620-4a2e-a2af-a2ba7fe05210",
+                    "yugipediaId": 14627,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Elemental HERO Thunder Giant\" (SR)",
+                "cards": [
+                  {
+                    "name": "Elemental HERO Thunder Giant",
+                    "card": "6bde9806-8717-41c6-9295-313d30fe380f",
+                    "yugipediaId": 1925,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Pair Cycroid\" (SR)",
+                "cards": [
+                  {
+                    "name": "Pair Cycroid",
+                    "card": "7fd2c879-e6cd-4e10-8deb-afe5a1a12bc2",
+                    "yugipediaId": 18515,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Cupid's Kiss\" (SR)",
+                "cards": [
+                  {
+                    "name": "Cupid's Kiss",
+                    "card": "d689b47f-b208-4bfb-838b-569d9e60c7ad",
+                    "yugipediaId": 696563,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Ledger of Legerdemain\" (SR)",
+                "cards": [
+                  {
+                    "name": "Ledger of Legerdemain",
+                    "card": "17b29d2a-7d18-4744-b4c9-a82c78ad93bc",
+                    "yugipediaId": 557296,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Cocoon Party\" (SR)",
+                "cards": [
+                  {
+                    "name": "Cocoon Party",
+                    "card": "33bf98cf-6372-4058-8803-b42cc71a9ccd",
+                    "yugipediaId": 22031,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Reverse of Neos\" (SR)",
+                "cards": [
+                  {
+                    "name": "Reverse of Neos",
+                    "card": "904300d6-efed-42b2-b17a-353342a8c496",
+                    "yugipediaId": 18025,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Wrath of Neos\" (SR)",
+                "cards": [
+                  {
+                    "name": "Wrath of Neos",
+                    "card": "0fb74a3b-c7bf-420f-a025-e06cd30411db",
+                    "yugipediaId": 77344,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Cyberdark Impact!\" (SR)",
+                "cards": [
+                  {
+                    "name": "Cyberdark Impact!",
+                    "card": "26778fdf-8963-429f-839c-843e3fdc2e6a",
+                    "yugipediaId": 512555,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Vehicroid Connection Zone\" (SR)",
+                "cards": [
+                  {
+                    "name": "Vehicroid Connection Zone",
+                    "card": "0a30bea2-5103-4d1e-ba20-44a29c6a9aa6",
+                    "yugipediaId": 6914,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Crystal Promise\" (SR)",
+                "cards": [
+                  {
+                    "name": "Crystal Promise",
+                    "card": "55322fdc-aed5-4e85-b8e1-4b19fe20eea9",
+                    "yugipediaId": 21369,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Cyber Repair Plant\" (SR)",
+                "cards": [
+                  {
+                    "name": "Cyber Repair Plant",
+                    "card": "3f603e83-827d-4601-9739-b788ffd9bea3",
+                    "yugipediaId": 295375,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Cybernetic Fusion Support\" (SR)",
+                "cards": [
+                  {
+                    "name": "Cybernetic Fusion Support",
+                    "card": "5c46ed99-547c-47e0-a014-4614195b4460",
+                    "yugipediaId": 22210,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Crystal Beacon\" (SR)",
+                "cards": [
+                  {
+                    "name": "Crystal Beacon",
+                    "card": "e110e5e2-ed85-49a5-93fc-b59fa7f870a9",
+                    "yugipediaId": 20990,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Ancient Gear Castle\" (SR)",
+                "cards": [
+                  {
+                    "name": "Ancient Gear Castle",
+                    "card": "e1be8654-b3d4-4902-861a-f5231911bf61",
+                    "yugipediaId": 2882,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Ancient Gear Fist\" (SR)",
+                "cards": [
+                  {
+                    "name": "Ancient Gear Fist",
+                    "card": "7ac307cb-b1c7-46fe-ab30-4321fee89d9c",
+                    "yugipediaId": 18069,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Ancient Gear Workshop\" (SR)",
+                "cards": [
+                  {
+                    "name": "Ancient Gear Workshop",
+                    "card": "ce3c0ba7-77a4-4844-989c-8c71b523b57b",
+                    "yugipediaId": 18005,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Machine Angel Absolute Ritual\" (SR)",
+                "cards": [
+                  {
+                    "name": "Machine Angel Absolute Ritual",
+                    "card": "82dd7eec-7336-4c51-8ab1-dc1f68c2448b",
+                    "yugipediaId": 429805,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Ojama Delta Hurricane!!\" (SR)",
+                "cards": [
+                  {
+                    "name": "Ojama Delta Hurricane!!",
+                    "card": "066a560f-b02f-4733-8e76-a774437fb9ee",
+                    "yugipediaId": 5496,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"The Flute of Summoning Kuriboh\" (SR)",
+                "cards": [
+                  {
+                    "name": "The Flute of Summoning Kuriboh",
+                    "card": "f90eef1b-75e6-48d5-b113-17f6c6ad9285",
+                    "yugipediaId": 5947,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Twilight Cloth\" (SR)",
+                "cards": [
+                  {
+                    "name": "Twilight Cloth",
+                    "card": "9b4e15cd-a174-4e91-ba2c-cec1fa8b345b",
+                    "yugipediaId": 492180,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Survival's End\" (SR)",
+                "cards": [
+                  {
+                    "name": "Survival's End",
+                    "card": "a333c4e3-d3b7-4bb2-a1ac-bece685bf573",
+                    "yugipediaId": 481373,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Survival of the Fittest\" (SR)",
+                "cards": [
+                  {
+                    "name": "Survival of the Fittest",
+                    "card": "85535f75-795e-4237-82dc-6c83e1a00dc7",
+                    "yugipediaId": 295568,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Volcanic Eruption\" (SR)",
+                "cards": [
+                  {
+                    "name": "Volcanic Eruption",
+                    "card": "d36d5f61-8cc8-41ed-a6b5-d29036c9ce70",
+                    "yugipediaId": 15839,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Hero Counterattack\" (SR)",
+                "cards": [
+                  {
+                    "name": "Hero Counterattack",
+                    "card": "50df4c27-58fe-4bdb-8be6-b011d4a9d287",
+                    "yugipediaId": 21923,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Inverse Universe\" (SR)",
+                "cards": [
+                  {
+                    "name": "Inverse Universe",
+                    "card": "e0b6af82-6a15-4418-9dc7-0d41a019ffe3",
+                    "yugipediaId": 109278,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Rainbow Life\" (SR)",
+                "cards": [
+                  {
+                    "name": "Rainbow Life",
+                    "card": "ec2041f1-3474-40ef-b71b-e7a6811f7310",
+                    "yugipediaId": 508740,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Cursed Seal of the Forbidden Spell\" (SR)",
+                "cards": [
+                  {
+                    "name": "Cursed Seal of the Forbidden Spell",
+                    "card": "af08ae38-69c8-42a0-a92c-c3bc81c76835",
+                    "yugipediaId": 15705,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"DNA Transplant\" (SR)",
+                "cards": [
+                  {
+                    "name": "DNA Transplant",
+                    "card": "5fef1ff4-854d-4c7b-9308-c06cb86304b1",
+                    "yugipediaId": 13804,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Destiny Signal\" (SR)",
+                "cards": [
+                  {
+                    "name": "Destiny Signal",
+                    "card": "4e9ceebc-4093-4fdb-aa88-4d293500beee",
+                    "yugipediaId": 12199,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "cardTraderEx",
+      "path": [
+        "Rewards",
+        "Card Trader EX"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "The Card Trader EX appears during this event and remained open until one week after its conclusion. The player can trade their EX Jewels for cards, Booster Items, Gold, and Skill Chips. Each card, Skill Chip and Booster Item can only be obtained once from the Card Trader EX during this event, but Gold can be obtained any number of times."
+      ]
+    },
+    {
+      "kind": "cardTraderEx",
+      "path": [
+        "Rewards",
+        "Card Trader EX"
+      ],
+      "run": "October 2026",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "EX Jewels",
+            "Item"
+          ],
+          "rows": [
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1"
+              },
+              {
+                "text": "100 Gold"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Results Booster"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 EXP Booster"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "1 Cloak"
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "10 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "10 BOX Chips"
+              }
+            ],
+            [
+              {
+                "text": "300"
+              },
+              {
+                "text": "1 \"Cyber Eternity Dragon\"",
+                "cards": [
+                  {
+                    "name": "Cyber Eternity Dragon",
+                    "card": "96522859-5c22-443a-bbb9-a84270335bc4",
+                    "yugipediaId": 560115,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Cyber Eternity Dragon\" (Glossy)",
+                "cards": [
+                  {
+                    "name": "Cyber Eternity Dragon",
+                    "card": "96522859-5c22-443a-bbb9-a84270335bc4",
+                    "yugipediaId": 560115,
+                    "quantity": 1,
+                    "variant": "Glossy"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "400"
+              },
+              {
+                "text": "1 \"Cyber Eternity Dragon\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Cyber Eternity Dragon",
+                    "card": "96522859-5c22-443a-bbb9-a84270335bc4",
+                    "yugipediaId": 560115,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "300"
+              },
+              {
+                "text": "1 \"Cyber End Dragon\"",
+                "cards": [
+                  {
+                    "name": "Cyber End Dragon",
+                    "card": "ba42c674-83a3-4e29-81b8-bdcfcb7cd2fc",
+                    "yugipediaId": 441,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Cyber Eternal\"",
+                "cards": [
+                  {
+                    "name": "Cyber Eternal",
+                    "card": "1f959ebe-6077-4625-91f2-fa8e2e6618b0",
+                    "yugipediaId": 714411,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Cybernetic Fusion Support\"",
+                "cards": [
+                  {
+                    "name": "Cybernetic Fusion Support",
+                    "card": "5c46ed99-547c-47e0-a014-4614195b4460",
+                    "yugipediaId": 22210,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Cyber Dragon Zwei\"",
+                "cards": [
+                  {
+                    "name": "Cyber Dragon Zwei",
+                    "card": "53e02674-7c3e-4ae7-aa73-38bc07fbc5d2",
+                    "yugipediaId": 108249,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Damage Polarizer\"",
+                "cards": [
+                  {
+                    "name": "Damage Polarizer",
+                    "card": "cf436319-29ce-4ee6-8074-2bdfb8103736",
+                    "yugipediaId": 22185,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Cyber Kirin\"",
+                "cards": [
+                  {
+                    "name": "Cyber Kirin",
+                    "card": "250779b3-4af2-4675-8eca-968f69f50dac",
+                    "yugipediaId": 15595,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Proto-Cyber Dragon\"",
+                "cards": [
+                  {
+                    "name": "Proto-Cyber Dragon",
+                    "card": "18506662-300b-4845-b6e5-83c11f35bef6",
+                    "yugipediaId": 1959,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Cyber Falcon\"",
+                "cards": [
+                  {
+                    "name": "Cyber Falcon",
+                    "card": "a4631a43-d1e1-4752-9a75-35437d5291df",
+                    "yugipediaId": 5836,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Kaiser Dragon\"",
+                "cards": [
+                  {
+                    "name": "Kaiser Dragon",
+                    "card": "91bb5728-1c05-462a-bc35-f2e2b550157f",
+                    "yugipediaId": 8328,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Rewards",
+        "Event Missions"
+      ],
+      "run": "October 2026",
+      "runIndex": 0,
+      "notes": [
+        "The following missions were added on October 17, 2026.",
+        "The following mission was added on October 19, 2026."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Defeat the Raid Boss 1 time(s)."
+              },
+              {
+                "text": "1 EX Draw and Summon"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 10 time(s)."
+              },
+              {
+                "text": "10 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 15 time(s)."
+              },
+              {
+                "text": "20 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 20 time(s)."
+              },
+              {
+                "text": "30 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 25 time(s)."
+              },
+              {
+                "text": "40 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 30 time(s)."
+              },
+              {
+                "text": "50 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 35 time(s)."
+              },
+              {
+                "text": "60 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Raid Boss 40 time(s)."
+              },
+              {
+                "text": "70 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Play 10 Assist(s) in Raid Duel (surrenders are not counted)."
+              },
+              {
+                "text": "30 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Play 25 Assist(s) in Raid Duel (surrenders are not counted)."
+              },
+              {
+                "text": "40 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Play 50 Assist(s) in Raid Duel (surrenders are not counted)."
+              },
+              {
+                "text": "50 EX Jewels"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Defeat Raid Boss at Lvl. 2000 or above"
+              },
+              {
+                "text": "Card Sleeves: Truesdale Brothers"
+              }
+            ],
+            [
+              {
+                "text": "Inflict 30000 or more points of damage in one Duel against Raid Boss at Lvl. 2000 or above."
+              },
+              {
+                "text": "Game Mat: Truesdale Brothers"
+              }
+            ],
+            [
+              {
+                "text": "Defeat the Lvl. 2000 or above Raid Boss 3 time(s)."
+              },
+              {
+                "text": "50 Chronicle Chips"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "WIn by reducing your opponent's LP to 0 by inflicting effect or battle damage with \"Elemental HERO Flame Wingman.\"",
+                "cards": [
+                  {
+                    "name": "Elemental HERO Flame Wingman",
+                    "card": "96beb37e-70b8-4b0e-83c7-6efb1026ba17",
+                    "yugipediaId": 1748
+                  }
+                ]
+              },
+              {
+                "text": "Icon: Truesdale Brothers"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "dailyMissions",
+      "path": [
+        "Rewards",
+        "Event Missions",
+        "Daily Missions"
+      ],
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Play 1 Duel(s) in Ranked Duels (surrenders are not counted)."
+              },
+              {
+                "text": "20 Duel Permission Slips"
+              }
+            ],
+            [
+              {
+                "text": "Play 2 Duel(s) in Ranked Duels (surrenders are not counted)."
+              },
+              {
+                "text": "20 Duel Permission Slips"
+              }
+            ],
+            [
+              {
+                "text": "Play 3 Duel(s) in Ranked Duels (surrenders are not counted)."
+              },
+              {
+                "text": "1 Duel Disk"
+              }
+            ],
+            [
+              {
+                "text": "Use \"Zane Truesdale (Obelisk Blue)\" to duel 1 times in PvP (surrenders are not counted)."
+              },
+              {
+                "text": "30 EX Jewels"
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "decks": [
+    {
+      "path": [
+        "Decks",
+        "Zane Truesdale (Obelisk Blue)",
+        "Level 100-200"
+      ],
+      "name": "I\u2019ll Prove My Strength!",
+      "owner": "Zane Truesdale",
+      "cards": [
+        {
+          "name": "Bat",
+          "card": "02a1df70-b688-4dbe-9595-672796188514",
+          "yugipediaId": 7540,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Cyber Dragon Herz",
+          "card": "a93a7814-3540-42e3-9c57-c3b30b5de4c9",
+          "yugipediaId": 556363,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cyber Dragon Nachster",
+          "card": "26098290-2911-4617-b0b9-b03ad3ef6771",
+          "yugipediaId": 563965,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cyber Kirin",
+          "card": "250779b3-4af2-4675-8eca-968f69f50dac",
+          "yugipediaId": 15595,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cyber Ouroboros",
+          "card": "f73f6865-01b8-4cd4-b626-7ddc51507344",
+          "yugipediaId": 508992,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "DUCKER Mobile Cannon",
+          "card": "bf35a329-ffb9-4d41-86c6-7fdec3fbd939",
+          "yugipediaId": 80516,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Oilman",
+          "card": "16eb6e04-113c-4aad-827c-d2f757e3403b",
+          "yugipediaId": 108465,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Air Cracking Storm",
+          "card": "66eff590-3398-4542-b3c5-1cdc3d028ae2",
+          "yugipediaId": 492316,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Different Dimension Capsule",
+          "card": "4573972d-bbdf-4729-92c3-394f880617d0",
+          "yugipediaId": 15592,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Magnet Circle LV2",
+          "card": "bfc4888d-fcfd-47bf-b5c5-2f3bf82c49b2",
+          "yugipediaId": 16149,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Damage Polarizer",
+          "card": "cf436319-29ce-4ee6-8074-2bdfb8103736",
+          "yugipediaId": 22185,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Return Soul",
+          "card": "27311985-61f5-4751-a85c-6efdb2cb4bfc",
+          "yugipediaId": 22176,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Zane Truesdale (Obelisk Blue)",
+        "Level 300-400"
+      ],
+      "name": "Show Your Deck\u2019s Power",
+      "owner": "Zane Truesdale",
+      "cards": [
+        {
+          "name": "Holograh",
+          "card": "7e717d8c-7c88-4049-a718-fe0cd33b61b2",
+          "yugipediaId": 5793,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Cyber Dragon Herz",
+          "card": "a93a7814-3540-42e3-9c57-c3b30b5de4c9",
+          "yugipediaId": 556363,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cyber Dragon Nachster",
+          "card": "26098290-2911-4617-b0b9-b03ad3ef6771",
+          "yugipediaId": 563965,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cyber Kirin",
+          "card": "250779b3-4af2-4675-8eca-968f69f50dac",
+          "yugipediaId": 15595,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cyber Ouroboros",
+          "card": "f73f6865-01b8-4cd4-b626-7ddc51507344",
+          "yugipediaId": 508992,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Heavy Mech Support Armor",
+          "card": "d771186d-10d8-4c41-a264-6d1e0d5c8e66",
+          "yugipediaId": 472309,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Oilman",
+          "card": "16eb6e04-113c-4aad-827c-d2f757e3403b",
+          "yugipediaId": 108465,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Proto-Cyber Dragon",
+          "card": "18506662-300b-4845-b6e5-83c11f35bef6",
+          "yugipediaId": 1959,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Searchlightman",
+          "card": "9151323a-4be1-4418-9f87-cba0d320816f",
+          "yugipediaId": 16476,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cyber Revsystem",
+          "card": "f94db5fd-caed-416d-9648-952728f877dc",
+          "yugipediaId": 556813,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Different Dimension Capsule",
+          "card": "4573972d-bbdf-4729-92c3-394f880617d0",
+          "yugipediaId": 15592,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Magic Reflector",
+          "card": "14dfd95d-54ad-47b1-9c54-b5ad1230bb84",
+          "yugipediaId": 10399,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Damage Polarizer",
+          "card": "cf436319-29ce-4ee6-8074-2bdfb8103736",
+          "yugipediaId": 22185,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Return Soul",
+          "card": "27311985-61f5-4751-a85c-6efdb2cb4bfc",
+          "yugipediaId": 22176,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Zane Truesdale (Obelisk Blue)",
+        "Level 500-600"
+      ],
+      "name": "Let\u2019s Give It Our All!",
+      "owner": "Zane Truesdale",
+      "cards": [
+        {
+          "name": "Cyber Soldier of Darkworld",
+          "card": "f1348a22-3743-4deb-89d3-f8312d29fee5",
+          "yugipediaId": 9094,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Disk Magician",
+          "card": "170b027f-2f5d-477a-9018-06c8d4ed6084",
+          "yugipediaId": 4933,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Cyber Dragon",
+          "card": "f021f76f-cf78-461c-81da-762fad9c8469",
+          "yugipediaId": 146094,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cyber Dragon Herz",
+          "card": "a93a7814-3540-42e3-9c57-c3b30b5de4c9",
+          "yugipediaId": 556363,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cyber Dragon Nachster",
+          "card": "26098290-2911-4617-b0b9-b03ad3ef6771",
+          "yugipediaId": 563965,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cyber Ouroboros",
+          "card": "f73f6865-01b8-4cd4-b626-7ddc51507344",
+          "yugipediaId": 508992,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cyber Phoenix",
+          "card": "6bef2298-34a0-41e8-9ffe-1a2aff900c36",
+          "yugipediaId": 13577,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Heavy Mech Support Armor",
+          "card": "d771186d-10d8-4c41-a264-6d1e0d5c8e66",
+          "yugipediaId": 472309,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Kaiser Glider",
+          "card": "0bedef11-3b5e-46bb-95ba-5b6640c3c576",
+          "yugipediaId": 7306,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Proto-Cyber Dragon",
+          "card": "18506662-300b-4845-b6e5-83c11f35bef6",
+          "yugipediaId": 1959,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cyber Twin Dragon",
+          "card": "f435e83f-e11f-4c1c-a08e-e8da835f1c1a",
+          "yugipediaId": 342,
+          "count": 1,
+          "category": "fusion monsters"
+        },
+        {
+          "name": "Cyber Revsystem",
+          "card": "f94db5fd-caed-416d-9648-952728f877dc",
+          "yugipediaId": 556813,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Machine Conversion Factory",
+          "card": "897770ef-563c-43db-a972-86725e135d81",
+          "yugipediaId": 506464,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Polymerization",
+          "card": "54f38f67-5d19-4625-9a9a-e1445574d5bf",
+          "yugipediaId": 35,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Cyber Network",
+          "card": "b1264a25-2500-4d16-b61c-9413788a5c74",
+          "yugipediaId": 293914,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Cyber Summon Blaster",
+          "card": "9b88ebbb-3f05-4023-9d9b-6b8069e2f0e8",
+          "yugipediaId": 13587,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Return Soul",
+          "card": "27311985-61f5-4751-a85c-6efdb2cb4bfc",
+          "yugipediaId": 22176,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Zane Truesdale (Obelisk Blue)",
+        "Level 700-800"
+      ],
+      "name": "I Respect Your Skills!",
+      "owner": "Zane Truesdale",
+      "cards": [
+        {
+          "name": "Cyber Dragon",
+          "card": "f021f76f-cf78-461c-81da-762fad9c8469",
+          "yugipediaId": 146094,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cyber Dragon Core",
+          "card": "047615f1-2be8-46dd-b59e-e365e7d897ce",
+          "yugipediaId": 293800,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cyber Dragon Drei",
+          "card": "55f68270-c983-4b82-a78d-e867edd99521",
+          "yugipediaId": 293709,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cyber Dragon Herz",
+          "card": "a93a7814-3540-42e3-9c57-c3b30b5de4c9",
+          "yugipediaId": 556363,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cyber Dragon Nachster",
+          "card": "26098290-2911-4617-b0b9-b03ad3ef6771",
+          "yugipediaId": 563965,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cyber Dragon Vier",
+          "card": "2a6290af-de8d-4996-a208-b72e641ddcc7",
+          "yugipediaId": 556535,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cyber Dragon Zwei",
+          "card": "53e02674-7c3e-4ae7-aa73-38bc07fbc5d2",
+          "yugipediaId": 108249,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cyber Laser Dragon",
+          "card": "1e4c5b50-9cc8-437d-a146-5fb552a0d843",
+          "yugipediaId": 1882,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cyber End Dragon",
+          "card": "ba42c674-83a3-4e29-81b8-bdcfcb7cd2fc",
+          "yugipediaId": 441,
+          "count": 1,
+          "category": "fusion monsters"
+        },
+        {
+          "name": "Cyber Twin Dragon",
+          "card": "f435e83f-e11f-4c1c-a08e-e8da835f1c1a",
+          "yugipediaId": 342,
+          "count": 1,
+          "category": "fusion monsters"
+        },
+        {
+          "name": "Cyber Emergency",
+          "card": "d113e5d3-dd58-40cf-9f35-2603f4bee5f2",
+          "yugipediaId": 559745,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Cyber Repair Plant",
+          "card": "3f603e83-827d-4601-9739-b788ffd9bea3",
+          "yugipediaId": 295375,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Cyber Revsystem",
+          "card": "f94db5fd-caed-416d-9648-952728f877dc",
+          "yugipediaId": 556813,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Photon Generator Unit",
+          "card": "325ca455-07bf-402e-9bd8-a6b8a0550b7d",
+          "yugipediaId": 2381,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Polymerization",
+          "card": "54f38f67-5d19-4625-9a9a-e1445574d5bf",
+          "yugipediaId": 35,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Cyber Network",
+          "card": "b1264a25-2500-4d16-b61c-9413788a5c74",
+          "yugipediaId": 293914,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Zane Truesdale (Obelisk Blue)",
+        "Level 900-1000"
+      ],
+      "name": "You\u2019re Finished!",
+      "owner": "Zane Truesdale",
+      "cards": [
+        {
+          "name": "Armored Cybern",
+          "card": "7b3448f6-2370-403f-8321-e3bd76b32409",
+          "yugipediaId": 540468,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cyber Dragon",
+          "card": "f021f76f-cf78-461c-81da-762fad9c8469",
+          "yugipediaId": 146094,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cyber Dragon Core",
+          "card": "047615f1-2be8-46dd-b59e-e365e7d897ce",
+          "yugipediaId": 293800,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cyber Dragon Drei",
+          "card": "55f68270-c983-4b82-a78d-e867edd99521",
+          "yugipediaId": 293709,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cyber Dragon Herz",
+          "card": "a93a7814-3540-42e3-9c57-c3b30b5de4c9",
+          "yugipediaId": 556363,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cyber Dragon Nachster",
+          "card": "26098290-2911-4617-b0b9-b03ad3ef6771",
+          "yugipediaId": 563965,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cyber Dragon Vier",
+          "card": "2a6290af-de8d-4996-a208-b72e641ddcc7",
+          "yugipediaId": 556535,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cyber Dragon Zwei",
+          "card": "53e02674-7c3e-4ae7-aa73-38bc07fbc5d2",
+          "yugipediaId": 108249,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Chimeratech Overdragon",
+          "card": "954f71f3-105b-463d-9c8a-24ffbaf9b801",
+          "yugipediaId": 6855,
+          "count": 1,
+          "category": "fusion monsters"
+        },
+        {
+          "name": "Cyber End Dragon",
+          "card": "ba42c674-83a3-4e29-81b8-bdcfcb7cd2fc",
+          "yugipediaId": 441,
+          "count": 1,
+          "category": "fusion monsters"
+        },
+        {
+          "name": "Cyber Twin Dragon",
+          "card": "f435e83f-e11f-4c1c-a08e-e8da835f1c1a",
+          "yugipediaId": 342,
+          "count": 1,
+          "category": "fusion monsters"
+        },
+        {
+          "name": "Cyber Emergency",
+          "card": "d113e5d3-dd58-40cf-9f35-2603f4bee5f2",
+          "yugipediaId": 559745,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Cyber Revsystem",
+          "card": "f94db5fd-caed-416d-9648-952728f877dc",
+          "yugipediaId": 556813,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Cybernetic Zone",
+          "card": "be035b3a-1041-402e-852f-4b17cb14b50c",
+          "yugipediaId": 508688,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Future Fusion",
+          "card": "f6486acb-c1e6-4f0a-80d9-a9e94df2af95",
+          "yugipediaId": 6933,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Polymerization",
+          "card": "54f38f67-5d19-4625-9a9a-e1445574d5bf",
+          "yugipediaId": 35,
+          "count": 2,
+          "category": "spells"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Zane Truesdale (Obelisk Blue)",
+        "Level 2000 and higher"
+      ],
+      "name": "Witness My Perfection!",
+      "owner": "Zane Truesdale",
+      "cards": [
+        {
+          "name": "Armored Cybern",
+          "card": "7b3448f6-2370-403f-8321-e3bd76b32409",
+          "yugipediaId": 540468,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cyber Dragon",
+          "card": "f021f76f-cf78-461c-81da-762fad9c8469",
+          "yugipediaId": 146094,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cyber Dragon Drei",
+          "card": "55f68270-c983-4b82-a78d-e867edd99521",
+          "yugipediaId": 293709,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cyber Dragon Herz",
+          "card": "a93a7814-3540-42e3-9c57-c3b30b5de4c9",
+          "yugipediaId": 556363,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cyber Dragon Nachster",
+          "card": "26098290-2911-4617-b0b9-b03ad3ef6771",
+          "yugipediaId": 563965,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cyber Dragon Vier",
+          "card": "2a6290af-de8d-4996-a208-b72e641ddcc7",
+          "yugipediaId": 556535,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cyber Dragon Zwei",
+          "card": "53e02674-7c3e-4ae7-aa73-38bc07fbc5d2",
+          "yugipediaId": 108249,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cyber Jormungardr",
+          "card": "d4ee3cfe-75bf-4b55-af5c-f309e0507315",
+          "yugipediaId": 1104072,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Chimeratech Fortress Dragon",
+          "card": "2ef70c5d-aea6-47ea-b65d-a5fc803a1f25",
+          "yugipediaId": 540027,
+          "count": 1,
+          "category": "fusion monsters"
+        },
+        {
+          "name": "Chimeratech Overdragon",
+          "card": "954f71f3-105b-463d-9c8a-24ffbaf9b801",
+          "yugipediaId": 6855,
+          "count": 1,
+          "category": "fusion monsters"
+        },
+        {
+          "name": "Cyber End Dragon",
+          "card": "ba42c674-83a3-4e29-81b8-bdcfcb7cd2fc",
+          "yugipediaId": 441,
+          "count": 1,
+          "category": "fusion monsters"
+        },
+        {
+          "name": "Cyber Twin Dragon",
+          "card": "f435e83f-e11f-4c1c-a08e-e8da835f1c1a",
+          "yugipediaId": 342,
+          "count": 1,
+          "category": "fusion monsters"
+        },
+        {
+          "name": "Cyber Emergency",
+          "card": "d113e5d3-dd58-40cf-9f35-2603f4bee5f2",
+          "yugipediaId": 559745,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Cyberload Fusion",
+          "card": "2fe8ac7a-6635-455d-860b-3ee56e51bf11",
+          "yugipediaId": 560117,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Cybernetic Fusion Support",
+          "card": "5c46ed99-547c-47e0-a014-4614195b4460",
+          "yugipediaId": 22210,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Cyber Revsystem",
+          "card": "f94db5fd-caed-416d-9648-952728f877dc",
+          "yugipediaId": 556813,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Evolution Burst",
+          "card": "53747efa-91a6-4998-aecf-bed73aae91c8",
+          "yugipediaId": 77539,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Overload Fusion",
+          "card": "a522877e-2840-4537-91fa-3d40fc1aab08",
+          "yugipediaId": 8073,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Polymerization",
+          "card": "54f38f67-5d19-4625-9a9a-e1445574d5bf",
+          "yugipediaId": 35,
+          "count": 1,
+          "category": "spells"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Cyber Dragon Zwei",
+      "card": "53e02674-7c3e-4ae7-aa73-38bc07fbc5d2",
+      "yugipediaId": 108249,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "October 2026",
+          "runIndex": 0,
+          "requirement": "800000"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "October 2026",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "October 2026",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "SR"
+        },
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "October 2026",
+          "runIndex": 0,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Cyber End Dragon",
+      "card": "ba42c674-83a3-4e29-81b8-bdcfcb7cd2fc",
+      "yugipediaId": 441,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "October 2026",
+          "runIndex": 0,
+          "requirement": "1700000"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "October 2026",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "UR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "October 2026",
+          "runIndex": 0,
+          "requirement": "300"
+        }
+      ]
+    },
+    {
+      "name": "Cyber Eternal",
+      "card": "1f959ebe-6077-4625-91f2-fa8e2e6618b0",
+      "yugipediaId": 714411,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "October 2026",
+          "runIndex": 0,
+          "requirement": "4700000"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "October 2026",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "October 2026",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "SR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "October 2026",
+          "runIndex": 0,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Cyber Eternity Dragon",
+      "card": "96522859-5c22-443a-bbb9-a84270335bc4",
+      "yugipediaId": 560115,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "October 2026",
+          "runIndex": 0,
+          "requirement": "11000000"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "October 2026",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "UR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "October 2026",
+          "runIndex": 0,
+          "requirement": "300"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "October 2026",
+          "runIndex": 0,
+          "requirement": "100"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "October 2026",
+          "runIndex": 0,
+          "requirement": "400"
+        }
+      ]
+    },
+    {
+      "name": "Cybernetic Fusion Support",
+      "card": "5c46ed99-547c-47e0-a014-4614195b4460",
+      "yugipediaId": 22210,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "October 2026",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "October 2026",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "SR"
+        },
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "October 2026",
+          "runIndex": 0,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Damage Polarizer",
+      "card": "cf436319-29ce-4ee6-8074-2bdfb8103736",
+      "yugipediaId": 22185,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "October 2026",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "R"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "October 2026",
+          "runIndex": 0,
+          "requirement": "Silver",
+          "rarity": "R"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "October 2026",
+          "runIndex": 0,
+          "requirement": "30"
+        }
+      ]
+    },
+    {
+      "name": "Cyber Kirin",
+      "card": "250779b3-4af2-4675-8eca-968f69f50dac",
+      "yugipediaId": 15595,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "October 2026",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "R"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "October 2026",
+          "runIndex": 0,
+          "requirement": "Silver",
+          "rarity": "R"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "October 2026",
+          "runIndex": 0,
+          "requirement": "30"
+        }
+      ]
+    },
+    {
+      "name": "Proto-Cyber Dragon",
+      "card": "18506662-300b-4845-b6e5-83c11f35bef6",
+      "yugipediaId": 1959,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "October 2026",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "R"
+        },
+        {
+          "kind": "treasureBoxes",
+          "run": "October 2026",
+          "runIndex": 0,
+          "requirement": "Silver",
+          "rarity": "R"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "October 2026",
+          "runIndex": 0,
+          "requirement": "30"
+        }
+      ]
+    },
+    {
+      "name": "Cyber Falcon",
+      "card": "a4631a43-d1e1-4752-9a75-35437d5291df",
+      "yugipediaId": 5836,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "October 2026",
+          "runIndex": 0,
+          "requirement": "Silver",
+          "rarity": "N"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "October 2026",
+          "runIndex": 0,
+          "requirement": "10"
+        }
+      ]
+    },
+    {
+      "name": "Kaiser Dragon",
+      "card": "91bb5728-1c05-462a-bc35-f2e2b550157f",
+      "yugipediaId": 8328,
+      "obtainedVia": [
+        {
+          "kind": "treasureBoxes",
+          "run": "October 2026",
+          "runIndex": 0,
+          "requirement": "Silver",
+          "rarity": "N"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "October 2026",
+          "runIndex": 0,
+          "requirement": "10"
+        }
+      ]
+    },
+    {
+      "name": "Yubel - The Ultimate Nightmare",
+      "card": "0c6f2225-9906-4693-b192-43f3f1c080bd",
+      "yugipediaId": 69183,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Yubel - Terror Incarnate",
+      "card": "f467b4eb-5872-41da-9089-150e7fea96d1",
+      "yugipediaId": 73753,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Neos Wiseman",
+      "card": "d62d54a5-c5ea-4e31-b39c-cd6b359ebd15",
+      "yugipediaId": 86391,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Arcana Force EX - The Light Ruler",
+      "card": "76d49051-842a-4af3-9973-f830725370c3",
+      "yugipediaId": 19554,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Yubel",
+      "card": "178d35a8-85e2-497b-8808-41d8ec73bd46",
+      "yugipediaId": 511211,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Rainbow Dragon",
+      "card": "ab6ee7b4-e8f6-4dce-8ffd-b53221a592b3",
+      "yugipediaId": 510535,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Dark Alligator",
+      "card": "34ea1f35-75f6-4468-bdbf-a6b082d26320",
+      "yugipediaId": 707977,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Prometeor, the Burning Star",
+      "card": "0a1bcff9-bf75-4743-ba98-c4cd2435159e",
+      "yugipediaId": 644761,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "The Blazing Mars",
+      "card": "286d5e2b-682d-4675-ac0c-6cfdf2b6ce22",
+      "yugipediaId": 450146,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Ultimate Tyranno",
+      "card": "9d8b6032-7774-4707-ac79-0774f82740a0",
+      "yugipediaId": 6611,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Ancient Gear Golem",
+      "card": "fae1ecc6-a974-48d1-82cc-1a632879b43f",
+      "yugipediaId": 2956,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Water Dragon",
+      "card": "0a9a6dac-0f00-4aa6-98d1-515c61f14536",
+      "yugipediaId": 11623,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Arcana Force XII - The Hangman",
+      "card": "70fa4178-e622-48e6-9067-62a7f9574cd4",
+      "yugipediaId": 1185661,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Stegocyber",
+      "card": "147e62c3-2c66-4a55-a6a0-37def886de3a",
+      "yugipediaId": 324020,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Goldd, Wu-Lord of Dark World",
+      "card": "f1ee8158-a4ac-423d-8d71-dac41249684e",
+      "yugipediaId": 5023,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Inferno",
+      "card": "e4fd7dec-683c-4ce8-9819-97018ddaed8b",
+      "yugipediaId": 17157,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Familiar-Possessed - Lyna",
+      "card": "d99fd567-e1c6-4f4b-aee1-ac71056517ef",
+      "yugipediaId": 480387,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Evolsaur Diplo",
+      "card": "e7e32a73-20ef-4fb8-8de9-3f1d288a6342",
+      "yugipediaId": 174461,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Duke Shade, the Sinister Shadow Lord",
+      "card": "62d54b4d-7719-4ded-9a81-97abfed3c9ec",
+      "yugipediaId": 554287,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Giant Rex",
+      "card": "c0d791e8-7efd-47b2-8662-fbb6654a0b36",
+      "yugipediaId": 494132,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Crystal Beast Sapphire Pegasus",
+      "card": "c7bb63ee-b4e1-4fb4-8884-dc898a15445b",
+      "yugipediaId": 511289,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Expressroid",
+      "card": "0b51d49c-1857-41f1-b55d-73981ecdc71f",
+      "yugipediaId": 13733,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Lumina, Twilightsworn Shaman",
+      "card": "cc8d320c-98b8-4689-97c3-415ad60658ae",
+      "yugipediaId": 480287,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Evil HERO Infernal Prodigy",
+      "card": "224ae5d4-91fd-47a4-9c5d-c21d0144d257",
+      "yugipediaId": 538634,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Maiden in Love",
+      "card": "aedbe786-c466-480a-855b-039d23d2515f",
+      "yugipediaId": 1123217,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Grave Squirmer",
+      "card": "ab3f1503-f525-4135-aa22-e6366fa7a09e",
+      "yugipediaId": 510959,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Elemental HERO Neos",
+      "card": "846f587c-3c3c-420a-9d7c-a4f4d7454fd0",
+      "yugipediaId": 8803,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Elemental HERO Divine Neos",
+      "card": "9af6928d-f6d9-44f1-bfba-6167961b907d",
+      "yugipediaId": 46287,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Cyberdarkness Dragon",
+      "card": "0f1f367e-47c1-43bd-a700-be489e7d185f",
+      "yugipediaId": 496103,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Elemental HERO Electrum",
+      "card": "7b52a801-c0bf-4a5e-b9f2-033aa4aebc74",
+      "yugipediaId": 5916,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Ultimate Ancient Gear Golem",
+      "card": "4f6d0b2f-65fd-49db-a45c-a9dc08a89a9c",
+      "yugipediaId": 86143,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Chimeratech Overdragon",
+      "card": "954f71f3-105b-463d-9c8a-24ffbaf9b801",
+      "yugipediaId": 6855,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Fossil Machine Skull Convoy",
+      "card": "b8e25d1f-0acd-49dc-a32e-7caae3eb54e4",
+      "yugipediaId": 708232,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Cyberdark Dragon",
+      "card": "e2da0622-da7a-4cf6-abb4-700ea2123285",
+      "yugipediaId": 13029,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Super Vehicroid Jumbo Drill",
+      "card": "3ec24d73-7fd1-485c-bdfa-f950b62080f0",
+      "yugipediaId": 7752,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Cyber Blader",
+      "card": "a5404713-631f-460f-91d6-0c4cd3bd7f66",
+      "yugipediaId": 5551,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Archfiend's Manifestation",
+      "card": "7b4dd035-a2b4-4b0f-9d5a-7553f1367f04",
+      "yugipediaId": 560089,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Ojama King",
+      "card": "e25bb461-e40d-49f1-8d70-6fd2df5d2170",
+      "yugipediaId": 1611,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Supreme King's Castle",
+      "card": "2dcef07a-a636-48fa-b4ca-cce075599b78",
+      "yugipediaId": 628281,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Rare Value",
+      "card": "6ce54cbc-a07b-47a5-8fc7-45bd26745fe4",
+      "yugipediaId": 20968,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Cyber Angel Dakini",
+      "card": "bfb78479-2df9-4348-8566-82d94b039bbc",
+      "yugipediaId": 13398,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Annihilator Archfiend",
+      "card": "403807cb-3fff-42c2-bb26-016efc97c36d",
+      "yugipediaId": 712920,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Legendary Maju Garzett",
+      "card": "61b1e654-c3d2-4b01-bf43-8ca72869dfe5",
+      "yugipediaId": 361883,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Armoroid",
+      "card": "aad48720-e479-42c3-b28d-63ea9dce500a",
+      "yugipediaId": 505828,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Despair from the Dark",
+      "card": "0eccf399-6d0d-4061-a2ff-cec63b5bee2d",
+      "yugipediaId": 2246,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Arcana Force XVIII - The Moon",
+      "card": "e4d91f71-9b9c-4f52-8527-7797803a796e",
+      "yugipediaId": 18900,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Cyber Prima",
+      "card": "3a725238-5b75-423d-9f79-d2b4ee94018f",
+      "yugipediaId": 2867,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Destiny HERO - Dasher",
+      "card": "f9366a03-44c5-4044-918d-10d67be9b883",
+      "yugipediaId": 6500,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Destiny HERO - Double Dude",
+      "card": "53c77a2c-ab1b-4378-a0ac-d2dd2dfd793d",
+      "yugipediaId": 6333,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Emes the Infinity",
+      "card": "3f58a7be-00a9-4067-b2ec-ee350f084d20",
+      "yugipediaId": 14619,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "White Night Queen",
+      "card": "f01ea6a1-c9df-4056-9527-8eb6d1622921",
+      "yugipediaId": 15202,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Arcana Force XIV - Temperance",
+      "card": "764acc1d-0fe4-4428-bd97-06ed23fe3632",
+      "yugipediaId": 19525,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Evilswarm Golem",
+      "card": "b5cef198-88df-403b-ae0f-ebe0b555241d",
+      "yugipediaId": 177603,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Ancient Gear Engineer",
+      "card": "c3d7cd02-dcaa-4245-91c0-38b606ef2c6e",
+      "yugipediaId": 21176,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Armed Dragon LV5",
+      "card": "0ef7e978-0f3b-40ae-a96e-4b5b68a9a1ec",
+      "yugipediaId": 4372,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Shell Knight",
+      "card": "7fbd7058-51c2-4ad4-bcee-7a94182eb423",
+      "yugipediaId": 708223,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Command Knight",
+      "card": "42fb6fee-ec4d-4a8d-91bf-c82881bf3702",
+      "yugipediaId": 571,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Laval Magma Cannoneer",
+      "card": "3bedcdc9-516a-4d49-812e-fb8f62ba06e0",
+      "yugipediaId": 174437,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Volcanic Slicer",
+      "card": "41748eb5-bd9e-48a5-a45b-dbbb4472c464",
+      "yugipediaId": 20910,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Lyla, Twilightsworn Enchantress",
+      "card": "499ee42f-1893-4305-838f-0be2e41c89f2",
+      "yugipediaId": 480285,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Arcana Force I - The Magician",
+      "card": "306d7957-aa96-4dca-a101-6b660fc8dba7",
+      "yugipediaId": 19422,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Arcana Force III - The Empress",
+      "card": "dc00043f-1928-4936-a6d1-92684b4afe10",
+      "yugipediaId": 19529,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Evilswarm Hraesvelg",
+      "card": "34842281-15be-415a-b68a-b9e3047f0fad",
+      "yugipediaId": 179956,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Black Stego",
+      "card": "ab13071c-d2de-448c-905d-97e512f2ad29",
+      "yugipediaId": 15621,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Miracle Jurassic Egg",
+      "card": "c173544a-e78e-4b2f-867d-54bb04905829",
+      "yugipediaId": 6661,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Goblin Elite Attack Force",
+      "card": "d12d4c93-0064-484c-8f78-5fa1fa68e11a",
+      "yugipediaId": 263,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Des Dendle",
+      "card": "ecb181c4-dd05-420c-9306-a48650812cd7",
+      "yugipediaId": 17549,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Skilled White Magician",
+      "card": "fdeb32b7-d2f9-4b6f-8d6c-7005852fced0",
+      "yugipediaId": 1488,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Cyberdark Edge",
+      "card": "1f6ab0ec-a721-46a6-9259-09c6736ca3a7",
+      "yugipediaId": 14777,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Cyberdark Horn",
+      "card": "af5e6af1-8e32-4d0e-91cb-dcbb1aa5196b",
+      "yugipediaId": 14692,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Cyberdark Keel",
+      "card": "13fe77ce-5163-452b-aa32-991237a9de02",
+      "yugipediaId": 14795,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Infernal Dragon",
+      "card": "e38d2b7d-21c1-44c7-9871-dc5d15105484",
+      "yugipediaId": 19402,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Jetroid",
+      "card": "3df0c43c-8d5c-4dd7-9fb7-16904c80d2bd",
+      "yugipediaId": 4021,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Drillroid",
+      "card": "2457697d-33f3-46ac-b546-12d11671f6d1",
+      "yugipediaId": 696,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Steamroid",
+      "card": "1840ead9-d13f-48f1-b02d-9aad0eeb013e",
+      "yugipediaId": 17749,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Fossil Tusker",
+      "card": "f8a724c6-7508-412e-84a7-7c2410ceb435",
+      "yugipediaId": 539537,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Submarineroid",
+      "card": "1aca7516-ae4c-4c3d-aa80-a3411485e24b",
+      "yugipediaId": 14526,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Biofalcon",
+      "card": "bd0d4342-546d-4417-a05a-3867a5d306dc",
+      "yugipediaId": 127680,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Skilled Dark Magician",
+      "card": "49319d03-c493-4174-a9e7-f30ae26b9277",
+      "yugipediaId": 961,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Crystal Beast Amber Mammoth",
+      "card": "1adabed7-2616-4c4c-a3fa-16b487ad2161",
+      "yugipediaId": 511285,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Crystal Beast Topaz Tiger",
+      "card": "e2ed6cc5-d201-492c-9bcf-e6454fceac1e",
+      "yugipediaId": 511290,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Phantom Skyblaster",
+      "card": "b3c3d9ea-4bd9-41ca-b709-2dd1117a3a3c",
+      "yugipediaId": 509774,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Ancient Gear Knight",
+      "card": "c8198941-f918-4444-bc24-1681b74ac3bb",
+      "yugipediaId": 539785,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "D.D. Survivor",
+      "card": "640969a2-8814-4d17-bba6-7a999ba06634",
+      "yugipediaId": 2371,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Destiny HERO - Diamond Dude",
+      "card": "85166817-0512-4bda-a711-c7c3eb1a27ff",
+      "yugipediaId": 11974,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Destiny HERO - Fear Monger",
+      "card": "de75d055-05f3-4a4b-961c-9ac27b892aed",
+      "yugipediaId": 11368,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Homunculus the Alchemic Being",
+      "card": "9abb6f76-d775-4054-ba8d-26ecf7f8046b",
+      "yugipediaId": 12814,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Flint Cragger",
+      "card": "56233ebe-ccd0-4f35-88b4-4df45fd98ac8",
+      "yugipediaId": 708260,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Cyberdark Cannon",
+      "card": "c459e909-a968-4c3b-a738-6b92c713be8f",
+      "yugipediaId": 497948,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Cyberdark Claw",
+      "card": "77f170d0-7b35-4ba9-b300-d8be0d15acae",
+      "yugipediaId": 497949,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Gyroid",
+      "card": "187e7315-ffcd-4586-9d85-5293caf36d42",
+      "yugipediaId": 17747,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Herald of Green Light",
+      "card": "03434f0b-c0c7-4c96-8948-7d2a1c12729a",
+      "yugipediaId": 13416,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Evoltile Najasho",
+      "card": "7d23203b-2fb7-4d8a-9f95-0c8bf8a0d8bb",
+      "yugipediaId": 208346,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Ojama Blue",
+      "card": "d2a14ab8-3832-4785-af5f-2e5b50720464",
+      "yugipediaId": 61398,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Samsara Lotus",
+      "card": "071fb4be-15eb-49d4-b3eb-591be508a304",
+      "yugipediaId": 74107,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Winged Kuriboh",
+      "card": "f486263f-0803-45ba-98e5-99420b27bb92",
+      "yugipediaId": 1640,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Elemental HERO Core",
+      "card": "66f360b7-6511-42bd-b8ba-7309baa67776",
+      "yugipediaId": 353107,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Elemental HERO Tempest",
+      "card": "b5fb8fa1-7bd5-48a8-8a8c-299add2cddd1",
+      "yugipediaId": 1857,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Evil HERO Infernal Sniper",
+      "card": "edc976c5-763a-4caa-a2a0-6d4ec205d063",
+      "yugipediaId": 538194,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Ambulance Rescueroid",
+      "card": "dd714b2e-2620-4a2e-a2af-a2ba7fe05210",
+      "yugipediaId": 14627,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Elemental HERO Thunder Giant",
+      "card": "6bde9806-8717-41c6-9295-313d30fe380f",
+      "yugipediaId": 1925,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Pair Cycroid",
+      "card": "7fd2c879-e6cd-4e10-8deb-afe5a1a12bc2",
+      "yugipediaId": 18515,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Cupid's Kiss",
+      "card": "d689b47f-b208-4bfb-838b-569d9e60c7ad",
+      "yugipediaId": 696563,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Ledger of Legerdemain",
+      "card": "17b29d2a-7d18-4744-b4c9-a82c78ad93bc",
+      "yugipediaId": 557296,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Cocoon Party",
+      "card": "33bf98cf-6372-4058-8803-b42cc71a9ccd",
+      "yugipediaId": 22031,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Reverse of Neos",
+      "card": "904300d6-efed-42b2-b17a-353342a8c496",
+      "yugipediaId": 18025,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Wrath of Neos",
+      "card": "0fb74a3b-c7bf-420f-a025-e06cd30411db",
+      "yugipediaId": 77344,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Cyberdark Impact!",
+      "card": "26778fdf-8963-429f-839c-843e3fdc2e6a",
+      "yugipediaId": 512555,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Vehicroid Connection Zone",
+      "card": "0a30bea2-5103-4d1e-ba20-44a29c6a9aa6",
+      "yugipediaId": 6914,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Crystal Promise",
+      "card": "55322fdc-aed5-4e85-b8e1-4b19fe20eea9",
+      "yugipediaId": 21369,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Cyber Repair Plant",
+      "card": "3f603e83-827d-4601-9739-b788ffd9bea3",
+      "yugipediaId": 295375,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Crystal Beacon",
+      "card": "e110e5e2-ed85-49a5-93fc-b59fa7f870a9",
+      "yugipediaId": 20990,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Ancient Gear Castle",
+      "card": "e1be8654-b3d4-4902-861a-f5231911bf61",
+      "yugipediaId": 2882,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Ancient Gear Fist",
+      "card": "7ac307cb-b1c7-46fe-ab30-4321fee89d9c",
+      "yugipediaId": 18069,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Ancient Gear Workshop",
+      "card": "ce3c0ba7-77a4-4844-989c-8c71b523b57b",
+      "yugipediaId": 18005,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Machine Angel Absolute Ritual",
+      "card": "82dd7eec-7336-4c51-8ab1-dc1f68c2448b",
+      "yugipediaId": 429805,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Ojama Delta Hurricane!!",
+      "card": "066a560f-b02f-4733-8e76-a774437fb9ee",
+      "yugipediaId": 5496,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "The Flute of Summoning Kuriboh",
+      "card": "f90eef1b-75e6-48d5-b113-17f6c6ad9285",
+      "yugipediaId": 5947,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Twilight Cloth",
+      "card": "9b4e15cd-a174-4e91-ba2c-cec1fa8b345b",
+      "yugipediaId": 492180,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Survival's End",
+      "card": "a333c4e3-d3b7-4bb2-a1ac-bece685bf573",
+      "yugipediaId": 481373,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Survival of the Fittest",
+      "card": "85535f75-795e-4237-82dc-6c83e1a00dc7",
+      "yugipediaId": 295568,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Volcanic Eruption",
+      "card": "d36d5f61-8cc8-41ed-a6b5-d29036c9ce70",
+      "yugipediaId": 15839,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Hero Counterattack",
+      "card": "50df4c27-58fe-4bdb-8be6-b011d4a9d287",
+      "yugipediaId": 21923,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Inverse Universe",
+      "card": "e0b6af82-6a15-4418-9dc7-0d41a019ffe3",
+      "yugipediaId": 109278,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Rainbow Life",
+      "card": "ec2041f1-3474-40ef-b71b-e7a6811f7310",
+      "yugipediaId": 508740,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Cursed Seal of the Forbidden Spell",
+      "card": "af08ae38-69c8-42a0-a92c-c3bc81c76835",
+      "yugipediaId": 15705,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "DNA Transplant",
+      "card": "5fef1ff4-854d-4c7b-9308-c06cb86304b1",
+      "yugipediaId": 13804,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Destiny Signal",
+      "card": "4e9ceebc-4093-4fdb-aa88-4d293500beee",
+      "yugipediaId": 12199,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "runIndex": 0,
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Elemental HERO Flame Wingman",
+      "card": "96beb37e-70b8-4b0e-83c7-6efb1026ba17",
+      "yugipediaId": 1748,
+      "obtainedVia": [
+        {
+          "kind": "missions",
+          "run": "October 2026",
+          "runIndex": 0
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Event Rush 2: GX RAID DUEL: The Unbeatable Zane!",
+        "id": 1234253
+      }
+    ]
+  }
+}

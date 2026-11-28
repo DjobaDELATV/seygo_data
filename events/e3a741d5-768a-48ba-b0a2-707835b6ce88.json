@@ -1,0 +1,731 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "e3a741d5-768a-48ba-b0a2-707835b6ce88",
+  "name": {
+    "en": "Aigami is here!"
+  },
+  "type": "Roaming Duelist event",
+  "duelWorlds": [
+    "Duel World (DSOD)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/9/96/Aigamiishere-Banner.png",
+  "runs": [
+    {
+      "startDate": "2020-07-10",
+      "endDate": "2020-07-17"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "In addition to the following, standard Duel Rewards were also available by Dueling Aigami Level 30 or less."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"The End of Anubis\", \"Buster Gundil the Cubic Behemoth\"",
+                "cards": [
+                  {
+                    "name": "The End of Anubis",
+                    "card": "4d447a4b-2ec0-4677-93d9-c11db0a7775f",
+                    "yugipediaId": 3593
+                  },
+                  {
+                    "name": "Buster Gundil the Cubic Behemoth",
+                    "card": "f180d0c1-6673-4776-bb08-987b1bf6eceb",
+                    "yugipediaId": 361867
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Mystical Knight of Jackal\", \"Evilswarm Golem\", \"Tlakalel, His Malevolent Majesty\"",
+                "cards": [
+                  {
+                    "name": "Mystical Knight of Jackal",
+                    "card": "c768c7f0-72cc-44a4-aaa5-d6b836d66b0e",
+                    "yugipediaId": 15317
+                  },
+                  {
+                    "name": "Evilswarm Golem",
+                    "card": "b5cef198-88df-403b-ae0f-ebe0b555241d",
+                    "yugipediaId": 177603
+                  },
+                  {
+                    "name": "Tlakalel, His Malevolent Majesty",
+                    "card": "7773d901-0686-4df9-9488-c44e606ab404",
+                    "yugipediaId": 602918
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Alien Infiltrator\", \"Garnecia Elefantis\", \"Emperor Sem\"",
+                "cards": [
+                  {
+                    "name": "Alien Infiltrator",
+                    "card": "a43abd21-ff88-40df-ba72-27a8cfb7eb5f",
+                    "yugipediaId": 12871
+                  },
+                  {
+                    "name": "Garnecia Elefantis",
+                    "card": "6ad19c38-434d-41bc-867e-d60d2ea48b61",
+                    "yugipediaId": 2674
+                  },
+                  {
+                    "name": "Emperor Sem",
+                    "card": "77a6f36f-c88e-41a2-982f-b6d7459cf89e",
+                    "yugipediaId": 66033
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Akihiron\", \"Change Slime\"",
+                "cards": [
+                  {
+                    "name": "Akihiron",
+                    "card": "9312a3ad-a5e7-4eb9-80fd-98ff26877fa6",
+                    "yugipediaId": 7477
+                  },
+                  {
+                    "name": "Change Slime",
+                    "card": "9630f0b7-dcfd-4a4b-83d8-e71606daf0fb",
+                    "yugipediaId": 4820
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Rewards",
+        "Event Missions"
+      ],
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against Aigami in Duel World."
+              },
+              {
+                "text": "1 \"Change Slime\"",
+                "cards": [
+                  {
+                    "name": "Change Slime",
+                    "card": "9630f0b7-dcfd-4a4b-83d8-e71606daf0fb",
+                    "yugipediaId": 4820,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 3 Duel(s) against Aigami in Duel World."
+              },
+              {
+                "text": "1 \"Alien Infiltrator\"",
+                "cards": [
+                  {
+                    "name": "Alien Infiltrator",
+                    "card": "a43abd21-ff88-40df-ba72-27a8cfb7eb5f",
+                    "yugipediaId": 12871,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 7 Duel(s) against Aigami in Duel World."
+              },
+              {
+                "text": "1 \"Mystical Knight of Jackal\"",
+                "cards": [
+                  {
+                    "name": "Mystical Knight of Jackal",
+                    "card": "c768c7f0-72cc-44a4-aaa5-d6b836d66b0e",
+                    "yugipediaId": 15317,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Play 15 Duel(s) against Aigami in Duel World (surrenders are not counted)."
+              },
+              {
+                "text": "1 \"The End of Anubis\"",
+                "cards": [
+                  {
+                    "name": "The End of Anubis",
+                    "card": "4d447a4b-2ec0-4677-93d9-c11db0a7775f",
+                    "yugipediaId": 3593,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "decks": [
+    {
+      "path": [
+        "Decks",
+        "Level 10"
+      ],
+      "name": "Dimensional Truth",
+      "owner": "Aigami",
+      "cards": [
+        {
+          "name": "Blue-Eyed Silver Zombie",
+          "card": "b5f4c187-72eb-4043-96ff-a2774d1f817a",
+          "yugipediaId": 5816,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Gorgon Egg",
+          "card": "6ea31660-9a58-4bce-afc6-c77427eb9c20",
+          "yugipediaId": 9593,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Leo Wizard",
+          "card": "1614d6e7-4c3a-4dd4-b752-5127559e4a7d",
+          "yugipediaId": 9136,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Meda Bat",
+          "card": "fd49b177-b1be-4af0-88d9-0e8fb48e5db3",
+          "yugipediaId": 507255,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Shapesnatch",
+          "card": "8375e8ce-2b41-4efb-8d4d-23032f8344fa",
+          "yugipediaId": 11284,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "The Drdek",
+          "card": "3657d1df-63d7-458a-a227-fbbeea31ce86",
+          "yugipediaId": 4961,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Thousand-Eyes Idol",
+          "card": "faeca2d2-b15f-48bc-8bda-851a1f82eed6",
+          "yugipediaId": 43,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Darkness Approaches",
+          "card": "b1abc474-3eaf-4c93-9f0d-f8360836b671",
+          "yugipediaId": 3435,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Hidden Soldiers",
+          "card": "f547f474-a28a-4653-abca-c58d580e8c73",
+          "yugipediaId": 7376,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Triggered Summon",
+          "card": "c8610a5c-28a1-47e7-835f-07a5daa3ae2f",
+          "yugipediaId": 21028,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Level 20"
+      ],
+      "name": "Dimensional Sentinel",
+      "owner": "Aigami",
+      "cards": [
+        {
+          "name": "Gorgon Egg",
+          "card": "6ea31660-9a58-4bce-afc6-c77427eb9c20",
+          "yugipediaId": 9593,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Megasonic Eye",
+          "card": "8b9980c8-2243-4e1d-8186-325000430b58",
+          "yugipediaId": 6108,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Sword Slasher",
+          "card": "07fe067e-c6cc-4d3d-bfd4-56acb4b9cfad",
+          "yugipediaId": 19793,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Agido",
+          "card": "8973493a-e018-4227-943b-13be5b5defed",
+          "yugipediaId": 12340,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Fear from the Dark",
+          "card": "3010544a-dfee-44c4-aa5d-6d487d3e5e7e",
+          "yugipediaId": 15366,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Sangan",
+          "card": "3fd4df9c-9923-4388-9c31-5b6ce35f436b",
+          "yugipediaId": 151,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Demise of the Land",
+          "card": "a8b41ff8-5acc-49a2-b558-596a976706ed",
+          "yugipediaId": 81355,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Veil of Darkness",
+          "card": "4b521532-794a-4b75-a4b2-b75075657ff2",
+          "yugipediaId": 67558,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Yami",
+          "card": "10a39476-eb38-4c58-bcd2-d26c6855b933",
+          "yugipediaId": 575,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Hidden Soldiers",
+          "card": "f547f474-a28a-4653-abca-c58d580e8c73",
+          "yugipediaId": 7376,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Level 30"
+      ],
+      "name": "Dimensional Thunder",
+      "owner": "Aigami",
+      "cards": [
+        {
+          "name": "Buster Gundil the Cubic Behemoth",
+          "card": "f180d0c1-6673-4776-bb08-987b1bf6eceb",
+          "yugipediaId": 361867,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Dark Hunter",
+          "card": "fb8444ee-e19b-4d10-b666-dd3aa5b22a6d",
+          "yugipediaId": 35538,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Duza the Meteor Cubic Vessel",
+          "card": "53254604-2e6f-4040-ae05-69b51b7f51ef",
+          "yugipediaId": 376179,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Evilswarm Ketos",
+          "card": "44d4eed7-f2ad-42f8-b7e7-81046d44cac1",
+          "yugipediaId": 179750,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Evilswarm Golem",
+          "card": "b5cef198-88df-403b-ae0f-ebe0b555241d",
+          "yugipediaId": 177603,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Evilswarm Mandragora",
+          "card": "7a40a8a3-4b56-42c1-a2a1-c769c2339f22",
+          "yugipediaId": 179877,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Evilswarm O'lantern",
+          "card": "3dec968e-2c85-44fe-a710-bb9cd6bfd5fd",
+          "yugipediaId": 179816,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Fear from the Dark",
+          "card": "3010544a-dfee-44c4-aa5d-6d487d3e5e7e",
+          "yugipediaId": 15366,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Sword of Dark Destruction",
+          "card": "57c55cbd-835a-4ce4-8273-c98bf4454a43",
+          "yugipediaId": 7839,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "The Beginning of the End",
+          "card": "c3fa8524-a90d-46a0-8e1d-afb941301ac3",
+          "yugipediaId": 76412,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Veil of Darkness",
+          "card": "4b521532-794a-4b75-a4b2-b75075657ff2",
+          "yugipediaId": 67558,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Cubic Mandala",
+          "card": "31e40e4e-ef1d-47b9-97c9-a9e002197020",
+          "yugipediaId": 447708,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Hidden Soldiers",
+          "card": "f547f474-a28a-4653-abca-c58d580e8c73",
+          "yugipediaId": 7376,
+          "count": 2,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Level 40"
+      ],
+      "name": "Dimensional Destruction/Reconstruction",
+      "owner": "Aigami",
+      "cards": [
+        {
+          "name": "Evilswarm Heliotrope",
+          "card": "8a00b593-cfe1-4f34-9aa9-d87b32191cdb",
+          "yugipediaId": 194412,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Buster Gundil the Cubic Behemoth",
+          "card": "f180d0c1-6673-4776-bb08-987b1bf6eceb",
+          "yugipediaId": 361867,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Duza the Meteor Cubic Vessel",
+          "card": "53254604-2e6f-4040-ae05-69b51b7f51ef",
+          "yugipediaId": 376179,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Evilswarm Ketos",
+          "card": "44d4eed7-f2ad-42f8-b7e7-81046d44cac1",
+          "yugipediaId": 179750,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Evilswarm Mandragora",
+          "card": "7a40a8a3-4b56-42c1-a2a1-c769c2339f22",
+          "yugipediaId": 179877,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Evilswarm O'lantern",
+          "card": "3dec968e-2c85-44fe-a710-bb9cd6bfd5fd",
+          "yugipediaId": 179816,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Evilswarm Salamandra",
+          "card": "ef7cb6b0-a2c4-4c74-89ab-818a4282edf2",
+          "yugipediaId": 178054,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Evilswarm Zahak",
+          "card": "f44c1a0f-c54d-4fb0-b9de-f324676a6c8a",
+          "yugipediaId": 194531,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Mystic Plasma Zone",
+          "card": "b3ab70a1-2d84-4716-8c92-ba0a9fbf06e7",
+          "yugipediaId": 577,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Cubic Mandala",
+          "card": "31e40e4e-ef1d-47b9-97c9-a9e002197020",
+          "yugipediaId": 447708,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Darklight",
+          "card": "e2457351-eab2-4c40-8814-545af8460d14",
+          "yugipediaId": 171940,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Dark Spirit Art - Greed",
+          "card": "836b9914-9507-443b-8819-39287dd1213d",
+          "yugipediaId": 67213,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "The End of Anubis",
+      "card": "4d447a4b-2ec0-4677-93d9-c11db0a7775f",
+      "yugipediaId": 3593,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Play 15 Duel(s) against Aigami in Duel World (surrenders are not counted)."
+        }
+      ]
+    },
+    {
+      "name": "Buster Gundil the Cubic Behemoth",
+      "card": "f180d0c1-6673-4776-bb08-987b1bf6eceb",
+      "yugipediaId": 361867,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Mystical Knight of Jackal",
+      "card": "c768c7f0-72cc-44a4-aaa5-d6b836d66b0e",
+      "yugipediaId": 15317,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 7 Duel(s) against Aigami in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Evilswarm Golem",
+      "card": "b5cef198-88df-403b-ae0f-ebe0b555241d",
+      "yugipediaId": 177603,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Tlakalel, His Malevolent Majesty",
+      "card": "7773d901-0686-4df9-9488-c44e606ab404",
+      "yugipediaId": 602918,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Alien Infiltrator",
+      "card": "a43abd21-ff88-40df-ba72-27a8cfb7eb5f",
+      "yugipediaId": 12871,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 3 Duel(s) against Aigami in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Garnecia Elefantis",
+      "card": "6ad19c38-434d-41bc-867e-d60d2ea48b61",
+      "yugipediaId": 2674,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Emperor Sem",
+      "card": "77a6f36f-c88e-41a2-982f-b6d7459cf89e",
+      "yugipediaId": 66033,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Akihiron",
+      "card": "9312a3ad-a5e7-4eb9-80fd-98ff26877fa6",
+      "yugipediaId": 7477,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Change Slime",
+      "card": "9630f0b7-dcfd-4a4b-83d8-e71606daf0fb",
+      "yugipediaId": 4820,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 1 Duel(s) against Aigami in Duel World."
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Aigami is here!",
+        "id": 1011649
+      }
+    ]
+  }
+}

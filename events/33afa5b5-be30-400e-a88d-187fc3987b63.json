@@ -1,0 +1,105 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "33afa5b5-be30-400e-a88d-187fc3987b63",
+  "name": {
+    "en": "Seto Kaiba Birthday Celebration Gift"
+  },
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/0/09/SetoKaibaBirthdayCelebrationGift-Banner.png",
+  "runs": [
+    {
+      "startDate": "2017-10-25",
+      "endDate": "2017-10-30"
+    },
+    {
+      "startDate": "2018-10-25",
+      "endDate": "2018-10-30"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "missions",
+      "path": [
+        "Event Missions"
+      ],
+      "run": "2018",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "Event Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Play 10 Duel(s) using Seto Kaiba."
+              },
+              {
+                "text": "Card Sleeves: Seto Kaiba Birthday Celebration 2018"
+              }
+            ],
+            [
+              {
+                "text": "Play 10 Duel(s) using Seto Kaiba."
+              },
+              {
+                "text": "Game Mat: Seto Kaiba Birthday Celebration 2018"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Event Missions"
+      ],
+      "run": "2017",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Event Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Play 10 Duel(s) using Seto Kaiba."
+              },
+              {
+                "text": "Card Sleeves: Seto Kaiba Birthday Celebration"
+              }
+            ],
+            [
+              {
+                "text": "Play 10 Duel(s) using Seto Kaiba."
+              },
+              {
+                "text": "Game Mat: Seto Kaiba Birthday Celebration"
+              }
+            ],
+            [
+              {
+                "text": "Play 10 Duel(s) using Seto Kaiba."
+              },
+              {
+                "text": "500 Gems"
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Seto Kaiba Birthday Celebration Gift",
+        "id": 1011666
+      }
+    ]
+  }
+}

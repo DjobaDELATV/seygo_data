@@ -1,0 +1,762 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "7c708b01-d587-4f43-a2fe-e0986c787bb1",
+  "name": {
+    "en": "Quattro is here!",
+    "ja": "\u2163\u51fa\u73fe\uff01"
+  },
+  "type": "Roaming Duelist event",
+  "duelWorlds": [
+    "Duel World (ZEXAL)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/4/40/Quattroishere-Banner.png",
+  "runs": [
+    {
+      "startDate": "2021-04-21",
+      "endDate": "2021-04-28"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel rewards"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "In addition to the following, standard Duel Rewards are also available by Dueling Quattro at Level 30 or lower."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Gimmick Puppet Egg Head\", \"Umbramirage the Elemental Lord\"",
+                "cards": [
+                  {
+                    "name": "Gimmick Puppet Egg Head",
+                    "card": "6dc0314d-e242-4b6a-9e4b-6ffe7af8e93e",
+                    "yugipediaId": 200853
+                  },
+                  {
+                    "name": "Umbramirage the Elemental Lord",
+                    "card": "3b49f5fe-8faf-4554-958a-bb105c89480e",
+                    "yugipediaId": 557270
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Gimmick Puppet Magnet Doll\", \"Dark Crusader\", \"Obsidian Dragon\"",
+                "cards": [
+                  {
+                    "name": "Gimmick Puppet Magnet Doll",
+                    "card": "cf7f240f-3876-4b78-ab30-71846ca1a126",
+                    "yugipediaId": 206148
+                  },
+                  {
+                    "name": "Dark Crusader",
+                    "card": "48482748-59d7-4e77-b451-6c4c79457879",
+                    "yugipediaId": 75178
+                  },
+                  {
+                    "name": "Obsidian Dragon",
+                    "card": "13124e40-22ba-4064-b5fe-2bcd3aaf3ff1",
+                    "yugipediaId": 70049
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Maniacal Servant\", \"Dark Mambele\"",
+                "cards": [
+                  {
+                    "name": "Maniacal Servant",
+                    "card": "26c4d953-22ad-47b3-a355-794ed00a45c9",
+                    "yugipediaId": 32091
+                  },
+                  {
+                    "name": "Dark Mambele",
+                    "card": "fc969663-c5f3-4b01-b78b-31605432a621",
+                    "yugipediaId": 194452
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Blocker\", \"Brave Scizzar\", \"Yaiba Robo\"",
+                "cards": [
+                  {
+                    "name": "Blocker",
+                    "card": "1d3c0dd8-6761-4aec-a472-4415e1105ada",
+                    "yugipediaId": 9181
+                  },
+                  {
+                    "name": "Brave Scizzar",
+                    "card": "257eaf68-b348-4d9b-869c-b8472e25b754",
+                    "yugipediaId": 9539
+                  },
+                  {
+                    "name": "Yaiba Robo",
+                    "card": "e6d5320f-d064-4d43-ae43-6ec962b1ae40",
+                    "yugipediaId": 19439
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Rewards",
+        "Event Missions"
+      ],
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against Quattro in Duel World."
+              },
+              {
+                "text": "1 \"Dark Mambele\" (Glossy)",
+                "cards": [
+                  {
+                    "name": "Dark Mambele",
+                    "card": "fc969663-c5f3-4b01-b78b-31605432a621",
+                    "yugipediaId": 194452,
+                    "quantity": 1,
+                    "variant": "Glossy"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 3 Duel(s) against Quattro in Duel World."
+              },
+              {
+                "text": "1 \"Dark Crusader\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Dark Crusader",
+                    "card": "48482748-59d7-4e77-b451-6c4c79457879",
+                    "yugipediaId": 75178,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 7 Duel(s) against Quattro in Duel World."
+              },
+              {
+                "text": "1 \"Gimmick Puppet Magnet Doll\"",
+                "cards": [
+                  {
+                    "name": "Gimmick Puppet Magnet Doll",
+                    "card": "cf7f240f-3876-4b78-ab30-71846ca1a126",
+                    "yugipediaId": 206148,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Play 15 Duel(s) against Quattro in Duel World (surrenders are not counted)."
+              },
+              {
+                "text": "1 \"Gimmick Puppet Egg Head\"",
+                "cards": [
+                  {
+                    "name": "Gimmick Puppet Egg Head",
+                    "card": "6dc0314d-e242-4b6a-9e4b-6ffe7af8e93e",
+                    "yugipediaId": 200853,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "decks": [
+    {
+      "path": [
+        "Decks",
+        "Level 10"
+      ],
+      "name": "Meet-and-Greet",
+      "owner": "Quattro",
+      "cards": [
+        {
+          "name": "Mechanical Snail",
+          "card": "6545b3d6-6562-4731-9fb4-0340706cb775",
+          "yugipediaId": 8614,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Sword Slasher",
+          "card": "07fe067e-c6cc-4d3d-bfd4-56acb4b9cfad",
+          "yugipediaId": 19793,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Yaiba Robo",
+          "card": "e6d5320f-d064-4d43-ae43-6ec962b1ae40",
+          "yugipediaId": 19439,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Gimmick Puppet Bisque Doll",
+          "card": "aba2be5c-11be-4114-b8d0-f03ac8f52c0d",
+          "yugipediaId": 625392,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gimmick Puppet Gear Changer",
+          "card": "f416c197-e187-42c8-b116-557c90fd37f8",
+          "yugipediaId": 206061,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gimmick Puppet Humpty Dumpty",
+          "card": "78299a16-3c9a-4950-ac80-c49aa02f9c1e",
+          "yugipediaId": 280437,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gimmick Puppet Magnet Doll",
+          "card": "cf7f240f-3876-4b78-ab30-71846ca1a126",
+          "yugipediaId": 206148,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Air Cracking Storm",
+          "card": "66eff590-3398-4542-b3c5-1cdc3d028ae2",
+          "yugipediaId": 492316,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Trojan Blast",
+          "card": "43c822cc-8cfd-4f17-98d5-ff586afe974e",
+          "yugipediaId": 12734,
+          "count": 2,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Level 20"
+      ],
+      "name": "One-on-One Time",
+      "owner": "Quattro",
+      "cards": [
+        {
+          "name": "Brave Scizzar",
+          "card": "257eaf68-b348-4d9b-869c-b8472e25b754",
+          "yugipediaId": 9539,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Gimmick Puppet Bisque Doll",
+          "card": "aba2be5c-11be-4114-b8d0-f03ac8f52c0d",
+          "yugipediaId": 625392,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gimmick Puppet Humpty Dumpty",
+          "card": "78299a16-3c9a-4950-ac80-c49aa02f9c1e",
+          "yugipediaId": 280437,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gimmick Puppet Magnet Doll",
+          "card": "cf7f240f-3876-4b78-ab30-71846ca1a126",
+          "yugipediaId": 206148,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gimmick Puppet Scissor Arms",
+          "card": "79c39a3a-d3e2-4980-ba7f-0776db8babd1",
+          "yugipediaId": 215808,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Humpty Grumpty",
+          "card": "8185d37e-6e1b-4db8-bcd8-4f6a422720de",
+          "yugipediaId": 295196,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Air Cracking Storm",
+          "card": "66eff590-3398-4542-b3c5-1cdc3d028ae2",
+          "yugipediaId": 492316,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Dark World Dealings",
+          "card": "6377e381-1b0a-47b7-a085-a25c3eb0b560",
+          "yugipediaId": 22157,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Germ Infection",
+          "card": "335c5fb3-11ba-4b93-ab25-0e23dbdd7ded",
+          "yugipediaId": 5596,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Junk Puppet",
+          "card": "4954132d-ea7d-45e1-b380-10219f237b0c",
+          "yugipediaId": 202332,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Puppet Ritual",
+          "card": "d8ece3bc-9232-48d9-980e-c048cdc23c9a",
+          "yugipediaId": 206326,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Trojan Blast",
+          "card": "43c822cc-8cfd-4f17-98d5-ff586afe974e",
+          "yugipediaId": 12734,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Level 30"
+      ],
+      "name": "Puppet - Strings of Fate",
+      "owner": "Quattro",
+      "cards": [
+        {
+          "name": "Gimmick Puppet Bisque Doll",
+          "card": "aba2be5c-11be-4114-b8d0-f03ac8f52c0d",
+          "yugipediaId": 625392,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gimmick Puppet Dreary Doll",
+          "card": "959d0186-d40a-4cee-a9eb-008c5c3ce98d",
+          "yugipediaId": 201084,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gimmick Puppet Egg Head",
+          "card": "6dc0314d-e242-4b6a-9e4b-6ffe7af8e93e",
+          "yugipediaId": 200853,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gimmick Puppet Humpty Dumpty",
+          "card": "78299a16-3c9a-4950-ac80-c49aa02f9c1e",
+          "yugipediaId": 280437,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gimmick Puppet Magnet Doll",
+          "card": "cf7f240f-3876-4b78-ab30-71846ca1a126",
+          "yugipediaId": 206148,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gimmick Puppet Scissor Arms",
+          "card": "79c39a3a-d3e2-4980-ba7f-0776db8babd1",
+          "yugipediaId": 215808,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gimmick Puppet Twilight Joker",
+          "card": "3d737eff-45e6-45e7-8985-e0b88e30cd4a",
+          "yugipediaId": 206219,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Number 15: Gimmick Puppet Giant Grinder",
+          "card": "48d3e6d8-a3b6-4fe5-b8b0-41284dd38fc4",
+          "yugipediaId": 180713,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Dark World Dealings",
+          "card": "6377e381-1b0a-47b7-a085-a25c3eb0b560",
+          "yugipediaId": 22157,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Foolish Burial",
+          "card": "104893e3-7989-4e25-bcea-d0c87bb99bc7",
+          "yugipediaId": 5395,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Junk Puppet",
+          "card": "4954132d-ea7d-45e1-b380-10219f237b0c",
+          "yugipediaId": 202332,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Perform Puppet",
+          "card": "b761e1e8-1462-4171-9e49-329ccd031d38",
+          "yugipediaId": 628273,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Puppet Ritual",
+          "card": "d8ece3bc-9232-48d9-980e-c048cdc23c9a",
+          "yugipediaId": 206326,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Trade-In",
+          "card": "3bb1b2fb-9ef1-4fdd-904c-b2a538b81d1b",
+          "yugipediaId": 536748,
+          "count": 2,
+          "category": "spells"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Level 40"
+      ],
+      "name": "Divine - Strings of Fate",
+      "owner": "Quattro",
+      "cards": [
+        {
+          "name": "Gimmick Puppet Bisque Doll",
+          "card": "aba2be5c-11be-4114-b8d0-f03ac8f52c0d",
+          "yugipediaId": 625392,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gimmick Puppet Des Troy",
+          "card": "e1c583eb-0154-4c9b-8e29-7a55a1de26fa",
+          "yugipediaId": 289194,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gimmick Puppet Dreary Doll",
+          "card": "959d0186-d40a-4cee-a9eb-008c5c3ce98d",
+          "yugipediaId": 201084,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gimmick Puppet Egg Head",
+          "card": "6dc0314d-e242-4b6a-9e4b-6ffe7af8e93e",
+          "yugipediaId": 200853,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gimmick Puppet Humpty Dumpty",
+          "card": "78299a16-3c9a-4950-ac80-c49aa02f9c1e",
+          "yugipediaId": 280437,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gimmick Puppet Magnet Doll",
+          "card": "cf7f240f-3876-4b78-ab30-71846ca1a126",
+          "yugipediaId": 206148,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gimmick Puppet Scissor Arms",
+          "card": "79c39a3a-d3e2-4980-ba7f-0776db8babd1",
+          "yugipediaId": 215808,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Number 15: Gimmick Puppet Giant Grinder",
+          "card": "48d3e6d8-a3b6-4fe5-b8b0-41284dd38fc4",
+          "yugipediaId": 180713,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Number 40: Gimmick Puppet of Strings",
+          "card": "15e8f04c-91ac-4b73-8650-1f30e3a1cdff",
+          "yugipediaId": 206904,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Dark World Dealings",
+          "card": "6377e381-1b0a-47b7-a085-a25c3eb0b560",
+          "yugipediaId": 22157,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Junk Puppet",
+          "card": "4954132d-ea7d-45e1-b380-10219f237b0c",
+          "yugipediaId": 202332,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Perform Puppet",
+          "card": "b761e1e8-1462-4171-9e49-329ccd031d38",
+          "yugipediaId": 628273,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Trade-In",
+          "card": "3bb1b2fb-9ef1-4fdd-904c-b2a538b81d1b",
+          "yugipediaId": 536748,
+          "count": 3,
+          "category": "spells"
+        },
+        {
+          "name": "Xyz Effect",
+          "card": "f35ac989-0ac4-4c1a-94b7-f0aebf3ad9a0",
+          "yugipediaId": 161591,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Gimmick Puppet Egg Head",
+      "card": "6dc0314d-e242-4b6a-9e4b-6ffe7af8e93e",
+      "yugipediaId": 200853,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Play 15 Duel(s) against Quattro in Duel World (surrenders are not counted)."
+        }
+      ]
+    },
+    {
+      "name": "Umbramirage the Elemental Lord",
+      "card": "3b49f5fe-8faf-4554-958a-bb105c89480e",
+      "yugipediaId": 557270,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Gimmick Puppet Magnet Doll",
+      "card": "cf7f240f-3876-4b78-ab30-71846ca1a126",
+      "yugipediaId": 206148,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 7 Duel(s) against Quattro in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Dark Crusader",
+      "card": "48482748-59d7-4e77-b451-6c4c79457879",
+      "yugipediaId": 75178,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 3 Duel(s) against Quattro in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Obsidian Dragon",
+      "card": "13124e40-22ba-4064-b5fe-2bcd3aaf3ff1",
+      "yugipediaId": 70049,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Maniacal Servant",
+      "card": "26c4d953-22ad-47b3-a355-794ed00a45c9",
+      "yugipediaId": 32091,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Dark Mambele",
+      "card": "fc969663-c5f3-4b01-b78b-31605432a621",
+      "yugipediaId": 194452,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 1 Duel(s) against Quattro in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Blocker",
+      "card": "1d3c0dd8-6761-4aec-a472-4415e1105ada",
+      "yugipediaId": 9181,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Brave Scizzar",
+      "card": "257eaf68-b348-4d9b-869c-b8472e25b754",
+      "yugipediaId": 9539,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Yaiba Robo",
+      "card": "e6d5320f-d064-4d43-ae43-6ec962b1ae40",
+      "yugipediaId": 19439,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Quattro is here!",
+        "id": 1011624
+      }
+    ]
+  }
+}

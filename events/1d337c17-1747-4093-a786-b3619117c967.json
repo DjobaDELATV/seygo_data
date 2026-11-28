@@ -1,0 +1,446 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "1d337c17-1747-4093-a786-b3619117c967",
+  "name": {
+    "en": "Grandpa Arrives! Solomon Muto"
+  },
+  "type": "Gate Event",
+  "duelWorlds": [
+    "Duel World (DM)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/f/f9/GrandpaArrivesSolomonMuto-Banner.png",
+  "runs": [
+    {
+      "startDate": "2023-06-28",
+      "endDate": "2023-07-10"
+    },
+    {
+      "startDate": "2023-09-18",
+      "endDate": "2023-09-27"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "run": "September 2023",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Chow Sai the Ghost Stopper\", \"Ayers Rock Sunrise\", \"Spell Shattering Arrow\"",
+                "cards": [
+                  {
+                    "name": "Chow Sai the Ghost Stopper",
+                    "card": "0eb2aca9-2585-451a-8035-56af90faca4f",
+                    "yugipediaId": 714273
+                  },
+                  {
+                    "name": "Ayers Rock Sunrise",
+                    "card": "5e10b689-59de-41cb-8d1e-1c801c3f8497",
+                    "yugipediaId": 18444
+                  },
+                  {
+                    "name": "Spell Shattering Arrow",
+                    "card": "96ff48c3-d488-42cf-8562-44499533dfd2",
+                    "yugipediaId": 16282
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Fukubiki\", \"Side Effects?\"",
+                "cards": [
+                  {
+                    "name": "Fukubiki",
+                    "card": "6461635c-df1f-4f38-ad8c-7e8e6b1564b9",
+                    "yugipediaId": 715024
+                  },
+                  {
+                    "name": "Side Effects?",
+                    "card": "0bb75cfd-9dbe-42c6-8362-e3b632ead8e2",
+                    "yugipediaId": 352342
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"De-Spell\", \"Remove Trap\", \"Beaver Warrior\"",
+                "cards": [
+                  {
+                    "name": "De-Spell",
+                    "card": "8a8b78b5-f06a-496a-825e-223bb3b1a144",
+                    "yugipediaId": 102
+                  },
+                  {
+                    "name": "Remove Trap",
+                    "card": "2073b43f-bb99-4485-af2e-c3d8052f46de",
+                    "yugipediaId": 506619
+                  },
+                  {
+                    "name": "Beaver Warrior",
+                    "card": "a75315dc-34b1-4cd6-9e3f-9bf14e6d998d",
+                    "yugipediaId": 506869
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Contract with Exodia\"",
+                "cards": [
+                  {
+                    "name": "Contract with Exodia",
+                    "card": "a7c5c279-ca67-4321-809a-65d3e906d2a0",
+                    "yugipediaId": 16820
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "run": "June 2023",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Ayers Rock Sunrise\", \"Spell Shattering Arrow\", \"Exodia Necross\"",
+                "cards": [
+                  {
+                    "name": "Ayers Rock Sunrise",
+                    "card": "5e10b689-59de-41cb-8d1e-1c801c3f8497",
+                    "yugipediaId": 18444
+                  },
+                  {
+                    "name": "Spell Shattering Arrow",
+                    "card": "96ff48c3-d488-42cf-8562-44499533dfd2",
+                    "yugipediaId": 16282
+                  },
+                  {
+                    "name": "Exodia Necross",
+                    "card": "261f1e4a-8138-4958-afb4-61199033ab25",
+                    "yugipediaId": 134
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Side Effects?\", \"Cauldron of the Old Man\"",
+                "cards": [
+                  {
+                    "name": "Side Effects?",
+                    "card": "0bb75cfd-9dbe-42c6-8362-e3b632ead8e2",
+                    "yugipediaId": 352342
+                  },
+                  {
+                    "name": "Cauldron of the Old Man",
+                    "card": "53fb2434-fb45-40a8-a658-ba7dbab35e62",
+                    "yugipediaId": 641837
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"De-Spell\", \"Remove Trap\", \"Beaver Warrior\"",
+                "cards": [
+                  {
+                    "name": "De-Spell",
+                    "card": "8a8b78b5-f06a-496a-825e-223bb3b1a144",
+                    "yugipediaId": 102
+                  },
+                  {
+                    "name": "Remove Trap",
+                    "card": "2073b43f-bb99-4485-af2e-c3d8052f46de",
+                    "yugipediaId": 506619
+                  },
+                  {
+                    "name": "Beaver Warrior",
+                    "card": "a75315dc-34b1-4cd6-9e3f-9bf14e6d998d",
+                    "yugipediaId": 506869
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Contract with Exodia\"",
+                "cards": [
+                  {
+                    "name": "Contract with Exodia",
+                    "card": "a7c5c279-ca67-4321-809a-65d3e906d2a0",
+                    "yugipediaId": 16820
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Chow Sai the Ghost Stopper",
+      "card": "0eb2aca9-2585-451a-8035-56af90faca4f",
+      "yugipediaId": 714273,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "September 2023",
+          "runIndex": 1,
+          "requirement": "UR",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Ayers Rock Sunrise",
+      "card": "5e10b689-59de-41cb-8d1e-1c801c3f8497",
+      "yugipediaId": 18444,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "September 2023",
+          "runIndex": 1,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "June 2023",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Spell Shattering Arrow",
+      "card": "96ff48c3-d488-42cf-8562-44499533dfd2",
+      "yugipediaId": 16282,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "September 2023",
+          "runIndex": 1,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "June 2023",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Fukubiki",
+      "card": "6461635c-df1f-4f38-ad8c-7e8e6b1564b9",
+      "yugipediaId": 715024,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "September 2023",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Side Effects?",
+      "card": "0bb75cfd-9dbe-42c6-8362-e3b632ead8e2",
+      "yugipediaId": 352342,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "September 2023",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "June 2023",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "De-Spell",
+      "card": "8a8b78b5-f06a-496a-825e-223bb3b1a144",
+      "yugipediaId": 102,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "September 2023",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "June 2023",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Remove Trap",
+      "card": "2073b43f-bb99-4485-af2e-c3d8052f46de",
+      "yugipediaId": 506619,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "September 2023",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "June 2023",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Beaver Warrior",
+      "card": "a75315dc-34b1-4cd6-9e3f-9bf14e6d998d",
+      "yugipediaId": 506869,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "September 2023",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "June 2023",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Contract with Exodia",
+      "card": "a7c5c279-ca67-4321-809a-65d3e906d2a0",
+      "yugipediaId": 16820,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "September 2023",
+          "runIndex": 1,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "June 2023",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Exodia Necross",
+      "card": "261f1e4a-8138-4958-afb4-61199033ab25",
+      "yugipediaId": 134,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "June 2023",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Cauldron of the Old Man",
+      "card": "53fb2434-fb45-40a8-a658-ba7dbab35e62",
+      "yugipediaId": 641837,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "June 2023",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Grandpa Arrives! Solomon Muto",
+        "id": 1234572
+      }
+    ]
+  }
+}

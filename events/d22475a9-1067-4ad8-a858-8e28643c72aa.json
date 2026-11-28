@@ -1,0 +1,378 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "d22475a9-1067-4ad8-a858-8e28643c72aa",
+  "name": {
+    "en": "Intertwined Fates - Fusion! Yuo Goha"
+  },
+  "type": "Gate Event",
+  "duelWorlds": [
+    "Duel World (SEVENS)"
+  ],
+  "rushDuel": true,
+  "image": "https://img.yugipedia.com/4/4b/IntertwinedFatesFusionYuoGoha-Banner.png",
+  "runs": [
+    {
+      "startDate": "2024-10-04",
+      "endDate": "2024-10-16"
+    },
+    {
+      "startDate": "2025-01-17",
+      "endDate": "2025-01-23"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "run": "January 2025",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Metarion King Cobrastar\", \"Metarion Ladonstar\"",
+                "cards": [
+                  {
+                    "name": "Metarion King Cobrastar",
+                    "rushDuel": true
+                  },
+                  {
+                    "name": "Metarion Ladonstar",
+                    "rushDuel": true
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Snake Clown\", \"Fire Jester\"",
+                "cards": [
+                  {
+                    "name": "Snake Clown",
+                    "rushDuel": true
+                  },
+                  {
+                    "name": "Fire Jester",
+                    "rushDuel": true
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Doriado\", \"Hitotsu-Me Giant\", \"Masaki the Legendary Swordsman\", \"Red Medicine\", \"Blue Medicine\"",
+                "cards": [
+                  {
+                    "name": "Doriado",
+                    "card": "d605b0a5-1b70-4447-9a76-72044560fe4e",
+                    "yugipediaId": 9203
+                  },
+                  {
+                    "name": "Hitotsu-Me Giant",
+                    "card": "0e9a1e21-a913-46e8-b24b-68e06c7916ed",
+                    "yugipediaId": 2861
+                  },
+                  {
+                    "name": "Masaki the Legendary Swordsman",
+                    "card": "576b3056-3822-4890-bcc0-39aae8eedd8b",
+                    "yugipediaId": 505662
+                  },
+                  {
+                    "name": "Red Medicine",
+                    "card": "925e7504-a2a6-41fe-93a2-8621eb5c0556",
+                    "yugipediaId": 506243
+                  },
+                  {
+                    "name": "Blue Medicine",
+                    "card": "7a640df9-d311-4883-9ba6-028fd7dd527e",
+                    "yugipediaId": 7250
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "run": "October 2024",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Metarion Ladonstar\"",
+                "cards": [
+                  {
+                    "name": "Metarion Ladonstar",
+                    "rushDuel": true
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Fire Jester\"",
+                "cards": [
+                  {
+                    "name": "Fire Jester",
+                    "rushDuel": true
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Doriado\", \"Hitotsu-Me Giant\", \"Masaki the Legendary Swordsman\", \"Red Medicine\", \"Blue Medicine\"",
+                "cards": [
+                  {
+                    "name": "Doriado",
+                    "card": "d605b0a5-1b70-4447-9a76-72044560fe4e",
+                    "yugipediaId": 9203
+                  },
+                  {
+                    "name": "Hitotsu-Me Giant",
+                    "card": "0e9a1e21-a913-46e8-b24b-68e06c7916ed",
+                    "yugipediaId": 2861
+                  },
+                  {
+                    "name": "Masaki the Legendary Swordsman",
+                    "card": "576b3056-3822-4890-bcc0-39aae8eedd8b",
+                    "yugipediaId": 505662
+                  },
+                  {
+                    "name": "Red Medicine",
+                    "card": "925e7504-a2a6-41fe-93a2-8621eb5c0556",
+                    "yugipediaId": 506243
+                  },
+                  {
+                    "name": "Blue Medicine",
+                    "card": "7a640df9-d311-4883-9ba6-028fd7dd527e",
+                    "yugipediaId": 7250
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Metarion King Cobrastar",
+      "rushDuel": true,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "January 2025",
+          "runIndex": 1,
+          "requirement": "UR",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Metarion Ladonstar",
+      "rushDuel": true,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "January 2025",
+          "runIndex": 1,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "October 2024",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Snake Clown",
+      "rushDuel": true,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "January 2025",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Fire Jester",
+      "rushDuel": true,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "January 2025",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "October 2024",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Doriado",
+      "card": "d605b0a5-1b70-4447-9a76-72044560fe4e",
+      "yugipediaId": 9203,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "January 2025",
+          "runIndex": 1,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "October 2024",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Hitotsu-Me Giant",
+      "card": "0e9a1e21-a913-46e8-b24b-68e06c7916ed",
+      "yugipediaId": 2861,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "January 2025",
+          "runIndex": 1,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "October 2024",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Masaki the Legendary Swordsman",
+      "card": "576b3056-3822-4890-bcc0-39aae8eedd8b",
+      "yugipediaId": 505662,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "January 2025",
+          "runIndex": 1,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "October 2024",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Red Medicine",
+      "card": "925e7504-a2a6-41fe-93a2-8621eb5c0556",
+      "yugipediaId": 506243,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "January 2025",
+          "runIndex": 1,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "October 2024",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Blue Medicine",
+      "card": "7a640df9-d311-4883-9ba6-028fd7dd527e",
+      "yugipediaId": 7250,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "January 2025",
+          "runIndex": 1,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "October 2024",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Intertwined Fates - Fusion! Yuo Goha",
+        "id": 1232344
+      }
+    ]
+  }
+}

@@ -1,0 +1,441 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "7bcb22f0-dc0d-4d5e-9294-094107484ee1",
+  "name": {
+    "en": "The Duo Returns! Lulu & Rin",
+    "ja": "\u5e30\u3063\u3066\u304d\u305f \u3075\u305f\u308a\uff01\u7460\u7483\uff06\u30ea\u30f3"
+  },
+  "type": "Gate Event",
+  "duelWorlds": [
+    "Duel World (ARC-V)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/1/1e/TheDuoReturnsLuluRin.png",
+  "runs": [
+    {
+      "startDate": "2024-09-02",
+      "endDate": "2024-09-12"
+    },
+    {
+      "startDate": "2024-12-16",
+      "endDate": "2024-12-23"
+    }
+  ],
+  "cardTraderExDates": [
+    {
+      "startDate": "2024-09-02",
+      "endDate": "2024-09-19"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "run": "December 2024",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Lyrilusc - Sapphire Swallow\", \"Windrose the Elemental Lord\", \"Lyrilusc - Independent Nightingale\", \"Windwitch Chimes\", \"Windwitch - Crystal Bell\"",
+                "cards": [
+                  {
+                    "name": "Lyrilusc - Sapphire Swallow",
+                    "card": "f171ac20-aeb2-4101-a0de-665be323fe65",
+                    "yugipediaId": 403869
+                  },
+                  {
+                    "name": "Windrose the Elemental Lord",
+                    "card": "3bd47ce7-d9d0-4afb-9ae6-76f7e8b90cb7",
+                    "yugipediaId": 260951
+                  },
+                  {
+                    "name": "Lyrilusc - Independent Nightingale",
+                    "card": "8cf892b0-031b-4d42-88ee-19e0e9b3a798",
+                    "yugipediaId": 435964
+                  },
+                  {
+                    "name": "Windwitch Chimes",
+                    "card": "b6bff32a-a5ea-4956-9b76-d143558dcb7c",
+                    "yugipediaId": 717498
+                  },
+                  {
+                    "name": "Windwitch - Crystal Bell",
+                    "card": "71f9c828-cf86-4183-90c7-73a801b576fa",
+                    "yugipediaId": 464461
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Summon Storm\", \"Kahyoreigetsu\"",
+                "cards": [
+                  {
+                    "name": "Summon Storm",
+                    "card": "5484692b-558f-463e-b841-1ae871401285",
+                    "yugipediaId": 708363
+                  },
+                  {
+                    "name": "Kahyoreigetsu",
+                    "card": "65b8d23e-464f-4722-b568-d3195a80706f",
+                    "yugipediaId": 715492
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Gust Fan\"",
+                "cards": [
+                  {
+                    "name": "Gust Fan",
+                    "card": "a3c3cb89-4dc3-477b-9c49-ce849d3b5c51",
+                    "yugipediaId": 7889
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Gust\"",
+                "cards": [
+                  {
+                    "name": "Gust",
+                    "card": "70d35768-ae5d-449d-8121-4394cf61842c",
+                    "yugipediaId": 4972
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "run": "September 2024",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Lyrilusc - Sapphire Swallow\", \"Windrose the Elemental Lord\", \"Windwitch Chimes\"",
+                "cards": [
+                  {
+                    "name": "Lyrilusc - Sapphire Swallow",
+                    "card": "f171ac20-aeb2-4101-a0de-665be323fe65",
+                    "yugipediaId": 403869
+                  },
+                  {
+                    "name": "Windrose the Elemental Lord",
+                    "card": "3bd47ce7-d9d0-4afb-9ae6-76f7e8b90cb7",
+                    "yugipediaId": 260951
+                  },
+                  {
+                    "name": "Windwitch Chimes",
+                    "card": "b6bff32a-a5ea-4956-9b76-d143558dcb7c",
+                    "yugipediaId": 717498
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Summon Storm\", \"Fairy Wind\", \"Solidarity\"",
+                "cards": [
+                  {
+                    "name": "Summon Storm",
+                    "card": "5484692b-558f-463e-b841-1ae871401285",
+                    "yugipediaId": 708363
+                  },
+                  {
+                    "name": "Fairy Wind",
+                    "card": "f10cbb25-f4f8-4241-b730-d141aedbb386",
+                    "yugipediaId": 38098
+                  },
+                  {
+                    "name": "Solidarity",
+                    "card": "8e16199f-a214-4997-8e1c-f32119a90549",
+                    "yugipediaId": 102627
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Gust Fan\"",
+                "cards": [
+                  {
+                    "name": "Gust Fan",
+                    "card": "a3c3cb89-4dc3-477b-9c49-ce849d3b5c51",
+                    "yugipediaId": 7889
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Gust\"",
+                "cards": [
+                  {
+                    "name": "Gust",
+                    "card": "70d35768-ae5d-449d-8121-4394cf61842c",
+                    "yugipediaId": 4972
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Lyrilusc - Sapphire Swallow",
+      "card": "f171ac20-aeb2-4101-a0de-665be323fe65",
+      "yugipediaId": 403869,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "December 2024",
+          "runIndex": 1,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "September 2024",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Windrose the Elemental Lord",
+      "card": "3bd47ce7-d9d0-4afb-9ae6-76f7e8b90cb7",
+      "yugipediaId": 260951,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "December 2024",
+          "runIndex": 1,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "September 2024",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Lyrilusc - Independent Nightingale",
+      "card": "8cf892b0-031b-4d42-88ee-19e0e9b3a798",
+      "yugipediaId": 435964,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "December 2024",
+          "runIndex": 1,
+          "requirement": "UR",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Windwitch Chimes",
+      "card": "b6bff32a-a5ea-4956-9b76-d143558dcb7c",
+      "yugipediaId": 717498,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "December 2024",
+          "runIndex": 1,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "September 2024",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Windwitch - Crystal Bell",
+      "card": "71f9c828-cf86-4183-90c7-73a801b576fa",
+      "yugipediaId": 464461,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "December 2024",
+          "runIndex": 1,
+          "requirement": "UR",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Summon Storm",
+      "card": "5484692b-558f-463e-b841-1ae871401285",
+      "yugipediaId": 708363,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "December 2024",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "September 2024",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Kahyoreigetsu",
+      "card": "65b8d23e-464f-4722-b568-d3195a80706f",
+      "yugipediaId": 715492,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "December 2024",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Gust Fan",
+      "card": "a3c3cb89-4dc3-477b-9c49-ce849d3b5c51",
+      "yugipediaId": 7889,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "December 2024",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "September 2024",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Gust",
+      "card": "70d35768-ae5d-449d-8121-4394cf61842c",
+      "yugipediaId": 4972,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "December 2024",
+          "runIndex": 1,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "September 2024",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Fairy Wind",
+      "card": "f10cbb25-f4f8-4241-b730-d141aedbb386",
+      "yugipediaId": 38098,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "September 2024",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Solidarity",
+      "card": "8e16199f-a214-4997-8e1c-f32119a90549",
+      "yugipediaId": 102627,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "September 2024",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "The Duo Returns! Lulu & Rin",
+        "id": 1078311
+      }
+    ]
+  }
+}

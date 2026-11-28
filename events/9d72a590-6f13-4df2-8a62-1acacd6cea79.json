@@ -1,0 +1,416 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "9d72a590-6f13-4df2-8a62-1acacd6cea79",
+  "name": {
+    "en": "Syrus Truesdale is here!"
+  },
+  "type": "Roaming Duelist event",
+  "duelWorlds": [
+    "Duel World (GX)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/5/53/SyrusTruesdaleishere-Banner.png",
+  "runs": [
+    {
+      "startDate": "2018-03-05",
+      "endDate": "2018-03-15"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Event Details",
+        "Duel Rewards"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "In addition to the following, standard Duel Rewards were also available by Dueling Syrus Truesdale Level 30 or less."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Expressroid\"",
+                "cards": [
+                  {
+                    "name": "Expressroid",
+                    "card": "0b51d49c-1857-41f1-b55d-73981ecdc71f",
+                    "yugipediaId": 13733
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Submarineroid\", \"Inverse Universe\", \"Ambulance Rescueroid\", \"Pair Cycroid\"",
+                "cards": [
+                  {
+                    "name": "Submarineroid",
+                    "card": "1aca7516-ae4c-4c3d-aa80-a3411485e24b",
+                    "yugipediaId": 14526
+                  },
+                  {
+                    "name": "Inverse Universe",
+                    "card": "e0b6af82-6a15-4418-9dc7-0d41a019ffe3",
+                    "yugipediaId": 109278
+                  },
+                  {
+                    "name": "Ambulance Rescueroid",
+                    "card": "dd714b2e-2620-4a2e-a2af-a2ba7fe05210",
+                    "yugipediaId": 14627
+                  },
+                  {
+                    "name": "Pair Cycroid",
+                    "card": "7fd2c879-e6cd-4e10-8deb-afe5a1a12bc2",
+                    "yugipediaId": 18515
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Rescueroid\", \"Supercharge\", \"Carrierroid\", \"Ambulanceroid\"",
+                "cards": [
+                  {
+                    "name": "Rescueroid",
+                    "card": "d8015020-4895-475e-a781-57afa3ce82de",
+                    "yugipediaId": 6292
+                  },
+                  {
+                    "name": "Supercharge",
+                    "card": "e2ad005f-4a68-40fa-9377-1a9a7384c6ba",
+                    "yugipediaId": 14649
+                  },
+                  {
+                    "name": "Carrierroid",
+                    "card": "d59708e6-3826-4309-b7bf-cce709fa06a7",
+                    "yugipediaId": 21931
+                  },
+                  {
+                    "name": "Ambulanceroid",
+                    "card": "c348ba7c-7578-49c9-84b4-cb528e7d7128",
+                    "yugipediaId": 6252
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Patroid\"",
+                "cards": [
+                  {
+                    "name": "Patroid",
+                    "card": "183cf1d2-b817-4bda-8e7c-5880cf7d1f4a",
+                    "yugipediaId": 17743
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Event Details",
+        "Event Missions"
+      ],
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against Syrus Truesdale in Duel World."
+              },
+              {
+                "text": "1 \"Rescueroid\"",
+                "cards": [
+                  {
+                    "name": "Rescueroid",
+                    "card": "d8015020-4895-475e-a781-57afa3ce82de",
+                    "yugipediaId": 6292,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 3 Duel(s) against Syrus Truesdale in Duel World."
+              },
+              {
+                "text": "1 \"Ambulance Rescueroid\"",
+                "cards": [
+                  {
+                    "name": "Ambulance Rescueroid",
+                    "card": "dd714b2e-2620-4a2e-a2af-a2ba7fe05210",
+                    "yugipediaId": 14627,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 7 Duel(s) against Syrus Truesdale in Duel World."
+              },
+              {
+                "text": "1 \"Pair Cycroid\"",
+                "cards": [
+                  {
+                    "name": "Pair Cycroid",
+                    "card": "7fd2c879-e6cd-4e10-8deb-afe5a1a12bc2",
+                    "yugipediaId": 18515,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Play 15 Duel(s) against Syrus Truesdale in Duel World. (surrenders are not counted.)"
+              },
+              {
+                "text": "1 \"Expressroid\"",
+                "cards": [
+                  {
+                    "name": "Expressroid",
+                    "card": "0b51d49c-1857-41f1-b55d-73981ecdc71f",
+                    "yugipediaId": 13733,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Achieve 1 No Damage win(s) in a Duel against Syrus Truesdale."
+              },
+              {
+                "text": "1 \"Ambulanceroid\"",
+                "cards": [
+                  {
+                    "name": "Ambulanceroid",
+                    "card": "c348ba7c-7578-49c9-84b4-cb528e7d7128",
+                    "yugipediaId": 6252,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Achieve 3 No Damage win(s) in a Duel against Syrus Truesdale."
+              },
+              {
+                "text": "1 \"Supercharge\"",
+                "cards": [
+                  {
+                    "name": "Supercharge",
+                    "card": "e2ad005f-4a68-40fa-9377-1a9a7384c6ba",
+                    "yugipediaId": 14649,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Expressroid",
+      "card": "0b51d49c-1857-41f1-b55d-73981ecdc71f",
+      "yugipediaId": 13733,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Play 15 Duel(s) against Syrus Truesdale in Duel World. (surrenders are not counted.)"
+        }
+      ]
+    },
+    {
+      "name": "Submarineroid",
+      "card": "1aca7516-ae4c-4c3d-aa80-a3411485e24b",
+      "yugipediaId": 14526,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Inverse Universe",
+      "card": "e0b6af82-6a15-4418-9dc7-0d41a019ffe3",
+      "yugipediaId": 109278,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Ambulance Rescueroid",
+      "card": "dd714b2e-2620-4a2e-a2af-a2ba7fe05210",
+      "yugipediaId": 14627,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 3 Duel(s) against Syrus Truesdale in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Pair Cycroid",
+      "card": "7fd2c879-e6cd-4e10-8deb-afe5a1a12bc2",
+      "yugipediaId": 18515,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 7 Duel(s) against Syrus Truesdale in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Rescueroid",
+      "card": "d8015020-4895-475e-a781-57afa3ce82de",
+      "yugipediaId": 6292,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 1 Duel(s) against Syrus Truesdale in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Supercharge",
+      "card": "e2ad005f-4a68-40fa-9377-1a9a7384c6ba",
+      "yugipediaId": 14649,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Achieve 3 No Damage win(s) in a Duel against Syrus Truesdale."
+        }
+      ]
+    },
+    {
+      "name": "Carrierroid",
+      "card": "d59708e6-3826-4309-b7bf-cce709fa06a7",
+      "yugipediaId": 21931,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Ambulanceroid",
+      "card": "c348ba7c-7578-49c9-84b4-cb528e7d7128",
+      "yugipediaId": 6252,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Achieve 1 No Damage win(s) in a Duel against Syrus Truesdale."
+        }
+      ]
+    },
+    {
+      "name": "Patroid",
+      "card": "183cf1d2-b817-4bda-8e7c-5880cf7d1f4a",
+      "yugipediaId": 17743,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Syrus Truesdale is here!",
+        "id": 644475
+      }
+    ]
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "66775cca-f59f-4085-b5fd-d9c1d259c922",
+  "name": {
+    "en": "Yami Bakura (Roaming Duelist event)"
+  },
+  "type": "Roaming Duelist event",
+  "duelWorlds": [
+    "Duel World (DM)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/1/1c/YamiBakura-Banner.png",
+  "runs": [
+    {
+      "startDate": "2017-04-11",
+      "endDate": "2017-04-19"
+    },
+    {
+      "startDate": "2017-06-02",
+      "endDate": "2017-06-07"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Event Details",
+        "Duel Rewards"
+      ],
+      "notes": [
+        "In addition to the following, standard Duel Rewards were also available by Dueling Yami Bakura Level 30 or less.",
+        "The rewards did not differ between the May 2017 and June 2017 runs of the event."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Dark Voltanis\", \"Trance Archfiend\", \"Tour Bus To Forbidden Realms\", \"Peeking Goblin\", \"Dark Spirit of the Silent\"",
+                "cards": [
+                  {
+                    "name": "Dark Voltanis",
+                    "card": "cb3903bf-1464-4efb-b23b-9cb7c8ce3c5c",
+                    "yugipediaId": 55629
+                  },
+                  {
+                    "name": "Trance Archfiend",
+                    "card": "ca6606f8-7ebd-47f1-90de-a4804ea706dc",
+                    "yugipediaId": 176503
+                  },
+                  {
+                    "name": "Tour Bus To Forbidden Realms",
+                    "card": "3067a4d2-e021-4dcb-8c34-f98156dc51d2",
+                    "yugipediaId": 304523
+                  },
+                  {
+                    "name": "Peeking Goblin",
+                    "card": "fccafaa7-efc8-443d-993d-828385ad1a0c",
+                    "yugipediaId": 175620
+                  },
+                  {
+                    "name": "Dark Spirit of the Silent",
+                    "card": "ca52f99c-4fd9-48c2-9992-d131a6b6fb58",
+                    "yugipediaId": 3248
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Beast of Talwar\", \"Man-Eating Treasure Chest\", \"Tour Bus From the Underworld\", \"Dark Mambele\", \"Call of the Earthbound\"",
+                "cards": [
+                  {
+                    "name": "Beast of Talwar",
+                    "card": "713f3ee8-02a9-47d6-8279-bc8673c2b701",
+                    "yugipediaId": 8572
+                  },
+                  {
+                    "name": "Man-Eating Treasure Chest",
+                    "card": "a2f6c490-541c-4f27-8743-786150aa4983",
+                    "yugipediaId": 3241
+                  },
+                  {
+                    "name": "Tour Bus From the Underworld",
+                    "card": "d2d6c7eb-5aa4-49b7-a89b-cbfda48e06eb",
+                    "yugipediaId": 182475
+                  },
+                  {
+                    "name": "Dark Mambele",
+                    "card": "fc969663-c5f3-4b01-b78b-31605432a621",
+                    "yugipediaId": 194452
+                  },
+                  {
+                    "name": "Call of the Earthbound",
+                    "card": "fb52f874-67ff-4ebb-83af-a27d8f474135",
+                    "yugipediaId": 18574
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Dark Voltanis",
+      "card": "cb3903bf-1464-4efb-b23b-9cb7c8ce3c5c",
+      "yugipediaId": 55629,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Trance Archfiend",
+      "card": "ca6606f8-7ebd-47f1-90de-a4804ea706dc",
+      "yugipediaId": 176503,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Tour Bus To Forbidden Realms",
+      "card": "3067a4d2-e021-4dcb-8c34-f98156dc51d2",
+      "yugipediaId": 304523,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Peeking Goblin",
+      "card": "fccafaa7-efc8-443d-993d-828385ad1a0c",
+      "yugipediaId": 175620,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Dark Spirit of the Silent",
+      "card": "ca52f99c-4fd9-48c2-9992-d131a6b6fb58",
+      "yugipediaId": 3248,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Beast of Talwar",
+      "card": "713f3ee8-02a9-47d6-8279-bc8673c2b701",
+      "yugipediaId": 8572,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Man-Eating Treasure Chest",
+      "card": "a2f6c490-541c-4f27-8743-786150aa4983",
+      "yugipediaId": 3241,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Tour Bus From the Underworld",
+      "card": "d2d6c7eb-5aa4-49b7-a89b-cbfda48e06eb",
+      "yugipediaId": 182475,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Dark Mambele",
+      "card": "fc969663-c5f3-4b01-b78b-31605432a621",
+      "yugipediaId": 194452,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Call of the Earthbound",
+      "card": "fb52f874-67ff-4ebb-83af-a27d8f474135",
+      "yugipediaId": 18574,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Yami Bakura (Roaming Duelist event)",
+        "id": 662869
+      }
+    ]
+  }
+}

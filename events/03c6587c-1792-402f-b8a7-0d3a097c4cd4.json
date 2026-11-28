@@ -1,0 +1,362 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "03c6587c-1792-402f-b8a7-0d3a097c4cd4",
+  "name": {
+    "en": "Scheming Weevil"
+  },
+  "type": "Roaming Duelist event",
+  "duelWorlds": [
+    "Duel World (DM)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/6/6f/SchemingWeevilishere-Banner.png",
+  "runs": [
+    {
+      "startDate": "2019-10-31",
+      "endDate": "2019-11-06"
+    },
+    {
+      "startDate": "2020-02-25",
+      "endDate": "2020-03-06"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "notes": [
+        "In addition to the following, standard Duel Rewards were also available by Dueling Scheming Weevil Level 30 or less."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Inzektor Firefly\", \"Insect Queen\"",
+                "cards": [
+                  {
+                    "name": "Inzektor Firefly",
+                    "card": "115b267e-edf3-4e5e-9ac0-cf9cebbcdc21",
+                    "yugipediaId": 192971
+                  },
+                  {
+                    "name": "Insect Queen",
+                    "card": "b832a406-8c89-4871-afde-d8a57c89d0cd",
+                    "yugipediaId": 118
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Inzektor Giga-Weevil\", \"Insect Armor with Laser Cannon\", \"Insect Imitation\"",
+                "cards": [
+                  {
+                    "name": "Inzektor Giga-Weevil",
+                    "card": "5f2a1d7b-c4d2-408d-9b67-fcf9f5cd3394",
+                    "yugipediaId": 193600
+                  },
+                  {
+                    "name": "Insect Armor with Laser Cannon",
+                    "card": "0f00269c-fe87-4eee-894e-c4811e89e33d",
+                    "yugipediaId": 5646
+                  },
+                  {
+                    "name": "Insect Imitation",
+                    "card": "efe8610c-684b-4257-9ba7-f19a7626719d",
+                    "yugipediaId": 8022
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Bombardment Beetle\", \"Laser Cannon Armor\", \"Multiplication of Ants\", \"Eradicating Aerosol\"",
+                "cards": [
+                  {
+                    "name": "Bombardment Beetle",
+                    "card": "a532a9f2-bb56-4c55-bc72-1c1b667b1db7",
+                    "yugipediaId": 8344
+                  },
+                  {
+                    "name": "Laser Cannon Armor",
+                    "card": "a4ded5dc-9f74-41e7-9cd3-89968e3d9384",
+                    "yugipediaId": 506317
+                  },
+                  {
+                    "name": "Multiplication of Ants",
+                    "card": "376a9015-dcfa-4f65-9289-c5c5b76ccb69",
+                    "yugipediaId": 14281
+                  },
+                  {
+                    "name": "Eradicating Aerosol",
+                    "card": "405c20d0-824a-4aef-9d02-b75db276e367",
+                    "yugipediaId": 8834
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Hunter Spider\"",
+                "cards": [
+                  {
+                    "name": "Hunter Spider",
+                    "card": "c4d50b14-1de0-4856-a19f-85ca3a32d7eb",
+                    "yugipediaId": 4084
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Rewards",
+        "Event Missions"
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against Scheming Weevil."
+              },
+              {
+                "text": "1 \"Bombardment Beetle\"",
+                "cards": [
+                  {
+                    "name": "Bombardment Beetle",
+                    "card": "a532a9f2-bb56-4c55-bc72-1c1b667b1db7",
+                    "yugipediaId": 8344,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 3 Duel(s) against Scheming Weevil."
+              },
+              {
+                "text": "1 \"Insect Armor with Laser Cannon\"",
+                "cards": [
+                  {
+                    "name": "Insect Armor with Laser Cannon",
+                    "card": "0f00269c-fe87-4eee-894e-c4811e89e33d",
+                    "yugipediaId": 5646,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 7 Duel(s) against Scheming Weevil."
+              },
+              {
+                "text": "1 \"Inzektor Giga-Weevil\"",
+                "cards": [
+                  {
+                    "name": "Inzektor Giga-Weevil",
+                    "card": "5f2a1d7b-c4d2-408d-9b67-fcf9f5cd3394",
+                    "yugipediaId": 193600,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Play 15 Duel(s) against Scheming Weevil. (surrenders are not counted.)"
+              },
+              {
+                "text": "1 \"Inzektor Firefly\"",
+                "cards": [
+                  {
+                    "name": "Inzektor Firefly",
+                    "card": "115b267e-edf3-4e5e-9ac0-cf9cebbcdc21",
+                    "yugipediaId": 192971,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Inzektor Firefly",
+      "card": "115b267e-edf3-4e5e-9ac0-cf9cebbcdc21",
+      "yugipediaId": 192971,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "missions",
+          "requirement": "Play 15 Duel(s) against Scheming Weevil. (surrenders are not counted.)"
+        }
+      ]
+    },
+    {
+      "name": "Insect Queen",
+      "card": "b832a406-8c89-4871-afde-d8a57c89d0cd",
+      "yugipediaId": 118,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "requirement": "UR",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Inzektor Giga-Weevil",
+      "card": "5f2a1d7b-c4d2-408d-9b67-fcf9f5cd3394",
+      "yugipediaId": 193600,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "requirement": "Win 7 Duel(s) against Scheming Weevil."
+        }
+      ]
+    },
+    {
+      "name": "Insect Armor with Laser Cannon",
+      "card": "0f00269c-fe87-4eee-894e-c4811e89e33d",
+      "yugipediaId": 5646,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "requirement": "Win 3 Duel(s) against Scheming Weevil."
+        }
+      ]
+    },
+    {
+      "name": "Insect Imitation",
+      "card": "efe8610c-684b-4257-9ba7-f19a7626719d",
+      "yugipediaId": 8022,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Bombardment Beetle",
+      "card": "a532a9f2-bb56-4c55-bc72-1c1b667b1db7",
+      "yugipediaId": 8344,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "missions",
+          "requirement": "Win 1 Duel(s) against Scheming Weevil."
+        }
+      ]
+    },
+    {
+      "name": "Laser Cannon Armor",
+      "card": "a4ded5dc-9f74-41e7-9cd3-89968e3d9384",
+      "yugipediaId": 506317,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Multiplication of Ants",
+      "card": "376a9015-dcfa-4f65-9289-c5c5b76ccb69",
+      "yugipediaId": 14281,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Eradicating Aerosol",
+      "card": "405c20d0-824a-4aef-9d02-b75db276e367",
+      "yugipediaId": 8834,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Hunter Spider",
+      "card": "c4d50b14-1de0-4856-a19f-85ca3a32d7eb",
+      "yugipediaId": 4084,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Scheming Weevil is here!",
+        "id": 678335
+      }
+    ]
+  }
+}

@@ -1,0 +1,611 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "59d26679-dac1-4aa4-9b75-be6224e84772",
+  "name": {
+    "en": "Alito is here!"
+  },
+  "type": "Roaming Duelist event",
+  "duelWorlds": [
+    "Duel World (ZEXAL)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/2/2a/Alitoishere-Banner.png",
+  "runs": [
+    {
+      "startDate": "2023-07-14",
+      "endDate": "2023-07-23"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "In addition to the following, standard Duel Rewards are also available by Dueling Alito at Level 30 or lower."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Setuppercut\", \"Giant Orc\"",
+                "cards": [
+                  {
+                    "name": "Setuppercut",
+                    "card": "db7b32ab-0c5c-49c0-88f6-c4ebf9a9df11",
+                    "yugipediaId": 600362
+                  },
+                  {
+                    "name": "Giant Orc",
+                    "card": "25aa9a86-0f09-44f2-a2cf-34e1b51f6df7",
+                    "yugipediaId": 2398
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Xyz Bento\", \"Reload\", \"Heartless Drop Off\"",
+                "cards": [
+                  {
+                    "name": "Xyz Bento",
+                    "card": "512a339f-6e8d-41c6-8c6f-277991dc6ea3",
+                    "yugipediaId": 708450
+                  },
+                  {
+                    "name": "Reload",
+                    "card": "a6572397-03da-4b2e-873f-8eeffba1a4f8",
+                    "yugipediaId": 504772
+                  },
+                  {
+                    "name": "Heartless Drop Off",
+                    "card": "e5ab1f2f-a474-4e24-9253-d378ab8831c3",
+                    "yugipediaId": 548652
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Second Goblin\", \"Guard Penalty\"",
+                "cards": [
+                  {
+                    "name": "Second Goblin",
+                    "card": "70a9a41d-361c-40cf-b55c-3f99594b7ca6",
+                    "yugipediaId": 17539
+                  },
+                  {
+                    "name": "Guard Penalty",
+                    "card": "6f93e2a6-92cf-4c22-8c20-da864e9ca95f",
+                    "yugipediaId": 13042
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Armor Break\", \"Riryoku Field\", \"Flame Manipulator\"",
+                "cards": [
+                  {
+                    "name": "Armor Break",
+                    "card": "f6a5432d-56ba-4c51-96ba-3728f6f64abe",
+                    "yugipediaId": 18203
+                  },
+                  {
+                    "name": "Riryoku Field",
+                    "card": "b710adbe-f65b-430f-983b-b1066a01b2a4",
+                    "yugipediaId": 7922
+                  },
+                  {
+                    "name": "Flame Manipulator",
+                    "card": "da93235c-efc5-44da-8cd5-8042e3ffafb9",
+                    "yugipediaId": 505163
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Rewards",
+        "Event Missions"
+      ],
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against Alito in Duel World."
+              },
+              {
+                "text": "1 \"Reload\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Reload",
+                    "card": "a6572397-03da-4b2e-873f-8eeffba1a4f8",
+                    "yugipediaId": 504772,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 3 Duel(s) against Alito in Duel World."
+              },
+              {
+                "text": "1 \"Giant Orc\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Giant Orc",
+                    "card": "25aa9a86-0f09-44f2-a2cf-34e1b51f6df7",
+                    "yugipediaId": 2398,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 7 Duel(s) against Alito in Duel World."
+              },
+              {
+                "text": "1 \"Xyz Bento\"",
+                "cards": [
+                  {
+                    "name": "Xyz Bento",
+                    "card": "512a339f-6e8d-41c6-8c6f-277991dc6ea3",
+                    "yugipediaId": 708450,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Play 15 Duel(s) against Alito in Duel World (surrenders are not counted)."
+              },
+              {
+                "text": "1 \"Setuppercut\"",
+                "cards": [
+                  {
+                    "name": "Setuppercut",
+                    "card": "db7b32ab-0c5c-49c0-88f6-c4ebf9a9df11",
+                    "yugipediaId": 600362,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "decks": [
+    {
+      "path": [
+        "Decks",
+        "Level 30"
+      ],
+      "cards": [
+        {
+          "name": "Battlin' Boxer Big Bandage",
+          "card": "1f17fc91-812e-4469-a07c-ac6dfb548d19",
+          "yugipediaId": 290886,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Battlin' Boxer Rib Gardna",
+          "card": "4bb37fd1-1ab2-4c7c-9508-78dc23fec2f8",
+          "yugipediaId": 259324,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Battlin' Boxer Sparrer",
+          "card": "52ca99ba-eec9-48f6-ba32-954ef547e84f",
+          "yugipediaId": 256451,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Battlin' Boxer Switchitter",
+          "card": "e304d0f1-0f23-404a-8c92-46d7be6bfb84",
+          "yugipediaId": 256528,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Des Kangaroo",
+          "card": "4ca433bb-3dce-4e88-8802-23a795798948",
+          "yugipediaId": 11431,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Jabbing Panda",
+          "card": "707530ce-3194-4cd4-b23c-6150441dcdf3",
+          "yugipediaId": 715453,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Battlin' Boxer Cheat Commissioner",
+          "card": "2586519e-df6f-4b10-b88c-b6c82d23074c",
+          "yugipediaId": 258056,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Number 79: Battlin' Boxer Nova Kaiser",
+          "card": "7ca42882-a71b-4caf-b69b-e9e1a8500ac6",
+          "yugipediaId": 297828,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Continuous Destruction Punch",
+          "card": "279dcac9-e139-4bf4-8630-c4f53a22f578",
+          "yugipediaId": 12935,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Guard Penalty",
+          "card": "6f93e2a6-92cf-4c22-8c20-da864e9ca95f",
+          "yugipediaId": 13042,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Reload",
+          "card": "a6572397-03da-4b2e-873f-8eeffba1a4f8",
+          "yugipediaId": 504772,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Face-Off",
+          "card": "0a6853a8-ce42-4a7a-bfc3-f9fddc83133d",
+          "yugipediaId": 333049,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Numbers Overlay Boost",
+          "card": "44d03bb8-b746-4c24-afec-b5b8308a59e1",
+          "yugipediaId": 259436,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Rebound",
+          "card": "9b096eb6-4abb-4c9c-a311-4c9dad01cb2a",
+          "yugipediaId": 214225,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Level 40"
+      ],
+      "cards": [
+        {
+          "name": "Battlin' Boxer Big Bandage",
+          "card": "1f17fc91-812e-4469-a07c-ac6dfb548d19",
+          "yugipediaId": 290886,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Battlin' Boxer Glassjaw",
+          "card": "ec0b149d-bfd1-4ad5-b448-0dc5e6a90177",
+          "yugipediaId": 246397,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Battlin' Boxer Headgeared",
+          "card": "4c6e305f-dd65-4b56-bd6e-00205585fe82",
+          "yugipediaId": 246034,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Battlin' Boxer Shadow",
+          "card": "8271fb51-a601-4aa5-a90c-86fb0c19a66f",
+          "yugipediaId": 298647,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Battlin' Boxer Sparrer",
+          "card": "52ca99ba-eec9-48f6-ba32-954ef547e84f",
+          "yugipediaId": 256451,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Battlin' Boxer Switchitter",
+          "card": "e304d0f1-0f23-404a-8c92-46d7be6bfb84",
+          "yugipediaId": 256528,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "BOXer",
+          "card": "53956ee6-a74f-4e16-9e64-0738627811ba",
+          "yugipediaId": 324840,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Giant Orc",
+          "card": "25aa9a86-0f09-44f2-a2cf-34e1b51f6df7",
+          "yugipediaId": 2398,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Second Goblin",
+          "card": "70a9a41d-361c-40cf-b55c-3f99594b7ca6",
+          "yugipediaId": 17539,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Number 79: Battlin' Boxer Nova Kaiser",
+          "card": "7ca42882-a71b-4caf-b69b-e9e1a8500ac6",
+          "yugipediaId": 297828,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Number 105: Battlin' Boxer Star Cestus",
+          "card": "66d04d1e-1331-46cd-9fe9-93167935f6ed",
+          "yugipediaId": 256805,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Battlin' Boxing Spirits",
+          "card": "acfd3dae-ec7f-479c-95a8-f7a842113223",
+          "yugipediaId": 270085,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Counter Counter",
+          "card": "e06f337b-069c-48c3-84e4-fa8d47deb331",
+          "yugipediaId": 512604,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Jolt Counter",
+          "card": "a0de8870-81bf-4fac-864f-e7828a446004",
+          "yugipediaId": 299289,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Numbers Overlay Boost",
+          "card": "44d03bb8-b746-4c24-afec-b5b8308a59e1",
+          "yugipediaId": 259436,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Setuppercut",
+          "card": "db7b32ab-0c5c-49c0-88f6-c4ebf9a9df11",
+          "yugipediaId": 600362,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Showdown of the Secret Sense Scroll Techniques",
+          "card": "9782d25c-4f53-4041-a226-69afc9240964",
+          "yugipediaId": 526389,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Setuppercut",
+      "card": "db7b32ab-0c5c-49c0-88f6-c4ebf9a9df11",
+      "yugipediaId": 600362,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Play 15 Duel(s) against Alito in Duel World (surrenders are not counted)."
+        }
+      ]
+    },
+    {
+      "name": "Giant Orc",
+      "card": "25aa9a86-0f09-44f2-a2cf-34e1b51f6df7",
+      "yugipediaId": 2398,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 3 Duel(s) against Alito in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Xyz Bento",
+      "card": "512a339f-6e8d-41c6-8c6f-277991dc6ea3",
+      "yugipediaId": 708450,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 7 Duel(s) against Alito in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Reload",
+      "card": "a6572397-03da-4b2e-873f-8eeffba1a4f8",
+      "yugipediaId": 504772,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 1 Duel(s) against Alito in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Heartless Drop Off",
+      "card": "e5ab1f2f-a474-4e24-9253-d378ab8831c3",
+      "yugipediaId": 548652,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Second Goblin",
+      "card": "70a9a41d-361c-40cf-b55c-3f99594b7ca6",
+      "yugipediaId": 17539,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Guard Penalty",
+      "card": "6f93e2a6-92cf-4c22-8c20-da864e9ca95f",
+      "yugipediaId": 13042,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Armor Break",
+      "card": "f6a5432d-56ba-4c51-96ba-3728f6f64abe",
+      "yugipediaId": 18203,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Riryoku Field",
+      "card": "b710adbe-f65b-430f-983b-b1066a01b2a4",
+      "yugipediaId": 7922,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Flame Manipulator",
+      "card": "da93235c-efc5-44da-8cd5-8042e3ffafb9",
+      "yugipediaId": 505163,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Alito is here!",
+        "id": 1128630
+      }
+    ]
+  }
+}

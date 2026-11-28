@@ -1,0 +1,4848 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "d44134f5-4f0c-4c08-bf5e-df4ee350db9d",
+  "name": {
+    "en": "Duelist Chronicles GX: Yubel"
+  },
+  "type": "Duelist Chronicles",
+  "duelWorlds": [
+    "Duel World (GX)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/6/69/DuelistChroniclesGXYubel-Banner.png",
+  "runs": [
+    {
+      "startDate": "2019-09-16",
+      "endDate": "2019-09-25"
+    },
+    {
+      "startDate": "2020-06-15",
+      "endDate": "2020-06-24"
+    }
+  ],
+  "cardTraderExDates": [
+    {
+      "startDate": "2019-09-16",
+      "endDate": "2019-10-02"
+    },
+    {
+      "startDate": "2020-06-15",
+      "endDate": "2020-07-01"
+    }
+  ],
+  "lotteryDates": [
+    {
+      "startDate": "2019-09-16",
+      "endDate": "2019-10-02"
+    },
+    {
+      "startDate": "2020-06-15",
+      "endDate": "2020-07-01"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "completion",
+      "path": [
+        "Rewards",
+        "Completion"
+      ],
+      "run": "2020",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "Round",
+            "Stage",
+            "Completion Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "1"
+              },
+              {
+                "text": "New Semester"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1"
+              },
+              {
+                "text": "Duel Academia?"
+              },
+              {
+                "text": "2 Results Boosters"
+              }
+            ],
+            [
+              {
+                "text": "1"
+              },
+              {
+                "text": "Another Dimension"
+              },
+              {
+                "text": "5 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "1"
+              },
+              {
+                "text": "Yubel's Castle"
+              },
+              {
+                "text": "1 \"Armityle the Chaos Phantasm\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Armityle the Chaos Phantasm",
+                    "card": "3f714338-8154-4886-be7e-5b80a16febe3",
+                    "yugipediaId": 510800,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "2"
+              },
+              {
+                "text": "New Semester"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "2"
+              },
+              {
+                "text": "Duel Academia?"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "2"
+              },
+              {
+                "text": "Another Dimension"
+              },
+              {
+                "text": "5 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "2"
+              },
+              {
+                "text": "Yubel's Castle"
+              },
+              {
+                "text": "1 \"Vision HERO Poisoner\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Vision HERO Poisoner",
+                    "card": "e16dd06f-4844-405c-91ce-d56b2b2990e2",
+                    "yugipediaId": 425516,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "3"
+              },
+              {
+                "text": "New Semester"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "3"
+              },
+              {
+                "text": "Duel Academia?"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "3"
+              },
+              {
+                "text": "Another Dimension"
+              },
+              {
+                "text": "40 Gems"
+              }
+            ],
+            [
+              {
+                "text": "3"
+              },
+              {
+                "text": "Yubel's Castle"
+              },
+              {
+                "text": "1 \"Advanced Dark\"",
+                "cards": [
+                  {
+                    "name": "Advanced Dark",
+                    "card": "4d5c3fce-07f0-4509-845f-eaa4d0462010",
+                    "yugipediaId": 507671,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "4"
+              },
+              {
+                "text": "New Semester"
+              },
+              {
+                "text": "40 Gems"
+              }
+            ],
+            [
+              {
+                "text": "4"
+              },
+              {
+                "text": "Duel Academia?"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "4"
+              },
+              {
+                "text": "Another Dimension"
+              },
+              {
+                "text": "40 Gems"
+              }
+            ],
+            [
+              {
+                "text": "4"
+              },
+              {
+                "text": "Yubel's Castle"
+              },
+              {
+                "text": "1 \"Rainbow Dark Dragon\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Rainbow Dark Dragon",
+                    "card": "1fc35c16-6fad-429f-bf10-9714dc3f3dfd",
+                    "yugipediaId": 507634,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "5"
+              },
+              {
+                "text": "New Semester"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "5"
+              },
+              {
+                "text": "Duel Academia?"
+              },
+              {
+                "text": "50 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "5"
+              },
+              {
+                "text": "Another Dimension"
+              },
+              {
+                "text": "10 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "5"
+              },
+              {
+                "text": "Yubel's Castle"
+              },
+              {
+                "text": "1 \"Unstable Evolution\"",
+                "cards": [
+                  {
+                    "name": "Unstable Evolution",
+                    "card": "2edd313a-dc28-48df-85ea-2656c8c948bc",
+                    "yugipediaId": 32419,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "6"
+              },
+              {
+                "text": "Yubel's Castle"
+              },
+              {
+                "text": "100 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "7"
+              },
+              {
+                "text": "Yubel's Castle"
+              },
+              {
+                "text": "100 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "8"
+              },
+              {
+                "text": "Yubel's Castle"
+              },
+              {
+                "text": "100 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "9"
+              },
+              {
+                "text": "Yubel's Castle"
+              },
+              {
+                "text": "100 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "Yubel's Castle"
+              },
+              {
+                "text": "100 R Jewels"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "completion",
+      "path": [
+        "Rewards",
+        "Completion"
+      ],
+      "run": "2019",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Round",
+            "Stage",
+            "Completion Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "1"
+              },
+              {
+                "text": "New Semester"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1"
+              },
+              {
+                "text": "Duel Academia?"
+              },
+              {
+                "text": "1 \"Crystal Blessing\"",
+                "cards": [
+                  {
+                    "name": "Crystal Blessing",
+                    "card": "6638a1c0-e5c5-4f6e-afd8-c31d8f475c18",
+                    "yugipediaId": 20350,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "1"
+              },
+              {
+                "text": "Another Dimension"
+              },
+              {
+                "text": "3 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "1"
+              },
+              {
+                "text": "Yubel's Castle"
+              },
+              {
+                "text": "1 \"Raviel, Lord of Phantasms\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Raviel, Lord of Phantasms",
+                    "card": "521d8e37-4254-4f29-8c98-66bd096b9076",
+                    "yugipediaId": 1776,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "2"
+              },
+              {
+                "text": "New Semester"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "2"
+              },
+              {
+                "text": "Duel Academia?"
+              },
+              {
+                "text": "3 Results Booster"
+              }
+            ],
+            [
+              {
+                "text": "2"
+              },
+              {
+                "text": "Another Dimension"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "2"
+              },
+              {
+                "text": "Yubel's Castle"
+              },
+              {
+                "text": "1 \"The Supremacy Sun\"",
+                "cards": [
+                  {
+                    "name": "The Supremacy Sun",
+                    "card": "60e42a8c-f38d-4805-9ffd-fc7b2275ed91",
+                    "yugipediaId": 148053,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "3"
+              },
+              {
+                "text": "New Semester"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "3"
+              },
+              {
+                "text": "Duel Academia?"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "3"
+              },
+              {
+                "text": "Another Dimension"
+              },
+              {
+                "text": "40 Gems"
+              }
+            ],
+            [
+              {
+                "text": "3"
+              },
+              {
+                "text": "Yubel's Castle"
+              },
+              {
+                "text": "1 \"Vision HERO Poisoner\"",
+                "cards": [
+                  {
+                    "name": "Vision HERO Poisoner",
+                    "card": "e16dd06f-4844-405c-91ce-d56b2b2990e2",
+                    "yugipediaId": 425516,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "4"
+              },
+              {
+                "text": "New Semester"
+              },
+              {
+                "text": "40 Gems"
+              }
+            ],
+            [
+              {
+                "text": "4"
+              },
+              {
+                "text": "Duel Academia?"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "4"
+              },
+              {
+                "text": "Another Dimension"
+              },
+              {
+                "text": "40 Gems"
+              }
+            ],
+            [
+              {
+                "text": "4"
+              },
+              {
+                "text": "Yubel's Castle"
+              },
+              {
+                "text": "1 \"Plasma Warrior Eitom\"",
+                "cards": [
+                  {
+                    "name": "Plasma Warrior Eitom",
+                    "card": "af499a49-89c5-4e32-b129-007573203317",
+                    "yugipediaId": 1185667,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "5"
+              },
+              {
+                "text": "New Semester"
+              },
+              {
+                "text": "50 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "5"
+              },
+              {
+                "text": "Duel Academia?"
+              },
+              {
+                "text": "20000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "5"
+              },
+              {
+                "text": "Another Dimension"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "5"
+              },
+              {
+                "text": "Yubel's Castle"
+              },
+              {
+                "text": "1 \"Rainbow Dark Dragon\"",
+                "cards": [
+                  {
+                    "name": "Rainbow Dark Dragon",
+                    "card": "1fc35c16-6fad-429f-bf10-9714dc3f3dfd",
+                    "yugipediaId": 507634,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "6"
+              },
+              {
+                "text": "Yubel's Castle"
+              },
+              {
+                "text": "Duelist Chronicles GX (Yubel) Completed"
+              }
+            ],
+            [
+              {
+                "text": "7"
+              },
+              {
+                "text": "Yubel's Castle"
+              },
+              {
+                "text": "100 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "8"
+              },
+              {
+                "text": "Yubel's Castle"
+              },
+              {
+                "text": "100 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "9"
+              },
+              {
+                "text": "Yubel's Castle"
+              },
+              {
+                "text": "100 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "Yubel's Castle"
+              },
+              {
+                "text": "100 R Jewels"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "other",
+      "path": [
+        "Rewards",
+        "King of Games Challenge"
+      ],
+      "notes": [
+        "As of June 21, 2020 (September 21, 2019 during the first run), the King of Games can be challenged at any time by using 10 Challenge Tickets from the \"Support Item\" menu. The following rewards can be obtained by defeating him a certain number of times."
+      ]
+    },
+    {
+      "kind": "other",
+      "path": [
+        "Rewards",
+        "King of Games Challenge"
+      ],
+      "run": "2020",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "Wins",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "1"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "2"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "3"
+              },
+              {
+                "text": "Skill: \"I'm Always Near You\"",
+                "skills": [
+                  {
+                    "name": "I'm Always Near You",
+                    "skill": "633749f3-1415-4649-b744-ae4b9837b113",
+                    "yugipediaId": 715361
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "4"
+              },
+              {
+                "text": "Card Sleeves: Obelisk Blue"
+              }
+            ],
+            [
+              {
+                "text": "5"
+              },
+              {
+                "text": "Game Mat: Obelisk Blue"
+              }
+            ],
+            [
+              {
+                "text": "6"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "7"
+              },
+              {
+                "text": "1 UR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "8"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "9 and beyond"
+              },
+              {
+                "text": "150 Lottery Coins"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "other",
+      "path": [
+        "Rewards",
+        "King of Games Challenge"
+      ],
+      "run": "2019",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Wins",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "1"
+              },
+              {
+                "text": "Card Sleeves: Duelist Chronicles GX: Yubel"
+              }
+            ],
+            [
+              {
+                "text": "2"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "3"
+              },
+              {
+                "text": "Skill: \"Ultimate Fusion!\"",
+                "skills": [
+                  {
+                    "name": "Ultimate Fusion!",
+                    "skill": "76ecbf48-5cc7-4341-b441-a8c8dba67844",
+                    "yugipediaId": 717304
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "4"
+              },
+              {
+                "text": "Card Sleeves: Slifer Red"
+              }
+            ],
+            [
+              {
+                "text": "5"
+              },
+              {
+                "text": "Game Mat: Duelist Chronicles GX: Yubel"
+              }
+            ],
+            [
+              {
+                "text": "6"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "7"
+              },
+              {
+                "text": "Icon"
+              }
+            ],
+            [
+              {
+                "text": "8"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "9 and beyond"
+              },
+              {
+                "text": "150 Lottery Coins"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "cardTraderEx",
+      "path": [
+        "Rewards",
+        "Card Trader EX"
+      ],
+      "notes": [
+        "The Card Trader EX appears during this event and remained open until one week after its conclusion. The player can trade their EX Jewels for cards, Booster Items, and Gold. Each card and Booster Item can only be obtained once from the Card Trader EX during this event, but the Challenge Ticket and Gold can be obtained any number of times. When purchasing one of the latter, the player can chose how many copies they wish to exchange."
+      ]
+    },
+    {
+      "kind": "cardTraderEx",
+      "path": [
+        "Rewards",
+        "Card Trader EX"
+      ],
+      "run": "2020",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "EX Jewels",
+            "Item"
+          ],
+          "rows": [
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1"
+              },
+              {
+                "text": "100 Gold"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Results Booster"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 EXP Booster"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "10 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "15"
+              },
+              {
+                "text": "1 Challenge Ticket"
+              }
+            ],
+            [
+              {
+                "text": "300"
+              },
+              {
+                "text": "1 \"Unstable Evolution\"",
+                "cards": [
+                  {
+                    "name": "Unstable Evolution",
+                    "card": "2edd313a-dc28-48df-85ea-2656c8c948bc",
+                    "yugipediaId": 32419,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Unstable Evolution\" (Glossy)",
+                "cards": [
+                  {
+                    "name": "Unstable Evolution",
+                    "card": "2edd313a-dc28-48df-85ea-2656c8c948bc",
+                    "yugipediaId": 32419,
+                    "quantity": 1,
+                    "variant": "Glossy"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "400"
+              },
+              {
+                "text": "1 \"Unstable Evolution\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Unstable Evolution",
+                    "card": "2edd313a-dc28-48df-85ea-2656c8c948bc",
+                    "yugipediaId": 32419,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "300"
+              },
+              {
+                "text": "1 \"Rainbow Dark Dragon\"",
+                "cards": [
+                  {
+                    "name": "Rainbow Dark Dragon",
+                    "card": "1fc35c16-6fad-429f-bf10-9714dc3f3dfd",
+                    "yugipediaId": 507634,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Advanced Dark\"",
+                "cards": [
+                  {
+                    "name": "Advanced Dark",
+                    "card": "4d5c3fce-07f0-4509-845f-eaa4d0462010",
+                    "yugipediaId": 507671,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Vision HERO Poisoner\"",
+                "cards": [
+                  {
+                    "name": "Vision HERO Poisoner",
+                    "card": "e16dd06f-4844-405c-91ce-d56b2b2990e2",
+                    "yugipediaId": 425516,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Regenerating Rose\"",
+                "cards": [
+                  {
+                    "name": "Regenerating Rose",
+                    "card": "161400b2-4574-407b-afab-8aeda7bc300a",
+                    "yugipediaId": 73641,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Sabatiel - The Philosopher's Stone\"",
+                "cards": [
+                  {
+                    "name": "Sabatiel - The Philosopher's Stone",
+                    "card": "dca4410e-bc66-4afa-aff2-8ee8364d825b",
+                    "yugipediaId": 516892,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Winged Kuriboh LV9\"",
+                "cards": [
+                  {
+                    "name": "Winged Kuriboh LV9",
+                    "card": "827a1bc4-b13b-4a91-bc5c-1198372980f5",
+                    "yugipediaId": 510603,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Rainbow Path\"",
+                "cards": [
+                  {
+                    "name": "Rainbow Path",
+                    "card": "f7dd173d-6bd7-4e7a-a0dd-98249e870205",
+                    "yugipediaId": 70183,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Crystal Blessing\"",
+                "cards": [
+                  {
+                    "name": "Crystal Blessing",
+                    "card": "6638a1c0-e5c5-4f6e-afd8-c31d8f475c18",
+                    "yugipediaId": 20350,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Ojama Knight\"",
+                "cards": [
+                  {
+                    "name": "Ojama Knight",
+                    "card": "4b7d239d-f494-4b3e-8957-17f99bad9ba9",
+                    "yugipediaId": 16153,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Poly-Chemicritter Hydragon\"",
+                "cards": [
+                  {
+                    "name": "Poly-Chemicritter Hydragon",
+                    "card": "f68cc3d1-69cc-43b1-bdae-9c0ac650a057",
+                    "yugipediaId": 452469,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Spirit of the Breeze\"",
+                "cards": [
+                  {
+                    "name": "Spirit of the Breeze",
+                    "card": "4e1cc384-0379-42da-9580-8628a377cb13",
+                    "yugipediaId": 5614,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Elemental HERO Clayman\"",
+                "cards": [
+                  {
+                    "name": "Elemental HERO Clayman",
+                    "card": "e2b94dc1-678f-4e66-a8ab-669b879e54c8",
+                    "yugipediaId": 716,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Feather Wind\"",
+                "cards": [
+                  {
+                    "name": "Feather Wind",
+                    "card": "54edde8a-f3fd-4873-837a-bb9d748f96d4",
+                    "yugipediaId": 2617,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Beastly Mirror Ritual\"",
+                "cards": [
+                  {
+                    "name": "Beastly Mirror Ritual",
+                    "card": "252850e8-40ea-48fd-9fa1-9fe88ba5cf3f",
+                    "yugipediaId": 10028,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Fiend's Mirror\"",
+                "cards": [
+                  {
+                    "name": "Fiend's Mirror",
+                    "card": "983d5e90-e348-483b-bc5f-1c42c15a8dcd",
+                    "yugipediaId": 9981,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Kojikocy\"",
+                "cards": [
+                  {
+                    "name": "Kojikocy",
+                    "card": "7a09e8f8-6d36-4dc9-bf2e-7a5b393fb556",
+                    "yugipediaId": 508552,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "cardTraderEx",
+      "path": [
+        "Rewards",
+        "Card Trader EX"
+      ],
+      "run": "2019",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "EX Jewels",
+            "Item"
+          ],
+          "rows": [
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1"
+              },
+              {
+                "text": "100 Gold"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Results Booster"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 EXP Booster"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "15"
+              },
+              {
+                "text": "1 Challenge Ticket"
+              }
+            ],
+            [
+              {
+                "text": "300"
+              },
+              {
+                "text": "1 \"Rainbow Dark Dragon\"",
+                "cards": [
+                  {
+                    "name": "Rainbow Dark Dragon",
+                    "card": "1fc35c16-6fad-429f-bf10-9714dc3f3dfd",
+                    "yugipediaId": 507634,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "300"
+              },
+              {
+                "text": "1 \"Plasma Warrior Eitom\"",
+                "cards": [
+                  {
+                    "name": "Plasma Warrior Eitom",
+                    "card": "af499a49-89c5-4e32-b129-007573203317",
+                    "yugipediaId": 1185667,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Vision HERO Poisoner\"",
+                "cards": [
+                  {
+                    "name": "Vision HERO Poisoner",
+                    "card": "e16dd06f-4844-405c-91ce-d56b2b2990e2",
+                    "yugipediaId": 425516,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"The Supremacy Sun\"",
+                "cards": [
+                  {
+                    "name": "The Supremacy Sun",
+                    "card": "60e42a8c-f38d-4805-9ffd-fc7b2275ed91",
+                    "yugipediaId": 148053,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Crystal Beast Emerald Tortoise\"",
+                "cards": [
+                  {
+                    "name": "Crystal Beast Emerald Tortoise",
+                    "card": "965156e2-5534-42bb-9dc8-ec94a6258932",
+                    "yugipediaId": 511286,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Elemental HERO Core\"",
+                "cards": [
+                  {
+                    "name": "Elemental HERO Core",
+                    "card": "66f360b7-6511-42bd-b8ba-7309baa67776",
+                    "yugipediaId": 353107,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Regenerating Rose\"",
+                "cards": [
+                  {
+                    "name": "Regenerating Rose",
+                    "card": "161400b2-4574-407b-afab-8aeda7bc300a",
+                    "yugipediaId": 73641,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Rainbow Path\"",
+                "cards": [
+                  {
+                    "name": "Rainbow Path",
+                    "card": "f7dd173d-6bd7-4e7a-a0dd-98249e870205",
+                    "yugipediaId": 70183,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Crystal Blessing\"",
+                "cards": [
+                  {
+                    "name": "Crystal Blessing",
+                    "card": "6638a1c0-e5c5-4f6e-afd8-c31d8f475c18",
+                    "yugipediaId": 20350,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Cocoon Rebirth\"",
+                "cards": [
+                  {
+                    "name": "Cocoon Rebirth",
+                    "card": "e689d6ff-bd67-4fe6-9ed7-744c580d63a0",
+                    "yugipediaId": 512469,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Space Gift\"",
+                "cards": [
+                  {
+                    "name": "Space Gift",
+                    "card": "17f56d21-0502-4d64-b18a-171970a2ea87",
+                    "yugipediaId": 69640,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Anti-Fusion Device\"",
+                "cards": [
+                  {
+                    "name": "Anti-Fusion Device",
+                    "card": "68801a89-11dd-4c67-be0e-a48b18433015",
+                    "yugipediaId": 22044,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Chrysalis Dolphin\"",
+                "cards": [
+                  {
+                    "name": "Chrysalis Dolphin",
+                    "card": "733e1258-e6bc-42ea-8a75-dd42d66f3895",
+                    "yugipediaId": 6048,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Chrysalis Chicky\"",
+                "cards": [
+                  {
+                    "name": "Chrysalis Chicky",
+                    "card": "bd7a32c0-3e81-4834-8f9c-31b8e0f0230f",
+                    "yugipediaId": 21949,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Chrysalis Pantail\"",
+                "cards": [
+                  {
+                    "name": "Chrysalis Pantail",
+                    "card": "a867ee66-fcbf-45b1-a1d8-723dd9ce1555",
+                    "yugipediaId": 21932,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Chrysalis Pinny\"",
+                "cards": [
+                  {
+                    "name": "Chrysalis Pinny",
+                    "card": "973fc186-4d72-4e7f-9f0b-fde4bc3e2b09",
+                    "yugipediaId": 21942,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Chrysalis Larva\"",
+                "cards": [
+                  {
+                    "name": "Chrysalis Larva",
+                    "card": "d268ae68-4bc5-4bd8-a6c3-e79157112713",
+                    "yugipediaId": 21939,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Contact\"",
+                "cards": [
+                  {
+                    "name": "Contact",
+                    "card": "24e7e5d6-b50f-4e68-af58-cd2800911fd8",
+                    "yugipediaId": 12494,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "lottery",
+      "path": [
+        "Rewards",
+        "Lottery"
+      ],
+      "notes": [
+        "The player can spend a multiple of 30 Lottery Coins (max. 300 at a time) to obtain one random reward for each 30 Lottery Coins spent. The Lottery remained available until after the event's conclusion, and could be accessed from the \"Information\" menu."
+      ]
+    },
+    {
+      "kind": "lottery",
+      "path": [
+        "Rewards",
+        "Lottery"
+      ],
+      "run": "2020",
+      "runIndex": 1,
+      "tables": [
+        {
+          "rows": [
+            [
+              {
+                "text": ""
+              },
+              {
+                "text": "Lottery Rewards"
+              }
+            ],
+            [
+              {
+                "text": "Rainbow"
+              },
+              {
+                "text": "\"Unstable Evolution\" (UR), \"Rainbow Dark Dragon\" (UR), \"Advanced Dark\" (SR), \"Vision HERO Poisoner\" (SR), \"Regenerating Rose\" (SR), \"Sabatiel - The Philosopher's Stone\" (SR), \"Winged Kuriboh LV9\" (SR)\n10 Gems",
+                "cards": [
+                  {
+                    "name": "Unstable Evolution",
+                    "card": "2edd313a-dc28-48df-85ea-2656c8c948bc",
+                    "yugipediaId": 32419,
+                    "rarity": "UR"
+                  },
+                  {
+                    "name": "Rainbow Dark Dragon",
+                    "card": "1fc35c16-6fad-429f-bf10-9714dc3f3dfd",
+                    "yugipediaId": 507634,
+                    "rarity": "UR"
+                  },
+                  {
+                    "name": "Advanced Dark",
+                    "card": "4d5c3fce-07f0-4509-845f-eaa4d0462010",
+                    "yugipediaId": 507671,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Vision HERO Poisoner",
+                    "card": "e16dd06f-4844-405c-91ce-d56b2b2990e2",
+                    "yugipediaId": 425516,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Regenerating Rose",
+                    "card": "161400b2-4574-407b-afab-8aeda7bc300a",
+                    "yugipediaId": 73641,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Sabatiel - The Philosopher's Stone",
+                    "card": "dca4410e-bc66-4afa-aff2-8ee8364d825b",
+                    "yugipediaId": 516892,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Winged Kuriboh LV9",
+                    "card": "827a1bc4-b13b-4a91-bc5c-1198372980f5",
+                    "yugipediaId": 510603,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Gold"
+              },
+              {
+                "text": "\"Rainbow Path\" (R), \"Crystal Blessing\" (R), \"Ojama Knight\" (R), \"Poly-Chemicritter Hydragon\" (R), \"Spirit of the Breeze\" (R), \"Elemental HERO Clayman\" (R)\n1 SR Jewel\n30 EX Jewels (Duel Chronicles)\n5 Gems\n3000 or 2000 Gold\n10 Gate Keys (White, Black, Blue, Red, Yellow or Green)",
+                "cards": [
+                  {
+                    "name": "Rainbow Path",
+                    "card": "f7dd173d-6bd7-4e7a-a0dd-98249e870205",
+                    "yugipediaId": 70183,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Crystal Blessing",
+                    "card": "6638a1c0-e5c5-4f6e-afd8-c31d8f475c18",
+                    "yugipediaId": 20350,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Ojama Knight",
+                    "card": "4b7d239d-f494-4b3e-8957-17f99bad9ba9",
+                    "yugipediaId": 16153,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Poly-Chemicritter Hydragon",
+                    "card": "f68cc3d1-69cc-43b1-bdae-9c0ac650a057",
+                    "yugipediaId": 452469,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Spirit of the Breeze",
+                    "card": "4e1cc384-0379-42da-9580-8628a377cb13",
+                    "yugipediaId": 5614,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Elemental HERO Clayman",
+                    "card": "e2b94dc1-678f-4e66-a8ab-669b879e54c8",
+                    "yugipediaId": 716,
+                    "rarity": "R"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Normal"
+              },
+              {
+                "text": "\"Feather Wind\" (N), \"Beastly Mirror Ritual\" (N), \"Fiend's Mirror\" (N), \"Kojikocy\" (N)\n5 R Jewels\n18, 9, or 3 EX Jewels (Duel Chronicles)\n1 Gem\n1000, 600 or 300 Gold\n5 Gate Keys (White, Black, Blue, Red, Yellow or Green)",
+                "cards": [
+                  {
+                    "name": "Feather Wind",
+                    "card": "54edde8a-f3fd-4873-837a-bb9d748f96d4",
+                    "yugipediaId": 2617,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Beastly Mirror Ritual",
+                    "card": "252850e8-40ea-48fd-9fa1-9fe88ba5cf3f",
+                    "yugipediaId": 10028,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Fiend's Mirror",
+                    "card": "983d5e90-e348-483b-bc5f-1c42c15a8dcd",
+                    "yugipediaId": 9981,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Kojikocy",
+                    "card": "7a09e8f8-6d36-4dc9-bf2e-7a5b393fb556",
+                    "yugipediaId": 508552,
+                    "rarity": "N"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Unknown"
+              },
+              {
+                "text": "1 UR Jewel"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "lottery",
+      "path": [
+        "Rewards",
+        "Lottery"
+      ],
+      "run": "2019",
+      "runIndex": 0,
+      "tables": [
+        {
+          "rows": [
+            [
+              {
+                "text": ""
+              },
+              {
+                "text": "Lottery Rewards"
+              }
+            ],
+            [
+              {
+                "text": "Rainbow"
+              },
+              {
+                "text": "\"Rainbow Dark Dragon\" (UR), \"Plasma Warrior Eitom\" (UR), \"Vision HERO Poisoner\" (SR), \"The Supremacy Sun\" (SR), \"Crystal Beast Emerald Tortoise\" (SR), \"Elemental HERO Core\" (SR), \"Regenerating Rose\" (SR)\n10 Gems\n1 UR Jewel",
+                "cards": [
+                  {
+                    "name": "Rainbow Dark Dragon",
+                    "card": "1fc35c16-6fad-429f-bf10-9714dc3f3dfd",
+                    "yugipediaId": 507634,
+                    "rarity": "UR"
+                  },
+                  {
+                    "name": "Plasma Warrior Eitom",
+                    "card": "af499a49-89c5-4e32-b129-007573203317",
+                    "yugipediaId": 1185667,
+                    "rarity": "UR"
+                  },
+                  {
+                    "name": "Vision HERO Poisoner",
+                    "card": "e16dd06f-4844-405c-91ce-d56b2b2990e2",
+                    "yugipediaId": 425516,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "The Supremacy Sun",
+                    "card": "60e42a8c-f38d-4805-9ffd-fc7b2275ed91",
+                    "yugipediaId": 148053,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Crystal Beast Emerald Tortoise",
+                    "card": "965156e2-5534-42bb-9dc8-ec94a6258932",
+                    "yugipediaId": 511286,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Elemental HERO Core",
+                    "card": "66f360b7-6511-42bd-b8ba-7309baa67776",
+                    "yugipediaId": 353107,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Regenerating Rose",
+                    "card": "161400b2-4574-407b-afab-8aeda7bc300a",
+                    "yugipediaId": 73641,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Gold"
+              },
+              {
+                "text": "\"Cocoon Rebirth\" (R), \"Space Gift\" (R), \"Rainbow Path\" (R), \"Crystal Blessing\" (R), \"Anti-Fusion Device\" (R)\n3000 or 2000 Gold\n5 Gems\n10 Gate Keys (White, Black, Blue, Red, Yellow or Green)\n1 SR Jewel\n20 EX Jewels",
+                "cards": [
+                  {
+                    "name": "Cocoon Rebirth",
+                    "card": "e689d6ff-bd67-4fe6-9ed7-744c580d63a0",
+                    "yugipediaId": 512469,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Space Gift",
+                    "card": "17f56d21-0502-4d64-b18a-171970a2ea87",
+                    "yugipediaId": 69640,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Rainbow Path",
+                    "card": "f7dd173d-6bd7-4e7a-a0dd-98249e870205",
+                    "yugipediaId": 70183,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Crystal Blessing",
+                    "card": "6638a1c0-e5c5-4f6e-afd8-c31d8f475c18",
+                    "yugipediaId": 20350,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Anti-Fusion Device",
+                    "card": "68801a89-11dd-4c67-be0e-a48b18433015",
+                    "yugipediaId": 22044,
+                    "rarity": "R"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Normal"
+              },
+              {
+                "text": "\"Chrysalis Dolphin\" (N), \"Chrysalis Chicky\" (N), \"Chrysalis Pantail\" (N), \"Chrysalis Pinny\" (N), \"Chrysalis Larva\" (N), \"Contact\" (N)\n1000, 600 or 300 Gold\n1 Gem\n5 Gate Keys (White, Black, Blue, Red, Yellow or Green)\n5 R Jewels\n10, 5, or 1 EX Jewels (Duel Chronicles)",
+                "cards": [
+                  {
+                    "name": "Chrysalis Dolphin",
+                    "card": "733e1258-e6bc-42ea-8a75-dd42d66f3895",
+                    "yugipediaId": 6048,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Chrysalis Chicky",
+                    "card": "bd7a32c0-3e81-4834-8f9c-31b8e0f0230f",
+                    "yugipediaId": 21949,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Chrysalis Pantail",
+                    "card": "a867ee66-fcbf-45b1-a1d8-723dd9ce1555",
+                    "yugipediaId": 21932,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Chrysalis Pinny",
+                    "card": "973fc186-4d72-4e7f-9f0b-fde4bc3e2b09",
+                    "yugipediaId": 21942,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Chrysalis Larva",
+                    "card": "d268ae68-4bc5-4bd8-a6c3-e79157112713",
+                    "yugipediaId": 21939,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Contact",
+                    "card": "24e7e5d6-b50f-4e68-af58-cd2800911fd8",
+                    "yugipediaId": 12494,
+                    "rarity": "N"
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "dailyMissions",
+      "path": [
+        "Rewards",
+        "Event Missions",
+        "Daily Missions"
+      ],
+      "notes": [
+        "These missions were made available on June 22, 2020 (September 21, 2019, during the first run)."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Event Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Play 1 Duel(s) in Ranked Duels (surrenders are not counted.)"
+              },
+              {
+                "text": "10 Dice Fragments"
+              }
+            ],
+            [
+              {
+                "text": "Play 2 Duel(s) in Ranked Duels (surrenders are not counted.)"
+              },
+              {
+                "text": "10 Dice Fragments"
+              }
+            ],
+            [
+              {
+                "text": "Play 3 Duel(s) in Ranked Duels (surrenders are not counted.)"
+              },
+              {
+                "text": "10 Dice Fragments"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Event Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Duel 1 time(s) in Duelist Chronicles (surrenders are not counted.)"
+              },
+              {
+                "text": "5 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Duel 2 time(s) in Duelist Chronicles (surrenders are not counted.)"
+              },
+              {
+                "text": "5 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Duel 3 time(s) in Duelist Chronicles (surrenders are not counted.)"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "decks": [
+    {
+      "path": [
+        "Decks",
+        "New Semester",
+        "Jesse Anderson",
+        "Level 20/Normal"
+      ],
+      "cards": [
+        {
+          "name": "Dark Gray",
+          "card": "a1b3cbcc-d3ce-4d85-b0b2-61dcbce460b1",
+          "yugipediaId": 505025,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Dark Shade",
+          "card": "6a529a06-c0aa-49d6-9f40-90580cc6c3c0",
+          "yugipediaId": 19449,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Nekogal #1",
+          "card": "b54b7552-3875-4e3f-ba0d-431de3f20056",
+          "yugipediaId": 508986,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Prisman",
+          "card": "fca9641e-f817-485a-8664-9f5a2458de6f",
+          "yugipediaId": 8608,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Rainbow Marine Mermaid",
+          "card": "0950d968-56ea-4ed7-8eb7-ed3148544d9d",
+          "yugipediaId": 19856,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Crystal Beast Amethyst Cat",
+          "card": "047f23f5-dae0-4ea7-a665-02bbb39add0f",
+          "yugipediaId": 511288,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Crystal Beast Ruby Carbuncle",
+          "card": "a8ba1be5-17f8-4b89-a197-fa57305ea6be",
+          "yugipediaId": 511772,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Rainbow Flower",
+          "card": "db55d06a-1642-4688-83d5-4c411feab3fe",
+          "yugipediaId": 3530,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Triggered Summon",
+          "card": "c8610a5c-28a1-47e7-835f-07a5daa3ae2f",
+          "yugipediaId": 21028,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "New Semester",
+        "Jesse Anderson",
+        "Level 40/Hard"
+      ],
+      "cards": [
+        {
+          "name": "Crystal Beast Amber Mammoth",
+          "card": "1adabed7-2616-4c4c-a3fa-16b487ad2161",
+          "yugipediaId": 511285,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Crystal Beast Amethyst Cat",
+          "card": "047f23f5-dae0-4ea7-a665-02bbb39add0f",
+          "yugipediaId": 511288,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Crystal Beast Cobalt Eagle",
+          "card": "08552e09-b492-4fa4-ad8b-d635c3debd2d",
+          "yugipediaId": 511287,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Crystal Beast Emerald Tortoise",
+          "card": "965156e2-5534-42bb-9dc8-ec94a6258932",
+          "yugipediaId": 511286,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Crystal Beast Ruby Carbuncle",
+          "card": "a8ba1be5-17f8-4b89-a197-fa57305ea6be",
+          "yugipediaId": 511772,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Crystal Beast Sapphire Pegasus",
+          "card": "c7bb63ee-b4e1-4fb4-8884-dc898a15445b",
+          "yugipediaId": 511289,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Crystal Beast Topaz Tiger",
+          "card": "e2ed6cc5-d201-492c-9bcf-e6454fceac1e",
+          "yugipediaId": 511290,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Crystal Promise",
+          "card": "55322fdc-aed5-4e85-b8e1-4b19fe20eea9",
+          "yugipediaId": 21369,
+          "count": 3,
+          "category": "spells"
+        },
+        {
+          "name": "Triggered Summon",
+          "card": "c8610a5c-28a1-47e7-835f-07a5daa3ae2f",
+          "yugipediaId": 21028,
+          "count": 3,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "New Semester",
+        "Zachary",
+        "Level 20/Normal"
+      ],
+      "cards": [
+        {
+          "name": "Gem-Knight Lapis",
+          "card": "84c265ac-6727-473a-8b6b-c219653ab45b",
+          "yugipediaId": 314738,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Block Golem",
+          "card": "4949f48b-1754-4876-aa14-2dff6fcb43a5",
+          "yugipediaId": 208692,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Doki Doki",
+          "card": "163d4d34-7f20-4eed-9ca6-76c8ba38ff1f",
+          "yugipediaId": 457591,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gem-Knight Lazuli",
+          "card": "d394db73-94c0-4763-8b85-9e2a039b2104",
+          "yugipediaId": 191282,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gem-Knight Obsidian",
+          "card": "18ac336a-29ba-41d4-a66d-0a84320bc10a",
+          "yugipediaId": 169218,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gem-Merchant",
+          "card": "04888eee-44b5-4f65-acb1-8bc09ad5e345",
+          "yugipediaId": 129604,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Wasteland",
+          "card": "e53bbce4-c5b2-4e0e-a955-3ee97267a746",
+          "yugipediaId": 330,
+          "count": 3,
+          "category": "spells"
+        },
+        {
+          "name": "Gem-Enhancement",
+          "card": "14a6e8f9-9a15-4c43-9ce9-4632f3fbc046",
+          "yugipediaId": 136465,
+          "count": 2,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "New Semester",
+        "Zachary",
+        "Level 40/Hard"
+      ],
+      "cards": [
+        {
+          "name": "Gem-Knight Lapis",
+          "card": "84c265ac-6727-473a-8b6b-c219653ab45b",
+          "yugipediaId": 314738,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Gem-Knight Tourmaline",
+          "card": "479ef559-7dad-4169-b07a-e990507fd3b7",
+          "yugipediaId": 129427,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Block Golem",
+          "card": "4949f48b-1754-4876-aa14-2dff6fcb43a5",
+          "yugipediaId": 208692,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Doki Doki",
+          "card": "163d4d34-7f20-4eed-9ca6-76c8ba38ff1f",
+          "yugipediaId": 457591,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gem-Knight Lazuli",
+          "card": "d394db73-94c0-4763-8b85-9e2a039b2104",
+          "yugipediaId": 191282,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gem-Knight Obsidian",
+          "card": "18ac336a-29ba-41d4-a66d-0a84320bc10a",
+          "yugipediaId": 169218,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gem-Merchant",
+          "card": "04888eee-44b5-4f65-acb1-8bc09ad5e345",
+          "yugipediaId": 129604,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gem-Knight Lady Lapis Lazuli",
+          "card": "aa10cfb0-887d-4fbd-80c4-9a672b9b13f6",
+          "yugipediaId": 314862,
+          "count": 1,
+          "category": "fusion monsters"
+        },
+        {
+          "name": "Gem-Knight Topaz",
+          "card": "fe53961c-cf0b-494d-82b0-3b26cb9d21b1",
+          "yugipediaId": 129605,
+          "count": 1,
+          "category": "fusion monsters"
+        },
+        {
+          "name": "Polymerization",
+          "card": "54f38f67-5d19-4625-9a9a-e1445574d5bf",
+          "yugipediaId": 35,
+          "count": 3,
+          "category": "spells"
+        },
+        {
+          "name": "Gem-Enhancement",
+          "card": "14a6e8f9-9a15-4c43-9ce9-4632f3fbc046",
+          "yugipediaId": 136465,
+          "count": 2,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "New Semester",
+        "Monster",
+        "Level 20/Normal"
+      ],
+      "cards": [
+        {
+          "name": "Hurricail",
+          "card": "da9323a1-1521-4ec1-87ee-312d62c57469",
+          "yugipediaId": 6482,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "LaLa Li-oon",
+          "card": "a197824f-cfdf-423c-ada3-0b5ff30a5a60",
+          "yugipediaId": 5053,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Minomushi Warrior",
+          "card": "35e7ee85-86e8-4187-a005-b9ca61b10f45",
+          "yugipediaId": 9522,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Bubonic Vermin",
+          "card": "defb0d9e-98e7-4932-85b9-d369ef868f84",
+          "yugipediaId": 6876,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Desert Twister",
+          "card": "27f735f8-b697-44b4-93f4-57877143f051",
+          "yugipediaId": 511017,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Harpie Dancer",
+          "card": "5ce00a5f-2ee9-4c25-9940-14d096193187",
+          "yugipediaId": 270711,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gust Fan",
+          "card": "a3c3cb89-4dc3-477b-9c49-ce849d3b5c51",
+          "yugipediaId": 7889,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Invigoration",
+          "card": "79acf17f-7a1c-4551-804c-27155b0cf71d",
+          "yugipediaId": 7823,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Twister",
+          "card": "61afd0e2-5f50-4b01-bacc-5f473e3172e6",
+          "yugipediaId": 22473,
+          "count": 2,
+          "category": "spells"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "New Semester",
+        "Monster",
+        "Level 40/Hard"
+      ],
+      "cards": [
+        {
+          "name": "Faith Bird",
+          "card": "d5e8be46-7667-420e-9c08-58e3f6c6c6ad",
+          "yugipediaId": 8788,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Altitude Knight",
+          "card": "a9b88224-6dcc-4573-be59-4b83954daa26",
+          "yugipediaId": 255376,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Bubonic Vermin",
+          "card": "defb0d9e-98e7-4932-85b9-d369ef868f84",
+          "yugipediaId": 6876,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Desert Twister",
+          "card": "27f735f8-b697-44b4-93f4-57877143f051",
+          "yugipediaId": 511017,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Dust Knight",
+          "card": "6aad4889-93ee-4043-8e80-2cdaf1b68c3b",
+          "yugipediaId": 208058,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Harpie Dancer",
+          "card": "5ce00a5f-2ee9-4c25-9940-14d096193187",
+          "yugipediaId": 270711,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gust Fan",
+          "card": "a3c3cb89-4dc3-477b-9c49-ce849d3b5c51",
+          "yugipediaId": 7889,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Invigoration",
+          "card": "79acf17f-7a1c-4551-804c-27155b0cf71d",
+          "yugipediaId": 7823,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Twister",
+          "card": "61afd0e2-5f50-4b01-bacc-5f473e3172e6",
+          "yugipediaId": 22473,
+          "count": 2,
+          "category": "spells"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Duel Academia?",
+        "Duel Ghoul",
+        "Level 20/Normal"
+      ],
+      "cards": [
+        {
+          "name": "Blue-Eyed Silver Zombie",
+          "card": "b5f4c187-72eb-4043-96ff-a2774d1f817a",
+          "yugipediaId": 5816,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Clown Zombie",
+          "card": "f21acbd6-00df-4906-afa7-65e959317236",
+          "yugipediaId": 509005,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "The 13th Grave",
+          "card": "ca8f37ce-cd5b-4a56-97b8-b9cb558ed8f8",
+          "yugipediaId": 505088,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Three-Legged Zombies",
+          "card": "bede07f3-f513-4360-8b7d-1ffccad4e66a",
+          "yugipediaId": 505784,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Goblin Zombie",
+          "card": "f3588132-544e-476b-9bbd-da7222e14d37",
+          "yugipediaId": 16764,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Violet Crystal",
+          "card": "4842ee01-b458-4727-819f-b66ba7aaa76d",
+          "yugipediaId": 506115,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Wasteland",
+          "card": "e53bbce4-c5b2-4e0e-a955-3ee97267a746",
+          "yugipediaId": 330,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Battle Mania",
+          "card": "cc46ef02-4869-4191-9a53-179bb071b618",
+          "yugipediaId": 40863,
+          "count": 2,
+          "category": "traps"
+        },
+        {
+          "name": "Hard-sellin' Zombie",
+          "card": "b2bcfda9-1fbc-4a6d-a79b-88e02b96cd7f",
+          "yugipediaId": 506116,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Duel Academia?",
+        "Duel Ghoul",
+        "Level 40/Hard"
+      ],
+      "cards": [
+        {
+          "name": "Armored Zombie",
+          "card": "cbdc42a4-d211-45ad-8181-aa505fb91f6a",
+          "yugipediaId": 510596,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Dragon Zombie",
+          "card": "29d8796c-eb9a-4e35-b54a-842fbecc6c6a",
+          "yugipediaId": 2845,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Goblin Zombie",
+          "card": "f3588132-544e-476b-9bbd-da7222e14d37",
+          "yugipediaId": 16764,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Il Blud",
+          "card": "e576887f-02d3-4e51-aed0-71944a8ec2b8",
+          "yugipediaId": 539540,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Molten Zombie",
+          "card": "6b356ccb-2df6-4eae-b78b-99ee7feebec1",
+          "yugipediaId": 11433,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Reborn Zombie",
+          "card": "2e48aea6-0417-4a0f-9482-6e2ee94dd5fe",
+          "yugipediaId": 16892,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Return Zombie",
+          "card": "de5c935e-df36-4248-ad54-2e1c89595022",
+          "yugipediaId": 5759,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Call of the Mummy",
+          "card": "6dae878b-af73-46cb-bda3-ed87c84afeab",
+          "yugipediaId": 2239,
+          "count": 3,
+          "category": "spells"
+        },
+        {
+          "name": "Battle Mania",
+          "card": "cc46ef02-4869-4191-9a53-179bb071b618",
+          "yugipediaId": 40863,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Duel Academia?",
+        "Zane Truesdale",
+        "Level 20/Normal"
+      ],
+      "cards": [
+        {
+          "name": "One-Eyed Shield Dragon",
+          "card": "2d235978-9065-4789-b13e-f07f82b39f85",
+          "yugipediaId": 507321,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Cyberdark Edge",
+          "card": "1f6ab0ec-a721-46a6-9259-09c6736ca3a7",
+          "yugipediaId": 14777,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cyberdark Horn",
+          "card": "af5e6af1-8e32-4d0e-91cb-dcbb1aa5196b",
+          "yugipediaId": 14692,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cyberdark Keel",
+          "card": "13fe77ce-5163-452b-aa32-991237a9de02",
+          "yugipediaId": 14795,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Proto-Cyber Dragon",
+          "card": "18506662-300b-4845-b6e5-83c11f35bef6",
+          "yugipediaId": 1959,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Different Dimension Capsule",
+          "card": "4573972d-bbdf-4729-92c3-394f880617d0",
+          "yugipediaId": 15592,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Iron Call",
+          "card": "fee8ddf1-dab4-4d96-b40d-74b3adbcdde1",
+          "yugipediaId": 181136,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Power Wall",
+          "card": "4221eec4-e2ce-4560-b7f4-91ec2199487e",
+          "yugipediaId": 19340,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Duel Academia?",
+        "Zane Truesdale",
+        "Level 40/Hard"
+      ],
+      "cards": [
+        {
+          "name": "Lizard Soldier",
+          "card": "be99b4b8-9b73-42f2-83a1-fd3ceb81c102",
+          "yugipediaId": 8431,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Cyber Dragon Zwei",
+          "card": "53e02674-7c3e-4ae7-aa73-38bc07fbc5d2",
+          "yugipediaId": 108249,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cyberdark Claw",
+          "card": "77f170d0-7b35-4ba9-b300-d8be0d15acae",
+          "yugipediaId": 497949,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cyberdark Edge",
+          "card": "1f6ab0ec-a721-46a6-9259-09c6736ca3a7",
+          "yugipediaId": 14777,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cyberdark Horn",
+          "card": "af5e6af1-8e32-4d0e-91cb-dcbb1aa5196b",
+          "yugipediaId": 14692,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cyberdark Keel",
+          "card": "13fe77ce-5163-452b-aa32-991237a9de02",
+          "yugipediaId": 14795,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Proto-Cyber Dragon",
+          "card": "18506662-300b-4845-b6e5-83c11f35bef6",
+          "yugipediaId": 1959,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Chimeratech Overdragon",
+          "card": "954f71f3-105b-463d-9c8a-24ffbaf9b801",
+          "yugipediaId": 6855,
+          "count": 1,
+          "category": "fusion monsters"
+        },
+        {
+          "name": "Cyber End Dragon",
+          "card": "ba42c674-83a3-4e29-81b8-bdcfcb7cd2fc",
+          "yugipediaId": 441,
+          "count": 1,
+          "category": "fusion monsters"
+        },
+        {
+          "name": "Cyberdark Dragon",
+          "card": "e2da0622-da7a-4cf6-abb4-700ea2123285",
+          "yugipediaId": 13029,
+          "count": 1,
+          "category": "fusion monsters"
+        },
+        {
+          "name": "Cyberdark Impact!",
+          "card": "26778fdf-8963-429f-839c-843e3fdc2e6a",
+          "yugipediaId": 512555,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "De-Fusion",
+          "card": "29da1532-81ac-412f-bd5e-41138f6a7ef0",
+          "yugipediaId": 3525,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Polymerization",
+          "card": "54f38f67-5d19-4625-9a9a-e1445574d5bf",
+          "yugipediaId": 35,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Power Wall",
+          "card": "4221eec4-e2ce-4560-b7f4-91ec2199487e",
+          "yugipediaId": 19340,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Duel Academia?",
+        "Raviel, Lord of Phantasms",
+        "Level 20/Normal"
+      ],
+      "cards": [
+        {
+          "name": "Hamon, Lord of Striking Thunder",
+          "card": "e408f493-74cf-4aeb-ab84-ea400c0060f4",
+          "yugipediaId": 1773,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Nubian Guard",
+          "card": "a1a69f00-ff98-4b5b-9dbe-43ff9b7c0320",
+          "yugipediaId": 18056,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Pumprincess the Princess of Ghosts",
+          "card": "d30550eb-4f4e-45d0-a2b6-63e8adc846d7",
+          "yugipediaId": 270823,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Dangerous Machine Type-6",
+          "card": "2143ff23-5704-402e-9583-3006c883bd9b",
+          "yugipediaId": 16671,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Goblin Circus",
+          "card": "b821ac38-e191-4485-91a8-cf4c4a5eb5f5",
+          "yugipediaId": 230804,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Infinite Cards",
+          "card": "c9668dfd-03c0-48d7-ab37-166fd6bc70ef",
+          "yugipediaId": 167,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Lighten the Load",
+          "card": "c3198231-f29c-4718-beac-b052bf4ecaf2",
+          "yugipediaId": 12052,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Quarantine",
+          "card": "42053d8d-48c5-444a-adbd-b1702f7a3e02",
+          "yugipediaId": 464798,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Recycle",
+          "card": "cf638d1f-2b4e-4d5f-9069-9e4930a84a82",
+          "yugipediaId": 14801,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Shard of Greed",
+          "card": "02abfc4b-30e4-4503-8931-efef063b3c7c",
+          "yugipediaId": 165941,
+          "count": 3,
+          "category": "spells"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Duel Academia?",
+        "Raviel, Lord of Phantasms",
+        "Level 40/Hard"
+      ],
+      "cards": [
+        {
+          "name": "Mask of Darkness",
+          "card": "e5d26167-94c4-4276-bae8-32594d593f0f",
+          "yugipediaId": 1936,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Raviel, Lord of Phantasms",
+          "card": "521d8e37-4254-4f29-8c98-66bd096b9076",
+          "yugipediaId": 1776,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Uria, Lord of Searing Flames",
+          "card": "b857fa93-109e-4f06-9fa8-ea94382e8529",
+          "yugipediaId": 1769,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Fires of Doomsday",
+          "card": "80bea384-6b50-4eda-b97a-7f2b2aefc3f1",
+          "yugipediaId": 70157,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Embodiment of Apophis",
+          "card": "390c4fa9-2b75-40cb-b88d-69cbded719c6",
+          "yugipediaId": 1851,
+          "count": 3,
+          "category": "traps"
+        },
+        {
+          "name": "Quantum Cat",
+          "card": "918cdb2a-03b1-499c-871b-bd13ac38920a",
+          "yugipediaId": 346618,
+          "count": 3,
+          "category": "traps"
+        },
+        {
+          "name": "Swamp Mirrorer",
+          "card": "bf05ee53-a622-498d-9994-7ef1b2944990",
+          "yugipediaId": 315522,
+          "count": 3,
+          "category": "traps"
+        },
+        {
+          "name": "The First Monarch",
+          "card": "3cbcdcbc-8d90-4184-b3c1-e5dc852e8072",
+          "yugipediaId": 306309,
+          "count": 2,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Another Dimension",
+        "Brron, Mad King of Dark World",
+        "Level 20/Normal"
+      ],
+      "cards": [
+        {
+          "name": "Broww, Huntsman of Dark World",
+          "card": "75c92e7c-23cb-46ba-ac64-a721e8f2cac1",
+          "yugipediaId": 4274,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Ceruli, Guru of Dark World",
+          "card": "46d76657-b7f4-49ef-825e-a75069f1dd41",
+          "yugipediaId": 535608,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gren, Tactician of Dark World",
+          "card": "f69fa467-68d6-46ba-9c91-62a32444c481",
+          "yugipediaId": 22324,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Kahkki, Guerilla of Dark World",
+          "card": "272323bf-a68e-4220-9452-55f1bec50897",
+          "yugipediaId": 22335,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Scarr, Scout of Dark World",
+          "card": "613e17d0-3354-4363-8ab1-e5d6a1cff334",
+          "yugipediaId": 5039,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Dark World Dealings",
+          "card": "6377e381-1b0a-47b7-a085-a25c3eb0b560",
+          "yugipediaId": 22157,
+          "count": 3,
+          "category": "spells"
+        },
+        {
+          "name": "Gateway to Dark World",
+          "card": "2f2b6e93-cf6e-454f-b9b0-9939abb29b47",
+          "yugipediaId": 5054,
+          "count": 3,
+          "category": "spells"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Another Dimension",
+        "Brron, Mad King of Dark World",
+        "Level 40/Hard"
+      ],
+      "cards": [
+        {
+          "name": "Broww, Huntsman of Dark World",
+          "card": "75c92e7c-23cb-46ba-ac64-a721e8f2cac1",
+          "yugipediaId": 4274,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Brron, Mad King of Dark World",
+          "card": "749d2b41-3606-4cdb-a440-c4fe51474ed3",
+          "yugipediaId": 5015,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Ceruli, Guru of Dark World",
+          "card": "46d76657-b7f4-49ef-825e-a75069f1dd41",
+          "yugipediaId": 535608,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Reign-Beaux, Overlord of Dark World",
+          "card": "9fa21b8b-e6ef-4cce-bd2e-053732d997e4",
+          "yugipediaId": 22472,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Scarr, Scout of Dark World",
+          "card": "613e17d0-3354-4363-8ab1-e5d6a1cff334",
+          "yugipediaId": 5039,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Dark World Dealings",
+          "card": "6377e381-1b0a-47b7-a085-a25c3eb0b560",
+          "yugipediaId": 22157,
+          "count": 3,
+          "category": "spells"
+        },
+        {
+          "name": "Gateway to Dark World",
+          "card": "2f2b6e93-cf6e-454f-b9b0-9939abb29b47",
+          "yugipediaId": 5054,
+          "count": 3,
+          "category": "spells"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Another Dimension",
+        "Zane Truesdale",
+        "Level 20/Normal"
+      ],
+      "cards": [
+        {
+          "name": "Lizard Soldier",
+          "card": "be99b4b8-9b73-42f2-83a1-fd3ceb81c102",
+          "yugipediaId": 8431,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Wicked Dragon with the Ersatz Head",
+          "card": "fc3ccdb1-9834-42b6-bc70-9c3dd158e9f9",
+          "yugipediaId": 7133,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Cyber Dragon Zwei",
+          "card": "53e02674-7c3e-4ae7-aa73-38bc07fbc5d2",
+          "yugipediaId": 108249,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cyberdark Edge",
+          "card": "1f6ab0ec-a721-46a6-9259-09c6736ca3a7",
+          "yugipediaId": 14777,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cyberdark Horn",
+          "card": "af5e6af1-8e32-4d0e-91cb-dcbb1aa5196b",
+          "yugipediaId": 14692,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cyberdark Keel",
+          "card": "13fe77ce-5163-452b-aa32-991237a9de02",
+          "yugipediaId": 14795,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Proto-Cyber Dragon",
+          "card": "18506662-300b-4845-b6e5-83c11f35bef6",
+          "yugipediaId": 1959,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Power Wall",
+          "card": "4221eec4-e2ce-4560-b7f4-91ec2199487e",
+          "yugipediaId": 19340,
+          "count": 2,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Another Dimension",
+        "Zane Truesdale",
+        "Level 40/Hard"
+      ],
+      "cards": [
+        {
+          "name": "Armored Cybern",
+          "card": "7b3448f6-2370-403f-8321-e3bd76b32409",
+          "yugipediaId": 540468,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cyber Dragon",
+          "card": "f021f76f-cf78-461c-81da-762fad9c8469",
+          "yugipediaId": 146094,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cyber Dragon Drei",
+          "card": "55f68270-c983-4b82-a78d-e867edd99521",
+          "yugipediaId": 293709,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cyber Dragon Zwei",
+          "card": "53e02674-7c3e-4ae7-aa73-38bc07fbc5d2",
+          "yugipediaId": 108249,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Proto-Cyber Dragon",
+          "card": "18506662-300b-4845-b6e5-83c11f35bef6",
+          "yugipediaId": 1959,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Chimeratech Fortress Dragon",
+          "card": "2ef70c5d-aea6-47ea-b65d-a5fc803a1f25",
+          "yugipediaId": 540027,
+          "count": 1,
+          "category": "fusion monsters"
+        },
+        {
+          "name": "Chimeratech Overdragon",
+          "card": "954f71f3-105b-463d-9c8a-24ffbaf9b801",
+          "yugipediaId": 6855,
+          "count": 1,
+          "category": "fusion monsters"
+        },
+        {
+          "name": "Cyber End Dragon",
+          "card": "ba42c674-83a3-4e29-81b8-bdcfcb7cd2fc",
+          "yugipediaId": 441,
+          "count": 1,
+          "category": "fusion monsters"
+        },
+        {
+          "name": "Polymerization",
+          "card": "54f38f67-5d19-4625-9a9a-e1445574d5bf",
+          "yugipediaId": 35,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Power Bond",
+          "card": "c00246ef-527d-4391-86e7-0ac990640ca5",
+          "yugipediaId": 425,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Power Wall",
+          "card": "4221eec4-e2ce-4560-b7f4-91ec2199487e",
+          "yugipediaId": 19340,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Rare Metalmorph",
+          "card": "1a4e4c6b-409a-4569-a345-73cf4fd9a35b",
+          "yugipediaId": 11984,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Another Dimension",
+        "Jesse Anderson",
+        "Level 20/Normal"
+      ],
+      "cards": [
+        {
+          "name": "Dark Shade",
+          "card": "6a529a06-c0aa-49d6-9f40-90580cc6c3c0",
+          "yugipediaId": 19449,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Crystal Beast Amethyst Cat",
+          "card": "047f23f5-dae0-4ea7-a665-02bbb39add0f",
+          "yugipediaId": 511288,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Crystal Beast Cobalt Eagle",
+          "card": "08552e09-b492-4fa4-ad8b-d635c3debd2d",
+          "yugipediaId": 511287,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Crystal Beast Ruby Carbuncle",
+          "card": "a8ba1be5-17f8-4b89-a197-fa57305ea6be",
+          "yugipediaId": 511772,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Advanced Dark",
+          "card": "4d5c3fce-07f0-4509-845f-eaa4d0462010",
+          "yugipediaId": 507671,
+          "count": 3,
+          "category": "spells"
+        },
+        {
+          "name": "Crystal Promise",
+          "card": "55322fdc-aed5-4e85-b8e1-4b19fe20eea9",
+          "yugipediaId": 21369,
+          "count": 3,
+          "category": "spells"
+        },
+        {
+          "name": "Rare Value",
+          "card": "6ce54cbc-a07b-47a5-8fc7-45bd26745fe4",
+          "yugipediaId": 20968,
+          "count": 2,
+          "category": "spells"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Another Dimension",
+        "Jesse Anderson",
+        "Level 40/Hard"
+      ],
+      "cards": [
+        {
+          "name": "Crystal Beast Amber Mammoth",
+          "card": "1adabed7-2616-4c4c-a3fa-16b487ad2161",
+          "yugipediaId": 511285,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Crystal Beast Amethyst Cat",
+          "card": "047f23f5-dae0-4ea7-a665-02bbb39add0f",
+          "yugipediaId": 511288,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Crystal Beast Cobalt Eagle",
+          "card": "08552e09-b492-4fa4-ad8b-d635c3debd2d",
+          "yugipediaId": 511287,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Crystal Beast Emerald Tortoise",
+          "card": "965156e2-5534-42bb-9dc8-ec94a6258932",
+          "yugipediaId": 511286,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Crystal Beast Ruby Carbuncle",
+          "card": "a8ba1be5-17f8-4b89-a197-fa57305ea6be",
+          "yugipediaId": 511772,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Crystal Beast Sapphire Pegasus",
+          "card": "c7bb63ee-b4e1-4fb4-8884-dc898a15445b",
+          "yugipediaId": 511289,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Crystal Beast Topaz Tiger",
+          "card": "e2ed6cc5-d201-492c-9bcf-e6454fceac1e",
+          "yugipediaId": 511290,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Grave Squirmer",
+          "card": "ab3f1503-f525-4135-aa22-e6366fa7a09e",
+          "yugipediaId": 510959,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Phantom Skyblaster",
+          "card": "b3c3d9ea-4bd9-41ca-b709-2dd1117a3a3c",
+          "yugipediaId": 509774,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Rainbow Dark Dragon",
+          "card": "1fc35c16-6fad-429f-bf10-9714dc3f3dfd",
+          "yugipediaId": 507634,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Advanced Dark",
+          "card": "4d5c3fce-07f0-4509-845f-eaa4d0462010",
+          "yugipediaId": 507671,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Crystal Promise",
+          "card": "55322fdc-aed5-4e85-b8e1-4b19fe20eea9",
+          "yugipediaId": 21369,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Rare Value",
+          "card": "6ce54cbc-a07b-47a5-8fc7-45bd26745fe4",
+          "yugipediaId": 20968,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Crystal Raigeki",
+          "card": "39fe8474-c15c-488d-b233-6bd67f12beaf",
+          "yugipediaId": 20362,
+          "count": 2,
+          "category": "traps"
+        },
+        {
+          "name": "Rainbow Path",
+          "card": "f7dd173d-6bd7-4e7a-a0dd-98249e870205",
+          "yugipediaId": 70183,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Yubel's Castle",
+        "Jesse Anderson",
+        "Level 20/Normal"
+      ],
+      "cards": [
+        {
+          "name": "That Which Feeds on Life",
+          "card": "e3c7faa7-5cca-48f6-a15a-d1e9d4112a24",
+          "yugipediaId": 9282,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Trial of Nightmare",
+          "card": "ccecffd2-a5d4-47f4-bb00-4cc4b41072fb",
+          "yugipediaId": 504873,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Memory Crusher",
+          "card": "d2d9581e-7720-4840-9fd1-7174f0735960",
+          "yugipediaId": 2745,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Regenerating Rose",
+          "card": "161400b2-4574-407b-afab-8aeda7bc300a",
+          "yugipediaId": 73641,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Yubel",
+          "card": "178d35a8-85e2-497b-8808-41d8ec73bd46",
+          "yugipediaId": 511211,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Allure of Darkness",
+          "card": "c4153d67-cdc1-4829-b151-fcb0aeb0d2eb",
+          "yugipediaId": 85247,
+          "count": 3,
+          "category": "spells"
+        },
+        {
+          "name": "Veil of Darkness",
+          "card": "4b521532-794a-4b75-a4b2-b75075657ff2",
+          "yugipediaId": 67558,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Coffin Seller",
+          "card": "af2db2e2-a75f-434a-8f69-4c344629eca8",
+          "yugipediaId": 15852,
+          "count": 2,
+          "category": "traps"
+        },
+        {
+          "name": "Limit Reverse",
+          "card": "67197cb2-fc90-4eaf-9489-0626815060b7",
+          "yugipediaId": 70995,
+          "count": 2,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Yubel's Castle",
+        "Jesse Anderson",
+        "Level 40/Hard"
+      ],
+      "cards": [
+        {
+          "name": "Des Dendle",
+          "card": "ecb181c4-dd05-420c-9306-a48650812cd7",
+          "yugipediaId": 17549,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Sangan",
+          "card": "3fd4df9c-9923-4388-9c31-5b6ce35f436b",
+          "yugipediaId": 151,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Vampiric Orchis",
+          "card": "c87e1067-c2e0-4c5f-b8a0-f1a64b92c8e4",
+          "yugipediaId": 17543,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Yubel",
+          "card": "178d35a8-85e2-497b-8808-41d8ec73bd46",
+          "yugipediaId": 511211,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Yubel - Terror Incarnate",
+          "card": "f467b4eb-5872-41da-9089-150e7fea96d1",
+          "yugipediaId": 73753,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Yubel - The Ultimate Nightmare",
+          "card": "0c6f2225-9906-4693-b192-43f3f1c080bd",
+          "yugipediaId": 69183,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Tribute to The Doomed",
+          "card": "cc2448c4-ac6d-4eea-98b9-6e995f11d5e9",
+          "yugipediaId": 5033,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Damage Gate",
+          "card": "b95f989d-cf20-4d0f-8e42-48d032068b68",
+          "yugipediaId": 514049,
+          "count": 2,
+          "category": "traps"
+        },
+        {
+          "name": "Limit Reverse",
+          "card": "67197cb2-fc90-4eaf-9489-0626815060b7",
+          "yugipediaId": 70995,
+          "count": 2,
+          "category": "traps"
+        },
+        {
+          "name": "Ultimate Providence",
+          "card": "c092670c-5eb4-4308-905b-a785260ff468",
+          "yugipediaId": 390794,
+          "count": 2,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Yubel's Castle",
+        "Yubel",
+        "Level 20/Normal"
+      ],
+      "cards": [
+        {
+          "name": "That Which Feeds on Life",
+          "card": "e3c7faa7-5cca-48f6-a15a-d1e9d4112a24",
+          "yugipediaId": 9282,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Trial of Nightmare",
+          "card": "ccecffd2-a5d4-47f4-bb00-4cc4b41072fb",
+          "yugipediaId": 504873,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Regenerating Rose",
+          "card": "161400b2-4574-407b-afab-8aeda7bc300a",
+          "yugipediaId": 73641,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Yubel",
+          "card": "178d35a8-85e2-497b-8808-41d8ec73bd46",
+          "yugipediaId": 511211,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Allure of Darkness",
+          "card": "c4153d67-cdc1-4829-b151-fcb0aeb0d2eb",
+          "yugipediaId": 85247,
+          "count": 3,
+          "category": "spells"
+        },
+        {
+          "name": "Tribute to The Doomed",
+          "card": "cc2448c4-ac6d-4eea-98b9-6e995f11d5e9",
+          "yugipediaId": 5033,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Veil of Darkness",
+          "card": "4b521532-794a-4b75-a4b2-b75075657ff2",
+          "yugipediaId": 67558,
+          "count": 3,
+          "category": "spells"
+        },
+        {
+          "name": "Limit Reverse",
+          "card": "67197cb2-fc90-4eaf-9489-0626815060b7",
+          "yugipediaId": 70995,
+          "count": 3,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Yubel's Castle",
+        "Yubel",
+        "Level 40/Hard"
+      ],
+      "cards": [
+        {
+          "name": "Grave Squirmer",
+          "card": "ab3f1503-f525-4135-aa22-e6366fa7a09e",
+          "yugipediaId": 510959,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Lava Golem",
+          "card": "9150946d-5de8-4662-9afa-118c249243e5",
+          "yugipediaId": 140,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Mystic Tomato",
+          "card": "6d13c9f5-5cea-4936-804d-c047d1b85572",
+          "yugipediaId": 510016,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Yubel",
+          "card": "178d35a8-85e2-497b-8808-41d8ec73bd46",
+          "yugipediaId": 511211,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Yubel - Terror Incarnate",
+          "card": "f467b4eb-5872-41da-9089-150e7fea96d1",
+          "yugipediaId": 73753,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Yubel - The Ultimate Nightmare",
+          "card": "0c6f2225-9906-4693-b192-43f3f1c080bd",
+          "yugipediaId": 69183,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Dark Hole",
+          "card": "97620308-4f13-4243-8106-01745f9037f1",
+          "yugipediaId": 160,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Tribute to The Doomed",
+          "card": "cc2448c4-ac6d-4eea-98b9-6e995f11d5e9",
+          "yugipediaId": 5033,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Damage Gate",
+          "card": "b95f989d-cf20-4d0f-8e42-48d032068b68",
+          "yugipediaId": 514049,
+          "count": 2,
+          "category": "traps"
+        },
+        {
+          "name": "Limit Reverse",
+          "card": "67197cb2-fc90-4eaf-9489-0626815060b7",
+          "yugipediaId": 70995,
+          "count": 2,
+          "category": "traps"
+        },
+        {
+          "name": "Ultimate Providence",
+          "card": "c092670c-5eb4-4308-905b-a785260ff468",
+          "yugipediaId": 390794,
+          "count": 2,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Treasure Room",
+        "The Ojama Brothers",
+        "Level 20/Normal"
+      ],
+      "cards": [
+        {
+          "name": "Ojama Black",
+          "card": "94448672-8f04-4b97-b477-2c96bd734578",
+          "yugipediaId": 5437,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Ojama Green",
+          "card": "6a842d2e-bd87-47f7-8c37-4ce9a3afb5e1",
+          "yugipediaId": 5418,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Ojama Yellow",
+          "card": "8b9dac3d-c91e-4dca-8b9c-dbdff8ce40f5",
+          "yugipediaId": 5117,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Ojama Delta Hurricane!!",
+          "card": "066a560f-b02f-4733-8e76-a774437fb9ee",
+          "yugipediaId": 5496,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Ojamagic",
+          "card": "bdd424fa-2d58-4f1e-b872-28161ef8156e",
+          "yugipediaId": 10319,
+          "count": 3,
+          "category": "spells"
+        },
+        {
+          "name": "Ojamandala",
+          "card": "aa5464da-aeef-4856-ba75-117cf93f0da3",
+          "yugipediaId": 595415,
+          "count": 3,
+          "category": "spells"
+        },
+        {
+          "name": "Painful Decision",
+          "card": "c0046335-184d-4164-beda-91ea6faf2da7",
+          "yugipediaId": 403272,
+          "count": 3,
+          "category": "spells"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Treasure Room",
+        "The Ojama Brothers",
+        "Level 40/Hard"
+      ],
+      "cards": [
+        {
+          "name": "Ojama Black",
+          "card": "94448672-8f04-4b97-b477-2c96bd734578",
+          "yugipediaId": 5437,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Ojama Green",
+          "card": "6a842d2e-bd87-47f7-8c37-4ce9a3afb5e1",
+          "yugipediaId": 5418,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Ojama Yellow",
+          "card": "8b9dac3d-c91e-4dca-8b9c-dbdff8ce40f5",
+          "yugipediaId": 5117,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Ojama Blue",
+          "card": "d2a14ab8-3832-4785-af5f-2e5b50720464",
+          "yugipediaId": 61398,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Ojama Knight",
+          "card": "4b7d239d-f494-4b3e-8957-17f99bad9ba9",
+          "yugipediaId": 16153,
+          "count": 3,
+          "category": "fusion monsters"
+        },
+        {
+          "name": "Ojama Country",
+          "card": "02518b96-e681-4dbf-9d7e-15e7bba91ee8",
+          "yugipediaId": 61435,
+          "count": 3,
+          "category": "spells"
+        },
+        {
+          "name": "Ojamagic",
+          "card": "bdd424fa-2d58-4f1e-b872-28161ef8156e",
+          "yugipediaId": 10319,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Ojamandala",
+          "card": "aa5464da-aeef-4856-ba75-117cf93f0da3",
+          "yugipediaId": 595415,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Polymerization",
+          "card": "54f38f67-5d19-4625-9a9a-e1445574d5bf",
+          "yugipediaId": 35,
+          "count": 3,
+          "category": "spells"
+        },
+        {
+          "name": "Re-Fusion",
+          "card": "f88e1f23-3e77-4f77-a5c9-ef40230a4da1",
+          "yugipediaId": 11813,
+          "count": 2,
+          "category": "spells"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "King of Games",
+        "Yugi Muto"
+      ],
+      "cards": [
+        {
+          "name": "Alpha The Magnet Warrior",
+          "card": "2e11e214-3b34-4029-b4b8-bfcc7ec33b37",
+          "yugipediaId": 65,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Beta The Magnet Warrior",
+          "card": "6cac5315-3e5b-4d6d-9901-8e0841fc3a99",
+          "yugipediaId": 68,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Dark Magician",
+          "card": "cf059913-791c-4a39-a210-2a360345c841",
+          "yugipediaId": 1132,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Gamma The Magnet Warrior",
+          "card": "1780ae6e-566a-4f4f-81b3-ee65ea648b95",
+          "yugipediaId": 72,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Mystical Elf",
+          "card": "4507fde7-aeea-420b-a2be-4bd8d3654a3c",
+          "yugipediaId": 1534,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Crusader of Endymion",
+          "card": "90021cee-fc4d-4e42-955f-d5fcbe4b48df",
+          "yugipediaId": 98318,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Dark Magician Girl",
+          "card": "74689510-87f2-4e2a-b806-693c7f0e0a98",
+          "yugipediaId": 1523,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Obnoxious Celtic Guard",
+          "card": "dc4f1423-ef6c-4b48-972c-6c2106aa47da",
+          "yugipediaId": 565,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Dark Magic Attack",
+          "card": "ba2192f7-264a-4ce3-8fe0-8ed8490b5d35",
+          "yugipediaId": 574,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Dark Magic Curtain",
+          "card": "eb3b5a64-9396-4ad9-b9a6-f06b78f997b6",
+          "yugipediaId": 4892,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Magical Dimension",
+          "card": "b79dc124-2fb4-4a3f-a09d-d62cf235b620",
+          "yugipediaId": 7053,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Sage's Stone",
+          "card": "4ffaf8a6-6d13-4228-af08-74b6b2cd16fe",
+          "yugipediaId": 11,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Thousand Knives",
+          "card": "cccb3496-8848-4f27-87eb-2e0c308de2e8",
+          "yugipediaId": 18,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Dark Renewal",
+          "card": "3ade501f-21bd-42e2-9c92-cf5d0faf463d",
+          "yugipediaId": 9356,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Magical Hats",
+          "card": "8f8921a0-9b79-409e-89ce-fd3f0fd05276",
+          "yugipediaId": 2978,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Mirror Force",
+          "card": "c85b2fcb-22da-411b-8c92-b426c5bcc41b",
+          "yugipediaId": 394,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Armityle the Chaos Phantasm",
+      "card": "3f714338-8154-4886-be7e-5b80a16febe3",
+      "yugipediaId": 510800,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "run": "2020",
+          "runIndex": 1,
+          "requirement": "1"
+        }
+      ]
+    },
+    {
+      "name": "Vision HERO Poisoner",
+      "card": "e16dd06f-4844-405c-91ce-d56b2b2990e2",
+      "yugipediaId": 425516,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "run": "2020",
+          "runIndex": 1,
+          "requirement": "2"
+        },
+        {
+          "kind": "completion",
+          "run": "2019",
+          "runIndex": 0,
+          "requirement": "3"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "2020",
+          "runIndex": 1,
+          "requirement": "100"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "2019",
+          "runIndex": 0,
+          "requirement": "100"
+        },
+        {
+          "kind": "lottery",
+          "run": "2020",
+          "runIndex": 1,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        },
+        {
+          "kind": "lottery",
+          "run": "2019",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Advanced Dark",
+      "card": "4d5c3fce-07f0-4509-845f-eaa4d0462010",
+      "yugipediaId": 507671,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "run": "2020",
+          "runIndex": 1,
+          "requirement": "3"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "2020",
+          "runIndex": 1,
+          "requirement": "100"
+        },
+        {
+          "kind": "lottery",
+          "run": "2020",
+          "runIndex": 1,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Rainbow Dark Dragon",
+      "card": "1fc35c16-6fad-429f-bf10-9714dc3f3dfd",
+      "yugipediaId": 507634,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "run": "2020",
+          "runIndex": 1,
+          "requirement": "4"
+        },
+        {
+          "kind": "completion",
+          "run": "2019",
+          "runIndex": 0,
+          "requirement": "5"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "2020",
+          "runIndex": 1,
+          "requirement": "300"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "2019",
+          "runIndex": 0,
+          "requirement": "300"
+        },
+        {
+          "kind": "lottery",
+          "run": "2020",
+          "runIndex": 1,
+          "requirement": "Rainbow",
+          "rarity": "UR"
+        },
+        {
+          "kind": "lottery",
+          "run": "2019",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Unstable Evolution",
+      "card": "2edd313a-dc28-48df-85ea-2656c8c948bc",
+      "yugipediaId": 32419,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "run": "2020",
+          "runIndex": 1,
+          "requirement": "5"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "2020",
+          "runIndex": 1,
+          "requirement": "300"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "2020",
+          "runIndex": 1,
+          "requirement": "100"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "2020",
+          "runIndex": 1,
+          "requirement": "400"
+        },
+        {
+          "kind": "lottery",
+          "run": "2020",
+          "runIndex": 1,
+          "requirement": "Rainbow",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Crystal Blessing",
+      "card": "6638a1c0-e5c5-4f6e-afd8-c31d8f475c18",
+      "yugipediaId": 20350,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "run": "2019",
+          "runIndex": 0,
+          "requirement": "1"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "2020",
+          "runIndex": 1,
+          "requirement": "30"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "2019",
+          "runIndex": 0,
+          "requirement": "30"
+        },
+        {
+          "kind": "lottery",
+          "run": "2020",
+          "runIndex": 1,
+          "requirement": "Gold",
+          "rarity": "R"
+        },
+        {
+          "kind": "lottery",
+          "run": "2019",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Raviel, Lord of Phantasms",
+      "card": "521d8e37-4254-4f29-8c98-66bd096b9076",
+      "yugipediaId": 1776,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "run": "2019",
+          "runIndex": 0,
+          "requirement": "1"
+        }
+      ]
+    },
+    {
+      "name": "The Supremacy Sun",
+      "card": "60e42a8c-f38d-4805-9ffd-fc7b2275ed91",
+      "yugipediaId": 148053,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "run": "2019",
+          "runIndex": 0,
+          "requirement": "2"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "2019",
+          "runIndex": 0,
+          "requirement": "100"
+        },
+        {
+          "kind": "lottery",
+          "run": "2019",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Plasma Warrior Eitom",
+      "card": "af499a49-89c5-4e32-b129-007573203317",
+      "yugipediaId": 1185667,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "run": "2019",
+          "runIndex": 0,
+          "requirement": "4"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "2019",
+          "runIndex": 0,
+          "requirement": "300"
+        },
+        {
+          "kind": "lottery",
+          "run": "2019",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Regenerating Rose",
+      "card": "161400b2-4574-407b-afab-8aeda7bc300a",
+      "yugipediaId": 73641,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "run": "2020",
+          "runIndex": 1,
+          "requirement": "100"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "2019",
+          "runIndex": 0,
+          "requirement": "100"
+        },
+        {
+          "kind": "lottery",
+          "run": "2020",
+          "runIndex": 1,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        },
+        {
+          "kind": "lottery",
+          "run": "2019",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Sabatiel - The Philosopher's Stone",
+      "card": "dca4410e-bc66-4afa-aff2-8ee8364d825b",
+      "yugipediaId": 516892,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "run": "2020",
+          "runIndex": 1,
+          "requirement": "100"
+        },
+        {
+          "kind": "lottery",
+          "run": "2020",
+          "runIndex": 1,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Winged Kuriboh LV9",
+      "card": "827a1bc4-b13b-4a91-bc5c-1198372980f5",
+      "yugipediaId": 510603,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "run": "2020",
+          "runIndex": 1,
+          "requirement": "100"
+        },
+        {
+          "kind": "lottery",
+          "run": "2020",
+          "runIndex": 1,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Rainbow Path",
+      "card": "f7dd173d-6bd7-4e7a-a0dd-98249e870205",
+      "yugipediaId": 70183,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "run": "2020",
+          "runIndex": 1,
+          "requirement": "30"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "2019",
+          "runIndex": 0,
+          "requirement": "30"
+        },
+        {
+          "kind": "lottery",
+          "run": "2020",
+          "runIndex": 1,
+          "requirement": "Gold",
+          "rarity": "R"
+        },
+        {
+          "kind": "lottery",
+          "run": "2019",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Ojama Knight",
+      "card": "4b7d239d-f494-4b3e-8957-17f99bad9ba9",
+      "yugipediaId": 16153,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "run": "2020",
+          "runIndex": 1,
+          "requirement": "30"
+        },
+        {
+          "kind": "lottery",
+          "run": "2020",
+          "runIndex": 1,
+          "requirement": "Gold",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Poly-Chemicritter Hydragon",
+      "card": "f68cc3d1-69cc-43b1-bdae-9c0ac650a057",
+      "yugipediaId": 452469,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "run": "2020",
+          "runIndex": 1,
+          "requirement": "30"
+        },
+        {
+          "kind": "lottery",
+          "run": "2020",
+          "runIndex": 1,
+          "requirement": "Gold",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Spirit of the Breeze",
+      "card": "4e1cc384-0379-42da-9580-8628a377cb13",
+      "yugipediaId": 5614,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "run": "2020",
+          "runIndex": 1,
+          "requirement": "30"
+        },
+        {
+          "kind": "lottery",
+          "run": "2020",
+          "runIndex": 1,
+          "requirement": "Gold",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Elemental HERO Clayman",
+      "card": "e2b94dc1-678f-4e66-a8ab-669b879e54c8",
+      "yugipediaId": 716,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "run": "2020",
+          "runIndex": 1,
+          "requirement": "30"
+        },
+        {
+          "kind": "lottery",
+          "run": "2020",
+          "runIndex": 1,
+          "requirement": "Gold",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Feather Wind",
+      "card": "54edde8a-f3fd-4873-837a-bb9d748f96d4",
+      "yugipediaId": 2617,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "run": "2020",
+          "runIndex": 1,
+          "requirement": "10"
+        },
+        {
+          "kind": "lottery",
+          "run": "2020",
+          "runIndex": 1,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Beastly Mirror Ritual",
+      "card": "252850e8-40ea-48fd-9fa1-9fe88ba5cf3f",
+      "yugipediaId": 10028,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "run": "2020",
+          "runIndex": 1,
+          "requirement": "10"
+        },
+        {
+          "kind": "lottery",
+          "run": "2020",
+          "runIndex": 1,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Fiend's Mirror",
+      "card": "983d5e90-e348-483b-bc5f-1c42c15a8dcd",
+      "yugipediaId": 9981,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "run": "2020",
+          "runIndex": 1,
+          "requirement": "10"
+        },
+        {
+          "kind": "lottery",
+          "run": "2020",
+          "runIndex": 1,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Kojikocy",
+      "card": "7a09e8f8-6d36-4dc9-bf2e-7a5b393fb556",
+      "yugipediaId": 508552,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "run": "2020",
+          "runIndex": 1,
+          "requirement": "10"
+        },
+        {
+          "kind": "lottery",
+          "run": "2020",
+          "runIndex": 1,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Crystal Beast Emerald Tortoise",
+      "card": "965156e2-5534-42bb-9dc8-ec94a6258932",
+      "yugipediaId": 511286,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "run": "2019",
+          "runIndex": 0,
+          "requirement": "100"
+        },
+        {
+          "kind": "lottery",
+          "run": "2019",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Elemental HERO Core",
+      "card": "66f360b7-6511-42bd-b8ba-7309baa67776",
+      "yugipediaId": 353107,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "run": "2019",
+          "runIndex": 0,
+          "requirement": "100"
+        },
+        {
+          "kind": "lottery",
+          "run": "2019",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Cocoon Rebirth",
+      "card": "e689d6ff-bd67-4fe6-9ed7-744c580d63a0",
+      "yugipediaId": 512469,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "run": "2019",
+          "runIndex": 0,
+          "requirement": "30"
+        },
+        {
+          "kind": "lottery",
+          "run": "2019",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Space Gift",
+      "card": "17f56d21-0502-4d64-b18a-171970a2ea87",
+      "yugipediaId": 69640,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "run": "2019",
+          "runIndex": 0,
+          "requirement": "30"
+        },
+        {
+          "kind": "lottery",
+          "run": "2019",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Anti-Fusion Device",
+      "card": "68801a89-11dd-4c67-be0e-a48b18433015",
+      "yugipediaId": 22044,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "run": "2019",
+          "runIndex": 0,
+          "requirement": "30"
+        },
+        {
+          "kind": "lottery",
+          "run": "2019",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Chrysalis Dolphin",
+      "card": "733e1258-e6bc-42ea-8a75-dd42d66f3895",
+      "yugipediaId": 6048,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "run": "2019",
+          "runIndex": 0,
+          "requirement": "10"
+        },
+        {
+          "kind": "lottery",
+          "run": "2019",
+          "runIndex": 0,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Chrysalis Chicky",
+      "card": "bd7a32c0-3e81-4834-8f9c-31b8e0f0230f",
+      "yugipediaId": 21949,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "run": "2019",
+          "runIndex": 0,
+          "requirement": "10"
+        },
+        {
+          "kind": "lottery",
+          "run": "2019",
+          "runIndex": 0,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Chrysalis Pantail",
+      "card": "a867ee66-fcbf-45b1-a1d8-723dd9ce1555",
+      "yugipediaId": 21932,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "run": "2019",
+          "runIndex": 0,
+          "requirement": "10"
+        },
+        {
+          "kind": "lottery",
+          "run": "2019",
+          "runIndex": 0,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Chrysalis Pinny",
+      "card": "973fc186-4d72-4e7f-9f0b-fde4bc3e2b09",
+      "yugipediaId": 21942,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "run": "2019",
+          "runIndex": 0,
+          "requirement": "10"
+        },
+        {
+          "kind": "lottery",
+          "run": "2019",
+          "runIndex": 0,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Chrysalis Larva",
+      "card": "d268ae68-4bc5-4bd8-a6c3-e79157112713",
+      "yugipediaId": 21939,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "run": "2019",
+          "runIndex": 0,
+          "requirement": "10"
+        },
+        {
+          "kind": "lottery",
+          "run": "2019",
+          "runIndex": 0,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Contact",
+      "card": "24e7e5d6-b50f-4e68-af58-cd2800911fd8",
+      "yugipediaId": 12494,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "run": "2019",
+          "runIndex": 0,
+          "requirement": "10"
+        },
+        {
+          "kind": "lottery",
+          "run": "2019",
+          "runIndex": 0,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "I'm Always Near You",
+      "skill": "633749f3-1415-4649-b744-ae4b9837b113",
+      "yugipediaId": 715361,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "run": "2020",
+          "runIndex": 1,
+          "requirement": "3"
+        }
+      ]
+    },
+    {
+      "name": "Ultimate Fusion!",
+      "skill": "76ecbf48-5cc7-4341-b441-a8c8dba67844",
+      "yugipediaId": 717304,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "run": "2019",
+          "runIndex": 0,
+          "requirement": "3"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Duelist Chronicles GX: Yubel",
+        "id": 663780
+      }
+    ]
+  }
+}

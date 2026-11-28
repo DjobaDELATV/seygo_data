@@ -1,0 +1,1075 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "a3e0ae81-fe1a-446d-b37b-2b2e9cb632b6",
+  "name": {
+    "en": "Evolved Hassleberry is here!"
+  },
+  "type": "Roaming Duelist event",
+  "duelWorlds": [
+    "Duel World (GX)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/a/a4/EvolvedHassleberryishere-Banner.png",
+  "runs": [
+    {
+      "startDate": "2020-05-18",
+      "endDate": "2020-05-24"
+    },
+    {
+      "startDate": "2020-09-01",
+      "endDate": "2020-09-09"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "notes": [
+        "In addition to the following, standard Duel Rewards are also available by Dueling Evolved Hassleberry at Level 30 or lower."
+      ]
+    },
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "run": "September 2020",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Evo-Diversity\", \"Evo-Price\"",
+                "cards": [
+                  {
+                    "name": "Evo-Diversity",
+                    "card": "ed9c08fa-6b5c-4e05-9b03-c834207337de",
+                    "yugipediaId": 210708
+                  },
+                  {
+                    "name": "Evo-Price",
+                    "card": "b6925bc5-e428-4fff-b9b4-4b19b71f6baa",
+                    "yugipediaId": 210800
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Evoltile Lagosucho\", \"Evoltile Elginero\", \"Indomitable Fighter Lei Lei\"",
+                "cards": [
+                  {
+                    "name": "Evoltile Lagosucho",
+                    "card": "47cbcddb-86ff-47cb-986c-a46ffed643b8",
+                    "yugipediaId": 210329
+                  },
+                  {
+                    "name": "Evoltile Elginero",
+                    "card": "217b0beb-2c40-413f-80de-4d975ce939bc",
+                    "yugipediaId": 196285
+                  },
+                  {
+                    "name": "Indomitable Fighter Lei Lei",
+                    "card": "f32bfb5f-2583-4eef-812d-cf7d7531e527",
+                    "yugipediaId": 446
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Protective Soul Ailin\", \"Raise Body Heat\", \"Ultra Evolution Pill\", \"Mad Sword Beast\"",
+                "cards": [
+                  {
+                    "name": "Protective Soul Ailin",
+                    "card": "810aebee-ee13-4005-a7c5-0a56fe5f3762",
+                    "yugipediaId": 10783
+                  },
+                  {
+                    "name": "Raise Body Heat",
+                    "card": "5fc5c9a6-2f0c-4179-ad96-bdf4ded9dabe",
+                    "yugipediaId": 506479
+                  },
+                  {
+                    "name": "Ultra Evolution Pill",
+                    "card": "820b571f-01bf-4ae3-9121-35774d434f9e",
+                    "yugipediaId": 12711
+                  },
+                  {
+                    "name": "Mad Sword Beast",
+                    "card": "fddc449c-55df-4714-b904-7e25990b9fdc",
+                    "yugipediaId": 8438
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Ancient Lizard Warrior\"",
+                "cards": [
+                  {
+                    "name": "Ancient Lizard Warrior",
+                    "card": "e35179a8-27a4-4b59-b212-d09576d07a5b",
+                    "yugipediaId": 4248
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "run": "May 2020",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Evo-Price\"",
+                "cards": [
+                  {
+                    "name": "Evo-Price",
+                    "card": "b6925bc5-e428-4fff-b9b4-4b19b71f6baa",
+                    "yugipediaId": 210800
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Evoltile Elginero\", \"Gear Golem the Moving Fortress\", \"Indomitable Fighter Lei Lei\", \"Gren Maju Da Eiza\"",
+                "cards": [
+                  {
+                    "name": "Evoltile Elginero",
+                    "card": "217b0beb-2c40-413f-80de-4d975ce939bc",
+                    "yugipediaId": 196285
+                  },
+                  {
+                    "name": "Gear Golem the Moving Fortress",
+                    "card": "8cd4af6b-00d9-4818-81ad-26114d5f499b",
+                    "yugipediaId": 11614
+                  },
+                  {
+                    "name": "Indomitable Fighter Lei Lei",
+                    "card": "f32bfb5f-2583-4eef-812d-cf7d7531e527",
+                    "yugipediaId": 446
+                  },
+                  {
+                    "name": "Gren Maju Da Eiza",
+                    "card": "eb645570-a5d0-4e76-9a71-d2884118a595",
+                    "yugipediaId": 12174
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Protective Soul Ailin\", \"Raise Body Heat\", \"Ultra Evolution Pill\", \"Mad Sword Beast\"",
+                "cards": [
+                  {
+                    "name": "Protective Soul Ailin",
+                    "card": "810aebee-ee13-4005-a7c5-0a56fe5f3762",
+                    "yugipediaId": 10783
+                  },
+                  {
+                    "name": "Raise Body Heat",
+                    "card": "5fc5c9a6-2f0c-4179-ad96-bdf4ded9dabe",
+                    "yugipediaId": 506479
+                  },
+                  {
+                    "name": "Ultra Evolution Pill",
+                    "card": "820b571f-01bf-4ae3-9121-35774d434f9e",
+                    "yugipediaId": 12711
+                  },
+                  {
+                    "name": "Mad Sword Beast",
+                    "card": "fddc449c-55df-4714-b904-7e25990b9fdc",
+                    "yugipediaId": 8438
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Ancient Lizard Warrior\"",
+                "cards": [
+                  {
+                    "name": "Ancient Lizard Warrior",
+                    "card": "e35179a8-27a4-4b59-b212-d09576d07a5b",
+                    "yugipediaId": 4248
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Rewards",
+        "Event Missions"
+      ],
+      "run": "September 2020",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against Evolved Hassleberry in Duel World."
+              },
+              {
+                "text": "1 \"Ultra Evolution Pill\" (Glossy)",
+                "cards": [
+                  {
+                    "name": "Ultra Evolution Pill",
+                    "card": "820b571f-01bf-4ae3-9121-35774d434f9e",
+                    "yugipediaId": 12711,
+                    "quantity": 1,
+                    "variant": "Glossy"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 3 Duel(s) against Evolved Hassleberry in Duel World."
+              },
+              {
+                "text": "1 \"Evoltile Elginero\" (Glossy)",
+                "cards": [
+                  {
+                    "name": "Evoltile Elginero",
+                    "card": "217b0beb-2c40-413f-80de-4d975ce939bc",
+                    "yugipediaId": 196285,
+                    "quantity": 1,
+                    "variant": "Glossy"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 7 Duel(s) against Evolved Hassleberry in Duel World."
+              },
+              {
+                "text": "1 \"Evoltile Lagosucho\"",
+                "cards": [
+                  {
+                    "name": "Evoltile Lagosucho",
+                    "card": "47cbcddb-86ff-47cb-986c-a46ffed643b8",
+                    "yugipediaId": 210329,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Play 15 Duel(s) against Evolved Hassleberry in Duel World (surrenders are not counted)."
+              },
+              {
+                "text": "1 \"Evo-Diversity\"",
+                "cards": [
+                  {
+                    "name": "Evo-Diversity",
+                    "card": "ed9c08fa-6b5c-4e05-9b03-c834207337de",
+                    "yugipediaId": 210708,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Rewards",
+        "Event Missions"
+      ],
+      "run": "May 2020",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against Evolved Hassleberry in Duel World."
+              },
+              {
+                "text": "1 \"Protective Soul Ailin\" (Glossy)",
+                "cards": [
+                  {
+                    "name": "Protective Soul Ailin",
+                    "card": "810aebee-ee13-4005-a7c5-0a56fe5f3762",
+                    "yugipediaId": 10783,
+                    "quantity": 1,
+                    "variant": "Glossy"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 3 Duel(s) against Evolved Hassleberry in Duel World."
+              },
+              {
+                "text": "1 \"Indomitable Fighter Lei Lei\" (Glossy)",
+                "cards": [
+                  {
+                    "name": "Indomitable Fighter Lei Lei",
+                    "card": "f32bfb5f-2583-4eef-812d-cf7d7531e527",
+                    "yugipediaId": 446,
+                    "quantity": 1,
+                    "variant": "Glossy"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 7 Duel(s) against Evolved Hassleberry in Duel World."
+              },
+              {
+                "text": "1 \"Evoltile Elginero\"",
+                "cards": [
+                  {
+                    "name": "Evoltile Elginero",
+                    "card": "217b0beb-2c40-413f-80de-4d975ce939bc",
+                    "yugipediaId": 196285,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Play 15 Duel(s) against Evolved Hassleberry in Duel World (surrenders are not counted)."
+              },
+              {
+                "text": "1 \"Evo-Price\"",
+                "cards": [
+                  {
+                    "name": "Evo-Price",
+                    "card": "b6925bc5-e428-4fff-b9b4-4b19b71f6baa",
+                    "yugipediaId": 210800,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "decks": [
+    {
+      "path": [
+        "Decks",
+        "Level 10"
+      ],
+      "cards": [
+        {
+          "name": "Black Ptera",
+          "card": "0ae7d39a-a49c-4e21-8d25-9bb51b76c99e",
+          "yugipediaId": 15836,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Evolsaur Vulcano",
+          "card": "0d9e6e4a-733c-4c28-aadb-cc0cc8707234",
+          "yugipediaId": 166476,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Evoltile Gephyro",
+          "card": "3dfe4f69-1217-4ca0-aae8-e1f8810e61a1",
+          "yugipediaId": 174350,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Evoltile Odonto",
+          "card": "7e9621ae-110e-4b66-9cb9-bc51b82b0131",
+          "yugipediaId": 166416,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Evoltile Pleuro",
+          "card": "9c786974-c55b-4923-84e8-401ae1e71e73",
+          "yugipediaId": 194671,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gilasaurus",
+          "card": "1942fc7c-d744-4b48-a7ba-73165b84d430",
+          "yugipediaId": 3152,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Evo-Karma",
+          "card": "f299ee64-da3f-4012-92a1-9899ed9a6444",
+          "yugipediaId": 162014,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Primordial Soup",
+          "card": "4fc4cb9a-034e-4bb3-b7b3-606728c5c500",
+          "yugipediaId": 179922,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Degen-Force",
+          "card": "2be7e91c-0f39-406e-8ec9-867a5bbab764",
+          "yugipediaId": 194176,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Fossil Excavation",
+          "card": "7d1fb295-fea2-4f0d-b6ae-219a5c230aca",
+          "yugipediaId": 15873,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Hunting Instinct",
+          "card": "59f7dea4-89dc-493c-a9fb-c02756cf17a3",
+          "yugipediaId": 15798,
+          "count": 2,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Level 20"
+      ],
+      "cards": [
+        {
+          "name": "Black Ptera",
+          "card": "0ae7d39a-a49c-4e21-8d25-9bb51b76c99e",
+          "yugipediaId": 15836,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Evolsaur Darwino",
+          "card": "75cefa6d-72de-404c-ad41-698c787345b9",
+          "yugipediaId": 210567,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Evolsaur Vulcano",
+          "card": "0d9e6e4a-733c-4c28-aadb-cc0cc8707234",
+          "yugipediaId": 166476,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Evoltile Elginero",
+          "card": "217b0beb-2c40-413f-80de-4d975ce939bc",
+          "yugipediaId": 196285,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Evoltile Gephyro",
+          "card": "3dfe4f69-1217-4ca0-aae8-e1f8810e61a1",
+          "yugipediaId": 174350,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Evoltile Odonto",
+          "card": "7e9621ae-110e-4b66-9cb9-bc51b82b0131",
+          "yugipediaId": 166416,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gilasaurus",
+          "card": "1942fc7c-d744-4b48-a7ba-73165b84d430",
+          "yugipediaId": 3152,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Evo-Force",
+          "card": "d0bfb18d-b03c-4bc1-91c9-8ba84de6de56",
+          "yugipediaId": 194838,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Evo-Karma",
+          "card": "f299ee64-da3f-4012-92a1-9899ed9a6444",
+          "yugipediaId": 162014,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Primordial Soup",
+          "card": "4fc4cb9a-034e-4bb3-b7b3-606728c5c500",
+          "yugipediaId": 179922,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Wasteland",
+          "card": "e53bbce4-c5b2-4e0e-a955-3ee97267a746",
+          "yugipediaId": 330,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Degen-Force",
+          "card": "2be7e91c-0f39-406e-8ec9-867a5bbab764",
+          "yugipediaId": 194176,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Fossil Excavation",
+          "card": "7d1fb295-fea2-4f0d-b6ae-219a5c230aca",
+          "yugipediaId": 15873,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Level 30"
+      ],
+      "cards": [
+        {
+          "name": "Evolsaur Darwino",
+          "card": "75cefa6d-72de-404c-ad41-698c787345b9",
+          "yugipediaId": 210567,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Evolsaur Vulcano",
+          "card": "0d9e6e4a-733c-4c28-aadb-cc0cc8707234",
+          "yugipediaId": 166476,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Evoltile Elginero",
+          "card": "217b0beb-2c40-413f-80de-4d975ce939bc",
+          "yugipediaId": 196285,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Evoltile Gephyro",
+          "card": "3dfe4f69-1217-4ca0-aae8-e1f8810e61a1",
+          "yugipediaId": 174350,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Evoltile Lagosucho",
+          "card": "47cbcddb-86ff-47cb-986c-a46ffed643b8",
+          "yugipediaId": 210329,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Overtex Qoatlus",
+          "card": "21b6a3df-218c-470a-8011-c8ed3128fe00",
+          "yugipediaId": 548774,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Tyranno Infinity",
+          "card": "c4ee1253-dadb-4d2a-a183-07540c451e8f",
+          "yugipediaId": 15748,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Big Evolution Pill",
+          "card": "4bcaf3dc-2a81-4114-a43c-c30c40e1f741",
+          "yugipediaId": 15944,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Double Evolution Pill",
+          "card": "36e82004-52ec-41cd-be84-425b0b72eb4c",
+          "yugipediaId": 493882,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Evo-Force",
+          "card": "d0bfb18d-b03c-4bc1-91c9-8ba84de6de56",
+          "yugipediaId": 194838,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Foolish Burial",
+          "card": "104893e3-7989-4e25-bcea-d0c87bb99bc7",
+          "yugipediaId": 5395,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Ultra Evolution Pill",
+          "card": "820b571f-01bf-4ae3-9121-35774d434f9e",
+          "yugipediaId": 12711,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Evolutionary Bridge",
+          "card": "9431222d-d45a-4604-a037-93a65acccb72",
+          "yugipediaId": 162099,
+          "count": 2,
+          "category": "traps"
+        },
+        {
+          "name": "Survival Instinct",
+          "card": "f5a62402-84b3-44b0-b77a-4dd960b8297c",
+          "yugipediaId": 15791,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Level 40"
+      ],
+      "cards": [
+        {
+          "name": "Evolsaur Cerato",
+          "card": "a27b7216-8d28-4be6-a971-0ac7b542ed23",
+          "yugipediaId": 174417,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Evolsaur Diplo",
+          "card": "e7e32a73-20ef-4fb8-8de9-3f1d288a6342",
+          "yugipediaId": 174461,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Evoltile Najasho",
+          "card": "7d23203b-2fb7-4d8a-9f95-0c8bf8a0d8bb",
+          "yugipediaId": 208346,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Evoltile Westlo",
+          "card": "f8904cc2-41cb-47e4-9e5f-5990d30e7b61",
+          "yugipediaId": 174568,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Super Conductor Tyranno",
+          "card": "ad62628f-5d6c-4d7c-a034-9ae1c35e7f31",
+          "yugipediaId": 16033,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Ultimate Tyranno",
+          "card": "9d8b6032-7774-4707-ac79-0774f82740a0",
+          "yugipediaId": 6611,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Double Evolution Pill",
+          "card": "36e82004-52ec-41cd-be84-425b0b72eb4c",
+          "yugipediaId": 493882,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Evo-Diversity",
+          "card": "ed9c08fa-6b5c-4e05-9b03-c834207337de",
+          "yugipediaId": 210708,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Evo-Force",
+          "card": "d0bfb18d-b03c-4bc1-91c9-8ba84de6de56",
+          "yugipediaId": 194838,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Evo-Instant",
+          "card": "4214ca59-1c8e-4668-b2b3-2a91f6f8bd7d",
+          "yugipediaId": 208936,
+          "count": 2,
+          "category": "traps"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Evo-Diversity",
+      "card": "ed9c08fa-6b5c-4e05-9b03-c834207337de",
+      "yugipediaId": 210708,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "September 2020",
+          "runIndex": 1,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "missions",
+          "run": "September 2020",
+          "runIndex": 1,
+          "requirement": "Play 15 Duel(s) against Evolved Hassleberry in Duel World (surrenders are not counted)."
+        }
+      ]
+    },
+    {
+      "name": "Evo-Price",
+      "card": "b6925bc5-e428-4fff-b9b4-4b19b71f6baa",
+      "yugipediaId": 210800,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "September 2020",
+          "runIndex": 1,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "May 2020",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "missions",
+          "run": "May 2020",
+          "runIndex": 0,
+          "requirement": "Play 15 Duel(s) against Evolved Hassleberry in Duel World (surrenders are not counted)."
+        }
+      ]
+    },
+    {
+      "name": "Evoltile Lagosucho",
+      "card": "47cbcddb-86ff-47cb-986c-a46ffed643b8",
+      "yugipediaId": 210329,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "September 2020",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "run": "September 2020",
+          "runIndex": 1,
+          "requirement": "Win 7 Duel(s) against Evolved Hassleberry in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Evoltile Elginero",
+      "card": "217b0beb-2c40-413f-80de-4d975ce939bc",
+      "yugipediaId": 196285,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "September 2020",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "May 2020",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "run": "September 2020",
+          "runIndex": 1,
+          "requirement": "Win 3 Duel(s) against Evolved Hassleberry in Duel World."
+        },
+        {
+          "kind": "missions",
+          "run": "May 2020",
+          "runIndex": 0,
+          "requirement": "Win 7 Duel(s) against Evolved Hassleberry in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Indomitable Fighter Lei Lei",
+      "card": "f32bfb5f-2583-4eef-812d-cf7d7531e527",
+      "yugipediaId": 446,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "September 2020",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "May 2020",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "run": "May 2020",
+          "runIndex": 0,
+          "requirement": "Win 3 Duel(s) against Evolved Hassleberry in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Protective Soul Ailin",
+      "card": "810aebee-ee13-4005-a7c5-0a56fe5f3762",
+      "yugipediaId": 10783,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "September 2020",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "May 2020",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "missions",
+          "run": "May 2020",
+          "runIndex": 0,
+          "requirement": "Win 1 Duel(s) against Evolved Hassleberry in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Raise Body Heat",
+      "card": "5fc5c9a6-2f0c-4179-ad96-bdf4ded9dabe",
+      "yugipediaId": 506479,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "September 2020",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "May 2020",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Ultra Evolution Pill",
+      "card": "820b571f-01bf-4ae3-9121-35774d434f9e",
+      "yugipediaId": 12711,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "September 2020",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "May 2020",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "missions",
+          "run": "September 2020",
+          "runIndex": 1,
+          "requirement": "Win 1 Duel(s) against Evolved Hassleberry in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Mad Sword Beast",
+      "card": "fddc449c-55df-4714-b904-7e25990b9fdc",
+      "yugipediaId": 8438,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "September 2020",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "May 2020",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Ancient Lizard Warrior",
+      "card": "e35179a8-27a4-4b59-b212-d09576d07a5b",
+      "yugipediaId": 4248,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "September 2020",
+          "runIndex": 1,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "May 2020",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Gear Golem the Moving Fortress",
+      "card": "8cd4af6b-00d9-4818-81ad-26114d5f499b",
+      "yugipediaId": 11614,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "May 2020",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Gren Maju Da Eiza",
+      "card": "eb645570-a5d0-4e76-9a71-d2884118a595",
+      "yugipediaId": 12174,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "May 2020",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Evolved Hassleberry is here!",
+        "id": 1128634
+      }
+    ]
+  }
+}

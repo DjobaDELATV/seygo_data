@@ -1,0 +1,2960 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "804071d8-ff98-4e90-a94a-b6a62f41d66b",
+  "name": {
+    "en": "Welcome to Toon World!",
+    "fr": "Bienvenue au Monde des Toons"
+  },
+  "type": "Gate Event",
+  "duelWorlds": [
+    "Duel World (DM)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/1/14/WelcometoToonWorld-Banner.png",
+  "runs": [
+    {
+      "startDate": "2016-12-20",
+      "endDate": "2016-12-27"
+    },
+    {
+      "startDate": "2017-01-31",
+      "endDate": "2017-02-08"
+    },
+    {
+      "startDate": "2017-04-20",
+      "endDate": "2017-05-02"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "other",
+      "path": [
+        "Rewards"
+      ],
+      "notes": [
+        "After each Duel with Pegasus, the player will earn event points equal to their Duel Assessment score, multiplied by an amount corresponding to the Level Pegasus was challenged at. The standard Duel Assessment penalties for losing still apply with regards to the event points earned. The multipliers vary depending on when the event was held:",
+        "* December 2016 event: Level 10 (x1), Level 20 (x2.5), Level 30 (x7), Level 40 (x18)",
+        "* February 2017 event: Level 10 (x1), Level 20 (x3), Level 30 (x7), Level 40 (x18)",
+        "* April 2017 event: Level 10 (x1), Level 20 (x3), Level 30 (x7), Level 40 (x18), Level 50 (x20)",
+        "As the player continues to earn event points, they will earn rewards from the event for each \"milestone\" they reach in terms of accumulated event points. When earned, these rewards are deposited into the player's Gift Box, where they have exactly 30 days (from the time they were deposited) to be claimed before expiring.",
+        "Additionally, the standard possible Duel Rewards from Dueling Pegasus (a Legendary Duelist) are generally more bountiful than normal, as compared to Duel Rewards from Duels with other Legendary Duelists, but differ depending on when the event was held.",
+        "If the player has any remaining Star Chips when the event concludes, they are removed from the player's inventory; with the exception of the December 2016 event, however, players were also compensated for those removed Star Chips at a rate of 3 Gold per Star Chip."
+      ]
+    },
+    {
+      "kind": "other",
+      "path": [
+        "Rewards",
+        "December 2016"
+      ],
+      "run": "December 2016",
+      "runIndex": 0,
+      "notes": [
+        "The possible Duel Rewards earned from Dueling Pegasus in this event include (but are not necessarily limited to) the following:",
+        "The following rewards were awarded during this event, based on event points accumulated over the course of the event:"
+      ],
+      "tables": [
+        {
+          "rows": [
+            [
+              {
+                "text": ""
+              },
+              {
+                "text": "Duel Rewards"
+              }
+            ],
+            [
+              {
+                "text": "Chest"
+              },
+              {
+                "text": "60 Gold"
+              }
+            ],
+            [
+              {
+                "text": "Gold Chest"
+              },
+              {
+                "text": "500 Gold, 1 Gem, various Skills, 2 Stones of Darkness/Earth/Flame/Light/Spell/Trap/Water/Wind, 2 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Rainbow Chest"
+              },
+              {
+                "text": "10 Gems, 1 SR Jewel, 1 UR Jewel, various Skills"
+              }
+            ],
+            [
+              {
+                "text": "Pack"
+              },
+              {
+                "text": "Standard assortment of cards common to all Legendary Duelists, e.g. \"Jam Breeding Machine\", \"Molting Escape\", \"Spirit of the Mountain\"...",
+                "cards": [
+                  {
+                    "name": "Jam Breeding Machine",
+                    "card": "64122ed7-04f3-4731-b4b9-6cf70575218d",
+                    "yugipediaId": 5391
+                  },
+                  {
+                    "name": "Molting Escape",
+                    "card": "3937ebd5-f300-4c55-92da-ad1db137f31e",
+                    "yugipediaId": 61559
+                  },
+                  {
+                    "name": "Spirit of the Mountain",
+                    "card": "e1417ee5-b776-43c1-bab1-419b29625da7",
+                    "yugipediaId": 8771
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Gold Pack"
+              },
+              {
+                "text": "\"Dark-Eyes Illusionist\", \"House of Adhesive Tape\", \"Mind Haxorz\", \"Spell Reproduction\", \"Toon Alligator\"",
+                "cards": [
+                  {
+                    "name": "Dark-Eyes Illusionist",
+                    "card": "563e3872-a0e0-420a-8f83-2bf667990eff",
+                    "yugipediaId": 16480
+                  },
+                  {
+                    "name": "House of Adhesive Tape",
+                    "card": "9cb9c931-77f3-4b3a-83ae-87f9c01a1906",
+                    "yugipediaId": 3854
+                  },
+                  {
+                    "name": "Mind Haxorz",
+                    "card": "77c5bd99-445e-4106-935c-0110a83ec849",
+                    "yugipediaId": 12783
+                  },
+                  {
+                    "name": "Spell Reproduction",
+                    "card": "efe9be85-acca-4feb-8ea3-dc6ffba33f0f",
+                    "yugipediaId": 11097
+                  },
+                  {
+                    "name": "Toon Alligator",
+                    "card": "acbb9b08-cd62-4ad4-b9d7-a0876384301c",
+                    "yugipediaId": 7672
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Rainbow Pack"
+              },
+              {
+                "text": "\"Card of Sanctity\", \"Gorgon's Eye\", \"Toon Masked Sorcerer\", \"Toon Mermaid\", \"Toon World\"",
+                "cards": [
+                  {
+                    "name": "Card of Sanctity",
+                    "card": "92a3378f-3747-48f6-ac25-bf252520871d",
+                    "yugipediaId": 1615
+                  },
+                  {
+                    "name": "Gorgon's Eye",
+                    "card": "513846c4-4280-4b6b-937a-7696f31c6604",
+                    "yugipediaId": 16528
+                  },
+                  {
+                    "name": "Toon Masked Sorcerer",
+                    "card": "d79cecf8-3394-412c-8f18-c55ac9ec5243",
+                    "yugipediaId": 4332
+                  },
+                  {
+                    "name": "Toon Mermaid",
+                    "card": "5c9fc860-a9c4-4ef3-a8f3-cffd0e13f8b6",
+                    "yugipediaId": 233
+                  },
+                  {
+                    "name": "Toon World",
+                    "card": "b1351bfd-0aed-4515-b842-80ead4537193",
+                    "yugipediaId": 420460
+                  }
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "2500"
+              },
+              {
+                "text": "6000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "5000"
+              },
+              {
+                "text": "1 R Jewel"
+              }
+            ],
+            [
+              {
+                "text": "7500"
+              },
+              {
+                "text": "6000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "10000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "15000"
+              },
+              {
+                "text": "2 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "20000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "25000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "30000"
+              },
+              {
+                "text": "2 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "35000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "40000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "50000"
+              },
+              {
+                "text": "2 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "60000"
+              },
+              {
+                "text": "12000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "70000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "80000"
+              },
+              {
+                "text": "5 Duel Orbs"
+              }
+            ],
+            [
+              {
+                "text": "90000"
+              },
+              {
+                "text": "2 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "100000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "120000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "140000"
+              },
+              {
+                "text": "15000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "160000"
+              },
+              {
+                "text": "1 copy of \"Dark-Eyes Illusionist\"",
+                "cards": [
+                  {
+                    "name": "Dark-Eyes Illusionist",
+                    "card": "563e3872-a0e0-420a-8f83-2bf667990eff",
+                    "yugipediaId": 16480
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "180000"
+              },
+              {
+                "text": "5 Duel Orbs"
+              }
+            ],
+            [
+              {
+                "text": "200000"
+              },
+              {
+                "text": "15000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "225000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "250000"
+              },
+              {
+                "text": "Access to Maximillion Pegasus as a playable character"
+              }
+            ],
+            [
+              {
+                "text": "275000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "300000"
+              },
+              {
+                "text": "20000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "330000"
+              },
+              {
+                "text": "1 copy of \"House of Adhesive Tape\"",
+                "cards": [
+                  {
+                    "name": "House of Adhesive Tape",
+                    "card": "9cb9c931-77f3-4b3a-83ae-87f9c01a1906",
+                    "yugipediaId": 3854
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "360000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "390000"
+              },
+              {
+                "text": "20000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "420000"
+              },
+              {
+                "text": "1 copy of \"Spell Reproduction\"",
+                "cards": [
+                  {
+                    "name": "Spell Reproduction",
+                    "card": "efe9be85-acca-4feb-8ea3-dc6ffba33f0f",
+                    "yugipediaId": 11097
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "450000"
+              },
+              {
+                "text": "5 Duel Orbs"
+              }
+            ],
+            [
+              {
+                "text": "480000"
+              },
+              {
+                "text": "1 UR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "510000"
+              },
+              {
+                "text": "1 copy of \"Toon World\"",
+                "cards": [
+                  {
+                    "name": "Toon World",
+                    "card": "b1351bfd-0aed-4515-b842-80ead4537193",
+                    "yugipediaId": 420460
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "540000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "570000"
+              },
+              {
+                "text": "2 SR Jewels"
+              }
+            ],
+            [
+              {
+                "text": "600000"
+              },
+              {
+                "text": "1 copy of \"Toon Alligator\"",
+                "cards": [
+                  {
+                    "name": "Toon Alligator",
+                    "card": "acbb9b08-cd62-4ad4-b9d7-a0876384301c",
+                    "yugipediaId": 7672
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "640000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "680000"
+              },
+              {
+                "text": "25000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "720000"
+              },
+              {
+                "text": "1 copy of \"Mind Haxorz\"",
+                "cards": [
+                  {
+                    "name": "Mind Haxorz",
+                    "card": "77c5bd99-445e-4106-935c-0110a83ec849",
+                    "yugipediaId": 12783
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "760000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "800000"
+              },
+              {
+                "text": "25000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "850000"
+              },
+              {
+                "text": "1 copy of \"Card of Sanctity\"",
+                "cards": [
+                  {
+                    "name": "Card of Sanctity",
+                    "card": "92a3378f-3747-48f6-ac25-bf252520871d",
+                    "yugipediaId": 1615
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "900000"
+              },
+              {
+                "text": "40 Gems"
+              }
+            ],
+            [
+              {
+                "text": "950000"
+              },
+              {
+                "text": "36000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1000000"
+              },
+              {
+                "text": "1 copy of \"Toon Mermaid\"",
+                "cards": [
+                  {
+                    "name": "Toon Mermaid",
+                    "card": "5c9fc860-a9c4-4ef3-a8f3-cffd0e13f8b6",
+                    "yugipediaId": 233
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "1100000"
+              },
+              {
+                "text": "1 UR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "1200000"
+              },
+              {
+                "text": "1 glossy copy of \"Gorgon's Eye\"",
+                "cards": [
+                  {
+                    "name": "Gorgon's Eye",
+                    "card": "513846c4-4280-4b6b-937a-7696f31c6604",
+                    "yugipediaId": 16528
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "1300000"
+              },
+              {
+                "text": "60 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1400000"
+              },
+              {
+                "text": "100 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1500000"
+              },
+              {
+                "text": "1 glossy copy of \"Toon Masked Sorcerer\"",
+                "cards": [
+                  {
+                    "name": "Toon Masked Sorcerer",
+                    "card": "d79cecf8-3394-412c-8f18-c55ac9ec5243",
+                    "yugipediaId": 4332
+                  }
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Total Event Rewards",
+            "Total Event Rewards",
+            "Total Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "200000 Gold, 9 R Jewels, 4 SR Jewels, 2 UR Jewels, 15 Duel Orbs, 380 Gems"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "1 copy each of: \"Card of Sanctity\", \"Dark-Eyes Illusionist\", \"Gorgon's Eye\" (glossy), \"House of Adhesive Tape\", \"Mind Haxorz\", \"Spell Reproduction\", \"Toon Alligator\", \"Toon Masked Sorcerer\" (glossy), \"Toon Mermaid\", \"Toon World\"",
+                "cards": [
+                  {
+                    "name": "Card of Sanctity",
+                    "card": "92a3378f-3747-48f6-ac25-bf252520871d",
+                    "yugipediaId": 1615
+                  },
+                  {
+                    "name": "Dark-Eyes Illusionist",
+                    "card": "563e3872-a0e0-420a-8f83-2bf667990eff",
+                    "yugipediaId": 16480
+                  },
+                  {
+                    "name": "Gorgon's Eye",
+                    "card": "513846c4-4280-4b6b-937a-7696f31c6604",
+                    "yugipediaId": 16528,
+                    "variant": "glossy"
+                  },
+                  {
+                    "name": "House of Adhesive Tape",
+                    "card": "9cb9c931-77f3-4b3a-83ae-87f9c01a1906",
+                    "yugipediaId": 3854
+                  },
+                  {
+                    "name": "Mind Haxorz",
+                    "card": "77c5bd99-445e-4106-935c-0110a83ec849",
+                    "yugipediaId": 12783
+                  },
+                  {
+                    "name": "Spell Reproduction",
+                    "card": "efe9be85-acca-4feb-8ea3-dc6ffba33f0f",
+                    "yugipediaId": 11097
+                  },
+                  {
+                    "name": "Toon Alligator",
+                    "card": "acbb9b08-cd62-4ad4-b9d7-a0876384301c",
+                    "yugipediaId": 7672
+                  },
+                  {
+                    "name": "Toon Masked Sorcerer",
+                    "card": "d79cecf8-3394-412c-8f18-c55ac9ec5243",
+                    "yugipediaId": 4332,
+                    "variant": "glossy"
+                  },
+                  {
+                    "name": "Toon Mermaid",
+                    "card": "5c9fc860-a9c4-4ef3-a8f3-cffd0e13f8b6",
+                    "yugipediaId": 233
+                  },
+                  {
+                    "name": "Toon World",
+                    "card": "b1351bfd-0aed-4515-b842-80ead4537193",
+                    "yugipediaId": 420460
+                  }
+                ]
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "Access to Maximillion Pegasus as a playable character"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "other",
+      "path": [
+        "Rewards",
+        "December 2016",
+        "February 2017"
+      ],
+      "run": "February 2017",
+      "runIndex": 1,
+      "notes": [
+        "The possible Duel Rewards earned from Dueling Pegasus in this event include (but are not necessarily limited to) the following:",
+        "Players could potentially earn the following rewards during this event, based on the event points they accumulated over the course of the event:"
+      ],
+      "tables": [
+        {
+          "rows": [
+            [
+              {
+                "text": ""
+              },
+              {
+                "text": "Duel Rewards"
+              }
+            ],
+            [
+              {
+                "text": "Chest"
+              },
+              {
+                "text": "30 Gold, 1 Stone of Darkness/Earth/Flame/Light/Spell/Trap/Water/Wind"
+              }
+            ],
+            [
+              {
+                "text": "Gold Chest"
+              },
+              {
+                "text": "500 Gold, 1 Gem, various Skills, 2 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Rainbow Chest"
+              },
+              {
+                "text": "10 Gems, 1 SR Jewel, 1 UR Jewel, various Skills"
+              }
+            ],
+            [
+              {
+                "text": "Pack"
+              },
+              {
+                "text": "Standard assortment of cards common to all Legendary Duelists, e.g. \"Jam Breeding Machine\", \"Molting Escape\", \"Spirit of the Mountain\"...",
+                "cards": [
+                  {
+                    "name": "Jam Breeding Machine",
+                    "card": "64122ed7-04f3-4731-b4b9-6cf70575218d",
+                    "yugipediaId": 5391
+                  },
+                  {
+                    "name": "Molting Escape",
+                    "card": "3937ebd5-f300-4c55-92da-ad1db137f31e",
+                    "yugipediaId": 61559
+                  },
+                  {
+                    "name": "Spirit of the Mountain",
+                    "card": "e1417ee5-b776-43c1-bab1-419b29625da7",
+                    "yugipediaId": 8771
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Gold Pack"
+              },
+              {
+                "text": "\"Dark-Eyes Illusionist\", \"House of Adhesive Tape\", \"Mind Haxorz\", \"Spell Reproduction\", \"Toon Alligator\"",
+                "cards": [
+                  {
+                    "name": "Dark-Eyes Illusionist",
+                    "card": "563e3872-a0e0-420a-8f83-2bf667990eff",
+                    "yugipediaId": 16480
+                  },
+                  {
+                    "name": "House of Adhesive Tape",
+                    "card": "9cb9c931-77f3-4b3a-83ae-87f9c01a1906",
+                    "yugipediaId": 3854
+                  },
+                  {
+                    "name": "Mind Haxorz",
+                    "card": "77c5bd99-445e-4106-935c-0110a83ec849",
+                    "yugipediaId": 12783
+                  },
+                  {
+                    "name": "Spell Reproduction",
+                    "card": "efe9be85-acca-4feb-8ea3-dc6ffba33f0f",
+                    "yugipediaId": 11097
+                  },
+                  {
+                    "name": "Toon Alligator",
+                    "card": "acbb9b08-cd62-4ad4-b9d7-a0876384301c",
+                    "yugipediaId": 7672
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Rainbow Pack"
+              },
+              {
+                "text": "\"Card of Sanctity\", \"Gorgon's Eye\", \"Toon Masked Sorcerer\", \"Toon Mermaid\", \"Toon World\"",
+                "cards": [
+                  {
+                    "name": "Card of Sanctity",
+                    "card": "92a3378f-3747-48f6-ac25-bf252520871d",
+                    "yugipediaId": 1615
+                  },
+                  {
+                    "name": "Gorgon's Eye",
+                    "card": "513846c4-4280-4b6b-937a-7696f31c6604",
+                    "yugipediaId": 16528
+                  },
+                  {
+                    "name": "Toon Masked Sorcerer",
+                    "card": "d79cecf8-3394-412c-8f18-c55ac9ec5243",
+                    "yugipediaId": 4332
+                  },
+                  {
+                    "name": "Toon Mermaid",
+                    "card": "5c9fc860-a9c4-4ef3-a8f3-cffd0e13f8b6",
+                    "yugipediaId": 233
+                  },
+                  {
+                    "name": "Toon World",
+                    "card": "b1351bfd-0aed-4515-b842-80ead4537193",
+                    "yugipediaId": 420460
+                  }
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "2500"
+              },
+              {
+                "text": "6000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "5000"
+              },
+              {
+                "text": "1 R Jewel"
+              }
+            ],
+            [
+              {
+                "text": "7500"
+              },
+              {
+                "text": "8000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "10000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "15000"
+              },
+              {
+                "text": "2 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "20000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "25000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "30000"
+              },
+              {
+                "text": "2 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "35000"
+              },
+              {
+                "text": "Access to Maximillion Pegasus as a playable character"
+              }
+            ],
+            [
+              {
+                "text": "40000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "50000"
+              },
+              {
+                "text": "3 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "60000"
+              },
+              {
+                "text": "12000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "70000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "80000"
+              },
+              {
+                "text": "5 Duel Orbs"
+              }
+            ],
+            [
+              {
+                "text": "90000"
+              },
+              {
+                "text": "1 copy of \"Black Illusion Ritual\"",
+                "cards": [
+                  {
+                    "name": "Black Illusion Ritual",
+                    "card": "558a88f6-9f8e-4690-8f79-4db107cdc175",
+                    "yugipediaId": 74
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "120000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "140000"
+              },
+              {
+                "text": "15000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "160000"
+              },
+              {
+                "text": "1 copy of \"Toon Defense\"",
+                "cards": [
+                  {
+                    "name": "Toon Defense",
+                    "card": "ea590d19-2e8d-4efe-a3e7-97c74ff5a715",
+                    "yugipediaId": 4378
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "180000"
+              },
+              {
+                "text": "5 Duel Orbs"
+              }
+            ],
+            [
+              {
+                "text": "200000"
+              },
+              {
+                "text": "15000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "225000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "250000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "275000"
+              },
+              {
+                "text": "18000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "300000"
+              },
+              {
+                "text": "1 UR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "325000"
+              },
+              {
+                "text": "5 Duel Orbs"
+              }
+            ],
+            [
+              {
+                "text": "350000"
+              },
+              {
+                "text": "1 copy of \"Relinquished\"",
+                "cards": [
+                  {
+                    "name": "Relinquished",
+                    "card": "47950c65-2c36-401f-a2c2-c48d8ba9778b",
+                    "yugipediaId": 150
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "380000"
+              },
+              {
+                "text": "20000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "410000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "440000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "470000"
+              },
+              {
+                "text": "20000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "500000"
+              },
+              {
+                "text": "5 Duel Orbs"
+              }
+            ],
+            [
+              {
+                "text": "540000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "580000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "620000"
+              },
+              {
+                "text": "Card Sleeves: Welcome to Toon World"
+              }
+            ],
+            [
+              {
+                "text": "660000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "700000"
+              },
+              {
+                "text": "25000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "750000"
+              },
+              {
+                "text": "2 SR Jewels"
+              }
+            ],
+            [
+              {
+                "text": "800000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "850000"
+              },
+              {
+                "text": "25000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "900000"
+              },
+              {
+                "text": "Game Mat: Welcome to Toon World"
+              }
+            ],
+            [
+              {
+                "text": "950000"
+              },
+              {
+                "text": "40 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1000000"
+              },
+              {
+                "text": "30000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1100000"
+              },
+              {
+                "text": "1 UR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "1200000"
+              },
+              {
+                "text": "1 glossy copy of \"Blue-Eyes Toon Dragon\"",
+                "cards": [
+                  {
+                    "name": "Blue-Eyes Toon Dragon",
+                    "card": "c5dfa1a0-27bf-46f0-bc39-b3f52253e153",
+                    "yugipediaId": 98
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "1300000"
+              },
+              {
+                "text": "40 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1400000"
+              },
+              {
+                "text": "2 SR Jewels"
+              }
+            ],
+            [
+              {
+                "text": "1500000"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1600000"
+              },
+              {
+                "text": "1 UR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "1800000"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "2000000"
+              },
+              {
+                "text": "Icon (\"Welcome to Toon World\"-themed)"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Total Event Rewards",
+            "Total Event Rewards",
+            "Total Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "204000 Gold, 8 R Jewels, 8 SR Jewels, 3 UR Jewels, 20 Duel Orbs, 320 Gems"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "1 copy each of: \"Blue-Eyes Toon Dragon\" (glossy), \"Black Illusion Ritual\", \"Toon Defense\", \"Relinquished\"",
+                "cards": [
+                  {
+                    "name": "Blue-Eyes Toon Dragon",
+                    "card": "c5dfa1a0-27bf-46f0-bc39-b3f52253e153",
+                    "yugipediaId": 98,
+                    "variant": "glossy"
+                  },
+                  {
+                    "name": "Black Illusion Ritual",
+                    "card": "558a88f6-9f8e-4690-8f79-4db107cdc175",
+                    "yugipediaId": 74
+                  },
+                  {
+                    "name": "Toon Defense",
+                    "card": "ea590d19-2e8d-4efe-a3e7-97c74ff5a715",
+                    "yugipediaId": 4378
+                  },
+                  {
+                    "name": "Relinquished",
+                    "card": "47950c65-2c36-401f-a2c2-c48d8ba9778b",
+                    "yugipediaId": 150
+                  }
+                ]
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "Access to Maximillion Pegasus as a playable character"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "\"Card Sleeves: Welcome to Toon World\", \"Game Mat: Welcome to Toon World\", Icon (\"Welcome to Toon World\"-themed)"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "other",
+      "path": [
+        "Rewards",
+        "December 2016",
+        "April 2017"
+      ],
+      "run": "April 2017",
+      "runIndex": 2,
+      "notes": [
+        "The possible Duel Rewards earned from Dueling Pegasus in this event include (but are not necessarily limited to) the following:",
+        "Players could potentially earn the following rewards during this event, based on the event points they accumulated over the course of the event:"
+      ],
+      "tables": [
+        {
+          "rows": [
+            [
+              {
+                "text": ""
+              },
+              {
+                "text": "Duel Rewards"
+              }
+            ],
+            [
+              {
+                "text": "Chest"
+              },
+              {
+                "text": "20 Gold, 1 Stone of Darkness/Earth/Flame/Light/Spell/Trap/Water/Wind"
+              }
+            ],
+            [
+              {
+                "text": "Gold Chest"
+              },
+              {
+                "text": "500 Gold, 1 Gem, various Skills, 2 R Jewels, 1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "Rainbow Chest"
+              },
+              {
+                "text": "2000 Gold, 10 Gems, various Skills, 1 SR Jewel, 1 UR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "Pack"
+              },
+              {
+                "text": "Standard assortment of cards common to all Legendary Duelists, e.g. \"Jam Breeding Machine\", \"Molting Escape\", \"Spirit of the Mountain\"...",
+                "cards": [
+                  {
+                    "name": "Jam Breeding Machine",
+                    "card": "64122ed7-04f3-4731-b4b9-6cf70575218d",
+                    "yugipediaId": 5391
+                  },
+                  {
+                    "name": "Molting Escape",
+                    "card": "3937ebd5-f300-4c55-92da-ad1db137f31e",
+                    "yugipediaId": 61559
+                  },
+                  {
+                    "name": "Spirit of the Mountain",
+                    "card": "e1417ee5-b776-43c1-bab1-419b29625da7",
+                    "yugipediaId": 8771
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Gold Pack"
+              },
+              {
+                "text": "\"Dark-Eyes Illusionist\", \"House of Adhesive Tape\", \"Mind Haxorz\", \"Spell Reproduction\", \"Toon Alligator\"",
+                "cards": [
+                  {
+                    "name": "Dark-Eyes Illusionist",
+                    "card": "563e3872-a0e0-420a-8f83-2bf667990eff",
+                    "yugipediaId": 16480
+                  },
+                  {
+                    "name": "House of Adhesive Tape",
+                    "card": "9cb9c931-77f3-4b3a-83ae-87f9c01a1906",
+                    "yugipediaId": 3854
+                  },
+                  {
+                    "name": "Mind Haxorz",
+                    "card": "77c5bd99-445e-4106-935c-0110a83ec849",
+                    "yugipediaId": 12783
+                  },
+                  {
+                    "name": "Spell Reproduction",
+                    "card": "efe9be85-acca-4feb-8ea3-dc6ffba33f0f",
+                    "yugipediaId": 11097
+                  },
+                  {
+                    "name": "Toon Alligator",
+                    "card": "acbb9b08-cd62-4ad4-b9d7-a0876384301c",
+                    "yugipediaId": 7672
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Rainbow Pack"
+              },
+              {
+                "text": "\"Card of Sanctity\", \"Gorgon's Eye\", \"Toon Masked Sorcerer\", \"Toon Mermaid\", \"Toon World\"",
+                "cards": [
+                  {
+                    "name": "Card of Sanctity",
+                    "card": "92a3378f-3747-48f6-ac25-bf252520871d",
+                    "yugipediaId": 1615
+                  },
+                  {
+                    "name": "Gorgon's Eye",
+                    "card": "513846c4-4280-4b6b-937a-7696f31c6604",
+                    "yugipediaId": 16528
+                  },
+                  {
+                    "name": "Toon Masked Sorcerer",
+                    "card": "d79cecf8-3394-412c-8f18-c55ac9ec5243",
+                    "yugipediaId": 4332
+                  },
+                  {
+                    "name": "Toon Mermaid",
+                    "card": "5c9fc860-a9c4-4ef3-a8f3-cffd0e13f8b6",
+                    "yugipediaId": 233
+                  },
+                  {
+                    "name": "Toon World",
+                    "card": "b1351bfd-0aed-4515-b842-80ead4537193",
+                    "yugipediaId": 420460
+                  }
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "2500"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "5000"
+              },
+              {
+                "text": "1 R Jewel"
+              }
+            ],
+            [
+              {
+                "text": "7500"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "10000"
+              },
+              {
+                "text": "1 R Jewel"
+              }
+            ],
+            [
+              {
+                "text": "15000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "20000"
+              },
+              {
+                "text": "2 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "25000"
+              },
+              {
+                "text": "15 Gems"
+              }
+            ],
+            [
+              {
+                "text": "30000"
+              },
+              {
+                "text": "1 copy of \"Toon Alligator\"",
+                "cards": [
+                  {
+                    "name": "Toon Alligator",
+                    "card": "acbb9b08-cd62-4ad4-b9d7-a0876384301c",
+                    "yugipediaId": 7672
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "40000"
+              },
+              {
+                "text": "15 Gems"
+              }
+            ],
+            [
+              {
+                "text": "50000"
+              },
+              {
+                "text": "2 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "60000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "70000"
+              },
+              {
+                "text": "2 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "80000"
+              },
+              {
+                "text": "6000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "90000"
+              },
+              {
+                "text": "5 Duel Orbs"
+              }
+            ],
+            [
+              {
+                "text": "100000"
+              },
+              {
+                "text": "1 glossy copy of \"Toon Defense\"",
+                "cards": [
+                  {
+                    "name": "Toon Defense",
+                    "card": "ea590d19-2e8d-4efe-a3e7-97c74ff5a715",
+                    "yugipediaId": 4378
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "110000"
+              },
+              {
+                "text": "15 Gems"
+              }
+            ],
+            [
+              {
+                "text": "120000"
+              },
+              {
+                "text": "2 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "130000"
+              },
+              {
+                "text": "15 Gems"
+              }
+            ],
+            [
+              {
+                "text": "140000"
+              },
+              {
+                "text": "3 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "150000"
+              },
+              {
+                "text": "15 Gems"
+              }
+            ],
+            [
+              {
+                "text": "160000"
+              },
+              {
+                "text": "3 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "170000"
+              },
+              {
+                "text": "25 Gems"
+              }
+            ],
+            [
+              {
+                "text": "180000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "190000"
+              },
+              {
+                "text": "9000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "200000"
+              },
+              {
+                "text": "Access to Maximillion Pegasus as a playable character"
+              }
+            ],
+            [
+              {
+                "text": "220000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "240000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "260000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "280000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "300000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "320000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "340000"
+              },
+              {
+                "text": "5 Duel Orbs"
+              }
+            ],
+            [
+              {
+                "text": "360000"
+              },
+              {
+                "text": "1 copy of \"Toon Buster Blader\"",
+                "cards": [
+                  {
+                    "name": "Toon Buster Blader",
+                    "card": "525ffc54-11be-40c0-8ec6-2ac2a4ce94f5",
+                    "yugipediaId": 420676
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "380000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "400000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "420000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "440000"
+              },
+              {
+                "text": "12000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "460000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "480000"
+              },
+              {
+                "text": "12000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "500000"
+              },
+              {
+                "text": "Card Sleeves: Welcome to Toon World"
+              }
+            ],
+            [
+              {
+                "text": "530000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "560000"
+              },
+              {
+                "text": "12000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "590000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "620000"
+              },
+              {
+                "text": "5 Duel Orbs"
+              }
+            ],
+            [
+              {
+                "text": "650000"
+              },
+              {
+                "text": "1 copy of \"Black Illusion Ritual\"",
+                "cards": [
+                  {
+                    "name": "Black Illusion Ritual",
+                    "card": "558a88f6-9f8e-4690-8f79-4db107cdc175",
+                    "yugipediaId": 74
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "680000"
+              },
+              {
+                "text": "12000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "720000"
+              },
+              {
+                "text": "1 UR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "760000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "800000"
+              },
+              {
+                "text": "12000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "840000"
+              },
+              {
+                "text": "1 glossy copy of \"Toon Mermaid\"",
+                "cards": [
+                  {
+                    "name": "Toon Mermaid",
+                    "card": "5c9fc860-a9c4-4ef3-a8f3-cffd0e13f8b6",
+                    "yugipediaId": 233
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "880000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "920000"
+              },
+              {
+                "text": "15000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "960000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "1000000"
+              },
+              {
+                "text": "40 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1050000"
+              },
+              {
+                "text": "15000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1100000"
+              },
+              {
+                "text": "Game Mat: Welcome to Toon World"
+              }
+            ],
+            [
+              {
+                "text": "1150000"
+              },
+              {
+                "text": "15000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1200000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "1300000"
+              },
+              {
+                "text": "15000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1400000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "1500000"
+              },
+              {
+                "text": "1 glossy copy of \"Relinquished\"",
+                "cards": [
+                  {
+                    "name": "Relinquished",
+                    "card": "47950c65-2c36-401f-a2c2-c48d8ba9778b",
+                    "yugipediaId": 150
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "1600000"
+              },
+              {
+                "text": "1 UR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "1700000"
+              },
+              {
+                "text": "25000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1800000"
+              },
+              {
+                "text": "40 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1900000"
+              },
+              {
+                "text": "5 Duel Orbs"
+              }
+            ],
+            [
+              {
+                "text": "2000000"
+              },
+              {
+                "text": "1 copy of \"Blue-Eyes Toon Dragon\"",
+                "cards": [
+                  {
+                    "name": "Blue-Eyes Toon Dragon",
+                    "card": "c5dfa1a0-27bf-46f0-bc39-b3f52253e153",
+                    "yugipediaId": 98
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "2200000"
+              },
+              {
+                "text": "25000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "2400000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "2600000"
+              },
+              {
+                "text": "30000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "2800000"
+              },
+              {
+                "text": "1 UR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "3000000"
+              },
+              {
+                "text": "1 copy of \"Toon Dark Magician Girl\"",
+                "cards": [
+                  {
+                    "name": "Toon Dark Magician Girl",
+                    "card": "85973ae0-6c9c-48fe-ad8c-58f5aace1605",
+                    "yugipediaId": 7709
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "3200000"
+              },
+              {
+                "text": "25000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "3400000"
+              },
+              {
+                "text": "25000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "3600000"
+              },
+              {
+                "text": "1 UR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "3800000"
+              },
+              {
+                "text": "40000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "4000000"
+              },
+              {
+                "text": "Icon (\"Welcome to Toon World\"-themed)"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Total Event Rewards",
+            "Total Event Rewards",
+            "Total Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "335000 Gold, 16 R Jewels, 7 SR Jewels, 4 UR Jewels, 20 Duel Orbs, 450 Gems"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "1 copy each of: \"Blue-Eyes Toon Dragon\", \"Black Illusion Ritual\", \"Toon Alligator\", \"Toon Buster Blader\", \"Toon Dark Magician Girl\", \"Toon Defense\" (glossy), \"Toon Mermaid\" (glossy), \"Relinquished\" (glossy)",
+                "cards": [
+                  {
+                    "name": "Blue-Eyes Toon Dragon",
+                    "card": "c5dfa1a0-27bf-46f0-bc39-b3f52253e153",
+                    "yugipediaId": 98
+                  },
+                  {
+                    "name": "Black Illusion Ritual",
+                    "card": "558a88f6-9f8e-4690-8f79-4db107cdc175",
+                    "yugipediaId": 74
+                  },
+                  {
+                    "name": "Toon Alligator",
+                    "card": "acbb9b08-cd62-4ad4-b9d7-a0876384301c",
+                    "yugipediaId": 7672
+                  },
+                  {
+                    "name": "Toon Buster Blader",
+                    "card": "525ffc54-11be-40c0-8ec6-2ac2a4ce94f5",
+                    "yugipediaId": 420676
+                  },
+                  {
+                    "name": "Toon Dark Magician Girl",
+                    "card": "85973ae0-6c9c-48fe-ad8c-58f5aace1605",
+                    "yugipediaId": 7709
+                  },
+                  {
+                    "name": "Toon Defense",
+                    "card": "ea590d19-2e8d-4efe-a3e7-97c74ff5a715",
+                    "yugipediaId": 4378,
+                    "variant": "glossy"
+                  },
+                  {
+                    "name": "Toon Mermaid",
+                    "card": "5c9fc860-a9c4-4ef3-a8f3-cffd0e13f8b6",
+                    "yugipediaId": 233,
+                    "variant": "glossy"
+                  },
+                  {
+                    "name": "Relinquished",
+                    "card": "47950c65-2c36-401f-a2c2-c48d8ba9778b",
+                    "yugipediaId": 150,
+                    "variant": "glossy"
+                  }
+                ]
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "Access to Maximillion Pegasus as a playable character"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "\"Card Sleeves: Welcome to Toon World\", \"Game Mat: Welcome to Toon World\", Icon (\"Welcome to Toon World\"-themed)"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Jam Breeding Machine",
+      "card": "64122ed7-04f3-4731-b4b9-6cf70575218d",
+      "yugipediaId": 5391,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "run": "December 2016",
+          "runIndex": 0,
+          "requirement": "Pack"
+        },
+        {
+          "kind": "other",
+          "run": "February 2017",
+          "runIndex": 1,
+          "requirement": "Pack"
+        },
+        {
+          "kind": "other",
+          "run": "April 2017",
+          "runIndex": 2,
+          "requirement": "Pack"
+        }
+      ]
+    },
+    {
+      "name": "Molting Escape",
+      "card": "3937ebd5-f300-4c55-92da-ad1db137f31e",
+      "yugipediaId": 61559,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "run": "December 2016",
+          "runIndex": 0,
+          "requirement": "Pack"
+        },
+        {
+          "kind": "other",
+          "run": "February 2017",
+          "runIndex": 1,
+          "requirement": "Pack"
+        },
+        {
+          "kind": "other",
+          "run": "April 2017",
+          "runIndex": 2,
+          "requirement": "Pack"
+        }
+      ]
+    },
+    {
+      "name": "Spirit of the Mountain",
+      "card": "e1417ee5-b776-43c1-bab1-419b29625da7",
+      "yugipediaId": 8771,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "run": "December 2016",
+          "runIndex": 0,
+          "requirement": "Pack"
+        },
+        {
+          "kind": "other",
+          "run": "February 2017",
+          "runIndex": 1,
+          "requirement": "Pack"
+        },
+        {
+          "kind": "other",
+          "run": "April 2017",
+          "runIndex": 2,
+          "requirement": "Pack"
+        }
+      ]
+    },
+    {
+      "name": "Dark-Eyes Illusionist",
+      "card": "563e3872-a0e0-420a-8f83-2bf667990eff",
+      "yugipediaId": 16480,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "run": "December 2016",
+          "runIndex": 0,
+          "requirement": "Gold Pack"
+        },
+        {
+          "kind": "other",
+          "run": "December 2016",
+          "runIndex": 0,
+          "requirement": "160000"
+        },
+        {
+          "kind": "other",
+          "run": "December 2016",
+          "runIndex": 0
+        },
+        {
+          "kind": "other",
+          "run": "February 2017",
+          "runIndex": 1,
+          "requirement": "Gold Pack"
+        },
+        {
+          "kind": "other",
+          "run": "April 2017",
+          "runIndex": 2,
+          "requirement": "Gold Pack"
+        }
+      ]
+    },
+    {
+      "name": "House of Adhesive Tape",
+      "card": "9cb9c931-77f3-4b3a-83ae-87f9c01a1906",
+      "yugipediaId": 3854,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "run": "December 2016",
+          "runIndex": 0,
+          "requirement": "Gold Pack"
+        },
+        {
+          "kind": "other",
+          "run": "December 2016",
+          "runIndex": 0,
+          "requirement": "330000"
+        },
+        {
+          "kind": "other",
+          "run": "December 2016",
+          "runIndex": 0
+        },
+        {
+          "kind": "other",
+          "run": "February 2017",
+          "runIndex": 1,
+          "requirement": "Gold Pack"
+        },
+        {
+          "kind": "other",
+          "run": "April 2017",
+          "runIndex": 2,
+          "requirement": "Gold Pack"
+        }
+      ]
+    },
+    {
+      "name": "Mind Haxorz",
+      "card": "77c5bd99-445e-4106-935c-0110a83ec849",
+      "yugipediaId": 12783,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "run": "December 2016",
+          "runIndex": 0,
+          "requirement": "Gold Pack"
+        },
+        {
+          "kind": "other",
+          "run": "December 2016",
+          "runIndex": 0,
+          "requirement": "720000"
+        },
+        {
+          "kind": "other",
+          "run": "December 2016",
+          "runIndex": 0
+        },
+        {
+          "kind": "other",
+          "run": "February 2017",
+          "runIndex": 1,
+          "requirement": "Gold Pack"
+        },
+        {
+          "kind": "other",
+          "run": "April 2017",
+          "runIndex": 2,
+          "requirement": "Gold Pack"
+        }
+      ]
+    },
+    {
+      "name": "Spell Reproduction",
+      "card": "efe9be85-acca-4feb-8ea3-dc6ffba33f0f",
+      "yugipediaId": 11097,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "run": "December 2016",
+          "runIndex": 0,
+          "requirement": "Gold Pack"
+        },
+        {
+          "kind": "other",
+          "run": "December 2016",
+          "runIndex": 0,
+          "requirement": "420000"
+        },
+        {
+          "kind": "other",
+          "run": "December 2016",
+          "runIndex": 0
+        },
+        {
+          "kind": "other",
+          "run": "February 2017",
+          "runIndex": 1,
+          "requirement": "Gold Pack"
+        },
+        {
+          "kind": "other",
+          "run": "April 2017",
+          "runIndex": 2,
+          "requirement": "Gold Pack"
+        }
+      ]
+    },
+    {
+      "name": "Toon Alligator",
+      "card": "acbb9b08-cd62-4ad4-b9d7-a0876384301c",
+      "yugipediaId": 7672,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "run": "December 2016",
+          "runIndex": 0,
+          "requirement": "Gold Pack"
+        },
+        {
+          "kind": "other",
+          "run": "December 2016",
+          "runIndex": 0,
+          "requirement": "600000"
+        },
+        {
+          "kind": "other",
+          "run": "December 2016",
+          "runIndex": 0
+        },
+        {
+          "kind": "other",
+          "run": "February 2017",
+          "runIndex": 1,
+          "requirement": "Gold Pack"
+        },
+        {
+          "kind": "other",
+          "run": "April 2017",
+          "runIndex": 2,
+          "requirement": "Gold Pack"
+        },
+        {
+          "kind": "other",
+          "run": "April 2017",
+          "runIndex": 2,
+          "requirement": "30000"
+        },
+        {
+          "kind": "other",
+          "run": "April 2017",
+          "runIndex": 2
+        }
+      ]
+    },
+    {
+      "name": "Card of Sanctity",
+      "card": "92a3378f-3747-48f6-ac25-bf252520871d",
+      "yugipediaId": 1615,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "run": "December 2016",
+          "runIndex": 0,
+          "requirement": "Rainbow Pack"
+        },
+        {
+          "kind": "other",
+          "run": "December 2016",
+          "runIndex": 0,
+          "requirement": "850000"
+        },
+        {
+          "kind": "other",
+          "run": "December 2016",
+          "runIndex": 0
+        },
+        {
+          "kind": "other",
+          "run": "February 2017",
+          "runIndex": 1,
+          "requirement": "Rainbow Pack"
+        },
+        {
+          "kind": "other",
+          "run": "April 2017",
+          "runIndex": 2,
+          "requirement": "Rainbow Pack"
+        }
+      ]
+    },
+    {
+      "name": "Gorgon's Eye",
+      "card": "513846c4-4280-4b6b-937a-7696f31c6604",
+      "yugipediaId": 16528,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "run": "December 2016",
+          "runIndex": 0,
+          "requirement": "Rainbow Pack"
+        },
+        {
+          "kind": "other",
+          "run": "December 2016",
+          "runIndex": 0,
+          "requirement": "1200000"
+        },
+        {
+          "kind": "other",
+          "run": "December 2016",
+          "runIndex": 0
+        },
+        {
+          "kind": "other",
+          "run": "February 2017",
+          "runIndex": 1,
+          "requirement": "Rainbow Pack"
+        },
+        {
+          "kind": "other",
+          "run": "April 2017",
+          "runIndex": 2,
+          "requirement": "Rainbow Pack"
+        }
+      ]
+    },
+    {
+      "name": "Toon Masked Sorcerer",
+      "card": "d79cecf8-3394-412c-8f18-c55ac9ec5243",
+      "yugipediaId": 4332,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "run": "December 2016",
+          "runIndex": 0,
+          "requirement": "Rainbow Pack"
+        },
+        {
+          "kind": "other",
+          "run": "December 2016",
+          "runIndex": 0,
+          "requirement": "1500000"
+        },
+        {
+          "kind": "other",
+          "run": "December 2016",
+          "runIndex": 0
+        },
+        {
+          "kind": "other",
+          "run": "February 2017",
+          "runIndex": 1,
+          "requirement": "Rainbow Pack"
+        },
+        {
+          "kind": "other",
+          "run": "April 2017",
+          "runIndex": 2,
+          "requirement": "Rainbow Pack"
+        }
+      ]
+    },
+    {
+      "name": "Toon Mermaid",
+      "card": "5c9fc860-a9c4-4ef3-a8f3-cffd0e13f8b6",
+      "yugipediaId": 233,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "run": "December 2016",
+          "runIndex": 0,
+          "requirement": "Rainbow Pack"
+        },
+        {
+          "kind": "other",
+          "run": "December 2016",
+          "runIndex": 0,
+          "requirement": "1000000"
+        },
+        {
+          "kind": "other",
+          "run": "December 2016",
+          "runIndex": 0
+        },
+        {
+          "kind": "other",
+          "run": "February 2017",
+          "runIndex": 1,
+          "requirement": "Rainbow Pack"
+        },
+        {
+          "kind": "other",
+          "run": "April 2017",
+          "runIndex": 2,
+          "requirement": "Rainbow Pack"
+        },
+        {
+          "kind": "other",
+          "run": "April 2017",
+          "runIndex": 2,
+          "requirement": "840000"
+        },
+        {
+          "kind": "other",
+          "run": "April 2017",
+          "runIndex": 2
+        }
+      ]
+    },
+    {
+      "name": "Toon World",
+      "card": "b1351bfd-0aed-4515-b842-80ead4537193",
+      "yugipediaId": 420460,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "run": "December 2016",
+          "runIndex": 0,
+          "requirement": "Rainbow Pack"
+        },
+        {
+          "kind": "other",
+          "run": "December 2016",
+          "runIndex": 0,
+          "requirement": "510000"
+        },
+        {
+          "kind": "other",
+          "run": "December 2016",
+          "runIndex": 0
+        },
+        {
+          "kind": "other",
+          "run": "February 2017",
+          "runIndex": 1,
+          "requirement": "Rainbow Pack"
+        },
+        {
+          "kind": "other",
+          "run": "April 2017",
+          "runIndex": 2,
+          "requirement": "Rainbow Pack"
+        }
+      ]
+    },
+    {
+      "name": "Black Illusion Ritual",
+      "card": "558a88f6-9f8e-4690-8f79-4db107cdc175",
+      "yugipediaId": 74,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "run": "February 2017",
+          "runIndex": 1,
+          "requirement": "90000"
+        },
+        {
+          "kind": "other",
+          "run": "February 2017",
+          "runIndex": 1
+        },
+        {
+          "kind": "other",
+          "run": "April 2017",
+          "runIndex": 2,
+          "requirement": "650000"
+        },
+        {
+          "kind": "other",
+          "run": "April 2017",
+          "runIndex": 2
+        }
+      ]
+    },
+    {
+      "name": "Toon Defense",
+      "card": "ea590d19-2e8d-4efe-a3e7-97c74ff5a715",
+      "yugipediaId": 4378,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "run": "February 2017",
+          "runIndex": 1,
+          "requirement": "160000"
+        },
+        {
+          "kind": "other",
+          "run": "February 2017",
+          "runIndex": 1
+        },
+        {
+          "kind": "other",
+          "run": "April 2017",
+          "runIndex": 2,
+          "requirement": "100000"
+        },
+        {
+          "kind": "other",
+          "run": "April 2017",
+          "runIndex": 2
+        }
+      ]
+    },
+    {
+      "name": "Relinquished",
+      "card": "47950c65-2c36-401f-a2c2-c48d8ba9778b",
+      "yugipediaId": 150,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "run": "February 2017",
+          "runIndex": 1,
+          "requirement": "350000"
+        },
+        {
+          "kind": "other",
+          "run": "February 2017",
+          "runIndex": 1
+        },
+        {
+          "kind": "other",
+          "run": "April 2017",
+          "runIndex": 2,
+          "requirement": "1500000"
+        },
+        {
+          "kind": "other",
+          "run": "April 2017",
+          "runIndex": 2
+        }
+      ]
+    },
+    {
+      "name": "Blue-Eyes Toon Dragon",
+      "card": "c5dfa1a0-27bf-46f0-bc39-b3f52253e153",
+      "yugipediaId": 98,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "run": "February 2017",
+          "runIndex": 1,
+          "requirement": "1200000"
+        },
+        {
+          "kind": "other",
+          "run": "February 2017",
+          "runIndex": 1
+        },
+        {
+          "kind": "other",
+          "run": "April 2017",
+          "runIndex": 2,
+          "requirement": "2000000"
+        },
+        {
+          "kind": "other",
+          "run": "April 2017",
+          "runIndex": 2
+        }
+      ]
+    },
+    {
+      "name": "Toon Buster Blader",
+      "card": "525ffc54-11be-40c0-8ec6-2ac2a4ce94f5",
+      "yugipediaId": 420676,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "run": "April 2017",
+          "runIndex": 2,
+          "requirement": "360000"
+        },
+        {
+          "kind": "other",
+          "run": "April 2017",
+          "runIndex": 2
+        }
+      ]
+    },
+    {
+      "name": "Toon Dark Magician Girl",
+      "card": "85973ae0-6c9c-48fe-ad8c-58f5aace1605",
+      "yugipediaId": 7709,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "run": "April 2017",
+          "runIndex": 2,
+          "requirement": "3000000"
+        },
+        {
+          "kind": "other",
+          "run": "April 2017",
+          "runIndex": 2
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Welcome to Toon World!",
+        "id": 437107
+      }
+    ]
+  }
+}

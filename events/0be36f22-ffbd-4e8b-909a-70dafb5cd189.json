@@ -1,0 +1,1062 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "0be36f22-ffbd-4e8b-909a-70dafb5cd189",
+  "name": {
+    "en": "Star Light, Star Bright Campaign"
+  },
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/d/d4/StarLightStarBrightCampaign-Banner.png",
+  "runs": [
+    {
+      "startDate": "2025-07-07",
+      "endDate": "2025-08-05"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "other",
+      "path": [
+        "Rewards"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "Players who logged into Yu-Gi-Oh! Duel Links during the duration of the event would receive all of the following rewards.",
+        "In addition, for each day logged in, players would also receive 1 of the following rewards:"
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Game Mat: Stardust Shimmer"
+              }
+            ],
+            [
+              {
+                "text": "Special Processing: Starlight"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Day",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Day 1"
+              },
+              {
+                "text": "1 UR Dream Pack (Speed/Prismatic)"
+              }
+            ],
+            [
+              {
+                "text": "Day 2"
+              },
+              {
+                "text": "150 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Day 3"
+              },
+              {
+                "text": "1 UR Dream Pack (Rush/Prismatic)"
+              }
+            ],
+            [
+              {
+                "text": "Day 4"
+              },
+              {
+                "text": "50 Chronicle Chips"
+              }
+            ],
+            [
+              {
+                "text": "Day 5"
+              },
+              {
+                "text": "1 SR/UR Choice Ticket (Speed/Prismatic)"
+              }
+            ],
+            [
+              {
+                "text": "Day 6"
+              },
+              {
+                "text": "150 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Day 7"
+              },
+              {
+                "text": "1 SR/UR Choice Ticket (Rush/Prismatic)"
+              }
+            ],
+            [
+              {
+                "text": "Day 8"
+              },
+              {
+                "text": "50 Chronicle Chips"
+              }
+            ],
+            [
+              {
+                "text": "Day 9"
+              },
+              {
+                "text": "1 SR Dream Ticket (Speed)"
+              }
+            ],
+            [
+              {
+                "text": "Day 10"
+              },
+              {
+                "text": "1 SR Dream Ticket (Rush)"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "packs",
+      "path": [
+        "Rewards",
+        "UR Dream Packs"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "Each pack contains a Prismatic copy of 1 of the following cards."
+      ]
+    },
+    {
+      "kind": "packs",
+      "path": [
+        "Rewards",
+        "UR Dream Packs"
+      ],
+      "run": "Speed",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "\"Scarred Dragon Archfiend\" (UR)",
+                "cards": [
+                  {
+                    "name": "Scarred Dragon Archfiend",
+                    "card": "4503fdcf-f65c-4d33-9c1e-76b6ba2de8a2",
+                    "yugipediaId": 928794,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Accel Synchro Stardust Dragon\" (UR)",
+                "cards": [
+                  {
+                    "name": "Accel Synchro Stardust Dragon",
+                    "card": "7f59385a-e584-4ff6-a9e8-a355388d0cea",
+                    "yugipediaId": 712445,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Ultimate Conductor Tyranno\" (UR)",
+                "cards": [
+                  {
+                    "name": "Ultimate Conductor Tyranno",
+                    "card": "ab5826e5-bea3-4987-bfcb-36de85edf25a",
+                    "yugipediaId": 480729,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Soul Resonator\" (UR)",
+                "cards": [
+                  {
+                    "name": "Soul Resonator",
+                    "card": "22cc6ace-60d3-4166-a389-fb0d1497a3b7",
+                    "yugipediaId": 928795,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"D/D Lamia\" (UR)",
+                "cards": [
+                  {
+                    "name": "D/D Lamia",
+                    "card": "4a0c1509-f53e-49c5-bf0a-b3d2086decb8",
+                    "yugipediaId": 372064,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Souleating Oviraptor\" (UR)",
+                "cards": [
+                  {
+                    "name": "Souleating Oviraptor",
+                    "card": "c6e6f995-1e2b-4ca6-92eb-e9d990da0cc2",
+                    "yugipediaId": 481282,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"The Hidden City\" (UR)",
+                "cards": [
+                  {
+                    "name": "The Hidden City",
+                    "card": "5985f972-9ae6-4c45-bf68-24206c2eb3a5",
+                    "yugipediaId": 465351,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Springans Watch\" (UR)",
+                "cards": [
+                  {
+                    "name": "Springans Watch",
+                    "card": "44ca390b-a053-4bc3-959a-8fe7381c9d96",
+                    "yugipediaId": 716835,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Terrors of the Overroot\" (UR)",
+                "cards": [
+                  {
+                    "name": "Terrors of the Overroot",
+                    "card": "d559fbea-0b5e-4335-bd55-8da2e275e3ce",
+                    "yugipediaId": 717034,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Ancient Gear Dark Golem\" (UR)",
+                "cards": [
+                  {
+                    "name": "Ancient Gear Dark Golem",
+                    "card": "459fc606-66c5-4f6f-b2f2-235e4c7c49aa",
+                    "yugipediaId": 1035073,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Odd-Eyes Venom Dragon\" (UR)",
+                "cards": [
+                  {
+                    "name": "Odd-Eyes Venom Dragon",
+                    "card": "34afd1c9-7219-4d4a-823d-1e2a267bd846",
+                    "yugipediaId": 480002,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Exosisters Magnifica\" (UR)",
+                "cards": [
+                  {
+                    "name": "Exosisters Magnifica",
+                    "card": "cd06475f-b554-449a-8b76-7e4bf6ea0128",
+                    "yugipediaId": 714892,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Number C5: Chaos Chimera Dragon\" (UR)",
+                "cards": [
+                  {
+                    "name": "Number C5: Chaos Chimera Dragon",
+                    "card": "cfe40f80-8eb1-467a-b8c9-162ebc819ccd",
+                    "yugipediaId": 286674,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Evil\u2605Twin's Trouble Sunny\" (UR)",
+                "cards": [
+                  {
+                    "name": "Evil\u2605Twin's Trouble Sunny",
+                    "card": "a215e83d-1cee-4a67-824f-f7674a3f8f42",
+                    "yugipediaId": 714836,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Crystal Clear Wing Synchro Dragon\" (UR)",
+                "cards": [
+                  {
+                    "name": "Crystal Clear Wing Synchro Dragon",
+                    "card": "ca9e9b81-b4e8-408f-ac16-e993210d0840",
+                    "yugipediaId": 714383,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"ZS - Ascended Sage\" (UR)",
+                "cards": [
+                  {
+                    "name": "ZS - Ascended Sage",
+                    "card": "40d55279-cd43-4bc2-b03f-24efcad5abf3",
+                    "yugipediaId": 717571,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Lifeless Leaffish\" (UR)",
+                "cards": [
+                  {
+                    "name": "Lifeless Leaffish",
+                    "card": "6a9fb57e-37a8-4771-802a-01bbed77cd38",
+                    "yugipediaId": 715619,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Rank-Up-Magic Admiration of the Thousands\" (UR)",
+                "cards": [
+                  {
+                    "name": "Rank-Up-Magic Admiration of the Thousands",
+                    "card": "7c39a467-70dc-4b2f-9aca-0ad52b240f3a",
+                    "yugipediaId": 286444,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Speedroid Scratch\" (UR)",
+                "cards": [
+                  {
+                    "name": "Speedroid Scratch",
+                    "card": "bdebe6c6-57b5-433c-bb49-5176b01ad177",
+                    "yugipediaId": 708358,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Shaddoll Fusion\" (UR)",
+                "cards": [
+                  {
+                    "name": "Shaddoll Fusion",
+                    "card": "fc17565b-013a-4d69-9c02-77aaabc10749",
+                    "yugipediaId": 339854,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Live\u2606Twin Sunny's Snitch\" (UR)",
+                "cards": [
+                  {
+                    "name": "Live\u2606Twin Sunny's Snitch",
+                    "card": "ae769132-ddd5-4981-8517-9419dae5a5b7",
+                    "yugipediaId": 715645,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "packs",
+      "path": [
+        "Rewards",
+        "UR Dream Packs"
+      ],
+      "run": "Rush",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "\"Voidvelg Requiem\" (UR)",
+                "cards": [
+                  {
+                    "name": "Voidvelg Requiem",
+                    "rushDuel": true,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"CAN:D LIVE\" (UR)",
+                "cards": [
+                  {
+                    "name": "CAN:D LIVE",
+                    "rushDuel": true,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Infinite Constructor Wyrm Buildream\" (UR)",
+                "cards": [
+                  {
+                    "name": "Infinite Constructor Wyrm Buildream",
+                    "rushDuel": true,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Voidvelg Cataphract\" (UR)",
+                "cards": [
+                  {
+                    "name": "Voidvelg Cataphract",
+                    "rushDuel": true,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Chemicalized Salamander\" (UR)",
+                "cards": [
+                  {
+                    "name": "Chemicalized Salamander",
+                    "rushDuel": true,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Vanishing Heliacal Riser\" (UR)",
+                "cards": [
+                  {
+                    "name": "Vanishing Heliacal Riser",
+                    "rushDuel": true,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Elemental HERO Burst Wingman\" (UR)",
+                "cards": [
+                  {
+                    "name": "Elemental HERO Burst Wingman",
+                    "rushDuel": true,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Cyber Rush Dragon\" (UR)",
+                "cards": [
+                  {
+                    "name": "Cyber Rush Dragon",
+                    "rushDuel": true,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Eternal Galactica Oblivion\" (UR)",
+                "cards": [
+                  {
+                    "name": "Eternal Galactica Oblivion",
+                    "rushDuel": true,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Voidvelg Gigantomachia\" (UR)",
+                "cards": [
+                  {
+                    "name": "Voidvelg Gigantomachia",
+                    "rushDuel": true,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Sevens Road Ultima Witch\" (UR)",
+                "cards": [
+                  {
+                    "name": "Sevens Road Ultima Witch",
+                    "rushDuel": true,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "\"Excutie Riding!\" (UR)",
+                "cards": [
+                  {
+                    "name": "Excutie Riding!",
+                    "rushDuel": true,
+                    "rarity": "UR"
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Event Missions"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "During the event, players could earn rewards by completing the following missions."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Event Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Perform 3 Synchro Summon(s)."
+              },
+              {
+                "text": "50 Chronicle Chips"
+              }
+            ],
+            [
+              {
+                "text": "Play 3 PvP Duel(s)."
+              },
+              {
+                "text": "50 Chronicle Chips"
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Scarred Dragon Archfiend",
+      "card": "4503fdcf-f65c-4d33-9c1e-76b6ba2de8a2",
+      "yugipediaId": 928794,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "Speed",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Accel Synchro Stardust Dragon",
+      "card": "7f59385a-e584-4ff6-a9e8-a355388d0cea",
+      "yugipediaId": 712445,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "Speed",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Ultimate Conductor Tyranno",
+      "card": "ab5826e5-bea3-4987-bfcb-36de85edf25a",
+      "yugipediaId": 480729,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "Speed",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Soul Resonator",
+      "card": "22cc6ace-60d3-4166-a389-fb0d1497a3b7",
+      "yugipediaId": 928795,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "Speed",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "D/D Lamia",
+      "card": "4a0c1509-f53e-49c5-bf0a-b3d2086decb8",
+      "yugipediaId": 372064,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "Speed",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Souleating Oviraptor",
+      "card": "c6e6f995-1e2b-4ca6-92eb-e9d990da0cc2",
+      "yugipediaId": 481282,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "Speed",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "The Hidden City",
+      "card": "5985f972-9ae6-4c45-bf68-24206c2eb3a5",
+      "yugipediaId": 465351,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "Speed",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Springans Watch",
+      "card": "44ca390b-a053-4bc3-959a-8fe7381c9d96",
+      "yugipediaId": 716835,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "Speed",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Terrors of the Overroot",
+      "card": "d559fbea-0b5e-4335-bd55-8da2e275e3ce",
+      "yugipediaId": 717034,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "Speed",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Ancient Gear Dark Golem",
+      "card": "459fc606-66c5-4f6f-b2f2-235e4c7c49aa",
+      "yugipediaId": 1035073,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "Speed",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Odd-Eyes Venom Dragon",
+      "card": "34afd1c9-7219-4d4a-823d-1e2a267bd846",
+      "yugipediaId": 480002,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "Speed",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Exosisters Magnifica",
+      "card": "cd06475f-b554-449a-8b76-7e4bf6ea0128",
+      "yugipediaId": 714892,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "Speed",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Number C5: Chaos Chimera Dragon",
+      "card": "cfe40f80-8eb1-467a-b8c9-162ebc819ccd",
+      "yugipediaId": 286674,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "Speed",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Evil\u2605Twin's Trouble Sunny",
+      "card": "a215e83d-1cee-4a67-824f-f7674a3f8f42",
+      "yugipediaId": 714836,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "Speed",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Crystal Clear Wing Synchro Dragon",
+      "card": "ca9e9b81-b4e8-408f-ac16-e993210d0840",
+      "yugipediaId": 714383,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "Speed",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "ZS - Ascended Sage",
+      "card": "40d55279-cd43-4bc2-b03f-24efcad5abf3",
+      "yugipediaId": 717571,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "Speed",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Lifeless Leaffish",
+      "card": "6a9fb57e-37a8-4771-802a-01bbed77cd38",
+      "yugipediaId": 715619,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "Speed",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Rank-Up-Magic Admiration of the Thousands",
+      "card": "7c39a467-70dc-4b2f-9aca-0ad52b240f3a",
+      "yugipediaId": 286444,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "Speed",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Speedroid Scratch",
+      "card": "bdebe6c6-57b5-433c-bb49-5176b01ad177",
+      "yugipediaId": 708358,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "Speed",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Shaddoll Fusion",
+      "card": "fc17565b-013a-4d69-9c02-77aaabc10749",
+      "yugipediaId": 339854,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "Speed",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Live\u2606Twin Sunny's Snitch",
+      "card": "ae769132-ddd5-4981-8517-9419dae5a5b7",
+      "yugipediaId": 715645,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "Speed",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Voidvelg Requiem",
+      "rushDuel": true,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "Rush",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "CAN:D LIVE",
+      "rushDuel": true,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "Rush",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Constructor Wyrm Buildream",
+      "rushDuel": true,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "Rush",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Voidvelg Cataphract",
+      "rushDuel": true,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "Rush",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Chemicalized Salamander",
+      "rushDuel": true,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "Rush",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Vanishing Heliacal Riser",
+      "rushDuel": true,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "Rush",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Elemental HERO Burst Wingman",
+      "rushDuel": true,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "Rush",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Cyber Rush Dragon",
+      "rushDuel": true,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "Rush",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Eternal Galactica Oblivion",
+      "rushDuel": true,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "Rush",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Voidvelg Gigantomachia",
+      "rushDuel": true,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "Rush",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Sevens Road Ultima Witch",
+      "rushDuel": true,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "Rush",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Excutie Riding!",
+      "rushDuel": true,
+      "obtainedVia": [
+        {
+          "kind": "packs",
+          "run": "Rush",
+          "runIndex": 0,
+          "rarity": "UR"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Star Light, Star Bright Campaign",
+        "id": 1135724
+      }
+    ]
+  }
+}

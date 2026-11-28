@@ -1,0 +1,375 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "707e4fa8-6fa4-4490-857e-0e6989a2667e",
+  "name": {
+    "en": "The Eternal Schoolgirl? Mimi Imimi!"
+  },
+  "type": "Gate Event",
+  "duelWorlds": [
+    "Duel World (SEVENS)"
+  ],
+  "rushDuel": true,
+  "image": "https://img.yugipedia.com/b/b9/TheEternalSchoolgirlMimiImimi-Banner.png",
+  "runs": [
+    {
+      "startDate": "2023-10-03",
+      "endDate": "2023-10-15"
+    },
+    {
+      "startDate": "2024-01-19",
+      "endDate": "2024-01-26"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "run": "January 2024",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Shining City Nights\", \"Seahorse Carrier\"",
+                "cards": [
+                  {
+                    "name": "Shining City Nights",
+                    "rushDuel": true
+                  },
+                  {
+                    "name": "Seahorse Carrier",
+                    "rushDuel": true
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Fashion of Faith\", \"Seahorse Server\"",
+                "cards": [
+                  {
+                    "name": "Fashion of Faith",
+                    "rushDuel": true
+                  },
+                  {
+                    "name": "Seahorse Server",
+                    "rushDuel": true
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Water Magician\", \"Doriado\", \"Vishwar Randi\", \"Dragon's Sage\", \"Red Medicine\"",
+                "cards": [
+                  {
+                    "name": "Water Magician",
+                    "card": "2abbf888-5ee4-40f1-9dff-6aef86de0546",
+                    "yugipediaId": 13304
+                  },
+                  {
+                    "name": "Doriado",
+                    "card": "d605b0a5-1b70-4447-9a76-72044560fe4e",
+                    "yugipediaId": 9203
+                  },
+                  {
+                    "name": "Vishwar Randi",
+                    "card": "c1deb86b-3c72-40a3-af88-8350d628d56d",
+                    "yugipediaId": 6365
+                  },
+                  {
+                    "name": "Dragon's Sage",
+                    "rushDuel": true
+                  },
+                  {
+                    "name": "Red Medicine",
+                    "card": "925e7504-a2a6-41fe-93a2-8621eb5c0556",
+                    "yugipediaId": 506243
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "run": "October 2023",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Seahorse Carrier\"",
+                "cards": [
+                  {
+                    "name": "Seahorse Carrier",
+                    "rushDuel": true
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Seahorse Server\"",
+                "cards": [
+                  {
+                    "name": "Seahorse Server",
+                    "rushDuel": true
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Water Magician\", \"Doriado\", \"Vishwar Randi\", \"Dragon's Sage\", \"Red Medicine\"",
+                "cards": [
+                  {
+                    "name": "Water Magician",
+                    "card": "2abbf888-5ee4-40f1-9dff-6aef86de0546",
+                    "yugipediaId": 13304
+                  },
+                  {
+                    "name": "Doriado",
+                    "card": "d605b0a5-1b70-4447-9a76-72044560fe4e",
+                    "yugipediaId": 9203
+                  },
+                  {
+                    "name": "Vishwar Randi",
+                    "card": "c1deb86b-3c72-40a3-af88-8350d628d56d",
+                    "yugipediaId": 6365
+                  },
+                  {
+                    "name": "Dragon's Sage",
+                    "rushDuel": true
+                  },
+                  {
+                    "name": "Red Medicine",
+                    "card": "925e7504-a2a6-41fe-93a2-8621eb5c0556",
+                    "yugipediaId": 506243
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Shining City Nights",
+      "rushDuel": true,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "January 2024",
+          "runIndex": 1,
+          "requirement": "UR",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Seahorse Carrier",
+      "rushDuel": true,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "January 2024",
+          "runIndex": 1,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "October 2023",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Fashion of Faith",
+      "rushDuel": true,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "January 2024",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Seahorse Server",
+      "rushDuel": true,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "January 2024",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "October 2023",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Water Magician",
+      "card": "2abbf888-5ee4-40f1-9dff-6aef86de0546",
+      "yugipediaId": 13304,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "January 2024",
+          "runIndex": 1,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "October 2023",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Doriado",
+      "card": "d605b0a5-1b70-4447-9a76-72044560fe4e",
+      "yugipediaId": 9203,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "January 2024",
+          "runIndex": 1,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "October 2023",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Vishwar Randi",
+      "card": "c1deb86b-3c72-40a3-af88-8350d628d56d",
+      "yugipediaId": 6365,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "January 2024",
+          "runIndex": 1,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "October 2023",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Dragon's Sage",
+      "rushDuel": true,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "January 2024",
+          "runIndex": 1,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "October 2023",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Red Medicine",
+      "card": "925e7504-a2a6-41fe-93a2-8621eb5c0556",
+      "yugipediaId": 506243,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "January 2024",
+          "runIndex": 1,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "October 2023",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "The Eternal Schoolgirl? Mimi Imimi!",
+        "id": 1231979
+      }
+    ]
+  }
+}

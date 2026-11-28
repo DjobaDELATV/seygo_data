@@ -1,0 +1,739 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "a43f3be4-0179-4be9-9728-1df6a7faddf6",
+  "name": {
+    "en": "Inglorious Bastion"
+  },
+  "type": "Roaming Duelist event",
+  "duelWorlds": [
+    "Duel World (GX)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/a/a0/IngloriousBastionishere-Banner.png",
+  "runs": [
+    {
+      "startDate": "2018-11-13",
+      "endDate": "2018-11-21"
+    },
+    {
+      "startDate": "2019-06-07",
+      "endDate": "2019-06-15"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "notes": [
+        "In addition to the following, standard Duel Rewards were also available by Dueling Inglorious Bastion Level 30 or less."
+      ]
+    },
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "run": "June 2019",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Nine-Tailed Fox\"",
+                "cards": [
+                  {
+                    "name": "Nine-Tailed Fox",
+                    "card": "fc8a1f23-7495-468e-bb99-b871a53cf75e",
+                    "yugipediaId": 512108
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Amano-Iwato\", \"Red Ogre\", \"Chemicritter Oxy Ox\", \"Poly-Chemicritter Dioxogre\"",
+                "cards": [
+                  {
+                    "name": "Amano-Iwato",
+                    "card": "4a49dd66-14d5-44a9-bf42-0ec721ffc9d4",
+                    "yugipediaId": 519637
+                  },
+                  {
+                    "name": "Red Ogre",
+                    "card": "42772395-1eb2-4cdf-8248-e59bfce2e2d0",
+                    "yugipediaId": 63755
+                  },
+                  {
+                    "name": "Chemicritter Oxy Ox",
+                    "card": "ca7fa0cc-5e89-464d-bdaa-495c2d72817e",
+                    "yugipediaId": 452062
+                  },
+                  {
+                    "name": "Poly-Chemicritter Dioxogre",
+                    "card": "f1d7a671-5e5e-4e78-8ba7-0b75acfb16c6",
+                    "yugipediaId": 452395
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Chemicritter Hydron Hawk\", \"Chemicritter Carbo Crab\", \"Poly-Chemicritter Hydragon\"",
+                "cards": [
+                  {
+                    "name": "Chemicritter Hydron Hawk",
+                    "card": "3337f9f0-d70a-436d-800e-9e29217e3bb0",
+                    "yugipediaId": 451851
+                  },
+                  {
+                    "name": "Chemicritter Carbo Crab",
+                    "card": "7a70df0b-5ee0-4928-968b-4d12adec3a8e",
+                    "yugipediaId": 451896
+                  },
+                  {
+                    "name": "Poly-Chemicritter Hydragon",
+                    "card": "f68cc3d1-69cc-43b1-bdae-9c0ac650a057",
+                    "yugipediaId": 452469
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Ushi Oni\", \"Hyosube\"",
+                "cards": [
+                  {
+                    "name": "Ushi Oni",
+                    "card": "70590a5b-e335-4c9b-9a65-2d99c867f1e2",
+                    "yugipediaId": 7335
+                  },
+                  {
+                    "name": "Hyosube",
+                    "card": "28b49ae7-85aa-46bd-9cd5-ea66a8fabb0c",
+                    "yugipediaId": 4944
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "run": "November 2018",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Shutendoji\"",
+                "cards": [
+                  {
+                    "name": "Shutendoji",
+                    "card": "b5c98e4a-29fb-4d08-a168-f6e9c2a43969",
+                    "yugipediaId": 512103
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Goblin Elite Attack Force\", \"Red Ogre\", \"Chemicritter Oxy Ox\", \"Poly-Chemicritter Dioxogre\"",
+                "cards": [
+                  {
+                    "name": "Goblin Elite Attack Force",
+                    "card": "d12d4c93-0064-484c-8f78-5fa1fa68e11a",
+                    "yugipediaId": 263
+                  },
+                  {
+                    "name": "Red Ogre",
+                    "card": "42772395-1eb2-4cdf-8248-e59bfce2e2d0",
+                    "yugipediaId": 63755
+                  },
+                  {
+                    "name": "Chemicritter Oxy Ox",
+                    "card": "ca7fa0cc-5e89-464d-bdaa-495c2d72817e",
+                    "yugipediaId": 452062
+                  },
+                  {
+                    "name": "Poly-Chemicritter Dioxogre",
+                    "card": "f1d7a671-5e5e-4e78-8ba7-0b75acfb16c6",
+                    "yugipediaId": 452395
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Chemicritter Hydron Hawk\", \"Chemicritter Carbo Crab\", \"Poly-Chemicritter Hydragon\"",
+                "cards": [
+                  {
+                    "name": "Chemicritter Hydron Hawk",
+                    "card": "3337f9f0-d70a-436d-800e-9e29217e3bb0",
+                    "yugipediaId": 451851
+                  },
+                  {
+                    "name": "Chemicritter Carbo Crab",
+                    "card": "7a70df0b-5ee0-4928-968b-4d12adec3a8e",
+                    "yugipediaId": 451896
+                  },
+                  {
+                    "name": "Poly-Chemicritter Hydragon",
+                    "card": "f68cc3d1-69cc-43b1-bdae-9c0ac650a057",
+                    "yugipediaId": 452469
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Ushi Oni\", \"Hyosube\"",
+                "cards": [
+                  {
+                    "name": "Ushi Oni",
+                    "card": "70590a5b-e335-4c9b-9a65-2d99c867f1e2",
+                    "yugipediaId": 7335
+                  },
+                  {
+                    "name": "Hyosube",
+                    "card": "28b49ae7-85aa-46bd-9cd5-ea66a8fabb0c",
+                    "yugipediaId": 4944
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Rewards",
+        "Event Missions"
+      ],
+      "run": "June 2019",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against Inglorious Bastion."
+              },
+              {
+                "text": "1 \"Chemicritter Carbo Crab\"",
+                "cards": [
+                  {
+                    "name": "Chemicritter Carbo Crab",
+                    "card": "7a70df0b-5ee0-4928-968b-4d12adec3a8e",
+                    "yugipediaId": 451896,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 3 Duel(s) against Inglorious Bastion."
+              },
+              {
+                "text": "1 \"Chemicritter Oxy Ox\"",
+                "cards": [
+                  {
+                    "name": "Chemicritter Oxy Ox",
+                    "card": "ca7fa0cc-5e89-464d-bdaa-495c2d72817e",
+                    "yugipediaId": 452062,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 7 Duel(s) against Inglorious Bastion."
+              },
+              {
+                "text": "1 \"Amano-Iwato\"",
+                "cards": [
+                  {
+                    "name": "Amano-Iwato",
+                    "card": "4a49dd66-14d5-44a9-bf42-0ec721ffc9d4",
+                    "yugipediaId": 519637,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Play 15 Duel(s) against Inglorious Bastion. (surrenders are not counted.)"
+              },
+              {
+                "text": "1 \"Nine-Tailed Fox\"",
+                "cards": [
+                  {
+                    "name": "Nine-Tailed Fox",
+                    "card": "fc8a1f23-7495-468e-bb99-b871a53cf75e",
+                    "yugipediaId": 512108,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Rewards",
+        "Event Missions"
+      ],
+      "run": "November 2018",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against Inglorious Bastion."
+              },
+              {
+                "text": "1 \"Poly-Chemicritter Hydragon\"",
+                "cards": [
+                  {
+                    "name": "Poly-Chemicritter Hydragon",
+                    "card": "f68cc3d1-69cc-43b1-bdae-9c0ac650a057",
+                    "yugipediaId": 452469,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 3 Duel(s) against Inglorious Bastion."
+              },
+              {
+                "text": "1 \"Poly-Chemicritter Dioxogre\"",
+                "cards": [
+                  {
+                    "name": "Poly-Chemicritter Dioxogre",
+                    "card": "f1d7a671-5e5e-4e78-8ba7-0b75acfb16c6",
+                    "yugipediaId": 452395,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 7 Duel(s) against Inglorious Bastion."
+              },
+              {
+                "text": "1 \"Red Ogre\"",
+                "cards": [
+                  {
+                    "name": "Red Ogre",
+                    "card": "42772395-1eb2-4cdf-8248-e59bfce2e2d0",
+                    "yugipediaId": 63755,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Play 15 Duel(s) against Inglorious Bastion. (surrenders are not counted.)"
+              },
+              {
+                "text": "1 \"Shutendoji\"",
+                "cards": [
+                  {
+                    "name": "Shutendoji",
+                    "card": "b5c98e4a-29fb-4d08-a168-f6e9c2a43969",
+                    "yugipediaId": 512103,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "other",
+      "path": [
+        "Rewards",
+        "Main Story"
+      ],
+      "notes": [
+        "During the event, once the player logs into Duel Links for the first time since the event started (or if they were already logged-in at the time, then immediately when they entered one of the four Duel World outdoor locations, if they weren't at one already), they will be greeted by Tristan Taylor.",
+        "* Bastion Misawa: One two draw! One two draw!",
+        "* Syrus Truesdale: \u2026\u2026\u2026\u2026 Bastion, what are you doing?",
+        "* Bastion Misawa: Can't you tell? I'm practicing my draw!",
+        "* Syrus Truesdale: Okay, yeah\u2026 But why?",
+        "* Bastion Misawa: I've constructed a new deck just for this world. And this is my final training before battle!",
+        "* Syrus Truesdale: Oh.",
+        "* Bastion Misawa: A Logic Deck + Miracle Draw = my Complete Unified Theory of Dueling! I've finished building my Logic Deck, so only my Miracle Draw remains. However\u2026 It's not easy to pull off, So I must practice to improve my draw!",
+        "* Syrus Truesdale: (I don't think ANY amount of practice can help your draw\u2026)",
+        "* Bastion Misawa: I'm ready! Allow me test my skills in battle! With my Unified Theory of Dueling, I will once again be the top Duelist! Yeahhhhhhhhhhhhh!",
+        "* Syrus Truesdale: Hey! Why did you just run off? Bastiooooon!"
+      ]
+    },
+    {
+      "kind": "other",
+      "path": [
+        "Rewards",
+        "Duel Dialogues"
+      ],
+      "notes": [
+        "These dialogues are exclusive to Inglorious Bastion during this event:",
+        "Pre-Duel:",
+        "* Bastion Misawa: My Unified Theory of Dueling will put me back in the spotlight!",
+        "Player Win:",
+        "* Bastion Misawa: My deck wasn't logical, nor my draw was miraculous! Am I a failure?",
+        "Player Loss:",
+        "* Bastion Misawa: I'm one step closer to my Unified Dueling Theory! The universe will marvel at my discovery!",
+        "Draw:",
+        "* Bastion Misawa: When will it be my time to shine?!?"
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Nine-Tailed Fox",
+      "card": "fc8a1f23-7495-468e-bb99-b871a53cf75e",
+      "yugipediaId": 512108,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "June 2019",
+          "runIndex": 1,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "missions",
+          "run": "June 2019",
+          "runIndex": 1,
+          "requirement": "Play 15 Duel(s) against Inglorious Bastion. (surrenders are not counted.)"
+        }
+      ]
+    },
+    {
+      "name": "Amano-Iwato",
+      "card": "4a49dd66-14d5-44a9-bf42-0ec721ffc9d4",
+      "yugipediaId": 519637,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "June 2019",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "run": "June 2019",
+          "runIndex": 1,
+          "requirement": "Win 7 Duel(s) against Inglorious Bastion."
+        }
+      ]
+    },
+    {
+      "name": "Red Ogre",
+      "card": "42772395-1eb2-4cdf-8248-e59bfce2e2d0",
+      "yugipediaId": 63755,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "June 2019",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "November 2018",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "run": "November 2018",
+          "runIndex": 0,
+          "requirement": "Win 7 Duel(s) against Inglorious Bastion."
+        }
+      ]
+    },
+    {
+      "name": "Chemicritter Oxy Ox",
+      "card": "ca7fa0cc-5e89-464d-bdaa-495c2d72817e",
+      "yugipediaId": 452062,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "June 2019",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "November 2018",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "run": "June 2019",
+          "runIndex": 1,
+          "requirement": "Win 3 Duel(s) against Inglorious Bastion."
+        }
+      ]
+    },
+    {
+      "name": "Poly-Chemicritter Dioxogre",
+      "card": "f1d7a671-5e5e-4e78-8ba7-0b75acfb16c6",
+      "yugipediaId": 452395,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "June 2019",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "November 2018",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "run": "November 2018",
+          "runIndex": 0,
+          "requirement": "Win 3 Duel(s) against Inglorious Bastion."
+        }
+      ]
+    },
+    {
+      "name": "Chemicritter Hydron Hawk",
+      "card": "3337f9f0-d70a-436d-800e-9e29217e3bb0",
+      "yugipediaId": 451851,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "June 2019",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "November 2018",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Chemicritter Carbo Crab",
+      "card": "7a70df0b-5ee0-4928-968b-4d12adec3a8e",
+      "yugipediaId": 451896,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "June 2019",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "November 2018",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "missions",
+          "run": "June 2019",
+          "runIndex": 1,
+          "requirement": "Win 1 Duel(s) against Inglorious Bastion."
+        }
+      ]
+    },
+    {
+      "name": "Poly-Chemicritter Hydragon",
+      "card": "f68cc3d1-69cc-43b1-bdae-9c0ac650a057",
+      "yugipediaId": 452469,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "June 2019",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "November 2018",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "missions",
+          "run": "November 2018",
+          "runIndex": 0,
+          "requirement": "Win 1 Duel(s) against Inglorious Bastion."
+        }
+      ]
+    },
+    {
+      "name": "Ushi Oni",
+      "card": "70590a5b-e335-4c9b-9a65-2d99c867f1e2",
+      "yugipediaId": 7335,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "June 2019",
+          "runIndex": 1,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "November 2018",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Hyosube",
+      "card": "28b49ae7-85aa-46bd-9cd5-ea66a8fabb0c",
+      "yugipediaId": 4944,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "June 2019",
+          "runIndex": 1,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "November 2018",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Shutendoji",
+      "card": "b5c98e4a-29fb-4d08-a168-f6e9c2a43969",
+      "yugipediaId": 512103,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "November 2018",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "missions",
+          "run": "November 2018",
+          "runIndex": 0,
+          "requirement": "Play 15 Duel(s) against Inglorious Bastion. (surrenders are not counted.)"
+        }
+      ]
+    },
+    {
+      "name": "Goblin Elite Attack Force",
+      "card": "d12d4c93-0064-484c-8f78-5fa1fa68e11a",
+      "yugipediaId": 263,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "November 2018",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Inglorious Bastion is here!",
+        "id": 630088
+      }
+    ]
+  }
+}

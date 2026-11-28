@@ -1,0 +1,1475 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "3a1a7123-8eb6-40ae-a85a-c6710269287c",
+  "name": {
+    "en": "The Concert King Duelist: Roa Kassidy!"
+  },
+  "type": "Gate Event",
+  "duelWorlds": [
+    "Duel World (SEVENS)"
+  ],
+  "rushDuel": true,
+  "image": "https://img.yugipedia.com/5/56/TheConcertKingDuelistRoaKassidy-Banner.png",
+  "runs": [
+    {
+      "startDate": "2023-11-20",
+      "endDate": "2023-11-30"
+    },
+    {
+      "startDate": "2024-03-18",
+      "endDate": "2024-03-25"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "run": "March 2024",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Royal Rebel's Command\", \"Royal Rebel's Growl\"",
+                "cards": [
+                  {
+                    "name": "Royal Rebel's Command",
+                    "rushDuel": true
+                  },
+                  {
+                    "name": "Royal Rebel's Growl",
+                    "rushDuel": true
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Royal Rebel's Arena\", \"Palace Gargoyle\"",
+                "cards": [
+                  {
+                    "name": "Royal Rebel's Arena",
+                    "rushDuel": true
+                  },
+                  {
+                    "name": "Palace Gargoyle",
+                    "rushDuel": true
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Mammoth Graveyard\", \"Hitotsu-Me Giant\", \"Gust\", \"Lizard Soldier\", \"Binding Chain\"",
+                "cards": [
+                  {
+                    "name": "Mammoth Graveyard",
+                    "card": "3436820b-ed10-4771-912d-ca23b0d4837d",
+                    "yugipediaId": 504863
+                  },
+                  {
+                    "name": "Hitotsu-Me Giant",
+                    "card": "0e9a1e21-a913-46e8-b24b-68e06c7916ed",
+                    "yugipediaId": 2861
+                  },
+                  {
+                    "name": "Gust",
+                    "card": "70d35768-ae5d-449d-8121-4394cf61842c",
+                    "yugipediaId": 4972
+                  },
+                  {
+                    "name": "Lizard Soldier",
+                    "card": "be99b4b8-9b73-42f2-83a1-fd3ceb81c102",
+                    "yugipediaId": 8431
+                  },
+                  {
+                    "name": "Binding Chain",
+                    "card": "76166444-00d2-4368-9218-76310e10c605",
+                    "yugipediaId": 19097
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "run": "November 2023",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Royal Rebel's Growl\"",
+                "cards": [
+                  {
+                    "name": "Royal Rebel's Growl",
+                    "rushDuel": true
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Palace Gargoyle\"",
+                "cards": [
+                  {
+                    "name": "Palace Gargoyle",
+                    "rushDuel": true
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Mammoth Graveyard\", \"Hitotsu-Me Giant\", \"Gust\", \"Lizard Soldier\", \"Binding Chain\"",
+                "cards": [
+                  {
+                    "name": "Mammoth Graveyard",
+                    "card": "3436820b-ed10-4771-912d-ca23b0d4837d",
+                    "yugipediaId": 504863
+                  },
+                  {
+                    "name": "Hitotsu-Me Giant",
+                    "card": "0e9a1e21-a913-46e8-b24b-68e06c7916ed",
+                    "yugipediaId": 2861
+                  },
+                  {
+                    "name": "Gust",
+                    "card": "70d35768-ae5d-449d-8121-4394cf61842c",
+                    "yugipediaId": 4972
+                  },
+                  {
+                    "name": "Lizard Soldier",
+                    "card": "be99b4b8-9b73-42f2-83a1-fd3ceb81c102",
+                    "yugipediaId": 8431
+                  },
+                  {
+                    "name": "Binding Chain",
+                    "card": "76166444-00d2-4368-9218-76310e10c605",
+                    "yugipediaId": 19097
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "decks": [
+    {
+      "path": [
+        "Decks",
+        "Event-exclusive",
+        "First run"
+      ],
+      "cards": [
+        {
+          "name": "Feral Imp",
+          "rushDuel": true,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Nessus the Star Knight",
+          "rushDuel": true,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Summoned Skull",
+          "rushDuel": true,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Kuribot",
+          "rushDuel": true,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Palace Gargoyle",
+          "rushDuel": true,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Royal Rebel's Growl",
+          "rushDuel": true,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Royal Rebel's Heavy Metal",
+          "rushDuel": true,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Royal Rebel's Rocker",
+          "rushDuel": true,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Royal Rebel's Shout",
+          "rushDuel": true,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Thunder the Thunder",
+          "rushDuel": true,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Ghost Cyclone",
+          "rushDuel": true,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Monster Reincarnation",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Widespread Ruin",
+          "rushDuel": true,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Event-exclusive",
+        "Second run"
+      ],
+      "cards": [
+        {
+          "name": "Archfiend Soldier",
+          "rushDuel": true,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Cobalt Cobolt",
+          "rushDuel": true,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Rising Light Angel Essel",
+          "rushDuel": true,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Rogue of Archfiend",
+          "rushDuel": true,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Royal Rebel's Doom Metal",
+          "rushDuel": true,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Royal Rebel's Heavy Metal",
+          "rushDuel": true,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Royal Rebel's Invasion",
+          "rushDuel": true,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Royal Rebel's Phaser",
+          "rushDuel": true,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Shadow Buyer",
+          "rushDuel": true,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Royal Rebel's Arena",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Royal Rebel's Command",
+          "rushDuel": true,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Talismanic Seal Array",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Tribute to The Doomed",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Widespread Ruin",
+          "rushDuel": true,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Roa Kassidy",
+        "Level 10"
+      ],
+      "cards": [
+        {
+          "name": "Babysitter Goat",
+          "rushDuel": true,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Descendant of Titans",
+          "rushDuel": true,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Garmr the Lone Wolf",
+          "rushDuel": true,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Royal Rebel's Fanatic",
+          "rushDuel": true,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Archfiend's Summoning Flute",
+          "rushDuel": true,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Palace Gargoyle",
+          "rushDuel": true,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Royal Rebel's Break",
+          "rushDuel": true,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Royal Rebel's Phaser",
+          "rushDuel": true,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Darkness Ri-chair-al",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Heavenly Gift",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "One-Side Reverse",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Sparks",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Joining Chairs",
+          "rushDuel": true,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "King's Right",
+          "rushDuel": true,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Site Preview",
+          "rushDuel": true,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Roa Kassidy",
+        "Level 20"
+      ],
+      "cards": [
+        {
+          "name": "Babysitter Goat",
+          "rushDuel": true,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Descendant of Titans",
+          "rushDuel": true,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Followl of the Dark Wisdom",
+          "rushDuel": true,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Garmr the Lone Wolf",
+          "rushDuel": true,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Royal Rebel's Fanatic",
+          "rushDuel": true,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Archfiend's Summoning Flute",
+          "rushDuel": true,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Palace Gargoyle",
+          "rushDuel": true,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Royal Rebel's Blues",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Royal Rebel's Break",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Royal Rebel's Phaser",
+          "rushDuel": true,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Royal Rebel's Rocker",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Royal Rebel's Shout",
+          "rushDuel": true,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Shadow Buyer",
+          "rushDuel": true,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Darkness Ri-chair-al",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Evil Star Beacon",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Heavenly Gift",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Joining Chairs",
+          "rushDuel": true,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "King's Right",
+          "rushDuel": true,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Site Preview",
+          "rushDuel": true,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Triangle Reborn",
+          "rushDuel": true,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Roa Kassidy",
+        "Level 30"
+      ],
+      "cards": [
+        {
+          "name": "Babysitter Goat",
+          "rushDuel": true,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Descendant of Titans",
+          "rushDuel": true,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Feral Imp",
+          "rushDuel": true,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Followl of the Dark Wisdom",
+          "rushDuel": true,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Garmr the Lone Wolf",
+          "rushDuel": true,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Royal Rebel's Fanatic",
+          "rushDuel": true,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Archfiend's Summoning Flute",
+          "rushDuel": true,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cobalt Cobolt",
+          "rushDuel": true,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gate Gargoyle",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Palace Gargoyle",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Royal Rebel's Blues",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Royal Rebel's Break",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Royal Rebel's Growl",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Royal Rebel's Phaser",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Royal Rebel's Rocker",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Royal Rebel's Shout",
+          "rushDuel": true,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Shadow Buyer",
+          "rushDuel": true,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Evil Star Beacon",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Saturnius' Orb",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Joining Chairs",
+          "rushDuel": true,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "King's Right",
+          "rushDuel": true,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Site Preview",
+          "rushDuel": true,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Triangle Reborn",
+          "rushDuel": true,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Roa Kassidy",
+        "Level 40"
+      ],
+      "cards": [
+        {
+          "name": "Babysitter Goat",
+          "rushDuel": true,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Descendant of Titans",
+          "rushDuel": true,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Echeclus the Star Knight",
+          "rushDuel": true,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Feral Imp",
+          "rushDuel": true,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Followl of the Dark Wisdom",
+          "rushDuel": true,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Nessus the Star Knight",
+          "rushDuel": true,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Royal Rebel's Fanatic",
+          "rushDuel": true,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Archfiend's Summoning Flute",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cobalt Cobolt",
+          "rushDuel": true,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gate Gargoyle",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Palace Gargoyle",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Royal Rebel's Blues",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Royal Rebel's Break",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Royal Rebel's Growl",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Royal Rebel's Heavy Metal",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Royal Rebel's Phaser",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Royal Rebel's Rocker",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Royal Rebel's Shout",
+          "rushDuel": true,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Shadow Buyer",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Card Destruction",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Evil Star Beacon",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Royal Rebel's Echo",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Saturnius' Orb",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "King's Right",
+          "rushDuel": true,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Triangle Reborn",
+          "rushDuel": true,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Roa the Concert King",
+        "Level 50"
+      ],
+      "cards": [
+        {
+          "name": "Babysitter Goat",
+          "rushDuel": true,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Echeclus the Star Knight",
+          "rushDuel": true,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Feral Imp",
+          "rushDuel": true,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Followl of the Dark Wisdom",
+          "rushDuel": true,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Nessus the Star Knight",
+          "rushDuel": true,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Royal Rebel's Fanatic",
+          "rushDuel": true,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Archfiend's Summoning Flute",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cobalt Cobolt",
+          "rushDuel": true,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Palace Gargoyle",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Royal Rebel's Break",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Royal Rebel's Growl",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Royal Rebel's Heavy Metal",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Royal Rebel's Invasion",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Royal Rebel's Phaser",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Royal Rebel's Rocker",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Royal Rebel's Shout",
+          "rushDuel": true,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Shadow Buyer",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Card Destruction",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Evil Star Beacon",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "King's Reward",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Royal Rebel's Echo",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Saturnius' Orb",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Triangle Reborn",
+          "rushDuel": true,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Event Duelist",
+        "Romin Kassidy"
+      ],
+      "cards": [
+        {
+          "name": "CAN:D",
+          "rushDuel": true,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Concert Costume Creator",
+          "rushDuel": true,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Keytar Kid",
+          "rushDuel": true,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Watangel",
+          "rushDuel": true,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Wattkiss",
+          "rushDuel": true,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Amusi Performer",
+          "rushDuel": true,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Chemical Cure Blue",
+          "rushDuel": true,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Chemical Cure Red",
+          "rushDuel": true,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Rhythmical Performer",
+          "rushDuel": true,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Romanpick",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Telepathic Agent",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Blue Medicine",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Elepsychic Amp Up",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "JAM:P Start!",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Psychic Burial",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Red Medicine",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Stardom Light",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Psychic Introduction",
+          "rushDuel": true,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Event Duelist",
+        "Hangry Romin"
+      ],
+      "cards": [
+        {
+          "name": "CAN:D",
+          "rushDuel": true,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Concert Costume Creator",
+          "rushDuel": true,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Keytar Kid",
+          "rushDuel": true,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Watangel",
+          "rushDuel": true,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Wattkiss",
+          "rushDuel": true,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Amusi Performer",
+          "rushDuel": true,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Chemical Cure Blue",
+          "rushDuel": true,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Chemical Cure Red",
+          "rushDuel": true,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Rhythmical Performer",
+          "rushDuel": true,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Romanpick",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Telepathic Agent",
+          "rushDuel": true,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Blue Medicine",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Elepsychic Amp Up",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "JAM:P Start!",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Psychic Burial",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Red Medicine",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Stardom Light",
+          "rushDuel": true,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Psychic Introduction",
+          "rushDuel": true,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Royal Rebel's Command",
+      "rushDuel": true,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "March 2024",
+          "runIndex": 1,
+          "requirement": "UR",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Royal Rebel's Growl",
+      "rushDuel": true,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "March 2024",
+          "runIndex": 1,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "November 2023",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Royal Rebel's Arena",
+      "rushDuel": true,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "March 2024",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Palace Gargoyle",
+      "rushDuel": true,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "March 2024",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "November 2023",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Mammoth Graveyard",
+      "card": "3436820b-ed10-4771-912d-ca23b0d4837d",
+      "yugipediaId": 504863,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "March 2024",
+          "runIndex": 1,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "November 2023",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Hitotsu-Me Giant",
+      "card": "0e9a1e21-a913-46e8-b24b-68e06c7916ed",
+      "yugipediaId": 2861,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "March 2024",
+          "runIndex": 1,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "November 2023",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Gust",
+      "card": "70d35768-ae5d-449d-8121-4394cf61842c",
+      "yugipediaId": 4972,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "March 2024",
+          "runIndex": 1,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "November 2023",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Lizard Soldier",
+      "card": "be99b4b8-9b73-42f2-83a1-fd3ceb81c102",
+      "yugipediaId": 8431,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "March 2024",
+          "runIndex": 1,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "November 2023",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Binding Chain",
+      "card": "76166444-00d2-4368-9218-76310e10c605",
+      "yugipediaId": 19097,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "March 2024",
+          "runIndex": 1,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "November 2023",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "The Concert King Duelist: Roa Kassidy!",
+        "id": 1232168
+      }
+    ]
+  }
+}

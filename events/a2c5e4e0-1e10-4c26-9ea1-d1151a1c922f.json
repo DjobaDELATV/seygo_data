@@ -1,0 +1,171 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "a2c5e4e0-1e10-4c26-9ea1-d1151a1c922f",
+  "name": {
+    "en": "Jaden Yuki's Birthday Celebration Gift"
+  },
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/b/bb/JadenYukisBirthdayCelebrationGift-Banner.png",
+  "runs": [
+    {
+      "startDate": "2019-08-30",
+      "endDate": "2019-09-09"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "other",
+      "path": [
+        "Rewards"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "Players who logged into Yu-Gi-Oh! Duel Links during the following time periods would receive an appropriate \"Log-in Gift\" in their Gift Boxes. As such, it was possible to receive some (or all) of these gifts at the same time, if the player did not log in to receive a gift on an earlier day."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Period",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "August 30, 2019, 20:00 (EST) - September 6, 2019, 19:59 (EST)"
+              },
+              {
+                "text": "1 \"Elemental HERO Shining Flare Wingman\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Elemental HERO Shining Flare Wingman",
+                    "card": "a4655c1a-f951-41d4-8c3a-debdf3c5e668",
+                    "yugipediaId": 8723,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "August 31, 2019, 20:00 (EST) - September 7, 2019, 19:59 (EST)"
+              },
+              {
+                "text": "1 \"Elemental HERO Bubbleman\" (Glossy)",
+                "cards": [
+                  {
+                    "name": "Elemental HERO Bubbleman",
+                    "card": "14bb7a33-6f07-4a7c-bc7f-5d2b94b11781",
+                    "yugipediaId": 444,
+                    "quantity": 1,
+                    "variant": "Glossy"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "September 1, 2019, 20:00 (EST) - September 8, 2019, 19:59 (EST)"
+              },
+              {
+                "text": "1 \"Elemental HERO Wildheart\" (Glossy)",
+                "cards": [
+                  {
+                    "name": "Elemental HERO Wildheart",
+                    "card": "11a9f806-b9f2-4c63-9683-08daac85caa3",
+                    "yugipediaId": 551,
+                    "quantity": 1,
+                    "variant": "Glossy"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "September 2, 2019, 20:00 (EST) - September 9, 2019, 19:59 (EST)"
+              },
+              {
+                "text": "1 \"Elemental HERO Electrum\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Elemental HERO Electrum",
+                    "card": "7b52a801-c0bf-4a5e-b9f2-033aa4aebc74",
+                    "yugipediaId": 5916,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Elemental HERO Shining Flare Wingman",
+      "card": "a4655c1a-f951-41d4-8c3a-debdf3c5e668",
+      "yugipediaId": 8723,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "runIndex": 0,
+          "requirement": "August 30, 2019, 20:00 (EST) - September 6, 2019, 19:59 (EST)",
+          "date": "2019-08-30",
+          "availableText": "August 30, 2019, 20:00 (EST) - September 6, 2019, 19:59 (EST)"
+        }
+      ]
+    },
+    {
+      "name": "Elemental HERO Bubbleman",
+      "card": "14bb7a33-6f07-4a7c-bc7f-5d2b94b11781",
+      "yugipediaId": 444,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "runIndex": 0,
+          "requirement": "August 31, 2019, 20:00 (EST) - September 7, 2019, 19:59 (EST)",
+          "date": "2019-08-31",
+          "availableText": "August 31, 2019, 20:00 (EST) - September 7, 2019, 19:59 (EST)"
+        }
+      ]
+    },
+    {
+      "name": "Elemental HERO Wildheart",
+      "card": "11a9f806-b9f2-4c63-9683-08daac85caa3",
+      "yugipediaId": 551,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "runIndex": 0,
+          "requirement": "September 1, 2019, 20:00 (EST) - September 8, 2019, 19:59 (EST)",
+          "date": "2019-09-01",
+          "availableText": "September 1, 2019, 20:00 (EST) - September 8, 2019, 19:59 (EST)"
+        }
+      ]
+    },
+    {
+      "name": "Elemental HERO Electrum",
+      "card": "7b52a801-c0bf-4a5e-b9f2-033aa4aebc74",
+      "yugipediaId": 5916,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "runIndex": 0,
+          "requirement": "September 2, 2019, 20:00 (EST) - September 9, 2019, 19:59 (EST)",
+          "date": "2019-09-02",
+          "availableText": "September 2, 2019, 20:00 (EST) - September 9, 2019, 19:59 (EST)"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Jaden Yuki's Birthday Celebration Gift (2019)",
+        "id": 662431
+      }
+    ]
+  }
+}

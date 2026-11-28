@@ -1,0 +1,446 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "b08b2a94-bc19-4acc-b249-3fbe0c1b0ddb",
+  "name": {
+    "en": "Full Speed Ahead! The Turbo Duelist, Yugo!"
+  },
+  "type": "Gate Event",
+  "duelWorlds": [
+    "Duel World (ARC-V)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/7/73/FullSpeedAheadTheTurboDuelistYugo-Banner.png",
+  "runs": [
+    {
+      "startDate": "2023-05-18",
+      "endDate": "2023-05-30"
+    },
+    {
+      "startDate": "2023-08-14",
+      "endDate": "2023-08-24"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "run": "August 2023",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Shock Surprise\", \"Hi-Speedroid Kitedrake\"",
+                "cards": [
+                  {
+                    "name": "Shock Surprise",
+                    "card": "2e66744c-93c3-4bf4-a03e-4b27ffc85387",
+                    "yugipediaId": 426984
+                  },
+                  {
+                    "name": "Hi-Speedroid Kitedrake",
+                    "card": "81409ffb-db46-4658-af2f-65dfd35aa5e2",
+                    "yugipediaId": 584639
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Speedroid CarTurbo\", \"Speedlift\", \"Onikuji\"",
+                "cards": [
+                  {
+                    "name": "Speedroid CarTurbo",
+                    "card": "7bbb2aee-136d-46c0-acae-245c75829d4f",
+                    "yugipediaId": 707844
+                  },
+                  {
+                    "name": "Speedlift",
+                    "card": "3c624505-2976-4630-9675-16cce3b1db24",
+                    "yugipediaId": 473511
+                  },
+                  {
+                    "name": "Onikuji",
+                    "card": "3711fa0c-75a0-4ac1-962a-c03b370a13d8",
+                    "yugipediaId": 435848
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Remove Trap\", \"Sonic Jammer\", \"Oilman\"",
+                "cards": [
+                  {
+                    "name": "Remove Trap",
+                    "card": "2073b43f-bb99-4485-af2e-c3d8052f46de",
+                    "yugipediaId": 506619
+                  },
+                  {
+                    "name": "Sonic Jammer",
+                    "card": "f5542816-6c2d-4ec6-8fb1-154a7ea5a73c",
+                    "yugipediaId": 16751
+                  },
+                  {
+                    "name": "Oilman",
+                    "card": "16eb6e04-113c-4aad-827c-d2f757e3403b",
+                    "yugipediaId": 108465
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Bat\"",
+                "cards": [
+                  {
+                    "name": "Bat",
+                    "card": "02a1df70-b688-4dbe-9595-672796188514",
+                    "yugipediaId": 7540
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "run": "May 2023",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Hi-Speedroid Kitedrake\"",
+                "cards": [
+                  {
+                    "name": "Hi-Speedroid Kitedrake",
+                    "card": "81409ffb-db46-4658-af2f-65dfd35aa5e2",
+                    "yugipediaId": 584639
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Speedroid CarTurbo\", \"Final Gesture\", \"Uni-Song Tuning\", \"Onikuji\"",
+                "cards": [
+                  {
+                    "name": "Speedroid CarTurbo",
+                    "card": "7bbb2aee-136d-46c0-acae-245c75829d4f",
+                    "yugipediaId": 707844
+                  },
+                  {
+                    "name": "Final Gesture",
+                    "card": "7b4d8a8a-6708-4751-8b5b-3dd7b479deda",
+                    "yugipediaId": 242926
+                  },
+                  {
+                    "name": "Uni-Song Tuning",
+                    "card": "bf63e5bf-44b1-4b92-9226-9d9aadde7469",
+                    "yugipediaId": 577416
+                  },
+                  {
+                    "name": "Onikuji",
+                    "card": "3711fa0c-75a0-4ac1-962a-c03b370a13d8",
+                    "yugipediaId": 435848
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Remove Trap\", \"Sonic Jammer\", \"Oilman\"",
+                "cards": [
+                  {
+                    "name": "Remove Trap",
+                    "card": "2073b43f-bb99-4485-af2e-c3d8052f46de",
+                    "yugipediaId": 506619
+                  },
+                  {
+                    "name": "Sonic Jammer",
+                    "card": "f5542816-6c2d-4ec6-8fb1-154a7ea5a73c",
+                    "yugipediaId": 16751
+                  },
+                  {
+                    "name": "Oilman",
+                    "card": "16eb6e04-113c-4aad-827c-d2f757e3403b",
+                    "yugipediaId": 108465
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Bat\"",
+                "cards": [
+                  {
+                    "name": "Bat",
+                    "card": "02a1df70-b688-4dbe-9595-672796188514",
+                    "yugipediaId": 7540
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Shock Surprise",
+      "card": "2e66744c-93c3-4bf4-a03e-4b27ffc85387",
+      "yugipediaId": 426984,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "August 2023",
+          "runIndex": 1,
+          "requirement": "UR",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Hi-Speedroid Kitedrake",
+      "card": "81409ffb-db46-4658-af2f-65dfd35aa5e2",
+      "yugipediaId": 584639,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "August 2023",
+          "runIndex": 1,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "May 2023",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Speedroid CarTurbo",
+      "card": "7bbb2aee-136d-46c0-acae-245c75829d4f",
+      "yugipediaId": 707844,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "August 2023",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "May 2023",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Speedlift",
+      "card": "3c624505-2976-4630-9675-16cce3b1db24",
+      "yugipediaId": 473511,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "August 2023",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Onikuji",
+      "card": "3711fa0c-75a0-4ac1-962a-c03b370a13d8",
+      "yugipediaId": 435848,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "August 2023",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "May 2023",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Remove Trap",
+      "card": "2073b43f-bb99-4485-af2e-c3d8052f46de",
+      "yugipediaId": 506619,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "August 2023",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "May 2023",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Sonic Jammer",
+      "card": "f5542816-6c2d-4ec6-8fb1-154a7ea5a73c",
+      "yugipediaId": 16751,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "August 2023",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "May 2023",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Oilman",
+      "card": "16eb6e04-113c-4aad-827c-d2f757e3403b",
+      "yugipediaId": 108465,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "August 2023",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "May 2023",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Bat",
+      "card": "02a1df70-b688-4dbe-9595-672796188514",
+      "yugipediaId": 7540,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "August 2023",
+          "runIndex": 1,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "May 2023",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Final Gesture",
+      "card": "7b4d8a8a-6708-4751-8b5b-3dd7b479deda",
+      "yugipediaId": 242926,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "May 2023",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Uni-Song Tuning",
+      "card": "bf63e5bf-44b1-4b92-9226-9d9aadde7469",
+      "yugipediaId": 577416,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "May 2023",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Full Speed Ahead! The Turbo Duelist, Yugo!",
+        "id": 1230546
+      }
+    ]
+  }
+}

@@ -1,0 +1,752 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "39228ef6-75a8-45a6-8701-7882e69151a5",
+  "name": {
+    "en": "Elegant Mai"
+  },
+  "type": "Roaming Duelist event",
+  "duelWorlds": [
+    "Duel World (DM)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/5/59/ElegantMaiishere-Banner.png",
+  "runs": [
+    {
+      "startDate": "2017-08-03",
+      "endDate": "2017-08-11"
+    },
+    {
+      "startDate": "2018-05-02",
+      "endDate": "2018-05-09"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "notes": [
+        "In addition to the following, standard Duel Rewards were also available by Dueling Elegant Mai Level 30 or less."
+      ]
+    },
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "run": "May 2018",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Amazoness Princess\"",
+                "cards": [
+                  {
+                    "name": "Amazoness Princess",
+                    "card": "5714178b-65ed-469c-a0e4-4dc0ea45cb21",
+                    "yugipediaId": 494159
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Swift Birdman Joe\", \"Queen's Pawn\", \"Amazoness Archers\", \"Spy-C-Spy\"",
+                "cards": [
+                  {
+                    "name": "Swift Birdman Joe",
+                    "card": "adfc4590-0560-4e6d-a72b-f663d5a3b55f",
+                    "yugipediaId": 4765
+                  },
+                  {
+                    "name": "Queen's Pawn",
+                    "card": "8e35b910-9cb4-4e0a-b068-76778004b38c",
+                    "yugipediaId": 123612
+                  },
+                  {
+                    "name": "Amazoness Archers",
+                    "card": "e5e046d3-590c-4655-afdd-552410a75b63",
+                    "yugipediaId": 49
+                  },
+                  {
+                    "name": "Spy-C-Spy",
+                    "card": "4eb92ee0-a2fa-462b-9ec9-d7be39ccf3c0",
+                    "yugipediaId": 339752
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Amazoness Shamanism\", \"Harpie Lady 2\", \"Harpie Lady 3\"",
+                "cards": [
+                  {
+                    "name": "Amazoness Shamanism",
+                    "card": "59a4a7fc-f499-4f9f-b653-956c0f8ea5b5",
+                    "yugipediaId": 140261
+                  },
+                  {
+                    "name": "Harpie Lady 2",
+                    "card": "0b56e1ca-b259-4e7a-bb7a-8f6ab2bcc273",
+                    "yugipediaId": 7076
+                  },
+                  {
+                    "name": "Harpie Lady 3",
+                    "card": "513c89d3-7821-42a7-96ed-06486dafb164",
+                    "yugipediaId": 4667
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Amazoness Blowpiper\", \"Tactical Espionage Expert\"",
+                "cards": [
+                  {
+                    "name": "Amazoness Blowpiper",
+                    "card": "5b5acc44-6b41-46cc-981e-3d8a723d9a41",
+                    "yugipediaId": 3387
+                  },
+                  {
+                    "name": "Tactical Espionage Expert",
+                    "card": "509c353a-b0c3-41ce-ae7d-421543f4eaf3",
+                    "yugipediaId": 12013
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "run": "August 2017",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Vennu, Bright Bird of Divinity\"",
+                "cards": [
+                  {
+                    "name": "Vennu, Bright Bird of Divinity",
+                    "card": "a7fb39a4-3199-4fe9-967a-b9656cda15dc",
+                    "yugipediaId": 358656
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Swift Birdman Joe\", \"Dance Princess of the Ice Barrier\", \"Amazoness Archers\", \"Queen's Pawn\"",
+                "cards": [
+                  {
+                    "name": "Swift Birdman Joe",
+                    "card": "adfc4590-0560-4e6d-a72b-f663d5a3b55f",
+                    "yugipediaId": 4765
+                  },
+                  {
+                    "name": "Dance Princess of the Ice Barrier",
+                    "card": "98de79eb-83d2-4f84-b7b1-1511829fe61c",
+                    "yugipediaId": 131593
+                  },
+                  {
+                    "name": "Amazoness Archers",
+                    "card": "e5e046d3-590c-4655-afdd-552410a75b63",
+                    "yugipediaId": 49
+                  },
+                  {
+                    "name": "Queen's Pawn",
+                    "card": "8e35b910-9cb4-4e0a-b068-76778004b38c",
+                    "yugipediaId": 123612
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Harpie Lady 2\", \"Harpie Lady 3\", \"Primal Cry\"",
+                "cards": [
+                  {
+                    "name": "Harpie Lady 2",
+                    "card": "0b56e1ca-b259-4e7a-bb7a-8f6ab2bcc273",
+                    "yugipediaId": 7076
+                  },
+                  {
+                    "name": "Harpie Lady 3",
+                    "card": "513c89d3-7821-42a7-96ed-06486dafb164",
+                    "yugipediaId": 4667
+                  },
+                  {
+                    "name": "Primal Cry",
+                    "card": "8835e227-7a51-41ab-8355-032c639b7dbe",
+                    "yugipediaId": 429090
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Amazoness Blowpiper\", \"Tactical Espionage Expert\"",
+                "cards": [
+                  {
+                    "name": "Amazoness Blowpiper",
+                    "card": "5b5acc44-6b41-46cc-981e-3d8a723d9a41",
+                    "yugipediaId": 3387
+                  },
+                  {
+                    "name": "Tactical Espionage Expert",
+                    "card": "509c353a-b0c3-41ce-ae7d-421543f4eaf3",
+                    "yugipediaId": 12013
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Rewards",
+        "Event Missions"
+      ],
+      "run": "May 2018",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against Elegant Mai."
+              },
+              {
+                "text": "1 \"Harpie Lady 2\"",
+                "cards": [
+                  {
+                    "name": "Harpie Lady 2",
+                    "card": "0b56e1ca-b259-4e7a-bb7a-8f6ab2bcc273",
+                    "yugipediaId": 7076,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 3 Duel(s) against Elegant Mai."
+              },
+              {
+                "text": "1 \"Amazoness Archers\"",
+                "cards": [
+                  {
+                    "name": "Amazoness Archers",
+                    "card": "e5e046d3-590c-4655-afdd-552410a75b63",
+                    "yugipediaId": 49,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 7 Duel(s) against Elegant Mai."
+              },
+              {
+                "text": "1 \"Spy-C-Spy\"",
+                "cards": [
+                  {
+                    "name": "Spy-C-Spy",
+                    "card": "4eb92ee0-a2fa-462b-9ec9-d7be39ccf3c0",
+                    "yugipediaId": 339752,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Play 15 Duel(s) against Elegant Mai. (surrenders are not counted.)"
+              },
+              {
+                "text": "1 \"Amazoness Princess\"",
+                "cards": [
+                  {
+                    "name": "Amazoness Princess",
+                    "card": "5714178b-65ed-469c-a0e4-4dc0ea45cb21",
+                    "yugipediaId": 494159,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 1 Duel(s) against Elegant Mai using Joey Wheeler."
+              },
+              {
+                "text": "1 \"Harpie Lady 3\"",
+                "cards": [
+                  {
+                    "name": "Harpie Lady 3",
+                    "card": "513c89d3-7821-42a7-96ed-06486dafb164",
+                    "yugipediaId": 4667,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 3 Duel(s) against Elegant Mai using Joey Wheeler."
+              },
+              {
+                "text": "1 \"Queen's Pawn\"",
+                "cards": [
+                  {
+                    "name": "Queen's Pawn",
+                    "card": "8e35b910-9cb4-4e0a-b068-76778004b38c",
+                    "yugipediaId": 123612,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Rewards",
+        "Event Missions"
+      ],
+      "run": "August 2017",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against Elegant Mai."
+              },
+              {
+                "text": "1 \"Tactical Espionage Expert\"",
+                "cards": [
+                  {
+                    "name": "Tactical Espionage Expert",
+                    "card": "509c353a-b0c3-41ce-ae7d-421543f4eaf3",
+                    "yugipediaId": 12013,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 3 Duel(s) against Elegant Mai."
+              },
+              {
+                "text": "1 \"Harpie Lady 2\"",
+                "cards": [
+                  {
+                    "name": "Harpie Lady 2",
+                    "card": "0b56e1ca-b259-4e7a-bb7a-8f6ab2bcc273",
+                    "yugipediaId": 7076,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 7 Duel(s) against Elegant Mai."
+              },
+              {
+                "text": "1 \"Harpie Lady 3\"",
+                "cards": [
+                  {
+                    "name": "Harpie Lady 3",
+                    "card": "513c89d3-7821-42a7-96ed-06486dafb164",
+                    "yugipediaId": 4667,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Play 15 Duel(s) against Elegant Mai. (surrenders are not counted.)"
+              },
+              {
+                "text": "1 \"Dance Princess of the Ice Barrier\"",
+                "cards": [
+                  {
+                    "name": "Dance Princess of the Ice Barrier",
+                    "card": "98de79eb-83d2-4f84-b7b1-1511829fe61c",
+                    "yugipediaId": 131593,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Amazoness Princess",
+      "card": "5714178b-65ed-469c-a0e4-4dc0ea45cb21",
+      "yugipediaId": 494159,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "May 2018",
+          "runIndex": 1,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "missions",
+          "run": "May 2018",
+          "runIndex": 1,
+          "requirement": "Play 15 Duel(s) against Elegant Mai. (surrenders are not counted.)"
+        }
+      ]
+    },
+    {
+      "name": "Swift Birdman Joe",
+      "card": "adfc4590-0560-4e6d-a72b-f663d5a3b55f",
+      "yugipediaId": 4765,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "May 2018",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "August 2017",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Queen's Pawn",
+      "card": "8e35b910-9cb4-4e0a-b068-76778004b38c",
+      "yugipediaId": 123612,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "May 2018",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "August 2017",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "run": "May 2018",
+          "runIndex": 1,
+          "requirement": "Win 3 Duel(s) against Elegant Mai using Joey Wheeler."
+        }
+      ]
+    },
+    {
+      "name": "Amazoness Archers",
+      "card": "e5e046d3-590c-4655-afdd-552410a75b63",
+      "yugipediaId": 49,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "May 2018",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "August 2017",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "run": "May 2018",
+          "runIndex": 1,
+          "requirement": "Win 3 Duel(s) against Elegant Mai."
+        }
+      ]
+    },
+    {
+      "name": "Spy-C-Spy",
+      "card": "4eb92ee0-a2fa-462b-9ec9-d7be39ccf3c0",
+      "yugipediaId": 339752,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "May 2018",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "run": "May 2018",
+          "runIndex": 1,
+          "requirement": "Win 7 Duel(s) against Elegant Mai."
+        }
+      ]
+    },
+    {
+      "name": "Amazoness Shamanism",
+      "card": "59a4a7fc-f499-4f9f-b653-956c0f8ea5b5",
+      "yugipediaId": 140261,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "May 2018",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Harpie Lady 2",
+      "card": "0b56e1ca-b259-4e7a-bb7a-8f6ab2bcc273",
+      "yugipediaId": 7076,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "May 2018",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "August 2017",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "missions",
+          "run": "May 2018",
+          "runIndex": 1,
+          "requirement": "Win 1 Duel(s) against Elegant Mai."
+        },
+        {
+          "kind": "missions",
+          "run": "August 2017",
+          "runIndex": 0,
+          "requirement": "Win 3 Duel(s) against Elegant Mai."
+        }
+      ]
+    },
+    {
+      "name": "Harpie Lady 3",
+      "card": "513c89d3-7821-42a7-96ed-06486dafb164",
+      "yugipediaId": 4667,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "May 2018",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "August 2017",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "missions",
+          "run": "May 2018",
+          "runIndex": 1,
+          "requirement": "Win 1 Duel(s) against Elegant Mai using Joey Wheeler."
+        },
+        {
+          "kind": "missions",
+          "run": "August 2017",
+          "runIndex": 0,
+          "requirement": "Win 7 Duel(s) against Elegant Mai."
+        }
+      ]
+    },
+    {
+      "name": "Amazoness Blowpiper",
+      "card": "5b5acc44-6b41-46cc-981e-3d8a723d9a41",
+      "yugipediaId": 3387,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "May 2018",
+          "runIndex": 1,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "August 2017",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Tactical Espionage Expert",
+      "card": "509c353a-b0c3-41ce-ae7d-421543f4eaf3",
+      "yugipediaId": 12013,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "May 2018",
+          "runIndex": 1,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "August 2017",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "missions",
+          "run": "August 2017",
+          "runIndex": 0,
+          "requirement": "Win 1 Duel(s) against Elegant Mai."
+        }
+      ]
+    },
+    {
+      "name": "Vennu, Bright Bird of Divinity",
+      "card": "a7fb39a4-3199-4fe9-967a-b9656cda15dc",
+      "yugipediaId": 358656,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "August 2017",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Dance Princess of the Ice Barrier",
+      "card": "98de79eb-83d2-4f84-b7b1-1511829fe61c",
+      "yugipediaId": 131593,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "August 2017",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "run": "August 2017",
+          "runIndex": 0,
+          "requirement": "Play 15 Duel(s) against Elegant Mai. (surrenders are not counted.)"
+        }
+      ]
+    },
+    {
+      "name": "Primal Cry",
+      "card": "8835e227-7a51-41ab-8355-032c639b7dbe",
+      "yugipediaId": 429090,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "August 2017",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "\"Elegant Mai\" is here!",
+        "id": 559671
+      }
+    ]
+  }
+}

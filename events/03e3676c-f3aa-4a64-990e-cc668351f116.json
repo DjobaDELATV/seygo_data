@@ -1,0 +1,611 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "03e3676c-f3aa-4a64-990e-cc668351f116",
+  "name": {
+    "en": "Yugi Muto (Roaming Duelist event)"
+  },
+  "type": "Roaming Duelist event",
+  "duelWorlds": [
+    "Duel World (DM)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/b/b0/YugiMuto-Banner.png",
+  "runs": [
+    {
+      "startDate": "2017-01-19",
+      "endDate": "2017-01-25"
+    },
+    {
+      "startDate": "2017-03-16",
+      "endDate": "2017-03-22"
+    },
+    {
+      "startDate": "2017-05-02",
+      "endDate": "2017-05-09"
+    },
+    {
+      "startDate": "2017-06-07",
+      "endDate": "2017-06-11"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Event Details",
+        "Duel Rewards"
+      ],
+      "notes": [
+        "In addition to the following, standard Duel Rewards were also available by Dueling Yugi Muto Level 30 or less."
+      ]
+    },
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Event Details",
+        "Duel Rewards"
+      ],
+      "run": "May & June 2017",
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Valkyrion the Magna Warrior\", \"Gandora the Dragon of Destruction\"",
+                "cards": [
+                  {
+                    "name": "Valkyrion the Magna Warrior",
+                    "card": "04f01e78-e2ea-494a-bff2-4e81e9362bbb",
+                    "yugipediaId": 60
+                  },
+                  {
+                    "name": "Gandora the Dragon of Destruction",
+                    "card": "bb5518a3-27a2-4b07-b52a-9b77203fc0f7",
+                    "yugipediaId": 15783
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Gamma The Magnet Warrior\", \"Toy Magician\", \"Magical Blast\", \"Rain of Mercy\", \"Union Attack\"",
+                "cards": [
+                  {
+                    "name": "Gamma The Magnet Warrior",
+                    "card": "1780ae6e-566a-4f4f-81b3-ee65ea648b95",
+                    "yugipediaId": 72
+                  },
+                  {
+                    "name": "Toy Magician",
+                    "card": "e8a8aa2d-ee47-4b1a-9a50-ac2b62eaa4f3",
+                    "yugipediaId": 12300
+                  },
+                  {
+                    "name": "Magical Blast",
+                    "card": "df8f5fb0-1f07-4021-baa2-c76385e6289b",
+                    "yugipediaId": 2748
+                  },
+                  {
+                    "name": "Rain of Mercy",
+                    "card": "f4be3897-695a-4c22-b05f-7259cb581922",
+                    "yugipediaId": 7414
+                  },
+                  {
+                    "name": "Union Attack",
+                    "card": "2cc8df8d-4cc8-4e1a-8ebd-5b86fdd59289",
+                    "yugipediaId": 16918
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Minoan Centaur\", \"Alpha The Magnet Warrior\", \"Beta The Magnet Warrior\", \"Blockman\", \"Beaver Warrior\", \"Castle Walls\", \"Shattered Axe\"",
+                "cards": [
+                  {
+                    "name": "Minoan Centaur",
+                    "card": "fd3f3273-871d-4f12-8b7a-961f5e1cca11",
+                    "yugipediaId": 58581
+                  },
+                  {
+                    "name": "Alpha The Magnet Warrior",
+                    "card": "2e11e214-3b34-4029-b4b8-bfcc7ec33b37",
+                    "yugipediaId": 65
+                  },
+                  {
+                    "name": "Beta The Magnet Warrior",
+                    "card": "6cac5315-3e5b-4d6d-9901-8e0841fc3a99",
+                    "yugipediaId": 68
+                  },
+                  {
+                    "name": "Blockman",
+                    "card": "c7c4ce36-3f61-47b0-8cbf-beb0c8055340",
+                    "yugipediaId": 1788
+                  },
+                  {
+                    "name": "Beaver Warrior",
+                    "card": "a75315dc-34b1-4cd6-9e3f-9bf14e6d998d",
+                    "yugipediaId": 506869
+                  },
+                  {
+                    "name": "Castle Walls",
+                    "card": "4affdb83-9a37-4291-b764-abcbaea9df48",
+                    "yugipediaId": 548
+                  },
+                  {
+                    "name": "Shattered Axe",
+                    "card": "698f3fb7-4a50-402f-8578-3def38bcc497",
+                    "yugipediaId": 11485
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Event Details",
+        "Duel Rewards"
+      ],
+      "run": "January & March 2017",
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Gandora the Dragon of Destruction\"",
+                "cards": [
+                  {
+                    "name": "Gandora the Dragon of Destruction",
+                    "card": "bb5518a3-27a2-4b07-b52a-9b77203fc0f7",
+                    "yugipediaId": 15783
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Rain of Mercy\", \"Union Attack\", \"Magical Blast\", \"Toy Magician\"",
+                "cards": [
+                  {
+                    "name": "Rain of Mercy",
+                    "card": "f4be3897-695a-4c22-b05f-7259cb581922",
+                    "yugipediaId": 7414
+                  },
+                  {
+                    "name": "Union Attack",
+                    "card": "2cc8df8d-4cc8-4e1a-8ebd-5b86fdd59289",
+                    "yugipediaId": 16918
+                  },
+                  {
+                    "name": "Magical Blast",
+                    "card": "df8f5fb0-1f07-4021-baa2-c76385e6289b",
+                    "yugipediaId": 2748
+                  },
+                  {
+                    "name": "Toy Magician",
+                    "card": "e8a8aa2d-ee47-4b1a-9a50-ac2b62eaa4f3",
+                    "yugipediaId": 12300
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Beaver Warrior\", \"Castle Walls\", \"Shattered Axe\", \"Blockman\", \"Minoan Centaur\"",
+                "cards": [
+                  {
+                    "name": "Beaver Warrior",
+                    "card": "a75315dc-34b1-4cd6-9e3f-9bf14e6d998d",
+                    "yugipediaId": 506869
+                  },
+                  {
+                    "name": "Castle Walls",
+                    "card": "4affdb83-9a37-4291-b764-abcbaea9df48",
+                    "yugipediaId": 548
+                  },
+                  {
+                    "name": "Shattered Axe",
+                    "card": "698f3fb7-4a50-402f-8578-3def38bcc497",
+                    "yugipediaId": 11485
+                  },
+                  {
+                    "name": "Blockman",
+                    "card": "c7c4ce36-3f61-47b0-8cbf-beb0c8055340",
+                    "yugipediaId": 1788
+                  },
+                  {
+                    "name": "Minoan Centaur",
+                    "card": "fd3f3273-871d-4f12-8b7a-961f5e1cca11",
+                    "yugipediaId": 58581
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Event Details",
+        "Event Missions"
+      ],
+      "notes": [
+        "The following missions were only available during the June 2017 run of this event."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against Yugi Muto."
+              },
+              {
+                "text": "1 \"Blockman\"",
+                "cards": [
+                  {
+                    "name": "Blockman",
+                    "card": "c7c4ce36-3f61-47b0-8cbf-beb0c8055340",
+                    "yugipediaId": 1788,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 3 Duel(s) against Yugi Muto."
+              },
+              {
+                "text": "1 \"Alpha The Magnet Warrior\"",
+                "cards": [
+                  {
+                    "name": "Alpha The Magnet Warrior",
+                    "card": "2e11e214-3b34-4029-b4b8-bfcc7ec33b37",
+                    "yugipediaId": 65,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 7 Duel(s) against Yugi Muto."
+              },
+              {
+                "text": "1 \"Beta The Magnet Warrior\"",
+                "cards": [
+                  {
+                    "name": "Beta The Magnet Warrior",
+                    "card": "6cac5315-3e5b-4d6d-9901-8e0841fc3a99",
+                    "yugipediaId": 68,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Play 15 Duel(s) against Yugi Muto."
+              },
+              {
+                "text": "1 \"Gamma The Magnet Warrior\"",
+                "cards": [
+                  {
+                    "name": "Gamma The Magnet Warrior",
+                    "card": "1780ae6e-566a-4f4f-81b3-ee65ea648b95",
+                    "yugipediaId": 72,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Valkyrion the Magna Warrior",
+      "card": "04f01e78-e2ea-494a-bff2-4e81e9362bbb",
+      "yugipediaId": 60,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "May & June 2017",
+          "requirement": "UR",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Gandora the Dragon of Destruction",
+      "card": "bb5518a3-27a2-4b07-b52a-9b77203fc0f7",
+      "yugipediaId": 15783,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "May & June 2017",
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "January & March 2017",
+          "requirement": "UR",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Gamma The Magnet Warrior",
+      "card": "1780ae6e-566a-4f4f-81b3-ee65ea648b95",
+      "yugipediaId": 72,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "May & June 2017",
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "requirement": "Play 15 Duel(s) against Yugi Muto."
+        }
+      ]
+    },
+    {
+      "name": "Toy Magician",
+      "card": "e8a8aa2d-ee47-4b1a-9a50-ac2b62eaa4f3",
+      "yugipediaId": 12300,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "May & June 2017",
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "January & March 2017",
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Magical Blast",
+      "card": "df8f5fb0-1f07-4021-baa2-c76385e6289b",
+      "yugipediaId": 2748,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "May & June 2017",
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "January & March 2017",
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Rain of Mercy",
+      "card": "f4be3897-695a-4c22-b05f-7259cb581922",
+      "yugipediaId": 7414,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "May & June 2017",
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "January & March 2017",
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Union Attack",
+      "card": "2cc8df8d-4cc8-4e1a-8ebd-5b86fdd59289",
+      "yugipediaId": 16918,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "May & June 2017",
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "January & March 2017",
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Minoan Centaur",
+      "card": "fd3f3273-871d-4f12-8b7a-961f5e1cca11",
+      "yugipediaId": 58581,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "May & June 2017",
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "January & March 2017",
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Alpha The Magnet Warrior",
+      "card": "2e11e214-3b34-4029-b4b8-bfcc7ec33b37",
+      "yugipediaId": 65,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "May & June 2017",
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "missions",
+          "requirement": "Win 3 Duel(s) against Yugi Muto."
+        }
+      ]
+    },
+    {
+      "name": "Beta The Magnet Warrior",
+      "card": "6cac5315-3e5b-4d6d-9901-8e0841fc3a99",
+      "yugipediaId": 68,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "May & June 2017",
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "missions",
+          "requirement": "Win 7 Duel(s) against Yugi Muto."
+        }
+      ]
+    },
+    {
+      "name": "Blockman",
+      "card": "c7c4ce36-3f61-47b0-8cbf-beb0c8055340",
+      "yugipediaId": 1788,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "May & June 2017",
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "January & March 2017",
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "missions",
+          "requirement": "Win 1 Duel(s) against Yugi Muto."
+        }
+      ]
+    },
+    {
+      "name": "Beaver Warrior",
+      "card": "a75315dc-34b1-4cd6-9e3f-9bf14e6d998d",
+      "yugipediaId": 506869,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "May & June 2017",
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "January & March 2017",
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Castle Walls",
+      "card": "4affdb83-9a37-4291-b764-abcbaea9df48",
+      "yugipediaId": 548,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "May & June 2017",
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "January & March 2017",
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Shattered Axe",
+      "card": "698f3fb7-4a50-402f-8578-3def38bcc497",
+      "yugipediaId": 11485,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "May & June 2017",
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "January & March 2017",
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Yugi Muto (Roaming Duelist event)",
+        "id": 678451
+      }
+    ]
+  }
+}

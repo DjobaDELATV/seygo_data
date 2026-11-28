@@ -1,0 +1,591 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "485e079f-f365-4c96-bbab-48a515d04326",
+  "name": {
+    "en": "Super Joey"
+  },
+  "type": "Roaming Duelist event",
+  "duelWorlds": [
+    "Duel World (DM)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/2/25/SuperJoeyishere-Banner.png",
+  "runs": [
+    {
+      "startDate": "2017-05-15",
+      "endDate": "2017-05-23"
+    },
+    {
+      "startDate": "2017-07-11",
+      "endDate": "2017-07-20"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "notes": [
+        "In addition to the following, standard Duel Rewards were also available by Dueling Super Joey Level 30 or less."
+      ]
+    },
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "run": "July 2017",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Divine Knight Ishzark\", \"Meteor Dragon Red-Eyes Impact\", \"Graceful Dice\", \"Red-Eyes Insight\", \"Skull Dice\", \"Red-Eyes Spirit\"",
+                "cards": [
+                  {
+                    "name": "Divine Knight Ishzark",
+                    "card": "a7e5b1db-ca34-4639-a9d8-a86c0d304358",
+                    "yugipediaId": 12343
+                  },
+                  {
+                    "name": "Meteor Dragon Red-Eyes Impact",
+                    "card": "242b6d1b-7c98-42c2-b77f-a4783efdac32",
+                    "yugipediaId": 460366
+                  },
+                  {
+                    "name": "Graceful Dice",
+                    "card": "999cf0bf-5ee7-4bbe-9575-e02bfd8195f4",
+                    "yugipediaId": 2692
+                  },
+                  {
+                    "name": "Red-Eyes Insight",
+                    "card": "a5f704e4-068a-4a23-93f6-b19623098eea",
+                    "yugipediaId": 448165
+                  },
+                  {
+                    "name": "Skull Dice",
+                    "card": "d264a37f-1f51-48dd-b906-c3f07b138228",
+                    "yugipediaId": 2697
+                  },
+                  {
+                    "name": "Red-Eyes Spirit",
+                    "card": "5440d824-f978-4de2-8afb-b880fd42fd8b",
+                    "yugipediaId": 352726
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Giltia the D. Knight\", \"Alligator's Sword\", \"Dangerous Machine Type-6\", \"Hinotama\"",
+                "cards": [
+                  {
+                    "name": "Giltia the D. Knight",
+                    "card": "1adc9589-36fc-433e-b698-77d41e37803b",
+                    "yugipediaId": 5537
+                  },
+                  {
+                    "name": "Alligator's Sword",
+                    "card": "41207323-f712-43c3-aeef-56a0d4f0e698",
+                    "yugipediaId": 12672
+                  },
+                  {
+                    "name": "Dangerous Machine Type-6",
+                    "card": "2143ff23-5704-402e-9583-3006c883bd9b",
+                    "yugipediaId": 16671
+                  },
+                  {
+                    "name": "Hinotama",
+                    "card": "ad8736d0-b7b3-4316-a79e-00eeabb5aa20",
+                    "yugipediaId": 506604
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Protector of the Throne\", \"Guardian of the Labyrinth\"",
+                "cards": [
+                  {
+                    "name": "Protector of the Throne",
+                    "card": "819bcb03-6a1b-4063-bfeb-502582a418a0",
+                    "yugipediaId": 6126
+                  },
+                  {
+                    "name": "Guardian of the Labyrinth",
+                    "card": "38ed5140-d1e2-4bcf-8e84-2c4a69018a87",
+                    "yugipediaId": 5934
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "run": "May 2017",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Divine Knight Ishzark\", \"Meteor Dragon Red-Eyes Impact\", \"Graceful Dice\", \"Skull Dice\", \"Red-Eyes Spirit\"",
+                "cards": [
+                  {
+                    "name": "Divine Knight Ishzark",
+                    "card": "a7e5b1db-ca34-4639-a9d8-a86c0d304358",
+                    "yugipediaId": 12343
+                  },
+                  {
+                    "name": "Meteor Dragon Red-Eyes Impact",
+                    "card": "242b6d1b-7c98-42c2-b77f-a4783efdac32",
+                    "yugipediaId": 460366
+                  },
+                  {
+                    "name": "Graceful Dice",
+                    "card": "999cf0bf-5ee7-4bbe-9575-e02bfd8195f4",
+                    "yugipediaId": 2692
+                  },
+                  {
+                    "name": "Skull Dice",
+                    "card": "d264a37f-1f51-48dd-b906-c3f07b138228",
+                    "yugipediaId": 2697
+                  },
+                  {
+                    "name": "Red-Eyes Spirit",
+                    "card": "5440d824-f978-4de2-8afb-b880fd42fd8b",
+                    "yugipediaId": 352726
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Giltia the D. Knight\", \"Alligator's Sword\", \"Hinotama\"",
+                "cards": [
+                  {
+                    "name": "Giltia the D. Knight",
+                    "card": "1adc9589-36fc-433e-b698-77d41e37803b",
+                    "yugipediaId": 5537
+                  },
+                  {
+                    "name": "Alligator's Sword",
+                    "card": "41207323-f712-43c3-aeef-56a0d4f0e698",
+                    "yugipediaId": 12672
+                  },
+                  {
+                    "name": "Hinotama",
+                    "card": "ad8736d0-b7b3-4316-a79e-00eeabb5aa20",
+                    "yugipediaId": 506604
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Protector of the Throne\", \"Guardian of the Labyrinth\"",
+                "cards": [
+                  {
+                    "name": "Protector of the Throne",
+                    "card": "819bcb03-6a1b-4063-bfeb-502582a418a0",
+                    "yugipediaId": 6126
+                  },
+                  {
+                    "name": "Guardian of the Labyrinth",
+                    "card": "38ed5140-d1e2-4bcf-8e84-2c4a69018a87",
+                    "yugipediaId": 5934
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Rewards",
+        "Event Missions"
+      ],
+      "notes": [
+        "Event missions were only available during this event's second run."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against Super Joey."
+              },
+              {
+                "text": "1 \"Guardian of the Labyrinth\"",
+                "cards": [
+                  {
+                    "name": "Guardian of the Labyrinth",
+                    "card": "38ed5140-d1e2-4bcf-8e84-2c4a69018a87",
+                    "yugipediaId": 5934,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 3 Duel(s) against Super Joey."
+              },
+              {
+                "text": "1 \"Protector of the Throne\"",
+                "cards": [
+                  {
+                    "name": "Protector of the Throne",
+                    "card": "819bcb03-6a1b-4063-bfeb-502582a418a0",
+                    "yugipediaId": 6126,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 7 Duel(s) against Super Joey."
+              },
+              {
+                "text": "1 \"Meteor Dragon Red-Eyes Impact\"",
+                "cards": [
+                  {
+                    "name": "Meteor Dragon Red-Eyes Impact",
+                    "card": "242b6d1b-7c98-42c2-b77f-a4783efdac32",
+                    "yugipediaId": 460366,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Play 15 Duel(s) against Super Joey. (surrenders are not counted.)"
+              },
+              {
+                "text": "1 \"Red-Eyes Spirit\"",
+                "cards": [
+                  {
+                    "name": "Red-Eyes Spirit",
+                    "card": "5440d824-f978-4de2-8afb-b880fd42fd8b",
+                    "yugipediaId": 352726,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Divine Knight Ishzark",
+      "card": "a7e5b1db-ca34-4639-a9d8-a86c0d304358",
+      "yugipediaId": 12343,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "July 2017",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "May 2017",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Meteor Dragon Red-Eyes Impact",
+      "card": "242b6d1b-7c98-42c2-b77f-a4783efdac32",
+      "yugipediaId": 460366,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "July 2017",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "May 2017",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "requirement": "Win 7 Duel(s) against Super Joey."
+        }
+      ]
+    },
+    {
+      "name": "Graceful Dice",
+      "card": "999cf0bf-5ee7-4bbe-9575-e02bfd8195f4",
+      "yugipediaId": 2692,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "July 2017",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "May 2017",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Red-Eyes Insight",
+      "card": "a5f704e4-068a-4a23-93f6-b19623098eea",
+      "yugipediaId": 448165,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "July 2017",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Skull Dice",
+      "card": "d264a37f-1f51-48dd-b906-c3f07b138228",
+      "yugipediaId": 2697,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "July 2017",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "May 2017",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Red-Eyes Spirit",
+      "card": "5440d824-f978-4de2-8afb-b880fd42fd8b",
+      "yugipediaId": 352726,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "July 2017",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "May 2017",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "requirement": "Play 15 Duel(s) against Super Joey. (surrenders are not counted.)"
+        }
+      ]
+    },
+    {
+      "name": "Giltia the D. Knight",
+      "card": "1adc9589-36fc-433e-b698-77d41e37803b",
+      "yugipediaId": 5537,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "July 2017",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "May 2017",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Alligator's Sword",
+      "card": "41207323-f712-43c3-aeef-56a0d4f0e698",
+      "yugipediaId": 12672,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "July 2017",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "May 2017",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Dangerous Machine Type-6",
+      "card": "2143ff23-5704-402e-9583-3006c883bd9b",
+      "yugipediaId": 16671,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "July 2017",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Hinotama",
+      "card": "ad8736d0-b7b3-4316-a79e-00eeabb5aa20",
+      "yugipediaId": 506604,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "July 2017",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "May 2017",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Protector of the Throne",
+      "card": "819bcb03-6a1b-4063-bfeb-502582a418a0",
+      "yugipediaId": 6126,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "July 2017",
+          "runIndex": 1,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "May 2017",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "missions",
+          "requirement": "Win 3 Duel(s) against Super Joey."
+        }
+      ]
+    },
+    {
+      "name": "Guardian of the Labyrinth",
+      "card": "38ed5140-d1e2-4bcf-8e84-2c4a69018a87",
+      "yugipediaId": 5934,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "July 2017",
+          "runIndex": 1,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "May 2017",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "missions",
+          "requirement": "Win 1 Duel(s) against Super Joey."
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "\"Super Joey\" is here!",
+        "id": 648252
+      }
+    ]
+  }
+}

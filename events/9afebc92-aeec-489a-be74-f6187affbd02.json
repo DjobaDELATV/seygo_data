@@ -1,0 +1,361 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "9afebc92-aeec-489a-be74-f6187affbd02",
+  "name": {
+    "en": "Arkana (Roaming Duelist event)"
+  },
+  "type": "Roaming Duelist event",
+  "duelWorlds": [
+    "Duel World (DM)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/f/f0/Arkanaishere-Banner.png",
+  "runs": [
+    {
+      "startDate": "2017-07-20",
+      "endDate": "2017-07-26"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Event Details",
+        "Duel Rewards"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "In addition to the following, standard Duel Rewards were also available by Dueling Arkana Level 30 or less."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Dark Magician\"",
+                "cards": [
+                  {
+                    "name": "Dark Magician",
+                    "card": "cf059913-791c-4a39-a210-2a360345c841",
+                    "yugipediaId": 1132
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Dark Eradicator Warlock\", \"Anti-Magic Arrows\", \"Mystic Box\", \"Diffusion Wave-Motion\"",
+                "cards": [
+                  {
+                    "name": "Dark Eradicator Warlock",
+                    "card": "59b75735-3034-4660-8d7f-ce906d03c0a3",
+                    "yugipediaId": 533
+                  },
+                  {
+                    "name": "Anti-Magic Arrows",
+                    "card": "4f233a98-1199-4b82-b585-88373eb1574d",
+                    "yugipediaId": 12275
+                  },
+                  {
+                    "name": "Mystic Box",
+                    "card": "c815882c-7fc4-4a8e-8e66-642193f133b4",
+                    "yugipediaId": 7418
+                  },
+                  {
+                    "name": "Diffusion Wave-Motion",
+                    "card": "401c1607-c270-4d32-ad43-4a971847f615",
+                    "yugipediaId": 576
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"The Stern Mystic\", \"Maniacal Servant\", \"Witch Doctor of Chaos\", \"Thousand Knives\"",
+                "cards": [
+                  {
+                    "name": "The Stern Mystic",
+                    "card": "42705e3d-dd18-4f93-a8f6-6e6f66eb5554",
+                    "yugipediaId": 3146
+                  },
+                  {
+                    "name": "Maniacal Servant",
+                    "card": "26c4d953-22ad-47b3-a355-794ed00a45c9",
+                    "yugipediaId": 32091
+                  },
+                  {
+                    "name": "Witch Doctor of Chaos",
+                    "card": "c542e219-781b-4c4e-8c61-568392e0ec1b",
+                    "yugipediaId": 14584
+                  },
+                  {
+                    "name": "Thousand Knives",
+                    "card": "cccb3496-8848-4f27-87eb-2e0c308de2e8",
+                    "yugipediaId": 18
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Chosen One\"",
+                "cards": [
+                  {
+                    "name": "Chosen One",
+                    "card": "68d0ae2d-c15a-4582-a461-b2288621bca2",
+                    "yugipediaId": 5082
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Event Details",
+        "Event Missions"
+      ],
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against Arkana in Duel World."
+              },
+              {
+                "text": "1 \"Chosen One\"",
+                "cards": [
+                  {
+                    "name": "Chosen One",
+                    "card": "68d0ae2d-c15a-4582-a461-b2288621bca2",
+                    "yugipediaId": 5082,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 3 Duel(s) against Arkana in Duel World."
+              },
+              {
+                "text": "1 \"The Stern Mystic\"",
+                "cards": [
+                  {
+                    "name": "The Stern Mystic",
+                    "card": "42705e3d-dd18-4f93-a8f6-6e6f66eb5554",
+                    "yugipediaId": 3146,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 7 Duel(s) against Arkana in Duel World."
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Play 15 Duel(s) against Arkana in Duel World."
+              },
+              {
+                "text": "1 \"Anti-Magic Arrows\"",
+                "cards": [
+                  {
+                    "name": "Anti-Magic Arrows",
+                    "card": "4f233a98-1199-4b82-b585-88373eb1574d",
+                    "yugipediaId": 12275,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Dark Magician",
+      "card": "cf059913-791c-4a39-a210-2a360345c841",
+      "yugipediaId": 1132,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Dark Eradicator Warlock",
+      "card": "59b75735-3034-4660-8d7f-ce906d03c0a3",
+      "yugipediaId": 533,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Anti-Magic Arrows",
+      "card": "4f233a98-1199-4b82-b585-88373eb1574d",
+      "yugipediaId": 12275,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Play 15 Duel(s) against Arkana in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Mystic Box",
+      "card": "c815882c-7fc4-4a8e-8e66-642193f133b4",
+      "yugipediaId": 7418,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Diffusion Wave-Motion",
+      "card": "401c1607-c270-4d32-ad43-4a971847f615",
+      "yugipediaId": 576,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "The Stern Mystic",
+      "card": "42705e3d-dd18-4f93-a8f6-6e6f66eb5554",
+      "yugipediaId": 3146,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 3 Duel(s) against Arkana in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Maniacal Servant",
+      "card": "26c4d953-22ad-47b3-a355-794ed00a45c9",
+      "yugipediaId": 32091,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Witch Doctor of Chaos",
+      "card": "c542e219-781b-4c4e-8c61-568392e0ec1b",
+      "yugipediaId": 14584,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Thousand Knives",
+      "card": "cccb3496-8848-4f27-87eb-2e0c308de2e8",
+      "yugipediaId": 18,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Chosen One",
+      "card": "68d0ae2d-c15a-4582-a461-b2288621bca2",
+      "yugipediaId": 5082,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 1 Duel(s) against Arkana in Duel World."
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Arkana is here!",
+        "id": 659851
+      }
+    ]
+  }
+}

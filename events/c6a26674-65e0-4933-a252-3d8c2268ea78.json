@@ -1,0 +1,2642 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "c6a26674-65e0-4933-a252-3d8c2268ea78",
+  "name": {
+    "en": "Awaken! Rainbow Dragon!",
+    "fr": "\u00c9veille-toi ! Dragon Arc-en-Ciel !"
+  },
+  "type": "Gate Event",
+  "duelWorlds": [
+    "Duel World (GX)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/6/69/AwakenRainbowDragon-Banner.png",
+  "runs": [
+    {
+      "startDate": "2018-03-28",
+      "endDate": "2018-04-05"
+    },
+    {
+      "startDate": "2018-05-17",
+      "endDate": "2018-05-24"
+    }
+  ],
+  "cardTraderExDates": [
+    {
+      "startDate": "2018-03-28",
+      "endDate": "2018-04-11"
+    },
+    {
+      "startDate": "2018-05-17",
+      "endDate": "2018-05-29"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "cumulativeRewards",
+      "path": [
+        "Rewards",
+        "Cumulative Rewards"
+      ],
+      "notes": [
+        "The following rewards were awarded during this event, based on event points accumulated over the course of the event:"
+      ]
+    },
+    {
+      "kind": "cumulativeRewards",
+      "path": [
+        "Rewards",
+        "Cumulative Rewards"
+      ],
+      "run": "May 2018",
+      "runIndex": 1,
+      "notes": [
+        "Additionally, after obtaining all of the above rewards, the player obtains 50 R Jewels for every additional 500,000 points they earn."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "5000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "10000"
+              },
+              {
+                "text": "5 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "15000"
+              },
+              {
+                "text": "3000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "20000"
+              },
+              {
+                "text": "5 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "25000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "30000"
+              },
+              {
+                "text": "5 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "40000"
+              },
+              {
+                "text": "3000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "50000"
+              },
+              {
+                "text": "5 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "60000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "70000"
+              },
+              {
+                "text": "5 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "80000"
+              },
+              {
+                "text": "4000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "90000"
+              },
+              {
+                "text": "20 Crystal Fruit"
+              }
+            ],
+            [
+              {
+                "text": "100000"
+              },
+              {
+                "text": "1 \"Rainbow Gravity\"",
+                "cards": [
+                  {
+                    "name": "Rainbow Gravity",
+                    "card": "3e4f31bf-d810-4b62-97ac-f003a697b14e",
+                    "yugipediaId": 82295,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "110000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "120000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "130000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "140000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "150000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "160000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "170000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "180000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "190000"
+              },
+              {
+                "text": "20 Crystal Fruits"
+              }
+            ],
+            [
+              {
+                "text": "200000"
+              },
+              {
+                "text": "Unlocks Jesse Anderson"
+              }
+            ],
+            [
+              {
+                "text": "210000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "220000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "230000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "240000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "250000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "260000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "270000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "280000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "290000"
+              },
+              {
+                "text": "30 Crystal Fruits"
+              }
+            ],
+            [
+              {
+                "text": "300000"
+              },
+              {
+                "text": "Card Sleeves: Awaken! Rainbow Dragon!"
+              }
+            ],
+            [
+              {
+                "text": "320000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "340000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "360000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "380000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "400000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "420000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "440000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "460000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "480000"
+              },
+              {
+                "text": "30 Crystal Fruits"
+              }
+            ],
+            [
+              {
+                "text": "500000"
+              },
+              {
+                "text": "1 \"Crystal Beast Topaz Tiger\"",
+                "cards": [
+                  {
+                    "name": "Crystal Beast Topaz Tiger",
+                    "card": "e2ed6cc5-d201-492c-9bcf-e6454fceac1e",
+                    "yugipediaId": 511290,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "540000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "580000"
+              },
+              {
+                "text": "40 Gems"
+              }
+            ],
+            [
+              {
+                "text": "620000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "660000"
+              },
+              {
+                "text": "Game Mat: Awaken! Rainbow Dragon!"
+              }
+            ],
+            [
+              {
+                "text": "700000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "750000"
+              },
+              {
+                "text": "40 Crystal Fruits"
+              }
+            ],
+            [
+              {
+                "text": "800000"
+              },
+              {
+                "text": "Skill: Transcendant Crystals"
+              }
+            ],
+            [
+              {
+                "text": "850000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "900000"
+              },
+              {
+                "text": "40 Gems"
+              }
+            ],
+            [
+              {
+                "text": "950000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1000000"
+              },
+              {
+                "text": "1 UR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "1100000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1200000"
+              },
+              {
+                "text": "1 \"Crystal Promise\"",
+                "cards": [
+                  {
+                    "name": "Crystal Promise",
+                    "card": "55322fdc-aed5-4e85-b8e1-4b19fe20eea9",
+                    "yugipediaId": 21369,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "1300000"
+              },
+              {
+                "text": "10000 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1400000"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1500000"
+              },
+              {
+                "text": "15000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1600000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "1800000"
+              },
+              {
+                "text": "15000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "2000000"
+              },
+              {
+                "text": "1 \"Rare Value\"",
+                "cards": [
+                  {
+                    "name": "Rare Value",
+                    "card": "6ce54cbc-a07b-47a5-8fc7-45bd26745fe4",
+                    "yugipediaId": 20968,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "2200000"
+              },
+              {
+                "text": "2 SR Jewels"
+              }
+            ],
+            [
+              {
+                "text": "2400000"
+              },
+              {
+                "text": "30000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "2600000"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "2800000"
+              },
+              {
+                "text": "1 UR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "3000000"
+              },
+              {
+                "text": "Icon"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "cumulativeRewards",
+      "path": [
+        "Rewards",
+        "Cumulative Rewards"
+      ],
+      "run": "Mar-Apr 2018",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "5000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "10000"
+              },
+              {
+                "text": "5 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "15000"
+              },
+              {
+                "text": "3000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "20000"
+              },
+              {
+                "text": "5 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "25000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "30000"
+              },
+              {
+                "text": "5 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "40000"
+              },
+              {
+                "text": "3000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "50000"
+              },
+              {
+                "text": "5 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "60000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "70000"
+              },
+              {
+                "text": "5 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "80000"
+              },
+              {
+                "text": "4000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "90000"
+              },
+              {
+                "text": "20 Crystal Fruit"
+              }
+            ],
+            [
+              {
+                "text": "100000"
+              },
+              {
+                "text": "1 \"Crystal Beast Cobalt Eagle\"",
+                "cards": [
+                  {
+                    "name": "Crystal Beast Cobalt Eagle",
+                    "card": "08552e09-b492-4fa4-ad8b-d635c3debd2d",
+                    "yugipediaId": 511287,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "110000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "120000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "130000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "140000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "150000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "160000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "170000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "180000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "190000"
+              },
+              {
+                "text": "20 Crystal Fruits"
+              }
+            ],
+            [
+              {
+                "text": "200000"
+              },
+              {
+                "text": "Unlocks Jesse Anderson"
+              }
+            ],
+            [
+              {
+                "text": "210000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "220000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "230000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "240000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "250000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "260000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "270000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "280000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "290000"
+              },
+              {
+                "text": "30 Crystal Fruits"
+              }
+            ],
+            [
+              {
+                "text": "300000"
+              },
+              {
+                "text": "Card Sleeves: Awaken! Rainbow Dragon!"
+              }
+            ],
+            [
+              {
+                "text": "320000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "340000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "360000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "380000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "400000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "420000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "440000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "460000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "480000"
+              },
+              {
+                "text": "30 Crystal Fruits"
+              }
+            ],
+            [
+              {
+                "text": "500000"
+              },
+              {
+                "text": "1 \"Crystal Beast Topaz Tiger\"",
+                "cards": [
+                  {
+                    "name": "Crystal Beast Topaz Tiger",
+                    "card": "e2ed6cc5-d201-492c-9bcf-e6454fceac1e",
+                    "yugipediaId": 511290,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "540000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "580000"
+              },
+              {
+                "text": "40 Gems"
+              }
+            ],
+            [
+              {
+                "text": "620000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "660000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "700000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "750000"
+              },
+              {
+                "text": "40 Crystal Fruits"
+              }
+            ],
+            [
+              {
+                "text": "800000"
+              },
+              {
+                "text": "Game Mat: Awaken! Rainbow Dragon!"
+              }
+            ],
+            [
+              {
+                "text": "850000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "900000"
+              },
+              {
+                "text": "40 Gems"
+              }
+            ],
+            [
+              {
+                "text": "950000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1000000"
+              },
+              {
+                "text": "1 UR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "1100000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1200000"
+              },
+              {
+                "text": "1 \"Crystal Beacon\"",
+                "cards": [
+                  {
+                    "name": "Crystal Beacon",
+                    "card": "e110e5e2-ed85-49a5-93fc-b59fa7f870a9",
+                    "yugipediaId": 20990,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "1300000"
+              },
+              {
+                "text": "10000 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1400000"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1500000"
+              },
+              {
+                "text": "15000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1600000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "1800000"
+              },
+              {
+                "text": "15000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "2000000"
+              },
+              {
+                "text": "1 \"Crystal Beast Sapphire Pegasus\"",
+                "cards": [
+                  {
+                    "name": "Crystal Beast Sapphire Pegasus",
+                    "card": "c7bb63ee-b4e1-4fb4-8884-dc898a15445b",
+                    "yugipediaId": 511289,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "2200000"
+              },
+              {
+                "text": "2 SR Jewels"
+              }
+            ],
+            [
+              {
+                "text": "2400000"
+              },
+              {
+                "text": "30000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "2600000"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "2800000"
+              },
+              {
+                "text": "1 UR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "3000000"
+              },
+              {
+                "text": "Icon"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "cardTraderEx",
+      "path": [
+        "Rewards",
+        "Card Trader EX"
+      ],
+      "notes": [
+        "The Card Trader EX appears during this event. The player can trade their EX Jewels for Gold and cards. Each card can only be obtained once from the Card Trader EX during this event, but the Gold can be obtained any number of times."
+      ]
+    },
+    {
+      "kind": "cardTraderEx",
+      "path": [
+        "Rewards",
+        "Card Trader EX"
+      ],
+      "run": "May 2018",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "EX Jewels",
+            "Item"
+          ],
+          "rows": [
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1"
+              },
+              {
+                "text": "100 Gold"
+              }
+            ],
+            [
+              {
+                "text": "300"
+              },
+              {
+                "text": "1 \"Rare Value\"",
+                "cards": [
+                  {
+                    "name": "Rare Value",
+                    "card": "6ce54cbc-a07b-47a5-8fc7-45bd26745fe4",
+                    "yugipediaId": 20968,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Rainbow Life\"",
+                "cards": [
+                  {
+                    "name": "Rainbow Life",
+                    "card": "ec2041f1-3474-40ef-b71b-e7a6811f7310",
+                    "yugipediaId": 508740,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Crystal Beacon\"",
+                "cards": [
+                  {
+                    "name": "Crystal Beacon",
+                    "card": "e110e5e2-ed85-49a5-93fc-b59fa7f870a9",
+                    "yugipediaId": 20990,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Grapple Blocker\"",
+                "cards": [
+                  {
+                    "name": "Grapple Blocker",
+                    "card": "4e6e2c7c-1c8c-42d9-bec2-994f9338b9cd",
+                    "yugipediaId": 47042,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Fossil Tusker\"",
+                "cards": [
+                  {
+                    "name": "Fossil Tusker",
+                    "card": "f8a724c6-7508-412e-84a7-7c2410ceb435",
+                    "yugipediaId": 539537,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Crystal Blessing\"",
+                "cards": [
+                  {
+                    "name": "Crystal Blessing",
+                    "card": "6638a1c0-e5c5-4f6e-afd8-c31d8f475c18",
+                    "yugipediaId": 20350,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Crystal Beast Cobalt Eagle\"",
+                "cards": [
+                  {
+                    "name": "Crystal Beast Cobalt Eagle",
+                    "card": "08552e09-b492-4fa4-ad8b-d635c3debd2d",
+                    "yugipediaId": 511287,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Triggered Summon\"",
+                "cards": [
+                  {
+                    "name": "Triggered Summon",
+                    "card": "c8610a5c-28a1-47e7-835f-07a5daa3ae2f",
+                    "yugipediaId": 21028,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Rainbow Gravity\"",
+                "cards": [
+                  {
+                    "name": "Rainbow Gravity",
+                    "card": "3e4f31bf-d810-4b62-97ac-f003a697b14e",
+                    "yugipediaId": 82295,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "cardTraderEx",
+      "path": [
+        "Rewards",
+        "Card Trader EX"
+      ],
+      "run": "Mar-Apr 2018",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "EX Jewels",
+            "Item"
+          ],
+          "rows": [
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1"
+              },
+              {
+                "text": "100 Gold"
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Crystal Beast Amber Mammoth\"",
+                "cards": [
+                  {
+                    "name": "Crystal Beast Amber Mammoth",
+                    "card": "1adabed7-2616-4c4c-a3fa-16b487ad2161",
+                    "yugipediaId": 511285,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Phantom Skyblaster\"",
+                "cards": [
+                  {
+                    "name": "Phantom Skyblaster",
+                    "card": "b3c3d9ea-4bd9-41ca-b709-2dd1117a3a3c",
+                    "yugipediaId": 509774,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Onikuji\"",
+                "cards": [
+                  {
+                    "name": "Onikuji",
+                    "card": "3711fa0c-75a0-4ac1-962a-c03b370a13d8",
+                    "yugipediaId": 435848,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Exarion Universe\"",
+                "cards": [
+                  {
+                    "name": "Exarion Universe",
+                    "card": "5699f9ac-48f0-4fcf-9979-e34ac33e73b6",
+                    "yugipediaId": 569,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Anarchist Monk Ranshin\"",
+                "cards": [
+                  {
+                    "name": "Anarchist Monk Ranshin",
+                    "card": "3bee4e08-a16f-4a57-9fa7-0fe432eb7c0f",
+                    "yugipediaId": 130858,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Cyber Dragon Zwei\"",
+                "cards": [
+                  {
+                    "name": "Cyber Dragon Zwei",
+                    "card": "53e02674-7c3e-4ae7-aa73-38bc07fbc5d2",
+                    "yugipediaId": 108249,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Crystal Beast Ruby Carbuncle\"",
+                "cards": [
+                  {
+                    "name": "Crystal Beast Ruby Carbuncle",
+                    "card": "a8ba1be5-17f8-4b89-a197-fa57305ea6be",
+                    "yugipediaId": 511772,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Crystal Beast Amethyst Cat\"",
+                "cards": [
+                  {
+                    "name": "Crystal Beast Amethyst Cat",
+                    "card": "047f23f5-dae0-4ea7-a665-02bbb39add0f",
+                    "yugipediaId": 511288,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Triggered Summon\"",
+                "cards": [
+                  {
+                    "name": "Triggered Summon",
+                    "card": "c8610a5c-28a1-47e7-835f-07a5daa3ae2f",
+                    "yugipediaId": 21028,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Proto-Cyber Dragon\"",
+                "cards": [
+                  {
+                    "name": "Proto-Cyber Dragon",
+                    "card": "18506662-300b-4845-b6e5-83c11f35bef6",
+                    "yugipediaId": 1959,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "notes": [
+        "When Dueling against Jesse Anderson Level 40 or higher (in both regular and Underworld Duels), these are the only cards that can drop; at lower levels, cards from the standard pool for Legendary Duelists may also drop."
+      ]
+    },
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "run": "May 2018",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Rare Value\", \"Crystal Beast Sapphire Pegasus\"",
+                "cards": [
+                  {
+                    "name": "Rare Value",
+                    "card": "6ce54cbc-a07b-47a5-8fc7-45bd26745fe4",
+                    "yugipediaId": 20968
+                  },
+                  {
+                    "name": "Crystal Beast Sapphire Pegasus",
+                    "card": "c7bb63ee-b4e1-4fb4-8884-dc898a15445b",
+                    "yugipediaId": 511289
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Crystal Beast Topaz Tiger\", \"Crystal Beast Amber Mammoth\", \"Crystal Promise\"",
+                "cards": [
+                  {
+                    "name": "Crystal Beast Topaz Tiger",
+                    "card": "e2ed6cc5-d201-492c-9bcf-e6454fceac1e",
+                    "yugipediaId": 511290
+                  },
+                  {
+                    "name": "Crystal Beast Amber Mammoth",
+                    "card": "1adabed7-2616-4c4c-a3fa-16b487ad2161",
+                    "yugipediaId": 511285
+                  },
+                  {
+                    "name": "Crystal Promise",
+                    "card": "55322fdc-aed5-4e85-b8e1-4b19fe20eea9",
+                    "yugipediaId": 21369
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Crystal Beast Cobalt Eagle\", \"Crystal Beast Amethyst Cat\", \"Crystal Beast Ruby Carbuncle\", \"Crystal Tree\", \"Rainbow Gravity\"",
+                "cards": [
+                  {
+                    "name": "Crystal Beast Cobalt Eagle",
+                    "card": "08552e09-b492-4fa4-ad8b-d635c3debd2d",
+                    "yugipediaId": 511287
+                  },
+                  {
+                    "name": "Crystal Beast Amethyst Cat",
+                    "card": "047f23f5-dae0-4ea7-a665-02bbb39add0f",
+                    "yugipediaId": 511288
+                  },
+                  {
+                    "name": "Crystal Beast Ruby Carbuncle",
+                    "card": "a8ba1be5-17f8-4b89-a197-fa57305ea6be",
+                    "yugipediaId": 511772
+                  },
+                  {
+                    "name": "Crystal Tree",
+                    "card": "a524b6f3-3695-47c1-a46a-8dbd7b2607c0",
+                    "yugipediaId": 510775
+                  },
+                  {
+                    "name": "Rainbow Gravity",
+                    "card": "3e4f31bf-d810-4b62-97ac-f003a697b14e",
+                    "yugipediaId": 82295
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "run": "Mar-Apr 2018",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Crystal Beast Sapphire Pegasus\"",
+                "cards": [
+                  {
+                    "name": "Crystal Beast Sapphire Pegasus",
+                    "card": "c7bb63ee-b4e1-4fb4-8884-dc898a15445b",
+                    "yugipediaId": 511289
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Crystal Beast Topaz Tiger\", \"Crystal Beast Amber Mammoth\", \"Crystal Promise\", \"Rainbow Life\"",
+                "cards": [
+                  {
+                    "name": "Crystal Beast Topaz Tiger",
+                    "card": "e2ed6cc5-d201-492c-9bcf-e6454fceac1e",
+                    "yugipediaId": 511290
+                  },
+                  {
+                    "name": "Crystal Beast Amber Mammoth",
+                    "card": "1adabed7-2616-4c4c-a3fa-16b487ad2161",
+                    "yugipediaId": 511285
+                  },
+                  {
+                    "name": "Crystal Promise",
+                    "card": "55322fdc-aed5-4e85-b8e1-4b19fe20eea9",
+                    "yugipediaId": 21369
+                  },
+                  {
+                    "name": "Rainbow Life",
+                    "card": "ec2041f1-3474-40ef-b71b-e7a6811f7310",
+                    "yugipediaId": 508740
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Crystal Beast Cobalt Eagle\", \"Crystal Beast Amethyst Cat\", \"Crystal Beast Ruby Carbuncle\", \"Crystal Tree\", \"Triggered Summon\"",
+                "cards": [
+                  {
+                    "name": "Crystal Beast Cobalt Eagle",
+                    "card": "08552e09-b492-4fa4-ad8b-d635c3debd2d",
+                    "yugipediaId": 511287
+                  },
+                  {
+                    "name": "Crystal Beast Amethyst Cat",
+                    "card": "047f23f5-dae0-4ea7-a665-02bbb39add0f",
+                    "yugipediaId": 511288
+                  },
+                  {
+                    "name": "Crystal Beast Ruby Carbuncle",
+                    "card": "a8ba1be5-17f8-4b89-a197-fa57305ea6be",
+                    "yugipediaId": 511772
+                  },
+                  {
+                    "name": "Crystal Tree",
+                    "card": "a524b6f3-3695-47c1-a46a-8dbd7b2607c0",
+                    "yugipediaId": 510775
+                  },
+                  {
+                    "name": "Triggered Summon",
+                    "card": "c8610a5c-28a1-47e7-835f-07a5daa3ae2f",
+                    "yugipediaId": 21028
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Rewards",
+        "Event Missions"
+      ],
+      "run": "May 2018",
+      "runIndex": 1,
+      "notes": [
+        "On May 21, 2018, the following missions were added:"
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Event Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against Jesse Anderson at Level 10 in Duel World."
+              },
+              {
+                "text": "10 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 1 Duel(s) against Jesse Anderson at Level 20 in Duel World."
+              },
+              {
+                "text": "15 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 1 Duel(s) against Jesse Anderson at Level 30 in Duel World."
+              },
+              {
+                "text": "20 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 1 Duel(s) against Jesse Anderson at Level 40 in Duel World."
+              },
+              {
+                "text": "30 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 15 Duel(s) against Jesse Anderson in Duel World."
+              },
+              {
+                "text": "25 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 30 Duel(s) against Jesse Anderson in Duel World."
+              },
+              {
+                "text": "25 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Play 20 Duel(s) against Jesse Anderson in Duel World (surrenders are not counted.)"
+              },
+              {
+                "text": "50 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Play 40 Duel(s) against Jesse Anderson in Duel World (surrenders are not counted.)"
+              },
+              {
+                "text": "25 EX Jewels"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) with \"Rainbow Dragon\" in your Deck, while playing as Jesse Anderson.",
+                "cards": [
+                  {
+                    "name": "Rainbow Dragon",
+                    "card": "ab6ee7b4-e8f6-4dce-8ffd-b53221a592b3",
+                    "yugipediaId": 510535
+                  }
+                ]
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Summon \"Rainbow Dragon\" 1 time(s) in Duel World."
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Summon \"Rainbow Dragon\" 2 time(s) in Duel World."
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Summon \"Rainbow Dragon\" 3 time(s) in Duel World."
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Reduce your opponent's LP to 0 by inflicting battle damage with \"Rainbow Dragon.\""
+              },
+              {
+                "text": "30 Gems"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Rewards",
+        "Event Missions"
+      ],
+      "run": "Mar-Apr 2018",
+      "runIndex": 0,
+      "notes": [
+        "On April 2, 2018, the following missions were added:"
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Event Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against Jesse Anderson at Level 10 in Duel World."
+              },
+              {
+                "text": "10 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 1 Duel(s) against Jesse Anderson at Level 20 in Duel World."
+              },
+              {
+                "text": "15 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 1 Duel(s) against Jesse Anderson at Level 30 in Duel World."
+              },
+              {
+                "text": "20 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 1 Duel(s) against Jesse Anderson at Level 40 in Duel World."
+              },
+              {
+                "text": "30 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 15 Duel(s) against Jesse Anderson in Duel World."
+              },
+              {
+                "text": "25 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 30 Duel(s) against Jesse Anderson in Duel World."
+              },
+              {
+                "text": "25 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Play 20 Duel(s) against Jesse Anderson in Duel World."
+              },
+              {
+                "text": "50 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Play 40 Duel(s) against Jesse Anderson in Duel World."
+              },
+              {
+                "text": "25 EX Jewels"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) with \"Rainbow Dragon\" in your Deck, while playing as Jesse Anderson.",
+                "cards": [
+                  {
+                    "name": "Rainbow Dragon",
+                    "card": "ab6ee7b4-e8f6-4dce-8ffd-b53221a592b3",
+                    "yugipediaId": 510535
+                  }
+                ]
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Summon \"Rainbow Dragon\" 1 time(s) in PvP."
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Summon \"Rainbow Dragon\" 2 time(s) in PvP."
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Summon \"Rainbow Dragon\" 3 time(s) in PvP."
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Reduce your opponent's LP to 0 by inflicting battle damage with \"Rainbow Dragon.\""
+              },
+              {
+                "text": "30 Gems"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "dailyMissions",
+      "path": [
+        "Rewards",
+        "Event Missions",
+        "Daily Missions"
+      ],
+      "notes": [
+        "There were no Daily Missions in the May 2018 run."
+      ],
+      "tables": [
+        {
+          "caption": "Mar-Apr 2018",
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Play 1 Duel(s) in Ranked Duels (surrenders are not counted.)"
+              },
+              {
+                "text": "10 Crystal Fruits"
+              }
+            ],
+            [
+              {
+                "text": "Play 2 Duel(s) in Ranked Duels (surrenders are not counted.)"
+              },
+              {
+                "text": "10 Crystal Fruits"
+              }
+            ],
+            [
+              {
+                "text": "Play 3 Duel(s) in Ranked Duels (surrenders are not counted.)"
+              },
+              {
+                "text": "10 Crystal Fruits"
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Rainbow Gravity",
+      "card": "3e4f31bf-d810-4b62-97ac-f003a697b14e",
+      "yugipediaId": 82295,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "May 2018",
+          "runIndex": 1,
+          "requirement": "100000"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "May 2018",
+          "runIndex": 1,
+          "requirement": "30"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "May 2018",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Crystal Beast Topaz Tiger",
+      "card": "e2ed6cc5-d201-492c-9bcf-e6454fceac1e",
+      "yugipediaId": 511290,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "May 2018",
+          "runIndex": 1,
+          "requirement": "500000"
+        },
+        {
+          "kind": "cumulativeRewards",
+          "run": "Mar-Apr 2018",
+          "runIndex": 0,
+          "requirement": "500000"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "May 2018",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "Mar-Apr 2018",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Crystal Promise",
+      "card": "55322fdc-aed5-4e85-b8e1-4b19fe20eea9",
+      "yugipediaId": 21369,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "May 2018",
+          "runIndex": 1,
+          "requirement": "1200000"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "May 2018",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "Mar-Apr 2018",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Rare Value",
+      "card": "6ce54cbc-a07b-47a5-8fc7-45bd26745fe4",
+      "yugipediaId": 20968,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "May 2018",
+          "runIndex": 1,
+          "requirement": "2000000"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "May 2018",
+          "runIndex": 1,
+          "requirement": "300"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "May 2018",
+          "runIndex": 1,
+          "requirement": "UR",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Crystal Beast Cobalt Eagle",
+      "card": "08552e09-b492-4fa4-ad8b-d635c3debd2d",
+      "yugipediaId": 511287,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "Mar-Apr 2018",
+          "runIndex": 0,
+          "requirement": "100000"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "May 2018",
+          "runIndex": 1,
+          "requirement": "30"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "May 2018",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "Mar-Apr 2018",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Crystal Beacon",
+      "card": "e110e5e2-ed85-49a5-93fc-b59fa7f870a9",
+      "yugipediaId": 20990,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "Mar-Apr 2018",
+          "runIndex": 0,
+          "requirement": "1200000"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "May 2018",
+          "runIndex": 1,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Crystal Beast Sapphire Pegasus",
+      "card": "c7bb63ee-b4e1-4fb4-8884-dc898a15445b",
+      "yugipediaId": 511289,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "Mar-Apr 2018",
+          "runIndex": 0,
+          "requirement": "2000000"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "May 2018",
+          "runIndex": 1,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "Mar-Apr 2018",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Rainbow Life",
+      "card": "ec2041f1-3474-40ef-b71b-e7a6811f7310",
+      "yugipediaId": 508740,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "run": "May 2018",
+          "runIndex": 1,
+          "requirement": "100"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "Mar-Apr 2018",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Grapple Blocker",
+      "card": "4e6e2c7c-1c8c-42d9-bec2-994f9338b9cd",
+      "yugipediaId": 47042,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "run": "May 2018",
+          "runIndex": 1,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Fossil Tusker",
+      "card": "f8a724c6-7508-412e-84a7-7c2410ceb435",
+      "yugipediaId": 539537,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "run": "May 2018",
+          "runIndex": 1,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Crystal Blessing",
+      "card": "6638a1c0-e5c5-4f6e-afd8-c31d8f475c18",
+      "yugipediaId": 20350,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "run": "May 2018",
+          "runIndex": 1,
+          "requirement": "30"
+        }
+      ]
+    },
+    {
+      "name": "Triggered Summon",
+      "card": "c8610a5c-28a1-47e7-835f-07a5daa3ae2f",
+      "yugipediaId": 21028,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "run": "May 2018",
+          "runIndex": 1,
+          "requirement": "30"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Mar-Apr 2018",
+          "runIndex": 0,
+          "requirement": "30"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "Mar-Apr 2018",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Crystal Beast Amber Mammoth",
+      "card": "1adabed7-2616-4c4c-a3fa-16b487ad2161",
+      "yugipediaId": 511285,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "run": "Mar-Apr 2018",
+          "runIndex": 0,
+          "requirement": "100"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "May 2018",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "Mar-Apr 2018",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Phantom Skyblaster",
+      "card": "b3c3d9ea-4bd9-41ca-b709-2dd1117a3a3c",
+      "yugipediaId": 509774,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "run": "Mar-Apr 2018",
+          "runIndex": 0,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Onikuji",
+      "card": "3711fa0c-75a0-4ac1-962a-c03b370a13d8",
+      "yugipediaId": 435848,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "run": "Mar-Apr 2018",
+          "runIndex": 0,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Exarion Universe",
+      "card": "5699f9ac-48f0-4fcf-9979-e34ac33e73b6",
+      "yugipediaId": 569,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "run": "Mar-Apr 2018",
+          "runIndex": 0,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Anarchist Monk Ranshin",
+      "card": "3bee4e08-a16f-4a57-9fa7-0fe432eb7c0f",
+      "yugipediaId": 130858,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "run": "Mar-Apr 2018",
+          "runIndex": 0,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Cyber Dragon Zwei",
+      "card": "53e02674-7c3e-4ae7-aa73-38bc07fbc5d2",
+      "yugipediaId": 108249,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "run": "Mar-Apr 2018",
+          "runIndex": 0,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Crystal Beast Ruby Carbuncle",
+      "card": "a8ba1be5-17f8-4b89-a197-fa57305ea6be",
+      "yugipediaId": 511772,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "run": "Mar-Apr 2018",
+          "runIndex": 0,
+          "requirement": "30"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "May 2018",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "Mar-Apr 2018",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Crystal Beast Amethyst Cat",
+      "card": "047f23f5-dae0-4ea7-a665-02bbb39add0f",
+      "yugipediaId": 511288,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "run": "Mar-Apr 2018",
+          "runIndex": 0,
+          "requirement": "30"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "May 2018",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "Mar-Apr 2018",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Proto-Cyber Dragon",
+      "card": "18506662-300b-4845-b6e5-83c11f35bef6",
+      "yugipediaId": 1959,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "run": "Mar-Apr 2018",
+          "runIndex": 0,
+          "requirement": "30"
+        }
+      ]
+    },
+    {
+      "name": "Crystal Tree",
+      "card": "a524b6f3-3695-47c1-a46a-8dbd7b2607c0",
+      "yugipediaId": 510775,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "May 2018",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "Mar-Apr 2018",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Rainbow Dragon",
+      "card": "ab6ee7b4-e8f6-4dce-8ffd-b53221a592b3",
+      "yugipediaId": 510535,
+      "obtainedVia": [
+        {
+          "kind": "missions",
+          "run": "May 2018",
+          "runIndex": 1
+        },
+        {
+          "kind": "missions",
+          "run": "Mar-Apr 2018",
+          "runIndex": 0
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Awaken! Rainbow Dragon!",
+        "id": 556360
+      }
+    ]
+  }
+}

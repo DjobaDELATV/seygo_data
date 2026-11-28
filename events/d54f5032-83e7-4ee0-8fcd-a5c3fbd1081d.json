@@ -1,0 +1,2754 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "d54f5032-83e7-4ee0-8fcd-a5c3fbd1081d",
+  "name": {
+    "en": "Destiny At Hand: Varis"
+  },
+  "type": "Gate Event",
+  "duelWorlds": [
+    "Duel World (VRAINS)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/f/f3/DestinyatHandVaris-Banner.png",
+  "runs": [
+    {
+      "startDate": "2023-01-26",
+      "endDate": "2023-02-07"
+    },
+    {
+      "startDate": "2023-04-17",
+      "endDate": "2023-04-27"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "run": "April 2023",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Magical Cylinders\", \"Borreload Furious Dragon\"",
+                "cards": [
+                  {
+                    "name": "Magical Cylinders",
+                    "card": "e77a4f64-dddb-4040-a6e8-8ae6f2f0fde8",
+                    "yugipediaId": 715702
+                  },
+                  {
+                    "name": "Borreload Furious Dragon",
+                    "card": "8e644430-2494-48d7-b3ac-b2f6aa877a68",
+                    "yugipediaId": 607505
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Autorokket Dragon\", \"Silverrokket Dragon\", \"Leng Ling\"",
+                "cards": [
+                  {
+                    "name": "Autorokket Dragon",
+                    "card": "da31ed91-c53d-4a6b-9172-57a4c8d7d46e",
+                    "yugipediaId": 497926
+                  },
+                  {
+                    "name": "Silverrokket Dragon",
+                    "card": "19d818ef-5238-400e-ad84-f26cd207c31a",
+                    "yugipediaId": 623875
+                  },
+                  {
+                    "name": "Leng Ling",
+                    "card": "bb27decd-eef8-46e3-a0db-efb404b7d95b",
+                    "yugipediaId": 519538
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Lava Dragon\", \"Divine Dragon Ragnarok\", \"Magna Drago\", \"Dragoncarnation\"",
+                "cards": [
+                  {
+                    "name": "Lava Dragon",
+                    "card": "09f70f7d-2736-47f2-943e-626f1edef978",
+                    "yugipediaId": 59006
+                  },
+                  {
+                    "name": "Divine Dragon Ragnarok",
+                    "card": "baee618d-ccc3-4fc9-b36d-9578c5c33b67",
+                    "yugipediaId": 4870
+                  },
+                  {
+                    "name": "Magna Drago",
+                    "card": "0a93fac7-9f66-45c2-a83f-11b7a7a012dc",
+                    "yugipediaId": 86642
+                  },
+                  {
+                    "name": "Dragoncarnation",
+                    "card": "6f6fda77-2b3d-47cd-873d-8f3443aeabb7",
+                    "yugipediaId": 267873
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"D. Tribe\"",
+                "cards": [
+                  {
+                    "name": "D. Tribe",
+                    "card": "7ed4dc81-0d6a-4d14-9858-5e03785759da",
+                    "yugipediaId": 7996
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "run": "January 2023",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Borreload Furious Dragon\"",
+                "cards": [
+                  {
+                    "name": "Borreload Furious Dragon",
+                    "card": "8e644430-2494-48d7-b3ac-b2f6aa877a68",
+                    "yugipediaId": 607505
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Silverrokket Dragon\", \"Divine Dragon Apocralyph\", \"Leng Ling\", \"A Wingbeat of Giant Dragon\"",
+                "cards": [
+                  {
+                    "name": "Silverrokket Dragon",
+                    "card": "19d818ef-5238-400e-ad84-f26cd207c31a",
+                    "yugipediaId": 623875
+                  },
+                  {
+                    "name": "Divine Dragon Apocralyph",
+                    "card": "7fb57883-8f72-4f52-92a7-f9341f806c54",
+                    "yugipediaId": 194088
+                  },
+                  {
+                    "name": "Leng Ling",
+                    "card": "bb27decd-eef8-46e3-a0db-efb404b7d95b",
+                    "yugipediaId": 519538
+                  },
+                  {
+                    "name": "A Wingbeat of Giant Dragon",
+                    "card": "e12e4c54-1ec0-45c8-b58d-0622f3207802",
+                    "yugipediaId": 9581
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Lava Dragon\", \"Divine Dragon Ragnarok\", \"Magna Drago\", \"Dragoncarnation\"",
+                "cards": [
+                  {
+                    "name": "Lava Dragon",
+                    "card": "09f70f7d-2736-47f2-943e-626f1edef978",
+                    "yugipediaId": 59006
+                  },
+                  {
+                    "name": "Divine Dragon Ragnarok",
+                    "card": "baee618d-ccc3-4fc9-b36d-9578c5c33b67",
+                    "yugipediaId": 4870
+                  },
+                  {
+                    "name": "Magna Drago",
+                    "card": "0a93fac7-9f66-45c2-a83f-11b7a7a012dc",
+                    "yugipediaId": 86642
+                  },
+                  {
+                    "name": "Dragoncarnation",
+                    "card": "6f6fda77-2b3d-47cd-873d-8f3443aeabb7",
+                    "yugipediaId": 267873
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"D. Tribe\"",
+                "cards": [
+                  {
+                    "name": "D. Tribe",
+                    "card": "7ed4dc81-0d6a-4d14-9858-5e03785759da",
+                    "yugipediaId": 7996
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "decks": [
+    {
+      "path": [
+        "Decks",
+        "Event-exclusive"
+      ],
+      "cards": [
+        {
+          "name": "Magnarokket Dragon",
+          "card": "a9f238df-00d2-4254-868e-49d7de8e170e",
+          "yugipediaId": 497927,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Metalrokket Dragon",
+          "card": "6769ad93-cdc6-462a-b748-029d626e1cb0",
+          "yugipediaId": 532119,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Shelrokket Dragon",
+          "card": "e475ca9c-88fb-425b-9727-3e9a6e66719d",
+          "yugipediaId": 526163,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Silverrokket Dragon",
+          "card": "19d818ef-5238-400e-ad84-f26cd207c31a",
+          "yugipediaId": 623875,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Rokket Tracer",
+          "card": "2863e1f0-608e-4208-98ea-a2af64eb95a4",
+          "yugipediaId": 627188,
+          "count": 1,
+          "category": "tuner monsters"
+        },
+        {
+          "name": "Borreload Furious Dragon",
+          "card": "8e644430-2494-48d7-b3ac-b2f6aa877a68",
+          "yugipediaId": 607505,
+          "count": 2,
+          "category": "fusion monsters"
+        },
+        {
+          "name": "Booster Dragon",
+          "card": "e25d5ac0-92a0-45a9-853f-2c4cea210214",
+          "yugipediaId": 546921,
+          "count": 1,
+          "category": "link monsters"
+        },
+        {
+          "name": "Borreload Dragon",
+          "card": "3f9c5e43-5bae-4b38-bf81-e23154099b44",
+          "yugipediaId": 497910,
+          "count": 1,
+          "category": "link monsters"
+        },
+        {
+          "name": "Dillingerous Dragon",
+          "card": "48946b56-10bd-42f3-b4d0-f0d2ef98b376",
+          "yugipediaId": 585428,
+          "count": 1,
+          "category": "link monsters"
+        },
+        {
+          "name": "Quadborrel Dragon",
+          "card": "48fe550f-80d0-4840-ae65-e0e7e8e1e979",
+          "yugipediaId": 607511,
+          "count": 1,
+          "category": "link monsters"
+        },
+        {
+          "name": "Boot Sector Launch",
+          "card": "2a6a246d-4b40-4f75-8092-69ccb32b65e3",
+          "yugipediaId": 452967,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Quick Launch",
+          "card": "dad49240-aec6-4082-95d6-58530657cbc0",
+          "yugipediaId": 519492,
+          "count": 3,
+          "category": "spells"
+        },
+        {
+          "name": "Rapid Trigger",
+          "card": "27910b70-8897-417f-b437-c8cc6382655b",
+          "yugipediaId": 607517,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Back to the Front",
+          "card": "9288242d-e0b0-44aa-b3b3-ef76dd4682e5",
+          "yugipediaId": 479331,
+          "count": 2,
+          "category": "traps"
+        },
+        {
+          "name": "Mirror Force",
+          "card": "c85b2fcb-22da-411b-8c92-b426c5bcc41b",
+          "yugipediaId": 394,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Varis",
+        "Level 10"
+      ],
+      "cards": [
+        {
+          "name": "Lizard Soldier",
+          "card": "be99b4b8-9b73-42f2-83a1-fd3ceb81c102",
+          "yugipediaId": 8431,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Mikazukinoyaiba",
+          "card": "f8e06764-0903-47fd-b39a-0608734d68c0",
+          "yugipediaId": 9776,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Defrag Dragon",
+          "card": "2330f9c4-ee20-44de-9195-4a876cde78f5",
+          "yugipediaId": 546368,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Hack Worm",
+          "card": "d5a50b7a-02ad-4d6f-8a6d-ccfcd8a88019",
+          "yugipediaId": 492055,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Overflow Dragon",
+          "card": "bba9bde1-7bcb-403d-adf9-f969d5a1c479",
+          "yugipediaId": 585426,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Sniffer Dragon",
+          "card": "e68d170f-1978-4d17-83fc-4a393caf4e3d",
+          "yugipediaId": 497916,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Triggering Wurm",
+          "card": "141ac213-75ed-4577-a1b4-0484749ea576",
+          "yugipediaId": 559727,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Volcanic Shell",
+          "card": "3537991b-e82a-485c-bdc0-2f745943c2a0",
+          "yugipediaId": 20901,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Vorticular Drumgon",
+          "card": "49152262-e976-4ad6-937f-d823c3393892",
+          "yugipediaId": 557277,
+          "count": 1,
+          "category": "link monsters"
+        },
+        {
+          "name": "Cracking",
+          "card": "4166b548-130d-4c4b-875a-5c6ebb3896bd",
+          "yugipediaId": 174839,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Draconnection",
+          "card": "214fe02f-3192-4e4a-92be-c39c27cbbfa0",
+          "yugipediaId": 199783,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Dragon Ravine",
+          "card": "21f5daa0-67f0-41e2-ad01-8e5d896e43a8",
+          "yugipediaId": 132642,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "D. Tribe",
+          "card": "7ed4dc81-0d6a-4d14-9858-5e03785759da",
+          "yugipediaId": 7996,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Dragon's Rage",
+          "card": "fcd788ee-4faa-46de-a0bf-a020257a227f",
+          "yugipediaId": 9842,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Varis",
+        "Level 20"
+      ],
+      "cards": [
+        {
+          "name": "Serpent Night Dragon",
+          "card": "be409524-28d6-4d7c-b584-412f8dab8937",
+          "yugipediaId": 7945,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Ancient Dragon",
+          "card": "f1059030-112a-4be0-8cb0-c2604ae3e4b3",
+          "yugipediaId": 203730,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Background Dragon",
+          "card": "5da7e725-fbc9-42d9-a504-541abc57c0c2",
+          "yugipediaId": 546369,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Defrag Dragon",
+          "card": "2330f9c4-ee20-44de-9195-4a876cde78f5",
+          "yugipediaId": 546368,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Divine Dragon Apocralyph",
+          "card": "7fb57883-8f72-4f52-92a7-f9341f806c54",
+          "yugipediaId": 194088,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gray Wing",
+          "card": "d5a19b84-d142-46a2-ab24-0c592ac561a4",
+          "yugipediaId": 9502,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Hack Worm",
+          "card": "d5a50b7a-02ad-4d6f-8a6d-ccfcd8a88019",
+          "yugipediaId": 492055,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Hibernation Dragon",
+          "card": "22fe630c-76d6-4402-bd53-85c377141a6a",
+          "yugipediaId": 559728,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Overflow Dragon",
+          "card": "bba9bde1-7bcb-403d-adf9-f969d5a1c479",
+          "yugipediaId": 585426,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Sniffer Dragon",
+          "card": "e68d170f-1978-4d17-83fc-4a393caf4e3d",
+          "yugipediaId": 497916,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Triggering Wurm",
+          "card": "141ac213-75ed-4577-a1b4-0484749ea576",
+          "yugipediaId": 559727,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Twin Triangle Dragon",
+          "card": "3f9d0a1b-88b9-4731-ba61-433d756ee81e",
+          "yugipediaId": 497932,
+          "count": 1,
+          "category": "link monsters"
+        },
+        {
+          "name": "Vorticular Drumgon",
+          "card": "49152262-e976-4ad6-937f-d823c3393892",
+          "yugipediaId": 557277,
+          "count": 1,
+          "category": "link monsters"
+        },
+        {
+          "name": "Dragon Shrine",
+          "card": "d7fd2f45-e752-42e5-bc24-78fd2faa78df",
+          "yugipediaId": 278347,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Dragon Treasure",
+          "card": "7347fdb9-4df8-4c17-be5f-9c9f68db1eef",
+          "yugipediaId": 506395,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "D. Tribe",
+          "card": "7ed4dc81-0d6a-4d14-9858-5e03785759da",
+          "yugipediaId": 7996,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Dragon's Rage",
+          "card": "fcd788ee-4faa-46de-a0bf-a020257a227f",
+          "yugipediaId": 9842,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Dragon's Rebirth",
+          "card": "f3ec97c6-12d1-4f1f-b276-5459b2c4e4c1",
+          "yugipediaId": 178240,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Painful Escape",
+          "card": "f2b9afd6-59a7-4e18-846b-6e862ea29bc7",
+          "yugipediaId": 361452,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Varis",
+        "Level 30"
+      ],
+      "cards": [
+        {
+          "name": "Divine Dragon Ragnarok",
+          "card": "baee618d-ccc3-4fc9-b36d-9578c5c33b67",
+          "yugipediaId": 4870,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Koumori Dragon",
+          "card": "5ec341d4-a41a-4406-9c9b-b8d2547f38bd",
+          "yugipediaId": 4114,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Wattaildragon",
+          "card": "b8f31abb-eb45-45a7-a4d7-6d0848b765be",
+          "yugipediaId": 210889,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Autorokket Dragon",
+          "card": "da31ed91-c53d-4a6b-9172-57a4c8d7d46e",
+          "yugipediaId": 497926,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Background Dragon",
+          "card": "5da7e725-fbc9-42d9-a504-541abc57c0c2",
+          "yugipediaId": 546369,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gateway Dragon",
+          "card": "09f7b825-1fcb-4ef8-9607-ce432083a583",
+          "yugipediaId": 497917,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Hibernation Dragon",
+          "card": "22fe630c-76d6-4402-bd53-85c377141a6a",
+          "yugipediaId": 559728,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Metalrokket Dragon",
+          "card": "6769ad93-cdc6-462a-b748-029d626e1cb0",
+          "yugipediaId": 532119,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Mirage Dragon",
+          "card": "a0c5865c-fa70-403e-9c10-4369a74d6062",
+          "yugipediaId": 41,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Overflow Dragon",
+          "card": "bba9bde1-7bcb-403d-adf9-f969d5a1c479",
+          "yugipediaId": 585426,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Triggering Wurm",
+          "card": "141ac213-75ed-4577-a1b4-0484749ea576",
+          "yugipediaId": 559727,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Booster Dragon",
+          "card": "e25d5ac0-92a0-45a9-853f-2c4cea210214",
+          "yugipediaId": 546921,
+          "count": 1,
+          "category": "link monsters"
+        },
+        {
+          "name": "Triple Burst Dragon",
+          "card": "03788200-abcb-494a-8a14-a2ab6e27e308",
+          "yugipediaId": 448744,
+          "count": 1,
+          "category": "link monsters"
+        },
+        {
+          "name": "Vorticular Drumgon",
+          "card": "49152262-e976-4ad6-937f-d823c3393892",
+          "yugipediaId": 557277,
+          "count": 1,
+          "category": "link monsters"
+        },
+        {
+          "name": "Dragon Shrine",
+          "card": "d7fd2f45-e752-42e5-bc24-78fd2faa78df",
+          "yugipediaId": 278347,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Squib Draw",
+          "card": "6ec69a42-c55b-45bb-b3b5-cd1c6053bfe3",
+          "yugipediaId": 497940,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Birthright",
+          "card": "9fbd372c-4450-4f47-9f18-ac26f907e776",
+          "yugipediaId": 22054,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Link Turret",
+          "card": "9f5e7d43-ade8-4531-b818-55a650d6f635",
+          "yugipediaId": 556370,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Tactical Exchanger",
+          "card": "0e0fcfbe-2435-417b-ac8f-d752456999af",
+          "yugipediaId": 546394,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Varis",
+        "Level 40"
+      ],
+      "cards": [
+        {
+          "name": "Anesthrokket Dragon",
+          "card": "bb489af8-51ac-4f0c-be43-3927f713d737",
+          "yugipediaId": 497924,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Autorokket Dragon",
+          "card": "da31ed91-c53d-4a6b-9172-57a4c8d7d46e",
+          "yugipediaId": 497926,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Background Dragon",
+          "card": "5da7e725-fbc9-42d9-a504-541abc57c0c2",
+          "yugipediaId": 546369,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "DMZ Dragon",
+          "card": "d9bd1a02-df05-4c5c-a33e-786b7a4adda8",
+          "yugipediaId": 598313,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Exploderokket Dragon",
+          "card": "9f905a8e-2b4e-457a-8ca7-a9cefc0461ff",
+          "yugipediaId": 631106,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gateway Dragon",
+          "card": "09f7b825-1fcb-4ef8-9607-ce432083a583",
+          "yugipediaId": 497917,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Hibernation Dragon",
+          "card": "22fe630c-76d6-4402-bd53-85c377141a6a",
+          "yugipediaId": 559728,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Magnarokket Dragon",
+          "card": "a9f238df-00d2-4254-868e-49d7de8e170e",
+          "yugipediaId": 497927,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Metalrokket Dragon",
+          "card": "6769ad93-cdc6-462a-b748-029d626e1cb0",
+          "yugipediaId": 532119,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Overflow Dragon",
+          "card": "bba9bde1-7bcb-403d-adf9-f969d5a1c479",
+          "yugipediaId": 585426,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Shelrokket Dragon",
+          "card": "e475ca9c-88fb-425b-9727-3e9a6e66719d",
+          "yugipediaId": 526163,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Triggering Wurm",
+          "card": "141ac213-75ed-4577-a1b4-0484749ea576",
+          "yugipediaId": 559727,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Borreload Dragon",
+          "card": "3f9c5e43-5bae-4b38-bf81-e23154099b44",
+          "yugipediaId": 497910,
+          "count": 1,
+          "category": "link monsters"
+        },
+        {
+          "name": "Vorticular Drumgon",
+          "card": "49152262-e976-4ad6-937f-d823c3393892",
+          "yugipediaId": 557277,
+          "count": 1,
+          "category": "link monsters"
+        },
+        {
+          "name": "Dragon Shrine",
+          "card": "d7fd2f45-e752-42e5-bc24-78fd2faa78df",
+          "yugipediaId": 278347,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Squib Draw",
+          "card": "6ec69a42-c55b-45bb-b3b5-cd1c6053bfe3",
+          "yugipediaId": 497940,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Link Turret",
+          "card": "9f5e7d43-ade8-4531-b818-55a650d6f635",
+          "yugipediaId": 556370,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Tactical Exchanger",
+          "card": "0e0fcfbe-2435-417b-ac8f-d752456999af",
+          "yugipediaId": 546394,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Indomitable Varis",
+        "Level 60"
+      ],
+      "cards": [
+        {
+          "name": "Absorouter Dragon",
+          "card": "1dd1b906-8cac-4357-9f18-5114c3b889be",
+          "yugipediaId": 631107,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Anesthrokket Dragon",
+          "card": "bb489af8-51ac-4f0c-be43-3927f713d737",
+          "yugipediaId": 497924,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Autorokket Dragon",
+          "card": "da31ed91-c53d-4a6b-9172-57a4c8d7d46e",
+          "yugipediaId": 497926,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Background Dragon",
+          "card": "5da7e725-fbc9-42d9-a504-541abc57c0c2",
+          "yugipediaId": 546369,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "DMZ Dragon",
+          "card": "d9bd1a02-df05-4c5c-a33e-786b7a4adda8",
+          "yugipediaId": 598313,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Exploderokket Dragon",
+          "card": "9f905a8e-2b4e-457a-8ca7-a9cefc0461ff",
+          "yugipediaId": 631106,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gateway Dragon",
+          "card": "09f7b825-1fcb-4ef8-9607-ce432083a583",
+          "yugipediaId": 497917,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Hibernation Dragon",
+          "card": "22fe630c-76d6-4402-bd53-85c377141a6a",
+          "yugipediaId": 559728,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Magnarokket Dragon",
+          "card": "a9f238df-00d2-4254-868e-49d7de8e170e",
+          "yugipediaId": 497927,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Metalrokket Dragon",
+          "card": "6769ad93-cdc6-462a-b748-029d626e1cb0",
+          "yugipediaId": 532119,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Overflow Dragon",
+          "card": "bba9bde1-7bcb-403d-adf9-f969d5a1c479",
+          "yugipediaId": 585426,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Shelrokket Dragon",
+          "card": "e475ca9c-88fb-425b-9727-3e9a6e66719d",
+          "yugipediaId": 526163,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Triggering Wurm",
+          "card": "141ac213-75ed-4577-a1b4-0484749ea576",
+          "yugipediaId": 559727,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Borreload Dragon",
+          "card": "3f9c5e43-5bae-4b38-bf81-e23154099b44",
+          "yugipediaId": 497910,
+          "count": 1,
+          "category": "link monsters"
+        },
+        {
+          "name": "Vorticular Drumgon",
+          "card": "49152262-e976-4ad6-937f-d823c3393892",
+          "yugipediaId": 557277,
+          "count": 1,
+          "category": "link monsters"
+        },
+        {
+          "name": "Quick Launch",
+          "card": "dad49240-aec6-4082-95d6-58530657cbc0",
+          "yugipediaId": 519492,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Squib Draw",
+          "card": "6ec69a42-c55b-45bb-b3b5-cd1c6053bfe3",
+          "yugipediaId": 497940,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Link Turret",
+          "card": "9f5e7d43-ade8-4531-b818-55a650d6f635",
+          "yugipediaId": 556370,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Tactical Exchanger",
+          "card": "0e0fcfbe-2435-417b-ac8f-d752456999af",
+          "yugipediaId": 546394,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Blue Angel",
+        "Level 20"
+      ],
+      "cards": [
+        {
+          "name": "Happy Lover",
+          "card": "f0211baa-dc8b-472f-a225-c57c419468bc",
+          "yugipediaId": 6593,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Muse-A",
+          "card": "1114949c-1f24-4b97-8a96-75f3e20ed4ca",
+          "yugipediaId": 9262,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Tenderness",
+          "card": "97752ee1-365f-4c17-a380-af392d1d1a25",
+          "yugipediaId": 19093,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Trickstar Mandrake",
+          "card": "bd179efb-e0e4-429c-87c1-1991bc2eb6bc",
+          "yugipediaId": 544656,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Trickstar Nightshade",
+          "card": "8d814a5e-f9b9-475d-8c1f-a52c79e7aa56",
+          "yugipediaId": 544654,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Trickstar Bloom",
+          "card": "45666137-3436-4937-9b5e-5e0475518683",
+          "yugipediaId": 546371,
+          "count": 1,
+          "category": "link monsters"
+        },
+        {
+          "name": "Trickstar Divaridis",
+          "card": "08b511ce-ecbc-4a2d-b03e-62b3f9617250",
+          "yugipediaId": 577155,
+          "count": 1,
+          "category": "link monsters"
+        },
+        {
+          "name": "Blue Medicine",
+          "card": "7a640df9-d311-4883-9ba6-028fd7dd527e",
+          "yugipediaId": 7250,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Trickstar Bouquet",
+          "card": "4b1d8c7b-8453-496b-bdd0-5fe89c7f9a41",
+          "yugipediaId": 548731,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Beckoning Light",
+          "card": "dafc938a-0ea2-4d9a-8816-cb5f151c2b77",
+          "yugipediaId": 17197,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Graceful Tear",
+          "card": "1162ff59-18ff-4dc4-bcea-52c3a925b904",
+          "yugipediaId": 399901,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Ray of Hope",
+          "card": "ea60affc-7bce-4be0-817c-7aceb83a5461",
+          "yugipediaId": 14532,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Blue Angel",
+        "Level 30"
+      ],
+      "cards": [
+        {
+          "name": "Cupid Volley",
+          "card": "4d21d0f0-6d73-4e2e-a01d-530d2934e0f9",
+          "yugipediaId": 557289,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Hoshiningen",
+          "card": "9f6ff94e-6ea5-4c95-ab81-943c7cfbf026",
+          "yugipediaId": 6206,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Iris, the Earth Mother",
+          "card": "7ddafe34-8751-415e-bd97-172453be1157",
+          "yugipediaId": 18467,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Skelengel",
+          "card": "8b7cc560-df0e-495f-a343-4a0876a34fd6",
+          "yugipediaId": 2819,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Trickstar Mandrake",
+          "card": "bd179efb-e0e4-429c-87c1-1991bc2eb6bc",
+          "yugipediaId": 544656,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Trickstar Nightshade",
+          "card": "8d814a5e-f9b9-475d-8c1f-a52c79e7aa56",
+          "yugipediaId": 544654,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Trickstar Bloom",
+          "card": "45666137-3436-4937-9b5e-5e0475518683",
+          "yugipediaId": 546371,
+          "count": 1,
+          "category": "link monsters"
+        },
+        {
+          "name": "Trickstar Divaridis",
+          "card": "08b511ce-ecbc-4a2d-b03e-62b3f9617250",
+          "yugipediaId": 577155,
+          "count": 1,
+          "category": "link monsters"
+        },
+        {
+          "name": "Trickstar Foxglove Witch",
+          "card": "8e175742-9d79-4964-a3e3-3730647e8397",
+          "yugipediaId": 546391,
+          "count": 1,
+          "category": "link monsters"
+        },
+        {
+          "name": "Blue Medicine",
+          "card": "7a640df9-d311-4883-9ba6-028fd7dd527e",
+          "yugipediaId": 7250,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Silver Bow and Arrow",
+          "card": "81c5593c-8016-4e8f-bde0-73a07efea492",
+          "yugipediaId": 506365,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Trickstar Bouquet",
+          "card": "4b1d8c7b-8453-496b-bdd0-5fe89c7f9a41",
+          "yugipediaId": 548731,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Trickstar Live Stage",
+          "card": "260b1a31-5ce5-448f-8ee5-a403966ade23",
+          "yugipediaId": 577158,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Trickstar Magical Laurel",
+          "card": "efc32683-8c69-4372-b39f-b8861ff5bd7e",
+          "yugipediaId": 546392,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Numinous Healer",
+          "card": "0bcb0cc8-8035-4ae5-91d3-584bdd11b09d",
+          "yugipediaId": 5456,
+          "count": 2,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Blue Angel",
+        "Level 40"
+      ],
+      "cards": [
+        {
+          "name": "Hoshiningen",
+          "card": "9f6ff94e-6ea5-4c95-ab81-943c7cfbf026",
+          "yugipediaId": 6206,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Lucky Pied Piper",
+          "card": "ae67b1bb-0533-4d9e-8d86-1c71c032986a",
+          "yugipediaId": 511441,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Trickstar Lycoris",
+          "card": "02e533f8-b99f-4f77-bac7-290735b2469f",
+          "yugipediaId": 490547,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Trickstar Mandrake",
+          "card": "bd179efb-e0e4-429c-87c1-1991bc2eb6bc",
+          "yugipediaId": 544656,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Trickstar Narkissus",
+          "card": "b7c3f631-8775-44e1-8940-0a7854c17f96",
+          "yugipediaId": 519566,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Trickstar Nightshade",
+          "card": "8d814a5e-f9b9-475d-8c1f-a52c79e7aa56",
+          "yugipediaId": 544654,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Trickstar Bloom",
+          "card": "45666137-3436-4937-9b5e-5e0475518683",
+          "yugipediaId": 546371,
+          "count": 1,
+          "category": "link monsters"
+        },
+        {
+          "name": "Trickstar Crimson Heart",
+          "card": "077532e9-db06-49b0-9380-b49654d44afd",
+          "yugipediaId": 548758,
+          "count": 1,
+          "category": "link monsters"
+        },
+        {
+          "name": "Trickstar Divaridis",
+          "card": "08b511ce-ecbc-4a2d-b03e-62b3f9617250",
+          "yugipediaId": 577155,
+          "count": 1,
+          "category": "link monsters"
+        },
+        {
+          "name": "Trickstar Foxglove Witch",
+          "card": "8e175742-9d79-4964-a3e3-3730647e8397",
+          "yugipediaId": 546391,
+          "count": 1,
+          "category": "link monsters"
+        },
+        {
+          "name": "Trickstar Holly Angel",
+          "card": "ded7f530-c103-4186-9848-2869da89ba1a",
+          "yugipediaId": 480268,
+          "count": 1,
+          "category": "link monsters"
+        },
+        {
+          "name": "Trickstar Bouquet",
+          "card": "4b1d8c7b-8453-496b-bdd0-5fe89c7f9a41",
+          "yugipediaId": 548731,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Trickstar Festival",
+          "card": "911a51bf-4b5b-40a6-b8c3-60b31591fc72",
+          "yugipediaId": 657938,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Trickstar Live Stage",
+          "card": "260b1a31-5ce5-448f-8ee5-a403966ade23",
+          "yugipediaId": 577158,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Numinous Healer",
+          "card": "0bcb0cc8-8035-4ae5-91d3-584bdd11b09d",
+          "yugipediaId": 5456,
+          "count": 2,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "The Gore",
+        "Level 20"
+      ],
+      "cards": [
+        {
+          "name": "Battle Warrior",
+          "card": "957bebe9-0ad7-4ebb-95ab-172574eb7cdd",
+          "yugipediaId": 6428,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "M-Warrior #1",
+          "card": "bffe8f9f-0fd3-4ad6-8497-5349b2c2dcaa",
+          "yugipediaId": 507102,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "M-Warrior #2",
+          "card": "7d85a5a4-1dfd-492f-ad10-7a82abfb5d1c",
+          "yugipediaId": 507132,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Gouki Iron Claw",
+          "card": "ee5791e4-24bd-491e-8152-5159e6033ee0",
+          "yugipediaId": 707543,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gouki Octostretch",
+          "card": "a2ddb6ee-0824-426e-8547-24b08ce4abc9",
+          "yugipediaId": 533754,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gouki Ringtrainer",
+          "card": "12921bf8-6fa8-4cf7-974b-702f614fdb96",
+          "yugipediaId": 557044,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gouki Jet Ogre",
+          "card": "24dcae2c-59c9-4eb3-bc43-69c0130d7dad",
+          "yugipediaId": 547022,
+          "count": 1,
+          "category": "link monsters"
+        },
+        {
+          "name": "Double Attack",
+          "card": "c9d2602e-4eaa-4755-962c-4d3ac3a2c882",
+          "yugipediaId": 16643,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Gouki Cage Match",
+          "card": "e07bee2e-ad84-4653-aaa4-7cce341c2ca7",
+          "yugipediaId": 546395,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Gouki Face Turn",
+          "card": "8dbdcabf-772b-4fb8-94b8-38050e5593b0",
+          "yugipediaId": 533792,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "The Warrior Returning Alive",
+          "card": "493c24bb-0b08-4bb5-b9f3-a4b60cb3f98e",
+          "yugipediaId": 1885,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Taunt",
+          "card": "01478657-4924-445f-92de-ac87e4a96ea0",
+          "yugipediaId": 12531,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "The Gore",
+        "Level 30"
+      ],
+      "cards": [
+        {
+          "name": "Hard Armor",
+          "card": "9c942ce2-2be7-4043-90ad-3440987a4883",
+          "yugipediaId": 507056,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "M-Warrior #1",
+          "card": "bffe8f9f-0fd3-4ad6-8497-5349b2c2dcaa",
+          "yugipediaId": 507102,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "M-Warrior #2",
+          "card": "7d85a5a4-1dfd-492f-ad10-7a82abfb5d1c",
+          "yugipediaId": 507132,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Gouki Headbatt",
+          "card": "87640ea0-1fbd-4de5-a889-e5216a1a62ad",
+          "yugipediaId": 499153,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gouki Iron Claw",
+          "card": "ee5791e4-24bd-491e-8152-5159e6033ee0",
+          "yugipediaId": 707543,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gouki Octostretch",
+          "card": "a2ddb6ee-0824-426e-8547-24b08ce4abc9",
+          "yugipediaId": 533754,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gouki Ringtrainer",
+          "card": "12921bf8-6fa8-4cf7-974b-702f614fdb96",
+          "yugipediaId": 557044,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gouki Tagpartner",
+          "card": "b789d208-fabc-4944-9647-a54a8ee74242",
+          "yugipediaId": 557274,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gouki Heel Ogre",
+          "card": "289c2428-98d6-459e-9a13-061183ca5182",
+          "yugipediaId": 557043,
+          "count": 1,
+          "category": "link monsters"
+        },
+        {
+          "name": "Banner of Courage",
+          "card": "a23e8c86-1dd9-4110-bf2c-dbf506645bdd",
+          "yugipediaId": 16077,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Fighting Spirit",
+          "card": "70184a14-b59a-4886-8d97-cac7b275e972",
+          "yugipediaId": 29709,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Gouki Face Turn",
+          "card": "8dbdcabf-772b-4fb8-94b8-38050e5593b0",
+          "yugipediaId": 533792,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Stim-Pack",
+          "card": "c5031361-20f8-4664-b48d-94747c6a1483",
+          "yugipediaId": 4710,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "The A. Forces",
+          "card": "cbc52ed6-8f58-40aa-9d4f-bea6a5f5115e",
+          "yugipediaId": 7532,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "The Warrior Returning Alive",
+          "card": "493c24bb-0b08-4bb5-b9f3-a4b60cb3f98e",
+          "yugipediaId": 1885,
+          "count": 2,
+          "category": "spells"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "The Gore",
+        "Level 40"
+      ],
+      "cards": [
+        {
+          "name": "The Judgement Hand",
+          "card": "0fe39866-e623-4fa1-bc74-549046325972",
+          "yugipediaId": 8895,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Rhaimundos of the Red Sword",
+          "card": "91d6621a-39c0-453b-a3a0-b7aaebc92800",
+          "yugipediaId": 8935,
+          "count": 1,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Dinowrestler Eskrimamenchi",
+          "card": "822f1f1b-2685-4649-8b08-22b68bdacb17",
+          "yugipediaId": 588661,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Dinowrestler Iguanodraka",
+          "card": "064fa2f0-74ce-4270-b1ba-1490b17f5868",
+          "yugipediaId": 645682,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Dinowrestler Rambrachio",
+          "card": "ec58f006-ff51-489c-bd63-54076bccf219",
+          "yugipediaId": 605321,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Dinowrestler Valeonyx",
+          "card": "83755021-b837-432a-b9a2-5b40af0576b8",
+          "yugipediaId": 642793,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gouki Bearhug",
+          "card": "799dd6a3-653b-4664-9b61-d741b53f4501",
+          "yugipediaId": 544659,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gouki Headbatt",
+          "card": "87640ea0-1fbd-4de5-a889-e5216a1a62ad",
+          "yugipediaId": 499153,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gouki Iron Claw",
+          "card": "ee5791e4-24bd-491e-8152-5159e6033ee0",
+          "yugipediaId": 707543,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gouki Moonsault",
+          "card": "fda32e99-d66c-44a2-bd2d-8fc8507fe304",
+          "yugipediaId": 557045,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gouki Octostretch",
+          "card": "a2ddb6ee-0824-426e-8547-24b08ce4abc9",
+          "yugipediaId": 533754,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gouki Ringtrainer",
+          "card": "12921bf8-6fa8-4cf7-974b-702f614fdb96",
+          "yugipediaId": 557044,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Gouki Tagpartner",
+          "card": "b789d208-fabc-4944-9647-a54a8ee74242",
+          "yugipediaId": 557274,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Dinowrestler King T Wrextle",
+          "card": "235a581b-bb8d-4735-a723-8c30bb40a811",
+          "yugipediaId": 565053,
+          "count": 1,
+          "category": "link monsters"
+        },
+        {
+          "name": "Gouki Jet Ogre",
+          "card": "24dcae2c-59c9-4eb3-bc43-69c0130d7dad",
+          "yugipediaId": 547022,
+          "count": 1,
+          "category": "link monsters"
+        },
+        {
+          "name": "Gouki The Solid Ogre",
+          "card": "03e6daaf-e184-41bb-a9c1-47f4f4accba5",
+          "yugipediaId": 585438,
+          "count": 1,
+          "category": "link monsters"
+        },
+        {
+          "name": "Gouki Thunder Ogre",
+          "card": "0dcdeb56-598c-4ba8-bde8-4db084367e3a",
+          "yugipediaId": 498746,
+          "count": 1,
+          "category": "link monsters"
+        },
+        {
+          "name": "Gouki Face Turn",
+          "card": "8dbdcabf-772b-4fb8-94b8-38050e5593b0",
+          "yugipediaId": 533792,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Raise Body Heat",
+          "card": "5fc5c9a6-2f0c-4179-ad96-bdf4ded9dabe",
+          "yugipediaId": 506479,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Reinforcement of the Army",
+          "card": "e17236d3-9889-476b-8463-ab5c4764a847",
+          "yugipediaId": 296,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Spacetime Transcendence",
+          "card": "982cac61-16eb-4993-885f-d6174b4eb2c8",
+          "yugipediaId": 493870,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Desperate Tag",
+          "card": "97f5bdbf-7c6f-4fcc-9b22-8870535a24c9",
+          "yugipediaId": 515424,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Soulburner",
+        "Level 20"
+      ],
+      "cards": [
+        {
+          "name": "Wings of Wicked Flame",
+          "card": "57df47c0-97f9-4a9d-a409-67ee3adbd0d0",
+          "yugipediaId": 7299,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Firebird",
+          "card": "5d9784d2-1f4a-42ba-b5cb-42a791b3465d",
+          "yugipediaId": 15604,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Raging Flame Sprite",
+          "card": "8c9bae25-8466-42f9-ac10-d08cb8a983ae",
+          "yugipediaId": 11423,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Salamangreat Coyote",
+          "card": "dc743204-1776-4ddb-bf04-3fd04611c3c9",
+          "yugipediaId": 595081,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Salamangreat Meer",
+          "card": "22e6bb0f-03a9-4bb5-b606-c33048b16de8",
+          "yugipediaId": 565390,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Salamangreat Mole",
+          "card": "34727279-43e4-4ecf-bafc-bdb1d9df586c",
+          "yugipediaId": 580749,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Salamangreat Almiraj",
+          "card": "f5c15de1-951c-43d4-897f-0bb563e275a2",
+          "yugipediaId": 581536,
+          "count": 1,
+          "category": "link monsters"
+        },
+        {
+          "name": "Salamangreat Balelynx",
+          "card": "6ef46e7c-b659-44a3-aba3-9565d96aa94c",
+          "yugipediaId": 578111,
+          "count": 2,
+          "category": "link monsters"
+        },
+        {
+          "name": "Monster Reincarnation",
+          "card": "f57f1407-bd11-4417-b578-408d4839e1ac",
+          "yugipediaId": 56,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Painful Return",
+          "card": "25c57d0c-a0e6-4fd4-baf7-ce9e691a6344",
+          "yugipediaId": 191531,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Salamangreat Claw",
+          "card": "2eda12eb-0c4a-42b8-b62b-05424fe3bd64",
+          "yugipediaId": 581382,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Salamangreat Recureance",
+          "card": "b26fb0eb-3139-43fd-971c-ca1b1c7aa757",
+          "yugipediaId": 584373,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Salamangreat Sanctuary",
+          "card": "40e98514-4dc9-4d8f-b9ad-b2c64d0e6a44",
+          "yugipediaId": 565293,
+          "count": 1,
+          "category": "spells"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Soulburner",
+        "Level 30"
+      ],
+      "cards": [
+        {
+          "name": "Brushfire Knight",
+          "card": "b58840ac-3ca9-4373-8dd2-b283006a80c8",
+          "yugipediaId": 246515,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Fire King Avatar Garunix",
+          "card": "a745e30a-6aac-4ba1-a13a-8a8fe0f35e3c",
+          "yugipediaId": 267728,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Fire King Avatar Kirin",
+          "card": "464c2b15-68ad-47a4-8e12-a8ae018ef9d5",
+          "yugipediaId": 251299,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Salamangreat Coyote",
+          "card": "dc743204-1776-4ddb-bf04-3fd04611c3c9",
+          "yugipediaId": 595081,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Salamangreat Falco",
+          "card": "6d8d9b73-ae2c-41be-9343-d19c88e69f28",
+          "yugipediaId": 565437,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Salamangreat Foxer",
+          "card": "d5cf2d31-8c1f-4ac2-a4d9-6e6e2efc4ef2",
+          "yugipediaId": 577348,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Salamangreat Meer",
+          "card": "22e6bb0f-03a9-4bb5-b606-c33048b16de8",
+          "yugipediaId": 565390,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Salamangreat Mole",
+          "card": "34727279-43e4-4ecf-bafc-bdb1d9df586c",
+          "yugipediaId": 580749,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Twinheaded Beast",
+          "card": "8dc5bcf1-dcd3-456f-a967-37998d2ae27c",
+          "yugipediaId": 10701,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Salamangreat Miragestallio",
+          "card": "e077eeb4-6a9c-44a7-821f-6cd530615e90",
+          "yugipediaId": 581493,
+          "count": 1,
+          "category": "xyz monsters"
+        },
+        {
+          "name": "Salamangreat Almiraj",
+          "card": "f5c15de1-951c-43d4-897f-0bb563e275a2",
+          "yugipediaId": 581536,
+          "count": 1,
+          "category": "link monsters"
+        },
+        {
+          "name": "Salamangreat Balelynx",
+          "card": "6ef46e7c-b659-44a3-aba3-9565d96aa94c",
+          "yugipediaId": 578111,
+          "count": 2,
+          "category": "link monsters"
+        },
+        {
+          "name": "Burning Draw",
+          "card": "21649f00-c659-4d1b-8ab9-210a90bb4cb9",
+          "yugipediaId": 697903,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Monster Reincarnation",
+          "card": "f57f1407-bd11-4417-b578-408d4839e1ac",
+          "yugipediaId": 56,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Salamangreat Claw",
+          "card": "2eda12eb-0c4a-42b8-b62b-05424fe3bd64",
+          "yugipediaId": 581382,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Salamangreat Sanctuary",
+          "card": "40e98514-4dc9-4d8f-b9ad-b2c64d0e6a44",
+          "yugipediaId": 565293,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Salamangreat Gift",
+          "card": "c3b6c607-cbf3-45bf-855a-68eb345a4c3e",
+          "yugipediaId": 565695,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Soulburner",
+        "Level 40"
+      ],
+      "cards": [
+        {
+          "name": "Flame Spirit Ignis",
+          "card": "851de42b-8a58-4d88-97ea-61f06b1fec26",
+          "yugipediaId": 29679,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Hazy Flame Cerbereus",
+          "card": "a2ec72fc-7953-46b1-a1d3-8104e194912c",
+          "yugipediaId": 248280,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Hazy Flame Hyppogrif",
+          "card": "e6e674eb-22fc-4b46-b566-6974859a9a76",
+          "yugipediaId": 194276,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Little Chimera",
+          "card": "305090a9-08b1-4a53-bce5-52c75c6c71c0",
+          "yugipediaId": 6455,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Salamangreat Coyote",
+          "card": "dc743204-1776-4ddb-bf04-3fd04611c3c9",
+          "yugipediaId": 595081,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Salamangreat Falco",
+          "card": "6d8d9b73-ae2c-41be-9343-d19c88e69f28",
+          "yugipediaId": 565437,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Salamangreat Foxer",
+          "card": "d5cf2d31-8c1f-4ac2-a4d9-6e6e2efc4ef2",
+          "yugipediaId": 577348,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Salamangreat Gazelle",
+          "card": "702f6a27-3394-4060-91c5-89d14b3ed448",
+          "yugipediaId": 581475,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Salamangreat Meer",
+          "card": "22e6bb0f-03a9-4bb5-b606-c33048b16de8",
+          "yugipediaId": 565390,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Salamangreat Mole",
+          "card": "34727279-43e4-4ecf-bafc-bdb1d9df586c",
+          "yugipediaId": 580749,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Salamangreat Almiraj",
+          "card": "f5c15de1-951c-43d4-897f-0bb563e275a2",
+          "yugipediaId": 581536,
+          "count": 1,
+          "category": "link monsters"
+        },
+        {
+          "name": "Salamangreat Balelynx",
+          "card": "6ef46e7c-b659-44a3-aba3-9565d96aa94c",
+          "yugipediaId": 578111,
+          "count": 1,
+          "category": "link monsters"
+        },
+        {
+          "name": "Salamangreat Heatleo",
+          "card": "66e92478-0bec-4c7a-aea5-d814eaadadad",
+          "yugipediaId": 563493,
+          "count": 1,
+          "category": "link monsters"
+        },
+        {
+          "name": "Salamangreat Sunlight Wolf",
+          "card": "4dd0e7b4-0803-43f7-9899-48102605985b",
+          "yugipediaId": 572209,
+          "count": 2,
+          "category": "link monsters"
+        },
+        {
+          "name": "Burning Draw",
+          "card": "21649f00-c659-4d1b-8ab9-210a90bb4cb9",
+          "yugipediaId": 697903,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Monster Reincarnation",
+          "card": "f57f1407-bd11-4417-b578-408d4839e1ac",
+          "yugipediaId": 56,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Salamangreat Claw",
+          "card": "2eda12eb-0c4a-42b8-b62b-05424fe3bd64",
+          "yugipediaId": 581382,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Salamangreat Sanctuary",
+          "card": "40e98514-4dc9-4d8f-b9ad-b2c64d0e6a44",
+          "yugipediaId": 565293,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Salamangreat Gift",
+          "card": "c3b6c607-cbf3-45bf-855a-68eb345a4c3e",
+          "yugipediaId": 565695,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Playmaker and Ai",
+        "Level 20"
+      ],
+      "cards": [
+        {
+          "name": "Protron",
+          "card": "88121ffe-9dc9-4342-be22-13e7f5e436df",
+          "yugipediaId": 548531,
+          "count": 3,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Cluster Congester",
+          "card": "f5e1d627-4829-4da0-91b8-2ed014d7a5bd",
+          "yugipediaId": 555248,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Defect Compiler",
+          "card": "fdd8fbd8-7442-42f0-a3a9-46a1d8482e82",
+          "yugipediaId": 443352,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Formud Skipper",
+          "card": "2d98fe2e-2ee0-4d63-b2c6-061a4da49e84",
+          "yugipediaId": 546393,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Latency",
+          "card": "fda93cf5-d781-4d04-8953-46df5d1030ee",
+          "yugipediaId": 563287,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Swap Cleric",
+          "card": "44dc1190-6286-4a7e-9122-4e13c5b8c284",
+          "yugipediaId": 563291,
+          "count": 3,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Link Spider",
+          "card": "ab9a04a4-4df5-4e8d-829a-50deb5cd33f5",
+          "yugipediaId": 500694,
+          "count": 1,
+          "category": "link monsters"
+        },
+        {
+          "name": "Proxy Dragon",
+          "card": "cd9b187e-96d4-4158-981a-a4cad81080d1",
+          "yugipediaId": 480399,
+          "count": 1,
+          "category": "link monsters"
+        },
+        {
+          "name": "Cynet Backdoor",
+          "card": "4aaec6b3-4933-4eda-9741-1224785b4796",
+          "yugipediaId": 497944,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Cynet Mining",
+          "card": "90fd9eef-96d5-4a9e-8b62-45ba8b10bf3d",
+          "yugipediaId": 585269,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Link Back",
+          "card": "5d0da832-dce9-4638-b956-08c8cfe787c3",
+          "yugipediaId": 598310,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Link Bound",
+          "card": "d8161c3a-3eb4-4412-b1cd-352bfb7fb9cf",
+          "yugipediaId": 547026,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Link Restart",
+          "card": "76df9f74-cb65-46cf-b8cf-330b2fd1b7d6",
+          "yugipediaId": 443843,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Playmaker and Ai",
+        "Level 30"
+      ],
+      "cards": [
+        {
+          "name": "Digitron",
+          "card": "368e94e3-2eff-4505-8ee6-da79c645de9e",
+          "yugipediaId": 497977,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Backup Operator",
+          "card": "e66e7d91-91c9-44a2-ba13-675f1625b9ac",
+          "yugipediaId": 547140,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Backup Secretary",
+          "card": "6f3290ab-0039-4f39-9053-d94a56899886",
+          "yugipediaId": 485030,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Capacitor Stalker",
+          "card": "694cfcbe-e9fc-496e-9f7f-b2b298e4efd1",
+          "yugipediaId": 443713,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Catche Eve L2",
+          "card": "68af86b9-3b7f-42d8-b962-7447d4b67e61",
+          "yugipediaId": 577343,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Draconnet",
+          "card": "e134ad51-b6cb-40e1-a17d-c97e8c846de6",
+          "yugipediaId": 500695,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Flame Bufferlo",
+          "card": "37876dca-262f-4432-9611-2e7e49cdb059",
+          "yugipediaId": 544667,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Flick Clown",
+          "card": "14d81a87-7b22-462d-8bdf-e8173505bb0e",
+          "yugipediaId": 532126,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Formud Skipper",
+          "card": "2d98fe2e-2ee0-4d63-b2c6-061a4da49e84",
+          "yugipediaId": 546393,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Rescue Interlacer",
+          "card": "ff8a364b-f714-4180-aaf0-9ac322fc8c63",
+          "yugipediaId": 598308,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Stack Reviver",
+          "card": "9b013380-c752-4832-94d9-d5d2ad0ab7f3",
+          "yugipediaId": 485044,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Backup Supervisor",
+          "card": "4469d76d-cbb1-4c0b-b589-81fa05a3a10a",
+          "yugipediaId": 581525,
+          "count": 1,
+          "category": "link monsters"
+        },
+        {
+          "name": "Code Talker",
+          "card": "13ccab19-a883-4247-b81b-19d26f7b488f",
+          "yugipediaId": 499144,
+          "count": 1,
+          "category": "link monsters"
+        },
+        {
+          "name": "Link Devotee",
+          "card": "2657b7eb-432a-4995-a228-135bb0b72a6d",
+          "yugipediaId": 555251,
+          "count": 1,
+          "category": "link monsters"
+        },
+        {
+          "name": "Link Disciple",
+          "card": "e4a7dd56-51d9-4464-a783-1c59f1dea041",
+          "yugipediaId": 494579,
+          "count": 1,
+          "category": "link monsters"
+        },
+        {
+          "name": "Link Spider",
+          "card": "ab9a04a4-4df5-4e8d-829a-50deb5cd33f5",
+          "yugipediaId": 500694,
+          "count": 1,
+          "category": "link monsters"
+        },
+        {
+          "name": "Pentestag",
+          "card": "d777b3cf-7543-4a2a-9ef0-92e0a233e5ba",
+          "yugipediaId": 552485,
+          "count": 1,
+          "category": "link monsters"
+        },
+        {
+          "name": "Proxy Dragon",
+          "card": "cd9b187e-96d4-4158-981a-a4cad81080d1",
+          "yugipediaId": 480399,
+          "count": 1,
+          "category": "link monsters"
+        },
+        {
+          "name": "Cynet Backdoor",
+          "card": "4aaec6b3-4933-4eda-9741-1224785b4796",
+          "yugipediaId": 497944,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Cynet Mining",
+          "card": "90fd9eef-96d5-4a9e-8b62-45ba8b10bf3d",
+          "yugipediaId": 585269,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Link Bound",
+          "card": "d8161c3a-3eb4-4412-b1cd-352bfb7fb9cf",
+          "yugipediaId": 547026,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Cyberse Beacon",
+          "card": "be86e13f-a226-4d25-a1c4-59a2ede066e3",
+          "yugipediaId": 500397,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Link Restart",
+          "card": "76df9f74-cb65-46cf-b8cf-330b2fd1b7d6",
+          "yugipediaId": 443843,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Shield Handler",
+          "card": "d4aae8fa-bb4d-4e4f-8695-4f60fc31f263",
+          "yugipediaId": 557293,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    },
+    {
+      "path": [
+        "Decks",
+        "Playmaker and Ai",
+        "Level 40"
+      ],
+      "cards": [
+        {
+          "name": "Digitron",
+          "card": "368e94e3-2eff-4505-8ee6-da79c645de9e",
+          "yugipediaId": 497977,
+          "count": 2,
+          "category": "normal monsters"
+        },
+        {
+          "name": "Backup Operator",
+          "card": "e66e7d91-91c9-44a2-ba13-675f1625b9ac",
+          "yugipediaId": 547140,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Backup Secretary",
+          "card": "6f3290ab-0039-4f39-9053-d94a56899886",
+          "yugipediaId": 485030,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Catche Eve L2",
+          "card": "68af86b9-3b7f-42d8-b962-7447d4b67e61",
+          "yugipediaId": 577343,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Cyberse Gadget",
+          "card": "b58d173f-8b35-4f61-bd86-b462e9133b3c",
+          "yugipediaId": 500708,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Draconnet",
+          "card": "e134ad51-b6cb-40e1-a17d-c97e8c846de6",
+          "yugipediaId": 500695,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Flame Bufferlo",
+          "card": "37876dca-262f-4432-9611-2e7e49cdb059",
+          "yugipediaId": 544667,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Striping Partner",
+          "card": "e5629cd5-499d-46c6-9e3b-f0793a720012",
+          "yugipediaId": 532124,
+          "count": 1,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Widget Kid",
+          "card": "ae44e3c2-c003-4c84-8cb7-87dc10e29483",
+          "yugipediaId": 552481,
+          "count": 2,
+          "category": "effect monsters"
+        },
+        {
+          "name": "Backup Supervisor",
+          "card": "4469d76d-cbb1-4c0b-b589-81fa05a3a10a",
+          "yugipediaId": 581525,
+          "count": 1,
+          "category": "link monsters"
+        },
+        {
+          "name": "Code Talker",
+          "card": "13ccab19-a883-4247-b81b-19d26f7b488f",
+          "yugipediaId": 499144,
+          "count": 1,
+          "category": "link monsters"
+        },
+        {
+          "name": "Decode Talker",
+          "card": "91474116-fb5f-4202-a289-e20cda3b9644",
+          "yugipediaId": 500684,
+          "count": 1,
+          "category": "link monsters"
+        },
+        {
+          "name": "Elphase",
+          "card": "fcd037de-f078-4772-82b1-2b96f0be57cc",
+          "yugipediaId": 560103,
+          "count": 1,
+          "category": "link monsters"
+        },
+        {
+          "name": "Honeybot",
+          "card": "3181fecf-9916-4c24-aa8d-9c052bc75f0f",
+          "yugipediaId": 500698,
+          "count": 1,
+          "category": "link monsters"
+        },
+        {
+          "name": "Link Disciple",
+          "card": "e4a7dd56-51d9-4464-a783-1c59f1dea041",
+          "yugipediaId": 494579,
+          "count": 1,
+          "category": "link monsters"
+        },
+        {
+          "name": "Link Spider",
+          "card": "ab9a04a4-4df5-4e8d-829a-50deb5cd33f5",
+          "yugipediaId": 500694,
+          "count": 1,
+          "category": "link monsters"
+        },
+        {
+          "name": "Space Insulator",
+          "card": "89dba50c-3abd-478d-a88b-4f3b14fc62cc",
+          "yugipediaId": 545093,
+          "count": 1,
+          "category": "link monsters"
+        },
+        {
+          "name": "Cynet Mining",
+          "card": "90fd9eef-96d5-4a9e-8b62-45ba8b10bf3d",
+          "yugipediaId": 585269,
+          "count": 2,
+          "category": "spells"
+        },
+        {
+          "name": "Link Bound",
+          "card": "d8161c3a-3eb4-4412-b1cd-352bfb7fb9cf",
+          "yugipediaId": 547026,
+          "count": 1,
+          "category": "spells"
+        },
+        {
+          "name": "Cyberse Beacon",
+          "card": "be86e13f-a226-4d25-a1c4-59a2ede066e3",
+          "yugipediaId": 500397,
+          "count": 1,
+          "category": "traps"
+        },
+        {
+          "name": "Limit Code",
+          "card": "57f9dc9a-20bb-42d0-894d-e3e91164e42c",
+          "yugipediaId": 525616,
+          "count": 1,
+          "category": "traps"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Magical Cylinders",
+      "card": "e77a4f64-dddb-4040-a6e8-8ae6f2f0fde8",
+      "yugipediaId": 715702,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2023",
+          "runIndex": 1,
+          "requirement": "UR",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Borreload Furious Dragon",
+      "card": "8e644430-2494-48d7-b3ac-b2f6aa877a68",
+      "yugipediaId": 607505,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2023",
+          "runIndex": 1,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "January 2023",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Autorokket Dragon",
+      "card": "da31ed91-c53d-4a6b-9172-57a4c8d7d46e",
+      "yugipediaId": 497926,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2023",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Silverrokket Dragon",
+      "card": "19d818ef-5238-400e-ad84-f26cd207c31a",
+      "yugipediaId": 623875,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2023",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "January 2023",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Leng Ling",
+      "card": "bb27decd-eef8-46e3-a0db-efb404b7d95b",
+      "yugipediaId": 519538,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2023",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "January 2023",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Lava Dragon",
+      "card": "09f70f7d-2736-47f2-943e-626f1edef978",
+      "yugipediaId": 59006,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2023",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "January 2023",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Divine Dragon Ragnarok",
+      "card": "baee618d-ccc3-4fc9-b36d-9578c5c33b67",
+      "yugipediaId": 4870,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2023",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "January 2023",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Magna Drago",
+      "card": "0a93fac7-9f66-45c2-a83f-11b7a7a012dc",
+      "yugipediaId": 86642,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2023",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "January 2023",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Dragoncarnation",
+      "card": "6f6fda77-2b3d-47cd-873d-8f3443aeabb7",
+      "yugipediaId": 267873,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2023",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "January 2023",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "D. Tribe",
+      "card": "7ed4dc81-0d6a-4d14-9858-5e03785759da",
+      "yugipediaId": 7996,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2023",
+          "runIndex": 1,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "January 2023",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Divine Dragon Apocralyph",
+      "card": "7fb57883-8f72-4f52-92a7-f9341f806c54",
+      "yugipediaId": 194088,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "January 2023",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "A Wingbeat of Giant Dragon",
+      "card": "e12e4c54-1ec0-45c8-b58d-0622f3207802",
+      "yugipediaId": 9581,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "January 2023",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Destiny At Hand: Varis",
+        "id": 1236266
+      }
+    ]
+  }
+}

@@ -1,0 +1,374 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "72fc09f9-6844-4fd5-8fc1-c219e9cd51de",
+  "name": {
+    "en": "Blair Flannigan (Roaming Duelist event)"
+  },
+  "type": "Roaming Duelist event",
+  "duelWorlds": [
+    "Duel World (GX)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/7/71/BlairFlanniganishere-Banner.png",
+  "runs": [
+    {
+      "startDate": "2019-12-16",
+      "endDate": "2019-12-25"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "In addition to the following, standard Duel Rewards were also available by Dueling Blair Flannigan Level 30 or less."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Maiden in Love\"",
+                "cards": [
+                  {
+                    "name": "Maiden in Love",
+                    "card": "aedbe786-c466-480a-855b-039d23d2515f",
+                    "yugipediaId": 1123217
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Cupid's Kiss\", \"Herald of Green Light\", \"Herald of Purple Light\", \"Milla the Temporal Magician\"",
+                "cards": [
+                  {
+                    "name": "Cupid's Kiss",
+                    "card": "d689b47f-b208-4bfb-838b-569d9e60c7ad",
+                    "yugipediaId": 696563
+                  },
+                  {
+                    "name": "Herald of Green Light",
+                    "card": "03434f0b-c0c7-4c96-8948-7d2a1c12729a",
+                    "yugipediaId": 13416
+                  },
+                  {
+                    "name": "Herald of Purple Light",
+                    "card": "514a8460-92b2-473e-a0e7-d845fab7b323",
+                    "yugipediaId": 13373
+                  },
+                  {
+                    "name": "Milla the Temporal Magician",
+                    "card": "a1c87a53-28ef-416a-a402-29e034395403",
+                    "yugipediaId": 172938
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Defense Maiden\", \"Happy Marriage\", \"Jenis, Lightsworn Mender\"",
+                "cards": [
+                  {
+                    "name": "Defense Maiden",
+                    "card": "2d13baa2-f1a4-48f2-9f42-04c87b146082",
+                    "yugipediaId": 696561
+                  },
+                  {
+                    "name": "Happy Marriage",
+                    "card": "5605bd71-2796-4c18-a912-951e8b8c569e",
+                    "yugipediaId": 696559
+                  },
+                  {
+                    "name": "Jenis, Lightsworn Mender",
+                    "card": "2a7ec6de-202f-4574-b519-fa328bac3cb9",
+                    "yugipediaId": 35470
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Wing Egg Elf\", \"Muse-A\"",
+                "cards": [
+                  {
+                    "name": "Wing Egg Elf",
+                    "card": "d15c3f8d-9316-4f61-a077-1a3a02f2a03a",
+                    "yugipediaId": 19466
+                  },
+                  {
+                    "name": "Muse-A",
+                    "card": "1114949c-1f24-4b97-8a96-75f3e20ed4ca",
+                    "yugipediaId": 9262
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Rewards",
+        "Event Missions"
+      ],
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against Blair Flannigan in Duel World."
+              },
+              {
+                "text": "1 \"Defense Maiden\"",
+                "cards": [
+                  {
+                    "name": "Defense Maiden",
+                    "card": "2d13baa2-f1a4-48f2-9f42-04c87b146082",
+                    "yugipediaId": 696561,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 3 Duel(s) against Blair Flannigan in Duel World."
+              },
+              {
+                "text": "1 \"Herald of Green Light\"",
+                "cards": [
+                  {
+                    "name": "Herald of Green Light",
+                    "card": "03434f0b-c0c7-4c96-8948-7d2a1c12729a",
+                    "yugipediaId": 13416,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 7 Duel(s) against Blair Flannigan in Duel World."
+              },
+              {
+                "text": "1 \"Cupid's Kiss\"",
+                "cards": [
+                  {
+                    "name": "Cupid's Kiss",
+                    "card": "d689b47f-b208-4bfb-838b-569d9e60c7ad",
+                    "yugipediaId": 696563,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Play 15 Duel(s) against Blair Flannigan in Duel World. (surrenders are not counted.)"
+              },
+              {
+                "text": "1 \"Maiden in Love\"",
+                "cards": [
+                  {
+                    "name": "Maiden in Love",
+                    "card": "aedbe786-c466-480a-855b-039d23d2515f",
+                    "yugipediaId": 1123217,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Maiden in Love",
+      "card": "aedbe786-c466-480a-855b-039d23d2515f",
+      "yugipediaId": 1123217,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Play 15 Duel(s) against Blair Flannigan in Duel World. (surrenders are not counted.)"
+        }
+      ]
+    },
+    {
+      "name": "Cupid's Kiss",
+      "card": "d689b47f-b208-4bfb-838b-569d9e60c7ad",
+      "yugipediaId": 696563,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 7 Duel(s) against Blair Flannigan in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Herald of Green Light",
+      "card": "03434f0b-c0c7-4c96-8948-7d2a1c12729a",
+      "yugipediaId": 13416,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 3 Duel(s) against Blair Flannigan in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Herald of Purple Light",
+      "card": "514a8460-92b2-473e-a0e7-d845fab7b323",
+      "yugipediaId": 13373,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Milla the Temporal Magician",
+      "card": "a1c87a53-28ef-416a-a402-29e034395403",
+      "yugipediaId": 172938,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Defense Maiden",
+      "card": "2d13baa2-f1a4-48f2-9f42-04c87b146082",
+      "yugipediaId": 696561,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 1 Duel(s) against Blair Flannigan in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Happy Marriage",
+      "card": "5605bd71-2796-4c18-a912-951e8b8c569e",
+      "yugipediaId": 696559,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Jenis, Lightsworn Mender",
+      "card": "2a7ec6de-202f-4574-b519-fa328bac3cb9",
+      "yugipediaId": 35470,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Wing Egg Elf",
+      "card": "d15c3f8d-9316-4f61-a077-1a3a02f2a03a",
+      "yugipediaId": 19466,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Muse-A",
+      "card": "1114949c-1f24-4b97-8a96-75f3e20ed4ca",
+      "yugipediaId": 9262,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Blair Flannigan is here!",
+        "id": 696206
+      }
+    ]
+  }
+}

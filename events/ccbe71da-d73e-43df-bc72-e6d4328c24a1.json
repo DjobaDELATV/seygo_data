@@ -1,0 +1,396 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "ccbe71da-d73e-43df-bc72-e6d4328c24a1",
+  "name": {
+    "en": "Jesse Anderson (Roaming Duelist event)"
+  },
+  "type": "Roaming Duelist event",
+  "duelWorlds": [
+    "Duel World (GX)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/3/30/JesseAndersonishere-Banner.png",
+  "runs": [
+    {
+      "startDate": "2017-11-06",
+      "endDate": "2017-11-14"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Event Details",
+        "Duel Rewards"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "In addition to the following, standard Duel Rewards were also available by Dueling Jesse Anderson Level 30 or less."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Crystal Beast Topaz Tiger\", \"Crystal Beast Amber Mammoth\", \"Phantom Skyblaster\", \"Crystal Beacon\", \"Rainbow Life\"",
+                "cards": [
+                  {
+                    "name": "Crystal Beast Topaz Tiger",
+                    "card": "e2ed6cc5-d201-492c-9bcf-e6454fceac1e",
+                    "yugipediaId": 511290
+                  },
+                  {
+                    "name": "Crystal Beast Amber Mammoth",
+                    "card": "1adabed7-2616-4c4c-a3fa-16b487ad2161",
+                    "yugipediaId": 511285
+                  },
+                  {
+                    "name": "Phantom Skyblaster",
+                    "card": "b3c3d9ea-4bd9-41ca-b709-2dd1117a3a3c",
+                    "yugipediaId": 509774
+                  },
+                  {
+                    "name": "Crystal Beacon",
+                    "card": "e110e5e2-ed85-49a5-93fc-b59fa7f870a9",
+                    "yugipediaId": 20990
+                  },
+                  {
+                    "name": "Rainbow Life",
+                    "card": "ec2041f1-3474-40ef-b71b-e7a6811f7310",
+                    "yugipediaId": 508740
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Crystal Beast Cobalt Eagle\", \"Crystal Beast Amethyst Cat\", \"Crystal Beast Ruby Carbuncle\", \"Crystal Tree\", \"Triggered Summon\"",
+                "cards": [
+                  {
+                    "name": "Crystal Beast Cobalt Eagle",
+                    "card": "08552e09-b492-4fa4-ad8b-d635c3debd2d",
+                    "yugipediaId": 511287
+                  },
+                  {
+                    "name": "Crystal Beast Amethyst Cat",
+                    "card": "047f23f5-dae0-4ea7-a665-02bbb39add0f",
+                    "yugipediaId": 511288
+                  },
+                  {
+                    "name": "Crystal Beast Ruby Carbuncle",
+                    "card": "a8ba1be5-17f8-4b89-a197-fa57305ea6be",
+                    "yugipediaId": 511772
+                  },
+                  {
+                    "name": "Crystal Tree",
+                    "card": "a524b6f3-3695-47c1-a46a-8dbd7b2607c0",
+                    "yugipediaId": 510775
+                  },
+                  {
+                    "name": "Triggered Summon",
+                    "card": "c8610a5c-28a1-47e7-835f-07a5daa3ae2f",
+                    "yugipediaId": 21028
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Event Details",
+        "Event Missions"
+      ],
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against Jesse Anderson in Duel World."
+              },
+              {
+                "text": "1 \"Crystal Beast Cobalt Eagle\"",
+                "cards": [
+                  {
+                    "name": "Crystal Beast Cobalt Eagle",
+                    "card": "08552e09-b492-4fa4-ad8b-d635c3debd2d",
+                    "yugipediaId": 511287,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 3 Duel(s) against Jesse Anderson in Duel World."
+              },
+              {
+                "text": "1 \"Crystal Beast Amethyst Cat\"",
+                "cards": [
+                  {
+                    "name": "Crystal Beast Amethyst Cat",
+                    "card": "047f23f5-dae0-4ea7-a665-02bbb39add0f",
+                    "yugipediaId": 511288,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 7 Duel(s) against Jesse Anderson in Duel World."
+              },
+              {
+                "text": "1 \"Crystal Beacon\"",
+                "cards": [
+                  {
+                    "name": "Crystal Beacon",
+                    "card": "e110e5e2-ed85-49a5-93fc-b59fa7f870a9",
+                    "yugipediaId": 20990,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Play 15 Duel(s) against Jesse Anderson in Duel World."
+              },
+              {
+                "text": "1 \"Crystal Beast Topaz Tiger\"",
+                "cards": [
+                  {
+                    "name": "Crystal Beast Topaz Tiger",
+                    "card": "e2ed6cc5-d201-492c-9bcf-e6454fceac1e",
+                    "yugipediaId": 511290,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Achieve 1 No Damage win(s) in Duels against Jesse Anderson."
+              },
+              {
+                "text": "1 \"Triggered Summon\"",
+                "cards": [
+                  {
+                    "name": "Triggered Summon",
+                    "card": "c8610a5c-28a1-47e7-835f-07a5daa3ae2f",
+                    "yugipediaId": 21028,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Successfully perform 3 Tribute Summons in Duels against Jesse Anderson."
+              },
+              {
+                "text": "1 \"Crystal Tree\"",
+                "cards": [
+                  {
+                    "name": "Crystal Tree",
+                    "card": "a524b6f3-3695-47c1-a46a-8dbd7b2607c0",
+                    "yugipediaId": 510775,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Crystal Beast Topaz Tiger",
+      "card": "e2ed6cc5-d201-492c-9bcf-e6454fceac1e",
+      "yugipediaId": 511290,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Play 15 Duel(s) against Jesse Anderson in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Crystal Beast Amber Mammoth",
+      "card": "1adabed7-2616-4c4c-a3fa-16b487ad2161",
+      "yugipediaId": 511285,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Phantom Skyblaster",
+      "card": "b3c3d9ea-4bd9-41ca-b709-2dd1117a3a3c",
+      "yugipediaId": 509774,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Crystal Beacon",
+      "card": "e110e5e2-ed85-49a5-93fc-b59fa7f870a9",
+      "yugipediaId": 20990,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 7 Duel(s) against Jesse Anderson in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Rainbow Life",
+      "card": "ec2041f1-3474-40ef-b71b-e7a6811f7310",
+      "yugipediaId": 508740,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Crystal Beast Cobalt Eagle",
+      "card": "08552e09-b492-4fa4-ad8b-d635c3debd2d",
+      "yugipediaId": 511287,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 1 Duel(s) against Jesse Anderson in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Crystal Beast Amethyst Cat",
+      "card": "047f23f5-dae0-4ea7-a665-02bbb39add0f",
+      "yugipediaId": 511288,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 3 Duel(s) against Jesse Anderson in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Crystal Beast Ruby Carbuncle",
+      "card": "a8ba1be5-17f8-4b89-a197-fa57305ea6be",
+      "yugipediaId": 511772,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Crystal Tree",
+      "card": "a524b6f3-3695-47c1-a46a-8dbd7b2607c0",
+      "yugipediaId": 510775,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Successfully perform 3 Tribute Summons in Duels against Jesse Anderson."
+        }
+      ]
+    },
+    {
+      "name": "Triggered Summon",
+      "card": "c8610a5c-28a1-47e7-835f-07a5daa3ae2f",
+      "yugipediaId": 21028,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Achieve 1 No Damage win(s) in Duels against Jesse Anderson."
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Jesse Anderson is here!",
+        "id": 696056
+      }
+    ]
+  }
+}

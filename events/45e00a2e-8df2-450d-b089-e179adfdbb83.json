@@ -1,0 +1,3653 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "45e00a2e-8df2-450d-b089-e179adfdbb83",
+  "name": {
+    "en": "Memories of a Friend",
+    "fr": "Souvenirs d'un ami"
+  },
+  "type": "Gate Event",
+  "duelWorlds": [
+    "Duel World (DSOD)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/c/ca/MemoriesofaFriend-Banner.png",
+  "runs": [
+    {
+      "startDate": "2020-01-27",
+      "endDate": "2020-02-05"
+    },
+    {
+      "startDate": "2020-04-21",
+      "endDate": "2020-04-27"
+    }
+  ],
+  "cardTraderExDates": [
+    {
+      "startDate": "2020-01-27",
+      "endDate": "2020-02-12"
+    },
+    {
+      "startDate": "2020-04-21",
+      "endDate": "2020-05-04"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "cumulativeRewards",
+      "path": [
+        "Rewards",
+        "Cumulative Rewards"
+      ],
+      "notes": [
+        "The following rewards were awarded during this event, based on event points accumulated over the course of the event:"
+      ]
+    },
+    {
+      "kind": "cumulativeRewards",
+      "path": [
+        "Rewards",
+        "Cumulative Rewards"
+      ],
+      "run": "April 2020",
+      "runIndex": 1,
+      "notes": [
+        "After obtaining all listed rewards, additional 50 R Jewels are awarded to the player for every 600000 points."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "5000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "10000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "15000"
+              },
+              {
+                "text": "1 EXP Booster"
+              }
+            ],
+            [
+              {
+                "text": "20000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "25000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "30000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "35000"
+              },
+              {
+                "text": "1 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "40000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "45000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "50000"
+              },
+              {
+                "text": "1 \"Legendary Sword\" (Glossy)",
+                "cards": [
+                  {
+                    "name": "Legendary Sword",
+                    "card": "bac8b5a8-fded-4ef6-a318-da967b3447d6",
+                    "yugipediaId": 505906,
+                    "quantity": 1,
+                    "variant": "Glossy"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "60000"
+              },
+              {
+                "text": "1 Results Booster"
+              }
+            ],
+            [
+              {
+                "text": "70000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "80000"
+              },
+              {
+                "text": "5 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "90000"
+              },
+              {
+                "text": "1 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "110000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "130000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "150000"
+              },
+              {
+                "text": "40 Duel Memories"
+              }
+            ],
+            [
+              {
+                "text": "170000"
+              },
+              {
+                "text": "1 \"D.D. Seeker\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "D.D. Seeker",
+                    "card": "27dfb1df-7854-471f-b5aa-1973658f2589",
+                    "yugipediaId": 530635,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "180000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "190000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "200000"
+              },
+              {
+                "text": "5 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "210000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "220000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "240000"
+              },
+              {
+                "text": "1 EXP Booster"
+              }
+            ],
+            [
+              {
+                "text": "260000"
+              },
+              {
+                "text": "40 Duel Memories"
+              }
+            ],
+            [
+              {
+                "text": "280000"
+              },
+              {
+                "text": "Card Sleeves: Memories of a Friend"
+              }
+            ],
+            [
+              {
+                "text": "290000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "300000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "310000"
+              },
+              {
+                "text": "30 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "320000"
+              },
+              {
+                "text": "1 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "330000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "340000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "350000"
+              },
+              {
+                "text": "5 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "360000"
+              },
+              {
+                "text": "30 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "380000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "400000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "420000"
+              },
+              {
+                "text": "1 Results Booster"
+              }
+            ],
+            [
+              {
+                "text": "440000"
+              },
+              {
+                "text": "1 \"D.D. Patrol Plane\"",
+                "cards": [
+                  {
+                    "name": "D.D. Patrol Plane",
+                    "card": "c19d4ed1-eaed-4924-ae3d-318bc6b70aec",
+                    "yugipediaId": 642437,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "460000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "480000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "500000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "520000"
+              },
+              {
+                "text": "1 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "540000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "560000"
+              },
+              {
+                "text": "30 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "580000"
+              },
+              {
+                "text": "5 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "610000"
+              },
+              {
+                "text": "1 SR Jewels"
+              }
+            ],
+            [
+              {
+                "text": "640000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "670000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "700000"
+              },
+              {
+                "text": "Game Mat: Memories of a Friend"
+              }
+            ],
+            [
+              {
+                "text": "730000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "760000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "800000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "840000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "880000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "920000"
+              },
+              {
+                "text": "1 EXP Booster"
+              }
+            ],
+            [
+              {
+                "text": "960000"
+              },
+              {
+                "text": "40 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "1000000"
+              },
+              {
+                "text": "5 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "1050000"
+              },
+              {
+                "text": "15000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1110000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1150000"
+              },
+              {
+                "text": "1 UR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "1200000"
+              },
+              {
+                "text": "1 \"Dice It\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Dice It",
+                    "card": "b6a2b3d4-2f0b-4e24-be27-8bcaf154bbeb",
+                    "yugipediaId": 585977,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "1300000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1400000"
+              },
+              {
+                "text": "15000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1500000"
+              },
+              {
+                "text": "5 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "1600000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "1700000"
+              },
+              {
+                "text": "1 Results Booster"
+              }
+            ],
+            [
+              {
+                "text": "1800000"
+              },
+              {
+                "text": "1 \"Head Judging\"",
+                "cards": [
+                  {
+                    "name": "Head Judging",
+                    "card": "f805ce93-e099-4a3d-878c-23570fe7a7af",
+                    "yugipediaId": 669638,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "1900000"
+              },
+              {
+                "text": "20000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "2000000"
+              },
+              {
+                "text": "1 UR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "2100000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "2300000"
+              },
+              {
+                "text": "Icon"
+              }
+            ],
+            [
+              {
+                "text": "2500000"
+              },
+              {
+                "text": "50 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "2700000"
+              },
+              {
+                "text": "20000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "2900000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "3000000"
+              },
+              {
+                "text": "Memories of a Friend Completed"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "cumulativeRewards",
+      "path": [
+        "Rewards",
+        "Cumulative Rewards"
+      ],
+      "run": "Jan-Feb 2020",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "10000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "20000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "30000"
+              },
+              {
+                "text": "1 EXP Booster"
+              }
+            ],
+            [
+              {
+                "text": "40000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "50000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "60000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "70000"
+              },
+              {
+                "text": "1 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "80000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "90000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "100000"
+              },
+              {
+                "text": "1 \"Flame Swordsman\"",
+                "cards": [
+                  {
+                    "name": "Flame Swordsman",
+                    "card": "06b45b18-9252-4d76-8bd9-e79057d1e5d9",
+                    "yugipediaId": 142,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "120000"
+              },
+              {
+                "text": "1 Results Booster"
+              }
+            ],
+            [
+              {
+                "text": "140000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "160000"
+              },
+              {
+                "text": "5 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "180000"
+              },
+              {
+                "text": "1 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "200000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "220000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "240000"
+              },
+              {
+                "text": "40 Duel Memories"
+              }
+            ],
+            [
+              {
+                "text": "260000"
+              },
+              {
+                "text": "1 \"Divine Knight Ishzark\"",
+                "cards": [
+                  {
+                    "name": "Divine Knight Ishzark",
+                    "card": "a7e5b1db-ca34-4639-a9d8-a86c0d304358",
+                    "yugipediaId": 12343,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "280000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "300000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "320000"
+              },
+              {
+                "text": "5 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "340000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "360000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "380000"
+              },
+              {
+                "text": "1 EXP Booster"
+              }
+            ],
+            [
+              {
+                "text": "400000"
+              },
+              {
+                "text": "40 Duel Memories"
+              }
+            ],
+            [
+              {
+                "text": "420000"
+              },
+              {
+                "text": "Card Sleeves: Memories of a Friend"
+              }
+            ],
+            [
+              {
+                "text": "440000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "460000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "480000"
+              },
+              {
+                "text": "30 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "500000"
+              },
+              {
+                "text": "1 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "520000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "540000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "560000"
+              },
+              {
+                "text": "5 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "580000"
+              },
+              {
+                "text": "30 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "600000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "620000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "640000"
+              },
+              {
+                "text": "1 Results Booster"
+              }
+            ],
+            [
+              {
+                "text": "660000"
+              },
+              {
+                "text": "1 \"D.D. Seeker\"",
+                "cards": [
+                  {
+                    "name": "D.D. Seeker",
+                    "card": "27dfb1df-7854-471f-b5aa-1973658f2589",
+                    "yugipediaId": 530635,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "680000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "700000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "720000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "740000"
+              },
+              {
+                "text": "1 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "760000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "780000"
+              },
+              {
+                "text": "30 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "800000"
+              },
+              {
+                "text": "5 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "840000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "880000"
+              },
+              {
+                "text": "1 SR Jewels"
+              }
+            ],
+            [
+              {
+                "text": "920000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "960000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1000000"
+              },
+              {
+                "text": "Game Mat: Memories of a Friend"
+              }
+            ],
+            [
+              {
+                "text": "1100000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1200000"
+              },
+              {
+                "text": "1 EXP Booster"
+              }
+            ],
+            [
+              {
+                "text": "1300000"
+              },
+              {
+                "text": "40 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "1400000"
+              },
+              {
+                "text": "5 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "1500000"
+              },
+              {
+                "text": "15000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1600000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1700000"
+              },
+              {
+                "text": "1 UR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "1800000"
+              },
+              {
+                "text": "1 \"Disposable Learner Device\"",
+                "cards": [
+                  {
+                    "name": "Disposable Learner Device",
+                    "card": "d3e16c85-01ae-4cd6-8d30-757462ceb142",
+                    "yugipediaId": 669667,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "1900000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "2000000"
+              },
+              {
+                "text": "15000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "2200000"
+              },
+              {
+                "text": "5 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "2400000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "2600000"
+              },
+              {
+                "text": "1 Results Booster"
+              }
+            ],
+            [
+              {
+                "text": "2800000"
+              },
+              {
+                "text": "1 \"Dice It\"",
+                "cards": [
+                  {
+                    "name": "Dice It",
+                    "card": "b6a2b3d4-2f0b-4e24-be27-8bcaf154bbeb",
+                    "yugipediaId": 585977,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "3000000"
+              },
+              {
+                "text": "20000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "3200000"
+              },
+              {
+                "text": "1 UR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "3400000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "3600000"
+              },
+              {
+                "text": "Icon"
+              }
+            ],
+            [
+              {
+                "text": "3850000"
+              },
+              {
+                "text": "50 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "4100000"
+              },
+              {
+                "text": "20000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "4350000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "4600000"
+              },
+              {
+                "text": "Memories of a Friend Completed"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "notes": [
+        "When Dueling against Yami Yugi (Events) or Joey Wheeler (DSOD) Level 40 or higher, the following are the only cards that can drop; at lower levels, cards from the standard pool for Legendary Duelists may also drop."
+      ]
+    },
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards",
+        "Yami Yugi (Events)"
+      ],
+      "run": "April 2020",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Magician of Dark Illusion\"",
+                "cards": [
+                  {
+                    "name": "Magician of Dark Illusion",
+                    "card": "050c5212-445f-4543-8df3-d574f60bce36",
+                    "yugipediaId": 359929
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"D.D. Patrol Plane\", \"D.D. Seeker\", \"Disposable Learner Device\", \"Charging Gaia the Fierce Knight\", \"Magician's Robe\"",
+                "cards": [
+                  {
+                    "name": "D.D. Patrol Plane",
+                    "card": "c19d4ed1-eaed-4924-ae3d-318bc6b70aec",
+                    "yugipediaId": 642437
+                  },
+                  {
+                    "name": "D.D. Seeker",
+                    "card": "27dfb1df-7854-471f-b5aa-1973658f2589",
+                    "yugipediaId": 530635
+                  },
+                  {
+                    "name": "Disposable Learner Device",
+                    "card": "d3e16c85-01ae-4cd6-8d30-757462ceb142",
+                    "yugipediaId": 669667
+                  },
+                  {
+                    "name": "Charging Gaia the Fierce Knight",
+                    "card": "241e8650-c933-4dc8-9d45-cffb809d32b7",
+                    "yugipediaId": 354510
+                  },
+                  {
+                    "name": "Magician's Robe",
+                    "card": "c009396c-2910-46aa-9327-d67536693632",
+                    "yugipediaId": 360101
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Mystical Elf\", \"Kanan the Swordmistress\"",
+                "cards": [
+                  {
+                    "name": "Mystical Elf",
+                    "card": "4507fde7-aeea-420b-a2be-4bd8d3654a3c",
+                    "yugipediaId": 1534
+                  },
+                  {
+                    "name": "Kanan the Swordmistress",
+                    "card": "7def39ea-fc9a-49ea-8097-0e55ec111744",
+                    "yugipediaId": 2443
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Griffore\", \"Kamionwizard\", \"Mushroom Man\"",
+                "cards": [
+                  {
+                    "name": "Griffore",
+                    "card": "ea78efdc-dc78-4644-ba12-01f83a277bc8",
+                    "yugipediaId": 21669
+                  },
+                  {
+                    "name": "Kamionwizard",
+                    "card": "868bce77-217e-4829-ba79-41751cba085e",
+                    "yugipediaId": 5856
+                  },
+                  {
+                    "name": "Mushroom Man",
+                    "card": "6b255dcc-b608-4e94-a932-a978fd69a534",
+                    "yugipediaId": 18141
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards",
+        "Yami Yugi (Events)"
+      ],
+      "run": "Jan-Feb 2020",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Magician of Dark Illusion\"",
+                "cards": [
+                  {
+                    "name": "Magician of Dark Illusion",
+                    "card": "050c5212-445f-4543-8df3-d574f60bce36",
+                    "yugipediaId": 359929
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Charging Gaia the Fierce Knight\", \"D.D. Seeker\", \"Magician's Robe\", \"Disposable Learner Device\", \"Dark Magic Expanded\"",
+                "cards": [
+                  {
+                    "name": "Charging Gaia the Fierce Knight",
+                    "card": "241e8650-c933-4dc8-9d45-cffb809d32b7",
+                    "yugipediaId": 354510
+                  },
+                  {
+                    "name": "D.D. Seeker",
+                    "card": "27dfb1df-7854-471f-b5aa-1973658f2589",
+                    "yugipediaId": 530635
+                  },
+                  {
+                    "name": "Magician's Robe",
+                    "card": "c009396c-2910-46aa-9327-d67536693632",
+                    "yugipediaId": 360101
+                  },
+                  {
+                    "name": "Disposable Learner Device",
+                    "card": "d3e16c85-01ae-4cd6-8d30-757462ceb142",
+                    "yugipediaId": 669667
+                  },
+                  {
+                    "name": "Dark Magic Expanded",
+                    "card": "d99d72d9-41d1-4854-9d69-8afcec58ec58",
+                    "yugipediaId": 384345
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Mystical Elf\", \"Kanan the Swordmistress\"",
+                "cards": [
+                  {
+                    "name": "Mystical Elf",
+                    "card": "4507fde7-aeea-420b-a2be-4bd8d3654a3c",
+                    "yugipediaId": 1534
+                  },
+                  {
+                    "name": "Kanan the Swordmistress",
+                    "card": "7def39ea-fc9a-49ea-8097-0e55ec111744",
+                    "yugipediaId": 2443
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Griffore\", \"Kamionwizard\", \"Mushroom Man\"",
+                "cards": [
+                  {
+                    "name": "Griffore",
+                    "card": "ea78efdc-dc78-4644-ba12-01f83a277bc8",
+                    "yugipediaId": 21669
+                  },
+                  {
+                    "name": "Kamionwizard",
+                    "card": "868bce77-217e-4829-ba79-41751cba085e",
+                    "yugipediaId": 5856
+                  },
+                  {
+                    "name": "Mushroom Man",
+                    "card": "6b255dcc-b608-4e94-a932-a978fd69a534",
+                    "yugipediaId": 18141
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards",
+        "Joey Wheeler (DSOD)"
+      ],
+      "run": "April 2020",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Head Judging\", \"Dice It\"",
+                "cards": [
+                  {
+                    "name": "Head Judging",
+                    "card": "f805ce93-e099-4a3d-878c-23570fe7a7af",
+                    "yugipediaId": 669638
+                  },
+                  {
+                    "name": "Dice It",
+                    "card": "b6a2b3d4-2f0b-4e24-be27-8bcaf154bbeb",
+                    "yugipediaId": 585977
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"D.D. Patrol Plane\", \"D.D. Seeker\", \"Disposable Learner Device\"",
+                "cards": [
+                  {
+                    "name": "D.D. Patrol Plane",
+                    "card": "c19d4ed1-eaed-4924-ae3d-318bc6b70aec",
+                    "yugipediaId": 642437
+                  },
+                  {
+                    "name": "D.D. Seeker",
+                    "card": "27dfb1df-7854-471f-b5aa-1973658f2589",
+                    "yugipediaId": 530635
+                  },
+                  {
+                    "name": "Disposable Learner Device",
+                    "card": "d3e16c85-01ae-4cd6-8d30-757462ceb142",
+                    "yugipediaId": 669667
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Thousand Dragon\", \"Flame Swordsman\", \"Alligator's Sword Dragon\", \"Legendary Sword\"",
+                "cards": [
+                  {
+                    "name": "Thousand Dragon",
+                    "card": "0fcf5b70-d3a0-44f2-8bcb-dcfe6a435478",
+                    "yugipediaId": 1519
+                  },
+                  {
+                    "name": "Flame Swordsman",
+                    "card": "06b45b18-9252-4d76-8bd9-e79057d1e5d9",
+                    "yugipediaId": 142
+                  },
+                  {
+                    "name": "Alligator's Sword Dragon",
+                    "card": "d6ac3f4f-5f07-4a25-afe5-ea4804f8b794",
+                    "yugipediaId": 16567
+                  },
+                  {
+                    "name": "Legendary Sword",
+                    "card": "bac8b5a8-fded-4ef6-a318-da967b3447d6",
+                    "yugipediaId": 505906
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Armored Lizard\"",
+                "cards": [
+                  {
+                    "name": "Armored Lizard",
+                    "card": "a6d121dd-82c6-4b6e-be7d-9a25e7065723",
+                    "yugipediaId": 508301
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards",
+        "Joey Wheeler (DSOD)"
+      ],
+      "run": "Jan-Feb 2020",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Dice It\"",
+                "cards": [
+                  {
+                    "name": "Dice It",
+                    "card": "b6a2b3d4-2f0b-4e24-be27-8bcaf154bbeb",
+                    "yugipediaId": 585977
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Meteor Dragon Red-Eyes Impact\", \"Divine Knight Ishzark\", \"D.D. Seeker\", \"Disposable Learner Device\"",
+                "cards": [
+                  {
+                    "name": "Meteor Dragon Red-Eyes Impact",
+                    "card": "242b6d1b-7c98-42c2-b77f-a4783efdac32",
+                    "yugipediaId": 460366
+                  },
+                  {
+                    "name": "Divine Knight Ishzark",
+                    "card": "a7e5b1db-ca34-4639-a9d8-a86c0d304358",
+                    "yugipediaId": 12343
+                  },
+                  {
+                    "name": "D.D. Seeker",
+                    "card": "27dfb1df-7854-471f-b5aa-1973658f2589",
+                    "yugipediaId": 530635
+                  },
+                  {
+                    "name": "Disposable Learner Device",
+                    "card": "d3e16c85-01ae-4cd6-8d30-757462ceb142",
+                    "yugipediaId": 669667
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Thousand Dragon\", \"Flame Swordsman\", \"Alligator's Sword Dragon\", \"Legendary Sword\"",
+                "cards": [
+                  {
+                    "name": "Thousand Dragon",
+                    "card": "0fcf5b70-d3a0-44f2-8bcb-dcfe6a435478",
+                    "yugipediaId": 1519
+                  },
+                  {
+                    "name": "Flame Swordsman",
+                    "card": "06b45b18-9252-4d76-8bd9-e79057d1e5d9",
+                    "yugipediaId": 142
+                  },
+                  {
+                    "name": "Alligator's Sword Dragon",
+                    "card": "d6ac3f4f-5f07-4a25-afe5-ea4804f8b794",
+                    "yugipediaId": 16567
+                  },
+                  {
+                    "name": "Legendary Sword",
+                    "card": "bac8b5a8-fded-4ef6-a318-da967b3447d6",
+                    "yugipediaId": 505906
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Armored Lizard\"",
+                "cards": [
+                  {
+                    "name": "Armored Lizard",
+                    "card": "a6d121dd-82c6-4b6e-be7d-9a25e7065723",
+                    "yugipediaId": 508301
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "cardTraderEx",
+      "path": [
+        "Rewards",
+        "Card Trader EX"
+      ],
+      "notes": [
+        "The Card Trader EX appears during this event and remained open until one week after its conclusion. The player can trade their EX Jewels for cards, Booster Items, Gold, and Skill Chips. Each card and Booster Item can only be obtained once from the Card Trader EX during this event, but the Gold can be obtained any number of times."
+      ]
+    },
+    {
+      "kind": "cardTraderEx",
+      "path": [
+        "Rewards",
+        "Card Trader EX"
+      ],
+      "run": "April 2020",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "EX Jewels",
+            "Item"
+          ],
+          "rows": [
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1"
+              },
+              {
+                "text": "100 Gold"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Results Booster"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 EXP Booster"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "10 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Head Judging\" (Glossy)",
+                "cards": [
+                  {
+                    "name": "Head Judging",
+                    "card": "f805ce93-e099-4a3d-878c-23570fe7a7af",
+                    "yugipediaId": 669638,
+                    "quantity": 1,
+                    "variant": "Glossy"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "400"
+              },
+              {
+                "text": "1 \"Head Judging\" (Prismatic)",
+                "cards": [
+                  {
+                    "name": "Head Judging",
+                    "card": "f805ce93-e099-4a3d-878c-23570fe7a7af",
+                    "yugipediaId": 669638,
+                    "quantity": 1,
+                    "variant": "Prismatic"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "300"
+              },
+              {
+                "text": "1 \"Dice It\"",
+                "cards": [
+                  {
+                    "name": "Dice It",
+                    "card": "b6a2b3d4-2f0b-4e24-be27-8bcaf154bbeb",
+                    "yugipediaId": 585977,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "300"
+              },
+              {
+                "text": "1 \"Magician of Dark Illusion\"",
+                "cards": [
+                  {
+                    "name": "Magician of Dark Illusion",
+                    "card": "050c5212-445f-4543-8df3-d574f60bce36",
+                    "yugipediaId": 359929,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"D.D. Patrol Plane\"",
+                "cards": [
+                  {
+                    "name": "D.D. Patrol Plane",
+                    "card": "c19d4ed1-eaed-4924-ae3d-318bc6b70aec",
+                    "yugipediaId": 642437,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"D.D. Seeker\"",
+                "cards": [
+                  {
+                    "name": "D.D. Seeker",
+                    "card": "27dfb1df-7854-471f-b5aa-1973658f2589",
+                    "yugipediaId": 530635,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Disposable Learner Device\"",
+                "cards": [
+                  {
+                    "name": "Disposable Learner Device",
+                    "card": "d3e16c85-01ae-4cd6-8d30-757462ceb142",
+                    "yugipediaId": 669667,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Charging Gaia the Fierce Knight\"",
+                "cards": [
+                  {
+                    "name": "Charging Gaia the Fierce Knight",
+                    "card": "241e8650-c933-4dc8-9d45-cffb809d32b7",
+                    "yugipediaId": 354510,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Magician's Robe\"",
+                "cards": [
+                  {
+                    "name": "Magician's Robe",
+                    "card": "c009396c-2910-46aa-9327-d67536693632",
+                    "yugipediaId": 360101,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Meteor Dragon Red-Eyes Impact\"",
+                "cards": [
+                  {
+                    "name": "Meteor Dragon Red-Eyes Impact",
+                    "card": "242b6d1b-7c98-42c2-b77f-a4783efdac32",
+                    "yugipediaId": 460366,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Divine Knight Ishzark\"",
+                "cards": [
+                  {
+                    "name": "Divine Knight Ishzark",
+                    "card": "a7e5b1db-ca34-4639-a9d8-a86c0d304358",
+                    "yugipediaId": 12343,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Mystical Elf\"",
+                "cards": [
+                  {
+                    "name": "Mystical Elf",
+                    "card": "4507fde7-aeea-420b-a2be-4bd8d3654a3c",
+                    "yugipediaId": 1534,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Kanan the Swordmistress\"",
+                "cards": [
+                  {
+                    "name": "Kanan the Swordmistress",
+                    "card": "7def39ea-fc9a-49ea-8097-0e55ec111744",
+                    "yugipediaId": 2443,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Flame Swordsman\"",
+                "cards": [
+                  {
+                    "name": "Flame Swordsman",
+                    "card": "06b45b18-9252-4d76-8bd9-e79057d1e5d9",
+                    "yugipediaId": 142,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Legendary Sword\"",
+                "cards": [
+                  {
+                    "name": "Legendary Sword",
+                    "card": "bac8b5a8-fded-4ef6-a318-da967b3447d6",
+                    "yugipediaId": 505906,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Thousand Dragon\"",
+                "cards": [
+                  {
+                    "name": "Thousand Dragon",
+                    "card": "0fcf5b70-d3a0-44f2-8bcb-dcfe6a435478",
+                    "yugipediaId": 1519,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Armored Lizard\"",
+                "cards": [
+                  {
+                    "name": "Armored Lizard",
+                    "card": "a6d121dd-82c6-4b6e-be7d-9a25e7065723",
+                    "yugipediaId": 508301,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "cardTraderEx",
+      "path": [
+        "Rewards",
+        "Card Trader EX"
+      ],
+      "run": "Jan-Feb 2020",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "EX Jewels",
+            "Item"
+          ],
+          "rows": [
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1"
+              },
+              {
+                "text": "100 Gold"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Results Booster"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 EXP Booster"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Extra Life"
+              }
+            ],
+            [
+              {
+                "text": "50"
+              },
+              {
+                "text": "5 Extra Card"
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "10 Skill Chips"
+              }
+            ],
+            [
+              {
+                "text": "300"
+              },
+              {
+                "text": "1 \"Yu-Jo Friendship\"",
+                "cards": [
+                  {
+                    "name": "Yu-Jo Friendship",
+                    "card": "51a47e60-a9cd-490f-b99a-8dcbbb3532a9",
+                    "yugipediaId": 7424,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "300"
+              },
+              {
+                "text": "1 \"Magician of Dark Illusion\"",
+                "cards": [
+                  {
+                    "name": "Magician of Dark Illusion",
+                    "card": "050c5212-445f-4543-8df3-d574f60bce36",
+                    "yugipediaId": 359929,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"D.D. Seeker\"",
+                "cards": [
+                  {
+                    "name": "D.D. Seeker",
+                    "card": "27dfb1df-7854-471f-b5aa-1973658f2589",
+                    "yugipediaId": 530635,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Disposable Learner Device\"",
+                "cards": [
+                  {
+                    "name": "Disposable Learner Device",
+                    "card": "d3e16c85-01ae-4cd6-8d30-757462ceb142",
+                    "yugipediaId": 669667,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Charging Gaia the Fierce Knight\"",
+                "cards": [
+                  {
+                    "name": "Charging Gaia the Fierce Knight",
+                    "card": "241e8650-c933-4dc8-9d45-cffb809d32b7",
+                    "yugipediaId": 354510,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Magician's Robe\"",
+                "cards": [
+                  {
+                    "name": "Magician's Robe",
+                    "card": "c009396c-2910-46aa-9327-d67536693632",
+                    "yugipediaId": 360101,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Dark Magic Expanded\"",
+                "cards": [
+                  {
+                    "name": "Dark Magic Expanded",
+                    "card": "d99d72d9-41d1-4854-9d69-8afcec58ec58",
+                    "yugipediaId": 384345,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Meteor Dragon Red-Eyes Impact\"",
+                "cards": [
+                  {
+                    "name": "Meteor Dragon Red-Eyes Impact",
+                    "card": "242b6d1b-7c98-42c2-b77f-a4783efdac32",
+                    "yugipediaId": 460366,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Divine Knight Ishzark\"",
+                "cards": [
+                  {
+                    "name": "Divine Knight Ishzark",
+                    "card": "a7e5b1db-ca34-4639-a9d8-a86c0d304358",
+                    "yugipediaId": 12343,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Mystical Elf\"",
+                "cards": [
+                  {
+                    "name": "Mystical Elf",
+                    "card": "4507fde7-aeea-420b-a2be-4bd8d3654a3c",
+                    "yugipediaId": 1534,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Kanan the Swordmistress\"",
+                "cards": [
+                  {
+                    "name": "Kanan the Swordmistress",
+                    "card": "7def39ea-fc9a-49ea-8097-0e55ec111744",
+                    "yugipediaId": 2443,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Flame Swordsman\"",
+                "cards": [
+                  {
+                    "name": "Flame Swordsman",
+                    "card": "06b45b18-9252-4d76-8bd9-e79057d1e5d9",
+                    "yugipediaId": 142,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Legendary Sword\"",
+                "cards": [
+                  {
+                    "name": "Legendary Sword",
+                    "card": "bac8b5a8-fded-4ef6-a318-da967b3447d6",
+                    "yugipediaId": 505906,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Thousand Dragon\"",
+                "cards": [
+                  {
+                    "name": "Thousand Dragon",
+                    "card": "0fcf5b70-d3a0-44f2-8bcb-dcfe6a435478",
+                    "yugipediaId": 1519,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Armored Lizard\"",
+                "cards": [
+                  {
+                    "name": "Armored Lizard",
+                    "card": "a6d121dd-82c6-4b6e-be7d-9a25e7065723",
+                    "yugipediaId": 508301,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Rewards",
+        "Event Missions"
+      ],
+      "run": "April 2020",
+      "runIndex": 1,
+      "notes": [
+        "These missions were available from the start of the event.",
+        "These missions were made available on April 24, 2020.",
+        "This mission was made available on April 25, 2020."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Event Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against Yami Yugi  (Events)  at Level 10 in Duel World."
+              },
+              {
+                "text": "10 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 1 Duel(s) against Yami Yugi  (Events)  at Level 20 in Duel World."
+              },
+              {
+                "text": "15 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 1 Duel(s) against Yami Yugi  (Events)  at Level 30 in Duel World."
+              },
+              {
+                "text": "20 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 1 Duel(s) against Yami Yugi  (Events)  at Level 40 in Duel World."
+              },
+              {
+                "text": "30 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 10 Duel(s) against Yami Yugi  (Events)  in Duel World."
+              },
+              {
+                "text": "40 EX Jewels"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Event Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against Joey Wheeler (DSOD) at Level 10 in Duel World."
+              },
+              {
+                "text": "10 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 1 Duel(s) against Joey Wheeler (DSOD) at Level 20 in Duel World."
+              },
+              {
+                "text": "15 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 1 Duel(s) against Joey Wheeler (DSOD) at Level 30 in Duel World."
+              },
+              {
+                "text": "20 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 1 Duel(s) against Joey Wheeler (DSOD) at Level 40 in Duel World."
+              },
+              {
+                "text": "30 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 10 Duel(s) against Joey Wheeler (DSOD) in Duel World."
+              },
+              {
+                "text": "30 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 20 Duel(s) against Joey Wheeler (DSOD) in Duel World."
+              },
+              {
+                "text": "40 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Play 15 Duel(s) against Joey Wheeler (DSOD) in Duel World."
+              },
+              {
+                "text": "50 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Play 30 Duel(s) against Joey Wheeler (DSOD) in Duel World."
+              },
+              {
+                "text": "40 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 1 Duel(s) with \"Red-Eyes Black Dragon\" in your Deck, while playing as Joey Wheeler (DSOD).",
+                "cards": [
+                  {
+                    "name": "Red-Eyes Black Dragon",
+                    "card": "2259107b-9d4b-42b0-af3d-5d7c738e85da",
+                    "yugipediaId": 73
+                  }
+                ]
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Summon \"Red-Eyes Black Dragon\" 2 time(s), while playing as Joey Wheeler (DSOD)."
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Summon \"Red-Eyes Black Dragon\" 4 time(s), while playing as Joey Wheeler (DSOD)."
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Summon \"Red-Eyes Black Dragon\" 6 time(s), while playing as Joey Wheeler (DSOD)."
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Reduce your opponent's LP to 0 by inflicting battle damage with Red-Eyes Black Dragon using Joey Wheeler (DSOD)."
+              },
+              {
+                "text": "30 Gems"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Event Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Achieve 1 Comeback Victory(ies) in Duels against Yami Yugi  (Events)  using Joey Wheeler (DSOD)."
+              },
+              {
+                "text": "10 Skill Chips"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Rewards",
+        "Event Missions"
+      ],
+      "run": "Jan-Feb 2020",
+      "runIndex": 0,
+      "notes": [
+        "These missions were available from the start of the event.",
+        "This mission was made available on January 28, 2020, but only until January 29, 2020.",
+        "These missions were made available on January 30, 2020.",
+        "This missions was made available on February 1, 2020."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Event Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against Yami Yugi  (Events)  at Level 10 in Duel World."
+              },
+              {
+                "text": "10 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 1 Duel(s) against Yami Yugi  (Events)  at Level 20 in Duel World."
+              },
+              {
+                "text": "15 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 1 Duel(s) against Yami Yugi  (Events)  at Level 30 in Duel World."
+              },
+              {
+                "text": "20 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 1 Duel(s) against Yami Yugi  (Events)  at Level 40 in Duel World."
+              },
+              {
+                "text": "30 EX Jewels"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Event Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against Yami Yugi  (Events)  at Level 50 in Duel World."
+              },
+              {
+                "text": "40 EX Jewels"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Event Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against Joey Wheeler (DSOD) at Level 10 in Duel World."
+              },
+              {
+                "text": "10 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 1 Duel(s) against Joey Wheeler (DSOD) at Level 20 in Duel World."
+              },
+              {
+                "text": "15 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 1 Duel(s) against Joey Wheeler (DSOD) at Level 30 in Duel World."
+              },
+              {
+                "text": "20 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 1 Duel(s) against Joey Wheeler (DSOD) at Level 40 in Duel World."
+              },
+              {
+                "text": "30 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 10 Duel(s) against Joey Wheeler (DSOD) in Duel World."
+              },
+              {
+                "text": "30 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 20 Duel(s) against Joey Wheeler (DSOD) in Duel World."
+              },
+              {
+                "text": "40 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Play 15 Duel(s) against Joey Wheeler (DSOD) in Duel World."
+              },
+              {
+                "text": "50 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Play 30 Duel(s) against Joey Wheeler (DSOD) in Duel World."
+              },
+              {
+                "text": "40 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 1 Duel(s) with \"Red-Eyes Black Dragon\" in your Deck, while playing as Joey Wheeler (DSOD).",
+                "cards": [
+                  {
+                    "name": "Red-Eyes Black Dragon",
+                    "card": "2259107b-9d4b-42b0-af3d-5d7c738e85da",
+                    "yugipediaId": 73
+                  }
+                ]
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Summon \"Red-Eyes Black Dragon\" 2 time(s), while playing as Joey Wheeler (DSOD)."
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Summon \"Red-Eyes Black Dragon\" 4 time(s), while playing as Joey Wheeler (DSOD)."
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Summon \"Red-Eyes Black Dragon\" 6 time(s), while playing as Joey Wheeler (DSOD)."
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "Reduce your opponent's LP to 0 by inflicting battle damage with Red-Eyes Black Dragon using Joey Wheeler (DSOD)."
+              },
+              {
+                "text": "30 Gems"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Event Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against Super Joey in Duel World."
+              },
+              {
+                "text": "10 Skill Chips"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "dailyMissions",
+      "path": [
+        "Rewards",
+        "Event Missions",
+        "Daily Missions"
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Event Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Play 1 Duel(s) in Ranked Duels (surrenders are not counted.)"
+              },
+              {
+                "text": "20 Duel Memories"
+              }
+            ],
+            [
+              {
+                "text": "Play 2 Duel(s) in Ranked Duels (surrenders are not counted.)"
+              },
+              {
+                "text": "20 Duel Memories"
+              }
+            ],
+            [
+              {
+                "text": "Play 3 Duel(s) in Ranked Duels (surrenders are not counted.)"
+              },
+              {
+                "text": "20 Duel Memories"
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Legendary Sword",
+      "card": "bac8b5a8-fded-4ef6-a318-da967b3447d6",
+      "yugipediaId": 505906,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "April 2020",
+          "runIndex": 1,
+          "requirement": "50000"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "April 2020",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "Jan-Feb 2020",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "April 2020",
+          "runIndex": 1,
+          "requirement": "30"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Jan-Feb 2020",
+          "runIndex": 0,
+          "requirement": "30"
+        }
+      ]
+    },
+    {
+      "name": "D.D. Seeker",
+      "card": "27dfb1df-7854-471f-b5aa-1973658f2589",
+      "yugipediaId": 530635,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "April 2020",
+          "runIndex": 1,
+          "requirement": "170000"
+        },
+        {
+          "kind": "cumulativeRewards",
+          "run": "Jan-Feb 2020",
+          "runIndex": 0,
+          "requirement": "660000"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "April 2020",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "Jan-Feb 2020",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "April 2020",
+          "runIndex": 1,
+          "requirement": "100"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Jan-Feb 2020",
+          "runIndex": 0,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "D.D. Patrol Plane",
+      "card": "c19d4ed1-eaed-4924-ae3d-318bc6b70aec",
+      "yugipediaId": 642437,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "April 2020",
+          "runIndex": 1,
+          "requirement": "440000"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "April 2020",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "April 2020",
+          "runIndex": 1,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Dice It",
+      "card": "b6a2b3d4-2f0b-4e24-be27-8bcaf154bbeb",
+      "yugipediaId": 585977,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "April 2020",
+          "runIndex": 1,
+          "requirement": "1200000"
+        },
+        {
+          "kind": "cumulativeRewards",
+          "run": "Jan-Feb 2020",
+          "runIndex": 0,
+          "requirement": "2800000"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "April 2020",
+          "runIndex": 1,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "Jan-Feb 2020",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "April 2020",
+          "runIndex": 1,
+          "requirement": "300"
+        }
+      ]
+    },
+    {
+      "name": "Head Judging",
+      "card": "f805ce93-e099-4a3d-878c-23570fe7a7af",
+      "yugipediaId": 669638,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "April 2020",
+          "runIndex": 1,
+          "requirement": "1800000"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "April 2020",
+          "runIndex": 1,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "April 2020",
+          "runIndex": 1,
+          "requirement": "100"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "April 2020",
+          "runIndex": 1,
+          "requirement": "400"
+        }
+      ]
+    },
+    {
+      "name": "Flame Swordsman",
+      "card": "06b45b18-9252-4d76-8bd9-e79057d1e5d9",
+      "yugipediaId": 142,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "Jan-Feb 2020",
+          "runIndex": 0,
+          "requirement": "100000"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "April 2020",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "Jan-Feb 2020",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "April 2020",
+          "runIndex": 1,
+          "requirement": "30"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Jan-Feb 2020",
+          "runIndex": 0,
+          "requirement": "30"
+        }
+      ]
+    },
+    {
+      "name": "Divine Knight Ishzark",
+      "card": "a7e5b1db-ca34-4639-a9d8-a86c0d304358",
+      "yugipediaId": 12343,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "Jan-Feb 2020",
+          "runIndex": 0,
+          "requirement": "260000"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "Jan-Feb 2020",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "April 2020",
+          "runIndex": 1,
+          "requirement": "100"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Jan-Feb 2020",
+          "runIndex": 0,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Disposable Learner Device",
+      "card": "d3e16c85-01ae-4cd6-8d30-757462ceb142",
+      "yugipediaId": 669667,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "Jan-Feb 2020",
+          "runIndex": 0,
+          "requirement": "1800000"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "April 2020",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "Jan-Feb 2020",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "April 2020",
+          "runIndex": 1,
+          "requirement": "100"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Jan-Feb 2020",
+          "runIndex": 0,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Magician of Dark Illusion",
+      "card": "050c5212-445f-4543-8df3-d574f60bce36",
+      "yugipediaId": 359929,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2020",
+          "runIndex": 1,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "Jan-Feb 2020",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "April 2020",
+          "runIndex": 1,
+          "requirement": "300"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Jan-Feb 2020",
+          "runIndex": 0,
+          "requirement": "300"
+        }
+      ]
+    },
+    {
+      "name": "Charging Gaia the Fierce Knight",
+      "card": "241e8650-c933-4dc8-9d45-cffb809d32b7",
+      "yugipediaId": 354510,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2020",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "Jan-Feb 2020",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "April 2020",
+          "runIndex": 1,
+          "requirement": "100"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Jan-Feb 2020",
+          "runIndex": 0,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Magician's Robe",
+      "card": "c009396c-2910-46aa-9327-d67536693632",
+      "yugipediaId": 360101,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2020",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "Jan-Feb 2020",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "April 2020",
+          "runIndex": 1,
+          "requirement": "100"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Jan-Feb 2020",
+          "runIndex": 0,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Mystical Elf",
+      "card": "4507fde7-aeea-420b-a2be-4bd8d3654a3c",
+      "yugipediaId": 1534,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2020",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "Jan-Feb 2020",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "April 2020",
+          "runIndex": 1,
+          "requirement": "30"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Jan-Feb 2020",
+          "runIndex": 0,
+          "requirement": "30"
+        }
+      ]
+    },
+    {
+      "name": "Kanan the Swordmistress",
+      "card": "7def39ea-fc9a-49ea-8097-0e55ec111744",
+      "yugipediaId": 2443,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2020",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "Jan-Feb 2020",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "April 2020",
+          "runIndex": 1,
+          "requirement": "30"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Jan-Feb 2020",
+          "runIndex": 0,
+          "requirement": "30"
+        }
+      ]
+    },
+    {
+      "name": "Griffore",
+      "card": "ea78efdc-dc78-4644-ba12-01f83a277bc8",
+      "yugipediaId": 21669,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2020",
+          "runIndex": 1,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "Jan-Feb 2020",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Kamionwizard",
+      "card": "868bce77-217e-4829-ba79-41751cba085e",
+      "yugipediaId": 5856,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2020",
+          "runIndex": 1,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "Jan-Feb 2020",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Mushroom Man",
+      "card": "6b255dcc-b608-4e94-a932-a978fd69a534",
+      "yugipediaId": 18141,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2020",
+          "runIndex": 1,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "Jan-Feb 2020",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Dark Magic Expanded",
+      "card": "d99d72d9-41d1-4854-9d69-8afcec58ec58",
+      "yugipediaId": 384345,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "Jan-Feb 2020",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Jan-Feb 2020",
+          "runIndex": 0,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Thousand Dragon",
+      "card": "0fcf5b70-d3a0-44f2-8bcb-dcfe6a435478",
+      "yugipediaId": 1519,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2020",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "Jan-Feb 2020",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "April 2020",
+          "runIndex": 1,
+          "requirement": "10"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Jan-Feb 2020",
+          "runIndex": 0,
+          "requirement": "10"
+        }
+      ]
+    },
+    {
+      "name": "Alligator's Sword Dragon",
+      "card": "d6ac3f4f-5f07-4a25-afe5-ea4804f8b794",
+      "yugipediaId": 16567,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2020",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "Jan-Feb 2020",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Armored Lizard",
+      "card": "a6d121dd-82c6-4b6e-be7d-9a25e7065723",
+      "yugipediaId": 508301,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "April 2020",
+          "runIndex": 1,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "Jan-Feb 2020",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "April 2020",
+          "runIndex": 1,
+          "requirement": "10"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Jan-Feb 2020",
+          "runIndex": 0,
+          "requirement": "10"
+        }
+      ]
+    },
+    {
+      "name": "Meteor Dragon Red-Eyes Impact",
+      "card": "242b6d1b-7c98-42c2-b77f-a4783efdac32",
+      "yugipediaId": 460366,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "Jan-Feb 2020",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "April 2020",
+          "runIndex": 1,
+          "requirement": "100"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Jan-Feb 2020",
+          "runIndex": 0,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Yu-Jo Friendship",
+      "card": "51a47e60-a9cd-490f-b99a-8dcbbb3532a9",
+      "yugipediaId": 7424,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "run": "Jan-Feb 2020",
+          "runIndex": 0,
+          "requirement": "300"
+        }
+      ]
+    },
+    {
+      "name": "Red-Eyes Black Dragon",
+      "card": "2259107b-9d4b-42b0-af3d-5d7c738e85da",
+      "yugipediaId": 73,
+      "obtainedVia": [
+        {
+          "kind": "missions",
+          "run": "April 2020",
+          "runIndex": 1
+        },
+        {
+          "kind": "missions",
+          "run": "Jan-Feb 2020",
+          "runIndex": 0
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Memories of a Friend",
+        "id": 1011641
+      }
+    ]
+  }
+}

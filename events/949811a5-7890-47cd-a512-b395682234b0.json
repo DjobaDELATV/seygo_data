@@ -1,0 +1,2629 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "949811a5-7890-47cd-a512-b395682234b0",
+  "name": {
+    "en": "Dr. Crowler's Tricky Tests",
+    "fr": "Questions pi\u00e8ges du Docteur Crowler"
+  },
+  "type": "Gate Event",
+  "duelWorlds": [
+    "Duel World (GX)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/6/63/DrCrowlersTrickyTests-Banner.png",
+  "runs": [
+    {
+      "startDate": "2017-10-25",
+      "endDate": "2017-11-05"
+    },
+    {
+      "startDate": "2018-02-19",
+      "endDate": "2018-02-26"
+    }
+  ],
+  "cardTraderExDates": [
+    {
+      "startDate": "2017-10-25",
+      "endDate": "2017-11-05"
+    },
+    {
+      "startDate": "2018-02-19",
+      "endDate": "2018-03-05"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "other",
+      "path": [
+        "Rewards",
+        "Special Exams",
+        "February 2018"
+      ],
+      "run": "February 2018",
+      "runIndex": 1,
+      "notes": [
+        "Each reward is given after defeating Dr. Vellian Crowler in a Special Exam.",
+        "Other rewards are currently unknown."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Level",
+            "Duel Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": ""
+              }
+            ],
+            [
+              {
+                "text": "20"
+              },
+              {
+                "text": "1 UR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Ancient Gear Castle\"",
+                "cards": [
+                  {
+                    "name": "Ancient Gear Castle",
+                    "card": "e1be8654-b3d4-4902-861a-f5231911bf61",
+                    "yugipediaId": 2882,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "cumulativeRewards",
+      "path": [
+        "Rewards",
+        "Cumulative Rewards"
+      ],
+      "notes": [
+        "The following rewards were awarded during this event, based on event points accumulated over the course of the event:"
+      ]
+    },
+    {
+      "kind": "cumulativeRewards",
+      "path": [
+        "Rewards",
+        "Cumulative Rewards"
+      ],
+      "run": "February 2018",
+      "runIndex": 1,
+      "notes": [
+        "Additionally, after obtaining all of the above rewards, the player obtains 5000 Gold for every additional 150,000 points they earn.",
+        "In addition to the above rewards, the player unlocks Dr. Vellian Crowler when they reach 200,000 points."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "2500"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "5000"
+              },
+              {
+                "text": "3 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "7500"
+              },
+              {
+                "text": "3000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "10000"
+              },
+              {
+                "text": "3 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "15000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "20000"
+              },
+              {
+                "text": "4 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "25000"
+              },
+              {
+                "text": "3000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "30000"
+              },
+              {
+                "text": "5 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "35000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "40000"
+              },
+              {
+                "text": "5 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "60000"
+              },
+              {
+                "text": "4000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "80000"
+              },
+              {
+                "text": "20 Academy Notebooks"
+              }
+            ],
+            [
+              {
+                "text": "100000"
+              },
+              {
+                "text": "1 \"Break! Draw!\"",
+                "cards": [
+                  {
+                    "name": "Break! Draw!",
+                    "card": "c0391652-b411-4722-966c-dc5420422a13",
+                    "yugipediaId": 58312,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "120000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "140000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "160000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "180000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "200000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "220000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "240000"
+              },
+              {
+                "text": "20 Academy Notebooks"
+              }
+            ],
+            [
+              {
+                "text": "260000"
+              },
+              {
+                "text": "1 \"Ancient Gear Cannon\"",
+                "cards": [
+                  {
+                    "name": "Ancient Gear Cannon",
+                    "card": "6e867938-fbd1-4baa-8999-28716dc42b5d",
+                    "yugipediaId": 11634,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "280000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "300000"
+              },
+              {
+                "text": "8 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "320000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "340000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "360000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "380000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "400000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "420000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "440000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "460000"
+              },
+              {
+                "text": "40 Academy Notebooks"
+              }
+            ],
+            [
+              {
+                "text": "480000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "500000"
+              },
+              {
+                "text": "Card Sleeves: Dr. Crowler's Tricky Tests"
+              }
+            ],
+            [
+              {
+                "text": "550000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "600000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "650000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "700000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "750000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "800000"
+              },
+              {
+                "text": "5000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "850000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "900000"
+              },
+              {
+                "text": "40 Academy Notebooks"
+              }
+            ],
+            [
+              {
+                "text": "950000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1000000"
+              },
+              {
+                "text": "1 \"Ancient Gear Golem\"",
+                "cards": [
+                  {
+                    "name": "Ancient Gear Golem",
+                    "card": "fae1ecc6-a974-48d1-82cc-1a632879b43f",
+                    "yugipediaId": 2956,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "1100000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1200000"
+              },
+              {
+                "text": "40 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1300000"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1400000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "1500000"
+              },
+              {
+                "text": "Game Mat: Dr. Crowler's Tricky Tests"
+              }
+            ],
+            [
+              {
+                "text": "1600000"
+              },
+              {
+                "text": "15000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1700000"
+              },
+              {
+                "text": "40 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1800000"
+              },
+              {
+                "text": "15000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1900000"
+              },
+              {
+                "text": "1 UR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "2000000"
+              },
+              {
+                "text": "1 \"Biofalcon\"",
+                "cards": [
+                  {
+                    "name": "Biofalcon",
+                    "card": "bd0d4342-546d-4417-a05a-3867a5d306dc",
+                    "yugipediaId": 127680,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "2100000"
+              },
+              {
+                "text": "20000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "2200000"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "2300000"
+              },
+              {
+                "text": "20000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "2400000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "2500000"
+              },
+              {
+                "text": "1 \"Ultimate Ancient Gear Golem\"",
+                "cards": [
+                  {
+                    "name": "Ultimate Ancient Gear Golem",
+                    "card": "4f6d0b2f-65fd-49db-a45c-a9dc08a89a9c",
+                    "yugipediaId": 86143,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "2600000"
+              },
+              {
+                "text": "2 SR Jewels"
+              }
+            ],
+            [
+              {
+                "text": "2700000"
+              },
+              {
+                "text": "40000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "2800000"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "2900000"
+              },
+              {
+                "text": "1 UR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "3000000"
+              },
+              {
+                "text": "Icon"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "cumulativeRewards",
+      "path": [
+        "Rewards",
+        "Cumulative Rewards"
+      ],
+      "run": "Oct-Nov 2017",
+      "runIndex": 0,
+      "notes": [
+        "In addition to the above rewards, the player unlocks Dr. Vellian Crowler when they reach 300,000 points."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "2500"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "5000"
+              },
+              {
+                "text": "2 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "7500"
+              },
+              {
+                "text": "2000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "10000"
+              },
+              {
+                "text": "2 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "15000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "20000"
+              },
+              {
+                "text": "2 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "25000"
+              },
+              {
+                "text": "2000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "30000"
+              },
+              {
+                "text": "4 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "35000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "40000"
+              },
+              {
+                "text": "4 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "50000"
+              },
+              {
+                "text": "5 Duel Orbs"
+              }
+            ],
+            [
+              {
+                "text": "60000"
+              },
+              {
+                "text": "3000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "70000"
+              },
+              {
+                "text": "10 Gems"
+              }
+            ],
+            [
+              {
+                "text": "80000"
+              },
+              {
+                "text": "4 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "100000"
+              },
+              {
+                "text": "3000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "120000"
+              },
+              {
+                "text": "4 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "140000"
+              },
+              {
+                "text": "1 \"Ancient Gear Soldier\"",
+                "cards": [
+                  {
+                    "name": "Ancient Gear Soldier",
+                    "card": "4f4a6fcf-bbbc-4d09-a815-d445d87c343a",
+                    "yugipediaId": 16174,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "160000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "180000"
+              },
+              {
+                "text": "6000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "200000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "220000"
+              },
+              {
+                "text": "6000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "240000"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "260000"
+              },
+              {
+                "text": "8 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "280000"
+              },
+              {
+                "text": "5 Duel Orbs"
+              }
+            ],
+            [
+              {
+                "text": "300000"
+              },
+              {
+                "text": "1 \"Ancient Gear Workshop\"",
+                "cards": [
+                  {
+                    "name": "Ancient Gear Workshop",
+                    "card": "ce3c0ba7-77a4-4844-989c-8c71b523b57b",
+                    "yugipediaId": 18005,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "320000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "340000"
+              },
+              {
+                "text": "8000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "360000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "380000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "400000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "420000"
+              },
+              {
+                "text": "8000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "440000"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "460000"
+              },
+              {
+                "text": "10 Duel Orbs"
+              }
+            ],
+            [
+              {
+                "text": "480000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "500000"
+              },
+              {
+                "text": "Card Sleeves: Dr. Crowler's Tricky Tests"
+              }
+            ],
+            [
+              {
+                "text": "540000"
+              },
+              {
+                "text": "12000 Gold"
+              }
+            ]
+          ]
+        },
+        {
+          "columns": [
+            "Points",
+            "Event Rewards"
+          ],
+          "rows": [
+            [
+              {
+                "text": "580000"
+              },
+              {
+                "text": "40 Gems"
+              }
+            ],
+            [
+              {
+                "text": "620000"
+              },
+              {
+                "text": "10 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "660000"
+              },
+              {
+                "text": "12000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "700000"
+              },
+              {
+                "text": "40 Gems"
+              }
+            ],
+            [
+              {
+                "text": "750000"
+              },
+              {
+                "text": "12000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "800000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "850000"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "900000"
+              },
+              {
+                "text": "1 \"Ancient Gear Engineer\"",
+                "cards": [
+                  {
+                    "name": "Ancient Gear Engineer",
+                    "card": "c3d7cd02-dcaa-4245-91c0-38b606ef2c6e",
+                    "yugipediaId": 21176,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "950000"
+              },
+              {
+                "text": "12000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1000000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "1050000"
+              },
+              {
+                "text": "40 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1100000"
+              },
+              {
+                "text": "15000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1150000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "1200000"
+              },
+              {
+                "text": "15000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1250000"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1300000"
+              },
+              {
+                "text": "1 UR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "1400000"
+              },
+              {
+                "text": "Game Mat: Dr. Crowler's Tricky Tests"
+              }
+            ],
+            [
+              {
+                "text": "1500000"
+              },
+              {
+                "text": "15000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1600000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "1700000"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1800000"
+              },
+              {
+                "text": "15000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1900000"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "2000000"
+              },
+              {
+                "text": "15000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "2100000"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "2200000"
+              },
+              {
+                "text": "1 UR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "2300000"
+              },
+              {
+                "text": "1 \"Ancient Gear Fist\"",
+                "cards": [
+                  {
+                    "name": "Ancient Gear Fist",
+                    "card": "7ac307cb-b1c7-46fe-ab30-4321fee89d9c",
+                    "yugipediaId": 18069,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "2500000"
+              },
+              {
+                "text": "2 SR Jewels"
+              }
+            ],
+            [
+              {
+                "text": "2700000"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "2900000"
+              },
+              {
+                "text": "20000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "3300000"
+              },
+              {
+                "text": "1 UR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "3500000"
+              },
+              {
+                "text": "1 \"Emes the Infinity\"",
+                "cards": [
+                  {
+                    "name": "Emes the Infinity",
+                    "card": "3f58a7be-00a9-4067-b2ec-ee350f084d20",
+                    "yugipediaId": 14619,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "3700000"
+              },
+              {
+                "text": "2 SR Jewels"
+              }
+            ],
+            [
+              {
+                "text": "3900000"
+              },
+              {
+                "text": "50000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "4100000"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "4300000"
+              },
+              {
+                "text": "1 UR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "4500000"
+              },
+              {
+                "text": "Icon"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "cardTraderEx",
+      "path": [
+        "Rewards",
+        "Card Trader EX"
+      ],
+      "notes": [
+        "The Card Trader EX appears during this event and remains open until one week after its conclusion. The player can trade their EX Jewels for cards, Booster Items, and Gold. Each card and Booster Item can only be obtained once from the Card Trader EX during this event, but the Gold can be obtained any number of times.",
+        "During the 2017 run of this event, the Card Trader EX had not been introduced to the game yet, so the normal Card Trader would get additional cards to his inventory instead."
+      ]
+    },
+    {
+      "kind": "cardTraderEx",
+      "path": [
+        "Rewards",
+        "Card Trader EX"
+      ],
+      "run": "February 2018",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "EX Jewels",
+            "Item"
+          ],
+          "rows": [
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1"
+              },
+              {
+                "text": "100 Gold"
+              }
+            ],
+            [
+              {
+                "text": "300"
+              },
+              {
+                "text": "1 \"Guardian Angel Joan\"",
+                "cards": [
+                  {
+                    "name": "Guardian Angel Joan",
+                    "card": "257d0c3f-00d0-4026-b26e-c5ece3323a4a",
+                    "yugipediaId": 7880,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Emes the Infinity\"",
+                "cards": [
+                  {
+                    "name": "Emes the Infinity",
+                    "card": "3f58a7be-00a9-4067-b2ec-ee350f084d20",
+                    "yugipediaId": 14619,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Ancient Gear Fist\"",
+                "cards": [
+                  {
+                    "name": "Ancient Gear Fist",
+                    "card": "7ac307cb-b1c7-46fe-ab30-4321fee89d9c",
+                    "yugipediaId": 18069,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Chow Len the Prophet\"",
+                "cards": [
+                  {
+                    "name": "Chow Len the Prophet",
+                    "card": "912e220a-d377-44fb-90dc-ecb0c2ebbf06",
+                    "yugipediaId": 193861,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Quick Booster\"",
+                "cards": [
+                  {
+                    "name": "Quick Booster",
+                    "card": "71c20372-623a-4234-88e7-cf493c4b04f5",
+                    "yugipediaId": 250707,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Statue of the Wicked\"",
+                "cards": [
+                  {
+                    "name": "Statue of the Wicked",
+                    "card": "86571794-79fa-47fb-b3d9-ec06842baf00",
+                    "yugipediaId": 1555,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Ancient Gear Factory\"",
+                "cards": [
+                  {
+                    "name": "Ancient Gear Factory",
+                    "card": "b09241d5-1874-439d-a6e2-3769c4ba7cea",
+                    "yugipediaId": 16810,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Elf's Light\"",
+                "cards": [
+                  {
+                    "name": "Elf's Light",
+                    "card": "592529c7-732a-4ef1-aaa0-3d65bb177610",
+                    "yugipediaId": 7858,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Scroll of Bewitchment\"",
+                "cards": [
+                  {
+                    "name": "Scroll of Bewitchment",
+                    "card": "9df75234-9f5e-40cf-a482-4b346d3ec08f",
+                    "yugipediaId": 8919,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Break! Draw!\"",
+                "cards": [
+                  {
+                    "name": "Break! Draw!",
+                    "card": "c0391652-b411-4722-966c-dc5420422a13",
+                    "yugipediaId": 58312,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "cardTraderEx",
+      "path": [
+        "Rewards",
+        "Card Trader EX"
+      ],
+      "run": "Oct-Nov 2017",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "EX Jewels",
+            "Item"
+          ],
+          "rows": [
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "1"
+              },
+              {
+                "text": "100 Gold"
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Swift Gaia the Fierce Knight\"",
+                "cards": [
+                  {
+                    "name": "Swift Gaia the Fierce Knight",
+                    "card": "e25c8beb-e4d5-4005-9f1e-21229a7956bd",
+                    "yugipediaId": 77,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Gemini Scorpion\"",
+                "cards": [
+                  {
+                    "name": "Gemini Scorpion",
+                    "card": "7881d1ff-c8b9-4bb5-b449-46508d6dc010",
+                    "yugipediaId": 116825,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Anti-Magic Arrows\"",
+                "cards": [
+                  {
+                    "name": "Anti-Magic Arrows",
+                    "card": "4f233a98-1199-4b82-b585-88373eb1574d",
+                    "yugipediaId": 12275,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Ancient Gear Knight\"",
+                "cards": [
+                  {
+                    "name": "Ancient Gear Knight",
+                    "card": "c8198941-f918-4444-bc24-1681b74ac3bb",
+                    "yugipediaId": 539785,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "100"
+              },
+              {
+                "text": "1 \"Ancient Gear Workshop\"",
+                "cards": [
+                  {
+                    "name": "Ancient Gear Workshop",
+                    "card": "ce3c0ba7-77a4-4844-989c-8c71b523b57b",
+                    "yugipediaId": 18005,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Toon Buster Blader\"",
+                "cards": [
+                  {
+                    "name": "Toon Buster Blader",
+                    "card": "525ffc54-11be-40c0-8ec6-2ac2a4ce94f5",
+                    "yugipediaId": 420676,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Ancient Gear Soldier\"",
+                "cards": [
+                  {
+                    "name": "Ancient Gear Soldier",
+                    "card": "4f4a6fcf-bbbc-4d09-a815-d445d87c343a",
+                    "yugipediaId": 16174,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "30"
+              },
+              {
+                "text": "1 \"Ancient Gear Beast\"",
+                "cards": [
+                  {
+                    "name": "Ancient Gear Beast",
+                    "card": "f898ade2-b00f-4d21-88ef-78613b6bb295",
+                    "yugipediaId": 11517,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Super Double Summon\"",
+                "cards": [
+                  {
+                    "name": "Super Double Summon",
+                    "card": "42b44c90-3362-4682-82bb-a3da3b975fb8",
+                    "yugipediaId": 539968,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "1 \"Gemini Counter\"",
+                "cards": [
+                  {
+                    "name": "Gemini Counter",
+                    "card": "ca65ed38-9ead-4650-b7fc-02facde76fe3",
+                    "yugipediaId": 101357,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "notes": [
+        "When Dueling against Crowler Level 40 or higher, these are the only cards that can drop; at lower levels, cards from the standard pool for Legendary Duelists may also drop."
+      ]
+    },
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "run": "February 2018",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Ultimate Ancient Gear Golem\"",
+                "cards": [
+                  {
+                    "name": "Ultimate Ancient Gear Golem",
+                    "card": "4f6d0b2f-65fd-49db-a45c-a9dc08a89a9c",
+                    "yugipediaId": 86143
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Ancient Gear Engineer\", \"Ancient Gear Knight\", \"Biofalcon\", \"Ancient Gear Castle\"",
+                "cards": [
+                  {
+                    "name": "Ancient Gear Engineer",
+                    "card": "c3d7cd02-dcaa-4245-91c0-38b606ef2c6e",
+                    "yugipediaId": 21176
+                  },
+                  {
+                    "name": "Ancient Gear Knight",
+                    "card": "c8198941-f918-4444-bc24-1681b74ac3bb",
+                    "yugipediaId": 539785
+                  },
+                  {
+                    "name": "Biofalcon",
+                    "card": "bd0d4342-546d-4417-a05a-3867a5d306dc",
+                    "yugipediaId": 127680
+                  },
+                  {
+                    "name": "Ancient Gear Castle",
+                    "card": "e1be8654-b3d4-4902-861a-f5231911bf61",
+                    "yugipediaId": 2882
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Ancient Gear Beast\", \"Ancient Gear Soldier\", \"Ancient Gear Drill\", \"Break! Draw!\"",
+                "cards": [
+                  {
+                    "name": "Ancient Gear Beast",
+                    "card": "f898ade2-b00f-4d21-88ef-78613b6bb295",
+                    "yugipediaId": 11517
+                  },
+                  {
+                    "name": "Ancient Gear Soldier",
+                    "card": "4f4a6fcf-bbbc-4d09-a815-d445d87c343a",
+                    "yugipediaId": 16174
+                  },
+                  {
+                    "name": "Ancient Gear Drill",
+                    "card": "2a603592-7ce9-4c32-b5bb-8f3e67056a31",
+                    "yugipediaId": 16854
+                  },
+                  {
+                    "name": "Break! Draw!",
+                    "card": "c0391652-b411-4722-966c-dc5420422a13",
+                    "yugipediaId": 58312
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Ancient Gear Cannon\"",
+                "cards": [
+                  {
+                    "name": "Ancient Gear Cannon",
+                    "card": "6e867938-fbd1-4baa-8999-28716dc42b5d",
+                    "yugipediaId": 11634
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Rewards",
+        "Duel Rewards"
+      ],
+      "run": "Oct-Nov 2017",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Emes the Infinity\", \"Ancient Gear Engineer\", \"Ancient Gear Knight\", \"Ancient Gear Fist\", \"Ancient Gear Workshop\"",
+                "cards": [
+                  {
+                    "name": "Emes the Infinity",
+                    "card": "3f58a7be-00a9-4067-b2ec-ee350f084d20",
+                    "yugipediaId": 14619
+                  },
+                  {
+                    "name": "Ancient Gear Engineer",
+                    "card": "c3d7cd02-dcaa-4245-91c0-38b606ef2c6e",
+                    "yugipediaId": 21176
+                  },
+                  {
+                    "name": "Ancient Gear Knight",
+                    "card": "c8198941-f918-4444-bc24-1681b74ac3bb",
+                    "yugipediaId": 539785
+                  },
+                  {
+                    "name": "Ancient Gear Fist",
+                    "card": "7ac307cb-b1c7-46fe-ab30-4321fee89d9c",
+                    "yugipediaId": 18069
+                  },
+                  {
+                    "name": "Ancient Gear Workshop",
+                    "card": "ce3c0ba7-77a4-4844-989c-8c71b523b57b",
+                    "yugipediaId": 18005
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Ancient Gear Beast\", \"Ancient Gear Soldier\", \"Ancient Gear Factory\", \"Ancient Gear Drill\", \"Statue of the Wicked\"",
+                "cards": [
+                  {
+                    "name": "Ancient Gear Beast",
+                    "card": "f898ade2-b00f-4d21-88ef-78613b6bb295",
+                    "yugipediaId": 11517
+                  },
+                  {
+                    "name": "Ancient Gear Soldier",
+                    "card": "4f4a6fcf-bbbc-4d09-a815-d445d87c343a",
+                    "yugipediaId": 16174
+                  },
+                  {
+                    "name": "Ancient Gear Factory",
+                    "card": "b09241d5-1874-439d-a6e2-3769c4ba7cea",
+                    "yugipediaId": 16810
+                  },
+                  {
+                    "name": "Ancient Gear Drill",
+                    "card": "2a603592-7ce9-4c32-b5bb-8f3e67056a31",
+                    "yugipediaId": 16854
+                  },
+                  {
+                    "name": "Statue of the Wicked",
+                    "card": "86571794-79fa-47fb-b3d9-ec06842baf00",
+                    "yugipediaId": 1555
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Rewards",
+        "Event Missions"
+      ],
+      "run": "February 2018",
+      "runIndex": 1,
+      "notes": [
+        "Other missions are currently unknown."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Event Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against Dr. Vellian Crowler at Level 10 in Duel World."
+              },
+              {
+                "text": "5 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 1 Duel(s) against Dr. Vellian Crowler at Level 20 in Duel World."
+              },
+              {
+                "text": "10 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 1 Duel(s) against Dr. Vellian Crowler at Level 30 in Duel World."
+              },
+              {
+                "text": "15 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 1 Duel(s) against Dr. Vellian Crowler at Level 40 in Duel World."
+              },
+              {
+                "text": "20 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 15 Duel(s) against Dr. Vellian Crowler in Duel World."
+              },
+              {
+                "text": "25 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 30 Duel(s) against Dr. Vellian Crowler in Duel World."
+              },
+              {
+                "text": "25 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Play 20 Duel(s) against Dr. Vellian Crowler in Duel World."
+              },
+              {
+                "text": "50 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Play 40 Duel(s) against Dr. Vellian Crowler in Duel World."
+              },
+              {
+                "text": "25 EX Jewels"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Rewards",
+        "Event Missions"
+      ],
+      "run": "Oct-Nov 2017",
+      "runIndex": 0,
+      "notes": [
+        "Other missions are currently unknown."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Event Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against Dr. Vellian Crowler at Level 20 in Duel World."
+              },
+              {
+                "text": "10 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 1 Duel(s) against Dr. Vellian Crowler at Level 30 in Duel World."
+              },
+              {
+                "text": "15 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 1 Duel(s) against Dr. Vellian Crowler at Level 40 in Duel World."
+              },
+              {
+                "text": "20 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 1 Duel(s) against Dr. Vellian Crowler at Level 50 in Duel World."
+              },
+              {
+                "text": "25 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 20 Duel(s) against Dr. Vellian Crowler in Duel World."
+              },
+              {
+                "text": "25 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Win 40 Duel(s) against Dr. Vellian Crowler in Duel World."
+              },
+              {
+                "text": "25 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Play 30 Duel(s) against Dr. Vellian Crowler in Duel World."
+              },
+              {
+                "text": "30 EX Jewels"
+              }
+            ],
+            [
+              {
+                "text": "Play 60 Duel(s) against Dr. Vellian Crowler in Duel World."
+              },
+              {
+                "text": "? EX Jewels"
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Ancient Gear Castle",
+      "card": "e1be8654-b3d4-4902-861a-f5231911bf61",
+      "yugipediaId": 2882,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "run": "February 2018",
+          "runIndex": 1,
+          "requirement": "30"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "February 2018",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Break! Draw!",
+      "card": "c0391652-b411-4722-966c-dc5420422a13",
+      "yugipediaId": 58312,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "February 2018",
+          "runIndex": 1,
+          "requirement": "100000"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "February 2018",
+          "runIndex": 1,
+          "requirement": "30"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "February 2018",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Ancient Gear Cannon",
+      "card": "6e867938-fbd1-4baa-8999-28716dc42b5d",
+      "yugipediaId": 11634,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "February 2018",
+          "runIndex": 1,
+          "requirement": "260000"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "February 2018",
+          "runIndex": 1,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Ancient Gear Golem",
+      "card": "fae1ecc6-a974-48d1-82cc-1a632879b43f",
+      "yugipediaId": 2956,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "February 2018",
+          "runIndex": 1,
+          "requirement": "1000000"
+        }
+      ]
+    },
+    {
+      "name": "Biofalcon",
+      "card": "bd0d4342-546d-4417-a05a-3867a5d306dc",
+      "yugipediaId": 127680,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "February 2018",
+          "runIndex": 1,
+          "requirement": "2000000"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "February 2018",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Ultimate Ancient Gear Golem",
+      "card": "4f6d0b2f-65fd-49db-a45c-a9dc08a89a9c",
+      "yugipediaId": 86143,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "February 2018",
+          "runIndex": 1,
+          "requirement": "2500000"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "February 2018",
+          "runIndex": 1,
+          "requirement": "UR",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Ancient Gear Soldier",
+      "card": "4f4a6fcf-bbbc-4d09-a815-d445d87c343a",
+      "yugipediaId": 16174,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "Oct-Nov 2017",
+          "runIndex": 0,
+          "requirement": "140000"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Oct-Nov 2017",
+          "runIndex": 0,
+          "requirement": "30"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "February 2018",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "Oct-Nov 2017",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Ancient Gear Workshop",
+      "card": "ce3c0ba7-77a4-4844-989c-8c71b523b57b",
+      "yugipediaId": 18005,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "Oct-Nov 2017",
+          "runIndex": 0,
+          "requirement": "300000"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "Oct-Nov 2017",
+          "runIndex": 0,
+          "requirement": "100"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "Oct-Nov 2017",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Ancient Gear Engineer",
+      "card": "c3d7cd02-dcaa-4245-91c0-38b606ef2c6e",
+      "yugipediaId": 21176,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "Oct-Nov 2017",
+          "runIndex": 0,
+          "requirement": "900000"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "February 2018",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "Oct-Nov 2017",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Ancient Gear Fist",
+      "card": "7ac307cb-b1c7-46fe-ab30-4321fee89d9c",
+      "yugipediaId": 18069,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "Oct-Nov 2017",
+          "runIndex": 0,
+          "requirement": "2300000"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "February 2018",
+          "runIndex": 1,
+          "requirement": "100"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "Oct-Nov 2017",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Emes the Infinity",
+      "card": "3f58a7be-00a9-4067-b2ec-ee350f084d20",
+      "yugipediaId": 14619,
+      "obtainedVia": [
+        {
+          "kind": "cumulativeRewards",
+          "run": "Oct-Nov 2017",
+          "runIndex": 0,
+          "requirement": "3500000"
+        },
+        {
+          "kind": "cardTraderEx",
+          "run": "February 2018",
+          "runIndex": 1,
+          "requirement": "100"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "Oct-Nov 2017",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Guardian Angel Joan",
+      "card": "257d0c3f-00d0-4026-b26e-c5ece3323a4a",
+      "yugipediaId": 7880,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "run": "February 2018",
+          "runIndex": 1,
+          "requirement": "300"
+        }
+      ]
+    },
+    {
+      "name": "Chow Len the Prophet",
+      "card": "912e220a-d377-44fb-90dc-ecb0c2ebbf06",
+      "yugipediaId": 193861,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "run": "February 2018",
+          "runIndex": 1,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Quick Booster",
+      "card": "71c20372-623a-4234-88e7-cf493c4b04f5",
+      "yugipediaId": 250707,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "run": "February 2018",
+          "runIndex": 1,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Statue of the Wicked",
+      "card": "86571794-79fa-47fb-b3d9-ec06842baf00",
+      "yugipediaId": 1555,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "run": "February 2018",
+          "runIndex": 1,
+          "requirement": "30"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "Oct-Nov 2017",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Ancient Gear Factory",
+      "card": "b09241d5-1874-439d-a6e2-3769c4ba7cea",
+      "yugipediaId": 16810,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "run": "February 2018",
+          "runIndex": 1,
+          "requirement": "30"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "Oct-Nov 2017",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Elf's Light",
+      "card": "592529c7-732a-4ef1-aaa0-3d65bb177610",
+      "yugipediaId": 7858,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "run": "February 2018",
+          "runIndex": 1,
+          "requirement": "30"
+        }
+      ]
+    },
+    {
+      "name": "Scroll of Bewitchment",
+      "card": "9df75234-9f5e-40cf-a482-4b346d3ec08f",
+      "yugipediaId": 8919,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "run": "February 2018",
+          "runIndex": 1,
+          "requirement": "30"
+        }
+      ]
+    },
+    {
+      "name": "Swift Gaia the Fierce Knight",
+      "card": "e25c8beb-e4d5-4005-9f1e-21229a7956bd",
+      "yugipediaId": 77,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "run": "Oct-Nov 2017",
+          "runIndex": 0,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Gemini Scorpion",
+      "card": "7881d1ff-c8b9-4bb5-b449-46508d6dc010",
+      "yugipediaId": 116825,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "run": "Oct-Nov 2017",
+          "runIndex": 0,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Anti-Magic Arrows",
+      "card": "4f233a98-1199-4b82-b585-88373eb1574d",
+      "yugipediaId": 12275,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "run": "Oct-Nov 2017",
+          "runIndex": 0,
+          "requirement": "100"
+        }
+      ]
+    },
+    {
+      "name": "Ancient Gear Knight",
+      "card": "c8198941-f918-4444-bc24-1681b74ac3bb",
+      "yugipediaId": 539785,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "run": "Oct-Nov 2017",
+          "runIndex": 0,
+          "requirement": "100"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "February 2018",
+          "runIndex": 1,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "Oct-Nov 2017",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Toon Buster Blader",
+      "card": "525ffc54-11be-40c0-8ec6-2ac2a4ce94f5",
+      "yugipediaId": 420676,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "run": "Oct-Nov 2017",
+          "runIndex": 0,
+          "requirement": "30"
+        }
+      ]
+    },
+    {
+      "name": "Ancient Gear Beast",
+      "card": "f898ade2-b00f-4d21-88ef-78613b6bb295",
+      "yugipediaId": 11517,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "run": "Oct-Nov 2017",
+          "runIndex": 0,
+          "requirement": "30"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "February 2018",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "Oct-Nov 2017",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Super Double Summon",
+      "card": "42b44c90-3362-4682-82bb-a3da3b975fb8",
+      "yugipediaId": 539968,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "run": "Oct-Nov 2017",
+          "runIndex": 0,
+          "requirement": "10"
+        }
+      ]
+    },
+    {
+      "name": "Gemini Counter",
+      "card": "ca65ed38-9ead-4650-b7fc-02facde76fe3",
+      "yugipediaId": 101357,
+      "obtainedVia": [
+        {
+          "kind": "cardTraderEx",
+          "run": "Oct-Nov 2017",
+          "runIndex": 0,
+          "requirement": "10"
+        }
+      ]
+    },
+    {
+      "name": "Ancient Gear Drill",
+      "card": "2a603592-7ce9-4c32-b5bb-8f3e67056a31",
+      "yugipediaId": 16854,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "run": "February 2018",
+          "runIndex": 1,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "duelRewards",
+          "run": "Oct-Nov 2017",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Dr. Crowler's Tricky Tests",
+        "id": 553464
+      }
+    ]
+  }
+}

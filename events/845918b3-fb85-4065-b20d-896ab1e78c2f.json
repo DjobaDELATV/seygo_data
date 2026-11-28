@@ -1,0 +1,1881 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "845918b3-fb85-4065-b20d-896ab1e78c2f",
+  "name": {
+    "en": "Duelist Chronicles: Battle City Showdown!"
+  },
+  "type": "Duelist Chronicles",
+  "duelWorlds": [
+    "Duel World (DM)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/7/7c/DuelistChroniclesBattleCityShowdown-Banner.png",
+  "runs": [
+    {
+      "startDate": "2018-04-26",
+      "endDate": "2018-05-07"
+    },
+    {
+      "startDate": "2019-03-08",
+      "endDate": "2019-03-15"
+    }
+  ],
+  "lotteryDates": [
+    {
+      "startDate": "2018-04-26",
+      "endDate": "2018-05-14"
+    },
+    {
+      "startDate": "2019-03-08",
+      "endDate": "2019-03-22"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "completion",
+      "path": [
+        "Rewards",
+        "Completion"
+      ],
+      "notes": [
+        "Rewards can be earned by accumulating Event Points from winning Duels."
+      ]
+    },
+    {
+      "kind": "completion",
+      "path": [
+        "Rewards",
+        "Completion"
+      ],
+      "run": "March 2019",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "Round",
+            "Stage",
+            "Completion Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "1"
+              },
+              {
+                "text": "First Round Qualifiers"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1"
+              },
+              {
+                "text": "Second Round Qualifiers"
+              },
+              {
+                "text": "1 \"Harpie's Feather Rest\"",
+                "cards": [
+                  {
+                    "name": "Harpie's Feather Rest",
+                    "card": "ee863991-2dec-43f4-a584-1011dac81800",
+                    "yugipediaId": 578206,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "1"
+              },
+              {
+                "text": "Semi-Final"
+              },
+              {
+                "text": "3 Extra Cards"
+              }
+            ],
+            [
+              {
+                "text": "1"
+              },
+              {
+                "text": "Final"
+              },
+              {
+                "text": "1 \"Valkyrian Knight\"",
+                "cards": [
+                  {
+                    "name": "Valkyrian Knight",
+                    "card": "52d1b5df-a7fd-4875-adf5-196dcf5836bd",
+                    "yugipediaId": 230111,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "2"
+              },
+              {
+                "text": "First Round Qualifiers"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "2"
+              },
+              {
+                "text": "Second Round Qualifiers"
+              },
+              {
+                "text": "3 EXP Boosters"
+              }
+            ],
+            [
+              {
+                "text": "2"
+              },
+              {
+                "text": "Semi-Final"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "2"
+              },
+              {
+                "text": "Final"
+              },
+              {
+                "text": "1 \"Magician's Robe\"",
+                "cards": [
+                  {
+                    "name": "Magician's Robe",
+                    "card": "c009396c-2910-46aa-9327-d67536693632",
+                    "yugipediaId": 360101,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "3"
+              },
+              {
+                "text": "First Round Qualifiers"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "3"
+              },
+              {
+                "text": "Second Round Qualifiers"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "3"
+              },
+              {
+                "text": "Semi-Final"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "3"
+              },
+              {
+                "text": "Final"
+              },
+              {
+                "text": "1 \"Swift Gaia the Fierce Knight\"",
+                "cards": [
+                  {
+                    "name": "Swift Gaia the Fierce Knight",
+                    "card": "e25c8beb-e4d5-4005-9f1e-21229a7956bd",
+                    "yugipediaId": 77,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "4"
+              },
+              {
+                "text": "First Round Qualifiers"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "4"
+              },
+              {
+                "text": "Second Round Qualifiers"
+              },
+              {
+                "text": "1 \"Indomitable Fighter Lei Lei\"",
+                "cards": [
+                  {
+                    "name": "Indomitable Fighter Lei Lei",
+                    "card": "f32bfb5f-2583-4eef-812d-cf7d7531e527",
+                    "yugipediaId": 446,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "4"
+              },
+              {
+                "text": "Semi-Final"
+              },
+              {
+                "text": "20000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "4"
+              },
+              {
+                "text": "Final"
+              },
+              {
+                "text": "1 \"Magician of Dark Illusion\"",
+                "cards": [
+                  {
+                    "name": "Magician of Dark Illusion",
+                    "card": "050c5212-445f-4543-8df3-d574f60bce36",
+                    "yugipediaId": 359929,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "5"
+              },
+              {
+                "text": "First Round Qualifiers"
+              },
+              {
+                "text": "50 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "5"
+              },
+              {
+                "text": "Second Round Qualifiers"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "5"
+              },
+              {
+                "text": "Semi-Final"
+              },
+              {
+                "text": "20000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "5"
+              },
+              {
+                "text": "Final"
+              },
+              {
+                "text": "1 \"Exchange of the Spirit\"",
+                "cards": [
+                  {
+                    "name": "Exchange of the Spirit",
+                    "card": "c2c2e3e7-9261-4e23-ae66-65395029c51e",
+                    "yugipediaId": 166,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "6"
+              },
+              {
+                "text": "Final"
+              },
+              {
+                "text": "Duelist Chronicles (Battle City Showdown!) Completed"
+              }
+            ],
+            [
+              {
+                "text": "7"
+              },
+              {
+                "text": "Final"
+              },
+              {
+                "text": "100 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "8"
+              },
+              {
+                "text": "Final"
+              },
+              {
+                "text": "100 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "9"
+              },
+              {
+                "text": "Final"
+              },
+              {
+                "text": "100 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "Final"
+              },
+              {
+                "text": "100 R Jewels"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "completion",
+      "path": [
+        "Rewards",
+        "Completion"
+      ],
+      "run": "Apr-May 2018",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Round",
+            "Stage",
+            "Completion Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "1"
+              },
+              {
+                "text": "First Round Qualifiers"
+              },
+              {
+                "text": "20 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1"
+              },
+              {
+                "text": "Second Round Qualifiers"
+              },
+              {
+                "text": "1 \"Thousand Needles\"",
+                "cards": [
+                  {
+                    "name": "Thousand Needles",
+                    "card": "f20b14b6-600e-422e-9326-35361a52b7d7",
+                    "yugipediaId": 15931,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "1"
+              },
+              {
+                "text": "Semi-Final"
+              },
+              {
+                "text": "30 Gems"
+              }
+            ],
+            [
+              {
+                "text": "1"
+              },
+              {
+                "text": "Final"
+              },
+              {
+                "text": "1 \"Fusion Sword Murasame Blade\"",
+                "cards": [
+                  {
+                    "name": "Fusion Sword Murasame Blade",
+                    "card": "f8aab4fe-d310-464e-8d99-f7e7ae801c8b",
+                    "yugipediaId": 10226,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "2"
+              },
+              {
+                "text": "First Round Qualifiers"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "2"
+              },
+              {
+                "text": "Second Round Qualifiers"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "2"
+              },
+              {
+                "text": "Semi-Final"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "2"
+              },
+              {
+                "text": "Final"
+              },
+              {
+                "text": "1 \"Anti-Magic Arrows\"",
+                "cards": [
+                  {
+                    "name": "Anti-Magic Arrows",
+                    "card": "4f233a98-1199-4b82-b585-88373eb1574d",
+                    "yugipediaId": 12275,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "3"
+              },
+              {
+                "text": "First Round Qualifiers"
+              },
+              {
+                "text": "50 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "3"
+              },
+              {
+                "text": "Second Round Qualifiers"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "3"
+              },
+              {
+                "text": "Semi-Final"
+              },
+              {
+                "text": "20000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "3"
+              },
+              {
+                "text": "Final"
+              },
+              {
+                "text": "1 \"Swift Gaia the Fierce Knight\"",
+                "cards": [
+                  {
+                    "name": "Swift Gaia the Fierce Knight",
+                    "card": "e25c8beb-e4d5-4005-9f1e-21229a7956bd",
+                    "yugipediaId": 77,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "4"
+              },
+              {
+                "text": "First Round Qualifiers"
+              },
+              {
+                "text": "1 SR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "4"
+              },
+              {
+                "text": "Second Round Qualifiers"
+              },
+              {
+                "text": "1 \"Horn of the Unicorn\"",
+                "cards": [
+                  {
+                    "name": "Horn of the Unicorn",
+                    "card": "e904f879-103e-4027-adf1-07b2ee1af60c",
+                    "yugipediaId": 3579,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "4"
+              },
+              {
+                "text": "Semi-Final"
+              },
+              {
+                "text": "30000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "4"
+              },
+              {
+                "text": "Final"
+              },
+              {
+                "text": "1 \"Skilled Blue Magician\"",
+                "cards": [
+                  {
+                    "name": "Skilled Blue Magician",
+                    "card": "eb166c98-ea7d-43e4-89d6-80484127b4da",
+                    "yugipediaId": 361108,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "5"
+              },
+              {
+                "text": "First Round Qualifiers"
+              },
+              {
+                "text": "50 R Jewels"
+              }
+            ],
+            [
+              {
+                "text": "5"
+              },
+              {
+                "text": "Second Round Qualifiers"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "5"
+              },
+              {
+                "text": "Semi-Final"
+              },
+              {
+                "text": "30000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "5"
+              },
+              {
+                "text": "Final"
+              },
+              {
+                "text": "1 \"Dark Sage\"",
+                "cards": [
+                  {
+                    "name": "Dark Sage",
+                    "card": "6dc51a41-ceed-4bd1-bea1-8503edb67b6e",
+                    "yugipediaId": 136,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "6"
+              },
+              {
+                "text": "Final"
+              },
+              {
+                "text": "4000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "7"
+              },
+              {
+                "text": "Final"
+              },
+              {
+                "text": "4000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "8"
+              },
+              {
+                "text": "Final"
+              },
+              {
+                "text": "4000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "9"
+              },
+              {
+                "text": "Final"
+              },
+              {
+                "text": "4000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "10"
+              },
+              {
+                "text": "Final"
+              },
+              {
+                "text": "4000 Gold"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "lottery",
+      "path": [
+        "Rewards",
+        "Lottery"
+      ],
+      "notes": [
+        "The player can spend a multiple of 30 Millennium Coins (max. 300 at a time) to obtain one random reward for each 30 Millennium Coins spent."
+      ]
+    },
+    {
+      "kind": "lottery",
+      "path": [
+        "Rewards",
+        "Lottery"
+      ],
+      "run": "March 2019",
+      "runIndex": 1,
+      "tables": [
+        {
+          "rows": [
+            [
+              {
+                "text": ""
+              },
+              {
+                "text": "Lottery Rewards"
+              }
+            ],
+            [
+              {
+                "text": "Rainbow"
+              },
+              {
+                "text": "\"Exchange of the Spirit\" (UR), \"Magician of Dark Illusion\" (UR), \"Valkyrian Knight\" (SR), \"Indomitable Fighter Lei Lei\" (SR), \"Magician's Robe\" (SR), \"Charging Gaia the Fierce Knight\" (SR), \"Dark Magic Expanded\" (SR)\n1 UR Jewel\n10 Gems",
+                "cards": [
+                  {
+                    "name": "Exchange of the Spirit",
+                    "card": "c2c2e3e7-9261-4e23-ae66-65395029c51e",
+                    "yugipediaId": 166,
+                    "rarity": "UR"
+                  },
+                  {
+                    "name": "Magician of Dark Illusion",
+                    "card": "050c5212-445f-4543-8df3-d574f60bce36",
+                    "yugipediaId": 359929,
+                    "rarity": "UR"
+                  },
+                  {
+                    "name": "Valkyrian Knight",
+                    "card": "52d1b5df-a7fd-4875-adf5-196dcf5836bd",
+                    "yugipediaId": 230111,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Indomitable Fighter Lei Lei",
+                    "card": "f32bfb5f-2583-4eef-812d-cf7d7531e527",
+                    "yugipediaId": 446,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Magician's Robe",
+                    "card": "c009396c-2910-46aa-9327-d67536693632",
+                    "yugipediaId": 360101,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Charging Gaia the Fierce Knight",
+                    "card": "241e8650-c933-4dc8-9d45-cffb809d32b7",
+                    "yugipediaId": 354510,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Dark Magic Expanded",
+                    "card": "d99d72d9-41d1-4854-9d69-8afcec58ec58",
+                    "yugipediaId": 384345,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Gold"
+              },
+              {
+                "text": "\"Harpie's Feather Rest\" (R), \"Protective Soul Ailin\" (R), \"Dark Hunter\" (R), \"Mystical Elf\" (R), \"Kanan the Swordmistress\" (R)\n1 SR Jewel\n3000, or 2000 Gold\n5 Gems\n10 or 5 Gate Keys (White, Black, Blue, Red, Yellow or Green)",
+                "cards": [
+                  {
+                    "name": "Harpie's Feather Rest",
+                    "card": "ee863991-2dec-43f4-a584-1011dac81800",
+                    "yugipediaId": 578206,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Protective Soul Ailin",
+                    "card": "810aebee-ee13-4005-a7c5-0a56fe5f3762",
+                    "yugipediaId": 10783,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Dark Hunter",
+                    "card": "fb8444ee-e19b-4d10-b666-dd3aa5b22a6d",
+                    "yugipediaId": 35538,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Mystical Elf",
+                    "card": "4507fde7-aeea-420b-a2be-4bd8d3654a3c",
+                    "yugipediaId": 1534,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Kanan the Swordmistress",
+                    "card": "7def39ea-fc9a-49ea-8097-0e55ec111744",
+                    "yugipediaId": 2443,
+                    "rarity": "R"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Normal"
+              },
+              {
+                "text": "\"Steel Ogre Grotto #2\" (N), \"Kaminari Attack\" (N), \"Ocubeam\" (N), \"Kaiser Dragon\" (N), \"Mushroom Man\" (N)\n5 R Jewels\n1000, 600, or 300 Gold\n1 Gem\n5 Gate Keys (White, Black, Blue, Red, Yellow or Green)",
+                "cards": [
+                  {
+                    "name": "Steel Ogre Grotto #2",
+                    "card": "aa41711e-9b66-4320-b7e6-2a029d69457b",
+                    "yugipediaId": 4497,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Kaminari Attack",
+                    "card": "9a46bddf-685f-4afe-bf8e-3d634a9bc655",
+                    "yugipediaId": 3891,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Ocubeam",
+                    "card": "f846ddfa-a40d-4d9e-9094-5d9502bd9085",
+                    "yugipediaId": 3439,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Kaiser Dragon",
+                    "card": "91bb5728-1c05-462a-bc35-f2e2b550157f",
+                    "yugipediaId": 8328,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Mushroom Man",
+                    "card": "6b255dcc-b608-4e94-a932-a978fd69a534",
+                    "yugipediaId": 18141,
+                    "rarity": "N"
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "lottery",
+      "path": [
+        "Rewards",
+        "Lottery"
+      ],
+      "run": "Apr-May 2018",
+      "runIndex": 0,
+      "tables": [
+        {
+          "rows": [
+            [
+              {
+                "text": ""
+              },
+              {
+                "text": "Lottery Rewards"
+              }
+            ],
+            [
+              {
+                "text": "Rainbow"
+              },
+              {
+                "text": "\"Skilled Blue Magician\" (UR), \"Maha Vailo\" (UR), \"Dark Sage\" (SR), \"Fusion Sword Murasame Blade\" (SR), \"Swift Gaia the Fierce Knight\" (SR), \"Anti-Magic Arrows\" (SR), \"Kuriboh\" (SR), \"Horn of the Unicorn\" (SR)\n25 or 15 Gems",
+                "cards": [
+                  {
+                    "name": "Skilled Blue Magician",
+                    "card": "eb166c98-ea7d-43e4-89d6-80484127b4da",
+                    "yugipediaId": 361108,
+                    "rarity": "UR"
+                  },
+                  {
+                    "name": "Maha Vailo",
+                    "card": "0326aaa3-f44a-4abc-aed0-ca79e29f6d4a",
+                    "yugipediaId": 7834,
+                    "rarity": "UR"
+                  },
+                  {
+                    "name": "Dark Sage",
+                    "card": "6dc51a41-ceed-4bd1-bea1-8503edb67b6e",
+                    "yugipediaId": 136,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Fusion Sword Murasame Blade",
+                    "card": "f8aab4fe-d310-464e-8d99-f7e7ae801c8b",
+                    "yugipediaId": 10226,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Swift Gaia the Fierce Knight",
+                    "card": "e25c8beb-e4d5-4005-9f1e-21229a7956bd",
+                    "yugipediaId": 77,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Anti-Magic Arrows",
+                    "card": "4f233a98-1199-4b82-b585-88373eb1574d",
+                    "yugipediaId": 12275,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Kuriboh",
+                    "card": "7ef3eb86-53ec-440c-a96a-66f20c20ef7c",
+                    "yugipediaId": 1688,
+                    "rarity": "SR"
+                  },
+                  {
+                    "name": "Horn of the Unicorn",
+                    "card": "e904f879-103e-4027-adf1-07b2ee1af60c",
+                    "yugipediaId": 3579,
+                    "rarity": "SR"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Gold"
+              },
+              {
+                "text": "\"Thousand Needles\" (R), \"Dark Hunter\" (R), \"Multiply\" (R), \"Detonate\" (R), \"Bone Temple Block\" (R)\n3000 or 2000 Gold\n10 Gems\n10 Gate Keys (White, Black, Blue, Red, Yellow or Green)",
+                "cards": [
+                  {
+                    "name": "Thousand Needles",
+                    "card": "f20b14b6-600e-422e-9326-35361a52b7d7",
+                    "yugipediaId": 15931,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Dark Hunter",
+                    "card": "fb8444ee-e19b-4d10-b666-dd3aa5b22a6d",
+                    "yugipediaId": 35538,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Multiply",
+                    "card": "ecba3386-6860-4ec5-8f6e-91ab1697f045",
+                    "yugipediaId": 8245,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Detonate",
+                    "card": "2933718d-31e1-4b31-8646-23781290a783",
+                    "yugipediaId": 77427,
+                    "rarity": "R"
+                  },
+                  {
+                    "name": "Bone Temple Block",
+                    "card": "50dea1c6-8e76-4be4-b602-048e198ae6a7",
+                    "yugipediaId": 59387,
+                    "rarity": "R"
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Normal"
+              },
+              {
+                "text": "\"Kaiser Dragon\" (N), \"The Portrait's Secret\" (N), \"Tactical Espionage Expert\" (N), \"Coffin Seller\" (N), \"Swordsman of Landstar\" (N), \"Virus Cannon\" (N)\n1000, 600 or 300 Gold\n5 Gems\n5 Gate Keys (White, Black, Blue, Red, Yellow or Green)\n20, 10 or 5 EX Jewels",
+                "cards": [
+                  {
+                    "name": "Kaiser Dragon",
+                    "card": "91bb5728-1c05-462a-bc35-f2e2b550157f",
+                    "yugipediaId": 8328,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "The Portrait's Secret",
+                    "card": "f9b6deb9-e4c3-46f8-86ce-837accee2595",
+                    "yugipediaId": 9006,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Tactical Espionage Expert",
+                    "card": "509c353a-b0c3-41ce-ae7d-421543f4eaf3",
+                    "yugipediaId": 12013,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Coffin Seller",
+                    "card": "af2db2e2-a75f-434a-8f69-4c344629eca8",
+                    "yugipediaId": 15852,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Swordsman of Landstar",
+                    "card": "4f555d5f-663f-4c0e-a596-d21e2e94cc8b",
+                    "yugipediaId": 3513,
+                    "rarity": "N"
+                  },
+                  {
+                    "name": "Virus Cannon",
+                    "card": "dae56b88-b345-49d5-9568-4ab0fba38330",
+                    "yugipediaId": 18414,
+                    "rarity": "N"
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "other",
+      "path": [
+        "Rewards",
+        "Divine Trials"
+      ],
+      "notes": [
+        "The player could challenge Yami Yugi in a Divine Trial. The following rewards can be obtained by defeating him a certain number of times."
+      ]
+    },
+    {
+      "kind": "other",
+      "path": [
+        "Rewards",
+        "Divine Trials"
+      ],
+      "run": "March 2019",
+      "runIndex": 1,
+      "tables": [
+        {
+          "columns": [
+            "Round",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "1"
+              },
+              {
+                "text": "Card Sleeves"
+              }
+            ],
+            [
+              {
+                "text": "2"
+              },
+              {
+                "text": "3 Extra Lifes"
+              }
+            ],
+            [
+              {
+                "text": "3"
+              },
+              {
+                "text": "Skill \"A Card Entrusted\"",
+                "skills": [
+                  {
+                    "name": "A Card Entrusted",
+                    "skill": "5f4e4825-0211-4c6c-baae-94f753fee525",
+                    "yugipediaId": 712324
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "4"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "5"
+              },
+              {
+                "text": "Game Mat: Battle City Showdown!"
+              }
+            ],
+            [
+              {
+                "text": "6"
+              },
+              {
+                "text": "3 Results Boosters"
+              }
+            ],
+            [
+              {
+                "text": "7"
+              },
+              {
+                "text": "Icon"
+              }
+            ],
+            [
+              {
+                "text": "8"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "9~"
+              },
+              {
+                "text": "150 Millennium Coins"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "other",
+      "path": [
+        "Rewards",
+        "Divine Trials"
+      ],
+      "run": "Apr-May 2018",
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Round",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "?"
+              },
+              {
+                "text": "3 Extra Lifes"
+              }
+            ],
+            [
+              {
+                "text": "?"
+              },
+              {
+                "text": "Skill: \"Card of Sanctity\"",
+                "skills": [
+                  {
+                    "name": "Card of Sanctity (Skill)",
+                    "skill": "5abf5afa-7eff-4abb-bc9e-f9260ecb523f",
+                    "yugipediaId": 714220
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "?"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "?"
+              },
+              {
+                "text": "10000 Gold"
+              }
+            ],
+            [
+              {
+                "text": "?"
+              },
+              {
+                "text": "50 Gems"
+              }
+            ],
+            [
+              {
+                "text": "?"
+              },
+              {
+                "text": "1 UR Jewel"
+              }
+            ],
+            [
+              {
+                "text": "?~"
+              },
+              {
+                "text": "150 Millennium Coins"
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Harpie's Feather Rest",
+      "card": "ee863991-2dec-43f4-a584-1011dac81800",
+      "yugipediaId": 578206,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "run": "March 2019",
+          "runIndex": 1,
+          "requirement": "1"
+        },
+        {
+          "kind": "lottery",
+          "run": "March 2019",
+          "runIndex": 1,
+          "requirement": "Gold",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Valkyrian Knight",
+      "card": "52d1b5df-a7fd-4875-adf5-196dcf5836bd",
+      "yugipediaId": 230111,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "run": "March 2019",
+          "runIndex": 1,
+          "requirement": "1"
+        },
+        {
+          "kind": "lottery",
+          "run": "March 2019",
+          "runIndex": 1,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Magician's Robe",
+      "card": "c009396c-2910-46aa-9327-d67536693632",
+      "yugipediaId": 360101,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "run": "March 2019",
+          "runIndex": 1,
+          "requirement": "2"
+        },
+        {
+          "kind": "lottery",
+          "run": "March 2019",
+          "runIndex": 1,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Swift Gaia the Fierce Knight",
+      "card": "e25c8beb-e4d5-4005-9f1e-21229a7956bd",
+      "yugipediaId": 77,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "run": "March 2019",
+          "runIndex": 1,
+          "requirement": "3"
+        },
+        {
+          "kind": "completion",
+          "run": "Apr-May 2018",
+          "runIndex": 0,
+          "requirement": "3"
+        },
+        {
+          "kind": "lottery",
+          "run": "Apr-May 2018",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Indomitable Fighter Lei Lei",
+      "card": "f32bfb5f-2583-4eef-812d-cf7d7531e527",
+      "yugipediaId": 446,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "run": "March 2019",
+          "runIndex": 1,
+          "requirement": "4"
+        },
+        {
+          "kind": "lottery",
+          "run": "March 2019",
+          "runIndex": 1,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Magician of Dark Illusion",
+      "card": "050c5212-445f-4543-8df3-d574f60bce36",
+      "yugipediaId": 359929,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "run": "March 2019",
+          "runIndex": 1,
+          "requirement": "4"
+        },
+        {
+          "kind": "lottery",
+          "run": "March 2019",
+          "runIndex": 1,
+          "requirement": "Rainbow",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Exchange of the Spirit",
+      "card": "c2c2e3e7-9261-4e23-ae66-65395029c51e",
+      "yugipediaId": 166,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "run": "March 2019",
+          "runIndex": 1,
+          "requirement": "5"
+        },
+        {
+          "kind": "lottery",
+          "run": "March 2019",
+          "runIndex": 1,
+          "requirement": "Rainbow",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Thousand Needles",
+      "card": "f20b14b6-600e-422e-9326-35361a52b7d7",
+      "yugipediaId": 15931,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "run": "Apr-May 2018",
+          "runIndex": 0,
+          "requirement": "1"
+        },
+        {
+          "kind": "lottery",
+          "run": "Apr-May 2018",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Fusion Sword Murasame Blade",
+      "card": "f8aab4fe-d310-464e-8d99-f7e7ae801c8b",
+      "yugipediaId": 10226,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "run": "Apr-May 2018",
+          "runIndex": 0,
+          "requirement": "1"
+        },
+        {
+          "kind": "lottery",
+          "run": "Apr-May 2018",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Anti-Magic Arrows",
+      "card": "4f233a98-1199-4b82-b585-88373eb1574d",
+      "yugipediaId": 12275,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "run": "Apr-May 2018",
+          "runIndex": 0,
+          "requirement": "2"
+        },
+        {
+          "kind": "lottery",
+          "run": "Apr-May 2018",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Horn of the Unicorn",
+      "card": "e904f879-103e-4027-adf1-07b2ee1af60c",
+      "yugipediaId": 3579,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "run": "Apr-May 2018",
+          "runIndex": 0,
+          "requirement": "4"
+        },
+        {
+          "kind": "lottery",
+          "run": "Apr-May 2018",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Skilled Blue Magician",
+      "card": "eb166c98-ea7d-43e4-89d6-80484127b4da",
+      "yugipediaId": 361108,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "run": "Apr-May 2018",
+          "runIndex": 0,
+          "requirement": "4"
+        },
+        {
+          "kind": "lottery",
+          "run": "Apr-May 2018",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Dark Sage",
+      "card": "6dc51a41-ceed-4bd1-bea1-8503edb67b6e",
+      "yugipediaId": 136,
+      "obtainedVia": [
+        {
+          "kind": "completion",
+          "run": "Apr-May 2018",
+          "runIndex": 0,
+          "requirement": "5"
+        },
+        {
+          "kind": "lottery",
+          "run": "Apr-May 2018",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Charging Gaia the Fierce Knight",
+      "card": "241e8650-c933-4dc8-9d45-cffb809d32b7",
+      "yugipediaId": 354510,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "March 2019",
+          "runIndex": 1,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Dark Magic Expanded",
+      "card": "d99d72d9-41d1-4854-9d69-8afcec58ec58",
+      "yugipediaId": 384345,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "March 2019",
+          "runIndex": 1,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Protective Soul Ailin",
+      "card": "810aebee-ee13-4005-a7c5-0a56fe5f3762",
+      "yugipediaId": 10783,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "March 2019",
+          "runIndex": 1,
+          "requirement": "Gold",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Dark Hunter",
+      "card": "fb8444ee-e19b-4d10-b666-dd3aa5b22a6d",
+      "yugipediaId": 35538,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "March 2019",
+          "runIndex": 1,
+          "requirement": "Gold",
+          "rarity": "R"
+        },
+        {
+          "kind": "lottery",
+          "run": "Apr-May 2018",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Mystical Elf",
+      "card": "4507fde7-aeea-420b-a2be-4bd8d3654a3c",
+      "yugipediaId": 1534,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "March 2019",
+          "runIndex": 1,
+          "requirement": "Gold",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Kanan the Swordmistress",
+      "card": "7def39ea-fc9a-49ea-8097-0e55ec111744",
+      "yugipediaId": 2443,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "March 2019",
+          "runIndex": 1,
+          "requirement": "Gold",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Steel Ogre Grotto #2",
+      "card": "aa41711e-9b66-4320-b7e6-2a029d69457b",
+      "yugipediaId": 4497,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "March 2019",
+          "runIndex": 1,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Kaminari Attack",
+      "card": "9a46bddf-685f-4afe-bf8e-3d634a9bc655",
+      "yugipediaId": 3891,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "March 2019",
+          "runIndex": 1,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Ocubeam",
+      "card": "f846ddfa-a40d-4d9e-9094-5d9502bd9085",
+      "yugipediaId": 3439,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "March 2019",
+          "runIndex": 1,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Kaiser Dragon",
+      "card": "91bb5728-1c05-462a-bc35-f2e2b550157f",
+      "yugipediaId": 8328,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "March 2019",
+          "runIndex": 1,
+          "requirement": "Normal",
+          "rarity": "N"
+        },
+        {
+          "kind": "lottery",
+          "run": "Apr-May 2018",
+          "runIndex": 0,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Mushroom Man",
+      "card": "6b255dcc-b608-4e94-a932-a978fd69a534",
+      "yugipediaId": 18141,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "March 2019",
+          "runIndex": 1,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Maha Vailo",
+      "card": "0326aaa3-f44a-4abc-aed0-ca79e29f6d4a",
+      "yugipediaId": 7834,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "Apr-May 2018",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "UR"
+        }
+      ]
+    },
+    {
+      "name": "Kuriboh",
+      "card": "7ef3eb86-53ec-440c-a96a-66f20c20ef7c",
+      "yugipediaId": 1688,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "Apr-May 2018",
+          "runIndex": 0,
+          "requirement": "Rainbow",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Multiply",
+      "card": "ecba3386-6860-4ec5-8f6e-91ab1697f045",
+      "yugipediaId": 8245,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "Apr-May 2018",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Detonate",
+      "card": "2933718d-31e1-4b31-8646-23781290a783",
+      "yugipediaId": 77427,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "Apr-May 2018",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Bone Temple Block",
+      "card": "50dea1c6-8e76-4be4-b602-048e198ae6a7",
+      "yugipediaId": 59387,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "Apr-May 2018",
+          "runIndex": 0,
+          "requirement": "Gold",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "The Portrait's Secret",
+      "card": "f9b6deb9-e4c3-46f8-86ce-837accee2595",
+      "yugipediaId": 9006,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "Apr-May 2018",
+          "runIndex": 0,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Tactical Espionage Expert",
+      "card": "509c353a-b0c3-41ce-ae7d-421543f4eaf3",
+      "yugipediaId": 12013,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "Apr-May 2018",
+          "runIndex": 0,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Coffin Seller",
+      "card": "af2db2e2-a75f-434a-8f69-4c344629eca8",
+      "yugipediaId": 15852,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "Apr-May 2018",
+          "runIndex": 0,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Swordsman of Landstar",
+      "card": "4f555d5f-663f-4c0e-a596-d21e2e94cc8b",
+      "yugipediaId": 3513,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "Apr-May 2018",
+          "runIndex": 0,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    },
+    {
+      "name": "Virus Cannon",
+      "card": "dae56b88-b345-49d5-9568-4ab0fba38330",
+      "yugipediaId": 18414,
+      "obtainedVia": [
+        {
+          "kind": "lottery",
+          "run": "Apr-May 2018",
+          "runIndex": 0,
+          "requirement": "Normal",
+          "rarity": "N"
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "A Card Entrusted",
+      "skill": "5f4e4825-0211-4c6c-baae-94f753fee525",
+      "yugipediaId": 712324,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "run": "March 2019",
+          "runIndex": 1,
+          "requirement": "3"
+        }
+      ]
+    },
+    {
+      "name": "Card of Sanctity (Skill)",
+      "skill": "5abf5afa-7eff-4abb-bc9e-f9260ecb523f",
+      "yugipediaId": 714220,
+      "obtainedVia": [
+        {
+          "kind": "other",
+          "run": "Apr-May 2018",
+          "runIndex": 0,
+          "requirement": "?"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Duelist Chronicles: Battle City Showdown!",
+        "id": 558912
+      }
+    ]
+  }
+}

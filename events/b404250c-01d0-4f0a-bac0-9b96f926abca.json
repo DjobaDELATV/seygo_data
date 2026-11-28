@@ -1,0 +1,374 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DjobaDELATV/seygo_data/main/schema/v1/event.json",
+  "id": "b404250c-01d0-4f0a-bac0-9b96f926abca",
+  "name": {
+    "en": "Hassleberry is here!"
+  },
+  "type": "Roaming Duelist event",
+  "duelWorlds": [
+    "Duel World (GX)"
+  ],
+  "rushDuel": false,
+  "image": "https://img.yugipedia.com/6/6d/Hassleberryishere-Banner.png",
+  "runs": [
+    {
+      "startDate": "2018-12-19",
+      "endDate": "2018-12-27"
+    }
+  ],
+  "rewards": [
+    {
+      "kind": "duelRewards",
+      "path": [
+        "Event Details",
+        "Duel Rewards"
+      ],
+      "runIndex": 0,
+      "notes": [
+        "In addition to the following, standard Duel Rewards were also available by Dueling Tyranno Hassleberry Level 30 or less."
+      ],
+      "tables": [
+        {
+          "columns": [
+            "Rarity",
+            "Card"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UR"
+              },
+              {
+                "text": "\"Giant Rex\"",
+                "cards": [
+                  {
+                    "name": "Giant Rex",
+                    "card": "c0d791e8-7efd-47b2-8662-fbb6654a0b36",
+                    "yugipediaId": 494132
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SR"
+              },
+              {
+                "text": "\"Black Stego\", \"Miracle Jurassic Egg\", \"Volcanic Eruption\", \"Survival of the Fittest\"",
+                "cards": [
+                  {
+                    "name": "Black Stego",
+                    "card": "ab13071c-d2de-448c-905d-97e512f2ad29",
+                    "yugipediaId": 15621
+                  },
+                  {
+                    "name": "Miracle Jurassic Egg",
+                    "card": "c173544a-e78e-4b2f-867d-54bb04905829",
+                    "yugipediaId": 6661
+                  },
+                  {
+                    "name": "Volcanic Eruption",
+                    "card": "d36d5f61-8cc8-41ed-a6b5-d29036c9ce70",
+                    "yugipediaId": 15839
+                  },
+                  {
+                    "name": "Survival of the Fittest",
+                    "card": "85535f75-795e-4237-82dc-6c83e1a00dc7",
+                    "yugipediaId": 295568
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "R"
+              },
+              {
+                "text": "\"Frostosaurus\", \"Black Veloci\", \"Jurrac Protops\", \"Jurrac Spinos\"",
+                "cards": [
+                  {
+                    "name": "Frostosaurus",
+                    "card": "cee63218-6442-4bea-be4a-18b7182754d2",
+                    "yugipediaId": 18493
+                  },
+                  {
+                    "name": "Black Veloci",
+                    "card": "8dd92ba5-734a-48b3-8d88-2ca1ec25a9d2",
+                    "yugipediaId": 70095
+                  },
+                  {
+                    "name": "Jurrac Protops",
+                    "card": "06bd613c-d497-41b7-86e2-b24945d698f0",
+                    "yugipediaId": 50861
+                  },
+                  {
+                    "name": "Jurrac Spinos",
+                    "card": "ed8a6a65-fb95-45ac-86e4-bd22280eba24",
+                    "yugipediaId": 52017
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "N"
+              },
+              {
+                "text": "\"Little D\"",
+                "cards": [
+                  {
+                    "name": "Little D",
+                    "card": "b7b7c842-25fd-4ce8-a20d-2e689948078b",
+                    "yugipediaId": 7713
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "missions",
+      "path": [
+        "Event Details",
+        "Event Missions"
+      ],
+      "runIndex": 0,
+      "tables": [
+        {
+          "columns": [
+            "Mission",
+            "Reward"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Win 1 Duel(s) against Tyranno Hassleberry in Duel World."
+              },
+              {
+                "text": "1 \"Black Veloci\"",
+                "cards": [
+                  {
+                    "name": "Black Veloci",
+                    "card": "8dd92ba5-734a-48b3-8d88-2ca1ec25a9d2",
+                    "yugipediaId": 70095,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 3 Duel(s) against Tyranno Hassleberry in Duel World."
+              },
+              {
+                "text": "1 \"Black Stego\"",
+                "cards": [
+                  {
+                    "name": "Black Stego",
+                    "card": "ab13071c-d2de-448c-905d-97e512f2ad29",
+                    "yugipediaId": 15621,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Win 7 Duel(s) against Tyranno Hassleberry in Duel World."
+              },
+              {
+                "text": "1 \"Volcanic Eruption\"",
+                "cards": [
+                  {
+                    "name": "Volcanic Eruption",
+                    "card": "d36d5f61-8cc8-41ed-a6b5-d29036c9ce70",
+                    "yugipediaId": 15839,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Play 15 Duel(s) against Tyranno Hassleberry in Duel World. (surrenders are not counted.)"
+              },
+              {
+                "text": "1 \"Giant Rex\"",
+                "cards": [
+                  {
+                    "name": "Giant Rex",
+                    "card": "c0d791e8-7efd-47b2-8662-fbb6654a0b36",
+                    "yugipediaId": 494132,
+                    "quantity": 1
+                  }
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Giant Rex",
+      "card": "c0d791e8-7efd-47b2-8662-fbb6654a0b36",
+      "yugipediaId": 494132,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "UR",
+          "rarity": "UR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Play 15 Duel(s) against Tyranno Hassleberry in Duel World. (surrenders are not counted.)"
+        }
+      ]
+    },
+    {
+      "name": "Black Stego",
+      "card": "ab13071c-d2de-448c-905d-97e512f2ad29",
+      "yugipediaId": 15621,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 3 Duel(s) against Tyranno Hassleberry in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Miracle Jurassic Egg",
+      "card": "c173544a-e78e-4b2f-867d-54bb04905829",
+      "yugipediaId": 6661,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Volcanic Eruption",
+      "card": "d36d5f61-8cc8-41ed-a6b5-d29036c9ce70",
+      "yugipediaId": 15839,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 7 Duel(s) against Tyranno Hassleberry in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Survival of the Fittest",
+      "card": "85535f75-795e-4237-82dc-6c83e1a00dc7",
+      "yugipediaId": 295568,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "SR",
+          "rarity": "SR"
+        }
+      ]
+    },
+    {
+      "name": "Frostosaurus",
+      "card": "cee63218-6442-4bea-be4a-18b7182754d2",
+      "yugipediaId": 18493,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Black Veloci",
+      "card": "8dd92ba5-734a-48b3-8d88-2ca1ec25a9d2",
+      "yugipediaId": 70095,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        },
+        {
+          "kind": "missions",
+          "runIndex": 0,
+          "requirement": "Win 1 Duel(s) against Tyranno Hassleberry in Duel World."
+        }
+      ]
+    },
+    {
+      "name": "Jurrac Protops",
+      "card": "06bd613c-d497-41b7-86e2-b24945d698f0",
+      "yugipediaId": 50861,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Jurrac Spinos",
+      "card": "ed8a6a65-fb95-45ac-86e4-bd22280eba24",
+      "yugipediaId": 52017,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "R",
+          "rarity": "R"
+        }
+      ]
+    },
+    {
+      "name": "Little D",
+      "card": "b7b7c842-25fd-4ce8-a20d-2e689948078b",
+      "yugipediaId": 7713,
+      "obtainedVia": [
+        {
+          "kind": "duelRewards",
+          "runIndex": 0,
+          "requirement": "N",
+          "rarity": "N"
+        }
+      ]
+    }
+  ],
+  "externalIDs": {
+    "yugipedia": [
+      {
+        "name": "Hassleberry is here!",
+        "id": 596735
+      }
+    ]
+  }
+}
